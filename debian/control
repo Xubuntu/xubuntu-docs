@@ -1,0 +1,20 @@
+Source: xubuntu-docs
+Section: doc
+Priority: optional
+Maintainer: Ubuntu Documentation Team <ubuntu-doc@lists.ubuntu.com>
+Build-Depends: cdbs,
+               debhelper (>= 5),
+               docbook-xml,
+               docbook-xsl,
+               ubuntu-docs (>= 7.03),
+               xsltproc,
+               gnome-doc-utils
+Standards-Version: 3.8.4
+
+Package: xubuntu-docs
+Architecture: all
+Depends: ${misc:Depends}
+Description: xubuntu documentation
+ This package holds the official Xubuntu-specific documentation, maintained
+ by the Xubuntu Documentation Team. The documentation can be viewed using
+ your web browser.

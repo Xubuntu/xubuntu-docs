@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- VERSION NUMBERS -->
+<!ENTITY last-lts-version '12.04' >
+<!ENTITY last-lts-codename 'Precise Pangolin' >
+<!ENTITY current-version '12.10' >
+<!ENTITY current-codename 'Quantal Quetzal' >
+
+<!-- CORE -->
+<!ENTITY canonical-name 'Canonical Ltd.'>
+<!ENTITY xubuntu-legalnotice SYSTEM '../libs/legal/C/legal-notice.xml' >
+
+<!-- XUBUNTU WEBSITE -->
+<!ENTITY xubuntu-web 'http://xubuntu.org/' >
+<!ENTITY xubuntu-web-contribute 'http://xubuntu.org/contribute/' >
+<!ENTITY xubuntu-web-help 'http://xubuntu.org/help/' >
+
+<!-- OTHER WEBSITES -->
+<!ENTITY aptoncd-web 'http://aptoncd.sourceforge.net/' >
+<!ENTITY askubuntu-web 'http://askubuntu.com/' >
+<!ENTITY canonical-web 'http://www.canonical.com/' >
+<!ENTITY cc-web 'http://creativecommons.org/' >
+<!ENTITY communitywiki-dialup 'https://help.ubuntu.com/community/DialupModemHowto' >
+<!ENTITY communitywiki-installing 'https://help.ubuntu.com/community/InstallingSoftware' >
+<!ENTITY communitywiki-laptop-testing 'https://wiki.ubuntu.com/Testing/Laptop' >
+<!ENTITY communitywiki-mount 'https://help.ubuntu.com/community/Mount' >
+<!ENTITY communitywiki-sudo 'https://help.ubuntu.com/community/RootSudo' >
+<!ENTITY communitywiki-terminal 'https://help.ubuntu.com/community/UsingTheTerminal' >
+<!ENTITY communitywiki-touchpads 'https://help.ubuntu.com/community/SynapticsTouchpad' >
+<!ENTITY communitywiki-wifi 'https://help.ubuntu.com/community/WifiDocs' >
+<!ENTITY debian-apt-manual 'http://www.debian.org/doc/user-manuals#apt-howto' >
+<!ENTITY firefox-help 'http://support.mozilla.org/en-US/home' >
+<!ENTITY gigolo-web 'http://www.uvena.de/gigolo/' >
+<!ENTITY gmusicbrowser-help 'http://gmusicbrowser.org/guide.html' >
+<!ENTITY gnu-web 'http://www.gnu.org/' >
+<!ENTITY gthumb-web 'https://live.gnome.org/gthumb' >
+<!ENTITY kernel-web 'http://www.kernel.org/' >
+<!ENTITY keryx-web 'http://keryxproject.org/' >
+<!ENTITY laptop-qa 'http://laptop.qa.ubuntu.com/' >
+<!ENTITY launchpad-web 'http://launchpad.net/' >
+<!ENTITY openprinting-web 'http://www.linuxfoundation.org/collaborate/workgroups/openprinting' >
+<!ENTITY orage 'http://www.kolumbus.fi/~w408237/orage/' >
+<!ENTITY parole-web 'http://goodies.xfce.org/projects/applications/parole' >
+<!ENTITY pidgin-help 'http://developer.pidgin.im/wiki/Using Pidgin' >
+<!ENTITY pulseaudio-web 'http://www.freedesktop.org/wiki/Software/PulseAudio' >
+<!ENTITY ristretto-web 'http://goodies.xfce.org/projects/applications/ristretto' >
+<!ENTITY sane-drivers 'http://www.sane-project.org/sane-backends.html' >
+<!ENTITY simple-scan-web 'https://launchpad.net/simple-scan' >
+<!ENTITY thunderbird-help 'https://support.mozillamessaging.com/en-US/home' >
+<!ENTITY ubuntu-forums 'http://ubuntuforums.org/' >
+<!ENTITY ubuntu-philosophy 'http://www.ubuntu.com/project/about-ubuntu/our-philosophy' >
+<!ENTITY ubuntuwiki-printers 'https://wiki.ubuntu.com/HardwareSupportComponentsPrinters' >
+<!ENTITY ubuntuwiki-scanners 'https://wiki.ubuntu.com/HardwareSupportComponentsScanners' >
+<!ENTITY vbox-docs 'https://www.virtualbox.org/wiki/End-user_documentation' >
+<!ENTITY vbox-web 'https://www.virtualbox.org/' >
+<!ENTITY wine-appdb 'http://appdb.winehq.org/' >
+<!ENTITY wine-docs 'http://www.winehq.org/help/' >
+<!ENTITY wine-web 'http://winehq.org/' >
+<!ENTITY xfce4-dict-web 'http://goodies.xfce.org/projects/applications/xfce4-dict' >
+<!ENTITY xfce-look 'http://xfce-look.org/' >
+<!ENTITY xfce4-taskman-web 'http://goodies.xfce.org/projects/applications/xfce4-taskmanager' >
+<!ENTITY xfce-web 'http://www.xfce.org/' >
+
+<!-- INLINE ICONS -->
+<!ENTITY package '<inlinemediaobject role="icon-pkg"><imageobject><imagedata fileref="common/images/package_icon.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY key '<inlinemediaobject role="icon-key"><imageobject><imagedata fileref="common/images/key_icon.png" /></imageobject></inlinemediaobject>' >
+
+<!-- LOCATIONS -->
+<!ENTITY location '<inlinemediaobject><imageobject><imagedata fileref="common/images/location_icon.png"/></imageobject></inlinemediaobject>' >
+<!-- Items -->
+<!ENTITY location_home '<filename>&location; /home/username/</filename>' >
+<!ENTITY location_backdrops '<filename>&location; /usr/share/xfce4/backdrops/</filename>' >
+<!ENTITY location_themes_user '<filename>&location; /home/username/.themes/</filename>' >
+<!ENTITY location_themes_global '<filename>&location; /usr/share/themes/</filename>' >
+<!ENTITY location_icons_user '<filename>&location; /home/username/.icons/</filename>' >
+<!ENTITY location_icons_global '<filename>&location; /usr/share/icons/</filename>' >
+
+<!-- MENUS -->
+<!ENTITY appmenu '<guiicon><inlinemediaobject><imageobject><imagedata fileref="common/images/menu_icon.png"/></imageobject></inlinemediaobject></guiicon>' >
+<!-- Items -->
+<!ENTITY computer-janitor '<application><menuchoice>&appmenu;<guisubmenu>System</guisubmenu><guimenuitem>Computer Janitor</guimenuitem></menuchoice></application>' >
+<!ENTITY file-manager '<application><menuchoice>&appmenu;<guimenuitem>File Manager</guimenuitem></menuchoice></application>' >
+<!ENTITY gigolo '<application><menuchoice>&appmenu;<guisubmenu>System</guisubmenu><guimenuitem>Gigolo</guimenuitem></menuchoice></application>' >
+<!ENTITY gmusicbrowser '<application><menuchoice>&appmenu;<guisubmenu>Multimedia</guisubmenu><guimenuitem>gmusicbrowser</guimenuitem></menuchoice></application>' >
+<!ENTITY gparted '<application><menuchoice>&appmenu;<guisubmenu>System</guisubmenu><guimenuitem>GParted</guimenuitem></menuchoice></application>' >
+<!ENTITY gthumb '<application><menuchoice>&appmenu;<guisubmenu>Graphics</guisubmenu><guimenuitem>gThumb</guimenuitem></menuchoice></application>' >
+<!ENTITY log-out '<application><menuchoice>&appmenu;<guimenuitem>Log Out</guimenuitem></menuchoice></application>' >
+<!ENTITY ndisgtk '<application><menuchoice>&appmenu;<guisubmenu>System</guisubmenu><guimenuitem>Windows Wireless Drivers</guimenuitem></menuchoice></application>' >
+<!ENTITY settings-appearance '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Appearance</guimenuitem></menuchoice></application>' >
+<!ENTITY settings-keyboard '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Keyboard</guimenuitem></menuchoice></application>' >
+<!ENTITY settings-manager '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem></menuchoice></application>' >
+<!ENTITY settings-mouse-touchpad '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Mouse and Touchpad</guimenuitem></menuchoice></application>' >
+<!ENTITY settings-power-manager '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Power Manager</guimenuitem></menuchoice></application>' >
+<!ENTITY settings-print '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Print Settings</guimenuitem></menuchoice></application>' >
+<!ENTITY settings-screensaver '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Screensaver</guimenuitem></menuchoice></application>' >
+<!ENTITY settings-window-manager '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Window Manager</guimenuitem></menuchoice></application>' >
+<!ENTITY settings-window-manager-tweaks '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Window Manager Tweaks</guimenuitem></menuchoice></application>' >
+<!ENTITY simple-scan '<application><menuchoice>&appmenu;<guisubmenu>Graphics</guisubmenu><guimenuitem>Simple Scan</guimenuitem></menuchoice></application>' >
+<!ENTITY software-center '<application><menuchoice>&appmenu;<guimenuitem>Ubuntu Software Center</guimenuitem></menuchoice></application>' >
+<!ENTITY software-properties '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Software Sources</guimenuitem></menuchoice></application>' >
+<!ENTITY software-properties-usc '<application><menuchoice>&appmenu;<guimenuitem>Ubuntu Software Center</guimenuitem><guimenuitem>Edit</guimenuitem><guimenuitem>Software Sources</guimenuitem></menuchoice></application>' >
+<!ENTITY software-updater '<application><menuchoice>&appmenu;<guisubmenu>System</guisubmenu><guimenuitem>Software Updater</guimenuitem></menuchoice></application>' >
+<!ENTITY system-menu '<application><menuchoice>&appmenu;<guimenuitem>System (menu)</guimenuitem></menuchoice></application>' >
+<!ENTITY terminal '<application><menuchoice>&appmenu;<guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal Emulator</guimenuitem></menuchoice></application>' >
+<!ENTITY users-groups '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Users and Groups</guimenuitem></menuchoice></application>' >
+<!ENTITY xfburn '<application><menuchoice>&appmenu;<guisubmenu>Multimedia</guisubmenu><guimenuitem>Xfburn</guimenuitem></menuchoice></application>' >
+
+<!-- LANGUAGES (sorted by two letter code)-->
+<!ENTITY Afar 'aa' >
+<!ENTITY Abkhazian 'ab' >
+<!ENTITY Afrikaans 'af' >
+<!ENTITY Amharic 'af' >
+<!ENTITY Arabic 'ar' >
+<!ENTITY Assamese 'as' >
+<!ENTITY Aymara 'ay' >
+<!ENTITY Azerbaijani 'az' >
+<!ENTITY Bashkir 'ba' >
+<!ENTITY Byelorussian 'be' >
+<!ENTITY Bulgarian 'bg' >
+<!ENTITY Bihari 'bh' >
+<!ENTITY Bislama 'bi' >
+<!ENTITY Bangla 'bn' >
+<!ENTITY Bengali 'bn' >
+<!ENTITY Tibetan 'bo' >
+<!ENTITY Breton 'br' >
+<!ENTITY Catalan 'ca' >
+<!ENTITY Corsican 'co' >
+<!ENTITY Czech 'cs' >
+<!ENTITY Welsh 'cy' >
+<!ENTITY Danish 'da' >
+<!ENTITY German 'de' >
+<!ENTITY Bhutani 'dz' >
+<!ENTITY Greek 'el' >
+<!-- <!ENTITY EnglishAmerican 'en'> -->
+<!ENTITY EnglishAmerican 'C'>
+<!ENTITY Esperanto 'eo' >
+<!ENTITY Spanish 'es' >
+<!ENTITY Estonian 'et' >
+<!ENTITY Basque 'eu' >
+<!ENTITY Persian 'fa' >
+<!ENTITY Finnish 'fi' >
+<!ENTITY Fiji 'fj' >
+<!ENTITY Faeroese 'fo' >
+<!ENTITY French 'fr' >
+<!ENTITY Frisian 'fy' >
+<!ENTITY Irish 'ga' >
+<!ENTITY Gaelic 'gd' >
+<!ENTITY ScotsGaelic 'gd' >
+<!ENTITY Galician 'gl' >
+<!ENTITY Guarani 'gn' >
+<!ENTITY Gujarati 'gu' >
+<!ENTITY Hausa 'ha' >
+<!ENTITY Hindi 'hi' >
+<!ENTITY Croatian 'hr' >
+<!ENTITY Hungarian 'hu' >
+<!ENTITY Armenian 'hy' >
+<!ENTITY Interlingua 'ia' >
+<!ENTITY Interlingue 'ie' >
+<!ENTITY Inupiak 'ik' >
+<!ENTITY Indonesian 'in' >
+<!ENTITY Icelandic 'is' >
+<!ENTITY Italian 'it' >
+<!ENTITY Hebrew 'iw' >
+<!ENTITY Japanese 'ja' >
+<!ENTITY Yiddish 'ji' >
+<!ENTITY Javanese 'jw' >
+<!ENTITY Georgian 'ka' >
+<!ENTITY Kazakh 'kk' >
+<!ENTITY Greenlandic 'kl' >
+<!ENTITY Cambodian 'km' >
+<!ENTITY Kannada 'kn' >
+<!ENTITY Korean 'ko' >
+<!ENTITY Kashmiri 'ks' >
+<!ENTITY Kurdish 'ku' >
+<!ENTITY Kirghiz 'ky' >
+<!ENTITY Latin 'la' >
+<!ENTITY Lingala 'ln' >
+<!ENTITY Laothian 'lo' >
+<!ENTITY Lithuanian 'lt' >
+<!ENTITY Latvian 'lv' >
+<!ENTITY Lettish 'lv' >
+<!ENTITY Malagasy 'mg' >
+<!ENTITY Maori 'mi' >
+<!ENTITY Macedonian 'mk' >
+<!ENTITY Malayalam 'ml' >
+<!ENTITY Mongolian 'mn' >
+<!ENTITY Moldavian 'mo' >
+<!ENTITY Marathi 'mr' >
+<!ENTITY Malay 'ms' >
+<!ENTITY Maltese 'mt' >
+<!ENTITY Burmese 'my' >
+<!ENTITY Nauru 'na' >
+<!ENTITY Nepali 'ne' >
+<!ENTITY Dutch 'nl' >
+<!ENTITY Norwegian 'no' >
+<!ENTITY Occitan 'oc' >
+<!ENTITY Afan 'om' >
+<!ENTITY Oromo 'om' >
+<!ENTITY Oriya 'or' >
+<!ENTITY Punjabi 'pa' >
+<!ENTITY Polish 'pl' >
+<!ENTITY Pushto 'ps' >
+<!ENTITY Pashto 'ps' >
+<!ENTITY Portuguese 'pt' >
+<!ENTITY Quechua 'qu' >
+<!ENTITY Rhaeto-Romance 'rm' >
+<!ENTITY Kirundi 'rn' >
+<!ENTITY Romanian 'ro' >
+<!ENTITY Russian 'ru' >
+<!ENTITY Kinyarwanda 'rw' >
+<!ENTITY Sanskrit 'sa' >
+<!ENTITY Sindhi 'sd' >
+<!ENTITY Sangro 'sg' >
+<!ENTITY Serbo-Croatian 'sh' >
+<!ENTITY Singhalese 'si' >
+<!ENTITY Slovak 'sk' >
+<!ENTITY Slovenian 'sl' >
+<!ENTITY Samoan 'sm' >
+<!ENTITY Shona 'sn' >
+<!ENTITY Somali 'so' >
+<!ENTITY Albanian 'sq' >
+<!ENTITY Serbian 'sr' >
+<!ENTITY Siswati 'ss' >
+<!ENTITY Sesotho 'st' >
+<!ENTITY Sudanese 'su' >
+<!ENTITY Swedish 'sv' >
+<!ENTITY Swahili 'sw' >
+<!ENTITY Tamil 'ta' >
+<!ENTITY Tegulu 'te' >
+<!ENTITY Tajik 'tg' >
+<!ENTITY Thai 'th' >
+<!ENTITY Tigrinya 'ti' >
+<!ENTITY Turkmen 'tk' >
+<!ENTITY Tagalog 'tl' >
+<!ENTITY Setswana 'tn' >
+<!ENTITY Tonga 'to' >
+<!ENTITY Turkish 'tr' >
+<!ENTITY Tsonga 'ts' >
+<!ENTITY Tatar 'tt' >
+<!ENTITY Twi 'tw' >
+<!ENTITY Ukrainian 'uk' >
+<!ENTITY Urdu 'ur' >
+<!ENTITY Uzbek 'uz' >
+<!ENTITY Vietnamese 'vi' >
+<!ENTITY Volapuk 'vo' >
+<!ENTITY Wolof 'wo' >
+<!ENTITY Xhosa 'xh' >
+<!ENTITY Yoruba 'yo' >
+<!ENTITY Chinese 'zh' >
+<!ENTITY Zulu 'zu' >

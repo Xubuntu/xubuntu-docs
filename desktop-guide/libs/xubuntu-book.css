@@ -1,0 +1,350 @@
+/*
+ *  Created by Pasi Lallinaho <pasi@shimmerproject.org>
+ *  The license of this file is CC-BY-SA 2.0.
+ *	
+ */
+
+
+@import url('reset.css');
+
+html {
+	background-color: #eee;
+	color: #111;
+
+	font-family: "Droid Sans", sans-serif;
+	font-size: small;
+}
+
+/*
+ *  Layout elements
+ *
+ */
+
+#masthead
+{
+	max-width: 950px;
+	margin: 3em auto 0 auto;
+
+	color: #04a;
+	height: 90px;
+}
+	#masthead a {
+		border-bottom: none;
+	}
+
+body > div.book,
+body > div.chapter,
+body > div.sect1,
+body > div.section,
+body > div.appendix,
+body > div.legalnotice {
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 3em;
+
+	background-color: #fff;
+
+	line-height: 1.5em;
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+	body > div.legalnotice {
+		margin: 3em auto;
+	}
+
+.navfooter {
+	max-width: 950px;
+	margin: 1em auto 3em auto;
+
+	color: #555;
+}
+
+/*
+ *  Elements
+ *
+ */
+
+p, h1, h2, h3, h4, h5, h6, ul, ol, dl, blockquote {
+	margin-bottom: 1em;
+}
+
+/*
+ */
+
+a {
+	color: #2774e7;
+	border-bottom: 1px solid #aaa;
+	text-decoration: none;
+}
+	.navfooter a {
+		border: none;
+	}
+
+dd {
+	margin-left: 3em;
+}
+
+dt {
+	margin-bottom: 1em;
+}
+
+dd dl dt {
+	margin-bottom: 0;
+}
+
+dd dl {
+	margin-top: -0.8em;
+}
+
+h1 {
+	margin: 0 0 1em 0;
+	font-size: 200%;
+	font-weight: bold !important;
+}
+
+h2,
+div.abstract p.title,
+p.legalnotice-title {
+	margin: 1.5em 0 1em 0;
+
+	font-size: 180%;
+	font-weight: normal;
+	line-height: 1.2em;
+
+	color: #555;
+}
+	body > div.chapter > div:first-child h2,
+	body > div.sect1 > div:first-child h2,
+	body > div.section > div:first-child h2,
+	body > div.appendix > div:first-child h2,
+	body > div.legalnotice p.legalnotice-title {
+		margin-top: 0;
+	}
+
+	div.abstract p.title	strong {
+		font-weight: normal;
+	}
+
+h3 {
+	margin: 1em 0;
+
+	font-size: 150%;
+	color: #555;
+}
+
+h4 {
+	margin: 1em 0;
+
+	font-size: 130%;
+	font-weight: normal;
+	color: #888;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid #aaa;
+	margin: 2em 0 !important;
+}
+	.navfooter hr {
+		border: none !important;
+		margin: 0 !important;
+	}
+
+ol, ul {
+	margin-left: 1.5em;
+}
+	ol li { list-style-type: decimal; }
+	ul li { list-style-type: disc; }
+	li p { margin-bottom: 0.1em; }
+
+/*
+ *  Specific element styles
+ *
+ */
+
+p.copyright {
+	margin-bottom: 0.3em;
+}
+
+.toc {
+	margin: 1em;
+	padding: 1em 1em 0.5em 1.5em;
+	border-left: 2px solid #777; /* #2774e7 */
+}
+
+	.toc p strong {
+		font-weight: normal;
+		font-size: 130%;
+	}
+
+	.toc dt {
+		font-weight: bold;
+	}
+
+	.chapter .toc dt {
+		margin-bottom: 0;
+	}
+
+	.toc dd dl dt {
+		margin-top: 0.2em;
+		font-weight: normal;
+	}
+
+	.chapter .toc + p {
+		margin-top: 2em;
+	}
+
+div.caution,
+div.important,
+div.note,
+div.tip,
+div.warning {
+	margin: 2em 0 !important;
+	padding: 1em 1.5em;
+
+	background-color: #eee;
+	border: 1px solid #d1d1d1;
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+div.caution td > p,
+div.important td > p,
+div.note td > p,
+div.tip td > p,
+div.warning td > p {
+	margin-top: -32px;
+	margin-bottom: 0;
+}
+
+div.caution img,
+div.important img,
+div.note img,
+div.tip img,
+div.warning img {
+	margin-bottom: -32px;
+	margin-right: 16px;
+	padding-bottom: 16px;
+}
+
+div.caution .filename img,
+div.important .filename img,
+div.note .filename img,
+div.tip .filename img,
+div.warning .filename img {
+	margin-bottom: -0.25em;
+	margin-right: 0;
+	padding-bottom: 0;
+}
+
+div.caution .keycap img,
+div.important .keycap img,
+div.note .keycap img,
+div.tip .keycap img,
+div.warning .keycap img {
+	margin-bottom: -0.25em;
+	margin-right: 0.15em;
+	padding-bottom: 0;
+}
+
+.orderedlist {
+	margin-top: 1em;
+}
+	.orderedlist li p {
+		margin-bottom: 0;
+	}
+
+.filename, .literal {
+	font-family: "Liberation Mono", monospace;
+	font-size: 85%;
+}
+	.literal {
+		font-weight: bold;
+		display: inline-table;
+		vertical-align: middle;
+		margin-right: 0.25em;
+	}
+
+.screen, .programlisting, .userinput, { 
+	padding: 0.2em 0.6em;
+
+	font-family: "Liberation Mono", monospace;
+	font-size: 110%;
+
+	background-color: #ccc;
+	color: #131926;
+}
+	.userinput {
+		background-color: #ddd;
+		padding: 0.1em 0.3em;
+		font-weight: normal;
+	}
+
+	.segmentedlist .userinput {
+		background-color: inherit;
+	}
+
+p .application .guimenu {
+	margin: 0 0.25em;
+}
+
+.guimenu, .guimenuitem, .guisubmenu {
+	font-style: italic;
+	color: #465364;
+	color: #016;
+}
+
+.guiicon img,
+.filename img {
+	margin-bottom: -0.25em;
+}
+
+.inline-icon-pkg img {
+	margin: 0 0.35em -0.35em 0.25em;
+}
+
+.inline-icon-key img {
+	margin: 0 0.35em -0.20em 0.25em;
+}
+
+.question { 
+	font-weight: bold; 
+}
+
+.navfooter table td {
+	padding-bottom: 1em;
+}
+
+.segmentedlist table {
+	border: 1px solid #444;
+	width: 100%;
+}
+
+.segmentedlist thead {
+	background-color: #333;
+	color: #fff;
+}
+
+.segmentedlist th,
+.segmentedlist td {
+	padding: 0.2em 0.4em;
+	text-align: left;
+}
+
+.segmentedlist tr.seglistitem:nth-child(odd) {
+	background-color: #f1f1f1;
+}
+
+.segmentedlist tr.seglistitem:nth-child(even) {
+	background-color: #d1d1d1;
+}
+
+.keycap strong,
+.keycombo strong {
+	font-weight: normal;
+	font-style: oblique;
+}

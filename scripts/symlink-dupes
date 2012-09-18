@@ -1,0 +1,33 @@
+#!/usr/bin/python
+
+import os, subprocess
+
+def pathsplit(p, rest=[]):
+    (h,t) = os.path.split(p)
+    if len(h) < 1: return [t]+rest
+    if len(t) < 1: return [h]+rest
+    return pathsplit(h,[t]+rest)
+
+def commonpath(l1, l2, common=[]):
+    if len(l1) < 1: return (common, l1, l2)
+    if len(l2) < 1: return (common, l1, l2)
+    if l1[0] != l2[0]: return (common, l1, l2)
+    return commonpath(l1[1:], l2[1:], common+[l1[0]])
+
+def relpath(p1, p2):
+    (common,l1,l2) = commonpath(pathsplit(p1), pathsplit(p2))
+    p = []
+    if len(l1) > 0:
+        p = [ '../' * len(l1) ]
+    p = p + l2
+    return os.path.join( *p )
+
+fdupes = subprocess.Popen(['fdupes', '-r', '--sameline', '.'], stdout=subprocess.PIPE)
+for l in fdupes.stdout:
+    files = l.split()
+    master = files.pop(0)
+    for dup in files:
+        target = relpath(os.path.dirname(dup), master)
+        os.unlink(dup)
+        os.symlink(target, dup)
+        print dup, '->', target

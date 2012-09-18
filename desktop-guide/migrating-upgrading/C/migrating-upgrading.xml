@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-ent SYSTEM "../../libs/xubuntu.ent">
+%xubuntu-ent;
+<!ENTITY % xinclude SYSTEM "../../libs/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+<chapter id="migrating-upgrading">
+	<title>Migrating and Upgrading</title>
+
+	<section id="migrating">
+		<title>Migrating from Windows</title>
+
+		<section id="windows-linux-dictionary">
+			<title>A quick Windows&ndash;Xubuntu dictionary</title>
+			<segmentedlist>
+				<?dbhtml list-presentation="table"?>
+				<segtitle>Windows</segtitle><segtitle>Xubuntu</segtitle>
+				<seglistitem><seg>Add/Remove Programs</seg><seg>&software-center;</seg></seglistitem>
+				<seglistitem><seg>Control Panel</seg><seg>&settings-manager; for personal preferences <?br?> &system-menu; for system-wide configuration</seg></seglistitem>
+				<seglistitem><seg>Windows Explorer</seg><seg>&file-manager;</seg></seglistitem>
+				<seglistitem><seg>My Documents</seg><seg>&location_home;</seg></seglistitem>
+			</segmentedlist>
+		</section>
+
+		<section id="windows-applications">
+			<title>Windows applications on Linux</title>
+			<para>It is possible to run Windows applications under Xubuntu. A few possible choices are:</para>
+			<itemizedlist>
+				<listitem><para><ulink url="&wine-web;">Wine</ulink>, the Windows emulator. Wine allows running some Windows applications without having to install Windows. Refer to the <ulink url="&wine-appdb;">Wine AppDB</ulink> to find out which applications will run on Wine and the <ulink url="&wine-docs;">Wine documentation</ulink> for FAQ's and user support.</para></listitem>
+				<listitem><para><ulink url="&vbox-web;">VirtualBox</ulink>, a virtualization software. You can install Windows along with any applications into a virtual machine managed by VirtualBox. Note that 3D support on VirtualBox is still quite unreliable. To read more about VirtualBox and virtualization, refer to the <ulink url="&vbox-docs;">VirtualBox end-user documentation</ulink>.</para></listitem>
+			</itemizedlist>
+
+			<tip><para>Both Wine and VirtualBox are available in the software repositories.</para></tip>
+		</section>
+
+		<section id="windows-networking">
+			<title>Windows networking on Linux</title>
+
+			<para>Accessing Windows network shares under Xubuntu can be easily done using:</para>
+			<itemizedlist>	
+				<listitem><para>&file-manager;, with which you can browse publically visible shares by clicking on the <guilabel>Network</guilabel> item in the sidebar. Alternatively, you can browse a remote file system by going to <menuchoice><guimenu>Go</guimenu><guimenuitem>Open Location...</guimenuitem></menuchoice> and entering <userinput>smb://computername/sharename</userinput>.</para></listitem>
+				<listitem><para>&gigolo;, which allows you to save bookmarks and manage remote file systems. To connect, click the first toolbar button. Select <guilabel>Windows Share</guilabel> from <guilabel>Service Type</guilabel>, then enter the remote share's details.</para></listitem>
+			</itemizedlist>
+
+			<para>If some options are not available or do not work, ensure that the <literal>&package;gvfs-backends</literal> is installed.</para>
+		</section>
+	</section>
+
+	<section id="upgrading">
+		<title>Upgrading from an older version of Xubuntu</title>
+
+		<section id="how-to-upgrade">
+			<title>How can I upgrade to the latest version of Xubuntu?</title>
+
+			<para>A new version of Xubuntu is released every 6 months; the <application>Software Updater</application> should inform you when a new version is available for download. To check for a new version:</para>
+
+			<itemizedlist>
+				<listitem><para>Navigate to <application>Software Sources</application>, by clicking &software-properties;</para></listitem>
+				<listitem><para>Select the <guilabel>Updates</guilabel> tab</para></listitem>
+				<listitem><para>Select <guilabel>For any new version</guilabel> from the list labeled <guilabel>Notify me of a new Ubuntu version</guilabel>, enter your password, and press <guibutton>Close</guibutton></para></listitem>
+				<listitem><para>Go to &software-updater; and wait for the list of available updates to be downloaded</para></listitem>
+				<listitem><para>If a new version of Xubuntu is available, a box at the top of the window will appear saying that a new distribution release is available.</para></listitem>
+				<listitem><para>To upgrade to the latest release, save all of your open documents and press the <guibutton>Upgrade</guibutton> button in <application>Software Updater</application></para></listitem>
+			</itemizedlist>
+
+			<para>Upgrades usually take a while to complete. Typically, around 700MB of packages must be downloaded and installed, although the actual figure will depend on how many packages are already installed on your computer.</para>
+
+			<para>You can only upgrade to the latest Xubuntu release if you are running the second most recent release. If you have an older release, you must upgrade to the next release after that, and so on until you are running the most recent version. For example, users of version 9.04 would first have to upgrade to version 9.10 before upgrading to version 10.04. An exception to this rule is with Long Term Support (LTS) releases. You can upgrade directly from the previous LTS release to the current release.</para>
+		</section>
+
+		<section id="upgrading-to-devel">
+			<title>Upgrading to a development release</title>
+
+			<warning><para>Development releases often suffer from package breakages and other problems. Only install a development release if you are prepared to attempt to fix these problems for yourself.</para></warning>
+
+			<para>If you would like to install and test the latest development version of Xubuntu before it is released, press <keycap>&key;Alt+F2</keycap>, type <userinput>gksudo "update-manager -c -d"</userinput> into the box and press <guibutton>Run</guibutton>. This will allow you to upgrade to the current development release.</para>
+		</section>
+	</section>
+</chapter>

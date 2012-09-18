@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-ent SYSTEM "../../libs/xubuntu.ent">
+%xubuntu-ent;
+<!ENTITY % xinclude SYSTEM "../../libs/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+<chapter id="hardware-devices">
+	<title>Hardware devices</title>
+
+	<para>Your computer consists of a number of connected devices that are collectively known as computer hardware.</para>
+
+	<para>Xubuntu normally configures your hardware automatically, but there may be occasions when you need to make changes to hardware settings yourself. This section provides information on tools which can be used to configure your hardware.</para>
+
+	<section id="restricted-drivers">
+		<title>Restricted drivers</title>
+
+		<section id="restricted-why">
+			<title>Why are some drivers restricted?</title>
+
+			<para>Restricted drivers are drivers for your hardware that are not freely available or open source.</para>
+
+			<para>Most of the devices (hardware) attached to your computer should function properly in Xubuntu. These devices are likely to have unrestricted drivers, which means that the drivers can be modified by the Xubuntu developers and problems with them can be fixed.</para>
+
+			<para>Some hardware does not have unrestricted drivers, usually because the hardware manufacturer has not released details of their hardware that would make it possible to create such a driver. These devices may have limited functionality or may not work at all.</para>
+		</section>
+
+		<section id="restricted-enabling">
+			<title>Enabling restricted drivers</title>
+
+			<para>If a restricted driver is available for a certain device, you can install it in order to allow your device to function properly, or to add new features. For example, installing a restricted driver for certain graphics cards may allow you to use more advanced visual effects.</para>
+
+			<para>Some computers may not have any devices that can use restricted drivers, either because all of the devices are fully supported by unrestricted drivers or because no restricted drivers are yet available for the device.</para>
+
+			<para>If any drivers are available for your hardware they will be installable from the <application>Software Sources</application> dialog:</para>
+
+			<itemizedlist>
+				<listitem><para>Go to &software-properties-usc; or &software-properties;</para></listitem>
+				<listitem><para>Drivers available for your hardware will be shown under the <guilabel>Additional Drivers</guilabel> tab, select as appropriate and <guibutton>Apply Changes</guibutton>.</para></listitem>
+				<listitem><para>You will, if necessary, be prompted to enter the administration password.</para></listitem>
+				<listitem><para>You may be prompted to reboot to finish installation.</para></listitem>
+			</itemizedlist>
+		</section>
+
+		<section id="restricted-disable">
+			<title>Disabling restricted drivers</title>
+
+			<para>If a restricted driver is causing problems, or you would just like to turn it off, follow the procedure below:</para>
+
+			<itemizedlist>
+				<listitem><para>Go to &software-properties-usc; or &software-properties;</para></listitem>
+				<listitem><para>Click on the <guilabel>Additional Drivers</guilabel> tab.</para></listitem>
+				<listitem><para>Find the driver that you would like to disable and press the <guibutton>Deactivate</guibutton> button.</para></listitem>
+				<listitem><para>You will be prompted to enter your password. </para></listitem>
+			</itemizedlist>
+
+			<note><para>You may need to restart your computer to finish disabling the driver.</para></note>
+		</section>
+	</section>
+
+	<section id="disks-partitions">
+		<title>Disks and partitions</title>
+
+		<section id="disks-partitions-check-free-space">
+			<title>Checking how much disk space is available</title>
+
+			<para>A simple way to check available disk space is to launch the <application>Thunar File Manager</application>. There are several ways to do this:</para>
+
+			<itemizedlist>
+				<listitem><para>Go to &file-manager;</para></listitem>
+				<listitem><para>Double-click on the <guilabel>File System</guilabel> or <guilabel>Home</guilabel> icon on your Desktop</para></listitem>
+				<listitem><para>Click the home folder on the Launcher Panel</para></listitem>
+			</itemizedlist>
+
+			<para>The status bar at the bottom of the window shows the free space for the current drive or disk. If you have more than one drive mounted or connected, you can click on them in the side pane and you will then see displayed the free space for that disk.</para>
+		</section>
+
+		<section id="disks-partitions-free-up-space">
+			<title>How can I free up disk space?</title>
+			
+			<para>There are several simple ways of making more disk space available:</para>
+
+			<itemizedlist>
+				<listitem><para>Empty your trash by right-clicking the <guilabel>Trash</guilabel> icon on the Desktop or the Launcher Panel and selecting <menuchoice><guimenuitem>Empty Trash</guimenuitem></menuchoice>.</para></listitem>
+				<listitem><para>Install <application>Computer Janitor</application> from the <application>Ubuntu Software Center</application> and launch it from &computer-janitor;. This application will remove unused or obsolete software packages from your computer. Read the list of packages carefully before you click <guibutton>Do selected tasks</guibutton>; packages that you have manually downloaded and installed may be listed as unused, even though they are not.</para></listitem>
+				<listitem><para>Remove software packages that you no longer use. See the <application>Ubuntu Software Center</application> for information on removing packages.</para></listitem>
+				<listitem><para>Delete files that you no longer need. You can install the <application>GNOME Desktop Utilities</application> from the <application>Ubuntu Software Center</application> and run the <application>Disk Usage Analyzer</application> to find which files are taking up the most space.</para></listitem>
+			</itemizedlist>
+
+			<warning><para>Be careful not to delete files that you still need!</para></warning>
+		</section>
+
+		<section id="partitioning">
+			<title>Partitioning a Device</title>
+
+			<para>You can use <application>GParted (GNOME Partition Editor)</application> to partition storage devices. Install <application>GParted</application> from the <application>Ubuntu Software Center</application> and then go to &gparted; to start the partition editor.</para>
+
+			<warning><para>Be careful when altering disk partitions, as it is possible to lose your data if you delete or change the wrong partition.</para></warning>
+
+			<note><para>If it is necessary to unmount the installed system to proceed with changes you wish to make you will have to work from a live CD/UDB to do so</para></note>
+
+			<section id="partitioning-freeing-space">
+				<title>Freeing space for a new partition</title>
+
+				<para>To create a new partition inside an already partitioned device, you must first resize an existing partition. If you already have free space, skip to the <xref linkend="partitioning-create" /> section. Otherwise, follow the instructions below:</para>
+
+				<itemizedlist>
+					<listitem><para>Select the device to partition from the drop-down list at the top-right of the main window</para></listitem>
+					<listitem><para>A list of partions will appear in the main window. Select the partition you want to resize and from the menu, choose <menuchoice><guimenu>Partition</guimenu><guimenuitem>Unmount</guimenuitem></menuchoice></para></listitem>
+					<listitem><para>To resize the partition choose <menuchoice><guimenu>Partition</guimenu><guimenuitem>Resize/Move</guimenuitem></menuchoice>. The <guilabel>Resize/Move</guilabel> dialog will be shown. You can use the <guilabel>Free Space Following (MiB)</guilabel> box to choose how much space to free after this partition, or <guilabel>Free Space Preceding (MiB)</guilabel> to free space before this partition. Alternatively you can use the slider to adjust the partition size.</para></listitem>
+					<listitem><para>To apply the changes, click <guibutton>Resize/Move</guibutton></para></listitem>
+				</itemizedlist>
+			</section>
+
+			<section id="partitioning-create">
+				<title>Creating a new partition</title>
+
+				<para>To create a new partition:</para>
+
+				<itemizedlist>
+					<listitem><para>Select the device to partition from the drop-down list at the top-right of the main window</para></listitem>
+					<listitem><para>A list of partitions will appear. Select the one called <guilabel>unallocated</guilabel>, right-click on it and click <menuchoice><guimenuitem>New</guimenuitem></menuchoice></para></listitem>
+					<listitem><para>From the <guilabel>File system:</guilabel> pick list, choose the desired type of filesystem to use and click <guibutton>Add</guibutton></para></listitem>
+					<listitem><para>To apply the changes, click <guibutton>Apply</guibutton></para></listitem>
+				</itemizedlist>
+			</section>
+
+			<section id="partitioning-format">
+				<title>Formatting a partition</title>
+
+				<para>To format a partition, do the following:</para>
+
+				<itemizedlist>
+					<listitem><para>Select the device to partition from the drop-down list at the top-right of the main window</para></listitem>
+					<listitem><para>A list of partitions will appear. Select the desired partition and choose <menuchoice><guimenu>Partition</guimenu><guimenuitem>Unmount</guimenuitem></menuchoice>.</para></listitem>
+					<listitem><para>Select the partition you want to format and choose <menuchoice><guimenu>Partition</guimenu><guimenuitem>Format</guimenuitem></menuchoice> to and select from the list the type of filesystem to format the partition to</para></listitem>
+					<listitem><para>To apply all the changes, click <guibutton>Apply</guibutton></para></listitem>
+				</itemizedlist>
+			</section>
+		</section>
+
+		<section id="disks-partitions-mounting">
+			<title>Mounting and unmounting devices</title>
+
+			<para>When you connect a removable storage device to your computer, it must be mounted by the operating system so that you are able to access the files on the device.</para>
+
+			<para>To find out how to mount and unmount storage devices manually and/or automatically, see the Ubuntu community wiki page for the <ulink url="&communitywiki-mount;">mount command</ulink>.</para>
+
+			<para>When you copy files to a removable storage device, they are not always written to the device immediately. Instead, they are often stored in a queue so that they can all be transferred across to the device at the same time (for reasons of efficiency). If you disconnect the device before all of the files have been transferred, you could lose the files. To prevent this, you must always unmount a removable device before disconnecting it.</para>
+		</section>
+	</section>
+
+	<section id="laptops">
+		<title>Laptops</title>
+
+		<section id="laptops-power-management">
+			<title>Power management settings</title>
+
+			<para>You may wish to change the power management settings of your laptop in order to help extend its battery life and save energy.</para>
+
+			<itemizedlist>
+				<listitem><para>Go to &settings-power-manager;</para></listitem>
+				<listitem><para>Change settings as appropriate</para></listitem>
+				<listitem><para>Changes are applied instantly</para></listitem>
+			</itemizedlist>
+
+			<para>Displaying a screensaver may use more power than simply letting the screen go blank. Xubuntu uses a blank screen as screensaver by default, but if you've set a graphical screensaver, turning it off could slightly improve the battery life of your laptop.</para>
+
+			<itemizedlist>
+				<listitem><para>Go to &settings-screensaver;</para></listitem>
+				<listitem><para>Change the <guilabel>Screensaver theme</guilabel> to <guilabel>Blank screen only</guilabel>. This will simply display a blank screen as a screensaver.</para></listitem>
+				<listitem><para>Changes are applied instantly</para></listitem>
+			</itemizedlist>
+
+			<tip><para>When your laptop is running on battery, one of the biggest drains on power is the display. Turning the brightness of the display down could improve battery life significantly; many laptops allow you to do this by pressing <keycap>&key;Fn+F7</keycap> (or other marked key) several times.</para></tip>
+		</section>
+
+		<section id="laptops-touchpads">
+			<title>Touchpads</title>
+
+			<para>Most laptop computers come with a touchpad, which is used to control the mouse pointer. There are many ways of changing the way that the touchpad behaves; the most basic touchpad settings can be configured in the following way:</para>
+
+			<itemizedlist>
+				<listitem><para>Go to &settings-mouse-touchpad;</para></listitem>
+				<listitem><para>From the <guilabel>Device:</guilabel> field pick list, select the touchpad.</para></listitem>
+				<listitem><para>Here you can change the touchpad settings to your liking. Changes should take effect immediately.</para></listitem>
+			</itemizedlist>
+
+			<note><para>Some touchpads may be detected as normal mouse devices, even though they are actually touchpads. In this case, the <guilabel>Touchpad</guilabel> device will not be available in the mouse preferences. See the <ulink url="&communitywiki-touchpads;">Touchpads</ulink> page in the Ubuntu community wiki for more information on touchpads.</para></note>
+		</section>
+
+		<section id="laptops-reports">
+			<title>Finding laptop testing reports</title>
+
+			<para>Many laptops are regularly tested by the Ubuntu community to ensure that various features work correctly. The results of these tests are available for you to read and may offer insight into any problems you might be experiencing with your laptop. See the <ulink url="&communitywiki-laptop-testing;">Laptop Testing</ulink> page in the Ubuntu community wiki for a full listing of available laptop tests and instructions on how you can contribute by submitting details pertaining to your laptop's performance. You can report your testing results on <ulink url="&laptop-qa;">&laptop-qa;</ulink>. You can also find help on #ubuntu-testing or #xubuntu-devel in the Freenode IRC network too.</para>
+		</section>
+	</section>
+
+	<section id="suspending-hibernating">
+		<title>Suspending and Hibernating</title>
+
+		<para>In order to save power, you can put your computer into one of a number of power-saving modes when you are not using it:</para>
+
+		<itemizedlist>
+			<listitem><para>Suspending a computer is like putting the computer to sleep. The computer will still be turned on and all of your work will be left open, but it will use much less power. You can wake the computer by pressing a key or clicking the mouse.</para></listitem>
+			<listitem><para>Hibernating is turning the computer off completely while saving the current state of the computer (such as keeping all of your open documents). When you turn the computer back on after hibernating, all of your work should be restored as it was before hibernation. No power is used when the computer is hibernating.</para></listitem>
+			<listitem><para>Shutting down is turning the computer off completely without saving the current state of the computer. No power is used when the computer is shut down.</para></listitem>
+			<listitem><para>Resuming is bringing the computer out of a power saving mode and back into normal operation. You can resume the computer from being suspended by pressing a keyboard button or by clicking the mouse. You can resume from being hibernated by pressing the power button on your computer. </para></listitem>
+		</itemizedlist>
+
+		<note><para>Note that hibernate is disabled by default in Xubuntu.</para></note>
+
+		<para>You can manually put your computer into a power-saving mode by pressing &log-out; and then pressing the appropriate button.</para>
+
+		<note><para>Some computers may have problems going into certain power-saving modes. The best way of checking if your computer can handle a power-saving mode is to try to switch to that mode and see if it behaves as you expected. Always make sure you save important documents before suspending or hibernating.</para></note>
+
+		<section id="suspending-troubleshooting">
+			<title>My computer doesn't suspend or hibernate correctly</title>
+
+			<para>Some computers are unable to suspend or hibernate correctly with Xubuntu. If this is the case for your computer, you may notice some of the following symptoms:</para>
+
+			<itemizedlist>
+				<listitem><para>The computer does not turn off after you click to hibernate it.</para></listitem>
+				<listitem><para>When you turn the computer on after hibernating it, your previously open programs are not restored.</para></listitem>
+				<listitem><para>The computer will not wake up after you have suspended it.</para></listitem>
+				<listitem><para>Certain programs or hardware devices stop working correctly after resuming from hibernation or waking-up from being suspended.</para></listitem>
+			</itemizedlist>
+
+			<para>If you suffer from any of these problems, you should report a bug to <ulink url="&launchpad-web;">Launchpad</ulink>. The problems will hopefully be fixed in a subsequent version of Xubuntu. If your hardware does not work properly after suspending or hibernating your computer, restart your computer and it should return to normal. If a program does not work properly, try closing the program and then starting it again.</para>
+
+			<warning><para>Make sure that you save all of your open documents before testing for suspend and hibernate problems.</para></warning>
+		</section>
+
+		<section id="suspending-patterns">
+			<title>I get strange patterns on the screen when I hibernate my computer</title>
+
+			<para>Your screen may show a black and white pattern just after you click to hibernate your computer. This is usually nothing to worry about and is just how the graphics cards of some computers respond to the initial stages of the hibernation process. If the computer displays the pattern for a prolonged period of time without turning itself off then you may have a problem with hibernation. See <xref linkend="suspending-troubleshooting" /> for more information.</para>
+		</section>
+	</section>
+
+	<section id="mice-keyboards">
+		<title>Mice and keyboards</title>
+
+		<para>When you install Xubuntu, you are given the option of selecting your keyboard type and language. During the installation, your pointing devices should be automatically detected and configured. If you want or need to change the settings of any of these devices after installation, you can do so by going to &settings-mouse-touchpad; or &settings-keyboard;.</para>
+
+		<para>Options for mice and touchpads include:</para>
+
+		<itemizedlist>
+			<listitem><para><guilabel>Button orientation</guilabel></para></listitem>
+			<listitem><para><guilabel>Pointer speed and sensitivity</guilabel></para></listitem>
+			<listitem><para><guilabel>Double-click sensitivity</guilabel></para></listitem>
+			<listitem><para><guilabel>Cursor theme</guilabel></para></listitem>
+		</itemizedlist>
+
+		<para>Some of the options for configuring your keyboard include:</para>
+
+		<itemizedlist>
+			<listitem><para><guilabel>State of the Num Lock key on startup</guilabel></para></listitem>
+			<listitem><para><guilabel>Key repeat speed and delay</guilabel></para></listitem>
+			<listitem><para><guilabel>Cursor blinking speed</guilabel></para></listitem>
+			<listitem><para><guilabel>Application keyboard shortcuts</guilabel></para></listitem>
+			<listitem><para><guilabel>Keyboard layout and language </guilabel></para></listitem>
+		</itemizedlist>
+
+		<tip><para>If you are using a mouse on a laptop that also has a touchpad, you can change the behaviour of each of them individually by selecting the appropriate device from the <guilabel>Device:</guilabel> pick list on the <guilabel>Devices</guilabel> tab page.</para></tip>
+	</section>
+</chapter>

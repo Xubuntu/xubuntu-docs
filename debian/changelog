@@ -1,0 +1,353 @@
+xubuntu-docs (11.10.0) oneiric; urgency=low
+
+  * desktop-guide/libs/global.ent, startpage/xubuntu-index.html: updated
+    for oneiric.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 26 Sep 2011 20:55:11 +0200
+
+xubuntu-docs (11.04.1) oneiric; urgency=low
+
+  * debian/control: Build-Depend on gnome-doc-utils for xml2po. Fixes
+    FTBFS. (LP: #835753)
+  * debian/preinst: Upgrades need to remove the firefox-homepage
+    alternative. In this way, we no longer need postinst or prerm.
+
+ -- Daniel T Chen <crimsun@ubuntu.com>  Mon, 29 Aug 2011 14:09:09 -0400
+
+xubuntu-docs (11.04.0) natty; urgency=low
+
+  [ Book 'em Dano ]
+  * desktop-guide/about-xubuntu/C/about-xubuntu.xml: 
+    - inputted correct format of command, LP: #653881
+    - modified entity/path to access Software Sources through Ubuntu Software 
+      Center, LP: #649530
+    - added tags
+  * desktop-guide/add-applications/C/add-applications.xml: 
+    - added reference to Ubuntu Software Center & other revisions, LP: #647187
+    - changed tags to provide consistency
+    - added tags & expounded on instruction to install deb file with GDebi
+    - corrected tags
+    - added appropriate tags, capitalized titles of sections, inputted entity 
+      for Xubuntu
+    - modified entity/path to access Software Sources through Ubuntu Software 
+      Center, LP: #649530
+    - added colon per Style Guide, capitalized section title
+  * desktop-guide/administrative/C/administrative.xml: 
+    - revised instruction on how to add administrative access to user
+    - added appropriate tags, revised instructions on how to grant/restrict 
+      administrative access
+    - changed user interaction verbs, changed tags & capitalized section titles
+  * desktop-guide/config-desktop/C/config-desktop.xml: 
+    - added tags, corrected sentence structure
+    - added appropriate tags, restructured appearance of file, revised 
+      instructions on how to enable desktop effects & change desktop themes, 
+      commented section about Menu Editor as it was removed from Xfce 4.6
+    - added colon per Style Guide, capitalized section title
+  * desktop-guide/games/C/games.xml: added reference to Ubuntu Software Center & 
+    other revisions, LP: #647187
+  * desktop-guide/hardware/C/hardware.xml: 
+    - added reference to Ubuntu Software Center & other revisions, LP: #647187
+    - revised instructions on how to use Additional Drivers & corrected 
+      grammatical errors
+    - updated instructions & updated url for laptop testing
+    - corrected grammatical errors, changed structure of file, added 
+      instructions to install xfce4-fsguard-plugin, LP: #672217
+    - capitalized section titles, commented out pm-general-method section as it 
+      is obsolete, LP: #461158
+  * dkestop-guide/index.xml: 
+    - commented out reference of files-and-docs.xml to remove "Files, Folders 
+      and Documents" chapter as it contains nothing other than links to other 
+      sections, LP: #700347
+    - commented out this reference as Advanced Topics chapter does not have any 
+      unique substantive material, LP: #700351
+  * desktop-guide/internet/C/connecttoserver.xml: 
+    - changed directions to reflect usage of Gigolo, LP: #644867
+    - changed user interaction verbs, changed tags & capitalized section titles
+  * desktop-guide/internet/C/disconnecting.xml: changed user interaction verbs, 
+    changed tags & capitalized section titles
+  * desktop-guide/internet/C/nm.xml: changed user interaction verbs, changed 
+    tags & capitalized section titles
+  * desktop-guide/internet/C/networking.xml: revised instructions on how to 
+    allow access to folders over networks, capitalized sections titles, 
+    restructured appearance of file
+  * desktop-guide/internet/C/troubleshooting.xml: 
+    - changed Ubuntu references to Xubuntu & other revisions
+    - added appropriate tags, capitalized titles of sections, revised 
+      instructions on pinging, provided method to disable IPv6, LP: #650806
+    - changed tags & appended to instructions to disable IPv6
+  * desktop-guide/internet/C/web-apps.xml: 
+    - corrected instructions to install plugins, changed reference of Add/Remove 
+      Applications to Ubuntu Software Center, LP: #645510
+    - changed tags to provide consistency
+    - changed url to 10.10 .iso & tag info
+    - capitalized title sections, added appropriate tags
+    - inputted appropriate tags, restructured appearance of file, capitalized 
+      section title
+  * desktop-guide/internet/C/wireless.xml: changed user interaction verbs, 
+    changed tags & capitalized section titles
+  * desktop-guide/keeping-safe/C/keeping-safe.xml: 
+    - revised instructions to create new user, change password & login 
+      automatically
+    - updated urls
+    - modified entity/path to access Software Sources through Ubuntu Software 
+      Center, LP: #649530
+    - changed user interaction verbs, changed tags & capitalized section titles
+    - capitalized section titles, provided instructions on how to install and 
+      utilize luckyBackup, LP: #696328
+  * desktop-guide/libs/global.ent: 
+    - added & updated urls
+    - updated to Natty values & updated urls
+    - revised distro cd name
+    - added entities for distro-apt-cd-name
+    - added entity & update Skype related links
+  * desktop-guide/libs/xubuntu.ent: 
+    - corrected use of Exaile; added reference to Parole Media Player & Xfburn, 
+      LP: #642249
+    - added reference of Gigolo, LP: #644867
+    - added path to Ubuntu Software Center, LP: #645510
+    - added path to AbiWord
+    - added entities, LP: #643221
+    - added & revised entities, LP: #656700
+    - changed menu path for login-screen-setup
+    - changed reference of Ubuntu Update Manager to Update Manager
+    - added path to Additional Drivers
+    - changed System Janitor to Computer Janitor
+    - revised pathways for some entities
+    - change Xfce version to 4.8
+    - corrected entities
+    - added luckyBackup entity
+  * desktop-guide/musicvideophotos/C/cd.xml: 
+    - changed reference of Brasero to Xfburn, LP: #643246
+    - capitalized section titles, added appropriate tags, revised instructions 
+      on how to burn CD's with Xfburn
+  * desktop-guide/musicvideophotos/C/music.xml: 
+    - changed references of Ubuntu default apps to Xubuntu default apps; added 
+      Magnatune url, LP: #643022
+    - instruction on how to use Exaile, import music & change format of ripped 
+      files; partial fix of LP: #643221
+    - instruction on how to use Xubuntu default programs, LP: #643221
+    - changed user interaction verbs, changed tags & capitalized section titles
+    - added appropriate tags, added correct internal link & revised instructions 
+      to rip music
+  * desktop-guide/musicvideophotos/C/musicvideophotos.xml: changed user 
+    interaction verbs, changed tags & capitalized section titles
+  * desktop-guide/musicvideophotos/C/photos.xml: changed tags to provide 
+    consistency
+  * desktop-guide/musicvideophotos/C/troubleshooting-multimedia.xml: 
+    - fixed grammatical errors and changed reference of Listen to Exaile, 
+      LP: #643334
+    - commented out section re: inability to view DVD menus because Parole Media 
+      Player can view DVD menus
+    - capitalized section title, corrected internal link
+  * desktop-guide/musicvideophotos/C/video.xml: 
+    - changed reference of Totem to Parole, expounded on the recording/editing 
+      video section, changed Ubuntu references to Xubuntu, LP: #644100
+    - changed reference from libdvdread3 to correct library to be installed, 
+      libdvdread4, LP: #644162
+    - changed Ubuntu reference to Xubuntu
+    - commented out section re: inability to view DVD menus because Parole Media 
+      Player can view DVD menus
+    - revised instructions on how to install RealPlayer, LP: #643239, added 
+      trademark tags & other revisions 
+    - changed user interaction verbs, changed tags & capitalized section titles
+  * desktop-guide/newtoubuntu/C/xfce-desktop.xml: 
+    - removed instructions to install xfce4-minicnd-plguin & xfce4-xmms-plugin 
+      as these two packages are not located in Ubuntu repositories, LP: #641793, 
+      LP: #641805
+    - added appropriate tags, corrected grammatical errors, revised instructions 
+      to change background image & on how to restore deleted items, corrected 
+      url for LinuxLogFiles, Xfce Goodies
+    - revised instructions to change background image, added appropriate tags
+  * desktop-guide/office/C/office.xml: 
+    - changed tags, added reference to AbiWord
+    - revisions to sentence structure
+    - changed user interaction verbs, changed tags & capitalized section titles
+  * desktop-guide/printing/C/printing.xml: 
+    - revised instruction on setting up printer and scanning LP: #656700
+    - capitalized section titles, added appropriate tags
+  * desktop-guide/windows/C/glossary.xml: 
+    - changed entity from ubuntu-update-manager to update-manager
+    - added trademark tags, other revisions
+    - switched reference of Add/Remove Applications with Ubuntu Software Center,
+      LP: #647187
+  * desktop-guide/windows/C/preparing.xml: revisions & added trademark tags
+  * desktop-guide/windows/C/windows.xml:
+    - revisions & added trademark tags
+    - changed user interaction verbs, changed tags & capitalized section titles
+  * startpage/xubuntu-index.html: updated to natty
+
+  [ Jim Campbell ]
+  * desktop-guide/libs/global.ent: Update to reflect versioning for 11.04
+
+  [ Phil Whitaker ]
+  * desktop-guide/about-xubuntu/C/about-xubuntu.xml: revised instructions on how 
+    to upgrade to latest distribution release, added tags, changed user 
+    interaction verbs
+  * desktop-guide/libs/xubuntu.ent: added pictures entity, changed path of 
+    home-folder
+  * desktop-guide/windows/C/migratingdata.xml: added folders listed in home 
+    directory, revised instructions on migrating music to Xubuntu, changed user 
+    interaction verbs
+
+  [ Lionel Le Folgoc ]
+  * Remove some invalid characters from debian/changelog.
+  * Fix version number, and upload to natty.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 07 Apr 2011 20:28:41 +0200
+
+xubuntu-docs (9.10.2) maverick; urgency=low
+
+  [ Josh Holland ]
+  * s/Enerprise/Enterprise/ in desktop-guide/internet/C/nm.xml (LP: #363365)
+
+  [ Benjamin Drung ]
+  * desktop-guide/internet/C/connecting.xml: Fix typo concfigured -> configured;
+    thanks to Pierre Slamich (LP: #386683).
+  * desktop-guide/about-xubuntu/C/about-xubuntu.xml: Fix version numbers; thanks
+    to Epirotes (LP: #357369).
+  * desktop-guide/add-applications/C/add-applications.xml: Fix menu item
+    location; thanks to Robert Wall for the patch (LP: #422500).
+  * debian/control:
+    - Bump standards version to 3.8.4.
+    - Wrap and sort Build-Depends.
+  * Switch to dpkg-source 3.0 (native) format.
+
+ -- Benjamin Drung <bdrung@ubuntu.com>  Sun, 16 May 2010 00:57:02 +0200
+
+xubuntu-docs (9.10.1) karmic; urgency=low
+
+  * startpage/xubuntu-index.html:
+    - Replace references to 9.04 with 9.10.
+  * debian/control:
+    - Bump standards version to 3.8.3.
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Thu, 22 Oct 2009 00:34:41 -0300
+
+xubuntu-docs (9.04.1) jaunty; urgency=low
+
+  [Nathan Handler]
+  * debian/control: Bump Standards-Version to 3.8.0
+
+  [Cody A.W. Somerville]
+  * debian/copyright: Updated dates on copyright.
+  * debian/rules: Rewrote to be much simpler.
+  * debian/install: Updated to be much simpler.
+  * debian/dirs: Removed as its no longer needed.
+  * debian/control: 
+    - Added missing ${misc:Depends} dependency.
+    - Set section to doc instead of text.
+  * Split startpage and desktop-guide into their own subdirectories.
+  * Rewrote Makefiles to be much cleaner and actually work.
+  * Removed a ton of cruft that we don't use or want.
+  * Regenerated translation templates.
+  * Updated version information in offline startpage.
+  
+  [Jim Campbell & Xubuntu Documentation Team]
+  * Updated documentation for Jaunty 9.04
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Tue, 31 Mar 2009 03:13:29 -0300
+
+xubuntu-docs (8.04.2) hardy; urgency=low
+
+  * Regenerated .po files
+  * Updated Xubuntu/Makefile to use new location of .po files
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Fri, 21 Mar 2008 16:36:16 -0300
+
+xubuntu-docs (8.04.1) hardy; urgency=low
+
+  * New Xubuntu docs for Hardy, thanks to Jim Campbell and other
+    contributing members of the Xubuntu documentation team.
+  * debian/control:
+    - Removed uploader field
+    - Bumped standards version
+    - Updated package description
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Sun, 16 Mar 2008 11:46:36 -0300
+
+xubuntu-docs (7.10.1) gutsy; urgency=low
+
+  * New Xubuntu docs for Gutsy, thanks to Luzius Thöny
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 02 Oct 2007 09:13:32 +0200
+
+xubuntu-docs (7.03.1) feisty; urgency=low
+
+  * First upload to Feisty 
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 27 Mar 2007 17:22:31 +0300
+
+xubuntu-docs (6.05.5) dapper; urgency=low
+
+  * Link to the desktop guide from the browser start page
+  * Install the preliminary translated desktop guides
+
+ -- Jani Monoses <jani@ubuntu.com>  Wed, 24 May 2006 17:36:32 +0300
+
+xubuntu-docs (6.05.4) dapper; urgency=low
+
+  * Update from docteam svn, initial desktop guide translations 
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 23 May 2006 21:43:10 +0300
+
+xubuntu-docs (6.05.3) dapper; urgency=low
+
+  * mkdir /usr/share/ubuntu-artwork/home in postinst to fix installation
+    of alternative link and consequently of the package
+
+ -- Jani Monoses <jani@ubuntu.com>  Wed, 17 May 2006 22:50:59 +0300
+
+xubuntu-docs (6.05.2) dapper; urgency=low
+
+  * Rebuild for new locales for DapperFirefoxStartPageTranslation
+
+ -- Ian Jackson <iwj@ubuntu.com>  Tue, 16 May 2006 17:27:20 +0100
+
+xubuntu-docs (6.05.1) dapper; urgency=low
+
+  * Update from docteam svn:
+     - new about page (Luzi Thöny)
+     - much more complete desktop guide (Luzi Thöny)
+     - add POT file (Matthew East)
+
+ -- Jani Monoses <jani@ubuntu.com>  Sun, 14 May 2006 17:24:07 +0300
+
+xubuntu-docs (6.04.2) dapper; urgency=low
+
+  * Support DapperFirefoxStartPageTranslation:
+    - add slave link
+    - install link farm
+    - build-depend on ubuntu-docs now
+    Translations could be added in the source package as
+    about/homepage/index-LOCALE.html; see the wiki for details of
+    values of LOCALE for which this won't just be ignored.
+
+ -- Ian Jackson <iwj@ubuntu.com>  Fri, 21 Apr 2006 18:44:26 +0100
+
+xubuntu-docs (6.04.1) dapper; urgency=low
+
+  * Add initial Xubuntu desktop guide started by Luzi Thöny based
+    on the Ubuntu desktop guide. Current docteam svn snapshot.
+  * Build depend on the DocBook XML tools needed for this. 
+
+ -- Jani Monoses <jani@ubuntu.com>  Mon,  3 Apr 2006 14:36:30 +0300
+
+xubuntu-docs (6.01.3) dapper; urgency=low
+
+  * Fix install when /usr/share/ubuntu-artwork/home is not
+    there, which is the case for a minimal config.
+
+ -- Jani Monoses <jani@ubuntu.com>  Thu, 23 Feb 2006 08:36:16 +0200
+
+xubuntu-docs (6.01.2) dapper; urgency=low
+
+  * Hardcode CSS and image paths in the page since using update-alternatives
+    relocates the file and relative hrefs no longer work.
+
+ -- Jani Monoses <jani@ubuntu.com>  Sat,  7 Jan 2006 09:26:33 +0200
+
+xubuntu-docs (6.01.1) dapper; urgency=low
+
+  * Initial release containing 'About Xubuntu' page
+
+ -- Jani Monoses <jani@ubuntu.com>  Thu,  5 Jan 2006 20:55:51 +0200
