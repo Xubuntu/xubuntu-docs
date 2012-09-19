@@ -3,13 +3,12 @@ Section: doc
 Priority: optional
 Maintainer: Ubuntu Documentation Team <ubuntu-doc@lists.ubuntu.com>
 Build-Depends: cdbs,
-               debhelper (>= 5),
+               debhelper (>= 8),
                docbook-xml,
                docbook-xsl,
-               ubuntu-docs (>= 7.03),
                xsltproc,
                gnome-doc-utils
-Standards-Version: 3.8.4
+Standards-Version: 3.9.3
 
 Package: xubuntu-docs
 Architecture: all

@@ -1,7 +1,13 @@
-xubuntu-docs (12.10.1) quantal; urgency=low
+xubuntu-docs (12.10.1) UNRELEASED; urgency=low
 
+  [ Matthew East ]
   * Complete rewrite of desktop-guide by Pasi Lallinaho
   * Change to folder structure of desktop-guide to allow translations
+
+  [ Jeremy Bicha ]
+  * debian/control:
+    - Bump Standards-Version to 3.9.3 and debhelper to 8
+    - Don't build-depend on ubuntu-docs
 
  -- Matthew East <mdke@ubuntu.com>  Wed, 19 Sep 2012 20:38:04 +0100
 
