@@ -17,7 +17,7 @@
 	<xsl:param name="toc.section.depth" select="1"/>
 	<xsl:param name="chunker.output.indent" select="'yes'"/>
 	<xsl:param name="body.font.master" select="10"/>
-	<xsl:param name="html.stylesheet" select="'common/xubuntu-book.css'"/>
+	<xsl:param name="html.stylesheet" select="'../common/xubuntu-book.css'"/>
 	<xsl:param name="shade.verbatim" select="0"/>
 	<xsl:param name="draft.mode" select="'no'"/>
 
@@ -26,20 +26,20 @@
 
 	<!--Navigation Graphics-->
 	<xsl:param name="navig.graphics" select="1"/>
-	<xsl:param name="navig.graphics.path" select="'common/images/navig/'"/>
+	<xsl:param name="navig.graphics.path" select="'../common/images/navig/'"/>
 	<xsl:param name="navig.graphics.extension" select="'.png'"/> 
 	<xsl:param name="navig.showtitles" select="1"/>
 	
 	<!--Admon Graphics--> 
 	<xsl:param name="admon.graphics" select="1"/>
 	<xsl:param name="admon.textlabel" select="0"/>
-	<xsl:param name="admon.graphics.path" select="'common/images/admon/'"/>
+	<xsl:param name="admon.graphics.path" select="'../common/images/admon/'"/>
 	<xsl:param name="admon.graphics.extension" select="'.png'"/>
 	
 	<!-- Callout Graphics -->
 	<xsl:param name="callout.unicode" select="1"/>
 	<xsl:param name="callout.graphics" select="0"/>
-	<xsl:param name="callout.graphics.path" select="'common/images/callouts/'"/>
+	<xsl:param name="callout.graphics.path" select="'../common/images/callouts/'"/>
 	<xsl:param name="callout.graphics.extension" select="'.png'"/>
 	
 	<!-- Show all subpages directly below the mainpage -->
