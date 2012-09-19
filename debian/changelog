@@ -8,6 +8,7 @@ xubuntu-docs (12.10.1) UNRELEASED; urgency=low
   * debian/control:
     - Bump Standards-Version to 3.9.3 and debhelper to 8
     - Don't build-depend on ubuntu-docs
+  * debian/preinst: Dropped, not needed after 12.04 LTS
 
  -- Matthew East <mdke@ubuntu.com>  Wed, 19 Sep 2012 20:38:04 +0100
 
