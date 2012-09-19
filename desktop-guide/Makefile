@@ -2,18 +2,11 @@
 # Ubuntu Documentation Project <ubuntu-doc@lists.ubuntu.com>
 # Public domain
 
-# Language code for documents
-# Ex. LN=ja for japanese
-LN=C
-
 # Xubuntu Docbook Customization Layer
 XUBUNTUXSL=libs/xubuntu-html-chunk-cust.xsl
 
 html: style
-	if [ $(LN) != "C" ]; then \
-		../scripts/translate.sh -d desktop-guide -l $(LN); \
-	fi; \
-	xsltproc --xinclude -o ../build/$(LN)/index.html $(XUBUNTUXSL) $(LN)/index.xml
+	xsltproc --xinclude -o ../build/index.html $(XUBUNTUXSL) C/index.xml
 
 style:
 	mkdir -p ../build/common/images/
