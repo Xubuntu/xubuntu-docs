@@ -6,7 +6,7 @@
 XUBUNTUXSL=libs/xubuntu-html-chunk-cust.xsl
 
 html: style
-	xsltproc --xinclude -o ../build/index.html $(XUBUNTUXSL) C/index.xml
+	xsltproc --xinclude -o ../build/desktop-guide/index.html $(XUBUNTUXSL) C/index.xml
 
 style:
 	mkdir -p ../build/common/images/
