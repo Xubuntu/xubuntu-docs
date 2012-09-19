@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-ent SYSTEM "../libs/xubuntu.ent">
+%xubuntu-ent;
+<!ENTITY % xinclude SYSTEM "../libs/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+<chapter id="printing-scanning">
+	<title>Printing and Scanning</title>
+
+	<section id="printing">
+		<title>Printing</title>
+
+		<para>Most printers are automatically supported by Xubuntu. The <application>Printer Configuration</application> application allows you to add printers, as well as modify their settings. You can also use this application to share the printer with other computers on a network, disable the printer or restart it.</para>
+
+		<section id="printing-local">
+			<title>Local printing</title>
+
+			<para>A local printer is one which is directly connected to your computer (as opposed to a network printer, discussed in <xref linkend="printing-network" />). To set up a new local printer, plug your printer into your computer and power it on. Most printers will be automatically detected and configured. Once detected, a printer icon will appear in the notification area and after waiting a few moments, you should get a popup with the text <guilabel>Printer is ready for printing</guilabel>. If your printer was not detected after a few moments, then you will need to follow these steps:</para>
+
+			<itemizedlist>
+				<listitem><para>Obtain the model name of your printer</para></listitem>
+				<listitem><para>Ensure the printer is turned on</para></listitem>
+				<listitem><para>Go to &settings-print;</para></listitem>
+				<listitem><para>Click <menuchoice><guimenu>Server</guimenu><guisubmenu>New</guisubmenu><guimenuitem>Printer</guimenuitem></menuchoice></para></listitem>
+				<listitem><para>Your printer should be automatically detected and displayed in the <guilabel>Devices</guilabel> window</para></listitem>
+				<listitem><para>Select your printer and click <guibutton>Forward</guibutton></para></listitem>
+				<listitem><para>Your computer will search for and install drivers for your printer</para></listitem>
+				<listitem><para>You can enter a description and location for your printer</para></listitem>
+				<listitem><para>Press <guibutton>Apply</guibutton></para></listitem>
+				<listitem><para>Your printer should be properly configured at this point and you will be prompted if you want to print a test page</para></listitem>
+				<listitem><para>If you press the <guibutton>Print Test Page</guibutton> button, a test page will print and you can verify if it printed correctly, or you can press <guibutton>Cancel</guibutton>. Either way, your printer is ready to print.</para></listitem>
+				<listitem><para>If you are still experiencing problems, try using the CUPS browser-based interface. It can be accessed at <ulink url="http://localhost:631/">http://localhost:631/</ulink>.</para></listitem>
+			</itemizedlist>
+
+			<tip><para>If your printer was not automatically detected, you can try to select the port and printer driver manually. Some printers need further setup. Search the <ulink url="&openprinting-web;">OpenPrinting database</ulink> or check the <ulink url="&ubuntuwiki-printers;">Ubuntu Wiki Printer page</ulink> for information on your printer.</para></tip>
+		</section>
+
+		<section id="printing-network">
+			<title>Network printing</title>
+
+			<para>You can also configure your Xubuntu system to send print jobs to a remote print server. Remote printers are hosted somewhere on a network. To configure a remote printer:</para>
+			<itemizedlist>
+				<listitem><para>Obtain the model name of your printer</para></listitem>
+				<listitem><para>Ensure the printer is turned on</para></listitem>
+				<listitem><para>Go to &settings-print;</para></listitem>
+				<listitem><para>Click <menuchoice><guimenu>Server</guimenu><guisubmenu>New</guisubmenu><guimenuitem>Printer</guimenuitem></menuchoice></para></listitem>
+				<listitem><para>Click on <guilabel>Network Printer</guilabel> in the <guilabel>Devices</guilabel> window</para></listitem>
+				<listitem><para>If your printer is directly connected to a Windows machine on your network, choose <guilabel>Windows Printer via SAMBA</guilabel>. Otherwise, select the protocol your printer uses to communicate.</para></listitem>
+				<listitem><para>Insert the details of the network printer and press <guibutton>Forward</guibutton></para></listitem>
+				<listitem><para>Select the printer manufacturer and then press <guibutton>Forward</guibutton></para></listitem>
+				<listitem><para>Select the printer model and driver then press <guibutton>Forward</guibutton></para></listitem>
+				<listitem><para>You can enter a description and location for your printer in the corresponding fields</para></listitem>
+				<listitem><para>Press <guibutton>Apply</guibutton></para></listitem>
+				<listitem><para>Your printer is properly configured at this point and you will be prompted to print a test page, press <guibutton>Cancel</guibutton> or <guibutton>Print Test Page</guibutton> depending on your preference</para></listitem>
+			</itemizedlist>
+
+			<note><para>If you do not know the protocol or details of your network printer, you should consult your network administrator.</para></note>
+
+			<tip><para>If you do not have a network printer, but want your printer to be shared to other computers on your network, click <menuchoice><guimenu>Server</guimenu><guimenuitem>Settings</guimenuitem></menuchoice> from the <guilabel>Print Settings</guilabel> dialog, check the box <guilabel>Publish shared printers connected to this system</guilabel>, and then press <guibutton>OK</guibutton>. Other Linux/Ubuntu based systems need to have <guilabel>Show printers shared by other systems</guilabel> checked in the server settings dialog in order to access the printer.</para></tip>
+		</section>
+	</section>
+
+	<section id="scanning">
+		<title>Scanning</title>
+
+		<para>Many scanners are automatically supported by Xubuntu, and should be easy to install and operate. This section will walk you through how to use your scanner and what to do if Xubuntu does not detect your scanner.</para>
+
+		<section id="scanning-compatible">
+			<title>Does my scanner work in Xubuntu?</title>
+
+			<para>There are three ways to see if you scanner works in Xubuntu:</para>
+
+			<itemizedlist>
+				<listitem><para>Simply plug it in and try it! If it is a newer USB scanner, it is likely that it will just work.</para></listitem>
+				<listitem><para>Check the <ulink url="&ubuntuwiki-scanners;">list of supported scanners</ulink> for Xubuntu</para></listitem>
+				<listitem><para>Check the <ulink url="&sane-drivers;">SANE project listing of support scanners</ulink>. <application>SANE</application> is the software used by Xubuntu for most of its scanner support.</para></listitem>
+			</itemizedlist>
+		</section>
+
+		<section id="scanning-using">
+			<title>Using your scanner</title>
+
+			<para>To scan a document:</para>
+
+			<itemizedlist>
+				<listitem><para>Place what you want to scan on the scanner</para></listitem>
+				<listitem><para>Go to &simple-scan;</para></listitem>
+				<listitem><para>Click <menuchoice><guimenu>Document</guimenu><guimenuitem>Scan</guimenuitem></menuchoice></para></listitem>
+				<listitem><para>Choose what of type of media you would like to scan: <guilabel>Single Page</guilabel>, <guilabel>All Pages From Feeder</guilabel>, <guilabel>Text</guilabel> or <guilabel>Photo</guilabel>. Alternately, pressing the Scan button on the scanner should also work.</para></listitem>
+			</itemizedlist>
+		</section>
+
+		<section id="scanning-not-detected">
+			<title>The computer says "No scanners detected"</title>
+
+			<para>There are two reasons why you might get this message:</para>
+
+			<itemizedlist>
+				<listitem><para>Your scanner is not supported in Xubuntu. For example, most parallel port scanners and Lexmark All-in-One printer/scanner/faxes are not supported.</para></listitem>
+				<listitem><para>The driver for your scanner is not being loaded automatically</para></listitem>
+			</itemizedlist>
+
+			<para>You may be able to get your scanner working by installing a driver or altering some configuration files. Please ask for advice on the <ulink url="&ubuntu-forums;">Ubuntu forums</ulink> or on <ulink url="&askubuntu-web;">AskUbuntu</ulink>.</para>
+
+			<note><para>To get some scanners working, you may need to plug in the scanner after the computer has booted.</para></note>
+		</section>
+
+		<section id="scanning-manual-install">
+			<title>Manually installing a scanner</title>
+
+			<para>There are some scanners that have less-than-complete drivers from the SANE project. They can sometimes be used, but not all the features may work.</para>
+
+			<itemizedlist>
+				<listitem><para>Install the <literal>&package;libsane-extras</literal> package</para></listitem>
+				<listitem><para>Press <keycap>&key;Alt+F2</keycap>, type <userinput>gksudo leafpad /etc/sane.d/dll.conf</userinput> into the box and click <guibutton>Launch</guibutton> to open the SANE driver file for editing</para></listitem>
+				<listitem><para>Enable the correct driver for your scanner by removing the <literal>#</literal> from in front of the name of the driver. You may need to search the web to find out which driver is the right one.</para></listitem>
+				<listitem><para>Save the file and open <application>Simple Scan</application>. If all goes well, your scanner will now work. </para></listitem>
+			</itemizedlist>
+		</section>
+	</section>
+</chapter>
