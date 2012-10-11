@@ -17,7 +17,7 @@
 		<section id="media-music-listen">
 			<title>Listening to music</title>
 
-			<para>You can use <application>gmusicbrowser</application> and <application>Parole Media Player</application> to listen to music on your computer. Parole Media Player may open audio files when they are double-clicked, but gmusicbrowser is better at handling large music collections. Initially, gmusicbrowser will not automatically search for music files on your computer and you will have to manually direct gmusicbrowser to your music files by doing the following:</para>
+			<para>You can use <application>gmusicbrowser</application> and <application>Parole Media Player</application> to listen to music on your computer. <application>Parole Media Player</application> may open audio files when they are double-clicked, but <application>gmusicbrowser</application> is better at handling large music collections. Initially, <application>gmusicbrowser</application> will not automatically search for music files on your computer and you will have to manually direct <application>gmusicbrowser</application> to your music files by doing the following:</para>
 
 			<itemizedlist>
 				<listitem><para>Open &gmusicbrowser;</para></listitem>
@@ -25,7 +25,7 @@
 				<listitem><para>In the <guilabel>Settings</guilabel> dialog, go to the <guilabel>Library</guilabel> tab</para></listitem>
 				<listitem><para>Click <guibutton>Add Folder</guibutton> and choose the directory that contains your music files and press <guibutton>OK</guibutton>; your selection will now appear in the <guilabel>Settings</guilabel> dialog</para></listitem>
 				<listitem><para>If you wish to add other locations of music files repeat the previous step, or otherwise, press <guibutton>Close</guibutton></para></listitem>
-				<listitem><para><application>gmusicbrowser</application> will begin to scan your library. After the <guilabel>Scanning</guilabel> progressbar disappears, you may have to change views (to the left of the search) or restart gmusicbrowser to see your library.</para></listitem>
+				<listitem><para><application>gmusicbrowser</application> will begin to scan your library. After the <guilabel>Scanning</guilabel> progressbar disappears, you may have to change views (to the left of the search) or restart <application>gmusicbrowser</application> to see your library.</para></listitem>
 			</itemizedlist>
 		</section>
 
@@ -42,7 +42,7 @@
 		<section id="media-portable">
 			<title>Portable music players</title>
 
-			<para>Xubuntu will work with most portable audio players, including iPods&reg;. Normally, all you have to do is plug the player into your computer and then use <application>File Manager</application> to manually copy songs to and from the player.</para>
+			<para>Xubuntu will work with most portable audio players, including iPods. Normally, all you have to do is plug the player into your computer and then use <application>File Manager</application> to manually copy songs to and from the player.</para>
 
 			<note><para>Newer iPods (6th generation and newer) will not work automatically with Xubuntu unless you have done an initial synchronization with <application>iTunes</application> first.</para></note>
 
@@ -82,7 +82,7 @@
 			<section id="media-video-restricted">
 				<title>Restricted formats</title>
 
-				<para>Some video formats, such as Adobe&reg; Flash&reg;, QuickTime&reg; and Windows Media&reg; Video, are proprietary and so support for them cannot be included in Xubuntu by default. You must install some extra software to allow playback.</para>
+				<para>Some video formats, such as Adobe Flash, QuickTime and Windows Media Video, are proprietary and so support for them cannot be included in Xubuntu by default. You must install some extra software to allow playback.</para>
 
 				<para>In order to play the most common proprietary formats in <application>Parole</application> or <application>Firefox</application>, install the <literal>&package;xubuntu-restricted-extras</literal> package (see <xref linkend="software-repositories-restricted" /> for more information).</para>
 			</section>

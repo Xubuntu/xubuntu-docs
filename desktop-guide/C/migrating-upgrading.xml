@@ -30,8 +30,8 @@
 			<title>Windows applications on Linux</title>
 			<para>It is possible to run Windows applications under Xubuntu. A few possible choices are:</para>
 			<itemizedlist>
-				<listitem><para><ulink url="&wine-web;">Wine</ulink>, the Windows emulator. Wine allows running some Windows applications without having to install Windows. Refer to the <ulink url="&wine-appdb;">Wine AppDB</ulink> to find out which applications will run on Wine and the <ulink url="&wine-docs;">Wine documentation</ulink> for FAQ's and user support.</para></listitem>
-				<listitem><para><ulink url="&vbox-web;">VirtualBox</ulink>, a virtualization software. You can install Windows along with any applications into a virtual machine managed by VirtualBox. Note that 3D support on VirtualBox is still quite unreliable. To read more about VirtualBox and virtualization, refer to the <ulink url="&vbox-docs;">VirtualBox end-user documentation</ulink>.</para></listitem>
+				<listitem><para><ulink url="&wine-web;">Wine</ulink>, the Windows emulator. Wine allows running some Windows applications without having to install a Windows operating system. Refer to the <ulink url="&wine-appdb;">Wine AppDB</ulink> to find out which applications will run on Wine and the <ulink url="&wine-docs;">Wine documentation</ulink> for FAQ's and user support.</para></listitem>
+				<listitem><para><ulink url="&vbox-web;">VirtualBox</ulink>, a virtualization software. You can install a Windows operating system along with any application into a virtual machine managed by VirtualBox. Note that 3D support on VirtualBox is still quite unreliable. To read more about VirtualBox and virtualization, refer to the <ulink url="&vbox-docs;">VirtualBox end-user documentation</ulink>.</para></listitem>
 			</itemizedlist>
 
 			<tip><para>Both Wine and VirtualBox are available in the software repositories.</para></tip>
