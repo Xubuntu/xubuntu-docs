@@ -10,6 +10,13 @@ xubuntu-docs (12.10.1) quantal; urgency=low
     - Don't build-depend on ubuntu-docs
   * debian/preinst: Dropped, not needed after 12.04 LTS
 
+  [ Book 'em Dano ]
+  * desktop-guide/C/guide-default-apps.xml, desktop-guide/C/media-apps.xml: 
+    added application tags and removed trademark symbols for consistency
+  * desktop-guide/C/migrating-upgrading.xml: revised grammer
+  * desktop-guide/libs/legal/C/legal-notice.xml: added general attribution for 
+    third party intellectual property
+
  -- Matthew East <mdke@ubuntu.com>  Wed, 19 Sep 2012 20:38:04 +0100
 
 xubuntu-docs (11.10.0) oneiric; urgency=low
@@ -68,7 +75,7 @@ xubuntu-docs (11.04.0) natty; urgency=low
       instructions to install xfce4-fsguard-plugin, LP: #672217
     - capitalized section titles, commented out pm-general-method section as it 
       is obsolete, LP: #461158
-  * dkestop-guide/index.xml: 
+  * desktop-guide/index.xml: 
     - commented out reference of files-and-docs.xml to remove "Files, Folders 
       and Documents" chapter as it contains nothing other than links to other 
       sections, LP: #700347
