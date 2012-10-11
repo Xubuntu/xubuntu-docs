@@ -1,3 +1,14 @@
+xubuntu-docs (12.10.2) quantal; urgency=low
+
+  [ Book 'em Dano ]
+  * desktop-guide/C/guide-default-apps.xml, desktop-guide/C/media-apps.xml: 
+    added application tags and removed trademark symbols for consistency
+  * desktop-guide/C/migrating-upgrading.xml: revised grammer
+  * desktop-guide/libs/legal/C/legal-notice.xml: added general attribution for 
+    third party intellectual property
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Thu, 11 Oct 2012 09:09:04 -0400
+
 xubuntu-docs (12.10.1) quantal; urgency=low
 
   [ Matthew East ]
@@ -9,13 +20,6 @@ xubuntu-docs (12.10.1) quantal; urgency=low
     - Bump Standards-Version to 3.9.3 and debhelper to 8
     - Don't build-depend on ubuntu-docs
   * debian/preinst: Dropped, not needed after 12.04 LTS
-
-  [ Book 'em Dano ]
-  * desktop-guide/C/guide-default-apps.xml, desktop-guide/C/media-apps.xml: 
-    added application tags and removed trademark symbols for consistency
-  * desktop-guide/C/migrating-upgrading.xml: revised grammer
-  * desktop-guide/libs/legal/C/legal-notice.xml: added general attribution for 
-    third party intellectual property
 
  -- Matthew East <mdke@ubuntu.com>  Wed, 19 Sep 2012 20:38:04 +0100
 
