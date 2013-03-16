@@ -42,7 +42,7 @@
 
 			<para>Accessing Windows network shares under Xubuntu can be easily done using:</para>
 			<itemizedlist>	
-				<listitem><para>&file-manager;, with which you can browse publically visible shares by clicking on the <guilabel>Network</guilabel> item in the sidebar. Alternatively, you can browse a remote file system by going to <menuchoice><guimenu>Go</guimenu><guimenuitem>Open Location...</guimenuitem></menuchoice> and entering <userinput>smb://computername/sharename</userinput>.</para></listitem>
+				<listitem><para>&file-manager;, with which you can browse publicly visible shares by clicking on the <guilabel>Network</guilabel> item in the sidebar. Alternatively, you can browse a remote file system by going to <menuchoice><guimenu>Go</guimenu><guimenuitem>Open Location...</guimenuitem></menuchoice> and entering <userinput>smb://computername/sharename</userinput>.</para></listitem>
 				<listitem><para>&gigolo;, which allows you to save bookmarks and manage remote file systems. To connect, click the first toolbar button. Select <guilabel>Windows Share</guilabel> from <guilabel>Service Type</guilabel>, then enter the remote share's details.</para></listitem>
 			</itemizedlist>
 
