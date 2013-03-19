@@ -23,6 +23,8 @@ html {
 #masthead
 {
 	max-width: 950px;
+	min-width: 580px;
+
 	margin: 3em auto 0 auto;
 
 	color: #04a;
@@ -58,6 +60,8 @@ body > div.legalnotice {
 
 .navfooter {
 	max-width: 950px;
+	min-width: 580px;
+
 	margin: 1em auto 3em auto;
 
 	color: #555;
