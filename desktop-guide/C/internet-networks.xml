@@ -11,9 +11,9 @@
 <chapter id="internet-networks">
 	<title>Connecting to Internet and Networks</title>
 
-	<para>Xubuntu uses <application>NetworkManager</application> to manage wired, wireless, mobile broadband, VPN and DSL connections. <application>NetworkManager</application> also keeps passwords secure by utilising the user's keyring to store passphrases.</para>
+	<para>Xubuntu uses <application>NetworkManager</application> to manage wired, wireless, mobile broadband, VPN and DSL connections. <application>NetworkManager</application> also keeps passwords secure by utilizing the user's keyring to store passphrases.</para>
 
-	<para><application>NetworkManager</application> is the little icon in the upper panel in the top right of your screen. When not connected, the icon shows two greyed out arrows pointing up and down. When you are connected, the icon is different depending on the network type in use.</para>
+	<para><application>NetworkManager</application> is the little icon in the upper panel in the top right of your screen. When not connected, the icon shows two grayed out arrows pointing up and down. When you are connected, the icon is different depending on the network type in use.</para>
 
 	<section id="network-connections">
 		<title>Network connections</title>
@@ -47,13 +47,13 @@
 		<section id="network-sharing">
 			<title>Sharing your connection to another computer</title>
 
-			<para>You can share your connection to another computer using an ethernet cable. This can be carried out by clicking the NetworkManager icon, selecting <menuchoice><guimenuitem>Edit Connections</guimenuitem></menuchoice>, and then adding a new wireless connection (or editing the existing one). In the connection properties window, select <guilabel>IPv4 Settings</guilabel>, and change <guilabel>Method</guilabel> to <guilabel>Shared to other computers</guilabel> from the drop-down list.</para>
+			<para>You can share your connection to another computer using an Ethernet cable. This can be carried out by clicking the NetworkManager icon, selecting <menuchoice><guimenuitem>Edit Connections</guimenuitem></menuchoice>, and then adding a new wireless connection (or editing the existing one). In the connection properties window, select <guilabel>IPv4 Settings</guilabel>, and change <guilabel>Method</guilabel> to <guilabel>Shared to other computers</guilabel> from the drop-down list.</para>
 		</section>
 
 		<section id="network-modems">
 			<title>Dialup modems</title>
 
-			<para>Unfortunately, dialup modems are not supported by <application>NetworkManager</application>. To read about connecting with a dialup modem, please refer to the <ulink url="&communitywiki-dialup;">Dialup modem Howto</ulink> on the Ubuntu community wiki.</para>		</section>
+			<para>Unfortunately, dialup modems are not supported by <application>NetworkManager</application>. To read about connecting with a dialup modem, please refer to the <ulink url="&communitywiki-dialup;">Dialup modem How-to</ulink> on the Ubuntu community wiki.</para>		</section>
 	</section>
 
 	<section id="network-troubleshooting">
@@ -70,7 +70,7 @@
 		<para>If your network connection still doesn't work:</para>
 
 		<itemizedlist>
-			<listitem><para>For wired (ethernet) connections, please see <xref linkend="network-troubleshooting-general" /></para></listitem>
+			<listitem><para>For wired (Ethernet) connections, please see <xref linkend="network-troubleshooting-general" /></para></listitem>
 			<listitem><para>For wireless connections, please see both <xref linkend="network-troubleshooting-general" /> and <xref linkend="network-troubleshooting-wireless" /></para></listitem>
 			<listitem><para>If your network connection problems are still not resolved, see <xref linkend="network-troubleshooting-advanced" /></para></listitem>
 		</itemizedlist>

@@ -100,7 +100,7 @@
 
 			<warning><para>Be careful when altering disk partitions, as it is possible to lose your data if you delete or change the wrong partition.</para></warning>
 
-			<note><para>If it is necessary to unmount the installed system to proceed with changes you wish to make you will have to work from a live CD/UDB to do so</para></note>
+			<note><para>If it is necessary to unmount the installed system to proceed with changes you wish to make you will have to work from a live CD/USB to do so</para></note>
 
 			<section id="partitioning-freeing-space">
 				<title>Freeing space for a new partition</title>
@@ -109,7 +109,7 @@
 
 				<itemizedlist>
 					<listitem><para>Select the device to partition from the drop-down list at the top-right of the main window</para></listitem>
-					<listitem><para>A list of partions will appear in the main window. Select the partition you want to resize and from the menu, choose <menuchoice><guimenu>Partition</guimenu><guimenuitem>Unmount</guimenuitem></menuchoice></para></listitem>
+					<listitem><para>A list of partitions will appear in the main window. Select the partition you want to resize and from the menu, choose <menuchoice><guimenu>Partition</guimenu><guimenuitem>Unmount</guimenuitem></menuchoice></para></listitem>
 					<listitem><para>To resize the partition choose <menuchoice><guimenu>Partition</guimenu><guimenuitem>Resize/Move</guimenuitem></menuchoice>. The <guilabel>Resize/Move</guilabel> dialog will be shown. You can use the <guilabel>Free Space Following (MiB)</guilabel> box to choose how much space to free after this partition, or <guilabel>Free Space Preceding (MiB)</guilabel> to free space before this partition. Alternatively you can use the slider to adjust the partition size.</para></listitem>
 					<listitem><para>To apply the changes, click <guibutton>Resize/Move</guibutton></para></listitem>
 				</itemizedlist>
@@ -265,6 +265,6 @@
 			<listitem><para><guilabel>Keyboard layout and language </guilabel></para></listitem>
 		</itemizedlist>
 
-		<tip><para>If you are using a mouse on a laptop that also has a touchpad, you can change the behaviour of each of them individually by selecting the appropriate device from the <guilabel>Device:</guilabel> pick list on the <guilabel>Devices</guilabel> tab page.</para></tip>
+		<tip><para>If you are using a mouse on a laptop that also has a touchpad, you can change the behavior of each of them individually by selecting the appropriate device from the <guilabel>Device:</guilabel> pick list on the <guilabel>Devices</guilabel> tab page.</para></tip>
 	</section>
 </chapter>
