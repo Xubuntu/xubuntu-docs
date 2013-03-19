@@ -39,6 +39,8 @@ body > div.section,
 body > div.appendix,
 body > div.legalnotice {
 	max-width: 950px;
+	min-width: 580px;
+
 	margin: 0 auto;
 	padding: 3em;
 
@@ -202,7 +204,7 @@ div.note,
 div.tip,
 div.warning {
 	margin: 2em 0 !important;
-	padding: 1em 1.5em;
+	padding: 1em 1.5em 0 1em;
 
 	background-color: #eee;
 	border: 1px solid #d1d1d1;
@@ -212,14 +214,31 @@ div.warning {
 	border-radius: 10px;
 }
 
-div.caution td > p,
+div.caution tr,
+div.important tr,
+div.note tr,
+div.tip tr,
+div.warning tr {
+	width: 90%;
+	float: left;
+}
+
+div.caution tr:first-child,
+div.important tr:first-child,
+div.note tr:first-child,
+div.tip tr:first-child,
+div.warning  tr:first-child {
+	width: 52px;
+}
+
+/* div.caution td > p,
 div.important td > p,
 div.note td > p,
 div.tip td > p,
 div.warning td > p {
 	margin-top: -32px;
 	margin-bottom: 0;
-}
+} */
 
 div.caution img,
 div.important img,
