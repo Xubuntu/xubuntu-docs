@@ -113,11 +113,9 @@
 		<section id="applications-offline-installation">
 			<title>Helpful applications</title>
 
-			<para><application>APTonCD</application> can be used to create a CD that contains all the packages you have on your system, or it can create CDs with packages or entire repositories of your choice. In a package manager, such as <application>Ubuntu Software Center</application>, find the <application>APTonCD</application> package and install it. Further documentation on <application>APTonCD</application> can be found on the <ulink url="&aptoncd-web;">APTonCD website</ulink>.</para>
+                        <para>If you have less than optimal Internet access, <application>apt-offline</application> allows you to use another computer with better access to download packages and check for package updates like security fixes.  The other computer can run Xubuntu, another flavor of Ubuntu, or Debian.  A graphical interface is available via <application>apt-offline-gui</application> that makes a complicated-looking process easy.  All you need is time, patience, and a portable USB storage device.  A usage example to learn more about this in <xref linkend="offline-packages"/>.
 
-			<para>If you have access to a second computer which does have internet access, you can use it along with <application>apt-offline</application> to download the necessary package information from the internet and then transfer that data to the disconnected computer. This is a multi-step process. More information on the procedure can be found on the <ulink url="&communitywiki-installing;">Ubuntu Community Help wiki</ulink>.</para>
-
-			<para><application>Keryx</application> is a portable, cross-platform package manager for APT-based (Ubuntu, Debian) systems. It provides a graphical interface for gathering updates, packages, and dependencies for offline computers. <application>Keryx</application> is free and open source. Read more about and download <application>Keryx</application> from the <ulink url="&keryx-web;">Keryx website</ulink>.</para>
+                        <para><application>APTonCD</application> lets you copy from the set of packages already downloaded to somebody else's computer to install them to your own and vice versa. In a package manager, such as <application>Ubuntu Software Centre</application>, find the <application>APTonCD</application> package and install it. Further documentation on <application>APTonCD</application> can be found on the <ulink url="&aptoncd-web;">APTonCD website</ulink>.</para>
 		</section>
 	</section>
 
