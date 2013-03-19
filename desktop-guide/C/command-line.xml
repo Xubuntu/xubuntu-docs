@@ -29,7 +29,7 @@
 
 		<note><para>If the program you wish to run as an administrator is graphical, such as the <application>Mousepad</application> text editor, you should use the command <userinput>gksudo</userinput> instead of <application>sudo</application>, even if you are running the application from the command line.</para></note>
 
-		<warning><para>Be careful when using <application>sudo</application>; you might damage your system if you type the wrong command! As a general rule, only use sudo when absolutely necessary. When you use <application>sudo</application> from a terminal, be sure to close it when you have finished!</para></warning>
+		<warning><para>Be careful when using <application>sudo</application>; you might damage your system if you type the wrong command! As a general rule, only use sudo when absolutely necessary. When you use <application>sudo</application> from a terminal, be sure to either close it when you have finished or type <userinput>exit</userinput> to continue using that terminal with normal access powers.</para></warning>
 
 		<para>For more information on <application>sudo</application>, see the <ulink url="&communitywiki-sudo;">sudo page</ulink> on the Ubuntu community wiki.</para>
 	</section>
