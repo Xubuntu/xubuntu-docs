@@ -97,17 +97,17 @@
 		<title>Installing packages without an Internet connection</title>
 
 		<section id="cd-as-software-source">
-			<title>Adding CDs as software sources</title>
+			<title>Adding discs as software sources</title>
 
-			<para>To add a CD as a software source for your system:</para>
+			<para>To add a disc as a software source for your system:</para>
 
 			<itemizedlist>
-				<listitem><para>Insert a CD with packages; e.g., the Xubuntu installation CD</para></listitem>
+				<listitem><para>Insert a disc with packages; e.g., the Xubuntu installation disc which comes with a limited selection of packages</para></listitem>
 				<listitem><para>Open &software-properties; and go to the <guilabel>Other Software</guilabel> tab</para></listitem>
 				<listitem><para>Press the <guibutton>Add Volume...</guibutton> button; you will be prompted for your password</para></listitem>
 			</itemizedlist>
 
-			<para>After adding the CD to the software sources, you will be able to install packages from the CD.</para>
+			<para>After adding the disc to the software sources, you will be able to install packages from the disc.</para>
 		</section>
 
 		<section id="applications-offline-installation">
