@@ -223,7 +223,8 @@ div.important tr,
 div.note tr,
 div.tip tr,
 div.warning tr {
-	width: 90%;
+	max-width: 90%;
+	min-height: 3.5em;
 	float: left;
 }
 
@@ -231,7 +232,7 @@ div.caution tr:first-child,
 div.important tr:first-child,
 div.note tr:first-child,
 div.tip tr:first-child,
-div.warning  tr:first-child {
+div.warning tr:first-child {
 	width: 52px;
 }
 
@@ -271,6 +272,16 @@ div.tip .keycap img,
 div.warning .keycap img {
 	margin-bottom: -0.25em;
 	margin-right: 0.15em;
+	padding-bottom: 0;
+}
+
+div.caution .inline-icon-pkg img,
+div.important .inline-icon-pkg img,
+div.note .inline-icon-pkg img,
+div.tip .inline-icon-pkg img,
+div.warning .inline-icon-pkg img {
+	margin-bottom: -0.3em;
+	margin-right: 0.45em;
 	padding-bottom: 0;
 }
 
