@@ -75,16 +75,16 @@
 		<section id="media-play-video">
 			<title>Playing video</title>
 
-			<para><application>Parole</application> supports most video types. If you try to play an unsupported video file, <application>Parole</application> may notify you of a missing plugin. You can then install this plugin by following the wizard. Afterwards, you may need to restart <application>Parole</application>.</para>
+			<para><application>Parole Media Player</application> supports most video types. If you try to play an unsupported video file, <application>Parole Media Player</application> may notify you of a missing plugin. You can then install this plugin by following the wizard. Afterwards, you may need to restart <application>Parole Media Player</application>.</para>
 
-			<para>If you are having difficulties getting a video to stream in your browser <application>Parole</application> supports streaming most types of video. To open a video in <application>Parole</application>, right-click the video and select <menuchoice><guimenuitem>Open with Parole Media Player</guimenuitem></menuchoice>.</para>
+			<para>If you are having difficulties getting a video to stream in your browser <application>Parole Media Player</application> supports streaming most types of video. To open a video in <application>Parole Media Player</application>, right-click the video and select <menuchoice><guimenuitem>Open with Parole Media Player</guimenuitem></menuchoice>.</para>
 
 			<section id="media-video-restricted">
 				<title>Restricted formats</title>
 
 				<para>Some video formats, such as Adobe Flash, QuickTime and Windows Media Video, are proprietary and so support for them cannot be included in Xubuntu by default. You must install some extra software to allow playback.</para>
 
-				<para>In order to play the most common proprietary formats in <application>Parole</application> or <application>Firefox</application>, install the <literal>&package;xubuntu-restricted-extras</literal> package (see <xref linkend="software-repositories-restricted" /> for more information).</para>
+				<para>In order to play the most common proprietary formats in <application>Parole Media Player</application> or <application>Firefox</application>, install the <literal>&package;xubuntu-restricted-extras</literal> package (see <xref linkend="software-repositories-restricted" /> for more information).</para>
 			</section>
 		</section>
 	</section>
