@@ -19,8 +19,13 @@
 #    at /usr/share/common-licenses/GPL
 ####################################################################################
 
-for x in `cat libs/shipped-docs`; do
-	echo ${x}
-	xml2po -e -o ${x}/po/${x}.pot ${x}/C/*.xml
+files=$( cat desktop-guide/libs/shipped-docs )
+for file in $files
+do
+	filepath="desktop-guide/C/$file.xml"
+	filepaths="$filepaths $filepath"
 done
+
+xml2po -e -o desktop-guide/po/desktop-guide.pot $filepaths
+
 
