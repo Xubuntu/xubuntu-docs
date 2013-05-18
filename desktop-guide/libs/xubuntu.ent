@@ -33,9 +33,9 @@
 <!ENTITY gigolo-web 'http://www.uvena.de/gigolo/' >
 <!ENTITY gmusicbrowser-help 'http://gmusicbrowser.org/guide.html' >
 <!ENTITY gnu-web 'http://www.gnu.org/' >
+<!ENTITY gimp-web 'http://www.gimp.org/' >
 <!ENTITY gthumb-web 'https://live.gnome.org/gthumb' >
 <!ENTITY kernel-web 'http://www.kernel.org/' >
-<!ENTITY keryx-web 'http://keryxproject.org/' >
 <!ENTITY laptop-qa 'http://laptop.qa.ubuntu.com/' >
 <!ENTITY launchpad-web 'http://launchpad.net/' >
 <!ENTITY openprinting-web 'http://www.linuxfoundation.org/collaborate/workgroups/openprinting' >
@@ -79,13 +79,13 @@
 <!ENTITY appmenu '<guiicon><inlinemediaobject><imageobject><imagedata fileref="../common/images/menu_icon.png"/></imageobject></inlinemediaobject></guiicon>' >
 <!-- Items -->
 <!ENTITY computer-janitor '<application><menuchoice>&appmenu;<guisubmenu>System</guisubmenu><guimenuitem>Computer Janitor</guimenuitem></menuchoice></application>' >
-<!ENTITY file-manager '<application><menuchoice>&appmenu;<guimenuitem>File Manager</guimenuitem></menuchoice></application>' >
+<!ENTITY file-manager '<application><menuchoice>&appmenu;<guisubmenu>Accessories</guisubmenu><guimenuitem>File Manager</guimenuitem></menuchoice></application>' >
 <!ENTITY gigolo '<application><menuchoice>&appmenu;<guisubmenu>System</guisubmenu><guimenuitem>Gigolo</guimenuitem></menuchoice></application>' >
 <!ENTITY gmusicbrowser '<application><menuchoice>&appmenu;<guisubmenu>Multimedia</guisubmenu><guimenuitem>gmusicbrowser</guimenuitem></menuchoice></application>' >
-<!ENTITY gparted '<application><menuchoice>&appmenu;<guisubmenu>System</guisubmenu><guimenuitem>GParted</guimenuitem></menuchoice></application>' >
+<!ENTITY gparted '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>GParted</guimenuitem></menuchoice></application>' >
 <!ENTITY gthumb '<application><menuchoice>&appmenu;<guisubmenu>Graphics</guisubmenu><guimenuitem>gThumb</guimenuitem></menuchoice></application>' >
 <!ENTITY log-out '<application><menuchoice>&appmenu;<guimenuitem>Log Out</guimenuitem></menuchoice></application>' >
-<!ENTITY ndisgtk '<application><menuchoice>&appmenu;<guisubmenu>System</guisubmenu><guimenuitem>Windows Wireless Drivers</guimenuitem></menuchoice></application>' >
+<!ENTITY ndisgtk '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Windows Wireless Drivers</guimenuitem></menuchoice></application>' >
 <!ENTITY settings-appearance '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Appearance</guimenuitem></menuchoice></application>' >
 <!ENTITY settings-keyboard '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Keyboard</guimenuitem></menuchoice></application>' >
 <!ENTITY settings-manager '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem></menuchoice></application>' >
@@ -99,7 +99,7 @@
 <!ENTITY software-center '<application><menuchoice>&appmenu;<guimenuitem>Ubuntu Software Center</guimenuitem></menuchoice></application>' >
 <!ENTITY software-properties '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Software Sources</guimenuitem></menuchoice></application>' >
 <!ENTITY software-properties-usc '<application><menuchoice>&appmenu;<guimenuitem>Ubuntu Software Center</guimenuitem><guimenuitem>Edit</guimenuitem><guimenuitem>Software Sources</guimenuitem></menuchoice></application>' >
-<!ENTITY software-updater '<application><menuchoice>&appmenu;<guisubmenu>System</guisubmenu><guimenuitem>Software Updater</guimenuitem></menuchoice></application>' >
+<!ENTITY software-updater '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Software Updater</guimenuitem></menuchoice></application>' >
 <!ENTITY system-menu '<application><menuchoice>&appmenu;<guimenuitem>System (menu)</guimenuitem></menuchoice></application>' >
 <!ENTITY terminal '<application><menuchoice>&appmenu;<guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal Emulator</guimenuitem></menuchoice></application>' >
 <!ENTITY users-groups '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Users and Groups</guimenuitem></menuchoice></application>' >

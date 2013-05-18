@@ -188,17 +188,19 @@
 				<para>From the terminal enter the following command, replacing <literal>eth1</literal> with the name of the connection outputted from the <application>ifconfig</application> command: <userinput>sudo dhclient eth1</userinput></para>
 
 				<itemizedlist>
-					<listitem><para>If you receive a message that says bound to xxx.xxx.xxx.xxx continue to <xref linkend="network-troubleshooting-dns" /></para></listitem>
+					<listitem><para>If you receive a message that says bound to <literal>xxx.xxx.xxx.xxx</literal> continue to <xref linkend="network-troubleshooting-dns" /></para></listitem>
 					<listitem><para>If not, reboot the system</para></listitem>
 				</itemizedlist>
 			</section>
 
 			<section id="network-troubleshooting-dns">
-				<title>Check DNS</title>
+				<title>Check Domain Name Servers (DNS)</title>
 
-				<para>Open a terminal (&terminal;) and type the command <userinput>cat/etc/resolv.conf</userinput> and press <keycap>&key;Enter</keycap>.</para>
+				<para>Open a terminal (&terminal;) and type the command <userinput>nm-tool</userinput> and press <keycap>&key;Enter</keycap>.</para>
 
-				<para>If there is no nameserver listed, contact your Internet Service Provider (ISP), and find out your primary and secondary domain name servers. Once you have this information, continue to <xref linkend="network-connect-disconnect" /> and <xref linkend="network-configure" /> if needed.</para>
+				<para>To check if the listed DNS works, open a terminal (&terminal;) and type the command <userinput>dig xubuntu.org</userinput> and press <keycap>&key;Enter</keycap>.  If you see the word <literal>NOERROR</literal>in the header section of the output, your DNS is working.</para>
+
+				<para>If there are no DNS settings listed, contact your Internet Service Provider (ISP), and find out your primary and secondary domain name servers. Once you have this information, continue to <xref linkend="network-connect-disconnect" /> and <xref linkend="network-configure" /> if needed.</para>
 			</section>
 		</section>
 	</section>
