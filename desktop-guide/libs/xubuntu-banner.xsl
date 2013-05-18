@@ -4,7 +4,7 @@
 		<xsl:variable name="up" select="parent::*"/>
 			<div id="masthead">	
 				<a href="index.html">
-					<img src="../common/images/logo_title.png" alt="Xubuntu Offline Documentation" />
+					<img src="includes/logo_title.png" alt="Xubuntu Offline Documentation" />
 				</a>
 			</div>
 	</xsl:template>

@@ -61,11 +61,11 @@
 <!ENTITY xfce-web 'http://www.xfce.org/' >
 
 <!-- INLINE ICONS -->
-<!ENTITY package '<inlinemediaobject role="icon-pkg"><imageobject><imagedata fileref="images/package_icon.png" /></imageobject></inlinemediaobject>' >
-<!ENTITY key '<inlinemediaobject role="icon-key"><imageobject><imagedata fileref="images/key_icon.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY package '<inlinemediaobject role="icon-pkg"><imageobject><imagedata fileref="includes/package_icon.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY key '<inlinemediaobject role="icon-key"><imageobject><imagedata fileref="includes/key_icon.png" /></imageobject></inlinemediaobject>' >
 
 <!-- LOCATIONS -->
-<!ENTITY location '<inlinemediaobject><imageobject><imagedata fileref="images/location_icon.png"/></imageobject></inlinemediaobject>' >
+<!ENTITY location '<inlinemediaobject><imageobject><imagedata fileref="includes/location_icon.png"/></imageobject></inlinemediaobject>' >
 <!-- Items -->
 <!ENTITY location_home '<filename>&location; /home/username/</filename>' >
 <!ENTITY location_backdrops '<filename>&location; /usr/share/xfce4/backdrops/</filename>' >
@@ -75,7 +75,7 @@
 <!ENTITY location_icons_global '<filename>&location; /usr/share/icons/</filename>' >
 
 <!-- MENUS -->
-<!ENTITY appmenu '<guiicon><inlinemediaobject><imageobject><imagedata fileref="images/menu_icon.png"/></imageobject></inlinemediaobject></guiicon>' >
+<!ENTITY appmenu '<guiicon><inlinemediaobject><imageobject><imagedata fileref="includes/menu_icon.png"/></imageobject></inlinemediaobject></guiicon>' >
 <!-- Items -->
 <!ENTITY computer-janitor '<application><menuchoice>&appmenu;<guisubmenu>System</guisubmenu><guimenuitem>Computer Janitor</guimenuitem></menuchoice></application>' >
 <!ENTITY file-manager '<application><menuchoice>&appmenu;<guisubmenu>Accessories</guisubmenu><guimenuitem>File Manager</guimenuitem></menuchoice></application>' >
