@@ -8,33 +8,38 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-05-17 14:36+0300\n"
-"PO-Revision-Date: 2013-05-20 09:12+0000\n"
-"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"PO-Revision-Date: 2013-05-21 13:53+0000\n"
+"Last-Translator: Aleksey Kabanov <Unknown>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-05-21 05:46+0000\n"
+"X-Launchpad-Export-Date: 2013-05-22 05:29+0000\n"
 "X-Generator: Launchpad (build 16626)\n"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
 msgid "What is Xubuntu?"
-msgstr ""
+msgstr "Что такое Xubuntu?"
 
 #: desktop-guide/C/what-is-xubuntu.xml:15(title)
 msgid "A short introduction"
-msgstr ""
+msgstr "Краткое знакомство"
 
 #: desktop-guide/C/what-is-xubuntu.xml:18(title)
 msgid ""
 "Xubuntu is a community-developed, Ubuntu-based Linux operating system."
 msgstr ""
+"Xubuntu — разрабатываемый сообществом, основанный на Ubuntu дистрибутив "
+"операционной системы Linux."
 
 #: desktop-guide/C/what-is-xubuntu.xml:19(para)
 msgid ""
 "Xubuntu is an elegant and easy-to-use operating system. Xubuntu comes with "
 "Xfce, which is a stable, light and configurable desktop environment."
 msgstr ""
+"Xubuntu — элегантная и простая в использовании операционная система. В "
+"Xubuntu используется стабильная, нетребовательная к ресурсам и легко "
+"настраиваемая графическая среда рабочего стола Xfce."
 
 #: desktop-guide/C/what-is-xubuntu.xml:21(para)
 msgid ""
@@ -42,16 +47,22 @@ msgid ""
 "laptops and netbooks with a modern look and enough features for efficient, "
 "daily usage. It works well on older hardware too."
 msgstr ""
+"Xubuntu превосходно подходит тем, кто хочет получить максимум возможного от "
+"своего настольного компьютера или ноутбука или нетбука: современный "
+"интерфейс и достаточно возможностей для эффективного повседневного "
+"использования. Она также хорошо работает на старом оборудовании."
 
 #: desktop-guide/C/what-is-xubuntu.xml:23(para)
 msgid ""
 "Find out more at the <ulink url=\"http://xubuntu.org/\">Xubuntu "
 "website</ulink>."
 msgstr ""
+"Узнайте больше на <ulink url=\"http://xubuntu.org/\">веб-сайте "
+"Xubuntu</ulink>."
 
 #: desktop-guide/C/what-is-xubuntu.xml:27(title)
 msgid "About the name"
-msgstr ""
+msgstr "О названии"
 
 #: desktop-guide/C/what-is-xubuntu.xml:28(para)
 msgid ""
@@ -74,7 +85,7 @@ msgstr ""
 
 #: desktop-guide/C/what-is-xubuntu.xml:38(title)
 msgid "Version numbering"
-msgstr ""
+msgstr "Нумерация версий"
 
 #: desktop-guide/C/what-is-xubuntu.xml:39(para)
 msgid ""
@@ -84,6 +95,11 @@ msgid ""
 "released in June, 2006, thus its version number was 6.06. The latest Long "
 "Term Support (LTS) version is 12.04, codenamed Precise Pangolin."
 msgstr ""
+"Схема нумерации версий Xubuntu основана на дате выпуска дистрибутива. Первая "
+"часть номера обозначает год, а вторая — месяц выпуска. Например, первая "
+"официальная версия Xubuntu вышла в июне 2006 года, соответственно, номер "
+"версии был 6.06. Самая свежая версия с долгосрочной поддержкой (LTS) имеет "
+"номер 12.04 и кодовое имя Precise Pangolin."
 
 #: desktop-guide/C/what-is-xubuntu.xml:47(title)
 msgid "Learn more about what makes Xubuntu"
@@ -91,7 +107,7 @@ msgstr ""
 
 #: desktop-guide/C/what-is-xubuntu.xml:50(title)
 msgid "Free Software"
-msgstr ""
+msgstr "Свободное программное обеспечение"
 
 #: desktop-guide/C/what-is-xubuntu.xml:51(para)
 msgid ""
@@ -101,10 +117,15 @@ msgid ""
 "and technical philosophy behind it at the <ulink "
 "url=\"http://www.gnu.org/\">GNU website</ulink>."
 msgstr ""
+"Проект Xubuntu полностью придерживается принципов свободной разработки "
+"программ; он поощряет людей использовать свободное программное обеспечение, "
+"улучшать его и передавать другим людям. Узнать больше о свободном "
+"программном обеспечении и лежащих в его основе идеологических и технических "
+"принципах можно на <ulink url=\"http://www.gnu.org/\">веб-сайте GNU</ulink>."
 
 #: desktop-guide/C/what-is-xubuntu.xml:57(title)
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: desktop-guide/C/what-is-xubuntu.xml:58(para)
 msgid ""
@@ -114,10 +135,15 @@ msgid ""
 "bridge between hardware and software. Read more about Linux at the <ulink "
 "url=\"http://www.kernel.org/\">Linux kernel website</ulink>."
 msgstr ""
+"Linux был создан в 1991 году финским студентом Линусом Торвальдсом (Linus "
+"Torvalds). Ядро Linux является сердцем операционной системы Xubuntu. Ядро — "
+"это важная часть любой операционной системы, обеспечивающая взаимодействие "
+"между аппаратным и программным обеспечением. Узнайте больше о Linux на "
+"<ulink url=\"http://www.kernel.org/\">веб-сайте ядра Linux</ulink>."
 
 #: desktop-guide/C/what-is-xubuntu.xml:65(title)
 msgid "Xfce"
-msgstr ""
+msgstr "Xfce"
 
 #: desktop-guide/C/what-is-xubuntu.xml:66(para)
 msgid ""
@@ -127,6 +153,12 @@ msgid ""
 "and re-usability. Read more about Xfce at the <ulink "
 "url=\"http://www.xfce.org/\">Xfce website</ulink>."
 msgstr ""
+"Xfce — графическая среда рабочего стола, используемая в Xubuntu. Её цель — "
+"быть простой и нетребовательной к системным ресурсам, в то же время "
+"обеспечивая визуальную привлекательность и удобство работы пользователей. "
+"Xfce воплощает в себе традиционные принципы UNIX: модульность и возможность "
+"повторного использования в других условиях. Узнать больше об Xfce можно на "
+"<ulink url=\"http://www.xfce.org/\">веб-сайте Xfce</ulink>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -134,6 +166,7 @@ msgstr ""
 msgid ""
 "@@image: '../common/images/menu_icon.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
+"@@image: '../common/images/menu_icon.png'; md5=THIS FILE DOESN'T EXIST"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -141,20 +174,22 @@ msgstr ""
 msgid ""
 "@@image: '../common/images/package_icon.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
+"@@image: '../common/images/package_icon.png'; md5=THIS FILE DOESN'T EXIST"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/guide-keeping-safe.xml:0(None) desktop-guide/C/guide-keeping-safe.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/command-line.xml:0(None)
 msgid "@@image: '../common/images/key_icon.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
+"@@image: '../common/images/key_icon.png'; md5=THIS FILE DOESN'T EXIST"
 
 #: desktop-guide/C/printing-scanning.xml:12(title)
 msgid "Printing and Scanning"
-msgstr ""
+msgstr "Печать и сканирование"
 
 #: desktop-guide/C/printing-scanning.xml:15(title)
 msgid "Printing"
-msgstr ""
+msgstr "Печать"
 
 #: desktop-guide/C/printing-scanning.xml:17(para)
 msgid ""
@@ -167,7 +202,7 @@ msgstr ""
 
 #: desktop-guide/C/printing-scanning.xml:20(title)
 msgid "Local printing"
-msgstr ""
+msgstr "Локальная печать"
 
 #: desktop-guide/C/printing-scanning.xml:22(para)
 msgid ""
@@ -183,11 +218,11 @@ msgstr ""
 
 #: desktop-guide/C/printing-scanning.xml:25(para) desktop-guide/C/printing-scanning.xml:47(para)
 msgid "Obtain the model name of your printer"
-msgstr ""
+msgstr "Узнайте модель вашего принтера"
 
 #: desktop-guide/C/printing-scanning.xml:26(para) desktop-guide/C/printing-scanning.xml:48(para)
 msgid "Ensure the printer is turned on"
-msgstr ""
+msgstr "Убедитесь, что принтер включен"
 
 #: desktop-guide/C/printing-scanning.xml:27(para) desktop-guide/C/printing-scanning.xml:49(para)
 msgid ""
@@ -215,7 +250,7 @@ msgstr ""
 
 #: desktop-guide/C/printing-scanning.xml:31(para)
 msgid "Your computer will search for and install drivers for your printer"
-msgstr ""
+msgstr "Ваш компьютер найдёт и установит драйверы для принтера."
 
 #: desktop-guide/C/printing-scanning.xml:32(para)
 msgid "You can enter a description and location for your printer"
@@ -230,6 +265,8 @@ msgid ""
 "Your printer should be properly configured at this point and you will be "
 "prompted if you want to print a test page"
 msgstr ""
+"К этому моменту принтер уже должен быть правильно настроен, и вам будет "
+"предложено распечатать пробную страницу"
 
 #: desktop-guide/C/printing-scanning.xml:35(para)
 msgid ""
@@ -244,6 +281,9 @@ msgid ""
 "interface. It can be accessed at <ulink "
 "url=\"http://localhost:631/\">http://localhost:631/</ulink>."
 msgstr ""
+"Если вы всё ещё испытываете проблемы с печатью, попробуйте воспользоваться "
+"веб-интерфейсом CUPS. К нему можно получить доступ по адресу <ulink "
+"url=\"http://localhost:631/\">http://localhost:631/</ulink>."
 
 #: desktop-guide/C/printing-scanning.xml:39(para)
 msgid ""
@@ -255,10 +295,17 @@ msgid ""
 "url=\"https://wiki.ubuntu.com/HardwareSupportComponentsPrinters\">Ubuntu "
 "Wiki Printer page</ulink> for information on your printer."
 msgstr ""
+"Если ваш принтер не был обнаружен автоматически, попробуйте выбрать порт и "
+"драйвер принтера вручную. Некоторым принтерам требуется дальнейшая "
+"настройка. Поищите информацию о своём принтере в <ulink "
+"url=\"http://www.linuxfoundation.org/collaborate/workgroups/openprinting\">ба"
+"зе данных OpenPrinting</ulink> или на <ulink "
+"url=\"https://wiki.ubuntu.com/HardwareSupportComponentsPrinters\">вики-"
+"странице поддержки принтеров в Ubuntu</ulink>."
 
 #: desktop-guide/C/printing-scanning.xml:43(title)
 msgid "Network printing"
-msgstr ""
+msgstr "Печать по сети"
 
 #: desktop-guide/C/printing-scanning.xml:45(para)
 msgid ""
@@ -266,6 +313,9 @@ msgid ""
 "print server. Remote printers are hosted somewhere on a network. To "
 "configure a remote printer:"
 msgstr ""
+"Вы также можете настроить свою систему Xubuntu для отправки заданий на "
+"печать на удалённый сервер печати. Удалённые принтеры могут размещаются в "
+"каком-либо месте сети. Чтобы настроить удалённый принтер:"
 
 #: desktop-guide/C/printing-scanning.xml:51(para)
 msgid ""
@@ -301,6 +351,8 @@ msgid ""
 "You can enter a description and location for your printer in the "
 "corresponding fields"
 msgstr ""
+"Вы можете указать описание и сведения о местоположении принтера в "
+"соответствующих полях"
 
 #: desktop-guide/C/printing-scanning.xml:58(para)
 msgid ""
@@ -314,6 +366,8 @@ msgid ""
 "If you do not know the protocol or details of your network printer, you "
 "should consult your network administrator."
 msgstr ""
+"Если вам неизвестен протокол или другие подробности о вашем принтере, "
+"проконсультируйтесь с вашим администратором сети."
 
 #: desktop-guide/C/printing-scanning.xml:63(para)
 msgid ""
@@ -329,7 +383,7 @@ msgstr ""
 
 #: desktop-guide/C/printing-scanning.xml:68(title)
 msgid "Scanning"
-msgstr ""
+msgstr "Сканирование"
 
 #: desktop-guide/C/printing-scanning.xml:70(para)
 msgid ""
@@ -337,20 +391,26 @@ msgid ""
 "install and operate. This section will walk you through how to use your "
 "scanner and what to do if Xubuntu does not detect your scanner."
 msgstr ""
+"Многие сканеры автоматически поддерживаются Xubuntu, и установка и работа с "
+"ними не должны вызвать затруднений. В этом разделе будет рассказано, как "
+"использовать сканер и что делать, если Xubuntu не смогла распознать ваш "
+"сканер."
 
 #: desktop-guide/C/printing-scanning.xml:73(title)
 msgid "Does my scanner work in Xubuntu?"
-msgstr ""
+msgstr "Работает ли мой сканер в Xubuntu?"
 
 #: desktop-guide/C/printing-scanning.xml:75(para)
 msgid "There are three ways to see if you scanner works in Xubuntu:"
-msgstr ""
+msgstr "Есть три способа узнать, будет ли работать ваш сканер в Xubuntu:"
 
 #: desktop-guide/C/printing-scanning.xml:78(para)
 msgid ""
 "Simply plug it in and try it! If it is a newer USB scanner, it is likely "
 "that it will just work."
 msgstr ""
+"Просто подключите его и попробуйте! Если это новый сканер с интерфейсом USB, "
+"скорее всего он просто начнёт работать."
 
 #: desktop-guide/C/printing-scanning.xml:79(para)
 msgid ""
@@ -358,6 +418,9 @@ msgid ""
 "url=\"https://wiki.ubuntu.com/HardwareSupportComponentsScanners\">list of "
 "supported scanners</ulink> for Xubuntu"
 msgstr ""
+"Посмотрите <ulink "
+"url=\"https://wiki.ubuntu.com/HardwareSupportComponentsScanners\">список "
+"поддерживаемых сканеров</ulink> для Xubuntu"
 
 #: desktop-guide/C/printing-scanning.xml:80(para)
 msgid ""
@@ -365,18 +428,22 @@ msgid ""
 "project listing of support scanners</ulink>. <application>SANE</application> "
 "is the software used by Xubuntu for most of its scanner support."
 msgstr ""
+"Проверьте в <ulink url=\"http://www.sane-project.org/sane-"
+"backends.html\">списке поддерживаемых сканеров проекта SANE</ulink>. "
+"<application>SANE</application> — это программное обеспечение, используемое "
+"для поддержки большинства сканеров в Xubuntu."
 
 #: desktop-guide/C/printing-scanning.xml:85(title)
 msgid "Using your scanner"
-msgstr ""
+msgstr "Использование сканера"
 
 #: desktop-guide/C/printing-scanning.xml:87(para)
 msgid "To scan a document:"
-msgstr ""
+msgstr "Чтобы отсканировать документ:"
 
 #: desktop-guide/C/printing-scanning.xml:90(para)
 msgid "Place what you want to scan on the scanner"
-msgstr ""
+msgstr "Поместите документ в сканер"
 
 #: desktop-guide/C/printing-scanning.xml:91(para)
 msgid ""
@@ -406,17 +473,20 @@ msgstr ""
 
 #: desktop-guide/C/printing-scanning.xml:100(para)
 msgid "There are two reasons why you might get this message:"
-msgstr ""
+msgstr "Есть две причины, по которым вы могли получить это сообщение:"
 
 #: desktop-guide/C/printing-scanning.xml:103(para)
 msgid ""
 "Your scanner is not supported in Xubuntu. For example, most parallel port "
 "scanners and Lexmark All-in-One printer/scanner/faxes are not supported."
 msgstr ""
+"Ваш сканер не поддерживается в Xubuntu. Например, большинство сканеров с "
+"интерфейсом параллельного порта и многофункциональных устройств Lexmark "
+"(принтер/сканер/факс) не поддерживаются."
 
 #: desktop-guide/C/printing-scanning.xml:104(para)
 msgid "The driver for your scanner is not being loaded automatically"
-msgstr ""
+msgstr "Драйвер сканера не был загружен автоматически"
 
 #: desktop-guide/C/printing-scanning.xml:107(para)
 msgid ""
@@ -425,26 +495,35 @@ msgid ""
 "url=\"http://ubuntuforums.org/\">Ubuntu forums</ulink> or on <ulink "
 "url=\"http://askubuntu.com/\">AskUbuntu</ulink>."
 msgstr ""
+"Возможно, вам удастся заставить сканер работать, установив драйвер или внеся "
+"изменения в некоторые конфигурационные файлы. Спросите совета на <ulink "
+"url=\"http://ubuntuforums.org/\">форуме Ubuntu</ulink> или на сайте <ulink "
+"url=\"http://askubuntu.com/\">AskUbuntu</ulink>."
 
 #: desktop-guide/C/printing-scanning.xml:109(para)
 msgid ""
 "To get some scanners working, you may need to plug in the scanner after the "
 "computer has booted."
 msgstr ""
+"Для работы некоторых сканеров может быть необходимо подключать их после "
+"того, как компьютер загрузится."
 
 #: desktop-guide/C/printing-scanning.xml:113(title)
 msgid "Manually installing a scanner"
-msgstr ""
+msgstr "Установка сканера вручную"
 
 #: desktop-guide/C/printing-scanning.xml:115(para)
 msgid ""
 "There are some scanners that have less-than-complete drivers from the SANE "
 "project. They can sometimes be used, but not all the features may work."
 msgstr ""
+"Существуют сканеры, драйверы которых из проекта SANE не обеспечивают полной "
+"функциональности. В некоторых случаях их можно использовать, но работать "
+"будут не все функции сканера."
 
 #: desktop-guide/C/printing-scanning.xml:118(para)
 msgid "Install the <literal><placeholder-1/>libsane-extras</literal> package"
-msgstr ""
+msgstr "Установите пакет <literal><placeholder-1/>libsane-extras</literal>"
 
 #: desktop-guide/C/printing-scanning.xml:119(para)
 msgid ""
@@ -459,6 +538,9 @@ msgid ""
 "<literal>#</literal> from in front of the name of the driver. You may need "
 "to search the web to find out which driver is the right one."
 msgstr ""
+"Активируйте подходящий драйвер для сканера, убрав символ "
+"<literal>#</literal> перед именем драйвера. Чтобы узнать, какой драйвер "
+"подходит, может понадобиться выполнить поиск в Интернете."
 
 #: desktop-guide/C/printing-scanning.xml:121(para)
 msgid ""
@@ -468,7 +550,7 @@ msgstr ""
 
 #: desktop-guide/C/offline-packages.xml:12(title)
 msgid "Offline Package Management"
-msgstr ""
+msgstr "Управление пакетами в оффлайн-режиме"
 
 #: desktop-guide/C/offline-packages.xml:14(para)
 msgid ""
@@ -477,10 +559,13 @@ msgid ""
 "multiple steps involved in the process of doing this. With a USB flash drive "
 "available to you, this can be managed."
 msgstr ""
+"Инструмент <application>apt-offline</application> позволяет поддерживать "
+"программное обеспечение компьютера в актуальном состоянии, даже если он не "
+"подключён к Интернету. Для этого можно воспользоваться USB флэш-диском."
 
 #: desktop-guide/C/offline-packages.xml:17(title)
 msgid "Updating Repositories"
-msgstr ""
+msgstr "Обновление репозиториев"
 
 #: desktop-guide/C/offline-packages.xml:19(para)
 msgid ""
@@ -490,12 +575,19 @@ msgid ""
 "fixes and/or security updates available to apply to your computer. This also "
 "allows you to know if new software is available."
 msgstr ""
+"Подключив USB-носитель и открыв терминал, вы можете использовать apt-"
+"offline, чтобы сгенерировать запрос на обновление информации о репозиториях "
+"программного обеспечения. Это позволит компьютеру определить, имеются ли "
+"исправления ошибок и/или обновления безопасности для применения в вашей "
+"системе, а также узнать о доступности новых версий программ."
 
 #: desktop-guide/C/offline-packages.xml:21(para)
 msgid ""
 "From your disconnected computer you enter this at the command line: "
 "<userinput>apt-offline set --update apt-offline.sig</userinput>"
 msgstr ""
+"На не подключённом к Интернету компьютере введите в командной строке: "
+"<userinput>apt-offline set --update apt-offline.sig</userinput>"
 
 #: desktop-guide/C/offline-packages.xml:23(para) desktop-guide/C/offline-packages.xml:49(para)
 msgid ""
@@ -510,6 +602,17 @@ msgid ""
 "Some errors in red text may show up about being unable to download files "
 "relative to translations but these can be safely ignored."
 msgstr ""
+"После того, как выполнение команды завершится и будет создан файл "
+"<userinput>apt-offline.sig</userinput>, скопируйте его на USB-носитель и "
+"перенесите на другой компьютер. Если на этом компьютере установлен apt-"
+"offline, можно использовать данный файл для скачивания данных, необходимых "
+"не подключённому к Интернету компьютеру для обновления. Если вы уже открыли "
+"терминал и  флэш-диск содержит <userinput>apt-offline.sig</userinput>, "
+"введите <userinput>apt-offline get --bundle bundle.zip apt-"
+"offline.sig</userinput>. Когда команда завершится, можно извлечь USB-"
+"носитель и вновь вставить его в не подключённый компьютер. Могут быть выданы "
+"некоторые ошибки красным шрифтом о невозможности загрузки файлов, "
+"относящихся к переводам, но их можно без вреда проигнорировать."
 
 #: desktop-guide/C/offline-packages.xml:25(para) desktop-guide/C/offline-packages.xml:51(para)
 msgid ""
@@ -519,10 +622,15 @@ msgid ""
 "install bundle.zip</userinput>. You will see some program output scroll by "
 "and once it completes your repositories will be updated."
 msgstr ""
+"Вернувшись на не подключённый к Интернету компьютер, вставьте в него USB-"
+"носитель. Откройте терминал и перейдите в каталог на флэш-диске, содержащий "
+"два файла, затем введите: <userinput>sudo apt-offline install "
+"bundle.zip</userinput>. На экране будет прокручиваться некоторая информация, "
+"а когда этот процесс закончится, ваши репозитории будут обновлены."
 
 #: desktop-guide/C/offline-packages.xml:29(title)
 msgid "Installing a Package"
-msgstr ""
+msgstr "Установка пакета"
 
 #: desktop-guide/C/offline-packages.xml:31(para)
 msgid ""
@@ -683,6 +791,7 @@ msgstr ""
 msgid ""
 "@@image: '../common/images/location_icon.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
+"@@image: '../common/images/location_icon.png'; md5=THIS FILE DOESN'T EXIST"
 
 #: desktop-guide/C/migrating-upgrading.xml:12(title)
 msgid "Migrating and Upgrading"
@@ -690,7 +799,7 @@ msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:15(title)
 msgid "Migrating from Windows"
-msgstr ""
+msgstr "Миграция с Windows"
 
 #: desktop-guide/C/migrating-upgrading.xml:18(title)
 msgid "A quick Windows&ndash;Xubuntu dictionary"
@@ -698,23 +807,23 @@ msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:21(segtitle)
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: desktop-guide/C/migrating-upgrading.xml:21(segtitle)
 msgid "Xubuntu"
-msgstr ""
+msgstr "Xubuntu"
 
 #: desktop-guide/C/migrating-upgrading.xml:22(seg)
 msgid "Add/Remove Programs"
-msgstr ""
+msgstr "Установка/удаление программ"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "Ubuntu Software Center"
-msgstr ""
+msgstr "Центр приложений Ubuntu"
 
 #: desktop-guide/C/migrating-upgrading.xml:23(seg)
 msgid "Control Panel"
-msgstr ""
+msgstr "Панель управления"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "Settings Manager"
@@ -722,7 +831,7 @@ msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "System (menu)"
-msgstr ""
+msgstr "Система (меню)"
 
 #: desktop-guide/C/migrating-upgrading.xml:23(seg)
 msgid ""
@@ -731,32 +840,38 @@ msgid ""
 "<?br?><application><menuchoice><placeholder-3/><placeholder-"
 "4/></menuchoice></application> for system-wide configuration"
 msgstr ""
+"<application><menuchoice><placeholder-1/><placeholder-"
+"2/></menuchoice></application> для персональных настроек "
+"<?br?><application><menuchoice><placeholder-3/><placeholder-"
+"4/></menuchoice></application> для общесистемных настроек"
 
 #: desktop-guide/C/migrating-upgrading.xml:24(seg)
 msgid "Windows Explorer"
-msgstr ""
+msgstr "Проводник Windows"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "File Manager"
-msgstr ""
+msgstr "Файловый менеджер"
 
 #: desktop-guide/C/migrating-upgrading.xml:25(seg)
 msgid "My Documents"
-msgstr ""
+msgstr "Мои документы"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(filename)
 msgid "<placeholder-1/> /home/username/"
-msgstr ""
+msgstr "<placeholder-1/> /home/имя_пользователя/"
 
 #: desktop-guide/C/migrating-upgrading.xml:30(title)
 msgid "Windows applications on Linux"
-msgstr ""
+msgstr "Приложения Windows в Linux"
 
 #: desktop-guide/C/migrating-upgrading.xml:31(para)
 msgid ""
 "It is possible to run Windows applications under Xubuntu. A few possible "
 "choices are:"
 msgstr ""
+"Существует возможность запуска приложений Windows в Xubuntu. Возможные "
+"варианты:"
 
 #: desktop-guide/C/migrating-upgrading.xml:33(para)
 msgid ""
@@ -767,6 +882,13 @@ msgid ""
 "url=\"http://www.winehq.org/help/\">Wine documentation</ulink> for FAQ's and "
 "user support."
 msgstr ""
+"<ulink url=\"http://winehq.org/\">Wine</ulink>, эмулятор Windows. Wine "
+"позволяет запускать некоторые приложения Windows, не устанавливая саму "
+"операционную систему Windows. Обратитесь к <ulink "
+"url=\"http://appdb.winehq.org/\">Wine AppDB</ulink>, чтобы узнать, какие "
+"приложения будут работать в Wine, а также к <ulink "
+"url=\"http://www.winehq.org/help/\">документации Wine</ulink> для получения "
+"ответов на часто задаваемые вопросы и поддержки пользователей."
 
 #: desktop-guide/C/migrating-upgrading.xml:34(para)
 msgid ""
@@ -778,10 +900,18 @@ msgid ""
 "url=\"https://www.virtualbox.org/wiki/End-user_documentation\">VirtualBox "
 "end-user documentation</ulink>."
 msgstr ""
+"<ulink url=\"https://www.virtualbox.org/\">VirtualBox</ulink>, программа "
+"виртуализации. Можно установить операционную систему Windows вместе с любым "
+"приложением в виртуальной машине под управлением VirtualBox. Заметьте, что "
+"поддержка 3D в VirtualBox пока весьма ненадёжна. Чтобы узнать больше о "
+"VirtualBox и виртуализации, обратитесь к <ulink "
+"url=\"https://www.virtualbox.org/wiki/End-"
+"user_documentation\">пользовательской документации VirtualBox</ulink>."
 
 #: desktop-guide/C/migrating-upgrading.xml:37(para)
 msgid "Both Wine and VirtualBox are available in the software repositories."
 msgstr ""
+"И Wine, и VirtualBox доступны в репозиториях программного обеспечения."
 
 #: desktop-guide/C/migrating-upgrading.xml:41(title)
 msgid "Windows networking on Linux"
@@ -821,11 +951,11 @@ msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:54(title)
 msgid "Upgrading from an older version of Xubuntu"
-msgstr ""
+msgstr "Обновление со старых версий Xubuntu"
 
 #: desktop-guide/C/migrating-upgrading.xml:57(title)
 msgid "How can I upgrade to the latest version of Xubuntu?"
-msgstr ""
+msgstr "Как выполнить обновление до самой новой версии Xubuntu?"
 
 #: desktop-guide/C/migrating-upgrading.xml:59(para)
 msgid ""
@@ -880,6 +1010,9 @@ msgid ""
 "packages must be downloaded and installed, although the actual figure will "
 "depend on how many packages are already installed on your computer."
 msgstr ""
+"Обновление обычно занимает некоторое время. Как правило, для этого должно "
+"быть скачано и установлено около 700 МБ пакетов, это будет зависеть от того, "
+"сколько пакетов уже установлено на вашем компьютере."
 
 #: desktop-guide/C/migrating-upgrading.xml:72(para)
 msgid ""
@@ -891,6 +1024,13 @@ msgid ""
 "this rule is with Long Term Support (LTS) releases. You can upgrade directly "
 "from the previous LTS release to the current LTS release."
 msgstr ""
+"Обновиться до последней версии Xubuntu можно только в том случае, если вы "
+"работаете в предыдущей версии. Если у вас более старая версия, нужно "
+"обновиться до следующей после неё версии и так далее, пока не достигнете "
+"самой свежей версии. Например, пользователи версии 9.04 должны обновиться до "
+"9.10 перед обновлением до версии 10.04. Исключением из этого правила "
+"являются выпуски с долгосрочной поддержкой (LTS). Вы можете обновиться "
+"непосредственно с предыдущего LTS-выпуска до текущего LTS-выпуска."
 
 #: desktop-guide/C/migrating-upgrading.xml:76(title)
 msgid "Upgrading to a development release"
@@ -914,15 +1054,15 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:12(title)
 msgid "Media applications"
-msgstr ""
+msgstr "Мультимедийные приложения"
 
 #: desktop-guide/C/media-apps.xml:15(title)
 msgid "Music"
-msgstr ""
+msgstr "Музыка"
 
 #: desktop-guide/C/media-apps.xml:18(title)
 msgid "Listening to music"
-msgstr ""
+msgstr "Прослушивание музыки"
 
 #: desktop-guide/C/media-apps.xml:20(para)
 msgid ""
@@ -1015,7 +1155,7 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:43(title)
 msgid "Portable music players"
-msgstr ""
+msgstr "Портативные аудиоплееры"
 
 #: desktop-guide/C/media-apps.xml:45(para)
 msgid ""
@@ -1031,6 +1171,9 @@ msgid ""
 "Xubuntu unless you have done an initial synchronization with "
 "<application>iTunes</application> first."
 msgstr ""
+"Новые устройства iPod (6-е поколение и выше) не будут автоматически работать "
+"с Xubuntu, пока вы не выполните начальную синхронизацию с "
+"<application>iTunes</application>."
 
 #: desktop-guide/C/media-apps.xml:49(para)
 msgid ""
@@ -1043,7 +1186,7 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:54(title)
 msgid "Movies, DVDs and videos"
-msgstr ""
+msgstr "Фильмы, DVD и видеоклипы"
 
 #: desktop-guide/C/media-apps.xml:56(para)
 msgid ""
@@ -1053,7 +1196,7 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:59(title)
 msgid "Playing DVDs"
-msgstr ""
+msgstr "Воспроизведение DVD"
 
 #: desktop-guide/C/media-apps.xml:61(para)
 msgid ""
@@ -1061,6 +1204,9 @@ msgid ""
 "Unfortunately, DVD support cannot be provided by default in Xubuntu due to "
 "legal restrictions in some countries."
 msgstr ""
+"Для воспроизведения DVD понадобится установить некоторые дополнительные "
+"программы. К сожалению, поддержка DVD не может предоставляться в Xubuntu по "
+"умолчанию из-за правовых ограничений в некоторых странах."
 
 #: desktop-guide/C/media-apps.xml:63(para)
 msgid ""
@@ -1068,10 +1214,13 @@ msgid ""
 "the instructions below. There are some legal issues that you should be aware "
 "of."
 msgstr ""
+"Прочтите <xref linkend=\"software-repositories-restricted\"/>, прежде чем "
+"следовать приведённым ниже инструкциям. Там описаны некоторые юридические "
+"тонкости, которые вам следует знать."
 
 #: desktop-guide/C/media-apps.xml:65(para)
 msgid "To be able to play DVDs, do the following:"
-msgstr ""
+msgstr "Чтобы получить возможность воспроизведения DVD, сделайте следующее:"
 
 #: desktop-guide/C/media-apps.xml:68(para)
 msgid ""
@@ -1079,6 +1228,9 @@ msgid ""
 "<literal><placeholder-2/>libdvdread4</literal> and <literal><placeholder-"
 "3/>gstreamer0.10-plugins-ugly</literal> packages."
 msgstr ""
+"Установите пакеты <literal><placeholder-1/>libdvdnav4</literal>, "
+"<literal><placeholder-2/>libdvdread4</literal> и <literal><placeholder-"
+"3/>gstreamer0.10-plugins-ugly</literal>."
 
 #: desktop-guide/C/media-apps.xml:69(para)
 msgid ""
@@ -1097,6 +1249,8 @@ msgid ""
 "1/>libdvdcss2</literal> package will be downloaded and installed from a "
 "website."
 msgstr ""
+"Введите свой пароль, когда будет предложено. Пакет <literal><placeholder-"
+"1/>libdvdcss2</literal> будет скачан с веб-сайта и установлен."
 
 #: desktop-guide/C/media-apps.xml:71(para)
 msgid ""
@@ -1106,7 +1260,7 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:76(title)
 msgid "Playing video"
-msgstr ""
+msgstr "Воспроизведение видео"
 
 #: desktop-guide/C/media-apps.xml:78(para)
 msgid ""
@@ -1136,6 +1290,10 @@ msgid ""
 "are proprietary and so support for them cannot be included in Xubuntu by "
 "default. You must install some extra software to allow playback."
 msgstr ""
+"Некоторые видеоформаты, такие как Adobe Flash, QuickTime и Windows Media "
+"Video, являются проприетарными, и их поддержка не может быть включена в "
+"Xubuntu по умолчанию. Вам придётся установить некоторые дополнительные "
+"программы, чтобы обеспечить их воспроизведение."
 
 #: desktop-guide/C/media-apps.xml:87(para)
 msgid ""
@@ -1148,11 +1306,11 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:93(title)
 msgid "Photos and cameras"
-msgstr ""
+msgstr "Фотографии и фотокамеры"
 
 #: desktop-guide/C/media-apps.xml:96(title)
 msgid "Importing photos from a digital camera"
-msgstr ""
+msgstr "Импорт фотографий с цифровых камер"
 
 #: desktop-guide/C/media-apps.xml:98(para)
 msgid ""
@@ -1160,6 +1318,9 @@ msgid ""
 "and will offer to import your photos automatically. To import photos from "
 "your camera:"
 msgstr ""
+"Xubuntu автоматически обнаруживает при подключении большинство цифровых "
+"фотокамер и автоматически предлагает импортировать фотографии с них. Чтобы "
+"импортировать фотографии с камеры:"
 
 #: desktop-guide/C/media-apps.xml:101(para)
 msgid ""
@@ -1228,7 +1389,7 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:120(title)
 msgid "Organizing your photo collection"
-msgstr ""
+msgstr "Организация коллекции фотографий"
 
 #: desktop-guide/C/media-apps.xml:122(para)
 msgid ""
@@ -1248,13 +1409,15 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:126(title)
 msgid "Watch a slideshow of photos"
-msgstr ""
+msgstr "Просмотр фотографий в виде слайд-шоу"
 
 #: desktop-guide/C/media-apps.xml:128(para)
 msgid ""
 "If you want to show off your photos in all of their glory, why not run a "
 "slideshow of them?"
 msgstr ""
+"Если вы хотите продемонстировать свои фотографии во всей красе, почему бы не "
+"показать их в виде слайд-шоу?"
 
 #: desktop-guide/C/media-apps.xml:131(para)
 msgid ""
@@ -1265,7 +1428,7 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:132(para)
 msgid "Select the directory of photos to view"
-msgstr ""
+msgstr "Выберите каталог с фотографиями для просмотра"
 
 #: desktop-guide/C/media-apps.xml:133(para)
 msgid ""
@@ -1276,17 +1439,21 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:138(title)
 msgid "Printing photos"
-msgstr ""
+msgstr "Печать фотографий"
 
 #: desktop-guide/C/media-apps.xml:140(para)
 msgid ""
 "Printing your photos is great way to share them with others. To print your "
 "photos:"
 msgstr ""
+"Печать фотографий — отличный способ поделиться ими с другими людьми. Чтобы "
+"распечатать фотографии:"
 
 #: desktop-guide/C/media-apps.xml:143(para)
 msgid "Open the photo you want to print in <application>gThumb</application>"
 msgstr ""
+"Откройте фотографию, которую нужно распечатать, в "
+"<application>gThumb</application>"
 
 #: desktop-guide/C/media-apps.xml:144(para)
 msgid ""
@@ -1294,16 +1461,21 @@ msgid ""
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Print</guimenuitem></menuchoi"
 "ce>"
 msgstr ""
+"Нажмите "
+"<menuchoice><guimenu>Файл</guimenu><guimenuitem>Печать</guimenuitem></menucho"
+"ice>"
 
 #: desktop-guide/C/media-apps.xml:145(para)
 msgid "Select the desired printer"
-msgstr ""
+msgstr "Выберите принтер"
 
 #: desktop-guide/C/media-apps.xml:146(para)
 msgid ""
 "You can then adjust various settings like orientation, image quality, etc. "
 "by clicking on the appropriate tabs"
 msgstr ""
+"Затем можете настроить различные параметры: ориентацию, качество изображения "
+"и т.п., перейдя на соответствующие вкладки"
 
 #: desktop-guide/C/media-apps.xml:147(para)
 msgid "When ready, click the <guibutton>Print</guibutton> button"
@@ -1311,7 +1483,7 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:152(title)
 msgid "Editing and improving photos"
-msgstr ""
+msgstr "Редактирование и улучшение фотографий"
 
 #: desktop-guide/C/media-apps.xml:154(para)
 msgid ""
@@ -1327,11 +1499,15 @@ msgid ""
 "In addition to editing photos, you sometimes want to resize them. To resize "
 "photos:"
 msgstr ""
+"В дополнение к редактированию фотографий иногда вам может понадобиться "
+"изменить их размер. Чтобы изменить размер фотографий:"
 
 #: desktop-guide/C/media-apps.xml:159(para)
 msgid ""
 "Open the photo you want to resize in <application>gThumb</application>"
 msgstr ""
+"Откройте фотографию, размер которой нужно изменить, в "
+"<application>gThumb</application>"
 
 #: desktop-guide/C/media-apps.xml:160(para)
 msgid ""
@@ -1365,16 +1541,19 @@ msgstr ""
 #: desktop-guide/C/media-apps.xml:165(para)
 msgid "Click <guibutton>OK</guibutton> to save the resized photo"
 msgstr ""
+"Нажмите <guibutton>OK</guibutton>, чтобы сохранить изменённую фотографию"
 
 #: desktop-guide/C/media-apps.xml:171(title)
 msgid "Burning CDs and DVDs"
-msgstr ""
+msgstr "Запись CD и DVD"
 
 #: desktop-guide/C/media-apps.xml:173(para)
 msgid ""
 "You can make your own CDs and DVDs by burning files onto a blank disc using "
 "the CD or DVD writer drive of your computer."
 msgstr ""
+"Вы можете создать свои собственные CD и DVD, записав файлы на пустой диск с "
+"помощью пишущего привода CD/DVD в вашем компьютере."
 
 #: desktop-guide/C/media-apps.xml:175(para)
 msgid ""
@@ -1383,6 +1562,10 @@ msgid ""
 "easily create audio CDs, burn CDs and DVDs with either plain data or disk "
 "images and prepare blank re-writable disks for a new burn."
 msgstr ""
+"<application>Xfburn</application> — приложение по умолчанию в Xubuntu для "
+"выполнения этих задач. <application>Xfburn</application> позволяет легко "
+"создать аудио-CD, записать CD или DVD с данными или изображениями, а также "
+"подготовить перезаписываемые диски для новой записи."
 
 #: desktop-guide/C/media-apps.xml:177(para)
 msgid ""
@@ -1402,7 +1585,7 @@ msgstr ""
 
 #: desktop-guide/C/managing-applications.xml:12(title)
 msgid "Managing installed applications"
-msgstr ""
+msgstr "Управление установленными приложениями"
 
 #: desktop-guide/C/managing-applications.xml:14(para)
 msgid ""
@@ -1411,16 +1594,22 @@ msgid ""
 "applications and libraries are stored as packages in the repositories and "
 "they are added, removed and updated with package managers."
 msgstr ""
+"В Xubuntu у вас нет необходимости скачивать и устанавливать пакеты по "
+"отдельности. Вместо этого вы можете использовать для установки новых "
+"программ. Приложения и библиотеки хранятся в репозиториях в виде пакетов и "
+"добавляются, удаляются и обновляются с помощью менеджеров пакетов."
 
 #: desktop-guide/C/managing-applications.xml:16(para)
 msgid "Xubuntu comes with two package managers installed:"
-msgstr ""
+msgstr "В Xubuntu установлено два менеджера пакетов:"
 
 #: desktop-guide/C/managing-applications.xml:19(para)
 msgid ""
 "<application>Ubuntu Software Center</application>, a simple graphical user "
 "interface to install new software."
 msgstr ""
+"<application>Центр приложений Ubuntu</application>, простой графический "
+"интерфейс для установки нового программного обеспечения."
 
 #: desktop-guide/C/managing-applications.xml:20(para)
 msgid ""
@@ -1429,20 +1618,29 @@ msgid ""
 "get</application>, see the <ulink url=\"http://www.debian.org/doc/user-"
 "manuals#apt-howto\">Debian apt manual</ulink>."
 msgstr ""
+"<application>apt-get</application>, инструмент командной строки, который "
+"можно использовать для расширенного управления пакетами. Дополнительную "
+"информацию об <application>apt-get</application> смотрите в <ulink "
+"url=\"http://www.debian.org/doc/user-manuals#apt-howto\">руководстве Debian "
+"по apt</ulink>."
 
 #: desktop-guide/C/managing-applications.xml:23(para)
 msgid "You will need administrative access to add and remove software."
 msgstr ""
+"Для установки и удаления программ необходимо обладать правами администратора."
 
 #: desktop-guide/C/managing-applications.xml:25(para)
 msgid ""
 "You can only use one package manager at a time. If you start another package "
 "manager while one is already open, you will receive an error message."
 msgstr ""
+"Нельзя запускать несколько менеджеров пакетов одновременно. Если вы "
+"запустите ещё один менеджер пакетов в то время, когда один менеджер пакетов "
+"уже запущен, вы получите сообщение об ошибке."
 
 #: desktop-guide/C/managing-applications.xml:28(title)
 msgid "Using Ubuntu Software Center"
-msgstr ""
+msgstr "Использование Центра приложений Ubuntu"
 
 #: desktop-guide/C/managing-applications.xml:30(para)
 msgid ""
@@ -1453,23 +1651,26 @@ msgstr ""
 
 #: desktop-guide/C/managing-applications.xml:33(title)
 msgid "Installing new software"
-msgstr ""
+msgstr "Установка новых программ"
 
 #: desktop-guide/C/managing-applications.xml:36(para)
 msgid ""
 "Search for an application or select a category to find an application you "
 "want to install"
 msgstr ""
+"Выполните поиск приложения или выберите категорию, чтобы найти приложение, "
+"которое вы хотите установить"
 
 #: desktop-guide/C/managing-applications.xml:37(para)
 msgid "From the application page, click <guibutton>Install</guibutton>"
 msgstr ""
+"На странице приложения нажмите кнопку <guibutton>Установить</guibutton>"
 
 #: desktop-guide/C/managing-applications.xml:38(para)
 msgid ""
 "You will be asked to enter your password; once you do that, the installation "
 "will begin"
-msgstr ""
+msgstr "У вас будет запрошен пароль, и после его ввода начнётся установка"
 
 #: desktop-guide/C/managing-applications.xml:39(para)
 msgid "A shortcut to your application will added to the Applications menu"
@@ -1480,10 +1681,12 @@ msgid ""
 "To be able to install new software from the repositories, you need to be "
 "connected to the Internet."
 msgstr ""
+"Для установки нового программного обеспечения из репозиториев компьютер "
+"должен быть подключён к Интернету."
 
 #: desktop-guide/C/managing-applications.xml:46(title)
 msgid "Removing software"
-msgstr ""
+msgstr "Удаление программ"
 
 #: desktop-guide/C/managing-applications.xml:49(para)
 msgid "Click <guilabel>Installed</guilabel> on the top panel"
@@ -1494,16 +1697,19 @@ msgid ""
 "Find the application that you want to remove by using the search box or "
 "looking through the installed applications"
 msgstr ""
+"Найдите приложение, которое вы хотите удалить, воспользовавшись полем поиска "
+"или просмотрев список установленных приложений"
 
 #: desktop-guide/C/managing-applications.xml:51(para)
 msgid "Select the application and click <guibutton>Remove</guibutton>"
-msgstr ""
+msgstr "Выберите приложение и нажмите <guibutton>Удалить</guibutton>"
 
 #: desktop-guide/C/managing-applications.xml:52(para)
 msgid ""
 "You may be asked to enter your password; once you do that, the application "
 "will be removed"
 msgstr ""
+"У вас может быть запрошен пароль. После его ввода приложение будет удалено"
 
 #: desktop-guide/C/managing-applications.xml:55(para)
 msgid ""
@@ -1512,14 +1718,18 @@ msgid ""
 "application, both of them will be removed. You will be asked to confirm that "
 "this is what you want to happen before the applications are removed."
 msgstr ""
+"Некоторым приложениям требуются другие установленные приложения для "
+"нормальной работы. Если вы попытаетесь удалить приложение, которое "
+"необходимо другому приложению, то они оба будут удалены. Перед удалением вам "
+"будет предложено подтвердить, что вы действительно хотите это сделать."
 
 #: desktop-guide/C/managing-applications.xml:60(title)
 msgid "Additional software repositories"
-msgstr ""
+msgstr "Дополнительные репозитории программ"
 
 #: desktop-guide/C/managing-applications.xml:63(title)
 msgid "Enabling more repositories"
-msgstr ""
+msgstr "Подключение дополнительных репозиториев"
 
 #: desktop-guide/C/managing-applications.xml:65(para)
 msgid ""
@@ -1527,6 +1737,9 @@ msgid ""
 "parties or those for older version of Xubuntu. To enable more software "
 "repositories:"
 msgstr ""
+"Существует возможность добавить дополнительные репозитории, например, "
+"предоставленные сторонними разработчиками или от старых версий Xubuntu. "
+"Чтобы подключить дополнительные репозитории:"
 
 #: desktop-guide/C/managing-applications.xml:68(para)
 msgid ""
@@ -1579,6 +1792,9 @@ msgid ""
 "Be careful when installing software from third-party repositories. It may "
 "not have been tested with Xubuntu and could cause your system to break."
 msgstr ""
+"Будьте осторожны, устанавливая программы из сторонних репозиториев. Они "
+"могут быть не протестированы для работы с Xubuntu и могут привести к сбою "
+"вашей системы."
 
 #: desktop-guide/C/managing-applications.xml:80(title)
 msgid "Restricted and non-free software"
@@ -1591,6 +1807,10 @@ msgid ""
 "the software and redistribute it if they like. Xubuntu is built from this "
 "type of software."
 msgstr ""
+"Большая часть программного обеспечения, доступного в Xubuntu, является "
+"свободным, с открытым исходным кодом. Эти программы можно устанавливать и "
+"использовать бесплатно, и при желании их можно изменять и "
+"перераспространять. Xubuntu состоит из этого типа программного обеспечения."
 
 #: desktop-guide/C/managing-applications.xml:84(para)
 msgid ""
@@ -1641,21 +1861,25 @@ msgstr ""
 
 #: desktop-guide/C/managing-applications.xml:97(title)
 msgid "Installing packages without an Internet connection"
-msgstr ""
+msgstr "Установка пакетов без соединения с Интернетом"
 
 #: desktop-guide/C/managing-applications.xml:100(title)
 msgid "Adding discs as software sources"
-msgstr ""
+msgstr "Добавление дисков в качестве источников программ"
 
 #: desktop-guide/C/managing-applications.xml:102(para)
 msgid "To add a disc as a software source for your system:"
 msgstr ""
+"Чтобы добавить диск в качестве источника программного обеспечения для вашей "
+"системы:"
 
 #: desktop-guide/C/managing-applications.xml:105(para)
 msgid ""
 "Insert a disc with packages; e.g., the Xubuntu installation disc which comes "
 "with a limited selection of packages"
 msgstr ""
+"Вставьте диск с пакетами. Например, установочный диск Xubuntu, который "
+"содержит ограниченный набор пакетов"
 
 #: desktop-guide/C/managing-applications.xml:106(para)
 msgid ""
@@ -1679,7 +1903,7 @@ msgstr ""
 
 #: desktop-guide/C/managing-applications.xml:114(title)
 msgid "Helpful applications"
-msgstr ""
+msgstr "Полезные приложения"
 
 #: desktop-guide/C/managing-applications.xml:116(para)
 msgid ""
@@ -1692,6 +1916,15 @@ msgid ""
 "need is time, patience, and a portable USB storage device. A usage example "
 "to learn more about this in <xref linkend=\"offline-packages\"/>."
 msgstr ""
+"Если у вас низкоскоростной доступ к Интернету, <application>apt-"
+"offline</application> позволит использовать другой компьютер с более "
+"качественным доступом для загрузки пакетов и проверки наличия обновлений, "
+"например, связанных с безопасностью. На другом компьютере может быть "
+"установлена Xubuntu, другая разновидность Ubuntu или Debian. Графический "
+"интерфейс доступен через <application>apt-offline-gui</application>, который "
+"делает кажущийся сложным процесс проще. Всё, что вам понадобится, это время, "
+"терпение и съёмный USB-носитель. Пример использования показан в <xref "
+"linkend=\"offline-packages\"/>."
 
 #: desktop-guide/C/managing-applications.xml:118(para)
 msgid ""
@@ -1703,10 +1936,17 @@ msgid ""
 "can be found on the <ulink url=\"http://aptoncd.sourceforge.net/\">APTonCD "
 "website</ulink>."
 msgstr ""
+"<application>APTonCD</application> позволяет скопировать набор пакетов, "
+"которые уже загружены на чей-нибудь ещё компьютер, чтобы установить их на "
+"ваш компьютер, или наоборот. В менеджере пакетов, таком как "
+"<application>Центр приложений Ubuntu</application>, найдите пакет "
+"<application>APTonCD</application> и установите его. Дальнейшую документацию "
+"по <application>APTonCD</application> можно найти на <ulink "
+"url=\"http://aptoncd.sourceforge.net/\">веб-сайте APTonCD</ulink>."
 
 #: desktop-guide/C/managing-applications.xml:123(title)
 msgid "Changing update frequency and behavior"
-msgstr ""
+msgstr "Изменение частоты и способа обновлений"
 
 #: desktop-guide/C/managing-applications.xml:125(para)
 msgid ""
@@ -1746,7 +1986,7 @@ msgstr ""
 
 #: desktop-guide/C/managing-applications.xml:136(para)
 msgid "The following updates should be used with some caution."
-msgstr ""
+msgstr "К следующем обновлениям нужно относиться с некоторой осторожностью."
 
 #: desktop-guide/C/managing-applications.xml:139(para)
 msgid ""
@@ -1814,7 +2054,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:12(title)
 msgid "Connecting to Internet and Networks"
-msgstr ""
+msgstr "Подключение к Интернету и локальным сетям"
 
 #: desktop-guide/C/internet-networks.xml:14(para)
 msgid ""
@@ -1834,11 +2074,11 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:19(title)
 msgid "Network connections"
-msgstr ""
+msgstr "Сетевые соединения"
 
 #: desktop-guide/C/internet-networks.xml:22(title)
 msgid "Connecting and disconnecting"
-msgstr ""
+msgstr "Подключение и отключение"
 
 #: desktop-guide/C/internet-networks.xml:24(para)
 msgid ""
@@ -1872,7 +2112,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:34(title)
 msgid "Configuring connections"
-msgstr ""
+msgstr "Настройка соединений"
 
 #: desktop-guide/C/internet-networks.xml:36(para)
 msgid ""
@@ -1893,7 +2133,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:42(title)
 msgid "Connection information"
-msgstr ""
+msgstr "Информация о соединении"
 
 #: desktop-guide/C/internet-networks.xml:44(para)
 msgid ""
@@ -1918,7 +2158,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:54(title)
 msgid "Dialup modems"
-msgstr ""
+msgstr "Коммутируемые подключения"
 
 #: desktop-guide/C/internet-networks.xml:56(para)
 msgid ""
@@ -1931,7 +2171,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:60(title)
 msgid "Network troubleshooting"
-msgstr ""
+msgstr "Решение проблем с сетевыми соединениями"
 
 #: desktop-guide/C/internet-networks.xml:62(para)
 msgid ""
@@ -2349,7 +2589,7 @@ msgstr ""
 
 #: desktop-guide/C/index.xml:3(title)
 msgid "Credits and License"
-msgstr ""
+msgstr "Благодарности и лицензия"
 
 #: desktop-guide/C/index.xml:4(para)
 msgid ""
@@ -2358,10 +2598,14 @@ msgid ""
 "team</ulink>. This documentation is partly adapted from the Ubuntu "
 "documentation."
 msgstr ""
+"Этот документ поддерживается <ulink "
+"url=\"https://wiki.ubuntu.com/DocumentationTeam\">командой документирования "
+"Ubuntu</ulink>. Его содержимое частично позаимствовано из документации "
+"Ubuntu."
 
 #: desktop-guide/C/index.xml:7(para)
 msgid "The contributors to this documentation are:"
-msgstr ""
+msgstr "В создании этой документации принимали участие:"
 
 #: desktop-guide/C/index.xml:9(para)
 msgid "Sean Davis (smd-seandavis)"
@@ -2393,7 +2637,7 @@ msgstr ""
 
 #: desktop-guide/C/index.xml:18(para)
 msgid "The contributors to previous versions to this documentation are:"
-msgstr ""
+msgstr "В создании предыдущей версии этой документации участвовали:"
 
 #: desktop-guide/C/index.xml:20(para)
 msgid "Jim Campbell (jwcampbell)"
@@ -2420,6 +2664,8 @@ msgid ""
 "This document is made available under the Creative Commons ShareAlike 2.5 "
 "License (CC-BY-SA)."
 msgstr ""
+"Этот документ доступен под лицензией Creative Commons ShareAlike 2.5 (CC-BY-"
+"SA)."
 
 #: desktop-guide/C/index.xml:28(para)
 msgid ""
@@ -2427,6 +2673,9 @@ msgid ""
 "code under the terms of this license. All derivative works must be released "
 "under this license."
 msgstr ""
+"Вы можете изменять, дополнять и улучшать документацию Ubuntu, соблюдая "
+"условия этой лицензии. Все производные работы должны распространяться под "
+"той же лицензией."
 
 #: desktop-guide/C/index.xml:30(para)
 msgid ""
@@ -2434,22 +2683,30 @@ msgid ""
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE AS DESCRIBED IN THE DISCLAIMER."
 msgstr ""
+"Эта документация распространяется в надежде на её полезность, но БЕЗ КАКОЙ-"
+"ЛИБО ГАРАНТИИ, в том числе без подразумеваемой гарантии КОММЕРЧЕСКОЙ "
+"ЦЕННОСТИ или ПРИГОДНОСТИ ДЛЯ ОПРЕДЕЛЁННОЙ ЦЕЛИ, КАК ИЗЛОЖЕНО В ОТКАЗЕ ОТ "
+"ПРАВА."
 
 #: desktop-guide/C/index.xml:33(para)
 msgid ""
 "A copy of the license is available here: <link linkend=\"cc-by-sa\">Creative "
 "Commons ShareAlike License</link>."
 msgstr ""
+"Копия лицензии доступна здесь: <link linkend=\"cc-by-sa\">Лицензия Creative "
+"Commons ShareAlike</link>."
 
 #: desktop-guide/C/index.xml:34(para)
 msgid ""
 "All trademarks or registered trademarks are the property of the respective "
 "owners."
 msgstr ""
+"Все торговые марки и зарегистрированные торговые марки являются "
+"собственностью соответствующих владельцев."
 
 #: desktop-guide/C/index.xml:38(year)
 msgid "2012"
-msgstr ""
+msgstr "2012"
 
 #: desktop-guide/C/index.xml:39(holder)
 msgid ""
@@ -2463,7 +2720,7 @@ msgstr ""
 
 #: desktop-guide/C/index.xml:18(title)
 msgid "Welcome!"
-msgstr ""
+msgstr "Добро пожаловать!"
 
 #: desktop-guide/C/index.xml:20(para)
 msgid ""
@@ -2473,7 +2730,7 @@ msgstr ""
 
 #: desktop-guide/C/index.xml:25(para)
 msgid "In addition, this documentation has three quick guides:"
-msgstr ""
+msgstr "В дополнение, эта документация содержит три кратких руководства:"
 
 #: desktop-guide/C/index.xml:31(para)
 msgid ""
@@ -2482,6 +2739,10 @@ msgid ""
 "<ulink url=\"http://xubuntu.org/help/\">Help &amp; Support</ulink> page of "
 "the Xubuntu website. There you will find links to additional help resources."
 msgstr ""
+"Полный набор тем перечислен ниже. Если вам нужна помощь по теме или "
+"проблеме, которые не освещены в документации, посетите страницу <ulink "
+"url=\"http://xubuntu.org/help/\">Справка и поддержка</ulink> на веб-сайте "
+"Xubuntu. Там вы найдёте ссылки на дополнительные справочные ресурсы."
 
 #: desktop-guide/C/index.xml:33(para)
 msgid ""
@@ -2489,16 +2750,21 @@ msgid ""
 "see the <ulink url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> "
 "section of the Xubuntu website."
 msgstr ""
+"Если вы хотели бы внести свой вклад в Xubuntu, включая эту документацию, "
+"смотрите раздел <ulink "
+"url=\"http://xubuntu.org/contribute/\">Участие</ulink> на веб-сайте Xubuntu."
 
 #: desktop-guide/C/hardware-devices.xml:12(title)
 msgid "Hardware devices"
-msgstr ""
+msgstr "Аппаратное обеспечение"
 
 #: desktop-guide/C/hardware-devices.xml:14(para)
 msgid ""
 "Your computer consists of a number of connected devices that are "
 "collectively known as computer hardware."
 msgstr ""
+"Ваш компьютер состоит из множества соединённых друг с другом устройств, "
+"которые в совокупности называются аппаратным обеспечением компьютера."
 
 #: desktop-guide/C/hardware-devices.xml:16(para)
 msgid ""
@@ -2507,10 +2773,14 @@ msgid ""
 "section provides information on tools which can be used to configure your "
 "hardware."
 msgstr ""
+"Обычно Xubuntu настраивает ваше аппаратное обеспечение автоматически, но "
+"могут возникнуть случаи, когда вам потребуется внести изменения в настройки "
+"оборудования вручную. Этот раздел содержит информацию об инструментах, "
+"которые можно использовать для настройки аппаратного обеспечения."
 
 #: desktop-guide/C/hardware-devices.xml:19(title)
 msgid "Restricted drivers"
-msgstr ""
+msgstr "Проприетарные драйверы"
 
 #: desktop-guide/C/hardware-devices.xml:22(title)
 msgid "Why are some drivers restricted?"
@@ -2591,7 +2861,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:49(title)
 msgid "Disabling restricted drivers"
-msgstr ""
+msgstr "Отключение проприетарных драйверов"
 
 #: desktop-guide/C/hardware-devices.xml:51(para)
 msgid ""
@@ -2619,11 +2889,11 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:65(title)
 msgid "Disks and partitions"
-msgstr ""
+msgstr "Диски и разделы"
 
 #: desktop-guide/C/hardware-devices.xml:68(title)
 msgid "Checking how much disk space is available"
-msgstr ""
+msgstr "Проверка доступного свободного места"
 
 #: desktop-guide/C/hardware-devices.xml:70(para)
 msgid ""
@@ -2631,6 +2901,9 @@ msgid ""
 "<application>Thunar File Manager</application>. There are several ways to do "
 "this:"
 msgstr ""
+"Простейший способ проверить, сколько доступно свободного места на диске, — "
+"запустить <application>файловый менеджер Thunar</application>. Есть "
+"несколько способов сделать это:"
 
 #: desktop-guide/C/hardware-devices.xml:73(para)
 msgid ""
@@ -2658,11 +2931,12 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:82(title)
 msgid "How can I free up disk space?"
-msgstr ""
+msgstr "Как освободить место на диске?"
 
 #: desktop-guide/C/hardware-devices.xml:84(para)
 msgid "There are several simple ways of making more disk space available:"
 msgstr ""
+"Есть несколько простых способов освободить дополнительное место на диске:"
 
 #: desktop-guide/C/hardware-devices.xml:87(para)
 msgid ""
@@ -2700,11 +2974,11 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:93(para)
 msgid "Be careful not to delete files that you still need!"
-msgstr ""
+msgstr "Будьте острожны, и не удалите файлы которые ещё нужны!"
 
 #: desktop-guide/C/hardware-devices.xml:97(title)
 msgid "Partitioning a Device"
-msgstr ""
+msgstr "Изменение разделов устройства"
 
 #: desktop-guide/C/hardware-devices.xml:99(para)
 msgid ""
@@ -2721,6 +2995,8 @@ msgid ""
 "Be careful when altering disk partitions, as it is possible to lose your "
 "data if you delete or change the wrong partition."
 msgstr ""
+"Будьте острожны при изменении разделов диска, так как удаление или изменение "
+"не того раздела может привести к потере ваших данных."
 
 #: desktop-guide/C/hardware-devices.xml:103(para)
 msgid ""
@@ -2730,7 +3006,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:106(title)
 msgid "Freeing space for a new partition"
-msgstr ""
+msgstr "Освобождение места для нового раздела"
 
 #: desktop-guide/C/hardware-devices.xml:108(para)
 msgid ""
@@ -2771,11 +3047,11 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:119(title)
 msgid "Creating a new partition"
-msgstr ""
+msgstr "Создание нового раздела"
 
 #: desktop-guide/C/hardware-devices.xml:121(para)
 msgid "To create a new partition:"
-msgstr ""
+msgstr "Чтобы создать новый раздел:"
 
 #: desktop-guide/C/hardware-devices.xml:125(para)
 msgid ""
@@ -2796,11 +3072,11 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:132(title)
 msgid "Formatting a partition"
-msgstr ""
+msgstr "Форматирование раздела"
 
 #: desktop-guide/C/hardware-devices.xml:134(para)
 msgid "To format a partition, do the following:"
-msgstr ""
+msgstr "Чтобы отформатировать раздел, сделайте следующее:"
 
 #: desktop-guide/C/hardware-devices.xml:138(para)
 msgid ""
@@ -2851,11 +3127,11 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:157(title)
 msgid "Laptops"
-msgstr ""
+msgstr "Ноутбуки"
 
 #: desktop-guide/C/hardware-devices.xml:160(title)
 msgid "Power management settings"
-msgstr ""
+msgstr "Параметры управления питанием"
 
 #: desktop-guide/C/hardware-devices.xml:162(para)
 msgid ""
@@ -2909,7 +3185,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:182(title)
 msgid "Touchpads"
-msgstr ""
+msgstr "Сенсорные панели"
 
 #: desktop-guide/C/hardware-devices.xml:184(para)
 msgid ""
@@ -2918,6 +3194,9 @@ msgid ""
 "behaves; the most basic touchpad settings can be configured in the following "
 "way:"
 msgstr ""
+"Большинство ноутбуков оснащено сенсорными панелями (тачпадами), позволяющими "
+"управлять указателем мыши. Существуют различные способы изменить поведение "
+"сенсорной панели; наиболее общие параметры можно настроить следующим образом:"
 
 #: desktop-guide/C/hardware-devices.xml:187(para)
 msgid ""
@@ -2967,7 +3246,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:203(title)
 msgid "Suspending and Hibernating"
-msgstr ""
+msgstr "Ждущий и спящий режимы"
 
 #: desktop-guide/C/hardware-devices.xml:205(para)
 msgid ""
@@ -3091,7 +3370,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:245(title)
 msgid "Mice and keyboards"
-msgstr ""
+msgstr "Мышь и клавиатура"
 
 #: desktop-guide/C/hardware-devices.xml:247(para)
 msgid ""
@@ -3161,41 +3440,43 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:12(title)
 msgid "Keeping your computer safe"
-msgstr ""
+msgstr "Защита компьютера"
 
 #: desktop-guide/C/guide-keeping-safe.xml:14(para)
 msgid ""
 "This is a brief guide on keeping your computer safe from security threats. "
 "We will guide you through seven different tips:"
 msgstr ""
+"Это краткое руководство по защите компьютера от угроз безопасности. Мы "
+"подробно рассмотрим семь различных советов:"
 
 #: desktop-guide/C/guide-keeping-safe.xml:17(para) desktop-guide/C/guide-keeping-safe.xml:27(title)
 msgid "Change your password regularly"
-msgstr ""
+msgstr "Регулярно меняйте свой пароль"
 
 #: desktop-guide/C/guide-keeping-safe.xml:18(para)
 msgid "Don't use shared user accounts"
-msgstr ""
+msgstr "Не пользуйтесь одной учётной записью с кем-либо ещё"
 
 #: desktop-guide/C/guide-keeping-safe.xml:19(para)
 msgid "Keep your software up-to-date"
-msgstr ""
+msgstr "Поддерживайте программное обеспечение в актуальном состоянии"
 
 #: desktop-guide/C/guide-keeping-safe.xml:20(para) desktop-guide/C/guide-keeping-safe.xml:62(title)
 msgid "Lock your screen while away"
-msgstr ""
+msgstr "Блокируйте экран, когда отходите от компьютера"
 
 #: desktop-guide/C/guide-keeping-safe.xml:21(para) desktop-guide/C/guide-keeping-safe.xml:80(title)
 msgid "Set up a firewall"
-msgstr ""
+msgstr "Установите межсетевой экран"
 
 #: desktop-guide/C/guide-keeping-safe.xml:22(para) desktop-guide/C/guide-keeping-safe.xml:102(title)
 msgid "Use common sense when working in the web"
-msgstr ""
+msgstr "Используйте свой здравый смысл при работе в Интернете"
 
 #: desktop-guide/C/guide-keeping-safe.xml:23(para) desktop-guide/C/guide-keeping-safe.xml:137(title) desktop-guide/C/guide-keeping-safe.xml:159(para)
 msgid "Back up on a regular basis"
-msgstr ""
+msgstr "Регулярно делайте резервные копии"
 
 #: desktop-guide/C/guide-keeping-safe.xml:29(para)
 msgid ""
@@ -4452,3 +4733,5 @@ msgstr ""
 #: desktop-guide/C/administrative-tasks.xml:0(None)
 msgid "translator-credits"
 msgstr ""
+"Launchpad Contributions:\n"
+"  Aleksey Kabanov https://launchpad.net/~ak099"
