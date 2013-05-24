@@ -98,7 +98,7 @@
 						<para>Using <application>ifconfig</application></para>
 						<itemizedlist>
 							<listitem><para>Open a terminal (&terminal;) and type the command <userinput>ifconfig</userinput> and press <keycap>&key;Enter</keycap></para></listitem>
-							<listitem><para><application>ifconfig</application> will show you extensive information about your connection, including logical or connection name(s) (eg. eth1) in the left column, IP address in the <guilabel>inet addr</guilabel> column and the MAC address for your device in the <guilabel>HWaddr</guilabel> column</para></listitem>
+							<listitem><para><application>ifconfig</application> will show you extensive information about your connection, including logical or connection name(s) (e.g. eth1) in the left column, IP address in the <guilabel>inet addr</guilabel> column and the MAC address for your device in the <guilabel>HWaddr</guilabel> column</para></listitem>
 						</itemizedlist>
 					</listitem>
 				</itemizedlist>
@@ -111,7 +111,7 @@
 
 				<para>To check if your computer is connected to the Internet, open a terminal (&terminal;) and type the command <userinput>ping -c 3 www.xubuntu.org</userinput> and press <keycap>&key;Enter</keycap></para>
 
-				<para>The computer will then attempt to contact www.xubuntu.org three times and display the results. The ping statistics displays the number of packets transmitted, how many packets were received, the percentage of packet loss, and the total time spent.</para>
+				<para>The computer will then attempt to contact www.xubuntu.org three times and display the results. The ping statistics display the number of packets transmitted, how many packets were received, the percentage of packet loss, and the total time spent.</para>
 
 				<itemizedlist>
 					<listitem><para>0% packet loss indicates that your computer is connected to the Internet</para></listitem>
@@ -128,7 +128,7 @@
 
 			<para>This section covers some common problems faced with wireless support. There is much more information available in the <ulink url="&communitywiki-wifi;">Community Documentation</ulink>.</para>
 
-			<note><para>Please note that this troubleshooting guide is designed to be carried out in order, unless you are pointed to a different subsection</para></note>
+			<note><para>Please note that the steps this troubleshooting guide are designed to be carried out in the order shown, unless you are pointed to a different subsection</para></note>
 
 			<section id="network-troubleshoothing-wifi-on">
 				<title>Check that the device is turned on</title>
@@ -185,7 +185,7 @@
 
 				<para>Open a terminal (&terminal;) and type the command <userinput>ifconfig</userinput> and press <keycap>&key;Enter</keycap>. If there is an IP address displayed, continue to <xref linkend="network-troubleshooting-dns" />.</para>
 
-				<para>From the terminal enter the following command, replacing <literal>eth1</literal> with the name of the connection outputted from the <application>ifconfig</application> command: <userinput>sudo dhclient eth1</userinput></para>
+				<para>From the terminal enter the following command, replacing <literal>eth1</literal> with the name of the connection shown in the output from the <application>ifconfig</application> command: <userinput>sudo dhclient eth1</userinput></para>
 
 				<itemizedlist>
 					<listitem><para>If you receive a message that says bound to <literal>xxx.xxx.xxx.xxx</literal> continue to <xref linkend="network-troubleshooting-dns" /></para></listitem>
@@ -213,7 +213,7 @@
 		<itemizedlist>
 			<listitem><para>Go to <menuchoice><guimenu>Actions</guimenu><guimenuitem>Connect</guimenuitem></menuchoice></para></listitem>
 			<listitem><para>Select the appropriate <guilabel>Service type</guilabel> and insert connection information</para></listitem>
-			<listitem><para>Click <guibutton>Connect</guibutton>; if you are attempting to connect a server that requires you to log in, you will be prompted to enter a password</para></listitem>
+			<listitem><para>Click <guibutton>Connect</guibutton>; if you are attempting to connect to a server that requires you to log in, you will be prompted to enter a password</para></listitem>
 		</itemizedlist>
 
 		<para>Upon successfully connecting to the server, an icon labeled with connection details will appear in the <application>Gigolo</application> window. To bookmark connections, right-click on a connection and select <menuchoice><guimenuitem>Create Bookmark</guimenuitem></menuchoice>. In the <guilabel>Edit Bookmarks</guilabel> dialog, you can name the bookmark and set other options, including the option to auto-connect. Once you are done, click <guibutton>OK</guibutton> to create the bookmark.</para>
