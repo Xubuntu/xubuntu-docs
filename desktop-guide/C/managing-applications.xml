@@ -67,7 +67,7 @@
 			<itemizedlist>
 				<listitem><para>Open &software-properties; or &software-properties-usc; and go to the <guilabel>Other Software</guilabel> tab</para></listitem>
 				<listitem><para>Press <guibutton>Add...</guibutton> to add a new repository.</para></listitem>
-				<listitem><para>Enter the APT line for the extra repository. You can probably find this on the repository's website or from a similar source and it should look something like the following: <literal>deb http://ftp.debian.org etch main</literal></para></listitem>
+				<listitem><para>Enter the APT line for the extra repository. This is available from the website of the repository in the majority of cases and it should look something like the following: <literal>deb http://ftp.debian.org etch main</literal></para></listitem>
 				<listitem><para>Press <guibutton>Add Source</guibutton> and then click <guibutton>Close</guibutton> to save your changes.</para></listitem>
 				<listitem><para>You will be notified that the information about available software is out-of-date. Press <guibutton>Reload</guibutton>.</para></listitem>
 				<listitem><para>Most software repositories use a GPG key to digitally sign the files they provide, which makes it easy to check that the files have not been tampered with since their creation. In order for apt to be able to check this, you need the public key that corresponds to the signatures. The key should be available for download on the repository's website. Once you have downloaded the GPG key, import the key by selecting the <guilabel>Authentication</guilabel> tab, clicking on <guibutton>Import Key File</guibutton>, and then selecting the GPG key to be imported.</para></listitem>
