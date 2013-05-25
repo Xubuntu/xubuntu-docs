@@ -40,7 +40,7 @@
 	<section id="offline-system-upgrade">
 		<title>Upgrading Your System</title>
 
-		<warning><para>A few specific packages are not built to handle the disconnected environment.  This is due to them running download scripts during the installation or upgrade process.  One package that routinely exhibits this behavior is <application>flashplugin-installer</application>.  The only way around this is to use a free alternative life <application>swf-dec</application> which comes complete in its package file.  Other packages will exhibit this behavior so you must be careful.</para></warning>
+		<warning><para>A few specific packages are not built to handle the disconnected environment.  This is due to them running download scripts during the installation or upgrade process.  One package that routinely exhibits this behavior is <application>flashplugin-installer</application>.  The only way around this is to use a free alternative like <application>swf-dec</application> which comes complete in its package file.  Other packages will exhibit this behavior so you must be careful.</para></warning>
 
 		<para>An upgrade of packages is a two-round process for those using a disconnected computer.  During the first round you need to update your computer's view of the repositories to know that something has an update available.  Only during the second round can you download the upgrade packages.</para>
 
@@ -59,13 +59,6 @@
 		<para>Back at the disconnected computer, insert the USB flash drive.  Assuming you have opened a terminal and have navigated to the directory on the flash drive containing the two files you then enter: <userinput>sudo apt-offline install bundle.zip</userinput>.  You will see some program output scroll by and once it completes your repositories will be updated.  Once that completes, you can then install the upgrades by entering: <userinput>sudo apt-get upgrade</userinput>.</para>
 
 		<note><para>You will want to avoid the use of the <userinput>-y</userinput> flag when upgrading so that you get a last chance to look through your upgrades to see if any problems mentioned earlier like <application>flashplugin-installer</application> show up.  It takes just a moment but prevents some possible moments of grief later on.</para></note>
-	</section>
-
-	<section id="other-apt-offline-actions">
-		<title>Other Actions</title>
-
-		<para>The graphical tool <application>apt-offline-gui</application> helps you walk through the process for more complicated installations and upgrading applications while following the same basic steps as shown above.  As a mirror to the command-line tool's three modes, you have three buttons to enter specific forms to structure how you wish disconnected application management to proceed much like the steps above.  A key disadvantage, though, to the GUI is that helpful error messages are sometimes not passed along compared to the command line version.</para>
-
 	</section>
 
 </chapter>
