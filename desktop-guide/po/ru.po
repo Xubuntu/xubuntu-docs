@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-05-17 14:36+0300\n"
-"PO-Revision-Date: 2013-05-24 18:34+0000\n"
+"PO-Revision-Date: 2013-05-27 16:33+0000\n"
 "Last-Translator: Aleksey Kabanov <Unknown>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-05-25 06:28+0000\n"
+"X-Launchpad-Export-Date: 2013-05-28 06:37+0000\n"
 "X-Generator: Launchpad (build 16640)\n"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
@@ -115,7 +115,7 @@ msgstr ""
 
 #: desktop-guide/C/what-is-xubuntu.xml:47(title)
 msgid "Learn more about what makes Xubuntu"
-msgstr ""
+msgstr "Из чего состоит Xubuntu"
 
 #: desktop-guide/C/what-is-xubuntu.xml:50(title)
 msgid "Free Software"
@@ -2792,6 +2792,9 @@ msgid ""
 "Please note that this troubleshooting guide is designed to be carried out in "
 "order, unless you are pointed to a different subsection"
 msgstr ""
+"Примите во внимание, что это руководство по устранению неполадок разработано "
+"для выполнения действий по порядку, пока вы не будете переадресованы в "
+"другой подраздел"
 
 #: desktop-guide/C/internet-networks.xml:134(title)
 msgid "Check that the device is turned on"
@@ -3201,10 +3204,12 @@ msgid ""
 "Canonical Ltd. and members of the Ubuntu Documentation Project and "
 "individuals in the Xubuntu Project."
 msgstr ""
+"Canonical Ltd., участники проекта документирования Ubuntu и отдельные лица "
+"из проекта Xubuntu."
 
 #: desktop-guide/C/index.xml:43(publishername)
 msgid "The Ubuntu Documentation Project"
-msgstr ""
+msgstr "Проект документирования Ubuntu"
 
 #: desktop-guide/C/index.xml:18(title)
 msgid "Welcome!"
@@ -3724,6 +3729,11 @@ msgid ""
 "battery life significantly; many laptops allow you to do this by pressing "
 "<keycap><placeholder-1/>Fn+F7</keycap> (or other marked key) several times."
 msgstr ""
+"При питании ноутбука от аккумулятора одним из наиболее мощных потребителей "
+"электроэнергии является дисплей. Уменьшение яркости дисплея может "
+"значительно продлить время работы от аккумулятора. На многих ноутбуках для "
+"этого можно несколько раз нажать <keycap><placeholder-1/>Fn+F7</keycap> (или "
+"другую клавишу с соответствующей пиктограммой)."
 
 #: desktop-guide/C/hardware-devices.xml:182(title)
 msgid "Touchpads"
@@ -3772,6 +3782,11 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/SynapticsTouchpad\">Touchpads</ulink>"
 " page in the Ubuntu community wiki for more information on touchpads."
 msgstr ""
+"Некоторые тачпады могут определяться системой как обычные мыши. В таком "
+"случае, устройство <guilabel>Тачпад</guilabel> будет недоступно в "
+"настройках. Смотрите дополнительную информацию о тачпадах на странице <ulink "
+"url=\"https://help.ubuntu.com/community/SynapticsTouchpad\">Тачпады</ulink> "
+"вики-сайта сообщества Ubuntu."
 
 #: desktop-guide/C/hardware-devices.xml:196(title)
 msgid "Finding laptop testing reports"
@@ -4556,10 +4571,18 @@ msgid ""
 "Settings</guimenuitem></menuchoice>. From here you can change the wallpaper "
 "and modify menu and icon behavior."
 msgstr ""
+"По умолчанию на рабочем столе всего три значка: <guilabel>Домашний "
+"каталог</guilabel>, <guilabel>Файловая система</guilabel> и "
+"<guilabel>Корзина</guilabel> (значки съёмных устройств, типа CD или флэш-"
+"дисков, также появляются там, если одно из таких устройств подключено). "
+"Настроить внешний вид рабочего стола можно, щёлкнув правой кнопкой на пустом "
+"месте и выбрав <menuchoice><guimenuitem>Настройка рабочего "
+"стола</guimenuitem></menuchoice>. Это позволит вам выбрать фоновое "
+"изображение и изменить поведение меню и значков."
 
 #: desktop-guide/C/guide-desktop.xml:73(title)
 msgid "Files and directories"
-msgstr ""
+msgstr "Файлы и каталоги"
 
 #: desktop-guide/C/guide-desktop.xml:75(para)
 msgid ""
@@ -4571,10 +4594,17 @@ msgid ""
 "<guilabel>Home</guilabel> or <guilabel>File System</guilabel> icons on your "
 "desktop."
 msgstr ""
+"В состав Xubuntu входит файловый менеджер Xfce, который называется "
+"<application>Thunar</application>. Для простоты мы будем называть его просто "
+"файловым менеджером. Чтобы открыть его, выберите "
+"<application><menuchoice><placeholder-1/><guimenuitem>Файловый "
+"менеджер</guimenuitem></menuchoice></application> или выполните двойной "
+"щелчок на значке <guilabel>Домашний каталог</guilabel> или "
+"<guilabel>Файловая система</guilabel> на рабочем столе."
 
 #: desktop-guide/C/guide-desktop.xml:81(title)
 msgid "Navigation"
-msgstr ""
+msgstr "Навигация"
 
 #: desktop-guide/C/guide-desktop.xml:83(para)
 msgid ""
@@ -4590,12 +4620,26 @@ msgid ""
 "When you're done, return to your home directory by clicking on the top "
 "shortcut."
 msgstr ""
+"По умолчанию окно файлового менеджера состоит из боковой панели слева, "
+"основной области справа и панели адреса над основной областью. Боковая "
+"панель содержит закладки для быстрого доступа к различным папкам в вашей "
+"системе. Первая закладка приведёт вас в домашний каталог, в котором хранятся "
+"все личные данные пользователя, поэтому его имя соответствует имени текущего "
+"пользователя. Возможно, этот каталог пока окажется пустым. Закладка "
+"<guilabel>Файловая система</guilabel> ведёт в корень файловой системы. "
+"Попробуйте немного поисследовать свою файловую систему, хотя, если вы "
+"новичок в мире Linux, она может поначалу привести в замешательство. Просто "
+"пощёлкайте на разных папках и посмотрите, что там внутри. Когда закончите, "
+"можете вернуться в свой домашний каталог, щёлкнув на верхней закладке."
 
 #: desktop-guide/C/guide-desktop.xml:93(para)
 msgid ""
 "You can add your own shortcuts by simply dragging folders to the shortcut "
 "pane. This will allow you to access important folders instantly!"
 msgstr ""
+"Вы можете добавлять собственные закладки, просто перетаскивая папки на "
+"боковую панель. Это позволит вам мгновенно осуществлять доступ к важным для "
+"вас папкам!"
 
 #: desktop-guide/C/guide-desktop.xml:96(para)
 msgid ""
@@ -4606,6 +4650,13 @@ msgid ""
 "Alternatively, select one file, hold down the <keycap>Shift</keycap> key, "
 "and increase/decrease the selection using the arrow keys."
 msgstr ""
+"Основная область всегда показывает содержимое текущей папки. Двойной щелчок "
+"на папках открывает их, а щелчок правой кнопкой на файлах или папках "
+"открывает всплывающее окно, предлагающее на выбор некоторые действия с ними. "
+"Чтобы выделить несколько файлов, обведите вокруг них прямоугольник, "
+"удерживая нажатой левую кнопку мыши. Можно также сначала выделить один файл, "
+"а затем, удерживая нажатой клавишу <keycap>Shift</keycap>, увеличивать или "
+"уменьшать выделение с помощью клавиш со стрелками."
 
 #: desktop-guide/C/guide-desktop.xml:102(para)
 msgid ""
@@ -4614,10 +4665,15 @@ msgid ""
 "represents. Note that right-clicking on pathbar icons will also bring up a "
 "pop-up window with some options."
 msgstr ""
+"Панель адреса всегда отображает путь к текущему каталогу. Можно щёлкнуть на "
+"любом из значков в панели адреса, чтобы перейти в соответствующий этому "
+"значку каталог. Обратите внимание, что щелчок правой кнопкой на некоторых "
+"значках в панели адреса открывает всплывающее окно с некоторыми вариантами "
+"действий."
 
 #: desktop-guide/C/guide-desktop.xml:108(title)
 msgid "Creating and deleting files and folders"
-msgstr ""
+msgstr "Создание и удаление файлов и папок"
 
 #: desktop-guide/C/guide-desktop.xml:110(para)
 msgid ""
@@ -4632,6 +4688,17 @@ msgid ""
 "choose <menuchoice><guimenuitem>Delete</guimenuitem></menuchoice> to remove "
 "it. The file will be put into the Trash."
 msgstr ""
+"Для создания нового документа щёлкните правой кнопкой в пустом месте "
+"домашнего каталога и выберите "
+"<menuchoice><guimenuitem>Создать</guimenuitem><guimenuitem>Пустой "
+"файл</guimenuitem></menuchoice> из всплывающего меню. Файловый менеджер "
+"попросит указать имя файла. Пока можете просто оставить предложенное имя. "
+"После этого новый файл появится в вашем домашнем каталоге. Щёлкните на нём "
+"правой кнопкой и выберите "
+"<menuchoice><guimenuitem>Свойства</guimenuitem></menuchoice>. Вы увидите "
+"некоторые сведения о файле. Снова щёлкните правой кнопкой на файле и "
+"выберите <menuchoice><guimenuitem>Удалить</guimenuitem></menuchoice>, чтобы "
+"удалить его. Файл будет помещён в Корзину."
 
 #: desktop-guide/C/guide-desktop.xml:120(para)
 msgid ""
@@ -4639,6 +4706,9 @@ msgid ""
 "<guilabel>Trash</guilabel>, right-click the file and click "
 "<menuchoice><guimenuitem>Restore</guimenuitem></menuchoice>."
 msgstr ""
+"Если впоследствии вам понадобится отменить удаление файла, откройте "
+"<guilabel>Корзину</guilabel>, щёлкните на файле правой кнопкой и выберите "
+"<menuchoice><guimenuitem>Восстановить</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/guide-desktop.xml:124(para)
 msgid ""
@@ -4649,20 +4719,30 @@ msgid ""
 "Double-click on it to enter it. To rename or remove the folder, right-click "
 "on it and choose the appropriate option from the pop-up menu."
 msgstr ""
+"Чтобы создать новую папку, щёлкните правой кнопкой на пустом месте и "
+"выберите <menuchoice><guimenuitem>Создать "
+"каталог</guimenuitem></menuchoice>. Вам будет предложено указать имя. "
+"Наберите что-нибудь и нажмите <keycap><placeholder-1/>Enter</keycap>. В "
+"домашнем каталоге появится новая папка. Выполните на ней двойной щелчок, "
+"чтобы открыть её. Для того, чтобы переименовать или удалить папку, щёлкните "
+"на ней правой кнопкой и выберите соответствующую команду из всплывающего "
+"меню."
 
 #: desktop-guide/C/guide-desktop.xml:132(title)
 msgid "Copying"
-msgstr ""
+msgstr "Копирование"
 
 #: desktop-guide/C/guide-desktop.xml:134(para)
 msgid ""
 "To copy and move files on your computer, just click and drag files and "
 "folders to other folders."
 msgstr ""
+"Чтобы скопировать или переместить файлы на компьютере, просто щёлкните и "
+"перетащите файлы или папки в другие папки."
 
 #: desktop-guide/C/guide-desktop.xml:139(title)
 msgid "Removable devices"
-msgstr ""
+msgstr "Съёмные устройства"
 
 #: desktop-guide/C/guide-desktop.xml:141(para)
 msgid ""
@@ -4676,6 +4756,15 @@ msgid ""
 "<menuchoice><guimenuitem>Eject Volume</guimenuitem></menuchoice>. The same "
 "applies for any other removable media."
 msgstr ""
+"Когда вы вставляете компакт-диск в привод, подключаете к компьютеру USB-"
+"диски или другие съёмные носители и устройства (например, аудиоплеер), "
+"Xubuntu должна автоматически обнаружить новое устройство. Например, после "
+"вставки CD в привод оптических носителей вы увидите новую закладку на "
+"боковой панели <application>Файлового менеджера</application>. Щелчок на ней "
+"откроет содержимое CD в основной области, как и при щелчке на обычной папке. "
+"Чтобы извлечь CD, щёлкните на закладке правой кнопкой и выберите "
+"<menuchoice><guimenuitem>Отключить том</guimenuitem></menuchoice>. Эти "
+"действия применимы и для любого другого съёмного носителя."
 
 #: desktop-guide/C/guide-desktop.xml:150(para)
 msgid ""
@@ -4686,10 +4775,16 @@ msgid ""
 "shortcut and choose <menuchoice><guimenuitem>Eject "
 "Volume</guimenuitem></menuchoice>."
 msgstr ""
+"Учтите, что кнопка извлечения диска на вашем приводе CD может не "
+"действовать. Некоторых пользователей это удивит, но, фактически, это "
+"ожидаемое поведение. Перед тем, как извлечь CD, его нужно правильно "
+"\"освободить\" (отмонтировать). Для этого щёлкните правой кнопкой на его "
+"закладке и выберите <menuchoice><guimenuitem>Отключить "
+"том</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/guide-desktop.xml:158(title)
 msgid "Customizing Thunar"
-msgstr ""
+msgstr "Настройка Thunar"
 
 #: desktop-guide/C/guide-desktop.xml:160(para)
 msgid ""
@@ -4699,6 +4794,11 @@ msgid ""
 "List</guimenuitem></menuchoice> to have the contents of the current "
 "directory displayed as a list."
 msgstr ""
+"Существует множество способов настройки <application>Файлового "
+"менеджера</application>. Если вам не нравится способ отображения значков, "
+"можете выбрать <menuchoice><guimenu>Вид</guimenu><guimenuitem>Подробный "
+"список</guimenuitem></menuchoice>, чтобы содержимое текущего каталога "
+"отображалось в виде списка."
 
 #: desktop-guide/C/guide-desktop.xml:165(para)
 msgid ""
@@ -4710,39 +4810,51 @@ msgid ""
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Side "
 "Pane</guimenuitem><guimenuitem>Tree</guimenuitem></menuchoice>."
 msgstr ""
+"Можно сделать так, чтобы <application>Файловый менеджер</application> "
+"отображал путь не в виде строки адреса, а в виде ряда кнопок, выбрав "
+"<menuchoice><guimenu>Вид</guimenu><guimenuitem>Панель "
+"адреса</guimenuitem><guimenuitem>Ряд кнопок</guimenuitem></menuchoice>. Если "
+"вы предпочитаете видеть в боковой панели дерево каталогов, выберите "
+"<menuchoice><guimenu>Вид</guimenu><guimenuitem>Боковая "
+"панель</guimenuitem><guimenuitem>Дерево</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/guide-desktop.xml:175(title)
 msgid "Customizing the appearance"
-msgstr ""
+msgstr "Настройка внешнего вида"
 
 #: desktop-guide/C/guide-desktop.xml:177(para)
 msgid ""
 "If you want to customize the appearance of your Xubuntu system, the options "
 "are unlimited. Here's a few good starting points."
 msgstr ""
+"Возможности изменения внешнего вида системы Xubuntu безграничны. Вот "
+"несколько полезных отправных точек."
 
 #: desktop-guide/C/guide-desktop.xml:181(title)
 msgid "Changing your wallpaper"
-msgstr ""
+msgstr "Изменение фонового изображения"
 
 #: desktop-guide/C/guide-desktop.xml:183(para)
 msgid "To change your wallpaper to any of the other default wallpapers:"
-msgstr ""
+msgstr "Чтобы изменить фон рабочего стола:"
 
 #: desktop-guide/C/guide-desktop.xml:186(para)
 msgid "Right-click the desktop"
-msgstr ""
+msgstr "Щёлкните на рабочем столе правой кнопкой"
 
 #: desktop-guide/C/guide-desktop.xml:187(para)
 msgid ""
 "From the context menu, select <menuchoice><guimenuitem>Desktop "
 "Settings</guimenuitem></menuchoice>"
 msgstr ""
+"В контекстном меню выберите <menuchoice><guimenuitem>Настройка рабочего "
+"стола</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/guide-desktop.xml:189(para)
 msgid ""
 "In the <guilabel>Background</guilabel> tab, select a new wallpaper image"
 msgstr ""
+"На вкладке <guilabel>Фон</guilabel> выберите новое фоновое изображение"
 
 #: desktop-guide/C/guide-desktop.xml:191(para)
 msgid ""
@@ -4750,12 +4862,17 @@ msgid ""
 "<guilabel>Background</guilabel>; use these to specify which monitors "
 "wallpaper you want to change."
 msgstr ""
+"Если у вас несколько мониторов, во вкладке <guilabel>Фон</guilabel> может "
+"присутствовать ряд дополнительных вкладок; используйте их, чтобы указать, на "
+"каком мониторе вы хотите изменить фон."
 
 #: desktop-guide/C/guide-desktop.xml:194(para)
 msgid ""
 "If you have multiple monitors, you can set the wallpaper on the primary "
 "monitor to stretch across all monitors."
 msgstr ""
+"При наличии нескольких мониторов можно сделать так, чтобы фон основного "
+"монитора был растянут на все мониторы."
 
 #: desktop-guide/C/guide-desktop.xml:198(para)
 msgid ""
@@ -4763,22 +4880,31 @@ msgid ""
 "you can copy or symlink them to <filename><placeholder-1/> "
 "/usr/share/xfce4/backdrops/</filename> (needs administrative privileges)"
 msgstr ""
+"Если вы хотите добавить в этот список собственные изображения для "
+"дальнейшего использования, скопируйте их или создайте на них символьные "
+"ссылки в <filename><placeholder-1/> /usr/share/xfce4/backdrops/</filename> "
+"(для этого необходимы административные привилегии)"
 
 #: desktop-guide/C/guide-desktop.xml:201(para)
 msgid ""
 "If you want to set any of your own images as the wallpaper, the easiest way "
 "to achieve this is:"
 msgstr ""
+"Если вы хотите задать в качестве фона одно из своих изображений, простейший "
+"способ сделать это:"
 
 #: desktop-guide/C/guide-desktop.xml:205(para)
 msgid "Open Thunar and navigate to the directory with the image"
-msgstr ""
+msgstr "Откройте Thunar и перейдите в каталог с изображением"
 
 #: desktop-guide/C/guide-desktop.xml:206(para)
 msgid ""
 "Right-click the image and select <menuchoice><guimenuitem>Set as "
 "wallpaper</guimenuitem></menuchoice> from the context menu"
 msgstr ""
+"Щёлкните на изображении правой кнопкой и выберите в контекстном меню "
+"<menuchoice><guimenuitem>Сделать фоновым "
+"изображением</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/guide-desktop.xml:210(para)
 msgid ""
@@ -4786,10 +4912,13 @@ msgid ""
 "wallpaper. To change the wallpaper for other monitors, you will need to use "
 "the dialog described above."
 msgstr ""
+"При наличии нескольких мониторов это действие изменит фон только основного "
+"монитора. Чтобы изменить фон на остальных мониторах используйте диалоговое "
+"окно, описанное выше."
 
 #: desktop-guide/C/guide-desktop.xml:216(title)
 msgid "Customizing your panel configuration"
-msgstr ""
+msgstr "Изменение конфигурации панели"
 
 #: desktop-guide/C/guide-desktop.xml:218(para)
 msgid ""
@@ -4797,10 +4926,12 @@ msgid ""
 "or the applets installed by default, follow the steps below to customize the "
 "panel configuration:"
 msgstr ""
+"Если вам не нравится конфигурация панели по умолчанию, включая размещение "
+"установленных по умолчанию апплетов, выполните следующее:"
 
 #: desktop-guide/C/guide-desktop.xml:223(para)
 msgid "Right-click any panel"
-msgstr ""
+msgstr "Щёлкните правой кнопкой на любой из панелей"
 
 #: desktop-guide/C/guide-desktop.xml:224(para)
 msgid ""
@@ -4808,32 +4939,41 @@ msgid ""
 "<menuchoice><guimenuitem>Panel</guimenuitem><guimenuitem>Panel "
 "Preferences</guimenuitem></menuchoice>"
 msgstr ""
+"В контекстном меню выберите "
+"<menuchoice><guimenuitem>Панель</guimenuitem><guimenuitem>Параметры "
+"панели</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/guide-desktop.xml:226(para)
 msgid ""
 "On the top of the dialog, you can select which panel you are editing as well "
 "as add or delete panels"
 msgstr ""
+"Наверху диалогового окна можно выбрать панель, настройки которой вы "
+"изменяете, а также добавить или удалить панели"
 
 #: desktop-guide/C/guide-desktop.xml:228(para)
 msgid ""
 "In the <guilabel>Display</guilabel> tab, you can control the selected panel "
 "appearance"
 msgstr ""
+"Во вкладке <guilabel>Экран</guilabel> можно настроить отображение выбранной "
+"панели"
 
 #: desktop-guide/C/guide-desktop.xml:230(para)
 msgid ""
 "In the <guilabel>Items</guilabel> tab, you can control the selected panel "
 "applets and other items"
 msgstr ""
+"Во вкладке <guilabel>Элементы</guilabel> можно настроить апплеты и другие "
+"элементы выбранной панели"
 
 #: desktop-guide/C/guide-desktop.xml:236(title)
 msgid "Changing your desktop themes"
-msgstr ""
+msgstr "Изменение темы рабочего стола"
 
 #: desktop-guide/C/guide-desktop.xml:238(para)
 msgid "There are three types of desktop themes:"
-msgstr ""
+msgstr "Существуют три типа тем рабочего стола:"
 
 #: desktop-guide/C/guide-desktop.xml:241(para)
 msgid ""
@@ -4844,6 +4984,11 @@ msgid ""
 "<guilabel>Style</guilabel> tab, select a new theme to change the window "
 "borders appearance."
 msgstr ""
+"Темы xfwm — управляют внешним видом рамок окон. Для изменения темы xfwm "
+"перейдите в <application><menuchoice><placeholder-1/><guimenuitem>Диспетчер "
+"настроек</guimenuitem><guimenuitem>Диспетчер "
+"окон</guimenuitem></menuchoice></application>. Во вкладке "
+"<guilabel>Стиль</guilabel> выберите новую тему для изменения вида рамок окон."
 
 #: desktop-guide/C/guide-desktop.xml:244(para)
 msgid ""
@@ -4853,6 +4998,12 @@ msgid ""
 "ication>. In the <guilabel>Style</guilabel> tab, select a new theme to "
 "change the window content appearance."
 msgstr ""
+"Темы GTK — управляют внешним видом содержимого окон. Чтобы изменить тему "
+"GTK, перейдите в <application><menuchoice><placeholder-"
+"1/><guimenuitem>Диспетчер настроек</guimenuitem><guimenuitem>Внешний "
+"вид</guimenuitem></menuchoice></application>. Во вкладке "
+"<guilabel>Стили</guilabel> выберите новую тему для изменения способа "
+"отображения содержимого окон."
 
 #: desktop-guide/C/guide-desktop.xml:247(para)
 msgid ""
@@ -4863,6 +5014,12 @@ msgid ""
 "change the icon appearance. Note that not all icon sets will work well with "
 "dark panel/window backgrounds!"
 msgstr ""
+"Темы значков — управляют внешним видом значков. Для изменения темы значков "
+"перейдите в <application><menuchoice><placeholder-1/><guimenuitem>Диспетчер "
+"настроек</guimenuitem><guimenuitem>Внешний "
+"вид</guimenuitem></menuchoice></application>. Во вкладке "
+"<guilabel>Значки</guilabel> выберите новую тему значков. Обратите внимание, "
+"что не все темы значков хорошо сочетаются с тёмными фонами панелей или окон!"
 
 #: desktop-guide/C/guide-desktop.xml:253(para)
 msgid ""
@@ -4871,6 +5028,10 @@ msgid ""
 "repositories, and more can be found on the Internet, for example on <ulink "
 "url=\"http://xfce-look.org/\">Xfce-look.org</ulink>."
 msgstr ""
+"Если имеющиеся по умолчанию варианты тем вам не нравятся, можете скачать и "
+"установить новые темы. Некоторые темы можно установить из репозиториев "
+"Ubuntu, а ещё большее количество тем можно найти в Интернете, например, на "
+"сайте <ulink url=\"http://xfce-look.org/\">Xfce-look.org</ulink>."
 
 #: desktop-guide/C/guide-desktop.xml:257(para)
 msgid ""
@@ -4880,43 +5041,58 @@ msgid ""
 "it will appear in the <application>Settings Manager</application>. To do "
 "this, extract the theme package and copy them to:"
 msgstr ""
+"При установке новых тем из репозиториев они должны автоматически появится в "
+"<application>Диспетчере настроек</application>. Если же вы скачали темы с "
+"какого-то сайта, нужно установить их, чтобы они появились в "
+"<application>Диспетчере настроек</application>. Для этого распакуйте пакет с "
+"темой и скопируйте содержимое в:"
 
 #: desktop-guide/C/guide-desktop.xml:263(para)
 msgid "xfwm and GTK themes:"
-msgstr ""
+msgstr "Темы xfwm и GTK:"
 
 #: desktop-guide/C/guide-desktop.xml:265(para)
 msgid ""
 "<filename><placeholder-1/> /home/username/.themes/</filename> (this user "
 "only)"
 msgstr ""
+"<filename><placeholder-1/> /home/имя_пользователя/.themes/</filename> "
+"(только для этого пользователя)"
 
 #: desktop-guide/C/guide-desktop.xml:266(para)
 msgid "<filename><placeholder-1/> /usr/share/themes/</filename> (all users)"
 msgstr ""
+"<filename><placeholder-1/> /usr/share/themes/</filename> (для всех "
+"пользователей)"
 
 #: desktop-guide/C/guide-desktop.xml:269(para)
 msgid "Icon themes:"
-msgstr ""
+msgstr "Темы значков:"
 
 #: desktop-guide/C/guide-desktop.xml:271(para)
 msgid ""
 "<filename><placeholder-1/> /home/username/.icons/</filename> (this user only)"
 msgstr ""
+"<filename><placeholder-1/> /home/имя_пользователя/.icons/</filename> (только "
+"для этого пользователя)"
 
 #: desktop-guide/C/guide-desktop.xml:272(para)
 msgid "<filename><placeholder-1/> /usr/share/icons/</filename> (all users)"
 msgstr ""
+"<filename><placeholder-1/> /usr/share/icons/</filename> (для всех "
+"пользователей)"
 
 #: desktop-guide/C/guide-desktop.xml:278(para)
 msgid ""
 "If these directories do not exist, you should create them first. Copying "
 "themes for all users will need administrative privileges."
 msgstr ""
+"Если указанные каталоги не существуют, сначала создайте их. Копирование тем "
+"для всех пользователей требует наличия административных привилегий."
 
 #: desktop-guide/C/guide-desktop.xml:283(title)
 msgid "Disabling and modifying the desktop effects"
-msgstr ""
+msgstr "Отключение и изменение эффектов рабочего стола"
 
 #: desktop-guide/C/guide-desktop.xml:285(para)
 msgid ""
@@ -4934,17 +5110,20 @@ msgstr ""
 
 #: desktop-guide/C/guide-default-apps.xml:12(title)
 msgid "Quick guide to default applications"
-msgstr ""
+msgstr "Краткое руководство по установленным по умолчанию приложениям"
 
 #: desktop-guide/C/guide-default-apps.xml:15(title)
 msgid "Graphics"
-msgstr ""
+msgstr "Графика"
 
 #: desktop-guide/C/guide-default-apps.xml:17(para)
 msgid ""
 "<application>gThumb</application>, an image viewer and browser. Read more at "
 "the <ulink url=\"https://live.gnome.org/gthumb\">gThumb</ulink> website."
 msgstr ""
+"<application>gThumb</application>, программа для навигации по коллекции "
+"изображений и их просмотра. Дополнительные сведения на веб-сайте <ulink "
+"url=\"https://live.gnome.org/gthumb\">gThumb</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:19(para)
 msgid ""
@@ -4953,10 +5132,15 @@ msgid ""
 "url=\"http://goodies.xfce.org/projects/applications/ristretto\">Ristretto</ul"
 "ink> website."
 msgstr ""
+"<application>Ristretto</application> — ещё одна программа просмотра "
+"изображений, потребляющая очень мало системных ресурсов. Узнайте о ней "
+"больше на веб-сайте <ulink "
+"url=\"http://goodies.xfce.org/projects/applications/ristretto\">Ristretto</ul"
+"ink>."
 
 #: desktop-guide/C/guide-default-apps.xml:23(title)
 msgid "Internet"
-msgstr ""
+msgstr "Интернет"
 
 #: desktop-guide/C/guide-default-apps.xml:25(para)
 msgid ""
@@ -4988,10 +5172,15 @@ msgid ""
 "more from <ulink url=\"http://developer.pidgin.im/wiki/Using Pidgin\">Using "
 "Pidgin</ulink> at the Pidgin online help."
 msgstr ""
+"<application>Pidgin</application> — используемый по умолчанию клиент сетей "
+"мгновенных сообщений, умеющий работать с MSN, XMPP (Google Talk, Facebook) и "
+"даже Twitter. Читайте подробности на странице <ulink "
+"url=\"http://developer.pidgin.im/wiki/Using Pidgin\">Использование "
+"Pidgin</ulink> и в интерактивной справке Pidgin."
 
 #: desktop-guide/C/guide-default-apps.xml:33(title)
 msgid "Media"
-msgstr ""
+msgstr "Мультимедиа"
 
 #: desktop-guide/C/guide-default-apps.xml:35(para)
 msgid ""
@@ -5000,6 +5189,11 @@ msgid ""
 "<ulink url=\"http://gmusicbrowser.org/guide.html\">gmusicbrowser user "
 "guide</ulink>."
 msgstr ""
+"<application>gmusicbrowser</application> — основной музыкальный "
+"проигрыватель. Более подробную информацию смотрите в <xref linkend=\"media-"
+"music-listen\"/> и <ulink "
+"url=\"http://gmusicbrowser.org/guide.html\">руководстве пользователя "
+"gmusicbrowser</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:37(para)
 msgid ""
@@ -5008,12 +5202,19 @@ msgid ""
 "url=\"http://goodies.xfce.org/projects/applications/parole\">Parole "
 "website</ulink>."
 msgstr ""
+"<application>Parole</application> — простой видеопроигрыватель для любых "
+"ваших нужд. Смотрите более подробную информацию на <ulink "
+"url=\"http://goodies.xfce.org/projects/applications/parole\">веб-сайте "
+"Parole</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:39(para)
 msgid ""
 "It will be necessary to install <literal><placeholder-1/>xubuntu-restricted-"
 "extras</literal> in order to play proprietary media formats like e.g. MP3."
 msgstr ""
+"Для воспроизведения проприетарных медиаформатов (например, MP3) необходимо "
+"установить пакет <literal><placeholder-1/>xubuntu-restricted-"
+"extras</literal>."
 
 #: desktop-guide/C/guide-default-apps.xml:41(para)
 msgid ""
@@ -5022,21 +5223,27 @@ msgid ""
 "url=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">PulseAudio "
 "website</ulink>."
 msgstr ""
+"<application>Регулятор громкости PulseAudio</application> — средство "
+"управления различными источниками звука. Читайте подробности на <ulink "
+"url=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">веб-сайте "
+"PulseAudio</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:43(para)
 msgid ""
 "<application>Xfburn</application> is the chosen program for creating your "
 "CDs and DVDs."
-msgstr ""
+msgstr "<application>Xfburn</application> — программа для записи CD и DVD."
 
 #: desktop-guide/C/guide-default-apps.xml:45(para)
 msgid ""
 "To read more about media in Xubuntu, refer to <xref linkend=\"media-apps\"/>."
 msgstr ""
+"Чтобы узнать больше о мультимедиа в Xubuntu, обратитесь к разделу <xref "
+"linkend=\"media-apps\"/>."
 
 #: desktop-guide/C/guide-default-apps.xml:49(title)
 msgid "Office"
-msgstr ""
+msgstr "Офис"
 
 #: desktop-guide/C/guide-default-apps.xml:51(para)
 msgid ""
@@ -5044,6 +5251,10 @@ msgid ""
 "very capable word processor. Remember to save into the correct format if you "
 "are planning to share documents with others."
 msgstr ""
+"<application>AbiWord</application> — нетребовательный к ресурсам, но "
+"обладающий большими возможностями текстовый процессор. Не забывайте выбирать "
+"при сохранении подходящий формат, если планируете использовать созданные "
+"документы совместно с другими людьми."
 
 #: desktop-guide/C/guide-default-apps.xml:53(para)
 msgid ""
@@ -5052,6 +5263,10 @@ msgid ""
 "<application>AbiWord</application>; it can be easily installed from the "
 "<application>Ubuntu Software Center</application>."
 msgstr ""
+"Хотя он и не установлен по умолчанию, <application>Gnumeric</application> — "
+"редактор электронных таблиц и превосходный компаньон для "
+"<application>AbiWord</application>; его легко можно установить из "
+"<application>Центра приложений</application>."
 
 #: desktop-guide/C/guide-default-apps.xml:55(para)
 msgid ""
@@ -5059,6 +5274,9 @@ msgid ""
 "install it from the repositories as well as remove "
 "<application>AbiWord</application> if desired."
 msgstr ""
+"Если вы предпочитаете этим приложениям комплект программ LibreOffice, можете "
+"установить его из репозиториев и, при необходимости, удалить "
+"<application>AbiWord</application>."
 
 #: desktop-guide/C/guide-default-apps.xml:57(para)
 msgid ""
@@ -5067,10 +5285,14 @@ msgid ""
 "<ulink url=\"http://goodies.xfce.org/projects/applications/xfce4-"
 "dict\">Xfce4 Dictionary website</ulink>."
 msgstr ""
+"<application>Словарь</application> предоставляет простой способ доступа к "
+"различным доступным в Интернете словарям. Узнайте больше об этом приложении "
+"на <ulink url=\"http://goodies.xfce.org/projects/applications/xfce4-"
+"dict\">веб-сайте словаря Xfce4</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:59(para)
 msgid "<application>Evince</application> is a PDF reader."
-msgstr ""
+msgstr "<application>Evince</application> — программа для чтения файлов PDF."
 
 #: desktop-guide/C/guide-default-apps.xml:61(para)
 msgid ""
@@ -5079,6 +5301,10 @@ msgid ""
 "trigger alarms. Read more at the <ulink "
 "url=\"http://www.kolumbus.fi/~w408237/orage/\">Orage website</ulink>."
 msgstr ""
+"<application>Orage</application> — простой, но эффективный календарь, "
+"позволяющий отслеживать ваши встречи и напоминать о событиях. Дополнительная "
+"информация доступна на <ulink "
+"url=\"http://www.kolumbus.fi/~w408237/orage/\">веб-сайте Orage</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:63(para)
 msgid ""
@@ -5087,10 +5313,14 @@ msgid ""
 "more at the <ulink url=\"https://launchpad.net/simple-scan\">Simple Scan "
 "website</ulink>."
 msgstr ""
+"<application>Simple Scan</application> — простая в использовании утилита "
+"сканирования, умеющая выполнять такие действия, как сканирование в почтовое "
+"вложение или непосредственно в PDF. Подробности читайте на <ulink "
+"url=\"https://launchpad.net/simple-scan\">веб-сайте Simple Scan</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:67(title)
 msgid "System"
-msgstr ""
+msgstr "Система"
 
 #: desktop-guide/C/guide-default-apps.xml:69(para)
 msgid ""
@@ -5098,12 +5328,18 @@ msgid ""
 "remote file systems. Read more at the <ulink "
 "url=\"http://www.uvena.de/gigolo/\">Gigolo website</ulink>."
 msgstr ""
+"<application>Gigolo</application> — простое средство подключения к локальным "
+"и удалённым файловым системам. Узнайте больше на <ulink "
+"url=\"http://www.uvena.de/gigolo/\">веб-сайте Gigolo</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:71(para)
 msgid ""
 "<application>Ibus</application> is an easy way to use your own language in "
 "GUI applications."
 msgstr ""
+"<application>Ibus</application> — интеллектуальная система ввода, "
+"позволяющая использовать символы вашего родного языка в приложениях с "
+"графическим интерфейсом."
 
 #: desktop-guide/C/guide-default-apps.xml:73(para)
 msgid ""
@@ -5112,10 +5348,14 @@ msgid ""
 "url=\"http://goodies.xfce.org/projects/applications/xfce4-taskmanager\">Task "
 "Manager website</ulink>."
 msgstr ""
+"<application>Диспетчер задач</application> предоставляет графический обзора "
+"запущенных приложений. Подробности доступны на <ulink "
+"url=\"http://goodies.xfce.org/projects/applications/xfce4-taskmanager\">веб-"
+"сайте Диспетчера задач</ulink>."
 
 #: desktop-guide/C/command-line.xml:12(title)
 msgid "The command line"
-msgstr ""
+msgstr "Командная строка"
 
 #: desktop-guide/C/command-line.xml:14(para)
 msgid ""
@@ -5124,11 +5364,17 @@ msgid ""
 "most tasks, sometimes you might want or need to use a command line to "
 "achieve your goal - or just achieve it faster."
 msgstr ""
+"Хотя в Xubuntu имеются приложения по умолчанию и приложения из репозиториев "
+"Ubuntu для выполнения большинства задач, иногда может возникнуть "
+"необходимость в использовании командной строки, чтобы достичь какой-либо "
+"цели — или чтобы достичь её быстрее."
 
 #: desktop-guide/C/command-line.xml:16(para)
 msgid ""
 "To start the default terminal emulator and get to the command line, either"
 msgstr ""
+"Для запуска используемого по умолчанию эмулятора терминала, предоставляющего "
+"доступ к командной строке, выполните одно из следующих действий:"
 
 #: desktop-guide/C/command-line.xml:19(para)
 msgid ""
@@ -5136,12 +5382,17 @@ msgid ""
 "1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal "
 "Emulator</guimenuitem></menuchoice></application>"
 msgstr ""
+"Откройте <application><menuchoice><placeholder-"
+"1/><guisubmenu>Инструменты</guisubmenu><guimenuitem>Эмулятор "
+"терминала</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/command-line.xml:20(para)
 msgid ""
 "Press <keycap><placeholder-1/>Alt+F2</keycap> and run <userinput>xfce4-"
 "terminal</userinput>"
 msgstr ""
+"Нажмите <keycap><placeholder-1/>Alt+F2</keycap> и запустите <userinput>xfce4-"
+"terminal</userinput>"
 
 #: desktop-guide/C/command-line.xml:23(para)
 msgid ""
@@ -5149,10 +5400,13 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/UsingTheTerminal\">tutorial on using "
 "the command line</ulink> in the Ubuntu community wiki."
 msgstr ""
+"На вики-сайте сообщества Ubuntu имеется отличный <ulink "
+"url=\"https://help.ubuntu.com/community/UsingTheTerminal\">учебник по "
+"использованию командной строки</ulink>."
 
 #: desktop-guide/C/command-line.xml:26(title)
 msgid "Running commands with administrative rights"
-msgstr ""
+msgstr "Выполнение команд с привилегиями администратора"
 
 #: desktop-guide/C/command-line.xml:28(para)
 msgid ""
@@ -5162,6 +5416,11 @@ msgid ""
 "to allow you to perform multiple administrative tasks without being prompted "
 "for a password each time."
 msgstr ""
+"При работе в командной строке любую команду можно выполнить от имени "
+"администратора, предварив её командой <userinput>sudo</userinput>. "
+"<application>Sudo</application> будет помнить введённый вами пароль 15 "
+"минут, что позволяет выполнить несколько административных задач, не набирая "
+"пароль повторно для каждой команды."
 
 #: desktop-guide/C/command-line.xml:30(para)
 msgid ""
@@ -5170,6 +5429,11 @@ msgid ""
 "<userinput>gksudo</userinput> instead of <application>sudo</application>, "
 "even if you are running the application from the command line."
 msgstr ""
+"Если программа, которую вы собираетесь запустить от имени администратора, "
+"имеет графический интерфейс, например, как текстовый редактор "
+"<application>Mousepad</application>, вместо <application>sudo</application> "
+"следует использовать команду <userinput>gksudo</userinput>, даже если вы "
+"запускаете приложение из командной строки."
 
 #: desktop-guide/C/command-line.xml:32(para)
 msgid ""
@@ -5180,6 +5444,12 @@ msgid ""
 "<userinput>exit</userinput> to continue using that terminal with normal "
 "access powers."
 msgstr ""
+"Будьте осторожны при использовании <application>sudo</application>: набрав "
+"неправильную команду, вы можете повредить свою систему! Используйте use "
+"только когда это абсолютно необходимо. При использовании "
+"<application>sudo</application> из терминала не забудьте закрывать его после "
+"завершения работы или наберите <userinput>exit</userinput>, чтобы продолжить "
+"работу в терминале с правами обычного пользователя."
 
 #: desktop-guide/C/command-line.xml:34(para)
 msgid ""
@@ -5187,146 +5457,155 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/RootSudo\">sudo page</ulink> on the "
 "Ubuntu community wiki."
 msgstr ""
+"Для более подробной информации о <application>sudo</application> смотрите "
+"<ulink url=\"https://help.ubuntu.com/community/RootSudo\">страницу "
+"sudo</ulink> на вики-сайте сообщества Ubuntu."
 
 #: desktop-guide/C/command-line.xml:38(title)
 msgid "Common commands"
-msgstr ""
+msgstr "Часто используемые команды"
 
 #: desktop-guide/C/command-line.xml:40(para)
 msgid ""
 "Basic terminal commands are outlined below (square brackets indicate "
 "substitutions):"
 msgstr ""
+"Ниже рассматриваются основные команды терминала (квадратные скобки "
+"обозначают подставляемый текст):"
 
 #: desktop-guide/C/command-line.xml:44(segtitle)
 msgid "Command"
-msgstr ""
+msgstr "Команда"
 
 #: desktop-guide/C/command-line.xml:44(segtitle)
 msgid "What it does?"
-msgstr ""
+msgstr "Что она делает?"
 
 #: desktop-guide/C/command-line.xml:44(segtitle)
 msgid "Syntax"
-msgstr ""
+msgstr "Синтаксис"
 
 #: desktop-guide/C/command-line.xml:45(userinput)
 #, no-wrap
 msgid "ls"
-msgstr ""
+msgstr "ls"
 
 #: desktop-guide/C/command-line.xml:45(seg)
 msgid ""
 "Lists files in a directory; lists files in the current directory if none is "
 "specified"
 msgstr ""
+"Выводит список файлов в указанном каталоге (в текущем каталоге, если каталог "
+"не указан)"
 
 #: desktop-guide/C/command-line.xml:45(userinput)
 #, no-wrap
 msgid "ls [directory]"
-msgstr ""
+msgstr "ls [каталог]"
 
 #: desktop-guide/C/command-line.xml:46(userinput)
 #, no-wrap
 msgid "cd"
-msgstr ""
+msgstr "cd"
 
 #: desktop-guide/C/command-line.xml:46(seg)
 msgid "Changes to another directory"
-msgstr ""
+msgstr "Переход в другой каталог"
 
 #: desktop-guide/C/command-line.xml:46(userinput)
 #, no-wrap
 msgid "cd [directory]"
-msgstr ""
+msgstr "cd [каталог]"
 
 #: desktop-guide/C/command-line.xml:47(userinput)
 #, no-wrap
 msgid "cp"
-msgstr ""
+msgstr "cp"
 
 #: desktop-guide/C/command-line.xml:47(seg)
 msgid "Copies a file (or files) to a directory or to overwrite another file"
 msgstr ""
+"Копирует файл (или несколько файлов) в каталог или перезаписывает "
+"существующий там файл"
 
 #: desktop-guide/C/command-line.xml:47(userinput)
 #, no-wrap
 msgid "cp [file(s)] [directory]"
-msgstr ""
+msgstr "cp [файл(ы)] [каталог]"
 
 #: desktop-guide/C/command-line.xml:48(userinput)
 #, no-wrap
 msgid "mv"
-msgstr ""
+msgstr "mv"
 
 #: desktop-guide/C/command-line.xml:48(seg)
 msgid "Moves or renames a file"
-msgstr ""
+msgstr "Перемещает или переименовывает файл"
 
 #: desktop-guide/C/command-line.xml:48(userinput)
 #, no-wrap
 msgid "mv [filename] [newfilename]"
-msgstr ""
+msgstr "mv [имя файла] [новое имя файла]"
 
 #: desktop-guide/C/command-line.xml:49(userinput)
 #, no-wrap
 msgid "man"
-msgstr ""
+msgstr "man"
 
 #: desktop-guide/C/command-line.xml:49(seg)
 msgid "Get help about a command"
-msgstr ""
+msgstr "Справка по команде"
 
 #: desktop-guide/C/command-line.xml:49(userinput)
 #, no-wrap
 msgid "man [command]"
-msgstr ""
+msgstr "man [команда]"
 
 #: desktop-guide/C/command-line.xml:50(userinput)
 #, no-wrap
 msgid "cat"
-msgstr ""
+msgstr "cat"
 
 #: desktop-guide/C/command-line.xml:50(seg)
 msgid "Joins (concatenates) two or more files"
-msgstr ""
+msgstr "Объединяет (выполняет конкатенацию) двух или более файлов"
 
 #: desktop-guide/C/command-line.xml:50(userinput)
 #, no-wrap
 msgid "cat [file1] [file2] ... &gt; [output file]"
-msgstr ""
+msgstr "cat [файл1] [файл2] ... &gt; [выходной файл]"
 
 #: desktop-guide/C/command-line.xml:51(userinput)
 #, no-wrap
 msgid "less"
-msgstr ""
+msgstr "less"
 
 #: desktop-guide/C/command-line.xml:51(seg)
 msgid "View the contents of a text file"
-msgstr ""
+msgstr "Просмотр содержимого текстового файла"
 
 #: desktop-guide/C/command-line.xml:51(userinput)
 #, no-wrap
 msgid "less [file]"
-msgstr ""
+msgstr "less [файл]"
 
 #: desktop-guide/C/command-line.xml:52(userinput)
 #, no-wrap
 msgid "editor"
-msgstr ""
+msgstr "editor"
 
 #: desktop-guide/C/command-line.xml:52(seg)
 msgid "Edit a text file"
-msgstr ""
+msgstr "Редактирование текстового файла"
 
 #: desktop-guide/C/command-line.xml:52(userinput)
 #, no-wrap
 msgid "editor [file]"
-msgstr ""
+msgstr "editor [файл]"
 
 #: desktop-guide/C/administrative-tasks.xml:12(title)
 msgid "Administrative tasks"
-msgstr ""
+msgstr "Административные задачи"
 
 #: desktop-guide/C/administrative-tasks.xml:14(para)
 msgid ""
@@ -5335,6 +5614,10 @@ msgid ""
 "created during installation will, by default, be able to perform "
 "administrative tasks."
 msgstr ""
+"По соображениям безопасности, административные задачи в Xubuntu могут "
+"выполняться только пользователями со специальными административными "
+"привилегиями. Первый пользователь, созданный во время установки системы, по "
+"умолчанию имеет право выполнять административные задачи."
 
 #: desktop-guide/C/administrative-tasks.xml:16(para)
 msgid ""
@@ -5343,12 +5626,18 @@ msgid ""
 "from malicious files and lessens the chances that you will accidentally "
 "select options which may change the way your system works."
 msgstr ""
+"При запуске приложения, требующего административных привилегий у вас будет "
+"запрошен ваш пароль. Это помогает защитить систему от вредоносных файлов и "
+"уменьшить вероятность того, что вы случайно выполните действие, изменяющее "
+"способ работы вашей системы."
 
 #: desktop-guide/C/administrative-tasks.xml:18(para)
 msgid ""
 "Each time you type your password, the system remembers it for 15 minutes so "
 "that you do not have to type it again."
 msgstr ""
+"При каждом вводе пароля система запоминает его на 15 минут, чтобы вам не "
+"приходилось постоянно вводить его снова."
 
 #: desktop-guide/C/administrative-tasks.xml:20(para)
 msgid ""
@@ -5356,10 +5645,13 @@ msgid ""
 "administrative operations. Information on how to change groups can be found "
 "below."
 msgstr ""
+"ПРИМЕЧАНИЕ: Для выполнения административных действий пользователь должен "
+"быть членом группы 'sudo'. Информация о том, как изменять группы, приведена "
+"ниже."
 
 #: desktop-guide/C/administrative-tasks.xml:23(title)
 msgid "Users and groups"
-msgstr ""
+msgstr "Пользователи и группы"
 
 #: desktop-guide/C/administrative-tasks.xml:25(para)
 msgid ""
@@ -5368,6 +5660,10 @@ msgid ""
 "accounts for everybody. This allows users to have their individual settings, "
 "files and access rights."
 msgstr ""
+"Во время установки Xubuntu создаётся только одна учётная запись "
+"пользователя. Если компьютером пользуются несколько человек, настоятельно "
+"рекомендуется создать отдельную учётную запись для каждого из них. Это "
+"позволит им иметь собственные настройки, файлы и права доступа."
 
 #: desktop-guide/C/administrative-tasks.xml:27(para)
 msgid ""
@@ -5376,59 +5672,70 @@ msgid ""
 "Manager</guimenuitem><guimenuitem>Users and "
 "Groups</guimenuitem></menuchoice></application>."
 msgstr ""
+"Чтобы изменить пользователей или группы в системе, перейдите в "
+"<application><menuchoice><placeholder-1/><guimenuitem>Диспетчер "
+"настроек</guimenuitem><guimenuitem>Пользователи и "
+"группы</guimenuitem></menuchoice></application>."
 
 #: desktop-guide/C/administrative-tasks.xml:29(para)
 msgid "You need administrative rights to make changes to users and groups."
-msgstr ""
+msgstr "Для изменения пользователей и групп требуются права администратора."
 
 #: desktop-guide/C/administrative-tasks.xml:32(title)
 msgid "Managing users"
-msgstr ""
+msgstr "Управление пользователями"
 
 #: desktop-guide/C/administrative-tasks.xml:34(para)
 msgid "To add a new user:"
-msgstr ""
+msgstr "Чтобы добавить нового пользователя:"
 
 #: desktop-guide/C/administrative-tasks.xml:37(para) desktop-guide/C/administrative-tasks.xml:64(para)
 msgid "Click the <guibutton>Add</guibutton> button"
-msgstr ""
+msgstr "Нажмите кнопку <guibutton>Добавить</guibutton>"
 
 #: desktop-guide/C/administrative-tasks.xml:38(para)
 msgid "Enter you password"
-msgstr ""
+msgstr "Введите свой пароль"
 
 #: desktop-guide/C/administrative-tasks.xml:39(para)
 msgid ""
 "Fill in the <guilabel>Name</guilabel> and <guilabel>Username</guilabel>"
 msgstr ""
+"Введите <guilabel>Имя</guilabel> и <guilabel>Имя пользователя</guilabel>"
 
 #: desktop-guide/C/administrative-tasks.xml:40(para) desktop-guide/C/administrative-tasks.xml:68(para)
 msgid "Click the <guibutton>OK</guibutton> button"
-msgstr ""
+msgstr "Нажмите кнопку <guibutton>OK</guibutton>"
 
 #: desktop-guide/C/administrative-tasks.xml:43(para)
 msgid "If you want to give a user administrative rights to the system:"
 msgstr ""
+"Если вы хотите предоставить пользователю права администратора системы:"
 
 #: desktop-guide/C/administrative-tasks.xml:46(para)
 msgid ""
 "Select the user whose account type you want to change and press the "
 "<guibutton>Change...</guibutton> button"
 msgstr ""
+"Выберите пользователя и <guibutton>Изменить...</guibutton> напротив надписи "
+"<guilabel>Тип учётной записи</guilabel>"
 
 #: desktop-guide/C/administrative-tasks.xml:47(para)
 msgid "Enter your password if prompted to do so"
-msgstr ""
+msgstr "Введите свой пароль, если вам будет предложено это сделать"
 
 #: desktop-guide/C/administrative-tasks.xml:48(para)
 msgid ""
 "Select the <guilabel>Administrator</guilabel> option (or select "
 "<guilabel>Desktop User</guilabel> to revert)"
 msgstr ""
+"Выберите <guilabel>Администратор</guilabel> (или "
+"<guilabel>Пользователь</guilabel>, если хотите отобрать права администратора)"
 
 #: desktop-guide/C/administrative-tasks.xml:49(para)
 msgid "Press <guibutton>OK</guibutton> to apply the selected changes"
 msgstr ""
+"Нажмите <guibutton>OK</guibutton>, чтобы применить сделанные изменения"
 
 #: desktop-guide/C/administrative-tasks.xml:52(para)
 msgid ""
@@ -5437,40 +5744,49 @@ msgid ""
 "dialog, enter your password, click the <guilabel>User Privileges</guilabel> "
 "tab and from there select or deselect wanted capabilities."
 msgstr ""
+"Для более подробного настроя прав доступа нажмите кнопку "
+"<guibutton>Дополнительный параметры</guibutton> в диалоговом окне "
+"<guilabel>Параметры пользователей</guilabel>, введите свой пароль, выберите "
+"вкладку <guilabel>Привилегии пользователя</guilabel> и установите или "
+"снимите там необходимые привилегии."
 
 #: desktop-guide/C/administrative-tasks.xml:54(para)
 msgid ""
 "To remove a user from the system, select the user you want to delete and "
 "click the <guibutton>Delete</guibutton> button."
 msgstr ""
+"Для удаления пользователя из системы выберите его в списке и нажмите кнопку "
+"<guibutton>Удалить</guibutton>."
 
 #: desktop-guide/C/administrative-tasks.xml:58(title)
 msgid "Managing groups"
-msgstr ""
+msgstr "Управление группами"
 
 #: desktop-guide/C/administrative-tasks.xml:60(para)
 msgid "To add a new group:"
-msgstr ""
+msgstr "Чтобы добавить новую группу:"
 
 #: desktop-guide/C/administrative-tasks.xml:63(para)
 msgid "Click the <guibutton>Manage Groups</guibutton> button"
-msgstr ""
+msgstr "Нажмите кнопку <guibutton>Управление группами</guibutton>"
 
 #: desktop-guide/C/administrative-tasks.xml:65(para)
 msgid "Enter your password"
-msgstr ""
+msgstr "Введите свой пароль"
 
 #: desktop-guide/C/administrative-tasks.xml:66(para)
 msgid ""
 "Choose a name for the new group and, if you want, change the default value "
 "for the <guilabel>Group ID</guilabel>"
 msgstr ""
+"Выберите имя для группы и, если хотите, измените значение по умолчанию в "
+"поле <guilabel>ID группы</guilabel>"
 
 #: desktop-guide/C/administrative-tasks.xml:67(para)
 msgid ""
 "At this time, you have the option of selecting <guilabel>Group "
 "Members</guilabel> from the list"
-msgstr ""
+msgstr "Вы также можете выбрать <guilabel>Членов группы</guilabel> из списка"
 
 #: desktop-guide/C/administrative-tasks.xml:71(para)
 msgid ""
@@ -5478,6 +5794,9 @@ msgid ""
 "Groups</guibutton> button, select the group you want to delete and click the "
 "<guibutton>Delete</guibutton> button."
 msgstr ""
+"Чтобы удалить группу из системы, нажмите кнопку <guibutton>Управление "
+"группами</guibutton>, выберите группу для удаления и нажмите кнопку "
+"<guibutton>Удалить</guibutton>."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: desktop-guide/C/administrative-tasks.xml:0(None)
