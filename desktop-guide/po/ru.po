@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-05-17 14:36+0300\n"
-"PO-Revision-Date: 2013-05-28 17:52+0000\n"
+"PO-Revision-Date: 2013-05-29 14:31+0000\n"
 "Last-Translator: Aleksey Kabanov <Unknown>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-05-29 07:59+0000\n"
-"X-Generator: Launchpad (build 16640)\n"
+"X-Launchpad-Export-Date: 2013-05-30 07:02+0000\n"
+"X-Generator: Launchpad (build 16652)\n"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
 msgid "What is Xubuntu?"
@@ -3027,13 +3027,16 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:179(title)
 msgid "Advanced troubleshooting"
-msgstr ""
+msgstr "Более сложные способы устранения неисправностей"
 
 #: desktop-guide/C/internet-networks.xml:181(para)
 msgid ""
 "The following troubleshooting methods are a bit more technical. Please try "
 "these methods only if the above methods failed."
 msgstr ""
+"Следующие методы устранения неисправностей требуют немного больше "
+"технических знаний. Опробуйте их только в том случае, если приведённые выше "
+"методы не помогли справиться с неполадкой."
 
 #: desktop-guide/C/internet-networks.xml:184(title)
 msgid "Checking IP assignment"
@@ -3158,10 +3161,19 @@ msgid ""
 "set other options, including the option to auto-connect. Once you are done, "
 "click <guibutton>OK</guibutton> to create the bookmark."
 msgstr ""
+"После успешного соединения с сервером значок соединения появится в окне "
+"<application>Gigolo</application>. Чтобы добавить соединение в закладки, "
+"щёлкните на нём правой кнопкой и выберите <menuchoice><guimenuitem>Создать "
+"закладку</guimenuitem></menuchoice>. В диалоговом окне "
+"<guilabel>Закладки</guilabel> можно дать закладке имя и настроить некоторые "
+"другие параметры, включая автоматическое подключение. Когда закончите, "
+"нажмите <guibutton>OK</guibutton>, чтобы завершить создание закладки."
 
 #: desktop-guide/C/internet-networks.xml:219(para)
 msgid "The Windows Share username should be in the format DOMAIN\\username"
 msgstr ""
+"Имя пользователя общего ресуса Windows должно быть в формате ДОМЕН\\"
+"имя_пользователя"
 
 #: desktop-guide/C/internet-networks.xml:221(para)
 msgid ""
@@ -3169,10 +3181,13 @@ msgid ""
 "1/>gvfs-backends</literal> needs to be installed in order to connect using "
 "the <application>Thunar File Manager</application>."
 msgstr ""
+"Для сетей SAMBA (общих папок Windows) необходимо установить пакет "
+"<literal><placeholder-1/>gvfs-backends</literal> для возможности подключения "
+"из <application>файлового менеджера Thunar</application>."
 
 #: desktop-guide/C/index.xml:12(title) desktop-guide/C/index.xml:15(title)
 msgid "Xubuntu Offline Documentation"
-msgstr ""
+msgstr "Оффлайн-документация Xubuntu"
 
 #: desktop-guide/C/index.xml:3(title)
 msgid "Credits and License"
@@ -3653,6 +3668,9 @@ msgid ""
 "If it is necessary to unmount the installed system to proceed with changes "
 "you wish to make you will have to work from a live CD/USB to do so"
 msgstr ""
+"Если для изменений, которые вы собираетесь внести, необходимо отмонтировать "
+"раздел, на который установлена система, вы можете сделать эти изменения, "
+"загрузившись с live CD или USB"
 
 #: desktop-guide/C/hardware-devices.xml:106(title)
 msgid "Freeing space for a new partition"
@@ -3675,6 +3693,8 @@ msgid ""
 "Select the device to partition from the drop-down list at the top-right of "
 "the main window"
 msgstr ""
+"Выберите устройство для изменения разделов из выпадающего списка наверху "
+"главного окна"
 
 #: desktop-guide/C/hardware-devices.xml:112(para)
 msgid ""
@@ -3683,6 +3703,10 @@ msgid ""
 "<menuchoice><guimenu>Partition</guimenu><guimenuitem>Unmount</guimenuitem></m"
 "enuchoice>"
 msgstr ""
+"В главном окне появится список разделов. Выберите раздел, размер которого "
+"нужно изменить, и в меню выберите "
+"<menuchoice><guimenu>Раздел</guimenu><guimenuitem>Отмонтировать</guimenuitem>"
+"</menuchoice>"
 
 #: desktop-guide/C/hardware-devices.xml:113(para)
 msgid ""
@@ -3694,10 +3718,21 @@ msgid ""
 "Preceding (MiB)</guilabel> to free space before this partition. "
 "Alternatively you can use the slider to adjust the partition size."
 msgstr ""
+"Для изменения размера раздела выберите "
+"<menuchoice><guimenu>Раздел</guimenu><guimenuitem>Изменить "
+"размер/переместить</guimenuitem></menuchoice>. Откроется диалоговое окно "
+"<guilabel>Изменение размера или перемещение</guilabel>. Вы можете "
+"использовать поле <guilabel>Свободное место после (МиБ)</guilabel>, чтобы "
+"указать, сколько места освободить после этого раздела, или "
+"<guilabel>Свободное место до (МиБ)</guilabel>, чтобы освободить место перед "
+"этим разделом. В качестве альтернативы для настройки размера раздела можно "
+"использовать ползунок."
 
 #: desktop-guide/C/hardware-devices.xml:114(para)
 msgid "To apply the changes, click <guibutton>Resize/Move</guibutton>"
 msgstr ""
+"Нажмите <guibutton>Изменить размер или переместить</guibutton>, чтобы "
+"применить изменения"
 
 #: desktop-guide/C/hardware-devices.xml:119(title)
 msgid "Creating a new partition"
@@ -3713,16 +3748,24 @@ msgid ""
 "<guilabel>unallocated</guilabel>, right-click on it and click "
 "<menuchoice><guimenuitem>New</guimenuitem></menuchoice>"
 msgstr ""
+"Появится список разделов. Выберите строку с надписью <guilabel>не "
+"размечено</guilabel>, щёлкните на ней правой кнопкой и выберите "
+"<menuchoice><guimenuitem>Новый</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/hardware-devices.xml:126(para)
 msgid ""
 "From the <guilabel>File system:</guilabel> pick list, choose the desired "
 "type of filesystem to use and click <guibutton>Add</guibutton>"
 msgstr ""
+"Выберите нужный тип файловой системы из выпадающего списка "
+"<guilabel>Файловая система:</guilabel> и нажмите "
+"<guibutton>Добавить</guibutton>"
 
 #: desktop-guide/C/hardware-devices.xml:127(para)
 msgid "To apply the changes, click <guibutton>Apply</guibutton>"
 msgstr ""
+"Чтобы применить изменения, нажмите <guibutton>Выполнить все "
+"операции</guibutton>"
 
 #: desktop-guide/C/hardware-devices.xml:132(title)
 msgid "Formatting a partition"
@@ -3738,6 +3781,9 @@ msgid ""
 "<menuchoice><guimenu>Partition</guimenu><guimenuitem>Unmount</guimenuitem></m"
 "enuchoice>."
 msgstr ""
+"Появится список разделов. Выберите нужный раздел и в меню выберите "
+"<menuchoice><guimenu>Раздел</guimenu><guimenuitem>Отмонтировать</guimenuitem>"
+"</menuchoice>."
 
 #: desktop-guide/C/hardware-devices.xml:139(para)
 msgid ""
@@ -3746,10 +3792,15 @@ msgid ""
 "nuchoice> to and select from the list the type of filesystem to format the "
 "partition to"
 msgstr ""
+"Выберите раздел, который хотите отформатировать, затем щёлкните в меню "
+"<menuchoice><guimenu>Раздел</guimenu><guimenuitem>Форматировать "
+"в</guimenuitem></menuchoice> и выберите из списка тип файловой системы"
 
 #: desktop-guide/C/hardware-devices.xml:140(para)
 msgid "To apply all the changes, click <guibutton>Apply</guibutton>"
 msgstr ""
+"Чтобы применить изменения, нажмите <guibutton>Выполнить все "
+"операции</guibutton>"
 
 #: desktop-guide/C/hardware-devices.xml:146(title)
 msgid "Mounting and unmounting devices"
@@ -3831,6 +3882,11 @@ msgid ""
 "you've set a graphical screensaver, turning it off could slightly improve "
 "the battery life of your laptop."
 msgstr ""
+"При отображении экранной заставки дисплей может потреблять больше "
+"электроэнергии, чем при пустом экране. Xubuntu по умолчанию использует в "
+"качестве экранной заставки пустой экран, но если вы используете графическую "
+"заставку, то её отключение может слегка продлить время работы ноутбука от "
+"аккумулятора."
 
 #: desktop-guide/C/hardware-devices.xml:173(para)
 msgid ""
@@ -5293,6 +5349,14 @@ msgid ""
 "see all importing options. Read more on the <ulink "
 "url=\"http://support.mozilla.org/en-US/home\">Firefox's online help</ulink>."
 msgstr ""
+"<application>Firefox</application>, веб-браузер. Он позволяет импортировать "
+"закладки. Выберите в меню <application>Firefox</application> "
+"<menuchoice><guimenu>Закладки</guimenu><guimenuitem>Показать все "
+"закладки</guimenuitem></menuchoice>, чтобы открыть "
+"<guilabel>Библиотеку</guilabel> и нажмите <guibutton>Импорт и резервные "
+"копии</guibutton>, чтобы увидеть все опции импортирования. Более подробная "
+"информация доступна в <ulink url=\"http://support.mozilla.org/en-"
+"US/home\">онлайн-справке Firefox</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:27(para)
 msgid ""
@@ -5304,6 +5368,13 @@ msgid ""
 "<ulink url=\"https://support.mozillamessaging.com/en-US/home\">Thunderbird "
 "Support page</ulink>."
 msgstr ""
+"<application>Thunderbird</application>, клиент электронной почты. Он "
+"позволяет импортировать ваши сообщения и адресную книгу. Выберите в меню "
+"<application>Thunderbird</application> "
+"<menuchoice><guimenu>Инструменты</guimenu><guimenuitem>Импорт</guimenuitem></"
+"menuchoice>, запустить <guilabel>Мастер импорта</guilabel>. Подробности "
+"читайте на <ulink url=\"https://support.mozillamessaging.com/en-"
+"US/home\">странице поддержки Thunderbird</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:29(para)
 msgid ""
