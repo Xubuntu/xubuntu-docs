@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-05-17 14:36+0300\n"
-"PO-Revision-Date: 2013-06-19 11:08+0000\n"
+"PO-Revision-Date: 2013-06-24 02:15+0000\n"
 "Last-Translator: Jackson Doak <Doak.jackson@gmail.com>\n"
 "Language-Team: English (Australia) <en_AU@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-06-20 06:36+0000\n"
-"X-Generator: Launchpad (build 16673)\n"
+"X-Launchpad-Export-Date: 2013-06-24 05:26+0000\n"
+"X-Generator: Launchpad (build 16677)\n"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
 msgid "What is Xubuntu?"
@@ -4562,40 +4562,50 @@ msgid ""
 "dialog, enter your password, click the <guilabel>User Privileges</guilabel> "
 "tab and from there select or deselect wanted capabilities."
 msgstr ""
+"For more fine-grained access control, click the <guibutton>Advanced "
+"Settings</guibutton> button in the <guilabel>User Settings</guilabel> "
+"dialog, enter your password, click the <guilabel>User Privileges</guilabel> "
+"tab and from there select or deselect wanted capabilities."
 
 #: desktop-guide/C/administrative-tasks.xml:54(para)
 msgid ""
 "To remove a user from the system, select the user you want to delete and "
 "click the <guibutton>Delete</guibutton> button."
 msgstr ""
+"To remove a user from the system, select the user you want to delete and "
+"click the <guibutton>Delete</guibutton> button."
 
 #: desktop-guide/C/administrative-tasks.xml:58(title)
 msgid "Managing groups"
-msgstr ""
+msgstr "Managing groups"
 
 #: desktop-guide/C/administrative-tasks.xml:60(para)
 msgid "To add a new group:"
-msgstr ""
+msgstr "To add a new group:"
 
 #: desktop-guide/C/administrative-tasks.xml:63(para)
 msgid "Click the <guibutton>Manage Groups</guibutton> button"
-msgstr ""
+msgstr "Click the <guibutton>Manage Groups</guibutton> button"
 
 #: desktop-guide/C/administrative-tasks.xml:65(para)
 msgid "Enter your password"
-msgstr ""
+msgstr "Enter your password"
 
 #: desktop-guide/C/administrative-tasks.xml:66(para)
 msgid ""
 "Choose a name for the new group and, if you want, change the default value "
 "for the <guilabel>Group ID</guilabel>"
 msgstr ""
+"Choose a name for the new group and, if you want, change the default value "
+"for the <guilabel>Group ID</guilabel>"
 
 #: desktop-guide/C/administrative-tasks.xml:67(para)
 msgid ""
 "At this time, you have the option of selecting <guilabel>Group "
 "Members</guilabel> from the list"
 msgstr ""
+"At this time, you have the option of selecting <guilabel>Group "
+"Members</guilabel> from the list"
 
 #: desktop-guide/C/administrative-tasks.xml:71(para)
 msgid ""
@@ -4603,6 +4613,9 @@ msgid ""
 "Groups</guibutton> button, select the group you want to delete and click the "
 "<guibutton>Delete</guibutton> button."
 msgstr ""
+"To remove a group from the system, click on the <guibutton>Manage "
+"Groups</guibutton> button, select the group you want to delete and click the "
+"<guibutton>Delete</guibutton> button."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: desktop-guide/C/administrative-tasks.xml:0(None)
