@@ -42,9 +42,9 @@
 				simultaneously, this is a handy way to keep your screen from getting too crowded.</para>
 
 			<para>To the left of the clock is the <guilabel>Notification Area</guilabel>. Here you will
-				see icons displaying the status of your network connection, mail and messaging notices
-				and the system sound volume. Other notification icons may appear as necessary, for
-				instance when software updates are available.</para>
+				see icons displaying the status of your network connection and the system sound volume. 
+				Other notification icons may appear as necessary, for instance when software updates 
+				are available.</para>
 		</section>
 
 		<section id="desktop-bottom-panel">
@@ -144,14 +144,14 @@
 				a new shortcut in the left pane of the <application>File Manager</application>
 				representing the CD. Clicking on it will open the CD in the main area, just like
 				clicking on a regular folder. To remove the CD, right-click on the shortcut, and choose
-				<menuchoice><guimenuitem>Eject Volume</guimenuitem></menuchoice>. The same applies for
+				<menuchoice><guimenuitem>Eject</guimenuitem></menuchoice>. The same applies for
 				any other removable media.</para>
 
 			<note><para>Please note that pressing the eject button on your CD drive may not work. This
 				may be surprising to some users, but it is in fact the expected behavior. Before the CD
 				can be ejected, it needs to be properly "released" (unmounted) by the system. To remove
 				a CD, always right-click on its shortcut and choose
-				<menuchoice><guimenuitem>Eject Volume</guimenuitem></menuchoice>.</para></note>
+				<menuchoice><guimenuitem>Eject</guimenuitem></menuchoice>.</para></note>
 		</section>
 
 		<section id="files-directories-customizing-thunar">
@@ -175,7 +175,7 @@
 		<title>Customizing the appearance</title>
 
 		<para>If you want to customize the appearance of your Xubuntu system, the options are
-			unlimited. Here's a few good starting points.</para>
+			unlimited. Here are a few good starting points.</para>
 
 		<section id="customizing-wallpaper">
 			<title>Changing your wallpaper</title>
@@ -189,14 +189,14 @@
 				<listitem><para>In the <guilabel>Background</guilabel> tab, select a new wallpaper
 					image</para></listitem>
 				<listitem><para>If you have multiple monitors, you will have another set of tabs under
-					<guilabel>Background</guilabel>; use these to specify which monitors wallpaper you
+					<guilabel>Background</guilabel>; use these to specify which monitor's wallpaper you
 					want to change.</para></listitem>
 				<listitem><para>If you have multiple monitors, you can set the wallpaper on the primary
 					monitor to stretch across all monitors.</para></listitem>
 			</itemizedlist>
 
 			<tip><para>If you want to add one or more of your images in this list for future use, you
-				can copy or symlink them to &location_backdrops; (needs administrative privileges)</para></tip>
+				can copy or symlink them to &location_backdrops; (requires administrative privileges)</para></tip>
 
 			<para>If you want to set any of your own images as the wallpaper, the easiest way to
 				achieve this is:</para>
@@ -207,7 +207,7 @@
 					wallpaper</guimenuitem></menuchoice> from the context menu</para></listitem>
 			</itemizedlist>
 
-			<caution><para>With multiple monitors, this setting will only change the primary monitors
+			<caution><para>With multiple monitors, this setting will only change the primary monitor's
 				wallpaper. To change the wallpaper for other monitors, you will need to use the
 				dialog described above.</para></caution>
 		</section>
@@ -223,8 +223,8 @@
 				<listitem><para>Right-click any panel</para></listitem>
 				<listitem><para>From the context menu, select <menuchoice><guimenuitem>Panel</guimenuitem>
 					<guimenuitem>Panel Preferences</guimenuitem></menuchoice></para></listitem>
-				<listitem><para>On the top of the dialog, you can select which panel you are editing as
-					well as add or delete panels</para></listitem>
+				<listitem><para>At the top of the dialog, you can select which panel to edit, add a new panel
+					or delete an existing panel</para></listitem>
 				<listitem><para>In the <guilabel>Display</guilabel> tab, you can control the selected
 					panel appearance</para></listitem>
 				<listitem><para>In the <guilabel>Items</guilabel> tab, you can control the selected
@@ -276,7 +276,7 @@
 			</itemizedlist>
 
 			<note><para>If these directories do not exist, you should create them first. Copying themes
-				for all users will need administrative privileges.</para></note>
+				for all users will require administrative privileges.</para></note>
 		</section>
 
 		<section id="customizing-desktop-effects">
@@ -285,7 +285,7 @@
 			<para>While Xubuntu doesn't come with many desktop effects, the Xfce compositor is enabled	
 				by default. In the default Xubuntu configuration, the Xfce compositor is used to draw
 				shadows for windows and to enable translucent panels. If you have a low-end GPU or you
-				don't like the desktop effects mentioned, you can turn off compositor or change the
+				don't like the desktop effects mentioned, you can turn off the compositor or change the
 				settings by navigating to &settings-window-manager-tweaks; and in the
 				<guilabel>Compositor</guilabel> tab either unticking <guilabel>Enable display
 				compositing</guilabel> or modifying settings.</para>

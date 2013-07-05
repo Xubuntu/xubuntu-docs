@@ -20,7 +20,7 @@
 				<?dbhtml list-presentation="table"?>
 				<segtitle>Windows</segtitle><segtitle>Xubuntu</segtitle>
 				<seglistitem><seg>Add/Remove Programs</seg><seg>&software-center;</seg></seglistitem>
-				<seglistitem><seg>Control Panel</seg><seg>&settings-manager; for personal preferences <?br?> &system-menu; for system-wide configuration</seg></seglistitem>
+				<seglistitem><seg>Control Panel</seg><seg>&settings-manager; for personal preferences <?br?> &system-menu; for additional configuration</seg></seglistitem>
 				<seglistitem><seg>Windows Explorer</seg><seg>&file-manager;</seg></seglistitem>
 				<seglistitem><seg>My Documents</seg><seg>&location_home;</seg></seglistitem>
 			</segmentedlist>
@@ -31,7 +31,7 @@
 			<para>It is possible to run Windows applications under Xubuntu. A few possible choices are:</para>
 			<itemizedlist>
 				<listitem><para><ulink url="&wine-web;">Wine</ulink>, the Windows emulator. Wine allows running some Windows applications without having to install a Windows operating system. Refer to the <ulink url="&wine-appdb;">Wine AppDB</ulink> to find out which applications will run on Wine and the <ulink url="&wine-docs;">Wine documentation</ulink> for FAQ's and user support.</para></listitem>
-				<listitem><para><ulink url="&vbox-web;">VirtualBox</ulink>, a virtualization software. You can install a Windows operating system along with any application into a virtual machine managed by VirtualBox. Note that 3D support on VirtualBox is still quite unreliable. To read more about VirtualBox and virtualization, refer to the <ulink url="&vbox-docs;">VirtualBox end-user documentation</ulink>.</para></listitem>
+				<listitem><para><ulink url="&vbox-web;">VirtualBox</ulink>, virtualization software. You can install a Windows operating system along with any application into a virtual machine managed by VirtualBox. Note that 3D support on VirtualBox is still quite unreliable. To read more about VirtualBox and virtualization, refer to the <ulink url="&vbox-docs;">VirtualBox end-user documentation</ulink>.</para></listitem>
 			</itemizedlist>
 
 			<tip><para>Both Wine and VirtualBox are available in the software repositories.</para></tip>
