@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-05-17 14:36+0300\n"
-"PO-Revision-Date: 2013-07-15 22:03+0000\n"
+"PO-Revision-Date: 2013-07-17 21:55+0000\n"
 "Last-Translator: Jackson Doak <Doak.jackson@gmail.com>\n"
 "Language-Team: English (Australia) <en_AU@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-07-17 07:27+0000\n"
+"X-Launchpad-Export-Date: 2013-07-18 07:17+0000\n"
 "X-Generator: Launchpad (build 16696)\n"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
@@ -775,6 +775,13 @@ msgid ""
 "completes, you can then install <application>$PACKAGENAME</application> by "
 "then entering: <userinput>sudo apt-get install $PACKAGENAME</userinput>."
 msgstr ""
+"Back at the disconnected computer, insert the USB flash drive. Assuming you "
+"have opened a terminal and have navigated to the directory on the flash "
+"drive containing the two files you then enter: <userinput>sudo apt-offline "
+"install bundle.zip</userinput>. You will see some program output scroll by "
+"and once it completes your repositories will be updated. Once that "
+"completes, you can then install <application>$PACKAGENAME</application> by "
+"then entering: <userinput>sudo apt-get install $PACKAGENAME</userinput>."
 
 #: desktop-guide/C/offline-packages.xml:41(title)
 msgid "Upgrading Your System"
@@ -790,6 +797,13 @@ msgid ""
 "dec</application> which comes complete in its package file. Other packages "
 "will exhibit this behavior so you must be careful."
 msgstr ""
+"A few specific packages are not built to handle the disconnected "
+"environment. This is due to them running download scripts during the "
+"installation or upgrade process. One package that routinely exhibits this "
+"behavior is <application>flashplugin-installer</application>. The only way "
+"around this is to use a free alternative life <application>swf-"
+"dec</application> which comes complete in its package file. Other packages "
+"will exhibit this behavior so you must be careful."
 
 #: desktop-guide/C/offline-packages.xml:45(para)
 msgid ""
@@ -809,6 +823,9 @@ msgid ""
 "computer you enter this at the command line: <userinput>apt-offline set --"
 "update apt-offline.sig</userinput>"
 msgstr ""
+"First plug in a USB flash drive and open a terminal. From your disconnected "
+"computer you enter this at the command line: <userinput>apt-offline set --"
+"update apt-offline.sig</userinput>"
 
 #: desktop-guide/C/offline-packages.xml:53(para)
 msgid ""
@@ -816,6 +833,9 @@ msgid ""
 "there are packages to upgrade. If there are packages to upgrade you can "
 "continue onward otherwise it is okay to stop."
 msgstr ""
+"This completes the first part to the process. You'll know now whether or not "
+"there are packages to upgrade. If there are packages to upgrade you can "
+"continue onward otherwise it is okay to stop."
 
 #: desktop-guide/C/offline-packages.xml:55(para)
 msgid ""
@@ -887,46 +907,47 @@ msgstr ""
 msgid ""
 "@@image: '../common/images/location_icon.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
+"@@image: '../common/images/location_icon.png'; md5=THIS FILE DOESN'T EXIST"
 
 #: desktop-guide/C/migrating-upgrading.xml:12(title)
 msgid "Migrating and Upgrading"
-msgstr ""
+msgstr "Migrating and Upgrading"
 
 #: desktop-guide/C/migrating-upgrading.xml:15(title)
 msgid "Migrating from Windows"
-msgstr ""
+msgstr "Migrating from Windows"
 
 #: desktop-guide/C/migrating-upgrading.xml:18(title)
 msgid "A quick Windows&ndash;Xubuntu dictionary"
-msgstr ""
+msgstr "A quick Windows&ndash;Xubuntu dictionary"
 
 #: desktop-guide/C/migrating-upgrading.xml:21(segtitle)
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: desktop-guide/C/migrating-upgrading.xml:21(segtitle)
 msgid "Xubuntu"
-msgstr ""
+msgstr "Xubuntu"
 
 #: desktop-guide/C/migrating-upgrading.xml:22(seg)
 msgid "Add/Remove Programs"
-msgstr ""
+msgstr "Add/Remove Programs"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "Ubuntu Software Center"
-msgstr ""
+msgstr "Ubuntu Software Center"
 
 #: desktop-guide/C/migrating-upgrading.xml:23(seg)
 msgid "Control Panel"
-msgstr ""
+msgstr "Control Panel"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "Settings Manager"
-msgstr ""
+msgstr "Settings Manager"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "System (menu)"
-msgstr ""
+msgstr "System (menu)"
 
 #: desktop-guide/C/migrating-upgrading.xml:23(seg)
 msgid ""
@@ -935,32 +956,38 @@ msgid ""
 "<?br?><application><menuchoice><placeholder-3/><placeholder-"
 "4/></menuchoice></application> for system-wide configuration"
 msgstr ""
+"<application><menuchoice><placeholder-1/><placeholder-"
+"2/></menuchoice></application> for personal preferences "
+"<?br?><application><menuchoice><placeholder-3/><placeholder-"
+"4/></menuchoice></application> for system-wide configuration"
 
 #: desktop-guide/C/migrating-upgrading.xml:24(seg)
 msgid "Windows Explorer"
-msgstr ""
+msgstr "Windows Explorer"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "File Manager"
-msgstr ""
+msgstr "File Manager"
 
 #: desktop-guide/C/migrating-upgrading.xml:25(seg)
 msgid "My Documents"
-msgstr ""
+msgstr "My Documents"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(filename)
 msgid "<placeholder-1/> /home/username/"
-msgstr ""
+msgstr "<placeholder-1/> /home/username/"
 
 #: desktop-guide/C/migrating-upgrading.xml:30(title)
 msgid "Windows applications on Linux"
-msgstr ""
+msgstr "Windows applications on Linux"
 
 #: desktop-guide/C/migrating-upgrading.xml:31(para)
 msgid ""
 "It is possible to run Windows applications under Xubuntu. A few possible "
 "choices are:"
 msgstr ""
+"It is possible to run Windows applications under Xubuntu. A few possible "
+"choices are:"
 
 #: desktop-guide/C/migrating-upgrading.xml:33(para)
 msgid ""
@@ -971,6 +998,12 @@ msgid ""
 "url=\"http://www.winehq.org/help/\">Wine documentation</ulink> for FAQ's and "
 "user support."
 msgstr ""
+"<ulink url=\"http://winehq.org/\">Wine</ulink>, the Windows emulator. Wine "
+"allows running some Windows applications without having to install a Windows "
+"operating system. Refer to the <ulink url=\"http://appdb.winehq.org/\">Wine "
+"AppDB</ulink> to find out which applications will run on Wine and the <ulink "
+"url=\"http://www.winehq.org/help/\">Wine documentation</ulink> for FAQ's and "
+"user support."
 
 #: desktop-guide/C/migrating-upgrading.xml:34(para)
 msgid ""
@@ -982,19 +1015,27 @@ msgid ""
 "url=\"https://www.virtualbox.org/wiki/End-user_documentation\">VirtualBox "
 "end-user documentation</ulink>."
 msgstr ""
+"<ulink url=\"https://www.virtualbox.org/\">VirtualBox</ulink>, a "
+"virtualisation software. You can install a Windows operating system along "
+"with any application into a virtual machine managed by VirtualBox. Note that "
+"3D support on VirtualBox is still quite unreliable. To read more about "
+"VirtualBox and virtualisation, refer to the <ulink "
+"url=\"https://www.virtualbox.org/wiki/End-user_documentation\">VirtualBox "
+"end-user documentation</ulink>."
 
 #: desktop-guide/C/migrating-upgrading.xml:37(para)
 msgid "Both Wine and VirtualBox are available in the software repositories."
-msgstr ""
+msgstr "Both Wine and VirtualBox are available in the software repositories."
 
 #: desktop-guide/C/migrating-upgrading.xml:41(title)
 msgid "Windows networking on Linux"
-msgstr ""
+msgstr "Windows networking on Linux"
 
 #: desktop-guide/C/migrating-upgrading.xml:43(para)
 msgid ""
 "Accessing Windows network shares under Xubuntu can be easily done using:"
 msgstr ""
+"Accessing Windows network shares under Xubuntu can be easily done using:"
 
 #: desktop-guide/C/migrating-upgrading.xml:45(para)
 msgid ""
@@ -1006,6 +1047,13 @@ msgid ""
 "Location...</guimenuitem></menuchoice> and entering "
 "<userinput>smb://computername/sharename</userinput>."
 msgstr ""
+"<application><menuchoice><placeholder-1/><guimenuitem>File "
+"Manager</guimenuitem></menuchoice></application>, with which you can browse "
+"publicly visible shares by clicking on the <guilabel>Network</guilabel> item "
+"in the sidebar. Alternatively, you can browse a remote file system by going "
+"to <menuchoice><guimenu>Go</guimenu><guimenuitem>Open "
+"Location...</guimenuitem></menuchoice> and entering "
+"<userinput>smb://computername/sharename</userinput>."
 
 #: desktop-guide/C/migrating-upgrading.xml:46(para)
 msgid ""
@@ -1016,20 +1064,28 @@ msgid ""
 "<guilabel>Windows Share</guilabel> from <guilabel>Service Type</guilabel>, "
 "then enter the remote share's details."
 msgstr ""
+"<application><menuchoice><placeholder-"
+"1/><guisubmenu>System</guisubmenu><guimenuitem>Gigolo</guimenuitem></menuchoi"
+"ce></application>, which allows you to save bookmarks and manage remote file "
+"systems. To connect, click the first toolbar button. Select "
+"<guilabel>Windows Share</guilabel> from <guilabel>Service Type</guilabel>, "
+"then enter the remote share's details."
 
 #: desktop-guide/C/migrating-upgrading.xml:49(para)
 msgid ""
 "If some options are not available or do not work, ensure that the "
 "<literal><placeholder-1/>gvfs-backends</literal> is installed."
 msgstr ""
+"If some options are not available or do not work, ensure that the "
+"<literal><placeholder-1/>gvfs-backends</literal> is installed."
 
 #: desktop-guide/C/migrating-upgrading.xml:54(title)
 msgid "Upgrading from an older version of Xubuntu"
-msgstr ""
+msgstr "Upgrading from an older version of Xubuntu"
 
 #: desktop-guide/C/migrating-upgrading.xml:57(title)
 msgid "How can I upgrade to the latest version of Xubuntu?"
-msgstr ""
+msgstr "How can I upgrade to the latest version of Xubuntu?"
 
 #: desktop-guide/C/migrating-upgrading.xml:59(para)
 msgid ""
@@ -1037,6 +1093,9 @@ msgid ""
 "<application>Software Updater</application> should inform you when a new "
 "version is available for download. To check for a new version:"
 msgstr ""
+"A new version of Xubuntu is released every 6 months; the "
+"<application>Software Updater</application> should inform you when a new "
+"version is available for download. To check for a new version:"
 
 #: desktop-guide/C/migrating-upgrading.xml:62(para)
 msgid ""
@@ -1045,10 +1104,14 @@ msgid ""
 "Manager</guimenuitem><guimenuitem>Software "
 "Sources</guimenuitem></menuchoice></application>"
 msgstr ""
+"Navigate to <application>Software Sources</application>, by clicking "
+"<application><menuchoice><placeholder-1/><guimenuitem>Settings "
+"Manager</guimenuitem><guimenuitem>Software "
+"Sources</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/migrating-upgrading.xml:63(para)
 msgid "Select the <guilabel>Updates</guilabel> tab"
-msgstr ""
+msgstr "Select the <guilabel>Updates</guilabel> tab"
 
 #: desktop-guide/C/migrating-upgrading.xml:64(para)
 msgid ""
@@ -1056,6 +1119,9 @@ msgid ""
 "<guilabel>Notify me of a new Ubuntu version</guilabel>, enter your password, "
 "and press <guibutton>Close</guibutton>"
 msgstr ""
+"Select <guilabel>For any new version</guilabel> from the list labeled "
+"<guilabel>Notify me of a new Ubuntu version</guilabel>, enter your password, "
+"and press <guibutton>Close</guibutton>"
 
 #: desktop-guide/C/migrating-upgrading.xml:65(para)
 msgid ""
@@ -1064,12 +1130,18 @@ msgid ""
 "Updater</guimenuitem></menuchoice></application> and wait for the list of "
 "available updates to be downloaded"
 msgstr ""
+"Go to <application><menuchoice><placeholder-"
+"1/><guisubmenu>System</guisubmenu><guimenuitem>Software "
+"Updater</guimenuitem></menuchoice></application> and wait for the list of "
+"available updates to be downloaded"
 
 #: desktop-guide/C/migrating-upgrading.xml:66(para)
 msgid ""
 "If a new version of Xubuntu is available, a box at the top of the window "
 "will appear saying that a new distribution release is available."
 msgstr ""
+"If a new version of Xubuntu is available, a box at the top of the window "
+"will appear saying that a new distribution release is available."
 
 #: desktop-guide/C/migrating-upgrading.xml:67(para)
 msgid ""
@@ -1077,6 +1149,9 @@ msgid ""
 "the <guibutton>Upgrade</guibutton> button in <application>Software "
 "Updater</application>"
 msgstr ""
+"To upgrade to the latest release, save all of your open documents and press "
+"the <guibutton>Upgrade</guibutton> button in <application>Software "
+"Updater</application>"
 
 #: desktop-guide/C/migrating-upgrading.xml:70(para)
 msgid ""
@@ -1084,6 +1159,9 @@ msgid ""
 "packages must be downloaded and installed, although the actual figure will "
 "depend on how many packages are already installed on your computer."
 msgstr ""
+"Upgrades usually take a while to complete. Typically, around 700MB of "
+"packages must be downloaded and installed, although the actual figure will "
+"depend on how many packages are already installed on your computer."
 
 #: desktop-guide/C/migrating-upgrading.xml:72(para)
 msgid ""
@@ -1106,6 +1184,9 @@ msgid ""
 "Only install a development release if you are prepared to attempt to fix "
 "these problems for yourself."
 msgstr ""
+"Development releases often suffer from package breakages and other problems. "
+"Only install a development release if you are prepared to attempt to fix "
+"these problems for yourself."
 
 #: desktop-guide/C/migrating-upgrading.xml:80(para)
 msgid ""
@@ -1118,15 +1199,15 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:12(title)
 msgid "Media applications"
-msgstr ""
+msgstr "Media applications"
 
 #: desktop-guide/C/media-apps.xml:15(title)
 msgid "Music"
-msgstr ""
+msgstr "Music"
 
 #: desktop-guide/C/media-apps.xml:18(title)
 msgid "Listening to music"
-msgstr ""
+msgstr "Listening to music"
 
 #: desktop-guide/C/media-apps.xml:20(para)
 msgid ""
@@ -1153,12 +1234,16 @@ msgid ""
 "Open the menu (a gear at the top right) and click "
 "<menuchoice><guimenuitem>Settings</guimenuitem></menuchoice>"
 msgstr ""
+"Open the menu (a gear at the top right) and click "
+"<menuchoice><guimenuitem>Settings</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/media-apps.xml:25(para)
 msgid ""
 "In the <guilabel>Settings</guilabel> dialog, go to the "
 "<guilabel>Library</guilabel> tab"
 msgstr ""
+"In the <guilabel>Settings</guilabel> dialog, go to the "
+"<guilabel>Library</guilabel> tab"
 
 #: desktop-guide/C/media-apps.xml:26(para)
 msgid ""
