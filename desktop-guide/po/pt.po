@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-08-01 13:20+0300\n"
-"PO-Revision-Date: 2013-08-02 17:23+0000\n"
+"PO-Revision-Date: 2013-08-07 18:03+0000\n"
 "Last-Translator: David Pires <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-08-03 06:15+0000\n"
-"X-Generator: Launchpad (build 16718)\n"
+"X-Launchpad-Export-Date: 2013-08-08 05:01+0000\n"
+"X-Generator: Launchpad (build 16723)\n"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
 msgid "What is Xubuntu?"
@@ -46,6 +46,10 @@ msgid ""
 "laptops and netbooks. It features a modern look and enough features for "
 "efficient, daily usage. It works well on older hardware too."
 msgstr ""
+"O Xubuntu é perfeito para aqueles que querem obter o máximo partido dos seus "
+"desktops, laptops e netbooks. Possui um visual moderno e recursos "
+"suficientes para um uso diário eficiente. Também funciona bem em hardware "
+"antigo."
 
 #: desktop-guide/C/what-is-xubuntu.xml:23(para)
 msgid ""
@@ -678,7 +682,7 @@ msgstr ""
 "Após o comando ter sido executado e o <userinput>apt-offline.sig</userinput> "
 "ser criado, copie-o para a sua unidade flash USB e leve-o para outro "
 "computador. Com o apt-offline nesse computador, pode usar esse ficheiro para "
-"decarregar o que seu computador desconetado precisa para se ​​atualizar. "
+"descarregar o que seu computador desconetado precisa para se ​​atualizar. "
 "Assumindo que está no terminal e no diretório na unidade flash que contém o "
 "<userinput>apt-offline.sig</userinput>, introduza <userinput>apt-offline get "
 "--bundle bundle.zip apt-offline.sig</userinput>. Uma vez que o comando for "
@@ -699,7 +703,7 @@ msgstr ""
 "que já tenha aberto um terminal e tenha navegado para o diretório na unidade "
 "flash que contém os dois arquivos, introduzir: <userinput>sudo apt-offline "
 "install bundle.zip</userinput>. Verá listados alguns resultados do programa "
-"e uma vez que concluído os seus repositórios estarão atualizados."
+"e uma vez concluído os seus repositórios estarão atualizados."
 
 #: desktop-guide/C/offline-packages.xml:29(title)
 msgid "Installing a Package"
@@ -791,8 +795,8 @@ msgstr ""
 "que já tenha aberto um terminal e tenha navegado para o diretório na unidade "
 "flash que contém os dois arquivos, introduzir: <userinput>sudo apt-offline "
 "install bundle.zip</userinput>. Verá listados alguns resultados do programa "
-"e uma vez que concluído os seus repositórios estarão atualizados. Uma vez "
-"isso concluído, poderá então instalar o "
+"e uma vez concluído os seus repositórios estarão atualizados. Uma vez isso "
+"for concluído, poderá então instalar o "
 "<application>$PACKAGENAME</application> introduzindo: <userinput>sudo apt-"
 "get install $PACKAGENAME</userinput>."
 
@@ -886,6 +890,20 @@ msgid ""
 "up about being unable to download files relative to translations but these "
 "can be safely ignored."
 msgstr ""
+"Após o comando ter sido executado e o <userinput>apt-offline.sig</userinput> "
+"ser criado, copie-o para a sua unidade flash USB e leve-o para outro "
+"computador. Com o apt-offline nesse computador, pode usar esse ficheiro para "
+"descarregar o que seu computador desconetado precisa para se ​​atualizar. "
+"Assumindo que está no terminal e no diretório na unidade flash que contém o "
+"<userinput>apt-offline.sig</userinput>, introduza <userinput>apt-offline get "
+"--bundle bundle.zip apt-offline.sig</userinput>. A saída do comando irá "
+"mostrar uma tentativa de transferir as actualizações relativamente ao estado "
+"em que os repositórios aparentam estar bem como a "
+"<application>$PACKAGENAME</application> e as dependências de que o sistema "
+"necessita. Uma vez que o comando for executado, pode remover a unidade flash "
+"USB e levá-la de volta para o computador desconectado. Podem surgir alguns "
+"erros em texto vermelho sobre ser incapaz de baixar os arquivos relativos a "
+"traduções, mas estes podem ser ignorados com segurança."
 
 #: desktop-guide/C/offline-packages.xml:59(para)
 msgid ""
@@ -897,6 +915,13 @@ msgid ""
 "completes, you can then install the upgrades by entering: <userinput>sudo "
 "apt-get upgrade</userinput>."
 msgstr ""
+"De volta ao computador desconectado, insira a unidade flash USB. Assumindo "
+"que já tenha aberto um terminal e tenha navegado para o diretório na unidade "
+"flash que contém os dois arquivos, introduzir: <userinput>sudo apt-offline "
+"install bundle.zip</userinput>. Verá listados alguns resultados do programa "
+"e uma vez concluído os seus repositórios estarão atualizados. Uma vez que "
+"isso for concluído, poderá então instalar as atualizações, introduzindo: "
+"<userinput>sudo apt-get upgrade</userinput>."
 
 #: desktop-guide/C/offline-packages.xml:61(para)
 msgid ""
@@ -906,52 +931,57 @@ msgid ""
 "installer</application> show up. It takes just a moment but prevents some "
 "possible moments of grief later on."
 msgstr ""
+"Quererá evitar o uso do parâmetro <userinput>-y</userinput> quando "
+"actualizar de modo a poder verificar uma última vez nas suas atualizações se "
+"todos os problemas mencionados anteriormente como com o "
+"<application>flashplugin-installer</application> surgem. Demora apenas um "
+"momento, mas evita alguns possíveis momentos de dor mais tarde."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None)
 msgid "@@image: 'includes/location_icon.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr ""
+msgstr "@@image: 'includes/location_icon.png'; md5=ESTE FICHEIRO NÃO EXISTE"
 
 #: desktop-guide/C/migrating-upgrading.xml:12(title)
 msgid "Migrating and Upgrading"
-msgstr ""
+msgstr "Migrar e atualizar"
 
 #: desktop-guide/C/migrating-upgrading.xml:15(title)
 msgid "Migrating from Windows"
-msgstr ""
+msgstr "Migrar do Windows"
 
 #: desktop-guide/C/migrating-upgrading.xml:18(title)
 msgid "A quick Windows&ndash;Xubuntu dictionary"
-msgstr ""
+msgstr "Um dicionário rápido Windows&ndash;Xubuntu"
 
 #: desktop-guide/C/migrating-upgrading.xml:21(segtitle)
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: desktop-guide/C/migrating-upgrading.xml:21(segtitle)
 msgid "Xubuntu"
-msgstr ""
+msgstr "Xubuntu"
 
 #: desktop-guide/C/migrating-upgrading.xml:22(seg)
 msgid "Add/Remove Programs"
-msgstr ""
+msgstr "Adicionar/Remover Programas"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "Ubuntu Software Center"
-msgstr ""
+msgstr "Centro de Software do Ubuntu"
 
 #: desktop-guide/C/migrating-upgrading.xml:23(seg)
 msgid "Control Panel"
-msgstr ""
+msgstr "Painel de Controle"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "Settings Manager"
-msgstr ""
+msgstr "Gestor de Definições"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "System (menu)"
-msgstr ""
+msgstr "Sistema (menu)"
 
 #: desktop-guide/C/migrating-upgrading.xml:23(seg)
 msgid ""
@@ -960,36 +990,42 @@ msgid ""
 "<?br?><application><menuchoice><placeholder-3/><placeholder-"
 "4/></menuchoice></application> for additional configuration"
 msgstr ""
+"<application><menuchoice><placeholder-1/><placeholder-"
+"2/></menuchoice></application> para preferências pessoais "
+"<?br?><application><menuchoice><placeholder-3/><placeholder-"
+"4/></menuchoice></application> para configurações adicionais"
 
 #: desktop-guide/C/migrating-upgrading.xml:24(seg)
 msgid "Windows Explorer"
-msgstr ""
+msgstr "Explorador do Windows"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guisubmenu)
 msgid "Accessories"
-msgstr ""
+msgstr "Acessórios"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "File Manager"
-msgstr ""
+msgstr "Gestor de Ficheiros"
 
 #: desktop-guide/C/migrating-upgrading.xml:25(seg)
 msgid "My Documents"
-msgstr ""
+msgstr "Os Meus Documentos"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(filename)
 msgid "<placeholder-1/> /home/username/"
-msgstr ""
+msgstr "<placeholder-1/> /home/nomedeutilizador/"
 
 #: desktop-guide/C/migrating-upgrading.xml:30(title)
 msgid "Windows applications on Linux"
-msgstr ""
+msgstr "Aplicações Windows no Linux"
 
 #: desktop-guide/C/migrating-upgrading.xml:31(para)
 msgid ""
 "It is possible to run Windows applications under Xubuntu. A few possible "
 "choices are:"
 msgstr ""
+"É possível executar aplicações Windows no Xubuntu. Algumas opções possíveis "
+"são:"
 
 #: desktop-guide/C/migrating-upgrading.xml:33(para)
 msgid ""
@@ -1000,6 +1036,13 @@ msgid ""
 "url=\"http://www.winehq.org/help/\">Wine documentation</ulink> for FAQ's and "
 "user support."
 msgstr ""
+"<ulink url=\"http://winehq.org/\">Wine</ulink>, o emulador Windows. O Wine "
+"permite executar algumas aplicações do Windows sem ter que instalar um "
+"sistema operativo Windows. Consulte a página <ulink "
+"url=\"http://appdb.winehq.org/\">Wine AppDB</ulink>  para saber quais "
+"aplicações serão executadas no Wine e a página <ulink "
+"url=\"http://www.winehq.org/help/\">Wine documentation</ulink> para "
+"Perguntas Mais Frequentes e suporte ao utilizador."
 
 #: desktop-guide/C/migrating-upgrading.xml:34(para)
 msgid ""
@@ -1011,19 +1054,28 @@ msgid ""
 "url=\"https://www.virtualbox.org/wiki/End-user_documentation\">VirtualBox "
 "end-user documentation</ulink>."
 msgstr ""
+"<ulink url=\"https://www.virtualbox.org/\">VirtualBox</ulink>, virtualização "
+"de software. Pode instalar um sistema operativo Windows, juntamente com "
+"qualquer aplicação numa máquina virtual gerida pelo VirtualBox. Para ler "
+"mais sobre o VirtualBox e virtualização, consulte o site <ulink "
+"url=\"https://www.virtualbox.org/wiki/End-user_documentation\">Documentação "
+"do utilizador final VirtualBox</ulink>."
 
 #: desktop-guide/C/migrating-upgrading.xml:37(para)
 msgid "Both Wine and VirtualBox are available in the software repositories."
 msgstr ""
+"Quer o Wine quer o VirtualBox estão disponíveis nos repositórios de software."
 
 #: desktop-guide/C/migrating-upgrading.xml:41(title)
 msgid "Windows networking on Linux"
-msgstr ""
+msgstr "Redes Windows no Linux"
 
 #: desktop-guide/C/migrating-upgrading.xml:43(para)
 msgid ""
 "Accessing Windows network shares under Xubuntu can be easily done using:"
 msgstr ""
+"O acesso a partilhas de rede Windows no Xubuntu pode ser feito facilmente "
+"usando:"
 
 #: desktop-guide/C/migrating-upgrading.xml:45(para)
 msgid ""
@@ -1036,6 +1088,15 @@ msgid ""
 "Location...</guimenuitem></menuchoice> and entering "
 "<userinput>smb://computername/sharename</userinput>."
 msgstr ""
+"<application><menuchoice><placeholder-"
+"1/><guisubmenu>Acessórios</guisubmenu><guimenuitem>Gestor de "
+"Ficheiros</guimenuitem></menuchoice></application>, com o qual pode navegar "
+"nas partilhas visíveis publicamente, clicando no item "
+"<guilabel>Rede</guilabel> na barra lateral. Alternativamente, pode navegar "
+"num sistema de ficheiros remoto, indo a "
+"<menuchoice><guimenu>Ir</guimenu><guimenuitem>Abrir "
+"localização...</guimenuitem></menuchoice> e introduzir "
+"<userinput>smb://computername/sharename</userinput>."
 
 #: desktop-guide/C/migrating-upgrading.xml:46(para)
 msgid ""
@@ -1046,20 +1107,28 @@ msgid ""
 "<guilabel>Windows Share</guilabel> from <guilabel>Service Type</guilabel>, "
 "then enter the remote share's details."
 msgstr ""
+"<application><menuchoice><placeholder-"
+"1/><guisubmenu>Sistema</guisubmenu><guimenuitem>Gigolo</guimenuitem></menucho"
+"ice></application>, que permite guardar marcadores e gerir sistemas de "
+"ficheiros remotos. Para conectar, clique no primeiro botão da barra de "
+"ferramentas. Selecione <guilabel>Windows Share</guilabel> no "
+"<guilabel>Service Type</guilabel>, e insira os detalhes da partilha remota."
 
 #: desktop-guide/C/migrating-upgrading.xml:49(para)
 msgid ""
 "If some options are not available or do not work, ensure that the "
 "<literal><placeholder-1/>gvfs-backends</literal> is installed."
 msgstr ""
+"Se algumas opções não estiverem disponíveis ou não funcionarem, verifique se "
+"o <literal><placeholder-1/>gvfs-backends</literal> está instalado."
 
 #: desktop-guide/C/migrating-upgrading.xml:54(title)
 msgid "Upgrading from an older version of Xubuntu"
-msgstr ""
+msgstr "Atualizar a partir de uma versão anterior do Xubuntu"
 
 #: desktop-guide/C/migrating-upgrading.xml:57(title)
 msgid "How can I upgrade to the latest version of Xubuntu?"
-msgstr ""
+msgstr "Como é que posso atualizar para a versão mais recente do Xubuntu?"
 
 #: desktop-guide/C/migrating-upgrading.xml:59(para)
 msgid ""
@@ -1067,6 +1136,10 @@ msgid ""
 "<application>Software Updater</application> should inform you when a new "
 "version is available for download. To check for a new version:"
 msgstr ""
+"Uma nova versão do Xubuntu é disponibilizada a cada 6 meses; o "
+"<application>Atualizador de Software</application> deverá informar quando "
+"uma nova versão está disponível para download. Para verificar se há uma nova "
+"versão:"
 
 #: desktop-guide/C/migrating-upgrading.xml:62(para)
 msgid ""
@@ -1075,10 +1148,14 @@ msgid ""
 "Manager</guimenuitem><guimenuitem>Software &amp; "
 "Updates</guimenuitem></menuchoice></application>"
 msgstr ""
+"Navegue até <application>Atualizador de Software</application>, clicando em "
+"<application><menuchoice><placeholder-1/><guimenuitem>Gestor de "
+"Definições</guimenuitem><guimenuitem>Programas &amp; "
+"Atualizações</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/migrating-upgrading.xml:63(para)
 msgid "Select the <guilabel>Updates</guilabel> tab"
-msgstr ""
+msgstr "Selecione a aba <guilabel>Atualizações</guilabel>"
 
 #: desktop-guide/C/migrating-upgrading.xml:64(para)
 msgid ""
@@ -1086,6 +1163,9 @@ msgid ""
 "<guilabel>Notify me of a new Ubuntu version</guilabel>, enter your password, "
 "and press <guibutton>Close</guibutton>"
 msgstr ""
+"Selecione <guilabel>Para qualquerversão</guilabel> da lista <guilabel>Avisar-"
+"me de uma nova versão do Ubuntu</guilabel>, introduza a sua password e "
+"clique <guibutton>Fechar</guibutton>"
 
 #: desktop-guide/C/migrating-upgrading.xml:65(para)
 msgid ""
@@ -1094,6 +1174,10 @@ msgid ""
 "Updater</guimenuitem></menuchoice></application> and wait for the list of "
 "available updates to be downloaded"
 msgstr ""
+"Ir para <application><menuchoice><placeholder-1/><guimenuitem>Gestor de "
+"Definições</guimenuitem><guimenuitem>Atualizador de "
+"Software</guimenuitem></menuchoice></application> e aguarde a lista de "
+"atualizações disponíveis para serem transferidas"
 
 #: desktop-guide/C/migrating-upgrading.xml:66(para)
 msgid ""
