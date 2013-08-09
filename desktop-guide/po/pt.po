@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-08-01 13:20+0300\n"
-"PO-Revision-Date: 2013-08-07 18:03+0000\n"
+"PO-Revision-Date: 2013-08-08 15:51+0000\n"
 "Last-Translator: David Pires <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-08-08 05:01+0000\n"
+"X-Launchpad-Export-Date: 2013-08-09 05:37+0000\n"
 "X-Generator: Launchpad (build 16723)\n"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
@@ -1163,9 +1163,9 @@ msgid ""
 "<guilabel>Notify me of a new Ubuntu version</guilabel>, enter your password, "
 "and press <guibutton>Close</guibutton>"
 msgstr ""
-"Selecione <guilabel>Para qualquerversão</guilabel> da lista <guilabel>Avisar-"
-"me de uma nova versão do Ubuntu</guilabel>, introduza a sua password e "
-"clique <guibutton>Fechar</guibutton>"
+"Selecione <guilabel>Para qualquer versão</guilabel> da lista "
+"<guilabel>Avisar-me de uma nova versão do Ubuntu</guilabel>, introduza a sua "
+"password e clique <guibutton>Fechar</guibutton>"
 
 #: desktop-guide/C/migrating-upgrading.xml:65(para)
 msgid ""
@@ -1184,6 +1184,8 @@ msgid ""
 "If a new version of Xubuntu is available, a box at the top of the window "
 "will appear saying that a new distribution release is available."
 msgstr ""
+"Se uma nova versão do Xubuntu estiver disponível, aparecerá uma caixa no "
+"topo da janela indicando que uma nova versão da distribuição está disponível."
 
 #: desktop-guide/C/migrating-upgrading.xml:67(para)
 msgid ""
@@ -1191,6 +1193,9 @@ msgid ""
 "the <guibutton>Upgrade</guibutton> button in <application>Software "
 "Updater</application>"
 msgstr ""
+"Para atualizar para a versão mais recente, guarde todos os documentos "
+"abertos e pressione o botão <guibutton>Atualizar</guibutton> em "
+"<application>Atualizador de Software</application>"
 
 #: desktop-guide/C/migrating-upgrading.xml:70(para)
 msgid ""
@@ -1198,6 +1203,10 @@ msgid ""
 "packages must be downloaded and installed, although the actual figure will "
 "depend on how many packages are already installed on your computer."
 msgstr ""
+"As atualizações geralmentedemoram algum tempo para serem concluídas. "
+"Tipicamente cerca de 700MB de pacotes tem de ser transferidos e instalados, "
+"embora o número real irá depender de quantos pacotes já estão instalados no "
+"computador."
 
 #: desktop-guide/C/migrating-upgrading.xml:72(para)
 msgid ""
@@ -1209,10 +1218,18 @@ msgid ""
 "this rule is with Long Term Support (LTS) releases. You can upgrade directly "
 "from the previous LTS release to the current LTS release."
 msgstr ""
+"Apenas pode atualizar para a versão mais recente do Xubuntu se estiver a "
+"executar o segundo lançamento mais recente. Se tem uma versão mais antiga, "
+"terá de actualizar para a versão seguinte, e assim por diante até estar a "
+"executar a versão mais recente. Por exemplo, utilizadores da versão 9.04 "
+"teriam que primeiramente atualizar para a versão 9.10 antes de atualizar "
+"para a versão 10.04. A exceção a esta regra verifica-se com as versões de "
+"Suporte de Longo Prazo (LTS). É possível atualizar diretamente da versão LTS "
+"anterior para a atual versão LTS."
 
 #: desktop-guide/C/migrating-upgrading.xml:76(title)
 msgid "Upgrading to a development release"
-msgstr ""
+msgstr "Atualizar para uma versão em desenvolvimento"
 
 #: desktop-guide/C/migrating-upgrading.xml:78(para)
 msgid ""
@@ -1220,6 +1237,9 @@ msgid ""
 "Only install a development release if you are prepared to attempt to fix "
 "these problems for yourself."
 msgstr ""
+"Versões de desenvolvimento muitas vezes sofrem de quebras de pacotes e "
+"outros problemas. Só instale uma versão de desenvolvimento se você estiver "
+"preparado para tentar corrigir esses problemas por si próprio."
 
 #: desktop-guide/C/migrating-upgrading.xml:80(para)
 msgid ""
@@ -1229,18 +1249,23 @@ msgid ""
 "d\"</userinput> into the box and press <guibutton>Run</guibutton>. This will "
 "allow you to upgrade to the current development release."
 msgstr ""
+"Se pretender instalar e testar a versão de desenvolvimento mais recente do "
+"Xubuntu, antes de ser lançada, prima <keycap><placeholder-"
+"1/>Alt+F2</keycap>, introduza <userinput>gksudo \"update-manager -c -"
+"d\"</userinput> na caixa de texto e prima <guibutton>Iniciar</guibutton>. "
+"Isto irá permitir que atualize para a versão de desenvolvimento atual."
 
 #: desktop-guide/C/media-apps.xml:12(title)
 msgid "Media applications"
-msgstr ""
+msgstr "Aplicações multimédia"
 
 #: desktop-guide/C/media-apps.xml:15(title)
 msgid "Music"
-msgstr ""
+msgstr "Música"
 
 #: desktop-guide/C/media-apps.xml:18(title)
 msgid "Listening to music"
-msgstr ""
+msgstr "Ouvir música"
 
 #: desktop-guide/C/media-apps.xml:20(para)
 msgid ""
@@ -1254,6 +1279,15 @@ msgid ""
 "<application>gmusicbrowser</application> to your music files by doing the "
 "following:"
 msgstr ""
+"Pode utilizar o <application>gmusicbrowser</application> e o "
+"<application>Parole Media Player</application> para ouvir música no "
+"computador. O <application>Parole Media Player</application> pode abrir "
+"ficheiros de áudio quando eles são clicado duas vezes, mas o "
+"<application>gmusicbrowser</application> é melhor para lidar com grandes "
+"coleções de músicas. Inicialmente o <application>gmusicbrowser</application> "
+"não irá procurar automaticamente os ficheiros de música no computador e terá "
+"de direcionar manualmente o <application>gmusicbrowser</application> para os "
+"ficheiros de música, fazendo o seguinte:"
 
 #: desktop-guide/C/media-apps.xml:23(para)
 msgid ""
@@ -1261,18 +1295,25 @@ msgid ""
 "1/><guisubmenu>Multimedia</guisubmenu><guimenuitem>gmusicbrowser</guimenuitem"
 "></menuchoice></application>"
 msgstr ""
+"Abrir <application><menuchoice><placeholder-"
+"1/><guisubmenu>Multimédia</guisubmenu><guimenuitem>gmusicbrowser</guimenuitem"
+"></menuchoice></application>"
 
 #: desktop-guide/C/media-apps.xml:24(para)
 msgid ""
 "Open the menu (a gear at the top right) and click "
 "<menuchoice><guimenuitem>Settings</guimenuitem></menuchoice>"
 msgstr ""
+"Abrir o menu (uma engrenagem no canto superior direito) e clicar em "
+"<menuchoice><guimenuitem>Definições</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/media-apps.xml:25(para)
 msgid ""
 "In the <guilabel>Settings</guilabel> dialog, go to the "
 "<guilabel>Library</guilabel> tab"
 msgstr ""
+"Na janela <guilabel>Definições</guilabel>, ir para a aba "
+"<guilabel>Coleção</guilabel>"
 
 #: desktop-guide/C/media-apps.xml:26(para)
 msgid ""
@@ -1280,12 +1321,17 @@ msgid ""
 "contains your music files and press <guibutton>OK</guibutton>; your "
 "selection will now appear in the <guilabel>Settings</guilabel> dialog"
 msgstr ""
+"Clicar em <guibutton>Adicionar pasta</guibutton> escolher o diretório que "
+"contém os ficheiros de música e prima <guibutton>OK</guibutton>; a seleção "
+"irá aparecer na janela <guilabel>Definições</guilabel>"
 
 #: desktop-guide/C/media-apps.xml:27(para)
 msgid ""
 "If you wish to add other locations of music files repeat the previous step, "
 "or otherwise, press <guibutton>Close</guibutton>"
 msgstr ""
+"Se desejar adicionar outras localizações de ficheiros de música repita os "
+"passos anteriores, senão o pretender prima <guibutton>Fechar</guibutton>"
 
 #: desktop-guide/C/media-apps.xml:28(para)
 msgid ""
@@ -1294,11 +1340,18 @@ msgid ""
 "have to change views (to the left of the search) or restart "
 "<application>gmusicbrowser</application> to see your library."
 msgstr ""
+"O <application>gmusicbrowser</application> começará a analisar a sua "
+"coleção. Depois da barra de progresso <guilabel>Analisar</guilabel> "
+"desaparecer, poderá ter de alterar as visualizações (à esquerda da pesquisa) "
+"ou reiniciar o <application>gmusicbrowser</application> para ver a sua "
+"coleção."
 
 #: desktop-guide/C/media-apps.xml:33(title)
 msgid ""
 "I see wrong metadata (song names, covers) for my tracks in gmusicbrowser"
 msgstr ""
+"Vejo metadados errados (nomes das músicas, capas) para as minhas faixas no "
+"gmusicbrowser"
 
 #: desktop-guide/C/media-apps.xml:35(para)
 msgid ""
@@ -1310,6 +1363,14 @@ msgid ""
 "service, but the defaults often work well. Select an image and save it to "
 "the album directory."
 msgstr ""
+"Alguns leitores de música obtêm capas de álbuns e outras informações sobre "
+"as músicas da internet. No entanto, o "
+"<application>gmusicbrowser</application> apenas pesquisa por capas de álbuns "
+"quando pedido. Basta clicar na capa do álbum e selecionar "
+"<menuchoice><guimenuitem>Search Picture</guimenuitem></menuchoice>. É "
+"possível alterar a consulta de pesquisa ou o serviço, mas as predefinições "
+"muitas vezes funcionam bem. Selecione uma imagem e guarde-a no diretório do "
+"álbum."
 
 #: desktop-guide/C/media-apps.xml:37(para)
 msgid ""
@@ -1320,6 +1381,13 @@ msgid ""
 "<menuchoice><guimenuitem>Song Properties</guimenuitem></menuchoice> and "
 "entering the appropriate information in the corresponding fields."
 msgstr ""
+"Por vezes o leitor de música pode não ser capaz de identificar corretamente "
+"uma música ou álbum específicos. Se for esse o caso, pode adicionar a "
+"informação correta manualmente clicando com o botão direito do rato no "
+"ficheiro de música exibido no <application>gmusicbrowser</application>, "
+"selecionando <menuchoice><guimenuitem>Propriedades da "
+"música</guimenuitem></menuchoice> e inserindo as informações adequadas nos "
+"campos correspondentes."
 
 #: desktop-guide/C/media-apps.xml:39(para)
 msgid ""
@@ -1330,10 +1398,17 @@ msgid ""
 "<application>gmusicbrowser</application> or right-click and select "
 "<menuchoice><guimenuitem>Set Picture</guimenuitem></menuchoice>."
 msgstr ""
+"Se preferir procurar a imagem você mesmo, encontre uma capa de álbum na "
+"internet (ou noutras fontes) e guarde a imagem como "
+"<filename>cover.jpg</filename> no diretório do álbum. Além disso, pode "
+"arrastar a capa do álbum para o espaço reservado para capas de álbuns no "
+"<application>gmusicbrowser</application> ou clicar com botão direito do "
+"mouse e selecionar <menuchoice><guimenuitem>Definir "
+"imagem</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/media-apps.xml:43(title)
 msgid "Portable music players"
-msgstr ""
+msgstr "Leitores de música portáteis"
 
 #: desktop-guide/C/media-apps.xml:45(para)
 msgid ""
@@ -1342,6 +1417,10 @@ msgid ""
 "use <application>File Manager</application> to manually copy songs to and "
 "from the player."
 msgstr ""
+"O Xubuntu funcionará com a maioria de leitores de áudio portáteis, incluindo "
+"iPods. Normalmente, tudo o que tem de fazer é ligar o leitor ao computador e "
+"depois utilizar o <application>Gestor de ficheiros</application> para copiar "
+"manualmente músicas de e para o leitor."
 
 #: desktop-guide/C/media-apps.xml:47(para)
 msgid ""
@@ -1349,6 +1428,9 @@ msgid ""
 "Xubuntu unless you have done an initial synchronization with "
 "<application>iTunes</application> first."
 msgstr ""
+"Os IPods mais recentes (6 ª geração e posteriores) não funcionarão "
+"automaticamente com o Xubuntu, a menos que tenha sido feito uma "
+"sincronização inicial com o <application>iTunes</application> primeiro."
 
 #: desktop-guide/C/media-apps.xml:49(para)
 msgid ""
@@ -1358,20 +1440,28 @@ msgid ""
 "to try specialized applications such as <application>GPixPod</application> "
 "and <application>gtkpod</application> for handling multimedia."
 msgstr ""
+"Se possuir um leitor de música portátil, que também possa exibir fotografias "
+"e vídeos, poderá preferir usar o  <application>Banshee</application>, que é "
+"um leitor de música com um bom suporte para esses dispositivos. Os donos de "
+"iPods poderão também gostar de experimentar aplicações especializadas tais "
+"como o <application>GPixPod</application> e o "
+"<application>gtkpod</application> para lidar com multimédia."
 
 #: desktop-guide/C/media-apps.xml:54(title)
 msgid "Movies, DVDs and videos"
-msgstr ""
+msgstr "Filmes, DVDs e vídeos"
 
 #: desktop-guide/C/media-apps.xml:56(para)
 msgid ""
 "You can watch movies and video clips with the <application>Parole Media "
 "Player</application>."
 msgstr ""
+"Pode ver filmes e clipes de vídeo com o <application>Parole Media "
+"Player</application>."
 
 #: desktop-guide/C/media-apps.xml:59(title)
 msgid "Playing DVDs"
-msgstr ""
+msgstr "Reproduzir DVDs"
 
 #: desktop-guide/C/media-apps.xml:61(para)
 msgid ""
@@ -1379,6 +1469,9 @@ msgid ""
 "Unfortunately, DVD support cannot be provided by default in Xubuntu due to "
 "legal restrictions in some countries."
 msgstr ""
+"A fim de reproduzir DVDs é necessário instalar algum software adicional. "
+"Infelizmente, o suporte para DVD não pode ser fornecido de origem no Xubuntu "
+"devido a restrições legais em alguns países."
 
 #: desktop-guide/C/media-apps.xml:63(para)
 msgid ""
@@ -1386,10 +1479,12 @@ msgid ""
 "the instructions below. There are some legal issues that you should be aware "
 "of."
 msgstr ""
+"Ler <xref linkend=\"software-repositories-restricted\"/> antes de seguir as "
+"instruções abaixo. Existem algumas questões legais de que deve estar ciente."
 
 #: desktop-guide/C/media-apps.xml:65(para)
 msgid "To be able to play DVDs, do the following:"
-msgstr ""
+msgstr "Para poder reproduzir DVDs, faça o seguinte:"
 
 #: desktop-guide/C/media-apps.xml:68(para)
 msgid ""
@@ -1397,6 +1492,9 @@ msgid ""
 "<literal><placeholder-2/>libdvdread4</literal> and <literal><placeholder-"
 "3/>gstreamer0.10-plugins-ugly</literal> packages."
 msgstr ""
+"Instale os pacotes <literal><placeholder-1/>libdvdnav4</literal>, "
+"<literal><placeholder-2/>libdvdread4</literal> e <literal><placeholder-"
+"3/>gstreamer0.10-plugins-ugly</literal>."
 
 #: desktop-guide/C/media-apps.xml:69(para)
 msgid ""
@@ -1408,6 +1506,13 @@ msgid ""
 "<keycap><placeholder-2/>Enter</keycap> key: <userinput>sudo "
 "/usr/share/doc/libdvdread4/install-css.sh</userinput>"
 msgstr ""
+"Se você pretender reproduzir DVDs encriptados, abra "
+"<application><menuchoice><placeholder-"
+"1/><guisubmenu>Acessórios</guisubmenu><guimenuitem>Emulador de "
+"terminal</guimenuitem></menuchoice></application> e introduza o seguinte no "
+"<application>Terminal</application> seguindo pela tecla <keycap><placeholder-"
+"2/>Enter</keycap>: <userinput>sudo /usr/share/doc/libdvdread4/install-"
+"css.sh</userinput>"
 
 #: desktop-guide/C/media-apps.xml:70(para)
 msgid ""
@@ -1415,16 +1520,20 @@ msgid ""
 "1/>libdvdcss2</literal> package will be downloaded and installed from a "
 "website."
 msgstr ""
+"Introduza a sua password, se solicitado. O pacote <literal><placeholder-"
+"1/>libdvdcss2</literal> será transferido e instalado a partir de um site web."
 
 #: desktop-guide/C/media-apps.xml:71(para)
 msgid ""
 "Insert a DVD into your drive. It should open automatically in the "
 "<application>Parole Media Player</application>."
 msgstr ""
+"Insira um DVD na unidade de leitura de DVDs. Ele deve abrir automaticamente "
+"no <application>Parole Media Player</application>."
 
 #: desktop-guide/C/media-apps.xml:76(title)
 msgid "Playing video"
-msgstr ""
+msgstr "Reprodução de vídeos"
 
 #: desktop-guide/C/media-apps.xml:78(para)
 msgid ""
@@ -1434,6 +1543,12 @@ msgid ""
 "install this plugin by following the wizard. Afterwards, you may need to "
 "restart <application>Parole Media Player</application>."
 msgstr ""
+"O <application>Parole Media Player</application> suporta a maioria de "
+"formatos de vídeo. Se tentar reproduzir um ficheiro de vídeo não suportado, "
+"o <application>Parole Media Player</application> poderá notificá-lo de um "
+"plugin em falta. Poderá então instalar esse plugin, seguindo o assistente. "
+"Depois, poderá ser necessário reiniciar o <application>Parole Media "
+"Player</application>."
 
 #: desktop-guide/C/media-apps.xml:80(para)
 msgid ""
@@ -1443,10 +1558,16 @@ msgid ""
 "right-click the video and select <menuchoice><guimenuitem>Open with Parole "
 "Media Player</guimenuitem></menuchoice>."
 msgstr ""
+"Se estiver com dificuldades em conseguir o fluxo contínuo de um vídeo no seu "
+"navegador de internet o <application>Parole Media Player</application> "
+"suporta o fluxo contínuo da maioria dos formatos de vídeo. Para abrir um "
+"vídeo no <application>Parole Media Player</application>, clique no vídeo com "
+"o botão direito do rato e selecione <menuchoice><guimenuitem>Abrir com "
+"Parole Media Player</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/media-apps.xml:83(title)
 msgid "Restricted formats"
-msgstr ""
+msgstr "Formatos restritos"
 
 #: desktop-guide/C/media-apps.xml:85(para)
 msgid ""
@@ -1454,6 +1575,10 @@ msgid ""
 "are proprietary and so support for them cannot be included in Xubuntu by "
 "default. You must install some extra software to allow playback."
 msgstr ""
+"Alguns formatos de vídeo, como o Adobe Flash, QuickTime e Windows Media "
+"Video, são proprietários e assim o suporte para eles não pode ser incluído "
+"de origem no Xubuntu. É necessário instalar algum software adicional para "
+"permitir a sua reprodução."
 
 #: desktop-guide/C/media-apps.xml:87(para)
 msgid ""
@@ -1463,14 +1588,19 @@ msgid ""
 "(see <xref linkend=\"software-repositories-restricted\"/> for more "
 "information)."
 msgstr ""
+"De modo a reproduzir os formatos proprietários mais comuns no "
+"<application>Parole Media Player</application> ou no "
+"<application>Firefox</application>, instale o pacote <literal><placeholder-"
+"1/>xubuntu-restricted-extras</literal>  (ver <xref linkend=\"software-"
+"repositories-restricted\"/> para mais informação)."
 
 #: desktop-guide/C/media-apps.xml:93(title)
 msgid "Photos and cameras"
-msgstr ""
+msgstr "Fotografias e câmeras"
 
 #: desktop-guide/C/media-apps.xml:96(title)
 msgid "Importing photos from a digital camera"
-msgstr ""
+msgstr "Importar fotografias de uma câmera digital"
 
 #: desktop-guide/C/media-apps.xml:98(para)
 msgid ""
@@ -1478,6 +1608,9 @@ msgid ""
 "and will offer to import your photos automatically. To import photos from "
 "your camera:"
 msgstr ""
+"O Xubuntu detecta automaticamente a maioria das câmeras digitais quando a "
+"ele conetadas, e oferecerá a possibilidade de importar as fotografias "
+"automaticamente. Para importar fotografias da sua câmera:"
 
 #: desktop-guide/C/media-apps.xml:101(para)
 msgid ""
@@ -1485,24 +1618,33 @@ msgid ""
 "should ask you if you would like to import the photos that the camera "
 "contains."
 msgstr ""
+"Conete e a ligue a câmera colocando-a em modo de visualização. O Xubuntu "
+"deverá perguntar se deseja importar as fotografias que a câmera contém."
 
 #: desktop-guide/C/media-apps.xml:102(para)
 msgid ""
 "Click on <guibutton>Import</guibutton>. You should then see a preview of the "
 "photos."
 msgstr ""
+"Clicar em <guibutton>Importar</guibutton>. Deverá então ver uma pré-"
+"visualização das fotografias."
 
 #: desktop-guide/C/media-apps.xml:103(para)
 msgid ""
 "Choose a location to save your photos to, then click on "
 "<guibutton>Import</guibutton>. The photos will be saved to your hard drive."
 msgstr ""
+"Escolha uma localização para guardar as suas fotografias, em seguida clique "
+"em <guibutton>Importar</guibutton>. As fotografias serão guardadas no seu "
+"disco rígido."
 
 #: desktop-guide/C/media-apps.xml:106(para)
 msgid ""
 "If Xubuntu does not ask you to import the photos, you can do so using "
 "<application>gThumb</application>."
 msgstr ""
+"Se o Xubuntu não pedir para importar as fotos, poderá fazer isso usando o "
+"<application>gThumb</application>."
 
 #: desktop-guide/C/media-apps.xml:109(para)
 msgid ""
@@ -1510,22 +1652,30 @@ msgid ""
 "1/><guisubmenu>Graphics</guisubmenu><guimenuitem>gThumb</guimenuitem></menuch"
 "oice></application>"
 msgstr ""
+"Ir para <application><menuchoice><placeholder-"
+"1/><guisubmenu>Gráficos</guisubmenu><guimenuitem>gThumb</guimenuitem></menuch"
+"oice></application>"
 
 #: desktop-guide/C/media-apps.xml:110(para)
 msgid ""
 "Click <menuchoice><guimenu>File</guimenu><guisubmenu>Import "
 "From</guisubmenu><guimenuitem>Removable Device...</guimenuitem></menuchoice>"
 msgstr ""
+"Clicar em <menuchoice><guimenu>Ficheiro</guimenu><guisubmenu>Importar "
+"de</guisubmenu><guimenuitem>Dispositivo "
+"Removível...</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/media-apps.xml:111(para)
 msgid "Select your camera from <guilabel>Source</guilabel>"
-msgstr ""
+msgstr "Selecione sua câmera a partir de <guilabel>Source</guilabel>"
 
 #: desktop-guide/C/media-apps.xml:112(para)
 msgid ""
 "You can optionally change <guilabel>Show:</guilabel> to "
 "<guilabel>Images</guilabel> to display only your photos"
 msgstr ""
+"Pode opcionalmente alterar <guilabel>Show:</guilabel> para "
+"<guilabel>Imagens</guilabel> para apenas visualizar as fotogorafias"
 
 #: desktop-guide/C/media-apps.xml:113(para)
 msgid ""
@@ -1533,20 +1683,26 @@ msgid ""
 "and clicking on the desired images or clicking <keycap><placeholder-"
 "2/>Ctrl+A</keycap> to select all photos"
 msgstr ""
+"Selecione as fotografias que deseja pressionando a tecla "
+"<keycap><placeholder-1/>Ctrl</keycap> e clicando nas imagens desejadas ou "
+"pressionando nas teclas <keycap><placeholder-2/>Ctrl+A</keycap> para "
+"selecionar todas as fotografias"
 
 #: desktop-guide/C/media-apps.xml:114(para)
 msgid ""
 "Change the <guilabel>Destination</guilabel>, <guilabel>Event</guilabel>, and "
 "<guilabel>Tags</guilabel> fields as you please"
 msgstr ""
+"Altere os campos <guilabel>Destino</guilabel>, <guilabel>Evento</guilabel>, "
+"e <guilabel>etiquetas</guilabel> conforme desejar"
 
 #: desktop-guide/C/media-apps.xml:115(para)
 msgid "Click <guibutton>Import</guibutton>"
-msgstr ""
+msgstr "Clique <guibutton>Importar</guibutton>"
 
 #: desktop-guide/C/media-apps.xml:120(title)
 msgid "Organizing your photo collection"
-msgstr ""
+msgstr "Organizar a sua coleção de fotografias"
 
 #: desktop-guide/C/media-apps.xml:122(para)
 msgid ""
@@ -1563,16 +1719,25 @@ msgid ""
 "<menuchoice><guimenu>Help</guimenu><guimenuitem>Contents</guimenuitem></menuc"
 "hoice>."
 msgstr ""
+"O <application>gThumb</application> fornece uma solução completa para gerir "
+"a sua coleção de fotografias. Para o iniciar, vá a "
+"<application><menuchoice><placeholder-"
+"1/><guisubmenu>Gráficos</guisubmenu><guimenuitem>gThumb</guimenuitem></menuch"
+"oice></application>. Com o <application>gThumb</application>, pode importar "
+"as fotografias da sua câmera digital ou unidade flash USB, marcá-las com "
+"termos familiares, fazer retoques, e editá-las de diferentes maneiras."
 
 #: desktop-guide/C/media-apps.xml:126(title)
 msgid "Watch a slideshow of photos"
-msgstr ""
+msgstr "Assistir a uma apresentação de slides de fotografias"
 
 #: desktop-guide/C/media-apps.xml:128(para)
 msgid ""
 "If you want to show off your photos in all of their glory, why not run a "
 "slideshow of them?"
 msgstr ""
+"Se quer mostrar as suas fotografias em toda a sua glória, por que não fazer "
+"uma apresentação de slides delas?"
 
 #: desktop-guide/C/media-apps.xml:131(para)
 msgid ""
@@ -1580,6 +1745,9 @@ msgid ""
 "1/><guisubmenu>Graphics</guisubmenu><guimenuitem>gThumb</guimenuitem></menuch"
 "oice></application>"
 msgstr ""
+"Abrir <application><menuchoice><placeholder-"
+"1/><guisubmenu>Gráficos</guisubmenu><guimenuitem>gThumb</guimenuitem></menuch"
+"oice></application>"
 
 #: desktop-guide/C/media-apps.xml:132(para)
 msgid "Select the directory of photos to view"
