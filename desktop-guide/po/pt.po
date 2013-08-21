@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-08-01 13:20+0300\n"
-"PO-Revision-Date: 2013-08-08 15:51+0000\n"
+"PO-Revision-Date: 2013-08-20 23:16+0000\n"
 "Last-Translator: David Pires <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-08-09 05:37+0000\n"
-"X-Generator: Launchpad (build 16723)\n"
+"X-Launchpad-Export-Date: 2013-08-21 05:50+0000\n"
+"X-Generator: Launchpad (build 16731)\n"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
 msgid "What is Xubuntu?"
@@ -1674,7 +1674,7 @@ msgid ""
 "You can optionally change <guilabel>Show:</guilabel> to "
 "<guilabel>Images</guilabel> to display only your photos"
 msgstr ""
-"Pode opcionalmente alterar <guilabel>Show:</guilabel> para "
+"Pode opcionalmente alterar <guilabel>Ver:</guilabel> para "
 "<guilabel>Imagens</guilabel> para apenas visualizar as fotogorafias"
 
 #: desktop-guide/C/media-apps.xml:113(para)
@@ -1694,7 +1694,7 @@ msgid ""
 "<guilabel>Tags</guilabel> fields as you please"
 msgstr ""
 "Altere os campos <guilabel>Destino</guilabel>, <guilabel>Evento</guilabel>, "
-"e <guilabel>etiquetas</guilabel> conforme desejar"
+"e <guilabel>Etiquetas</guilabel> conforme desejar"
 
 #: desktop-guide/C/media-apps.xml:115(para)
 msgid "Click <guibutton>Import</guibutton>"
@@ -1751,7 +1751,7 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:132(para)
 msgid "Select the directory of photos to view"
-msgstr ""
+msgstr "Selecione o diretório de fotografias para ver"
 
 #: desktop-guide/C/media-apps.xml:133(para)
 msgid ""
@@ -1759,20 +1759,25 @@ msgid ""
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Slideshow</guimenuitem></menu"
 "choice>"
 msgstr ""
+"Clique <menuchoice><guimenu>Ver</guimenu><guimenuitem>Apresentação de "
+"slides</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/media-apps.xml:138(title)
 msgid "Printing photos"
-msgstr ""
+msgstr "Imprimir fotografias"
 
 #: desktop-guide/C/media-apps.xml:140(para)
 msgid ""
 "Printing your photos is great way to share them with others. To print your "
 "photos:"
 msgstr ""
+"Imprimir as suas fotografias é uma ótima maneira de compartilhá-las com "
+"outras pessoas. Para imprimir as suas fotografias:"
 
 #: desktop-guide/C/media-apps.xml:143(para)
 msgid "Open the photo you want to print in <application>gThumb</application>"
 msgstr ""
+"Abra a fotografia que deseja imprimir no <application>gThumb</application>"
 
 #: desktop-guide/C/media-apps.xml:144(para)
 msgid ""
@@ -1780,24 +1785,30 @@ msgid ""
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Print</guimenuitem></menuchoi"
 "ce>"
 msgstr ""
+"Clique "
+"<menuchoice><guimenu>Ficheiro</guimenu><guimenuitem>Imprimir</guimenuitem></m"
+"enuchoice>"
 
 #: desktop-guide/C/media-apps.xml:145(para)
 msgid "Select the desired printer"
-msgstr ""
+msgstr "Selecione a impressora desejada"
 
 #: desktop-guide/C/media-apps.xml:146(para)
 msgid ""
 "You can then adjust various settings like orientation, image quality, etc. "
 "by clicking on the appropriate tabs"
 msgstr ""
+"Pode então ajustar várias configurações, tais como orientação, qualidade de "
+"imagem, etc, clicando nas respectivas abas"
 
 #: desktop-guide/C/media-apps.xml:147(para)
 msgid "When ready, click the <guibutton>Print</guibutton> button"
 msgstr ""
+"Quando estiver pronto, clique no botão <guibutton>Imprimir</guibutton>"
 
 #: desktop-guide/C/media-apps.xml:152(title)
 msgid "Editing and improving photos"
-msgstr ""
+msgstr "Editar e melhorar fotografias"
 
 #: desktop-guide/C/media-apps.xml:154(para)
 msgid ""
@@ -1807,17 +1818,23 @@ msgid ""
 "(a palette) on the toolbar and then click on one of the tools at the right "
 "of the screen."
 msgstr ""
+"Por vezes, poderá necessitar de ajustar ou retocar uma fotografia para fazê-"
+"la parecer melhor ou para remover alguma falha."
 
 #: desktop-guide/C/media-apps.xml:156(para)
 msgid ""
 "In addition to editing photos, you sometimes want to resize them. To resize "
 "photos:"
 msgstr ""
+"Além de editar fotografias, por vezes quer redimensioná-las. Para "
+"redimensionar fotografias:"
 
 #: desktop-guide/C/media-apps.xml:159(para)
 msgid ""
 "Open the photo you want to resize in <application>gThumb</application>"
 msgstr ""
+"Abra a fotografia que deseja redimensionar no "
+"<application>gThumb</application>"
 
 #: desktop-guide/C/media-apps.xml:160(para)
 msgid ""
@@ -1825,6 +1842,9 @@ msgid ""
 "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Resize Images</guimenuitem><"
 "/menuchoice>"
 msgstr ""
+"Na barra de ferramentas, clique em "
+"<menuchoice><guimenu>Ferramentas</guimenu><guimenuitem>Redimensionar "
+"Imagens</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/media-apps.xml:161(para)
 msgid ""
@@ -1833,28 +1853,36 @@ msgid ""
 "width and height independently, uncheck the <guilabel>Preserve original "
 "aspect ratios</guilabel> box."
 msgstr ""
+"Ajuste a <guilabel>Largura</guilabel> ou a <guilabel>Altura </guilabel> "
+"conforme o caso. A escala da imagem será mantida. Se pretender ajustar a "
+"largura e a altura de forma independente, desmarque a opção "
+"<guilabel>Preservar proporções originais</guilabel>."
 
 #: desktop-guide/C/media-apps.xml:162(para)
 msgid "Change the <guilabel>Format</guilabel> if you wish"
-msgstr ""
+msgstr "Altere o <guilabel>Formato</guilabel> se desejar"
 
 #: desktop-guide/C/media-apps.xml:163(para)
 msgid "Click <guibutton>Execute</guibutton> to resize the photo"
 msgstr ""
+"Clique <guibutton>Executar</guibutton> para redimensionar a fotografia"
 
 #: desktop-guide/C/media-apps.xml:164(para)
 msgid ""
 "Choose the option for saving the file - you can choose to overwrite or not "
 "the old file"
 msgstr ""
+"Escolha a opção para guardar o ficheiro - pode optar por substituir ou não o "
+"ficheiro antigo"
 
 #: desktop-guide/C/media-apps.xml:165(para)
 msgid "Click <guibutton>OK</guibutton> to save the resized photo"
 msgstr ""
+"Clique <guibutton>OK</guibutton> para guardar a fotografia redimensionada"
 
 #: desktop-guide/C/media-apps.xml:171(title)
 msgid "Burning CDs and DVDs"
-msgstr ""
+msgstr "Gravar CDs e DVDs"
 
 #: desktop-guide/C/media-apps.xml:173(para)
 msgid ""
