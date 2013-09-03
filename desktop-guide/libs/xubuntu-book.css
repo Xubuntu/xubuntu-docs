@@ -13,6 +13,7 @@ html {
 
 	font-family: "Droid Sans", sans-serif;
 	font-size: small;
+	line-height: 1.3em;
 }
 
 /*
@@ -25,10 +26,12 @@ html {
 	max-width: 950px;
 	min-width: 580px;
 
-	margin: 3em auto 0 auto;
+	margin: 3em auto 1em auto;
+	padding: 0 3em;
+
+	line-height: 1.5em;
 
 	color: #04a;
-	height: 90px;
 }
 	#masthead a {
 		border-bottom: none;
@@ -108,6 +111,7 @@ h1 {
 	margin: 0 0 1em 0;
 	font-size: 200%;
 	font-weight: bold !important;
+	line-height: 1.2em;
 }
 
 h2,
