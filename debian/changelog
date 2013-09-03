@@ -12,11 +12,13 @@ xubuntu-docs (13.10.0) saucy; urgency=low
   * Updated some formatting.
   * Updated and made additions to the networking section.
   * Added applications from the last cycle.
-  * Remove Twitter mention from Pidgin information since the Twitter plugin is broken.
+  * Remove Twitter mention from Pidgin information since the Twitter plugin is broken. (LP: #1219595)
 
   [ Stephen Michael Kellat ]
   * Removed reference to a Qt-based application that should not be there
   * Fixed a typo on the offline applications page
+  * Added mention of ideviceinstaller to media-apps as another specialized tool for handling iPods
+  * Added reference in guide-desktop to gtk-theme-config. (LP: #1219593)
 
   [ Jack Fromm ]
   * Grammar fixes and wording changes
