@@ -60,7 +60,7 @@
 
 			<note><para>If you do not know the protocol or details of your network printer, you should consult your network administrator.</para></note>
 
-			<tip><para>If you do not have a network printer, but want your printer to be shared to other computers on your network, click <menuchoice><guimenu>Server</guimenu><guimenuitem>Settings</guimenuitem></menuchoice> from the <guilabel>Print Settings</guilabel> dialog, check the box <guilabel>Publish shared printers connected to this system</guilabel>, and then press <guibutton>OK</guibutton>. Other Linux/Ubuntu based systems need to have <guilabel>Show printers shared by other systems</guilabel> checked in the server settings dialog in order to access the printer.</para></tip>
+			<tip><para>If you do not have a network printer, but want your printer to be shared to other computers on your network, click <menuchoice><guimenu>Server</guimenu><guimenuitem>Settings</guimenuitem></menuchoice> from the <guilabel>Printers</guilabel> dialog, check the box <guilabel>Publish shared printers connected to this system</guilabel>, and then press <guibutton>OK</guibutton>. Other Linux/Ubuntu based systems need to have <guilabel>Show printers shared by other systems</guilabel> checked in the server settings dialog in order to access the printer.</para></tip>
 		</section>
 	</section>
 
