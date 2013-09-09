@@ -28,8 +28,8 @@
 				places on your computer. It also comes with an <guilabel>Action button</guilabel>,
 				<guilabel>Workspace Switcher</guilabel>, <guilabel>Notification Area</guilabel> and a
 				clock. Clicking on &appmenu; will open the <guilabel>Applications Menu</guilabel>,
-				offering you many choices of applications to start. Note that you can also access your
-				<guilabel>Settings</guilabel>, <guilabel>Help</guilabel>, and a logout dialog from the	
+				offering you many choices of applications to start. Note that you can also access the
+				<guilabel>Settings Manager</guilabel>, <guilabel>Help</guilabel>, and a logout dialog from the	
 				menu. Clicking on the <guilabel>Action button</guilabel> (your username in the upper
 				right) will bring up a menu with choices for logging out, shutting down, locking the
 				screen, switching users and, depending on your hardware, suspending or hibernating your
@@ -82,10 +82,10 @@
 
 			<para>The File Manager's default view consists of a shortcut pane on the left side, the
 				main area on the right, and a pathbar above the main area. The shortcut pane provides
-				shortcuts to different folders on your system. The first shortcut will lead to your home
+				shortcuts to different folders on your system. The first shortcut under <guilabel>PLACES</guilabel> will lead to your home
 				directory, the directory where you store all your personal data, and will therefore have
 				the name of the current user. That directory will probably appear empty. The
-				<guilabel>File System</guilabel> shortcut will take you to the root of your filesystem.
+				<guilabel>File System</guilabel> shortcut under <guilabel>DEVICES</guilabel> will take you to the root of your filesystem.
 				You may want to explore it a bit, even though it will be confusing to you if you are new
 				to Linux. Just click on the different folders and see what's inside. When you're done,
 				return to your home directory by clicking on the top shortcut.</para>
@@ -99,9 +99,7 @@
 				over them with the mouse. Alternatively, select one file, hold down the <keycap>Shift</keycap>
 				key, and increase/decrease the selection using the arrow keys.</para>
 
-			<para>The pathbar will always show you the path you took to get to the current directory.
-				You can click on any pathbar icon to change to the directory it represents. Note that
-				right-clicking on pathbar icons will also bring up a pop-up window with some options.</para>
+			<para>To easily see the path you took to get to the current directory, you can change the default View options. From the File Manager menu, select <menuchoice><guimenuitem>View</guimenuitem><guimenuitem>Location Selector</guimenuitem><guimenuitem>Pathbar Style</guimenuitem></menuchoice>. Now you can click on any pathbar icon to change to the directory it represents. Note that right-clicking on pathbar icons will also bring up a pop-up window with some options.</para>
 		</section>
 
 		<section id="files-directories-creating-deleting">
@@ -114,7 +112,7 @@
 			your home directory. Right-click on it and choose
 			<menuchoice><guimenuitem>Properties</guimenuitem></menuchoice>. This will show you some
 			details about the file. Right-click on the file once more and choose
-			<menuchoice><guimenuitem>Delete</guimenuitem></menuchoice> to remove it. The file will be
+			<menuchoice><guimenuitem>Move to Trash</guimenuitem></menuchoice> to remove it. The file will be
 			put into the Trash.</para>
 
 			<tip><para>If you ever want to undo the deleting of a file, open <guilabel>Trash</guilabel>,
