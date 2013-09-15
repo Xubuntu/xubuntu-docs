@@ -32,7 +32,7 @@
 		<section id="media-music-wrong-data">
 			<title>I see wrong metadata (song names, covers) for my tracks in gmusicbrowser</title>
 
-			<para>Some music player applications fetch cover art and other information about songs from the internet. However, <application>gmusicbrowser</application> only searches for cover art when you request. Simply right-click the album artwork, and select <menuchoice><guimenuitem>Search Picture</guimenuitem></menuchoice>. You can change the search query or service, but the defaults often work well. Select an image and save it to the album directory.</para>
+			<para>Some music player applications fetch cover art and other information about songs from the internet. However, <application>gmusicbrowser</application> only searches for cover art when you request. Simply right-click the album artwork, and select <menuchoice><guimenuitem>Search for a picture on internet</guimenuitem></menuchoice>. You can change the search query or service, but the defaults often work well. Select an image and save it to the album directory.</para>
 
 			<para>Sometimes, your music player may not be able to identify a particular song or album correctly. If this is the case, you can add the correct information manually by right-clicking the music file displayed in <application>gmusicbrowser</application>, selecting <menuchoice><guimenuitem>Song Properties</guimenuitem></menuchoice> and entering the appropriate information in the corresponding fields.</para>
 
@@ -77,7 +77,7 @@
 
 			<para><application>Parole Media Player</application> supports most video types. If you try to play an unsupported video file, <application>Parole Media Player</application> may notify you of a missing plugin. You can then install this plugin by following the wizard. Afterwards, you may need to restart <application>Parole Media Player</application>.</para>
 
-			<para>If you are having difficulties getting a video to stream in your browser <application>Parole Media Player</application> supports streaming most types of video. To open a video in <application>Parole Media Player</application>, right-click the video and select <menuchoice><guimenuitem>Open with Parole Media Player</guimenuitem></menuchoice>.</para>
+			<para>If you are having difficulties getting a video to stream in your browser, <application>Parole Media Player</application> supports streaming most types of video. To open a video in <application>Parole Media Player</application>, right-click the video and select <menuchoice><guimenuitem>Open with Parole Media Player</guimenuitem></menuchoice>.</para>
 
 			<section id="media-video-restricted">
 				<title>Restricted formats</title>
