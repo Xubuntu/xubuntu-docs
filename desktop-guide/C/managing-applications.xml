@@ -22,7 +22,7 @@
 
 	<note><para>You will need administrative access to add and remove software.</para></note>
 
-	<caution><para>You can only use one package manager at a time. If you start another package manager while one is already open, you will receive an error message.</para></caution>
+	<caution><para>You can only use one package manager at a time. If you start another package manager while one is already open, you will receive an error message and the second package manager will not necessarily be able to function.</para></caution>
 
 	<section id="ubuntu-software-center">
 		<title>Using Ubuntu Software Center</title>
@@ -111,11 +111,10 @@
 		</section>
 
 		<section id="applications-offline-installation">
-			<title>Helpful applications</title>
+			<title>Helpful application</title>
 
 			<para>If you have less than optimal Internet access, <application>apt-offline</application> allows you to use another computer with better access to download packages and check for package updates like security fixes.  The other computer can run Xubuntu, another flavor of Ubuntu, or Debian.  A graphical interface is available via <application>apt-offline-gui</application> that makes a complicated-looking process easy.  All you need is time, patience, and a portable USB storage device.  A usage example to learn more about this can be found in <xref linkend="offline-packages"/>.</para>
 
-			<para><application>APTonCD</application> lets you copy from the set of packages already downloaded to somebody else's computer to install them to your own and vice versa. In a package manager, such as <application>Ubuntu Software Center</application>, find the <application>APTonCD</application> package and install it. Further documentation on <application>APTonCD</application> can be found on the <ulink url="&aptoncd-web;">APTonCD website</ulink>.</para>
 		</section>
 	</section>
 

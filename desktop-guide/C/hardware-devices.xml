@@ -149,7 +149,7 @@
 
 			<para>To find out how to mount and unmount storage devices manually and/or automatically, see the Ubuntu community wiki page for the <ulink url="&communitywiki-mount;">mount command</ulink>.</para>
 
-			<para>When you copy files to a removable storage device, they are not always written to the device immediately. Instead, they are often stored in a queue so that they can all be transferred across to the device at the same time (for reasons of efficiency). If you disconnect the device before all of the files have been transferred, you could lose the files. To prevent this, you must always unmount a removable device before disconnecting it.</para>
+			<para>When you copy files to a removable storage device, they are not always written to the device immediately. Instead, they are often stored in a queue so that they can all be transferred across to the device at the same time (for reasons of efficiency). Running the command <userinput>sync</userinput> can force pending data to be written to removable storage devices.  If you disconnect the device before all of the files have been transferred, you could lose the files. To prevent this, you must always unmount a removable device before disconnecting it.</para>
 		</section>
 	</section>
 
