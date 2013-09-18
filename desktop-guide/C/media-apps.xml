@@ -17,7 +17,15 @@
 		<section id="media-music-listen">
 			<title>Listening to music</title>
 
-			<para>You can use <application>gmusicbrowser</application> and <application>Parole Media Player</application> to listen to music on your computer. <application>Parole Media Player</application> may open audio files when they are double-clicked, but <application>gmusicbrowser</application> is better at handling large music collections. Initially, <application>gmusicbrowser</application> will not automatically search for music files on your computer and you will have to manually direct <application>gmusicbrowser</application> to your music files by doing the following:</para>
+			<para>You can use <application>gmusicbrowser</application> and <application>Parole Media Player</application> to listen to music on your computer. <application>Parole Media Player</application> may open audio files when they are double-clicked, but <application>gmusicbrowser</application> is better at handling large music collections.</para> 
+			
+			<para>In order to play some popular audio formats like MP3, you will need to install some additional software. Unfortunately, this software cannot be provided by default in Xubuntu due to legal restrictions in some countries.</para>
+
+			<caution><para>Read <xref linkend="software-repositories-restricted" /> before following the instructions below. There are some legal issues that you should be aware of.</para></caution>
+
+			<para>To be able to play MP3 files in <application>gmusicbrowser</application>, install the <literal>&package;gstreamer0.10-plugins-ugly</literal> package.</para>
+
+			<para>Initially, <application>gmusicbrowser</application> will not automatically search for music files on your computer and you will have to manually direct <application>gmusicbrowser</application> to your music files by doing the following:</para>
 
 			<itemizedlist>
 				<listitem><para>Open &gmusicbrowser;</para></listitem>

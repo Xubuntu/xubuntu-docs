@@ -19,13 +19,22 @@ xubuntu-docs (13.10.0) saucy; urgency=low
   * Fixed a typo on the offline applications page
   * Added mention of ideviceinstaller to media-apps as another specialized tool for handling iPods
   * Added reference in guide-desktop to gtk-theme-config. (LP: #1219593)
+  * Removed in-depth notation for offline packages on table of contents as I never wrote what would have followed...the guide on how to sign the Ubuntu Code of Conduct
+  * Added to tip about LibreOffice in default-apps.xml a reminder from the Ubuntu Wiki on LibreOffice to not use The Document Foundation .deb files as they lack Ubuntu-specific patches
+  * In hardware-devices.xml added tip about the "sync" command line coreutil function to flush buffers in writing to disk which is handy with removable devices
+  * Amplified the caution in managing-applications.xml about having two package managers open at once
+  * Removed reference to APTonCD from managing-applications.xml since LP Bug 1175458 shows it is, as of 13.04, depending upon HAL of all things yet in LP Bug 1221254 Martin Pitt is coordinating the drive to purge any vestiges of HAL that remain in Ubuntu
 
   [ Jack Fromm ]
   * Grammar fixes and wording changes
   * Update the software-properties entity
   * Update GUI labels to match current versions
+  * In media-apps.xml, added caveat about having to install restricted software to play MP3s in gmusicbrowser.
+  * Several changes in internet-networks.xml to make it match new menus in Saucy.
+  * Removed obsolete application recommendations (Computer Janitor & Gnome Desktop Utilities) from hardware-devices.xml.
+  * Added steps to use a hibernation workaround to hardware-devices.xml (LP bug 1225782).
 
- -- Pasi Lallinaho <pasi@shimmerproject.org>  Mon, 16 Sep 2013 00:36:14 +0300
+ -- Pasi Lallinaho <pasi@shimmerproject.org>  Tue, 17 Sep 2013 19:32:05 -0400
 
 xubuntu-docs (13.04.0) raring; urgency=low
 

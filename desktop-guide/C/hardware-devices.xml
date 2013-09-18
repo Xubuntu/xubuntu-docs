@@ -85,9 +85,8 @@
 
 			<itemizedlist>
 				<listitem><para>Empty your trash by right-clicking the <guilabel>Trash</guilabel> icon on the Desktop or the Launcher Panel and selecting <menuchoice><guimenuitem>Empty Trash</guimenuitem></menuchoice>.</para></listitem>
-				<listitem><para>Install <application>Computer Janitor</application> from the <application>Ubuntu Software Center</application> and launch it from &computer-janitor;. This application will remove unused or obsolete software packages from your computer. Read the list of packages carefully before you click <guibutton>Do selected tasks</guibutton>; packages that you have manually downloaded and installed may be listed as unused, even though they are not.</para></listitem>
 				<listitem><para>Remove software packages that you no longer use. See the <application>Ubuntu Software Center</application> for information on removing packages.</para></listitem>
-				<listitem><para>Delete files that you no longer need. You can install the <application>GNOME Desktop Utilities</application> from the <application>Ubuntu Software Center</application> and run the <application>Disk Usage Analyzer</application> to find which files are taking up the most space.</para></listitem>
+				<listitem><para>Delete files that you no longer need. You can install the <application>GNOME Disk Usage Analyzer</application> from the <application>Ubuntu Software Center</application> to find which files are taking up the most space.</para></listitem>
 			</itemizedlist>
 
 			<warning><para>Be careful not to delete files that you still need!</para></warning>
@@ -100,7 +99,7 @@
 
 			<warning><para>Be careful when altering disk partitions, as it is possible to lose your data if you delete or change the wrong partition.</para></warning>
 
-			<note><para>If it is necessary to unmount the installed system to proceed with changes you wish to make you will have to work from a live CD/USB to do so</para></note>
+			<note><para>If it is necessary to unmount the installed system to proceed with changes you wish to make, you will have to work from a live CD/USB to do so.</para></note>
 
 			<section id="partitioning-freeing-space">
 				<title>Freeing space for a new partition</title>
@@ -111,7 +110,8 @@
 					<listitem><para>Select the device to partition from the drop-down list at the top-right of the main window</para></listitem>
 					<listitem><para>A list of partitions will appear in the main window. Select the partition you want to resize and from the menu, choose <menuchoice><guimenu>Partition</guimenu><guimenuitem>Unmount</guimenuitem></menuchoice></para></listitem>
 					<listitem><para>To resize the partition choose <menuchoice><guimenu>Partition</guimenu><guimenuitem>Resize/Move</guimenuitem></menuchoice>. The <guilabel>Resize/Move</guilabel> dialog will be shown. You can use the <guilabel>Free Space Following (MiB)</guilabel> box to choose how much space to free after this partition, or <guilabel>Free Space Preceding (MiB)</guilabel> to free space before this partition. Alternatively you can use the slider to adjust the partition size.</para></listitem>
-					<listitem><para>To apply the changes, click <guibutton>Resize/Move</guibutton></para></listitem>
+					<listitem><para>Click <guibutton>Resize/Move</guibutton></para></listitem>
+					<listitem><para>To apply the changes, click <menuchoice><guimenu>Edit</guimenu><guimenuitem>Apply All Operations</guimenuitem></menuchoice></para></listitem>
 				</itemizedlist>
 			</section>
 
@@ -123,8 +123,10 @@
 				<itemizedlist>
 					<listitem><para>Select the device to partition from the drop-down list at the top-right of the main window</para></listitem>
 					<listitem><para>A list of partitions will appear. Select the one called <guilabel>unallocated</guilabel>, right-click on it and click <menuchoice><guimenuitem>New</guimenuitem></menuchoice></para></listitem>
-					<listitem><para>From the <guilabel>File system:</guilabel> pick list, choose the desired type of filesystem to use and click <guibutton>Add</guibutton></para></listitem>
-					<listitem><para>To apply the changes, click <guibutton>Apply</guibutton></para></listitem>
+					<listitem><para>From the <guilabel>File system:</guilabel> pick list, choose the desired type of filesystem to use.</para></listitem>
+					<listitem><para>If desired, enter a description for the partition in the <guilabel>Label: </guilabel> field.</para></listitem>
+					<listitem><para>Click the <guibutton>Add</guibutton> button.</para></listitem>
+					<listitem><para>To apply the changes, click <menuchoice><guimenu>Edit</guimenu><guimenuitem>Apply All Operations</guimenuitem></menuchoice></para></listitem>
 				</itemizedlist>
 			</section>
 
@@ -136,8 +138,8 @@
 				<itemizedlist>
 					<listitem><para>Select the device to partition from the drop-down list at the top-right of the main window</para></listitem>
 					<listitem><para>A list of partitions will appear. Select the desired partition and choose <menuchoice><guimenu>Partition</guimenu><guimenuitem>Unmount</guimenuitem></menuchoice>.</para></listitem>
-					<listitem><para>Select the partition you want to format and choose <menuchoice><guimenu>Partition</guimenu><guimenuitem>Format</guimenuitem></menuchoice> to and select from the list the type of filesystem to format the partition to</para></listitem>
-					<listitem><para>To apply all the changes, click <guibutton>Apply</guibutton></para></listitem>
+					<listitem><para>Select the partition you want to format and choose <menuchoice><guimenu>Partition</guimenu><guimenuitem>Format to</guimenuitem></menuchoice> and select from the list the type of filesystem to format the partition to</para></listitem>
+					<listitem><para>To apply the changes, click <menuchoice><guimenu>Edit</guimenu><guimenuitem>Apply All Operations</guimenuitem></menuchoice></para></listitem>
 				</itemizedlist>
 			</section>
 		</section>
@@ -149,7 +151,7 @@
 
 			<para>To find out how to mount and unmount storage devices manually and/or automatically, see the Ubuntu community wiki page for the <ulink url="&communitywiki-mount;">mount command</ulink>.</para>
 
-			<para>When you copy files to a removable storage device, they are not always written to the device immediately. Instead, they are often stored in a queue so that they can all be transferred across to the device at the same time (for reasons of efficiency). If you disconnect the device before all of the files have been transferred, you could lose the files. To prevent this, you must always unmount a removable device before disconnecting it.</para>
+			<para>When you copy files to a removable storage device, they are not always written to the device immediately. Instead, they are often stored in a queue so that they can all be transferred across to the device at the same time (for reasons of efficiency). Running the command <userinput>sync</userinput> can force pending data to be written to removable storage devices. If you disconnect the device before all of the files have been transferred, you could lose the files. To prevent this, you must always unmount a removable device before disconnecting it.</para>
 		</section>
 	</section>
 
@@ -171,7 +173,7 @@
 
 			<itemizedlist>
 				<listitem><para>Go to &settings-screensaver;</para></listitem>
-				<listitem><para>Change the <guilabel>Screensaver theme</guilabel> to <guilabel>Blank screen only</guilabel>. This will simply display a blank screen as a screensaver.</para></listitem>
+				<listitem><para>Change the <guilabel>Screensaver theme</guilabel> to <guilabel>Blank Screen Only</guilabel>. This will simply display a blank screen as a screensaver.</para></listitem>
 				<listitem><para>Changes are applied instantly</para></listitem>
 			</itemizedlist>
 
@@ -195,7 +197,7 @@
 		<section id="laptops-reports">
 			<title>Finding laptop testing reports</title>
 
-			<para>Many laptops are regularly tested by the Ubuntu community to ensure that various features work correctly. The results of these tests are available for you to read and may offer insight into any problems you might be experiencing with your laptop. See the <ulink url="&communitywiki-laptop-testing;">Laptop Testing</ulink> page in the Ubuntu community wiki for a full listing of available laptop tests and instructions on how you can contribute by submitting details pertaining to your laptop's performance. You can report your testing results on <ulink url="&laptop-qa;">&laptop-qa;</ulink>. You can also find help on #ubuntu-quality or #xubuntu-devel in the Freenode IRC network too.</para>
+			<para>Many laptops are regularly tested by the Ubuntu community to ensure that various features work correctly. The results of these tests are available for you to read and may offer insight into any problems you might be experiencing with your laptop. See the <ulink url="&communitywiki-laptop-testing;">Laptop Testing</ulink> page in the Ubuntu community wiki for a full listing of available laptop tests and instructions on how you can contribute by submitting details pertaining to your laptop's performance. You can report your testing results on <ulink url="&laptop-qa;">&laptop-qa;</ulink>. You can also find help on #ubuntu-quality or #xubuntu-devel in the Freenode IRC network.</para>
 		</section>
 	</section>
 
@@ -211,7 +213,7 @@
 			<listitem><para>Resuming is bringing the computer out of a power saving mode and back into normal operation. You can resume the computer from being suspended by pressing a keyboard button or by clicking the mouse. You can resume from being hibernated by pressing the power button on your computer. </para></listitem>
 		</itemizedlist>
 
-		<note><para>Note that hibernate is disabled by default in Xubuntu.</para></note>
+		<note><para>Note that hibernate is disabled by default in Xubuntu and does not appear as an option in any menus. For a command line workaround, see <xref linkend="hibernate-workaround"/>.</para></note>
 
 		<para>You can manually put your computer into a power-saving mode by pressing &log-out; and then pressing the appropriate button.</para>
 
@@ -232,6 +234,20 @@
 			<para>If you suffer from any of these problems, you should report a bug to <ulink url="&launchpad-web;">Launchpad</ulink>. The problems will hopefully be fixed in a subsequent version of Xubuntu. If your hardware does not work properly after suspending or hibernating your computer, restart your computer and it should return to normal. If a program does not work properly, try closing the program and then starting it again.</para>
 
 			<warning><para>Make sure that you save all of your open documents before testing for suspend and hibernate problems.</para></warning>
+		</section>
+
+		<section id="hibernate-workaround">
+			<title>Command line hibernation workaround</title>
+
+			<para>To enable and use the hibernation workaround, do the following:</para>
+
+			<itemizedlist>
+				<listitem><para>Install the <application>pm-utils</application> package from the <application>Ubuntu Software Center</application>.</para></listitem>
+				<listitem><para>From the command line, enter: <userinput>sudo pm-hibernate</userinput>.</para></listitem>
+				<listitem><para>Enter your password.</para></listitem>
+				<listitem><para>To resume from hibernation, press the power button.</para></listitem>
+			</itemizedlist>
+
 		</section>
 
 		<section id="suspending-patterns">
