@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-08-01 13:20+0300\n"
-"PO-Revision-Date: 2013-09-19 23:26+0000\n"
+"PO-Revision-Date: 2013-09-20 15:01+0000\n"
 "Last-Translator: David Pires <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-09-20 06:04+0000\n"
+"X-Launchpad-Export-Date: 2013-09-21 06:01+0000\n"
 "X-Generator: Launchpad (build 16765)\n"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
@@ -105,7 +105,7 @@ msgid ""
 "released in June, 2006, thus its version number was 6.06. The latest Long "
 "Term Support (LTS) version is 12.04, codenamed Precise Pangolin."
 msgstr ""
-"O esquema de numeração das versões do Xubuntu é baseada na data de "
+"O esquema de numeração das versões do Xubuntu é baseado na data de "
 "lançamento da distribuição. A primeira parte do lançamento representa o ano, "
 "enquanto a segunda parte representa o mês. Por exemplo, a primeira versão "
 "oficial do Xubuntu foi lançada em junho de 2006, portanto o seu número de "
@@ -249,8 +249,8 @@ msgid ""
 "Settings</guimenuitem></menuchoice></application>"
 msgstr ""
 "Ir para <application><menuchoice><placeholder-1/><guimenuitem>Gestor de "
-"Definições</guimenuitem><guimenuitem>Print "
-"Settings</guimenuitem></menuchoice></application>"
+"Definições</guimenuitem><guimenuitem>Definições de "
+"impressão</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/printing-scanning.xml:28(para) desktop-guide/C/printing-scanning.xml:50(para)
 msgid ""
@@ -259,8 +259,8 @@ msgid ""
 ">Printer</guimenuitem></menuchoice>"
 msgstr ""
 "Clicar "
-"<menuchoice><guimenu>Server</guimenu><guisubmenu>Novo</guisubmenu><guimenuite"
-"m>Printer</guimenuitem></menuchoice>"
+"<menuchoice><guimenu>Servidor</guimenu><guisubmenu>Nova</guisubmenu><guimenui"
+"tem>Impressora</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/printing-scanning.xml:29(para)
 msgid ""
@@ -429,13 +429,13 @@ msgstr ""
 "Se não tiver uma impressora de rede, mas desejar que a impressora seja "
 "compartilhada com outros computadores na sua rede, click em "
 "<menuchoice><guimenu>Servidor</guimenu><guimenuitem>Configurações</guimenuite"
-"m></menuchoice> na caixa de diálogo <guilabel>Impressoras</guilabel>, "
-"assinale a caixa de seleção <guilabel>Publicar impressoras partilhadas "
-"ligadas a este sistema</guilabel>, e prima <guibutton>OK</guibutton>. Outros "
-"sistemas baseados em Linux/Ubuntu necessitam de ter selecionada a opção "
-"<guilabel>Mostrar impressoras partilhadas por outros sistemas</guilabel> na "
-"caixa de diálogo de configurações do servidor, a fim de acederem à "
-"impressora."
+"m></menuchoice> na caixa de diálogo <guilabel>Definições de "
+"impressão</guilabel>, assinale a caixa de seleção <guilabel>Publicar "
+"impressoras partilhadas ligadas a este sistema</guilabel>, e prima "
+"<guibutton>OK</guibutton>. Outros sistemas baseados em Linux/Ubuntu "
+"necessitam de ter selecionada a opção <guilabel>Mostrar impressoras "
+"partilhadas por outros sistemas</guilabel> na caixa de diálogo de "
+"configurações do servidor, a fim de acederem à impressora."
 
 #: desktop-guide/C/printing-scanning.xml:68(title)
 msgid "Scanning"
@@ -620,8 +620,8 @@ msgid ""
 "Save the file and open <application>Simple Scan</application>. If all goes "
 "well, your scanner will now work."
 msgstr ""
-"Grave o ficheiro e abra <application>Simple Scan</application>. Se tudo "
-"correr bem, o digitalizador irá agora funcionar."
+"Grave o ficheiro e abra <application>Digitalização Simples</application>. Se "
+"tudo correr bem, o digitalizador irá agora funcionar."
 
 #: desktop-guide/C/offline-packages.xml:12(title)
 msgid "Offline Package Management"
@@ -1111,8 +1111,9 @@ msgstr ""
 "1/><guisubmenu>Sistema</guisubmenu><guimenuitem>Gigolo</guimenuitem></menucho"
 "ice></application>, que permite guardar marcadores e gerir sistemas de "
 "ficheiros remotos. Para conectar, clique no primeiro botão da barra de "
-"ferramentas. Selecione <guilabel>Windows Share</guilabel> no "
-"<guilabel>Service Type</guilabel>, e insira os detalhes da partilha remota."
+"ferramentas. Selecione <guilabel>Partilha Windows</guilabel> no "
+"<guilabel>Tipo de Serviço</guilabel>, e insira os detalhes da partilha "
+"remota."
 
 #: desktop-guide/C/migrating-upgrading.xml:49(para)
 msgid ""
@@ -1981,10 +1982,12 @@ msgid ""
 "You can only use one package manager at a time. If you start another package "
 "manager while one is already open, you will receive an error message."
 msgstr ""
+"Só pode utilizar um gestor de pacotes de cada vez. Se iniciar um outro "
+"gestor de pacotes, enquanto um já está aberto receberá uma mensagem de erro."
 
 #: desktop-guide/C/managing-applications.xml:28(title)
 msgid "Using Ubuntu Software Center"
-msgstr ""
+msgstr "Utilizar o Centro de Software Ubuntu"
 
 #: desktop-guide/C/managing-applications.xml:30(para)
 msgid ""
@@ -1992,60 +1995,74 @@ msgid ""
 "<application><menuchoice><placeholder-1/><guimenuitem>Ubuntu Software "
 "Center</guimenuitem></menuchoice></application>."
 msgstr ""
+"Pode iniciar o Centro de Software Ubuntu a partir de "
+"<application><menuchoice><placeholder-1/><guimenuitem>Centro de Software "
+"Ubuntu</guimenuitem></menuchoice></application>."
 
 #: desktop-guide/C/managing-applications.xml:33(title)
 msgid "Installing new software"
-msgstr ""
+msgstr "Instalação de novo software"
 
 #: desktop-guide/C/managing-applications.xml:36(para)
 msgid ""
 "Search for an application or select a category to find an application you "
 "want to install"
 msgstr ""
+"Procure uma aplicação ou selecione uma categoria para encontrar uma "
+"aplicação que deseja instalar"
 
 #: desktop-guide/C/managing-applications.xml:37(para)
 msgid "From the application page, click <guibutton>Install</guibutton>"
 msgstr ""
+"A partir da página da aplicação, clique em <guibutton>Instalar</guibutton>"
 
 #: desktop-guide/C/managing-applications.xml:38(para)
 msgid ""
 "You will be asked to enter your password; once you do that, the installation "
 "will begin"
 msgstr ""
+"Será solicitado para inserir a sua senha; uma vez isso feito, a instalação "
+"começará"
 
 #: desktop-guide/C/managing-applications.xml:39(para)
 msgid "A shortcut to your application will added to the Applications menu"
-msgstr ""
+msgstr "Um atalho para a aplicação será adicionado ao menu Aplicações"
 
 #: desktop-guide/C/managing-applications.xml:42(para)
 msgid ""
 "To be able to install new software from the repositories, you need to be "
 "connected to the Internet."
 msgstr ""
+"Para ser capaz de instalar novo software a partir dos repositórios, "
+"necessitará de estar conectado à Internet."
 
 #: desktop-guide/C/managing-applications.xml:46(title)
 msgid "Removing software"
-msgstr ""
+msgstr "Remoção de software"
 
 #: desktop-guide/C/managing-applications.xml:49(para)
 msgid "Click <guilabel>Installed</guilabel> on the top panel"
-msgstr ""
+msgstr "Clique em <guilabel>Instalado</guilabel> no painel superior"
 
 #: desktop-guide/C/managing-applications.xml:50(para)
 msgid ""
 "Find the application that you want to remove by using the search box or "
 "looking through the installed applications"
 msgstr ""
+"Procure a aplicação que deseja remover usando a caixa de busca ou olhando "
+"através das aplicações instaladas"
 
 #: desktop-guide/C/managing-applications.xml:51(para)
 msgid "Select the application and click <guibutton>Remove</guibutton>"
-msgstr ""
+msgstr "Selecione a aplicação e clique em <guibutton>Remover</guibutton>"
 
 #: desktop-guide/C/managing-applications.xml:52(para)
 msgid ""
 "You may be asked to enter your password; once you do that, the application "
 "will be removed"
 msgstr ""
+"Poderá ser solicitado para inserir a sua senha; uma vez isso feito, a "
+"aplicação será removida"
 
 #: desktop-guide/C/managing-applications.xml:55(para)
 msgid ""
@@ -2054,14 +2071,18 @@ msgid ""
 "application, both of them will be removed. You will be asked to confirm that "
 "this is what you want to happen before the applications are removed."
 msgstr ""
+"Algumas aplicações dependem de outras para poderem funcionar correctamente. "
+"Se tentar remover um aplicação que é necessária por outra aplicação, ambas "
+"serão removidas. Será solicitada a confirmação de que é isso que pretende "
+"que aconteça antes das aplicações serem removidas."
 
 #: desktop-guide/C/managing-applications.xml:60(title)
 msgid "Additional software repositories"
-msgstr ""
+msgstr "Repositórios de software adicionais"
 
 #: desktop-guide/C/managing-applications.xml:63(title)
 msgid "Enabling more repositories"
-msgstr ""
+msgstr "Permitir mais repositórios"
 
 #: desktop-guide/C/managing-applications.xml:65(para)
 msgid ""
@@ -2069,6 +2090,9 @@ msgid ""
 "parties or those for older version of Xubuntu. To enable more software "
 "repositories:"
 msgstr ""
+"É possível adicionar repositórios extras, tais como os fornecidos por "
+"terceiros ou aqueles para versões mais antigas do Xubuntu. Para permitir "
+"mais repositórios de software:"
 
 #: desktop-guide/C/managing-applications.xml:68(para)
 msgid ""
@@ -2080,10 +2104,18 @@ msgid ""
 "Sources</guimenuitem></menuchoice></application> and go to the "
 "<guilabel>Other Software</guilabel> tab"
 msgstr ""
+"Abrir <application><menuchoice><placeholder-1/><guimenuitem>Gestor de "
+"Definições</guimenuitem><guimenuitem>Software &amp; "
+"Atualizações</guimenuitem></menuchoice></application> ou "
+"<application><menuchoice><placeholder-2/><guimenuitem>Centro de Software "
+"Ubuntu</guimenuitem><guimenuitem>Editar</guimenuitem><guimenuitem>Fontes de "
+"Software</guimenuitem></menuchoice></application> e ir à aba <guilabel>Outro "
+"Software</guilabel>"
 
 #: desktop-guide/C/managing-applications.xml:69(para)
 msgid "Press <guibutton>Add...</guibutton> to add a new repository."
 msgstr ""
+"Prima <guibutton>Adicionar...</guibutton> para adicionar um novo repositório"
 
 #: desktop-guide/C/managing-applications.xml:70(para)
 msgid ""
