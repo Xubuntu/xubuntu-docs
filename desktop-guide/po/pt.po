@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-08-01 13:20+0300\n"
-"PO-Revision-Date: 2013-09-20 15:01+0000\n"
+"PO-Revision-Date: 2013-09-24 16:03+0000\n"
 "Last-Translator: David Pires <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-09-21 06:01+0000\n"
-"X-Generator: Launchpad (build 16765)\n"
+"X-Launchpad-Export-Date: 2013-09-25 05:55+0000\n"
+"X-Generator: Launchpad (build 16771)\n"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
 msgid "What is Xubuntu?"
@@ -1668,7 +1668,7 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:111(para)
 msgid "Select your camera from <guilabel>Source</guilabel>"
-msgstr "Selecione sua câmera a partir de <guilabel>Source</guilabel>"
+msgstr "Selecione sua câmera a partir de <guilabel>Fonte</guilabel>"
 
 #: desktop-guide/C/media-apps.xml:112(para)
 msgid ""
@@ -2124,18 +2124,25 @@ msgid ""
 "something like the following: <literal>deb http://ftp.debian.org etch "
 "main</literal>"
 msgstr ""
+"Introduza a linha APT para o repositório extra. Esta opção está disponível a "
+"partir do site do repositório na maioria dos casos e deve ser algo como o "
+"seguinte: <literal>deb http://ftp.debian.org etch main</literal>"
 
 #: desktop-guide/C/managing-applications.xml:71(para)
 msgid ""
 "Press <guibutton>Add Source</guibutton> and then click "
 "<guibutton>Close</guibutton> to save your changes."
 msgstr ""
+"Pressione <guibutton>Adicionar Fonte</guibutton> e de seguida clique em "
+"<guibutton>Fechar</guibutton> para guardar as alterações."
 
 #: desktop-guide/C/managing-applications.xml:72(para)
 msgid ""
 "You will be notified that the information about available software is out-of-"
 "date. Press <guibutton>Reload</guibutton>."
 msgstr ""
+"Será notificado que a informação sobre o software disponível está "
+"desatualizada. Clique em <guibutton>Atualizar</guibutton>."
 
 #: desktop-guide/C/managing-applications.xml:73(para)
 msgid ""
@@ -2148,16 +2155,26 @@ msgid ""
 "<guilabel>Authentication</guilabel> tab, clicking on <guibutton>Import Key "
 "File</guibutton>, and then selecting the GPG key to be imported."
 msgstr ""
+"A maioria dos repositórios de software utilizam uma chave GPG para assinar "
+"digitalmente os arquivos que fornecem, o que torna fácil de verificar que os "
+"arquivos não foram alterados desde a sua criação. A chave deve estar "
+"disponível para transferência no site do repositório. Depois de ter "
+"transferido a chave GPG, importe a chave selecionando a aba "
+"<guilabel>Autenticação</guilabel>, clicando em <guibutton>Importar ficheiro "
+"da chave</guibutton>, e em seguida, selecionando a chave GPG para ser "
+"importada."
 
 #: desktop-guide/C/managing-applications.xml:76(para)
 msgid ""
 "Be careful when installing software from third-party repositories. It may "
 "not have been tested with Xubuntu and could cause your system to break."
 msgstr ""
+"Tenha cuidado ao instalar programas de repositórios de terceiros. Podem não "
+"ter sido testados no Xubuntu e causarem danos no sistema."
 
 #: desktop-guide/C/managing-applications.xml:80(title)
 msgid "Restricted and non-free software"
-msgstr ""
+msgstr "Software restrito e não-livre"
 
 #: desktop-guide/C/managing-applications.xml:82(para)
 msgid ""
@@ -2166,6 +2183,10 @@ msgid ""
 "the software and redistribute it if they like. Xubuntu is built from this "
 "type of software."
 msgstr ""
+"A maioria do software disponível para o Xubuntu é software livre, com código "
+"fonte aberto. Este software pode ser livremente instalado e utilizado por "
+"qualquer pessoa e todas as pessoas podem modificá-lo e redistribuí-lo se "
+"assim o desejarem. O Xubuntu é construído a partir deste tipo de software."
 
 #: desktop-guide/C/managing-applications.xml:84(para)
 msgid ""
@@ -2175,6 +2196,12 @@ msgid ""
 "recommended that you use <ulink url=\"http://www.ubuntu.com/project/about-"
 "ubuntu/our-philosophy\">free software</ulink> instead."
 msgstr ""
+"<guilabel>Software não-livre</guilabel> é o software que não é de livre "
+"distribuição ou modificável. Isso torna difícil para os programadores "
+"Xubuntu melhorar o software e corrigir problemas, então é normalmente "
+"recomendado que  em vez disso use <ulink "
+"url=\"http://www.ubuntu.com/project/about-ubuntu/our-philosophy\">software "
+"livre</ulink>."
 
 #: desktop-guide/C/managing-applications.xml:86(para)
 msgid ""
@@ -2186,6 +2213,14 @@ msgid ""
 "illegal in some countries) and patent issues (some software requires a "
 "patent license to be used legally)."
 msgstr ""
+"<guilabel>Software restrito</guilabel> é o software que possui restrições à "
+"sua utilização, impedindo que ele seja classificado como software livre. "
+"Software não-livre é um tipo de software restrito, onde as restrições são "
+"devidas ao fato de o software possuir uma licença não-livre. Outras razões "
+"para o software ser classificados como restrito inclui questões jurídicas (o "
+"uso de determinados tipos de software é ilegal em alguns países) e questões "
+"de patentes (algum software requer uma licença de patente para ser usado "
+"legalmente)."
 
 #: desktop-guide/C/managing-applications.xml:88(para)
 msgid ""
@@ -2193,6 +2228,9 @@ msgid ""
 "software for the playback of certain audio and video formats, some fonts and "
 "certain video card drivers."
 msgstr ""
+"Em alguns casos, o software restrito é a única opção. Tais casos incluem "
+"software para a reprodução de certos formatos de áudio e vídeo, algumas "
+"fontes e alguns controladores de placas de vídeo."
 
 #: desktop-guide/C/managing-applications.xml:90(para)
 msgid ""
