@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-08-01 13:20+0300\n"
-"PO-Revision-Date: 2013-09-30 18:37+0000\n"
+"PO-Revision-Date: 2013-10-10 22:53+0000\n"
 "Last-Translator: David Pires <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-10-01 05:41+0000\n"
-"X-Generator: Launchpad (build 16774)\n"
+"X-Launchpad-Export-Date: 2013-10-11 05:41+0000\n"
+"X-Generator: Launchpad (build 16799)\n"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
 msgid "What is Xubuntu?"
@@ -2310,8 +2310,8 @@ msgid ""
 "After adding the disc to the software sources, you will be able to install "
 "packages from the disc."
 msgstr ""
-"Depois de adicionar o disco para às fontes de software, será capaz de "
-"instalar os pacotes a partir do disco."
+"Depois de adicionar o disco às fontes de software, será capaz de instalar os "
+"pacotes a partir do disco."
 
 #: desktop-guide/C/managing-applications.xml:114(title)
 msgid "Helpful applications"
@@ -2448,22 +2448,34 @@ msgid ""
 "should only be used by people who are in a real need of a new version of a "
 "software package that they know has been backported."
 msgstr ""
+"<guilabel>Atualizações não suportadas</guilabel> - Quando novas versões de "
+"software popular são lançados, às vezes elas são \"backported\" para uma "
+"versão mais antiga do Xubuntu para que os utilizadores possam beneficiar de "
+"novas funcionalidades e correções de problemas. Estes backports não são "
+"suportados, podem causar problemas quando instalados e só devem ser usados "
+"por pessoas que se encontrem com verdadeiras necessidades de novas versões "
+"de um pacote de software que eles sabem que foi portado atrás."
 
 #: desktop-guide/C/managing-applications.xml:145(title)
 msgid "Notifications of new Xubuntu versions"
-msgstr ""
+msgstr "Notificações de novas versões do Xubuntu"
 
 #: desktop-guide/C/managing-applications.xml:147(para)
 msgid ""
 "This section of the <application>Software Updater</application> deals with "
 "the way you wish future versions to be given to you. You have three options:"
 msgstr ""
+"Esta seção do <application>Atualizador de Software</application> lida com a "
+"forma como deseja que versões futuras lhe sejam oferecidas. Existem três "
+"opções:"
 
 #: desktop-guide/C/managing-applications.xml:150(para)
 msgid ""
 "<guilabel>For any new version</guilabel> - You will get notifications of all "
 "new releases, once in 6 months"
 msgstr ""
+"<guilabel>Para qualquer nova versão</guilabel> - Receberá notificações de "
+"todos os novos lançamentos, uma vez em 6 meses"
 
 #: desktop-guide/C/managing-applications.xml:151(para)
 msgid ""
@@ -2471,15 +2483,19 @@ msgid ""
 "notifications of new Long-term Support (LTS) releases, once in 2 years - "
 "recommended if you need maximum stability"
 msgstr ""
+"<guilabel>Para as versões de suporte de longo prazo</guilabel> - Receberá "
+"notificações de novos lançamentos de Suporte de Longo Prazo (LTS), uma vez "
+"em 2 anos - recomendado se necessita do máximo de estabilidade"
 
 #: desktop-guide/C/managing-applications.xml:152(para)
 msgid ""
 "<guilabel>Never</guilabel> - You will not get notifications of new releases"
 msgstr ""
+"<guilabel>Nunca</guilabel> - Nunca receberá notificações de novos lançamentos"
 
 #: desktop-guide/C/managing-applications.xml:157(title)
 msgid "Other options"
-msgstr ""
+msgstr "Outras opções"
 
 #: desktop-guide/C/managing-applications.xml:160(guilabel)
 msgid "Frequency of check"
@@ -2487,11 +2503,11 @@ msgstr ""
 
 #: desktop-guide/C/managing-applications.xml:161(guilabel)
 msgid "Checking and installing updates automatically"
-msgstr ""
+msgstr "Frequência de verificação"
 
 #: desktop-guide/C/managing-applications.xml:162(guilabel)
 msgid "Displaying notifications about security updates"
-msgstr ""
+msgstr "Visualizar notificações sobre atualizações de segurança"
 
 #: desktop-guide/C/internet-networks.xml:12(title)
 msgid "Connecting to Internet and Networks"
