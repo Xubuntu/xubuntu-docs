@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-08-01 13:20+0300\n"
-"PO-Revision-Date: 2013-10-10 22:53+0000\n"
+"PO-Revision-Date: 2013-10-11 17:14+0000\n"
 "Last-Translator: David Pires <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-10-11 05:41+0000\n"
+"X-Launchpad-Export-Date: 2013-10-12 05:56+0000\n"
 "X-Generator: Launchpad (build 16799)\n"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
@@ -2511,7 +2511,7 @@ msgstr "Visualizar notificações sobre atualizações de segurança"
 
 #: desktop-guide/C/internet-networks.xml:12(title)
 msgid "Connecting to Internet and Networks"
-msgstr ""
+msgstr "Ligação à Internet e a Redes"
 
 #: desktop-guide/C/internet-networks.xml:14(para)
 msgid ""
@@ -2520,6 +2520,10 @@ msgid ""
 "<application>NetworkManager</application> also keeps passwords secure by "
 "utilizing the user's keyring to store passphrases."
 msgstr ""
+"O Xubuntu usa o <application>NetworkManager</application> para gerir redes "
+"com fios, sem fio, banda larga móvel, VPN e conexões DSL. O "
+"<application>NetworkManager</application> também mantém senhas seguras "
+"usando o chaveiro do utilizador para armazenar senhas."
 
 #: desktop-guide/C/internet-networks.xml:16(para)
 msgid ""
@@ -2528,26 +2532,34 @@ msgid ""
 "two grayed out arrows pointing up and down. When you are connected, the icon "
 "is different depending on the network type in use."
 msgstr ""
+"O <application>NetworkManager</application> é o ícone pequeno no painel "
+"superior no canto superior direito do seu écran. Quando desligado, o ícone "
+"mostra duas setas de cor cinzenta apontando para cima e para baixo. Quando "
+"estiver ligado, o ícone é diferente dependendo do tipo de rede em uso."
 
 #: desktop-guide/C/internet-networks.xml:19(title)
 msgid "Network connections"
-msgstr ""
+msgstr "Ligações de rede"
 
 #: desktop-guide/C/internet-networks.xml:22(title)
 msgid "Connecting and disconnecting"
-msgstr ""
+msgstr "Ligar e desligar"
 
 #: desktop-guide/C/internet-networks.xml:24(para)
 msgid ""
 "<application>NetworkManager</application> will automatically use a wired "
 "network, if one is available."
 msgstr ""
+"O <application>NetworkManager</application> irá utilizar automaticamente uma "
+"rede com fios, se houver uma disponível."
 
 #: desktop-guide/C/internet-networks.xml:26(para)
 msgid ""
 "To see all available connections, click the NetworkManager icon. To connect "
 "to a network, click the network name."
 msgstr ""
+"Para ver todas as ligações disponíveis, clique no ícone do NetworkManager. "
+"Para se ligar a uma rede, clique no nome da rede."
 
 #: desktop-guide/C/internet-networks.xml:28(para)
 msgid ""
@@ -2557,6 +2569,12 @@ msgid ""
 "type from the <guilabel>Wireless Security</guilabel> drop-down box, enter "
 "the authentication details and press <guibutton>Connect</guibutton>."
 msgstr ""
+"Se se estiver a ligar a uma rede sem fios pela primeira vez, poderá ser "
+"necessário fornecer dados de segurança. Se assim for, uma caixa de diálogo "
+"será aberta. Na maioria dos casos, o tipo de segurança será detectada "
+"automaticamente. Se não, selecione o tipo de segurança no menu suspenso da "
+"caixa <guilabel>Seguranaça Wi-Fi</guilabel>, introduza os detalhes de "
+"autenticação e pressione <guibutton>Ligar</guibutton>."
 
 #: desktop-guide/C/internet-networks.xml:30(para)
 msgid ""
@@ -2566,10 +2584,15 @@ msgid ""
 "icon and select <menuchoice><guimenuitem>Enable/Disable "
 "Networking/Wireless</guimenuitem></menuchoice>."
 msgstr ""
+"Para se desligar de uma rede, clique no ícone do NetworkManager e seleccione "
+"Desligar debaixo do tipo de ligação apropriada. Para desativar (e reativar) "
+"ligações com fios e/ou sem fios, em simultâneo, clique no ícone do "
+"NetworkManager e selecione <menuchoice><guimenuitem>Activar/Desactivar "
+"Redes/Wireless</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/internet-networks.xml:34(title)
 msgid "Configuring connections"
-msgstr ""
+msgstr "Configurar ligações"
 
 #: desktop-guide/C/internet-networks.xml:36(para)
 msgid ""
@@ -2580,6 +2603,12 @@ msgid ""
 "<guibutton>Edit</guibutton> or press <guibutton>Add</guibutton> to set up "
 "new networks."
 msgstr ""
+"Se necessitar de configurar as suas ligações, clique no ícone do "
+"NetworkManager e selecione <menuchoice><guimenuitem>Editar "
+"Ligações</guimenuitem></menuchoice>. Na caixa de diálogo, verá abas para "
+"cada um dos tipo de ligação. Selecione a aba apropriada e ou selecione uma "
+"rede e pressione <guibutton>Editar</guibutton> ou pressione "
+"<guibutton>Adicionar</guibutton> para configurar novas redes."
 
 #: desktop-guide/C/internet-networks.xml:38(para)
 msgid ""
@@ -2587,20 +2616,26 @@ msgid ""
 "which you will get from your network administrator or your Internet Service "
 "Provider."
 msgstr ""
+"Para ser capaz de se ligar a determinadas redes poderá necessitar de "
+"detalhes de ligação que obterá com o administrador da rede ou o provedor de "
+"serviços de Internet."
 
 #: desktop-guide/C/internet-networks.xml:42(title)
 msgid "Connection information"
-msgstr ""
+msgstr "Informações da ligação"
 
 #: desktop-guide/C/internet-networks.xml:44(para)
 msgid ""
 "To see the connection information, click the NetworkManager icon and select "
 "<menuchoice><guimenuitem>Connection Information</guimenuitem></menuchoice>."
 msgstr ""
+"Para ver as informações da ligação, clique no ícone do NetworkManager e "
+"selecione <menuchoice><guimenuitem>Informações da "
+"ligação</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/internet-networks.xml:48(title)
 msgid "Sharing your connection to another computer"
-msgstr ""
+msgstr "Partilhar a sua ligação com outro computador"
 
 #: desktop-guide/C/internet-networks.xml:50(para)
 msgid ""
@@ -2612,10 +2647,18 @@ msgid ""
 "change <guilabel>Method</guilabel> to <guilabel>Shared to other "
 "computers</guilabel> from the drop-down list."
 msgstr ""
+"Pode partilhar sua ligação com outro computador utilizando um cabo Ethernet. "
+"Isto pode ser efectuado clicando no ícone NetworkManager, seleccionando "
+"<menuchoice><guimenuitem>Editar Ligações</guimenuitem></menuchoice>, e em "
+"seguida adicionar uma nova ligação sem fios (ou editar a já existente). Na "
+"janela de propriedades da ligação, selecione <guilabel>Configuração "
+"IPv4</guilabel>, e altere o <guilabel>Método</guilabel> para "
+"<guilabel>Compartilhada com outros computadores </guilabel> na lista "
+"pendente."
 
 #: desktop-guide/C/internet-networks.xml:54(title)
 msgid "Dialup modems"
-msgstr ""
+msgstr "Modems dial-up"
 
 #: desktop-guide/C/internet-networks.xml:56(para)
 msgid ""
