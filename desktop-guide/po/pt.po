@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-08-01 13:20+0300\n"
-"PO-Revision-Date: 2013-10-11 17:14+0000\n"
+"PO-Revision-Date: 2013-10-13 22:31+0000\n"
 "Last-Translator: David Pires <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-10-12 05:56+0000\n"
+"X-Launchpad-Export-Date: 2013-10-14 05:35+0000\n"
 "X-Generator: Launchpad (build 16799)\n"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
@@ -2499,7 +2499,7 @@ msgstr "Outras opções"
 
 #: desktop-guide/C/managing-applications.xml:160(guilabel)
 msgid "Frequency of check"
-msgstr ""
+msgstr "Frequência de verificação"
 
 #: desktop-guide/C/managing-applications.xml:161(guilabel)
 msgid "Checking and installing updates automatically"
@@ -2668,40 +2668,52 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/DialupModemHowto\">Dialup modem How-"
 "to</ulink> on the Ubuntu community wiki."
 msgstr ""
+"Infelizmente, modems dial-up não são suportados pelo "
+"<application>NetworkManager</application>. Para ler sobre como ligar com um "
+"modem dial-up, por favor consulte <ulink "
+"url=\"https://help.ubuntu.com/community/DialupModemHowto\">Procedimentos "
+"Modem dial-up</ulink> na wiki da comunidade Ubuntu."
 
 #: desktop-guide/C/internet-networks.xml:60(title)
 msgid "Network troubleshooting"
-msgstr ""
+msgstr "Resolução de problemas de rede"
 
 #: desktop-guide/C/internet-networks.xml:62(para)
 msgid ""
 "Before attempting any troubleshooting, ensure that the network connections "
 "are enabled:"
 msgstr ""
+"Antes de tentar qualquer resolução de problemas, certifique-se de que as "
+"ligações de rede estão ativadas:"
 
 #: desktop-guide/C/internet-networks.xml:65(para)
 msgid "Click the NetworkManager icon in the notification area"
-msgstr ""
+msgstr "Clique no ícone do NetworkManager na área de notificação"
 
 #: desktop-guide/C/internet-networks.xml:66(para)
 msgid ""
 "Check <menuchoice><guimenuitem>Enable Networking</guimenuitem></menuchoice>"
 msgstr ""
+"Verifique <menuchoice><guimenuitem>Ativar uma rede</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/internet-networks.xml:67(para)
 msgid ""
 "Check <menuchoice><guimenuitem>Enable Wireless</guimenuitem></menuchoice>"
 msgstr ""
+"Verifique <menuchoice><guimenuitem>Ativar rede sem "
+"fios</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/internet-networks.xml:70(para)
 msgid "If your network connection still doesn't work:"
-msgstr ""
+msgstr "Se a ligação de rede ainda assim não funcionar:"
 
 #: desktop-guide/C/internet-networks.xml:73(para)
 msgid ""
 "For wired (Ethernet) connections, please see <xref linkend=\"network-"
 "troubleshooting-general\"/>"
 msgstr ""
+"Para ligações com fio (Ethernet), consulte <xref linkend=\"network-"
+"troubleshooting-general\"/>"
 
 #: desktop-guide/C/internet-networks.xml:74(para)
 msgid ""
@@ -2709,40 +2721,48 @@ msgid ""
 "troubleshooting-general\"/> and <xref linkend=\"network-troubleshooting-"
 "wireless\"/>"
 msgstr ""
+"Para ligações sem fios, consulte <xref linkend=\"network-troubleshooting-"
+"general\"/> e <xref linkend=\"network-troubleshooting-wireless\"/>"
 
 #: desktop-guide/C/internet-networks.xml:75(para)
 msgid ""
 "If your network connection problems are still not resolved, see <xref "
 "linkend=\"network-troubleshooting-advanced\"/>"
 msgstr ""
+"Se os problemas de ligação de rede ainda não estão resolvidos, consulte "
+"<xref linkend=\"network-troubleshooting-advanced\"/>"
 
 #: desktop-guide/C/internet-networks.xml:79(title)
 msgid "General troubleshooting"
-msgstr ""
+msgstr "Resolução de problemas gerais"
 
 #: desktop-guide/C/internet-networks.xml:81(para)
 msgid ""
 "If your network connection is not working properly, there are a few tools "
 "that can be used to help diagnose the problem."
 msgstr ""
+"Se a ligação de rede não estiver a funcionar corretamente, há algumas "
+"ferramentas que podem ser usados ​​para ajudar a diagnosticar o problema."
 
 #: desktop-guide/C/internet-networks.xml:84(title)
 msgid "Get information about the current connection"
-msgstr ""
+msgstr "Obter informações sobre a ligação atual"
 
 #: desktop-guide/C/internet-networks.xml:86(para)
 msgid ""
 "To get information about your network connection and network devices, you "
 "have two options:"
 msgstr ""
+"Para obter informações sobre a sua ligação de rede e dispositivos de rede, "
+"tem duas opções:"
 
 #: desktop-guide/C/internet-networks.xml:90(para)
 msgid "Using <application>NetworkManager</application>"
-msgstr ""
+msgstr "Usando o <application>NetworkManager</application>"
 
 #: desktop-guide/C/internet-networks.xml:92(para)
 msgid "Click on the NetworkManager icon"
-msgstr ""
+msgstr "Clique no ícone do NetworkManager"
 
 #: desktop-guide/C/internet-networks.xml:93(para)
 msgid ""
@@ -2751,16 +2771,22 @@ msgid ""
 "Information</guilabel> is disabled, it is likely there is no active "
 "connection. Try using <application>ifconfig</application> to find out more."
 msgstr ""
+"Selecione <menuchoice><guimenuitem>Informações da "
+"ligação</guimenuitem></menuchoice>. Se <guilabel>Informações da "
+"ligação</guilabel> estiver desativada, é provável que não exista uma ligação "
+"ativa."
 
 #: desktop-guide/C/internet-networks.xml:94(para)
 msgid ""
 "Each active connection will have its own tab where you can find relevant "
 "connection information"
 msgstr ""
+"Cada ligação ativa terá a sua própria aba onde pode encontrar informações "
+"relevantes sobre a ligação"
 
 #: desktop-guide/C/internet-networks.xml:98(para)
 msgid "Using <application>ifconfig</application>"
-msgstr ""
+msgstr "Usando <application>ifconfig</application>"
 
 #: desktop-guide/C/internet-networks.xml:100(para)
 msgid ""
@@ -2770,6 +2796,11 @@ msgid ""
 "<userinput>ifconfig</userinput> and press <keycap><placeholder-"
 "2/>Enter</keycap>"
 msgstr ""
+"Abra uma janela de terminal (<application><menuchoice><placeholder-"
+"1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Emulador de "
+"Terminal</guimenuitem></menuchoice></application>) introduza o comando "
+"<userinput>ifconfig</userinput> e pressione <keycap><placeholder-"
+"2/>Enter</keycap>"
 
 #: desktop-guide/C/internet-networks.xml:101(para)
 msgid ""
@@ -2778,16 +2809,23 @@ msgid ""
 "in the left column, IP address in the <guilabel>inet addr</guilabel> column "
 "and the MAC address for your device in the <guilabel>HWaddr</guilabel> column"
 msgstr ""
+"<application>ifconfig</application> irá mostrar-lhe informações detalhadas "
+"acerca da ligação, inclusive nome(s) lógico ou da ligação (por exemplo, "
+"eth1) na coluna esquerda, o endereço IP esquerda na coluna <guilabel>inet "
+"addr</guilabel> e o endereço MAC do seu dispositivo na coluna "
+"<guilabel>HWaddr</guilabel>"
 
 #: desktop-guide/C/internet-networks.xml:108(title)
 msgid "Check if a connection is working properly"
-msgstr ""
+msgstr "Verificar se uma ligação está a funcionar correctamente"
 
 #: desktop-guide/C/internet-networks.xml:110(para)
 msgid ""
 "A reliable method to check if a connection is working properly is to ping "
 "another computer on the network or the Internet."
 msgstr ""
+"Um método fidedigno para verificar se a ligação está a funcionar "
+"corretamente é pingar outro computador na rede ou na Internet."
 
 #: desktop-guide/C/internet-networks.xml:112(para)
 msgid ""
@@ -2798,6 +2836,12 @@ msgid ""
 "<userinput>ping -c 3 www.xubuntu.org</userinput> and press "
 "<keycap><placeholder-2/>Enter</keycap>"
 msgstr ""
+"Para verificar se o computador está ligado à Internet, abra uma janela de "
+"terminal (<application><menuchoice><placeholder-"
+"1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Emulador de "
+"Terminal</guimenuitem></menuchoice></application>)  introduza o comando "
+"<userinput>ping -c 3 www.xubuntu.org</userinput> e pressione "
+"<keycap><placeholder-2/>Enter</keycap>"
 
 #: desktop-guide/C/internet-networks.xml:114(para)
 msgid ""
@@ -2806,17 +2850,24 @@ msgid ""
 "transmitted, how many packets were received, the percentage of packet loss, "
 "and the total time spent."
 msgstr ""
+"O computador irá então tentar contactar www.xubuntu.org três vezes e exibirá "
+"os resultados. As estatísticas de ping mostram o número de pacotes "
+"transmitidos, quantos pacotes foram recebidos, a percentagem de perda de "
+"pacotes, e o tempo total gasto."
 
 #: desktop-guide/C/internet-networks.xml:117(para)
 msgid ""
 "0% packet loss indicates that your computer is connected to the Internet"
 msgstr ""
+"0% de perda de pacotes indica que o computador está ligado à Internet"
 
 #: desktop-guide/C/internet-networks.xml:118(para)
 msgid ""
 "Greater than 0% but less than 100% packet loss indicates that your computer "
 "has a poor connection to the Internet or a poor wireless signal"
 msgstr ""
+"Maior que 0% mas inferior a 100% de perda de pacotes indica que o computador "
+"tem uma má ligação à Internet ou um sinal de rede sem fios pobre"
 
 #: desktop-guide/C/internet-networks.xml:119(para)
 msgid ""
@@ -2824,6 +2875,8 @@ msgid ""
 "is connected to an access point or router that is not connected to the "
 "Internet"
 msgstr ""
+"100% de perda de pacotes indica que o computador tem uma má ligação, ou está "
+"ligado a um ponto de acesso ou router que não está ligado à Internet"
 
 #: desktop-guide/C/internet-networks.xml:122(para)
 msgid ""
@@ -2831,10 +2884,13 @@ msgid ""
 "or \"unknown host\", then your computer is probably not connected to the "
 "Internet or is unable to reach a Domain Name System (DNS) server."
 msgstr ""
+"Se receber uma mensagem de erro que diz \"www.xubuntu.org can not be found\" "
+"ou \"unknown host\", então o computador provavelmente não está ligado à "
+"Internet ou é incapaz de alcançar um servidor Domain Name System (DNS)."
 
 #: desktop-guide/C/internet-networks.xml:127(title)
 msgid "Wireless troubleshooting"
-msgstr ""
+msgstr "Resolução de problemas com redes sem fios"
 
 #: desktop-guide/C/internet-networks.xml:129(para)
 msgid ""
@@ -2843,6 +2899,10 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/WifiDocs\">Community "
 "Documentation</ulink>."
 msgstr ""
+"Esta seção aborda alguns problemas comuns enfrentados com suporte a redes se "
+"fios. Há muito mais informações disponíveis em <ulink "
+"url=\"https://help.ubuntu.com/community/WifiDocs\">Community "
+"Documentation</ulink>."
 
 #: desktop-guide/C/internet-networks.xml:131(para)
 msgid ""
@@ -2850,24 +2910,30 @@ msgid ""
 "carried out in the order shown, unless you are pointed to a different "
 "subsection"
 msgstr ""
+"Por favor, note que as etapas deste guia de resolução de problemas são "
+"concebidas para serem realizadas na ordem apresentada, a menos que seja "
+"apontado para uma subseção diferente"
 
 #: desktop-guide/C/internet-networks.xml:134(title)
 msgid "Check that the device is turned on"
-msgstr ""
+msgstr "Verificar que o dispositivo está ligado"
 
 #: desktop-guide/C/internet-networks.xml:136(para)
 msgid ""
 "Many wireless network devices can be turned on or off. Check for a hardware "
 "switch or a keyboard function key to turn the wireless device on."
 msgstr ""
+"Muitos dispositivos de rede sem fios podem ser ligados ou desligados. "
+"Verifique se há um interruptor de hardware ou uma tecla de função de teclado "
+"para ligar o dispositivo sem fios."
 
 #: desktop-guide/C/internet-networks.xml:138(para)
 msgid "If the device is turned on, continue to the next topic."
-msgstr ""
+msgstr "Se o dispositivo estiver ligado, continue para o próximo tópico."
 
 #: desktop-guide/C/internet-networks.xml:142(title)
 msgid "Check if the device is recognized"
-msgstr ""
+msgstr "Verifique se o dispositivo é reconhecido"
 
 #: desktop-guide/C/internet-networks.xml:144(para)
 msgid ""
@@ -2879,6 +2945,14 @@ msgid ""
 "<guilabel>CLAIMED</guilabel>, <guilabel>UNCLAIMED</guilabel>, "
 "<guilabel>ENABLED</guilabel> or <guilabel>DISABLED</guilabel>."
 msgstr ""
+"Abra uma janela de terminal (<application><menuchoice><placeholder-"
+"1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Emulador de "
+"Terminal</guimenuitem></menuchoice></application>) introduza o comando "
+"<userinput>pingsudo lshw -C network</userinput> e pressione "
+"<keycap><placeholder-2/>Enter</keycap>. Irá ver alguma saída de texto, junto "
+"com as palavras <guilabel>CLAIMED</guilabel>, "
+"<guilabel>UNCLAIMED</guilabel>, <guilabel>ENABLED</guilabel> or "
+"<guilabel>DISABLED</guilabel>."
 
 #: desktop-guide/C/internet-networks.xml:147(para)
 msgid ""
@@ -2886,12 +2960,18 @@ msgid ""
 "functioning. Continue to <xref linkend=\"network-troubleshooting-"
 "ndiswrapper\"/>."
 msgstr ""
+"<guilabel>CLAIMED</guilabel> indica que um controlador está carregado, mas "
+"não está a funcionar. Continue para <xref linkend=\"rede-resolução de "
+"problemas-ndiswrapper\"/>."
 
 #: desktop-guide/C/internet-networks.xml:148(para)
 msgid ""
 "<guilabel>UNCLAIMED</guilabel> indicates that there is no driver loaded. "
 "Continue to <xref linkend=\"network-troubleshooting-ndiswrapper\"/>."
 msgstr ""
+"<guilabel>UNCLAIMED</guilabel> indica que não existe um controlador "
+"carregado. Continue para <xref linkend=\"rede-resolução de problemas-"
+"ndiswrapper\"/>."
 
 #: desktop-guide/C/internet-networks.xml:149(para)
 msgid ""
@@ -2899,16 +2979,22 @@ msgid ""
 "working. Continue to section <xref linkend=\"network-troubleshooting-"
 "router\"/>."
 msgstr ""
+"<guilabel>ENABLED</guilabel> > indica que o controlador está instalado e a "
+"funcionar. Continuar para a seção <xref linkend=\"rede-resolução de "
+"problemas-router\"/>."
 
 #: desktop-guide/C/internet-networks.xml:150(para)
 msgid ""
 "<guilabel>DISABLED</guilabel> indicates the the driver is installed, but "
 "disabled. Continue to <xref linkend=\"network-troubleshoothing-wifi-on\"/>."
 msgstr ""
+"<guilabel>DISABLED</guilabel> indica que o controlador está instalado e a "
+"funcionar. Continuar para seção <xref linkend=\"rede-resolução de problemas-"
+"wifi-on\"/>."
 
 #: desktop-guide/C/internet-networks.xml:155(title)
 msgid "Using Windows wireless drivers"
-msgstr ""
+msgstr "Usar os controladores de redes sem fios do Windows"
 
 #: desktop-guide/C/internet-networks.xml:157(para)
 msgid ""
@@ -2916,6 +3002,10 @@ msgid ""
 "This allows you to use a Windows wireless device driver under Xubuntu. To "
 "start using <application>NDISWrapper</application>:"
 msgstr ""
+"O Xubuntu suporta um sistema conhecido como "
+"<application>NDISWrapper</application>. Isso permite a utilização de um "
+"controlador de dispositivos sem fios do Windows no Xubuntu. Para começar a "
+"usar o <application>NDISWrapper</application>:"
 
 #: desktop-guide/C/internet-networks.xml:160(para)
 msgid ""
