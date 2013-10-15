@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-08-01 13:20+0300\n"
-"PO-Revision-Date: 2013-10-13 22:31+0000\n"
+"PO-Revision-Date: 2013-10-14 18:07+0000\n"
 "Last-Translator: David Pires <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-10-14 05:35+0000\n"
+"X-Launchpad-Export-Date: 2013-10-15 05:20+0000\n"
 "X-Generator: Launchpad (build 16799)\n"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
@@ -2988,9 +2988,9 @@ msgid ""
 "<guilabel>DISABLED</guilabel> indicates the the driver is installed, but "
 "disabled. Continue to <xref linkend=\"network-troubleshoothing-wifi-on\"/>."
 msgstr ""
-"<guilabel>DISABLED</guilabel> indica que o controlador está instalado e a "
-"funcionar. Continuar para seção <xref linkend=\"rede-resolução de problemas-"
-"wifi-on\"/>."
+"<guilabel>DISABLED</guilabel> indica que o controlador está instalado, mas "
+"desativado. Continuar para <xref linkend=\"rede-resolução de problemas-wifi-"
+"on\"/>."
 
 #: desktop-guide/C/internet-networks.xml:155(title)
 msgid "Using Windows wireless drivers"
@@ -3012,10 +3012,12 @@ msgid ""
 "Obtain the Windows driver for your network device and locate the file that "
 "ends with .inf"
 msgstr ""
+"Obtenha o controlador do Windows para o seu dispositivo de rede e localize o "
+"arquivo que termina com .inf"
 
 #: desktop-guide/C/internet-networks.xml:161(para)
 msgid "Install the <literal><placeholder-1/>ndisgtk</literal> package"
-msgstr ""
+msgstr "Instale o pacote <literal><placeholder-1/>ndisgtk</literal>"
 
 #: desktop-guide/C/internet-networks.xml:162(para)
 msgid ""
@@ -3023,24 +3025,29 @@ msgid ""
 "Manager</guimenuitem><guimenuitem>Windows Wireless "
 "Drivers</guimenuitem></menuchoice></application>"
 msgstr ""
+"Ir para <application><menuchoice><placeholder-1/><guimenuitem>Gestor de "
+"Definições</guimenuitem><guimenuitem>Controladores de redes sem fios do "
+"Windows</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/internet-networks.xml:163(para)
 msgid "Select <guibutton>Install new driver</guibutton>"
-msgstr ""
+msgstr "Selecionar <guibutton>Instalar novo controlador</guibutton>"
 
 #: desktop-guide/C/internet-networks.xml:164(para)
 msgid ""
 "Choose the location of your Windows .inf file and click "
 "<guibutton>Install</guibutton>"
 msgstr ""
+"Escolha a localização do seu ficheiro .inf do Windows e clique "
+"<guibutton>Instalar</guibutton>"
 
 #: desktop-guide/C/internet-networks.xml:165(para)
 msgid "Click <guibutton>OK</guibutton>"
-msgstr ""
+msgstr "Clique <guibutton>OK</guibutton>"
 
 #: desktop-guide/C/internet-networks.xml:170(title)
 msgid "Checking for a connection to the router"
-msgstr ""
+msgstr "Verificação da ligação com o router"
 
 #: desktop-guide/C/internet-networks.xml:172(para)
 msgid ""
@@ -3050,6 +3057,11 @@ msgid ""
 "<userinput>iwconfig</userinput> and press <keycap><placeholder-"
 "2/>Enter</keycap>."
 msgstr ""
+"Abra uma janela de terminal (<application><menuchoice><placeholder-"
+"1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Emulador de "
+"Terminal</guimenuitem></menuchoice></application>) introduza o comando "
+"<userinput>iwconfig</userinput> e pressione <keycap><placeholder-"
+"2/>Enter</keycap>."
 
 #: desktop-guide/C/internet-networks.xml:174(para)
 msgid ""
@@ -3057,20 +3069,25 @@ msgid ""
 "a problem with ACPI support. Boot Xubuntu with the "
 "<literal>pci=noacpi</literal> option."
 msgstr ""
+"Se o <guilabel>ESSID</guilabel> para o seu router for exibido, poderá haver "
+"um problema com o suporte a ACPI. Arranque o Xubuntu com a opção "
+"<literal>pci=noacpi</literal>."
 
 #: desktop-guide/C/internet-networks.xml:179(title)
 msgid "Advanced troubleshooting"
-msgstr ""
+msgstr "Resolução de problemas avançada"
 
 #: desktop-guide/C/internet-networks.xml:181(para)
 msgid ""
 "The following troubleshooting methods are a bit more technical. Please try "
 "these methods only if the above methods failed."
 msgstr ""
+"Os seguintes métodos de resolução de problemas são um pouco mais técnicos. "
+"Por favor tente estes métodos somente se os métodos anteriores falharem."
 
 #: desktop-guide/C/internet-networks.xml:184(title)
 msgid "Checking IP assignment"
-msgstr ""
+msgstr "Verificação de atribuição de IP"
 
 #: desktop-guide/C/internet-networks.xml:186(para)
 msgid ""
@@ -3081,6 +3098,12 @@ msgid ""
 "2/>Enter</keycap>. If there is an IP address displayed, continue to <xref "
 "linkend=\"network-troubleshooting-dns\"/>."
 msgstr ""
+"Abra uma janela de terminal (<application><menuchoice><placeholder-"
+"1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Emulador de "
+"Terminal</guimenuitem></menuchoice></application>) introduza o comando "
+"<userinput>ifconfig</userinput> e pressione <keycap><placeholder-"
+"2/>Enter</keycap>. Se houver um endereço IP exibido, continue para <xref "
+"linkend=\"rede-resolução de problemas-dns\"/>."
 
 #: desktop-guide/C/internet-networks.xml:188(para)
 msgid ""
@@ -3089,6 +3112,10 @@ msgid ""
 "from the <application>ifconfig</application> command: <userinput>sudo "
 "dhclient eth1</userinput>"
 msgstr ""
+"A partir do terminal insira o seguinte comando, substituindo "
+"<literal>eth1</literal> com o nome da ligação mostrado na saída do comando "
+"<application>ifconfig</application>: <userinput>sudo dhclient "
+"eth1</userinput>"
 
 #: desktop-guide/C/internet-networks.xml:191(para)
 msgid ""
@@ -3096,14 +3123,17 @@ msgid ""
 "<literal>xxx.xxx.xxx.xxx</literal> continue to <xref linkend=\"network-"
 "troubleshooting-dns\"/>"
 msgstr ""
+"Se receber uma mensagem que diz vinculado a "
+"<literal>xxx.xxx.xxx.xxx</literal> continue para <xref linkend=\"rede-"
+"resolução de problemas-dns\"/>"
 
 #: desktop-guide/C/internet-networks.xml:192(para)
 msgid "If not, reboot the system"
-msgstr ""
+msgstr "Se não, reinicie o sistema"
 
 #: desktop-guide/C/internet-networks.xml:197(title)
 msgid "Check Domain Name Servers (DNS)"
-msgstr ""
+msgstr "Verificação de Domain Name Servers (DNS)"
 
 #: desktop-guide/C/internet-networks.xml:199(para)
 msgid ""
@@ -3113,6 +3143,11 @@ msgid ""
 "<userinput>nm-tool</userinput> and press <keycap><placeholder-"
 "2/>Enter</keycap>."
 msgstr ""
+"Abra uma janela de terminal (<application><menuchoice><placeholder-"
+"1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Emulador de "
+"Terminal</guimenuitem></menuchoice></application>) introduza o comando "
+"<userinput>nm-tool</userinput> e pressione <keycap><placeholder-"
+"2/>Enter</keycap>."
 
 #: desktop-guide/C/internet-networks.xml:201(para)
 msgid ""
@@ -3124,6 +3159,13 @@ msgid ""
 "2/>Enter</keycap>. If you see the word <literal>NOERROR</literal>in the "
 "header section of the output, your DNS is working."
 msgstr ""
+"Para verificar se os DNS listados funcionam, abra uma janela de terminal "
+"(<application><menuchoice><placeholder-"
+"1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Emulador de "
+"Terminal</guimenuitem></menuchoice></application>) introduza o comando "
+"<userinput>dig xubuntu.org</userinput> e pressione <keycap><placeholder-"
+"2/>Enter</keycap>. Se vir a palavra <literal>NOERROR</literal> na seção do "
+"cabeçalho da saída, o seu DNS está a funcionar."
 
 #: desktop-guide/C/internet-networks.xml:203(para)
 msgid ""
@@ -3132,10 +3174,15 @@ msgid ""
 "have this information, continue to <xref linkend=\"network-connect-"
 "disconnect\"/> and <xref linkend=\"network-configure\"/> if needed."
 msgstr ""
+"Se não houver configurações de DNS listados, contate seu provedor de "
+"serviços de Internet (ISP), e descubra os seus servidores de nomes de "
+"domínio primário e secundário. Uma vez que tiver essa informação, continue "
+"para <xref linkend=\"rede-ligar-desligar\"/> e <xref linkend=\"rede-"
+"configuração\"/> se necessário."
 
 #: desktop-guide/C/internet-networks.xml:209(title)
 msgid "Connecting to servers"
-msgstr ""
+msgstr "Ligação a servidores"
 
 #: desktop-guide/C/internet-networks.xml:211(para)
 msgid ""
@@ -3144,6 +3191,10 @@ msgid ""
 "1/><guisubmenu>System</guisubmenu><guimenuitem>Gigolo</guimenuitem></menuchoi"
 "ce></application>. To connect to a server, follow the steps below:"
 msgstr ""
+"Para se conectar a vários tipos de servidores, pode usar o "
+"<application><menuchoice><placeholder-"
+"1/><guisubmenu>Sistema</guisubmenu><guimenuitem>Gigolo</guimenuitem></menucho"
+"ice></application>. Para se ligar a um servidor, siga os passos abaixo:"
 
 #: desktop-guide/C/internet-networks.xml:214(para)
 msgid ""
@@ -3151,18 +3202,25 @@ msgid ""
 "<menuchoice><guimenu>Actions</guimenu><guimenuitem>Connect</guimenuitem></men"
 "uchoice>"
 msgstr ""
+"Ir para "
+"<menuchoice><guimenu>Ações</guimenu><guimenuitem>Ligar</guimenuitem></menucho"
+"ice>"
 
 #: desktop-guide/C/internet-networks.xml:215(para)
 msgid ""
 "Select the appropriate <guilabel>Service type</guilabel> and insert "
 "connection information"
 msgstr ""
+"Selecione o <guilabel>Tipo de serviço</guilabel> apropriado e insira as "
+"informações da ligação"
 
 #: desktop-guide/C/internet-networks.xml:216(para)
 msgid ""
 "Click <guibutton>Connect</guibutton>; if you are attempting to connect to a "
 "server that requires you to log in, you will be prompted to enter a password"
 msgstr ""
+"Clique <guibutton>Ligar</guibutton>; se estivera tentar ligar-se a um "
+"servidor que requer login, ser-lhe-á solicitado a introdução de uma password"
 
 #: desktop-guide/C/internet-networks.xml:219(para)
 msgid ""
