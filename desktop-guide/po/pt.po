@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-08-01 13:20+0300\n"
-"PO-Revision-Date: 2013-10-14 18:07+0000\n"
+"PO-Revision-Date: 2013-10-16 23:05+0000\n"
 "Last-Translator: David Pires <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-10-15 05:20+0000\n"
+"X-Launchpad-Export-Date: 2013-10-17 06:01+0000\n"
 "X-Generator: Launchpad (build 16799)\n"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
@@ -3013,7 +3013,7 @@ msgid ""
 "ends with .inf"
 msgstr ""
 "Obtenha o controlador do Windows para o seu dispositivo de rede e localize o "
-"arquivo que termina com .inf"
+"ficheiro com extensão .inf"
 
 #: desktop-guide/C/internet-networks.xml:161(para)
 msgid "Install the <literal><placeholder-1/>ndisgtk</literal> package"
@@ -3219,7 +3219,7 @@ msgid ""
 "Click <guibutton>Connect</guibutton>; if you are attempting to connect to a "
 "server that requires you to log in, you will be prompted to enter a password"
 msgstr ""
-"Clique <guibutton>Ligar</guibutton>; se estivera tentar ligar-se a um "
+"Clique <guibutton>Ligar</guibutton>; se estiver a tentar ligar-se a um "
 "servidor que requer login, ser-lhe-á solicitado a introdução de uma password"
 
 #: desktop-guide/C/internet-networks.xml:219(para)
@@ -3232,10 +3232,20 @@ msgid ""
 "set other options, including the option to auto-connect. Once you are done, "
 "click <guibutton>OK</guibutton> to create the bookmark."
 msgstr ""
+"Após se ligar com sucesso ao servidor, um ícone rotulado com detalhes da "
+"ligação aparecerá na janela do <application>Gigolo</application>. Para criar "
+"marcadores das ligações, clique com o botão direito do rato numa ligação e "
+"selecione <menuchoice><guimenuitem>Criar "
+"marcador</guimenuitem></menuchoice>. No diálogo <guilabel>Editar "
+"marcadores</guilabel>, é possível nomear o marcador e definir outras opções, "
+"incluindo a opção de se ligar automáticamente. Assim que estiver feito, "
+"clique em <guibutton>OK</guibutton> para criar o marcador."
 
 #: desktop-guide/C/internet-networks.xml:221(para)
 msgid "The Windows Share username should be in the format DOMAIN\\username"
 msgstr ""
+"O nome de utilizador da partilha Windows deve estar no formato DOMÍNIO\\"
+"nome_de_utilizador"
 
 #: desktop-guide/C/internet-networks.xml:223(para)
 msgid ""
@@ -3243,14 +3253,17 @@ msgid ""
 "1/>gvfs-backends</literal> needs to be installed in order to connect using "
 "the <application>Thunar File Manager</application>."
 msgstr ""
+"Para Redes SAMBA (partilhas do Windows), o pacote <literal><placeholder-"
+"1/>gvfs-backends</literal> precisa de ser instalado para se ligar usando o "
+"<application>Gestor de ficheiros Thunar</application>."
 
 #: desktop-guide/C/index.xml:12(title) desktop-guide/C/index.xml:15(title)
 msgid "Xubuntu Documentation"
-msgstr ""
+msgstr "Documentação Xubuntu"
 
 #: desktop-guide/C/index.xml:17(title)
 msgid "Credits and License"
-msgstr ""
+msgstr "Créditos e Licença"
 
 #: desktop-guide/C/index.xml:18(para)
 msgid ""
@@ -3259,72 +3272,78 @@ msgid ""
 "team</ulink>. This documentation is partly adapted from the Ubuntu "
 "documentation."
 msgstr ""
+"Este documento é mantido pela  <ulink "
+"url=\"https://wiki.ubuntu.com/DocumentationTeam\">Ubuntu documentation "
+"team</ulink>. Esta documentação é parcialmente adaptada a partir da "
+"documentação do Ubuntu."
 
 #: desktop-guide/C/index.xml:21(para)
 msgid "The contributors to this documentation are:"
-msgstr ""
+msgstr "Os contribuidores para esta documentação são:"
 
 #: desktop-guide/C/index.xml:23(para)
 msgid "Sean Davis (smd-seandavis)"
-msgstr ""
+msgstr "Sean Davis (smd-seandavis)"
 
 #: desktop-guide/C/index.xml:24(para)
 msgid "Jack Fromm (jjfrv8-gmail)"
-msgstr ""
+msgstr "Jack Fromm (jjfrv8-gmail)"
 
 #: desktop-guide/C/index.xml:25(para)
 msgid "Elizabeth Krumbach (lyz)"
-msgstr ""
+msgstr "Elizabeth Krumbach (lyz)"
 
 #: desktop-guide/C/index.xml:26(para)
 msgid "Pasi Lallinaho (knome)"
-msgstr ""
+msgstr "Pasi Lallinaho (knome)"
 
 #: desktop-guide/C/index.xml:27(para)
 msgid "Kev (elfy)"
-msgstr ""
+msgstr "Kev (elfy)"
 
 #: desktop-guide/C/index.xml:28(para)
 msgid "Jay van Cooten (skippersboss)"
-msgstr ""
+msgstr "Jay van Cooten (skippersboss)"
 
 #: desktop-guide/C/index.xml:29(para)
 msgid "Stephen Michael Kellat (skellat)"
-msgstr ""
+msgstr "Stephen Michael Kellat (skellat)"
 
 #: desktop-guide/C/index.xml:30(para)
 msgid "Unit 193 (Unit193)"
-msgstr ""
+msgstr "Unit 193 (Unit193)"
 
 #: desktop-guide/C/index.xml:33(para)
 msgid "The contributors to previous versions to this documentation are:"
-msgstr ""
+msgstr "Os contribuidores para versões anteriores a esta documentação são:"
 
 #: desktop-guide/C/index.xml:35(para)
 msgid "Jim Campbell (jwcampbell)"
-msgstr ""
+msgstr "Jim Campbell (jwcampbell)"
 
 #: desktop-guide/C/index.xml:36(para)
 msgid "Cody A.W. Somerville (cody-somerville)"
-msgstr ""
+msgstr "Cody A.W. Somerville (cody-somerville)"
 
 #: desktop-guide/C/index.xml:37(para)
 msgid "Jan M. (fijam7)"
-msgstr ""
+msgstr "Jan M. (fijam7)"
 
 #: desktop-guide/C/index.xml:38(para)
 msgid "Freddy Martinez (freddymartinez9)"
-msgstr ""
+msgstr "Freddy Martinez (freddymartinez9)"
 
 #: desktop-guide/C/index.xml:39(para)
 msgid "Luzius Thöny (lucius-antonius)"
-msgstr ""
+msgstr "Luzius Thöny (lucius-antonius)"
 
 #: desktop-guide/C/index.xml:42(para)
 msgid ""
 "This document is made available under the Creative Commons ShareAlike 2.5 "
 "License (CC-BY-SA)."
 msgstr ""
+"Este documento é disponibilizado sob a licença  da Creative Commons "
+"ShareAlike 2.5 (CC-BY-SA)."
 
 #: desktop-guide/C/index.xml:43(para)
 msgid ""
@@ -3332,6 +3351,9 @@ msgid ""
 "code under the terms of this license. All derivative works must be released "
 "under this license."
 msgstr ""
+"É livre para modificar, alargar e melhorar o código fonte da documentação do "
+"Ubuntu sob os termos desta licença. Todos os trabalhos derivados devem ser "
+"disponibilizados sob esta licença."
 
 #: desktop-guide/C/index.xml:45(para)
 msgid ""
@@ -3339,48 +3361,57 @@ msgid ""
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE AS DESCRIBED IN THE DISCLAIMER."
 msgstr ""
+"Esta documentação é distribuída na esperança de que seja útil, mas SEM "
+"NENHUMA GARANTIA; sem mesmo a garantia implícita de MERCANTIBILIDADE ou "
+"ADAPTAÇÃO A UM PROPÓSITO ESPECÍFICO COMO DESCRITO NAS DISPOSIÇÕES LEGAIS."
 
 #: desktop-guide/C/index.xml:48(para)
 msgid ""
 "A copy of the license is available here: <link linkend=\"cc-by-sa\">Creative "
 "Commons ShareAlike License</link>."
 msgstr ""
+"Uma cópia da licença está disponível aqui: <link linkend=\"cc-by-"
+"sa\">Creative Commons ShareAlike License</link>."
 
 #: desktop-guide/C/index.xml:49(para)
 msgid ""
 "All trademarks or registered trademarks are the property of the respective "
 "owners."
 msgstr ""
+"Todas as marcas comerciais ou marcas registradas são propriedade dos "
+"respectivos proprietários."
 
 #: desktop-guide/C/index.xml:53(year)
 msgid "2012"
-msgstr ""
+msgstr "2012"
 
 #: desktop-guide/C/index.xml:53(year)
 msgid "2013"
-msgstr ""
+msgstr "2013"
 
 #: desktop-guide/C/index.xml:54(holder)
 msgid "Canonical Ltd. and members of the Xubuntu Documentation team."
-msgstr ""
+msgstr "Canonical Ltd. e membros da equipa de Documentação Xubuntu."
 
 #: desktop-guide/C/index.xml:58(publishername)
 msgid "The Ubuntu Documentation Project"
-msgstr ""
+msgstr "O Projecto de Documentação do Ubuntu"
 
 #: desktop-guide/C/index.xml:61(title)
 msgid "Welcome!"
-msgstr ""
+msgstr "Bem-vindo!"
 
 #: desktop-guide/C/index.xml:63(para)
 msgid ""
 "This documentation provides documentation to the most common issues with "
 "Xubuntu, including:"
 msgstr ""
+"Esta documentação fornece a documentação para os problemas mais comuns com o "
+"Xubuntu, incluindo:"
 
 #: desktop-guide/C/index.xml:68(para)
 msgid "In addition, this documentation has three quick guides:"
-msgstr ""
+msgstr "Além disso, esta documentação tem três guias rápidos:"
 
 #: desktop-guide/C/index.xml:74(para)
 msgid ""
@@ -3389,6 +3420,10 @@ msgid ""
 "<ulink url=\"http://xubuntu.org/help/\">Help &amp; Support</ulink> page of "
 "the Xubuntu website. There you will find links to additional help resources."
 msgstr ""
+"O conjunto completo de tópicos estão listados abaixo. Se precisar ajuda com "
+"um tema ou problema que não é abordado pela documentação, vá para a página "
+"<ulink url=\"http://xubuntu.org/help/\">Help &amp; Support</ulink> do site "
+"do Xubuntu. Aí encontrará links para recursos adicionais de ajuda."
 
 #: desktop-guide/C/index.xml:76(para)
 msgid ""
@@ -3396,16 +3431,21 @@ msgid ""
 "see the <ulink url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> "
 "section of the Xubuntu website."
 msgstr ""
+"Se pretender contribuir para o o Xubuntu, incluindo esta documentação, "
+"consulte a seção <ulink url=\"http://xubuntu.org/contribute/\">Get "
+"Involved</ulink> no site do Xubuntu."
 
 #: desktop-guide/C/hardware-devices.xml:12(title)
 msgid "Hardware devices"
-msgstr ""
+msgstr "Dispositivos de hardware"
 
 #: desktop-guide/C/hardware-devices.xml:14(para)
 msgid ""
 "Your computer consists of a number of connected devices that are "
 "collectively known as computer hardware."
 msgstr ""
+"O computador é constituído por um certo número de dispositivos ligados entre "
+"si que são colectivamente conhecidos como o hardware do computador."
 
 #: desktop-guide/C/hardware-devices.xml:16(para)
 msgid ""
@@ -3414,20 +3454,26 @@ msgid ""
 "section provides information on tools which can be used to configure your "
 "hardware."
 msgstr ""
+"O Xubuntu normalmente configura o hardware automaticamente, mas pode haver "
+"ocasiões em que será necessário fazer alterações nas configurações de "
+"hardware você mesmo. Esta seção fornece informações sobre as ferramentas que "
+"podem ser usadas para configurar o hardware."
 
 #: desktop-guide/C/hardware-devices.xml:19(title)
 msgid "Restricted drivers"
-msgstr ""
+msgstr "Controladores restritos"
 
 #: desktop-guide/C/hardware-devices.xml:22(title)
 msgid "Why are some drivers restricted?"
-msgstr ""
+msgstr "Porque é que alguns controladores são restritos?"
 
 #: desktop-guide/C/hardware-devices.xml:24(para)
 msgid ""
 "Restricted drivers are drivers for your hardware that are not freely "
 "available or open source."
 msgstr ""
+"Controladores restritos são controladores para o seu hardware que não estão "
+"disponíveis gratuitamente ou de código aberto."
 
 #: desktop-guide/C/hardware-devices.xml:26(para)
 msgid ""
@@ -3436,6 +3482,10 @@ msgid ""
 "which means that the drivers can be modified by the Xubuntu developers and "
 "problems with them can be fixed."
 msgstr ""
+"A maioria dos dispositivos (hardware) ligados ao seu computador deverá "
+"funcionar corretamente no Xubuntu. Estes dispositivos provavelmente têm "
+"drivers irrestritos, o que significa que os drivers podem ser modificados "
+"pelos programadores do Xubuntu e problemas com eles podem ser corrigidos."
 
 #: desktop-guide/C/hardware-devices.xml:28(para)
 msgid ""
@@ -3444,10 +3494,14 @@ msgid ""
 "make it possible to create such a driver. These devices may have limited "
 "functionality or may not work at all."
 msgstr ""
+"Alguns hardwares não têm controladores irrestritos, normalmente porque o "
+"fabricante do hardware não lançou detalhes do seu hardware que tornariam "
+"possível a criação de tal um controlador. Estes dispositivos podem ter "
+"funcionalidades limitadas ou podem não funcionar de todo."
 
 #: desktop-guide/C/hardware-devices.xml:32(title)
 msgid "Enabling restricted drivers"
-msgstr ""
+msgstr "Ativação de controladores restritos"
 
 #: desktop-guide/C/hardware-devices.xml:34(para)
 msgid ""
@@ -3456,6 +3510,11 @@ msgid ""
 "For example, installing a restricted driver for certain graphics cards may "
 "allow you to use more advanced visual effects."
 msgstr ""
+"Se um controlador restrito está disponível para um determinado dispositivo, "
+"pode instalá-lo a fim de permitir que o dispositivo funcione corretamente, "
+"ou para adicionar novos recursos. Por exemplo, a instalação de um "
+"controlador restrito para determinadas placas de vídeo pode permitir a "
+"utilização efeitos visuais mais avançados."
 
 #: desktop-guide/C/hardware-devices.xml:36(para)
 msgid ""
@@ -3463,12 +3522,18 @@ msgid ""
 "either because all of the devices are fully supported by unrestricted "
 "drivers or because no restricted drivers are yet available for the device."
 msgstr ""
+"Alguns computadores podem não ter quaisquer dispositivos que possam utilizar "
+"controladores restritos, seja porque todos os dispositivos são totalmente "
+"suportados por controladores irrestritos ou por não existirem ainda "
+"controladores restritos para o dispositivo."
 
 #: desktop-guide/C/hardware-devices.xml:38(para)
 msgid ""
 "If any drivers are available for your hardware they will be installable from "
 "the <application>Software Sources</application> dialog:"
 msgstr ""
+"Se quaisquer controladores estão disponíveis para o hardware eles serão "
+"instalados a partir do diálogo <application>Fontes de Software</application>:"
 
 #: desktop-guide/C/hardware-devices.xml:41(para) desktop-guide/C/hardware-devices.xml:54(para)
 msgid ""
@@ -3479,6 +3544,13 @@ msgid ""
 "Manager</guimenuitem><guimenuitem>Software &amp; "
 "Updates</guimenuitem></menuchoice></application>"
 msgstr ""
+"Ir para <application><menuchoice><placeholder-1/><guimenuitem>Centro de "
+"Software "
+"Ubuntu</guimenuitem><guimenuitem>Editar</guimenuitem><guimenuitem>Fontes de "
+"Software</guimenuitem></menuchoice></application> ou "
+"<application><menuchoice><placeholder-2/><guimenuitem>Gestor de "
+"Definições</guimenuitem><guimenuitem>Software &amp; "
+"Atualizações</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/hardware-devices.xml:42(para)
 msgid ""
@@ -3486,35 +3558,43 @@ msgid ""
 "<guilabel>Additional Drivers</guilabel> tab, select as appropriate and "
 "<guibutton>Apply Changes</guibutton>."
 msgstr ""
+"Os controladores disponíveis para o seu hardware serão exibidos na aba "
+"<guilabel>Controladores Adicionais</guilabel>, escolha conforme o caso e "
+"<guibutton>Aplicar alterações</guibutton>."
 
 #: desktop-guide/C/hardware-devices.xml:43(para)
 msgid ""
 "You will, if necessary, be prompted to enter the administration password."
 msgstr ""
+"Irá, se necessário, ser-lhe solicitado para inserir a senha de administração."
 
 #: desktop-guide/C/hardware-devices.xml:44(para)
 msgid "You may be prompted to reboot to finish installation."
-msgstr ""
+msgstr "Poderá ser solicitado a reiniciar para concluir a instalação."
 
 #: desktop-guide/C/hardware-devices.xml:49(title)
 msgid "Disabling restricted drivers"
-msgstr ""
+msgstr "Desativação de controladores restritos"
 
 #: desktop-guide/C/hardware-devices.xml:51(para)
 msgid ""
 "If a restricted driver is causing problems, or you would just like to turn "
 "it off, follow the procedure below:"
 msgstr ""
+"Se um controlador restrito estiver a causar problemas, ou você gostaria "
+"apenas de desligá-lo, siga o procedimento abaixo:"
 
 #: desktop-guide/C/hardware-devices.xml:55(para)
 msgid "Click on the <guilabel>Additional Drivers</guilabel> tab."
-msgstr ""
+msgstr "Clique na aba <guilabel>Controladores Adicionais</guilabel>."
 
 #: desktop-guide/C/hardware-devices.xml:56(para)
 msgid ""
 "Find the driver that you would like to disable and press the "
 "<guibutton>Deactivate</guibutton> button."
 msgstr ""
+"Encontre o controlador que gostaria de desativar e pressione o botão "
+"<guibutton>Desativar</guibutton>."
 
 #: desktop-guide/C/hardware-devices.xml:57(para)
 msgid "You will be prompted to enter your password."
