@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-08-01 13:20+0300\n"
-"PO-Revision-Date: 2013-10-16 23:05+0000\n"
+"PO-Revision-Date: 2013-10-17 11:46+0000\n"
 "Last-Translator: David Pires <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-10-17 06:01+0000\n"
+"X-Launchpad-Export-Date: 2013-10-18 06:20+0000\n"
 "X-Generator: Launchpad (build 16799)\n"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
@@ -1530,7 +1530,7 @@ msgid ""
 "<application>Parole Media Player</application>."
 msgstr ""
 "Insira um DVD na unidade de leitura de DVDs. Ele deve abrir automaticamente "
-"no <application>Parole Media Player</application>."
+"no <application>Reprodutor multimédia Parole</application>."
 
 #: desktop-guide/C/media-apps.xml:76(title)
 msgid "Playing video"
@@ -1544,12 +1544,12 @@ msgid ""
 "install this plugin by following the wizard. Afterwards, you may need to "
 "restart <application>Parole Media Player</application>."
 msgstr ""
-"O <application>Parole Media Player</application> suporta a maioria de "
-"formatos de vídeo. Se tentar reproduzir um ficheiro de vídeo não suportado, "
-"o <application>Parole Media Player</application> poderá notificá-lo de um "
-"plugin em falta. Poderá então instalar esse plugin, seguindo o assistente. "
-"Depois, poderá ser necessário reiniciar o <application>Parole Media "
-"Player</application>."
+"O <application>Reprodutor multimédia Parole</application> suporta a maioria "
+"de formatos de vídeo. Se tentar reproduzir um ficheiro de vídeo não "
+"suportado, o <application>Parole Media Player</application> poderá notificá-"
+"lo de um plugin em falta. Poderá então instalar esse plugin, seguindo o "
+"assistente. Depois, poderá ser necessário reiniciar o "
+"<application>Reprodutor multimédia Parole</application>."
 
 #: desktop-guide/C/media-apps.xml:80(para)
 msgid ""
@@ -1560,11 +1560,12 @@ msgid ""
 "Media Player</guimenuitem></menuchoice>."
 msgstr ""
 "Se estiver com dificuldades em conseguir o fluxo contínuo de um vídeo no seu "
-"navegador de internet o <application>Parole Media Player</application> "
-"suporta o fluxo contínuo da maioria dos formatos de vídeo. Para abrir um "
-"vídeo no <application>Parole Media Player</application>, clique no vídeo com "
-"o botão direito do rato e selecione <menuchoice><guimenuitem>Abrir com "
-"Parole Media Player</guimenuitem></menuchoice>."
+"navegador de internet o <application>Reprodutor multimédia "
+"Parole</application> suporta o fluxo contínuo da maioria dos formatos de "
+"vídeo. Para abrir um vídeo no <application>Reprodutor multimédia "
+"Parole</application>, clique no vídeo com o botão direito do rato e "
+"selecione <menuchoice><guimenuitem>Abrir com Reprodutor multimédia "
+"Parole</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/media-apps.xml:83(title)
 msgid "Restricted formats"
@@ -1590,7 +1591,7 @@ msgid ""
 "information)."
 msgstr ""
 "De modo a reproduzir os formatos proprietários mais comuns no "
-"<application>Parole Media Player</application> ou no "
+"<application>Reprodutor multimédia Parole</application> ou no "
 "<application>Firefox</application>, instale o pacote <literal><placeholder-"
 "1/>xubuntu-restricted-extras</literal>  (ver <xref linkend=\"software-"
 "repositories-restricted\"/> para mais informação)."
@@ -3598,19 +3599,21 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:57(para)
 msgid "You will be prompted to enter your password."
-msgstr ""
+msgstr "Ser-lhe-á solicitada a introdução da sua senha."
 
 #: desktop-guide/C/hardware-devices.xml:60(para)
 msgid "You may need to restart your computer to finish disabling the driver."
 msgstr ""
+"Poderá ser necessário reiniciar o seu computador para concluir a "
+"desinstalação do controlador."
 
 #: desktop-guide/C/hardware-devices.xml:65(title)
 msgid "Disks and partitions"
-msgstr ""
+msgstr "Discos e partições"
 
 #: desktop-guide/C/hardware-devices.xml:68(title)
 msgid "Checking how much disk space is available"
-msgstr ""
+msgstr "Verificação de quanto espaço em disco está disponível"
 
 #: desktop-guide/C/hardware-devices.xml:70(para)
 msgid ""
@@ -3618,6 +3621,9 @@ msgid ""
 "<application>Thunar File Manager</application>. There are several ways to do "
 "this:"
 msgstr ""
+"Uma maneira simples de verificar o espaço em disco disponível é iniciar o "
+"<application>Gestor de ficheiros Thunar</application>. Existem várias "
+"maneiras de fazer isso:"
 
 #: desktop-guide/C/hardware-devices.xml:73(para)
 msgid ""
@@ -3625,16 +3631,21 @@ msgid ""
 "1/><guisubmenu>Accessories</guisubmenu><guimenuitem>File "
 "Manager</guimenuitem></menuchoice></application>"
 msgstr ""
+"Ir para <application><menuchoice><placeholder-"
+"1/><guisubmenu>Acessórios</guisubmenu><guimenuitem>Gestor de "
+"ficheiros</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/hardware-devices.xml:74(para)
 msgid ""
 "Double-click on the <guilabel>File System</guilabel> or "
 "<guilabel>Home</guilabel> icon on your Desktop"
 msgstr ""
+"Faça duplo clique em <guilabel>Sistema de Ficheiros</guilabel> ou no ícone "
+"da sua <guilabel>Pasta pessoal</guilabel> no ambiente de trabalho"
 
 #: desktop-guide/C/hardware-devices.xml:75(para)
 msgid "Click the home folder on the Launcher Panel"
-msgstr ""
+msgstr "Clique na pasta pessoal no Painel Lançador"
 
 #: desktop-guide/C/hardware-devices.xml:78(para)
 msgid ""
@@ -3643,10 +3654,14 @@ msgid ""
 "you can click on them in the side pane and you will then see displayed the "
 "free space for that disk."
 msgstr ""
+"A barra de estado na parte inferior da janela mostra o espaço livre para a "
+"unidade atual ou disco. Se tiver mais de uma unidade montada ou ligada, pode "
+"clicar sobre elas no painel lateral e então verá apresentado o espaço livre "
+"para esse disco."
 
 #: desktop-guide/C/hardware-devices.xml:82(title)
 msgid "How can I free up disk space?"
-msgstr ""
+msgstr "Como posso libertar espaço em disco?"
 
 #: desktop-guide/C/hardware-devices.xml:84(para)
 msgid "There are several simple ways of making more disk space available:"
