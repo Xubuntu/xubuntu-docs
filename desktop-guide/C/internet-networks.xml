@@ -23,17 +23,17 @@
 
 			<para><application>NetworkManager</application> will automatically use a wired network, if one is available.</para>
 
-			<para>To see all available connections, click the NetworkManager icon. To connect to a network, click the network name.</para>
+			<para>To see all available connections, click the <application>NetworkManager</application> icon. To connect to a network, click the network name.</para>
 
 			<note><para>If you are connecting to a wireless network for the first time, security details may be needed. If so, a dialog box will open. In most cases, the security type will be detected automatically. If not, select the security type from the <guilabel>Wi-Fi Security</guilabel> drop-down box, enter the authentication details and press <guibutton>Connect</guibutton>.</para></note>
 
-			<para>To disconnect from a network, click the NetworkManager icon, and select Disconnect under the appropriate connection type. To disable (and re-enable) wired and/or wireless connections all together, click the NetworkManager icon and select <menuchoice><guimenuitem>Enable Networking</guimenuitem></menuchoice> and <menuchoice><guimenuitem>Enable Wi-Fi</guimenuitem></menuchoice>. These choices are toggles. Their enabled/disabled status is indicated by the presence/absence of a check mark.</para>
+			<para>To disconnect from a network, click the <application>NetworkManager</application> icon, and select Disconnect under the appropriate connection type. To disable (and re-enable) wired and/or wireless connections all together, click the <application>NetworkManager</application> icon and select <menuchoice><guimenuitem>Enable Networking</guimenuitem></menuchoice> and <menuchoice><guimenuitem>Enable Wi-Fi</guimenuitem></menuchoice>. These choices are toggles. Their enabled/disabled status is indicated by the presence/absence of a check mark.</para>
 		</section>
 
 		<section id="network-configure">
 			<title>Configuring connections</title>
 
-			<para>If you need to configure your connections, click the NetworkManager icon and select <menuchoice><guimenuitem>Edit</guimenuitem></menuchoice>. In the dialog, you will see expandable rows for each connection type. Select the appropriate network and press <guibutton>Edit</guibutton> or press <guibutton>Add</guibutton> to set up new networks.</para>
+			<para>If you need to configure your connections, click the <application>NetworkManager</application> icon and select <menuchoice><guimenuitem>Edit</guimenuitem></menuchoice>. In the dialog, you will see expandable rows for each connection type. Select the appropriate network and press <guibutton>Edit</guibutton> or press <guibutton>Add</guibutton> to set up new networks.</para>
 
 			<note><para>To be able to connect to certain networks you might need connection details which you will get from your network administrator or your Internet Service Provider.</para></note>
 		</section>
@@ -41,13 +41,13 @@
 		<section id="network-information">
 			<title>Connection information</title>
 
-			<para>To see the connection information, click the NetworkManager icon and select <menuchoice><guimenuitem>Information</guimenuitem></menuchoice>. Your active network connections will be displayed in the <guilabel>Active Connections</guilabel> dialog, each in a separate tab.</para>
+			<para>To see the connection information, click the <application>NetworkManager</application> icon and select <menuchoice><guimenuitem>Information</guimenuitem></menuchoice>. Your active network connections will be displayed in the <guilabel>Active Connections</guilabel> dialog, each in a separate tab.</para>
 		</section>
 
 		<section id="network-sharing">
 			<title>Sharing your connection to another computer</title>
 
-			<para>You can share your connection to another computer using an Ethernet cable. This can be carried out by clicking the NetworkManager icon, selecting <menuchoice><guimenuitem>Edit</guimenuitem></menuchoice>, and then adding a new wireless connection (or editing the existing one). In the connection properties window, select <guilabel>IPv4 Settings</guilabel>, and change <guilabel>Method</guilabel> to <guilabel>Shared to other computers</guilabel> from the drop-down list.</para>
+			<para>You can share your connection to another computer using an Ethernet cable. This can be carried out by clicking the <application>NetworkManager</application> icon, selecting <menuchoice><guimenuitem>Edit</guimenuitem></menuchoice>, and then adding a new wireless connection (or editing the existing one). In the connection properties window, select <guilabel>IPv4 Settings</guilabel>, and change <guilabel>Method</guilabel> to <guilabel>Shared to other computers</guilabel> from the drop-down list.</para>
 		</section>
 
 		<section id="network-modems">
@@ -62,7 +62,7 @@
 		<para>Before attempting any troubleshooting, ensure that the network connections are enabled:</para>
 
 		<itemizedlist>
-			<listitem><para>Click the NetworkManager icon in the notification area</para></listitem>
+			<listitem><para>Click the <application>NetworkManager</application> icon in the notification area</para></listitem>
 			<listitem><para>Check <menuchoice><guimenuitem>Enable Networking</guimenuitem></menuchoice></para></listitem>
 			<listitem><para>Check <menuchoice><guimenuitem>Enable Wi-Fi</guimenuitem></menuchoice></para></listitem>
 		</itemizedlist>
@@ -89,7 +89,7 @@
 					<listitem>
 						<para>Using <application>NetworkManager</application></para>
 						<itemizedlist>
-							<listitem><para>Click on the NetworkManager icon</para></listitem>	
+							<listitem><para>Click on the <application>NetworkManager</application> icon</para></listitem>	
 							<listitem><para>Select <menuchoice><guimenuitem>Information</guimenuitem></menuchoice>. If <guilabel>Information</guilabel> is disabled, it is likely there is no active connection. Try using <application>ifconfig</application> to find out more.</para></listitem>
 							<listitem><para>Each active connection will have its own tab where you can find relevant connection information</para></listitem>
 						</itemizedlist>
