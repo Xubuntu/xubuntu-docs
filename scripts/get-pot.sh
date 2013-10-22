@@ -27,5 +27,3 @@ do
 done
 
 xml2po -e -o desktop-guide/po/desktop-guide.pot $filepaths
-
-
