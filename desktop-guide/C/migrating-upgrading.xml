@@ -77,7 +77,7 @@
 
 			<warning><para>Development releases often suffer from package breakages and other problems. Only install a development release if you are prepared to attempt to fix these problems for yourself.</para></warning>
 
-			<para>If you would like to install and test the latest development version of Xubuntu before it is released, press <keycap>&key;Alt+F2</keycap>, type <userinput>gksudo "update-manager -c -d"</userinput> into the box and press <guibutton>Run</guibutton>. This will allow you to upgrade to the current development release.</para>
+			<para>If you would like to install and test the latest development version of Xubuntu before it is released, run <userinput>sudo -i</userinput> at the command line to obtain a root prompt, and then enter <userinput>update-manager -c -d</userinput>. This will allow you to upgrade to the current development release.</para>
 		</section>
 	</section>
 </chapter>
