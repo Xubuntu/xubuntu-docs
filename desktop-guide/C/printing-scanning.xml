@@ -116,7 +116,7 @@
 
 			<itemizedlist>
 				<listitem><para>Install the <literal>&package;libsane-extras</literal> package</para></listitem>
-				<listitem><para>Press <keycap>&key;Alt+F2</keycap>, type <userinput>gksudo mousepad /etc/sane.d/dll.conf</userinput> into the box and click <guibutton>Launch</guibutton> to open the SANE driver file for editing</para></listitem>
+				<listitem><para>Run <userinput>sudo -i</userinput> at the command line to obtain a root prompt, and then enter <userinput>mousepad /etc/sane.d/dll.conf</userinput> to open the SANE driver file for editing</para></listitem>
 				<listitem><para>Enable the correct driver for your scanner by removing the <literal>#</literal> from in front of the name of the driver. You may need to search the web to find out which driver is the right one.</para></listitem>
 				<listitem><para>Save the file and open <application>Simple Scan</application>. If all goes well, your scanner will now work. </para></listitem>
 			</itemizedlist>
