@@ -5,6 +5,12 @@ xubuntu-docs (14.04.0) UNRELEASED; urgency=low
 
   [ David Pires ]
   * Add <application> tags for NetworkManager (LP: #1238718)
+  * Use 'sudo -i' instead of 'gksudo' (LP: #1251332)
+  * Fix typos (LP: #1243946)
+
+  [ Unit 193 ]
+  * Fix typos
+  * Fix file permissions
 
  -- Pasi Lallinaho <pasi@shimmerproject.org>  Mon, 21 Oct 2013 00:38:46 +0300
 
