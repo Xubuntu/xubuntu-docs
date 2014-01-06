@@ -2962,8 +2962,8 @@ msgid ""
 "ndiswrapper\"/>."
 msgstr ""
 "<guilabel>CLAIMED</guilabel> indica que um controlador está carregado, mas "
-"não está a funcionar. Continue para <xref linkend=\"rede-resolução de "
-"problemas-ndiswrapper\"/>."
+"não está a funcionar. Continue para <xref linkend=\"network-troubleshooting-"
+"ndiswrapper\"/>."
 
 #: desktop-guide/C/internet-networks.xml:148(para)
 msgid ""
@@ -2971,7 +2971,7 @@ msgid ""
 "Continue to <xref linkend=\"network-troubleshooting-ndiswrapper\"/>."
 msgstr ""
 "<guilabel>UNCLAIMED</guilabel> indica que não existe um controlador "
-"carregado. Continue para <xref linkend=\"rede-resolução de problemas-"
+"carregado. Continue para <xref linkend=\"network-troubleshooting-"
 "ndiswrapper\"/>."
 
 #: desktop-guide/C/internet-networks.xml:149(para)
@@ -2981,8 +2981,8 @@ msgid ""
 "router\"/>."
 msgstr ""
 "<guilabel>ENABLED</guilabel> > indica que o controlador está instalado e a "
-"funcionar. Continuar para a seção <xref linkend=\"rede-resolução de "
-"problemas-router\"/>."
+"funcionar. Continuar para a seção <xref linkend=\"network-troubleshooting"
+"router\"/>."
 
 #: desktop-guide/C/internet-networks.xml:150(para)
 msgid ""
@@ -2990,7 +2990,7 @@ msgid ""
 "disabled. Continue to <xref linkend=\"network-troubleshoothing-wifi-on\"/>."
 msgstr ""
 "<guilabel>DISABLED</guilabel> indica que o controlador está instalado, mas "
-"desativado. Continuar para <xref linkend=\"rede-resolução de problemas-wifi-"
+"desativado. Continuar para <xref linkend=\"network-troubleshooting-wifi-"
 "on\"/>."
 
 #: desktop-guide/C/internet-networks.xml:155(title)
@@ -3104,7 +3104,7 @@ msgstr ""
 "Terminal</guimenuitem></menuchoice></application>) introduza o comando "
 "<userinput>ifconfig</userinput> e pressione <keycap><placeholder-"
 "2/>Enter</keycap>. Se houver um endereço IP exibido, continue para <xref "
-"linkend=\"rede-resolução de problemas-dns\"/>."
+"linkend=\"network-troubleshooting-dns\"/>."
 
 #: desktop-guide/C/internet-networks.xml:188(para)
 msgid ""
@@ -3125,8 +3125,8 @@ msgid ""
 "troubleshooting-dns\"/>"
 msgstr ""
 "Se receber uma mensagem que diz vinculado a "
-"<literal>xxx.xxx.xxx.xxx</literal> continue para <xref linkend=\"rede-"
-"resolução de problemas-dns\"/>"
+"<literal>xxx.xxx.xxx.xxx</literal> continue para <xref linkend=\"network-"
+"troubleshooting-dns\"/>"
 
 #: desktop-guide/C/internet-networks.xml:192(para)
 msgid "If not, reboot the system"
@@ -3178,8 +3178,8 @@ msgstr ""
 "Se não houver configurações de DNS listados, contate seu provedor de "
 "serviços de Internet (ISP), e descubra os seus servidores de nomes de "
 "domínio primário e secundário. Uma vez que tiver essa informação, continue "
-"para <xref linkend=\"rede-ligar-desligar\"/> e <xref linkend=\"rede-"
-"configuração\"/> se necessário."
+"para <xref linkend=\"rede-ligar-desligar\"/> e <xref linkend=\"network-"
+"configure\"/> se necessário."
 
 #: desktop-guide/C/internet-networks.xml:209(title)
 msgid "Connecting to servers"
