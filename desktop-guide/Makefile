@@ -9,13 +9,10 @@ html: style
 	xsltproc --xinclude -o ../build/desktop-guide/index.html $(XUBUNTUXSL) C/index.xml
 
 style:
-	mkdir -p ../build/desktop-guide/includes/
-	mkdir -p ../build/desktop-guide/includes/navig/	
-	mkdir -p ../build/desktop-guide/includes/admon/
-	
-	cp libs/*.css ../build/desktop-guide/includes/
-	cp -r libs/images/* ../build/desktop-guide/includes/
-	cp -r libs/admon/* ../build/desktop-guide/includes/admon/
-	cp -r libs/navig/* ../build/desktop-guide/includes/navig/
+	mkdir -p ../build/libs
+	cp -r libs/*css ../build/libs
+	cp -r libs/images ../build/libs
+	cp -r libs/admon ../build/libs
+	cp -r libs/navig ../build/libs
 
 .PHONY: html
