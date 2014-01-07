@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-22 15:02+0300\n"
+"POT-Creation-Date: 2014-01-06 16:57-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,19 +84,13 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/guide-keeping-safe.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/command-line.xml:0(None) desktop-guide/C/administrative-tasks.xml:0(None)
-msgid "@@image: 'includes/menu_icon.png'; md5=THIS FILE DOESN'T EXIST"
+msgid "@@image: '../libs/images/menu_icon.png'; md5=65599cdf4480dbc3d1bfa2154c0a255d"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/guide-default-apps.xml:0(None)
-msgid "@@image: 'includes/package_icon.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/guide-keeping-safe.xml:0(None) desktop-guide/C/guide-keeping-safe.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/command-line.xml:0(None)
-msgid "@@image: 'includes/key_icon.png'; md5=THIS FILE DOESN'T EXIST"
+msgid "@@image: '../libs/images/package_icon.png'; md5=15cff8b23f9cf506a7b7e8f98f1289ac"
 msgstr ""
 
 #: desktop-guide/C/printing-scanning.xml:12(title)
@@ -304,7 +298,7 @@ msgid "Install the <literal><placeholder-1/>libsane-extras</literal> package"
 msgstr ""
 
 #: desktop-guide/C/printing-scanning.xml:119(para)
-msgid "Press <keycap><placeholder-1/>Alt+F2</keycap>, type <userinput>gksudo mousepad /etc/sane.d/dll.conf</userinput> into the box and click <guibutton>Launch</guibutton> to open the SANE driver file for editing"
+msgid "Run <userinput>sudo -i</userinput> at the command line to obtain a root prompt, and then enter <userinput>mousepad /etc/sane.d/dll.conf</userinput> to open the SANE driver file for editing"
 msgstr ""
 
 #: desktop-guide/C/printing-scanning.xml:120(para)
@@ -384,7 +378,7 @@ msgid "This completes the first part to the process. You'll know now whether or 
 msgstr ""
 
 #: desktop-guide/C/offline-packages.xml:55(para)
-msgid "Clear the USB flash drive that you have used previously. In a fresh terminal window, navigate to the directory on the USB flash drive you intend to work from. Since we never want to lose the opportunity to refresh the disconnected machine's view of the repositories, we build the the command to not only look for upgrade packages but also to update repositories. You will want to enter: <userinput>apt-offline set --update --upgrade apt-offline.sig</userinput>"
+msgid "Clear the USB flash drive that you have used previously. In a fresh terminal window, navigate to the directory on the USB flash drive you intend to work from. Since we never want to lose the opportunity to refresh the disconnected machine's view of the repositories, we build the command to not only look for upgrade packages but also to update repositories. You will want to enter: <userinput>apt-offline set --update --upgrade apt-offline.sig</userinput>"
 msgstr ""
 
 #: desktop-guide/C/offline-packages.xml:57(para)
@@ -402,7 +396,7 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None)
-msgid "@@image: 'includes/location_icon.png'; md5=THIS FILE DOESN'T EXIST"
+msgid "@@image: '../libs/images/location_icon.png'; md5=71b7dc6dffc6d296d54a2fa354f2204f"
 msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:12(title)
@@ -562,7 +556,13 @@ msgid "Development releases often suffer from package breakages and other proble
 msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:80(para)
-msgid "If you would like to install and test the latest development version of Xubuntu before it is released, press <keycap><placeholder-1/>Alt+F2</keycap>, type <userinput>gksudo \"update-manager -c -d\"</userinput> into the box and press <guibutton>Run</guibutton>. This will allow you to upgrade to the current development release."
+msgid "If you would like to install and test the latest development version of Xubuntu before it is released, run <userinput>sudo -i</userinput> at the command line to obtain a root prompt, and then enter <userinput>update-manager -c -d</userinput>. This will allow you to upgrade to the current development release."
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/guide-keeping-safe.xml:0(None) desktop-guide/C/guide-keeping-safe.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/command-line.xml:0(None)
+msgid "@@image: '../libs/images/key_icon.png'; md5=e35650403dee999b00c36b8d9a4f8b8a"
 msgstr ""
 
 #: desktop-guide/C/media-apps.xml:12(title)
@@ -1374,7 +1374,7 @@ msgid "<guilabel>ENABLED</guilabel> indicates that the driver is installed and w
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:150(para)
-msgid "<guilabel>DISABLED</guilabel> indicates the the driver is installed, but disabled. Continue to <xref linkend=\"network-troubleshoothing-wifi-on\"/>."
+msgid "<guilabel>DISABLED</guilabel> indicates the driver is installed, but disabled. Continue to <xref linkend=\"network-troubleshoothing-wifi-on\"/>."
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:155(title)
@@ -1618,7 +1618,7 @@ msgid "In addition, this documentation has three quick guides:"
 msgstr ""
 
 #: desktop-guide/C/index.xml:74(para)
-msgid "The complete set of topics is listed below. If you require help with a topic or problem that is not addressed by the documentation, go to the the <ulink url=\"http://xubuntu.org/help/\">Help &amp; Support</ulink> page of the Xubuntu website. There you will find links to additional help resources."
+msgid "The complete set of topics is listed below. If you require help with a topic or problem that is not addressed by the documentation, go to the <ulink url=\"http://xubuntu.org/help/\">Help &amp; Support</ulink> page of the Xubuntu website. There you will find links to additional help resources."
 msgstr ""
 
 #: desktop-guide/C/index.xml:76(para)
@@ -2690,7 +2690,7 @@ msgid "When working on the command line, any command can be run as an administra
 msgstr ""
 
 #: desktop-guide/C/command-line.xml:30(para)
-msgid "If the program you wish to run as an administrator is graphical, such as the <application>Mousepad</application> text editor, you should use the command <userinput>gksudo</userinput> instead of <application>sudo</application>, even if you are running the application from the command line."
+msgid "If the program you wish to run as an administrator is graphical, such as the <application>Mousepad</application> text editor, you should obtain a root prompt before launching the desired program, running the command <userinput>sudo -i</userinput> for that effect, even if you are running the application from the command line."
 msgstr ""
 
 #: desktop-guide/C/command-line.xml:32(para)
