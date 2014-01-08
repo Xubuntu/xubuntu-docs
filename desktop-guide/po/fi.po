@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-01-07 15:51+0200\n"
-"PO-Revision-Date: 2014-01-07 17:22+0200\n"
+"PO-Revision-Date: 2014-01-08 20:41+0200\n"
 "Last-Translator: Pasi Lallinaho <pasi@digitoucan.fi>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -87,7 +87,7 @@ msgid ""
 "Shuttleworth."
 msgstr ""
 "Ubuntu-ytimen lisäksi Xubuntu käyttää infrastruktuuria, jonka Mark "
-"Shuttleworthing perustama yritys <ulink url=\"http://www.canonical.com/"
+"Shuttleworthin perustama yritys <ulink url=\"http://www.canonical.com/"
 "\">Canonical Ltd.</ulink> ystävällisesti tarjoaa ja sponsoroi."
 
 #: desktop-guide/C/what-is-xubuntu.xml:38(title)
@@ -340,7 +340,7 @@ msgstr ""
 "Jos tulostintasi ei tunnistettu automaattisesti, voit yrittää valita portin "
 "ja tulostinajurin manuaalisesti. Jotkin tulostimet vaativat lisäasennuksen. "
 "Voit selata <ulink url=\"http://www.linuxfoundation.org/collaborate/"
-"workgroups/openprinting\">OpenPrinting -tietokantaa</ulink> tai <ulink url="
+"workgroups/openprinting\">OpenPrinting-tietokantaa</ulink> tai <ulink url="
 "\"https://wiki.ubuntu.com/HardwareSupportComponentsPrinters\">Ubuntu Wikin "
 "tulostinsivua</ulink> saadaksesi lisätietoa tulostimestasi."
 
@@ -419,6 +419,7 @@ msgstr ""
 "Jos et tunne verkkotulostimesi protokollaa tai muita tarvittavia "
 "yksityiskohtia, ota yhteys verkkosi ylläpitäjään."
 
+# There is no such checkbox?
 #: desktop-guide/C/printing-scanning.xml:63(para)
 msgid ""
 "If you do not have a network printer, but want your printer to be shared to "
@@ -430,6 +431,15 @@ msgid ""
 "printers shared by other systems</guilabel> checked in the server settings "
 "dialog in order to access the printer."
 msgstr ""
+"Jos sinulla ei ole verkkotulostinta mutta haluat jakaa oman tulostimesi "
+"muille tietokoneille verkossasi, napsauta <menuchoice><guimenu>Palvelin</"
+"guimenu><guimenuitem>Asetukset</guimenuitem></menuchoice> "
+"<guilabel>Tulostimet</guilabel>-ikkunasta, valitse kohta <guilabel>Julkaise "
+"tähän järjestelmään kytketyt jaetut tulostimet</guilabel> and sitten paina "
+"<guibutton>OK</guibutton>. Muissa Linux/Ubuntu-pohjaisissa järjestelmissä "
+"tulee olla <guilabel>Näytä muiden järjestelmien jakamat tulostimet</"
+"guilabel> valittuna palvelinasetusikkunassa jotta ne voivat käyttää "
+"tulostinta."
 
 #: desktop-guide/C/printing-scanning.xml:68(title)
 msgid "Scanning"
@@ -587,6 +597,9 @@ msgid ""
 "prompt, and then enter <userinput>mousepad /etc/sane.d/dll.conf</userinput> "
 "to open the SANE driver file for editing"
 msgstr ""
+"Aja <userinput>sudo -i</userinput> komentorivillä päästäksesi ylläpitäjän "
+"kehotteeseen, sitten syötä <userinput>mousepad /etc/sane.d/dll.conf</"
+"userinput> avataksesi SANEn ajuritiedoston muokkaamista varten"
 
 #: desktop-guide/C/printing-scanning.xml:120(para)
 msgid ""
@@ -955,6 +968,13 @@ msgid ""
 "guimenu><guimenuitem>Open Location...</guimenuitem></menuchoice> and "
 "entering <userinput>smb://computername/sharename</userinput>."
 msgstr ""
+"<application><menuchoice><placeholder-1/><guisubmenu>Apuohjelmat</"
+"guisubmenu><guimenuitem>Tiedostonhallinta</guimenuitem></menuchoice></"
+"application>, jolla voit selata julkisesti jaettuja jakoja napsauttamalla "
+"<guilabel>Verkko</guilabel>-riviä sivupalkissa. Voit vaihtoehtoisesti selata "
+"etätiedostojärjestelmää menemällä valikkoon <menuchoice><guimenu>Siirry</"
+"guimenu><guimenuitem>Avaa sijainti...</guimenuitem></menuchoice> ja "
+"syöttämällä <userinput>smb://tietokoneennimi/jaonnimi</userinput>."
 
 #: desktop-guide/C/migrating-upgrading.xml:46(para)
 msgid ""
@@ -965,6 +985,12 @@ msgid ""
 "guilabel> from <guilabel>Service Type</guilabel>, then enter the remote "
 "share's details."
 msgstr ""
+"<application><menuchoice><placeholder-1/><guisubmenu>Järjestelmä</"
+"guisubmenu><guimenuitem>Gigolo</guimenuitem></menuchoice></application>, "
+"jonka avulla voit hallita etätiedostojärjestelmiä ja tallentaa niihin "
+"kirjanmerkkejä. Yhdistääksesi napsauta ensin työkalurivin painiketta. "
+"Valitse <guilabel>Windows-jako</guilabel> <guilabel>Palvelutyyppi</guilabel>-"
+"pudotusvalikosta ja syötä jaon muut tiedot."
 
 #: desktop-guide/C/migrating-upgrading.xml:49(para)
 msgid ""
@@ -1016,7 +1042,7 @@ msgid ""
 "and press <guibutton>Close</guibutton>"
 msgstr ""
 "Valitse <guilabel>Jokaisesta uudesta versiosta</guilabel> <guilabel>Ilmoita "
-"uudesta Ubuntu-versiosta</guilabel> -listasta, syötä salasanasi ja napsauta "
+"uudesta Ubuntu-versiosta</guilabel> -listalta, syötä salasanasi ja napsauta "
 "<guibutton>Sulje</guibutton>."
 
 #: desktop-guide/C/migrating-upgrading.xml:65(para)
@@ -1036,6 +1062,8 @@ msgid ""
 "If a new version of Xubuntu is available, a box at the top of the window "
 "will appear saying that a new distribution release is available."
 msgstr ""
+"Jos uusi versio Xubuntusta on saaatavilla, ikkunan yläosaan ilmestyy viesti "
+"joka kertoo uuden jakelupäivityksen olevan saatavilla."
 
 #: desktop-guide/C/migrating-upgrading.xml:67(para)
 msgid ""
@@ -1043,6 +1071,9 @@ msgid ""
 "the <guibutton>Upgrade</guibutton> button in <application>Software Updater</"
 "application>"
 msgstr ""
+"Päivittääksesi uusimpaan julkaisuun, tallenna kaikki työsi ja napsauta "
+"<guibutton>Päivitä</guibutton>-painiketta "
+"<application>Ohjelmistopäivitykset</application> -ohjelmassa."
 
 #: desktop-guide/C/migrating-upgrading.xml:70(para)
 msgid ""
@@ -1096,7 +1127,7 @@ msgid ""
 msgstr ""
 "Jos haluat asentaa ja testata viimeisintä Xubuntun kehittäjäversiota ennen "
 "kuin se on julkaistu, aja ensin <userinput>sudo -i</userinput> "
-"komentorivillä päästäksesi pääkäyttäjän kehotteeseen, ja sitten syötä "
+"komentorivillä päästäksesi ylläpitäjän kehotteeseen, ja sitten syötä "
 "<userinput>update-manager -c -d</userinput>. Tämä mahdollistaa uusimpaan "
 "kehittäjäversioon päivittämisen."
 
@@ -1133,6 +1164,12 @@ msgid ""
 "they are double-clicked, but <application>gmusicbrowser</application> is "
 "better at handling large music collections."
 msgstr ""
+"Voit käyttää <application>gmusicbrowser</application> ja <application>Parole "
+"Media Player</application> -sovelluksia kuunnellaksesi musiikkia "
+"tietokoneellasi. <application>Parole Media Player</application> voi avata "
+"musiikkitiedostoja kun kaksoisnapautat niitä, mutta "
+"<application>gmusicbrowser</application> on parempi käsittelemään laajempia "
+"kokoelmia."
 
 #: desktop-guide/C/media-apps.xml:22(para)
 msgid ""
@@ -1140,6 +1177,10 @@ msgid ""
 "install some additional software. Unfortunately, this software cannot be "
 "provided by default in Xubuntu due to legal restrictions in some countries."
 msgstr ""
+"Jotta voisit toistaa joitain suosittuja tiedostomuotoja kuten MP3, sinun "
+"täytyy asentaa joitain ylimääräisiä ohjelmistopaketteja. Näitä ohjelmistoja "
+"ei valitettavasti voida toimittaa oletuksena Xubuntussa joidenkin maiden "
+"laillisten rajoitusten takia."
 
 #: desktop-guide/C/media-apps.xml:24(para)
 #: desktop-guide/C/media-apps.xml:71(para)
@@ -1148,6 +1189,9 @@ msgid ""
 "the instructions below. There are some legal issues that you should be aware "
 "of."
 msgstr ""
+"Lue <xref linkend=\"software-repositories-restricted\"/> ennen kuin jatkat "
+"alla olevien ohjeiden seuraamista, sillä ohjelmistojen asentamiseen liittyy "
+"tiettyjä lainopillisia kysymyksiä jotka sinun on hyvä tiedostaa."
 
 #: desktop-guide/C/media-apps.xml:26(para)
 msgid ""
@@ -1155,6 +1199,9 @@ msgid ""
 "install the <literal><placeholder-1/>gstreamer0.10-plugins-ugly</literal> "
 "package."
 msgstr ""
+"Jotta voit toistaa MP3-tiedostoja <application>gmusicbrowser</application>-"
+"sovelluksessa, asenna paketti <literal><placeholder-1/>gstreamer0.10-plugins-"
+"ugly</literal>."
 
 #: desktop-guide/C/media-apps.xml:28(para)
 msgid ""
@@ -1163,6 +1210,9 @@ msgid ""
 "<application>gmusicbrowser</application> to your music files by doing the "
 "following:"
 msgstr ""
+"Aluksi, <application>gmusicbrowser</application> ei automaattisesti etsi "
+"musiikkitiedostoja tietokoneeltasi ja joudut manuaalisesti osoittamaan sen "
+"musiikkitiedostoihisi toimimalla seuraavasti:"
 
 #: desktop-guide/C/media-apps.xml:31(para)
 msgid ""
@@ -1170,18 +1220,25 @@ msgid ""
 "guisubmenu><guimenuitem>gmusicbrowser</guimenuitem></menuchoice></"
 "application>"
 msgstr ""
+"Avaa <application><menuchoice><placeholder-1/><guisubmenu>Ääni ja video</"
+"guisubmenu><guimenuitem>gmusicbrowser</guimenuitem></menuchoice></"
+"application>"
 
 #: desktop-guide/C/media-apps.xml:32(para)
 msgid ""
 "Open the menu (a gear at the top right) and click "
 "<menuchoice><guimenuitem>Settings</guimenuitem></menuchoice>"
 msgstr ""
+"Avaa valikko (ratas oikeassa yläkulmassa) ja napsauta "
+"<menuchoice><guimenuitem>Asetukset</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/media-apps.xml:33(para)
 msgid ""
 "In the <guilabel>Settings</guilabel> dialog, go to the <guilabel>Library</"
 "guilabel> tab"
 msgstr ""
+"<guilabel>Asetukset</guilabel>-ikkunassa, siirry <guilabel>Kirjasto</"
+"guilabel>-välilehdelle"
 
 #: desktop-guide/C/media-apps.xml:34(para)
 msgid ""
@@ -1189,12 +1246,17 @@ msgid ""
 "contains your music files and press <guibutton>OK</guibutton>; your "
 "selection will now appear in the <guilabel>Settings</guilabel> dialog"
 msgstr ""
+"Napsauta <guibutton>Lisää kansio</guibutton> ja valistse hakemisto joka "
+"sisältää musiikkitiedostosi ja paina <guibutton>OK</guibutton>; valintasi "
+"näkyy nyt <guilabel>Asetukset</guilabel>-ikkunassa"
 
 #: desktop-guide/C/media-apps.xml:35(para)
 msgid ""
 "If you wish to add other locations of music files repeat the previous step, "
 "or otherwise, press <guibutton>Close</guibutton>"
 msgstr ""
+"Jos haluat lisätä muita sijainteja joissa sinulla on musiikkitiedostoja, "
+"toista edellinen kohta. Muussa tapauksessa paina <guibutton>Sulje</guibutton>"
 
 #: desktop-guide/C/media-apps.xml:36(para)
 msgid ""
@@ -1203,11 +1265,18 @@ msgid ""
 "have to change views (to the left of the search) or restart "
 "<application>gmusicbrowser</application> to see your library."
 msgstr ""
+"<application>gmusicbrowser</application> alkaa tutkimaan kirjastoasi. Kun "
+"<guilabel>Tutkitaan</guilabel>-palkki katoaa, voit haluta vaihtaa näytön "
+"asetteluja (haun vasemmalla puolella) tai käynnistää "
+"<application>gmusicbrowser</application> -sovelluksen uudelleen nähdäksesi "
+"kirjastosi."
 
 #: desktop-guide/C/media-apps.xml:41(title)
 msgid ""
 "I see wrong metadata (song names, covers) for my tracks in gmusicbrowser"
 msgstr ""
+"Näen vääriä metatietoja (kappaleiden nimet, albumien kannet) kappaleilleni "
+"gmusicbrowserissa"
 
 #: desktop-guide/C/media-apps.xml:43(para)
 msgid ""
@@ -1219,6 +1288,13 @@ msgid ""
 "service, but the defaults often work well. Select an image and save it to "
 "the album directory."
 msgstr ""
+"Jotkin musiikkisoittimet hakevat tietoja kuten albumien kansia internetistä "
+"automaattisesti. <application>gmusicbrowser</application> etsii albumien "
+"kansia vain kun pyydät. Napsauta albumin kantta hiiren oikealla painikkeella "
+"ja valitse <menuchoice><guimenuitem>Etsi kuvaa internetistä</guimenuitem></"
+"menuchoice>. Voit halutessasi vaihtaa haun nimikettä tai palvelua, mutta "
+"oletusarvot toimivat useimmiten hyvin. Valitse kuva ja tallenna se albumin "
+"hakemistoon."
 
 #: desktop-guide/C/media-apps.xml:45(para)
 msgid ""
@@ -1229,6 +1305,11 @@ msgid ""
 "<menuchoice><guimenuitem>Song Properties</guimenuitem></menuchoice> and "
 "entering the appropriate information in the corresponding fields."
 msgstr ""
+"Joskus musiikkisoittimesi voi olla mahdotonta tunnistaa tiettyä kappaletta "
+"tai albumia oikein. Tällaisessa tapauksessa voit syöttää oikean tiedon "
+"manuaalisesti napsauttamalla musiikkitiedostoa hiiren oikealla painikkeella, "
+"valitsemalla <menuchoice><guimenuitem>Kappeleen ominaisuudet</guimenuitem></"
+"menuchoice> ja syöttämällä oikeat tiedot kyseisiin kenttiin."
 
 #: desktop-guide/C/media-apps.xml:47(para)
 msgid ""
@@ -1239,6 +1320,12 @@ msgid ""
 "or right-click and select <menuchoice><guimenuitem>Set Picture</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Jos etsit kuvan mieluummin itse, etsi albumin kansi internetistä (tai muista "
+"lähteistä) ja tallenna kuva nimellä <filename>cover.jpg</filename> albumin "
+"hakemistoon. Vaihtoehtoisesti voit vetää ja pudottaa albumin kannen sille "
+"varattuun paikkaan <application>gmusicbrowser</application>-sovelluksessa "
+"tai napsauttaa varattua paikkaa hiiren oikealla painikkeella ja valita "
+"<menuchoice><guimenuitem>Aseta kuva</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/media-apps.xml:51(title)
 msgid "Portable music players"
@@ -1367,9 +1454,9 @@ msgid ""
 "plugin by following the wizard. Afterwards, you may need to restart "
 "<application>Parole Media Player</application>."
 msgstr ""
-"<application>Parole Media Player</application> tukee useimpia "
-"videoformaatteja. Jos yrität toistaa videotiedostoa joka ei ole tuettu, "
-"<application>Parole Media Player</application> saattaa huomauttaa "
+"<application>Parole Media Player</application> tukee useimpia videoiden "
+"tiedostomuotoja. Jos yrität toistaa videon tiedostomuotoa joka ei ole "
+"tuettu, <application>Parole Media Player</application> saattaa huomauttaa "
 "puuttuvasta lisäosasta. Voit tämän jälkeen asentaa puuttuvan lisäosan "
 "seuraamalla asennusvelhoa. Tämän jälkeen voit joutua käynnistämään "
 "sovelluksen uudelleen."
@@ -1386,12 +1473,12 @@ msgstr ""
 "<application>Parole Media Player</application> tukee useimpien videoiden "
 "suoratoistoa. Avataksesi videon <application>Parole Media Player</"
 "application> -sovelluksessa, napsauta videota hiiren oikealla painikkeella "
-"ja valitse <menuchoice>Avaa sovelluksessa \"Parole Meida Player"
+"ja valitse <menuchoice>Avaa sovelluksessa \"Parole Media Player"
 "\"<guimenuitem></guimenuitem></menuchoice>."
 
 #: desktop-guide/C/media-apps.xml:91(title)
 msgid "Restricted formats"
-msgstr "Rajoitetut formaatit"
+msgstr "Rajoitetut tiedostomuodot"
 
 #: desktop-guide/C/media-apps.xml:93(para)
 msgid ""
@@ -1399,10 +1486,10 @@ msgid ""
 "are proprietary and so support for them cannot be included in Xubuntu by "
 "default. You must install some extra software to allow playback."
 msgstr ""
-"Jotkin videoformaatit, kuten Adobe Flash, QuickTime and Windows Media Video, "
-"ovat suojattuja ja niitä ei voida toimittaa Xubuntu-järjestelmissä "
-"oletuksena. Sinun täytyy asentaa ylimääräisiä ohjelmistoja mahdollistaaksesi "
-"näitä formaatteja käyttävien videoiden toistamisen."
+"Jotkin videoiden tiedostomuodot, kuten Adobe Flash, QuickTime and Windows "
+"Media Video, ovat suojattuja ja niitä ei voida toimittaa Xubuntu-"
+"järjestelmissä oletuksena. Sinun täytyy asentaa ylimääräisiä ohjelmistoja "
+"mahdollistaaksesi näitä tiedostomuotoja käyttävien videoiden toistamisen."
 
 #: desktop-guide/C/media-apps.xml:95(para)
 msgid ""
@@ -1412,9 +1499,9 @@ msgid ""
 "(see <xref linkend=\"software-repositories-restricted\"/> for more "
 "information)."
 msgstr ""
-"Jotta voisit toistaa mediatiedostoja yleisimmissä rajoitetuissa formaateissa "
-"<application>Parole Media Player</application> -sovelluksessa tai "
-"<application>Firefoxissa</application>, asenna paketti "
+"Jotta voisit toistaa mediatiedostojen yleisimpiä rajoitetuissa "
+"tiedostomuotoja <application>Parole Media Player</application> -"
+"sovelluksessa tai <application>Firefoxissa</application>, asenna paketti "
 "<literal><placeholder-1/>xubuntu-restricted-extras</literal> (katso <xref "
 "linkend=\"software-repositories-restricted\"/> saadaksesi lisätietoja)."
 
@@ -1450,40 +1537,53 @@ msgid ""
 "Click on <guibutton>Import</guibutton>. You should then see a preview of the "
 "photos."
 msgstr ""
+"Napsauta <guibutton>Tuo</guibutton>. Sinun tulisi tämän jälkeen nähdä "
+"esikatselu valokuvista."
 
 #: desktop-guide/C/media-apps.xml:111(para)
 msgid ""
 "Choose a location to save your photos to, then click on <guibutton>Import</"
 "guibutton>. The photos will be saved to your hard drive."
 msgstr ""
+"Valitse sijainti johon haluat tallentaa valokuvasi ja napsauta "
+"<guibutton>Tuo</guibutton>. Valokuvat tallennetaan kovalevyllesi."
 
 #: desktop-guide/C/media-apps.xml:114(para)
 msgid ""
 "If Xubuntu does not ask you to import the photos, you can do so using "
 "<application>gThumb</application>."
 msgstr ""
+"Jos Xubuntu ei kysy haluatko tuoda kuvasi, voit tuoda kuvat manuaalisesti "
+"<application>gThumb</application>-sovelluksella."
 
 #: desktop-guide/C/media-apps.xml:117(para)
 msgid ""
 "Go to <application><menuchoice><placeholder-1/><guisubmenu>Graphics</"
 "guisubmenu><guimenuitem>gThumb</guimenuitem></menuchoice></application>"
 msgstr ""
+"Mene valikkoon <application><menuchoice><placeholder-1/"
+"><guisubmenu>Grafiikka</guisubmenu><guimenuitem>gThumb</guimenuitem></"
+"menuchoice></application>"
 
 #: desktop-guide/C/media-apps.xml:118(para)
 msgid ""
 "Click <menuchoice><guimenu>File</guimenu><guisubmenu>Import From</"
 "guisubmenu><guimenuitem>Removable Device...</guimenuitem></menuchoice>"
 msgstr ""
+"Napsauta <menuchoice><guimenu>Tiedosto</guimenu><guisubmenu>Tuo...</"
+"guisubmenu><guimenuitem>Liitetty laite...</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/media-apps.xml:119(para)
 msgid "Select your camera from <guilabel>Source</guilabel>"
-msgstr ""
+msgstr "Valitse kamerasi <guilabel>Lähde:</guilabel>-pudotusvalikosta"
 
 #: desktop-guide/C/media-apps.xml:120(para)
 msgid ""
 "You can optionally change <guilabel>Show:</guilabel> to <guilabel>Images</"
 "guilabel> to display only your photos"
 msgstr ""
+"Voit valitessasi vaihtaa <guilabel>Näytä:</guilabel>-pudotusvalikon "
+"valinnaksi <guilabel>Kuvat</guilabel> nähdäksesi vain valokuvasi"
 
 #: desktop-guide/C/media-apps.xml:121(para)
 msgid ""
@@ -1491,16 +1591,22 @@ msgid ""
 "and clicking on the desired images or clicking <keycap><placeholder-2/>Ctrl"
 "+A</keycap> to select all photos"
 msgstr ""
+"Valitse valokuvat jotka haluat tuoda pitämällä näppäintä "
+"<keycap><placeholder-1/>Ctrl</keycap> pohjassa ja napsauttamalla "
+"valitsemiasi kuvia tai napsauta <keycap><placeholder-2/>Ctrl+A</keycap> "
+"valitaksesi kaikki valokuvat"
 
 #: desktop-guide/C/media-apps.xml:122(para)
 msgid ""
 "Change the <guilabel>Destination</guilabel>, <guilabel>Event</guilabel>, and "
 "<guilabel>Tags</guilabel> fields as you please"
 msgstr ""
+"Vaihda <guilabel>Kohdekansio</guilabel>, <guilabel>Tapahtuma</guilabel> ja "
+"<guilabel>Tunnisteet</guilabel> -kenttiä mielesi mukaan"
 
 #: desktop-guide/C/media-apps.xml:123(para)
 msgid "Click <guibutton>Import</guibutton>"
-msgstr ""
+msgstr "Napsauta <guibutton>Tuo</guibutton>"
 
 #: desktop-guide/C/media-apps.xml:128(title)
 msgid "Organizing your photo collection"
@@ -1520,6 +1626,16 @@ msgid ""
 "<menuchoice><guimenu>Help</guimenu><guimenuitem>Contents</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"<application>gThumb</application> tarjoaa täysvaltaisen ratkaisun "
+"valokuvakokoelmasi hallitsemiseen. Käynnistääksesi sen, mene valikkoon "
+"<application><menuchoice><placeholder-1/><guisubmenu>Grafiikka</"
+"guisubmenu><guimenuitem>gThumb</guimenuitem></menuchoice></application>. "
+"Voit tuoda kuvia kamerastasi tai USB-laitteelta, lisätä niille tunnisteita, "
+"parannella ja muokata niitä erilaisin tavoin. Lisäksi voit lähettää "
+"valokuvia helposti verkossa sijaitseviin valokuvapalveluihin kuten Flickr ja "
+"PicasaWeb album. Lisätietoja ja ohjeita <application>gThumb</application>-"
+"sovellukselle löydät menemällä valikkoon <menuchoice><guimenu>Ohje</"
+"guimenu><guimenuitem>Sisältö</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/media-apps.xml:134(title)
 msgid "Watch a slideshow of photos"
@@ -1530,12 +1646,16 @@ msgid ""
 "If you want to show off your photos in all of their glory, why not run a "
 "slideshow of them?"
 msgstr ""
+"Jos haluat näyttää valokuvasi kaikessa kunniassaan, mikset näyttäisi "
+"diaesitystä niistä?"
 
 #: desktop-guide/C/media-apps.xml:139(para)
 msgid ""
 "Open <application><menuchoice><placeholder-1/><guisubmenu>Graphics</"
 "guisubmenu><guimenuitem>gThumb</guimenuitem></menuchoice></application>"
 msgstr ""
+"Avaa <application><menuchoice><placeholder-1/><guisubmenu>Grafiikka</"
+"guisubmenu><guimenuitem>gThumb</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/media-apps.xml:140(para)
 msgid "Select the directory of photos to view"
@@ -1546,6 +1666,8 @@ msgid ""
 "Click <menuchoice><guimenu>View</guimenu><guimenuitem>Slideshow</"
 "guimenuitem></menuchoice>"
 msgstr ""
+"Napsauta <menuchoice><guimenu>Näytä</guimenu><guimenuitem>Diaesitys</"
+"guimenuitem></menuchoice>"
 
 #: desktop-guide/C/media-apps.xml:146(title)
 msgid "Printing photos"
@@ -1562,12 +1684,16 @@ msgstr ""
 #: desktop-guide/C/media-apps.xml:151(para)
 msgid "Open the photo you want to print in <application>gThumb</application>"
 msgstr ""
+"Avaa valokuva jonka haluat tulostaa <application>gThumb</application>-"
+"sovelluksessa"
 
 #: desktop-guide/C/media-apps.xml:152(para)
 msgid ""
 "Click <menuchoice><guimenu>File</guimenu><guimenuitem>Print</guimenuitem></"
 "menuchoice>"
 msgstr ""
+"Napsauta <menuchoice><guimenu>Tiedosto</guimenu><guimenuitem>Tulosta</"
+"guimenuitem></menuchoice>"
 
 #: desktop-guide/C/media-apps.xml:153(para)
 msgid "Select the desired printer"
@@ -1583,7 +1709,7 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:155(para)
 msgid "When ready, click the <guibutton>Print</guibutton> button"
-msgstr ""
+msgstr "Kun olet valmis, napsauta <guibutton>Tulosta</guibutton>-painiketta"
 
 #: desktop-guide/C/media-apps.xml:160(title)
 msgid "Editing and improving photos"
@@ -1597,6 +1723,12 @@ msgid ""
 "(a palette) on the toolbar and then click on one of the tools at the right "
 "of the screen."
 msgstr ""
+"Joskus sinun täytyy muokata tai kohentaa valokuvaa jotta se näyttäisi "
+"paremmalta tai jotta saisit poistettua jonkin vian. <application>gThumb</"
+"application> sisältää muutamia perustyökaluja tämän tekemiseen. Käyttääksesi "
+"näitä työkaluja, napsauta tiedostonmuokkauspainiketta (paletti) "
+"työkalupalkissa ja sitten napsauta jotain työkaluista ruudun oikeassa "
+"laidassa."
 
 #: desktop-guide/C/media-apps.xml:164(para)
 msgid ""
@@ -1609,12 +1741,16 @@ msgstr ""
 #: desktop-guide/C/media-apps.xml:167(para)
 msgid "Open the photo you want to resize in <application>gThumb</application>"
 msgstr ""
+"Avaa valokuva jonka kokoa haluat muuttaa <application>gThumb</application>-"
+"sovelluksessa"
 
 #: desktop-guide/C/media-apps.xml:168(para)
 msgid ""
 "On the toolbar, click <menuchoice><guimenu>Tools</"
 "guimenu><guimenuitem>Resize Images</guimenuitem></menuchoice>"
 msgstr ""
+"Napsauta <menuchoice><guimenu>Työkalut</guimenu><guimenuitem>Muuta kuvien "
+"kokoa...</guimenuitem></menuchoice> työkalupalkista"
 
 #: desktop-guide/C/media-apps.xml:169(para)
 msgid ""
@@ -1623,20 +1759,26 @@ msgid ""
 "width and height independently, uncheck the <guilabel>Preserve original "
 "aspect ratios</guilabel> box."
 msgstr ""
+"Muuta <guilabel>Leveys</guilabel> ja <guilabel>Korkeus</guilabel> -kenttiä "
+"tarpeesi mukaisesti. Kuvasuhde säilytetään. Jos haluat muuttaa leveyttä ja "
+"korkeutta erikseen, poista valinta kohdasta <guilabel>Säilytä alkuperäinen "
+"kuvasuhde</guilabel>."
 
 #: desktop-guide/C/media-apps.xml:170(para)
 msgid "Change the <guilabel>Format</guilabel> if you wish"
-msgstr ""
+msgstr "Vaihda <guilabel>Muoto</guilabel>-valintaa mikäli haluat"
 
 #: desktop-guide/C/media-apps.xml:171(para)
 msgid "Click <guibutton>Execute</guibutton> to resize the photo"
-msgstr ""
+msgstr "Napsauta <guibutton>Suorita</guibutton> muuttaaksesi valokuvan koon"
 
 #: desktop-guide/C/media-apps.xml:172(para)
 msgid ""
 "Choose the option for saving the file - you can choose to overwrite or not "
 "the old file"
 msgstr ""
+"Valitse miten haluat tallentaa tiedoston – voit valita korvataanko vanha "
+"tiedosto vai ei"
 
 #: desktop-guide/C/media-apps.xml:173(para)
 msgid "Click <guibutton>OK</guibutton> to save the resized photo"
@@ -1732,7 +1874,7 @@ msgstr ""
 #: desktop-guide/C/managing-applications.xml:23(para)
 msgid "You will need administrative access to add and remove software."
 msgstr ""
-"Tarvitset pääkäyttäjän käyttöoikeudet lisätäksesi ja poistaaksesi "
+"Tarvitset ylläpitäjän käyttöoikeudet lisätäksesi ja poistaaksesi "
 "ohjelmistoja."
 
 #: desktop-guide/C/managing-applications.xml:25(para)
@@ -1896,6 +2038,8 @@ msgid ""
 "You will be notified that the information about available software is out-of-"
 "date. Press <guibutton>Reload</guibutton>."
 msgstr ""
+"Saat viestin että tiedot saatavilla olevista ohjelmista ovat vanhentuneita. "
+"Paina <guibutton>Lataa uudelleen</guibutton>."
 
 #: desktop-guide/C/managing-applications.xml:73(para)
 msgid ""
@@ -1908,6 +2052,14 @@ msgid ""
 "guilabel> tab, clicking on <guibutton>Import Key File</guibutton>, and then "
 "selecting the GPG key to be imported."
 msgstr ""
+"Useimmat pakettivarastot käyttävät GPG-avainta allekirjoittaakseen "
+"digitaalisesti toimittamansa tiedostot, minkä takia on helppoa varmistaa "
+"että tiedostoihin ei ole koskettu sen jälkeen kun ne on luotu. Jotta apt voi "
+"tarkistaa tämän, allekirjoituksia vastaavan julkisen avaimen, jonka tulisi "
+"olla saatavilla pakettivaraston verkkosivustolla. Kun olet ladannut GPG-"
+"avaimen, tuo avain valitsemalla <guilabel>Varmennus</guilabel>-välilehti, "
+"napsauttamalla <guibutton>Tuo avaintiedosto...</guibutton> -painiketta ja "
+"valitsemalla juuri lataamasi GPG-avaimen."
 
 #: desktop-guide/C/managing-applications.xml:76(para)
 msgid ""
@@ -1962,8 +2114,8 @@ msgid ""
 msgstr ""
 "Joissain tapauksissa rajoitetut ohjelmistot ovat ainoa vaihtoehto. Kyseisiä "
 "tapauksia sisältävät esimerkiksi ohjelmistot tiettyjen ääni- ja "
-"videoformaattien toistamiseen, jotkin kirjasimet sekä tietyt näytönohjainten "
-"ajurit."
+"videotiedostomuotojen toistamiseen, jotkin kirjasimet sekä tietyt "
+"näytönohjainten ajurit."
 
 #: desktop-guide/C/managing-applications.xml:90(para)
 msgid ""
@@ -1993,10 +2145,16 @@ msgid ""
 "determine why a package is restricted, err on the side of caution and do not "
 "install it; it may be illegal to use it in your country."
 msgstr ""
+"Joskus voi olla vaikeaa päätellä miksi tietty ohjelmistopaketti on "
+"rajoitettu. Tässä tapauksessa voit hakea apua <ulink url=\"http://"
+"ubuntuforums.org/\">Ubuntu Forums</ulink> -sivustolta. Jos et tämänkään "
+"jälkeen kykene päättelemään miksi paketti on rajoitettu, suosittelemme "
+"pysymään varovaisena ja olemaan asentamatta pakettia; sen käyttäminen voi "
+"olla laitonta maassasi."
 
 #: desktop-guide/C/managing-applications.xml:97(title)
 msgid "Installing packages without an Internet connection"
-msgstr ""
+msgstr "Pakettien asentaminen ilman Internet-yhteyttä"
 
 #: desktop-guide/C/managing-applications.xml:100(title)
 msgid "Adding discs as software sources"
@@ -2098,7 +2256,7 @@ msgid ""
 "security flaws are made available through this source. It is recommended "
 "that all users leave this source enabled (it should be enabled by default)."
 msgstr ""
-"<guilabel>Tärkeät turvallisuuspäivitykset</guilabel> - Päivitykset jotka "
+"<guilabel>Tärkeät turvallisuuspäivitykset</guilabel> – Päivitykset jotka "
 "korjaavat vakavia tietoturvavikoja ovat saatavilla tästä lähteestä. On "
 "suositeltavaa että kaikki käyttäjät pitävät tämän lähteen käytössä (sen "
 "pitäisi olla kytkettynä päälle oletuksena)."
@@ -2110,7 +2268,7 @@ msgid ""
 "source. Most users will want to leave this source enabled as common and "
 "annoying problems are often fixed with these updates."
 msgstr ""
-"<guilabel>Suositellut päivitykset</guilabel> - Päivitykset jotka korjaavat "
+"<guilabel>Suositellut päivitykset</guilabel> – Päivitykset jotka korjaavat "
 "vakavia ohjelmistovikoja (jotka eivät ole tietoturvavikoja) ovat saatavilla "
 "tästä lähteestä. Useimmat käyttäjät haluavat pitää tämän lähteen käytössä "
 "sillä nämä päivitykset korjaavat usein yleisimpiä ja ärsyttävimpiä ongelmia."
@@ -2128,7 +2286,7 @@ msgid ""
 "not yet be well tested; it is not recommended that you enable this source "
 "unless you are prepared to experience occasional problems."
 msgstr ""
-"<guilabel>Esijulkaistut päivitykset</guilabel> - Päivitykset joita testataan "
+"<guilabel>Esijulkaistut päivitykset</guilabel> – Päivitykset joita testataan "
 "ennen kuin ne julkaistaan kaikille ovat saatavilla tästä lähteestä. Jos "
 "haluat auttaa kokeilemaan uusia päivityksiä (ja saada ratkaisuja "
 "ongelmatilanteisiin nopeammin), kytke tämä lähde päälle. Tiedosta että nämä "
@@ -2163,15 +2321,15 @@ msgid ""
 "the way you wish future versions to be given to you. You have three options:"
 msgstr ""
 "Tämä <application>Ohjelmistot ja päivitykset</application> -sovelluksen osio "
-"käsittelee sitä kuinka toivot, että uusia versioita suositellaan sinulle. "
-"Sinulla on kolme vaihtoehtoa:"
+"käsittelee sitä kuinka toivot uusia versioita sinulle suositeltavan. Sinulla "
+"on kolme vaihtoehtoa:"
 
 #: desktop-guide/C/managing-applications.xml:149(para)
 msgid ""
 "<guilabel>For any new version</guilabel> - You will get notifications of all "
 "new releases, once in 6 months"
 msgstr ""
-"<guilabel>Jokaisesta uudesta versiosta</guilabel> - Saat ilmoituksen "
+"<guilabel>Jokaisesta uudesta versiosta</guilabel> – Saat ilmoituksen "
 "jokaisesta uudesta julkaisusta, kerran kuudessa kuukaudessa"
 
 #: desktop-guide/C/managing-applications.xml:150(para)
@@ -2180,7 +2338,7 @@ msgid ""
 "notifications of new Long-term Support (LTS) releases, once in 2 years - "
 "recommended if you need maximum stability"
 msgstr ""
-"<guilabel>Vain pitkäaikaistuen versioista</guilabel> - Saat ilmoituksen vain "
+"<guilabel>Vain pitkäaikaistuen versioista</guilabel> – Saat ilmoituksen vain "
 "uusista pitkäaikaistuen (LTS) julkaisuista, kerran kahdessa vuodessa - "
 "suositeltava jos tarvitset mahdollisimman vakaan järjestelmän"
 
@@ -2188,7 +2346,7 @@ msgstr ""
 msgid ""
 "<guilabel>Never</guilabel> - You will not get notifications of new releases"
 msgstr ""
-"<guilabel>Ei koskaan</guilabel> - Et saa ilmoituksia uusista julkaisuista"
+"<guilabel>Ei koskaan</guilabel> – Et saa ilmoituksia uusista julkaisuista"
 
 #: desktop-guide/C/managing-applications.xml:156(title)
 msgid "Other options"
@@ -2903,7 +3061,7 @@ msgstr ""
 
 #: desktop-guide/C/index.xml:68(para)
 msgid "In addition, this documentation has three quick guides:"
-msgstr "Tämän lisäksi tämä dokumentaatio sisältää kolme pikaopasta:"
+msgstr "Lisäksi tämä dokumentaatio sisältää kolme pikaopasta:"
 
 #: desktop-guide/C/index.xml:74(para)
 msgid ""
@@ -3027,7 +3185,7 @@ msgid ""
 msgstr ""
 "Jos mitään rajoitettuja ajureita on saatavilla laitteistollesi ovat ne "
 "asennettavissa <application>Ohjelmistot ja päivitykset</application> -"
-"sovelluksesta:"
+"ikkunasta:"
 
 #: desktop-guide/C/hardware-devices.xml:41(para)
 #: desktop-guide/C/hardware-devices.xml:54(para)
@@ -3059,7 +3217,7 @@ msgstr ""
 #: desktop-guide/C/hardware-devices.xml:43(para)
 msgid ""
 "You will, if necessary, be prompted to enter the administration password."
-msgstr "Sinut voidaan tarvittaessa pyytää syöttämään pääkäyttäjän salasana."
+msgstr "Sinut voidaan tarvittaessa pyytää syöttämään ylläpitäjän salasana."
 
 #: desktop-guide/C/hardware-devices.xml:44(para)
 msgid "You may be prompted to reboot to finish installation."
@@ -3115,9 +3273,9 @@ msgid ""
 "<application>Thunar File Manager</application>. There are several ways to do "
 "this:"
 msgstr ""
-"Yksinkertainen tapa tarkistaa vapaana oleva levytila on <application>Thunar -"
-"tiedostonhallinnan</application> käynnistäminen. Voit tehdä tämän usealla "
-"eri tavalla:"
+"Yksinkertainen tapa tarkistaa vapaana oleva levytila on <application>Thunar</"
+"application>-tiedostonhallinnan käynnistäminen. Voit tehdä tämän usealla eri "
+"tavalla:"
 
 #: desktop-guide/C/hardware-devices.xml:73(para)
 msgid ""
@@ -3207,18 +3365,29 @@ msgid ""
 "guimenuitem><guimenuitem>GParted</guimenuitem></menuchoice></application> to "
 "start the partition editor."
 msgstr ""
+"Voit käyttää <application>GParted (GNOME Partition Editor)</application> -"
+"sovellusta osioidaksesi tallennuslaitteita. Asenna <application>GParted</"
+"application> <application>Ubuntun sovellusvalikoima</application> -"
+"sovelluksesta ja sitten mene valikkoon "
+"<application><menuchoice><placeholder-1/><guimenuitem>Asetukset</"
+"guimenuitem><guimenuitem>GParted</guimenuitem></menuchoice></application> "
+"käynnistääkesi osionhallinnan."
 
 #: desktop-guide/C/hardware-devices.xml:100(para)
 msgid ""
 "Be careful when altering disk partitions, as it is possible to lose your "
 "data if you delete or change the wrong partition."
 msgstr ""
+"Ole varovainen kun muokkaat levyjen osioita. On mahdollista että menetät "
+"tietoja jos poistat väärän osion tai muutat sitä."
 
 #: desktop-guide/C/hardware-devices.xml:102(para)
 msgid ""
 "If it is necessary to unmount the installed system to proceed with changes "
 "you wish to make, you will have to work from a live CD/USB to do so."
 msgstr ""
+"Jos sinun täytyy irrottaa asennetun järjestelmän osioita, sinun täytyy "
+"työskennellä live-CD/USB-tilassa tehdäksesi niin."
 
 #: desktop-guide/C/hardware-devices.xml:105(title)
 msgid "Freeing space for a new partition"
@@ -3360,13 +3529,15 @@ msgstr "Kannettavat tietokoneet"
 
 #: desktop-guide/C/hardware-devices.xml:162(title)
 msgid "Power management settings"
-msgstr ""
+msgstr "Virrankäyttöasetukset"
 
 #: desktop-guide/C/hardware-devices.xml:164(para)
 msgid ""
 "You may wish to change the power management settings of your laptop in order "
 "to help extend its battery life and save energy."
 msgstr ""
+"Voi haluta vaihtaa kannettavan tietokoneesi virransäästöasetuksia "
+"lisätäksesi sen akun käyttöikää ja säästääksesi energiaa."
 
 #: desktop-guide/C/hardware-devices.xml:167(para)
 msgid ""
@@ -3374,15 +3545,18 @@ msgid ""
 "Manager</guimenuitem><guimenuitem>Power Manager</guimenuitem></menuchoice></"
 "application>"
 msgstr ""
+"Mene valikkoon <application><menuchoice><placeholder-1/"
+"><guimenuitem>Asetukset</guimenuitem><guimenuitem>Virranhallinta</"
+"guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/hardware-devices.xml:168(para)
 msgid "Change settings as appropriate"
-msgstr ""
+msgstr "Muuta asetuksia"
 
 #: desktop-guide/C/hardware-devices.xml:169(para)
 #: desktop-guide/C/hardware-devices.xml:177(para)
 msgid "Changes are applied instantly"
-msgstr ""
+msgstr "Asetukset tulevat voimaan välittömästi"
 
 #: desktop-guide/C/hardware-devices.xml:172(para)
 msgid ""
@@ -3391,6 +3565,11 @@ msgid ""
 "you've set a graphical screensaver, turning it off could slightly improve "
 "the battery life of your laptop."
 msgstr ""
+"Näytönsäästäjän käyttäminen voi viedä enemmän virtaa kuin yksinkertaisesti "
+"näytön päästäminen tyhjäksi. Xubuntu käyttää oletuksena tyhjää "
+"näytönsäästäjää, mutta jos olet asentanut graafisen näytönsäästäjän, sen "
+"pois päältä kytkeminen voi parantaa kannettavan tietokoneesi käyttöaikaa "
+"hieman."
 
 #: desktop-guide/C/hardware-devices.xml:175(para)
 msgid ""
@@ -3398,12 +3577,17 @@ msgid ""
 "Manager</guimenuitem><guimenuitem>Screensaver</guimenuitem></menuchoice></"
 "application>"
 msgstr ""
+"Mene valikkoon <application><menuchoice><placeholder-1/"
+"><guimenuitem>Asetukset</guimenuitem><guimenuitem>Näytönsäästäjä</"
+"guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/hardware-devices.xml:176(para)
 msgid ""
 "Change the <guilabel>Screensaver theme</guilabel> to <guilabel>Blank Screen "
 "Only</guilabel>. This will simply display a blank screen as a screensaver."
 msgstr ""
+"Valitse <guilabel>Tila</guilabel>-pudotusvalikosta <guilabel>Blank Screen "
+"Only</guilabel>. Tämän jälkeen näytönsäästäjänä käytetään tyhjää ruutua."
 
 #: desktop-guide/C/hardware-devices.xml:180(para)
 msgid ""
@@ -3412,10 +3596,15 @@ msgid ""
 "battery life significantly; many laptops allow you to do this by pressing "
 "<keycap><placeholder-1/>Fn+F7</keycap> (or other marked key) several times."
 msgstr ""
+"Kun kannettavasi käytää akkuvirtaa, yksi suurimmista virrankuluttajista on "
+"näyttö. Näytön kirkkauden laskeminen voi parantaa akun käyttöaikaa "
+"huomattavasti; monissa kannettavissa voit tehdä tämän painamalla "
+"<keycap><placeholder-1/>Fn+F7</keycap> (tai muuta vastaavaa näppäintä) "
+"useamman kerran."
 
 #: desktop-guide/C/hardware-devices.xml:184(title)
 msgid "Touchpads"
-msgstr ""
+msgstr "Kosketuslevyt"
 
 #: desktop-guide/C/hardware-devices.xml:186(para)
 msgid ""
@@ -3424,6 +3613,9 @@ msgid ""
 "behaves; the most basic touchpad settings can be configured in the following "
 "way:"
 msgstr ""
+"Useimmissa kannettavissa tietokoneissa on kosketuslevy, jolla ohjataan "
+"hiiren kursoria. Kosketuslevyjen toiminnallisuutta voi vaihtaa monin eri "
+"tavoin; yleisimpiä kosketuslevyjen asetuksia voi muuttaa seuraavalla tavalla:"
 
 #: desktop-guide/C/hardware-devices.xml:189(para)
 msgid ""
@@ -3431,17 +3623,22 @@ msgid ""
 "Manager</guimenuitem><guimenuitem>Mouse and Touchpad</guimenuitem></"
 "menuchoice></application>"
 msgstr ""
+"Mene valikkoon <application><menuchoice><placeholder-1/"
+"><guimenuitem>Asetukset</guimenuitem><guimenuitem>Hiiri ja kosketuslevy</"
+"guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/hardware-devices.xml:190(para)
 msgid ""
 "From the <guilabel>Device:</guilabel> field pick list, select the touchpad."
-msgstr ""
+msgstr "Valitse <guilabel>Laite:</guilabel> -pudotusvalikosta kosketuslevysi."
 
 #: desktop-guide/C/hardware-devices.xml:191(para)
 msgid ""
 "Here you can change the touchpad settings to your liking. Changes should "
 "take effect immediately."
 msgstr ""
+"Nyt voit vaihtaa kosketuslevyn asetuksia kuten haluat. Muutoksien tulisi "
+"olla käytössä välittömästi."
 
 #: desktop-guide/C/hardware-devices.xml:194(para)
 msgid ""
@@ -3451,6 +3648,11 @@ msgid ""
 "help.ubuntu.com/community/SynapticsTouchpad\">Touchpads</ulink> page in the "
 "Ubuntu community wiki for more information on touchpads."
 msgstr ""
+"Jotkin kosketuslevyistä voidaan tunnistaa tavallisina hiirinä, vaikka "
+"ovatkin kosketuslevyjä. Tässä tapauksessa kosketuslevy ei ole valittavissa "
+"asetuksissa. Katso <ulink url=\"https://help.ubuntu.com/community/"
+"SynapticsTouchpad\">Touchpads</ulink>-sivu Ubuntun yhteisötuen wikissä, jos "
+"haluat lisätietoja kosketuslevyistä."
 
 #: desktop-guide/C/hardware-devices.xml:198(title)
 msgid "Finding laptop testing reports"
@@ -3472,13 +3674,15 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:205(title)
 msgid "Suspending and Hibernating"
-msgstr ""
+msgstr "Keskeytystila ja lepotila"
 
 #: desktop-guide/C/hardware-devices.xml:207(para)
 msgid ""
 "In order to save power, you can put your computer into one of a number of "
 "power-saving modes when you are not using it:"
 msgstr ""
+"Säästääksesi virtaa, voit kytkeä tietokoneesi yhteen useista "
+"virransäästötiloista kun et käytä sitä:"
 
 #: desktop-guide/C/hardware-devices.xml:210(para)
 msgid ""
@@ -3487,6 +3691,10 @@ msgid ""
 "use much less power. You can wake the computer by pressing a key or clicking "
 "the mouse."
 msgstr ""
+"Keskeytystila on kuin tietokoneen laittaminen nukkumaan. Tietokone on "
+"edelleen kytkettynä päälle ja kaikki työsi pidetään avonaisena, mutta "
+"tietokone käyttää paljon vähemmän virtaa. Voit herättää tietokoneen "
+"painamalla mitä tahansa näppäintä tai napsauttamalla hiirtä."
 
 #: desktop-guide/C/hardware-devices.xml:211(para)
 msgid ""
@@ -3496,6 +3704,11 @@ msgid ""
 "restored as it was before hibernation. No power is used when the computer is "
 "hibernating."
 msgstr ""
+"Lepotilassa tietokone on kytketty kokonaan pois päältä, mutta sen nykyinen "
+"tila on tallennettu (mukaan lukien kaikki avoimet työsi). Kun kytket "
+"tietokoneen päälle lepotilan jälkeen, kaikki työsi pitäisi palautua "
+"ennalleen kuten ne olivat ennen lepotilaa. Virtaa ei käytetä kun tietokone "
+"on lepotilassa."
 
 #: desktop-guide/C/hardware-devices.xml:212(para)
 msgid ""
@@ -3503,6 +3716,9 @@ msgid ""
 "current state of the computer. No power is used when the computer is shut "
 "down."
 msgstr ""
+"Tietokoneen sammuttaminen kytkee tietokoneen kokonaan pois päältä "
+"tallentamatta tietokoneen tilaa. Virtaa ei käytetä kun tietokone on "
+"sammutettu."
 
 #: desktop-guide/C/hardware-devices.xml:213(para)
 msgid ""
@@ -3511,6 +3727,10 @@ msgid ""
 "pressing a keyboard button or by clicking the mouse. You can resume from "
 "being hibernated by pressing the power button on your computer."
 msgstr ""
+"Palauttaminen tarkoittaa sitä että tietokone palautetaan virransäästötilasta "
+"takaisin normaaliin toimintaan. Voit palauttaa tietokoneen keskeytystilasta "
+"painamalla mitä tahansa näppäintä tai napsauttamalla hiirtä. Voit palauttaa "
+"tietokoneen lepotilasta painamalla tietokoneesi virtapainiketta."
 
 #: desktop-guide/C/hardware-devices.xml:216(para)
 msgid ""
@@ -3518,6 +3738,9 @@ msgid ""
 "an option in any menus. For a command line workaround, see <xref linkend="
 "\"enabling-hibernation\"/>."
 msgstr ""
+"Huomaa että lepotila on oletuksena kytketty pois Xubuntussa eikä näy "
+"vaihtoehtona missään valikossa. <xref linkend=\"enabling-hibernation\"/> "
+"käsittelee komentokehotteelta suoritettavaa väliaikaista korjausta."
 
 #: desktop-guide/C/hardware-devices.xml:218(para)
 msgid ""
@@ -3525,6 +3748,10 @@ msgid ""
 "<application><menuchoice><placeholder-1/><guimenuitem>Log Out</guimenuitem></"
 "menuchoice></application> and then pressing the appropriate button."
 msgstr ""
+"Voit laittaa tietokoneesi manuaalisesti virransäästötilaan napsauttamalla "
+"<application><menuchoice><placeholder-1/><guimenuitem>Kirjaudu ulos...</"
+"guimenuitem></menuchoice></application> ja napsauttamalla sitten haluamaasi "
+"painiketta."
 
 #: desktop-guide/C/hardware-devices.xml:220(para)
 msgid ""
@@ -3533,10 +3760,15 @@ msgid ""
 "try to switch to that mode and see if it behaves as you expected. Always "
 "make sure you save important documents before suspending or hibernating."
 msgstr ""
+"Joillain tietokoneilla voi esiintyä ongelmia joihinkin virransäästötiloihin "
+"siirtymisessä. Paras tapa tarkistaa voiko tietokoneesi siirtyä tiettyyn "
+"virransäästötilaan on kokeilla siirtyä siihen ja tarkistaa toimiiko "
+"virransäästötila kuten odotettua. Tallenna aina tärkeät työsi ennen "
+"keskeytys- tai lepotilaan siirtymistä."
 
 #: desktop-guide/C/hardware-devices.xml:223(title)
 msgid "My computer doesn't suspend or hibernate correctly"
-msgstr ""
+msgstr "Tietokoneeni ei siirry keskeytys- tai lepotilaan oikein"
 
 #: desktop-guide/C/hardware-devices.xml:225(para)
 msgid ""
@@ -3544,26 +3776,32 @@ msgid ""
 "this is the case for your computer, you may notice some of the following "
 "symptoms:"
 msgstr ""
+"Jotkin tietokoneet eivät pysty siirtymään keskeytys- tai virransäästötilaan "
+"oikein Xubuntun kanssa. Voit huomata joitain seuraavista ongelmista:"
 
 #: desktop-guide/C/hardware-devices.xml:228(para)
 msgid "The computer does not turn off after you click to hibernate it."
-msgstr ""
+msgstr "Tietokonetta ei sammuteta kun yrität siirtyä lepotilaan"
 
 #: desktop-guide/C/hardware-devices.xml:229(para)
 msgid ""
 "When you turn the computer on after hibernating it, your previously open "
 "programs are not restored."
 msgstr ""
+"Kun käynnistät tietokoneen uudelleen lepotilasta palautuessa, aiemmin auki "
+"olleet ohjelmat eivät palaudu."
 
 #: desktop-guide/C/hardware-devices.xml:230(para)
 msgid "The computer will not wake up after you have suspended it."
-msgstr ""
+msgstr "Tietokone ei herää sen jälkeen kun olet siirtänyt sen keskeytystilaan."
 
 #: desktop-guide/C/hardware-devices.xml:231(para)
 msgid ""
 "Certain programs or hardware devices stop working correctly after resuming "
 "from hibernation or waking-up from being suspended."
 msgstr ""
+"Jotkin sovellukset tai laitteet lopettavat toimimasta oikein keskeytys- tai "
+"lepotilasta palautuessa."
 
 #: desktop-guide/C/hardware-devices.xml:234(para)
 msgid ""
@@ -3675,7 +3913,7 @@ msgstr "Joitain näppäimistön asetusvalintoja ovat:"
 
 #: desktop-guide/C/hardware-devices.xml:277(guilabel)
 msgid "State of the Num Lock key on startup"
-msgstr "Num lock -näppäimen tilan muistaminen"
+msgstr "Num Lock -näppäimen tilan muistaminen"
 
 #: desktop-guide/C/hardware-devices.xml:278(guilabel)
 msgid "Key repeat speed and delay"
@@ -3765,6 +4003,9 @@ msgid ""
 "guimenuitem><guimenuitem>Users and Groups</guimenuitem></menuchoice></"
 "application>"
 msgstr ""
+"Avaa <application><menuchoice><placeholder-1/><guimenuitem>Asetukset</"
+"guimenuitem><guimenuitem>Käyttäjät ja ryhmät</guimenuitem></menuchoice></"
+"application>"
 
 #: desktop-guide/C/guide-keeping-safe.xml:33(para)
 msgid "Click on your username on the list"
@@ -3775,10 +4016,12 @@ msgid ""
 "Click <guilabel>Change...</guilabel> next to the <guilabel>Password</"
 "guilabel> label"
 msgstr ""
+"Napsauta <guilabel>Vaihda...</guilabel> <guilabel>Salasana</guilabel>-"
+"otsikon vieressä"
 
 #: desktop-guide/C/guide-keeping-safe.xml:35(para)
 msgid "First enter your <guilabel>Current password</guilabel>"
-msgstr ""
+msgstr "Ensin syötä <guilabel>Nykyinen salasana</guilabel>"
 
 #: desktop-guide/C/guide-keeping-safe.xml:36(para)
 msgid "Now you can either"
@@ -3789,6 +4032,8 @@ msgid ""
 "Generate a random password by selecting <guilabel>Generate random password</"
 "guilabel> and pressing <guibutton>Generate</guibutton>"
 msgstr ""
+"Luoda satunnaisen salasanan valitsemalla <guilabel>Luo satunnainen salasana</"
+"guilabel> ja napsauttamalla <guibutton>Luo</guibutton>"
 
 #: desktop-guide/C/guide-keeping-safe.xml:39(para)
 msgid ""
@@ -3796,10 +4041,14 @@ msgid ""
 "<guilabel>New password</guilabel> and <guilabel>Confirmation</guilabel> "
 "fields"
 msgstr ""
+"Valita uuden salasanasi itse kirjoittamalla uuden salasanan <guilabel>Uusi "
+"salasana</guilabel> ja <guilabel>Vahvistus</guilabel> -kenttiin"
 
 #: desktop-guide/C/guide-keeping-safe.xml:42(para)
 msgid "Finally, click <guibutton>OK</guibutton> to confirm the password change"
 msgstr ""
+"Lopulta, napsauta <guibutton>OK</guibutton> vahvistaaksesi salasanan "
+"vaihtamisen"
 
 #: desktop-guide/C/guide-keeping-safe.xml:45(para)
 msgid ""
@@ -3809,7 +4058,7 @@ msgid ""
 "trust everybody that has access to the computer."
 msgstr ""
 "Vaikka Xubuntun voi asettaa kirjautumaan automaattisesti käynnistyksen "
-"yhteydessä on automaattinen sisäänkirjautuminen erittäin epäsuositeltavaa "
+"yhteydessä, on automaattinen sisäänkirjautuminen erittäin epäsuositeltavaa, "
 "sillä se tarjoaa järjestelmällesi vähemmän turvaa. Käytä automaattista "
 "sisäänkirjautumista vain jos voit luottaa jokaiseen, jolla on pääsy "
 "tietokoneellesi."
@@ -3844,10 +4093,11 @@ msgstr ""
 msgid ""
 "To lock the screen, press <placeholder-1/><keycap>Ctrl+Alt+Delete</keycap>."
 msgstr ""
+"Lukitaksesi näytön, paina <placeholder-1/><keycap>Ctrl+Alt+Delete</keycap>."
 
 #: desktop-guide/C/guide-keeping-safe.xml:68(para)
 msgid "Screensaver has to be enabled to lock the screen."
-msgstr ""
+msgstr "Näytönsäästäjän tulee olla kytketty päälle jotta voit lukita näytön."
 
 #: desktop-guide/C/guide-keeping-safe.xml:69(para)
 msgid ""
@@ -3855,6 +4105,9 @@ msgid ""
 "password and either press the <placeholder-1/><keycap>Enter</keycap> key or "
 "click the <guibutton>OK</guibutton> button."
 msgstr ""
+"Poistaaksesi näytön lukituksen, siirrä hiirtä tai paina mitä tahansa "
+"näppäintä. Sitten syötä salasanasi ja paina joko <placeholder-1/"
+"><keycap>Enter</keycap> tai napsauta <guibutton>OK</guibutton> -painiketta."
 
 #: desktop-guide/C/guide-keeping-safe.xml:72(para)
 msgid ""
@@ -3864,6 +4117,11 @@ msgid ""
 "access your currently open work and you will be able to switch back to your "
 "locked session when they have finished using the computer."
 msgstr ""
+"Jos useammalla kuin yhdellä henkilöllä on käyttäjätili tietokoneellasi ja "
+"näyttö on lukittu, muut käyttäjät voivat painaa <guibutton>New Login</"
+"guibutton> -painiketta käyttääkseen tietokonetta silloinkin kun näyttö on "
+"lukittu. He eivät pääse käsiksi sinun avoimena oleviin töihisi ja voit "
+"palata lukittuun istuntoosi kun he eivät enää käytä tietokonetta."
 
 #: desktop-guide/C/guide-keeping-safe.xml:82(para)
 msgid ""
@@ -3887,6 +4145,12 @@ msgid ""
 "configuring Firestarter, see the <ulink url=\"http://www.fs-security.com/"
 "docs.php\">Firestarter Online Manual</ulink>."
 msgstr ""
+"Voit asentaa palomuurin <application>Ubuntun sovellusvalikoima</application> "
+"-sovelluksesta. Yksi vaihtoehto on <application>Firestarter</application>, "
+"joka on saatavilla yhteisön ylläpitämästä universe-pakettivarastosta. Jos "
+"haluat ohjeita ja vinkkejä Firestarterin asentamiseen ja muokkaamiseen, mene "
+"<ulink url=\"http://www.fs-security.com/docs.php\">Firestarter Online "
+"Manual</ulink> -sivustolle."
 
 #: desktop-guide/C/guide-keeping-safe.xml:92(para)
 msgid ""
@@ -3896,6 +4160,11 @@ msgid ""
 "\">UFW community documentation</ulink> on the Ubuntu wiki for more "
 "information."
 msgstr ""
+"Kehittyneemmät käyttäjät voivat haluta käyttää <application>UFW</"
+"application> -palomuuria, joka on asennettuna, muttei kytkettynä päälle, "
+"Xubuntun oletusasennuksessa. Jos haluat lisätietoja, mene <ulink url="
+"\"https://help.ubuntu.com/community/UFW\">UFW community documentation</"
+"ulink> -sivulle Ubuntun kehittäjien wikissä."
 
 #: desktop-guide/C/guide-keeping-safe.xml:96(para)
 msgid ""
@@ -3903,6 +4172,9 @@ msgid ""
 "firewall testing service such as <ulink url=\"https://www.grc.com/x/ne.dll?"
 "bh0bkyd2\">ShieldsUP</ulink>."
 msgstr ""
+"Kokeillaksesi toimiiko palomuurisi oikein, käytä online-"
+"palomuurintestauspalvelua, kuten <ulink url=\"https://www.grc.com/x/ne.dll?"
+"bh0bkyd2\">ShieldsUP</ulink>."
 
 #: desktop-guide/C/guide-keeping-safe.xml:103(para)
 msgid "Here are a few tips for keeping safe online:"
@@ -4019,6 +4291,11 @@ msgid ""
 "pack them together. Alternatively, you can use a dedicated backup "
 "application."
 msgstr ""
+"Yksinkertainen tapa varmuuskopioida tiedostosi on niiden manuaalinen "
+"kopioiminen turvalliseen sijaintiin käyttämällä tiedostonhallintaa ja "
+"<application>Pakettienkäsittely</application>-sovellusta, jolla voit pakata "
+"tiedostoja ja koota niitä yhteen. Vaihtoehtoisesti voit käyttää "
+"varmuuskopiointiin erityisesti luotua sovellusta."
 
 #: desktop-guide/C/guide-keeping-safe.xml:153(para)
 msgid ""
@@ -4027,6 +4304,10 @@ msgid ""
 "<application>Dejà Dup</application> and <application>luckyBackup</"
 "application>."
 msgstr ""
+"Varmuuskopiointiin on saatavilla useita sovelluksia <application>Ubuntun "
+"sovellusvalikoima</application> -sovelluksesta, mukaan lukien "
+"<application>Dejà Dup</application> ja <application>luckyBackup</"
+"application>."
 
 #: desktop-guide/C/guide-keeping-safe.xml:157(para)
 msgid "General advice on how to keep good backups:"
@@ -4090,6 +4371,17 @@ msgid ""
 "choices for logging out, shutting down, locking the screen, switching users "
 "and, depending on your hardware, suspending or hibernating your computer."
 msgstr ""
+"Yläreunan paneelia käytetään pääsääntöisesti sovelluksien käynnistämiseen ja "
+"eri paikkoihin siirtymisessä tietokoneellasi. Siinä on myös "
+"<guilabel>Toimintopainikkeet</guilabel>, <guilabel>Työtilanvaihtaja</"
+"guilabel>, <guilabel>Ilmoitusalue</guilabel> ja kello. Napsauttamalla "
+"<placeholder-1/> <guilabel>Sovellusvalikko</guilabel> aukeaa, tarjoten "
+"sinulle monia sovelluksia käynnistettäväksi. Huomaa että valikossa on myös "
+"<guilabel>Asetukset</guilabel>, <guilabel>Ohje</guilabel> ja "
+"uloskirjautumispainike. <guilabel>Toimintopainikkeet</guilabel>-osan "
+"(käyttäjänimesi oikeassa yläkulmassa) napsauttaminen avaa valikon, josta "
+"voit kirjautua ulos, sammuttaa tietokoneen, lukita näytön, vaihtaa käyttäjiä "
+"ja laitteistostasi riippuen siirtyä keskeytys- tai lepotilaan."
 
 #: desktop-guide/C/guide-desktop.xml:38(para)
 msgid ""
@@ -4512,7 +4804,7 @@ msgid ""
 msgstr ""
 "Jos jotain näistä hakemistoista ei ole olemassa, sinun tulee luoda kyseinen "
 "hakemisto ensin. Teemojen kopioiminen kaikkien käyttäjien käyttöön vaatii "
-"pääkäyttäjän käyttöoikeudet."
+"ylläpitäjän käyttöoikeudet."
 
 #: desktop-guide/C/guide-desktop.xml:281(title)
 msgid "Disabling and modifying the desktop effects"
@@ -4940,10 +5232,10 @@ msgid ""
 "created during installation will, by default, be able to perform "
 "administrative tasks."
 msgstr ""
-"Turvallisuussyistä Xubuntussa vain käyttäjät joilla on erityiset "
-"pääkäyttäjän oikeudet voitvat suorittaa ylläpidollisia toimenpiteitä. "
-"Asennuksessa luotu ensimmäinen käyttäjä on oletuksena kykenevä suorittamaan "
-"ylläpidollisia toimenpiteitä."
+"Turvallisuussyistä Xubuntussa vain käyttäjät joilla on erityiset ylläpitäjän "
+"oikeudet voivat suorittaa ylläpidollisia toimenpiteitä. Asennuksessa luotu "
+"ensimmäinen käyttäjä on oletuksena kykenevä suorittamaan ylläpidollisia "
+"toimenpiteitä."
 
 #: desktop-guide/C/administrative-tasks.xml:16(para)
 msgid ""
@@ -4952,7 +5244,7 @@ msgid ""
 "from malicious files and lessens the chances that you will accidentally "
 "select options which may change the way your system works."
 msgstr ""
-"Kun suoritat sovelluksen joka vaatii pääkäyttäjän oikeuksia sinun pyydetään "
+"Kun suoritat sovelluksen joka vaatii ylläpitäjän oikeuksia sinun pyydetään "
 "syöttämään salasanasi. Tämä auttaa suojaamaan järjestelmääsi vahingollisilta "
 "tiedostoilta sekä vähentää mahdollisuuksia että valitset vahingossa "
 "asetuksia jotka voivat muuttaa tapaa jolla järjestelmäsi toimii."
@@ -4998,11 +5290,15 @@ msgid ""
 "guimenuitem><guimenuitem>Users and Groups</guimenuitem></menuchoice></"
 "application>."
 msgstr ""
+"Jos haluat muokata järjestelmäsi käyttäjiä tai ryhmiä, mene vaikkoon "
+"<application><menuchoice><placeholder-1/><guimenuitem>Asetukset</"
+"guimenuitem><guimenuitem>Käyttäjät ja ryhmät</guimenuitem></menuchoice></"
+"application>."
 
 #: desktop-guide/C/administrative-tasks.xml:29(para)
 msgid "You need administrative rights to make changes to users and groups."
 msgstr ""
-"Tarvitset pääkäyttäjän oikeudet tehdäksesi muutoksia käyttäjiin ja ryhmiin."
+"Tarvitset ylläpitäjän oikeudet tehdäksesi muutoksia käyttäjiin ja ryhmiin."
 
 #: desktop-guide/C/administrative-tasks.xml:32(title)
 msgid "Managing users"
@@ -5015,7 +5311,7 @@ msgstr "Lisätäksesi uuden käyttäjän:"
 #: desktop-guide/C/administrative-tasks.xml:37(para)
 #: desktop-guide/C/administrative-tasks.xml:64(para)
 msgid "Click the <guibutton>Add</guibutton> button"
-msgstr ""
+msgstr "Napsauta <guibutton>Lisää</guibutton>-painiketta"
 
 #: desktop-guide/C/administrative-tasks.xml:38(para)
 msgid "Enter you password"
@@ -5024,21 +5320,25 @@ msgstr "Syötä salasanasi"
 #: desktop-guide/C/administrative-tasks.xml:39(para)
 msgid "Fill in the <guilabel>Name</guilabel> and <guilabel>Username</guilabel>"
 msgstr ""
+"Täytä <guilabel>Nimi</guilabel> ja <guilabel>Käyttäjätunnus</guilabel> -"
+"kentät"
 
 #: desktop-guide/C/administrative-tasks.xml:40(para)
 #: desktop-guide/C/administrative-tasks.xml:68(para)
 msgid "Click the <guibutton>OK</guibutton> button"
-msgstr ""
+msgstr "Napsauta <guibutton>OK</guibutton>"
 
 #: desktop-guide/C/administrative-tasks.xml:43(para)
 msgid "If you want to give a user administrative rights to the system:"
-msgstr "Jos haluat antaa käyttäjälle pääkäyttäjän oikeudet järjestelmään:"
+msgstr "Jos haluat antaa käyttäjälle ylläpitäjän oikeudet järjestelmään:"
 
 #: desktop-guide/C/administrative-tasks.xml:46(para)
 msgid ""
 "Select the user whose account type you want to change and press the "
 "<guibutton>Change...</guibutton> button"
 msgstr ""
+"Valitse käyttäjä jonka tunnuksen tyyppiä haluat vaihtaa ja napsauta "
+"<guibutton>Vaihda...</guibutton> -painiketta"
 
 #: desktop-guide/C/administrative-tasks.xml:47(para)
 msgid "Enter your password if prompted to do so"
@@ -5049,10 +5349,12 @@ msgid ""
 "Select the <guilabel>Administrator</guilabel> option (or select "
 "<guilabel>Desktop User</guilabel> to revert)"
 msgstr ""
+"Valitse <guilabel>Ylläpitäjä</guilabel>-vaihtoehto (tai "
+"<guilabel>Työpöytäkäyttäjä</guilabel>-vaihtoehto palauttaaksesi)"
 
 #: desktop-guide/C/administrative-tasks.xml:49(para)
 msgid "Press <guibutton>OK</guibutton> to apply the selected changes"
-msgstr ""
+msgstr "Napsauta <guibutton>OK</guibutton> vahvistaaksesi valitut muutokset"
 
 #: desktop-guide/C/administrative-tasks.xml:52(para)
 msgid ""
@@ -5061,12 +5363,19 @@ msgid ""
 "dialog, enter your password, click the <guilabel>User Privileges</guilabel> "
 "tab and from there select or deselect wanted capabilities."
 msgstr ""
+"Yksityiskohtaisempaa pääsynhallintaa varten napsauta "
+"<guibutton>Lisäasetukset</guibutton>-painiketta <guilabel>Käyttäjien "
+"asetukset</guilabel> -ikkunasta, syötä salasanasi, napsauta "
+"<guilabel>Käyttäjän oikeudet</guilabel> -välilehteä ja sitten valitse tai "
+"poista valinnat halutuilta oikeuksilta."
 
 #: desktop-guide/C/administrative-tasks.xml:54(para)
 msgid ""
 "To remove a user from the system, select the user you want to delete and "
 "click the <guibutton>Delete</guibutton> button."
 msgstr ""
+"Poistaaksesi käyttäjän järjestelmästä, valitse käyttäjä jonka haluat poistaa "
+"ja napsauta <guilabel>Poista</guilabel>-painiketta."
 
 #: desktop-guide/C/administrative-tasks.xml:58(title)
 msgid "Managing groups"
@@ -5078,7 +5387,7 @@ msgstr "Lisätäksesi uuden ryhmän:"
 
 #: desktop-guide/C/administrative-tasks.xml:63(para)
 msgid "Click the <guibutton>Manage Groups</guibutton> button"
-msgstr ""
+msgstr "Napsauta <guilabel>Hallitse ryhmiä</guilabel> -painiketta"
 
 #: desktop-guide/C/administrative-tasks.xml:65(para)
 msgid "Enter your password"
@@ -5089,12 +5398,16 @@ msgid ""
 "Choose a name for the new group and, if you want, change the default value "
 "for the <guilabel>Group ID</guilabel>"
 msgstr ""
+"Valitse nimi uudelle ryhmälle, ja jos haluat, muuta oletusasetusta "
+"<guilabel>Ryhmän tunniste</guilabel> -kentälle"
 
 #: desktop-guide/C/administrative-tasks.xml:67(para)
 msgid ""
 "At this time, you have the option of selecting <guilabel>Group Members</"
 "guilabel> from the list"
 msgstr ""
+"Tässä vaiheessa voit halutessasi valita <guilabel>Ryhmän jäsenet</guilabel> "
+"listalta"
 
 #: desktop-guide/C/administrative-tasks.xml:71(para)
 msgid ""
@@ -5102,6 +5415,9 @@ msgid ""
 "guibutton> button, select the group you want to delete and click the "
 "<guibutton>Delete</guibutton> button."
 msgstr ""
+"Poistaaksesi ryhmän järjestelmästä, napsauta <guibutton>Hallitse ryhmiä</"
+"guilabel> -painiketta, valitse ryhmä jonka haluat poistaa ja napsauta "
+"<guibutton>Poista</guibutton> -painiketta."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: desktop-guide/C/administrative-tasks.xml:0(None)
