@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-01-07 15:51+0200\n"
-"PO-Revision-Date: 2014-01-08 20:47+0200\n"
+"PO-Revision-Date: 2014-01-09 00:22+0200\n"
 "Last-Translator: Pasi Lallinaho <pasi@digitoucan.fi>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -2375,6 +2375,11 @@ msgid ""
 "<application>NetworkManager</application> also keeps passwords secure by "
 "utilizing the user's keyring to store passphrases."
 msgstr ""
+"Xubuntu käyttää  <application>NetworkManager</application> -sovellusta "
+"langallisten ja langattomien sekä laajakaista-, VPN- ja DSL-yhteksien "
+"hallitsemiseen. <application>NetworkManager</application> pitää myös "
+"salasanasi turvassa käyttäen käyttäjän avainnippua tallentaessaan "
+"verkkoavaimia."
 
 #: desktop-guide/C/internet-networks.xml:16(para)
 msgid ""
@@ -2383,26 +2388,35 @@ msgid ""
 "two grayed out arrows pointing up and down. When you are connected, the icon "
 "is different depending on the network type in use."
 msgstr ""
+"<application>NetworkManager</application> on pieni kuvake näyttösi oikeassa "
+"yläkulmassa. Kun olet yhteydettömässä tilassa, kuvake näyttää kaksi harmaata "
+"nuolta, jotka osoittavat ylös ja alas. Ollessasi yhteydessä verkkoon kuvake "
+"vaihtelee riippuen käytössä olevan verkon tyypistä."
 
 #: desktop-guide/C/internet-networks.xml:19(title)
 msgid "Network connections"
-msgstr ""
+msgstr "Verkkoyhteydet"
 
 #: desktop-guide/C/internet-networks.xml:22(title)
 msgid "Connecting and disconnecting"
-msgstr ""
+msgstr "Yhteyden luominen ja katkaiseminen"
 
 #: desktop-guide/C/internet-networks.xml:24(para)
 msgid ""
 "<application>NetworkManager</application> will automatically use a wired "
 "network, if one is available."
 msgstr ""
+"<application>NetworkManager</application> käyttää automaattisesti "
+"langallista verkkoyhteyttä mikäli sellainen on saatavilla."
 
 #: desktop-guide/C/internet-networks.xml:26(para)
 msgid ""
 "To see all available connections, click the <application>NetworkManager</"
 "application> icon. To connect to a network, click the network name."
 msgstr ""
+"Nähdäksesi kaikki saatavilla olevat yhteydet, napsauta "
+"<application>NetworkManager</application>-sovelluksen kuvaketta. "
+"Yhdistääksesi verkkoon, napsauta verkon nimeä."
 
 #: desktop-guide/C/internet-networks.xml:28(para)
 msgid ""
@@ -2427,7 +2441,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:34(title)
 msgid "Configuring connections"
-msgstr ""
+msgstr "Yhteyksien asetusten muokkaaminen"
 
 #: desktop-guide/C/internet-networks.xml:36(para)
 msgid ""
@@ -2448,7 +2462,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:42(title)
 msgid "Connection information"
-msgstr ""
+msgstr "Yhteyden tiedot"
 
 #: desktop-guide/C/internet-networks.xml:44(para)
 msgid ""
@@ -2461,7 +2475,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:48(title)
 msgid "Sharing your connection to another computer"
-msgstr ""
+msgstr "Yhteyden jakaminen toiselle tietokoneelle"
 
 #: desktop-guide/C/internet-networks.xml:50(para)
 msgid ""
@@ -2476,7 +2490,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:54(title)
 msgid "Dialup modems"
-msgstr ""
+msgstr "Puhelinmodeemit"
 
 #: desktop-guide/C/internet-networks.xml:56(para)
 msgid ""
@@ -2496,12 +2510,15 @@ msgid ""
 "Before attempting any troubleshooting, ensure that the network connections "
 "are enabled:"
 msgstr ""
+"Ennen kuin aloitat vianmäärityksen, varmista että verkkoyhteydet on kytketty "
+"päälle:"
 
 #: desktop-guide/C/internet-networks.xml:65(para)
 msgid ""
 "Click the <application>NetworkManager</application> icon in the notification "
 "area"
 msgstr ""
+"Napsauta <application>NetworkManager</application>-kuvaketta ilmoitinalueella"
 
 #: desktop-guide/C/internet-networks.xml:66(para)
 msgid ""
@@ -2514,13 +2531,15 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:70(para)
 msgid "If your network connection still doesn't work:"
-msgstr ""
+msgstr "Jos vekrkoyhteytesi ei edelleenkään toimi:"
 
 #: desktop-guide/C/internet-networks.xml:73(para)
 msgid ""
 "For wired (Ethernet) connections, please see <xref linkend=\"network-"
 "troubleshooting-general\"/>"
 msgstr ""
+"Langallisille (Ethernet) yhteyksille, katso kohta <xref linkend=\"network-"
+"troubleshooting-general\"/>"
 
 #: desktop-guide/C/internet-networks.xml:74(para)
 msgid ""
@@ -2528,6 +2547,9 @@ msgid ""
 "troubleshooting-general\"/> and <xref linkend=\"network-troubleshooting-"
 "wireless\"/>"
 msgstr ""
+"Langattomille yhteyksille, katso kohdat <xref linkend=\"network-"
+"troubleshooting-general\"/> ja <xref linkend=\"network-troubleshooting-"
+"wireless\"/>"
 
 #: desktop-guide/C/internet-networks.xml:75(para)
 msgid ""
@@ -2537,31 +2559,35 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:79(title)
 msgid "General troubleshooting"
-msgstr ""
+msgstr "Yleinen vianmääritys"
 
 #: desktop-guide/C/internet-networks.xml:81(para)
 msgid ""
 "If your network connection is not working properly, there are a few tools "
 "that can be used to help diagnose the problem."
 msgstr ""
+"Jos verkkoyhteytesi ei toimi kunnolla, voit käyttää muutamia työkaluja "
+"diagnosoidaksesi ongelmaa."
 
 #: desktop-guide/C/internet-networks.xml:84(title)
 msgid "Get information about the current connection"
-msgstr ""
+msgstr "Hanki tietoa nykyisestä yhteydestä"
 
 #: desktop-guide/C/internet-networks.xml:86(para)
 msgid ""
 "To get information about your network connection and network devices, you "
 "have two options:"
 msgstr ""
+"Saadaksesi tietoa nykyisestä verkkoyhteydestäsi ja verkkolaitteistosta, "
+"sinulla on kaksi vaihtoehtoa:"
 
 #: desktop-guide/C/internet-networks.xml:90(para)
 msgid "Using <application>NetworkManager</application>"
-msgstr ""
+msgstr "Käytä <application>NetworkManager</application>-sovellusta"
 
 #: desktop-guide/C/internet-networks.xml:92(para)
 msgid "Click on the <application>NetworkManager</application> icon"
-msgstr ""
+msgstr "Napsauta <application>NetworkManager</application>-kuvaketta"
 
 #: desktop-guide/C/internet-networks.xml:93(para)
 msgid ""
@@ -2579,7 +2605,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:98(para)
 msgid "Using <application>ifconfig</application>"
-msgstr ""
+msgstr "Käytä <application>ifconfig</application>-komentoa"
 
 #: desktop-guide/C/internet-networks.xml:100(para)
 msgid ""
@@ -2589,6 +2615,11 @@ msgid ""
 "<userinput>ifconfig</userinput> and press <keycap><placeholder-2/>Enter</"
 "keycap>"
 msgstr ""
+"Avaa komentokehote (<application><menuchoice><placeholder-1/"
+"><guisubmenu>Apuohjelmat</guisubmenu><guimenuitem>Pääteohjelma</"
+"guimenuitem></menuchoice></application>), kirjoita komento "
+"<userinput>ifconfig</userinput> ja paina <keycap><placeholder-2/>Enter</"
+"keycap>"
 
 #: desktop-guide/C/internet-networks.xml:101(para)
 msgid ""
@@ -2597,16 +2628,23 @@ msgid ""
 "in the left column, IP address in the <guilabel>inet addr</guilabel> column "
 "and the MAC address for your device in the <guilabel>HWaddr</guilabel> column"
 msgstr ""
+"<application>ifconfig</application> näyttää sinulle laajasti tietoja "
+"yhteydestäsi, mukaan lukien loogiset yhteyksien nimet (kuten eth1) "
+"vasemmassa sarakkeessa, IP-osoitteen <guilabel>inet addr</guilabel> -"
+"sarakkeessa ja MAC-osoitteen laitteellesi <guilabel>HWaddr</guilabel> -"
+"sarakkeessa"
 
 #: desktop-guide/C/internet-networks.xml:108(title)
 msgid "Check if a connection is working properly"
-msgstr ""
+msgstr "Tarkista toimiiko yhteys kunnolla"
 
 #: desktop-guide/C/internet-networks.xml:110(para)
 msgid ""
 "A reliable method to check if a connection is working properly is to ping "
 "another computer on the network or the Internet."
 msgstr ""
+"Luotettava tapa kokeilla toimiiko yhteytesi kunnolla on lähettää ping-"
+"paketti toiselle tietokoneelle verkossa tai Internetissä."
 
 #: desktop-guide/C/internet-networks.xml:112(para)
 msgid ""
@@ -2616,6 +2654,11 @@ msgid ""
 "application>) and type the command <userinput>ping -c 3 www.xubuntu.org</"
 "userinput> and press <keycap><placeholder-2/>Enter</keycap>"
 msgstr ""
+"Tarkistaaksesi onko tietokoneesi yhteydessä Internetiin, avaa komentokehote "
+"(<application><menuchoice><placeholder-1/><guisubmenu>Apuohjelmat</"
+"guisubmenu><guimenuitem>Pääteohjelma</guimenuitem></menuchoice></"
+"application>), kirjoita komento <userinput>ping -c 3 www.xubuntu.org</"
+"userinput> ja paina <keycap><placeholder-2/>Enter</keycap>"
 
 #: desktop-guide/C/internet-networks.xml:114(para)
 msgid ""
@@ -2624,17 +2667,26 @@ msgid ""
 "transmitted, how many packets were received, the percentage of packet loss, "
 "and the total time spent."
 msgstr ""
+"Tietokoneesi yrittää ottaa yhteyttä osoitteeseen www.xubuntu.org kolme "
+"kertaa ja näyttää tulokset. Ping-tilastot näyttävät lähetettyjen pakettien "
+"määrän, saapuneiden pakettien määrän, kadonneiden pakettien osuuden sekä "
+"käytetyn kokonaisajan."
 
 #: desktop-guide/C/internet-networks.xml:117(para)
 msgid ""
 "0% packet loss indicates that your computer is connected to the Internet"
 msgstr ""
+"Mikäli kadonneiden pakettien osuus on 0%, tietokoneesi on yhteydessä "
+"Internetiin"
 
 #: desktop-guide/C/internet-networks.xml:118(para)
 msgid ""
 "Greater than 0% but less than 100% packet loss indicates that your computer "
 "has a poor connection to the Internet or a poor wireless signal"
 msgstr ""
+"Kadonneiden pakettien osuus joka on suurempi kuin 0% mutta pienempi kuin "
+"100% merkitsee että tietokoneellasi on huono yhteys Internetiin tai heikko "
+"langattoman verkon signaali"
 
 #: desktop-guide/C/internet-networks.xml:119(para)
 msgid ""
@@ -2642,6 +2694,9 @@ msgid ""
 "is connected to an access point or router that is not connected to the "
 "Internet"
 msgstr ""
+"Mikäli kadoinneiden pakettien osuus on 100%, tietokoneellasi on joko "
+"erittäin huono yhteys tai yhteys tukiasemaan tai reitittimeen joka ei ole "
+"yhteydessä Internetiin"
 
 #: desktop-guide/C/internet-networks.xml:122(para)
 msgid ""
@@ -2649,10 +2704,13 @@ msgid ""
 "or \"unknown host\", then your computer is probably not connected to the "
 "Internet or is unable to reach a Domain Name System (DNS) server."
 msgstr ""
+"Jos saat virheilmoituksen joka sanoo \"www.xubuntu.org can not be found\" "
+"tai \"unknown host\", tietokoneesi ei todennäköisesti ole yhteydessä "
+"Internetiin tai ei voi saavuttaa nimipalvelinta (DNS)."
 
 #: desktop-guide/C/internet-networks.xml:127(title)
 msgid "Wireless troubleshooting"
-msgstr ""
+msgstr "Langattoman yhteyden vianmääritys"
 
 #: desktop-guide/C/internet-networks.xml:129(para)
 msgid ""
@@ -2667,24 +2725,29 @@ msgid ""
 "carried out in the order shown, unless you are pointed to a different "
 "subsection"
 msgstr ""
+"Huomaa että askeleet tässä vianmääritysoppaassa ovat suunniteltu käytäväksi "
+"läpi järjestyksessä, ellei sinua ohjata toiseen alaosioon"
 
 #: desktop-guide/C/internet-networks.xml:134(title)
 msgid "Check that the device is turned on"
-msgstr ""
+msgstr "Tarkista että laite on kytketty päälle"
 
 #: desktop-guide/C/internet-networks.xml:136(para)
 msgid ""
 "Many wireless network devices can be turned on or off. Check for a hardware "
 "switch or a keyboard function key to turn the wireless device on."
 msgstr ""
+"Monet langattomat verkkolaitteet voidaan kytkeä päälle ja pois päältä. "
+"Tarkista laitteistokytkimesi tai funktionäppäin kytkeäksesi langattoman "
+"laitteen päälle."
 
 #: desktop-guide/C/internet-networks.xml:138(para)
 msgid "If the device is turned on, continue to the next topic."
-msgstr ""
+msgstr "Jos laite on kytketty päälle, jatka seuraavaan osioon."
 
 #: desktop-guide/C/internet-networks.xml:142(title)
 msgid "Check if the device is recognized"
-msgstr ""
+msgstr "Tarkista onko laite tunnistettu"
 
 #: desktop-guide/C/internet-networks.xml:144(para)
 msgid ""
@@ -2696,6 +2759,13 @@ msgid ""
 "<guilabel>CLAIMED</guilabel>, <guilabel>UNCLAIMED</guilabel>, "
 "<guilabel>ENABLED</guilabel> or <guilabel>DISABLED</guilabel>."
 msgstr ""
+"Avaa komentokehote (<application><menuchoice><placeholder-1/"
+"><guisubmenu>Apuohjelmat</guisubmenu><guimenuitem>Pääteohjelma</"
+"guimenuitem></menuchoice></application>), kirjoita komento <userinput>sudo "
+"lshw -C network</userinput> ja paina <keycap><placeholder-2/>Enter</keycap>. "
+"Näet jotain tekstiä, mukaan lukien jonkin sanoista <guilabel>CLAIMED</"
+"guilabel>, <guilabel>UNCLAIMED</guilabel>, <guilabel>ENABLED</guilabel> tai "
+"<guilabel>DISABLED</guilabel>."
 
 #: desktop-guide/C/internet-networks.xml:147(para)
 msgid ""
@@ -2703,12 +2773,16 @@ msgid ""
 "functioning. Continue to <xref linkend=\"network-troubleshooting-ndiswrapper"
 "\"/>."
 msgstr ""
+"<guilabel>CLAIMED</guilabel> tarkoittaa että ajuri on ladattu mutta ei "
+"toimi. Jatka kohtaan <xref linkend=\"network-troubleshooting-ndiswrapper\"/>."
 
 #: desktop-guide/C/internet-networks.xml:148(para)
 msgid ""
 "<guilabel>UNCLAIMED</guilabel> indicates that there is no driver loaded. "
 "Continue to <xref linkend=\"network-troubleshooting-ndiswrapper\"/>."
 msgstr ""
+"<guilabel>UNCLAIMED</guilabel> tarkoittaa että ajuria ei ole ladattu. Jatka "
+"kohtaan <xref linkend=\"network-troubleshooting-ndiswrapper\"/>."
 
 #: desktop-guide/C/internet-networks.xml:149(para)
 msgid ""
@@ -2716,16 +2790,21 @@ msgid ""
 "working. Continue to section <xref linkend=\"network-troubleshooting-router"
 "\"/>."
 msgstr ""
+"<guilabel>ENABLED</guilabel> tarkoittaa että ajuri on ladattu ja se toimii. "
+"Jatka kohtaan <xref linkend=\"network-troubleshooting-router\"/>."
 
 #: desktop-guide/C/internet-networks.xml:150(para)
 msgid ""
 "<guilabel>DISABLED</guilabel> indicates the driver is installed, but "
 "disabled. Continue to <xref linkend=\"network-troubleshoothing-wifi-on\"/>."
 msgstr ""
+"<guilabel>DISABLED</guilabel> tarkoittaa että ajuri on ladattu mutta "
+"kytketty pois päältä. Jatka kohtaan <xref linkend=\"network-troubleshoothing-"
+"wifi-on\"/>."
 
 #: desktop-guide/C/internet-networks.xml:155(title)
 msgid "Using Windows wireless drivers"
-msgstr ""
+msgstr "Langattoman laitteen Windows-ajurien käyttäminen"
 
 #: desktop-guide/C/internet-networks.xml:157(para)
 msgid ""
@@ -2733,16 +2812,22 @@ msgid ""
 "This allows you to use a Windows wireless device driver under Xubuntu. To "
 "start using <application>NDISWrapper</application>:"
 msgstr ""
+"Xubuntu tukee järjestelmää joka tunnetaan nimellä <application>NDISWrapper</"
+"application>. Tämä järjestelmä mahdollistaa langattomien laitteiden Windows-"
+"ajurien käyttämisen Xubuntussa. Aloittaaksesi <application>NDISWrapper</"
+"application>-sovelluksen käytön:"
 
 #: desktop-guide/C/internet-networks.xml:160(para)
 msgid ""
 "Obtain the Windows driver for your network device and locate the file that "
 "ends with .inf"
 msgstr ""
+"Hanki Windows-ajuri verkkolaitteellesi ja etsi tiedosto jonka tiedostopääte "
+"on .inf"
 
 #: desktop-guide/C/internet-networks.xml:161(para)
 msgid "Install the <literal><placeholder-1/>ndisgtk</literal> package"
-msgstr ""
+msgstr "Asenna <literal><placeholder-1/>ndisgtk</literal> -paketti"
 
 #: desktop-guide/C/internet-networks.xml:162(para)
 msgid ""
@@ -2750,6 +2835,9 @@ msgid ""
 "Manager</guimenuitem><guimenuitem>Windows Wireless Drivers</guimenuitem></"
 "menuchoice></application>"
 msgstr ""
+"Mene valikkoon <application><menuchoice><placeholder-1/"
+"><guimenuitem>Asetukset</guimenuitem><guimenuitem>Windows Wireless Drivers</"
+"guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/internet-networks.xml:163(para)
 msgid "Select <guibutton>Install new driver</guibutton>"
@@ -2763,11 +2851,11 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:165(para)
 msgid "Click <guibutton>OK</guibutton>"
-msgstr ""
+msgstr "Napsauta <guibutton>OK</guibutton>"
 
 #: desktop-guide/C/internet-networks.xml:170(title)
 msgid "Checking for a connection to the router"
-msgstr ""
+msgstr "Yhteyden tarkistaminen reitittimeen"
 
 #: desktop-guide/C/internet-networks.xml:172(para)
 msgid ""
@@ -2777,6 +2865,11 @@ msgid ""
 "<userinput>iwconfig</userinput> and press <keycap><placeholder-2/>Enter</"
 "keycap>."
 msgstr ""
+"Avaa komentokehote (<application><menuchoice><placeholder-1/"
+"><guisubmenu>Apuohjelmat</guisubmenu><guimenuitem>Pääteohjelma</"
+"guimenuitem></menuchoice></application>), kirjoita komento "
+"<userinput>iwconfig</userinput> ja paina <keycap><placeholder-2/>Enter</"
+"keycap>."
 
 #: desktop-guide/C/internet-networks.xml:174(para)
 msgid ""
@@ -2784,20 +2877,25 @@ msgid ""
 "a problem with ACPI support. Boot Xubuntu with the <literal>pci=noacpi</"
 "literal> option."
 msgstr ""
+"Jos reitittimesi <guilabel>ESSID</guilabel> näytetään, sinulla voi olla "
+"ongelma ACPI-tuen kanssa. Käynnistä Xubuntu <literal>pci=noacpi</literal> -"
+"valitsimella."
 
 #: desktop-guide/C/internet-networks.xml:179(title)
 msgid "Advanced troubleshooting"
-msgstr ""
+msgstr "Edistynyt vianmääritys"
 
 #: desktop-guide/C/internet-networks.xml:181(para)
 msgid ""
 "The following troubleshooting methods are a bit more technical. Please try "
 "these methods only if the above methods failed."
 msgstr ""
+"Seuraavat vianmääritystavat ovat hieman teknisempiä. Koeta näitä tapoja vain "
+"jos yllä olevat tavat epäonnistuivat."
 
 #: desktop-guide/C/internet-networks.xml:184(title)
 msgid "Checking IP assignment"
-msgstr ""
+msgstr "IP-osoitteen osoituksen tarkistaminen"
 
 #: desktop-guide/C/internet-networks.xml:186(para)
 msgid ""
@@ -2808,6 +2906,12 @@ msgid ""
 "keycap>. If there is an IP address displayed, continue to <xref linkend="
 "\"network-troubleshooting-dns\"/>."
 msgstr ""
+"Avaa komentokehote (<application><menuchoice><placeholder-1/"
+"><guisubmenu>Apuohjelmat</guisubmenu><guimenuitem>Pääteohjelma</"
+"guimenuitem></menuchoice></application>), kirjoita komento "
+"<userinput>ifconfig</userinput> ja paina <keycap><placeholder-2/>Enter</"
+"keycap>. Jos IP-osoite näytetään, jatka kohtaan <xref linkend=\"network-"
+"troubleshooting-dns\"/>."
 
 #: desktop-guide/C/internet-networks.xml:188(para)
 msgid ""
@@ -2816,20 +2920,25 @@ msgid ""
 "<application>ifconfig</application> command: <userinput>sudo dhclient eth1</"
 "userinput>"
 msgstr ""
+"Syötä komentokehotteessa seuraava komento, korvaten <literal>eth1</literal> "
+"sillä yhteyden nimellä, joka näytettiin komennolla <application>ifconfig</"
+"application>: <userinput>sudo dhclient eth1</userinput>"
 
 #: desktop-guide/C/internet-networks.xml:191(para)
 msgid ""
 "If you receive a message that says bound to <literal>xxx.xxx.xxx.xxx</"
 "literal> continue to <xref linkend=\"network-troubleshooting-dns\"/>"
 msgstr ""
+"Jos saat viestin joka sanoo <literal>bound to xxx.xxx.xxx.xxx</literal>, "
+"jatka kohtaan <xref linkend=\"network-troubleshooting-dns\"/>"
 
 #: desktop-guide/C/internet-networks.xml:192(para)
 msgid "If not, reboot the system"
-msgstr ""
+msgstr "Jos et, käynnistä järjestelmä uudelleen"
 
 #: desktop-guide/C/internet-networks.xml:197(title)
 msgid "Check Domain Name Servers (DNS)"
-msgstr ""
+msgstr "Tarkista nimipalvelimet (DNS)"
 
 #: desktop-guide/C/internet-networks.xml:199(para)
 msgid ""
@@ -2838,6 +2947,10 @@ msgid ""
 "guimenuitem></menuchoice></application>) and type the command <userinput>nm-"
 "tool</userinput> and press <keycap><placeholder-2/>Enter</keycap>."
 msgstr ""
+"Avaa komentokehote (<application><menuchoice><placeholder-1/"
+"><guisubmenu>Apuohjelmat</guisubmenu><guimenuitem>Pääteohjelma</"
+"guimenuitem></menuchoice></application>), kirjoita komento <userinput>nm-"
+"tool</userinput> ja paina <keycap><placeholder-2/>Enter</keycap>."
 
 #: desktop-guide/C/internet-networks.xml:201(para)
 msgid ""
@@ -2849,6 +2962,12 @@ msgid ""
 "<literal>NOERROR</literal>in the header section of the output, your DNS is "
 "working."
 msgstr ""
+"Tarkistaaksesi toimiiko listattu nimipalvelin, avaa komentokehote "
+"(<application><menuchoice><placeholder-1/><guisubmenu>Apuohjelmat</"
+"guisubmenu><guimenuitem>Pääteohjelma</guimenuitem></menuchoice></"
+"application>), kirjoita komento <userinput>dig xubuntu.org</userinput> ja "
+"paina <keycap><placeholder-2/>Enter</keycap>. Jos näet sanan "
+"<literal>NOERROR</literal> viestin otsikkoalueella, nimipalvelimesi toimivat."
 
 #: desktop-guide/C/internet-networks.xml:203(para)
 msgid ""
@@ -2857,10 +2976,14 @@ msgid ""
 "have this information, continue to <xref linkend=\"network-connect-disconnect"
 "\"/> and <xref linkend=\"network-configure\"/> if needed."
 msgstr ""
+"Jos nimipalvelinasetuksia (DNS) ei ole listattu, ota yhteyttä "
+"palveluntarjoajaasi, jolta saat tarvittavat nimipalvelintiedot. Kun sinulla "
+"on tämä tieto, jatka tarvittaessa kohtiin <xref linkend=\"network-connect-"
+"disconnect\"/> ja <xref linkend=\"network-configure\"/>."
 
 #: desktop-guide/C/internet-networks.xml:209(title)
 msgid "Connecting to servers"
-msgstr ""
+msgstr "Palvelimiin yhdistäminen"
 
 #: desktop-guide/C/internet-networks.xml:211(para)
 msgid ""
@@ -2869,24 +2992,34 @@ msgid ""
 "guisubmenu><guimenuitem>Gigolo</guimenuitem></menuchoice></application>. To "
 "connect to a server, follow the steps below:"
 msgstr ""
+"Yhdistääksesi erilaisiin palvelimiin, voit käyttää ohjelmaa valikosta "
+"<application><menuchoice><placeholder-1/><guisubmenu>Järjestelmä</"
+"guisubmenu><guimenuitem>Gigolo</guimenuitem></menuchoice></application>. "
+"Yhdistääksesi palvelimeen, seuraa alla olevia ohjeita:"
 
 #: desktop-guide/C/internet-networks.xml:214(para)
 msgid ""
 "Go to <menuchoice><guimenu>Actions</guimenu><guimenuitem>Connect</"
 "guimenuitem></menuchoice>"
 msgstr ""
+"Valitse <menuchoice><guimenu>Suorita</guimenu><guimenuitem>Yhdistä</"
+"guimenuitem></menuchoice>"
 
 #: desktop-guide/C/internet-networks.xml:215(para)
 msgid ""
 "Select the appropriate <guilabel>Service type</guilabel> and insert "
 "connection information"
 msgstr ""
+"Valitse asianmukainen <guilabel>Palvelutyyppi</guilabel> ja syötä yhteyden "
+"yksityiskohdat"
 
 #: desktop-guide/C/internet-networks.xml:216(para)
 msgid ""
 "Click <guibutton>Connect</guibutton>; if you are attempting to connect to a "
 "server that requires you to log in, you will be prompted to enter a password"
 msgstr ""
+"Napsauta <guibutton>Yhdistä</guibutton>; jos yrität yhdistää palvelimeen "
+"joka vaatii sisäänkirjautumisen, sinun pyydetään syöttämään salasanasi"
 
 #: desktop-guide/C/internet-networks.xml:219(para)
 msgid ""
@@ -2898,10 +3031,18 @@ msgid ""
 "set other options, including the option to auto-connect. Once you are done, "
 "click <guibutton>OK</guibutton> to create the bookmark."
 msgstr ""
+"Kun sinut on onnistuneesti yhdistetty palvelimeen, kuvake yhteyden tiedoilla "
+"ilmestyy <application>Gigolo</application> -sovelluksen ikkunaan. Luodaksesi "
+"yhteyksistä kirjanmerkkejä, napsauta yhteyttä hiiren oikealla painikkeella "
+"ja valitse <menuchoice><guimenuitem>Luo kirjanmerkki</guimenuitem></"
+"menuchoice>. <guilabel>Muokkaa kirjanmerkkiä</guilabel> -ikkunassa voit "
+"nimetä kirjanmerkin ja asettaa muita asetuksia, mukaan lukien automaattisen "
+"yhdistämisen. Kun olet valmis, napsauta <guibutton>OK</guibutton> luodaksesi "
+"kirjanmerkin."
 
 #: desktop-guide/C/internet-networks.xml:221(para)
 msgid "The Windows Share username should be in the format DOMAIN\\username"
-msgstr ""
+msgstr "Windows-jaon käyttäjänimi tulee olla muodossa TOIMIALUE\\käyttäjänimi"
 
 #: desktop-guide/C/internet-networks.xml:223(para)
 msgid ""
@@ -2909,6 +3050,9 @@ msgid ""
 ">gvfs-backends</literal> needs to be installed in order to connect using the "
 "<application>Thunar File Manager</application>."
 msgstr ""
+"SAMBA-verkkoja (Windows-jaot) varten paketin <literal><placeholder-1/>gvfs-"
+"backends</literal> tulee olla asennettuina jotta jakoja voi käyttää "
+"<application>Thunar</application>-tiedostonhallinnalla."
 
 #: desktop-guide/C/index.xml:12(title) desktop-guide/C/index.xml:15(title)
 msgid "Xubuntu Documentation"
@@ -3350,7 +3494,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:92(para)
 msgid "Be careful not to delete files that you still need!"
-msgstr "Ole varovainen ettet poista tiedostoja joita vielä tarvitset!"
+msgstr "Ole varovainen, ettet poista tiedostoja, joita vielä tarvitset!"
 
 #: desktop-guide/C/hardware-devices.xml:96(title)
 msgid "Partitioning a Device"
@@ -3400,6 +3544,10 @@ msgid ""
 "the <xref linkend=\"partitioning-create\"/> section. Otherwise, follow the "
 "instructions below:"
 msgstr ""
+"Luodaksesi uuden osion valmiiksi osioituun laitteeseen sinun tulee ensin "
+"muuttaa olemassa olevan osion kokoa. Jos sinulla on vapaata tilaa vapaana, "
+"siirry suoraan kohtaan <xref linkend=\"partitioning-create\"/>. Muussa "
+"tapauksessa, noudata alla olevia ohjeita:"
 
 #: desktop-guide/C/hardware-devices.xml:110(para)
 #: desktop-guide/C/hardware-devices.xml:124(para)
@@ -3408,6 +3556,7 @@ msgid ""
 "Select the device to partition from the drop-down list at the top-right of "
 "the main window"
 msgstr ""
+"Valitse osioitava laite pudotusvalikosta pääikkunan oikeasta yläkulmasta"
 
 #: desktop-guide/C/hardware-devices.xml:111(para)
 msgid ""
@@ -3415,6 +3564,9 @@ msgid ""
 "you want to resize and from the menu, choose <menuchoice><guimenu>Partition</"
 "guimenu><guimenuitem>Unmount</guimenuitem></menuchoice>"
 msgstr ""
+"Lista osioista ilmestyy pääikkunaan. Valitse osio jonka kokoa haluat "
+"muuttaa. Valitse sen jälkeen valikosta <menuchoice><guimenu>Osio</"
+"guimenu><guimenuitem>Irrota</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/hardware-devices.xml:112(para)
 msgid ""
@@ -3426,10 +3578,17 @@ msgid ""
 "guilabel> to free space before this partition. Alternatively you can use the "
 "slider to adjust the partition size."
 msgstr ""
+"Muuttaaksesi osion kokoa valitse <menuchoice><guimenu>Osio</"
+"guimenu><guimenuitem>Muuta kokoa tai siirrä</guimenuitem></menuchoice>. "
+"<guilabel>Muuta kokoa tai siirrä</guilabel> -ikkuna näytetään. Voit käyttää "
+"<guilabel>Vapaata tilaa jälkeen (MiB)</guilabel> -kenttää valitaksesi kuinka "
+"paljon tilaa tyhjennetään tämän osion jälkeen, tai <guilabel>Vapaata tilaa "
+"ennen (MiB)</guilabel> -kenttää tyhjentääksesi tilaa ennen tätä osiota. "
+"Vaihtoehtoisesti voit käyttää liukuria määrittääksesi osion koon."
 
 #: desktop-guide/C/hardware-devices.xml:113(para)
 msgid "Click <guibutton>Resize/Move</guibutton>"
-msgstr ""
+msgstr "Napsauta <guibutton>Muuta kokoa tai siirrä</guibutton>"
 
 #: desktop-guide/C/hardware-devices.xml:114(para)
 #: desktop-guide/C/hardware-devices.xml:129(para)
@@ -3438,6 +3597,8 @@ msgid ""
 "To apply the changes, click <menuchoice><guimenu>Edit</"
 "guimenu><guimenuitem>Apply All Operations</guimenuitem></menuchoice>"
 msgstr ""
+"Vahvistaaksesi muutokset, napsauta <menuchoice><guimenu>Muokkaa</"
+"guimenu><guimenuitem>Toteuta kaikki toimenpiteet</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/hardware-devices.xml:119(title)
 msgid "Creating a new partition"
@@ -3453,22 +3614,27 @@ msgid ""
 "<guilabel>unallocated</guilabel>, right-click on it and click "
 "<menuchoice><guimenuitem>New</guimenuitem></menuchoice>"
 msgstr ""
+"Lista osioista ilmestyy. Valitse osio, joka on <guilabel>varaamaton</"
+"guilabel>, napsauta sitä hiiren oikealla painikkeella ja valitse "
+"<menuchoice><guimenuitem>Uusi</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/hardware-devices.xml:126(para)
 msgid ""
 "From the <guilabel>File system:</guilabel> pick list, choose the desired "
 "type of filesystem to use."
 msgstr ""
+"Valitse pudotusvalikosta toivomasi mukainen <guilabel>tiedostojärjestelmä</"
+"guilabel>."
 
 #: desktop-guide/C/hardware-devices.xml:127(para)
 msgid ""
 "If desired, enter a description for the partition in the <guilabel>Label: </"
 "guilabel> field."
-msgstr ""
+msgstr "Jos haluat, syötä osion <guilabel>nimi</guilabel>."
 
 #: desktop-guide/C/hardware-devices.xml:128(para)
 msgid "Click the <guibutton>Add</guibutton> button."
-msgstr ""
+msgstr "Napsauta <guibutton>Lisää</guibutton>."
 
 #: desktop-guide/C/hardware-devices.xml:134(title)
 msgid "Formatting a partition"
@@ -3484,6 +3650,9 @@ msgid ""
 "<menuchoice><guimenu>Partition</guimenu><guimenuitem>Unmount</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Lista osioista ilmestyy. Valitse osio jonka haluat alustaa ja mene valikkoon "
+"<menuchoice><guimenu>Osio</guimenu><guimenuitem>Irrota</guimenuitem></"
+"menuchoice>."
 
 #: desktop-guide/C/hardware-devices.xml:141(para)
 msgid ""
@@ -3492,6 +3661,9 @@ msgid ""
 "guimenuitem></menuchoice> and select from the list the type of filesystem to "
 "format the partition to"
 msgstr ""
+"Valitse osio jonka haluat alustaa ja mene valikkoon "
+"<menuchoice><guimenu>Osio</guimenu><guimenuitem>Alusta muotoon</"
+"guimenuitem></menuchoice> ja valitse haluamasi tiedostojärjestelmä listasta"
 
 #: desktop-guide/C/hardware-devices.xml:148(title)
 msgid "Mounting and unmounting devices"
@@ -3503,6 +3675,8 @@ msgid ""
 "mounted by the operating system so that you are able to access the files on "
 "the device."
 msgstr ""
+"Kun liität siirrettävän taltion tietokoneeseesi, se täytyy liittää "
+"käyttöjärjestelmään jotta sen tiedostot ovat saatavilla."
 
 #: desktop-guide/C/hardware-devices.xml:152(para)
 msgid ""
@@ -3510,6 +3684,9 @@ msgid ""
 "automatically, see the Ubuntu community wiki page for the <ulink url="
 "\"https://help.ubuntu.com/community/Mount\">mount command</ulink>."
 msgstr ""
+"Löytääksesi tietoa kuinka taltioita voi liittää ja irrottaa manuaalisesti ja/"
+"tai automaattisesti, katso <ulink url=\"https://help.ubuntu.com/community/"
+"Mount\">mount command</ulink> -sivu Ubuntun yhteisöwikistä."
 
 #: desktop-guide/C/hardware-devices.xml:154(para)
 msgid ""
@@ -3522,6 +3699,13 @@ msgid ""
 "could lose the files. To prevent this, you must always unmount a removable "
 "device before disconnecting it."
 msgstr ""
+"Kun kopioit tiedostoja siirrettävälle taltiolle, niitä ei aina kirjoiteta "
+"laitteelle välittömästi. Sen sijaan ne sijoitetaan usein jonoon jotta ne "
+"voidaan tehokkuussyistä siirtää kaikki laitteelle yhdellä kerralla. Komennon "
+"<userinput>sync</userinput> ajaessasi voit pakottaa jonossa olevan tiedon "
+"kirjoittamisen siirrettäville taltioille. Jos poistat laitteen ennen kuin "
+"kaikki tiedostot on siirretty, voit menettää nämä tiedostot. Estääksesi "
+"tämän, sinun tulee aina irrottaa siirrettävä taltio ennen kuin poistat sen."
 
 #: desktop-guide/C/hardware-devices.xml:159(title)
 msgid "Laptops"
@@ -3656,7 +3840,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:198(title)
 msgid "Finding laptop testing reports"
-msgstr ""
+msgstr "Kannettavien tietokoneiden testitulokset"
 
 #: desktop-guide/C/hardware-devices.xml:200(para)
 msgid ""
@@ -3671,6 +3855,17 @@ msgid ""
 "com/\">http://laptop.qa.ubuntu.com/</ulink>. You can also find help on "
 "#ubuntu-quality or #xubuntu-devel in the Freenode IRC network."
 msgstr ""
+"Ubuntun yhteisö testaa monia kannettavia tietokoneita jatkuvasti jotta "
+"lukuisten ominaisuuksien oikea toiminnallisuus voidaan varmistaa. Nämä "
+"testitulokset ovat luettavissasi ja voivat auttaa sinua ymmärtämään ongelmia "
+"joita sinulla on kannettavasi kanssa. Katso <ulink url=\"https://wiki.ubuntu."
+"com/Testing/Laptop\">Laptop Testing</ulink> -sivu Ubuntun yhteisöwikissä "
+"täydellisestä listasta saatavilla olevista testituloksista. Sivulla on myös "
+"ohjeet kuinka voit auttaa projektia ja lähettää omaan kannettavaan "
+"tietokoneeseesi liittyviä tietoja. Voit lähettää testituloksesi osoitteessa "
+"<ulink url=\"http://laptop.qa.ubuntu.com/\">http://laptop.qa.ubuntu.com/</"
+"ulink>. Voit saada apua myös #ubuntu-quality tai #xubuntu-devel -kanavilta "
+"Freenoden IRC-verkossa."
 
 #: desktop-guide/C/hardware-devices.xml:205(title)
 msgid "Suspending and Hibernating"
@@ -3812,30 +4007,43 @@ msgid ""
 "computer and it should return to normal. If a program does not work "
 "properly, try closing the program and then starting it again."
 msgstr ""
+"Jos kärsit mistään luetelluista ongelmista, sinun tulisi lähettää "
+"bugiraportti <ulink url=\"http://launchpad.net/\">Launchpad</ulink>-"
+"palveluun. Nämä ongelmat voidaan toivottavasti korjata tulevissa Xubuntun "
+"versioissa. Jos laitteistosi ei toimi oikein palauduttuaan keskeytys- tai "
+"lepotilasta, käynnistä tietokoneesi uudelleen ja sen pitäisi palata "
+"normaaliin tilaan. Jos ohjelma ei toimi oikein, kokeile sen sulkemista ja "
+"uudelleen avaamista."
 
 #: desktop-guide/C/hardware-devices.xml:236(para)
 msgid ""
 "Make sure that you save all of your open documents before testing for "
 "suspend and hibernate problems."
 msgstr ""
+"Varmista että tallennat kaikki työsi ennen kuin kokeilet onko sinulla "
+"keskeytys- tai lepotilaan liittyviä ongelmia."
 
 #: desktop-guide/C/hardware-devices.xml:240(title)
 msgid "Enabling hibernation"
-msgstr ""
+msgstr "Lepotilan käyttöön kytkeminen"
 
 #: desktop-guide/C/hardware-devices.xml:242(para)
 msgid "To enable and use hibernation with Xubuntu, do the following:"
-msgstr ""
+msgstr "Jos haluat käyttää lepotilaa Xubuntussa, toimi seuraavasti:"
 
 #: desktop-guide/C/hardware-devices.xml:245(para)
 msgid ""
 "Install the <application>pm-utils</application> package from the "
 "<application>Ubuntu Software Center</application>."
 msgstr ""
+"Asenna <application>pm-utils</application> -paketti <application>Ubuntun "
+"sovellusvalikoima</application> -sovelluksesta."
 
 #: desktop-guide/C/hardware-devices.xml:246(para)
 msgid "From the command line, enter: <userinput>sudo pm-hibernate</userinput>."
 msgstr ""
+"Syötä komentoriville seuraava komento: <userinput>sudo pm-hibernate</"
+"userinput>"
 
 #: desktop-guide/C/hardware-devices.xml:247(para)
 msgid "Enter your password."
@@ -3843,11 +4051,11 @@ msgstr "Syötä salasanasi."
 
 #: desktop-guide/C/hardware-devices.xml:248(para)
 msgid "To resume from hibernation, press the power button."
-msgstr ""
+msgstr "Palautuaksesi lepotilasta, paina virtapainiketta."
 
 #: desktop-guide/C/hardware-devices.xml:254(title)
 msgid "I get strange patterns on the screen when I hibernate my computer"
-msgstr ""
+msgstr "Näen omituisia kuvioita näytölläni kun siirrän tietokoneeni lepotilaan"
 
 #: desktop-guide/C/hardware-devices.xml:256(para)
 msgid ""
@@ -3859,6 +4067,12 @@ msgid ""
 "problem with hibernation. See <xref linkend=\"suspending-troubleshooting\"/> "
 "for more information."
 msgstr ""
+"Tietokoneesi voi näyttää mustavalkoisia kuvioita juuri ennen kuin siirrän "
+"tietokoneesi lepotilaan. Tästä ei tarvitse yleensä huolestua ja se on vain "
+"tapa jolla jotkin näytönohjaimet vastaavat lepotilaan siirtymisen "
+"ensimmäisiin vaiheisiin. Jos tietokoneesi näyttää kuvioita pidemmän ajan, "
+"eikä sammu, voi sinulla olla ongelmia lepotilaan siirtymisen kanssa. "
+"Lisätietoja saat kohdasta <xref linkend=\"suspending-troubleshooting\"/>."
 
 #: desktop-guide/C/hardware-devices.xml:261(title)
 msgid "Mice and keyboards"
@@ -4392,6 +4606,12 @@ msgid ""
 "If you're used to running many applications simultaneously, this is a handy "
 "way to keep your screen from getting too crowded."
 msgstr ""
+"<guilabel>Toimintapainike</guilabel> -osan vasemmalla puolella on "
+"<guilabel>Työtilanvaihtaja</guilabel>, joka näyttää värillisiltä "
+"neliskulmioilta. Näiden napsauttaminen mahdollistaa sinun siirtymisen "
+"työtilojen välillä, jotka voivat kaikki sisältää eri käynnissä olevia "
+"sovelluksia. Jos olet tottunut ajamaan useita sovelluksia samaan aikaan, "
+"työtilat ovat kätevä tapa ehkäistä näyttösi ruuhkautumista."
 
 #: desktop-guide/C/guide-desktop.xml:44(para)
 msgid ""
@@ -4400,6 +4620,10 @@ msgid ""
 "system sound volume. Other notification icons may appear as necessary, for "
 "instance when software updates are available."
 msgstr ""
+"Kellon vasemmalla puolella on <guilabel>Ilmaisinalue</guilabel>. Tässä näet "
+"kuvakkeita, jotka kertovat verkkoyhteytesi ja äänenvoimakkuutesi tilasta. "
+"Muita ilmaisinkuvakkeita voi ilmestyä mikäli tarpeellista, esimerkiksi "
+"mikäli ohjelmistopäivityksiä on saatavilla."
 
 #: desktop-guide/C/guide-desktop.xml:51(title)
 msgid "Bottom Panel"
@@ -4435,6 +4659,14 @@ msgid ""
 "guimenuitem></menuchoice>. From here you can change the wallpaper and modify "
 "menu and icon behavior."
 msgstr ""
+"Oletustyöpöydällä on vain kolme kuvaketta: <guilabel>Kotikansio</guilabel>, "
+"<guilabel>Tiedostojärjestelmä</guilabel> ja <guilabel>Roskakori</guilabel> "
+"(kuvakkeet siirrettäville laitteille, kuten CD-levyt ja muistitikut, "
+"ilmestyvät myös mikäli niitä on kytkettyinä tai liitettyinä). Voit mukauttaa "
+"työpöytääsi napauttamalla tyhjää aluetta työpöydällä hiiren oikealla "
+"painikkeella ja valitsemalla <menuchoice><guimenuitem>Työpöydän asetukset..."
+"</guimenuitem></menuchoice>. Täällä voit vaihtaa taustakuvasi sekä mukauttaa "
+"valikon ja kuvakkeiden käytöstä."
 
 #: desktop-guide/C/guide-desktop.xml:73(title)
 msgid "Files and directories"
@@ -4450,12 +4682,20 @@ msgid ""
 "<guilabel>Home</guilabel> or <guilabel>File System</guilabel> icons on your "
 "desktop."
 msgstr ""
+"Xubuntu käyttää Xfce:n tiedostonhallintasovellusta, jonka nimi on "
+"<application>Thunar</application>. Selkeyden vuoksi viittaamme siihen "
+"nimellä tiedostonhallinta. Avaa se valikosta "
+"<application><menuchoice><placeholder-1/><guisubmenu>Apuohjelmat</"
+"guisubmenu><guimenuitem>Tiedostonhallinta</guimenuitem></menuchoice></"
+"application> tai kaksoisnapauttamalla kuvaketta <guilabel>Kotikansio</"
+"guilabel> tai <guilabel>Tiedostojärjestelmä</guilabel> työpöydälläsi."
 
 #: desktop-guide/C/guide-desktop.xml:81(title)
 msgid "Navigation"
-msgstr ""
+msgstr "Navigoiminen"
 
 #: desktop-guide/C/guide-desktop.xml:83(para)
+#, fuzzy
 msgid ""
 "The File Manager's default view consists of a shortcut pane on the left "
 "side, the main area on the right, and a pathbar above the main area. The "
@@ -4470,12 +4710,27 @@ msgid ""
 "inside. When you're done, return to your home directory by clicking on the "
 "top shortcut."
 msgstr ""
+"Tiedostonhallinnan oletusnäkymä koostuu pikavalintapalkista vasemmalla "
+"reunalla, päänäkymästä oikealla sekä sijaintipalkista päänäkymän "
+"yläpuolella. Pikavalintapalkissa on pikavalintoja eri hakemistoihin "
+"järjestelmässäsi. Ensimmäinen pikavalinta <guilabel>PLACES</guilabel> -"
+"osiossa vie sinut kotihakemistoosi, hakemistoon johon voit tallentaa kaikki "
+"henkilökohtaiset tiedostosi, ja jolla on nykyisen käyttäjän nimi. Tämä "
+"hakemisto on asennettaessa tyhjä. <guilabel>Tiedostojärjestelmä</guilabel> -"
+"pikavalinta <guilabel>DEVICES</guilabel> -osion alla vie sinut "
+"tiedostojärjestelmäsi juureen. Voit haluta selata sitä hieman, vaikka se voi "
+"olla sinulle hämmentävä, jos Linux ei ole sinulle ennestään tuttu. Siirry "
+"eri hakemistoihin ja katsele mitä ne sisältävät. Kun olet valmis, palaa "
+"kotihakemistoosi napsauttamalla kotihakemiston pikavalintaa."
 
 #: desktop-guide/C/guide-desktop.xml:93(para)
 msgid ""
 "You can add your own shortcuts by simply dragging folders to the shortcut "
 "pane. This will allow you to access important folders instantly!"
 msgstr ""
+"Voit lisätä omia pikavalintojasi yksinkertaisesti vetämällä ja pudottamalla "
+"hakemistoja pikavalintapalkkiin. Tämä mahdollistaa pääsysi tärkeisiin "
+"hakemistoihin välittömästi!"
 
 #: desktop-guide/C/guide-desktop.xml:96(para)
 msgid ""
@@ -4486,6 +4741,13 @@ msgid ""
 "Alternatively, select one file, hold down the <keycap>Shift</keycap> key, "
 "and increase/decrease the selection using the arrow keys."
 msgstr ""
+"Päänäkymä näyttää aina nykyisen hakemiston sisällön. Kaksoisnapsauta "
+"hakemistoja siirtyäksesi niihin ja napsauta tiedostoja/hakemistoja hiiren "
+"oikealla painikkeella nähdäksesi valikon jossa on joitain valintoja joita "
+"voit suorittaa niille. Valitse useampia tiedostoja vetämällä hiirellä "
+"suorakulmio niiden yli. Vaihtoehtoisesti valitse yksi tiedosto, paina "
+"<keycap>Shift</keycap>-näppäin pohjaan ja käytä nuolinäppäimiä "
+"kasvattaaksesi ja pienentääksesi valintaa."
 
 #: desktop-guide/C/guide-desktop.xml:102(para)
 msgid ""
@@ -4497,12 +4759,20 @@ msgid ""
 "that right-clicking on pathbar icons will also bring up a pop-up window with "
 "some options."
 msgstr ""
+"Nähdäksesi helposti polun nykyiseen hakemistoon, voit vaihtaa "
+"oletusnäyttöasetuksia. Valitse tiedostonhallinnan valikosta "
+"<menuchoice><guimenuitem>Näytä</guimenuitem><guimenuitem>Sijainnin valitsin</"
+"guimenuitem><guimenuitem>Polkupalkki</guimenuitem></menuchoice>. Nyt voit "
+"napsauttaa mitä tahansa polkupalkin kuvaketta vaihtaaksesi hakemistoon jota "
+"se kuvastaa. Huomaa että polkupalkin kuvakkeiden napsauttaminen hiiren "
+"oikealla painikkeella avaa myös valikon, jossa on joitain valintoja."
 
 #: desktop-guide/C/guide-desktop.xml:106(title)
 msgid "Creating and deleting files and folders"
-msgstr ""
+msgstr "Tiedostojen ja hakemistojen luominen ja poistaminen"
 
 #: desktop-guide/C/guide-desktop.xml:108(para)
+#, fuzzy
 msgid ""
 "To create a new document, right-click on some empty space in your home "
 "directory and select <menuchoice><guimenuitem>Create Document</"
@@ -4515,6 +4785,17 @@ msgid ""
 "to Trash</guimenuitem></menuchoice> to remove it. The file will be put into "
 "the Trash."
 msgstr ""
+"Luodaksesi uuden asiakirjan, napsauta tyhjää tilaa kotihakemistossasi hiiren "
+"oikealla painikkeella ja valitse <menuchoice><guimenuitem>Luo asiakirja</"
+"guimenuitem><guimenuitem>Tyhjä tiedosto</guimenuitem></menuchoice> "
+"valikosta. Tiedostonhallinta kysyy sinulta tiedoston nimeä. Hyväksy "
+"ehdotettu nimi. Tämän jälkeen näet uuden tiedoston kotihakemistossasi. "
+"Napsauta sitä hiiren oikealla painikkeella ja valitse "
+"<menuchoice><guimenuitem>Ominaisuudet...</guimenuitem></menuchoice>. Tämä "
+"valinta näyttää sinulle joitain tietoja tiedostosta. Napsauta tiedostoa "
+"vielä kerran hiiren oikealla painikkeella ja valitse "
+"<menuchoice><guimenuitem>Move to Trash</guimenuitem></menuchoice> "
+"poistaaksesi sen. Tiedosto siirretään roskakoriin."
 
 #: desktop-guide/C/guide-desktop.xml:118(para)
 msgid ""
@@ -4522,6 +4803,9 @@ msgid ""
 "guilabel>, right-click the file and click <menuchoice><guimenuitem>Restore</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Jos haluat peruuttaa tiedoston poistamisen, avaa <guilabel>Roskakori</"
+"guilabel>, napsauta tiedostoa hiiren oikealla painikkeella ja valitse "
+"<menuchoice><guimenuitem>Palauta</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/guide-desktop.xml:122(para)
 msgid ""
@@ -4532,22 +4816,32 @@ msgid ""
 "click on it to enter it. To rename or remove the folder, right-click on it "
 "and choose the appropriate option from the pop-up menu."
 msgstr ""
+"Luodaksesi uuden hakemiston, napsauta tyhjää tilaa päänäkymässä ja valitse "
+"<menuchoice><guimenuitem>Luo kansio...</guimenuitem></menuchoice>. "
+"Tiedostonhallinta kysyy sinulta hakemiston nimeä. Kirjoita jotain ja paina "
+"<keycap><placeholder-1/>Enter</keycap>. Näet tämän tiedoston "
+"kotihakemistossasi. Kaksoisnapsauta sitä siirtyäksesi hakemistoon. "
+"Muuttaaksesi hakemiston nimen tai poistaaksesi sen, napsauta sitä hiiren "
+"oikealla painikkeella ja valitse asianmukainen kohta valikosta."
 
 #: desktop-guide/C/guide-desktop.xml:130(title)
 msgid "Copying"
-msgstr ""
+msgstr "Kopioiminen"
 
 #: desktop-guide/C/guide-desktop.xml:132(para)
 msgid ""
 "To copy and move files on your computer, just click and drag files and "
 "folders to other folders."
 msgstr ""
+"Kopioidaksesi ja siirtääksesi tiedostoja tietokoneellasi, vedä ja pudota "
+"tiedostoja ja hakemistoja toisiin hakemistoihin."
 
 #: desktop-guide/C/guide-desktop.xml:137(title)
 msgid "Removable devices"
-msgstr ""
+msgstr "Siirrettävät laitteet"
 
 #: desktop-guide/C/guide-desktop.xml:139(para)
+#, fuzzy
 msgid ""
 "When inserting CDs, USB sticks or other removable media into your computer, "
 "or hooking up removable devices like a music player, Xubuntu should "
@@ -4559,8 +4853,19 @@ msgid ""
 "<menuchoice><guimenuitem>Eject</guimenuitem></menuchoice>. The same applies "
 "for any other removable media."
 msgstr ""
+"Syöttäessäsi CD-levyjä, muistitikkuja tai muita irrotettavia taltioita "
+"tietokoneeseesi tai liittäessäsi siirrettäviä laitteita kuten "
+"musiikkisoittimia, Xubuntun pitäisi automaattisesti tunnistaa uudet taltiot "
+"ja laitteet. Esimerkiksi CD-levyn syöttämisen jälkeen optiseen asemaasi, "
+"näet uuden CD-levyä kuvaavan pikavalinnan <application>Tiedostonhallinta</"
+"application>-sovelluksen vasemman laidan palkissa. CD-levyn pikavalinnan "
+"napsauttaminen avaa sen sisällön päänäkymään kuten normaalin hakemiston "
+"napsauttaminen. Poistaaksesi CD-levyn, napsauta pikavalintaa hiiren oikealla "
+"painikkeella ja valitse <menuchoice><guimenuitem>Eject</guimenuitem></"
+"menuchoice>. Sama koskee myös kaikkia muita irrotettavia taltioita."
 
 #: desktop-guide/C/guide-desktop.xml:148(para)
+#, fuzzy
 msgid ""
 "Please note that pressing the eject button on your CD drive may not work. "
 "This may be surprising to some users, but it is in fact the expected "
@@ -4569,6 +4874,12 @@ msgid ""
 "shortcut and choose <menuchoice><guimenuitem>Eject</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Huomaa että CD-asemasi avauspainike ei välttämättä toimi. Tämä voi olla "
+"yllättävää joillekin käyttäjille, mutta on odotettu käyttäytymistapa. Ennen "
+"kuin CD voidaan poistaa, järjestelmän pitää \"vapauttaa\" (irrottaa) se "
+"oikeaoppisesti. Poistaaksesi CD-levyn, napsauta aina sen pikavalintaa hiiren "
+"oikealla painikkeella ja valitse <menuchoice><guimenuitem>Eject</"
+"guimenuitem></menuchoice>."
 
 #: desktop-guide/C/guide-desktop.xml:156(title)
 msgid "Customizing Thunar"
@@ -5042,7 +5353,7 @@ msgstr ""
 
 #: desktop-guide/C/command-line.xml:26(title)
 msgid "Running commands with administrative rights"
-msgstr ""
+msgstr "Komentojen ajaminen ylläpitäjän oikeuksin"
 
 #: desktop-guide/C/command-line.xml:28(para)
 msgid ""
@@ -5052,6 +5363,11 @@ msgid ""
 "to allow you to perform multiple administrative tasks without being prompted "
 "for a password each time."
 msgstr ""
+"Kun työskentelet komentorivillä, voit ajaa minkä tahansa komennon "
+"ylläpitäjän oikeuksin liittämällä rivin alkuun komennon <userinput>sudo</"
+"userinput>. <application>Sudo</application> muistaa salasanasi seuraavat 15 "
+"minuuttia jotta voit suorittaa useampia ylläpidollisia toimia ilman että "
+"sinulta kysytään salasanaa joka kerta."
 
 #: desktop-guide/C/command-line.xml:30(para)
 msgid ""
@@ -5061,7 +5377,12 @@ msgid ""
 "<userinput>sudo -i</userinput> for that effect, even if you are running the "
 "application from the command line."
 msgstr ""
+"Jos haluat suorittaa komentokehotteelta ylläpitäjän oikeuksin graafisen "
+"ohjelman, kuten <application>Mousepad</application>-tekstieditori, sinun "
+"tulee avata ylläpitäjän kehote ennen kuin käynnistät toivotun ohjelman "
+"ajamalla komento <userinput>sudo -i</userinput>. "
 
+# should say "sudo -i", not "sudo" in the second sentence
 #: desktop-guide/C/command-line.xml:32(para)
 msgid ""
 "Be careful when using <application>sudo</application>; you might damage your "
@@ -5071,6 +5392,12 @@ msgid ""
 "<userinput>exit</userinput> to continue using that terminal with normal "
 "access powers."
 msgstr ""
+"Ole varovainen kun käytät <application>sudo</application>-komentoa; voit "
+"vahingoittaa järjestelmääsi jos ajat väärän komennon! Perussääntönä käytä "
+"komentoa vain kun se on ehdottomasti välttämätöntä. Kun käytät "
+"<application>sudo -i</application> -komentoa komentokehotteesta, muista joko "
+"sulkea komentokehote kun olet lopettanut tai kirjoita <userinput>exit</"
+"userinput> jatkaaksesi komentokehotteessa jolla on normaalit oikeudet."
 
 #: desktop-guide/C/command-line.xml:34(para)
 msgid ""
@@ -5078,6 +5405,9 @@ msgid ""
 "\"https://help.ubuntu.com/community/RootSudo\">sudo page</ulink> on the "
 "Ubuntu community wiki."
 msgstr ""
+"Lisätietoja <application>sudo</application>-komennosta löytyy Ubuntun "
+"yhteisöwikin <ulink url=\"https://help.ubuntu.com/community/RootSudo\">sudo -"
+"sivulta</ulink>."
 
 #: desktop-guide/C/command-line.xml:38(title)
 msgid "Common commands"
