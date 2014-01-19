@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-01-09 00:24+0200\n"
-"PO-Revision-Date: 2014-01-15 19:18+0000\n"
+"PO-Revision-Date: 2014-01-18 10:23+0000\n"
 "Last-Translator: Paco Molinero <paco@byasl.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-01-16 06:10+0000\n"
+"X-Launchpad-Export-Date: 2014-01-19 06:02+0000\n"
 "X-Generator: Launchpad (build 16901)\n"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
@@ -430,6 +430,16 @@ msgid ""
 "to have <guilabel>Show printers shared by other systems</guilabel> checked "
 "in the server settings dialog in order to access the printer."
 msgstr ""
+"Si no tiene una impresora de red, pero desea que su impresora sea compartida "
+"con otros equipos de la red, pulse en "
+"<menuchoice><guimenu>Servidor</guimenu><guimenuitem>Configuración</guimenuite"
+"m></menuchoice>de las <guilabel> Impresoras</guilabel>marque la casilla del "
+"cuadro de diálogo <guilabel>Publicar impresoras compartidas conectadas a "
+"este sistema </guilabel>, y a continuación, pulse "
+"<guibutton>Aceptar</guibutton>. Otros sistemas basados ​​en Linux /Ubuntu "
+"necesitan tener<guilabel>Mostrar impresoras  compartidas por otros "
+"sistemas</guilabel>verificadas en el cuadro de diálogo de configuración del "
+"servidor para poder acceder a la impresora."
 
 #: desktop-guide/C/printing-scanning.xml:68(title)
 msgid "Scanning"
@@ -467,6 +477,9 @@ msgid ""
 "url=\"https://wiki.ubuntu.com/HardwareSupportComponentsScanners\">list of "
 "supported scanners</ulink> for Xubuntu"
 msgstr ""
+"Compruebe la lista <ulink "
+"url=\"https://wiki.ubuntu.com/HardwareSupportComponentsScanners\">de "
+"escáneres compatibles </ulink> para Xubuntu"
 
 #: desktop-guide/C/printing-scanning.xml:80(para)
 msgid ""
@@ -474,6 +487,10 @@ msgid ""
 "project listing of support scanners</ulink>. <application>SANE</application> "
 "is the software used by Xubuntu for most of its scanner support."
 msgstr ""
+"Compruebe la lista <ulink url=\"http://www.sane-project.org/sane-"
+"backends.html\">del proyecto SANE de soporte a escáneres</ulink>. "
+"<application>SANE</application> es el software utilizado por Xubuntu para la "
+"mayor parte de su soporte para escáner."
 
 #: desktop-guide/C/printing-scanning.xml:85(title)
 msgid "Using your scanner"
@@ -493,6 +510,9 @@ msgid ""
 "1/><guisubmenu>Graphics</guisubmenu><guimenuitem>Simple "
 "Scan</guimenuitem></menuchoice></application>"
 msgstr ""
+"Vaya a <application><menuchoice><placeholder-1/><guisubmenu>Gráficos "
+"</guisubmenu><guimenuitem>Simple "
+"Scan</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/printing-scanning.xml:92(para)
 msgid ""
@@ -511,6 +531,10 @@ msgid ""
 "<guilabel>Text</guilabel> or <guilabel>Photo</guilabel>. Alternately, "
 "pressing the Scan button on the scanner should also work."
 msgstr ""
+"Elija qué tipo de medio que desea escanear: <guilabel>Sola Página "
+"</guilabel>, <guilabel>Todas las páginas desde el alimentador</guilabel>, "
+"<guilabel>Texto </guilabel> o <guilabel>Foto </guilabel>. Alternativamente, "
+"al pulsar el botón Scan del escáner también debería funcionar."
 
 #: desktop-guide/C/printing-scanning.xml:98(title)
 msgid "The computer says \"No scanners detected\""
@@ -574,6 +598,10 @@ msgid ""
 "prompt, and then enter <userinput>mousepad /etc/sane.d/dll.conf</userinput> "
 "to open the SANE driver file for editing"
 msgstr ""
+"Ejecute <userinput>sudo -i</userinput> en la línea de órdenes para obtener "
+"una solicitud de root, y a continuación introduzca <userinput>mousepad "
+"/etc/sane.d/dll.conf</userinput>para abrir el archivo del controlador SANE "
+"para la edición ."
 
 #: desktop-guide/C/printing-scanning.xml:120(para)
 msgid ""
@@ -923,6 +951,8 @@ msgstr "Redes Windows en Linux"
 msgid ""
 "Accessing Windows network shares under Xubuntu can be easily done using:"
 msgstr ""
+"Acceder a redes compartidas de Windows bajo Xubuntu es sencillo de hacer "
+"usando:"
 
 #: desktop-guide/C/migrating-upgrading.xml:45(para)
 msgid ""
@@ -1459,6 +1489,9 @@ msgid ""
 "1/><guisubmenu>Graphics</guisubmenu><guimenuitem>gThumb</guimenuitem></menuch"
 "oice></application>"
 msgstr ""
+"Vaya a <application><menuchoice><placeholder-"
+"1/><guisubmenu>Gráficos</guisubmenu><guimenuitem>gThumb</guimenuitem></menuch"
+"oice></application>"
 
 #: desktop-guide/C/media-apps.xml:118(para)
 msgid ""
@@ -1531,6 +1564,9 @@ msgid ""
 "1/><guisubmenu>Graphics</guisubmenu><guimenuitem>gThumb</guimenuitem></menuch"
 "oice></application>"
 msgstr ""
+"Abra <application><menuchoice><placeholder-"
+"1/><guisubmenu>Gráficos</guisubmenu><guimenuitem>gThumb</guimenuitem></menuch"
+"oice></application>"
 
 #: desktop-guide/C/media-apps.xml:140(para)
 msgid "Select the directory of photos to view"
@@ -2074,7 +2110,7 @@ msgstr ""
 
 #: desktop-guide/C/managing-applications.xml:125(para)
 msgid "The following settings can be changed from this dialog:"
-msgstr ""
+msgstr "Los siguientes ajustes se pueden cambiar desde este diálogo:"
 
 #: desktop-guide/C/managing-applications.xml:128(title)
 msgid "Update Sources"
@@ -2086,6 +2122,10 @@ msgid ""
 "security flaws are made available through this source. It is recommended "
 "that all users leave this source enabled (it should be enabled by default)."
 msgstr ""
+"<guilabel>Actualizaciones importantes de seguridad</guilabel> - Las "
+"actualizaciones que corrigen fallos de seguridad críticos están disponibles "
+"a través de esta fuente. Es recomendable que todos los usuarios dejen esta "
+"fuente activada (debe estar activada por defecto)."
 
 #: desktop-guide/C/managing-applications.xml:132(para)
 msgid ""
@@ -2094,6 +2134,11 @@ msgid ""
 "source. Most users will want to leave this source enabled as common and "
 "annoying problems are often fixed with these updates."
 msgstr ""
+"<guilabel>Actualizaciones recomendadas</guilabel> - Las actualizaciones que "
+"corrigen problemas graves de software (que no sean fallos de seguridad) "
+"están disponibles a través de esta fuente. La mayoría de los usuarios "
+"querrán dejar esta fuente habilitada, los problemas comunes y molestos a "
+"menudo se solucionan con estas actualizaciones."
 
 #: desktop-guide/C/managing-applications.xml:135(para)
 msgid "The following updates should be used with some caution."
@@ -2157,11 +2202,11 @@ msgstr "Frecuencia de comprobación"
 
 #: desktop-guide/C/managing-applications.xml:160(guilabel)
 msgid "Checking and installing updates automatically"
-msgstr ""
+msgstr "Comprobar e instalar actualizaciones automáticamente."
 
 #: desktop-guide/C/managing-applications.xml:161(guilabel)
 msgid "Displaying notifications about security updates"
-msgstr ""
+msgstr "Mostrar avisos de actualizaciones de seguridad."
 
 #: desktop-guide/C/internet-networks.xml:12(title)
 msgid "Connecting to Internet and Networks"
@@ -2298,22 +2343,29 @@ msgid ""
 "Before attempting any troubleshooting, ensure that the network connections "
 "are enabled:"
 msgstr ""
+"Antes de intentar solucionar algún problema, asegúrese de que la conexión de "
+"red esté habilitada:"
 
 #: desktop-guide/C/internet-networks.xml:65(para)
 msgid ""
 "Click the <application>NetworkManager</application> icon in the notification "
 "area"
 msgstr ""
+"Pulse el icono <application>Administrador de redes</application> del área de "
+"notificación."
 
 #: desktop-guide/C/internet-networks.xml:66(para)
 msgid ""
 "Check <menuchoice><guimenuitem>Enable Networking</guimenuitem></menuchoice>"
 msgstr ""
+"Marque <menuchoice><guimenuitem>Activar red</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/internet-networks.xml:67(para)
 msgid ""
 "Check <menuchoice><guimenuitem>Enable Wi-Fi</guimenuitem></menuchoice>"
 msgstr ""
+"Marque <menuchoice><guimenuitem>Activar "
+"inalámbrico</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/internet-networks.xml:70(para)
 msgid "If your network connection still doesn't work:"
@@ -2333,12 +2385,17 @@ msgid ""
 "troubleshooting-general\"/> and <xref linkend=\"network-troubleshooting-"
 "wireless\"/>"
 msgstr ""
+"Para conexiones inalámbricas, consulte <xref linkend=\"network-"
+"troubleshooting-general\"/> y <xref linkend=\"network-troubleshooting-"
+"wireless\"/>."
 
 #: desktop-guide/C/internet-networks.xml:75(para)
 msgid ""
 "If your network connection problems are still not resolved, see <xref "
 "linkend=\"network-troubleshooting-advanced\"/>"
 msgstr ""
+"Si los problemas con la conexión de red siguen sin resolverse, vea <xref "
+"linkend=\"network-troubleshooting-advanced\"/>."
 
 #: desktop-guide/C/internet-networks.xml:79(title)
 msgid "General troubleshooting"
@@ -4903,7 +4960,7 @@ msgstr "Para añadir un grupo nuevo:"
 
 #: desktop-guide/C/administrative-tasks.xml:63(para)
 msgid "Click the <guibutton>Manage Groups</guibutton> button"
-msgstr ""
+msgstr "Pulse el botón <guibutton>Gestionar grupos</guibutton> button"
 
 #: desktop-guide/C/administrative-tasks.xml:65(para)
 msgid "Enter your password"
@@ -4937,4 +4994,5 @@ msgstr ""
 "  Eugenio González https://launchpad.net/~eugeagb\n"
 "  GridCube https://launchpad.net/~gridcube\n"
 "  Marcelo Poli https://launchpad.net/~enzomatrix\n"
-"  Paco Molinero https://launchpad.net/~franciscomol"
+"  Paco Molinero https://launchpad.net/~franciscomol\n"
+"  emerling https://launchpad.net/~emerling"
