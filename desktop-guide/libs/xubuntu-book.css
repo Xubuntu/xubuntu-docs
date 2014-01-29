@@ -91,13 +91,9 @@ a {
 		border: none;
 	}
 
-dd {
-	margin-left: 3em;
-}
-
-dt {
-	margin-bottom: 1em;
-}
+dt { margin-bottom: 1em; }
+dd { margin-left: 3em; }
+dd dd { margin-left: 1.5em; }
 
 dd dl dt {
 	margin-bottom: 0;
@@ -105,6 +101,12 @@ dd dl dt {
 
 dd dl {
 	margin-top: -0.8em;
+}
+
+.chapter dd dl,
+dd dd dl {
+	margin-top: 0;
+	font-size: 90%;
 }
 
 h1 {
@@ -137,9 +139,11 @@ p.legalnotice-title {
 		font-weight: normal;
 	}
 
+.sect1 h2,
 h3 {
 	margin: 1em 0;
 
+	font-weight: bold;
 	font-size: 150%;
 	color: #555;
 }
@@ -178,7 +182,7 @@ p.copyright {
 	margin-bottom: 0.3em;
 }
 
-.toc {
+div.toc {
 	margin: 1em;
 	padding: 1em 1em 0.5em 1.5em;
 	border-left: 2px solid #777; /* #2774e7 */

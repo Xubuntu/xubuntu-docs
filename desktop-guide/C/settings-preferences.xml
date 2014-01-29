@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-ent SYSTEM "../libs/xubuntu.ent">
+%xubuntu-ent;
+<!ENTITY % xinclude SYSTEM "../libs/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+<chapter id="settings-preferences">
+	<title>Settings and Preferences</title>
+
+	<para>A brief introduction to this chapter...</para>
+
+	<section id="customizing-appearance">
+		<title>Customizing the appearance</title>
+
+		<para>If you want to customize the appearance of your Xubuntu system, the options are
+			unlimited. Here are a few good starting points.</para>
+
+		<section id="customizing-wallpaper">
+			<title>Changing your wallpaper</title>
+
+			<para>To change your wallpaper to any of the other default wallpapers:</para>
+
+			<itemizedlist>
+				<listitem><para>Right-click the desktop</para></listitem>
+				<listitem><para>From the context menu, select <menuchoice><guimenuitem>Desktop
+					Settings</guimenuitem></menuchoice></para></listitem>
+				<listitem><para>In the <guilabel>Background</guilabel> tab, select a new wallpaper
+					image</para></listitem>
+				<listitem><para>If you have multiple monitors, you will have another set of tabs under
+					<guilabel>Background</guilabel>; use these to specify which monitor's wallpaper you
+					want to change.</para></listitem>
+				<listitem><para>If you have multiple monitors, you can set the wallpaper on the primary
+					monitor to stretch across all monitors.</para></listitem>
+			</itemizedlist>
+
+			<tip><para>If you want to add one or more of your images in this list for future use, you
+				can copy or symlink them to &location_backdrops; (requires administrative privileges)</para></tip>
+
+			<para>If you want to set any of your own images as the wallpaper, the easiest way to
+				achieve this is:</para>
+
+			<itemizedlist>
+				<listitem><para>Open Thunar and navigate to the directory with the image</para></listitem>
+				<listitem><para>Right-click the image and select <menuchoice><guimenuitem>Set as
+					wallpaper</guimenuitem></menuchoice> from the context menu</para></listitem>
+			</itemizedlist>
+
+			<caution><para>With multiple monitors, this setting will only change the primary monitor's
+				wallpaper. To change the wallpaper for other monitors, you will need to use the
+				dialog described above.</para></caution>
+		</section>
+
+		<section id="customizing-panel">
+			<title>Customizing your panel configuration</title>
+
+			<para>If you don't like the default panel configuration, including the positioning or the
+				applets installed by default, follow the steps below to customize the panel
+				configuration:</para>
+
+			<itemizedlist>
+				<listitem><para>Right-click any panel</para></listitem>
+				<listitem><para>From the context menu, select <menuchoice><guimenuitem>Panel</guimenuitem>
+					<guimenuitem>Panel Preferences</guimenuitem></menuchoice></para></listitem>
+				<listitem><para>At the top of the dialog, you can select which panel to edit, add a new panel
+					or delete an existing panel</para></listitem>
+				<listitem><para>In the <guilabel>Display</guilabel> tab, you can control the selected
+					panel appearance</para></listitem>
+				<listitem><para>In the <guilabel>Items</guilabel> tab, you can control the selected
+					panel applets and other items</para></listitem>
+			</itemizedlist>
+		</section>
+
+		<section id="customizing-themes">
+			<title>Changing your desktop themes</title>
+
+			<para>There are three types of desktop themes:</para>
+
+			<itemizedlist>
+				<listitem><para>xfwm themes - control how your window borders look. To change your xfwm
+					theme, go to &settings-window-manager;. In the <guilabel>Style</guilabel> tab, select
+					a new theme to change the window borders appearance.</para></listitem>
+				<listitem><para>GTK themes - control how the content of the windows look. To change your
+					GTK theme, go to &settings-appearance;. In the <guilabel>Style</guilabel> tab, select
+					a new theme to change the window content appearance.  The tool <application>gtk-theme-config</application> will also allow you to customize your window look.</para></listitem>
+				<listitem><para>Icon themes - control how your icons look. To change your icon theme, go
+					to &settings-appearance;. In the <guilabel>Icons</guilabel> tab, select a new theme
+					to change the icon appearance. Note that not all icon sets will work well with dark
+					panel/window backgrounds!</para></listitem>
+			</itemizedlist>
+
+			<para>If the default selection of themes doesn't satisfy you, you can download and install
+				new themes. Some new themes can be installed from the Ubuntu repositories, and more can
+				be found on the Internet, for example on <ulink url="&xfce-look;">Xfce-look.org</ulink>.</para>
+
+			<para>If you install new themes from the repositories, they should appear automatically in
+				the <application>Settings Manager</application>. If you download a theme from any other
+				site, you need to install the theme before it will appear in the <application>Settings
+				Manager</application>. To do this, extract the theme package and copy them to:</para>
+
+			<itemizedlist>
+				<listitem><para>xfwm and GTK themes:</para>
+					<itemizedlist>
+						<listitem><para>&location_themes_user; (this user only)</para></listitem>
+						<listitem><para>&location_themes_global; (all users)</para></listitem>
+					</itemizedlist>
+				</listitem>
+				<listitem><para>Icon themes:</para>
+					<itemizedlist>
+						<listitem><para>&location_icons_user; (this user only)</para></listitem>
+						<listitem><para>&location_icons_global; (all users)</para></listitem>
+					</itemizedlist>
+				</listitem>
+
+			</itemizedlist>
+
+			<note><para>If these directories do not exist, you should create them first. Copying themes
+				for all users will require administrative privileges.</para></note>
+		</section>
+
+		<section id="customizing-desktop-effects">
+			<title>Disabling and modifying the desktop effects</title>
+
+			<para>While Xubuntu doesn't come with many desktop effects, the Xfce compositor is enabled	
+				by default. In the default Xubuntu configuration, the Xfce compositor is used to draw
+				shadows for windows and to enable translucent panels. If you have a low-end GPU or you
+				don't like the desktop effects mentioned, you can turn off the compositor or change the
+				settings by navigating to &settings-window-manager-tweaks; and in the
+				<guilabel>Compositor</guilabel> tab either unticking <guilabel>Enable display
+				compositing</guilabel> or modifying settings.</para>
+		</section>
+	</section>
+</chapter>
