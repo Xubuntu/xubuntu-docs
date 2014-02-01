@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-01-09 00:24+0200\n"
-"PO-Revision-Date: 2014-01-19 16:55+0000\n"
-"Last-Translator: Paco Molinero <paco@byasl.com>\n"
+"PO-Revision-Date: 2014-02-01 06:31+0000\n"
+"Last-Translator: Eugenio González <Unknown>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-01-20 06:03+0000\n"
-"X-Generator: Launchpad (build 16901)\n"
+"X-Launchpad-Export-Date: 2014-02-01 06:57+0000\n"
+"X-Generator: Launchpad (build 16916)\n"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
 msgid "What is Xubuntu?"
@@ -1044,7 +1044,7 @@ msgid ""
 "Updater</application>"
 msgstr ""
 "Para actualizar a la última versión, guarde todos sus documentos abiertos y "
-"pulse <guibutton>Actualizar</guibutton> en el <applicatio>Gestor de "
+"pulse <guibutton>Actualizar</guibutton> en el <application>Gestor de "
 "actualizaciones</application>."
 
 #: desktop-guide/C/migrating-upgrading.xml:70(para)
@@ -2173,12 +2173,17 @@ msgid ""
 "This section of the <application>Software Updater</application> deals with "
 "the way you wish future versions to be given to you. You have three options:"
 msgstr ""
+"Esta sección del <application>Gestor de actualizaciones</application> se "
+"ocupa de la forma en que desea recibir las nuevas versiones disponibles. Hay "
+"tres opciones:"
 
 #: desktop-guide/C/managing-applications.xml:149(para)
 msgid ""
 "<guilabel>For any new version</guilabel> - You will get notifications of all "
 "new releases, once in 6 months"
 msgstr ""
+"<guilabel>Para cualquier versión nueva</guilabel> - Recibirá notificaciones "
+"para todas las versiones nuevas, cada 6 meses."
 
 #: desktop-guide/C/managing-applications.xml:150(para)
 msgid ""
@@ -2186,11 +2191,16 @@ msgid ""
 "notifications of new Long-term Support (LTS) releases, once in 2 years - "
 "recommended if you need maximum stability"
 msgstr ""
+"<guilabel>Para versiones de soporte a largo plazo</guilabel> - Recibirá "
+"notificaciones para las nuevas versiones de soporte a largo plazo, cada 2 "
+"años, recomendada si necesita máxima estabilidad."
 
 #: desktop-guide/C/managing-applications.xml:151(para)
 msgid ""
 "<guilabel>Never</guilabel> - You will not get notifications of new releases"
 msgstr ""
+"<guilabel>Nunca</guilabel> - No recibirá notificaciones de nuevas versiones "
+"disponibles."
 
 #: desktop-guide/C/managing-applications.xml:156(title)
 msgid "Other options"
@@ -2227,6 +2237,10 @@ msgid ""
 "two grayed out arrows pointing up and down. When you are connected, the icon "
 "is different depending on the network type in use."
 msgstr ""
+"<application>Gestor de redes</application> es el icono situado en la parte "
+"derecha del panel superior en su pantalla. Cuando no hay conexión, el icono "
+"muestra dos flechas grises apuntando hacia arriba y abajo. Cuando está "
+"conectado el icono es diferente, dependiendo del tipo de red en uso."
 
 #: desktop-guide/C/internet-networks.xml:19(title)
 msgid "Network connections"
@@ -2241,6 +2255,8 @@ msgid ""
 "<application>NetworkManager</application> will automatically use a wired "
 "network, if one is available."
 msgstr ""
+"<application>Gestor de redes</application> utilizará una red cableada, si "
+"está disponible."
 
 #: desktop-guide/C/internet-networks.xml:26(para)
 msgid ""
@@ -2248,6 +2264,8 @@ msgid ""
 "<application>NetworkManager</application> icon. To connect to a network, "
 "click the network name."
 msgstr ""
+"Para ver las redes disponibles,, pulse en el icono <application>Gestor de "
+"redes<application>. Para conectarse a una red, pulse en el nombre de la red."
 
 #: desktop-guide/C/internet-networks.xml:28(para)
 msgid ""
@@ -2257,6 +2275,12 @@ msgid ""
 "type from the <guilabel>Wi-Fi Security</guilabel> drop-down box, enter the "
 "authentication details and press <guibutton>Connect</guibutton>."
 msgstr ""
+"Al conectarnos a una red inalámbrica por primera vez, pueden ser necesarios "
+"los detalles de seguridad. Si es así, se abrirá un cuadro de diálogo. En la "
+"mayoría de los casos, el tipo de seguridad se detectará automáticamente. Si "
+"no, seleccione el tipo de seguridad desde el cuadro desplegable "
+"<guilabel>Seguridad inalámbrica</guilabel>, introduzca los detalles de "
+"identificación y pulse <guibutton>Conectar</guibutton>."
 
 #: desktop-guide/C/internet-networks.xml:30(para)
 msgid ""
@@ -2284,6 +2308,12 @@ msgid ""
 "network and press <guibutton>Edit</guibutton> or press "
 "<guibutton>Add</guibutton> to set up new networks."
 msgstr ""
+"Si necesita configurar sus conexiones, pulse el icono <application>Gestor de "
+"redes</application> y seleccione "
+"<menuchoice>>guimenuitem>Editar</guimenuitem></menuchoice>. En el cuadro de "
+"diálogo, verá pestañas para cada tipo de conexión. Seleccione la red "
+"apropiada y pulse <guibutton>Editar</guibutton>, o pulse "
+"<guibutton>Añadir</guibutton> para configurar nuevas redes."
 
 #: desktop-guide/C/internet-networks.xml:38(para)
 msgid ""
@@ -2291,6 +2321,9 @@ msgid ""
 "which you will get from your network administrator or your Internet Service "
 "Provider."
 msgstr ""
+"Para poder conectar a cierto tipo de redes, puede que necesite detalles de "
+"conexión que obtendrá de su administrador de redes o su proveedor de "
+"servicios de internet."
 
 #: desktop-guide/C/internet-networks.xml:42(title)
 msgid "Connection information"
@@ -2304,6 +2337,11 @@ msgid ""
 "network connections will be displayed in the <guilabel>Active "
 "Connections</guilabel> dialog, each in a separate tab."
 msgstr ""
+"Para ver la información de conexión, pulse el icono <application>Gestor de "
+"redes</application> y seleccione "
+"<menuchoice><guimenuitem>Información</guimenuitem></menuchoice>. Sus "
+"conexiones activas se mostrarán en el cuadro de diálogo <guilabel>Conexiones "
+"activas</guilabel>, en pestañas separadas."
 
 #: desktop-guide/C/internet-networks.xml:48(title)
 msgid "Sharing your connection to another computer"
@@ -2406,6 +2444,8 @@ msgid ""
 "If your network connection is not working properly, there are a few tools "
 "that can be used to help diagnose the problem."
 msgstr ""
+"Si su conexión de red no funciona correctamente, hay algunas herramientas "
+"que pueden usarse como ayuda en el diagnóstico del problema."
 
 #: desktop-guide/C/internet-networks.xml:84(title)
 msgid "Get information about the current connection"
@@ -2416,6 +2456,8 @@ msgid ""
 "To get information about your network connection and network devices, you "
 "have two options:"
 msgstr ""
+"Para obtener información de su conexión y dispositivos de red, hay dos "
+"opciones:"
 
 #: desktop-guide/C/internet-networks.xml:90(para)
 msgid "Using <application>NetworkManager</application>"
@@ -2423,7 +2465,7 @@ msgstr "Usar <application>NetworkManager</application>"
 
 #: desktop-guide/C/internet-networks.xml:92(para)
 msgid "Click on the <application>NetworkManager</application> icon"
-msgstr ""
+msgstr "Pulse en el icono <application>Gestor de redes</application>."
 
 #: desktop-guide/C/internet-networks.xml:93(para)
 msgid ""
@@ -2438,6 +2480,8 @@ msgid ""
 "Each active connection will have its own tab where you can find relevant "
 "connection information"
 msgstr ""
+"Cada conexión activa tendrá su propia pestaña donde se encontrará "
+"información relevante de su conexión."
 
 #: desktop-guide/C/internet-networks.xml:98(para)
 msgid "Using <application>ifconfig</application>"
@@ -2469,6 +2513,8 @@ msgid ""
 "A reliable method to check if a connection is working properly is to ping "
 "another computer on the network or the Internet."
 msgstr ""
+"Una forma fiable de comprobar si una conexión funciona correctamente es "
+"hacer un eco a otro equipo en la red o en internet."
 
 #: desktop-guide/C/internet-networks.xml:112(para)
 msgid ""
@@ -2487,17 +2533,24 @@ msgid ""
 "transmitted, how many packets were received, the percentage of packet loss, "
 "and the total time spent."
 msgstr ""
+"El equipo intentará ponerse en contacto con www.xubuntu.org tres veces y "
+"mostrará los resultados. Las estadísticas del eco muestran el número de "
+"paquetes transmitidos, cuántos paquetes se recibieron, el porcentaje de "
+"paquetes perdidos y el tiempo total empleado."
 
 #: desktop-guide/C/internet-networks.xml:117(para)
 msgid ""
 "0% packet loss indicates that your computer is connected to the Internet"
 msgstr ""
+"0% de paquetes perdidos indica que su equipo está conectado a internet."
 
 #: desktop-guide/C/internet-networks.xml:118(para)
 msgid ""
 "Greater than 0% but less than 100% packet loss indicates that your computer "
 "has a poor connection to the Internet or a poor wireless signal"
 msgstr ""
+"Un porcentaje alto de paquetes perdidos indica que su equipo tiene mala "
+"conexión a internet o mala señal inalámbrica."
 
 #: desktop-guide/C/internet-networks.xml:119(para)
 msgid ""
@@ -2505,6 +2558,9 @@ msgid ""
 "is connected to an access point or router that is not connected to the "
 "Internet"
 msgstr ""
+"100% de paquetes perdidos indica que su equipo tiene muy mala conexión, o "
+"está conectado a un punto de acceso o router que no está conectado a "
+"internet."
 
 #: desktop-guide/C/internet-networks.xml:122(para)
 msgid ""
@@ -2512,6 +2568,10 @@ msgid ""
 "or \"unknown host\", then your computer is probably not connected to the "
 "Internet or is unable to reach a Domain Name System (DNS) server."
 msgstr ""
+"Si recibe un mensaje de error diciendo «www.xubuntu.org no se puede "
+"encontrar» o «host desconocido», es posible que no esté conectado o no puede "
+"acceder al servidor de sistema de nombres de dominio (DNS por sus siglas en "
+"inglés)."
 
 #: desktop-guide/C/internet-networks.xml:127(title)
 msgid "Wireless troubleshooting"
@@ -2524,6 +2584,10 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/WifiDocs\">Community Help "
 "Wiki</ulink>."
 msgstr ""
+"Esta sección cubre algunos de los problemas con el soporte de inalámbricas. "
+"Hay mucha más información disponible en <ulink "
+"url=\"https://help.ubuntu.com/community/WifiDocs\">Community Help "
+"Wiki</ulink>."
 
 #: desktop-guide/C/internet-networks.xml:131(para)
 msgid ""
@@ -2531,6 +2595,9 @@ msgid ""
 "carried out in the order shown, unless you are pointed to a different "
 "subsection"
 msgstr ""
+"Tenga en cuenta que estos pasos de guía en la resolución de problemas están "
+"diseñados para ser seguidos en el orden indicado, a menos que apunten a una "
+"subsección diferente."
 
 #: desktop-guide/C/internet-networks.xml:134(title)
 msgid "Check that the device is turned on"
@@ -2541,10 +2608,13 @@ msgid ""
 "Many wireless network devices can be turned on or off. Check for a hardware "
 "switch or a keyboard function key to turn the wireless device on."
 msgstr ""
+"Muchos dispositivos de red inalámbrica pueden encenderse y apagarse. "
+"Compruebe si hay un interruptor de hardware o una tecla de función en el "
+"teclado para encender el dispositivo inalámbrico."
 
 #: desktop-guide/C/internet-networks.xml:138(para)
 msgid "If the device is turned on, continue to the next topic."
-msgstr ""
+msgstr "Si el dispositivo está encendido, continúe con el siguiente tema."
 
 #: desktop-guide/C/internet-networks.xml:142(title)
 msgid "Check if the device is recognized"
@@ -2597,16 +2667,22 @@ msgid ""
 "This allows you to use a Windows wireless device driver under Xubuntu. To "
 "start using <application>NDISWrapper</application>:"
 msgstr ""
+"Xubuntu es compatible con un sistema conocido como "
+"<application>NDISWrapper</application>. Esto le permite usar el controlador "
+"de dispositivo inalámbrico de Windows. Para utilizar "
+"<application>NDISWrapper</application>:"
 
 #: desktop-guide/C/internet-networks.xml:160(para)
 msgid ""
 "Obtain the Windows driver for your network device and locate the file that "
 "ends with .inf"
 msgstr ""
+"Consiga el controlador de Windows para su dispositivo de red y localice el "
+"archivo terminado en .inf"
 
 #: desktop-guide/C/internet-networks.xml:161(para)
 msgid "Install the <literal><placeholder-1/>ndisgtk</literal> package"
-msgstr ""
+msgstr "Instale el paquete <literal><placeholder-1/>ndisgtk</literal>."
 
 #: desktop-guide/C/internet-networks.xml:162(para)
 msgid ""
@@ -2617,13 +2693,15 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:163(para)
 msgid "Select <guibutton>Install new driver</guibutton>"
-msgstr ""
+msgstr "Seleccione <guibutton>Instalar nuevo controlador</guibutton>."
 
 #: desktop-guide/C/internet-networks.xml:164(para)
 msgid ""
 "Choose the location of your Windows .inf file and click "
 "<guibutton>Install</guibutton>"
 msgstr ""
+"Escoja la ubicación de su archivo de Windows .inf y pulse "
+"<guibutton>Instalar</guibutton>."
 
 #: desktop-guide/C/internet-networks.xml:165(para)
 msgid "Click <guibutton>OK</guibutton>"
@@ -2631,7 +2709,7 @@ msgstr "Pulse <guibutton>Aceptar</guibutton>"
 
 #: desktop-guide/C/internet-networks.xml:170(title)
 msgid "Checking for a connection to the router"
-msgstr ""
+msgstr "Comprobación de conexión con el router"
 
 #: desktop-guide/C/internet-networks.xml:172(para)
 msgid ""
@@ -2641,6 +2719,11 @@ msgid ""
 "<userinput>iwconfig</userinput> and press <keycap><placeholder-"
 "2/>Enter</keycap>."
 msgstr ""
+"Abra una terminal (<application><menuchoice><placeholder-"
+"1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Emulador de "
+"terminal</guimenuitem></menuchoice></application>), teclee la orden "
+"<userinput>iwconfig</userinput> y presione <keycap><placeholder-"
+"2/>Intro</keycap>."
 
 #: desktop-guide/C/internet-networks.xml:174(para)
 msgid ""
@@ -2648,6 +2731,9 @@ msgid ""
 "a problem with ACPI support. Boot Xubuntu with the "
 "<literal>pci=noacpi</literal> option."
 msgstr ""
+"Si el <guilabel>ESSID</guilabel> para su router se muestra, puede haber un "
+"problema con el soporte ACPI. Arranque Xubuntu con la opción "
+"<literal>pci=noacpi</literal>."
 
 #: desktop-guide/C/internet-networks.xml:179(title)
 msgid "Advanced troubleshooting"
@@ -2658,6 +2744,8 @@ msgid ""
 "The following troubleshooting methods are a bit more technical. Please try "
 "these methods only if the above methods failed."
 msgstr ""
+"Los siguientes métodos de solución de problemas son algo más técnicos. "
+"Pruebe estos métodos solo si los anteriores fallaron."
 
 #: desktop-guide/C/internet-networks.xml:184(title)
 msgid "Checking IP assignment"
@@ -2672,6 +2760,12 @@ msgid ""
 "2/>Enter</keycap>. If there is an IP address displayed, continue to <xref "
 "linkend=\"network-troubleshooting-dns\"/>."
 msgstr ""
+"Abra una terminal (<application><menuchoice><placeholder-"
+"1/><guisubmenu>Accesorios</guisubmenu><guimenuitem>Emulador de "
+"terminal</guimenuitem></menuchoice></application>) y teclee la ortden "
+"<userinput>ifconfig</userinput> y pulse <keycap><placeholder-"
+"2/>Intro</keycap>. Si se muestra una IP, continúe con <xref "
+"linkend=\"network-troubleshooting-dns\"/>."
 
 #: desktop-guide/C/internet-networks.xml:188(para)
 msgid ""
@@ -2680,6 +2774,10 @@ msgid ""
 "from the <application>ifconfig</application> command: <userinput>sudo "
 "dhclient eth1</userinput>"
 msgstr ""
+"Desde la terminal introduzca la orden siguiente, sustituyendo "
+"<literal>eth1</literal> por el nombre de la conexión mostrada en la salida "
+"de <application>ifconfig</application>: <userinput>sudo dhclient "
+"eth1</userinput>."
 
 #: desktop-guide/C/internet-networks.xml:191(para)
 msgid ""
@@ -2694,7 +2792,7 @@ msgstr "En caso contrario, reinicie el sistema"
 
 #: desktop-guide/C/internet-networks.xml:197(title)
 msgid "Check Domain Name Servers (DNS)"
-msgstr ""
+msgstr "Comprobar Servidor de nombres de dominio (DNS)"
 
 #: desktop-guide/C/internet-networks.xml:199(para)
 msgid ""
@@ -2704,6 +2802,11 @@ msgid ""
 "<userinput>nm-tool</userinput> and press <keycap><placeholder-"
 "2/>Enter</keycap>."
 msgstr ""
+"Abra una terminal (<application><menuchoice><placeholder-"
+"1/><guisubmenu>Accesorios</guisubmenu><guimenuitem>Emulador de "
+"terminal</guimenuitem></menuchoice></application>), teclee la orden "
+"<userinput>nm-tool</userinput> y pulse <keycap><placeholder-"
+"2/>Intro</keycap>."
 
 #: desktop-guide/C/internet-networks.xml:201(para)
 msgid ""
@@ -2832,6 +2935,7 @@ msgstr "Stephen Michael Kellat (skellat)"
 #: desktop-guide/C/index.xml:33(para)
 msgid "The contributors to previous versions to this documentation are:"
 msgstr ""
+"Los colaboradores de las versiones anteriores a esta documentación son:"
 
 #: desktop-guide/C/index.xml:35(para)
 msgid "Jim Campbell (jwcampbell)"
@@ -2895,6 +2999,8 @@ msgid ""
 "All trademarks or registered trademarks are the property of the respective "
 "owners."
 msgstr ""
+"Todas las marcas comerciales o marcas comerciales registradas son propiedad "
+"de sus respectivos propietarios."
 
 #: desktop-guide/C/index.xml:53(year)
 msgid "2012"
@@ -2906,7 +3012,7 @@ msgstr "2013"
 
 #: desktop-guide/C/index.xml:54(holder)
 msgid "Canonical Ltd. and members of the Xubuntu Documentation team."
-msgstr ""
+msgstr "Canonical Ltd. y miembros del equipo de documentación de Xubuntu."
 
 #: desktop-guide/C/index.xml:58(publishername)
 msgid "The Ubuntu Documentation Project"
@@ -2921,10 +3027,12 @@ msgid ""
 "This documentation provides documentation to the most common issues with "
 "Xubuntu, including:"
 msgstr ""
+"Esta documentación proporciona documentación a los problemas más comunes con "
+"Xubuntu, incluyendo:"
 
 #: desktop-guide/C/index.xml:68(para)
 msgid "In addition, this documentation has three quick guides:"
-msgstr ""
+msgstr "Además, esta documentación tiene tres guías rápidas:"
 
 #: desktop-guide/C/index.xml:74(para)
 msgid ""
@@ -2933,6 +3041,11 @@ msgid ""
 "url=\"http://xubuntu.org/help/\">Help &amp; Support</ulink> page of the "
 "Xubuntu website. There you will find links to additional help resources."
 msgstr ""
+"El conjunto completo de temas se encuentra a continuación. Si necesita ayuda "
+"con un tema o problema que no está tratado por la documentación, vaya a la  "
+"página del sitio web de Xubuntu <ulink url=\"http://xubuntu.org/help/\"> "
+"Ayuda y soporte </ ulink>. Allí podrá encontrar enlaces a recursos de ayuda "
+"adicionales."
 
 #: desktop-guide/C/index.xml:76(para)
 msgid ""
@@ -2940,6 +3053,9 @@ msgid ""
 "see the <ulink url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> "
 "section of the Xubuntu website."
 msgstr ""
+"Si desea contribuir en Xubuntu, incluyendo esta documentación, vea la "
+"sección <ulink url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> "
+"de la página web de Xubuntu."
 
 #: desktop-guide/C/hardware-devices.xml:12(title)
 msgid "Hardware devices"
@@ -2950,6 +3066,8 @@ msgid ""
 "Your computer consists of a number of connected devices that are "
 "collectively known as computer hardware."
 msgstr ""
+"Su equipo se compone de una serie de dispositivos conectados que son "
+"conocidos colectivamente como hardware"
 
 #: desktop-guide/C/hardware-devices.xml:16(para)
 msgid ""
@@ -2976,6 +3094,8 @@ msgid ""
 "Restricted drivers are drivers for your hardware that are not freely "
 "available or open source."
 msgstr ""
+"Controladores restringidos son controladores para su hardware que no están "
+"disponibles libremente o no son código abierto."
 
 #: desktop-guide/C/hardware-devices.xml:26(para)
 msgid ""
