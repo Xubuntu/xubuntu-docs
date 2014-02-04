@@ -11,7 +11,25 @@
 <chapter id="settings-preferences">
 	<title>Settings and Preferences</title>
 
-	<para>A brief introduction to this chapter...</para>
+	<para>The options to customize Xubuntu to your needs and preferences are virtually unlimited, ranging from desktop looks to low level operation tweaks. The sections in this chapter describe how to keep your personal information updated, customize the looks of the desktop and edit the main applications menu to your liking.</para>
+	
+	<section id="personal-info">
+		<title>Customizing your personal info</title>
+		
+		<para><application>Mugshot</application> is a lightweight user configuration utility that allows you to easily set the profile image and user details for your user profile and any supported applications.</para>
+		
+		<para>To launch <application>Mugshot</application> navigate to &mugshot;.</para>
+		
+		<para>To change your profile image, click the <guibutton>image</guibutton> button on the left of the GUI, select one of the given options and follow the instructions.</para>
+		
+		<note><para>Mugshot requires the installation of <literal>&package;gstreamer1.0-tools</literal> package to use the <guilabel>Capture from camera...</guilabel> feature.</para></note>
+		
+		<para>Fill the text-fields with the required personal data and click <guibutton>Apply</guibutton>. When applying these details with <application>Pidgin</application> and/or LibreOffice installed, you will be prompted to update their settings as well.</para>
+		
+		<warning><para>If the personal data inserted in the <guilabel>First Name</guilabel> and <guilabel>Last Name</guilabel> text-fields differ from the existing values held in <userinput>/etc/passwd</userinput>, you'll be prompted to insert your password as a security measure to prevent unwanted updates to your personal information.</para></warning>
+		
+		<para>Read more at the <ulink url="&mugshot-help;">Mugshot</ulink> official documentation.</para>
+	</section>
 
 	<section id="customizing-appearance">
 		<title>Customizing the appearance</title>
