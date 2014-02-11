@@ -60,6 +60,7 @@
 <!ENTITY xfce-look 'http://xfce-look.org/' >
 <!ENTITY xfce4-taskman-web 'http://goodies.xfce.org/projects/applications/xfce4-taskmanager' >
 <!ENTITY xfce-web 'http://www.xfce.org/' >
+<!ENTITY xfdesktop-help 'http://docs.xfce.org/xfce/xfdesktop/start' >
 
 <!-- INLINE ICONS -->
 <!ENTITY package '<inlinemediaobject role="icon-pkg"><imageobject><imagedata fileref="../libs/images/package_icon.png" /></imageobject></inlinemediaobject>' >
@@ -85,12 +86,13 @@
 <!ENTITY gparted '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>GParted</guimenuitem></menuchoice></application>' >
 <!ENTITY gthumb '<application><menuchoice>&appmenu;<guisubmenu>Graphics</guisubmenu><guimenuitem>gThumb</guimenuitem></menuchoice></application>' >
 <!ENTITY log-out '<application><menuchoice>&appmenu;<guimenuitem>Log Out</guimenuitem></menuchoice></application>' >
-<!ENTITY mugshot '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>About Me</guimenuitem></menuchoice></application>' >
 <!ENTITY ndisgtk '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Windows Wireless Drivers</guimenuitem></menuchoice></application>' >
 <!ENTITY settings-appearance '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Appearance</guimenuitem></menuchoice></application>' >
+<!ENTITY settings-desktop '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Desktop</guimenuitem></menuchoice></application>' >
 <!ENTITY settings-keyboard '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Keyboard</guimenuitem></menuchoice></application>' >
 <!ENTITY settings-manager '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem></menuchoice></application>' >
 <!ENTITY settings-mouse-touchpad '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Mouse and Touchpad</guimenuitem></menuchoice></application>' >
+<!ENTITY settings-mugshot '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>About Me</guimenuitem></menuchoice></application>' >
 <!ENTITY settings-power-manager '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Power Manager</guimenuitem></menuchoice></application>' >
 <!ENTITY settings-print '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Printers</guimenuitem></menuchoice></application>' >
 <!ENTITY settings-screensaver '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Screensaver</guimenuitem></menuchoice></application>' >
