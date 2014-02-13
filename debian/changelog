@@ -1,4 +1,4 @@
-xubuntu-docs (14.04.0) saucy; urgency=low
+xubuntu-docs (14.04.0) trusty; urgency=medium
 
   [ Pasi Lallinaho ]
   * Update version numbers (14.04/Trusty) and copyright
@@ -14,8 +14,10 @@ xubuntu-docs (14.04.0) saucy; urgency=low
   [ Unit 193 ]
   * Fix typos
   * Fix file permissions
+  * Build-dep drop use of cdbs use dh9, update d/compat
+  * Update standards version
 
- -- Pasi Lallinaho <pasi@shimmerproject.org>  Tue, 11 Feb 2014 15:55:43 +0200
+ -- Unit 193 <unit193@ubuntu.com>  Wed, 12 Feb 2014 16:56:38 -0500
 
 xubuntu-docs (13.10.0) saucy; urgency=low
 
