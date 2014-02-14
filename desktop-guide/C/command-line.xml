@@ -42,14 +42,22 @@
 		<segmentedlist>
 			<?dbhtml list-presentation="table"?>
 			<segtitle>Command</segtitle><segtitle>What it does?</segtitle><segtitle>Syntax</segtitle>
-			<seglistitem><seg><userinput>ls</userinput></seg><seg>Lists files in a directory; lists files in the current directory if none is specified</seg><seg><userinput>ls [directory]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>apt-cache</userinput></seg><seg>Shows information about the packages in the repository. Common commands are the search and show commands</seg><seg><userinput>apt-cache search web browser</userinput> or <userinput>apt-cache show firefox</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>apt-get</userinput></seg><seg>Manages packages in apt. Common commands are install to install a package), remove to remove a package, purge to remove a package and the configuration, and autoremove which will also remove unneeded packages</seg><seg><userinput>apt-get [command] [package]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>cat</userinput></seg><seg>Joins (concatenates) two or more files</seg><seg><userinput>cat [file1] [file2] ... > [output file]</userinput></seg></seglistitem>
 			<seglistitem><seg><userinput>cd</userinput></seg><seg>Changes to another directory</seg><seg><userinput>cd [directory]</userinput></seg></seglistitem>
 			<seglistitem><seg><userinput>cp</userinput></seg><seg>Copies a file (or files) to a directory or to overwrite another file </seg><seg><userinput>cp [file(s)] [directory]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>date</userinput></seg><seg>Tells you the date and time in many different formats, timezones, and conversions. </seg><seg><userinput>date [options]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>editor</userinput></seg><seg>Opens a text file in an editor</seg><seg><userinput>editor [file]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>grep</userinput></seg><seg>Searches strings or files</seg><seg><userinput>grep [text] [file(s)]</userinput> or <userinput>[command] | grep [text]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>kill</userinput></seg><seg>Terminates programs with a specified PID. If you don't know the PID you can use <userinput>pidof</userinput> </seg><seg><userinput>kill [-SIGNAL] [PID(s)]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>killall</userinput></seg><seg>Much like the one above, except you specify the programs name </seg><seg><userinput>killall [-SIGNAL] [process(es)]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>less</userinput></seg><seg>Shows the contents of a text file</seg><seg><userinput>less [file]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>ls</userinput></seg><seg>Lists files in a directory. Lists files in the current directory if none is specified</seg><seg><userinput>ls [directory]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>man</userinput></seg><seg>Shows help about a command</seg><seg><userinput>man [command]</userinput></seg></seglistitem>
 			<seglistitem><seg><userinput>mv</userinput></seg><seg>Moves or renames a file</seg><seg><userinput>mv [filename] [newfilename]</userinput></seg></seglistitem>
-			<seglistitem><seg><userinput>man</userinput></seg><seg>Get help about a command</seg><seg><userinput>man [command]</userinput></seg></seglistitem>
-			<seglistitem><seg><userinput>cat</userinput></seg><seg>Joins (concatenates) two or more files</seg><seg><userinput>cat [file1] [file2] ... > [output file]</userinput></seg></seglistitem>
-			<seglistitem><seg><userinput>less</userinput></seg><seg>View the contents of a text file</seg><seg><userinput>less [file]</userinput></seg></seglistitem>
-			<seglistitem><seg><userinput>editor</userinput></seg><seg>Edit a text file </seg><seg><userinput>editor [file]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>rm</userinput></seg><seg>Removes files or directories. Be very careful with this command! With the -r option, it removes all files and directories recursively!</seg><seg><userinput>rm [file(s)]</userinput> or <userinput>rm -ir [dir(s)]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>wget</userinput></seg><seg>Downloads files to current directory.  The -N option can be useful for checking to see if a file is newer on the server than the one you have locally, see <userinput>man wget</userinput> for more information.</seg><seg><userinput>wget [urls]</userinput></seg></seglistitem>
 		</segmentedlist>
 	</section>
 </chapter>
