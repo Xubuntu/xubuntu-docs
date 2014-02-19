@@ -1,18 +1,33 @@
-xubuntu-docs (14.04.0) UNRELEASED; urgency=low
+xubuntu-docs (14.04.1) saucy; urgency=medium
+
+  [ Unit 193 ]
+  * Add several commands to the "Common commands" section.
 
   [ Pasi Lallinaho ]
-  * Bump version numbers to 14.04/Trusty
+  * Remove mentions of gThumb from the documentation since it's not shipped in Trusty.
+
+ -- Pasi Lallinaho <pasi@shimmerproject.org>  Fri, 14 Feb 2014 04:20:10 +0200
+
+xubuntu-docs (14.04.0) trusty; urgency=medium
+
+  [ Pasi Lallinaho ]
+  * Update version numbers (14.04/Trusty) and copyright
+  * Fix text wrapping for information boxes
 
   [ David Pires ]
   * Add <application> tags for NetworkManager (LP: #1238718)
   * Use 'sudo -i' instead of 'gksudo' (LP: #1251332)
   * Fix typos (LP: #1243946)
+  * Add documentation for Mugshot
+  * Update documentation for xfdesktop
 
   [ Unit 193 ]
   * Fix typos
   * Fix file permissions
+  * Build-dep drop use of cdbs use dh9, update d/compat
+  * Update standards version
 
- -- Pasi Lallinaho <pasi@shimmerproject.org>  Mon, 21 Oct 2013 00:38:46 +0300
+ -- Unit 193 <unit193@ubuntu.com>  Wed, 12 Feb 2014 16:56:38 -0500
 
 xubuntu-docs (13.10.0) saucy; urgency=low
 

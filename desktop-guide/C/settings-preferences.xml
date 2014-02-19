@@ -11,7 +11,25 @@
 <chapter id="settings-preferences">
 	<title>Settings and Preferences</title>
 
-	<para>A brief introduction to this chapter...</para>
+	<para>The options to customize Xubuntu to your needs and preferences are virtually unlimited, ranging from desktop looks to low level operation tweaks. The sections in this chapter describe how to keep your personal information updated, customize the looks of the desktop and edit the main applications menu to your liking.</para>
+	
+	<section id="personal-info">
+		<title>Customizing your personal info</title>
+		
+		<para><application>Mugshot</application> is a lightweight user configuration utility that allows you to easily set the profile image and user details for your user profile and any supported applications.</para>
+		
+		<para>To launch <application>Mugshot</application> navigate to &settings-mugshot;.</para>
+		
+		<para>To change your profile image, click the <guibutton>image</guibutton> button on the left of the GUI, select one of the given options and follow the instructions.</para>
+		
+		<note><para>Mugshot requires the installation of <literal>&package;gstreamer1.0-tools</literal> package to use the <guilabel>Capture from camera...</guilabel> feature.</para></note>
+		
+		<para>Fill the text-fields with the required personal data and click <guibutton>Apply</guibutton>. When applying these details with <application>Pidgin</application> and/or LibreOffice installed, you will be prompted to update their settings as well.</para>
+		
+		<warning><para>If the personal data inserted in the <guilabel>First Name</guilabel> and <guilabel>Last Name</guilabel> text-fields differ from the existing values held in <userinput>/etc/passwd</userinput>, you'll be prompted to insert your password as a security measure to prevent unwanted updates to your personal information.</para></warning>
+		
+		<para>Read more at the <ulink url="&mugshot-help;">Mugshot</ulink> official documentation.</para>
+	</section>
 
 	<section id="customizing-appearance">
 		<title>Customizing the appearance</title>
@@ -21,37 +39,30 @@
 
 		<section id="customizing-wallpaper">
 			<title>Changing your wallpaper</title>
+			
+			<para>You can easily change your desktop wallpaper navigating to &settings-desktop;, or alternatively, by right clicking your desktop and selecting the <menuchoice><guimenuitem>Desktop Settings...</guimenuitem></menuchoice> option.</para>
 
-			<para>To change your wallpaper to any of the other default wallpapers:</para>
-
-			<itemizedlist>
-				<listitem><para>Right-click the desktop</para></listitem>
-				<listitem><para>From the context menu, select <menuchoice><guimenuitem>Desktop
-					Settings</guimenuitem></menuchoice></para></listitem>
-				<listitem><para>In the <guilabel>Background</guilabel> tab, select a new wallpaper
-					image</para></listitem>
-				<listitem><para>If you have multiple monitors, you will have another set of tabs under
-					<guilabel>Background</guilabel>; use these to specify which monitor's wallpaper you
-					want to change.</para></listitem>
-				<listitem><para>If you have multiple monitors, you can set the wallpaper on the primary
-					monitor to stretch across all monitors.</para></listitem>
-			</itemizedlist>
-
-			<tip><para>If you want to add one or more of your images in this list for future use, you
-				can copy or symlink them to &location_backdrops; (requires administrative privileges)</para></tip>
+			<para>Once the <application>Desktop</application> settings dialog is open, the <guilabel>Background</guilabel> tab gives you options for configuring the look of your desktop background. You can choose to use a single image or multiple images as wallpaper or you can use a color scheme.</para>
+						
+			<tip><para>The location of the images in the <guilabel>Wallpaper for my desktop</guilabel> pane is controlled by the <guibutton>Folder:</guibutton> option. By bringing up this pick list, you can choose an alternate location for the source of your images. If you want to add one or more of your images to this list for future use, you can copy or symlink them to &location_backdrops; (requires administrative privileges).</para></tip>
+				
+			<para>If you choose a location that contains multiple images, you have the option of varying the background by switching to each of the images in that location. By checking <guibutton>Change the background</guibutton>, you have several time-based criteria to choose from, the last of which, <guilabel>Chronologically</guilabel>, will sort the pictures by filename and then go through them in that order, spread out equally over one day.</para>
+			
+			<para>Xfdesktop supports xinerama and multi-monitor setups. With more than one display/monitor connected, the <guilabel>Background</guilabel> tab will always reflect the settings of the monitor where the dialog is positioned. This allows each monitor to have its own settings. Just drag the dialog to the monitor on which you want to edit the settings.</para>
 
 			<para>If you want to set any of your own images as the wallpaper, the easiest way to
 				achieve this is:</para>
 
 			<itemizedlist>
 				<listitem><para>Open Thunar and navigate to the directory with the image</para></listitem>
-				<listitem><para>Right-click the image and select <menuchoice><guimenuitem>Set as
-					wallpaper</guimenuitem></menuchoice> from the context menu</para></listitem>
+				<listitem><para>Right-click the image and select <menuchoice><guimenuitem>Set as wallpaper</guimenuitem></menuchoice> from the context menu</para></listitem>
 			</itemizedlist>
 
 			<caution><para>With multiple monitors, this setting will only change the primary monitor's
 				wallpaper. To change the wallpaper for other monitors, you will need to use the
 				dialog described above.</para></caution>
+			
+			<para>Read more at the <ulink url="&xfdesktop-help;">Xfdesktop</ulink> official documentation.</para>
 		</section>
 
 		<section id="customizing-panel">

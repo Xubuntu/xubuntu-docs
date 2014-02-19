@@ -231,9 +231,10 @@ div.important tr,
 div.note tr,
 div.tip tr,
 div.warning tr {
-	max-width: 90%;
+/*	max-width: 100%; */
 	min-height: 3.5em;
-	float: left;
+/*	float: left; */
+    position: absolute;
 }
 
 div.caution tr:first-child,
@@ -242,6 +243,17 @@ div.note tr:first-child,
 div.tip tr:first-child,
 div.warning tr:first-child {
 	width: 52px;
+}
+
+div.caution tr:last-child,
+div.important tr:last-child,
+div.note tr:last-child,
+div.tip tr:last-child,
+div.warning tr:last-child {
+    float: right;
+    margin: 0 0 0 52px;
+    position: relative;
+    top: 1px;
 }
 
 /* div.caution td > p,
