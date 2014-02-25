@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-02-19 16:01-0500\n"
-"PO-Revision-Date: 2014-01-10 14:41+0000\n"
-"Last-Translator: Pasi Lallinaho <pasi@shimmerproject.org>\n"
+"PO-Revision-Date: 2014-02-24 18:36+0000\n"
+"Last-Translator: David Pires <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-02-20 05:48+0000\n"
-"X-Generator: Launchpad (build 16916)\n"
+"X-Launchpad-Export-Date: 2014-02-25 06:28+0000\n"
+"X-Generator: Launchpad (build 16926)\n"
 "Language: pt\n"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
@@ -200,7 +200,7 @@ msgstr ""
 
 #: desktop-guide/C/settings-preferences.xml:12(title)
 msgid "Settings and Preferences"
-msgstr ""
+msgstr "Configurações e Preferências"
 
 #: desktop-guide/C/settings-preferences.xml:14(para)
 msgid ""
@@ -210,10 +210,16 @@ msgid ""
 "updated, customize the looks of the desktop and edit the main applications "
 "menu to your liking."
 msgstr ""
+"As opções para personalizar o Xubuntu às suas necessidades e preferências "
+"são virtualmente ilimitadas, desde o aspeto do seu ambiente de trabalho aos "
+"ajustes de funcionamento de baixo nível. As seções deste capítulo descrevem "
+"como manter as suas informações pessoais atualizadas, personalizar a "
+"aparência do ambiente de trabalho e editar o menu de aplicações principais "
+"ao seu gosto."
 
 #: desktop-guide/C/settings-preferences.xml:17(title)
 msgid "Customizing your personal info"
-msgstr ""
+msgstr "Personalizar a sua informação pessoal"
 
 #: desktop-guide/C/settings-preferences.xml:19(para)
 msgid ""
@@ -221,6 +227,9 @@ msgid ""
 "utility that allows you to easily set the profile image and user details for "
 "your user profile and any supported applications."
 msgstr ""
+"O <application>Mugshot</application> é utilitário leve de configuração de "
+"utilizador que permite definir facilmente a imagem do perfil de utilizador e "
+"detalhes do seu perfil de utilizador em todas as aplicações suportadas."
 
 #: desktop-guide/C/settings-preferences.xml:21(para)
 msgid ""
@@ -229,6 +238,10 @@ msgid ""
 "Manager</guimenuitem><guimenuitem>About "
 "Me</guimenuitem></menuchoice></application>."
 msgstr ""
+"Par iniciar o <application>Mugshot</application> navegue até "
+"<application><menuchoice><placeholder-1/><guimenuitem>Gestoe de "
+"definições</guimenuitem><guimenuitem>Sobre "
+"Mim</guimenuitem></menuchoice></application>."
 
 #: desktop-guide/C/settings-preferences.xml:23(para)
 msgid ""
@@ -236,6 +249,9 @@ msgid ""
 "on the left of the GUI, select one of the given options and follow the "
 "instructions."
 msgstr ""
+"Para alterar sua imagem de perfil, clique no botão da "
+"<guibutton>imagem</guibutton> à esquerda da GUI, selecione uma das opções "
+"apresentadas e siga as instruções."
 
 #: desktop-guide/C/settings-preferences.xml:25(para)
 msgid ""
@@ -243,6 +259,9 @@ msgid ""
 "tools</literal> package to use the <guilabel>Capture from "
 "camera...</guilabel> feature."
 msgstr ""
+"O Mugshot requer a instalação do pacote <literal><placeholder-"
+"1/>gstreamer1.0-tools</literal> para usar o recurso <guilabel>Capturar a "
+"partir da câmera...</guilabel>."
 
 #: desktop-guide/C/settings-preferences.xml:27(para)
 msgid ""
@@ -251,6 +270,10 @@ msgid ""
 "<application>Pidgin</application> and/or LibreOffice installed, you will be "
 "prompted to update their settings as well."
 msgstr ""
+"Preencha os campos de texto com os dados pessoais necessários e clique "
+"<guibutton>Aplicar</guibutton>. Ao aplicar estes detalhes com o "
+"<application>Pidgin</application> e/ou o LibreOffice instalados, será "
+"solicitado a atualizar as suas configurações também."
 
 #: desktop-guide/C/settings-preferences.xml:29(para)
 msgid ""
@@ -260,12 +283,19 @@ msgid ""
 "your password as a security measure to prevent unwanted updates to your "
 "personal information."
 msgstr ""
+"Se os dados pessoais inseridos nos campos de texto <guilabel>Nome</guilabel> "
+"e <guilabel>Apelido</guilabel> diferirem dos valores existentes no ficheiro "
+"<userinput>/etc/passwd</userinput>, será solicitado a inserir a sua senha "
+"como uma medida de segurança para evitar atualizações indesejadas às suas "
+"informações pessoais."
 
 #: desktop-guide/C/settings-preferences.xml:31(para)
 msgid ""
 "Read more at the <ulink url=\"http://smdavis.us/doku/doku.php?id=mugshot-"
 "docs\">Mugshot</ulink> official documentation."
 msgstr ""
+"Leia mais no sítio da documentação oficial do <ulink "
+"url=\"http://smdavis.us/doku/doku.php?id=mugshot-docs\">Mugshot</ulink>"
 
 #: desktop-guide/C/settings-preferences.xml:35(title)
 msgid "Customizing the appearance"
@@ -292,6 +322,13 @@ msgid ""
 "<menuchoice><guimenuitem>Desktop Settings...</guimenuitem></menuchoice> "
 "option."
 msgstr ""
+"Pode facilmente mudar o fundo do seu ambiente de trabalho navegando até "
+"<application><menuchoice><placeholder-1/><guimenuitem>Gestor de "
+"definições</guimenuitem><guimenuitem>Ambiente de "
+"trabalho</guimenuitem></menuchoice></application>, ou alternativamente, "
+"clicando com o botão direito do rato no seu ambiente de trabalho e "
+"selecionando a opção <menuchoice><guimenuitem>Definições do ambiente de "
+"trabalho...</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/settings-preferences.xml:45(para)
 msgid ""
@@ -300,6 +337,11 @@ msgid ""
 "look of your desktop background. You can choose to use a single image or "
 "multiple images as wallpaper or you can use a color scheme."
 msgstr ""
+"Uma vez aberta a janela de configuração do <application>Ambiente de "
+"trabalho</application>, a aba <guilabel>Fundo</guilabel> dá-lhe opções para "
+"configurar o visual do fundo do seu ambiente de trabalho. Pode optar por "
+"usar uma única imagem ou várias imagens como papel de parede ou pode "
+"utilizar um esquema de cores."
 
 #: desktop-guide/C/settings-preferences.xml:47(para)
 msgid ""
@@ -311,6 +353,13 @@ msgid ""
 "<filename><placeholder-1/> /usr/share/xfce4/backdrops/</filename> (requires "
 "administrative privileges)."
 msgstr ""
+"A localização das imagens no painel <guilabel>Papel de parede do ambiente de "
+"trabalho</guilabel> é controlada pela opção <guibutton>Pasta:</guibutton>. "
+"Ao chamar esta lista de opções, pode escolher um local alternativo para a "
+"origem das suas imagens. Se quiser adicionar uma ou mais das suas imagens a "
+"esta lista para uso futuro, pode copiá-las ou ligá-las simbólicamente a "
+"<filename><placeholder-1/> /usr/share/xfce4/backdrops/</filename> (requer "
+"privilégios administrativos)."
 
 #: desktop-guide/C/settings-preferences.xml:49(para)
 msgid ""
@@ -321,6 +370,13 @@ msgid ""
 "<guilabel>Chronologically</guilabel>, will sort the pictures by filename and "
 "then go through them in that order, spread out equally over one day."
 msgstr ""
+"Se escolher um local que contenha várias imagens, terá a opção de variar o "
+"fundo mudando para cada uma das imagens desse local. Ao assinalar "
+"<guibutton>Mudar imagem de fundo</guibutton>, tem vários critérios baseados "
+"em tempo para escolher, o último dos quais, "
+"<guilabel>cronologicamente</guilabel>, irá ordenar as imagens por nome de "
+"ficheiro e em seguida utilizá-las por essa ordem, distribuídas igualmente ao "
+"longo de um dia."
 
 #: desktop-guide/C/settings-preferences.xml:51(para)
 msgid ""
@@ -330,6 +386,11 @@ msgid ""
 "This allows each monitor to have its own settings. Just drag the dialog to "
 "the monitor on which you want to edit the settings."
 msgstr ""
+"O Xfdesktop suporta Xinerama e configurações multi-monitor. Com mais de um "
+"monitor ligado, a aba <guilabel>Fundo</guilabel> irá sempre refletir as "
+"configurações do monitor onde o diálogo está posicionado. Isso permite que "
+"cada monitor possa ter as suas próprias configurações. Basta arrastar a "
+"janela para o monitor no qual deseja editar as configurações."
 
 #: desktop-guide/C/settings-preferences.xml:53(para)
 msgid ""
@@ -368,6 +429,8 @@ msgid ""
 "url=\"http://docs.xfce.org/xfce/xfdesktop/start\">Xfdesktop</ulink> official "
 "documentation."
 msgstr ""
+"Leia mais no sitío da documentação oficial do <ulink "
+"url=\"http://docs.xfce.org/xfce/xfdesktop/start\">Xfdesktop</ulink>"
 
 #: desktop-guide/C/settings-preferences.xml:69(title)
 msgid "Customizing your panel configuration"
@@ -3447,7 +3510,7 @@ msgstr "Pasi Lallinaho (knome)"
 
 #: desktop-guide/C/index.xml:29(para)
 msgid "David Pires (slickymaster)"
-msgstr ""
+msgstr "David Pires (slickymaster)"
 
 #: desktop-guide/C/index.xml:30(para)
 msgid "Unit 193 (Unit193)"
@@ -3535,7 +3598,7 @@ msgstr "2013"
 
 #: desktop-guide/C/index.xml:56(year)
 msgid "2014"
-msgstr ""
+msgstr "2014"
 
 #: desktop-guide/C/index.xml:57(holder)
 msgid "Canonical Ltd. and members of the Xubuntu Documentation team."
@@ -5689,32 +5752,34 @@ msgstr "Sintaxe"
 #: desktop-guide/C/command-line.xml:45(userinput)
 #, no-wrap
 msgid "apt-cache"
-msgstr ""
+msgstr "apt-cache"
 
 #: desktop-guide/C/command-line.xml:45(seg)
 msgid ""
 "Shows information about the packages in the repository. Common commands are "
 "the search and show commands"
 msgstr ""
+"Mostra informações sobre os pacotes no repositório. Os comandos mais comuns "
+"são os comandos de pesquisa e mostrar"
 
 #: desktop-guide/C/command-line.xml:45(userinput)
 #, no-wrap
 msgid "apt-cache search web browser"
-msgstr ""
+msgstr "apt-cache search web browser"
 
 #: desktop-guide/C/command-line.xml:45(userinput)
 #, no-wrap
 msgid "apt-cache show firefox"
-msgstr ""
+msgstr "apt-cache show firefox"
 
 #: desktop-guide/C/command-line.xml:45(seg) desktop-guide/C/command-line.xml:52(seg) desktop-guide/C/command-line.xml:59(seg)
 msgid "<placeholder-1/> or <placeholder-2/>"
-msgstr ""
+msgstr "<placeholder-1/> ou <placeholder-2/>"
 
 #: desktop-guide/C/command-line.xml:46(userinput)
 #, no-wrap
 msgid "apt-get"
-msgstr ""
+msgstr "apt-get"
 
 #: desktop-guide/C/command-line.xml:46(seg)
 msgid ""
@@ -5722,11 +5787,14 @@ msgid ""
 "remove to remove a package, purge to remove a package and the configuration, "
 "and autoremove which will also remove unneeded packages"
 msgstr ""
+"Gere pacotes no apt. Os comandos mais comuns são install para instalar um "
+"pacote, remove para remover um pacote, purge para remover um pacote e a sua "
+"configuração, e autoremove que também irá remover pacotes desnecessários"
 
 #: desktop-guide/C/command-line.xml:46(userinput)
 #, no-wrap
 msgid "apt-get [command] [package]"
-msgstr ""
+msgstr "apt-get [comando] [pacote]"
 
 #: desktop-guide/C/command-line.xml:47(userinput)
 #, no-wrap
@@ -5775,18 +5843,20 @@ msgstr "cp [ficheiro(s)] [diretório]"
 #: desktop-guide/C/command-line.xml:50(userinput)
 #, no-wrap
 msgid "date"
-msgstr ""
+msgstr "date"
 
 #: desktop-guide/C/command-line.xml:50(seg)
 msgid ""
 "Tells you the date and time in many different formats, timezones, and "
 "conversions."
 msgstr ""
+"Diz-lhe a data e hora em vários formatos diferentes, fusos horários, e "
+"conversões."
 
 #: desktop-guide/C/command-line.xml:50(userinput)
 #, no-wrap
 msgid "date [options]"
-msgstr ""
+msgstr "date [opções]"
 
 #: desktop-guide/C/command-line.xml:51(userinput)
 #, no-wrap
@@ -5795,7 +5865,7 @@ msgstr "editor"
 
 #: desktop-guide/C/command-line.xml:51(seg)
 msgid "Opens a text file in an editor"
-msgstr ""
+msgstr "Abre um ficheiro de texto num editor"
 
 #: desktop-guide/C/command-line.xml:51(userinput)
 #, no-wrap
@@ -5805,56 +5875,60 @@ msgstr "editor [ficheiro]"
 #: desktop-guide/C/command-line.xml:52(userinput)
 #, no-wrap
 msgid "grep"
-msgstr ""
+msgstr "grep"
 
 #: desktop-guide/C/command-line.xml:52(seg)
 msgid "Searches strings or files"
-msgstr ""
+msgstr "Pesquisa cadeias de caracteres ou ficheiros"
 
 #: desktop-guide/C/command-line.xml:52(userinput)
 #, no-wrap
 msgid "grep [text] [file(s)]"
-msgstr ""
+msgstr "grep [texto] [ficheiro(s)]"
 
 #: desktop-guide/C/command-line.xml:52(userinput)
 #, no-wrap
 msgid "[command] | grep [text]"
-msgstr ""
+msgstr "[comando] | grep [texto]"
 
 #: desktop-guide/C/command-line.xml:53(userinput)
 #, no-wrap
 msgid "kill"
-msgstr ""
+msgstr "kill"
 
 #: desktop-guide/C/command-line.xml:53(userinput)
 #, no-wrap
 msgid "pidof"
-msgstr ""
+msgstr "pidof"
 
 #: desktop-guide/C/command-line.xml:53(seg)
 msgid ""
 "Terminates programs with a specified PID. If you don't know the PID you can "
 "use <placeholder-1/>"
 msgstr ""
+"Termina programas com um PID especificado. Se não sabe o PID pode utilizar "
+"<placeholder-1/>"
 
 #: desktop-guide/C/command-line.xml:53(userinput)
 #, no-wrap
 msgid "kill [-SIGNAL] [PID(s)]"
-msgstr ""
+msgstr "kill [-SINAL] [PID(s)]"
 
 #: desktop-guide/C/command-line.xml:54(userinput)
 #, no-wrap
 msgid "killall"
-msgstr ""
+msgstr "killall"
 
 #: desktop-guide/C/command-line.xml:54(seg)
 msgid "Much like the one above, except you specify the programs name"
 msgstr ""
+"Muito semelhante ao descrito acima, exceto que você especifica o nome dos "
+"programas"
 
 #: desktop-guide/C/command-line.xml:54(userinput)
 #, no-wrap
 msgid "killall [-SIGNAL] [process(es)]"
-msgstr ""
+msgstr "killall [-SINAL] [processo(s)]"
 
 #: desktop-guide/C/command-line.xml:55(userinput)
 #, no-wrap
@@ -5863,7 +5937,7 @@ msgstr "less"
 
 #: desktop-guide/C/command-line.xml:55(seg)
 msgid "Shows the contents of a text file"
-msgstr ""
+msgstr "Mostra o conteúdo de um ficheiro de texto"
 
 #: desktop-guide/C/command-line.xml:55(userinput)
 #, no-wrap
@@ -5880,6 +5954,8 @@ msgid ""
 "Lists files in a directory. Lists files in the current directory if none is "
 "specified"
 msgstr ""
+"Lista os ficheiros em um diretório. Lista os ficheiros no diretório atual se "
+"nenhum for especificado"
 
 #: desktop-guide/C/command-line.xml:56(userinput)
 #, no-wrap
@@ -5893,7 +5969,7 @@ msgstr "mv [nome_ficheiro] [novo_nome_ficheiro]"
 
 #: desktop-guide/C/command-line.xml:57(seg)
 msgid "Shows help about a command"
-msgstr ""
+msgstr "Exibe ajuda sobre um comando"
 
 #: desktop-guide/C/command-line.xml:57(userinput)
 #, no-wrap
@@ -5917,33 +5993,35 @@ msgstr "mv [nome_ficheiro] [novo_nome_ficheiro]"
 #: desktop-guide/C/command-line.xml:59(userinput)
 #, no-wrap
 msgid "rm"
-msgstr ""
+msgstr "rm"
 
 #: desktop-guide/C/command-line.xml:59(seg)
 msgid ""
 "Removes files or directories. Be very careful with this command! With the -r "
 "option, it removes all files and directories recursively!"
 msgstr ""
+"Remove ficheiros ou diretórios. Tenha muito cuidado com este comando! Com a "
+"opção -r, removerá todos os ficheiros e diretórios de forma recursiva!"
 
 #: desktop-guide/C/command-line.xml:59(userinput)
 #, no-wrap
 msgid "rm [file(s)]"
-msgstr ""
+msgstr "rm [ficheiro(s)]"
 
 #: desktop-guide/C/command-line.xml:59(userinput)
 #, no-wrap
 msgid "rm -ir [dir(s)]"
-msgstr ""
+msgstr "rm -ir [diretório(s)]"
 
 #: desktop-guide/C/command-line.xml:60(userinput)
 #, no-wrap
 msgid "wget"
-msgstr ""
+msgstr "wget"
 
 #: desktop-guide/C/command-line.xml:60(userinput)
 #, no-wrap
 msgid "man wget"
-msgstr ""
+msgstr "man wget"
 
 #: desktop-guide/C/command-line.xml:60(seg)
 msgid ""
@@ -5951,11 +6029,14 @@ msgid ""
 "checking to see if a file is newer on the server than the one you have "
 "locally, see <placeholder-1/> for more information."
 msgstr ""
+"Transfere ficheiros para o diretório atual. A opção -N pode ser útil para "
+"verificar se um ficheiro é mais recente no servidor do que o que possui "
+"localmente, consulte <placeholder-1/> para mais informações."
 
 #: desktop-guide/C/command-line.xml:60(userinput)
 #, no-wrap
 msgid "wget [urls]"
-msgstr ""
+msgstr "wget [urls]"
 
 #: desktop-guide/C/administrative-tasks.xml:12(title)
 msgid "Administrative tasks"
