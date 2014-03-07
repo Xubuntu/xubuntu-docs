@@ -18,12 +18,14 @@
 
 		<para>Xubuntu 14.04 features a new menu called <application>Whisker Menu</application>. It was chosen, in part, because it is so simple to navigate and customize.</para>
 
-		<para>The easiest and probably most useful tweak you can make to the menu is to customize your <guilabel>Favorites</guilabel>. Accomplishing this is a simple matter of locating the application you want, right-clicking on it and selecting <guilabel>Add to Favorites</guilabel>. From that same right-click popup, you can also choose to add the application to the Desktop or to the Panel. Right-clicking on applications already in <guilabel>Favorites</guilabel> gives you to option to remove them or to sort the list. You can also rearrange <guilabel>Favorites</guilabel> just by dragging them.</para>
+		<para>The easiest and probably most useful tweak you can make to the Menu is to customize your <guilabel>Favorites</guilabel>. Accomplishing this is a simple matter of locating the application you want, right-clicking on it and selecting <guilabel>Add to Favorites</guilabel>. From that same right-click popup, you can also choose to add the application to the Desktop or to the Panel. Right-clicking on applications already in <guilabel>Favorites</guilabel> gives you to option to remove them or to sort the list. You can also rearrange <guilabel>Favorites</guilabel> just by dragging them.</para>
 
-		<para>If you're not sure where a program is listed or what it is called, you can use the search feature. When you open the menu, your cursor is already positioned in the search bar. Just start typing and an incremental search is performed on both application names and descriptions. Once you see your application listed in the results, you can directly launch it or right-click on it and add it to your preferred launch location.</para>
+		<para>If you're not sure where a program is listed or what it is called, you can use the search feature. When you open the Menu, your cursor is already positioned in the search bar. Just start typing and an incremental search is performed on both application names and descriptions. Once you see your application listed in the results, you can directly launch it or right-click on it and add it to your preferred launch location.</para>
 
-		<para>For more options to customize the menu, right-click on &appmenu; and select <guilabel>Properties</guilabel>. There you will find three tabs to change <guilabel>Appearance</guilabel>, <guilabel>Behavior</guilabel> and <guilabel>Search Actions</guilabel>.
+		<para>For more options to customize the Menu, right-click on &appmenu; and select <guilabel>Properties</guilabel>. There you will find three tabs to change <guilabel>Appearance</guilabel>, <guilabel>Behavior</guilabel> and <guilabel>Search Actions</guilabel>.
 		</para>
+
+		<para>To add directories and launchers which don't appear as entries in the default Menu, you'll need another tool. A more advanced menu editing utility called MenuLibre can be found by clicking &wm-settings-menulibre;. Using this editor you can create, hide and reorder the directories which appear in the right-hand pane of the Menu. Within those directories you can then create application launchers and customize their behavior by configuring the many options available in this utility. For more in-depth information on how to use all of those options, consult the <ulink url="&menulibre-help;">MenuLibre</ulink> online documenation.</para>
 
 	</section>
 
