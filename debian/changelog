@@ -1,5 +1,8 @@
 xubuntu-docs (14.04.1) UNRELEASED; urgency=medium
 
+  [ David Pires ]
+  * Corrected the xfdesktop-help link in xubuntu.ent file
+  
   [ Unit 193 ]
   * Add several commands to the "Common commands" section.
   * Update packaging and Makefiles for translations.
@@ -8,9 +11,6 @@ xubuntu-docs (14.04.1) UNRELEASED; urgency=medium
 
   [ Pasi Lallinaho ]
   * Remove mentions of gThumb from the documentation since it's not shipped in Trusty.
-
-  [ Ted Cox ]
-  * Fix typos in the Command Line chapter.
 
   [ Nigel Hall ]
   * Fix typos in the Command Line chapter.
