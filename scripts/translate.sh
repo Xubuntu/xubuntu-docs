@@ -1,11 +1,11 @@
 #!/bin/sh
 
-####################################################################################           
+####################################################################################
 # Copyright (C) 2005-2006 Ubuntu Documentation Project (ubuntu-doc@lists.ubuntu.com)
 #    This program is free software; you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
 #    the Free Software Foundation; either version 2 of the License, or
-#    (at your option) any later version. 
+#    (at your option) any later version.
 #
 #    This program is distributed in the hope that it will be useful,
 #    but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -15,7 +15,7 @@
 #    You should have received a copy of the GNU General Public License
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-#    On Debian based systems a copy of the GPL can be found 
+#    On Debian based systems a copy of the GPL can be found
 #    at /usr/share/common-licenses/GPL
 ####################################################################################
 
@@ -25,55 +25,64 @@
 # $ translate.sh
 #
 # Optional parameters:
-#	-d<documentname>
+#	-g Translate for every language listed in po/LINGUAS
 #	-l<language>
+#	-u Update the list of translations in po/LINGUAS
 #
 
-translate () {
-	y=$(basename ${1} .po)
-	echo " --Translating ${y}"
-	mkdir -p ${y}
+translate() {
+	lang=$(basename ${1} .po)
+	echo " --Translating ${lang}"
+	mkdir -p ${lang}
 	for i in C/*xml; do
-		j=$(basename ${i} C/)
-		k=$(basename ${j} .xml)
-		xml2po -e -p po/${y}.po C/${j} >${y}/${j}
+		xml=$(basename ${i} C/)
+		xml2po -e -p po/${lang}.po C/${xml} >${lang}/${xml}
 	done
 	if [ -e C/${document}-C.omf ]; then
-	    xml2po -e -p ${1} C/${document}-C.omf >${y}/${document}-${y}.omf
-	    sed -i -e s@\"C\"@\"${y}\"@g -e s@C/@${y}/@g ${y}/${document}-${y}.omf
+	    xml2po -e -p ${1} C/${document}-C.omf >${lang}/${document}-${lang}.omf
+	    sed -i -e s@\"C\"@\"${lang}\"@g -e s@C/@${lang}/@g ${lang}/${document}-${lang}.omf
 	fi
-	../scripts/validate.sh ${y}/${document}.xml
+	../scripts/validate.sh ${lang}/index.xml
 }
 
-choose_language () {
-	echo "Entering ${1}"
-	cd ${1}
-	if [ ${2} ]; then
-		translate "po/${2}.po"
+choose_language() {
+	if [ ${1} ]; then
+		translate "po/${1}.po"
 	else
 		for x in po/*.po; do
 			translate ${x}
 		done
 	fi
-	rm .xml2po.mo
-	cd ..
 }
 
-while getopts "d:l:" Option
+shipped_languages() {
+percent=80
+for po in `ls po/*.po`
+do
+   if [ `msgfmt -o /dev/null --statistics $po 2>&1|awk '{printf("%.0f\n",$1 / ($1 + $4 + $7) * 100)}'` -ge "${percent}" ];then
+      basename -s.po $po
+   fi
+done | tee po/LINGUAS
+exit
+}
+
+while getopts ":gl:u" Option
 do
 	case ${Option} in
-		d) document=${OPTARG};;
-		l) lang=${OPTARG};;
+		g) generated=yes;;
+		l) language=${OPTARG};;
+		u) shipped_languages;;
 		*) echo "Please specify an argument.";;
 	esac
 done
 
-if [ ${document} ]; then
-	choose_language ${document} ${lang}
-else
-	for doc in `cat libs/shipped-docs`
+if [ ${language} ]; then
+	choose_language ${language}
+elif [ ${generated} ] && [ -f po/LINGUAS ];then
+	for language in `cat po/LINGUAS`
 	do
-		choose_language ${doc} ${lang}
+		choose_language ${language}
 	done
+else
+		choose_language
 fi
-

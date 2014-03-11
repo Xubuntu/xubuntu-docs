@@ -2,6 +2,8 @@ xubuntu-docs (14.04.1) UNRELEASED; urgency=medium
 
   [ Unit 193 ]
   * Add several commands to the "Common commands" section.
+  * Update packaging and Makefiles for translations.
+  * Drop unused scripts.
 
   [ Pasi Lallinaho ]
   * Remove mentions of gThumb from the documentation since it's not shipped in Trusty.
