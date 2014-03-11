@@ -66,10 +66,6 @@
 <!-- INLINE ICONS -->
 <!ENTITY package '<inlinemediaobject role="icon-pkg"><imageobject><imagedata fileref="../libs/images/package_icon.png" /></imageobject></inlinemediaobject>' >
 <!ENTITY key '<inlinemediaobject role="icon-key"><imageobject><imagedata fileref="../libs/images/key_icon.png" /></imageobject></inlinemediaobject>' >
-<!ENTITY settings '<guiicon><inlinemediaobject><imageobject><imagedata fileref="../libs/images/preferences-desktop.png" /></imageobject></inlinemediaobject></guiicon>' >
-<!ENTITY lockscreen '<guiicon><inlinemediaobject><imageobject><imagedata fileref="../libs/images/system-lock-screen.png" /></imageobject></inlinemediaobject></guiicon>' >
-<!ENTITY users '<guiicon><inlinemediaobject><imageobject><imagedata fileref="../libs/images/system-users.png" /></imageobject></inlinemediaobject></guiicon>' >
-<!ENTITY logout '<guiicon><inlinemediaobject><imageobject><imagedata fileref="../libs/images/system-log-out.png" /></imageobject></inlinemediaobject></guiicon>' >
 
 <!-- LOCATIONS -->
 <!ENTITY location '<inlinemediaobject><imageobject><imagedata fileref="../libs/images/location_icon.png"/></imageobject></inlinemediaobject>' >
@@ -83,6 +79,10 @@
 
 <!-- MENUS -->
 <!ENTITY appmenu '<guiicon><inlinemediaobject><imageobject><imagedata fileref="../libs/images/menu_icon.png"/></imageobject></inlinemediaobject></guiicon>' >
+<!ENTITY settings '<guiicon><inlinemediaobject><imageobject><imagedata fileref="../libs/images/preferences-desktop.png" /></imageobject></inlinemediaobject></guiicon>' >
+<!ENTITY lockscreen '<guiicon><inlinemediaobject><imageobject><imagedata fileref="../libs/images/system-lock-screen.png" /></imageobject></inlinemediaobject></guiicon>' >
+<!ENTITY users '<guiicon><inlinemediaobject><imageobject><imagedata fileref="../libs/images/system-users.png" /></imageobject></inlinemediaobject></guiicon>' >
+<!ENTITY logout '<guiicon><inlinemediaobject><imageobject><imagedata fileref="../libs/images/system-log-out.png" /></imageobject></inlinemediaobject></guiicon>' >
 <!-- Items -->
 <!ENTITY file-manager '<application><menuchoice>&appmenu;<guisubmenu>Accessories</guisubmenu><guimenuitem>File Manager</guimenuitem></menuchoice></application>' >
 <!ENTITY gigolo '<application><menuchoice>&appmenu;<guisubmenu>System</guisubmenu><guimenuitem>Gigolo</guimenuitem></menuchoice></application>' >
