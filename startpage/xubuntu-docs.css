@@ -81,3 +81,18 @@ ol {
 		list-style-type: decimal;
 		margin-left: 1.3em;
 	}
+
+ul {
+	margin-bottom: 1em;
+}
+
+ul li {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+ul.inline li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 0.5em;
+}
