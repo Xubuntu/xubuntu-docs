@@ -18,45 +18,18 @@
 	<section id="desktop">
 		<title>Desktop</title>
 
-		<para>Your desktop has two panels: one on top, which is always visible, and one at the bottom
-			of the screen, which is hidden when not in use.</para>
+		<para>The Xubuntu desktop has a single panel which is located at the top of the screen.</para>
 
 		<section id="desktop-top-panel">
-			<title>Top Panel</title>
+			<title>The Panel</title>
 
-			<para>The top panel is mainly used for starting applications and navigating to different
-				places on your computer. It also comes with an <guilabel>Action button</guilabel>,
-				<guilabel>Workspace Switcher</guilabel>, <guilabel>Notification Area</guilabel> and a
-				clock. Clicking on &appmenu; will open the <guilabel>Applications Menu</guilabel>,
-				offering you many choices of applications to start. Note that you can also access the
-				<guilabel>Settings Manager</guilabel>, <guilabel>Help</guilabel>, and a logout dialog from the	
-				menu. Clicking on the <guilabel>Action button</guilabel> (your username in the upper
-				right) will bring up a menu with choices for logging out, shutting down, locking the
-				screen, switching users and, depending on your hardware, suspending or hibernating your
-				computer.</para>
+			<para>The panel is used for starting and switching applications and for receiving information about your system. On the left side of the panel you will see the Xubuntu logo, &appmenu;. Clicking on this icon will open the <guilabel>Menu</guilabel>, offering you many choices of applications to start. Along the bottom of the menu window are icons for <guilabel>Settings Manager &settings;</guilabel> , <guilabel>Lock Screen &lockscreen;</guilabel> and <guilabel>Log Out &logout;</guilabel> .</para>
 
-			<para>To the left of the <guilabel>Action button</guilabel> is the <guilabel>Workspace
-				Switcher</guilabel> which looks like two colored rectangles. Clicking on these allows
-				you to instantly switch between two different workspaces which can each contain
-				different running applications. If you're used to running many applications
-				simultaneously, this is a handy way to keep your screen from getting too crowded.</para>
+			<para>The middle section of the panel is dedicated to window buttons for open applications. On the far right is the clock, displaying the date and time. To the left of that is the <guilabel>Notification Area</guilabel>. Here you will see indicators which give you information on your system, including network connectivity, sound volume level, battery status (when appropriate), instant messages and more. Some notification icons will only appear as necessary, for instance when software updates are available.</para>
 
-			<para>To the left of the clock is the <guilabel>Notification Area</guilabel>. Here you will
-				see icons displaying the status of your network connection and the system sound volume. 
-				Other notification icons may appear as necessary, for instance when software updates 
-				are available.</para>
+			<para>Both the position of the panel as well as the items it contains are configurable. The <guilabel>Menu</guilabel> is also customizable. See <xref linkend="settings-preferences" /> for more information on those topics.</para>
 		</section>
-
-		<section id="desktop-bottom-panel">
-			<title>Bottom Panel</title>
-
-			<para>At the bottom of the screen is a hidden panel called the Launcher Panel. To see this
-				panel, drag your mouse to the bottom of the screen and pause there. As the name
-				indicates, the purpose of this panel is to provide you with a quick way to launch any of
-				the most commonly used Xubuntu applications with a single click. Hovering over each icon
-				with your mouse will display the name of the application.</para>
-		</section>
-
+		
 		<section id="desktop-desktop">
 			<title>The Desktop</title>
 
@@ -166,6 +139,8 @@
 				Style</guimenuitem></menuchoice>. If you prefer a tree view in the left pane, choose
 				<menuchoice><guimenu>View</guimenu><guimenuitem>Side Pane</guimenuitem>
 				<guimenuitem>Tree</guimenuitem></menuchoice>.</para>
+
+			<para>For more choices, explore the options under <menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice>.</para>
 		</section>
 	</section>
 </chapter>

@@ -37,6 +37,7 @@
 <!ENTITY kernel-web 'http://www.kernel.org/' >
 <!ENTITY laptop-qa 'http://laptop.qa.ubuntu.com/' >
 <!ENTITY launchpad-web 'http://launchpad.net/' >
+<!ENTITY menulibre-help 'http://smdavis.us/doku/doku.php?id=menulibre-docs' >
 <!ENTITY mugshot-help 'http://smdavis.us/doku/doku.php?id=mugshot-docs' >
 <!ENTITY openprinting-web 'http://www.linuxfoundation.org/collaborate/workgroups/openprinting' >
 <!ENTITY orage 'http://www.kolumbus.fi/~w408237/orage/' >
@@ -65,6 +66,10 @@
 <!-- INLINE ICONS -->
 <!ENTITY package '<inlinemediaobject role="icon-pkg"><imageobject><imagedata fileref="../libs/images/package_icon.png" /></imageobject></inlinemediaobject>' >
 <!ENTITY key '<inlinemediaobject role="icon-key"><imageobject><imagedata fileref="../libs/images/key_icon.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY settings '<guiicon><inlinemediaobject><imageobject><imagedata fileref="../libs/images/preferences-desktop.png" /></imageobject></inlinemediaobject></guiicon>' >
+<!ENTITY lockscreen '<guiicon><inlinemediaobject><imageobject><imagedata fileref="../libs/images/system-lock-screen.png" /></imageobject></inlinemediaobject></guiicon>' >
+<!ENTITY users '<guiicon><inlinemediaobject><imageobject><imagedata fileref="../libs/images/system-users.png" /></imageobject></inlinemediaobject></guiicon>' >
+<!ENTITY logout '<guiicon><inlinemediaobject><imageobject><imagedata fileref="../libs/images/system-log-out.png" /></imageobject></inlinemediaobject></guiicon>' >
 
 <!-- LOCATIONS -->
 <!ENTITY location '<inlinemediaobject><imageobject><imagedata fileref="../libs/images/location_icon.png"/></imageobject></inlinemediaobject>' >
@@ -79,7 +84,6 @@
 <!-- MENUS -->
 <!ENTITY appmenu '<guiicon><inlinemediaobject><imageobject><imagedata fileref="../libs/images/menu_icon.png"/></imageobject></inlinemediaobject></guiicon>' >
 <!-- Items -->
-<!ENTITY computer-janitor '<application><menuchoice>&appmenu;<guisubmenu>System</guisubmenu><guimenuitem>Computer Janitor</guimenuitem></menuchoice></application>' >
 <!ENTITY file-manager '<application><menuchoice>&appmenu;<guisubmenu>Accessories</guisubmenu><guimenuitem>File Manager</guimenuitem></menuchoice></application>' >
 <!ENTITY gigolo '<application><menuchoice>&appmenu;<guisubmenu>System</guisubmenu><guimenuitem>Gigolo</guimenuitem></menuchoice></application>' >
 <!ENTITY gmusicbrowser '<application><menuchoice>&appmenu;<guisubmenu>Multimedia</guisubmenu><guimenuitem>gmusicbrowser</guimenuitem></menuchoice></application>' >
@@ -107,6 +111,21 @@
 <!ENTITY terminal '<application><menuchoice>&appmenu;<guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal Emulator</guimenuitem></menuchoice></application>' >
 <!ENTITY users-groups '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Users and Groups</guimenuitem></menuchoice></application>' >
 <!ENTITY xfburn '<application><menuchoice>&appmenu;<guisubmenu>Multimedia</guisubmenu><guimenuitem>Xfburn</guimenuitem></menuchoice></application>' >
+<!-- Items-Whisker Menu-specific -->
+<!ENTITY wm-settings-appearance '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Appearance</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-desktop '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Desktop</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-keyboard '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Keyboard</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-manager '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-menulibre '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Menu Editor</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-mouse-touchpad '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Mouse and Touchpad</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-mugshot '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>About Me</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-power-manager '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Power Manager</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-print '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Printers</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-window-manager '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Window Manager</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-window-manager-tweaks '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Window Manager Tweaks</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-software-properties '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-software-updater '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Software Updater</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-users-groups '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Users and Groups</guimenuitem></menuchoice></application>' >
 
 <!-- LANGUAGES (sorted by two letter code)-->
 <!ENTITY Afar 'aa' >

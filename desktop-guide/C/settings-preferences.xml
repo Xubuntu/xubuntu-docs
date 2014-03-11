@@ -12,13 +12,29 @@
 	<title>Settings and Preferences</title>
 
 	<para>The options to customize Xubuntu to your needs and preferences are virtually unlimited, ranging from desktop looks to low level operation tweaks. The sections in this chapter describe how to keep your personal information updated, customize the looks of the desktop and edit the main applications menu to your liking.</para>
-	
-	<section id="personal-info">
+
+	<section id="whisker-menu">
+		<title>Customizing the Menu</title>
+
+		<para>Xubuntu 14.04 features a new menu called <application>Whisker Menu</application>. It was chosen, in part, because it is so simple to navigate and customize.</para>
+
+		<para>The easiest and probably most useful tweak you can make to the Menu is to customize your <guilabel>Favorites</guilabel>. Accomplishing this is a simple matter of locating the application you want, right-clicking on it and selecting <guilabel>Add to Favorites</guilabel>. From that same right-click popup, you can also choose to add the application to the Desktop or to the Panel. Right-clicking on applications already in <guilabel>Favorites</guilabel> gives you to option to remove them or to sort the list. You can also rearrange <guilabel>Favorites</guilabel> just by dragging them.</para>
+
+		<para>If you're not sure where a program is listed or what it is called, you can use the search feature. When you open the Menu, your cursor is already positioned in the search bar. Just start typing and an incremental search is performed on both application names and descriptions. Once you see your application listed in the results, you can directly launch it or right-click on it and add it to your preferred launch location.</para>
+
+		<para>For more options to customize the Menu, right-click on &appmenu; and select <guilabel>Properties</guilabel>. There you will find three tabs to change <guilabel>Appearance</guilabel>, <guilabel>Behavior</guilabel> and <guilabel>Search Actions</guilabel>.
+		</para>
+
+		<para>To add directories and launchers which don't appear as entries in the default Menu, you'll need another tool. A more advanced menu editing utility called MenuLibre can be found by clicking &wm-settings-menulibre;. Using this editor you can create, hide and reorder the directories which appear in the right-hand pane of the Menu. Within those directories you can then create application launchers and customize their behavior by configuring the many options available in this utility. For more in-depth information on how to use all of those options, consult the <ulink url="&menulibre-help;">MenuLibre</ulink> online documenation.</para>
+
+	</section>
+
+		<section id="personal-info">
 		<title>Customizing your personal info</title>
 		
 		<para><application>Mugshot</application> is a lightweight user configuration utility that allows you to easily set the profile image and user details for your user profile and any supported applications.</para>
 		
-		<para>To launch <application>Mugshot</application> navigate to &settings-mugshot;.</para>
+		<para>To launch <application>Mugshot</application> navigate to &wm-settings-mugshot;.</para>
 		
 		<para>To change your profile image, click the <guibutton>image</guibutton> button on the left of the GUI, select one of the given options and follow the instructions.</para>
 		
@@ -40,7 +56,7 @@
 		<section id="customizing-wallpaper">
 			<title>Changing your wallpaper</title>
 			
-			<para>You can easily change your desktop wallpaper navigating to &settings-desktop;, or alternatively, by right clicking your desktop and selecting the <menuchoice><guimenuitem>Desktop Settings...</guimenuitem></menuchoice> option.</para>
+			<para>You can easily change your desktop wallpaper navigating to &wm-settings-desktop;, or alternatively, by right clicking your desktop and selecting the <menuchoice><guimenuitem>Desktop Settings...</guimenuitem></menuchoice> option.</para>
 
 			<para>Once the <application>Desktop</application> settings dialog is open, the <guilabel>Background</guilabel> tab gives you options for configuring the look of your desktop background. You can choose to use a single image or multiple images as wallpaper or you can use a color scheme.</para>
 						
@@ -73,15 +89,17 @@
 				configuration:</para>
 
 			<itemizedlist>
-				<listitem><para>Right-click any panel</para></listitem>
+				<listitem><para>Right-click on an empty area of the panel</para></listitem>
 				<listitem><para>From the context menu, select <menuchoice><guimenuitem>Panel</guimenuitem>
 					<guimenuitem>Panel Preferences</guimenuitem></menuchoice></para></listitem>
-				<listitem><para>At the top of the dialog, you can select which panel to edit, add a new panel
-					or delete an existing panel</para></listitem>
-				<listitem><para>In the <guilabel>Display</guilabel> tab, you can control the selected
-					panel appearance</para></listitem>
-				<listitem><para>In the <guilabel>Items</guilabel> tab, you can control the selected
-					panel applets and other items</para></listitem>
+				<listitem><para>In the <guilabel>Display</guilabel> tab, you can control the panel's size and positioning, including:</para>
+					<itemizedlist>
+						<listitem><para>Displaying the panel vertically along either side of the screen</para></listitem>
+						<listitem><para>Moving the panel to the bottom or the right by unchecking <guilabel>Lock panel</guilabel>, grabbing the handle which appears at either side of the panel and dragging it</para></listitem>
+						<listitem><para>Extending the panel across multiple monitors</para></listitem>
+					</itemizedlist></listitem>
+				<listitem><para>In the <guilabel>Appearance</guilabel> tab, you can pick another background for the panel and regulate its transparency</para></listitem>
+				<listitem><para>In the <guilabel>Items</guilabel> tab, you can add, remove and rearrange panel applets and other items</para></listitem>
 			</itemizedlist>
 		</section>
 
@@ -92,13 +110,13 @@
 
 			<itemizedlist>
 				<listitem><para>xfwm themes - control how your window borders look. To change your xfwm
-					theme, go to &settings-window-manager;. In the <guilabel>Style</guilabel> tab, select
+					theme, go to &wm-settings-window-manager;. In the <guilabel>Style</guilabel> tab, select
 					a new theme to change the window borders appearance.</para></listitem>
 				<listitem><para>GTK themes - control how the content of the windows look. To change your
-					GTK theme, go to &settings-appearance;. In the <guilabel>Style</guilabel> tab, select
+					GTK theme, go to &wm-settings-appearance;. In the <guilabel>Style</guilabel> tab, select
 					a new theme to change the window content appearance.  The tool <application>gtk-theme-config</application> will also allow you to customize your window look.</para></listitem>
 				<listitem><para>Icon themes - control how your icons look. To change your icon theme, go
-					to &settings-appearance;. In the <guilabel>Icons</guilabel> tab, select a new theme
+					to &wm-settings-appearance;. In the <guilabel>Icons</guilabel> tab, select a new theme
 					to change the icon appearance. Note that not all icon sets will work well with dark
 					panel/window backgrounds!</para></listitem>
 			</itemizedlist>
@@ -139,7 +157,7 @@
 				by default. In the default Xubuntu configuration, the Xfce compositor is used to draw
 				shadows for windows and to enable translucent panels. If you have a low-end GPU or you
 				don't like the desktop effects mentioned, you can turn off the compositor or change the
-				settings by navigating to &settings-window-manager-tweaks; and in the
+				settings by navigating to &wm-settings-window-manager-tweaks; and in the
 				<guilabel>Compositor</guilabel> tab either unticking <guilabel>Enable display
 				compositing</guilabel> or modifying settings.</para>
 		</section>
