@@ -67,7 +67,9 @@
 	<xsl:template match="inlinemediaobject[@role = 'icon-key']" mode="class.value">
 		<xsl:value-of select="'inline-icon-key'"/>
 	</xsl:template>
-
+	<xsl:template match="inlinemediaobject[@role = 'icon-location']" mode="class.value">
+		<xsl:value-of select="'inline-icon-location'"/>
+	</xsl:template>
 
 	<xsl:param name="use.id.as.filename" select="1"/>
     

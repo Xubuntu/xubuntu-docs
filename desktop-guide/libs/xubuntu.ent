@@ -68,7 +68,7 @@
 <!ENTITY key '<inlinemediaobject role="icon-key"><imageobject><imagedata fileref="../libs/images/key_icon.png" /></imageobject></inlinemediaobject>' >
 
 <!-- LOCATIONS -->
-<!ENTITY location '<inlinemediaobject><imageobject><imagedata fileref="../libs/images/location_icon.png"/></imageobject></inlinemediaobject>' >
+<!ENTITY location '<inlinemediaobject role="icon-location"><imageobject><imagedata fileref="../libs/images/location_icon.png"/></imageobject></inlinemediaobject>' >
 <!-- Items -->
 <!ENTITY location_home '<filename>&location; /home/username/</filename>' >
 <!ENTITY location_backdrops '<filename>&location; /usr/share/xfce4/backdrops/</filename>' >
@@ -112,20 +112,20 @@
 <!ENTITY users-groups '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Users and Groups</guimenuitem></menuchoice></application>' >
 <!ENTITY xfburn '<application><menuchoice>&appmenu;<guisubmenu>Multimedia</guisubmenu><guimenuitem>Xfburn</guimenuitem></menuchoice></application>' >
 <!-- Items-Whisker Menu-specific -->
-<!ENTITY wm-settings-appearance '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Appearance</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-desktop '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Desktop</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-keyboard '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Keyboard</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-manager '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-menulibre '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Menu Editor</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-mouse-touchpad '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Mouse and Touchpad</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-mugshot '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>About Me</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-power-manager '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Power Manager</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-print '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Printers</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-window-manager '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Window Manager</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-window-manager-tweaks '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Window Manager Tweaks</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-software-properties '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-software-updater '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Software Updater</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-users-groups '<application><menuchoice>&appmenu;<guimenuitem> &settings; Settings Manager</guimenuitem><guimenuitem>Users and Groups</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-appearance '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Appearance</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-desktop '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Desktop</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-keyboard '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Keyboard</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-manager '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-menulibre '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Menu Editor</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-mouse-touchpad '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Mouse and Touchpad</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-mugshot '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>About Me</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-power-manager '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Power Manager</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-print '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Printers</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-window-manager '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Window Manager</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-window-manager-tweaks '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Window Manager Tweaks</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-software-properties '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-software-updater '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Software Updater</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-users-groups '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Users and Groups</guimenuitem></menuchoice></application>' >
 
 <!-- LANGUAGES (sorted by two letter code)-->
 <!ENTITY Afar 'aa' >
