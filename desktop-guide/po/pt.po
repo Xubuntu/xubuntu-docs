@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-02-19 16:01-0500\n"
+"POT-Creation-Date: 2014-02-24 22:53+0000\n"
 "PO-Revision-Date: 2014-02-24 18:36+0000\n"
 "Last-Translator: David Pires <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-02-25 06:28+0000\n"
-"X-Generator: Launchpad (build 16926)\n"
+"X-Launchpad-Export-Date: 2014-03-12 05:32+0000\n"
+"X-Generator: Launchpad (build 16963)\n"
 "Language: pt\n"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
@@ -426,11 +426,9 @@ msgstr ""
 #: desktop-guide/C/settings-preferences.xml:65(para)
 msgid ""
 "Read more at the <ulink "
-"url=\"http://docs.xfce.org/xfce/xfdesktop/start\">Xfdesktop</ulink> official "
-"documentation."
+"url=\"http://docs.xfce.org/xfce/xfdesktop/4.11/start\">Xfdesktop</ulink> "
+"official documentation."
 msgstr ""
-"Leia mais no sitío da documentação oficial do <ulink "
-"url=\"http://docs.xfce.org/xfce/xfdesktop/start\">Xfdesktop</ulink>"
 
 #: desktop-guide/C/settings-preferences.xml:69(title)
 msgid "Customizing your panel configuration"
@@ -5635,9 +5633,8 @@ msgstr ""
 
 #: desktop-guide/C/command-line.xml:16(para)
 msgid ""
-"To start the default terminal emulator and get to the command line, either"
+"To start the default terminal emulator and get to the command line, either:"
 msgstr ""
-"Para iniciar o emulador de terminal padrão e chegar à linha de comandos, ou"
 
 #: desktop-guide/C/command-line.xml:19(para)
 msgid ""
@@ -5704,16 +5701,10 @@ msgid ""
 "Be careful when using <application>sudo</application>; you might damage your "
 "system if you type the wrong command! As a general rule, only use sudo when "
 "absolutely necessary. When you use <application>sudo</application> from a "
-"terminal, be sure to either close it when you have finished or type "
+"terminal, be sure to either close it when you have finished, or type "
 "<userinput>exit</userinput> to continue using that terminal with normal "
 "access powers."
 msgstr ""
-"Tenha cuidado ao usar <application>sudo</application>; pode danificar o seu "
-"sistema se digitar o comando errado! Como regra geral, use apenas sudo "
-"quando for absolutamente necessário. Quando utilizar "
-"<application>sudo</application> a partir de um terminal, certifique-se de "
-"fechá-lo quando tiver terminado ou digite <userinput>exit</userinput> para "
-"continuar a utilizar esse terminal com permissões de acesso normais."
 
 #: desktop-guide/C/command-line.xml:34(para)
 msgid ""
@@ -5783,13 +5774,10 @@ msgstr "apt-get"
 
 #: desktop-guide/C/command-line.xml:46(seg)
 msgid ""
-"Manages packages in apt. Common commands are install to install a package), "
+"Manages packages in apt. Common commands are install to install a package, "
 "remove to remove a package, purge to remove a package and the configuration, "
 "and autoremove which will also remove unneeded packages"
 msgstr ""
-"Gere pacotes no apt. Os comandos mais comuns são install para instalar um "
-"pacote, remove para remover um pacote, purge para remover um pacote e a sua "
-"configuração, e autoremove que também irá remover pacotes desnecessários"
 
 #: desktop-guide/C/command-line.xml:46(userinput)
 #, no-wrap
@@ -6026,12 +6014,9 @@ msgstr "man wget"
 #: desktop-guide/C/command-line.xml:60(seg)
 msgid ""
 "Downloads files to current directory. The -N option can be useful for "
-"checking to see if a file is newer on the server than the one you have "
+"checking to see if a file on the server is newer than the one you have "
 "locally, see <placeholder-1/> for more information."
 msgstr ""
-"Transfere ficheiros para o diretório atual. A opção -N pode ser útil para "
-"verificar se um ficheiro é mais recente no servidor do que o que possui "
-"localmente, consulte <placeholder-1/> para mais informações."
 
 #: desktop-guide/C/command-line.xml:60(userinput)
 #, no-wrap
@@ -6628,6 +6613,26 @@ msgstr ""
 #~ "<application>gThumb</application>, um visualizador e navegador de imagens. "
 #~ "Leia mais no sítio <ulink "
 #~ "url=\"https://live.gnome.org/gthumb\">gThumb</ulink>."
+
+#~ msgid ""
+#~ "Be careful when using <application>sudo</application>; you might damage your "
+#~ "system if you type the wrong command! As a general rule, only use sudo when "
+#~ "absolutely necessary. When you use <application>sudo</application> from a "
+#~ "terminal, be sure to either close it when you have finished or type "
+#~ "<userinput>exit</userinput> to continue using that terminal with normal "
+#~ "access powers."
+#~ msgstr ""
+#~ "Tenha cuidado ao usar <application>sudo</application>; pode danificar o seu "
+#~ "sistema se digitar o comando errado! Como regra geral, use apenas sudo "
+#~ "quando for absolutamente necessário. Quando utilizar "
+#~ "<application>sudo</application> a partir de um terminal, certifique-se de "
+#~ "fechá-lo quando tiver terminado ou digite <userinput>exit</userinput> para "
+#~ "continuar a utilizar esse terminal com permissões de acesso normais."
+
+#~ msgid ""
+#~ "To start the default terminal emulator and get to the command line, either"
+#~ msgstr ""
+#~ "Para iniciar o emulador de terminal padrão e chegar à linha de comandos, ou"
 
 #~ msgid ""
 #~ "If the program you wish to run as an administrator is graphical, such as the "

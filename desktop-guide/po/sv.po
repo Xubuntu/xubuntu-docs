@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-02-19 16:01-0500\n"
+"POT-Creation-Date: 2014-02-24 22:53+0000\n"
 "PO-Revision-Date: 2014-02-23 19:26+0000\n"
 "Last-Translator: Launchpad Translations Administrators <Unknown>\n"
 "Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-02-24 06:07+0000\n"
-"X-Generator: Launchpad (build 16926)\n"
+"X-Launchpad-Export-Date: 2014-03-12 05:32+0000\n"
+"X-Generator: Launchpad (build 16963)\n"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
 msgid "What is Xubuntu?"
@@ -308,8 +308,8 @@ msgstr ""
 #: desktop-guide/C/settings-preferences.xml:65(para)
 msgid ""
 "Read more at the <ulink "
-"url=\"http://docs.xfce.org/xfce/xfdesktop/start\">Xfdesktop</ulink> official "
-"documentation."
+"url=\"http://docs.xfce.org/xfce/xfdesktop/4.11/start\">Xfdesktop</ulink> "
+"official documentation."
 msgstr ""
 
 #: desktop-guide/C/settings-preferences.xml:69(title)
@@ -4034,7 +4034,7 @@ msgstr ""
 
 #: desktop-guide/C/command-line.xml:16(para)
 msgid ""
-"To start the default terminal emulator and get to the command line, either"
+"To start the default terminal emulator and get to the command line, either:"
 msgstr ""
 
 #: desktop-guide/C/command-line.xml:19(para)
@@ -4084,7 +4084,7 @@ msgid ""
 "Be careful when using <application>sudo</application>; you might damage your "
 "system if you type the wrong command! As a general rule, only use sudo when "
 "absolutely necessary. When you use <application>sudo</application> from a "
-"terminal, be sure to either close it when you have finished or type "
+"terminal, be sure to either close it when you have finished, or type "
 "<userinput>exit</userinput> to continue using that terminal with normal "
 "access powers."
 msgstr ""
@@ -4150,7 +4150,7 @@ msgstr ""
 
 #: desktop-guide/C/command-line.xml:46(seg)
 msgid ""
-"Manages packages in apt. Common commands are install to install a package), "
+"Manages packages in apt. Common commands are install to install a package, "
 "remove to remove a package, purge to remove a package and the configuration, "
 "and autoremove which will also remove unneeded packages"
 msgstr ""
@@ -4378,7 +4378,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:60(seg)
 msgid ""
 "Downloads files to current directory. The -N option can be useful for "
-"checking to see if a file is newer on the server than the one you have "
+"checking to see if a file on the server is newer than the one you have "
 "locally, see <placeholder-1/> for more information."
 msgstr ""
 
