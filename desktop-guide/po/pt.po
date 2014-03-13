@@ -7,16 +7,359 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-02-24 22:53+0000\n"
-"PO-Revision-Date: 2014-02-24 18:36+0000\n"
-"Last-Translator: David Pires <Unknown>\n"
+"POT-Creation-Date: 2014-03-12 13:45+0200\n"
+"PO-Revision-Date: 2014-03-13 01:23+0000\n"
+"Last-Translator: Pasi Lallinaho <pasi@shimmerproject.org>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-03-12 05:32+0000\n"
+"X-Launchpad-Export-Date: 2014-03-13 07:21+0000\n"
 "X-Generator: Launchpad (build 16963)\n"
 "Language: pt\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: desktop-guide/C/appendix-packages.xml:0(None) desktop-guide/C/appendix-packages.xml:0(None) desktop-guide/C/appendix-packages.xml:0(None) desktop-guide/C/appendix-packages.xml:0(None) desktop-guide/C/appendix-packages.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/guide-default-apps.xml:0(None)
+msgid ""
+"@@image: '../libs/images/package_icon.png'; "
+"md5=15cff8b23f9cf506a7b7e8f98f1289ac"
+msgstr ""
+"@@image: '../libs/images/package_icon.png'; "
+"md5=15cff8b23f9cf506a7b7e8f98f1289ac"
+
+#: desktop-guide/C/appendix-packages.xml:12(title)
+msgid "Application table"
+msgstr "Tabela de aplicação"
+
+#: desktop-guide/C/appendix-packages.xml:16(segtitle) desktop-guide/C/appendix-packages.xml:35(segtitle)
+msgid "Friendly name"
+msgstr "Nome amigável"
+
+#: desktop-guide/C/appendix-packages.xml:16(segtitle) desktop-guide/C/appendix-packages.xml:35(segtitle) desktop-guide/C/appendix-packages.xml:49(segtitle)
+msgid "Package name"
+msgstr "Nome do pacote"
+
+#: desktop-guide/C/appendix-packages.xml:16(segtitle) desktop-guide/C/appendix-packages.xml:35(segtitle) desktop-guide/C/appendix-packages.xml:49(segtitle)
+msgid "Short description"
+msgstr "Descrição curta"
+
+#: desktop-guide/C/appendix-packages.xml:17(seg)
+msgid "Abiword"
+msgstr "Abiword"
+
+#: desktop-guide/C/appendix-packages.xml:17(seg)
+msgid "abiword"
+msgstr "abiword"
+
+#: desktop-guide/C/appendix-packages.xml:17(seg)
+msgid "Word processor"
+msgstr "Processador de texto"
+
+#: desktop-guide/C/appendix-packages.xml:18(seg)
+msgid "Catfish File Search"
+msgstr "Pesquisador de ficheiros Catfish"
+
+#: desktop-guide/C/appendix-packages.xml:18(seg)
+msgid "catfish"
+msgstr "catfish"
+
+#: desktop-guide/C/appendix-packages.xml:18(seg)
+msgid "File searching tool which is configurable via the command line"
+msgstr ""
+"Ferramenta de pesquisa que é configurável através da linha de comandos"
+
+#: desktop-guide/C/appendix-packages.xml:19(seg)
+msgid "Document Viewer"
+msgstr "Visualizador de Documento"
+
+#: desktop-guide/C/appendix-packages.xml:19(seg)
+msgid "evince"
+msgstr "evince"
+
+#: desktop-guide/C/appendix-packages.xml:19(seg)
+msgid "Document (PostScript, PDF) viewer"
+msgstr "Visualizador de documento (postscript, PDF)"
+
+#: desktop-guide/C/appendix-packages.xml:20(seg)
+msgid "Calculator"
+msgstr "Calculadora"
+
+#: desktop-guide/C/appendix-packages.xml:20(seg)
+msgid "gnome-calculator"
+msgstr "gnome-calculator"
+
+#: desktop-guide/C/appendix-packages.xml:20(seg)
+msgid "Desktop calculator"
+msgstr "Calculadora"
+
+#: desktop-guide/C/appendix-packages.xml:21(seg)
+msgid "Gnumeric"
+msgstr "Gnumeric"
+
+#: desktop-guide/C/appendix-packages.xml:21(seg)
+msgid "gnumeric"
+msgstr "gnumeric"
+
+#: desktop-guide/C/appendix-packages.xml:21(seg)
+msgid "Spreadsheet application"
+msgstr "Aplicação de folha de cálculo"
+
+#: desktop-guide/C/appendix-packages.xml:22(seg)
+msgid "Character Map"
+msgstr "Mapa de Carateres"
+
+#: desktop-guide/C/appendix-packages.xml:22(seg)
+msgid "gucharmap"
+msgstr "gucharmap"
+
+#: desktop-guide/C/appendix-packages.xml:22(seg)
+msgid "Unicode character picker and font browser"
+msgstr "Seletor de caracteres Unicode e navegador de fontes"
+
+#: desktop-guide/C/appendix-packages.xml:23(seg)
+msgid "Mousepad"
+msgstr "Mousepad"
+
+#: desktop-guide/C/appendix-packages.xml:23(seg)
+msgid "mousepad"
+msgstr "mousepad"
+
+#: desktop-guide/C/appendix-packages.xml:23(seg)
+msgid "Simple Xfce oriented text editor"
+msgstr "Editor de texto simples orientado para o Xfce"
+
+#: desktop-guide/C/appendix-packages.xml:24(seg) desktop-guide/C/appendix-packages.xml:24(seg)
+msgid "PulseAudio Volume Control"
+msgstr "Controle de volume do PulseAudio"
+
+#: desktop-guide/C/appendix-packages.xml:24(seg)
+msgid "pavucontrol"
+msgstr "pavucontrol"
+
+#: desktop-guide/C/appendix-packages.xml:25(seg)
+msgid "Simple Scan"
+msgstr "Digitalização Simples"
+
+#: desktop-guide/C/appendix-packages.xml:25(seg)
+msgid "simple-scan"
+msgstr "simple-scan"
+
+#: desktop-guide/C/appendix-packages.xml:25(seg)
+msgid "Simple Scanning Utility"
+msgstr "Utilitário de Digitalização Simples"
+
+#: desktop-guide/C/appendix-packages.xml:26(seg)
+msgid "Application Finder"
+msgstr "Localizador de Aplicações"
+
+#: desktop-guide/C/appendix-packages.xml:26(seg) desktop-guide/C/appendix-packages.xml:27(seg)
+msgid "xfce4-appfinder"
+msgstr "xfce4-appfinder"
+
+#: desktop-guide/C/appendix-packages.xml:26(seg)
+msgid "Find and launch applications installed on your system"
+msgstr "Encontrar e lançar aplicações instaladas no seu sistema"
+
+#: desktop-guide/C/appendix-packages.xml:27(seg)
+msgid "Run Program"
+msgstr "Executar Programa"
+
+#: desktop-guide/C/appendix-packages.xml:27(seg)
+msgid "Run a program"
+msgstr "Executar um programa"
+
+#: desktop-guide/C/appendix-packages.xml:28(seg)
+msgid "Dictionary"
+msgstr "Dicionário"
+
+#: desktop-guide/C/appendix-packages.xml:28(seg)
+msgid "xfce4-dict"
+msgstr "xfce4-dict"
+
+#: desktop-guide/C/appendix-packages.xml:28(seg)
+msgid "Dictionary plugin for Xfce4 panel"
+msgstr "Plugin do dicionário para o painel Xfce4"
+
+#: desktop-guide/C/appendix-packages.xml:29(seg)
+msgid "Task Manager"
+msgstr "Gestor de Tarefas"
+
+#: desktop-guide/C/appendix-packages.xml:29(seg)
+msgid "xfce4-taskmanager"
+msgstr "xfce4-taskmanager"
+
+#: desktop-guide/C/appendix-packages.xml:29(seg)
+msgid "Process manager for the Xfce4 Desktop Environment"
+msgstr "Gestor de processos para o ambiente de trabalho Xfce4"
+
+#: desktop-guide/C/appendix-packages.xml:32(title) desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
+msgid "Settings Manager"
+msgstr "Gestor de definições"
+
+#: desktop-guide/C/appendix-packages.xml:36(seg)
+msgid "Theme Configuration"
+msgstr "Configuração de Tema"
+
+#: desktop-guide/C/appendix-packages.xml:36(seg)
+msgid "gtk-theme-config"
+msgstr "gtk-theme-config"
+
+#: desktop-guide/C/appendix-packages.xml:36(seg)
+msgid "Simple interface to change GTK+ themes"
+msgstr "Interface simples para alterar temas GTK+"
+
+#: desktop-guide/C/appendix-packages.xml:37(seg)
+msgid "Main Menu"
+msgstr "Menu Principal"
+
+#: desktop-guide/C/appendix-packages.xml:37(seg)
+msgid "menulibre"
+msgstr "menulibre"
+
+#: desktop-guide/C/appendix-packages.xml:37(seg)
+msgid "Menu layout editor"
+msgstr "Editor da disposição do menu"
+
+#: desktop-guide/C/appendix-packages.xml:38(seg)
+msgid "About Me"
+msgstr "Sobre Mim"
+
+#: desktop-guide/C/appendix-packages.xml:38(seg)
+msgid "mugshot"
+msgstr "mugshot"
+
+#: desktop-guide/C/appendix-packages.xml:38(seg)
+msgid "Lightweight user-configuration application"
+msgstr "Aplicação leve de configuração do utilizador"
+
+#: desktop-guide/C/appendix-packages.xml:39(seg)
+msgid "Network Connections"
+msgstr "Ligações de rede"
+
+#: desktop-guide/C/appendix-packages.xml:39(seg)
+msgid "network-manager-gnome"
+msgstr "network-manager-gnome"
+
+#: desktop-guide/C/appendix-packages.xml:39(seg)
+msgid "Network management framework"
+msgstr "Estrutura de gestão de rede"
+
+#: desktop-guide/C/appendix-packages.xml:40(seg)
+msgid "Additional Drivers"
+msgstr "Controladores Adicionais"
+
+#: desktop-guide/C/appendix-packages.xml:40(seg) desktop-guide/C/appendix-packages.xml:41(seg)
+msgid "software-properties-gtk"
+msgstr "software-properties-gtk"
+
+#: desktop-guide/C/appendix-packages.xml:40(seg)
+msgid "Configure third-party and proprietary drivers"
+msgstr "Configurar controladores proprietários e de terceiros"
+
+#: desktop-guide/C/appendix-packages.xml:41(seg)
+msgid "Software &amp; Updates"
+msgstr "Programas &amp; Atualizações"
+
+#: desktop-guide/C/appendix-packages.xml:41(seg)
+msgid "Configure the sources for installable software and updates"
+msgstr "Configure as fontes de software instalável e atualizações"
+
+#: desktop-guide/C/appendix-packages.xml:42(seg)
+msgid "Printers"
+msgstr "Impressoras"
+
+#: desktop-guide/C/appendix-packages.xml:42(seg)
+msgid "system-config-printer-gnome"
+msgstr "system-config-printer-gnome"
+
+#: desktop-guide/C/appendix-packages.xml:42(seg)
+msgid "Printer configuration GUI"
+msgstr "GUI de configuração de impressora"
+
+#: desktop-guide/C/appendix-packages.xml:46(title)
+msgid "Behind the scenes"
+msgstr "Nos bastidores"
+
+#: desktop-guide/C/appendix-packages.xml:50(seg)
+msgid "gvfs-backends"
+msgstr "gvfs-backends"
+
+#: desktop-guide/C/appendix-packages.xml:50(seg)
+msgid ""
+"Allows GVFS to connect to many network protocols (smb://, nfs://, etc)"
+msgstr ""
+"Permite que GVFS se conecte a muitos protocolos de rede (smb://, nfs://, etc)"
+
+#: desktop-guide/C/appendix-packages.xml:51(seg)
+msgid "gvfs-fuse"
+msgstr "gvfs-fuse"
+
+#: desktop-guide/C/appendix-packages.xml:51(seg)
+msgid "Let non-GNOME apps use GVFS via fuse"
+msgstr "Deixar aplicativos não-GNOME usar GVFS via fuse"
+
+#: desktop-guide/C/appendix-packages.xml:52(seg)
+msgid "libnotify-bin"
+msgstr "libnotify-bin"
+
+#: desktop-guide/C/appendix-packages.xml:52(seg)
+msgid "Binaries to send notification bubbles"
+msgstr "Binários para enviar bolhas de notificação"
+
+#: desktop-guide/C/appendix-packages.xml:53(seg)
+msgid "light-locker"
+msgstr "light-locker"
+
+#: desktop-guide/C/appendix-packages.xml:53(literal)
+msgid "<placeholder-1/>lightdm"
+msgstr "<placeholder-1/>lightdm"
+
+#: desktop-guide/C/appendix-packages.xml:53(seg)
+msgid "Simple session-locker for <placeholder-1/>"
+msgstr "Bloqueador de sessão simples para <placeholder-1/>"
+
+#: desktop-guide/C/appendix-packages.xml:54(seg)
+msgid "tumbler"
+msgstr "tumbler"
+
+#: desktop-guide/C/appendix-packages.xml:54(literal)
+msgid "<placeholder-1/>thunar"
+msgstr "<placeholder-1/>thunar"
+
+#: desktop-guide/C/appendix-packages.xml:54(literal)
+msgid "<placeholder-1/>xfdesktop4"
+msgstr "<placeholder-1/>xfdesktop4"
+
+#: desktop-guide/C/appendix-packages.xml:54(seg)
+msgid "Xfce thumbnail daemon used by <placeholder-1/> and <placeholder-2/>"
+msgstr ""
+"Daemon de miniaturas Xfce utilizado por <placeholder-1/> e <placeholder-2/>"
+
+#: desktop-guide/C/appendix-packages.xml:55(seg)
+msgid "xfce4-notifyd"
+msgstr "xfce4-notifyd"
+
+#: desktop-guide/C/appendix-packages.xml:55(seg)
+msgid "Daemon used to display notification bubbles"
+msgstr "Daemon utilizado para exibir bolhas de notificação"
+
+#: desktop-guide/C/appendix-packages.xml:56(seg)
+msgid "xfce4-indicator-plugin"
+msgstr "xfce4-indicator-plugin"
+
+#: desktop-guide/C/appendix-packages.xml:56(literal)
+msgid "<placeholder-1/>indicator-application"
+msgstr "<placeholder-1/>indicator-application"
+
+#: desktop-guide/C/appendix-packages.xml:56(literal)
+msgid "<placeholder-1/>indicator-sound"
+msgstr "<placeholder-1/>indicator-sound"
+
+#: desktop-guide/C/appendix-packages.xml:56(seg)
+msgid "Panel plugin for the indicators (<placeholder-1/>, <placeholder-2/>)"
+msgstr ""
+"Plugin do painel para os indicadores (<placeholder-1/>, <placeholder-2/>)"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
 msgid "What is Xubuntu?"
@@ -172,7 +515,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/guide-keeping-safe.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/command-line.xml:0(None) desktop-guide/C/administrative-tasks.xml:0(None)
+#: desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/guide-keeping-safe.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/command-line.xml:0(None) desktop-guide/C/administrative-tasks.xml:0(None)
 msgid ""
 "@@image: '../libs/images/menu_icon.png'; md5=65599cdf4480dbc3d1bfa2154c0a255d"
 msgstr ""
@@ -180,13 +523,13 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/guide-default-apps.xml:0(None)
+#: desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None)
 msgid ""
-"@@image: '../libs/images/package_icon.png'; "
-"md5=15cff8b23f9cf506a7b7e8f98f1289ac"
+"@@image: '../libs/images/preferences-desktop.png'; "
+"md5=805e5ff06267de7ea2e15f257bf1a825"
 msgstr ""
-"@@image: '../libs/images/package_icon.png'; "
-"md5=15cff8b23f9cf506a7b7e8f98f1289ac"
+"@@image: '../libs/images/preferences-desktop.png'; "
+"md5=805e5ff06267de7ea2e15f257bf1a825"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -218,32 +561,118 @@ msgstr ""
 "ao seu gosto."
 
 #: desktop-guide/C/settings-preferences.xml:17(title)
+msgid "Customizing the Menu"
+msgstr "Personalizando o Menu"
+
+#: desktop-guide/C/settings-preferences.xml:19(para)
+msgid ""
+"The easiest and probably most useful tweak you can make to the Menu is to "
+"customize your <guilabel>Favorites</guilabel>. Accomplishing this is a "
+"simple matter of locating the application you want, right-clicking on it and "
+"selecting <guilabel>Add to Favorites</guilabel>. From that same right-click "
+"popup, you can also choose to add the application to the Desktop or to the "
+"Panel. Right-clicking on applications already in "
+"<guilabel>Favorites</guilabel> gives you to option to remove them or to sort "
+"the list. You can also rearrange <guilabel>Favorites</guilabel> just by "
+"dragging them."
+msgstr ""
+"O ajuste mais fácil e provavelmente mais útil que pode fazer ao Menu é "
+"personalizar os seus <guilabel>Favoritos</guilabel>. Conseguir isso é uma "
+"simples questão de localizar a aplicação que pretende, clicar com o botão "
+"botão direito sobre ela e selecionar <guilabel>Adicionar aos "
+"favoritos</guilabel>. A partir desse mesmo pop-up do botão direito do rato, "
+"pode também optar por adicionar a aplicação ao ambiente de trabalho ou ao "
+"painel. Clicando com o botão direito do mouse em aplicações já nos "
+"<guilabel>Favoritos</guilabel> dá-lhe a opção de as remover ou de ordenar a "
+"lista. Pode também reorganizar os <guilabel>Favoritos</guilabel> arrastando-"
+"os."
+
+#: desktop-guide/C/settings-preferences.xml:21(para)
+msgid ""
+"If you're not sure where a program is listed or what it is called, you can "
+"use the search feature. When you open the Menu, your cursor is already "
+"positioned in the search bar. Just start typing and an incremental search is "
+"performed on both application names and descriptions. Once you see your "
+"application listed in the results, you can directly launch it or right-click "
+"on it and add it to your preferred launch location."
+msgstr ""
+"Se não tiver certeza onde o programa está listado ou como é chamado, pode "
+"utilizar o recurso de pesquisa. Quando abre o menu, o cursor já está "
+"posicionado na barra de pesquisa. Basta começar a digitar e uma pesquisa "
+"incremental é realizada quer nos nomes quer nas descrições das aplicacões. "
+"Depois de ver a sua aplicação listada nos resultados, pode iniciá-la "
+"diretamente ou clicar com o botão direito do rato sobre ela e adicioná-la ao "
+"seu local de lançamento preferido."
+
+#: desktop-guide/C/settings-preferences.xml:23(para)
+msgid ""
+"For more options to customize the Menu, right-click on <placeholder-1/> and "
+"select <guilabel>Properties</guilabel>. There you will find three tabs to "
+"change <guilabel>Appearance</guilabel>, <guilabel>Behavior</guilabel> and "
+"<guilabel>Search Actions</guilabel>."
+msgstr ""
+"Para obter mais opções de personalização do menu, clique com o botão direito "
+"do rato em <placeholder-1/> e selecione <guilabel>Propriedades</guilabel>. "
+"Aí encontrará três abas para alterar <guilabel>Aparência</guilabel>,  "
+"<guilabel>Comportamento</guilabel> e <guilabel>Procurar ações</guilabel>."
+
+#: desktop-guide/C/settings-preferences.xml:26(para)
+msgid ""
+"To add directories and launchers which don't appear as entries in the "
+"default Menu, you'll need another tool. A more advanced menu editing utility "
+"called <application>MenuLibre</application> can be found by clicking "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"Settings Manager</guimenuitem><guimenuitem>Menu "
+"Editor</guimenuitem></menuchoice></application>. Using this editor you can "
+"create, hide and reorder the directories which appear in the right-hand pane "
+"of the Menu. Within those directories you can then create application "
+"launchers and customize their behavior by configuring the many options "
+"available in this utility. For more in-depth information on how to use all "
+"of those options, consult the <ulink "
+"url=\"http://smdavis.us/doku/doku.php?id=menulibre-docs\">MenuLibre</ulink> "
+"online documenation."
+msgstr ""
+"Para adicionar diretórios e lançadores que não aparecem como entradas no "
+"menu padrão, precisará de outra ferramenta. Um utilitário de edição de menu "
+"mais avançado chamado <application>MenuLibre</application> pode ser "
+"encontrado clicando <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/>Gestor de "
+"definições</guimenuitem><guimenuitem>Editor de "
+"Menus</guimenuitem></menuchoice></application>. Usando este editor você pode "
+"criar, esconder e reordenar as listas que aparecem no painel do lado direito "
+"do menu. Dentro destes diretórios pode então criar lançadores de aplicações "
+"e personalizar o seu comportamento, configurando as muitas opções "
+"disponíveis neste utilitário. Para mais informações detalhadas sobre como "
+"utilizar todas essas opções, consulte a documenation online do <ulink "
+"url=\"http://smdavis.us/doku/doku.php?id=menulibre-docs\">MenuLibre</ulink>."
+
+#: desktop-guide/C/settings-preferences.xml:31(title)
 msgid "Customizing your personal info"
 msgstr "Personalizar a sua informação pessoal"
 
-#: desktop-guide/C/settings-preferences.xml:19(para)
+#: desktop-guide/C/settings-preferences.xml:33(para)
 msgid ""
 "<application>Mugshot</application> is a lightweight user configuration "
 "utility that allows you to easily set the profile image and user details for "
 "your user profile and any supported applications."
 msgstr ""
-"O <application>Mugshot</application> é utilitário leve de configuração de "
+"O <application>Mugshot</application> é um utilitário leve de configuração de "
 "utilizador que permite definir facilmente a imagem do perfil de utilizador e "
 "detalhes do seu perfil de utilizador em todas as aplicações suportadas."
 
-#: desktop-guide/C/settings-preferences.xml:21(para)
+#: desktop-guide/C/settings-preferences.xml:35(para)
 msgid ""
 "To launch <application>Mugshot</application> navigate to "
-"<application><menuchoice><placeholder-1/><guimenuitem>Settings "
-"Manager</guimenuitem><guimenuitem>About "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"Settings Manager</guimenuitem><guimenuitem>About "
 "Me</guimenuitem></menuchoice></application>."
 msgstr ""
-"Par iniciar o <application>Mugshot</application> navegue até "
-"<application><menuchoice><placeholder-1/><guimenuitem>Gestoe de "
-"definições</guimenuitem><guimenuitem>Sobre "
+"Para iniciar o <application>Mugshot</application> navegue até "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/>Gestor "
+"de definições</guimenuitem><guimenuitem>Sobre "
 "Mim</guimenuitem></menuchoice></application>."
 
-#: desktop-guide/C/settings-preferences.xml:23(para)
+#: desktop-guide/C/settings-preferences.xml:37(para)
 msgid ""
 "To change your profile image, click the <guibutton>image</guibutton> button "
 "on the left of the GUI, select one of the given options and follow the "
@@ -253,7 +682,7 @@ msgstr ""
 "<guibutton>imagem</guibutton> à esquerda da GUI, selecione uma das opções "
 "apresentadas e siga as instruções."
 
-#: desktop-guide/C/settings-preferences.xml:25(para)
+#: desktop-guide/C/settings-preferences.xml:39(para)
 msgid ""
 "Mugshot requires the installation of <literal><placeholder-1/>gstreamer1.0-"
 "tools</literal> package to use the <guilabel>Capture from "
@@ -263,7 +692,7 @@ msgstr ""
 "1/>gstreamer1.0-tools</literal> para usar o recurso <guilabel>Capturar a "
 "partir da câmera...</guilabel>."
 
-#: desktop-guide/C/settings-preferences.xml:27(para)
+#: desktop-guide/C/settings-preferences.xml:41(para)
 msgid ""
 "Fill the text-fields with the required personal data and click "
 "<guibutton>Apply</guibutton>. When applying these details with "
@@ -275,7 +704,7 @@ msgstr ""
 "<application>Pidgin</application> e/ou o LibreOffice instalados, será "
 "solicitado a atualizar as suas configurações também."
 
-#: desktop-guide/C/settings-preferences.xml:29(para)
+#: desktop-guide/C/settings-preferences.xml:43(para)
 msgid ""
 "If the personal data inserted in the <guilabel>First Name</guilabel> and "
 "<guilabel>Last Name</guilabel> text-fields differ from the existing values "
@@ -289,7 +718,7 @@ msgstr ""
 "como uma medida de segurança para evitar atualizações indesejadas às suas "
 "informações pessoais."
 
-#: desktop-guide/C/settings-preferences.xml:31(para)
+#: desktop-guide/C/settings-preferences.xml:45(para)
 msgid ""
 "Read more at the <ulink url=\"http://smdavis.us/doku/doku.php?id=mugshot-"
 "docs\">Mugshot</ulink> official documentation."
@@ -297,11 +726,11 @@ msgstr ""
 "Leia mais no sítio da documentação oficial do <ulink "
 "url=\"http://smdavis.us/doku/doku.php?id=mugshot-docs\">Mugshot</ulink>"
 
-#: desktop-guide/C/settings-preferences.xml:35(title)
+#: desktop-guide/C/settings-preferences.xml:49(title)
 msgid "Customizing the appearance"
 msgstr "Personalizar a aparência"
 
-#: desktop-guide/C/settings-preferences.xml:37(para)
+#: desktop-guide/C/settings-preferences.xml:51(para)
 msgid ""
 "If you want to customize the appearance of your Xubuntu system, the options "
 "are unlimited. Here are a few good starting points."
@@ -309,28 +738,22 @@ msgstr ""
 "Se desejar personalizar a aparência do seu sistema Xubuntu, as opções são "
 "ilimitadas. Aqui estão alguns bons pontos de partida."
 
-#: desktop-guide/C/settings-preferences.xml:41(title)
+#: desktop-guide/C/settings-preferences.xml:55(title)
 msgid "Changing your wallpaper"
 msgstr "Alterar o seu papel de parede"
 
-#: desktop-guide/C/settings-preferences.xml:43(para)
+#: desktop-guide/C/settings-preferences.xml:57(para)
 msgid ""
 "You can easily change your desktop wallpaper navigating to "
-"<application><menuchoice><placeholder-1/><guimenuitem>Settings "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"Settings "
 "Manager</guimenuitem><guimenuitem>Desktop</guimenuitem></menuchoice></applica"
 "tion>, or alternatively, by right clicking your desktop and selecting the "
 "<menuchoice><guimenuitem>Desktop Settings...</guimenuitem></menuchoice> "
 "option."
 msgstr ""
-"Pode facilmente mudar o fundo do seu ambiente de trabalho navegando até "
-"<application><menuchoice><placeholder-1/><guimenuitem>Gestor de "
-"definições</guimenuitem><guimenuitem>Ambiente de "
-"trabalho</guimenuitem></menuchoice></application>, ou alternativamente, "
-"clicando com o botão direito do rato no seu ambiente de trabalho e "
-"selecionando a opção <menuchoice><guimenuitem>Definições do ambiente de "
-"trabalho...</guimenuitem></menuchoice>."
 
-#: desktop-guide/C/settings-preferences.xml:45(para)
+#: desktop-guide/C/settings-preferences.xml:59(para)
 msgid ""
 "Once the <application>Desktop</application> settings dialog is open, the "
 "<guilabel>Background</guilabel> tab gives you options for configuring the "
@@ -343,7 +766,7 @@ msgstr ""
 "usar uma única imagem ou várias imagens como papel de parede ou pode "
 "utilizar um esquema de cores."
 
-#: desktop-guide/C/settings-preferences.xml:47(para)
+#: desktop-guide/C/settings-preferences.xml:61(para)
 msgid ""
 "The location of the images in the <guilabel>Wallpaper for my "
 "desktop</guilabel> pane is controlled by the <guibutton>Folder:</guibutton> "
@@ -361,7 +784,7 @@ msgstr ""
 "<filename><placeholder-1/> /usr/share/xfce4/backdrops/</filename> (requer "
 "privilégios administrativos)."
 
-#: desktop-guide/C/settings-preferences.xml:49(para)
+#: desktop-guide/C/settings-preferences.xml:63(para)
 msgid ""
 "If you choose a location that contains multiple images, you have the option "
 "of varying the background by switching to each of the images in that "
@@ -378,7 +801,7 @@ msgstr ""
 "ficheiro e em seguida utilizá-las por essa ordem, distribuídas igualmente ao "
 "longo de um dia."
 
-#: desktop-guide/C/settings-preferences.xml:51(para)
+#: desktop-guide/C/settings-preferences.xml:65(para)
 msgid ""
 "Xfdesktop supports xinerama and multi-monitor setups. With more than one "
 "display/monitor connected, the <guilabel>Background</guilabel> tab will "
@@ -392,7 +815,7 @@ msgstr ""
 "cada monitor possa ter as suas próprias configurações. Basta arrastar a "
 "janela para o monitor no qual deseja editar as configurações."
 
-#: desktop-guide/C/settings-preferences.xml:53(para)
+#: desktop-guide/C/settings-preferences.xml:67(para)
 msgid ""
 "If you want to set any of your own images as the wallpaper, the easiest way "
 "to achieve this is:"
@@ -400,11 +823,11 @@ msgstr ""
 "Se desejar definir qualquer uma das suas próprias imagens como papel de "
 "parede, a maneira mais fácil de conseguir isso é:"
 
-#: desktop-guide/C/settings-preferences.xml:57(para)
+#: desktop-guide/C/settings-preferences.xml:71(para)
 msgid "Open Thunar and navigate to the directory with the image"
 msgstr "Abra o Thunar e navegue até o diretório com a imagem"
 
-#: desktop-guide/C/settings-preferences.xml:58(para)
+#: desktop-guide/C/settings-preferences.xml:72(para)
 msgid ""
 "Right-click the image and select <menuchoice><guimenuitem>Set as "
 "wallpaper</guimenuitem></menuchoice> from the context menu"
@@ -413,7 +836,7 @@ msgstr ""
 "<menuchoice><guimenuitem>Definir como papel de "
 "parede</guimenuitem></menuchoice> no menu de contexto"
 
-#: desktop-guide/C/settings-preferences.xml:61(para)
+#: desktop-guide/C/settings-preferences.xml:75(para)
 msgid ""
 "With multiple monitors, this setting will only change the primary monitor's "
 "wallpaper. To change the wallpaper for other monitors, you will need to use "
@@ -423,18 +846,20 @@ msgstr ""
 "monitor principal. Para alterar o papel de parede dos outros monitores, terá "
 "que usar o diálogo descrito acima."
 
-#: desktop-guide/C/settings-preferences.xml:65(para)
+#: desktop-guide/C/settings-preferences.xml:79(para)
 msgid ""
 "Read more at the <ulink "
 "url=\"http://docs.xfce.org/xfce/xfdesktop/4.11/start\">Xfdesktop</ulink> "
 "official documentation."
 msgstr ""
+"Leia mais na documentação oficial do <ulink "
+"url=\"http://docs.xfce.org/xfce/xfdesktop/4.11/start\">Xfdesktop</ulink>."
 
-#: desktop-guide/C/settings-preferences.xml:69(title)
+#: desktop-guide/C/settings-preferences.xml:83(title)
 msgid "Customizing your panel configuration"
 msgstr "Personalização da configuração do painel"
 
-#: desktop-guide/C/settings-preferences.xml:71(para)
+#: desktop-guide/C/settings-preferences.xml:85(para)
 msgid ""
 "If you don't like the default panel configuration, including the positioning "
 "or the applets installed by default, follow the steps below to customize the "
@@ -444,103 +869,95 @@ msgstr ""
 "posicionamento ou os miniaplicativos instalados por padrão, siga os passos "
 "abaixo para personalizar a configuração do painel:"
 
-#: desktop-guide/C/settings-preferences.xml:76(para)
-msgid "Right-click any panel"
-msgstr "Clique com o botão direito do rato em qualquer painel"
+#: desktop-guide/C/settings-preferences.xml:90(para)
+msgid "Right-click on an empty area of the panel"
+msgstr "Clique com o botão direito do rato numa área vazia do painel"
 
-#: desktop-guide/C/settings-preferences.xml:77(para)
+#: desktop-guide/C/settings-preferences.xml:91(para)
 msgid ""
 "From the context menu, select "
 "<menuchoice><guimenuitem>Panel</guimenuitem><guimenuitem>Panel "
 "Preferences</guimenuitem></menuchoice>"
 msgstr ""
 "No menu de contexto, selecione "
-"<menuchoice><guimenuitem>Panel</guimenuitem><guimenuitem>Preferências do "
+"<menuchoice><guimenuitem>Painel</guimenuitem><guimenuitem>Preferências do "
 "painel...</guimenuitem></menuchoice>"
 
-#: desktop-guide/C/settings-preferences.xml:79(para)
+#: desktop-guide/C/settings-preferences.xml:93(para)
 msgid ""
-"At the top of the dialog, you can select which panel to edit, add a new "
-"panel or delete an existing panel"
+"In the <guilabel>Display</guilabel> tab, you can control the panel's size "
+"and positioning, including:"
 msgstr ""
-"Na parte superior da caixa de diálogo, pode selecionar qual o painel a "
-"editar, adicionar um novo painel ou excluir um painel existente"
 
-#: desktop-guide/C/settings-preferences.xml:81(para)
+#: desktop-guide/C/settings-preferences.xml:95(para)
+msgid "Displaying the panel vertically along either side of the screen"
+msgstr ""
+
+#: desktop-guide/C/settings-preferences.xml:96(para)
 msgid ""
-"In the <guilabel>Display</guilabel> tab, you can control the selected panel "
-"appearance"
+"Moving the panel to the bottom or the right by unchecking <guilabel>Lock "
+"panel</guilabel>, grabbing the handle which appears at either side of the "
+"panel and dragging it"
 msgstr ""
-"Na aba <guilabel>Aparência</guilabel>, pode controlar a aparência do painel "
-"selecionado"
 
-#: desktop-guide/C/settings-preferences.xml:83(para)
+#: desktop-guide/C/settings-preferences.xml:97(para)
+msgid "Extending the panel across multiple monitors"
+msgstr ""
+
+#: desktop-guide/C/settings-preferences.xml:99(para)
 msgid ""
-"In the <guilabel>Items</guilabel> tab, you can control the selected panel "
-"applets and other items"
+"In the <guilabel>Appearance</guilabel> tab, you can pick another background "
+"for the panel and regulate its transparency"
 msgstr ""
-"Na aba <guilabel>Itens</guilabel>pode controlar os miniaplicativos do painel "
-"selecionado e outros itens"
 
-#: desktop-guide/C/settings-preferences.xml:89(title)
+#: desktop-guide/C/settings-preferences.xml:100(para)
+msgid ""
+"In the <guilabel>Items</guilabel> tab, you can add, remove and rearrange "
+"panel applets and other items"
+msgstr ""
+
+#: desktop-guide/C/settings-preferences.xml:105(title)
 msgid "Changing your desktop themes"
 msgstr "Mudar os seus temas do ambiente de trabalho"
 
-#: desktop-guide/C/settings-preferences.xml:91(para)
+#: desktop-guide/C/settings-preferences.xml:107(para)
 msgid "There are three types of desktop themes:"
 msgstr "Existem três tipos de temas de ambiente de trabalho:"
 
-#: desktop-guide/C/settings-preferences.xml:94(para)
+#: desktop-guide/C/settings-preferences.xml:110(para)
 msgid ""
 "xfwm themes - control how your window borders look. To change your xfwm "
-"theme, go to <application><menuchoice><placeholder-1/><guimenuitem>Settings "
+"theme, go to <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> Settings "
 "Manager</guimenuitem><guimenuitem>Window "
 "Manager</guimenuitem></menuchoice></application>. In the "
 "<guilabel>Style</guilabel> tab, select a new theme to change the window "
 "borders appearance."
 msgstr ""
-"Temas xfwm - controlam a aparência dos limites da janela. Para alterar o "
-"tema xfwm, vá a <application><menuchoice><placeholder-1/><guimenuitem>Gestor "
-"de definições</guimenuitem><guimenuitem>Gestor de "
-"janelas</guimenuitem></menuchoice></application>. Na aba "
-"<guilabel>Estilo</guilabel>, selecione um novo tema para mudar a aparência "
-"dos limites da janela."
 
-#: desktop-guide/C/settings-preferences.xml:97(para)
+#: desktop-guide/C/settings-preferences.xml:113(para)
 msgid ""
 "GTK themes - control how the content of the windows look. To change your GTK "
-"theme, go to <application><menuchoice><placeholder-1/><guimenuitem>Settings "
+"theme, go to <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> Settings "
 "Manager</guimenuitem><guimenuitem>Appearance</guimenuitem></menuchoice></appl"
 "ication>. In the <guilabel>Style</guilabel> tab, select a new theme to "
 "change the window content appearance. The tool <application>gtk-theme-"
 "config</application> will also allow you to customize your window look."
 msgstr ""
-"Temas GTK - controlam a aparência do conteúdo das janelas. Para alterar o "
-"tema GTK, vá a <application><menuchoice><placeholder-1/><guimenuitem>Gestor "
-"de "
-"definições</guimenuitem><guimenuitem>Aparência</guimenuitem></menuchoice></ap"
-"plication>. Na aba <guilabel>Estilo</guilabel>, selecione um novo tema para "
-"alterar a aparência do conteúdo da janela. A ferramenta <application>gtk-"
-"theme-config</application> também irá permitir que personalize o visual da "
-"janela."
 
-#: desktop-guide/C/settings-preferences.xml:100(para)
+#: desktop-guide/C/settings-preferences.xml:116(para)
 msgid ""
 "Icon themes - control how your icons look. To change your icon theme, go to "
-"<application><menuchoice><placeholder-1/><guimenuitem>Settings "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"Settings "
 "Manager</guimenuitem><guimenuitem>Appearance</guimenuitem></menuchoice></appl"
 "ication>. In the <guilabel>Icons</guilabel> tab, select a new theme to "
 "change the icon appearance. Note that not all icon sets will work well with "
 "dark panel/window backgrounds!"
 msgstr ""
-"Temas de ícones - controlam a aparência dos ícones. Para alterar o tema dos "
-"ícones, vá a <application><menuchoice><placeholder-1/><guimenuitem>Gestor de "
-"definições</guimenuitem><guimenuitem>Aparência</guimenuitem></menuchoice></ap"
-"plication>. Na aba <guilabel>Ícones</guilabel>, selecione um novo tema para "
-"mudar a aparência dos ícones. Note que nem todos os conjuntos de ícones "
-"funcionarão bem com painel/janela escuros!"
 
-#: desktop-guide/C/settings-preferences.xml:106(para)
+#: desktop-guide/C/settings-preferences.xml:122(para)
 msgid ""
 "If the default selection of themes doesn't satisfy you, you can download and "
 "install new themes. Some new themes can be installed from the Ubuntu "
@@ -552,7 +969,7 @@ msgstr ""
 "repositórios do Ubuntu, e muito mais podem ser encontrados na Internet, por "
 "exemplo em <ulink url=\"http://xfce-look.org/\">Xfce-look.org</ulink>."
 
-#: desktop-guide/C/settings-preferences.xml:110(para)
+#: desktop-guide/C/settings-preferences.xml:126(para)
 msgid ""
 "If you install new themes from the repositories, they should appear "
 "automatically in the <application>Settings Manager</application>. If you "
@@ -567,11 +984,11 @@ msgstr ""
 "definições</application>. Para fazer isso, extraia o pacote do tema e copie-"
 "o para:"
 
-#: desktop-guide/C/settings-preferences.xml:116(para)
+#: desktop-guide/C/settings-preferences.xml:132(para)
 msgid "xfwm and GTK themes:"
 msgstr "Temas xfwm e GTK:"
 
-#: desktop-guide/C/settings-preferences.xml:118(para)
+#: desktop-guide/C/settings-preferences.xml:134(para)
 msgid ""
 "<filename><placeholder-1/> /home/username/.themes/</filename> (this user "
 "only)"
@@ -579,30 +996,30 @@ msgstr ""
 "<filename><placeholder-1/> /home/username/.themes/</filename> (somente este "
 "utilizador)"
 
-#: desktop-guide/C/settings-preferences.xml:119(para)
+#: desktop-guide/C/settings-preferences.xml:135(para)
 msgid "<filename><placeholder-1/> /usr/share/themes/</filename> (all users)"
 msgstr ""
 "<filename><placeholder-1/> /usr/share/themes/</filename> (todos os "
 "utilizadores)"
 
-#: desktop-guide/C/settings-preferences.xml:122(para)
+#: desktop-guide/C/settings-preferences.xml:138(para)
 msgid "Icon themes:"
 msgstr "Temas de ícones"
 
-#: desktop-guide/C/settings-preferences.xml:124(para)
+#: desktop-guide/C/settings-preferences.xml:140(para)
 msgid ""
 "<filename><placeholder-1/> /home/username/.icons/</filename> (this user only)"
 msgstr ""
 "<filename><placeholder-1/> /home/username/.icons/</filename> (somente este "
 "utilizador)"
 
-#: desktop-guide/C/settings-preferences.xml:125(para)
+#: desktop-guide/C/settings-preferences.xml:141(para)
 msgid "<filename><placeholder-1/> /usr/share/icons/</filename> (all users)"
 msgstr ""
 "<filename><placeholder-1/> /usr/share/icons/</filename>  (todos os "
 "utilizadores)"
 
-#: desktop-guide/C/settings-preferences.xml:131(para)
+#: desktop-guide/C/settings-preferences.xml:147(para)
 msgid ""
 "If these directories do not exist, you should create them first. Copying "
 "themes for all users will require administrative privileges."
@@ -610,34 +1027,24 @@ msgstr ""
 "Se estes diretórios não existirem, deverá criá-los em primeiro lugar. Copiar "
 "temas para todos os utilizadores exigirá privilégios administrativos."
 
-#: desktop-guide/C/settings-preferences.xml:136(title)
+#: desktop-guide/C/settings-preferences.xml:152(title)
 msgid "Disabling and modifying the desktop effects"
 msgstr "Desativar e modificar os efeitos no ambiente de trabalho"
 
-#: desktop-guide/C/settings-preferences.xml:138(para)
+#: desktop-guide/C/settings-preferences.xml:154(para)
 msgid ""
 "While Xubuntu doesn't come with many desktop effects, the Xfce compositor is "
 "enabled by default. In the default Xubuntu configuration, the Xfce "
 "compositor is used to draw shadows for windows and to enable translucent "
 "panels. If you have a low-end GPU or you don't like the desktop effects "
 "mentioned, you can turn off the compositor or change the settings by "
-"navigating to <application><menuchoice><placeholder-1/><guimenuitem>Settings "
+"navigating to <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> Settings "
 "Manager</guimenuitem><guimenuitem>Window Manager "
 "Tweaks</guimenuitem></menuchoice></application> and in the "
 "<guilabel>Compositor</guilabel> tab either unticking <guilabel>Enable "
 "display compositing</guilabel> or modifying settings."
 msgstr ""
-"Embora o Xubuntu não seja fornecido com muitos efeitos no ambiente de "
-"trabalho, o compositor Xfce é ativado por padrão. Na configuração padrão do "
-"Xubuntu, o compositor Xfce é usado para desenhar as sombras para as janelas "
-"e para permitir painéis translúcidos. Se possuir um placa gráfica de gama "
-"baixa ou se não gostar dos efeitos mencionados no ambiente de trabalho, pode "
-"desligar o compositor ou alterar as configurações navegando para "
-"<application><menuchoice><placeholder-1/><guimenuitem>Gestor de "
-"definições</guimenuitem><guimenuitem>Ajustes do gestor de "
-"janelas</guimenuitem></menuchoice></application> e na aba "
-"<guilabel>Compositor</guilabel> ou desmarca a caixa <guilabel>Enable display "
-"compositing</guilabel> ou modifica as configurações."
 
 #: desktop-guide/C/printing-scanning.xml:12(title)
 msgid "Printing and Scanning"
@@ -1421,10 +1828,6 @@ msgstr "Centro de Software Ubuntu"
 #: desktop-guide/C/migrating-upgrading.xml:23(seg)
 msgid "Control Panel"
 msgstr "Painel de Controle"
-
-#: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
-msgid "Settings Manager"
-msgstr "Gestor de definições"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "System (menu)"
@@ -4974,6 +5377,22 @@ msgstr ""
 "Etiquetar as suas cópias de segurança de forma clara e mantê-las em um lugar "
 "seguro"
 
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: desktop-guide/C/guide-desktop.xml:0(None)
+msgid ""
+"@@image: '../libs/images/system-lock-screen.png'; "
+"md5=3a2e759ef0983c248a90f812913cbdb4"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: desktop-guide/C/guide-desktop.xml:0(None)
+msgid ""
+"@@image: '../libs/images/system-log-out.png'; "
+"md5=a7d1ef545f718bbf31e462697ad81ef9"
+msgstr ""
+
 #: desktop-guide/C/guide-desktop.xml:12(title)
 msgid "Getting to know your desktop environment"
 msgstr "Conhecer o seu ambiente de trabalho"
@@ -4996,98 +5415,48 @@ msgstr "Ambiente de trabalho"
 
 #: desktop-guide/C/guide-desktop.xml:21(para)
 msgid ""
-"Your desktop has two panels: one on top, which is always visible, and one at "
-"the bottom of the screen, which is hidden when not in use."
+"The Xubuntu desktop has a single panel which is located at the top of the "
+"screen."
 msgstr ""
-"O seu ambiente de trabalho tem dois painéis: um na parte superior, que está "
-"sempre visível, e um na parte inferior do ecrã, que está escondido quando "
-"não está em uso."
 
-#: desktop-guide/C/guide-desktop.xml:25(title)
-msgid "Top Panel"
-msgstr "Painel Superior"
+#: desktop-guide/C/guide-desktop.xml:24(title)
+msgid "The Panel"
+msgstr ""
 
-#: desktop-guide/C/guide-desktop.xml:27(para)
+#: desktop-guide/C/guide-desktop.xml:26(para)
 msgid ""
-"The top panel is mainly used for starting applications and navigating to "
-"different places on your computer. It also comes with an <guilabel>Action "
-"button</guilabel>, <guilabel>Workspace Switcher</guilabel>, "
-"<guilabel>Notification Area</guilabel> and a clock. Clicking on <placeholder-"
-"1/> will open the <guilabel>Applications Menu</guilabel>, offering you many "
-"choices of applications to start. Note that you can also access the "
-"<guilabel>Settings Manager</guilabel>, <guilabel>Help</guilabel>, and a "
-"logout dialog from the menu. Clicking on the <guilabel>Action "
-"button</guilabel> (your username in the upper right) will bring up a menu "
-"with choices for logging out, shutting down, locking the screen, switching "
-"users and, depending on your hardware, suspending or hibernating your "
-"computer."
+"The panel is used for starting and switching applications and for receiving "
+"information about your system. On the left side of the panel you will see "
+"the Xubuntu logo, <placeholder-1/>. Clicking on this icon will open the "
+"<guilabel>Menu</guilabel>, offering you many choices of applications to "
+"start. Along the bottom of the menu window are icons for <placeholder-"
+"2/><guilabel>Settings Manager</guilabel>, <placeholder-3/><guilabel>Lock "
+"Screen</guilabel> and <placeholder-4/><guilabel>Log Out</guilabel>."
 msgstr ""
-"O painel superior é usado principalmente para iniciar aplicativos e navegar "
-"para diferentes lugares seu computador. Também inclui um <guilabel>Botão de "
-"ação</guilabel>, <guilabel>Alternador de área de trabalho</guilabel>, "
-"<guilabel>Área de Notificação</guilabel> e um relógio. Clicando no "
-"<placeholder-1/> irá abrir o <guilabel>Menu de aplicações</guilabel>, "
-"oferecendo-lhe muitas opções de aplicações para começar. Note que também "
-"pode aceder ao <guilabel>Gestor de definições</guilabel>, "
-"<guilabel>Ajuda</guilabel> e a um diálogo de saída a partir do menu. "
-"Clicando no <guilabel>Botão de ação</guilabel> (o seu nome de utilizador no "
-"canto superior direito) irá abrir um menu com opções para sair, fechar, "
-"bloquear o ecrã, alternar os utilizadores e, dependendo do seu hardware, "
-"suspender ou hibernar o computador."
 
-#: desktop-guide/C/guide-desktop.xml:38(para)
+#: desktop-guide/C/guide-desktop.xml:28(para)
 msgid ""
-"To the left of the <guilabel>Action button</guilabel> is the "
-"<guilabel>Workspace Switcher</guilabel> which looks like two colored "
-"rectangles. Clicking on these allows you to instantly switch between two "
-"different workspaces which can each contain different running applications. "
-"If you're used to running many applications simultaneously, this is a handy "
-"way to keep your screen from getting too crowded."
+"The middle section of the panel is dedicated to window buttons for open "
+"applications. On the far right is the clock, displaying the date and time. "
+"To the left of that is the <guilabel>Notification Area</guilabel>. Here you "
+"will see indicators which give you information on your system, including "
+"network connectivity, sound volume level, battery status (when appropriate), "
+"instant messages and more. Some notification icons will only appear as "
+"necessary, for instance when software updates are available."
 msgstr ""
-"À esquerda do <guilabel>Botão de ação</guilabel> está o <guilabel>Alternador "
-"de área de trabalho</guilabel> que se assemelha a dois retângulos coloridos. "
-"Clicando nestes permite-lhe  mudar instantaneamente entre dois espaços de "
-"trabalho diferentes, em que cada um pode conter diferentes aplicações em "
-"execução. Se estiver acostumado a correr várias aplicações em simultâneo, "
-"esta é uma maneira prática de evitar que o seu ecrã de fique muito lotado."
 
-#: desktop-guide/C/guide-desktop.xml:44(para)
+#: desktop-guide/C/guide-desktop.xml:30(para)
 msgid ""
-"To the left of the clock is the <guilabel>Notification Area</guilabel>. Here "
-"you will see icons displaying the status of your network connection and the "
-"system sound volume. Other notification icons may appear as necessary, for "
-"instance when software updates are available."
+"Both the position of the panel as well as the items it contains are "
+"configurable. The <guilabel>Menu</guilabel> is also customizable. See <xref "
+"linkend=\"settings-preferences\"/> for more information on those topics."
 msgstr ""
-"À esquerda do relógio está a <guilabel>Área de Notificação</guilabel>. Aqui "
-"irá ver os ícones que indicam o estado da sua ligação à rede e o volume do "
-"som do sistema. Outros ícones de notificação poderão aparecer quando "
-"necessário, por exemplo quando houver atualizações de software disponíveis."
 
-#: desktop-guide/C/guide-desktop.xml:51(title)
-msgid "Bottom Panel"
-msgstr "Painel Inferior"
-
-#: desktop-guide/C/guide-desktop.xml:53(para)
-msgid ""
-"At the bottom of the screen is a hidden panel called the Launcher Panel. To "
-"see this panel, drag your mouse to the bottom of the screen and pause there. "
-"As the name indicates, the purpose of this panel is to provide you with a "
-"quick way to launch any of the most commonly used Xubuntu applications with "
-"a single click. Hovering over each icon with your mouse will display the "
-"name of the application."
-msgstr ""
-"Na parte inferior do ecrã está um painel oculto chamado Painel lançador. "
-"Para ver este painel, arraste o rato até a parte inferior do ecrã e pare-o "
-"lá. Como o nome indica, o objetivo deste painel é proporcionar-lhe uma forma "
-"rápida de iniciar qualquer uma das aplicações do Xubuntu mais comumente "
-"utilizadas ​​com um único clique. Pairando sobre cada ícone com o rato irá "
-"exibir o nome da aplicação."
-
-#: desktop-guide/C/guide-desktop.xml:61(title)
+#: desktop-guide/C/guide-desktop.xml:34(title)
 msgid "The Desktop"
 msgstr "O Ambiente de Trabalho"
 
-#: desktop-guide/C/guide-desktop.xml:63(para)
+#: desktop-guide/C/guide-desktop.xml:36(para)
 msgid ""
 "The default desktop has just three icons on it: <guilabel>Home</guilabel>, "
 "<guilabel>File System</guilabel> and <guilabel>Trash</guilabel> (icons for "
@@ -5107,11 +5476,11 @@ msgstr ""
 "trabalho...</guimenuitem></menuchoice>. A partir daí pode alterar o papel de "
 "parede e modificar menus e comportamento de ícones."
 
-#: desktop-guide/C/guide-desktop.xml:73(title)
+#: desktop-guide/C/guide-desktop.xml:46(title)
 msgid "Files and directories"
 msgstr "Ficheiros e diretórios"
 
-#: desktop-guide/C/guide-desktop.xml:75(para)
+#: desktop-guide/C/guide-desktop.xml:48(para)
 msgid ""
 "Xubuntu comes with Xfce's file manager called "
 "<application>Thunar</application>. For simplicity's sake, we will just refer "
@@ -5130,11 +5499,11 @@ msgstr ""
 "ícone <guilabel>Pasta pessoal</guilabel> ou o ícone <guilabel>Sistema de "
 "ficheiros</guilabel> no seu ambiente de trabalho."
 
-#: desktop-guide/C/guide-desktop.xml:81(title)
+#: desktop-guide/C/guide-desktop.xml:54(title)
 msgid "Navigation"
 msgstr "Navegação"
 
-#: desktop-guide/C/guide-desktop.xml:83(para)
+#: desktop-guide/C/guide-desktop.xml:56(para)
 msgid ""
 "The File Manager's default view consists of a shortcut pane on the left "
 "side, the main area on the right, and a pathbar above the main area. The "
@@ -5162,7 +5531,7 @@ msgstr ""
 "clique nas diferentes pastas e veja o que têm dentro. Quando estiver pronto, "
 "volte para seu diretório home clicando no atalho do topo."
 
-#: desktop-guide/C/guide-desktop.xml:93(para)
+#: desktop-guide/C/guide-desktop.xml:66(para)
 msgid ""
 "You can add your own shortcuts by simply dragging folders to the shortcut "
 "pane. This will allow you to access important folders instantly!"
@@ -5171,7 +5540,7 @@ msgstr ""
 "o painel de atalhos. Isso permitirá que aceda a pastas importantes "
 "instantaneamente!"
 
-#: desktop-guide/C/guide-desktop.xml:96(para)
+#: desktop-guide/C/guide-desktop.xml:69(para)
 msgid ""
 "The main area will always display the contents of the current folder. Double-"
 "click on folders to enter them, and right-click on files/folders to get a "
@@ -5188,7 +5557,7 @@ msgstr ""
 "um ficheiro, mantenha pressionada a tecla <keycap>Shift</keycap>, e "
 "aumente/diminua a seleção usando as teclas do cursor."
 
-#: desktop-guide/C/guide-desktop.xml:102(para)
+#: desktop-guide/C/guide-desktop.xml:75(para)
 msgid ""
 "To easily see the path you took to get to the current directory, you can "
 "change the default View options. From the File Manager menu, select "
@@ -5208,11 +5577,11 @@ msgstr ""
 "clicar com o botão direito do rato sobre os ícones da barra de caminho "
 "também irá abrir uma janela pop-up com algumas opções."
 
-#: desktop-guide/C/guide-desktop.xml:106(title)
+#: desktop-guide/C/guide-desktop.xml:79(title)
 msgid "Creating and deleting files and folders"
 msgstr "Criar e apagar ficheiros e pastas"
 
-#: desktop-guide/C/guide-desktop.xml:108(para)
+#: desktop-guide/C/guide-desktop.xml:81(para)
 msgid ""
 "To create a new document, right-click on some empty space in your home "
 "directory and select <menuchoice><guimenuitem>Create "
@@ -5238,7 +5607,7 @@ msgstr ""
 "lixo</guimenuitem></menuchoice> para removê-lo. O ficheiro será colocado no "
 "lixo."
 
-#: desktop-guide/C/guide-desktop.xml:118(para)
+#: desktop-guide/C/guide-desktop.xml:91(para)
 msgid ""
 "If you ever want to undo the deleting of a file, open "
 "<guilabel>Trash</guilabel>, right-click the file and click "
@@ -5248,7 +5617,7 @@ msgstr ""
 "<guilabel>Lixo</guilabel>, clique com o botão direito do rato no ficheiro e "
 "clique <menuchoice><guimenuitem>Restaurar</guimenuitem></menuchoice>."
 
-#: desktop-guide/C/guide-desktop.xml:122(para)
+#: desktop-guide/C/guide-desktop.xml:95(para)
 msgid ""
 "To create a new folder, right-click on the empty space, and choose "
 "<menuchoice><guimenuitem>Create Folder</guimenuitem></menuchoice>. You will "
@@ -5265,11 +5634,11 @@ msgstr ""
 "entrar nela. Para renomear ou remover a pasta, clique com o botão direito do "
 "rato nela e escolha a opção apropriada no menu pop-up."
 
-#: desktop-guide/C/guide-desktop.xml:130(title)
+#: desktop-guide/C/guide-desktop.xml:103(title)
 msgid "Copying"
 msgstr "Copiar"
 
-#: desktop-guide/C/guide-desktop.xml:132(para)
+#: desktop-guide/C/guide-desktop.xml:105(para)
 msgid ""
 "To copy and move files on your computer, just click and drag files and "
 "folders to other folders."
@@ -5277,11 +5646,11 @@ msgstr ""
 "Para copiar e mover ficheiros no seu computador, basta clicar e arrastar os "
 "ficheiros e pastas para outras pastas."
 
-#: desktop-guide/C/guide-desktop.xml:137(title)
+#: desktop-guide/C/guide-desktop.xml:110(title)
 msgid "Removable devices"
 msgstr "Dispositivos removíveis"
 
-#: desktop-guide/C/guide-desktop.xml:139(para)
+#: desktop-guide/C/guide-desktop.xml:112(para)
 msgid ""
 "When inserting CDs, USB sticks or other removable media into your computer, "
 "or hooking up removable devices like a music player, Xubuntu should "
@@ -5303,7 +5672,7 @@ msgstr ""
 "e escolha <menuchoice><guimenuitem>Ejetar</guimenuitem></menuchoice>. O "
 "mesmo se aplica para qualquer outro mídia removível."
 
-#: desktop-guide/C/guide-desktop.xml:148(para)
+#: desktop-guide/C/guide-desktop.xml:121(para)
 msgid ""
 "Please note that pressing the eject button on your CD drive may not work. "
 "This may be surprising to some users, but it is in fact the expected "
@@ -5320,11 +5689,11 @@ msgstr ""
 "seu atalho e escolha "
 "<menuchoice><guimenuitem>Ejetar</guimenuitem></menuchoice>."
 
-#: desktop-guide/C/guide-desktop.xml:156(title)
+#: desktop-guide/C/guide-desktop.xml:129(title)
 msgid "Customizing Thunar"
 msgstr "Personalizar o Thunar"
 
-#: desktop-guide/C/guide-desktop.xml:158(para)
+#: desktop-guide/C/guide-desktop.xml:131(para)
 msgid ""
 "There are many ways to customize the <application>File "
 "Manager</application>. If you do not like the way the icons are displayed, "
@@ -5338,7 +5707,7 @@ msgstr ""
 "detalhada</guimenuitem></menuchoice> para que o conteúdo do diretório atual "
 "seja exibido como uma lista."
 
-#: desktop-guide/C/guide-desktop.xml:163(para)
+#: desktop-guide/C/guide-desktop.xml:136(para)
 msgid ""
 "You can have the <application>File Manager</application> display a location "
 "bar instead of the pathbar by selecting "
@@ -5356,6 +5725,13 @@ msgstr ""
 "no painel esquerdo, escolha "
 "<menuchoice><guimenu>Ver</guimenu><guimenuitem>Painel "
 "lateral</guimenuitem><guimenuitem>Árvore</guimenuitem></menuchoice>."
+
+#: desktop-guide/C/guide-desktop.xml:143(para)
+msgid ""
+"For more choices, explore the options under "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></me"
+"nuchoice>."
+msgstr ""
 
 #: desktop-guide/C/guide-default-apps.xml:12(title)
 msgid "Quick guide to default applications"
@@ -5635,6 +6011,7 @@ msgstr ""
 msgid ""
 "To start the default terminal emulator and get to the command line, either:"
 msgstr ""
+"Para iniciar o emulador de terminal padrão e chegar à linha de comando, ou:"
 
 #: desktop-guide/C/command-line.xml:19(para)
 msgid ""
@@ -5705,6 +6082,12 @@ msgid ""
 "<userinput>exit</userinput> to continue using that terminal with normal "
 "access powers."
 msgstr ""
+"Tenha cuidado ao usar o <application>sudo</application>; poderá danificar o "
+"seu sistema se digitar o comando errado! Como regra geral, use apenas sudo "
+"quando for absolutamente necessário. Ao usar <application>sudo</application> "
+"a partir de um terminal, não se esqueça de fechá-lo quando tiver terminado "
+"ou digite <userinput>exit</userinput> para continuar a usar esse terminal "
+"com poderes de acesso normais."
 
 #: desktop-guide/C/command-line.xml:34(para)
 msgid ""
@@ -5778,6 +6161,9 @@ msgid ""
 "remove to remove a package, purge to remove a package and the configuration, "
 "and autoremove which will also remove unneeded packages"
 msgstr ""
+"Gere pacotes em apt. Os comandos mais comuns são install para instalar um "
+"pacote, remove para remover um pacote, purge para remover um pacote e a sua "
+"configuração e autoremove que também irá remover os pacotes desnecessários"
 
 #: desktop-guide/C/command-line.xml:46(userinput)
 #, no-wrap
@@ -6017,6 +6403,9 @@ msgid ""
 "checking to see if a file on the server is newer than the one you have "
 "locally, see <placeholder-1/> for more information."
 msgstr ""
+"Descarrega ficheiros para o diretório atual. A opção -N pode ser útil para "
+"verificar se um ficheiro no servidor é mais recente do que o que existe "
+"localmente, consulte <placeholder-1/> para mais informações."
 
 #: desktop-guide/C/command-line.xml:60(userinput)
 #, no-wrap
@@ -6124,7 +6513,7 @@ msgstr "Introduza a sua senha"
 msgid ""
 "Fill in the <guilabel>Name</guilabel> and <guilabel>Username</guilabel>"
 msgstr ""
-"Preencha os campos <guilabel>Nome</guilabel> e <guilabel>Mode de "
+"Preencha os campos <guilabel>Nome</guilabel> e <guilabel>Nome de "
 "Utilizador</guilabel>"
 
 #: desktop-guide/C/administrative-tasks.xml:40(para) desktop-guide/C/administrative-tasks.xml:68(para)
@@ -6560,6 +6949,61 @@ msgstr ""
 #~ "(uma paleta) na barra de ferramentas e depois clique numa das ferramentas na "
 #~ "direita do ecrã."
 
+#~ msgid ""
+#~ "Your desktop has two panels: one on top, which is always visible, and one at "
+#~ "the bottom of the screen, which is hidden when not in use."
+#~ msgstr ""
+#~ "O seu ambiente de trabalho tem dois painéis: um na parte superior, que está "
+#~ "sempre visível, e um na parte inferior do ecrã, que está escondido quando "
+#~ "não está em uso."
+
+#~ msgid "Top Panel"
+#~ msgstr "Painel Superior"
+
+#~ msgid ""
+#~ "To the left of the clock is the <guilabel>Notification Area</guilabel>. Here "
+#~ "you will see icons displaying the status of your network connection and the "
+#~ "system sound volume. Other notification icons may appear as necessary, for "
+#~ "instance when software updates are available."
+#~ msgstr ""
+#~ "À esquerda do relógio está a <guilabel>Área de Notificação</guilabel>. Aqui "
+#~ "irá ver os ícones que indicam o estado da sua ligação à rede e o volume do "
+#~ "som do sistema. Outros ícones de notificação poderão aparecer quando "
+#~ "necessário, por exemplo quando houver atualizações de software disponíveis."
+
+#~ msgid ""
+#~ "To the left of the <guilabel>Action button</guilabel> is the "
+#~ "<guilabel>Workspace Switcher</guilabel> which looks like two colored "
+#~ "rectangles. Clicking on these allows you to instantly switch between two "
+#~ "different workspaces which can each contain different running applications. "
+#~ "If you're used to running many applications simultaneously, this is a handy "
+#~ "way to keep your screen from getting too crowded."
+#~ msgstr ""
+#~ "À esquerda do <guilabel>Botão de ação</guilabel> está o <guilabel>Alternador "
+#~ "de área de trabalho</guilabel> que se assemelha a dois retângulos coloridos. "
+#~ "Clicando nestes permite-lhe  mudar instantaneamente entre dois espaços de "
+#~ "trabalho diferentes, em que cada um pode conter diferentes aplicações em "
+#~ "execução. Se estiver acostumado a correr várias aplicações em simultâneo, "
+#~ "esta é uma maneira prática de evitar que o seu ecrã de fique muito lotado."
+
+#~ msgid "Bottom Panel"
+#~ msgstr "Painel Inferior"
+
+#~ msgid ""
+#~ "At the bottom of the screen is a hidden panel called the Launcher Panel. To "
+#~ "see this panel, drag your mouse to the bottom of the screen and pause there. "
+#~ "As the name indicates, the purpose of this panel is to provide you with a "
+#~ "quick way to launch any of the most commonly used Xubuntu applications with "
+#~ "a single click. Hovering over each icon with your mouse will display the "
+#~ "name of the application."
+#~ msgstr ""
+#~ "Na parte inferior do ecrã está um painel oculto chamado Painel lançador. "
+#~ "Para ver este painel, arraste o rato até a parte inferior do ecrã e pare-o "
+#~ "lá. Como o nome indica, o objetivo deste painel é proporcionar-lhe uma forma "
+#~ "rápida de iniciar qualquer uma das aplicações do Xubuntu mais comumente "
+#~ "utilizadas ​​com um único clique. Pairando sobre cada ícone com o rato irá "
+#~ "exibir o nome da aplicação."
+
 #~ msgid "To change your wallpaper to any of the other default wallpapers:"
 #~ msgstr ""
 #~ "Para alterar o papel de parede para qualquer um dos outros papéis de parede "
@@ -6605,6 +7049,53 @@ msgstr ""
 #~ "Se desejar adicionar uma ou mais das suas imagens na lista para uso futuro, "
 #~ "pode copiá-las ou fazer ligações a  <filename><placeholder-1/> "
 #~ "/usr/share/xfce4/backdrops/</filename> (requer privilégios administrativos)"
+
+#~ msgid ""
+#~ "xfwm themes - control how your window borders look. To change your xfwm "
+#~ "theme, go to <application><menuchoice><placeholder-1/><guimenuitem>Settings "
+#~ "Manager</guimenuitem><guimenuitem>Window "
+#~ "Manager</guimenuitem></menuchoice></application>. In the "
+#~ "<guilabel>Style</guilabel> tab, select a new theme to change the window "
+#~ "borders appearance."
+#~ msgstr ""
+#~ "Temas xfwm - controlam a aparência dos limites da janela. Para alterar o "
+#~ "tema xfwm, vá a <application><menuchoice><placeholder-1/><guimenuitem>Gestor "
+#~ "de definições</guimenuitem><guimenuitem>Gestor de "
+#~ "janelas</guimenuitem></menuchoice></application>. Na aba "
+#~ "<guilabel>Estilo</guilabel>, selecione um novo tema para mudar a aparência "
+#~ "dos limites da janela."
+
+#~ msgid ""
+#~ "At the top of the dialog, you can select which panel to edit, add a new "
+#~ "panel or delete an existing panel"
+#~ msgstr ""
+#~ "Na parte superior da caixa de diálogo, pode selecionar qual o painel a "
+#~ "editar, adicionar um novo painel ou excluir um painel existente"
+
+#~ msgid "Right-click any panel"
+#~ msgstr "Clique com o botão direito do rato em qualquer painel"
+
+#~ msgid ""
+#~ "In the <guilabel>Display</guilabel> tab, you can control the selected panel "
+#~ "appearance"
+#~ msgstr ""
+#~ "Na aba <guilabel>Aparência</guilabel>, pode controlar a aparência do painel "
+#~ "selecionado"
+
+#~ msgid ""
+#~ "Icon themes - control how your icons look. To change your icon theme, go to "
+#~ "<application><menuchoice><placeholder-1/><guimenuitem>Settings "
+#~ "Manager</guimenuitem><guimenuitem>Appearance</guimenuitem></menuchoice></appl"
+#~ "ication>. In the <guilabel>Icons</guilabel> tab, select a new theme to "
+#~ "change the icon appearance. Note that not all icon sets will work well with "
+#~ "dark panel/window backgrounds!"
+#~ msgstr ""
+#~ "Temas de ícones - controlam a aparência dos ícones. Para alterar o tema dos "
+#~ "ícones, vá a <application><menuchoice><placeholder-1/><guimenuitem>Gestor de "
+#~ "definições</guimenuitem><guimenuitem>Aparência</guimenuitem></menuchoice></ap"
+#~ "plication>. Na aba <guilabel>Ícones</guilabel>, selecione um novo tema para "
+#~ "mudar a aparência dos ícones. Note que nem todos os conjuntos de ícones "
+#~ "funcionarão bem com painel/janela escuros!"
 
 #~ msgid ""
 #~ "<application>gThumb</application>, an image viewer and browser. Read more at "
@@ -6668,3 +7159,105 @@ msgstr ""
 #~ "<guilabel>DISABLED</guilabel> indica que o controlador está instalado, mas "
 #~ "desativado. Continuar para <xref linkend=\"network-troubleshooting-wifi-"
 #~ "on\"/>."
+
+#~ msgid ""
+#~ "In the <guilabel>Items</guilabel> tab, you can control the selected panel "
+#~ "applets and other items"
+#~ msgstr ""
+#~ "Na aba <guilabel>Itens</guilabel> pode controlar os miniaplicativos do "
+#~ "painel selecionado e outros itens"
+
+#~ msgid ""
+#~ "While Xubuntu doesn't come with many desktop effects, the Xfce compositor is "
+#~ "enabled by default. In the default Xubuntu configuration, the Xfce "
+#~ "compositor is used to draw shadows for windows and to enable translucent "
+#~ "panels. If you have a low-end GPU or you don't like the desktop effects "
+#~ "mentioned, you can turn off the compositor or change the settings by "
+#~ "navigating to <application><menuchoice><placeholder-1/><guimenuitem>Settings "
+#~ "Manager</guimenuitem><guimenuitem>Window Manager "
+#~ "Tweaks</guimenuitem></menuchoice></application> and in the "
+#~ "<guilabel>Compositor</guilabel> tab either unticking <guilabel>Enable "
+#~ "display compositing</guilabel> or modifying settings."
+#~ msgstr ""
+#~ "Embora o Xubuntu não seja fornecido com muitos efeitos no ambiente de "
+#~ "trabalho, o compositor Xfce é ativado por padrão. Na configuração padrão do "
+#~ "Xubuntu, o compositor Xfce é usado para desenhar as sombras para as janelas "
+#~ "e para permitir painéis translúcidos. Se possuir um placa gráfica de gama "
+#~ "baixa ou se não gostar dos efeitos mencionados no ambiente de trabalho, pode "
+#~ "desligar o compositor ou alterar as configurações navegando para "
+#~ "<application><menuchoice><placeholder-1/><guimenuitem>Gestor de "
+#~ "definições</guimenuitem><guimenuitem>Ajustes do gestor de "
+#~ "janelas</guimenuitem></menuchoice></application> e na aba "
+#~ "<guilabel>Compositor</guilabel> ou desmarca a caixa <guilabel>Ativar "
+#~ "exibição de composição</guilabel> ou modificar as configurações."
+
+#~ msgid ""
+#~ "To launch <application>Mugshot</application> navigate to "
+#~ "<application><menuchoice><placeholder-1/><guimenuitem>Settings "
+#~ "Manager</guimenuitem><guimenuitem>About "
+#~ "Me</guimenuitem></menuchoice></application>."
+#~ msgstr ""
+#~ "Par iniciar o <application>Mugshot</application> navegue até "
+#~ "<application><menuchoice><placeholder-1/><guimenuitem>Gestoe de "
+#~ "definições</guimenuitem><guimenuitem>Sobre "
+#~ "Mim</guimenuitem></menuchoice></application>."
+
+#~ msgid ""
+#~ "You can easily change your desktop wallpaper navigating to "
+#~ "<application><menuchoice><placeholder-1/><guimenuitem>Settings "
+#~ "Manager</guimenuitem><guimenuitem>Desktop</guimenuitem></menuchoice></applica"
+#~ "tion>, or alternatively, by right clicking your desktop and selecting the "
+#~ "<menuchoice><guimenuitem>Desktop Settings...</guimenuitem></menuchoice> "
+#~ "option."
+#~ msgstr ""
+#~ "Pode facilmente mudar o fundo do seu ambiente de trabalho navegando até "
+#~ "<application><menuchoice><placeholder-1/><guimenuitem>Gestor de "
+#~ "definições</guimenuitem><guimenuitem>Ambiente de "
+#~ "trabalho</guimenuitem></menuchoice></application>, ou alternativamente, "
+#~ "clicando com o botão direito do rato no seu ambiente de trabalho e "
+#~ "selecionando a opção <menuchoice><guimenuitem>Definições do ambiente de "
+#~ "trabalho...</guimenuitem></menuchoice>."
+
+#~ msgid ""
+#~ "GTK themes - control how the content of the windows look. To change your GTK "
+#~ "theme, go to <application><menuchoice><placeholder-1/><guimenuitem>Settings "
+#~ "Manager</guimenuitem><guimenuitem>Appearance</guimenuitem></menuchoice></appl"
+#~ "ication>. In the <guilabel>Style</guilabel> tab, select a new theme to "
+#~ "change the window content appearance. The tool <application>gtk-theme-"
+#~ "config</application> will also allow you to customize your window look."
+#~ msgstr ""
+#~ "Temas GTK - controlam a aparência do conteúdo das janelas. Para alterar o "
+#~ "tema GTK, vá a <application><menuchoice><placeholder-1/><guimenuitem>Gestor "
+#~ "de "
+#~ "definições</guimenuitem><guimenuitem>Aparência</guimenuitem></menuchoice></ap"
+#~ "plication>. Na aba <guilabel>Estilo</guilabel>, selecione um novo tema para "
+#~ "alterar a aparência do conteúdo da janela. A ferramenta <application>gtk-"
+#~ "theme-config</application> também irá permitir que personalize o visual da "
+#~ "janela."
+
+#~ msgid ""
+#~ "The top panel is mainly used for starting applications and navigating to "
+#~ "different places on your computer. It also comes with an <guilabel>Action "
+#~ "button</guilabel>, <guilabel>Workspace Switcher</guilabel>, "
+#~ "<guilabel>Notification Area</guilabel> and a clock. Clicking on <placeholder-"
+#~ "1/> will open the <guilabel>Applications Menu</guilabel>, offering you many "
+#~ "choices of applications to start. Note that you can also access the "
+#~ "<guilabel>Settings Manager</guilabel>, <guilabel>Help</guilabel>, and a "
+#~ "logout dialog from the menu. Clicking on the <guilabel>Action "
+#~ "button</guilabel> (your username in the upper right) will bring up a menu "
+#~ "with choices for logging out, shutting down, locking the screen, switching "
+#~ "users and, depending on your hardware, suspending or hibernating your "
+#~ "computer."
+#~ msgstr ""
+#~ "O painel superior é usado principalmente para iniciar aplicativos e navegar "
+#~ "para diferentes lugares seu computador. Também inclui um <guilabel>Botão de "
+#~ "ação</guilabel>, <guilabel>Alternador de área de trabalho</guilabel>, "
+#~ "<guilabel>Área de Notificação</guilabel> e um relógio. Clicando no "
+#~ "<placeholder-1/> irá abrir o <guilabel>Menu de aplicações</guilabel>, "
+#~ "oferecendo-lhe muitas opções de aplicações para começar. Note que também "
+#~ "pode aceder ao <guilabel>Gestor de definições</guilabel>, "
+#~ "<guilabel>Ajuda</guilabel> e a um diálogo de saída a partir do menu. "
+#~ "Clicando no <guilabel>Botão de ação</guilabel> (o seu nome de utilizador no "
+#~ "canto superior direito) irá abrir um menu com opções para sair, fechar, "
+#~ "bloquear o ecrã, alternar os utilizadores e, dependendo do seu hardware, "
+#~ "suspender ou hibernar o computador."
