@@ -5,19 +5,22 @@ xubuntu-docs (14.04.1) UNRELEASED; urgency=medium
   
   [ Unit 193 ]
   * Add several commands to the "Common commands" section.
+  * Add an appendix for a listing of default packages (with descriptions.)
+  * Add a build dep on coreutils (>= 8.16)
   * Update packaging and Makefiles for translations.
   * Drop unused scripts.
-  * Add an appendix for a listing of default packages (with descriptions.)
 
   [ Pasi Lallinaho ]
-  * Remove mentions of gThumb from the documentation since it's not shipped in Trusty.
+  * Remove mentions of gThumb from the documentation
+    since it's not shipped in Trusty.
   * Update the startpage.
 
   [ Nigel Hall ]
   * Fix typos in the Command Line chapter.
 
   [ Jack Fromm ]
-  * Revised the desktop guide and Settings chapters for the new panel layout including Whiskermenu.
+  * Revised the desktop guide and Settings chapters
+    for the new panel layout including Whiskermenu.
   * Add icons and other entities.
 
  -- Pasi Lallinaho <pasi@shimmerproject.org>  Wed, 12 Mar 2014 00:46:49 +0200

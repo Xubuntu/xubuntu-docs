@@ -3,10 +3,11 @@ Section: doc
 Priority: optional
 Maintainer: Ubuntu Documentation Team <ubuntu-doc@lists.ubuntu.com>
 Build-Depends: debhelper (>= 9),
-               docbook-xml,
-               docbook-xsl,
-               xsltproc,
-               gnome-doc-utils
+ coreutils (>= 8.16),
+ docbook-xml,
+ docbook-xsl,
+ xsltproc,
+ gnome-doc-utils
 Standards-Version: 3.9.5
 
 Package: xubuntu-docs
