@@ -24,7 +24,7 @@ style:
 	cp -r libs/admon ../build/libs
 	cp -r libs/navig ../build/libs
 
-translate: languages
+translate:
 	../scripts/translate.sh $(OPTS); \
 	for dir in $(TRANSLATIONS); do \
 		xsltproc --xinclude -o ../build/$$dir/index.html $(XUBUNTUXSL) $$dir/index.xml && \
@@ -33,4 +33,5 @@ translate: languages
 
 clean:
 	${RM} -r $(TRANSLATIONS)
+
 .PHONY: html translate
