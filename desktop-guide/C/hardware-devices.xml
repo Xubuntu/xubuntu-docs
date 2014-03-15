@@ -38,7 +38,7 @@
 			<para>If any drivers are available for your hardware they will be installable from the <application>Software Sources</application> dialog:</para>
 
 			<itemizedlist>
-				<listitem><para>Go to &software-properties-usc; or &software-properties;</para></listitem>
+				<listitem><para>Go to &software-properties-usc; or &wm-software-properties;</para></listitem>
 				<listitem><para>Drivers available for your hardware will be shown under the <guilabel>Additional Drivers</guilabel> tab, select as appropriate and <guibutton>Apply Changes</guibutton>.</para></listitem>
 				<listitem><para>You will, if necessary, be prompted to enter the administration password.</para></listitem>
 				<listitem><para>You may be prompted to reboot to finish installation.</para></listitem>
@@ -95,7 +95,7 @@
 		<section id="partitioning">
 			<title>Partitioning a Device</title>
 
-			<para>You can use <application>GParted (GNOME Partition Editor)</application> to partition storage devices. Install <application>GParted</application> from the <application>Ubuntu Software Center</application> and then go to &gparted; to start the partition editor.</para>
+			<para>You can use <application>GParted (GNOME Partition Editor)</application> to partition storage devices. Install <application>GParted</application> from the <application>Ubuntu Software Center</application> and then go to &wm-settings-gparted; to start the partition editor.</para>
 
 			<warning><para>Be careful when altering disk partitions, as it is possible to lose your data if you delete or change the wrong partition.</para></warning>
 
@@ -164,16 +164,8 @@
 			<para>You may wish to change the power management settings of your laptop in order to help extend its battery life and save energy.</para>
 
 			<itemizedlist>
-				<listitem><para>Go to &settings-power-manager;</para></listitem>
+				<listitem><para>Go to &wm-settings-power-manager;</para></listitem>
 				<listitem><para>Change settings as appropriate</para></listitem>
-				<listitem><para>Changes are applied instantly</para></listitem>
-			</itemizedlist>
-
-			<para>Displaying a screensaver may use more power than simply letting the screen go blank. Xubuntu uses a blank screen as screensaver by default, but if you've set a graphical screensaver, turning it off could slightly improve the battery life of your laptop.</para>
-
-			<itemizedlist>
-				<listitem><para>Go to &settings-screensaver;</para></listitem>
-				<listitem><para>Change the <guilabel>Screensaver theme</guilabel> to <guilabel>Blank Screen Only</guilabel>. This will simply display a blank screen as a screensaver.</para></listitem>
 				<listitem><para>Changes are applied instantly</para></listitem>
 			</itemizedlist>
 
@@ -186,7 +178,7 @@
 			<para>Most laptop computers come with a touchpad, which is used to control the mouse pointer. There are many ways of changing the way that the touchpad behaves; the most basic touchpad settings can be configured in the following way:</para>
 
 			<itemizedlist>
-				<listitem><para>Go to &settings-mouse-touchpad;</para></listitem>
+				<listitem><para>Go to &wm-settings-mouse-touchpad;</para></listitem>
 				<listitem><para>From the <guilabel>Device:</guilabel> field pick list, select the touchpad.</para></listitem>
 				<listitem><para>Here you can change the touchpad settings to your liking. Changes should take effect immediately.</para></listitem>
 			</itemizedlist>
@@ -215,7 +207,7 @@
 
 		<note><para>Note that hibernate is disabled by default in Xubuntu and does not appear as an option in any menus. For a command line workaround, see <xref linkend="enabling-hibernation"/>.</para></note>
 
-		<para>You can manually put your computer into a power-saving mode by pressing &log-out; and then pressing the appropriate button.</para>
+		<para>You can manually put your computer into a power-saving mode by pressing &wm-logout; and then pressing the appropriate button.</para>
 
 		<note><para>Some computers may have problems going into certain power-saving modes. The best way of checking if your computer can handle a power-saving mode is to try to switch to that mode and see if it behaves as you expected. Always make sure you save important documents before suspending or hibernating.</para></note>
 
@@ -260,7 +252,7 @@
 	<section id="mice-keyboards">
 		<title>Mice and keyboards</title>
 
-		<para>When you install Xubuntu, you are given the option of selecting your keyboard type and language. During the installation, your pointing devices should be automatically detected and configured. If you want or need to change the settings of any of these devices after installation, you can do so by going to &settings-mouse-touchpad; or &settings-keyboard;.</para>
+		<para>When you install Xubuntu, you are given the option of selecting your keyboard type and language. During the installation, your pointing devices should be automatically detected and configured. If you want or need to change the settings of any of these devices after installation, you can do so by going to &wm-settings-mouse-touchpad; or &wm-settings-keyboard;.</para>
 
 		<para>Options for mice and touchpads include:</para>
 
