@@ -20,7 +20,7 @@
 				<?dbhtml list-presentation="table"?>
 				<segtitle>Windows</segtitle><segtitle>Xubuntu</segtitle>
 				<seglistitem><seg>Add/Remove Programs</seg><seg>&software-center;</seg></seglistitem>
-				<seglistitem><seg>Control Panel</seg><seg>&settings-manager; for personal preferences <?br?> &system-menu; for additional configuration</seg></seglistitem>
+				<seglistitem><seg>Control Panel</seg><seg>&wm-settings-manager; for personal preferences <?br?> &system-menu; for additional configuration</seg></seglistitem>
 				<seglistitem><seg>Windows Explorer</seg><seg>&file-manager;</seg></seglistitem>
 				<seglistitem><seg>My Documents</seg><seg>&location_home;</seg></seglistitem>
 			</segmentedlist>
@@ -59,10 +59,10 @@
 			<para>A new version of Xubuntu is released every 6 months; the <application>Software Updater</application> should inform you when a new version is available for download. To check for a new version:</para>
 
 			<itemizedlist>
-				<listitem><para>Navigate to <application>Software Sources</application>, by clicking &software-properties;</para></listitem>
+				<listitem><para>Navigate to <application>Software Sources</application>, by clicking &wm-software-properties;</para></listitem>
 				<listitem><para>Select the <guilabel>Updates</guilabel> tab</para></listitem>
 				<listitem><para>Select <guilabel>For any new version</guilabel> from the list labeled <guilabel>Notify me of a new Ubuntu version</guilabel>, enter your password, and press <guibutton>Close</guibutton></para></listitem>
-				<listitem><para>Go to &software-updater; and wait for the list of available updates to be downloaded</para></listitem>
+				<listitem><para>Go to &wm-software-updater; and wait for the list of available updates to be downloaded</para></listitem>
 				<listitem><para>If a new version of Xubuntu is available, a box at the top of the window will appear saying that a new distribution release is available.</para></listitem>
 				<listitem><para>To upgrade to the latest release, save all of your open documents and press the <guibutton>Upgrade</guibutton> button in <application>Software Updater</application></para></listitem>
 			</itemizedlist>
