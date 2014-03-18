@@ -2,7 +2,7 @@
 	<xsl:template name="header.navigation">
 		<xsl:variable name="home" select="/*[1]"/>
 		<xsl:variable name="up" select="parent::*"/>
-			<div id="masthead">	
+			<div id="masthead">
 				<a href="index.html">
 					<img src="../libs/images/logo.png" alt="Xubuntu" />
 				</a>

@@ -41,10 +41,10 @@
 <!ENTITY mugshot-help 'http://smdavis.us/doku/doku.php?id=mugshot-docs' >
 <!ENTITY openprinting-web 'http://www.linuxfoundation.org/collaborate/workgroups/openprinting' >
 <!ENTITY orage 'http://www.kolumbus.fi/~w408237/orage/' >
-<!ENTITY parole-web 'http://goodies.xfce.org/projects/applications/parole' >
+<!ENTITY parole-docs 'http://docs.xfce.org/apps/parole/start' >
 <!ENTITY pidgin-help 'http://developer.pidgin.im/wiki/Using Pidgin' >
 <!ENTITY pulseaudio-web 'http://www.freedesktop.org/wiki/Software/PulseAudio' >
-<!ENTITY ristretto-web 'http://goodies.xfce.org/projects/applications/ristretto' >
+<!ENTITY ristretto-docs 'http://docs.xfce.org/apps/ristretto/start' >
 <!ENTITY sane-drivers 'http://www.sane-project.org/sane-backends.html' >
 <!ENTITY simple-scan-web 'https://launchpad.net/simple-scan' >
 <!ENTITY thunderbird-help 'https://support.mozillamessaging.com/en-US/home' >
@@ -111,9 +111,12 @@
 <!ENTITY terminal '<application><menuchoice>&appmenu;<guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal Emulator</guimenuitem></menuchoice></application>' >
 <!ENTITY users-groups '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Users and Groups</guimenuitem></menuchoice></application>' >
 <!ENTITY xfburn '<application><menuchoice>&appmenu;<guisubmenu>Multimedia</guisubmenu><guimenuitem>Xfburn</guimenuitem></menuchoice></application>' >
-<!-- Items-Whisker Menu-specific -->
+<!-- Whisker Menu -->
+<!ENTITY wm-logout '<application><menuchoice>&appmenu; &logout; <guimenuitem>Log Out</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-lock-screen '<application><menuchoice>&appmenu; &lockscreen; <guimenuitem>Lock Screen</guimenuitem></menuchoice></application>' >
 <!ENTITY wm-settings-appearance '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Appearance</guimenuitem></menuchoice></application>' >
 <!ENTITY wm-settings-desktop '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Desktop</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-gparted '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>GParted</guimenuitem></menuchoice></application>' >
 <!ENTITY wm-settings-keyboard '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Keyboard</guimenuitem></menuchoice></application>' >
 <!ENTITY wm-settings-manager '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem></menuchoice></application>' >
 <!ENTITY wm-settings-menulibre '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Menu Editor</guimenuitem></menuchoice></application>' >
