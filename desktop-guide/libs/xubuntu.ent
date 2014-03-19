@@ -78,11 +78,11 @@
 <!ENTITY location_icons_global '<filename>&location; /usr/share/icons/</filename>' >
 
 <!-- MENUS -->
-<!ENTITY appmenu '<guiicon><inlinemediaobject><imageobject><imagedata fileref="../libs/images/menu_icon.png"/></imageobject></inlinemediaobject></guiicon>' >
-<!ENTITY settings '<guiicon><inlinemediaobject><imageobject><imagedata fileref="../libs/images/preferences-desktop.png" /></imageobject></inlinemediaobject></guiicon>' >
-<!ENTITY lockscreen '<guiicon><inlinemediaobject><imageobject><imagedata fileref="../libs/images/system-lock-screen.png" /></imageobject></inlinemediaobject></guiicon>' >
-<!ENTITY users '<guiicon><inlinemediaobject><imageobject><imagedata fileref="../libs/images/system-users.png" /></imageobject></inlinemediaobject></guiicon>' >
-<!ENTITY logout '<guiicon><inlinemediaobject><imageobject><imagedata fileref="../libs/images/system-log-out.png" /></imageobject></inlinemediaobject></guiicon>' >
+<!ENTITY appmenu '<guiicon><inlinemediaobject role="icon-menu"><imageobject><imagedata fileref="../libs/images/menu_icon.png"/></imageobject></inlinemediaobject></guiicon>' >
+<!ENTITY settings '<inlinemediaobject role="icon-submenu"><imageobject><imagedata fileref="../libs/images/preferences-desktop.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY lockscreen '<inlinemediaobject role="icon-submenu"><imageobject><imagedata fileref="../libs/images/system-lock-screen.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY users '<inlinemediaobject role="icon-submenu"><imageobject><imagedata fileref="../libs/images/system-users.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY logout '<inlinemediaobject role="icon-submenu"><imageobject><imagedata fileref="../libs/images/system-log-out.png" /></imageobject></inlinemediaobject>' >
 <!-- Items -->
 <!ENTITY file-manager '<application><menuchoice>&appmenu;<guisubmenu>Accessories</guisubmenu><guimenuitem>File Manager</guimenuitem></menuchoice></application>' >
 <!ENTITY gigolo '<application><menuchoice>&appmenu;<guisubmenu>System</guisubmenu><guimenuitem>Gigolo</guimenuitem></menuchoice></application>' >
@@ -112,24 +112,24 @@
 <!ENTITY users-groups '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Users and Groups</guimenuitem></menuchoice></application>' >
 <!ENTITY xfburn '<application><menuchoice>&appmenu;<guisubmenu>Multimedia</guisubmenu><guimenuitem>Xfburn</guimenuitem></menuchoice></application>' >
 <!-- Whisker Menu -->
-<!ENTITY wm-logout '<application><menuchoice>&appmenu; &logout; <guimenuitem>Log Out</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-lock-screen '<application><menuchoice>&appmenu; &lockscreen; <guimenuitem>Lock Screen</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-appearance '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Appearance</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-desktop '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Desktop</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-gparted '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>GParted</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-keyboard '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Keyboard</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-manager '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-menulibre '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Menu Editor</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-mouse-touchpad '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Mouse and Touchpad</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-mugshot '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>About Me</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-ndisgtk '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Windows Wireless Drivers</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-power-manager '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Power Manager</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-print '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Printers</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-window-manager '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Window Manager</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-settings-window-manager-tweaks '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Window Manager Tweaks</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-software-properties '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-software-updater '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Software Updater</guimenuitem></menuchoice></application>' >
-<!ENTITY wm-users-groups '<application><menuchoice>&appmenu; &settings; <guimenuitem>Settings Manager</guimenuitem><guimenuitem>Users and Groups</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-logout '<application><menuchoice>&appmenu; <guimenuitem>&logout; Log Out</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-lock-screen '<application><menuchoice>&appmenu; <guimenuitem>&lockscreen; Lock Screen</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-appearance '<application><menuchoice>&appmenu; <guimenuitem>&settings; Settings Manager</guimenuitem><guimenuitem>Appearance</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-desktop '<application><menuchoice>&appmenu; <guimenuitem>&settings; Settings Manager</guimenuitem><guimenuitem>Desktop</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-gparted '<application><menuchoice>&appmenu; <guimenuitem>&settings; Settings Manager</guimenuitem><guimenuitem>GParted</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-keyboard '<application><menuchoice>&appmenu; <guimenuitem>&settings; Settings Manager</guimenuitem><guimenuitem>Keyboard</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-manager '<application><menuchoice>&appmenu; <guimenuitem>&settings; Settings Manager</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-menulibre '<application><menuchoice>&appmenu; <guimenuitem>&settings; Settings Manager</guimenuitem><guimenuitem>Menu Editor</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-mouse-touchpad '<application><menuchoice>&appmenu; <guimenuitem>&settings; Settings Manager</guimenuitem><guimenuitem>Mouse and Touchpad</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-mugshot '<application><menuchoice>&appmenu; <guimenuitem>&settings; Settings Manager</guimenuitem><guimenuitem>About Me</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-ndisgtk '<application><menuchoice>&appmenu; <guimenuitem>&settings; Settings Manager</guimenuitem><guimenuitem>Windows Wireless Drivers</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-power-manager '<application><menuchoice>&appmenu; <guimenuitem>&settings; Settings Manager</guimenuitem><guimenuitem>Power Manager</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-print '<application><menuchoice>&appmenu; <guimenuitem>&settings; Settings Manager</guimenuitem><guimenuitem>Printers</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-window-manager '<application><menuchoice>&appmenu; <guimenuitem>&settings; Settings Manager</guimenuitem><guimenuitem>Window Manager</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-settings-window-manager-tweaks '<application><menuchoice>&appmenu; <guimenuitem>&settings; Settings Manager</guimenuitem><guimenuitem>Window Manager Tweaks</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-software-properties '<application><menuchoice>&appmenu; <guimenuitem>&settings; Settings Manager</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-software-updater '<application><menuchoice>&appmenu; <guimenuitem>&settings; Settings Manager</guimenuitem><guimenuitem>Software Updater</guimenuitem></menuchoice></application>' >
+<!ENTITY wm-users-groups '<application><menuchoice>&appmenu; <guimenuitem>&settings; Settings Manager</guimenuitem><guimenuitem>Users and Groups</guimenuitem></menuchoice></application>' >
 
 <!-- LANGUAGES (sorted by two letter code)-->
 <!ENTITY Afar 'aa' >

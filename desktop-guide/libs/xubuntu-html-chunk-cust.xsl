@@ -69,6 +69,12 @@
 	<xsl:template match="inlinemediaobject[@role = 'icon-location']" mode="class.value">
 		<xsl:value-of select="'inline-icon-location'"/>
 	</xsl:template>
+	<xsl:template match="inlinemediaobject[@role = 'icon-menu']" mode="class.value">
+		<xsl:value-of select="'inline-icon-menu'"/>
+	</xsl:template>
+	<xsl:template match="inlinemediaobject[@role = 'icon-submenu']" mode="class.value">
+		<xsl:value-of select="'inline-icon-submenu'"/>
+	</xsl:template>
 
 	<!-- Not in use (yet) -->
 	<xsl:template match="legalnotice/screen">
