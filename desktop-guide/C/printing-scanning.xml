@@ -24,7 +24,7 @@
 			<itemizedlist>
 				<listitem><para>Obtain the model name of your printer</para></listitem>
 				<listitem><para>Ensure the printer is turned on</para></listitem>
-				<listitem><para>Go to &settings-print;</para></listitem>
+				<listitem><para>Go to &wm-settings-print;</para></listitem>
 				<listitem><para>Click <menuchoice><guimenu>Server</guimenu><guisubmenu>New</guisubmenu><guimenuitem>Printer</guimenuitem></menuchoice></para></listitem>
 				<listitem><para>Your printer should be automatically detected and displayed in the <guilabel>Devices</guilabel> window</para></listitem>
 				<listitem><para>Select your printer and click <guibutton>Forward</guibutton></para></listitem>
@@ -46,7 +46,7 @@
 			<itemizedlist>
 				<listitem><para>Obtain the model name of your printer</para></listitem>
 				<listitem><para>Ensure the printer is turned on</para></listitem>
-				<listitem><para>Go to &settings-print;</para></listitem>
+				<listitem><para>Go to &wm-settings-print;</para></listitem>
 				<listitem><para>Click <menuchoice><guimenu>Server</guimenu><guisubmenu>New</guisubmenu><guimenuitem>Printer</guimenuitem></menuchoice></para></listitem>
 				<listitem><para>Click on <guilabel>Network Printer</guilabel> in the <guilabel>Devices</guilabel> window</para></listitem>
 				<listitem><para>If your printer is directly connected to a Windows machine on your network, choose <guilabel>Windows Printer via SAMBA</guilabel>. Otherwise, select the protocol your printer uses to communicate.</para></listitem>

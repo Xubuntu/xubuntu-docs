@@ -65,7 +65,7 @@
 			<para>It is possible to add extra repositories, such as those provided by third parties or those for older versions of Xubuntu. To enable more software repositories:</para>
 
 			<itemizedlist>
-				<listitem><para>Open &software-properties; or &software-properties-usc; and go to the <guilabel>Other Software</guilabel> tab</para></listitem>
+				<listitem><para>Open &wm-software-properties; or &software-properties-usc; and go to the <guilabel>Other Software</guilabel> tab</para></listitem>
 				<listitem><para>Press <guibutton>Add...</guibutton> to add a new repository.</para></listitem>
 				<listitem><para>Enter the APT line for the extra repository. This is available from the website of the repository in the majority of cases and it should look something like the following: <literal>deb http://ftp.debian.org etch main</literal></para></listitem>
 				<listitem><para>Press <guibutton>Add Source</guibutton> and then click <guibutton>Close</guibutton> to save your changes.</para></listitem>
@@ -103,7 +103,7 @@
 
 			<itemizedlist>
 				<listitem><para>Insert a disc which contains packages; e.g., the Xubuntu installation disc which comes with a limited selection of packages</para></listitem>
-				<listitem><para>Open &software-properties; and go to the <guilabel>Other Software</guilabel> tab</para></listitem>
+				<listitem><para>Open &wm-software-properties; and go to the <guilabel>Other Software</guilabel> tab</para></listitem>
 				<listitem><para>Press the <guibutton>Add Volume...</guibutton> button; you will be prompted for your password</para></listitem>
 			</itemizedlist>
 
@@ -121,7 +121,7 @@
 	<section id="update-configuration">
 		<title>Changing update frequency and behavior</title>
 
-		<para>You can change the frequency of the check and the way in which updates are handled. When <application>Software Updater</application> runs and presents you with its dialog, there is a <guilabel>Settings</guilabel> button at the bottom. Pressing this will open the <guilabel>Software Sources</guilabel> dialog at the <guilabel>Updates</guilabel> tab. Alternatively, you can access the settings dialog by going to &software-properties; and opening the <guilabel>Updates</guilabel> tab.</para>
+		<para>You can change the frequency of the check and the way in which updates are handled. When <application>Software Updater</application> runs and presents you with its dialog, there is a <guilabel>Settings</guilabel> button at the bottom. Pressing this will open the <guilabel>Software Sources</guilabel> dialog at the <guilabel>Updates</guilabel> tab. Alternatively, you can access the settings dialog by going to &wm-software-properties; and opening the <guilabel>Updates</guilabel> tab.</para>
 		<para>The following settings can be changed from this dialog:</para>
 
 		<section id="update-configuration-sources">
