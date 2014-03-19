@@ -57,10 +57,10 @@ choose_language() {
 
 shipped_languages() {
 percent=80
-for po in `ls po/*.po`
+for po in po/*.po
 do
    if [ `msgfmt -o /dev/null --statistics $po 2>&1|awk '{printf("%.0f\n",$1 / ($1 + $4 + $7) * 100)}'` -ge "${percent}" ];then
-      basename -s.po $po
+      basename $po .po
    fi
 done | tee po/LINGUAS
 exit

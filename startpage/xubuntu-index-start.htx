@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+	<title>Welcome to Xubuntu!</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="./reset.css" />
+	<link rel="stylesheet" href="./xubuntu-docs.css" />
+</head>
+
+<body>
+
+	<div id="header">
+		<img src="./logo.png" alt="Xubuntu" />
+	</div>
+
+	<div id="content">
+		<h1>Welcome to Xubuntu 14.04 Documentation!</h1>
+
+		<h2>Official documentation</h2>
+			<p>The <a href="file:///usr/share/xubuntu-docs/desktop-guide/index.html">Official Documentation</a> provides documentation to the most common issues with Xubuntu.</p>
+
+		<h3>Official documentation in other languages</h3>
+			<ul class="inline">

@@ -33,4 +33,5 @@ translate:
 
 clean:
 	${RM} -r $(TRANSLATIONS)
+
 .PHONY: html translate
