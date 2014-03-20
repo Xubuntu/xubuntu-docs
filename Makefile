@@ -19,9 +19,10 @@ translate:
 startpage:
 	mkdir -p build/about/
 	cp startpage/*.css build/about/
+	cp startpage/*.png build/about/
 	cp startpage/xubuntu-index-start.htx build/about/xubuntu-index.html
 	for lang in $(TRANSLATIONS); do \
-		echo -n "\t\t\t<li><a href=\"$$lang\">"; grep Language-Team: desktop-guide/po/$$lang.po | awk '{print $$2 "</a></li>"}'; \
+		echo -n "\t\t\t<li><a href=\"../$$lang/index.html\">"; grep Language-Team: desktop-guide/po/$$lang.po | awk '{print $$2 "</a></li>"}'; \
 	done >> build/about/xubuntu-index.html
 	cat startpage/xubuntu-index-end.htx >> build/about/xubuntu-index.html
 
