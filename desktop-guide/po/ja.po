@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-03-20 02:49+0200\n"
-"PO-Revision-Date: 2014-03-28 23:19+0000\n"
-"Last-Translator: Pasi Lallinaho <pasi@shimmerproject.org>\n"
+"PO-Revision-Date: 2014-04-07 04:46+0000\n"
+"Last-Translator: Kiyotaka Nemoto <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-03-29 07:35+0000\n"
-"X-Generator: Launchpad (build 16967)\n"
+"X-Launchpad-Export-Date: 2014-04-07 06:57+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -24,10 +24,12 @@ msgid ""
 "@@image: '../libs/images/package_icon.png'; "
 "md5=15cff8b23f9cf506a7b7e8f98f1289ac"
 msgstr ""
+"@@image: '../libs/images/package_icon.png'; "
+"md5=15cff8b23f9cf506a7b7e8f98f1289ac"
 
 #: desktop-guide/C/appendix-packages.xml:12(title)
 msgid "Application table"
-msgstr ""
+msgstr "アプリケーションの一覧"
 
 #: desktop-guide/C/appendix-packages.xml:16(segtitle) desktop-guide/C/appendix-packages.xml:35(segtitle)
 msgid "Friendly name"
@@ -35,43 +37,43 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:16(segtitle) desktop-guide/C/appendix-packages.xml:35(segtitle) desktop-guide/C/appendix-packages.xml:49(segtitle)
 msgid "Package name"
-msgstr ""
+msgstr "パッケージ名"
 
 #: desktop-guide/C/appendix-packages.xml:16(segtitle) desktop-guide/C/appendix-packages.xml:35(segtitle) desktop-guide/C/appendix-packages.xml:49(segtitle)
 msgid "Short description"
-msgstr ""
+msgstr "概要"
 
 #: desktop-guide/C/appendix-packages.xml:17(seg)
 msgid "Abiword"
-msgstr ""
+msgstr "Abiword"
 
 #: desktop-guide/C/appendix-packages.xml:17(seg)
 msgid "abiword"
-msgstr ""
+msgstr "abiword"
 
 #: desktop-guide/C/appendix-packages.xml:17(seg)
 msgid "Word processor"
-msgstr ""
+msgstr "ワードプロセッサー"
 
 #: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "Catfish File Search"
-msgstr ""
+msgstr "Catfish ファイル検索"
 
 #: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "catfish"
-msgstr ""
+msgstr "catfish"
 
 #: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "File searching tool which is configurable via the command line"
-msgstr ""
+msgstr "コマンドラインから設定できるファイル検索ツール"
 
 #: desktop-guide/C/appendix-packages.xml:19(seg)
 msgid "Document Viewer"
-msgstr ""
+msgstr "ドキュメントビューアー"
 
 #: desktop-guide/C/appendix-packages.xml:19(seg)
 msgid "evince"
-msgstr ""
+msgstr "evince"
 
 #: desktop-guide/C/appendix-packages.xml:19(seg)
 msgid "Document (PostScript, PDF) viewer"
@@ -79,27 +81,27 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:20(seg)
 msgid "Calculator"
-msgstr ""
+msgstr "電卓"
 
 #: desktop-guide/C/appendix-packages.xml:20(seg)
 msgid "gnome-calculator"
-msgstr ""
+msgstr "gnome-calculator"
 
 #: desktop-guide/C/appendix-packages.xml:20(seg)
 msgid "Desktop calculator"
-msgstr ""
+msgstr "デスクトップ電卓"
 
 #: desktop-guide/C/appendix-packages.xml:21(seg)
 msgid "Gnumeric"
-msgstr ""
+msgstr "Gnumeric"
 
 #: desktop-guide/C/appendix-packages.xml:21(seg)
 msgid "gnumeric"
-msgstr ""
+msgstr "gnumeric"
 
 #: desktop-guide/C/appendix-packages.xml:21(seg)
 msgid "Spreadsheet application"
-msgstr ""
+msgstr "表計算ソフトウェア"
 
 #: desktop-guide/C/appendix-packages.xml:22(seg)
 msgid "Character Map"
@@ -107,7 +109,7 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:22(seg)
 msgid "gucharmap"
-msgstr ""
+msgstr "gucharmap"
 
 #: desktop-guide/C/appendix-packages.xml:22(seg)
 msgid "Unicode character picker and font browser"
@@ -119,11 +121,11 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:23(seg)
 msgid "mousepad"
-msgstr ""
+msgstr "mousepad"
 
 #: desktop-guide/C/appendix-packages.xml:23(seg)
 msgid "Simple Xfce oriented text editor"
-msgstr ""
+msgstr "Xfceベースのシンプルなテキストエディター"
 
 #: desktop-guide/C/appendix-packages.xml:24(seg) desktop-guide/C/appendix-packages.xml:24(seg)
 msgid "PulseAudio Volume Control"
@@ -131,7 +133,7 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:24(seg)
 msgid "pavucontrol"
-msgstr ""
+msgstr "pavucontrol"
 
 #: desktop-guide/C/appendix-packages.xml:25(seg)
 msgid "Simple Scan"
@@ -139,23 +141,23 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:25(seg)
 msgid "simple-scan"
-msgstr ""
+msgstr "simple-scan"
 
 #: desktop-guide/C/appendix-packages.xml:25(seg)
 msgid "Simple Scanning Utility"
-msgstr ""
+msgstr "シンプルなスキャンユーティリティ"
 
 #: desktop-guide/C/appendix-packages.xml:26(seg)
 msgid "Application Finder"
-msgstr ""
+msgstr "アプリケーションファインダー"
 
 #: desktop-guide/C/appendix-packages.xml:26(seg) desktop-guide/C/appendix-packages.xml:27(seg)
 msgid "xfce4-appfinder"
-msgstr ""
+msgstr "xfce4-appfinder"
 
 #: desktop-guide/C/appendix-packages.xml:26(seg)
 msgid "Find and launch applications installed on your system"
-msgstr ""
+msgstr "システムにインストールされているアプリケーションを検索・実行する"
 
 #: desktop-guide/C/appendix-packages.xml:27(seg)
 msgid "Run Program"
@@ -171,11 +173,11 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:28(seg)
 msgid "xfce4-dict"
-msgstr ""
+msgstr "xfce4-dict"
 
 #: desktop-guide/C/appendix-packages.xml:28(seg)
 msgid "Dictionary plugin for Xfce4 panel"
-msgstr ""
+msgstr "Xfce4パネル用の辞書プラグイン"
 
 #: desktop-guide/C/appendix-packages.xml:29(seg)
 msgid "Task Manager"
@@ -187,7 +189,7 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:29(seg)
 msgid "Process manager for the Xfce4 Desktop Environment"
-msgstr ""
+msgstr "Xfce4デスクトップ環境のプロセス管理"
 
 #: desktop-guide/C/appendix-packages.xml:32(title)
 msgid "Settings Manager"
@@ -199,11 +201,11 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:36(seg)
 msgid "gtk-theme-config"
-msgstr ""
+msgstr "gtk-theme-config"
 
 #: desktop-guide/C/appendix-packages.xml:36(seg)
 msgid "Simple interface to change GTK+ themes"
-msgstr ""
+msgstr "GTK+テーマを変更するシンプルなインターフェース"
 
 #: desktop-guide/C/appendix-packages.xml:37(seg)
 msgid "Menu Editor"
@@ -211,11 +213,11 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:37(seg)
 msgid "menulibre"
-msgstr ""
+msgstr "menulibre"
 
 #: desktop-guide/C/appendix-packages.xml:37(seg)
 msgid "Menu layout editor"
-msgstr ""
+msgstr "メニュー配置エディター"
 
 #: desktop-guide/C/appendix-packages.xml:38(seg)
 msgid "About Me"
@@ -223,11 +225,11 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:38(seg)
 msgid "mugshot"
-msgstr ""
+msgstr "mugshot"
 
 #: desktop-guide/C/appendix-packages.xml:38(seg)
 msgid "Lightweight user-configuration application"
-msgstr ""
+msgstr "軽量なユーザ設定アプリケーション"
 
 #: desktop-guide/C/appendix-packages.xml:39(seg)
 msgid "Network Connections"
@@ -235,11 +237,11 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:39(seg)
 msgid "network-manager-gnome"
-msgstr ""
+msgstr "network-manager-gnome"
 
 #: desktop-guide/C/appendix-packages.xml:39(seg)
 msgid "Network management framework"
-msgstr ""
+msgstr "ネットワーク管理フレームワーク"
 
 #: desktop-guide/C/appendix-packages.xml:40(seg)
 msgid "Additional Drivers"
@@ -247,7 +249,7 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:40(seg) desktop-guide/C/appendix-packages.xml:41(seg)
 msgid "software-properties-gtk"
-msgstr ""
+msgstr "software-properties-gtk"
 
 #: desktop-guide/C/appendix-packages.xml:40(seg)
 msgid "Configure third-party and proprietary drivers"
@@ -255,7 +257,7 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:41(seg)
 msgid "Software &amp; Updates"
-msgstr ""
+msgstr "ソフトウェアの更新"
 
 #: desktop-guide/C/appendix-packages.xml:41(seg)
 msgid "Configure the sources for installable software and updates"
@@ -267,48 +269,48 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:42(seg)
 msgid "system-config-printer-gnome"
-msgstr ""
+msgstr "system-config-printer-gnome"
 
 #: desktop-guide/C/appendix-packages.xml:42(seg)
 msgid "Printer configuration GUI"
-msgstr ""
+msgstr "プリンター設定GUI"
 
 #: desktop-guide/C/appendix-packages.xml:46(title)
 msgid "Behind the scenes"
-msgstr ""
+msgstr "バックグラウンドで動いているアプリケーション"
 
 #: desktop-guide/C/appendix-packages.xml:50(seg)
 msgid "gvfs-backends"
-msgstr ""
+msgstr "gvfs-backends"
 
 #: desktop-guide/C/appendix-packages.xml:50(seg)
 msgid ""
 "Allows GVFS to connect to many network protocols (smb://, nfs://, etc)"
-msgstr ""
+msgstr "GVFSが様々なネットワークプロトコル(smb://, nfs://, etc)に接続できるようにします"
 
 #: desktop-guide/C/appendix-packages.xml:51(seg)
 msgid "gvfs-fuse"
-msgstr ""
+msgstr "gvfs-fuse"
 
 #: desktop-guide/C/appendix-packages.xml:51(seg)
 msgid "Let non-GNOME apps use GVFS via fuse"
-msgstr ""
+msgstr "非GNOMEアプリがfuse経由でGVFSを使えるようにします"
 
 #: desktop-guide/C/appendix-packages.xml:52(seg)
 msgid "libnotify-bin"
-msgstr ""
+msgstr "libnotify-bin"
 
 #: desktop-guide/C/appendix-packages.xml:52(seg)
 msgid "Binaries to send notification bubbles"
-msgstr ""
+msgstr "通知ポップアップを送るためのバイナリファイルです"
 
 #: desktop-guide/C/appendix-packages.xml:53(seg)
 msgid "light-locker"
-msgstr ""
+msgstr "light-locker"
 
 #: desktop-guide/C/appendix-packages.xml:53(literal)
 msgid "<placeholder-1/>lightdm"
-msgstr ""
+msgstr "<placeholder-1/>lightdm"
 
 #: desktop-guide/C/appendix-packages.xml:53(seg)
 msgid "Simple session-locker for <placeholder-1/>"
@@ -316,43 +318,43 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:54(seg)
 msgid "tumbler"
-msgstr ""
+msgstr "tumbler"
 
 #: desktop-guide/C/appendix-packages.xml:54(literal)
 msgid "<placeholder-1/>thunar"
-msgstr ""
+msgstr "<placeholder-1/>thunar"
 
 #: desktop-guide/C/appendix-packages.xml:54(literal)
 msgid "<placeholder-1/>xfdesktop4"
-msgstr ""
+msgstr "<placeholder-1/>xfdesktop4"
 
 #: desktop-guide/C/appendix-packages.xml:54(seg)
 msgid "Xfce thumbnail daemon used by <placeholder-1/> and <placeholder-2/>"
-msgstr ""
+msgstr "<placeholder-1/> と <placeholder-2/>で利用するXfceサムネイルデーモン"
 
 #: desktop-guide/C/appendix-packages.xml:55(seg)
 msgid "xfce4-notifyd"
-msgstr ""
+msgstr "xfce4-notifyd"
 
 #: desktop-guide/C/appendix-packages.xml:55(seg)
 msgid "Daemon used to display notification bubbles"
-msgstr ""
+msgstr "通知ポップアップを表示するために利用するデーモン"
 
 #: desktop-guide/C/appendix-packages.xml:56(seg)
 msgid "xfce4-indicator-plugin"
-msgstr ""
+msgstr "xfce4-indicator-plugin"
 
 #: desktop-guide/C/appendix-packages.xml:56(literal)
 msgid "<placeholder-1/>indicator-application"
-msgstr ""
+msgstr "<placeholder-1/>indicator-application"
 
 #: desktop-guide/C/appendix-packages.xml:56(literal)
 msgid "<placeholder-1/>indicator-sound"
-msgstr ""
+msgstr "<placeholder-1/>indicator-sound"
 
 #: desktop-guide/C/appendix-packages.xml:56(seg)
 msgid "Panel plugin for the indicators (<placeholder-1/>, <placeholder-2/>)"
-msgstr ""
+msgstr "インジケーター (<placeholder-1/>, <placeholder-2/>)で利用するパネルプラグイン"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
 msgid "What is Xubuntu?"
@@ -360,18 +362,20 @@ msgstr ""
 
 #: desktop-guide/C/what-is-xubuntu.xml:15(title)
 msgid "A short introduction"
-msgstr ""
+msgstr "概要"
 
 #: desktop-guide/C/what-is-xubuntu.xml:18(title)
 msgid ""
 "Xubuntu is a community-developed, Ubuntu-based Linux operating system."
-msgstr ""
+msgstr "Xubuntuはコミュニティによって開発されているUbuntuベースのLinuxオペレーティングシステムです。"
 
 #: desktop-guide/C/what-is-xubuntu.xml:19(para)
 msgid ""
 "Xubuntu is an elegant and easy-to-use operating system. Xubuntu comes with "
 "Xfce, which is a stable, light and configurable desktop environment."
 msgstr ""
+"Xubuntuはエレガントでありながら使いやすいオペレーティングシステムです。Xubuntuは安定、軽量で様々な設定ができるデスクトップ環境であるXfce"
+"を採用しています。"
 
 #: desktop-guide/C/what-is-xubuntu.xml:21(para)
 msgid ""
@@ -379,12 +383,15 @@ msgid ""
 "laptops and netbooks. It features a modern look and enough features for "
 "efficient, daily usage. It works well on older hardware too."
 msgstr ""
+"Xubuntuはデスクトップ、ノートブック、ネットブックを最大限に活用したい方々に最適です。見た目もおしゃれで日々効率よく使うための様々な機能が備わってい"
+"ます。その他のハードウェアでも動作します。"
 
 #: desktop-guide/C/what-is-xubuntu.xml:23(para)
 msgid ""
 "Find out more at the <ulink url=\"http://xubuntu.org/\">Xubuntu "
 "website</ulink>."
 msgstr ""
+"詳しい情報は、<ulink url=\"http://xubuntu.org/\">Xubuntuのウェブサイト</ulink>をご覧ください。"
 
 #: desktop-guide/C/what-is-xubuntu.xml:27(title)
 msgid "About the name"
@@ -408,10 +415,13 @@ msgid ""
 "url=\"http://www.canonical.com/\">Canonical Ltd.</ulink>, a company founded "
 "by Mark Shuttleworth."
 msgstr ""
+"Ubuntuをベースにすることに加えて、XubuntuではMark Shuttleworth氏によって設立された<ulink "
+"url=\"http://www.canonical.com/\">Canonical "
+"Ltd.</ulink>にスポンサーとなっていただいて、インフラストラクチャーを提供していただいています。"
 
 #: desktop-guide/C/what-is-xubuntu.xml:38(title)
 msgid "Version numbering"
-msgstr ""
+msgstr "バージョン番号"
 
 #: desktop-guide/C/what-is-xubuntu.xml:39(para)
 msgid ""
@@ -421,10 +431,13 @@ msgid ""
 "released in June, 2006, thus its version number was 6.06. The latest Long "
 "Term Support (LTS) version is 14.04, codenamed Trusty Tahr."
 msgstr ""
+"Xubuntuのバージョン番号はディストリビューションのリリース日に基づいています。バージョン番号の前半はリリースされた年を、後半は月を意味します。たとえ"
+"ば、最初の公式なXubuntuは2006年6月にリリースされましたので、バージョン番号は6.06でした。最新の長期サポート（LTS）バージョンは14.04"
+"であり、Trusty Tahrというコード名がついています。"
 
 #: desktop-guide/C/what-is-xubuntu.xml:47(title)
 msgid "Learn more about what makes Xubuntu"
-msgstr ""
+msgstr "Xubuntuの構成要素について"
 
 #: desktop-guide/C/what-is-xubuntu.xml:50(title)
 msgid "Free Software"
@@ -454,7 +467,7 @@ msgstr ""
 
 #: desktop-guide/C/what-is-xubuntu.xml:65(title)
 msgid "Xfce"
-msgstr ""
+msgstr "Xfce"
 
 #: desktop-guide/C/what-is-xubuntu.xml:66(para)
 msgid ""
@@ -471,6 +484,7 @@ msgstr ""
 msgid ""
 "@@image: '../libs/images/menu_icon.png'; md5=65599cdf4480dbc3d1bfa2154c0a255d"
 msgstr ""
+"@@image: '../libs/images/menu_icon.png'; md5=65599cdf4480dbc3d1bfa2154c0a255d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -479,6 +493,8 @@ msgid ""
 "@@image: '../libs/images/preferences-desktop.png'; "
 "md5=805e5ff06267de7ea2e15f257bf1a825"
 msgstr ""
+"@@image: '../libs/images/preferences-desktop.png'; "
+"md5=805e5ff06267de7ea2e15f257bf1a825"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -487,6 +503,8 @@ msgid ""
 "@@image: '../libs/images/location_icon.png'; "
 "md5=71b7dc6dffc6d296d54a2fa354f2204f"
 msgstr ""
+"@@image: '../libs/images/location_icon.png'; "
+"md5=71b7dc6dffc6d296d54a2fa354f2204f"
 
 #: desktop-guide/C/settings-preferences.xml:12(title)
 msgid "Settings and Preferences"
@@ -500,10 +518,12 @@ msgid ""
 "updated, customize the looks of the desktop and edit the main applications "
 "menu to your liking."
 msgstr ""
+"あなたのニーズや好みにあわせてXubuntuをカスタマイズする選択肢は、デスクトップの外観の変更から低レベルの調整まで、実質的に無制限です。この章では、個"
+"人情報を最新に保つことや、デスクトップの外観のカスタマイズ、メインのアプリケーションメニューをあなたの好みにあわせて編集する方法が記されています。"
 
 #: desktop-guide/C/settings-preferences.xml:17(title)
 msgid "Customizing the Menu"
-msgstr ""
+msgstr "メニューのカスタマイズ"
 
 #: desktop-guide/C/settings-preferences.xml:19(para)
 msgid ""
@@ -555,7 +575,7 @@ msgstr ""
 
 #: desktop-guide/C/settings-preferences.xml:31(title)
 msgid "Customizing your personal info"
-msgstr ""
+msgstr "個人情報のカスタマイズ"
 
 #: desktop-guide/C/settings-preferences.xml:33(para)
 msgid ""
@@ -571,6 +591,10 @@ msgid ""
 "Settings Manager</guimenuitem><guimenuitem>About "
 "Me</guimenuitem></menuchoice></application>."
 msgstr ""
+"<application>Mugshot</application>を起動するには、<application><menuchoice><placehold"
+"er-1/><guimenuitem><placeholder-2/> Settings "
+"Manager</guimenuitem><guimenuitem>About "
+"Me</guimenuitem></menuchoice></application>を選んでください。"
 
 #: desktop-guide/C/settings-preferences.xml:37(para)
 msgid ""
@@ -578,6 +602,8 @@ msgid ""
 "on the left of the GUI, select one of the given options and follow the "
 "instructions."
 msgstr ""
+"プロフィール画像を変更するには、GUIの左側にある<guibutton>image</guibutton>ボタンをクリックし、そこに出るメニューからひとつ"
+"選び、指示に従います。"
 
 #: desktop-guide/C/settings-preferences.xml:39(para)
 msgid ""
@@ -608,10 +634,12 @@ msgid ""
 "Read more at the <ulink url=\"http://smdavis.us/doku/doku.php?id=mugshot-"
 "docs\">Mugshot</ulink> official documentation."
 msgstr ""
+"詳しくは、 <ulink url=\"http://smdavis.us/doku/doku.php?id=mugshot-"
+"docs\">Mugshot</ulink> 公式ドキュメントをご覧ください。"
 
 #: desktop-guide/C/settings-preferences.xml:49(title)
 msgid "Customizing the appearance"
-msgstr ""
+msgstr "外観のカスタマイズ"
 
 #: desktop-guide/C/settings-preferences.xml:51(para)
 msgid ""
@@ -621,7 +649,7 @@ msgstr ""
 
 #: desktop-guide/C/settings-preferences.xml:55(title)
 msgid "Changing your wallpaper"
-msgstr ""
+msgstr "壁紙の変更"
 
 #: desktop-guide/C/settings-preferences.xml:57(para)
 msgid ""
@@ -4942,5 +4970,7 @@ msgstr ""
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
+"  Kentaro Kazuhama https://launchpad.net/~kazken3\n"
 "  Kiyotaka Nemoto https://launchpad.net/~kiyotaka\n"
-"  Pasi Lallinaho https://launchpad.net/~knome"
+"  Pasi Lallinaho https://launchpad.net/~knome\n"
+"  Shushi Kurose https://launchpad.net/~kuromabo"
