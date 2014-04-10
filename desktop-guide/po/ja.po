@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-03-20 02:49+0200\n"
-"PO-Revision-Date: 2014-04-08 17:04+0000\n"
-"Last-Translator: Kiyotaka Nemoto <Unknown>\n"
+"PO-Revision-Date: 2014-04-09 17:21+0000\n"
+"Last-Translator: Kentaro Kazuhama <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-04-09 07:33+0000\n"
+"X-Launchpad-Export-Date: 2014-04-10 06:55+0000\n"
 "X-Generator: Launchpad (build 16976)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -4617,6 +4617,9 @@ msgid ""
 "1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal "
 "Emulator</guimenuitem></menuchoice></application>"
 msgstr ""
+"<application><menuchoice><placeholder-"
+"1/><guisubmenu>アクセサリー</guisubmenu><guimenuitem>ターミナルエミュレーター</guimenuitem></me"
+"nuchoice></application>と操作する"
 
 #: desktop-guide/C/command-line.xml:20(para)
 msgid ""
@@ -4690,12 +4693,12 @@ msgstr ""
 
 #: desktop-guide/C/command-line.xml:44(segtitle)
 msgid "Syntax"
-msgstr ""
+msgstr "書式"
 
 #: desktop-guide/C/command-line.xml:45(userinput)
 #, no-wrap
 msgid "apt-cache"
-msgstr ""
+msgstr "apt-cache"
 
 #: desktop-guide/C/command-line.xml:45(seg)
 msgid ""
@@ -4706,12 +4709,12 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:45(userinput)
 #, no-wrap
 msgid "apt-cache search web browser"
-msgstr ""
+msgstr "apt-cache search web browser"
 
 #: desktop-guide/C/command-line.xml:45(userinput)
 #, no-wrap
 msgid "apt-cache show firefox"
-msgstr ""
+msgstr "apt-cache show firefox"
 
 #: desktop-guide/C/command-line.xml:45(seg) desktop-guide/C/command-line.xml:52(seg) desktop-guide/C/command-line.xml:59(seg)
 msgid "<placeholder-1/> or <placeholder-2/>"
@@ -4720,7 +4723,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:46(userinput)
 #, no-wrap
 msgid "apt-get"
-msgstr ""
+msgstr "apt-get"
 
 #: desktop-guide/C/command-line.xml:46(seg)
 msgid ""
@@ -4737,7 +4740,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:47(userinput)
 #, no-wrap
 msgid "cat"
-msgstr ""
+msgstr "cat"
 
 #: desktop-guide/C/command-line.xml:47(seg)
 msgid "Joins (concatenates) two or more files"
@@ -4751,7 +4754,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:48(userinput)
 #, no-wrap
 msgid "cd"
-msgstr ""
+msgstr "cd"
 
 #: desktop-guide/C/command-line.xml:48(seg)
 msgid "Changes to another directory"
@@ -4765,7 +4768,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:49(userinput)
 #, no-wrap
 msgid "cp"
-msgstr ""
+msgstr "cp"
 
 #: desktop-guide/C/command-line.xml:49(seg)
 msgid "Copies a file (or files) to a directory or to overwrite another file"
@@ -4779,7 +4782,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:50(userinput)
 #, no-wrap
 msgid "date"
-msgstr ""
+msgstr "date"
 
 #: desktop-guide/C/command-line.xml:50(seg)
 msgid ""
@@ -4795,7 +4798,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:51(userinput)
 #, no-wrap
 msgid "editor"
-msgstr ""
+msgstr "editor"
 
 #: desktop-guide/C/command-line.xml:51(seg)
 msgid "Opens a text file in an editor"
@@ -4809,7 +4812,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:52(userinput)
 #, no-wrap
 msgid "grep"
-msgstr ""
+msgstr "grep"
 
 #: desktop-guide/C/command-line.xml:52(seg)
 msgid "Searches strings or files"
@@ -4828,12 +4831,12 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:53(userinput)
 #, no-wrap
 msgid "kill"
-msgstr ""
+msgstr "kill"
 
 #: desktop-guide/C/command-line.xml:53(userinput)
 #, no-wrap
 msgid "pidof"
-msgstr ""
+msgstr "pidof"
 
 #: desktop-guide/C/command-line.xml:53(seg)
 msgid ""
@@ -4849,7 +4852,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:54(userinput)
 #, no-wrap
 msgid "killall"
-msgstr ""
+msgstr "killall"
 
 #: desktop-guide/C/command-line.xml:54(seg)
 msgid "Much like the one above, except you specify the programs name"
@@ -4863,7 +4866,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:55(userinput)
 #, no-wrap
 msgid "less"
-msgstr ""
+msgstr "less"
 
 #: desktop-guide/C/command-line.xml:55(seg)
 msgid "Shows the contents of a text file"
@@ -4872,12 +4875,12 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:55(userinput)
 #, no-wrap
 msgid "less [file]"
-msgstr ""
+msgstr "less [ファイル]"
 
 #: desktop-guide/C/command-line.xml:56(userinput)
 #, no-wrap
 msgid "ls"
-msgstr ""
+msgstr "ls"
 
 #: desktop-guide/C/command-line.xml:56(seg)
 msgid ""
@@ -4893,7 +4896,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:57(userinput)
 #, no-wrap
 msgid "man"
-msgstr ""
+msgstr "man"
 
 #: desktop-guide/C/command-line.xml:57(seg)
 msgid "Shows help about a command"
@@ -4907,7 +4910,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:58(userinput)
 #, no-wrap
 msgid "mv"
-msgstr ""
+msgstr "mv"
 
 #: desktop-guide/C/command-line.xml:58(seg)
 msgid "Moves or renames a file"
@@ -4921,7 +4924,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:59(userinput)
 #, no-wrap
 msgid "rm"
-msgstr ""
+msgstr "rm"
 
 #: desktop-guide/C/command-line.xml:59(seg)
 msgid ""
@@ -4942,12 +4945,12 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:60(userinput)
 #, no-wrap
 msgid "wget"
-msgstr ""
+msgstr "wget"
 
 #: desktop-guide/C/command-line.xml:60(userinput)
 #, no-wrap
 msgid "man wget"
-msgstr ""
+msgstr "man wget"
 
 #: desktop-guide/C/command-line.xml:60(seg)
 msgid ""
