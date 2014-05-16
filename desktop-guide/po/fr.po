@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-03-20 02:49+0200\n"
-"PO-Revision-Date: 2014-05-14 20:32+0000\n"
-"Last-Translator: Hannequin Lionel <yoyopoubbox@free.fr>\n"
+"PO-Revision-Date: 2014-05-15 20:45+0000\n"
+"Last-Translator: Jean Marc <m.balthazar@orange.fr>\n"
 "Language-Team: French <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-05-15 06:33+0000\n"
+"X-Launchpad-Export-Date: 2014-05-16 07:10+0000\n"
 "X-Generator: Launchpad (build 17007)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -29,11 +29,11 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:12(title)
 msgid "Application table"
-msgstr ""
+msgstr "Tableau d'utilisation"
 
 #: desktop-guide/C/appendix-packages.xml:16(segtitle) desktop-guide/C/appendix-packages.xml:35(segtitle)
 msgid "Friendly name"
-msgstr ""
+msgstr "Nom convivial"
 
 #: desktop-guide/C/appendix-packages.xml:16(segtitle) desktop-guide/C/appendix-packages.xml:35(segtitle) desktop-guide/C/appendix-packages.xml:49(segtitle)
 msgid "Package name"
@@ -66,6 +66,7 @@ msgstr "catfish"
 #: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "File searching tool which is configurable via the command line"
 msgstr ""
+"Outil de recherche de fichiers qui est configurable via la ligne de commande"
 
 #: desktop-guide/C/appendix-packages.xml:19(seg)
 msgid "Document Viewer"
@@ -149,7 +150,7 @@ msgstr "Utilitaire de numérisation simple"
 
 #: desktop-guide/C/appendix-packages.xml:26(seg)
 msgid "Application Finder"
-msgstr ""
+msgstr "Recherche d'applications"
 
 #: desktop-guide/C/appendix-packages.xml:26(seg) desktop-guide/C/appendix-packages.xml:27(seg)
 msgid "xfce4-appfinder"
@@ -321,7 +322,7 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:54(seg)
 msgid "tumbler"
-msgstr ""
+msgstr "tumbler"
 
 #: desktop-guide/C/appendix-packages.xml:54(literal)
 msgid "<placeholder-1/>thunar"
@@ -473,6 +474,11 @@ msgid ""
 "and technical philosophy behind it at the <ulink "
 "url=\"http://www.gnu.org/\">GNU website</ulink>."
 msgstr ""
+"Le projet Xubuntu est entièrement dévoué aux principes du développement du "
+"logiciel libre ; les utilisateurs sont encouragés à utiliser des logiciels "
+"libres, à les améliorer et à les partager. Vous pouvez en apprendre plus sur "
+"le logiciel libre et la philosophie idéologique et technique qui en découle "
+"sur le <ulink url=\"http://www.gnu.org/\">site web GNU</ulink>."
 
 #: desktop-guide/C/what-is-xubuntu.xml:57(title)
 msgid "Linux"
@@ -490,8 +496,7 @@ msgstr ""
 "noyau Linux est le cœur du système d'exploitation Xubuntu. Un noyau est une "
 "partie importante de tout système d'exploitation, fournissant la passerelle "
 "de communication entre le matériel et le logiciel. En savoir plus sur Linux "
-"sur le <ulink url=\"http://www.kernel.org/\">site internet du noyau "
-"Linux</ulink>."
+"sur le <ulink url=\"http://www.kernel.org/\">site web du noyau Linux</ulink>."
 
 #: desktop-guide/C/what-is-xubuntu.xml:65(title)
 msgid "Xfce"
@@ -509,8 +514,7 @@ msgstr ""
 "être rapide et non gourmand en ressources système, tout en étant "
 "visuellement attrayant et convivial. Xfce incarne la traditionnelle "
 "philosophie UNIX de modularité et de convivialité. En apprendre plus sur "
-"Xfce sur le <ulink url=\"http://www.xfce.org/\">site internet de "
-"Xfce</ulink>."
+"Xfce sur le <ulink url=\"http://www.xfce.org/\">site web de Xfce</ulink>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -518,6 +522,7 @@ msgstr ""
 msgid ""
 "@@image: '../libs/images/menu_icon.png'; md5=65599cdf4480dbc3d1bfa2154c0a255d"
 msgstr ""
+"@@image: '../libs/images/menu_icon.png'; md5=65599cdf4480dbc3d1bfa2154c0a255d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -526,6 +531,8 @@ msgid ""
 "@@image: '../libs/images/preferences-desktop.png'; "
 "md5=805e5ff06267de7ea2e15f257bf1a825"
 msgstr ""
+"@@image: '../libs/images/preferences-desktop.png'; "
+"md5=805e5ff06267de7ea2e15f257bf1a825"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -534,6 +541,8 @@ msgid ""
 "@@image: '../libs/images/location_icon.png'; "
 "md5=71b7dc6dffc6d296d54a2fa354f2204f"
 msgstr ""
+"@@image: '../libs/images/location_icon.png'; "
+"md5=71b7dc6dffc6d296d54a2fa354f2204f"
 
 #: desktop-guide/C/settings-preferences.xml:12(title)
 msgid "Settings and Preferences"
@@ -1012,7 +1021,7 @@ msgstr ""
 #: desktop-guide/C/printing-scanning.xml:32(para)
 msgid "You can enter a description and location for your printer"
 msgstr ""
-"Vous pouvez entrer une description et un emplacement pour votre imprimante"
+"Vous pouvez saisir une description et un emplacement pour votre imprimante"
 
 #: desktop-guide/C/printing-scanning.xml:33(para) desktop-guide/C/printing-scanning.xml:57(para)
 msgid "Press <guibutton>Apply</guibutton>"
@@ -1111,7 +1120,7 @@ msgid ""
 "You can enter a description and location for your printer in the "
 "corresponding fields"
 msgstr ""
-"Vous pouvez entrer une description et un emplacement pour votre imprimante "
+"Vous pouvez saisir une description et un emplacement pour votre imprimante "
 "dans les champs correspondants"
 
 #: desktop-guide/C/printing-scanning.xml:58(para)
@@ -1298,7 +1307,7 @@ msgid ""
 msgstr ""
 "Activez le bon pilote pour votre scanner en enlevant le <literal>#</literal> "
 "devant le nom du pilote. Vous pourriez avoir besoin de chercher sur le Web "
-"pour savoir quel pilote est le bon."
+"pour savoir quel est le bon pilote."
 
 #: desktop-guide/C/printing-scanning.xml:121(para)
 msgid ""
@@ -1336,6 +1345,8 @@ msgid ""
 "From your disconnected computer you enter this at the command line: "
 "<userinput>apt-offline set --update apt-offline.sig</userinput>"
 msgstr ""
+"À partir de votre ordinateur déconnecté, saisissez ceci dans la ligne de "
+"commande : <userinput>apt-offline set --update apt-offline.sig</userinput>"
 
 #: desktop-guide/C/offline-packages.xml:23(para) desktop-guide/C/offline-packages.xml:49(para)
 msgid ""
@@ -1516,11 +1527,11 @@ msgstr "Un dictionnaire rapide Windows-Xubuntu"
 
 #: desktop-guide/C/migrating-upgrading.xml:21(segtitle)
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: desktop-guide/C/migrating-upgrading.xml:21(segtitle)
 msgid "Xubuntu"
-msgstr ""
+msgstr "Xubuntu"
 
 #: desktop-guide/C/migrating-upgrading.xml:22(seg)
 msgid "Add/Remove Programs"
@@ -1549,14 +1560,18 @@ msgid ""
 "<?br?><application><menuchoice><placeholder-3/><placeholder-"
 "4/></menuchoice></application> for additional configuration"
 msgstr ""
+"<application><menuchoice><placeholder-1/><placeholder-"
+"2/></menuchoice></application> pour des préférences personnelles "
+"<?br?><application><menuchoice><placeholder-3/><placeholder-"
+"4/></menuchoice></application> pour une configuration supplémentaire"
 
 #: desktop-guide/C/migrating-upgrading.xml:24(seg)
 msgid "Windows Explorer"
-msgstr ""
+msgstr "Explorateur Windows"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guisubmenu)
 msgid "Accessories"
-msgstr ""
+msgstr "Accessoires"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "File Manager"
@@ -1625,12 +1640,14 @@ msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:41(title)
 msgid "Windows networking on Linux"
-msgstr ""
+msgstr "Réseau Windows sur Linux"
 
 #: desktop-guide/C/migrating-upgrading.xml:43(para)
 msgid ""
 "Accessing Windows network shares under Xubuntu can be easily done using:"
 msgstr ""
+"Accéder aux partages réseau Windows sous Xubuntu peut être réalisé "
+"facilement en utilisant :"
 
 #: desktop-guide/C/migrating-upgrading.xml:45(para)
 msgid ""
@@ -1741,6 +1758,9 @@ msgid ""
 "packages must be downloaded and installed, although the actual figure will "
 "depend on how many packages are already installed on your computer."
 msgstr ""
+"Les mises à jour prennent habituellement un certain temps. En général, "
+"environ 700 Mo de paquets doivent être téléchargés et installés. Ceci "
+"dépendra néanmoins du nombre de paquets déjà installés sur votre système."
 
 #: desktop-guide/C/migrating-upgrading.xml:72(para)
 msgid ""
@@ -1752,6 +1772,16 @@ msgid ""
 "this rule is with Long Term Support (LTS) releases. You can upgrade directly "
 "from the previous LTS release to the current LTS release."
 msgstr ""
+"Vous ne pouvez mettre à niveau votre distribution vers la dernière version "
+"de Xubuntu que si vous utilisez la deuxième version la plus récente. Si vous "
+"avez une version antérieure, vous devez mettre à niveau votre distribution "
+"vers la version suivante et ainsi de suite jusqu'à ce que vous utilisiez la "
+"version la plus récente. Par exemple, les utilisateurs de la version 9.04 "
+"devront d'abord mettre à niveau leur distribution vers la version 9.10 avant "
+"de passer à la version 10.04. L'exception à cette règle concerne les "
+"versions profitant du support à long terme (LTS en anglais pour Long Term "
+"Support). Vous pouvez mettre à niveau votre distribution directement à "
+"partir de la version LTS précédente à la version LTS actuelle."
 
 #: desktop-guide/C/migrating-upgrading.xml:76(title)
 msgid "Upgrading to a development release"
@@ -1763,6 +1793,9 @@ msgid ""
 "Only install a development release if you are prepared to attempt to fix "
 "these problems for yourself."
 msgstr ""
+"Les versions en cours de développement souffrent souvent de paquets cassés "
+"et d'autres problèmes. N'installez une version en cours de développement que "
+"si vous êtes capable de corriger ces problèmes par vous-même."
 
 #: desktop-guide/C/migrating-upgrading.xml:80(para)
 msgid ""
@@ -1772,6 +1805,12 @@ msgid ""
 "manager -c -d</userinput>. This will allow you to upgrade to the current "
 "development release."
 msgstr ""
+"Si vous souhaitez installer et tester la dernière version en cours de "
+"développement de Xubuntu avant qu'elle ne soit publiée, exécutez "
+"<userinput>sudo -i</userinput> dans la ligne de commande du terminal pour "
+"obtenir une invite administrateur (root en anglais), puis saisissez ensuite "
+"<userinput>update-manager -c -d</userinput>. Cela vous permettra de mettre à "
+"niveau votre distribution vers la version en cours de développement actuelle."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1791,7 +1830,7 @@ msgstr "Musique"
 
 #: desktop-guide/C/media-apps.xml:18(title)
 msgid "Listening to music"
-msgstr "Écouter de la musique"
+msgstr "Écoute de la musique"
 
 #: desktop-guide/C/media-apps.xml:20(para)
 msgid ""
@@ -2003,7 +2042,7 @@ msgid ""
 "1/>libdvdcss2</literal> package will be downloaded and installed from a "
 "website."
 msgstr ""
-"Entrez votre mot de passe si vous y êtes invité. Le paquet "
+"Saisissez votre mot de passe si vous y êtes invité. Le paquet "
 "<literal><placeholder-1/>libdvdcss2</literal> sera téléchargé et installé à "
 "partir d'un site web."
 
@@ -2017,7 +2056,7 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:84(title)
 msgid "Playing video"
-msgstr "Lire une vidéo"
+msgstr "Lecture de vidéos"
 
 #: desktop-guide/C/media-apps.xml:86(para)
 msgid ""
@@ -2059,7 +2098,7 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:101(title)
 msgid "Burning CDs and DVDs"
-msgstr "Graver des CD et des DVD"
+msgstr "Gravure de CD et DVD"
 
 #: desktop-guide/C/media-apps.xml:103(para)
 msgid ""
@@ -2169,6 +2208,8 @@ msgid ""
 "You will be asked to enter your password; once you do that, the installation "
 "will begin"
 msgstr ""
+"Vous serez invité à saisir votre mot de passe ; après, l'installation "
+"commencera"
 
 #: desktop-guide/C/managing-applications.xml:39(para)
 msgid "A shortcut to your application will added to the Applications menu"
@@ -2209,6 +2250,8 @@ msgid ""
 "You may be asked to enter your password; once you do that, the application "
 "will be removed"
 msgstr ""
+"Vous pouvez être invité à saisir votre mot de passe ; après, l'application "
+"sera supprimée"
 
 #: desktop-guide/C/managing-applications.xml:55(para)
 msgid ""
@@ -2622,7 +2665,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:48(title)
 msgid "Sharing your connection to another computer"
-msgstr ""
+msgstr "Partage de votre connexion avec un autre ordinateur"
 
 #: desktop-guide/C/internet-networks.xml:50(para)
 msgid ""
@@ -2765,7 +2808,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:108(title)
 msgid "Check if a connection is working properly"
-msgstr "Vérifiez si une connexion fonctionne correctement"
+msgstr "Vérifier si une connexion fonctionne correctement"
 
 #: desktop-guide/C/internet-networks.xml:110(para)
 msgid ""
@@ -3242,8 +3285,8 @@ msgstr ""
 "L'ensemble des sujets est listé ci-dessous. Si vous avez besoin d'aide sur "
 "un sujet ou un problème qui n'est pas abordé dans la documentation, rendez-"
 "vous sur la page <ulink url=\"http://xubuntu.org/help/\">Aide et "
-"support</ulink> du site internet de Xubuntu. Vous y trouverez des liens vers "
-"des ressources d'aide supplémentaires."
+"support</ulink> du site web de Xubuntu. Vous y trouverez des liens vers des "
+"ressources d'aide supplémentaires."
 
 #: desktop-guide/C/index.xml:79(para)
 msgid ""
@@ -3251,6 +3294,10 @@ msgid ""
 "see the <ulink url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> "
 "section of the Xubuntu website."
 msgstr ""
+"Si vous souhaitez contribuer à Xubuntu, y compris à cette documentation, "
+"rendez-vous sur la section <ulink "
+"url=\"http://xubuntu.org/contribute/\">Impliquez-vous</ulink> du site web de "
+"Xubuntu."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3356,7 +3403,7 @@ msgstr ""
 msgid ""
 "You will, if necessary, be prompted to enter the administration password."
 msgstr ""
-"Vous serez, si nécessaire, invité à entrer le mot de passe d'administration."
+"Vous serez, si nécessaire, invité à saisir le mot de passe d'administration."
 
 #: desktop-guide/C/hardware-devices.xml:44(para)
 msgid "You may be prompted to reboot to finish installation."
@@ -3501,7 +3548,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:105(title)
 msgid "Freeing space for a new partition"
-msgstr ""
+msgstr "Libérer de l'espace pour une nouvelle partition"
 
 #: desktop-guide/C/hardware-devices.xml:107(para)
 msgid ""
@@ -3578,8 +3625,8 @@ msgid ""
 "If desired, enter a description for the partition in the <guilabel>Label: "
 "</guilabel> field."
 msgstr ""
-"Si vous le souhaitez, entrez une description pour la partition dans le champ "
-"<guilabel>Étiquette : </guilabel>"
+"Si vous le souhaitez, saisissez une description pour la partition dans le "
+"champ <guilabel>Étiquette : </guilabel>"
 
 #: desktop-guide/C/hardware-devices.xml:128(para)
 msgid "Click the <guibutton>Add</guibutton> button."
@@ -3722,7 +3769,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:190(title)
 msgid "Finding laptop testing reports"
-msgstr ""
+msgstr "Trouver des rapports de test d'ordinateur portable"
 
 #: desktop-guide/C/hardware-devices.xml:192(para)
 msgid ""
@@ -3741,7 +3788,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:197(title)
 msgid "Suspending and Hibernating"
-msgstr "Mise en veille et Hibernation"
+msgstr "Mise en veille et hibernation"
 
 #: desktop-guide/C/hardware-devices.xml:199(para)
 msgid ""
@@ -4264,6 +4311,10 @@ msgid ""
 "that make your life easy and it is well worth the time to get to know your "
 "way around it."
 msgstr ""
+"Lorsque votre ordinateur a fini de démarrer et après avoir saisi vos données "
+"de connexion, vous arriverez sur le bureau de Xubuntu. Il est livré avec de "
+"nombreuses fonctionnalités qui facilitent son utilisation et il vaut bien un "
+"peu de votre temps pour le découvrir."
 
 #: desktop-guide/C/guide-desktop.xml:19(title)
 msgid "Desktop"
@@ -4274,6 +4325,8 @@ msgid ""
 "The Xubuntu desktop has a single panel which is located at the top of the "
 "screen."
 msgstr ""
+"Le bureau de Xubuntu possède un seul tableau de bord qui se trouve en haut "
+"de l'écran."
 
 #: desktop-guide/C/guide-desktop.xml:24(title)
 msgid "The Panel"
@@ -4300,6 +4353,15 @@ msgid ""
 "instant messages and more. Some notification icons will only appear as "
 "necessary, for instance when software updates are available."
 msgstr ""
+"La partie centrale du tableau de bord est dédié aux boutons des fenêtres des "
+"applications ouvertes. À l'extrême droite, vous trouverez l'horloge, "
+"l'affichage de la date et de l'heure. À gauche de ces éléments, vous "
+"trouverez la <guilabel>zone de notifications</guilabel>. Vous y verrez des "
+"indicateurs qui vous donneront des informations sur votre système, incluant "
+"la connectivité réseau, le niveau de volume sonore, l'état ​​de la batterie "
+"(le cas échéant), les messages instantanés et plus encore. Certaines icônes "
+"de notification apparaîtront seulement en cas de nécessité, par exemple "
+"lorsque des mises à jour logicielles sont disponibles."
 
 #: desktop-guide/C/guide-desktop.xml:30(para)
 msgid ""
@@ -4363,6 +4425,9 @@ msgid ""
 "You can add your own shortcuts by simply dragging folders to the shortcut "
 "pane. This will allow you to access important folders instantly!"
 msgstr ""
+"Vous pouvez ajouter vos propres raccourcis en faisant simplement glisser les "
+"dossiers dans le volet de raccourcis. Cela vous permettra d'accéder "
+"instantanément aux dossiers importants !"
 
 #: desktop-guide/C/guide-desktop.xml:69(para)
 msgid ""
@@ -4683,6 +4748,8 @@ msgstr ""
 msgid ""
 "To start the default terminal emulator and get to the command line, either:"
 msgstr ""
+"Pour démarrer l'émulateur de terminal par défaut et se rendre à la ligne de "
+"commande, soit :"
 
 #: desktop-guide/C/command-line.xml:19(para)
 msgid ""
@@ -4789,12 +4856,12 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:45(userinput)
 #, no-wrap
 msgid "apt-cache search web browser"
-msgstr ""
+msgstr "apt-cache search web browser"
 
 #: desktop-guide/C/command-line.xml:45(userinput)
 #, no-wrap
 msgid "apt-cache show firefox"
-msgstr ""
+msgstr "apt-cache show firefox"
 
 #: desktop-guide/C/command-line.xml:45(seg) desktop-guide/C/command-line.xml:52(seg) desktop-guide/C/command-line.xml:59(seg)
 msgid "<placeholder-1/> or <placeholder-2/>"
@@ -5168,7 +5235,7 @@ msgstr ""
 
 #: desktop-guide/C/administrative-tasks.xml:47(para)
 msgid "Enter your password if prompted to do so"
-msgstr "Entrez votre mot de passe si vous êtes invité à le faire"
+msgstr "Saisissez votre mot de passe si vous êtes invité à le faire"
 
 #: desktop-guide/C/administrative-tasks.xml:48(para)
 msgid ""
@@ -5208,7 +5275,7 @@ msgstr ""
 
 #: desktop-guide/C/administrative-tasks.xml:65(para)
 msgid "Enter your password"
-msgstr "Entrez votre mot de passe"
+msgstr "Saisissez votre mot de passe"
 
 #: desktop-guide/C/administrative-tasks.xml:66(para)
 msgid ""
