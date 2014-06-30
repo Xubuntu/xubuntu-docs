@@ -39,8 +39,8 @@ translate() {
 		xml2po --expand-all-entities --po-file po/${lang}.po C/${xml} >${lang}/${xml}
 	done
 	if [ -e C/${document}-C.omf ]; then
-	    xml2po --expand-all-entities --po-file ${1} C/${document}-C.omf >${lang}/${document}-${lang}.omf
-	    sed -i -e s@\"C\"@\"${lang}\"@g -e s@C/@${lang}/@g ${lang}/${document}-${lang}.omf
+		xml2po --expand-all-entities --po-file ${1} C/${document}-C.omf >${lang}/${document}-${lang}.omf
+		sed -i -e s@\"C\"@\"${lang}\"@g -e s@C/@${lang}/@g ${lang}/${document}-${lang}.omf
 	fi
 	../scripts/validate.sh ${lang}/index.xml
 }
@@ -59,9 +59,9 @@ shipped_languages() {
 percent=80
 for po in po/*.po
 do
-   if [ `msgfmt -o /dev/null --statistics $po 2>&1|awk '{printf("%.0f\n",$1 / ($1 + $4 + $7) * 100)}'` -ge "${percent}" ];then
-      basename $po .po
-   fi
+	if [ `msgfmt -o /dev/null --statistics $po 2>&1|awk '{printf("%.0f\n",$1 / ($1 + $4 + $7) * 100)}'` -ge "${percent}" ];then
+		basename $po .po
+	fi
 done | tee po/LINGUAS
 exit
 }
