@@ -36,10 +36,10 @@ translate() {
 	mkdir -p ${lang}
 	for i in C/*xml; do
 		xml=$(basename ${i} C/)
-		xml2po -e -p po/${lang}.po C/${xml} >${lang}/${xml}
+		xml2po --expand-all-entities --po-file po/${lang}.po C/${xml} >${lang}/${xml}
 	done
 	if [ -e C/${document}-C.omf ]; then
-	    xml2po -e -p ${1} C/${document}-C.omf >${lang}/${document}-${lang}.omf
+	    xml2po --expand-all-entities --po-file ${1} C/${document}-C.omf >${lang}/${document}-${lang}.omf
 	    sed -i -e s@\"C\"@\"${lang}\"@g -e s@C/@${lang}/@g ${lang}/${document}-${lang}.omf
 	fi
 	../scripts/validate.sh ${lang}/index.xml
