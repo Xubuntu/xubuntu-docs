@@ -15,6 +15,7 @@ else
 endif
 
 html: style
+	@echo "<para>Attributed on each language's page.</para>" > C/translators.xml
 	xsltproc --xinclude -o ../build/desktop-guide/index.html $(XUBUNTUXSL) C/index.xml
 
 style:
@@ -27,11 +28,11 @@ style:
 translate:
 	../scripts/translate.sh $(OPTS); \
 	for dir in $(TRANSLATIONS); do \
-		xsltproc --xinclude -o ../build/$$dir/index.html $(XUBUNTUXSL) $$dir/index.xml && \
-		rm -rf $$dir/; \
+		../scripts/translators.sh -l $$dir > $$dir/translators.xml ;\
+		xsltproc --xinclude -o ../build/$$dir/index.html $(XUBUNTUXSL) $$dir/index.xml ;\
 	done
 
 clean:
-	${RM} -r $(TRANSLATIONS)
+	${RM} -r $(TRANSLATIONS) C/translators.xml
 
 .PHONY: html translate
