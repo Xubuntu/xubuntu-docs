@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-03-20 02:49+0200\n"
+"POT-Creation-Date: 2014-07-01 16:18-0400\n"
 "PO-Revision-Date: 2014-04-20 19:20+0000\n"
 "Last-Translator: Pasi Lallinaho <pasi@shimmerproject.org>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-06-20 06:11+0000\n"
-"X-Generator: Launchpad (build 17058)\n"
+"X-Launchpad-Export-Date: 2014-07-02 07:18+0000\n"
+"X-Generator: Launchpad (build 17082)\n"
 "Language: fi\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -1314,7 +1314,6 @@ msgstr ""
 "Jos et tunne verkkotulostimesi protokollaa tai muita tarvittavia tietoja, "
 "ota yhteys verkkosi ylläpitäjään."
 
-# There is no such checkbox?
 #: desktop-guide/C/printing-scanning.xml:63(para)
 msgid ""
 "If you do not have a network printer, but want your printer to be shared to "
@@ -1322,19 +1321,11 @@ msgid ""
 "<menuchoice><guimenu>Server</guimenu><guimenuitem>Settings</guimenuitem></men"
 "uchoice> from the <guilabel>Printers</guilabel> dialog, check the box "
 "<guilabel>Publish shared printers connected to this system</guilabel>, and "
-"then press <guibutton>OK</guibutton>. Other Linux/Ubuntu based systems need "
-"to have <guilabel>Show printers shared by other systems</guilabel> checked "
-"in the server settings dialog in order to access the printer."
+"then press <guibutton>OK</guibutton>. Other computers running versions of "
+"Xubuntu later than 13.04 will automatically detect printers shared this way. "
+"Computers running Xubuntu versions prior to 13.10, or other Linux/Ubuntu-"
+"based systems, may need to enable a setting to show shared printers."
 msgstr ""
-"Jos sinulla ei ole verkkotulostinta mutta haluat jakaa oman tulostimesi "
-"muille tietokoneille verkossasi, napsauta "
-"<menuchoice><guimenu>Palvelin</guimenu><guimenuitem>Asetukset</guimenuitem></"
-"menuchoice> <guilabel>Tulostimet</guilabel>-ikkunasta, valitse kohta "
-"<guilabel>Julkaise tähän järjestelmään kytketyt jaetut tulostimet</guilabel> "
-"and sitten paina <guibutton>OK</guibutton>. Muissa Linux/Ubuntu-pohjaisissa "
-"järjestelmissä tulee olla <guilabel>Näytä muiden järjestelmien jakamat "
-"tulostimet</guilabel> valittuna palvelinasetusikkunassa jotta ne voivat "
-"käyttää tulostinta."
 
 #: desktop-guide/C/printing-scanning.xml:68(title)
 msgid "Scanning"
@@ -3936,37 +3927,41 @@ msgid "Jay van Cooten (skippersboss)"
 msgstr "Jay van Cooten (skippersboss)"
 
 #: desktop-guide/C/index.xml:34(para)
+msgid "The contributors to this translation of the documentation are:"
+msgstr ""
+
+#: desktop-guide/C/index.xml:37(para)
 msgid "The contributors to previous versions to this documentation are:"
 msgstr "Tämän dokumentaation aiempia versioita ovat kirjoittaneet:"
 
-#: desktop-guide/C/index.xml:36(para)
+#: desktop-guide/C/index.xml:39(para)
 msgid "Jim Campbell (jwcampbell)"
 msgstr "Jim Campbell (jwcampbell)"
 
-#: desktop-guide/C/index.xml:37(para)
+#: desktop-guide/C/index.xml:40(para)
 msgid "Freddy Martinez (freddymartinez9)"
 msgstr "Freddy Martinez (freddymartinez9)"
 
-#: desktop-guide/C/index.xml:38(para)
+#: desktop-guide/C/index.xml:41(para)
 msgid "Jan M. (fijam7)"
 msgstr "Jan M. (fijam7)"
 
-#: desktop-guide/C/index.xml:39(para)
+#: desktop-guide/C/index.xml:42(para)
 msgid "Cody A.W. Somerville (cody-somerville)"
 msgstr "Cody A.W. Somerville (cody-somerville)"
 
-#: desktop-guide/C/index.xml:40(para)
+#: desktop-guide/C/index.xml:43(para)
 msgid "Luzius Thöny (lucius-antonius)"
 msgstr "Luzius Thöny (lucius-antonius)"
 
-#: desktop-guide/C/index.xml:43(para)
+#: desktop-guide/C/index.xml:46(para)
 msgid ""
 "This document is made available under the Creative Commons ShareAlike 2.5 "
 "License (CC-BY-SA)."
 msgstr ""
 "Tämän asiakirjan lisenssi on Creative Commons ShareAlike 2.5 (CC-BY-SA)."
 
-#: desktop-guide/C/index.xml:44(para)
+#: desktop-guide/C/index.xml:47(para)
 msgid ""
 "You are free to modify, extend, and improve the Ubuntu documentation source "
 "code under the terms of this license. All derivative works must be released "
@@ -3976,7 +3971,7 @@ msgstr ""
 "lähdekoodia tämän lisenssin ehtojen mukaisesti. Kaikki johdannaiset työt "
 "pitää julkaista tällä lisenssillä."
 
-#: desktop-guide/C/index.xml:46(para)
+#: desktop-guide/C/index.xml:49(para)
 msgid ""
 "This documentation is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
@@ -3987,7 +3982,7 @@ msgstr ""
 "tyhjentävästi hiljaisen takuun KAUPALLISESTI HYVÄKSYTTÄVÄSTÄ LAADUSTA ja "
 "SOVELTUVUUDESTA TIETTYYN TARKOITUKSEEN."
 
-#: desktop-guide/C/index.xml:49(para)
+#: desktop-guide/C/index.xml:52(para)
 msgid ""
 "A copy of the license is available here: <link linkend=\"cc-by-sa\">Creative "
 "Commons ShareAlike License</link>."
@@ -3995,38 +3990,38 @@ msgstr ""
 "Kopio lisenssi on saatavilla täällä: <link linkend=\"cc-by-sa\">Creative "
 "Commons ShareAlike -lisenssi</link>."
 
-#: desktop-guide/C/index.xml:50(para)
+#: desktop-guide/C/index.xml:53(para)
 msgid ""
 "All trademarks or registered trademarks are the property of the respective "
 "owners."
 msgstr ""
 "Kaikki tavaramerkit ja rekisteröidyt tavaramerkit omistajiensa omaisuutta."
 
-#: desktop-guide/C/index.xml:54(year)
+#: desktop-guide/C/index.xml:57(year)
 msgid "2012"
 msgstr "2012"
 
-#: desktop-guide/C/index.xml:55(year)
+#: desktop-guide/C/index.xml:58(year)
 msgid "2013"
 msgstr "2013"
 
-#: desktop-guide/C/index.xml:56(year)
+#: desktop-guide/C/index.xml:59(year)
 msgid "2014"
 msgstr "2014"
 
-#: desktop-guide/C/index.xml:57(holder)
+#: desktop-guide/C/index.xml:60(holder)
 msgid "Canonical Ltd. and members of the Xubuntu Documentation team."
 msgstr "Canonical Ltd. ja Xubuntun dokumentaatiotiimin jäsenet."
 
-#: desktop-guide/C/index.xml:61(publishername)
+#: desktop-guide/C/index.xml:64(publishername)
 msgid "The Ubuntu Documentation Project"
 msgstr "The Ubuntu Documentation Project"
 
-#: desktop-guide/C/index.xml:64(title)
+#: desktop-guide/C/index.xml:67(title)
 msgid "Welcome!"
 msgstr "Tervetuloa!"
 
-#: desktop-guide/C/index.xml:66(para)
+#: desktop-guide/C/index.xml:69(para)
 msgid ""
 "This documentation provides documentation to the most common issues with "
 "Xubuntu, including:"
@@ -4034,11 +4029,11 @@ msgstr ""
 "Tämä dokumentaatio tarjoaa apua yleisiin tilanteisiin ja ongelmiin Xubuntun "
 "kanssa, mukaan lukien:"
 
-#: desktop-guide/C/index.xml:71(para)
+#: desktop-guide/C/index.xml:74(para)
 msgid "In addition, this documentation has three quick guides:"
 msgstr "Lisäksi tämä dokumentaatio sisältää kolme pikaopasta:"
 
-#: desktop-guide/C/index.xml:77(para)
+#: desktop-guide/C/index.xml:80(para)
 msgid ""
 "The complete set of topics is listed below. If you require help with a topic "
 "or problem that is not addressed by the documentation, go to the <ulink "
@@ -4051,7 +4046,7 @@ msgstr ""
 "&amp; Support</ulink> -osioon. Tältä sivulta löydät linkkejä muihin tapoihin "
 "saada apua."
 
-#: desktop-guide/C/index.xml:79(para)
+#: desktop-guide/C/index.xml:82(para)
 msgid ""
 "If you would like to contribute to Xubuntu, including this documentation, "
 "see the <ulink url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> "
@@ -6609,3 +6604,24 @@ msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
 "  Pasi Lallinaho https://launchpad.net/~knome"
+
+# There is no such checkbox?
+#~ msgid ""
+#~ "If you do not have a network printer, but want your printer to be shared to "
+#~ "other computers on your network, click "
+#~ "<menuchoice><guimenu>Server</guimenu><guimenuitem>Settings</guimenuitem></men"
+#~ "uchoice> from the <guilabel>Printers</guilabel> dialog, check the box "
+#~ "<guilabel>Publish shared printers connected to this system</guilabel>, and "
+#~ "then press <guibutton>OK</guibutton>. Other Linux/Ubuntu based systems need "
+#~ "to have <guilabel>Show printers shared by other systems</guilabel> checked "
+#~ "in the server settings dialog in order to access the printer."
+#~ msgstr ""
+#~ "Jos sinulla ei ole verkkotulostinta mutta haluat jakaa oman tulostimesi "
+#~ "muille tietokoneille verkossasi, napsauta "
+#~ "<menuchoice><guimenu>Palvelin</guimenu><guimenuitem>Asetukset</guimenuitem></"
+#~ "menuchoice> <guilabel>Tulostimet</guilabel>-ikkunasta, valitse kohta "
+#~ "<guilabel>Julkaise tähän järjestelmään kytketyt jaetut tulostimet</guilabel> "
+#~ "and sitten paina <guibutton>OK</guibutton>. Muissa Linux/Ubuntu-pohjaisissa "
+#~ "järjestelmissä tulee olla <guilabel>Näytä muiden järjestelmien jakamat "
+#~ "tulostimet</guilabel> valittuna palvelinasetusikkunassa jotta ne voivat "
+#~ "käyttää tulostinta."

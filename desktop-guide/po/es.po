@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-03-20 02:49+0200\n"
+"POT-Creation-Date: 2014-07-01 16:18-0400\n"
 "PO-Revision-Date: 2014-06-20 16:33+0000\n"
 "Last-Translator: Pasi Lallinaho <pasi@shimmerproject.org>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-06-21 06:32+0000\n"
-"X-Generator: Launchpad (build 17058)\n"
+"X-Launchpad-Export-Date: 2014-07-02 07:19+0000\n"
+"X-Generator: Launchpad (build 17082)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1156,20 +1156,11 @@ msgid ""
 "<menuchoice><guimenu>Server</guimenu><guimenuitem>Settings</guimenuitem></men"
 "uchoice> from the <guilabel>Printers</guilabel> dialog, check the box "
 "<guilabel>Publish shared printers connected to this system</guilabel>, and "
-"then press <guibutton>OK</guibutton>. Other Linux/Ubuntu based systems need "
-"to have <guilabel>Show printers shared by other systems</guilabel> checked "
-"in the server settings dialog in order to access the printer."
+"then press <guibutton>OK</guibutton>. Other computers running versions of "
+"Xubuntu later than 13.04 will automatically detect printers shared this way. "
+"Computers running Xubuntu versions prior to 13.10, or other Linux/Ubuntu-"
+"based systems, may need to enable a setting to show shared printers."
 msgstr ""
-"Si no tiene una impresora de red, pero desea que su impresora sea compartida "
-"con otros equipos de la red, pulse en "
-"<menuchoice><guimenu>Servidor</guimenu><guimenuitem>Configuración</guimenuite"
-"m></menuchoice>de las <guilabel> Impresoras</guilabel>marque la casilla del "
-"cuadro de diálogo <guilabel>Publicar impresoras compartidas conectadas a "
-"este sistema </guilabel>, y a continuación, pulse "
-"<guibutton>Aceptar</guibutton>. Otros sistemas basados ​​en Linux /Ubuntu "
-"necesitan tener<guilabel>Mostrar impresoras  compartidas por otros "
-"sistemas</guilabel>verificadas en el cuadro de diálogo de configuración del "
-"servidor para poder acceder a la impresora."
 
 #: desktop-guide/C/printing-scanning.xml:68(title)
 msgid "Scanning"
@@ -3405,31 +3396,35 @@ msgid "Jay van Cooten (skippersboss)"
 msgstr "Jay van Cooten (skippersboss)"
 
 #: desktop-guide/C/index.xml:34(para)
+msgid "The contributors to this translation of the documentation are:"
+msgstr ""
+
+#: desktop-guide/C/index.xml:37(para)
 msgid "The contributors to previous versions to this documentation are:"
 msgstr ""
 "Los colaboradores de las versiones anteriores a esta documentación son:"
 
-#: desktop-guide/C/index.xml:36(para)
+#: desktop-guide/C/index.xml:39(para)
 msgid "Jim Campbell (jwcampbell)"
 msgstr "Jim Campbell (jwcampbell)"
 
-#: desktop-guide/C/index.xml:37(para)
+#: desktop-guide/C/index.xml:40(para)
 msgid "Freddy Martinez (freddymartinez9)"
 msgstr "Freddy Martinez (freddymartinez9)"
 
-#: desktop-guide/C/index.xml:38(para)
+#: desktop-guide/C/index.xml:41(para)
 msgid "Jan M. (fijam7)"
 msgstr "Jan M. (fijam7)"
 
-#: desktop-guide/C/index.xml:39(para)
+#: desktop-guide/C/index.xml:42(para)
 msgid "Cody A.W. Somerville (cody-somerville)"
 msgstr "Cody A.W. Somerville (cody-somerville)"
 
-#: desktop-guide/C/index.xml:40(para)
+#: desktop-guide/C/index.xml:43(para)
 msgid "Luzius Thöny (lucius-antonius)"
 msgstr "Luzius Thöny (lucius-antonius)"
 
-#: desktop-guide/C/index.xml:43(para)
+#: desktop-guide/C/index.xml:46(para)
 msgid ""
 "This document is made available under the Creative Commons ShareAlike 2.5 "
 "License (CC-BY-SA)."
@@ -3437,7 +3432,7 @@ msgstr ""
 "Este documento está disponible bajo la licencia Creative Commons ShareAlike "
 "2.5 (CC-BY-SA)."
 
-#: desktop-guide/C/index.xml:44(para)
+#: desktop-guide/C/index.xml:47(para)
 msgid ""
 "You are free to modify, extend, and improve the Ubuntu documentation source "
 "code under the terms of this license. All derivative works must be released "
@@ -3447,7 +3442,7 @@ msgstr ""
 "documentación de Ubuntu bajo los términos de esta licencia. Todos los "
 "trabajos derivados deben publicarse bajo esta licencia."
 
-#: desktop-guide/C/index.xml:46(para)
+#: desktop-guide/C/index.xml:49(para)
 msgid ""
 "This documentation is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
@@ -3458,7 +3453,7 @@ msgstr ""
 "o de que SEA ADECUADA PARA UN PROPÓSITO PARTICULAR, TAL Y COMO SE INDICA EN "
 "LA CLÁUSULA DE EXENCIÓN DE RESPONSABILIDAD."
 
-#: desktop-guide/C/index.xml:49(para)
+#: desktop-guide/C/index.xml:52(para)
 msgid ""
 "A copy of the license is available here: <link linkend=\"cc-by-sa\">Creative "
 "Commons ShareAlike License</link>."
@@ -3466,7 +3461,7 @@ msgstr ""
 "Puede encontrar una copia de la licencia aquí: <link linkend=\"cc-by-"
 "sa\">Licencia Creative Commons ShareAlike</link>."
 
-#: desktop-guide/C/index.xml:50(para)
+#: desktop-guide/C/index.xml:53(para)
 msgid ""
 "All trademarks or registered trademarks are the property of the respective "
 "owners."
@@ -3474,31 +3469,31 @@ msgstr ""
 "Todas las marcas comerciales o marcas comerciales registradas son propiedad "
 "de sus respectivos propietarios."
 
-#: desktop-guide/C/index.xml:54(year)
+#: desktop-guide/C/index.xml:57(year)
 msgid "2012"
 msgstr "2012"
 
-#: desktop-guide/C/index.xml:55(year)
+#: desktop-guide/C/index.xml:58(year)
 msgid "2013"
 msgstr "2013"
 
-#: desktop-guide/C/index.xml:56(year)
+#: desktop-guide/C/index.xml:59(year)
 msgid "2014"
 msgstr ""
 
-#: desktop-guide/C/index.xml:57(holder)
+#: desktop-guide/C/index.xml:60(holder)
 msgid "Canonical Ltd. and members of the Xubuntu Documentation team."
 msgstr "Canonical Ltd. y miembros del equipo de documentación de Xubuntu."
 
-#: desktop-guide/C/index.xml:61(publishername)
+#: desktop-guide/C/index.xml:64(publishername)
 msgid "The Ubuntu Documentation Project"
 msgstr "Proyecto de documentación de Ubuntu"
 
-#: desktop-guide/C/index.xml:64(title)
+#: desktop-guide/C/index.xml:67(title)
 msgid "Welcome!"
 msgstr "Bienvenido/a"
 
-#: desktop-guide/C/index.xml:66(para)
+#: desktop-guide/C/index.xml:69(para)
 msgid ""
 "This documentation provides documentation to the most common issues with "
 "Xubuntu, including:"
@@ -3506,11 +3501,11 @@ msgstr ""
 "Esta documentación proporciona documentación a los problemas más comunes con "
 "Xubuntu, incluyendo:"
 
-#: desktop-guide/C/index.xml:71(para)
+#: desktop-guide/C/index.xml:74(para)
 msgid "In addition, this documentation has three quick guides:"
 msgstr "Además, esta documentación tiene tres guías rápidas:"
 
-#: desktop-guide/C/index.xml:77(para)
+#: desktop-guide/C/index.xml:80(para)
 msgid ""
 "The complete set of topics is listed below. If you require help with a topic "
 "or problem that is not addressed by the documentation, go to the <ulink "
@@ -3523,7 +3518,7 @@ msgstr ""
 "Ayuda y soporte </ ulink>. Allí podrá encontrar enlaces a recursos de ayuda "
 "adicionales."
 
-#: desktop-guide/C/index.xml:79(para)
+#: desktop-guide/C/index.xml:82(para)
 msgid ""
 "If you would like to contribute to Xubuntu, including this documentation, "
 "see the <ulink url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> "
@@ -5492,7 +5487,7 @@ msgstr ""
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
-"  Adolfo Jayme https://launchpad.net/~fitoschido\n"
+"  Adolfo Jayme https://launchpad.net/~fitojb\n"
 "  Edwin Pujols https://launchpad.net/~edwinpm5\n"
 "  Eugenio González https://launchpad.net/~eugeagb\n"
 "  GridCube https://launchpad.net/~gridcube\n"
@@ -5501,3 +5496,24 @@ msgstr ""
 "  Pasi Lallinaho https://launchpad.net/~knome\n"
 "  bjsg https://launchpad.net/~bjsg\n"
 "  emerling https://launchpad.net/~emerling"
+
+#~ msgid ""
+#~ "If you do not have a network printer, but want your printer to be shared to "
+#~ "other computers on your network, click "
+#~ "<menuchoice><guimenu>Server</guimenu><guimenuitem>Settings</guimenuitem></men"
+#~ "uchoice> from the <guilabel>Printers</guilabel> dialog, check the box "
+#~ "<guilabel>Publish shared printers connected to this system</guilabel>, and "
+#~ "then press <guibutton>OK</guibutton>. Other Linux/Ubuntu based systems need "
+#~ "to have <guilabel>Show printers shared by other systems</guilabel> checked "
+#~ "in the server settings dialog in order to access the printer."
+#~ msgstr ""
+#~ "Si no tiene una impresora de red, pero desea que su impresora sea compartida "
+#~ "con otros equipos de la red, pulse en "
+#~ "<menuchoice><guimenu>Servidor</guimenu><guimenuitem>Configuración</guimenuite"
+#~ "m></menuchoice>de las <guilabel> Impresoras</guilabel>marque la casilla del "
+#~ "cuadro de diálogo <guilabel>Publicar impresoras compartidas conectadas a "
+#~ "este sistema </guilabel>, y a continuación, pulse "
+#~ "<guibutton>Aceptar</guibutton>. Otros sistemas basados ​​en Linux /Ubuntu "
+#~ "necesitan tener<guilabel>Mostrar impresoras  compartidas por otros "
+#~ "sistemas</guilabel>verificadas en el cuadro de diálogo de configuración del "
+#~ "servidor para poder acceder a la impresora."
