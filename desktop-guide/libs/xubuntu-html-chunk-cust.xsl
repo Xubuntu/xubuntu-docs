@@ -6,7 +6,7 @@
 	<!-- ======================= -->
 	<!-- Imports -->
 	<xsl:import href="/usr/share/xml/docbook/stylesheet/nwalsh/xhtml/chunk.xsl"/>
-	<xsl:import href="xubuntu-banner.xsl"/>	
+	<xsl:import href="xubuntu-banner.xsl"/>
 
 	<!-- Params -->
 	<xsl:param name="generate.legalnotice.link" select="1"/>
@@ -22,6 +22,11 @@
 
 	<!-- disable scaling (which is needed for PDF generation) -->
 	<xsl:param name="ignore.image.scaling" select="1"/>
+
+	<!-- Favicon -->
+	<xsl:template name="user.head.content">
+		<link rel="shortcut icon" href="../libs/images/favicon.png" />
+	</xsl:template>
 
 	<!--Navigation Graphics-->
 	<xsl:param name="navig.graphics" select="1"/>
@@ -75,21 +80,5 @@
 	<xsl:template match="inlinemediaobject[@role = 'icon-submenu']" mode="class.value">
 		<xsl:value-of select="'inline-icon-submenu'"/>
 	</xsl:template>
-
-	<!-- Not in use (yet) -->
-	<xsl:template match="legalnotice/screen">
-		<xsl:param name="content">
-			<xsl:call-template name="simple.xlink">
-				<xsl:with-param name="content">
-					<xsl:apply-templates/>
-				</xsl:with-param>
-			</xsl:call-template>
-		</xsl:param>
-
-		<xsl:comment>
-			<xsl:copy-of select="$content"/>
-		</xsl:comment>
-	</xsl:template>
-	<!-- -->
 
 </xsl:stylesheet>
