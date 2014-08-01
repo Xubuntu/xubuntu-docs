@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-03-20 02:49+0200\n"
-"PO-Revision-Date: 2014-03-28 14:24+0000\n"
-"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"PO-Revision-Date: 2014-07-31 16:44+0000\n"
+"Last-Translator: Markus J Schmidt <foss@schmidt-mail.eu>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-03-29 07:35+0000\n"
-"X-Generator: Launchpad (build 16967)\n"
+"X-Launchpad-Export-Date: 2014-08-01 07:15+0000\n"
+"X-Generator: Launchpad (build 17141)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -24,6 +24,8 @@ msgid ""
 "@@image: '../libs/images/package_icon.png'; "
 "md5=15cff8b23f9cf506a7b7e8f98f1289ac"
 msgstr ""
+"@@image: '../libs/images/package_icon.png'; "
+"md5=15cff8b23f9cf506a7b7e8f98f1289ac"
 
 #: desktop-guide/C/appendix-packages.xml:12(title)
 msgid "Application table"
@@ -35,31 +37,31 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:16(segtitle) desktop-guide/C/appendix-packages.xml:35(segtitle) desktop-guide/C/appendix-packages.xml:49(segtitle)
 msgid "Package name"
-msgstr ""
+msgstr "Paketname"
 
 #: desktop-guide/C/appendix-packages.xml:16(segtitle) desktop-guide/C/appendix-packages.xml:35(segtitle) desktop-guide/C/appendix-packages.xml:49(segtitle)
 msgid "Short description"
-msgstr ""
+msgstr "Kurzbeschreibung"
 
 #: desktop-guide/C/appendix-packages.xml:17(seg)
 msgid "Abiword"
-msgstr ""
+msgstr "Abiword"
 
 #: desktop-guide/C/appendix-packages.xml:17(seg)
 msgid "abiword"
-msgstr ""
+msgstr "Abiword"
 
 #: desktop-guide/C/appendix-packages.xml:17(seg)
 msgid "Word processor"
-msgstr ""
+msgstr "Textverarbeitung"
 
 #: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "Catfish File Search"
-msgstr ""
+msgstr "Catfish-Dateisuche"
 
 #: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "catfish"
-msgstr ""
+msgstr "Catfish"
 
 #: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "File searching tool which is configurable via the command line"
@@ -67,7 +69,7 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:19(seg)
 msgid "Document Viewer"
-msgstr ""
+msgstr "Dokumentenbetrachter"
 
 #: desktop-guide/C/appendix-packages.xml:19(seg)
 msgid "evince"
@@ -99,7 +101,7 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:21(seg)
 msgid "Spreadsheet application"
-msgstr ""
+msgstr "Tabellenkalkulation"
 
 #: desktop-guide/C/appendix-packages.xml:22(seg)
 msgid "Character Map"
@@ -123,7 +125,7 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:23(seg)
 msgid "Simple Xfce oriented text editor"
-msgstr ""
+msgstr "Schlichte, XFCE-orientierte Textbearbeitung"
 
 #: desktop-guide/C/appendix-packages.xml:24(seg) desktop-guide/C/appendix-packages.xml:24(seg)
 msgid "PulseAudio Volume Control"
@@ -147,7 +149,7 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:26(seg)
 msgid "Application Finder"
-msgstr ""
+msgstr "Anwendungsfinder"
 
 #: desktop-guide/C/appendix-packages.xml:26(seg) desktop-guide/C/appendix-packages.xml:27(seg)
 msgid "xfce4-appfinder"
@@ -207,15 +209,15 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:37(seg)
 msgid "Menu Editor"
-msgstr ""
+msgstr "Menübearbeitung"
 
 #: desktop-guide/C/appendix-packages.xml:37(seg)
 msgid "menulibre"
-msgstr ""
+msgstr "MenuLibre"
 
 #: desktop-guide/C/appendix-packages.xml:37(seg)
 msgid "Menu layout editor"
-msgstr ""
+msgstr "Menüansichtsbearbeitung"
 
 #: desktop-guide/C/appendix-packages.xml:38(seg)
 msgid "About Me"
@@ -385,6 +387,8 @@ msgid ""
 "Find out more at the <ulink url=\"http://xubuntu.org/\">Xubuntu "
 "website</ulink>."
 msgstr ""
+"Weitere Informationen können Sie auf der <ulink "
+"url=\"http://xubuntu.org/\">Xubuntu-Seite</ulink> im Netz finden."
 
 #: desktop-guide/C/what-is-xubuntu.xml:27(title)
 msgid "About the name"
@@ -454,7 +458,7 @@ msgstr ""
 
 #: desktop-guide/C/what-is-xubuntu.xml:65(title)
 msgid "Xfce"
-msgstr ""
+msgstr "Xfce"
 
 #: desktop-guide/C/what-is-xubuntu.xml:66(para)
 msgid ""
@@ -2875,7 +2879,7 @@ msgstr ""
 
 #: desktop-guide/C/index.xml:17(title)
 msgid "Credits and License"
-msgstr ""
+msgstr "Mitwirkende und Lizenz"
 
 #: desktop-guide/C/index.xml:18(para)
 msgid ""
@@ -2925,97 +2929,97 @@ msgstr ""
 msgid "Jay van Cooten (skippersboss)"
 msgstr ""
 
-#: desktop-guide/C/index.xml:34(para)
+#: desktop-guide/C/index.xml:37(para)
 msgid "The contributors to previous versions to this documentation are:"
 msgstr ""
 
-#: desktop-guide/C/index.xml:36(para)
+#: desktop-guide/C/index.xml:39(para)
 msgid "Jim Campbell (jwcampbell)"
 msgstr ""
 
-#: desktop-guide/C/index.xml:37(para)
+#: desktop-guide/C/index.xml:40(para)
 msgid "Freddy Martinez (freddymartinez9)"
 msgstr ""
 
-#: desktop-guide/C/index.xml:38(para)
+#: desktop-guide/C/index.xml:41(para)
 msgid "Jan M. (fijam7)"
 msgstr ""
 
-#: desktop-guide/C/index.xml:39(para)
+#: desktop-guide/C/index.xml:42(para)
 msgid "Cody A.W. Somerville (cody-somerville)"
 msgstr ""
 
-#: desktop-guide/C/index.xml:40(para)
+#: desktop-guide/C/index.xml:43(para)
 msgid "Luzius Thöny (lucius-antonius)"
 msgstr ""
 
-#: desktop-guide/C/index.xml:43(para)
+#: desktop-guide/C/index.xml:46(para)
 msgid ""
 "This document is made available under the Creative Commons ShareAlike 2.5 "
 "License (CC-BY-SA)."
 msgstr ""
 
-#: desktop-guide/C/index.xml:44(para)
+#: desktop-guide/C/index.xml:47(para)
 msgid ""
 "You are free to modify, extend, and improve the Ubuntu documentation source "
 "code under the terms of this license. All derivative works must be released "
 "under this license."
 msgstr ""
 
-#: desktop-guide/C/index.xml:46(para)
+#: desktop-guide/C/index.xml:49(para)
 msgid ""
 "This documentation is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE AS DESCRIBED IN THE DISCLAIMER."
 msgstr ""
 
-#: desktop-guide/C/index.xml:49(para)
+#: desktop-guide/C/index.xml:52(para)
 msgid ""
 "A copy of the license is available here: <link linkend=\"cc-by-sa\">Creative "
 "Commons ShareAlike License</link>."
 msgstr ""
 
-#: desktop-guide/C/index.xml:50(para)
+#: desktop-guide/C/index.xml:53(para)
 msgid ""
 "All trademarks or registered trademarks are the property of the respective "
 "owners."
 msgstr ""
 
-#: desktop-guide/C/index.xml:54(year)
+#: desktop-guide/C/index.xml:57(year)
 msgid "2012"
 msgstr ""
 
-#: desktop-guide/C/index.xml:55(year)
+#: desktop-guide/C/index.xml:58(year)
 msgid "2013"
 msgstr ""
 
-#: desktop-guide/C/index.xml:56(year)
+#: desktop-guide/C/index.xml:59(year)
 msgid "2014"
 msgstr ""
 
-#: desktop-guide/C/index.xml:57(holder)
+#: desktop-guide/C/index.xml:60(holder)
 msgid "Canonical Ltd. and members of the Xubuntu Documentation team."
 msgstr ""
 
-#: desktop-guide/C/index.xml:61(publishername)
+#: desktop-guide/C/index.xml:64(publishername)
 msgid "The Ubuntu Documentation Project"
 msgstr ""
 
-#: desktop-guide/C/index.xml:64(title)
+#: desktop-guide/C/index.xml:67(title)
 msgid "Welcome!"
 msgstr ""
 
-#: desktop-guide/C/index.xml:66(para)
+#: desktop-guide/C/index.xml:69(para)
 msgid ""
 "This documentation provides documentation to the most common issues with "
 "Xubuntu, including:"
 msgstr ""
 
-#: desktop-guide/C/index.xml:71(para)
+#: desktop-guide/C/index.xml:74(para)
 msgid "In addition, this documentation has three quick guides:"
 msgstr ""
 
-#: desktop-guide/C/index.xml:77(para)
+#: desktop-guide/C/index.xml:80(para)
 msgid ""
 "The complete set of topics is listed below. If you require help with a topic "
 "or problem that is not addressed by the documentation, go to the <ulink "
@@ -3023,7 +3027,7 @@ msgid ""
 "Xubuntu website. There you will find links to additional help resources."
 msgstr ""
 
-#: desktop-guide/C/index.xml:79(para)
+#: desktop-guide/C/index.xml:82(para)
 msgid ""
 "If you would like to contribute to Xubuntu, including this documentation, "
 "see the <ulink url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> "
@@ -4616,7 +4620,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:51(userinput)
 #, no-wrap
 msgid "editor"
-msgstr ""
+msgstr "Bearbeiter"
 
 #: desktop-guide/C/command-line.xml:51(seg)
 msgid "Opens a text file in an editor"
@@ -4942,4 +4946,6 @@ msgstr ""
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
-"  Markus J Schmidt https://launchpad.net/~smiddy84"
+"  Markus J Schmidt https://launchpad.net/~smiddy84\n"
+"  Pasi Lallinaho https://launchpad.net/~knome\n"
+"  Tobias Bannert https://launchpad.net/~toba"
