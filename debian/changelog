@@ -2,16 +2,18 @@ xubuntu-docs (14.10) UNRELEASED; urgency=medium
 
   [ David Pires ]
   * Fix the printing chapter to remove a reference to a obsolete setting (LP: #1299743)
+  * Replace references to 'sudo -i' to 'pkexec' since that's now the recommended and supported way
 
   [ Pasi Lallinaho ]
   * Bump version to 14.10.
   * Fix broken startpage logo. (LP: #1310347)
+  * Replace references to 'sudo -i' to 'pkexec' since that's now the recommended and supported way
 
   [ Unit 193 ]
   * scripts/translators.sh, desktop-guide/Makefile, desktop-guide/C/index.xml:
     - Attribute translators in their own Language's credits.
 
- -- Pasi Lallinaho <pasi@shimmerproject.org>  Sun, 20 Apr 2014 22:12:01 +0300
+ -- Pasi Lallinaho <pasi@shimmerproject.org>  Tue, 26 Aug 2014 19:10:55 +0300
 
 xubuntu-docs (14.04.1) trusty; urgency=medium
 
