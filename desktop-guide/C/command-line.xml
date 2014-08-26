@@ -27,7 +27,9 @@
 
 		<para>When working on the command line, any command can be run as an administrator by prefixing the command with <userinput>sudo</userinput>. <application>Sudo</application> will remember your password for 15 minutes to allow you to perform multiple administrative tasks without being prompted for a password each time.</para>
 
-		<note><para>If the program you wish to run as an administrator is graphical, such as the <application>Mousepad</application> text editor, you should obtain a root prompt before launching the desired program, running the command <userinput>sudo -i</userinput> for that effect, even if you are running the application from the command line.</para></note>
+		<note><para>If the program you wish to run as an administrator is graphical, such as the <application>Mousepad</application> text editor, run the command prefixed with <code>pkexec</code> in the command line. For example, to run <application>Mousepad</application> with administrative rights, run the command <code>pkexec mousepad /path/to/file</code>.</para></note>
+
+		<note><para>Please note that for an application to run successfully with <application>pkexec</application>, it will need to ship a pkexec policy file. All default applications in Xubuntu that might need to be ran with adminstrative rights come with pkexec policy files.</para></note>
 
 		<warning><para>Be careful when using <application>sudo</application>; you might damage your system if you type the wrong command! As a general rule, only use sudo when absolutely necessary. When you use <application>sudo</application> from a terminal, be sure to either close it when you have finished, or type <userinput>exit</userinput> to continue using that terminal with normal access powers.</para></warning>
 
