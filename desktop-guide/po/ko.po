@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-07-01 16:18-0400\n"
+"POT-Creation-Date: 2014-08-26 18:59+0300\n"
 "PO-Revision-Date: 2014-07-05 22:36+0000\n"
 "Last-Translator: Launchpad Translations Administrators <Unknown>\n"
 "Language-Team: Korean <ko@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-07-29 06:57+0000\n"
-"X-Generator: Launchpad (build 17131)\n"
+"X-Launchpad-Export-Date: 2014-08-27 08:22+0000\n"
+"X-Generator: Launchpad (build 17174)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1169,9 +1169,8 @@ msgstr ""
 
 #: desktop-guide/C/printing-scanning.xml:119(para)
 msgid ""
-"Run <userinput>sudo -i</userinput> at the command line to obtain a root "
-"prompt, and then enter <userinput>mousepad /etc/sane.d/dll.conf</userinput> "
-"to open the SANE driver file for editing"
+"Run <userinput>pkexec mousepad /etc/sane.d/dll.conf</userinput> at the "
+"command line to open the SANE driver file for editing"
 msgstr ""
 
 #: desktop-guide/C/printing-scanning.xml:120(para)
@@ -1610,10 +1609,9 @@ msgstr ""
 #: desktop-guide/C/migrating-upgrading.xml:80(para)
 msgid ""
 "If you would like to install and test the latest development version of "
-"Xubuntu before it is released, run <userinput>sudo -i</userinput> at the "
-"command line to obtain a root prompt, and then enter <userinput>update-"
-"manager -c -d</userinput>. This will allow you to upgrade to the current "
-"development release."
+"Xubuntu before it is released, run <userinput>pkexec update-manager -c -"
+"d</userinput> at the command line. This will allow you to upgrade to the "
+"current development release."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -4473,13 +4471,21 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:30(para)
 msgid ""
 "If the program you wish to run as an administrator is graphical, such as the "
-"<application>Mousepad</application> text editor, you should obtain a root "
-"prompt before launching the desired program, running the command "
-"<userinput>sudo -i</userinput> for that effect, even if you are running the "
-"application from the command line."
+"<application>Mousepad</application> text editor, run the command prefixed "
+"with <code>pkexec</code> in the command line. For example, to run "
+"<application>Mousepad</application> with administrative rights, run the "
+"command <code>pkexec mousepad /path/to/file</code>."
 msgstr ""
 
 #: desktop-guide/C/command-line.xml:32(para)
+msgid ""
+"Please note that for an application to run successfully with "
+"<application>pkexec</application>, it will need to ship a pkexec policy "
+"file. All default applications in Xubuntu that might need to be ran with "
+"adminstrative rights come with pkexec policy files."
+msgstr ""
+
+#: desktop-guide/C/command-line.xml:34(para)
 msgid ""
 "Be careful when using <application>sudo</application>; you might damage your "
 "system if you type the wrong command! As a general rule, only use sudo when "
@@ -4489,300 +4495,300 @@ msgid ""
 "access powers."
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:34(para)
+#: desktop-guide/C/command-line.xml:36(para)
 msgid ""
 "For more information on <application>sudo</application>, see the <ulink "
 "url=\"https://help.ubuntu.com/community/RootSudo\">sudo page</ulink> on the "
 "Ubuntu community wiki."
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:38(title)
+#: desktop-guide/C/command-line.xml:40(title)
 msgid "Common commands"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:40(para)
+#: desktop-guide/C/command-line.xml:42(para)
 msgid ""
 "Basic terminal commands are outlined below (square brackets indicate "
 "substitutions):"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:44(segtitle)
+#: desktop-guide/C/command-line.xml:46(segtitle)
 msgid "Command"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:44(segtitle)
+#: desktop-guide/C/command-line.xml:46(segtitle)
 msgid "What it does?"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:44(segtitle)
+#: desktop-guide/C/command-line.xml:46(segtitle)
 msgid "Syntax"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:45(userinput)
+#: desktop-guide/C/command-line.xml:47(userinput)
 #, no-wrap
 msgid "apt-cache"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:45(seg)
+#: desktop-guide/C/command-line.xml:47(seg)
 msgid ""
 "Shows information about the packages in the repository. Common commands are "
 "the search and show commands"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:45(userinput)
+#: desktop-guide/C/command-line.xml:47(userinput)
 #, no-wrap
 msgid "apt-cache search web browser"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:45(userinput)
+#: desktop-guide/C/command-line.xml:47(userinput)
 #, no-wrap
 msgid "apt-cache show firefox"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:45(seg) desktop-guide/C/command-line.xml:52(seg) desktop-guide/C/command-line.xml:59(seg)
+#: desktop-guide/C/command-line.xml:47(seg) desktop-guide/C/command-line.xml:54(seg) desktop-guide/C/command-line.xml:61(seg)
 msgid "<placeholder-1/> or <placeholder-2/>"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:46(userinput)
+#: desktop-guide/C/command-line.xml:48(userinput)
 #, no-wrap
 msgid "apt-get"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:46(seg)
+#: desktop-guide/C/command-line.xml:48(seg)
 msgid ""
 "Manages packages in apt. Common commands are install to install a package, "
 "remove to remove a package, purge to remove a package and the configuration, "
 "and autoremove which will also remove unneeded packages"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:46(userinput)
+#: desktop-guide/C/command-line.xml:48(userinput)
 #, no-wrap
 msgid "apt-get [command] [package]"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:47(userinput)
+#: desktop-guide/C/command-line.xml:49(userinput)
 #, no-wrap
 msgid "cat"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:47(seg)
+#: desktop-guide/C/command-line.xml:49(seg)
 msgid "Joins (concatenates) two or more files"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:47(userinput)
+#: desktop-guide/C/command-line.xml:49(userinput)
 #, no-wrap
 msgid "cat [file1] [file2] ... &gt; [output file]"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:48(userinput)
+#: desktop-guide/C/command-line.xml:50(userinput)
 #, no-wrap
 msgid "cd"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:48(seg)
+#: desktop-guide/C/command-line.xml:50(seg)
 msgid "Changes to another directory"
-msgstr ""
-
-#: desktop-guide/C/command-line.xml:48(userinput)
-#, no-wrap
-msgid "cd [directory]"
-msgstr ""
-
-#: desktop-guide/C/command-line.xml:49(userinput)
-#, no-wrap
-msgid "cp"
-msgstr ""
-
-#: desktop-guide/C/command-line.xml:49(seg)
-msgid "Copies a file (or files) to a directory or to overwrite another file"
-msgstr ""
-
-#: desktop-guide/C/command-line.xml:49(userinput)
-#, no-wrap
-msgid "cp [file(s)] [directory]"
 msgstr ""
 
 #: desktop-guide/C/command-line.xml:50(userinput)
 #, no-wrap
+msgid "cd [directory]"
+msgstr ""
+
+#: desktop-guide/C/command-line.xml:51(userinput)
+#, no-wrap
+msgid "cp"
+msgstr ""
+
+#: desktop-guide/C/command-line.xml:51(seg)
+msgid "Copies a file (or files) to a directory or to overwrite another file"
+msgstr ""
+
+#: desktop-guide/C/command-line.xml:51(userinput)
+#, no-wrap
+msgid "cp [file(s)] [directory]"
+msgstr ""
+
+#: desktop-guide/C/command-line.xml:52(userinput)
+#, no-wrap
 msgid "date"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:50(seg)
+#: desktop-guide/C/command-line.xml:52(seg)
 msgid ""
 "Tells you the date and time in many different formats, timezones, and "
 "conversions."
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:50(userinput)
+#: desktop-guide/C/command-line.xml:52(userinput)
 #, no-wrap
 msgid "date [options]"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:51(userinput)
+#: desktop-guide/C/command-line.xml:53(userinput)
 #, no-wrap
 msgid "editor"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:51(seg)
+#: desktop-guide/C/command-line.xml:53(seg)
 msgid "Opens a text file in an editor"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:51(userinput)
+#: desktop-guide/C/command-line.xml:53(userinput)
 #, no-wrap
 msgid "editor [file]"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:52(userinput)
+#: desktop-guide/C/command-line.xml:54(userinput)
 #, no-wrap
 msgid "grep"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:52(seg)
+#: desktop-guide/C/command-line.xml:54(seg)
 msgid "Searches strings or files"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:52(userinput)
+#: desktop-guide/C/command-line.xml:54(userinput)
 #, no-wrap
 msgid "grep [text] [file(s)]"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:52(userinput)
+#: desktop-guide/C/command-line.xml:54(userinput)
 #, no-wrap
 msgid "[command] | grep [text]"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:53(userinput)
+#: desktop-guide/C/command-line.xml:55(userinput)
 #, no-wrap
 msgid "kill"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:53(userinput)
+#: desktop-guide/C/command-line.xml:55(userinput)
 #, no-wrap
 msgid "pidof"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:53(seg)
+#: desktop-guide/C/command-line.xml:55(seg)
 msgid ""
 "Terminates programs with a specified PID. If you don't know the PID you can "
 "use <placeholder-1/>"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:53(userinput)
+#: desktop-guide/C/command-line.xml:55(userinput)
 #, no-wrap
 msgid "kill [-SIGNAL] [PID(s)]"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:54(userinput)
+#: desktop-guide/C/command-line.xml:56(userinput)
 #, no-wrap
 msgid "killall"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:54(seg)
+#: desktop-guide/C/command-line.xml:56(seg)
 msgid "Much like the one above, except you specify the programs name"
-msgstr ""
-
-#: desktop-guide/C/command-line.xml:54(userinput)
-#, no-wrap
-msgid "killall [-SIGNAL] [process(es)]"
-msgstr ""
-
-#: desktop-guide/C/command-line.xml:55(userinput)
-#, no-wrap
-msgid "less"
-msgstr ""
-
-#: desktop-guide/C/command-line.xml:55(seg)
-msgid "Shows the contents of a text file"
-msgstr ""
-
-#: desktop-guide/C/command-line.xml:55(userinput)
-#, no-wrap
-msgid "less [file]"
 msgstr ""
 
 #: desktop-guide/C/command-line.xml:56(userinput)
 #, no-wrap
+msgid "killall [-SIGNAL] [process(es)]"
+msgstr ""
+
+#: desktop-guide/C/command-line.xml:57(userinput)
+#, no-wrap
+msgid "less"
+msgstr ""
+
+#: desktop-guide/C/command-line.xml:57(seg)
+msgid "Shows the contents of a text file"
+msgstr ""
+
+#: desktop-guide/C/command-line.xml:57(userinput)
+#, no-wrap
+msgid "less [file]"
+msgstr ""
+
+#: desktop-guide/C/command-line.xml:58(userinput)
+#, no-wrap
 msgid "ls"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:56(seg)
+#: desktop-guide/C/command-line.xml:58(seg)
 msgid ""
 "Lists files in a directory. Lists files in the current directory if none is "
 "specified"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:56(userinput)
+#: desktop-guide/C/command-line.xml:58(userinput)
 #, no-wrap
 msgid "ls [directory]"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:57(userinput)
+#: desktop-guide/C/command-line.xml:59(userinput)
 #, no-wrap
 msgid "man"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:57(seg)
+#: desktop-guide/C/command-line.xml:59(seg)
 msgid "Shows help about a command"
-msgstr ""
-
-#: desktop-guide/C/command-line.xml:57(userinput)
-#, no-wrap
-msgid "man [command]"
-msgstr ""
-
-#: desktop-guide/C/command-line.xml:58(userinput)
-#, no-wrap
-msgid "mv"
-msgstr ""
-
-#: desktop-guide/C/command-line.xml:58(seg)
-msgid "Moves or renames a file"
-msgstr ""
-
-#: desktop-guide/C/command-line.xml:58(userinput)
-#, no-wrap
-msgid "mv [filename] [newfilename]"
 msgstr ""
 
 #: desktop-guide/C/command-line.xml:59(userinput)
 #, no-wrap
+msgid "man [command]"
+msgstr ""
+
+#: desktop-guide/C/command-line.xml:60(userinput)
+#, no-wrap
+msgid "mv"
+msgstr ""
+
+#: desktop-guide/C/command-line.xml:60(seg)
+msgid "Moves or renames a file"
+msgstr ""
+
+#: desktop-guide/C/command-line.xml:60(userinput)
+#, no-wrap
+msgid "mv [filename] [newfilename]"
+msgstr ""
+
+#: desktop-guide/C/command-line.xml:61(userinput)
+#, no-wrap
 msgid "rm"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:59(seg)
+#: desktop-guide/C/command-line.xml:61(seg)
 msgid ""
 "Removes files or directories. Be very careful with this command! With the -r "
 "option, it removes all files and directories recursively!"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:59(userinput)
+#: desktop-guide/C/command-line.xml:61(userinput)
 #, no-wrap
 msgid "rm [file(s)]"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:59(userinput)
+#: desktop-guide/C/command-line.xml:61(userinput)
 #, no-wrap
 msgid "rm -ir [dir(s)]"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:60(userinput)
+#: desktop-guide/C/command-line.xml:62(userinput)
 #, no-wrap
 msgid "wget"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:60(userinput)
+#: desktop-guide/C/command-line.xml:62(userinput)
 #, no-wrap
 msgid "man wget"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:60(seg)
+#: desktop-guide/C/command-line.xml:62(seg)
 msgid ""
 "Downloads files to current directory. The -N option can be useful for "
 "checking to see if a file on the server is newer than the one you have "
 "locally, see <placeholder-1/> for more information."
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:60(userinput)
+#: desktop-guide/C/command-line.xml:62(userinput)
 #, no-wrap
 msgid "wget [urls]"
 msgstr ""
