@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-08-26 18:59+0300\n"
-"PO-Revision-Date: 2014-08-28 05:55+0000\n"
-"Last-Translator: Hannequin Lionel <yoyopoubbox@free.fr>\n"
+"PO-Revision-Date: 2014-08-29 11:11+0000\n"
+"Last-Translator: Jean Marc <Unknown>\n"
 "Language-Team: French <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-08-28 06:34+0000\n"
-"X-Generator: Launchpad (build 17174)\n"
+"X-Launchpad-Export-Date: 2014-08-30 07:51+0000\n"
+"X-Generator: Launchpad (build 17176)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1254,16 +1254,22 @@ msgid ""
 "Insert the details of the network printer and press "
 "<guibutton>Forward</guibutton>"
 msgstr ""
+"Insérer les détails de l'imprimante réseau et appuyez sur "
+"<guibutton>Suivant</guibutton>"
 
 #: desktop-guide/C/printing-scanning.xml:54(para)
 msgid ""
 "Select the printer manufacturer and then press <guibutton>Forward</guibutton>"
 msgstr ""
+"Sélectionnez le fabricant de l'imprimante, puis appuyez sur "
+"<guibutton>Suivant</guibutton>"
 
 #: desktop-guide/C/printing-scanning.xml:55(para)
 msgid ""
 "Select the printer model and driver then press <guibutton>Forward</guibutton>"
 msgstr ""
+"Sélectionnez le modèle d'imprimante et le pilote, puis appuyez sur "
+"<guibutton>Suivant</guibutton>"
 
 #: desktop-guide/C/printing-scanning.xml:56(para)
 msgid ""
@@ -2179,6 +2185,9 @@ msgid ""
 "Xubuntu unless you have done an initial synchronization with "
 "<application>iTunes</application> first."
 msgstr ""
+"Les iPod récents (6e génération et au-delà) ne fonctionneront pas "
+"automatiquement avec Xubuntu si vous n’avez pas effectué une synchronisation "
+"initiale avec <application>iTunes</application> au préalable."
 
 #: desktop-guide/C/media-apps.xml:57(para)
 msgid ""
@@ -2683,6 +2692,8 @@ msgid ""
 "After adding the disc to the software sources, you will be able to install "
 "packages from the disc."
 msgstr ""
+"Après avoir ajouté le disque aux sources de logiciels, vous pourrez "
+"installer des paquets depuis celui-ci."
 
 #: desktop-guide/C/managing-applications.xml:114(title)
 msgid "Helpful application"
@@ -2899,6 +2910,9 @@ msgid ""
 "which you will get from your network administrator or your Internet Service "
 "Provider."
 msgstr ""
+"Pour pouvoir vous connecter à certains réseaux, vous aurez peut-être besoin "
+"de certaines informations de connexion que vous obtiendrez de votre "
+"administrateur réseau ou de votre fournisseur d’accès à internet."
 
 #: desktop-guide/C/internet-networks.xml:42(title)
 msgid "Connection information"
@@ -2951,6 +2965,8 @@ msgid ""
 "Before attempting any troubleshooting, ensure that the network connections "
 "are enabled:"
 msgstr ""
+"Avant de tenter tout dépannage, assurez-vous que les connexions réseau sont "
+"activées :"
 
 #: desktop-guide/C/internet-networks.xml:65(para)
 msgid ""
@@ -3000,6 +3016,8 @@ msgid ""
 "If your network connection is not working properly, there are a few tools "
 "that can be used to help diagnose the problem."
 msgstr ""
+"Si votre connexion réseau ne fonctionne pas correctement, certains outils "
+"peuvent être utilisés pour aider à diagnostiquer le problème."
 
 #: desktop-guide/C/internet-networks.xml:84(title)
 msgid "Get information about the current connection"
@@ -3034,6 +3052,8 @@ msgid ""
 "Each active connection will have its own tab where you can find relevant "
 "connection information"
 msgstr ""
+"Chaque connexion active aura son propre onglet où figureront des "
+"informations pertinentes sur celle-ci."
 
 #: desktop-guide/C/internet-networks.xml:98(para)
 msgid "Using <application>ifconfig</application>"
@@ -3088,6 +3108,7 @@ msgstr ""
 msgid ""
 "0% packet loss indicates that your computer is connected to the Internet"
 msgstr ""
+"0 % de paquets perdus indique que votre ordinateur est connecté à Internet."
 
 #: desktop-guide/C/internet-networks.xml:118(para)
 msgid ""
@@ -3436,7 +3457,7 @@ msgstr "Jay van Cooten (skippersboss)"
 
 #: desktop-guide/C/index.xml:34(para)
 msgid "The contributors to this translation of the documentation are:"
-msgstr ""
+msgstr "Les contributeurs de cette traduction de la documentation sont :"
 
 #: desktop-guide/C/index.xml:37(para)
 msgid "The contributors to previous versions to this documentation are:"
@@ -3612,6 +3633,8 @@ msgid ""
 "Restricted drivers are drivers for your hardware that are not freely "
 "available or open source."
 msgstr ""
+"Les pilotes propriétaires sont des pilotes pour votre matériel qui ne sont "
+"pas libres ou disponibles gratuitement."
 
 #: desktop-guide/C/hardware-devices.xml:26(para)
 msgid ""
@@ -4137,6 +4160,7 @@ msgstr ""
 #: desktop-guide/C/hardware-devices.xml:215(title)
 msgid "My computer doesn't suspend or hibernate correctly"
 msgstr ""
+"Mon ordinateur ne se met pas en veille ou en veille prolongée correctement."
 
 #: desktop-guide/C/hardware-devices.xml:217(para)
 msgid ""
@@ -4199,6 +4223,7 @@ msgstr ""
 #: desktop-guide/C/hardware-devices.xml:234(para)
 msgid "To enable and use hibernation with Xubuntu, do the following:"
 msgstr ""
+"Pour activer et utiliser la veille prolongée avec Xubuntu, faites ceci :"
 
 #: desktop-guide/C/hardware-devices.xml:237(para)
 msgid ""
@@ -4218,10 +4243,13 @@ msgstr "Saisissez votre mot de passe."
 #: desktop-guide/C/hardware-devices.xml:240(para)
 msgid "To resume from hibernation, press the power button."
 msgstr ""
+"Pour sortir de veille prolongée, appuyez sur le bouton d'alimentation."
 
 #: desktop-guide/C/hardware-devices.xml:246(title)
 msgid "I get strange patterns on the screen when I hibernate my computer"
 msgstr ""
+"J’ai d’étranges motifs sur mon écran lorsque je mets en veille prolongée mon "
+"ordinateur"
 
 #: desktop-guide/C/hardware-devices.xml:248(para)
 msgid ""
@@ -4256,7 +4284,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:257(para)
 msgid "Options for mice and touchpads include:"
-msgstr ""
+msgstr "Les options pour souris et pavé tactile comprennent :"
 
 #: desktop-guide/C/hardware-devices.xml:260(guilabel)
 msgid "Button orientation"
@@ -4276,7 +4304,7 @@ msgstr "Thème du curseur"
 
 #: desktop-guide/C/hardware-devices.xml:266(para)
 msgid "Some of the options for configuring your keyboard include:"
-msgstr ""
+msgstr "Certaines options pour configurer votre clavier comprennent :"
 
 #: desktop-guide/C/hardware-devices.xml:269(guilabel)
 msgid "State of the Num Lock key on startup"
@@ -4288,7 +4316,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:271(guilabel)
 msgid "Cursor blinking speed"
-msgstr ""
+msgstr "Vitesse de clignotement du curseur"
 
 #: desktop-guide/C/hardware-devices.xml:272(guilabel)
 msgid "Application keyboard shortcuts"
@@ -4296,7 +4324,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:273(guilabel)
 msgid "Keyboard layout and language"
-msgstr ""
+msgstr "Disposition du clavier et langue"
 
 #: desktop-guide/C/hardware-devices.xml:276(para)
 msgid ""
@@ -4383,7 +4411,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:36(para)
 msgid "Now you can either"
-msgstr ""
+msgstr "Maintenant, vous pouvez soit"
 
 #: desktop-guide/C/guide-keeping-safe.xml:38(para)
 msgid ""
@@ -4402,6 +4430,8 @@ msgstr ""
 msgid ""
 "Finally, click <guibutton>OK</guibutton> to confirm the password change"
 msgstr ""
+"Pour finir, cliquez sur <guibutton>OK</guibutton> pour confirmer le "
+"changement de mot de passe"
 
 #: desktop-guide/C/guide-keeping-safe.xml:45(para)
 msgid ""
@@ -4491,7 +4521,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:102(para)
 msgid "Here are a few tips for keeping safe online:"
-msgstr ""
+msgstr "Voici quelques astuces pour rester protégé en ligne :"
 
 #: desktop-guide/C/guide-keeping-safe.xml:104(para)
 msgid ""
@@ -4588,6 +4618,9 @@ msgid ""
 "<application>Dejà Dup</application> and "
 "<application>luckyBackup</application>."
 msgstr ""
+"Il existe de nombreuses applications de sauvegarde disponibles dans la "
+"<application>Logithèque Ubuntu</application>, comme <application>Déjà "
+"Dup</application> et <application>luckyBackup</application>."
 
 #: desktop-guide/C/guide-keeping-safe.xml:156(para)
 msgid "General advice on how to keep good backups:"
@@ -4601,7 +4634,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:161(para)
 msgid "Label your backups clearly and keep them in a safe place"
-msgstr ""
+msgstr "Nommez intelligiblement vos sauvegardes et conservez-les en lieu sûr"
 
 #: desktop-guide/C/guide-desktop.xml:12(title)
 msgid "Getting to know your desktop environment"
@@ -4633,7 +4666,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-desktop.xml:24(title)
 msgid "The Panel"
-msgstr ""
+msgstr "Le tableau de bord"
 
 #: desktop-guide/C/guide-desktop.xml:26(para)
 msgid ""
