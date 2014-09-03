@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-08-26 18:59+0300\n"
-"PO-Revision-Date: 2014-09-02 05:13+0000\n"
-"Last-Translator: Daniel Kessel <Unknown>\n"
+"PO-Revision-Date: 2014-09-02 22:49+0000\n"
+"Last-Translator: Markus J Schmidt <foss@schmidt-mail.eu>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-09-02 07:32+0000\n"
-"X-Generator: Launchpad (build 17192)\n"
+"X-Launchpad-Export-Date: 2014-09-03 07:09+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -29,11 +29,11 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:12(title)
 msgid "Application table"
-msgstr ""
+msgstr "Anwendungsliste"
 
 #: desktop-guide/C/appendix-packages.xml:16(segtitle) desktop-guide/C/appendix-packages.xml:35(segtitle)
 msgid "Friendly name"
-msgstr ""
+msgstr "Anzeigename"
 
 #: desktop-guide/C/appendix-packages.xml:16(segtitle) desktop-guide/C/appendix-packages.xml:35(segtitle) desktop-guide/C/appendix-packages.xml:49(segtitle)
 msgid "Package name"
@@ -66,6 +66,7 @@ msgstr "Catfish"
 #: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "File searching tool which is configurable via the command line"
 msgstr ""
+"Dateisuchwerkzeug welches über die Kommandozeile konfiguriert werden kann"
 
 #: desktop-guide/C/appendix-packages.xml:19(seg)
 msgid "Document Viewer"
@@ -73,7 +74,7 @@ msgstr "Dokumentenbetrachter"
 
 #: desktop-guide/C/appendix-packages.xml:19(seg)
 msgid "evince"
-msgstr ""
+msgstr "evince"
 
 #: desktop-guide/C/appendix-packages.xml:19(seg)
 msgid "Document (PostScript, PDF) viewer"
@@ -85,11 +86,11 @@ msgstr "Taschenrechner"
 
 #: desktop-guide/C/appendix-packages.xml:20(seg)
 msgid "gnome-calculator"
-msgstr ""
+msgstr "gnome-calculator"
 
 #: desktop-guide/C/appendix-packages.xml:20(seg)
 msgid "Desktop calculator"
-msgstr ""
+msgstr "Taschenrechner"
 
 #: desktop-guide/C/appendix-packages.xml:21(seg)
 msgid "Gnumeric"
@@ -97,7 +98,7 @@ msgstr "Gnumeric"
 
 #: desktop-guide/C/appendix-packages.xml:21(seg)
 msgid "gnumeric"
-msgstr ""
+msgstr "gnumeric"
 
 #: desktop-guide/C/appendix-packages.xml:21(seg)
 msgid "Spreadsheet application"
@@ -105,23 +106,23 @@ msgstr "Tabellenkalkulation"
 
 #: desktop-guide/C/appendix-packages.xml:22(seg)
 msgid "Character Map"
-msgstr ""
+msgstr "Zeichentabelle"
 
 #: desktop-guide/C/appendix-packages.xml:22(seg)
 msgid "gucharmap"
-msgstr ""
+msgstr "gucharmap"
 
 #: desktop-guide/C/appendix-packages.xml:22(seg)
 msgid "Unicode character picker and font browser"
-msgstr ""
+msgstr "Unicode-Zeichenpalette und Schriftenanzeiger"
 
 #: desktop-guide/C/appendix-packages.xml:23(seg)
 msgid "Mousepad"
-msgstr ""
+msgstr "Mousepad"
 
 #: desktop-guide/C/appendix-packages.xml:23(seg)
 msgid "mousepad"
-msgstr ""
+msgstr "mousepad"
 
 #: desktop-guide/C/appendix-packages.xml:23(seg)
 msgid "Simple Xfce oriented text editor"
@@ -141,7 +142,7 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:25(seg)
 msgid "simple-scan"
-msgstr ""
+msgstr "simple-scan"
 
 #: desktop-guide/C/appendix-packages.xml:25(seg)
 msgid "Simple Scanning Utility"
@@ -153,7 +154,7 @@ msgstr "Anwendungsfinder"
 
 #: desktop-guide/C/appendix-packages.xml:26(seg) desktop-guide/C/appendix-packages.xml:27(seg)
 msgid "xfce4-appfinder"
-msgstr ""
+msgstr "xfce4-appfinder"
 
 #: desktop-guide/C/appendix-packages.xml:26(seg)
 msgid "Find and launch applications installed on your system"
@@ -169,11 +170,11 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:28(seg)
 msgid "Dictionary"
-msgstr ""
+msgstr "Wörterbuch"
 
 #: desktop-guide/C/appendix-packages.xml:28(seg)
 msgid "xfce4-dict"
-msgstr ""
+msgstr "xfce4-dict"
 
 #: desktop-guide/C/appendix-packages.xml:28(seg)
 msgid "Dictionary plugin for Xfce4 panel"
@@ -322,7 +323,7 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:54(literal)
 msgid "<placeholder-1/>thunar"
-msgstr ""
+msgstr "<placeholder-1/>thunar"
 
 #: desktop-guide/C/appendix-packages.xml:54(literal)
 msgid "<placeholder-1/>xfdesktop4"
@@ -359,22 +360,26 @@ msgstr ""
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
 msgid "What is Xubuntu?"
-msgstr ""
+msgstr "Was ist Xubuntu?"
 
 #: desktop-guide/C/what-is-xubuntu.xml:15(title)
 msgid "A short introduction"
-msgstr ""
+msgstr "Eine kurze Einführung"
 
 #: desktop-guide/C/what-is-xubuntu.xml:18(title)
 msgid ""
 "Xubuntu is a community-developed, Ubuntu-based Linux operating system."
 msgstr ""
+"Xubuntu ist ein gemeinschaftlich entwickeltes, Ubuntu-basiertes Linux-"
+"Betriebssystem"
 
 #: desktop-guide/C/what-is-xubuntu.xml:19(para)
 msgid ""
 "Xubuntu is an elegant and easy-to-use operating system. Xubuntu comes with "
 "Xfce, which is a stable, light and configurable desktop environment."
 msgstr ""
+"Xubuntu ist ein elegantes und einfach zu benutzendes Betriebssystem. Xubuntu "
+"benutzt Xfce, eine stabile, schlichte und konfigurierbare Arbeitsumgebung."
 
 #: desktop-guide/C/what-is-xubuntu.xml:21(para)
 msgid ""
@@ -382,6 +387,10 @@ msgid ""
 "laptops and netbooks. It features a modern look and enough features for "
 "efficient, daily usage. It works well on older hardware too."
 msgstr ""
+"Xubuntu ist ideal für diejenigen, welche das meiste aus ihren Rechnern, "
+"Laptops und Netbooks herausholen wollen. Sein modernes Erscheinungsbild "
+"ermöglicht eine effiziente, tägliche Nutzung. Es funktioniert außerdem gut "
+"auf älteren Rechnern."
 
 #: desktop-guide/C/what-is-xubuntu.xml:23(para)
 msgid ""
@@ -416,7 +425,7 @@ msgstr ""
 
 #: desktop-guide/C/what-is-xubuntu.xml:38(title)
 msgid "Version numbering"
-msgstr ""
+msgstr "Versionsnummerierung"
 
 #: desktop-guide/C/what-is-xubuntu.xml:39(para)
 msgid ""
@@ -476,6 +485,7 @@ msgstr ""
 msgid ""
 "@@image: '../libs/images/menu_icon.png'; md5=65599cdf4480dbc3d1bfa2154c0a255d"
 msgstr ""
+"@@image: '../libs/images/menu_icon.png'; md5=65599cdf4480dbc3d1bfa2154c0a255d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -494,6 +504,8 @@ msgid ""
 "@@image: '../libs/images/location_icon.png'; "
 "md5=71b7dc6dffc6d296d54a2fa354f2204f"
 msgstr ""
+"@@image: '../libs/images/location_icon.png'; "
+"md5=71b7dc6dffc6d296d54a2fa354f2204f"
 
 #: desktop-guide/C/settings-preferences.xml:12(title)
 msgid "Settings and Preferences"
@@ -630,7 +642,7 @@ msgstr ""
 
 #: desktop-guide/C/settings-preferences.xml:55(title)
 msgid "Changing your wallpaper"
-msgstr ""
+msgstr "Ändern ihres Bildschirmhintergrundes"
 
 #: desktop-guide/C/settings-preferences.xml:57(para)
 msgid ""
@@ -4965,4 +4977,5 @@ msgstr ""
 "  Daniel Kessel https://launchpad.net/~dkessel\n"
 "  Markus J Schmidt https://launchpad.net/~smiddy84\n"
 "  Pasi Lallinaho https://launchpad.net/~knome\n"
+"  Phillip Sz https://launchpad.net/~phillip-sz\n"
 "  Tobias Bannert https://launchpad.net/~toba"
