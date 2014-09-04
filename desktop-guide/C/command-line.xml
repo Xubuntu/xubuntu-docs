@@ -29,7 +29,7 @@
 
 		<note><para>If the program you wish to run as an administrator is graphical, such as the <application>Mousepad</application> text editor, run the command prefixed with <code>pkexec</code> in the command line. For example, to run <application>Mousepad</application> with administrative rights, run the command <code>pkexec mousepad /path/to/file</code>.</para></note>
 
-		<note><para>Please note that for an application to run successfully with <application>pkexec</application>, it will need to ship a pkexec policy file. All default applications in Xubuntu that might need to be ran with adminstrative rights come with pkexec policy files.</para></note>
+		<note><para>Please note that for an application to run successfully with <application>pkexec</application>, it will need to ship a pkexec policy file. All default applications in Xubuntu that might need to be ran with administrative rights come with pkexec policy files.</para></note>
 
 		<warning><para>Be careful when using <application>sudo</application>; you might damage your system if you type the wrong command! As a general rule, only use sudo when absolutely necessary. When you use <application>sudo</application> from a terminal, be sure to either close it when you have finished, or type <userinput>exit</userinput> to continue using that terminal with normal access powers.</para></warning>
 
