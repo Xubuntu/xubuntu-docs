@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-09-04 13:50+0300\n"
+"POT-Creation-Date: 2014-09-05 20:53+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2940,7 +2940,7 @@ msgid "When working on the command line, any command can be run as an administra
 msgstr ""
 
 #: desktop-guide/C/command-line.xml:30(para)
-msgid "If the program you wish to run as an administrator is graphical, such as the <application>Mousepad</application> text editor, run the command prefixed with <code>pkexec</code> in the command line. For example, to run <application>Mousepad</application> with administrative rights, run the command <code>pkexec mousepad /path/to/file</code>."
+msgid "If the program you wish to run as an administrator is graphical, such as the <application>Mousepad</application> text editor, run the command prefixed with <userinput>pkexec</userinput> in the command line. For example, to run <application>Mousepad</application> with administrative rights, run the command <userinput>pkexec mousepad /path/to/file</userinput>."
 msgstr ""
 
 #: desktop-guide/C/command-line.xml:32(para)
