@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-03-20 02:49+0200\n"
-"PO-Revision-Date: 2014-09-04 12:24+0000\n"
+"PO-Revision-Date: 2014-09-05 15:52+0000\n"
 "Last-Translator: Tobias Bannert <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-09-05 07:52+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 07:35+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -186,7 +186,7 @@ msgstr "Prozessverwaltung"
 
 #: desktop-guide/C/appendix-packages.xml:29(seg)
 msgid "xfce4-taskmanager"
-msgstr ""
+msgstr "xfce4-taskmanager"
 
 #: desktop-guide/C/appendix-packages.xml:29(seg)
 msgid "Process manager for the Xfce4 Desktop Environment"
@@ -242,7 +242,7 @@ msgstr "network-manager-gnome"
 
 #: desktop-guide/C/appendix-packages.xml:39(seg)
 msgid "Network management framework"
-msgstr ""
+msgstr "Programmiergerüst der Netzwerverwaltung"
 
 #: desktop-guide/C/appendix-packages.xml:40(seg)
 msgid "Additional Drivers"
@@ -263,6 +263,7 @@ msgstr "Anwendungen &amp; Aktualisierungen"
 #: desktop-guide/C/appendix-packages.xml:41(seg)
 msgid "Configure the sources for installable software and updates"
 msgstr ""
+"Quellen zum Installieren von Anwendungen und Aktualisierungen einrichten"
 
 #: desktop-guide/C/appendix-packages.xml:42(seg)
 msgid "Printers"
@@ -274,7 +275,7 @@ msgstr "system-config-printer-gnome"
 
 #: desktop-guide/C/appendix-packages.xml:42(seg)
 msgid "Printer configuration GUI"
-msgstr ""
+msgstr "Grafische Oberfläche zur Einrichtung von Druckern"
 
 #: desktop-guide/C/appendix-packages.xml:46(title)
 msgid "Behind the scenes"
@@ -297,7 +298,7 @@ msgstr "gvfs-fuse"
 
 #: desktop-guide/C/appendix-packages.xml:51(seg)
 msgid "Let non-GNOME apps use GVFS via fuse"
-msgstr ""
+msgstr "Lässt nicht-GNOME Anwendungen GVFS via »fuse« nutzen"
 
 #: desktop-guide/C/appendix-packages.xml:52(seg)
 msgid "libnotify-bin"
@@ -449,6 +450,11 @@ msgid ""
 "released in June, 2006, thus its version number was 6.06. The latest Long "
 "Term Support (LTS) version is 14.04, codenamed Trusty Tahr."
 msgstr ""
+"Die Xubuntu-Versionsnummerierung basiert auf dem Veröffentlichungsdatum der "
+"Distribution. Die erste Zahl steht für das Jahr, die zweite für den Monat. "
+"Die erste offizielle Xubuntu-Version wurde im Juni 2006 veröffentlicht, "
+"demnach ist seine Nummer die 6.06. Die neueste Version mit "
+"Langzeitunterstützung (»LTS«) ist 14.04, mit dem Codenamen »Trusty Tahr«."
 
 #: desktop-guide/C/what-is-xubuntu.xml:47(title)
 msgid "Learn more about what makes Xubuntu"
@@ -474,7 +480,7 @@ msgstr ""
 
 #: desktop-guide/C/what-is-xubuntu.xml:57(title)
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: desktop-guide/C/what-is-xubuntu.xml:58(para)
 msgid ""
@@ -572,6 +578,16 @@ msgid ""
 "the list. You can also rearrange <guilabel>Favorites</guilabel> just by "
 "dragging them."
 msgstr ""
+"Die einfachste und wahrscheinlich nützlichste Anpassung, die Sie am Menü "
+"vornehmen können, ist Ihre  <guilabel>Favoriten</guilabel> anzupassen. Das "
+"zu Erreichen ist einfach; finden Sie die Anwendung, die Sie möchten, klicken "
+"Sie mit der rechten Maustaste auf sie und wählen Sie <guilabel>Zu Favoriten "
+"hinzufügen</guilabel>. Aus dem gleichen Rechtsklick-Menü, können Sie "
+"außerdem wählen, die Anwendung dem Schreibtisch oder Panel hinzuzufügen. Ein "
+"Rechtsklick aus Anwendungen, die bereits in den "
+"<guilabel>Favoriten</guilabel> sind gibt Ihnen die Option, sie zu entfernen "
+"oder die Liste zu sortieren. Sie können die <guilabel>Favoriten</guilabel> "
+"auch einfach durch Ziehen anordnen."
 
 #: desktop-guide/C/settings-preferences.xml:21(para)
 msgid ""
@@ -657,6 +673,10 @@ msgid ""
 "Settings Manager</guimenuitem><guimenuitem>About "
 "Me</guimenuitem></menuchoice></application>."
 msgstr ""
+"Um <application>Mugshot</application> zu starten, navigieren Sie zu "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-"
+"2/>Einstellungsverwaltung</guimenuitem><guimenuitem>Über "
+"mich</guimenuitem></menuchoice></application>."
 
 #: desktop-guide/C/settings-preferences.xml:37(para)
 msgid ""
@@ -685,6 +705,10 @@ msgid ""
 "<application>Pidgin</application> and/or LibreOffice installed, you will be "
 "prompted to update their settings as well."
 msgstr ""
+"Füllen Sie die Textfelder mit den persönlichen Daten und klicken Sie den "
+"Knopf <guibutton>Anwenden</guibutton>. Wenn beim Anwenden der Daten "
+"<application>Pidgin</application> und/oder LibreOffice installiert sind, "
+"werden Sie aufgefordert, deren Einstellungen ebenso zu übernehmen."
 
 #: desktop-guide/C/settings-preferences.xml:43(para)
 msgid ""
@@ -694,6 +718,11 @@ msgid ""
 "your password as a security measure to prevent unwanted updates to your "
 "personal information."
 msgstr ""
+"Wenn die persönlichen Daten in den Textfeldern <guilabel>Vorname</guilabel> "
+"und <guilabel>Nachname</guilabel> von den existierenden Werten in der Datei "
+"<userinput>/etc/passwd</userinput> abweichen, werden Sie gebeten, als "
+"Sicherheitsmaßnahme ihr Passwort einzugeben, um ungewollte Änderungen an "
+"ihren persönlichen Daten zu verhindern."
 
 #: desktop-guide/C/settings-preferences.xml:45(para)
 msgid ""
@@ -730,6 +759,13 @@ msgid ""
 "<menuchoice><guimenuitem>Desktop Settings...</guimenuitem></menuchoice> "
 "option."
 msgstr ""
+"Sie können auf einfache Weise Ihr Hintergrundbild unter "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/>Alle "
+"Einstellungen</guimenuitem><guimenuitem>Schreibtisch</guimenuitem></menuchoic"
+"e></application> ändern, oder alternativ, in dem Sie mit der rechten "
+"Maustaste auf den Bildschirmhintergrund klicken und "
+"<menuchoice><guimenuitem>Schreibtischeinstellungen "
+"…</guimenuitem></menuchoice> wählen."
 
 #: desktop-guide/C/settings-preferences.xml:59(para)
 msgid ""
@@ -774,6 +810,8 @@ msgid ""
 "If you want to set any of your own images as the wallpaper, the easiest way "
 "to achieve this is:"
 msgstr ""
+"Wenn Sie eines Ihrer eigenen Bilder als Bildschirmhintergrund nutzen "
+"möchten, ist der einfachste Weg:"
 
 #: desktop-guide/C/settings-preferences.xml:71(para)
 msgid "Open Thunar and navigate to the directory with the image"
@@ -784,6 +822,9 @@ msgid ""
 "Right-click the image and select <menuchoice><guimenuitem>Set as "
 "wallpaper</guimenuitem></menuchoice> from the context menu"
 msgstr ""
+"Klicken Sie mit der rechten Maustaste auf das Bild und wählen Sie "
+"<menuchoice><guimenuitem>Als Hintergrundbild "
+"verwenden</guimenuitem></menuchoice> aus dem Kontextmenü."
 
 #: desktop-guide/C/settings-preferences.xml:75(para)
 msgid ""
@@ -812,6 +853,9 @@ msgid ""
 "or the applets installed by default, follow the steps below to customize the "
 "panel configuration:"
 msgstr ""
+"Wenn Ihnen die vorgegebenen Einstellungen der Leiste nicht gefallen, wie "
+"etwa die Position oder die vorgebenen Elemente, befolgen Sie die folgende "
+"Schritte um die Leisteneinstellungen anzupassen:"
 
 #: desktop-guide/C/settings-preferences.xml:90(para)
 msgid "Right-click on an empty area of the panel"
@@ -833,10 +877,12 @@ msgid ""
 "In the <guilabel>Display</guilabel> tab, you can control the panel's size "
 "and positioning, including:"
 msgstr ""
+"In dem Reiter <guilabel>Anzeige</guilabel> können Sie die Größe und Position "
+"der Leiste steuern, inklusive:"
 
 #: desktop-guide/C/settings-preferences.xml:95(para)
 msgid "Displaying the panel vertically along either side of the screen"
-msgstr ""
+msgstr "Vertikale Ausrichtung der Leiste oder Anzeige am Bildschirmrand"
 
 #: desktop-guide/C/settings-preferences.xml:96(para)
 msgid ""
@@ -844,30 +890,37 @@ msgid ""
 "panel</guilabel>, grabbing the handle which appears at either side of the "
 "panel and dragging it"
 msgstr ""
+"Verschieben der Leiste an den unteren Rand oder nach rechts, in dem Sie  die "
+"Option <guilabel>Leiste sperren</guilabel> deaktivieren, die Leiste am "
+"Anfassser einem der Ränder der Leiste nehmen und Sie anklicken und ziehen"
 
 #: desktop-guide/C/settings-preferences.xml:97(para)
 msgid "Extending the panel across multiple monitors"
-msgstr ""
+msgstr "Erweitern der Leiste über mehrere Bildschirme"
 
 #: desktop-guide/C/settings-preferences.xml:99(para)
 msgid ""
 "In the <guilabel>Appearance</guilabel> tab, you can pick another background "
 "for the panel and regulate its transparency"
 msgstr ""
+"Im Reiter <guilabel>Erscheinungsbild</guilabel> können Sie ein anderes "
+"Hintergrundbild für die Leiste wählen und Ihre Deckkraft regeln"
 
 #: desktop-guide/C/settings-preferences.xml:100(para)
 msgid ""
 "In the <guilabel>Items</guilabel> tab, you can add, remove and rearrange "
 "panel applets and other items"
 msgstr ""
+"In dem Reiter <guilabel>Objekte</guilabel> können Sie Erweiterungen und "
+"andere Objekte hinzufügen, entfernen und neu anordnen"
 
 #: desktop-guide/C/settings-preferences.xml:105(title)
 msgid "Changing your desktop themes"
-msgstr ""
+msgstr "Ändern der Themen der Arbeitsumgebung"
 
 #: desktop-guide/C/settings-preferences.xml:107(para)
 msgid "There are three types of desktop themes:"
-msgstr ""
+msgstr "Es gibt drei Arten von Themen für die Arbeitsumgebung:"
 
 #: desktop-guide/C/settings-preferences.xml:110(para)
 msgid ""
@@ -879,6 +932,12 @@ msgid ""
 "<guilabel>Style</guilabel> tab, select a new theme to change the window "
 "borders appearance."
 msgstr ""
+"xfwm-Themen. Diese steuern, wie Ihre Fensterränder aussehen. Um Ihr xfwm-"
+"Thema zu ändern, gehen Sie zu <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/>Alle "
+"Einstellungen</guimenuitem><guimenuitem>Fensterverwaltung</guimenuitem></menu"
+"choice></application>. Wählen Sie im Reiter <guilabel>Stil</guilabel> ein "
+"neues Thema, um das Erscheinungsbild der Fensterränder zu ändern."
 
 #: desktop-guide/C/settings-preferences.xml:113(para)
 msgid ""
@@ -890,6 +949,14 @@ msgid ""
 "change the window content appearance. The tool <application>gtk-theme-"
 "config</application> will also allow you to customize your window look."
 msgstr ""
+"GTK-Themen. Diese steuern, wie der Inhalt der Fenster aussieht. Um Ihr GTK-"
+"Thema zu ändern, gehen Sie zu <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/>Alle "
+"Einstellungen</guimenuitem><guimenuitem>Erscheinungsbild</guimenuitem></menuc"
+"hoice></application>. In dem Reiter <guilabel>Oberfläche</guilabel> können "
+"Sie ein neues Thema wählen, um das Erscheinungsbild der Fensterinhalte zu "
+"ändern. Das Werkzeug <application>gtk-theme-config</application> ermöglicht "
+"auch die Anpassung des Aussehens von Fenstern."
 
 #: desktop-guide/C/settings-preferences.xml:116(para)
 msgid ""
@@ -901,6 +968,14 @@ msgid ""
 "change the icon appearance. Note that not all icon sets will work well with "
 "dark panel/window backgrounds!"
 msgstr ""
+"Symbol-Themen. Diese steuern, wie Ihre Symbole aussehen. Um Ihr Symbol-Thema "
+"zu ändern, gehen Sie zu <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/>Alle "
+"Einstellungen</guimenuitem><guimenuitem>Erscheinungsbild</guimenuitem></menuc"
+"hoice></application>. In dem Reiter <guilabel>Symbole</guilabel> können Sie "
+"ein neues Thema wählen, um das Erscheinungsbild der Symbole zu ändern. "
+"Beachten Sie, dass nicht alle Symbol-Sätze mit dunklen Leisten-/Fenster-"
+"Hintergründen funktionieren!"
 
 #: desktop-guide/C/settings-preferences.xml:122(para)
 msgid ""
@@ -921,30 +996,36 @@ msgstr ""
 
 #: desktop-guide/C/settings-preferences.xml:132(para)
 msgid "xfwm and GTK themes:"
-msgstr ""
+msgstr "xfwm und GTK-Themen:"
 
 #: desktop-guide/C/settings-preferences.xml:134(para)
 msgid ""
 "<filename><placeholder-1/> /home/username/.themes/</filename> (this user "
 "only)"
 msgstr ""
+"<filename><placeholder-1/> /home/Benutzername/.themes/</Dateiname> (nur "
+"dieser Benutzer)"
 
 #: desktop-guide/C/settings-preferences.xml:135(para)
 msgid "<filename><placeholder-1/> /usr/share/themes/</filename> (all users)"
 msgstr ""
+"<filename><placeholder-1/> /usr/share/themes/</Dateiname> (alle Benutzer)"
 
 #: desktop-guide/C/settings-preferences.xml:138(para)
 msgid "Icon themes:"
-msgstr ""
+msgstr "Symbol-Thema:"
 
 #: desktop-guide/C/settings-preferences.xml:140(para)
 msgid ""
 "<filename><placeholder-1/> /home/username/.icons/</filename> (this user only)"
 msgstr ""
+"<filename><placeholder-1/> /home/Benutzername/.icons/</Dateiname> (nur "
+"dieser Benutzer)"
 
 #: desktop-guide/C/settings-preferences.xml:141(para)
 msgid "<filename><placeholder-1/> /usr/share/icons/</filename> (all users)"
 msgstr ""
+"<filename><placeholder-1/> /usr/share/icons/</Dateiname> (alle Benutzer)"
 
 #: desktop-guide/C/settings-preferences.xml:147(para)
 msgid ""
@@ -987,6 +1068,11 @@ msgid ""
 "application to share the printer with other computers on a network, disable "
 "the printer or restart it."
 msgstr ""
+"Die meisten Drucker werden automatisch von Xubuntu unterstützt. Die "
+"Anwendung <application>Drucker</application> ermöglicht es Ihnen, Drucker "
+"hinzuzufügen und Ihre Einstellungen zu verändern. Sie können diese Anwendung "
+"auch verwenden um den Drucker mit anderen Computern im Netzwerk zu teilen, "
+"den Drucker zu deaktivieren oder ihn neu zu starten."
 
 #: desktop-guide/C/printing-scanning.xml:20(title)
 msgid "Local printing"
@@ -1003,6 +1089,15 @@ msgid ""
 "<guilabel>Printer is ready for printing</guilabel>. If your printer was not "
 "detected after a few moments, then you will need to follow these steps:"
 msgstr ""
+"Ein lokaler Drucker ist direkt mit Ihrem Rechner verbunden (im Gegensatz zu "
+"einem Netzwerkdrucker, welcher in <xref linkend=\"printing-network\"/>) "
+"behandelt wird. Um einen neuen lokalen Drucker einzurichten, schließen Sie "
+"Ihren Drucker an Ihren Rechner an und schalten Sie ihn ein. Die meisten "
+"Drucker werden automatisch erkannt und konfiguriert. Sobald der Drucker "
+"erkannt wurde, wird ein Druckersymbol im Benachrichtigungsbereich erscheinen "
+"und nach kurzer Zeit sollte ein Popup mit dem Text <guilabel>Drucker ist "
+"bereit</guilabel> erscheinen. Wenn Ihr Drucker nicht nach kurzer Zeit "
+"erkannt wurde, befolgen Sie diese Schritte:"
 
 #: desktop-guide/C/printing-scanning.xml:25(para) desktop-guide/C/printing-scanning.xml:47(para)
 msgid "Obtain the model name of your printer"
@@ -1019,6 +1114,10 @@ msgid ""
 "Manager</guimenuitem><guimenuitem>Printers</guimenuitem></menuchoice></applic"
 "ation>"
 msgstr ""
+"Gehen Sie zu <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/>Alle "
+"Einstellungen</guimenuitem><guimenuitem>Drucker</guimenuitem></menuchoice></a"
+"pplication>"
 
 #: desktop-guide/C/printing-scanning.xml:28(para) desktop-guide/C/printing-scanning.xml:50(para)
 msgid ""
@@ -1041,24 +1140,27 @@ msgstr ""
 #: desktop-guide/C/printing-scanning.xml:30(para)
 msgid "Select your printer and click <guibutton>Forward</guibutton>"
 msgstr ""
+"Wählen Sie Ihren Drucker und klicken Sie den Knopf <guibutton>Vor</guibutton>"
 
 #: desktop-guide/C/printing-scanning.xml:31(para)
 msgid "Your computer will search for and install drivers for your printer"
-msgstr ""
+msgstr "Ihr Rechner wird nach Druckertreibern suchen und diese installieren."
 
 #: desktop-guide/C/printing-scanning.xml:32(para)
 msgid "You can enter a description and location for your printer"
-msgstr ""
+msgstr "Sie können eine Beschreibung und einen Ort für den Drucker eingeben"
 
 #: desktop-guide/C/printing-scanning.xml:33(para) desktop-guide/C/printing-scanning.xml:57(para)
 msgid "Press <guibutton>Apply</guibutton>"
-msgstr ""
+msgstr "Klicken Sie auf den Knopf <guibutton>Anwenden</guibutton>"
 
 #: desktop-guide/C/printing-scanning.xml:34(para)
 msgid ""
 "Your printer should be properly configured at this point and you will be "
 "prompted if you want to print a test page"
 msgstr ""
+"Ihr Drucker sollte nun ordnungsgemäß eingerichtet sein und Sie werden "
+"gefragt, ob Sie eine Testseite drucken möchten"
 
 #: desktop-guide/C/printing-scanning.xml:35(para)
 msgid ""
@@ -1066,6 +1168,11 @@ msgid ""
 "will print and you can verify if it printed correctly, or you can press "
 "<guibutton>Cancel</guibutton>. Either way, your printer is ready to print."
 msgstr ""
+"Wenn Sie den Knopf <guibutton>Testseite drucken</guibutton> klicken, wird "
+"eine Testseite gedruckt und Sie können überprüfen, dass die Seite korrekt "
+"ausgedruckt wurde. Sie können auch den Knopf "
+"<guibutton>Abbrechen</guibutton> klicken. So oder so – Ihr Drucker ist nun "
+"bereit zum drucken."
 
 #: desktop-guide/C/printing-scanning.xml:36(para)
 msgid ""
@@ -1095,6 +1202,10 @@ msgid ""
 "print server. Remote printers are hosted somewhere on a network. To "
 "configure a remote printer:"
 msgstr ""
+"Sie können Ihr Xubuntu-System auch so konfigurieren, dass Ihre Druckaufträge "
+"über einen entfernten Drucker-Server ausgedruckt werden. Entfernte Drucker "
+"befinden sich irgendwo in einem Netzwerk. Um einen entfernten Drucker zu "
+"konfigurieren:"
 
 #: desktop-guide/C/printing-scanning.xml:51(para)
 msgid ""
@@ -1108,6 +1219,10 @@ msgid ""
 "choose <guilabel>Windows Printer via SAMBA</guilabel>. Otherwise, select the "
 "protocol your printer uses to communicate."
 msgstr ""
+"Wenn Ihr Drucker im Netzwerk direkt an einen Rechner mit Windows-"
+"Betriebssystem angeschlossen ist, wählen Sie <guilabel>Windows-Drucker über "
+"SAMBA</guilabel>. Andernfalls wählen Sie das von Ihrem Drucker verwendete "
+"Protokoll."
 
 #: desktop-guide/C/printing-scanning.xml:53(para)
 msgid ""
@@ -1166,6 +1281,10 @@ msgid ""
 "install and operate. This section will walk you through how to use your "
 "scanner and what to do if Xubuntu does not detect your scanner."
 msgstr ""
+"Viele Scanner werden automatisch von Xubuntu unterstützt und sollten einfach "
+"zu installieren und betreiben sein. Dieser Abschnitt wird mit Ihnen Schritt "
+"für Schritt durchgehen wie Sie Ihren Scanner benutzen und was Sie tun müssen "
+"falls Xubuntu ihn nicht erkennt."
 
 #: desktop-guide/C/printing-scanning.xml:73(title)
 msgid "Does my scanner work in Xubuntu?"
@@ -1174,12 +1293,16 @@ msgstr "Funktioniert mein Scanner mit Xubuntu?"
 #: desktop-guide/C/printing-scanning.xml:75(para)
 msgid "There are three ways to see if you scanner works in Xubuntu:"
 msgstr ""
+"Es gibt drei Möglichkeiten herauszufinden, ob Ihr Scanner mit Xubuntu "
+"funktioniert."
 
 #: desktop-guide/C/printing-scanning.xml:78(para)
 msgid ""
 "Simply plug it in and try it! If it is a newer USB scanner, it is likely "
 "that it will just work."
 msgstr ""
+"Schließen Sie Ihn einfach an und probieren Sie es aus! Wenn es ein neuerer "
+"USB-Scanner ist, wird er wahrscheinlich einfach so funktionieren."
 
 #: desktop-guide/C/printing-scanning.xml:79(para)
 msgid ""
@@ -1205,7 +1328,7 @@ msgstr "Um ein Dokument zu scannen:"
 
 #: desktop-guide/C/printing-scanning.xml:90(para)
 msgid "Place what you want to scan on the scanner"
-msgstr ""
+msgstr "Legen Sie den Gegenstand, den Sie scannen wollen auf den Scanner"
 
 #: desktop-guide/C/printing-scanning.xml:91(para)
 msgid ""
@@ -1213,6 +1336,9 @@ msgid ""
 "1/><guisubmenu>Graphics</guisubmenu><guimenuitem>Simple "
 "Scan</guimenuitem></menuchoice></application>"
 msgstr ""
+"Gehen Sie zu <application><menuchoice><placeholder-"
+"1/><guisubmenu>Grafik</guisubmenu><guimenuitem>Simple "
+"Scan</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/printing-scanning.xml:92(para)
 msgid ""
@@ -1231,7 +1357,7 @@ msgstr ""
 
 #: desktop-guide/C/printing-scanning.xml:98(title)
 msgid "The computer says \"No scanners detected\""
-msgstr ""
+msgstr "Der Rechner sagt »Kein Scanner gefunden«"
 
 #: desktop-guide/C/printing-scanning.xml:100(para)
 msgid "There are two reasons why you might get this message:"
@@ -1242,6 +1368,9 @@ msgid ""
 "Your scanner is not supported in Xubuntu. For example, most parallel port "
 "scanners and Lexmark All-in-One printer/scanner/faxes are not supported."
 msgstr ""
+"Ihr Gerät wird von Xubuntu nicht unterstützt. Es werden zum Beispiel die "
+"meisten Geräte mit Parallel-Anschluss und die meisten Multifunktions-Geräte "
+"von Lexmark nicht unterstützt."
 
 #: desktop-guide/C/printing-scanning.xml:104(para)
 msgid "The driver for your scanner is not being loaded automatically"
@@ -1263,7 +1392,7 @@ msgstr ""
 
 #: desktop-guide/C/printing-scanning.xml:113(title)
 msgid "Manually installing a scanner"
-msgstr ""
+msgstr "Manuelle Installation eines Scanners"
 
 #: desktop-guide/C/printing-scanning.xml:115(para)
 msgid ""
@@ -1505,27 +1634,27 @@ msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:21(segtitle)
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: desktop-guide/C/migrating-upgrading.xml:21(segtitle)
 msgid "Xubuntu"
-msgstr ""
+msgstr "Xubuntu"
 
 #: desktop-guide/C/migrating-upgrading.xml:22(seg)
 msgid "Add/Remove Programs"
-msgstr ""
+msgstr "Programme hinzufügen/entfernen"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "Ubuntu Software Center"
-msgstr ""
+msgstr "Ubuntu Software-Center"
 
 #: desktop-guide/C/migrating-upgrading.xml:23(seg)
 msgid "Control Panel"
-msgstr ""
+msgstr "Systemsteuerung"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "<placeholder-1/> Settings Manager"
-msgstr ""
+msgstr "<placeholder-1/> Alle Einstellungen"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "System (menu)"
@@ -1541,23 +1670,23 @@ msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:24(seg)
 msgid "Windows Explorer"
-msgstr ""
+msgstr "Windows Explorer"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guisubmenu)
 msgid "Accessories"
-msgstr ""
+msgstr "Zubehör"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "File Manager"
-msgstr ""
+msgstr "Dateimanager"
 
 #: desktop-guide/C/migrating-upgrading.xml:25(seg)
 msgid "My Documents"
-msgstr ""
+msgstr "Meine Dokumente"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(filename)
 msgid "<placeholder-1/> /home/username/"
-msgstr ""
+msgstr "<placeholder-1/> /home/Nutzername/"
 
 #: desktop-guide/C/migrating-upgrading.xml:30(title)
 msgid "Windows applications on Linux"
@@ -1636,11 +1765,11 @@ msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:54(title)
 msgid "Upgrading from an older version of Xubuntu"
-msgstr ""
+msgstr "Aktualisierung von einer älteren Xubuntu-Version"
 
 #: desktop-guide/C/migrating-upgrading.xml:57(title)
 msgid "How can I upgrade to the latest version of Xubuntu?"
-msgstr ""
+msgstr "Wie kann ich auf die neueste Xubuntu-Version aktualisieren?"
 
 #: desktop-guide/C/migrating-upgrading.xml:59(para)
 msgid ""
@@ -1912,6 +2041,9 @@ msgid ""
 "Unfortunately, DVD support cannot be provided by default in Xubuntu due to "
 "legal restrictions in some countries."
 msgstr ""
+"Um DVDs abzuspielen müssen Sie einige zusätzliche Software installieren. "
+"Leider kann die DVD-Wiedergabe in Xubuntu, aufgrund rechtlicher "
+"Einschränkungen in einigen Ländern nicht standardmäßig unterstützt werden."
 
 #: desktop-guide/C/media-apps.xml:73(para)
 msgid "To be able to play DVDs, do the following:"
@@ -1947,6 +2079,8 @@ msgid ""
 "Insert a DVD into your drive. It should open automatically in the "
 "<application>Parole Media Player</application>."
 msgstr ""
+"Legen Sie eine DVD in ihr Laufwerk. Sie sollte automatisch in dem "
+"<application>Parole Medienspieler</application> geöffnet werden."
 
 #: desktop-guide/C/media-apps.xml:84(title)
 msgid "Playing video"
@@ -2387,7 +2521,7 @@ msgstr ""
 
 #: desktop-guide/C/managing-applications.xml:144(title)
 msgid "Notifications of new Xubuntu versions"
-msgstr ""
+msgstr "Benachrichtigung über neue Xubuntu-Versionen"
 
 #: desktop-guide/C/managing-applications.xml:146(para)
 msgid ""
@@ -2528,7 +2662,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:48(title)
 msgid "Sharing your connection to another computer"
-msgstr ""
+msgstr "Freigeben ihrer Verbindung für einen anderen Rechner"
 
 #: desktop-guide/C/internet-networks.xml:50(para)
 msgid ""
@@ -2722,7 +2856,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:127(title)
 msgid "Wireless troubleshooting"
-msgstr ""
+msgstr "Problembehebung bei drahtlosen Netzwerken"
 
 #: desktop-guide/C/internet-networks.xml:129(para)
 msgid ""
@@ -3007,7 +3141,7 @@ msgstr ""
 
 #: desktop-guide/C/index.xml:23(para)
 msgid "Sean Davis (smd-seandavis)"
-msgstr ""
+msgstr "Sean Davis (smd-seandavis)"
 
 #: desktop-guide/C/index.xml:24(para)
 msgid "Kev (elfy)"
@@ -3019,7 +3153,7 @@ msgstr "Jack Fromm (jjfrv8-gmail)"
 
 #: desktop-guide/C/index.xml:26(para)
 msgid "Elizabeth Krumbach (lyz)"
-msgstr ""
+msgstr "Elizabeth Krumbach (lyz)"
 
 #: desktop-guide/C/index.xml:27(para)
 msgid "Stephen Michael Kellat (skellat)"
@@ -3089,12 +3223,19 @@ msgid ""
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE AS DESCRIBED IN THE DISCLAIMER."
 msgstr ""
+"Dieses Dokument wurde in der Hoffnung herausgegeben, dass es sich als "
+"nützlich und hilfreich erweisen wird. Dies beinhaltet jedoch keine "
+"Gewährleistung, weder ausdrücklich noch implizit, einschließlich – aber "
+"nicht begrenzt auf – Marktreife oder Verwendbarkeit für einen bestimmten "
+"Zweck, wie im Haftungsausschluss beschrieben."
 
 #: desktop-guide/C/index.xml:52(para)
 msgid ""
 "A copy of the license is available here: <link linkend=\"cc-by-sa\">Creative "
 "Commons ShareAlike License</link>."
 msgstr ""
+"Eine Kopie der Lizenzbedingungen findet sich unter: <link linkend=\"cc-by-"
+"sa\">Creative Commons ShareAlike License</link>."
 
 #: desktop-guide/C/index.xml:53(para)
 msgid ""
@@ -3120,7 +3261,7 @@ msgstr "Canonical Ltd. und Mitglieder des Xubuntu Documentation Teams."
 
 #: desktop-guide/C/index.xml:64(publishername)
 msgid "The Ubuntu Documentation Project"
-msgstr ""
+msgstr "Das Ubuntu Dokumentationsprojekt"
 
 #: desktop-guide/C/index.xml:67(title)
 msgid "Welcome!"
@@ -3269,6 +3410,8 @@ msgid ""
 "If a restricted driver is causing problems, or you would just like to turn "
 "it off, follow the procedure below:"
 msgstr ""
+"Wenn ein eingeschränkter Treiber Probleme verursacht oder Sie ihn einfach "
+"deaktivieren möchten, folgen Sie bitte folgender Vorgehensweise:"
 
 #: desktop-guide/C/hardware-devices.xml:55(para)
 msgid "Click on the <guilabel>Additional Drivers</guilabel> tab."
@@ -3591,6 +3734,8 @@ msgid ""
 "Here you can change the touchpad settings to your liking. Changes should "
 "take effect immediately."
 msgstr ""
+"Hier können Sie die Einstellungen für das Touchpad nach Ihren Wünschen "
+"ändern. Änderungen werden sofort übernommen."
 
 #: desktop-guide/C/hardware-devices.xml:186(para)
 msgid ""
@@ -3622,13 +3767,15 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:197(title)
 msgid "Suspending and Hibernating"
-msgstr ""
+msgstr "Ruhezustand (auch: Bereitschaft bzw. Stand-By) und Tiefschlafmodus"
 
 #: desktop-guide/C/hardware-devices.xml:199(para)
 msgid ""
 "In order to save power, you can put your computer into one of a number of "
 "power-saving modes when you are not using it:"
 msgstr ""
+"Um Energie zu sparen, können Sie ihren Rechner in einen von vielen "
+"Energiesparmodi versetzen, wenn Sie Ihn gerade nicht benutzen:"
 
 #: desktop-guide/C/hardware-devices.xml:202(para)
 msgid ""
@@ -3699,22 +3846,32 @@ msgstr ""
 #: desktop-guide/C/hardware-devices.xml:220(para)
 msgid "The computer does not turn off after you click to hibernate it."
 msgstr ""
+"Der Rechner schaltet sich nicht aus, nachdem Sie ihn in den Ruhezustand "
+"versetzt haben."
 
 #: desktop-guide/C/hardware-devices.xml:221(para)
 msgid ""
 "When you turn the computer on after hibernating it, your previously open "
 "programs are not restored."
 msgstr ""
+"Wenn Sie Ihren Rechner einschalten, nachdem Sie ihn in den Ruhezustand "
+"versetzt haben, werden Ihre zuvor geöffneten Programme nicht wieder "
+"hergestellt."
 
 #: desktop-guide/C/hardware-devices.xml:222(para)
 msgid "The computer will not wake up after you have suspended it."
 msgstr ""
+"Der Rechner wacht nicht mehr auf, nachdem Sie ihn in Bereitschaft versetzt "
+"haben."
 
 #: desktop-guide/C/hardware-devices.xml:223(para)
 msgid ""
 "Certain programs or hardware devices stop working correctly after resuming "
 "from hibernation or waking-up from being suspended."
 msgstr ""
+"Einige Programme oder einige Hardwarekomponenten arbeiten nicht mehr "
+"richtig, nachdem der Rechner aus dem Tiefschlaf oder dem Ruhezustand "
+"aufgewacht ist."
 
 #: desktop-guide/C/hardware-devices.xml:226(para)
 msgid ""
@@ -3731,6 +3888,8 @@ msgid ""
 "Make sure that you save all of your open documents before testing for "
 "suspend and hibernate problems."
 msgstr ""
+"Stellen Sie sicher, dass Sie alle Ihre offenen Dokumente gesichert haben, "
+"bevor Sie den Ruhezustand oder den Bereitschaftsmodus ausprobieren."
 
 #: desktop-guide/C/hardware-devices.xml:232(title)
 msgid "Enabling hibernation"
@@ -3776,7 +3935,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:253(title)
 msgid "Mice and keyboards"
-msgstr ""
+msgstr "Mäuse und Tastaturen"
 
 #: desktop-guide/C/hardware-devices.xml:255(para)
 msgid ""
@@ -3812,7 +3971,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:263(guilabel)
 msgid "Cursor theme"
-msgstr ""
+msgstr "Mauszeiger"
 
 #: desktop-guide/C/hardware-devices.xml:266(para)
 msgid "Some of the options for configuring your keyboard include:"
@@ -3876,15 +4035,15 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:19(para)
 msgid "Keep your software up-to-date"
-msgstr ""
+msgstr "Halten Sie Ihre Software aktuell"
 
 #: desktop-guide/C/guide-keeping-safe.xml:20(para) desktop-guide/C/guide-keeping-safe.xml:62(title)
 msgid "Lock your screen while away"
-msgstr ""
+msgstr "Sperren Sie Ihren Bildschirm während Ihrer Abwesenheit"
 
 #: desktop-guide/C/guide-keeping-safe.xml:21(para) desktop-guide/C/guide-keeping-safe.xml:79(title)
 msgid "Set up a firewall"
-msgstr ""
+msgstr "Richten Sie eine Firewall ein"
 
 #: desktop-guide/C/guide-keeping-safe.xml:22(para) desktop-guide/C/guide-keeping-safe.xml:101(title)
 msgid "Use common sense when working in the web"
@@ -4062,21 +4221,31 @@ msgid ""
 "Only download and run software from sources that you trust. By default, you "
 "can only download software directly from Xubuntu."
 msgstr ""
+"Laden Sie nur Software herunter, und führen Sie aus, wenn Sie der Quelle "
+"vertrauen. Standardmäßig können Sie nur Software direkt von Xubuntu "
+"herunterladen."
 
 #: desktop-guide/C/guide-keeping-safe.xml:122(para)
 msgid ""
 "Unwanted (unsolicited) mail tends to fall in to one of several categories:"
 msgstr ""
+"Ungewollte – also nicht angeforderte – E-Mails lassen sich meistens in eine "
+"der folgenden Kategorien einordnen:"
 
 #: desktop-guide/C/guide-keeping-safe.xml:125(para)
 msgid "Spam (junk) email, where people offer unwanted services and products"
 msgstr ""
+"Unerwünschte Werbe-E-Mails (Spam), in denen ungefragt für Dienstleistungen "
+"und Produkte geworben wird."
 
 #: desktop-guide/C/guide-keeping-safe.xml:127(para)
 msgid ""
 "Scam emails, where people pretend to ask for help in exchange for large sums "
 "of money"
 msgstr ""
+"Betrüger-E-Mails (»Scam«), in welchen Sie Personen, unter dem Vorwand einer "
+"erfundenen Geschichte, um Hilfe oder Geld bitten und Ihnen oft große "
+"Geldsummen in Aussicht stellen."
 
 #: desktop-guide/C/guide-keeping-safe.xml:129(para)
 msgid ""
@@ -4148,13 +4317,15 @@ msgstr ""
 
 #: desktop-guide/C/guide-desktop.xml:19(title)
 msgid "Desktop"
-msgstr ""
+msgstr "Arbeitsumgebung"
 
 #: desktop-guide/C/guide-desktop.xml:21(para)
 msgid ""
 "The Xubuntu desktop has a single panel which is located at the top of the "
 "screen."
 msgstr ""
+"Die Xubuntu-Arbeitsumgebung hat eine einzelne Leiste, welche sich am oberen "
+"Rand des Bildschirms befindet."
 
 #: desktop-guide/C/guide-desktop.xml:24(title)
 msgid "The Panel"
@@ -4191,7 +4362,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-desktop.xml:34(title)
 msgid "The Desktop"
-msgstr ""
+msgstr "Der Schreibtisch"
 
 #: desktop-guide/C/guide-desktop.xml:36(para)
 msgid ""
@@ -4206,7 +4377,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-desktop.xml:46(title)
 msgid "Files and directories"
-msgstr ""
+msgstr "Dateien und Verzeichnisse"
 
 #: desktop-guide/C/guide-desktop.xml:48(para)
 msgid ""
@@ -4221,7 +4392,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-desktop.xml:54(title)
 msgid "Navigation"
-msgstr ""
+msgstr "Navigation"
 
 #: desktop-guide/C/guide-desktop.xml:56(para)
 msgid ""
@@ -4303,7 +4474,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-desktop.xml:103(title)
 msgid "Copying"
-msgstr ""
+msgstr "Kopieren"
 
 #: desktop-guide/C/guide-desktop.xml:105(para)
 msgid ""
@@ -4313,7 +4484,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-desktop.xml:110(title)
 msgid "Removable devices"
-msgstr ""
+msgstr "Wechseldatenträger"
 
 #: desktop-guide/C/guide-desktop.xml:112(para)
 msgid ""
@@ -4375,7 +4546,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-default-apps.xml:15(title)
 msgid "Graphics"
-msgstr ""
+msgstr "Grafik"
 
 #: desktop-guide/C/guide-default-apps.xml:17(para)
 msgid ""
@@ -4403,7 +4574,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-default-apps.xml:25(title)
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #: desktop-guide/C/guide-default-apps.xml:27(para)
 msgid ""
@@ -4437,7 +4608,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-default-apps.xml:35(title)
 msgid "Media"
-msgstr ""
+msgstr "Multimedia"
 
 #: desktop-guide/C/guide-default-apps.xml:37(para)
 msgid ""
@@ -4482,7 +4653,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-default-apps.xml:51(title)
 msgid "Office"
-msgstr ""
+msgstr "Büro"
 
 #: desktop-guide/C/guide-default-apps.xml:53(para)
 msgid ""
@@ -4529,7 +4700,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-default-apps.xml:67(title)
 msgid "System"
-msgstr ""
+msgstr "System"
 
 #: desktop-guide/C/guide-default-apps.xml:69(para)
 msgid ""
@@ -4548,7 +4719,7 @@ msgstr ""
 
 #: desktop-guide/C/command-line.xml:12(title)
 msgid "The command line"
-msgstr ""
+msgstr "Die Befehlszeile"
 
 #: desktop-guide/C/command-line.xml:14(para)
 msgid ""
@@ -4634,15 +4805,15 @@ msgstr ""
 
 #: desktop-guide/C/command-line.xml:46(segtitle)
 msgid "Command"
-msgstr ""
+msgstr "Befehl"
 
 #: desktop-guide/C/command-line.xml:46(segtitle)
 msgid "What it does?"
-msgstr ""
+msgstr "Was es macht?"
 
 #: desktop-guide/C/command-line.xml:46(segtitle)
 msgid "Syntax"
-msgstr ""
+msgstr "Syntax"
 
 #: desktop-guide/C/command-line.xml:47(userinput)
 #, no-wrap
@@ -4672,7 +4843,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:48(userinput)
 #, no-wrap
 msgid "apt-get"
-msgstr ""
+msgstr "apt-get"
 
 #: desktop-guide/C/command-line.xml:48(seg)
 msgid ""
@@ -4689,7 +4860,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:49(userinput)
 #, no-wrap
 msgid "cat"
-msgstr ""
+msgstr "cat"
 
 #: desktop-guide/C/command-line.xml:49(seg)
 msgid "Joins (concatenates) two or more files"
@@ -4703,11 +4874,11 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:50(userinput)
 #, no-wrap
 msgid "cd"
-msgstr ""
+msgstr "cd"
 
 #: desktop-guide/C/command-line.xml:50(seg)
 msgid "Changes to another directory"
-msgstr ""
+msgstr "Wechselt in ein anderes Verzeichnis"
 
 #: desktop-guide/C/command-line.xml:50(userinput)
 #, no-wrap
@@ -4717,7 +4888,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:51(userinput)
 #, no-wrap
 msgid "cp"
-msgstr ""
+msgstr "cp"
 
 #: desktop-guide/C/command-line.xml:51(seg)
 msgid "Copies a file (or files) to a directory or to overwrite another file"
@@ -4731,7 +4902,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:52(userinput)
 #, no-wrap
 msgid "date"
-msgstr ""
+msgstr "date"
 
 #: desktop-guide/C/command-line.xml:52(seg)
 msgid ""
@@ -4761,7 +4932,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:54(userinput)
 #, no-wrap
 msgid "grep"
-msgstr ""
+msgstr "grep"
 
 #: desktop-guide/C/command-line.xml:54(seg)
 msgid "Searches strings or files"
@@ -4780,12 +4951,12 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:55(userinput)
 #, no-wrap
 msgid "kill"
-msgstr ""
+msgstr "kill"
 
 #: desktop-guide/C/command-line.xml:55(userinput)
 #, no-wrap
 msgid "pidof"
-msgstr ""
+msgstr "pidof"
 
 #: desktop-guide/C/command-line.xml:55(seg)
 msgid ""
@@ -4801,7 +4972,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:56(userinput)
 #, no-wrap
 msgid "killall"
-msgstr ""
+msgstr "killall"
 
 #: desktop-guide/C/command-line.xml:56(seg)
 msgid "Much like the one above, except you specify the programs name"
@@ -4815,7 +4986,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:57(userinput)
 #, no-wrap
 msgid "less"
-msgstr ""
+msgstr "less"
 
 #: desktop-guide/C/command-line.xml:57(seg)
 msgid "Shows the contents of a text file"
@@ -4829,7 +5000,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:58(userinput)
 #, no-wrap
 msgid "ls"
-msgstr ""
+msgstr "ls"
 
 #: desktop-guide/C/command-line.xml:58(seg)
 msgid ""
@@ -4845,7 +5016,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:59(userinput)
 #, no-wrap
 msgid "man"
-msgstr ""
+msgstr "man"
 
 #: desktop-guide/C/command-line.xml:59(seg)
 msgid "Shows help about a command"
@@ -4859,7 +5030,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:60(userinput)
 #, no-wrap
 msgid "mv"
-msgstr ""
+msgstr "mv"
 
 #: desktop-guide/C/command-line.xml:60(seg)
 msgid "Moves or renames a file"
@@ -4873,7 +5044,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:61(userinput)
 #, no-wrap
 msgid "rm"
-msgstr ""
+msgstr "rm"
 
 #: desktop-guide/C/command-line.xml:61(seg)
 msgid ""
@@ -4894,7 +5065,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:62(userinput)
 #, no-wrap
 msgid "wget"
-msgstr ""
+msgstr "wget"
 
 #: desktop-guide/C/command-line.xml:62(userinput)
 #, no-wrap
@@ -4915,7 +5086,7 @@ msgstr ""
 
 #: desktop-guide/C/administrative-tasks.xml:12(title)
 msgid "Administrative tasks"
-msgstr ""
+msgstr "Administrative Aufgaben"
 
 #: desktop-guide/C/administrative-tasks.xml:14(para)
 msgid ""
@@ -4924,6 +5095,10 @@ msgid ""
 "created during installation will, by default, be able to perform "
 "administrative tasks."
 msgstr ""
+"Aus Sicherheitsgründen können administrative Aufgaben in Xubuntu nur von "
+"Benutzern mit speziellen Administrationsrechten ausgeführt werden. "
+"Standardmäßig kann der erste bei der Installation erstellte Benutzer "
+"administrative Aufgaben durchführen."
 
 #: desktop-guide/C/administrative-tasks.xml:16(para)
 msgid ""
@@ -4938,6 +5113,8 @@ msgid ""
 "Each time you type your password, the system remembers it for 15 minutes so "
 "that you do not have to type it again."
 msgstr ""
+"Jedes Mal, wenn Sie Ihr Passwort eingeben, wird es 15 Minuten lang "
+"gespeichert, damit Sie es nicht nochmals eingeben müssen."
 
 #: desktop-guide/C/administrative-tasks.xml:20(para)
 msgid ""
@@ -4948,7 +5125,7 @@ msgstr ""
 
 #: desktop-guide/C/administrative-tasks.xml:23(title)
 msgid "Users and groups"
-msgstr ""
+msgstr "Benutzer und Gruppen"
 
 #: desktop-guide/C/administrative-tasks.xml:25(para)
 msgid ""
@@ -4972,11 +5149,11 @@ msgstr ""
 
 #: desktop-guide/C/administrative-tasks.xml:32(title)
 msgid "Managing users"
-msgstr ""
+msgstr "Benutzer verwalten"
 
 #: desktop-guide/C/administrative-tasks.xml:34(para)
 msgid "To add a new user:"
-msgstr ""
+msgstr "So fügen Sie einen neuen Benutzer hinzu:"
 
 #: desktop-guide/C/administrative-tasks.xml:37(para) desktop-guide/C/administrative-tasks.xml:64(para)
 msgid "Click the <guibutton>Add</guibutton> button"
@@ -5032,10 +5209,12 @@ msgid ""
 "To remove a user from the system, select the user you want to delete and "
 "click the <guibutton>Delete</guibutton> button."
 msgstr ""
+"Um einen Benutzer aus dem System zu entfernen, wählen Sie den zu löschenden "
+"Benutzer und klicken Sie den Knopf <guibutton>Löschen</guibutton>."
 
 #: desktop-guide/C/administrative-tasks.xml:58(title)
 msgid "Managing groups"
-msgstr ""
+msgstr "Gruppen verwalten"
 
 #: desktop-guide/C/administrative-tasks.xml:60(para)
 msgid "To add a new group:"
@@ -5043,23 +5222,27 @@ msgstr ""
 
 #: desktop-guide/C/administrative-tasks.xml:63(para)
 msgid "Click the <guibutton>Manage Groups</guibutton> button"
-msgstr ""
+msgstr "Klicken Sie den <guibutton>Gruppen verwalten</guibutton>-Knopf"
 
 #: desktop-guide/C/administrative-tasks.xml:65(para)
 msgid "Enter your password"
-msgstr ""
+msgstr "Geben Sie Ihr Passwort ein"
 
 #: desktop-guide/C/administrative-tasks.xml:66(para)
 msgid ""
 "Choose a name for the new group and, if you want, change the default value "
 "for the <guilabel>Group ID</guilabel>"
 msgstr ""
+"Wählen Sie einen Namen für die neue Gruppe und wenn Sie möchten, ändern Sie "
+"den vorgegebenen Wert für die <guilabel>Gruppenkennung</guilabel>"
 
 #: desktop-guide/C/administrative-tasks.xml:67(para)
 msgid ""
 "At this time, you have the option of selecting <guilabel>Group "
 "Members</guilabel> from the list"
 msgstr ""
+"Sie können nun auch die <guilabel>Gruppenmitglieder</guilabel> aus der Liste "
+"auswählen"
 
 #: desktop-guide/C/administrative-tasks.xml:71(para)
 msgid ""
@@ -5067,6 +5250,9 @@ msgid ""
 "Groups</guibutton> button, select the group you want to delete and click the "
 "<guibutton>Delete</guibutton> button."
 msgstr ""
+"Um eine Gruppe aus dem System zu entfernen, klicken Sie auf den Knopf "
+"<guibutton>Gruppen verwalten</guibutton>, wählen Sie die Gruppe, die sie "
+"löschen möchten und klicken Sie den <guibutton>Löschen</guibutton>-Knopf."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: desktop-guide/C/administrative-tasks.xml:0(None)
