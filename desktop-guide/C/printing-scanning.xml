@@ -89,8 +89,8 @@
 			<itemizedlist>
 				<listitem><para>Place what you want to scan on the scanner</para></listitem>
 				<listitem><para>Go to &simple-scan;</para></listitem>
-				<listitem><para>Click <menuchoice><guimenu>Document</guimenu><guimenuitem>Scan</guimenuitem></menuchoice></para></listitem>
-				<listitem><para>Choose what of type of media you would like to scan: <guilabel>Single Page</guilabel>, <guilabel>All Pages From Feeder</guilabel>, <guilabel>Text</guilabel> or <guilabel>Photo</guilabel>. Alternately, pressing the Scan button on the scanner should also work.</para></listitem>
+				<listitem><para>Click the arrow to the right of the <guibutton>Scan</guibutton> button and choose the type of media you are scanning, <guilabel>Text</guilabel> or <guilabel>Photo</guilabel></para></listitem>
+				<listitem><para>Click the <guibutton>Scan</guibutton> button to begin your scan</para></listitem>
 			</itemizedlist>
 		</section>
 
@@ -101,7 +101,7 @@
 
 			<itemizedlist>
 				<listitem><para>Your scanner is not supported in Xubuntu. For example, most parallel port scanners and Lexmark All-in-One printer/scanner/faxes are not supported.</para></listitem>
-				<listitem><para>The driver for your scanner is not being loaded automatically</para></listitem>
+				<listitem><para>The driver for your scanner is not being loaded automatically.</para></listitem>
 			</itemizedlist>
 
 			<para>You may be able to get your scanner working by installing a driver or altering some configuration files. Please ask for advice on the <ulink url="&ubuntu-forums;">Ubuntu forums</ulink> or on <ulink url="&askubuntu-web;">AskUbuntu</ulink>.</para>
