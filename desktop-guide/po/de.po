@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-09-08 19:09+0300\n"
-"PO-Revision-Date: 2014-09-06 10:08+0000\n"
-"Last-Translator: Phillip Sz <Unknown>\n"
+"PO-Revision-Date: 2014-09-12 15:29+0000\n"
+"Last-Translator: Daniel Kessel <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-09-09 08:04+0000\n"
+"X-Launchpad-Export-Date: 2014-09-13 08:43+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -774,6 +774,11 @@ msgid ""
 "look of your desktop background. You can choose to use a single image or "
 "multiple images as wallpaper or you can use a color scheme."
 msgstr ""
+"Sobald der Dialog für die "
+"<application>Schreibtischeinstellungen</application> geöffnet ist, bietet "
+"der Reiter <guilabel>Hintergrund</guilabel> Optionen zur Konfiguration des "
+"Aussehens des Schreibtischhintergrundes an. Sie können ein einzelnes oder "
+"mehrere Bilder als Hintergrundbild verwenden oder ein Farbschema einstellen."
 
 #: desktop-guide/C/settings-preferences.xml:61(para)
 msgid ""
@@ -785,6 +790,14 @@ msgid ""
 "<filename><placeholder-1/> /usr/share/xfce4/backdrops/</filename> (requires "
 "administrative privileges)."
 msgstr ""
+"Der Ort der Bilder im Bereich <guilabel>Hintergrund für meinen "
+"Schreibtisch</guilabel> wird durch die Einstellung "
+"<guibutton>Ordner:</guibutton> gesteuert. Indem Sie diese Auswahlliste "
+"öffnen, können Sie einen anderen Ort als Bildquelle angeben. Wenn Sie ein "
+"oder mehrere Ihrer Bilder zur späteren Verwendung zu dieser Liste hinzufügen "
+"möchten, können Sie diese nach <filename><placeholder-1/> "
+"/usr/share/xfce4/backdrops/</filename> kopieren (hierfür sind "
+"Systemverwalterrechte notwendig) oder dort verlinken."
 
 #: desktop-guide/C/settings-preferences.xml:63(para)
 msgid ""
@@ -795,6 +808,13 @@ msgid ""
 "<guilabel>Chronologically</guilabel>, will sort the pictures by filename and "
 "then go through them in that order, spread out equally over one day."
 msgstr ""
+"Wenn Sie einen Ort auswählen, der mehrere Bilder enthält, wird die "
+"Einstellungsmöglichkeit aktiv, zwischen allen Bildern an dem Ort zu "
+"wechseln. Wenn Sie <guibutton>Hintergrund ändern</guibutton> aktivieren, "
+"können Sie aus verschiedenen zeitbasierten Kriterien umschalten. Die letzte "
+"Einstellung, <guilabel>chronologisch</guilabel>, sortiert die Bilder nach "
+"ihrem Dateinamen und wird zwischen diesen, gleichmäßig über den gesamten Tag "
+"verteilt, umschalten."
 
 #: desktop-guide/C/settings-preferences.xml:65(para)
 msgid ""
@@ -804,6 +824,12 @@ msgid ""
 "This allows each monitor to have its own settings. Just drag the dialog to "
 "the monitor on which you want to edit the settings."
 msgstr ""
+"Xfdesktop unterstützt xinerama und Multimonitor-Umgebungen. Wenn mehr als "
+"ein Monitor angeschlossen ist, stellt der <guilabel>Hintergrund</guilabel> "
+"Reiter immer die Einstellungen des Bildschirms dar, auf dem der Dialog "
+"positioniert ist. Dadurch ist es möglich, für verschiedene Monitore "
+"unterschiedliche Einstellungen zu setzen. Ziehen Sie dazu den Dialog auf den "
+"Monitor, für den Sie die Einstellungen setzen wollen."
 
 #: desktop-guide/C/settings-preferences.xml:67(para)
 msgid ""
@@ -815,7 +841,8 @@ msgstr ""
 
 #: desktop-guide/C/settings-preferences.xml:71(para)
 msgid "Open Thunar and navigate to the directory with the image"
-msgstr "Thunar öffnen und zum Verzeichnis mit dem Bild navigieren"
+msgstr ""
+"Öffnen Sie Thunar und navigieren Sie zum Verzeichnis mit dem gewünschten Bild"
 
 #: desktop-guide/C/settings-preferences.xml:72(para)
 msgid ""
@@ -1246,17 +1273,23 @@ msgstr ""
 msgid ""
 "Select the printer manufacturer and then press <guibutton>Forward</guibutton>"
 msgstr ""
+"Wählen Sie den Druckerhersteller und klicken Sie dann auf den "
+"<guibutton>Vor</guibutton>-Knopf"
 
 #: desktop-guide/C/printing-scanning.xml:55(para)
 msgid ""
 "Select the printer model and driver then press <guibutton>Forward</guibutton>"
 msgstr ""
+"Wählen sie das Druckermodell und den Treiber aus und klicken Sie dann auf "
+"den <guibutton>Vor</guibutton>-Knopf"
 
 #: desktop-guide/C/printing-scanning.xml:56(para)
 msgid ""
 "You can enter a description and location for your printer in the "
 "corresponding fields"
 msgstr ""
+"Sie können in den entsprechenden Feldern eine Beschreibung und den Standort "
+"des Druckers eingeben"
 
 #: desktop-guide/C/printing-scanning.xml:58(para)
 msgid ""
@@ -1264,12 +1297,18 @@ msgid ""
 "to print a test page, press <guibutton>Cancel</guibutton> or "
 "<guibutton>Print Test Page</guibutton> depending on your preference"
 msgstr ""
+"Ihr Drucker ist nun ordnungsgemäß konfiguriert. Wenn Sie gefragt werden, ob "
+"Sie eine Testseite ausdrucken möchten, wählen Sie "
+"<guibutton>Abbrechen</guibutton> oder <guibutton>Testseite "
+"drucken</guibutton>, je nachdem, was Sie möchten"
 
 #: desktop-guide/C/printing-scanning.xml:61(para)
 msgid ""
 "If you do not know the protocol or details of your network printer, you "
 "should consult your network administrator."
 msgstr ""
+"Wenden Sie sich bitte an Ihren Netzwerkadministrator, wenn Sie weder das "
+"Protokoll, noch Einzelheiten zu Ihrem Netzwerkdrucker kennen."
 
 #: desktop-guide/C/printing-scanning.xml:63(para)
 msgid ""
@@ -1363,6 +1402,8 @@ msgstr ""
 #: desktop-guide/C/printing-scanning.xml:93(para)
 msgid "Click the <guibutton>Scan</guibutton> button to begin your scan"
 msgstr ""
+"Klicken Sie den Knopf <guibutton>Scannen</guibutton>, um mit dem Scanvorgang "
+"zu beginnen"
 
 #: desktop-guide/C/printing-scanning.xml:98(title)
 msgid "The computer says \"No scanners detected\""
@@ -1383,7 +1424,7 @@ msgstr ""
 
 #: desktop-guide/C/printing-scanning.xml:104(para)
 msgid "The driver for your scanner is not being loaded automatically."
-msgstr ""
+msgstr "Ihr Scannertreiber wird nicht automatisch geladen."
 
 #: desktop-guide/C/printing-scanning.xml:107(para)
 msgid ""
@@ -1398,6 +1439,8 @@ msgid ""
 "To get some scanners working, you may need to plug in the scanner after the "
 "computer has booted."
 msgstr ""
+"Bei einigen Scannern kann es notwendig sein, den Scanner erst nach dem Start "
+"des Betriebssystems einzustecken."
 
 #: desktop-guide/C/printing-scanning.xml:113(title)
 msgid "Manually installing a scanner"
@@ -1408,6 +1451,9 @@ msgid ""
 "There are some scanners that have less-than-complete drivers from the SANE "
 "project. They can sometimes be used, but not all the features may work."
 msgstr ""
+"Einige Scanner haben unvollständige Treiberunterstützung durch das SANE-"
+"Projekt. Diese können manchmal verwendet werden, aber es kann sein, dass "
+"einige Funktionen nicht verfügbar sind."
 
 #: desktop-guide/C/printing-scanning.xml:118(para)
 msgid "Install the <literal><placeholder-1/>libsane-extras</literal> package"
@@ -1418,6 +1464,8 @@ msgid ""
 "Run <userinput>pkexec mousepad /etc/sane.d/dll.conf</userinput> at the "
 "command line to open the SANE driver file for editing"
 msgstr ""
+"Starten Sie <userinput>pkexec mousepad /etc/sane.d/dll.conf</userinput> in "
+"der Befehlszeile, um die SANE-Treiberdatei zur Bearbeitung zu öffnen."
 
 #: desktop-guide/C/printing-scanning.xml:120(para)
 msgid ""
@@ -1425,16 +1473,21 @@ msgid ""
 "<literal>#</literal> from in front of the name of the driver. You may need "
 "to search the web to find out which driver is the right one."
 msgstr ""
+"Aktivieren Sie den richtigen Treiber für Ihren Drucker, in dem Sie das "
+"Zeichen <literal>#</literal> vor dem Namen des Treibers entfernen. Es kann "
+"sein, dass Sie im Internet suchen müssen, welcher Treiber der richtige ist."
 
 #: desktop-guide/C/printing-scanning.xml:121(para)
 msgid ""
 "Save the file and open <application>Simple Scan</application>. If all goes "
 "well, your scanner will now work."
 msgstr ""
+"Speichern Sie die Datei und öffnen Sie <application>Simple "
+"Scan</application>. Wenn alles gut geht, funktioniert ihr Scanner nun."
 
 #: desktop-guide/C/offline-packages.xml:12(title)
 msgid "Offline Package Management"
-msgstr ""
+msgstr "Offline-Paketverwaltung"
 
 #: desktop-guide/C/offline-packages.xml:14(para)
 msgid ""
@@ -1443,10 +1496,14 @@ msgid ""
 "multiple steps involved in the process of doing this. With a USB flash drive "
 "available to you, this can be managed."
 msgstr ""
+"Das Werkzeug <application>apt-offline</application> ist verfügbar, um Ihren "
+"Computer aktuell zu halten, auch wenn er nicht mit dem Internet verbunden "
+"bleiben kann. Hierzu sind mehrere Schritte notwendig, zu denen Sie einen USB-"
+"Speicherstick benötigen."
 
 #: desktop-guide/C/offline-packages.xml:17(title)
 msgid "Updating Repositories"
-msgstr ""
+msgstr "Aktualisieren der Paketquellen"
 
 #: desktop-guide/C/offline-packages.xml:19(para)
 msgid ""
@@ -1488,7 +1545,7 @@ msgstr ""
 
 #: desktop-guide/C/offline-packages.xml:29(title)
 msgid "Installing a Package"
-msgstr ""
+msgstr "Installieren eines Paketes"
 
 #: desktop-guide/C/offline-packages.xml:31(para)
 msgid ""
@@ -1638,7 +1695,7 @@ msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:18(title)
 msgid "A quick Windows&ndash;Xubuntu dictionary"
-msgstr ""
+msgstr "Ein schnelles Windows&ndash;Xubuntu-Wörterbuch"
 
 #: desktop-guide/C/migrating-upgrading.xml:21(segtitle)
 msgid "Windows"
@@ -1736,7 +1793,7 @@ msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:41(title)
 msgid "Windows networking on Linux"
-msgstr ""
+msgstr "Windows-Netzwerke und Linux"
 
 #: desktop-guide/C/migrating-upgrading.xml:43(para)
 msgid ""
@@ -1770,6 +1827,9 @@ msgid ""
 "If some options are not available or do not work, ensure that the "
 "<literal><placeholder-1/>gvfs-backends</literal> is installed."
 msgstr ""
+"Wenn einige Optionen nicht verfügbar sind oder nicht funktionieren, stellen "
+"Sie sicher, dass das Paket <literal><placeholder-1/>gvfs-backends</literal> "
+"installiert ist."
 
 #: desktop-guide/C/migrating-upgrading.xml:54(title)
 msgid "Upgrading from an older version of Xubuntu"
@@ -1785,6 +1845,10 @@ msgid ""
 "<application>Software Updater</application> should inform you when a new "
 "version is available for download. To check for a new version:"
 msgstr ""
+"Alle 6 Monate wird eine neue Version von Xubuntu veröffentlicht; die "
+"<application>Aktualisierungverwaltung</application> sollte Sie informieren, "
+"wenn eine neue Version verfügbar ist. Um zu prüfen, ob eine neue Version "
+"verfügbar ist:"
 
 #: desktop-guide/C/migrating-upgrading.xml:62(para)
 msgid ""
@@ -1793,10 +1857,14 @@ msgid ""
 "Settings Manager</guimenuitem><guimenuitem>Software &amp; "
 "Updates</guimenuitem></menuchoice></application>"
 msgstr ""
+"Gehen Sie zu <application>Software &amp; Aktualisierungen</application>, in "
+"dem Sie <application><menuchoice><placeholder-1/><guimenuitem><placeholder-"
+"2/>Alle Einstellungen</guimenuitem><guimenuitem>Software &amp; "
+"Aktualisierungen</guimenuitem></menuchoice></application> wählen."
 
 #: desktop-guide/C/migrating-upgrading.xml:63(para)
 msgid "Select the <guilabel>Updates</guilabel> tab"
-msgstr ""
+msgstr "Wählen Sie den Reiter <guilabel>Aktualisierungen</guilabel>"
 
 #: desktop-guide/C/migrating-upgrading.xml:64(para)
 msgid ""
@@ -1804,6 +1872,10 @@ msgid ""
 "<guilabel>Notify me of a new Ubuntu version</guilabel>, enter your password, "
 "and press <guibutton>Close</guibutton>"
 msgstr ""
+"Wählen Sie <guilabel>Für jede neue Version</guilabel> aus der Liste mit der "
+"Beschriftung <guilabel>Über neue Ubuntu-Versionen "
+"benachrichtigen:</guilabel>, geben Sie ihr Passwort ein und klicken Sie auf "
+"<guibutton>Schließen</guibutton>"
 
 #: desktop-guide/C/migrating-upgrading.xml:65(para)
 msgid ""
@@ -1812,6 +1884,11 @@ msgid ""
 "Updater</guimenuitem></menuchoice></application> and wait for the list of "
 "available updates to be downloaded"
 msgstr ""
+"Gehen Sie zu <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> Alle "
+"Einstellungen</guimenuitem><guimenuitem>Aktualisierungsverwaltung</guimenuite"
+"m></menuchoice></application> und warten Sie ab, während die Liste der "
+"verfügbaren Aktualisierungen heruntergeladen wird."
 
 #: desktop-guide/C/migrating-upgrading.xml:66(para)
 msgid ""
@@ -1827,6 +1904,9 @@ msgid ""
 "the <guibutton>Upgrade</guibutton> button in <application>Software "
 "Updater</application>"
 msgstr ""
+"Um auf die aktuellste Version zu aktualisieren, speichern Sie alle Ihre "
+"geöffneten Dokumente und klicken Sie auf den Knopf "
+"<guibutton>Upgrade</guibutton>"
 
 #: desktop-guide/C/migrating-upgrading.xml:70(para)
 msgid ""
@@ -1848,7 +1928,7 @@ msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:76(title)
 msgid "Upgrading to a development release"
-msgstr ""
+msgstr "Auf eine Entwicklungsversion aktualisieren"
 
 #: desktop-guide/C/migrating-upgrading.xml:78(para)
 msgid ""
@@ -5278,6 +5358,7 @@ msgstr ""
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
+"  Ablesius https://launchpad.net/~onkel-pflaume\n"
 "  Daniel Kessel https://launchpad.net/~dkessel\n"
 "  Markus J Schmidt https://launchpad.net/~smiddy84\n"
 "  Pasi Lallinaho https://launchpad.net/~knome\n"
