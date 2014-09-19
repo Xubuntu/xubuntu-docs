@@ -1,13 +1,16 @@
 xubuntu-docs (14.10) UNRELEASED; urgency=medium
 
   [ David Pires ]
-  * Fix the printing chapter to remove a reference to a obsolete setting (LP: #1299743)
-  * Replace references to 'sudo -i' to 'pkexec' since that's now the recommended and supported way
+  * Fix the printing chapter to remove a reference
+    to a obsolete setting (LP: #1299743)
+  * Replace references to 'sudo -i' to 'pkexec' since
+    that's now the recommended and supported way
 
   [ Pasi Lallinaho ]
   * Bump version to 14.10.
   * Fix broken startpage logo. (LP: #1310347)
-  * Replace references to 'sudo -i' to 'pkexec' since that's now the recommended and supported way
+  * Replace references to 'sudo -i' to 'pkexec' since
+    that's now the recommended and supported way
 
   [ Unit 193 ]
   * scripts/translators.sh, desktop-guide/Makefile, desktop-guide/C/index.xml:
