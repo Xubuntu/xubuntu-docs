@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-09-08 19:09+0300\n"
-"PO-Revision-Date: 2014-09-12 15:29+0000\n"
-"Last-Translator: Daniel Kessel <Unknown>\n"
+"PO-Revision-Date: 2014-09-19 15:59+0000\n"
+"Last-Translator: Phillip Sz <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-09-13 08:43+0000\n"
+"X-Launchpad-Export-Date: 2014-09-20 06:41+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -859,6 +859,9 @@ msgid ""
 "wallpaper. To change the wallpaper for other monitors, you will need to use "
 "the dialog described above."
 msgstr ""
+"Bei Verwendung von mehreren Monitoren ändert diese Einstellung nur den "
+"Hintergrund für den primären Monitor. Um den Hintergrund für die anderen "
+"Bildschirme zu ändern, benötigen Sie den oben beschriebenen Dialog."
 
 #: desktop-guide/C/settings-preferences.xml:79(para)
 msgid ""
@@ -1433,6 +1436,10 @@ msgid ""
 "url=\"http://ubuntuforums.org/\">Ubuntu forums</ulink> or on <ulink "
 "url=\"http://askubuntu.com/\">AskUbuntu</ulink>."
 msgstr ""
+"Möglicherweise können Sie einen Treiber installieren oder einige "
+"Konfigurationsdateien anpassen, damit der Scanner funktioniert. Fragen Sie "
+"dazu im <ulink url=\"http://ubuntuforums.org/\">Ubuntu-Forum</ulink> oder "
+"auf <ulink url=\"http://askubuntu.com/\">AskUbuntu</ulink> um Hilfe."
 
 #: desktop-guide/C/printing-scanning.xml:109(para)
 msgid ""
@@ -1691,7 +1698,7 @@ msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:15(title)
 msgid "Migrating from Windows"
-msgstr ""
+msgstr "Migration von Windows"
 
 #: desktop-guide/C/migrating-upgrading.xml:18(title)
 msgid "A quick Windows&ndash;Xubuntu dictionary"
@@ -1914,6 +1921,10 @@ msgid ""
 "packages must be downloaded and installed, although the actual figure will "
 "depend on how many packages are already installed on your computer."
 msgstr ""
+"Eine Aktualisierung nimmt etwas Zeit in Anspruch. Üblicherweise werden um "
+"die 700MB an Paketen heruntergeladen und installiert; dies hängt natürlich "
+"auch davon ab, wie viele Software-Pakete auf Ihrem Rechner aktualisiert "
+"werden."
 
 #: desktop-guide/C/migrating-upgrading.xml:72(para)
 msgid ""
@@ -1936,6 +1947,9 @@ msgid ""
 "Only install a development release if you are prepared to attempt to fix "
 "these problems for yourself."
 msgstr ""
+"Entwicklungsversionen sind oft auf Grund defekter Pakete und anderer "
+"Probleme eingeschränkt nutzbar. Installieren Sie eine Entwicklungsversion "
+"nur dann, wenn Sie darauf vorbereitet sind, diese Probleme zu beheben."
 
 #: desktop-guide/C/migrating-upgrading.xml:80(para)
 msgid ""
@@ -2110,7 +2124,7 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:62(title)
 msgid "Movies, DVDs and videos"
-msgstr ""
+msgstr "Filme, DVDs und Videos"
 
 #: desktop-guide/C/media-apps.xml:64(para)
 msgid ""
@@ -2193,7 +2207,7 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:91(title)
 msgid "Restricted formats"
-msgstr ""
+msgstr "Eingeschränkte Formate"
 
 #: desktop-guide/C/media-apps.xml:93(para)
 msgid ""
@@ -2247,7 +2261,7 @@ msgstr ""
 
 #: desktop-guide/C/managing-applications.xml:12(title)
 msgid "Managing installed applications"
-msgstr ""
+msgstr "Verwaltung installierter Anwendungen"
 
 #: desktop-guide/C/managing-applications.xml:14(para)
 msgid ""
@@ -2259,13 +2273,15 @@ msgstr ""
 
 #: desktop-guide/C/managing-applications.xml:16(para)
 msgid "Xubuntu comes with two package managers installed:"
-msgstr ""
+msgstr "In Xubuntu sind zwei Paketverwaltungen vorinstalliert:"
 
 #: desktop-guide/C/managing-applications.xml:19(para)
 msgid ""
 "<application>Ubuntu Software Center</application>, a simple graphical user "
 "interface to install new software."
 msgstr ""
+"<application>Ubuntu Software-Center</application>, eine einfache Grafische "
+"Oberfläche zur Installation neuer Software."
 
 #: desktop-guide/C/managing-applications.xml:20(para)
 msgid ""
@@ -2278,6 +2294,8 @@ msgstr ""
 #: desktop-guide/C/managing-applications.xml:23(para)
 msgid "You will need administrative access to add and remove software."
 msgstr ""
+"Sie benötigten Systemverwaltungsrechte zum Hinzufügen und Entfernen von "
+"Software."
 
 #: desktop-guide/C/managing-applications.xml:25(para)
 msgid ""
@@ -2299,7 +2317,7 @@ msgstr ""
 
 #: desktop-guide/C/managing-applications.xml:33(title)
 msgid "Installing new software"
-msgstr ""
+msgstr "Installation neuer Software"
 
 #: desktop-guide/C/managing-applications.xml:36(para)
 msgid ""
@@ -2358,6 +2376,11 @@ msgid ""
 "application, both of them will be removed. You will be asked to confirm that "
 "this is what you want to happen before the applications are removed."
 msgstr ""
+"Einige Anwendungen hängen von der Installation anderer Anwendungen ab, um "
+"ordentlich zu funktionieren. Wenn Sie versuchen, eine Anwendung zu "
+"entfernen, die von einer anderen Anwendung benötigt wird, werden beide "
+"Anwendungen entfernt. Sie werden aufgefordert, zu bestätigen, dass dies das "
+"ist, was Sie möchten, bevor die Anwendungen entfernt werden."
 
 #: desktop-guide/C/managing-applications.xml:60(title)
 msgid "Additional software repositories"
@@ -2429,7 +2452,7 @@ msgstr ""
 
 #: desktop-guide/C/managing-applications.xml:80(title)
 msgid "Restricted and non-free software"
-msgstr ""
+msgstr "Eingeschränkte und unfreie Software"
 
 #: desktop-guide/C/managing-applications.xml:82(para)
 msgid ""
@@ -2488,7 +2511,7 @@ msgstr ""
 
 #: desktop-guide/C/managing-applications.xml:97(title)
 msgid "Installing packages without an Internet connection"
-msgstr ""
+msgstr "Installieren von Paketen ohne Internetverbindung"
 
 #: desktop-guide/C/managing-applications.xml:100(title)
 msgid "Adding discs as software sources"
@@ -2890,7 +2913,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:108(title)
 msgid "Check if a connection is working properly"
-msgstr ""
+msgstr "Überprüfen, ob eine Verbindung korrekt funktioniert"
 
 #: desktop-guide/C/internet-networks.xml:110(para)
 msgid ""
@@ -3208,7 +3231,7 @@ msgstr ""
 
 #: desktop-guide/C/index.xml:12(title) desktop-guide/C/index.xml:15(title)
 msgid "Xubuntu Documentation"
-msgstr ""
+msgstr "Xubuntu-Dokumentation"
 
 #: desktop-guide/C/index.xml:17(title)
 msgid "Credits and License"
@@ -3221,10 +3244,14 @@ msgid ""
 "team</ulink>. This documentation is partly adapted from the Ubuntu "
 "documentation."
 msgstr ""
+"Diese Dokumentation wird vom <ulink "
+"url=\"https://wiki.ubuntu.com/DocumentationTeam\">Ubuntu-"
+"Dokumentationsteam</ulink> gepflegt. Diese Dokumention ist teilweise aus der "
+"Ubuntu-Dokumentation hervorgegangen."
 
 #: desktop-guide/C/index.xml:21(para)
 msgid "The contributors to this documentation are:"
-msgstr ""
+msgstr "Zu dieser Dokumentation haben beigetragen:"
 
 #: desktop-guide/C/index.xml:23(para)
 msgid "Sean Davis (smd-seandavis)"
@@ -3268,7 +3295,7 @@ msgstr "Zu dieser Übersetzung der Dokumentation haben beigetragen:"
 
 #: desktop-guide/C/index.xml:37(para)
 msgid "The contributors to previous versions to this documentation are:"
-msgstr ""
+msgstr "Zu vorherigen Versionen dieser Dokumentation haben beigetragen:"
 
 #: desktop-guide/C/index.xml:39(para)
 msgid "Jim Campbell (jwcampbell)"
@@ -3410,6 +3437,10 @@ msgid ""
 "section provides information on tools which can be used to configure your "
 "hardware."
 msgstr ""
+"Normalerweise konfiguriert Xubuntu ihre Hardware automatisch, aber in "
+"einigen Fällen müssen Sie selbst Ihre Hardware konfigurieren. Dieser Bereich "
+"gibt ihnen Informationen zu Werkzeugen, mit denen Sie Ihre Hardware "
+"konfigurieren können."
 
 #: desktop-guide/C/hardware-devices.xml:19(title)
 msgid "Restricted drivers"
@@ -3494,7 +3525,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:49(title)
 msgid "Disabling restricted drivers"
-msgstr ""
+msgstr "Deaktivieren eingeschränkter Treiber"
 
 #: desktop-guide/C/hardware-devices.xml:51(para)
 msgid ""
@@ -3516,7 +3547,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:57(para)
 msgid "You will be prompted to enter your password."
-msgstr ""
+msgstr "Sie werden aufgefordert werden, ihr Passwort einzugeben."
 
 #: desktop-guide/C/hardware-devices.xml:60(para)
 msgid "You may need to restart your computer to finish disabling the driver."
@@ -3720,6 +3751,10 @@ msgid ""
 "<menuchoice><guimenu>Partition</guimenu><guimenuitem>Unmount</guimenuitem></m"
 "enuchoice>."
 msgstr ""
+"Es wird eine Liste der Partitionen angezeigt. Wählen Sie die gewünschte "
+"Partition und wählen Sie "
+"<menuchoice><guimenu>Partition</guimenu><guimenuitem>Aushängen</guimenuitem><"
+"/menuchoice>."
 
 #: desktop-guide/C/hardware-devices.xml:141(para)
 msgid ""
@@ -3933,6 +3968,9 @@ msgid ""
 "this is the case for your computer, you may notice some of the following "
 "symptoms:"
 msgstr ""
+"Manche Rechner können mit Xubuntu nicht korrekt in den Bereitschaft- oder "
+"Ruhezustand versetzt werden. Wenn das bei Ihrem Rechner der Fall ist, treten "
+"eventuell einige der folgenden Symptome auf:"
 
 #: desktop-guide/C/hardware-devices.xml:220(para)
 msgid "The computer does not turn off after you click to hibernate it."
@@ -4118,7 +4156,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:17(para) desktop-guide/C/guide-keeping-safe.xml:27(title)
 msgid "Change your password regularly"
-msgstr ""
+msgstr "Ändern Sie ihr Passwort regelmäßig"
 
 #: desktop-guide/C/guide-keeping-safe.xml:18(para)
 msgid "Don't use shared user accounts"
@@ -4142,7 +4180,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:23(para) desktop-guide/C/guide-keeping-safe.xml:136(title) desktop-guide/C/guide-keeping-safe.xml:158(para)
 msgid "Back up on a regular basis"
-msgstr ""
+msgstr "Fertigen Sie regelmäßig Datensicherungen an"
 
 #: desktop-guide/C/guide-keeping-safe.xml:29(para)
 msgid ""
@@ -4396,7 +4434,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-desktop.xml:12(title)
 msgid "Getting to know your desktop environment"
-msgstr ""
+msgstr "Kennenlernen Ihrer Arbeitsumgebung"
 
 #: desktop-guide/C/guide-desktop.xml:14(para)
 msgid ""
@@ -4530,7 +4568,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-desktop.xml:79(title)
 msgid "Creating and deleting files and folders"
-msgstr ""
+msgstr "Anlegen und Löschen von Dateien und Ordnern"
 
 #: desktop-guide/C/guide-desktop.xml:81(para)
 msgid ""
@@ -4736,6 +4774,8 @@ msgid ""
 "<application>Xfburn</application> is the chosen program for creating your "
 "CDs and DVDs."
 msgstr ""
+"<application>Xfburn</application> ist eine Anwendung zur Erstellung von CDs "
+"und DVDs."
 
 #: desktop-guide/C/guide-default-apps.xml:47(para)
 msgid ""
@@ -4837,6 +4877,8 @@ msgid ""
 "Press <keycap><placeholder-1/>Alt+F2</keycap> and run <userinput>xfce4-"
 "terminal</userinput>"
 msgstr ""
+"Drücken Sie <keycap><placeholder-1/>Alt+F2</keycap> und starten Sie "
+"<userinput>xfce4-terminal</userinput>"
 
 #: desktop-guide/C/command-line.xml:23(para)
 msgid ""
@@ -4963,7 +5005,7 @@ msgstr "cat"
 
 #: desktop-guide/C/command-line.xml:49(seg)
 msgid "Joins (concatenates) two or more files"
-msgstr ""
+msgstr "Hängt zwei oder mehrere Dateien aneinander"
 
 #: desktop-guide/C/command-line.xml:49(userinput)
 #, no-wrap
@@ -4982,7 +5024,7 @@ msgstr "Wechselt in ein anderes Verzeichnis"
 #: desktop-guide/C/command-line.xml:50(userinput)
 #, no-wrap
 msgid "cd [directory]"
-msgstr ""
+msgstr "cd [Ordnername]"
 
 #: desktop-guide/C/command-line.xml:51(userinput)
 #, no-wrap
@@ -5012,7 +5054,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:52(userinput)
 #, no-wrap
 msgid "date [options]"
-msgstr ""
+msgstr "date [Optionen]"
 
 #: desktop-guide/C/command-line.xml:53(userinput)
 #, no-wrap
@@ -5026,7 +5068,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:53(userinput)
 #, no-wrap
 msgid "editor [file]"
-msgstr ""
+msgstr "editor [Dateiname]"
 
 #: desktop-guide/C/command-line.xml:54(userinput)
 #, no-wrap
@@ -5066,7 +5108,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:55(userinput)
 #, no-wrap
 msgid "kill [-SIGNAL] [PID(s)]"
-msgstr ""
+msgstr "kill [-SIGNAL] [Prozess-ID(s)]"
 
 #: desktop-guide/C/command-line.xml:56(userinput)
 #, no-wrap
@@ -5089,12 +5131,12 @@ msgstr "less"
 
 #: desktop-guide/C/command-line.xml:57(seg)
 msgid "Shows the contents of a text file"
-msgstr ""
+msgstr "Zeigt den Inhalt einer Textdatei an"
 
 #: desktop-guide/C/command-line.xml:57(userinput)
 #, no-wrap
 msgid "less [file]"
-msgstr ""
+msgstr "less [Dateiname]"
 
 #: desktop-guide/C/command-line.xml:58(userinput)
 #, no-wrap
@@ -5106,11 +5148,13 @@ msgid ""
 "Lists files in a directory. Lists files in the current directory if none is "
 "specified"
 msgstr ""
+"Erstellt eine Liste der Dateien in einem Ordner. Erstellt eine Liste der "
+"Dateien im aktuellen Ordner wenn kein Ordnername spezifiziert wird."
 
 #: desktop-guide/C/command-line.xml:58(userinput)
 #, no-wrap
 msgid "ls [directory]"
-msgstr ""
+msgstr "ls [Ordnername]"
 
 #: desktop-guide/C/command-line.xml:59(userinput)
 #, no-wrap
@@ -5119,12 +5163,12 @@ msgstr "man"
 
 #: desktop-guide/C/command-line.xml:59(seg)
 msgid "Shows help about a command"
-msgstr ""
+msgstr "Zeigt die Hilfe zu einem Befehl an"
 
 #: desktop-guide/C/command-line.xml:59(userinput)
 #, no-wrap
 msgid "man [command]"
-msgstr ""
+msgstr "man [Befehl]"
 
 #: desktop-guide/C/command-line.xml:60(userinput)
 #, no-wrap
@@ -5133,12 +5177,12 @@ msgstr "mv"
 
 #: desktop-guide/C/command-line.xml:60(seg)
 msgid "Moves or renames a file"
-msgstr ""
+msgstr "Verschiebt eine Datei oder benennt Sie um"
 
 #: desktop-guide/C/command-line.xml:60(userinput)
 #, no-wrap
 msgid "mv [filename] [newfilename]"
-msgstr ""
+msgstr "mv [Dateiname] [NeuerDateiname]"
 
 #: desktop-guide/C/command-line.xml:61(userinput)
 #, no-wrap
@@ -5154,7 +5198,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:61(userinput)
 #, no-wrap
 msgid "rm [file(s)]"
-msgstr ""
+msgstr "rm [Datei(en)]"
 
 #: desktop-guide/C/command-line.xml:61(userinput)
 #, no-wrap
@@ -5169,7 +5213,7 @@ msgstr "wget"
 #: desktop-guide/C/command-line.xml:62(userinput)
 #, no-wrap
 msgid "man wget"
-msgstr ""
+msgstr "man wget"
 
 #: desktop-guide/C/command-line.xml:62(seg)
 msgid ""
@@ -5245,6 +5289,8 @@ msgstr ""
 #: desktop-guide/C/administrative-tasks.xml:29(para)
 msgid "You need administrative rights to make changes to users and groups."
 msgstr ""
+"Sie benötigten Systemverwaltungsrechte, um Änderungen an Benutzern und "
+"Gruppen vorzunehmen."
 
 #: desktop-guide/C/administrative-tasks.xml:32(title)
 msgid "Managing users"
@@ -5260,7 +5306,7 @@ msgstr ""
 
 #: desktop-guide/C/administrative-tasks.xml:38(para)
 msgid "Enter you password"
-msgstr ""
+msgstr "Geben Sie Ihr Passwort ein"
 
 #: desktop-guide/C/administrative-tasks.xml:39(para)
 msgid ""
@@ -5283,7 +5329,7 @@ msgstr ""
 
 #: desktop-guide/C/administrative-tasks.xml:47(para)
 msgid "Enter your password if prompted to do so"
-msgstr ""
+msgstr "Geben Sie Ihr Passwort ein wenn Sie dazu aufgefordert werden"
 
 #: desktop-guide/C/administrative-tasks.xml:48(para)
 msgid ""
@@ -5317,7 +5363,7 @@ msgstr "Gruppen verwalten"
 
 #: desktop-guide/C/administrative-tasks.xml:60(para)
 msgid "To add a new group:"
-msgstr ""
+msgstr "Um eine neue Gruppe hinzuzufügen:"
 
 #: desktop-guide/C/administrative-tasks.xml:63(para)
 msgid "Click the <guibutton>Manage Groups</guibutton> button"
