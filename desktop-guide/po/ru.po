@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-09-08 19:09+0300\n"
-"PO-Revision-Date: 2014-06-20 16:35+0000\n"
-"Last-Translator: Pasi Lallinaho <pasi@shimmerproject.org>\n"
+"PO-Revision-Date: 2014-09-22 05:21+0000\n"
+"Last-Translator: Aleksey Kabanov <Unknown>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-09-09 08:05+0000\n"
+"X-Launchpad-Export-Date: 2014-09-22 07:29+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -24,6 +24,8 @@ msgid ""
 "@@image: '../libs/images/package_icon.png'; "
 "md5=15cff8b23f9cf506a7b7e8f98f1289ac"
 msgstr ""
+"@@image: '../libs/images/package_icon.png'; "
+"md5=15cff8b23f9cf506a7b7e8f98f1289ac"
 
 #: desktop-guide/C/appendix-packages.xml:12(title)
 msgid "Application table"
@@ -39,19 +41,19 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:16(segtitle) desktop-guide/C/appendix-packages.xml:35(segtitle) desktop-guide/C/appendix-packages.xml:49(segtitle)
 msgid "Short description"
-msgstr ""
+msgstr "Краткое описание"
 
 #: desktop-guide/C/appendix-packages.xml:17(seg)
 msgid "Abiword"
-msgstr ""
+msgstr "Abiword"
 
 #: desktop-guide/C/appendix-packages.xml:17(seg)
 msgid "abiword"
-msgstr ""
+msgstr "abiword"
 
 #: desktop-guide/C/appendix-packages.xml:17(seg)
 msgid "Word processor"
-msgstr ""
+msgstr "Текстовый процессор"
 
 #: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "Catfish File Search"
@@ -59,7 +61,7 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "catfish"
-msgstr ""
+msgstr "catfish"
 
 #: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "File searching tool which is configurable via the command line"
@@ -5618,6 +5620,8 @@ msgid ""
 "Terminates programs with a specified PID. If you don't know the PID you can "
 "use <placeholder-1/>"
 msgstr ""
+"Прекращает выполнение программ с указанным PID. Если вы не знаете PID, "
+"можете воспользоваться <placeholder-1/>"
 
 #: desktop-guide/C/command-line.xml:55(userinput)
 #, no-wrap
@@ -5627,7 +5631,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:56(userinput)
 #, no-wrap
 msgid "killall"
-msgstr ""
+msgstr "killall"
 
 #: desktop-guide/C/command-line.xml:56(seg)
 msgid "Much like the one above, except you specify the programs name"
