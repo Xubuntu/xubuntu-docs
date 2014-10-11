@@ -1,4 +1,11 @@
-xubuntu-docs (14.10) UNRELEASED; urgency=medium
+xubuntu-docs (14.10.1) utopic; urgency=medium
+
+  * Translation updates.
+    - Include Spanish (es). Updates for Finnish (fi).
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 09 Oct 2014 19:54:27 -0400
+
+xubuntu-docs (14.10) utopic; urgency=medium
 
   [ David Pires ]
   * Fix the printing chapter to remove a reference
@@ -19,7 +26,10 @@ xubuntu-docs (14.10) UNRELEASED; urgency=medium
   [ Jack Fromm ]
   * Updated Scanning and Printing for new version of Simple Scan (LP: #1366150)
 
- -- Pasi Lallinaho <pasi@shimmerproject.org>  Mon, 08 Sep 2014 19:20:47 +0300
+  [ Sean Davis ]
+  * Documentation String Freeze exception (LP: #1372085)
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 21 Sep 2014 21:53:44 -0400
 
 xubuntu-docs (14.04.1) trusty; urgency=medium
 
