@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-09-08 19:09+0300\n"
-"PO-Revision-Date: 2014-10-19 19:27+0000\n"
+"PO-Revision-Date: 2014-10-20 19:50+0000\n"
 "Last-Translator: Daniel Kessel <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-10-20 07:12+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-21 07:28+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1014,6 +1014,11 @@ msgid ""
 "repositories, and more can be found on the Internet, for example on <ulink "
 "url=\"http://xfce-look.org/\">Xfce-look.org</ulink>."
 msgstr ""
+"Wenn Sie das voreingestellte Design nicht zufriedenstellt, können Sie "
+"jederzeit neue Designs herunterladen und installieren. Einige neue Designs "
+"können aus den Ubuntu-Paketquellen nachinstalliert werden. Noch mehr findet "
+"man im Internet, beispielsweise unter <ulink url=\"http://xfce-"
+"look.org/\">Xfce-look.org</ulink>."
 
 #: desktop-guide/C/settings-preferences.xml:126(para)
 msgid ""
@@ -1233,6 +1238,13 @@ msgid ""
 "url=\"https://wiki.ubuntu.com/HardwareSupportComponentsPrinters\">Ubuntu "
 "Wiki Printer page</ulink> for information on your printer."
 msgstr ""
+"Wenn ihr Drucker nicht automatisch erkannt wurde, können Sie versuchen den "
+"Port und Druckertreiber manuell auszuwählen. Einige Drucker benötigen "
+"weitere Einstellungen. Durchsuchen Sie die <ulink "
+"url=\"http://www.linuxfoundation.org/collaborate/workgroups/openprinting\">Op"
+"enPrinting-Datenbank</ulink> oder prüfen Sie die <ulink "
+"url=\"https://wiki.ubuntu.com/HardwareSupportComponentsPrinters\">Ubuntu "
+"Wiki Drucker-Seite</ulink> nach Informationen über Ihren Drucker."
 
 #: desktop-guide/C/printing-scanning.xml:43(title)
 msgid "Network printing"
@@ -1254,6 +1266,8 @@ msgid ""
 "Click on <guilabel>Network Printer</guilabel> in the "
 "<guilabel>Devices</guilabel> window"
 msgstr ""
+"Klicken Sie auf <guilabel>Netzwerkdrucker</guilabel> im "
+"<guilabel>Geräte</guilabel>-Fenster"
 
 #: desktop-guide/C/printing-scanning.xml:52(para)
 msgid ""
@@ -1271,6 +1285,8 @@ msgid ""
 "Insert the details of the network printer and press "
 "<guibutton>Forward</guibutton>"
 msgstr ""
+"Geben Sie die Details Ihres Netzwerkdruckers ein und klicken Sie auf "
+"<guibutton>Vor</guibutton>"
 
 #: desktop-guide/C/printing-scanning.xml:54(para)
 msgid ""
@@ -1365,6 +1381,9 @@ msgid ""
 "url=\"https://wiki.ubuntu.com/HardwareSupportComponentsScanners\">list of "
 "supported scanners</ulink> for Xubuntu"
 msgstr ""
+"Prüfen Sie die <ulink "
+"url=\"https://wiki.ubuntu.com/HardwareSupportComponentsScanners\">Liste der "
+"unterstützten Scanner</ulink> für Xubuntu"
 
 #: desktop-guide/C/printing-scanning.xml:80(para)
 msgid ""
@@ -1372,6 +1391,10 @@ msgid ""
 "project listing of support scanners</ulink>. <application>SANE</application> "
 "is the software used by Xubuntu for most of its scanner support."
 msgstr ""
+"Prüfen Sie die <ulink url=\"http://www.sane-project.org/sane-"
+"backends.html\">Liste der unterstützten Scanner des SANE-Projekts</ulink>. "
+"<application>SANE</application> ist die Software, die von Xubuntu für den "
+"Großteil der Scannerunterstützung verwendet wird."
 
 #: desktop-guide/C/printing-scanning.xml:85(title)
 msgid "Using your scanner"
@@ -1468,6 +1491,7 @@ msgstr ""
 #: desktop-guide/C/printing-scanning.xml:118(para)
 msgid "Install the <literal><placeholder-1/>libsane-extras</literal> package"
 msgstr ""
+"Installieren Sie das Paket <literal><placeholder-1/>libsane-extras</literal>"
 
 #: desktop-guide/C/printing-scanning.xml:119(para)
 msgid ""
@@ -1545,6 +1569,17 @@ msgid ""
 "Some errors in red text may show up about being unable to download files "
 "relative to translations but these can be safely ignored."
 msgstr ""
+"Nachdem dieses Kommando abgeschlossen ist und die Datei <userinput>apt-"
+"offline.sig</userinput> erzeugt worden ist, kopieren Sie diese auf ein "
+"Wechselmedium und nehmen Sie sie mit zu einem anderen Computer. Mittels apt-"
+"offline und dieser Datei werden Sie alle Updates für Ihren Offline-Rechner "
+"herunterladen. Angenommen Sie befinden sich auf der Kommandozeile des Online-"
+"Rechners bereits im Verzeichnis auf Ihrem Wechselmedium, das <userinput>apt-"
+"offline.sig</userinput> enthält, so geben Sie dort einfach <userinput>apt-"
+"offline get --bundle bundle.zip apt-offline.sig</userinput> ein. Wenn Sie "
+"damit fertig sind können Sie das Wechselmedium aushängen und zurück zu ihrem "
+"Offline-Rechner tragen. Einige Fehler, dass Übersetzungen fehlen, mögen in "
+"roter Schrift angezeigt werden, doch sie können problemlos ignoriert werden."
 
 #: desktop-guide/C/offline-packages.xml:25(para) desktop-guide/C/offline-packages.xml:51(para)
 msgid ""
@@ -1613,7 +1648,7 @@ msgstr ""
 
 #: desktop-guide/C/offline-packages.xml:41(title)
 msgid "Upgrading Your System"
-msgstr ""
+msgstr "Wie Sie Ihr System upgraden"
 
 #: desktop-guide/C/offline-packages.xml:43(para)
 msgid ""
@@ -1699,7 +1734,7 @@ msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:12(title)
 msgid "Migrating and Upgrading"
-msgstr ""
+msgstr "Migration und Upgrade"
 
 #: desktop-guide/C/migrating-upgrading.xml:15(title)
 msgid "Migrating from Windows"
@@ -1735,7 +1770,7 @@ msgstr "<placeholder-1/> Alle Einstellungen"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "System (menu)"
-msgstr ""
+msgstr "System (Menü-Kategorie)"
 
 #: desktop-guide/C/migrating-upgrading.xml:23(seg)
 msgid ""
@@ -1744,6 +1779,10 @@ msgid ""
 "<?br?><application><menuchoice><placeholder-3/><placeholder-"
 "4/></menuchoice></application> for additional configuration"
 msgstr ""
+"<application><menuchoice><placeholder-1/><placeholder-"
+"2/></menuchoice></application> für persönliche Voreinstellungen "
+"<?br?><application><menuchoice><placeholder-3/><placeholder-"
+"4/></menuchoice></application> für weitere Konfiguration"
 
 #: desktop-guide/C/migrating-upgrading.xml:24(seg)
 msgid "Windows Explorer"
@@ -1786,6 +1825,13 @@ msgid ""
 "url=\"http://www.winehq.org/help/\">Wine documentation</ulink> for FAQ's and "
 "user support."
 msgstr ""
+"<ulink url=\"http://winehq.org/\">Wine</ulink>, der Windows-Emulator. Wine "
+"erlaubt es, Windows-Anwendungen auszuführen, ohne ein Windows-Betriebssystem "
+"zu installieren. Verwenden Sie die <ulink "
+"url=\"http://appdb.winehq.org/\">Wine AppDB</ulink> um herauszufinden, "
+"welche Anwendungen mit Wine ausgeführt werden können und die <ulink "
+"url=\"http://www.winehq.org/help/\">Wine-Dokumentation</ulink> für häufig "
+"gestellte Fragen und Benutzerhilfe."
 
 #: desktop-guide/C/migrating-upgrading.xml:34(para)
 msgid ""
@@ -1999,6 +2045,9 @@ msgid ""
 "install some additional software. Unfortunately, this software cannot be "
 "provided by default in Xubuntu due to legal restrictions in some countries."
 msgstr ""
+"Um einige beliebte Audioformate wie MP3 abzuspielen, müssen Sie zusätzliche "
+"Software installieren. Leider kann diese Software aufgrund rechtlicher "
+"Einschränkungen nicht in Xubuntu vorinstalliert werden."
 
 #: desktop-guide/C/media-apps.xml:24(para) desktop-guide/C/media-apps.xml:71(para)
 msgid ""
@@ -2006,6 +2055,9 @@ msgid ""
 "the instructions below. There are some legal issues that you should be aware "
 "of."
 msgstr ""
+"Lesen Sie <xref linkend=\"software-repositories-restricted\"/>, bevor Sie "
+"die Anweisungen unten befolgen. Dort sind rechtliche Probleme beschrieben, "
+"die Ihnen bewusst sein sollten."
 
 #: desktop-guide/C/media-apps.xml:26(para)
 msgid ""
@@ -2013,6 +2065,9 @@ msgid ""
 "install the <literal><placeholder-1/>gstreamer0.10-plugins-ugly</literal> "
 "package."
 msgstr ""
+"Um MP3-Dateien in <application>gmusicbrowser</application> abspielen zu "
+"können, installieren Sie das Paket <literal><placeholder-1/>gstreamer0.10-"
+"plugins-ugly</literal>."
 
 #: desktop-guide/C/media-apps.xml:28(para)
 msgid ""
@@ -2021,6 +2076,10 @@ msgid ""
 "<application>gmusicbrowser</application> to your music files by doing the "
 "following:"
 msgstr ""
+"Zu Beginn sucht <application>gmusicbrowser</application> nicht automatisch "
+"nach Musik auf Ihrem Computer, und Sie müssen "
+"<application>gmusicbrowser</application> manuell auf Ihre Musik-Dateien "
+"hinweisen, indem Sie folgendes machen:"
 
 #: desktop-guide/C/media-apps.xml:31(para)
 msgid ""
@@ -2028,18 +2087,25 @@ msgid ""
 "1/><guisubmenu>Multimedia</guisubmenu><guimenuitem>gmusicbrowser</guimenuitem"
 "></menuchoice></application>"
 msgstr ""
+"Öffnen Sie <application><menuchoice><placeholder-"
+"1/><guisubmenu>Multimedia</guisubmenu><guimenuitem>gmusicbrowser</guimenuitem"
+"></menuchoice></application>"
 
 #: desktop-guide/C/media-apps.xml:32(para)
 msgid ""
 "Open the menu (a gear at the top right) and click "
 "<menuchoice><guimenuitem>Settings</guimenuitem></menuchoice>"
 msgstr ""
+"Öffnen Sie das Menü (ein Zahnrad in der rechten oberen Ecke) und klicken Sie "
+"auf <menuchoice><guimenuitem>Einstellungen</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/media-apps.xml:33(para)
 msgid ""
 "In the <guilabel>Settings</guilabel> dialog, go to the "
 "<guilabel>Library</guilabel> tab"
 msgstr ""
+"Wechseln Sie im Dialog <guilabel>Einstellungen</guilabel> auf den Reiter "
+"<guilabel>Sammlung</guilabel>."
 
 #: desktop-guide/C/media-apps.xml:34(para)
 msgid ""
@@ -2047,12 +2113,18 @@ msgid ""
 "contains your music files and press <guibutton>OK</guibutton>; your "
 "selection will now appear in the <guilabel>Settings</guilabel> dialog"
 msgstr ""
+"Klicken Sie auf <guibutton>Ordner hinzufügen</guibutton> und wählen Sie das "
+"Verzeichnis, welches Ihre Musik enthält und klicken Sie auf "
+"<guibutton>OK</guibutton>; nun erscheint ihre Auswahl im Dialog "
+"<guilabel>Einstellungen</guilabel>"
 
 #: desktop-guide/C/media-apps.xml:35(para)
 msgid ""
 "If you wish to add other locations of music files repeat the previous step, "
 "or otherwise, press <guibutton>Close</guibutton>"
 msgstr ""
+"Falls Sie weitere Orte mit Musik-Dateien hinzufügen möchten, wiederholen Sie "
+"den vorherigen Schritt, oder Klicken Sie auf <guibutton>Schließen</guibutton>"
 
 #: desktop-guide/C/media-apps.xml:36(para)
 msgid ""
@@ -2061,6 +2133,11 @@ msgid ""
 "have to change views (to the left of the search) or restart "
 "<application>gmusicbrowser</application> to see your library."
 msgstr ""
+"<application>gmusicbrowser</application> wird nun anfangen, ihre Sammlung zu "
+"durchsuchen. Nachdem der <guilabel>Scanne</guilabel> Fortschrittsbalken "
+"verschwinden, müssen sie eventuell die Ansicht ändern (links von der Suche) "
+"oder <application>gmusicbrowser</application> neu starten um Ihre Sammlung "
+"zu sehen."
 
 #: desktop-guide/C/media-apps.xml:41(title)
 msgid ""
@@ -2100,7 +2177,7 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:51(title)
 msgid "Portable music players"
-msgstr ""
+msgstr "Portable Musikabspielgeräte"
 
 #: desktop-guide/C/media-apps.xml:53(para)
 msgid ""
@@ -2136,6 +2213,8 @@ msgid ""
 "You can watch movies and video clips with the <application>Parole Media "
 "Player</application>."
 msgstr ""
+"Sie können Filme und Videoclips mit dem <application>Parole "
+"Medienspieler</application> anschauen."
 
 #: desktop-guide/C/media-apps.xml:67(title)
 msgid "Playing DVDs"
@@ -2153,7 +2232,7 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:73(para)
 msgid "To be able to play DVDs, do the following:"
-msgstr ""
+msgstr "Um DVDs abspielen zu können, machen Sie Folgendes:"
 
 #: desktop-guide/C/media-apps.xml:76(para)
 msgid ""
@@ -2161,6 +2240,9 @@ msgid ""
 "<literal><placeholder-2/>libdvdread4</literal> and <literal><placeholder-"
 "3/>gstreamer0.10-plugins-ugly</literal> packages."
 msgstr ""
+"Installieren Sie die Pakete <literal><placeholder-1/>libdvdnav4</literal>, "
+"<literal><placeholder-2/>libdvdread4</literal> und <literal><placeholder-"
+"3/>gstreamer0.10-plugins-ugly</literal>."
 
 #: desktop-guide/C/media-apps.xml:77(para)
 msgid ""
@@ -2172,6 +2254,13 @@ msgid ""
 "<keycap><placeholder-2/>Enter</keycap> key: <userinput>sudo "
 "/usr/share/doc/libdvdread4/install-css.sh</userinput>"
 msgstr ""
+"Falls Sie verschlüsselte DVDs abspielen möchten, öffnen Sie "
+"<application><menuchoice><placeholder-"
+"1/><guisubmenu>Zubehör</guisubmenu><guimenuitem>Terminal</guimenuitem></menuc"
+"hoice></application> und geben Sie das folgende in das "
+"<application>Terminal</application> ein, gefolgt von der "
+"<keycap><placeholder-2/>Eingabe</keycap>-Taste: <userinput>sudo "
+"/usr/share/doc/libdvdread4/install-css.sh</userinput>"
 
 #: desktop-guide/C/media-apps.xml:78(para)
 msgid ""
@@ -2179,6 +2268,9 @@ msgid ""
 "1/>libdvdcss2</literal> package will be downloaded and installed from a "
 "website."
 msgstr ""
+"Geben Sie ihr Passwort ein, wenn Sie dazu aufgefordert werden. Das Paket "
+"<literal><placeholder-1/>libdvdcss2</literal> wird von einer Webseite "
+"heruntergeladen und installiert."
 
 #: desktop-guide/C/media-apps.xml:79(para)
 msgid ""
@@ -2200,6 +2292,12 @@ msgid ""
 "install this plugin by following the wizard. Afterwards, you may need to "
 "restart <application>Parole Media Player</application>."
 msgstr ""
+"<application>Parole Medienspieler</application> unterstützt die meisten "
+"Arten von Videos. Falls Sie versuchen, eine nicht unterstützte Videodatei "
+"abzuspielen, weist <application>Parole Mediienspieler</application> Sie auf "
+"ein fehlendes Plugin hin. Dann können Sie dieses Plugin installieren, indem "
+"Sie den Anweisungen im Assistenten folgen. Anschließend müssen sie eventuell "
+"<application>Parole Medienspieler</application> neu starten."
 
 #: desktop-guide/C/media-apps.xml:88(para)
 msgid ""
@@ -2239,6 +2337,8 @@ msgid ""
 "You can make your own CDs and DVDs by burning files onto a blank disc using "
 "the CD or DVD writer drive of your computer."
 msgstr ""
+"Sie können Ihre eigenen CDs und DVDs erstellen, indem Sie Dateien mit dem CD-"
+" or DVD-Brenner ihres Computers ein leeres Medium beschreiben."
 
 #: desktop-guide/C/media-apps.xml:105(para)
 msgid ""
@@ -2247,6 +2347,11 @@ msgid ""
 "easily create audio CDs, burn CDs and DVDs with either plain data or disk "
 "images and prepare blank re-writable disks for a new burn."
 msgstr ""
+"<application>Xfburn</application> ist die vorinstallierte Anwendung um diese "
+"Aufgaben durchzuführen. <application>Xfburn</application> erlaubt es, auf "
+"einfache Weise Musik-CDs, CDs und DVDs mit Daten oder Datenträger-Abbildern "
+"zu brennen und wieder beschreibbare Medien für einen neuen Brennvorgang zu "
+"leeren."
 
 #: desktop-guide/C/media-apps.xml:107(para)
 msgid ""
@@ -2255,6 +2360,10 @@ msgid ""
 "1/><guisubmenu>Multimedia</guisubmenu><guimenuitem>Xfburn</guimenuitem></menu"
 "choice></application>."
 msgstr ""
+"Um <application>Xfburn</application> zu starten, navigieren Sie zu "
+"<application><menuchoice><placeholder-"
+"1/><guisubmenu>Multimedia</guisubmenu><guimenuitem>Xfburn</guimenuitem></menu"
+"choice></application>."
 
 #: desktop-guide/C/media-apps.xml:109(para)
 msgid ""
@@ -2263,6 +2372,10 @@ msgid ""
 "(<guibutton>New Data Composition</guibutton>, <guibutton>Audio "
 "CD</guibutton>, etc.)."
 msgstr ""
+"Nachdem das Programm gestartet ist, können Sie eine CD-R(W) oder DVD-R(W) "
+"einlegen und können dann die Aktion auswählen, die sie durchführen möchten "
+"(<guibutton>Datenzusammenstellung</guibutton>, <guibutton>Audio-"
+"CD</guibutton>, etc.)."
 
 #: desktop-guide/C/managing-applications.xml:12(title)
 msgid "Managing installed applications"
@@ -2319,6 +2432,9 @@ msgid ""
 "<application><menuchoice><placeholder-1/><guimenuitem>Ubuntu Software "
 "Center</guimenuitem></menuchoice></application>."
 msgstr ""
+"Sie können das Ubuntu Software-Center über "
+"<application><menuchoice><placeholder-1/><guimenuitem>Ubuntu Software-"
+"Center</guimenuitem></menuchoice></application> starten."
 
 #: desktop-guide/C/managing-applications.xml:33(title)
 msgid "Installing new software"
@@ -2329,20 +2445,27 @@ msgid ""
 "Search for an application or select a category to find an application you "
 "want to install"
 msgstr ""
+"Suchen Sie nach einer Anwendung oder wählen Sie eine Kategorie, um eine "
+"Anwendung zu finden, die Sie installieren möchten"
 
 #: desktop-guide/C/managing-applications.xml:37(para)
 msgid "From the application page, click <guibutton>Install</guibutton>"
 msgstr ""
+"Auf der Anwendungsseite, klicken Sie auf <guibutton>Installieren</guibutton>"
 
 #: desktop-guide/C/managing-applications.xml:38(para)
 msgid ""
 "You will be asked to enter your password; once you do that, the installation "
 "will begin"
 msgstr ""
+"Sie werden nach Ihrem Passwort gefragt werden; nachdem Sie dieses eingeben, "
+"wird die Installation starten"
 
 #: desktop-guide/C/managing-applications.xml:39(para)
 msgid "A shortcut to your application will added to the Applications menu"
 msgstr ""
+"Eine Verknüpfung zu Ihrer Anwendung wird dem Anwendungsmenü hinzugefügt "
+"werden"
 
 #: desktop-guide/C/managing-applications.xml:42(para)
 msgid ""
@@ -2357,22 +2480,28 @@ msgstr "Anwendungen entfernen"
 #: desktop-guide/C/managing-applications.xml:49(para)
 msgid "Click <guilabel>Installed</guilabel> on the top panel"
 msgstr ""
+"Klicken Sie auf <guilabel>Installiert</guilabel> in der oberen Leiste"
 
 #: desktop-guide/C/managing-applications.xml:50(para)
 msgid ""
 "Find the application that you want to remove by using the search box or "
 "looking through the installed applications"
 msgstr ""
+"Finden Sie die Anwendung, die Sie entfernen möchten unter Verwendung des "
+"Suchfeldes oder indem Sie die instllierten Anwendungen durch sehen."
 
 #: desktop-guide/C/managing-applications.xml:51(para)
 msgid "Select the application and click <guibutton>Remove</guibutton>"
 msgstr ""
+"Wählen Sie die Anwendung und klicken Sie auf <guibutton>Entfernen</guibutton>"
 
 #: desktop-guide/C/managing-applications.xml:52(para)
 msgid ""
 "You may be asked to enter your password; once you do that, the application "
 "will be removed"
 msgstr ""
+"Sie werden eventuell nach Ihrem Passwort gefragt; nachdem Sie dieses "
+"eingeben, wird die Anwendung entfernt"
 
 #: desktop-guide/C/managing-applications.xml:55(para)
 msgid ""
@@ -2436,6 +2565,9 @@ msgid ""
 "You will be notified that the information about available software is out-of-"
 "date. Press <guibutton>Reload</guibutton>."
 msgstr ""
+"Sie werden eine Nachricht erhalten, dass die Informationen über verfügbare "
+"Software nicht mehr aktuell sind. Klicken Sie auf <guibutton>Neu "
+"laden</guibutton>."
 
 #: desktop-guide/C/managing-applications.xml:73(para)
 msgid ""
@@ -2454,6 +2586,9 @@ msgid ""
 "Be careful when installing software from third-party repositories. It may "
 "not have been tested with Xubuntu and could cause your system to break."
 msgstr ""
+"Seien Sie vorsichtig bei der Installation von Programmen aus Drittanbieter-"
+"Paketquellen, da diese möglicherweise nicht mit Xubuntu getestet wurden und "
+"das System zerstören können."
 
 #: desktop-guide/C/managing-applications.xml:80(title)
 msgid "Restricted and non-free software"
@@ -2466,6 +2601,10 @@ msgid ""
 "the software and redistribute it if they like. Xubuntu is built from this "
 "type of software."
 msgstr ""
+"Die meisten Programme, die für Xubuntu verfügbar sind, sind kostenlos und "
+"Open-Source. Diese Programme darf jeder installieren und verwenden. Außerdem "
+"kann jeder diese bearbeiten und weiter verbreiten. Xubuntu baut auf dieser "
+"Art von Software auf."
 
 #: desktop-guide/C/managing-applications.xml:84(para)
 msgid ""
@@ -2613,6 +2752,7 @@ msgstr ""
 #: desktop-guide/C/managing-applications.xml:135(para)
 msgid "The following updates should be used with some caution."
 msgstr ""
+"Die folgenden Aktualisierungen sollten mit einiger Vorsicht verwendet werden."
 
 #: desktop-guide/C/managing-applications.xml:138(para)
 msgid ""
@@ -2661,10 +2801,12 @@ msgstr ""
 msgid ""
 "<guilabel>Never</guilabel> - You will not get notifications of new releases"
 msgstr ""
+"<guilabel>Niemals</guilabel> - Sie werden nicht über neue Versionen "
+"benachrichtigt werden"
 
 #: desktop-guide/C/managing-applications.xml:156(title)
 msgid "Other options"
-msgstr ""
+msgstr "Weitere Optionen"
 
 #: desktop-guide/C/managing-applications.xml:159(guilabel)
 msgid "Frequency of check"
@@ -2793,7 +2935,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:54(title)
 msgid "Dialup modems"
-msgstr ""
+msgstr "Datenmodems"
 
 #: desktop-guide/C/internet-networks.xml:56(para)
 msgid ""
@@ -2803,36 +2945,50 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/DialupModemHowto\">Dialup modem How-"
 "to</ulink> on the Ubuntu community wiki."
 msgstr ""
+"Leider werden Datenmodems nicht von "
+"<application>NetworkManager</application> unterstützt. Um zu erfahren, wie "
+"Sie mit einem Datenmodem eine Verbindung herstellen können, lesen Sie bitte "
+"das <ulink "
+"url=\"https://help.ubuntu.com/community/DialupModemHowto\">Datenmodem How-"
+"to</ulink> im Ubuntu Community Wiki."
 
 #: desktop-guide/C/internet-networks.xml:60(title)
 msgid "Network troubleshooting"
-msgstr ""
+msgstr "Lösen von Netzwerkproblemen"
 
 #: desktop-guide/C/internet-networks.xml:62(para)
 msgid ""
 "Before attempting any troubleshooting, ensure that the network connections "
 "are enabled:"
 msgstr ""
+"Bevor Sie irgendeine Problemlösung ausprobieren, stellen Sie sicher, dass "
+"die Netzwerkverbindungen aktiviert sind:"
 
 #: desktop-guide/C/internet-networks.xml:65(para)
 msgid ""
 "Click the <application>NetworkManager</application> icon in the notification "
 "area"
 msgstr ""
+"Klicken Sie auf das <application>NetworkManager</application>-Symbol im "
+"Benachrichtungsbereich"
 
 #: desktop-guide/C/internet-networks.xml:66(para)
 msgid ""
 "Check <menuchoice><guimenuitem>Enable Networking</guimenuitem></menuchoice>"
 msgstr ""
+"Aktivieren Sie <menuchoice><guimenuitem>Netzwerk "
+"aktivieren</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/internet-networks.xml:67(para)
 msgid ""
 "Check <menuchoice><guimenuitem>Enable Wi-Fi</guimenuitem></menuchoice>"
 msgstr ""
+"Aktivieren Sie <menuchoice><guimenuitem>Funknetzwerk "
+"aktivieren</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/internet-networks.xml:70(para)
 msgid "If your network connection still doesn't work:"
-msgstr ""
+msgstr "Falls Ihre Netzwerkverbindung immer noch nicht funktioniert:"
 
 #: desktop-guide/C/internet-networks.xml:73(para)
 msgid ""
@@ -2846,16 +3002,21 @@ msgid ""
 "troubleshooting-general\"/> and <xref linkend=\"network-troubleshooting-"
 "wireless\"/>"
 msgstr ""
+"Für drahtlose Verbindungen, lesen Sie bitte sowohl <xref linkend=\"network-"
+"troubleshooting-general\"/> als auch <xref linkend=\"network-troubleshooting-"
+"wireless\"/>"
 
 #: desktop-guide/C/internet-networks.xml:75(para)
 msgid ""
 "If your network connection problems are still not resolved, see <xref "
 "linkend=\"network-troubleshooting-advanced\"/>"
 msgstr ""
+"Falls ihre Probleme mit der Netzwerkverbindung immer noch nicht gelöst sind, "
+"lesen Sie <xref linkend=\"network-troubleshooting-advanced\"/>"
 
 #: desktop-guide/C/internet-networks.xml:79(title)
 msgid "General troubleshooting"
-msgstr ""
+msgstr "Allgemeine Problemlösungen"
 
 #: desktop-guide/C/internet-networks.xml:81(para)
 msgid ""
@@ -2865,7 +3026,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:84(title)
 msgid "Get information about the current connection"
-msgstr ""
+msgstr "Informationen über die aktuelle Verbindung erhalten"
 
 #: desktop-guide/C/internet-networks.xml:86(para)
 msgid ""
