@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-09-08 19:09+0300\n"
-"PO-Revision-Date: 2014-10-20 19:50+0000\n"
+"PO-Revision-Date: 2014-10-23 15:41+0000\n"
 "Last-Translator: Daniel Kessel <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-10-21 07:28+0000\n"
+"X-Launchpad-Export-Date: 2014-10-24 06:41+0000\n"
 "X-Generator: Launchpad (build 17203)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -1668,6 +1668,12 @@ msgid ""
 "the repositories to know that something has an update available. Only during "
 "the second round can you download the upgrade packages."
 msgstr ""
+"Paketupgrades für nicht mit dem Internet verbundene Rechner sind ein Zwei-"
+"Runden-Prozeß. Während der ersten Runde müssen Sie die Sichtweise ihres "
+"Rechners an den aktuellen Zustand der Online-Paketquellen angleichen, damit "
+"Sie wissen welche Updates verfügbar sind. Erst im zweiten Durchgang können "
+"dann die gewünschten aktualisierten Pakete tatsächlich heruntergeladen und "
+"installiert werden."
 
 #: desktop-guide/C/offline-packages.xml:47(para)
 msgid ""
@@ -1857,6 +1863,8 @@ msgstr "Windows-Netzwerke und Linux"
 msgid ""
 "Accessing Windows network shares under Xubuntu can be easily done using:"
 msgstr ""
+"Auf Windows-Netzwerkfreigaben kann unter Xubuntu auf einfache Weise "
+"zugegriffen werden:"
 
 #: desktop-guide/C/migrating-upgrading.xml:45(para)
 msgid ""
@@ -2732,7 +2740,7 @@ msgstr ""
 
 #: desktop-guide/C/managing-applications.xml:128(title)
 msgid "Update Sources"
-msgstr ""
+msgstr "Quellen aktualisieren"
 
 #: desktop-guide/C/managing-applications.xml:131(para)
 msgid ""
@@ -3040,7 +3048,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:92(para)
 msgid "Click on the <application>NetworkManager</application> icon"
-msgstr ""
+msgstr "Klicken Sie auf das <application>NetworkManager</application>-Symbol"
 
 #: desktop-guide/C/internet-networks.xml:93(para)
 msgid ""
@@ -3249,7 +3257,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:170(title)
 msgid "Checking for a connection to the router"
-msgstr ""
+msgstr "Die Verbindung zum Router prüfen"
 
 #: desktop-guide/C/internet-networks.xml:172(para)
 msgid ""
@@ -3279,7 +3287,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:184(title)
 msgid "Checking IP assignment"
-msgstr ""
+msgstr "IP-Adressen-Vergabe prüfen"
 
 #: desktop-guide/C/internet-networks.xml:186(para)
 msgid ""
@@ -3312,7 +3320,7 @@ msgstr "Wenn nicht, starten Sie den Rechner neu"
 
 #: desktop-guide/C/internet-networks.xml:197(title)
 msgid "Check Domain Name Servers (DNS)"
-msgstr ""
+msgstr "Die Domain Name Server (DNS) überprüfen"
 
 #: desktop-guide/C/internet-networks.xml:199(para)
 msgid ""
@@ -3387,6 +3395,8 @@ msgstr ""
 #: desktop-guide/C/internet-networks.xml:221(para)
 msgid "The Windows Share username should be in the format DOMAIN\\username"
 msgstr ""
+"Der Benutzername für Windows-Netzwerkfreigaben sollte im Format DOMÄNE\\"
+"Benutzername eingegeben werden"
 
 #: desktop-guide/C/internet-networks.xml:223(para)
 msgid ""
@@ -3556,6 +3566,8 @@ msgid ""
 "This documentation provides documentation to the most common issues with "
 "Xubuntu, including:"
 msgstr ""
+"Dieses Dokument enthält die Dokumentation der häufigsten Sachverhalte mit "
+"Xubuntu, inklusive:"
 
 #: desktop-guide/C/index.xml:74(para)
 msgid "In addition, this documentation has three quick guides:"
@@ -3684,10 +3696,14 @@ msgstr ""
 msgid ""
 "You will, if necessary, be prompted to enter the administration password."
 msgstr ""
+"Falls notwendig werden Sie dazu aufgefordert, das Systemverwaltungs-Passwort "
+"einzugeben."
 
 #: desktop-guide/C/hardware-devices.xml:44(para)
 msgid "You may be prompted to reboot to finish installation."
 msgstr ""
+"Sie werden eventuell zu einem Neustart aufgefordert, um die Installation "
+"abzuschließen."
 
 #: desktop-guide/C/hardware-devices.xml:49(title)
 msgid "Disabling restricted drivers"
@@ -3703,7 +3719,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:55(para)
 msgid "Click on the <guilabel>Additional Drivers</guilabel> tab."
-msgstr ""
+msgstr "Klicken Sie auf den Reiter <guilabel>Zusätzliche Treiber</guilabel>."
 
 #: desktop-guide/C/hardware-devices.xml:56(para)
 msgid ""
@@ -3763,7 +3779,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:82(title)
 msgid "How can I free up disk space?"
-msgstr ""
+msgstr "Wie kann ich Speicherplatz freigeben?"
 
 #: desktop-guide/C/hardware-devices.xml:84(para)
 msgid "There are several simple ways of making more disk space available:"
@@ -3793,10 +3809,11 @@ msgstr ""
 #: desktop-guide/C/hardware-devices.xml:92(para)
 msgid "Be careful not to delete files that you still need!"
 msgstr ""
+"Seien Sie vorsichtig, keine Dateien zu löschen, die sie noch benötigen!"
 
 #: desktop-guide/C/hardware-devices.xml:96(title)
 msgid "Partitioning a Device"
-msgstr ""
+msgstr "Ein Laufwerk partitionieren"
 
 #: desktop-guide/C/hardware-devices.xml:98(para)
 msgid ""
@@ -3909,7 +3926,7 @@ msgstr "Formatieren einer Partition"
 
 #: desktop-guide/C/hardware-devices.xml:136(para)
 msgid "To format a partition, do the following:"
-msgstr ""
+msgstr "Um eine Partition zu formatieren, machen Sie folgendes:"
 
 #: desktop-guide/C/hardware-devices.xml:140(para)
 msgid ""
@@ -3983,11 +4000,11 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:168(para)
 msgid "Change settings as appropriate"
-msgstr ""
+msgstr "Ändern Sie die Einstellungen wie gewünscht"
 
 #: desktop-guide/C/hardware-devices.xml:169(para)
 msgid "Changes are applied instantly"
-msgstr ""
+msgstr "Änderungen werden sofort angewandt"
 
 #: desktop-guide/C/hardware-devices.xml:172(para)
 msgid ""
@@ -4188,22 +4205,28 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:232(title)
 msgid "Enabling hibernation"
-msgstr ""
+msgstr "den Ruhezustand aktivieren"
 
 #: desktop-guide/C/hardware-devices.xml:234(para)
 msgid "To enable and use hibernation with Xubuntu, do the following:"
 msgstr ""
+"Um den Ruhezustand bei Xubuntu einzuschalten und zu verwenden, machen Sie "
+"folgendes:"
 
 #: desktop-guide/C/hardware-devices.xml:237(para)
 msgid ""
 "Install the <application>pm-utils</application> package from the "
 "<application>Ubuntu Software Center</application>."
 msgstr ""
+"Installieren Sie das Paket <application>pm-utils</application> aus dem "
+"<application>Ubuntu Software-Center</application>."
 
 #: desktop-guide/C/hardware-devices.xml:238(para)
 msgid ""
 "From the command line, enter: <userinput>sudo pm-hibernate</userinput>."
 msgstr ""
+"Geben Sie in einer Kommandozeile ein: <userinput>sudo pm-"
+"hibernate</userinput>."
 
 #: desktop-guide/C/hardware-devices.xml:239(para)
 msgid "Enter your password."
@@ -4212,10 +4235,13 @@ msgstr "Geben Sie Ihr Passwort ein."
 #: desktop-guide/C/hardware-devices.xml:240(para)
 msgid "To resume from hibernation, press the power button."
 msgstr ""
+"Um den Rechner aus dem Ruhezustand zu wecken, drücken Sie den Einschaltknopf."
 
 #: desktop-guide/C/hardware-devices.xml:246(title)
 msgid "I get strange patterns on the screen when I hibernate my computer"
 msgstr ""
+"Ich sehe seltsame Muster auf dem Bildschirm, wenn ich mit meinem Rechner den "
+"Ruhezustand verwende"
 
 #: desktop-guide/C/hardware-devices.xml:248(para)
 msgid ""
@@ -4262,7 +4288,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:262(guilabel)
 msgid "Double-click sensitivity"
-msgstr ""
+msgstr "Doppelklick-Empfindlichkeit"
 
 #: desktop-guide/C/hardware-devices.xml:263(guilabel)
 msgid "Cursor theme"
@@ -4326,7 +4352,7 @@ msgstr "Ändern Sie ihr Passwort regelmäßig"
 
 #: desktop-guide/C/guide-keeping-safe.xml:18(para)
 msgid "Don't use shared user accounts"
-msgstr ""
+msgstr "Teilen Sie ihr Benutzerkonto nicht zusammen mit anderen Personen"
 
 #: desktop-guide/C/guide-keeping-safe.xml:19(para)
 msgid "Keep your software up-to-date"
@@ -4342,7 +4368,7 @@ msgstr "Richten Sie eine Firewall ein"
 
 #: desktop-guide/C/guide-keeping-safe.xml:22(para) desktop-guide/C/guide-keeping-safe.xml:101(title)
 msgid "Use common sense when working in the web"
-msgstr ""
+msgstr "Benutzen Sie gesunden Menschenverstand beim Arbeiten im Internet"
 
 #: desktop-guide/C/guide-keeping-safe.xml:23(para) desktop-guide/C/guide-keeping-safe.xml:136(title) desktop-guide/C/guide-keeping-safe.xml:158(para)
 msgid "Back up on a regular basis"
@@ -4363,7 +4389,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:33(para)
 msgid "Click on your username on the list"
-msgstr ""
+msgstr "Klicken Sie in der Liste auf ihren Benutzernamen"
 
 #: desktop-guide/C/guide-keeping-safe.xml:34(para)
 msgid ""
@@ -4373,7 +4399,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:35(para)
 msgid "First enter your <guilabel>Current password</guilabel>"
-msgstr ""
+msgstr "Geben Sie zuerst ihr<guilabel>aktuelles Passwort</guilabel> ein."
 
 #: desktop-guide/C/guide-keeping-safe.xml:36(para)
 msgid "Now you can either"
@@ -4485,7 +4511,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:102(para)
 msgid "Here are a few tips for keeping safe online:"
-msgstr ""
+msgstr "Hier sind ein paar Tipps, wie sie online sicher bleiben:"
 
 #: desktop-guide/C/guide-keeping-safe.xml:104(para)
 msgid ""
@@ -4597,6 +4623,8 @@ msgstr ""
 #: desktop-guide/C/guide-keeping-safe.xml:161(para)
 msgid "Label your backups clearly and keep them in a safe place"
 msgstr ""
+"Beschriften Sie ihre Datensicherungen deutlich und bewahren Sie sie an einem "
+"sicheren Ort auf"
 
 #: desktop-guide/C/guide-desktop.xml:12(title)
 msgid "Getting to know your desktop environment"
@@ -4776,6 +4804,8 @@ msgid ""
 "To copy and move files on your computer, just click and drag files and "
 "folders to other folders."
 msgstr ""
+"Um Dateien auf ihrem Rechner zu kopieren und zu verschieben, klicken Sie und "
+"Ziehen Sie die Dateien und Ordner einfach auf andere Ordner."
 
 #: desktop-guide/C/guide-desktop.xml:110(title)
 msgid "Removable devices"
@@ -4806,7 +4836,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-desktop.xml:129(title)
 msgid "Customizing Thunar"
-msgstr ""
+msgstr "Thunar anpassen"
 
 #: desktop-guide/C/guide-desktop.xml:131(para)
 msgid ""
