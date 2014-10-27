@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-09-08 19:09+0300\n"
-"PO-Revision-Date: 2014-10-23 15:41+0000\n"
+"PO-Revision-Date: 2014-10-26 11:10+0000\n"
 "Last-Translator: Daniel Kessel <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-10-24 06:41+0000\n"
+"X-Launchpad-Export-Date: 2014-10-27 06:35+0000\n"
 "X-Generator: Launchpad (build 17203)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -49,7 +49,7 @@ msgstr "Abiword"
 
 #: desktop-guide/C/appendix-packages.xml:17(seg)
 msgid "abiword"
-msgstr "Abiword"
+msgstr "abiword"
 
 #: desktop-guide/C/appendix-packages.xml:17(seg)
 msgid "Word processor"
@@ -61,7 +61,7 @@ msgstr "Catfish-Dateisuche"
 
 #: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "catfish"
-msgstr "Catfish"
+msgstr "catfish"
 
 #: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "File searching tool which is configurable via the command line"
@@ -214,7 +214,7 @@ msgstr "Menübearbeitung"
 
 #: desktop-guide/C/appendix-packages.xml:37(seg)
 msgid "menulibre"
-msgstr "MenuLibre"
+msgstr "menulibre"
 
 #: desktop-guide/C/appendix-packages.xml:37(seg)
 msgid "Menu layout editor"
@@ -1095,6 +1095,17 @@ msgid ""
 "<guilabel>Compositor</guilabel> tab either unticking <guilabel>Enable "
 "display compositing</guilabel> or modifying settings."
 msgstr ""
+"Obwohl Xubuntu voreingestellt nicht viele Schreibtischeffekte verwendet, ist "
+"dennoch das Programm für Schreibtischeffekte, der »Xfce Compositor«, aktiv. "
+"In der Standardkonfiguration wird er dafür verwendet, Schatten für Fenster "
+"und durchsichtige Leisten zu zeichnen. Falls Sie einen leistungsschwachen "
+"Prozessor haben oder die erwähnten Schreibtischeffekte nicht mögen, können "
+"Sie den »Xfce Compositor« deaktivieren oder ein Einstellungen ändern, in dem "
+"Sie zu <application><menuchoice><placeholder-1/><guimenuitem><placeholder-"
+"2/>Alle Einstellungen</guimenuitem><guimenuitem>Feineinstellungen des "
+"Fensterverhaltens</guimenuitem></menuchoice></application> gehen und auf dem "
+"Reiter <guilabel>Compositor</guilabel> entweder <guilabel>Anzeigen-"
+"Compositing aktivieren</guilabel> ausschalten oder die Einstellungen ändern."
 
 #: desktop-guide/C/printing-scanning.xml:12(title)
 msgid "Printing and Scanning"
@@ -2151,6 +2162,8 @@ msgstr ""
 msgid ""
 "I see wrong metadata (song names, covers) for my tracks in gmusicbrowser"
 msgstr ""
+"Ich sehe falsche Metadaten (Songtitel, Covers) für meine Musik in "
+"gmusicbrowser."
 
 #: desktop-guide/C/media-apps.xml:43(para)
 msgid ""
@@ -2194,6 +2207,10 @@ msgid ""
 "use <application>File Manager</application> to manually copy songs to and "
 "from the player."
 msgstr ""
+"Xubuntu funktioniert mit den meisten portablen Musikabspielgeräten, "
+"inklusive iPods. Normalerweise müssen Sie nur das Gerät an Ihren Rechner "
+"anschließen, und anschließend den <application>Dateimanager</application> "
+"benutzen, um manuell die Lieder von dem Gerät und auf das Gerät zu kopieren."
 
 #: desktop-guide/C/media-apps.xml:55(para)
 msgid ""
@@ -2201,6 +2218,9 @@ msgid ""
 "Xubuntu unless you have done an initial synchronization with "
 "<application>iTunes</application> first."
 msgstr ""
+"Neuere iPods (6. Generation und neuer) funktionieren nicht automatisch mit "
+"Xubuntu. Hierfür müssen Sie das Gerät zunächst initial mit "
+"<application>iTunes</application> synchronisieren."
 
 #: desktop-guide/C/media-apps.xml:57(para)
 msgid ""
@@ -2326,6 +2346,10 @@ msgid ""
 "are proprietary and so support for them cannot be included in Xubuntu by "
 "default. You must install some extra software to allow playback."
 msgstr ""
+"Einige Videoformate, wie Adobe Flash, QuickTime und Windows Media Video sind "
+"proprietär und daher kann keine Unterstützung für diese Formate in Xubuntu "
+"vorinstalliert werden. Sie müssen zusätzliche Software installieren um diese "
+"Formate abspielen zu können."
 
 #: desktop-guide/C/media-apps.xml:95(para)
 msgid ""
@@ -2335,6 +2359,11 @@ msgid ""
 "(see <xref linkend=\"software-repositories-restricted\"/> for more "
 "information)."
 msgstr ""
+"Um die häufigsten priorietären Formate mit <application>Parole "
+"Medienspieler</application> oder <application>Firefox</application> "
+"abspielen zu können, installieren sie das Paket <literal><placeholder-"
+"1/>xubuntu-restricted-extras</literal> (siehe <xref linkend=\"software-"
+"repositories-restricted\"/> für weitere Informationen)."
 
 #: desktop-guide/C/media-apps.xml:101(title)
 msgid "Burning CDs and DVDs"
@@ -2660,6 +2689,13 @@ msgid ""
 "unable to determine why a package is restricted, err on the side of caution "
 "and do not install it; it may be illegal to use it in your country."
 msgstr ""
+"In manchen Fällen ist es schwierig herauszufinden, wieso es sich bei einem "
+"bestimmten Software-Paket um eingeschränkte Software handelt. In solchen "
+"Fällen sollten Sie im <ulink "
+"url=\"http://ubuntuforums.org/\">deutschsprachigen Ubuntu-Forum</ulink> um "
+"Rat fragen. Falls Sie danach immer noch nicht herausgefunden haben, wieso "
+"die Software eingeschränkt ist, gehen Sie auf Nummer sicher und installieren "
+"Sie sie nicht; die Benutzung könnte in ihrem Land illegal sein."
 
 #: desktop-guide/C/managing-applications.xml:97(title)
 msgid "Installing packages without an Internet connection"
@@ -2791,12 +2827,17 @@ msgid ""
 "This section of the <application>Software Updater</application> deals with "
 "the way you wish future versions to be given to you. You have three options:"
 msgstr ""
+"Dieser Abschnitt der <application>Aktualisierungsverwaltung</application> "
+"beschäftigt sich mit der Art und Wiese, auf die Sie über neue Versionen "
+"benachrichtigt werden. Sie haben drei Auswahlmöglichkeiten:"
 
 #: desktop-guide/C/managing-applications.xml:149(para)
 msgid ""
 "<guilabel>For any new version</guilabel> - You will get notifications of all "
 "new releases, once in 6 months"
 msgstr ""
+"<guilabel>Für jede neue Version</guilabel> - Sie werden Benachrichtigungen "
+"über jede neue Version bekommen, einmal alle 6 Monate."
 
 #: desktop-guide/C/managing-applications.xml:150(para)
 msgid ""
@@ -2804,6 +2845,9 @@ msgid ""
 "notifications of new Long-term Support (LTS) releases, once in 2 years - "
 "recommended if you need maximum stability"
 msgstr ""
+"<guilabel>Für Langzeitunterstützungsversionen</guilabel> - Sie werden über "
+"Langzeitunterstützungsversionen (LTS) alle zwei Jahre benachrichtigt werden -"
+" empfohlen, wenn Sie maximale Stabilität wünschen."
 
 #: desktop-guide/C/managing-applications.xml:151(para)
 msgid ""
@@ -2818,15 +2862,15 @@ msgstr "Weitere Optionen"
 
 #: desktop-guide/C/managing-applications.xml:159(guilabel)
 msgid "Frequency of check"
-msgstr ""
+msgstr "Häufigkeit der Suche nach Aktualisierungen"
 
 #: desktop-guide/C/managing-applications.xml:160(guilabel)
 msgid "Checking and installing updates automatically"
-msgstr ""
+msgstr "Automatisch Updates suchen und installieren"
 
 #: desktop-guide/C/managing-applications.xml:161(guilabel)
 msgid "Displaying notifications about security updates"
-msgstr ""
+msgstr "Benachrichtungen über Sicherheitsaktualisierungen anzeigen"
 
 #: desktop-guide/C/internet-networks.xml:12(title)
 msgid "Connecting to Internet and Networks"
@@ -2850,17 +2894,19 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:19(title)
 msgid "Network connections"
-msgstr ""
+msgstr "Netzwerkverbindungen"
 
 #: desktop-guide/C/internet-networks.xml:22(title)
 msgid "Connecting and disconnecting"
-msgstr ""
+msgstr "Eine Verbindung herstellen und trennen"
 
 #: desktop-guide/C/internet-networks.xml:24(para)
 msgid ""
 "<application>NetworkManager</application> will automatically use a wired "
 "network, if one is available."
 msgstr ""
+"<application>NetworkManager</application> wird ein kabelgebundenes Netzwerk "
+"automatisch verwenden, wenn eines verfügbar ist."
 
 #: desktop-guide/C/internet-networks.xml:26(para)
 msgid ""
@@ -2868,6 +2914,9 @@ msgid ""
 "<application>NetworkManager</application> icon. To connect to a network, "
 "click the network name."
 msgstr ""
+"Um alle verfügbaren Netzwerke zu sehen, klicken Sie auf das "
+"<application>NetworkManager</application>-Symbol. Um sich mit einem Netzwerk "
+"zu verbinden, klicken Sie auf den Namen des Netzwerks."
 
 #: desktop-guide/C/internet-networks.xml:28(para)
 msgid ""
@@ -2893,7 +2942,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:34(title)
 msgid "Configuring connections"
-msgstr ""
+msgstr "Verbindungen konfigurieren"
 
 #: desktop-guide/C/internet-networks.xml:36(para)
 msgid ""
@@ -3003,6 +3052,8 @@ msgid ""
 "For wired (Ethernet) connections, please see <xref linkend=\"network-"
 "troubleshooting-general\"/>"
 msgstr ""
+"Für kabelgebundene (Ethernet) Verbindungen, lesen Sie bitte <xref "
+"linkend=\"network-troubleshooting-general\"/>"
 
 #: desktop-guide/C/internet-networks.xml:74(para)
 msgid ""
@@ -3031,6 +3082,8 @@ msgid ""
 "If your network connection is not working properly, there are a few tools "
 "that can be used to help diagnose the problem."
 msgstr ""
+"Wenn ihre Netzwerkverbindung nicht ordentlich funktioniert, gibt es ein paar "
+"Werkzeuge, um das Problem zu analysieren."
 
 #: desktop-guide/C/internet-networks.xml:84(title)
 msgid "Get information about the current connection"
@@ -3223,16 +3276,23 @@ msgid ""
 "This allows you to use a Windows wireless device driver under Xubuntu. To "
 "start using <application>NDISWrapper</application>:"
 msgstr ""
+"Xubuntu unterstützt ein System mit dem Namen "
+"<application>NDISWrapper</application>. Dieses ermöglicht die Verwendung von "
+"Windows-WLAN-Treibern unter Xubuntu. Um "
+"<application>NDISWrapper</application> zu verwenden:"
 
 #: desktop-guide/C/internet-networks.xml:160(para)
 msgid ""
 "Obtain the Windows driver for your network device and locate the file that "
 "ends with .inf"
 msgstr ""
+"Beschaffen Sie den Windows-Treiber für ihr Netzwerkgerät und finden Sie die "
+"Datei, die auf .inf endet."
 
 #: desktop-guide/C/internet-networks.xml:161(para)
 msgid "Install the <literal><placeholder-1/>ndisgtk</literal> package"
 msgstr ""
+"Installieren Sie das Paket <literal><placeholder-1/>ndisgtk</literal>."
 
 #: desktop-guide/C/internet-networks.xml:162(para)
 msgid ""
@@ -3240,20 +3300,26 @@ msgid ""
 "Settings Manager</guimenuitem><guimenuitem>Windows Wireless "
 "Drivers</guimenuitem></menuchoice></application>"
 msgstr ""
+"Gehen Sie zu <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/>Alle "
+"Einstellungen</guimenuitem><guimenuitem>Windows Wireless "
+"Drivers</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/internet-networks.xml:163(para)
 msgid "Select <guibutton>Install new driver</guibutton>"
-msgstr ""
+msgstr "Wählen Sie <guibutton>Installiere neuen Treiber</guibutton>"
 
 #: desktop-guide/C/internet-networks.xml:164(para)
 msgid ""
 "Choose the location of your Windows .inf file and click "
 "<guibutton>Install</guibutton>"
 msgstr ""
+"Wählen Sie den Ort ihrer Windows .inf –Datei und klicken Sie auf "
+"<guibutton>Installieren</guibutton>"
 
 #: desktop-guide/C/internet-networks.xml:165(para)
 msgid "Click <guibutton>OK</guibutton>"
-msgstr ""
+msgstr "Klicken Sie auf <guibutton>OK</guibutton>"
 
 #: desktop-guide/C/internet-networks.xml:170(title)
 msgid "Checking for a connection to the router"
@@ -3277,7 +3343,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:179(title)
 msgid "Advanced troubleshooting"
-msgstr ""
+msgstr "Fortgeschrittene Problemlösungen"
 
 #: desktop-guide/C/internet-networks.xml:181(para)
 msgid ""
@@ -3551,7 +3617,7 @@ msgstr "2014"
 
 #: desktop-guide/C/index.xml:60(holder)
 msgid "Canonical Ltd. and members of the Xubuntu Documentation team."
-msgstr "Canonical Ltd. und Mitglieder des Xubuntu Documentation Teams."
+msgstr "Canonical Ltd. und Mitglieder des Xubuntu Dokumentationsteams."
 
 #: desktop-guide/C/index.xml:64(publishername)
 msgid "The Ubuntu Documentation Project"
@@ -3566,12 +3632,12 @@ msgid ""
 "This documentation provides documentation to the most common issues with "
 "Xubuntu, including:"
 msgstr ""
-"Dieses Dokument enthält die Dokumentation der häufigsten Sachverhalte mit "
+"Dieses Dokument enthält die Dokumentation der häufigsten Themen rund um "
 "Xubuntu, inklusive:"
 
 #: desktop-guide/C/index.xml:74(para)
 msgid "In addition, this documentation has three quick guides:"
-msgstr ""
+msgstr "Zusätzlich enthält diese Dokumentation drei Kurzanleitungen:"
 
 #: desktop-guide/C/index.xml:80(para)
 msgid ""
@@ -3895,7 +3961,7 @@ msgstr "Erstellen einer neuen Partition"
 
 #: desktop-guide/C/hardware-devices.xml:121(para)
 msgid "To create a new partition:"
-msgstr ""
+msgstr "Um eine neue Partition zu erstellen:"
 
 #: desktop-guide/C/hardware-devices.xml:125(para)
 msgid ""
@@ -4144,6 +4210,7 @@ msgstr ""
 #: desktop-guide/C/hardware-devices.xml:215(title)
 msgid "My computer doesn't suspend or hibernate correctly"
 msgstr ""
+"Bereitschaft oder Ruhezustand funktionieren mit meinem Rechner nicht korrekt"
 
 #: desktop-guide/C/hardware-devices.xml:217(para)
 msgid ""
@@ -4276,15 +4343,15 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:257(para)
 msgid "Options for mice and touchpads include:"
-msgstr ""
+msgstr "Die Einstellungen für Mäuse und Touchpads beinhalten:"
 
 #: desktop-guide/C/hardware-devices.xml:260(guilabel)
 msgid "Button orientation"
-msgstr ""
+msgstr "Reihenfolge der Tasten"
 
 #: desktop-guide/C/hardware-devices.xml:261(guilabel)
 msgid "Pointer speed and sensitivity"
-msgstr ""
+msgstr "Zeigergeschwindigkeit und –beschleunigung"
 
 #: desktop-guide/C/hardware-devices.xml:262(guilabel)
 msgid "Double-click sensitivity"
@@ -4296,27 +4363,27 @@ msgstr "Mauszeiger"
 
 #: desktop-guide/C/hardware-devices.xml:266(para)
 msgid "Some of the options for configuring your keyboard include:"
-msgstr ""
+msgstr "Einige der Optionen zur Konfiguration der Tastatur beinhalten:"
 
 #: desktop-guide/C/hardware-devices.xml:269(guilabel)
 msgid "State of the Num Lock key on startup"
-msgstr ""
+msgstr "Status der NumLock-Taste beim Start"
 
 #: desktop-guide/C/hardware-devices.xml:270(guilabel)
 msgid "Key repeat speed and delay"
-msgstr ""
+msgstr "Tastenwiederholung und –verzögerung"
 
 #: desktop-guide/C/hardware-devices.xml:271(guilabel)
 msgid "Cursor blinking speed"
-msgstr ""
+msgstr "Blinkgeschwindigkeit des Cursors"
 
 #: desktop-guide/C/hardware-devices.xml:272(guilabel)
 msgid "Application keyboard shortcuts"
-msgstr ""
+msgstr "Tastenkürzel für Anwendungen"
 
 #: desktop-guide/C/hardware-devices.xml:273(guilabel)
 msgid "Keyboard layout and language"
-msgstr ""
+msgstr "Tastaturbelegung und –sprache"
 
 #: desktop-guide/C/hardware-devices.xml:276(para)
 msgid ""
@@ -4433,7 +4500,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:53(title)
 msgid "Don't use shared accounts"
-msgstr ""
+msgstr "Verwenden Sie Benutzerkonten nicht zusammen mit anderen Personen"
 
 #: desktop-guide/C/guide-keeping-safe.xml:55(para)
 msgid ""
@@ -4956,6 +5023,9 @@ msgid ""
 "It will be necessary to install <literal><placeholder-1/>xubuntu-restricted-"
 "extras</literal> in order to play proprietary media formats like e.g. MP3."
 msgstr ""
+"Es ist notwendig <literal><placeholder-1/>xubuntu-restricted-"
+"extras</literal> zu installlieren um proprietäre Medienformate wie z.B. MP3 "
+"abzuspielen."
 
 #: desktop-guide/C/guide-default-apps.xml:43(para)
 msgid ""
@@ -4977,6 +5047,8 @@ msgstr ""
 msgid ""
 "To read more about media in Xubuntu, refer to <xref linkend=\"media-apps\"/>."
 msgstr ""
+"Um mehr über Medien in Xubuntu zu erfahren, lesen Sie <xref linkend=\"media-"
+"apps\"/>."
 
 #: desktop-guide/C/guide-default-apps.xml:51(title)
 msgid "Office"
@@ -5015,7 +5087,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-default-apps.xml:61(para)
 msgid "<application>Document Viewer</application> is a PDF reader."
-msgstr ""
+msgstr "<application>Dokumentenbetrachter</application> ist ein PDF-Leser."
 
 #: desktop-guide/C/guide-default-apps.xml:63(para)
 msgid ""
@@ -5060,6 +5132,8 @@ msgstr ""
 msgid ""
 "To start the default terminal emulator and get to the command line, either:"
 msgstr ""
+"Um den vorinstallierten Terminalemulator zu starten und zur Kommandozeile zu "
+"gelangen:"
 
 #: desktop-guide/C/command-line.xml:19(para)
 msgid ""
@@ -5067,6 +5141,9 @@ msgid ""
 "1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal "
 "Emulator</guimenuitem></menuchoice></application>"
 msgstr ""
+"Gehen Sie zu <application><menuchoice><placeholder-"
+"1/><guisubmenu>Zubehör</guisubmenu><guimenuitem>Terminal</guimenuitem></menuc"
+"hoice></application>"
 
 #: desktop-guide/C/command-line.xml:20(para)
 msgid ""
@@ -5085,7 +5162,7 @@ msgstr ""
 
 #: desktop-guide/C/command-line.xml:26(title)
 msgid "Running commands with administrative rights"
-msgstr ""
+msgstr "Befehle mit Systemverwalterrechten ausführen"
 
 #: desktop-guide/C/command-line.xml:28(para)
 msgid ""
@@ -5166,16 +5243,16 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:47(userinput)
 #, no-wrap
 msgid "apt-cache search web browser"
-msgstr ""
+msgstr "apt-cache search web browser"
 
 #: desktop-guide/C/command-line.xml:47(userinput)
 #, no-wrap
 msgid "apt-cache show firefox"
-msgstr ""
+msgstr "apt-cache show firefox"
 
 #: desktop-guide/C/command-line.xml:47(seg) desktop-guide/C/command-line.xml:54(seg) desktop-guide/C/command-line.xml:61(seg)
 msgid "<placeholder-1/> or <placeholder-2/>"
-msgstr ""
+msgstr "<placeholder-1/> oder <placeholder-2/>"
 
 #: desktop-guide/C/command-line.xml:48(userinput)
 #, no-wrap
@@ -5259,7 +5336,7 @@ msgstr "Bearbeiter"
 
 #: desktop-guide/C/command-line.xml:53(seg)
 msgid "Opens a text file in an editor"
-msgstr ""
+msgstr "Öffnen eine Textdatei in einem Editor"
 
 #: desktop-guide/C/command-line.xml:53(userinput)
 #, no-wrap
@@ -5273,7 +5350,7 @@ msgstr "grep"
 
 #: desktop-guide/C/command-line.xml:54(seg)
 msgid "Searches strings or files"
-msgstr ""
+msgstr "Sucht Texte oder Dateien"
 
 #: desktop-guide/C/command-line.xml:54(userinput)
 #, no-wrap
@@ -5498,7 +5575,7 @@ msgstr "So fügen Sie einen neuen Benutzer hinzu:"
 
 #: desktop-guide/C/administrative-tasks.xml:37(para) desktop-guide/C/administrative-tasks.xml:64(para)
 msgid "Click the <guibutton>Add</guibutton> button"
-msgstr ""
+msgstr "Klicken Sie auf den <guibutton>Hinzufügen</guibutton>–Knopf"
 
 #: desktop-guide/C/administrative-tasks.xml:38(para)
 msgid "Enter you password"
@@ -5508,20 +5585,25 @@ msgstr "Geben Sie Ihr Passwort ein"
 msgid ""
 "Fill in the <guilabel>Name</guilabel> and <guilabel>Username</guilabel>"
 msgstr ""
+"Geben Sie den <guilabel>Name</guilabel> und "
+"<guilabel>Benutzername</guilabel> ein."
 
 #: desktop-guide/C/administrative-tasks.xml:40(para) desktop-guide/C/administrative-tasks.xml:68(para)
 msgid "Click the <guibutton>OK</guibutton> button"
-msgstr ""
+msgstr "Klicken Sie auf den <guibutton>OK</guibutton>–Knopf"
 
 #: desktop-guide/C/administrative-tasks.xml:43(para)
 msgid "If you want to give a user administrative rights to the system:"
 msgstr ""
+"Wenn Sie einem Benutzer Systemverwaltungsrechte für das System geben möchten:"
 
 #: desktop-guide/C/administrative-tasks.xml:46(para)
 msgid ""
 "Select the user whose account type you want to change and press the "
 "<guibutton>Change...</guibutton> button"
 msgstr ""
+"Wählen Sie den Benutzer, dessen Kontentyp Sie ändern möchten und klicken Sie "
+"auf den <guibutton>Ändern…</guibutton>–Knopf"
 
 #: desktop-guide/C/administrative-tasks.xml:47(para)
 msgid "Enter your password if prompted to do so"
@@ -5532,10 +5614,13 @@ msgid ""
 "Select the <guilabel>Administrator</guilabel> option (or select "
 "<guilabel>Desktop User</guilabel> to revert)"
 msgstr ""
+"Wählen Sie die <guilabel>Administrator</guilabel>–Option (oder wählen Sie "
+"<guilabel>Desktop-Benutzer</guilabel>, um dieses rückgängig zu machen)"
 
 #: desktop-guide/C/administrative-tasks.xml:49(para)
 msgid "Press <guibutton>OK</guibutton> to apply the selected changes"
 msgstr ""
+"Drücken Sie <guibutton>OK</guibutton> um die gewählten Änderungen anzuwenden."
 
 #: desktop-guide/C/administrative-tasks.xml:52(para)
 msgid ""
