@@ -32,6 +32,12 @@ translate:
 		xsltproc --xinclude -o ../build/$$dir/index.html $(XUBUNTUXSL) $$dir/index.xml ;\
 	done
 
+test:
+	set -e; \
+	for dir in C $(TRANSLATIONS); do \
+		../scripts/validate.sh $$dir/index.xml ;\
+	done
+
 clean:
 	${RM} -r $(TRANSLATIONS) C/translators.xml
 
