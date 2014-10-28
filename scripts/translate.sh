@@ -42,7 +42,6 @@ translate() {
 		xml2po --expand-all-entities --po-file ${1} C/${document}-C.omf >${lang}/${document}-${lang}.omf
 		sed -i -e s@\"C\"@\"${lang}\"@g -e s@C/@${lang}/@g ${lang}/${document}-${lang}.omf
 	fi
-	../scripts/validate.sh ${lang}/index.xml
 }
 
 choose_language() {

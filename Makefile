@@ -26,6 +26,9 @@ startpage:
 	done >> build/about/xubuntu-index.html
 	cat startpage/xubuntu-index-end.htx >> build/about/xubuntu-index.html
 
+test:
+	make -C desktop-guide test
+
 src-tarball:
 	# exclude archive, backup, and bzr files
 	tar cvfz xubuntu-doc.tar.gz  --exclude="*.tar.gz" --exclude="*~" --exclude "*.bzr*" *
