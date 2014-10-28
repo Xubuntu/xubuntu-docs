@@ -51,33 +51,46 @@
 	</section>
 
 	<section id="upgrading">
-		<title>Upgrading from an older version of Xubuntu</title>
+		<title>Upgrading Xubuntu</title>
 
-		<section id="how-to-upgrade">
-			<title>How can I upgrade to the latest version of Xubuntu?</title>
+		<para>A new version of Xubuntu is released every 6 months, a new LTS version is released every 2 years; the Software Updater should inform you when a new version of its type (LTS or non-LTS) is available for download.</para>
+		<para>For non-LTS versions there is only one way to upgrade from the previous version, LTS versions additionally offer an upgrade directly to the next LTS. For example a user of 14.10 can only upgrade to 15.04; a user of 14.04 could upgrade to 14.10 or 16.04.</para>
+		<para>Currently non-LTS versions are supported for 9 months and LTS versions for 3 years.</para>
+		<para>Upgrades usually take a while to complete. Typically, around 1000 megabytes of packages must be downloaded and installed, although the actual figure will depend on how many packages are already installed on your computer.</para>
 
-			<para>A new version of Xubuntu is released every 6 months; the <application>Software Updater</application> should inform you when a new version is available for download. To check for a new version:</para>
+		<section id="upgrading-to-next">
+			<title>Upgrading to the next available release</title>
 
 			<itemizedlist>
-				<listitem><para>Navigate to <application>Software Sources</application>, by clicking &wm-software-properties;</para></listitem>
-				<listitem><para>Select the <guilabel>Updates</guilabel> tab</para></listitem>
+				<listitem><para>Navigate to <application>Software Sources</application>, by clicking &wm-software-properties; and select the <guilabel>Updates</guilabel> tab</para></listitem>
 				<listitem><para>Select <guilabel>For any new version</guilabel> from the list labeled <guilabel>Notify me of a new Ubuntu version</guilabel>, enter your password, and press <guibutton>Close</guibutton></para></listitem>
 				<listitem><para>Go to &wm-software-updater; and wait for the list of available updates to be downloaded</para></listitem>
 				<listitem><para>If a new version of Xubuntu is available, a box at the top of the window will appear saying that a new distribution release is available.</para></listitem>
-				<listitem><para>To upgrade to the latest release, save all of your open documents and press the <guibutton>Upgrade</guibutton> button in <application>Software Updater</application></para></listitem>
+				<listitem><para>To upgrade to the next available release that you can upgrade to, save all of your open documents and press the <guibutton>Upgrade</guibutton> button in &wm-software-updater;</para></listitem>
 			</itemizedlist>
 
-			<para>Upgrades usually take a while to complete. Typically, around 700MB of packages must be downloaded and installed, although the actual figure will depend on how many packages are already installed on your computer.</para>
+			<note><para>If you are not getting an upgrade notification, or aren't seeing the release you are expecting to upgrade to, see <xref linkend="changing-upgrade-path"></xref>.</para></note>
+		</section>
 
-			<para>You can only upgrade to the latest Xubuntu release if you are running the second most recent release. If you have an older release, you must upgrade to the next release after that, and so on until you are running the most recent version. For example, users of version 9.04 would first have to upgrade to version 9.10 before upgrading to version 10.04. An exception to this rule is with Long Term Support (LTS) releases. You can upgrade directly from the previous LTS release to the current LTS release.</para>
+		<section id="changing-upgrade-path">
+			<title>Changing your upgrade path</title>
+
+			<para>To change which releases you want to upgrade to, choose one of the following processes:</para>
+			<itemizedlist>
+				<listitem><para>Navigate to &software-properties-usc; and select the <guilabel>Updates</guilabel> tab. In the <guilabel>Updates</guilabel> tab, select either <guilabel>For any new version</guilabel> or <guilabel>For long-term support versions</guilabel> from the <guilabel>Notify me of a new Ubuntu version</guilabel> dropdown depending on your choice.</para></listitem>
+				<listitem><para>Open the &terminal; and run <userinput>sudoedit /etc/update-manager/release-upgrades</userinput> and change the line starting with <literal>prompt=</literal> to <userinput>prompt=normal</userinput> (for all releases) or <userinput>prompt=lts</userinput> (for LTS releases) depending on your choice</para></listitem>
+			</itemizedlist>
+
+			<note><para>If you are running a regular release that is not immediately followed by an LTS release, you should not change the upgrade target to LTS release.</para></note>
+			<caution><para>Upgrading an LTS version to anything other than another LTS version will lose the long term support.</para></caution>
 		</section>
 
 		<section id="upgrading-to-devel">
-			<title>Upgrading to a development release</title>
+			<title>Upgrading to the development version</title>
 
-			<warning><para>Development releases often suffer from package breakages and other problems. Only install a development release if you are prepared to attempt to fix these problems for yourself.</para></warning>
-
-			<para>If you would like to install and test the latest development version of Xubuntu before it is released, run <userinput>pkexec update-manager -c -d</userinput> at the command line. This will allow you to upgrade to the current development release.</para>
+			<warning><para>Development releases often suffer from package breakages and other problems. Only install a development release if you are prepared to attempt to fix these problems for yourself  or if you want to help the Xubuntu team by testing and giving feedback.</para></warning>
+			<note><para>You will need to be running the latest regular version to be able to upgrade to the version currently under development.</para></note>
+			<para>If you would like to install and test the latest development version of Xubuntu before it is released, run <userinput>pkexec update-manager -c -d</userinput> at the command line. This will allow you to upgrade to the current development release. Please consider <ulink url="http://xubuntu.org/contribute/qa">getting involved</ulink> with reporting usage of development versions and associated packages.</para>
 		</section>
 	</section>
 </chapter>
