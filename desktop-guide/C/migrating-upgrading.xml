@@ -53,9 +53,7 @@
 	<section id="upgrading">
 		<title>Upgrading Xubuntu</title>
 
-		<para>A new version of Xubuntu is released every 6 months, a new LTS version is released every 2 years; the Software Updater should inform you when a new version of its type (LTS or non-LTS) is available for download.</para>
-		<para>For non-LTS versions there is only one way to upgrade from the previous version, LTS versions additionally offer an upgrade directly to the next LTS. For example a user of 14.10 can only upgrade to 15.04; a user of 14.04 could upgrade to 14.10 or 16.04.</para>
-		<para>Currently non-LTS versions are supported for 9 months and LTS versions for 3 years.</para>
+		<para>A new version of Xubuntu is released every 6 months, a new LTS version is released every 2 years; the Software Updater should inform you when a new version of its type (LTS or non-LTS) is available for download. Currently non-LTS versions are supported for 9 months and LTS versions for 3 years.</para>
 		<para>Upgrades usually take a while to complete. Typically, around 1000 megabytes of packages must be downloaded and installed, although the actual figure will depend on how many packages are already installed on your computer.</para>
 
 		<section id="upgrading-to-next">
@@ -74,6 +72,8 @@
 
 		<section id="changing-upgrade-path">
 			<title>Changing your upgrade path</title>
+
+			<para>For non-LTS versions there is only one way to upgrade from the previous version, LTS versions additionally offer an upgrade directly to the next LTS. For example a user of 14.10 can only upgrade to 15.04; a user of 14.04 could upgrade to 14.10 or 16.04.</para>
 
 			<para>To change which releases you want to upgrade to, choose one of the following processes:</para>
 			<itemizedlist>
