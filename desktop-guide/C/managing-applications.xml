@@ -147,18 +147,24 @@
 
 			<itemizedlist>
 				<listitem><para><guilabel>For any new version</guilabel> - You will get notifications of all new releases, once in 6 months</para></listitem>
-				<listitem><para><guilabel>For long-term support versions</guilabel> - You will get notifications of new Long-term Support (LTS) releases, once in 2 years - recommended if you need maximum stability</para></listitem>
+				<listitem><para><guilabel>For long-term support versions</guilabel> - You will get notifications of new Long-term Support (LTS) releases, once in 2 years</para></listitem>
 				<listitem><para><guilabel>Never</guilabel> - You will not get notifications of new releases</para></listitem>
 			</itemizedlist>
+			
+			<note><para>Opting in for LTS notifications is usually the recommmended option, especially if you are running Xubuntu on a production machine and/or need maximum stability.</para></note>
+			
+			<warning><para>It's not recommended to use the <guilabel>Never</guilabel> setting. This will leave you with an unsupported system, unless you manually remember to upgrade often enough. Additionally you wil be missing out on bug fixes, updates for potential security problems and hardware support improvements. See <xref linkend="migrating-upgrading" /> for more information on upgrading Xubuntu and release support lengths.</para></warning>
 		</section>
 
 		<section id="update-configuration-other">
 			<title>Other options</title>
-
+			
+			<para>Package updates can be scheduled from the desktop and you can change how and when the system updates itself.</para>
+			
 			<itemizedlist>
-				<listitem><para><guilabel>Frequency of check</guilabel></para></listitem>
-				<listitem><para><guilabel>Checking and installing updates automatically</guilabel></para></listitem>
-				<listitem><para><guilabel>Displaying notifications about security updates</guilabel></para></listitem>
+				<listitem><para><guilabel>Frequency of check</guilabel> - Allows you to schedule when to check for updates</para></listitem>
+				<listitem><para><guilabel>Checking and installing updates automatically</guilabel> - Allows you to define if the system downloads and install updates without confirmation or downloads all updates in the background but waits for you to manually install them</para></listitem>
+				<listitem><para><guilabel>Displaying notifications about security updates</guilabel> - Allows you to define when will the system notify you about available security updates</para></listitem>
 			</itemizedlist>
 		</section>
 	</section>
