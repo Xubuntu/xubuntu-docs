@@ -1,0 +1,70 @@
+/*
+ *  Created by Pasi Lallinaho <pasi@shimmerproject.org>
+ *  The license of this file is CC-BY-SA 2.0.
+ *	
+ */
+
+#masthead
+{
+	min-width: 0;
+
+	margin: 1em 0;
+	padding: 0 1.5em;
+}
+
+	#masthead img {
+		max-width: 80%;
+		height: auto;
+	}
+
+body > div.book,
+body > div.chapter,
+body > div.sect1,
+body > div.section,
+body > div.appendix,
+body > div.legalnotice {
+	min-width: 0;
+
+	margin: 0 auto;
+	padding: 1.5em;
+
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.navfooter {
+	min-width: 0;
+
+	margin: 1em auto;
+	padding: 0 1.5em;
+}
+
+	.navfooter {
+		font-size: 80%;
+	}
+
+/*  Specific styles for responsive stylesheet  */
+
+div.toc {
+	border-left: 0;
+	padding: 0;
+	margin: 0;
+}
+
+	div.toc a {
+		display: inline-block;
+		width: 100%;
+	}
+
+	div.toc dd {
+		margin-left: 0;
+	}
+		div.toc dd .section a {
+			width: 90%;
+			padding-left: 10%;
+
+			text-indent: -10%;
+
+			border: none;
+		}

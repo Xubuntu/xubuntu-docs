@@ -3,7 +3,7 @@
 # Public domain
 
 # Xubuntu Docbook Customization Layer
-XUBUNTUXSL=libs/xubuntu-html-chunk-cust.xsl
+XUBUNTUXSL=libs/xubuntu-docbook-conf.xsl
 
 ifneq ($(wildcard po/LINGUAS),)
    $(shell ../scripts/translate.sh -u >/dev/null)

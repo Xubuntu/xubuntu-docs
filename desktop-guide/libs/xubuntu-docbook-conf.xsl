@@ -6,7 +6,6 @@
 	<!-- ======================= -->
 	<!-- Imports -->
 	<xsl:import href="/usr/share/xml/docbook/stylesheet/nwalsh/xhtml/chunk.xsl"/>
-	<xsl:import href="xubuntu-banner.xsl"/>
 
 	<!-- Params -->
 	<xsl:param name="generate.legalnotice.link" select="1"/>
@@ -16,25 +15,40 @@
 	<xsl:param name="toc.section.depth" select="1"/>
 	<xsl:param name="chunker.output.indent" select="'yes'"/>
 	<xsl:param name="body.font.master" select="10"/>
-	<xsl:param name="html.stylesheet" select="'../libs/xubuntu-book.css'"/>
+	<xsl:param name="html.stylesheet" select="'../libs/style.css'"/>
 	<xsl:param name="shade.verbatim" select="0"/>
 	<xsl:param name="draft.mode" select="'no'"/>
 
 	<!-- disable scaling (which is needed for PDF generation) -->
 	<xsl:param name="ignore.image.scaling" select="1"/>
 
-	<!-- Favicon -->
 	<xsl:template name="user.head.content">
+		<!-- Favicon -->
 		<link rel="shortcut icon" href="../libs/images/favicon.png" />
+		<!-- Viewport meta -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+		<!-- Responsive design -->
+		<link rel="stylesheet" href="../libs/style-smaller.css" media="only screen and (max-width:950px)" />
 	</xsl:template>
 
-	<!--Navigation Graphics-->
+	<!-- Header -->
+	<xsl:template name="header.navigation">
+		<xsl:variable name="home" select="/*[1]"/>
+		<xsl:variable name="up" select="parent::*"/>
+			<div id="masthead">
+				<a href="index.html">
+					<img src="../libs/images/logo.png" alt="Xubuntu" />
+				</a>
+			</div>
+	</xsl:template>
+
+	<!-- Navigation Graphics -->
 	<xsl:param name="navig.graphics" select="1"/>
 	<xsl:param name="navig.graphics.path" select="'../libs/navig/'"/>
 	<xsl:param name="navig.graphics.extension" select="'.png'"/> 
 	<xsl:param name="navig.showtitles" select="1"/>
-	
-	<!--Admon Graphics--> 
+
+	<!-- Admon Graphics --> 
 	<xsl:param name="admon.graphics" select="1"/>
 	<xsl:param name="admon.textlabel" select="0"/>
 	<xsl:param name="admon.graphics.path" select="'../libs/admon/'"/>
