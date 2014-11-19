@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:fo="http://www.w3.org/1999/XSL/Format" version="1.0">
+	<!-- This file is a customization layer for HTML -->
 
-	<!-- This file is a customization layer for HTML only -->
-	<!-- ======================= -->
 	<!-- Imports -->
 	<xsl:import href="/usr/share/xml/docbook/stylesheet/nwalsh/xhtml/chunk.xsl"/>
 
@@ -11,7 +10,6 @@
 	<xsl:param name="generate.legalnotice.link" select="1"/>
 	<xsl:param name="generate.revhistory.link" select="1"/>	<!-- requires DocBook XSL 1.69.1a -->
 	<xsl:param name="use.id.as.filename" select="1"/>
-	<!-- <xsl:param name="generate.toc" select="'no'"/> -->
 	<xsl:param name="toc.section.depth" select="1"/>
 	<xsl:param name="chunker.output.indent" select="'yes'"/>
 	<xsl:param name="body.font.master" select="10"/>
@@ -19,7 +17,7 @@
 	<xsl:param name="shade.verbatim" select="0"/>
 	<xsl:param name="draft.mode" select="'no'"/>
 
-	<!-- disable scaling (which is needed for PDF generation) -->
+	<!-- Disable scaling (which is needed for PDF generation) -->
 	<xsl:param name="ignore.image.scaling" select="1"/>
 
 	<xsl:template name="user.head.content">
@@ -29,6 +27,7 @@
 		<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
 		<!-- Responsive design -->
 		<link rel="stylesheet" href="../libs/style-smaller.css" media="only screen and (max-width:950px)" />
+		<link rel="stylesheet" href="../libs/style-smallest.css" media="only screen and (max-width:400px)" />
 	</xsl:template>
 
 	<!-- Header -->
@@ -53,12 +52,6 @@
 	<xsl:param name="admon.textlabel" select="0"/>
 	<xsl:param name="admon.graphics.path" select="'../libs/admon/'"/>
 	<xsl:param name="admon.graphics.extension" select="'.png'"/>
-	
-	<!-- Callout Graphics -->
-	<xsl:param name="callout.unicode" select="1"/>
-	<xsl:param name="callout.graphics" select="0"/>
-	<xsl:param name="callout.graphics.path" select="'../libs/callouts/'"/>
-	<xsl:param name="callout.graphics.extension" select="'.png'"/>
 	
 	<!-- Show all subpages directly below the mainpage -->
 	<xsl:param name="chunk.section.depth" select="0" />

@@ -147,6 +147,8 @@ h3 {
 
 	font-weight: bold;
 	font-size: 150%;
+	line-height: 1.3em;
+
 	color: #555;
 }
 
@@ -233,10 +235,8 @@ div.important tr,
 div.note tr,
 div.tip tr,
 div.warning tr {
-/*	max-width: 100%; */
 	min-height: 3.5em;
-/*	float: left; */
-    position: absolute;
+	position: absolute;
 }
 
 div.caution tr:first-child,
@@ -257,15 +257,6 @@ div.warning tr:last-child {
     position: relative;
     top: 1px;
 }
-
-/* div.caution td > p,
-div.important td > p,
-div.note td > p,
-div.tip td > p,
-div.warning td > p {
-	margin-top: -32px;
-	margin-bottom: 0;
-} */
 
 div.caution img,
 div.important img,

@@ -52,15 +52,16 @@ div.toc {
 	margin: 0;
 }
 
-	div.toc a {
+	.toc a {
 		display: inline-block;
 		width: 100%;
 	}
 
-	div.toc dd {
+	.toc dd {
 		margin-left: 0;
 	}
-		div.toc dd .section a {
+		.chapter .toc .section a, 
+		.toc dd .section a {
 			width: 90%;
 			padding-left: 10%;
 
@@ -68,3 +69,36 @@ div.toc {
 
 			border: none;
 		}
+
+div.caution td,
+div.important td,
+div.note td,
+div.tip td,
+div.warning td {
+	width: auto;
+}
+
+div.caution img,
+div.important img,
+div.note img,
+div.tip img,
+div.warning img {
+	width: 20px;
+	height: auto;
+}
+
+div.caution tr:first-child,
+div.important tr:first-child,
+div.note tr:first-child,
+div.tip tr:first-child,
+div.warning tr:first-child {
+	width: 30px;
+}
+
+div.caution tr:last-child,
+div.important tr:last-child,
+div.note tr:last-child,
+div.tip tr:last-child,
+div.warning tr:last-child {
+    margin: 0 0 0 30px;
+}

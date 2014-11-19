@@ -3,9 +3,11 @@ xubuntu-docs (15.04) UNRELEASED; urgency=medium
   [ Pasi Lallinaho ]
   * Bump version information to 15.04 Vivid Vervet.
   * Attribute documentation correctly for the Xubuntu Documentation team.
-  * Clean up directory structure and some files
-  * Remove unused entities
-  * Add a stylesheet for responsiveness
+  * Clean up some files
+  * Remove unused entities, directories and files
+  * Add stylesheets for responsiveness
+  * Tweak some CSS definitions
+  * Replace the caution/important image with a new image from upstream (elementary-xfce)
 
   [ David Pires ]
   * Corrected a typo in the 'Changing update frequency and behavior' sub-section of the Managing installed applications chapter
