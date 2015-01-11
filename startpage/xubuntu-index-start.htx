@@ -4,7 +4,9 @@
 	<title>Welcome to Xubuntu!</title>
 	<meta charset="UTF-8" />
 	<link rel="stylesheet" href="./reset.css" />
-	<link rel="stylesheet" href="./xubuntu-docs.css" />
+	<link rel="stylesheet" href="./style.css" />
+	<link rel="stylesheet" href="./style-smaller.css" media="only screen and (max-width:950px)" />
+	<link rel="stylesheet" href="./style-smallest.css" media="only screen and (max-width:400px)" />
 	<link rel="shortcut icon" href="favicon.png">
 </head>
 

@@ -1,13 +1,14 @@
 xubuntu-docs (15.04) UNRELEASED; urgency=medium
 
   [ Pasi Lallinaho ]
-  * Bump version information to 15.04 Vivid Vervet.
-  * Attribute documentation correctly for the Xubuntu Documentation team.
+  * Bump version information to 15.04 Vivid Vervet
+  * Attribute documentation correctly for the Xubuntu Documentation team
   * Clean up some files
   * Remove unused entities, directories and files
-  * Add stylesheets for responsiveness
+  * Add responsive stylesheets for the documentation
   * Tweak some CSS definitions
   * Replace the caution/important image with a new image from upstream (elementary-xfce)
+  * Add responsive stylesheets for the start page
 
   [ David Pires ]
   * Corrected a typo in the 'Changing update frequency and behavior' sub-section of the Managing installed applications chapter
@@ -19,7 +20,7 @@ xubuntu-docs (15.04) UNRELEASED; urgency=medium
   [ Unit 193 ]
   * Move validation to a 'test' target, don't run at build time.
 
- -- Pasi Lallinaho <pasi@shimmerproject.org>  Tue, 28 Oct 2014 00:26:33 +0200
+ -- Pasi Lallinaho <pasi@shimmerproject.org>  Sun, 11 Jan 2015 23:50:20 +0200
 
 xubuntu-docs (14.10.1) utopic; urgency=medium
 

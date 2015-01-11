@@ -4,19 +4,22 @@
  *	
  */
 
-h1 {
-	font-size: 160%;
+#header {
+	margin: 1em 0;
+	padding: 0 1.5em;
 }
 
-div.caution,
-div.important,
-div.note,
-div.tip,
-div.warning {
-	margin: 2em -1.5em !important;
+	#header img {
+		max-width: 80%;
+		height: auto;
+	}
 
-	border-left: none;
-	border-right: none;
+#content {
+	max-width: 100%;
+	min-width: 0;
+
+	margin: 0 auto;
+	padding: 1.5em;
 
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
