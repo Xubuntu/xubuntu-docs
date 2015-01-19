@@ -9,127 +9,244 @@
 <!ENTITY language "C">
 ]>
 <chapter id="guide-keeping-safe">
-	<title>Keeping your computer safe</title>
+	<title>Keeping your computer and personal information safe</title>
 
-	<para>This is a brief guide on keeping your computer safe from security
-		threats. We will guide you through seven different tips:</para>
+	<para>This is a brief guide on keeping your computer and personal information
+		safe from security threats. If you only have a short while, you should
+		read at least the following subsections:</para>
+
 	<itemizedlist>
-		<listitem><para>Change your password regularly</para></listitem>
-		<listitem><para>Don't use shared user accounts</para></listitem>
-		<listitem><para>Keep your software up-to-date</para></listitem>
-		<listitem><para>Lock your screen while away</para></listitem>
-		<listitem><para>Set up a firewall</para></listitem>
-		<listitem><para>Use common sense when working in the web</para></listitem>
-		<listitem><para>Back up on a regular basis</para></listitem>
+		<listitem><para><xref linkend="keep-software-uptodate" /></para></listitem>
+		<listitem><para><xref linkend="passwords-important" /></para></listitem>
+		<listitem><para><xref linkend="script-applications-sources" /></para></listitem>
+		<listitem><para><xref linkend="clean-browser" /></para></listitem>
+		<listitem><para><xref linkend="email-security" /></para></listitem>
 	</itemizedlist>
 
-	<section id="change-password">
-		<title>Change your password regularly</title>
+	<section id="keep-software-uptodate">
+		<title>Keep your software up to date</title>
 
-		<para>In addition to having strong passwords, it is wise to change your
-			password regularly. To change your password, follow the steps below:</para>
-		<itemizedlist>
-			<listitem><para>Open &wm-users-groups;</para></listitem>
-			<listitem><para>Click on your username on the list</para></listitem>
-			<listitem><para>Click <guilabel>Change...</guilabel> next to the <guilabel>Password</guilabel> label</para></listitem>
-			<listitem><para>First enter your <guilabel>Current password</guilabel></para></listitem>
-			<listitem><para>Now you can either</para>
-				<itemizedlist>
-					<listitem><para>Generate a random password by selecting <guilabel>Generate random password</guilabel> and pressing <guibutton>Generate</guibutton></para></listitem>
-					<listitem><para>Choose your new password yourself by typing the new password to the <guilabel>New password</guilabel> and <guilabel>Confirmation</guilabel> fields</para></listitem>
-				</itemizedlist>
-			</listitem>
-			<listitem><para>Finally, click <guibutton>OK</guibutton> to confirm the password change</para></listitem>
-		</itemizedlist>
-
-		<caution><para>While it is possible to make Xubuntu log in automatically
-			on boot within the user dialog, automatic login is highly discouraged
-			because it provides less security for your system. Please turn on
-			automatic login on only if you can trust everybody that has access to
-			the computer.</para></caution>
+		<para>Security updates are very important. They are the best defence you
+			have against the people who want to harm your computer, and you should
+			install them immediately. When a security update is released, hackers
+			already know how to abuse computers that are not up-to-date. In the
+			worst case scenario, they are searching for victims to hack with
+			automated programs in under a few hours.</para>
+		<para>Automatic updates are enabled by default in Xubuntu. If you want to
+			change the settings for the unattended upgrades, go to the "Updates"
+			tab under &software-properties; and change the settings to your
+			liking.</para>
+		<tip><para>If you use an Internet connection with limited bandwidth and do
+			not want to use automatic updates, remember to update every time you
+			have access to an unlimited connection.</para></tip>
 	</section>
 
-	<section id="no-shared-accounts">
-		<title>Don't use shared accounts</title>
+	<section id="passwords">
+		<title>Passwords</title>
 
-		<para>When Xubuntu is installed, it is set up for a single person to use.
-			If more than one person will use the computer, it is best for each
-			person to have their own user account. To read more about adding users,
-			refer to <xref linkend="users-groups" />.</para>
+		<section id="passwords-important">
+			<title>Use strong and unique passwords for important accounts</title>
+
+			<para>Using strong and unique passwords for important and sensitive
+				accounts helps prevent unauthorized access to your personal
+				information, identity theft and direct financial losses. Consider
+				the following scenario:</para>
+			<orderedlist>
+				<listitem><para>Alice uses identical passwords for mytrustedbank.com and insecureblog.com</para></listitem>
+				<listitem><para>insecureblog is hacked and Alice’s information and password are stolen</para></listitem>
+				<listitem><para>Hackers can now access Alice’s bank account and steal her money</para></listitem>
+			</orderedlist>
+
+			<para>Password reuse can turn into a disaster. You should pay attention
+				to use unique and strong passwords for the following services:</para>
+			<itemizedlist>
+				<listitem><para><emphasis>Email accounts</emphasis>. Email accounts can be used to reset all your other passwords via the “Forgotten password” links found on all websites.</para></listitem>
+				<listitem><para><emphasis>Key stores and password managers</emphasis>. It is worth having a good password for those services, since they allow you to avoid typing many other passwords!</para></listitem>
+				<listitem><para><emphasis>Acounts related to banking</emphasis>, including PayPal and other payment sites. If someone can access these, they can steal your money.</para></listitem>
+			</itemizedlist>
+		</section>
+
+		<section id="passwords-strong">
+			<title>What is a strong password?</title>
+
+			<para>The strength of a password depends on how hard it is for an
+				attacker to guess it. Attackers use special programs that can make
+				millions of guesses per second, so weak passwords don’t stand a
+				chance.</para>
+
+			<para>Some passwords (like <literal>monkey</literal>, <literal>password</literal>,
+				<literal>test</literal>, <literal>123456</literal>) are extremely
+				common. If you use those common passwords, your accounts will be
+				hacked easily. However, adding capital letters, numbers or symbols
+				is often not enough to turn a weak password into a strong one. This
+				is because people reliably pick the same additional symbols and
+				numbers (for instance, <literal>monkey1</literal> is more common
+				than <literal>mo5nkey</literal>, and also more common than
+				<literal>monkey hoover</literal>).</para>
+
+			<para>It is better to choose a longer secret, such as a pass phrase
+				(for example <literal>correct horse stable battery</literal>, than
+				a secret that is both hard to remember and easy to crack. Consider
+				using a series of common words which you can easily remember. Do not
+				pick words that people around you would naturally associate with you
+				(for instance, you should not pick poker related words if you play
+				poker every day).</para>
+		</section>
+
+		<section id="passwords-reuse">
+			<title>How to reuse passwords safely?</title>
+
+			<para>While using the same password for multiple accounts is not
+				encouraged, everybody ends up doing this, even security experts.
+				There is no definitive agreement among security researchers on how
+				to reduce the risk of reusing passwords, but you should consider
+				the following:</para>
+			<itemizedlist>
+				<listitem><para>Separate your professional password from your personal passwords.</para></listitem>
+				<listitem><para>Avoid mixing passwords between websites where attackers can damage your reputation and websites nobody can link to your actual identity.</para></listitem>
+				<listitem><para>Use a different password for sites you do not trust.</para></listitem>
+				<listitem><para>Do not "waste" passwords on websites you connect to once a year. Make up a random password and use the "forgotten password" feature next time.</para></listitem>
+			</itemizedlist>
+		</section>
+
+		<section id="passwords-when-change">
+			<title>When to change your password?</title>
+
+			<para>You don’t need to change your passwords every other day. In many
+				cases, if an attacker could steal your password, they will be able
+				to steal it again in the future.</para>
+			<para>If you do need to change your password, you must pick one that is
+				<emphasis>actually</emphasis> different from the previous one. For
+				example, <literal>monkey5</literal> is not an acceptable substitute
+				for <literal>monkey4</literal>, and it will be easily guessed by an
+				attacker who already stole your previous password!</para>
+		</section>
+
+		<section id="passwords-change-login">
+			<title>How to change your login password</title>
+
+			<para>To change your password, follow the steps below:</para>
+			<itemizedlist>
+				<listitem><para>Open &wm-users-groups;</para></listitem>
+				<listitem><para>Click on your username on the list</para></listitem>
+				<listitem><para>Click <guilabel>Change...</guilabel> next to the <guilabel>Password</guilabel> label</para></listitem>
+				<listitem><para>First enter your <guilabel>Current password</guilabel></para></listitem>
+				<listitem><para>Now you can either</para>
+					<itemizedlist>
+						<listitem><para>Generate a random password by selecting <guilabel>Generate random password</guilabel> and pressing <guibutton>Generate</guibutton></para></listitem>
+						<listitem><para>Choose your new password yourself by typing the new password to the <guilabel>New password</guilabel> and <guilabel>Confirmation</guilabel> fields</para></listitem>
+					</itemizedlist>
+				</listitem>
+				<listitem><para>Finally, click <guibutton>OK</guibutton> to confirm the password change</para></listitem>
+			</itemizedlist>
+			<caution><para>While it is possible to make Xubuntu log in automatically
+				on boot within the user dialog, automatic login is highly discouraged
+				because it provides less security for your system. Please turn on
+				automatic login on only if you can trust everybody that has access to
+				the computer.</para></caution>
+		</section>
+
+		<section id="passwords-stolen">
+			<title>Watch out for stolen passwords occasionally</title>
+
+			<para>Websites like <ulink url="&haveibeenpwned;">haveibeenpwned.com</ulink>
+				can tell you if your email address or username appears amongst
+				databases of stolen passwords. It is a good idea to check it every
+				other month. Besides, you may occasionally hear about a service you
+				use in the news, or get an email from a service provider informing
+				you that they have been hacked. When you are confident that a
+				password has been compromised, you should:</para>
+			<orderedlist>
+				<listitem><para>identify all the services where you used that password</para></listitem>
+				<listitem><para>change your password on all those services</para></listitem>
+				<listitem><para>verify the recent activity on the concerned accounts (watch out for money transfers; also, email services often keep a log of your recent connections with IP addresses and locations)</para></listitem>
+			</orderedlist>
+			<warning><para><emphasis>Never</emphasis> reveal your 
+				<emphasis>password</emphasis> to a third-party website. The website
+				above is OK to use because asks for an email address, which is
+				relatively public information. It does not ask for a password.
+				Websites that ask for your password will most likely misuse
+				it.</para></warning>
+		</section>
+
+		<section id="password-managers">
+			<title>What about password managers?</title>
+
+			<para>Password managers are a very convenient way of using many unique
+				passwords without having to remember them all!</para>
+
+			<tip><para>There are several password managers available in the
+				<application>Ubuntu Software Center</application>, including
+				<application>KeePass</application> and
+				<application>PaSaffe</application>.</para></tip>
+
+			<para>Some password managers, like <application>KeePass</application>
+				can synchronise your passwords across devices, including Windows or
+				OS X computers. You should be aware of a few limitations, if you
+				decide to use a password manager:</para>
+			<itemizedlist>
+				<listitem><para>Online password managers can be hacked too. Do not store your email or bank passwords in a password manager.</para></listitem>
+				<listitem><para>Use a memorable password to unlock your password manager! If you lose that password, you could end up losing access to all your accounts (another good reason not to store emails in your password manager).</para></listitem>
+				<listitem><para>Proprietary password managers should not be trusted. Nobody knows what they do with your passwords.</para></listitem>
+				<listitem><para>You may need to use some accounts from your friends or family’s devices. For those accounts, you can tell your password manager to use a specific and memorable password instead of a random password.</para></listitem>
+			</itemizedlist>
+			<para>If you keep the above advice in mind, password managers can be a
+				great way to stay more secure, more easily!</para>
+		</section>
 	</section>
 
-	<section id="lock-your-screen">
-		<title>Lock your screen while away</title>
+	<section id="good-online-security">
+		<title>Tips for good online security</title>
 
-		<para>Locking your screen prevents other people from accessing your
-			computer while you are away from it. All of your applications and work
-			remain open while the screen is locked.</para>
-		<para>To lock the screen, press &key;<keycap>Ctrl+Alt+Delete</keycap> or click &wm-lock-screen;.</para>
-		<para>To unlock the screen, move the mouse or press a key. Then, type your
-			password and either press the &key;<keycap>Enter</keycap> key or click the <guibutton>Unlock</guibutton>
-			button.</para>
-		<para>If more than one person has a user account on your computer and the
-			screen is locked, other users can press the triangle button to the right of the user name, select their name from the list and enter their password to use the
-			computer, even while the screen is locked. They will be unable to
-			access your currently open work and you will be able to switch back to
-			your locked session when they have finished using the computer.</para>
-	</section>
+		<section id="script-applications-sources">
+			<title>Do not run scripts or install applications from unknown sources</title>
+	
+			<itemizedlist>
+				<listitem><para>Install applications from the repository whenever possible.</para></listitem>
+				<listitem><para>When running a script found on a troubleshooting or support website or given to you on IRC, take a moment to look at it, or ask a third-party to confirm what the script does. Be especially wary of scripts that require root access, as they could compromise other users' accounts.</para></listitem>
+			</itemizedlist>
+		</section>
 
-	<section id="set-up-firewall">
-		<title>Set up a firewall</title>
+		<section id="clean-browser">
+			<title>Keep your browser clean for sensitive activities</title>
 
-		<para>Firewalls help to prevent security breaches by blocking connections
-			to your computer from unknown sources. No firewall is enabled in the
-			default Xubuntu installation. However, you have a couple of options for
-			enabling a firewall to protect your computer against unauthorized
-			access by people on the Internet or your network.</para>
-		<para>You can install a firewall from <application>Ubuntu Software Center</application>.
-			One such option is <application>Firestarter</application>, which is
-			available from	the Universe repository. For help and advice on
-			configuring Firestarter, see the
-			<ulink url="http://www.fs-security.com/docs.php">Firestarter Online Manual</ulink>.</para>
-		<para>More advanced users may wish to use the <application>UFW</application>
-			firewall, which is installed, but not enabled, in the default Xubuntu
-			installation. See the <ulink url="https://help.ubuntu.com/community/UFW">UFW
-			Community Help Wiki</ulink> on the Ubuntu wiki for more information.</para>
-		<tip><para>To check that your firewall is working correctly, make use of
-			an online firewall testing service such as
-			<ulink url="https://www.grc.com/x/ne.dll?bh0bkyd2">ShieldsUP</ulink>.</para></tip>
-	</section>
+			<para>Web browser extensions are a popular mechanism among hackers for
+				harming users. They are especially relevant to Linux, since they are
+				compatible with all platforms. Malicious extensions could steal your
+				passwords, monitor your activity online for advertising, abuse your
+				social media accounts or steal your money.</para>
+			<para>You can take measures to limit the risks you expose yourself to:</para>
+			<itemizedlist>
+				<listitem><para>Never install an extension that is not distributed by your browser vendor</para></listitem>
+				<!-- Mention URL for Firefox? &firefox-addons; -->
+				<listitem><para>On Firefox, use a separate user profile for sensitive activities like banking and e-shopping. Firefox user profiles do not share extensions (see <ulink url="&firefox-profiles;">Use the Profile Manager to create and remove Firefox profiles</ulink>).</para></listitem>
+				<listitem><para>On Chrome and other browsers, use the Incognito mode for sensitive activities like banking and e-shopping. Incognito mode disables extensions.</para></listitem>
+			</itemizedlist>
+		</section>
 
-	<section id="use-common-sense-web">
-		<title>Use common sense when working in the web</title>
-		<para>Here are a few tips for keeping safe online:</para>
-		<itemizedlist>
-			<listitem><para>Never reply to unsolicited mail (see more info below)
-				or even click on the links in an email. Doing so usually results in
-				more junk mail being sent to you.</para></listitem>
-			<listitem><para>Never click on links in emails which lead to websites
-				asking for your password or other confidential information. It is
-				possible for the text of the link to give one address when really it
-				opens up another (possibly dangerous) address. Instead, type the
-				link directly into your web browser yourself and proceed from
-				there.</para></listitem>
-			<listitem><para>If a website asks for your financial details, ensure
-				that it is secure. In the <application>Firefox</application> web
-				browser, secure websites have a padlock icon to the left of the
-				address. Click on the padlock to read more information about the
-				security of the website. </para></listitem>
-			<listitem><para>Only download and run software from sources that you
-				trust. By default, you can only download software directly from
-				Xubuntu.</para></listitem>
-		</itemizedlist>
-		<para>Unwanted (unsolicited) mail tends to fall in to one of several
-			categories:</para>
-		<itemizedlist>
-			<listitem><para>Spam (junk) email, where people offer unwanted services
-				and products</para></listitem>
-			<listitem><para>Scam emails, where people pretend to ask for help in
-				exchange for large sums of money</para></listitem>
-			<listitem><para>Phishing emails, where the message appears to be from a
-				bank or other online service, asking you to enter your personal and
-				financial details or passwords</para></listitem>
-		</itemizedlist>
+		<section id="email-security">
+			<title>Remember email security</title>
+
+			<itemizedlist>
+				<listitem><para>Do not open email attachments from people that you don’t know, or if you think the content of the email is incoherent or suspicious (for example invoices coming from people you have never heard of).</para></listitem>
+				<listitem><para>Do not reply to spam. This will inform spammers that your email address is active, and it will incite them to send you more spam.</para></listitem>
+			</itemizedlist>
+		</section>
+
+		<section id="firewalls">
+			<title>Consider firewalls if your computer hosts Internet services</title>
+
+			<para>If you run public facing Internet services, or are not on a NAT,
+				you should consider using a firewall. Most home users are not
+				concerned by this measure.</para>
+			<para>Understand that firewalls are not very useful in their default
+				settings. You should consider what you want to achieve and configure
+				the firewall accordingly. Firewalls can be protect you against
+				denial of service attacks, limit access to a service to specific IP
+				addresses or inspect and reject suspicious packets. However, they
+				cannot protect you against unknown or emerging threats, and they do
+				not replace the need to install security updates.</para>
+		</section>
 	</section>
 
 	<section id="backup-regularly">
@@ -147,12 +264,10 @@
 			are not limited to writable CDs and DVDs, external hard disks, USB
 			disks and other computers on the network.</para>
 		<para>A simple way of backing up your files is to manually copy them to a
-			safe location (see above) by using the File Browser as well as the <application>Archive Manager</application> which lets you compress files and pack them together.  Alternatively, you
+			safe location (see above) by using the <application>File Browser</application>
+			as well as the <application>Archive Manager</application> which lets
+			you compress files and pack them together. Alternatively, you
 			can use a dedicated backup application.</para>
-		<tip><para>There are numerous dedicated backup applications available
-			in the <application>Ubuntu Software Center</application>, including
-			<application>Dejà Dup</application> and
-			<application>luckyBackup</application>.</para></tip>
 		<para>General advice on how to keep good backups:</para>
 		<itemizedlist>
 			<listitem><para>Back up on a regular basis</para></listitem>
@@ -161,6 +276,70 @@
 			<listitem><para>Label your backups clearly and keep them in a safe
 				place</para></listitem>
 		</itemizedlist>
+		<tip><para>There are numerous dedicated backup applications available
+			in the <application>Ubuntu Software Center</application>, including
+			<application>Dejà Dup</application> and
+			<application>luckyBackup</application>.</para></tip>
+		<tip><para>If you use online backup services like Dropbox, it is a good
+			idea to first encrypt your documents and upload an encrypted archive.
+			This will prevent the online services staff from accessing your
+			documents.</para></tip>
+		<tip><para>Backups can also be an effective protection against
+			ransomware, which encrypts your data and will only decrypt it if you
+			pay the developers. To keep clean from ransomware, avoid installing
+			applications from unknown sources. For more information, see
+			<xref linkend="script-applications-sources" />.</para></tip>
 	</section>
 
+	<section id="safety-encryption">
+		<title>Consider encryption</title>
+
+		<para>Full disk encryption is a good measure to protect your computers
+			content should it get stolen. You should consider it if, for instance,
+			your job involves valuable Intellectual Property or executive
+			responsibilities. Remember that full disk encryption will not protect
+			you if you do not shutdown your computer when you are not using it.</para>
+		<tip><para>The easiest way to enable full disk encryption is to do it
+			during the installation.</para></tip>
+		<tip><para>You can also create encrypted volumes using dedicated software,
+			for example LUKS. Encrypted volumes can contain arbitrary data of any
+			length. You can mount them like you would insert a USB key when you
+			need to access their content, and keep them closed the rest of the
+			time. Describing the process to do this is outside the scope of this
+			documentation, but there are numerous tutorials online.</para></tip>
+			<!-- Preferred link? -->
+	</section>
+
+	<section id="shared-environment">
+		<title>Using your computer in a shared environment</title>
+
+		<section id="no-shared-accounts">
+			<title>Do not use shared accounts</title>
+
+			<para>When Xubuntu is installed, it is set up for a single person to use.
+				If more than one person will use the computer, it is best for each
+				person to have their own user account. To read more about adding users,
+				refer to <xref linkend="users-groups" />.</para>
+		</section>
+
+		<section id="lock-your-screen">
+			<title>Lock your screen while away</title>
+
+			<para>Locking your screen prevents other people from accessing your
+				computer while you are away from it. All of your applications and work
+				remain open while the screen is locked.</para>
+			<para>To lock the screen, press &key;<keycap>Ctrl+Alt+Delete</keycap> or
+				click &wm-lock-screen;.</para>
+			<para>To unlock the screen, move the mouse or press a key. Then, type your
+				password and either press the &key;<keycap>Enter</keycap> key or click
+				the <guibutton>Unlock</guibutton> button.</para>
+			<para>If more than one person has a user account on your computer and the
+				screen is locked, other users can press the triangle button to the
+				right of the user name, select their name from the list and enter their
+				password to use the computer, even while the screen is locked. They will
+				be unable to access your currently open work and you will be able to
+				switch back to your locked session when they have finished using the
+				computer.</para>
+		</section>
+	</section>
 </chapter>
