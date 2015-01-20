@@ -11,9 +11,7 @@
 <chapter id="guide-keeping-safe">
 	<title>Keeping your computer and personal information safe</title>
 
-	<para>This is a brief guide on keeping your computer and personal information
-		safe from security threats. If you only have a short while, you should
-		read at least the following subsections:</para>
+	<para>Keeping your computer and personal information safe from security threats is one of the most important aspects of computing today. This guide aims to help you achieving a higher level of security. Pay particular attention to the following subsections:</para>
 
 	<itemizedlist>
 		<listitem><para><xref linkend="keep-software-uptodate" /></para></listitem>
@@ -26,7 +24,7 @@
 	<section id="keep-software-uptodate">
 		<title>Keep your software up to date</title>
 
-		<para>Security updates are very important. They are the best defence you
+		<para>Security updates are very important. They are the best defense you
 			have against the people who want to harm your computer, and you should
 			install them immediately. When a security update is released, hackers
 			already know how to abuse computers that are not up-to-date. In the
@@ -62,7 +60,7 @@
 			<itemizedlist>
 				<listitem><para><emphasis>Email accounts</emphasis>. Email accounts can be used to reset all your other passwords via the “Forgotten password” links found on all websites.</para></listitem>
 				<listitem><para><emphasis>Key stores and password managers</emphasis>. It is worth having a good password for those services, since they allow you to avoid typing many other passwords!</para></listitem>
-				<listitem><para><emphasis>Acounts related to banking</emphasis>, including PayPal and other payment sites. If someone can access these, they can steal your money.</para></listitem>
+				<listitem><para><emphasis>Accounts related to banking</emphasis>, including PayPal and other payment sites. If someone can access these, they can steal your money.</para></listitem>
 			</itemizedlist>
 		</section>
 
@@ -177,10 +175,10 @@
 
 			<tip><para>There are several password managers available in the
 				<application>Ubuntu Software Center</application>, including
-				<application>KeePass</application> and
+				<application>KeePassX</application> and
 				<application>PaSaffe</application>.</para></tip>
 
-			<para>Some password managers, like <application>KeePass</application>
+			<para>Some password managers, like <application>KeePassX</application>
 				can synchronise your passwords across devices, including Windows or
 				OS X computers. You should be aware of a few limitations, if you
 				decide to use a password manager:</para>
