@@ -18,6 +18,7 @@
 	<xsl:param name="draft.mode" select="'no'"/>
 
 	<!-- Disable scaling (which is needed for PDF generation) -->
+	<!-- Does the Xubuntu documentation require this? -->
 	<xsl:param name="ignore.image.scaling" select="1"/>
 
 	<xsl:template name="user.head.content">
