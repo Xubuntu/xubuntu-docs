@@ -4,11 +4,11 @@ CURDIR=$(pwd)/po/
 
 get_languages() {
 if [ "$generated" = yes ];then
-   languages=$(cat po/LINGUAS)
+	languages=$(cat po/LINGUAS)
 elif [ -n $language ];then
-   languages=$language
+	languages=$language
 else
-   languages=$(basename -s.po $CURDIR/*.po)
+	languages=$(basename -s.po $CURDIR/*.po)
 fi
 }
 
@@ -36,7 +36,7 @@ done
 
 while getopts ":gl:" Option
 do
-        case ${Option} in
+	case ${Option} in
 		g) generated=yes;;
 		l) language=${OPTARG};;
 		*) echo "Please specify an argument.";;
