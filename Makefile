@@ -13,6 +13,9 @@ all: clean desktop-guide startpage translate
 desktop-guide:
 	make -C desktop-guide html
 
+epub:
+	make -C desktop-guide epub
+
 translate:
 	make -C desktop-guide translate
 
