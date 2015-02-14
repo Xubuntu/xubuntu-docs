@@ -7,18 +7,22 @@ xubuntu-docs (15.04) UNRELEASED; urgency=medium
   * Remove unused entities, directories and files
   * Add responsive stylesheets for the documentation
   * Tweak some CSS definitions
-  * Replace the caution/important image with a new image from upstream (elementary-xfce)
+  * Replace the caution/important image with a new image
+    from upstream (elementary-xfce)
   * Add responsive stylesheets for the start page
 
   [ David Pires ]
-  * Corrected a typo in the 'Changing update frequency and behavior' sub-section of the Managing installed applications chapter
-  * Re-write the update-configuration-notifications section of the Managing installed applications chapter
+  * Corrected a typo in the 'Changing update frequency and behavior'
+    sub-section of the Managing installed applications chapter
+  * Re-write the update-configuration-notifications section of the
+    Managing installed applications chapter
 
   [ Elfy ]
   * Update the "Upgrading" section to be comprehensive. (LP: #1385479)
 
   [ Unit 193 ]
   * Move validation to a 'test' target, don't run at build time.
+  * scripts/translators: Create a fallback in case no translators are found.
 
   [ Steve Dodier-Lazaro ]
   * Update the security guide.

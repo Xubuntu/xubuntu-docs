@@ -4,11 +4,11 @@ CURDIR=$(pwd)/po/
 
 get_languages() {
 if [ "$generated" = yes ];then
-   languages=$(cat po/LINGUAS)
+	languages=$(cat po/LINGUAS)
 elif [ -n $language ];then
-   languages=$language
+	languages=$language
 else
-   languages=$(basename -s.po $CURDIR/*.po)
+	languages=$(basename -s.po $CURDIR/*.po)
 fi
 }
 
@@ -18,10 +18,15 @@ echo "<itemizedlist>"
 for lang in $languages;do
 	mkdir -p $CURDIR/mo/$lang/LC_MESSAGES/
 	msgfmt -o $CURDIR/mo/$lang/LC_MESSAGES/xubuntu-docs.mo $CURDIR/$lang.po
-	TEXTDOMAINDIR=$CURDIR/mo/ LANGUAGE=$lang gettext -d xubuntu-docs -s 'translator-credits' | \
+	translators=$(TEXTDOMAINDIR=$CURDIR/mo/ LANGUAGE=$lang gettext -d xubuntu-docs -s 'translator-credits' | \
 		sed -e 's@^  @\t<listitem><para>@' -e '/launchpad.net/s@$@)</para></listitem>@' \
-		-e 's@https://launchpad.net/~@(@' -e /Launchpad\ Contributions/d -e /^translator-credits$/d
-done | sort | uniq
+		-e 's@https://launchpad.net/~@(@' -e /Launchpad\ Contributions/d -e /^translator-credits$/d | sort -u)
+done
+if [ "$translators" = "" ];then
+	echo "<listitem><para>Unable to parse translator data or data unavailable, see <ulink url=\"https://translations.launchpad.net/xubuntu-docs/\">Launchpad</ulink></para></listitem>"
+else
+	echo "$translators"
+fi
 echo "</itemizedlist>"
 rm -rf $CURDIR/mo/
 }
@@ -36,7 +41,7 @@ done
 
 while getopts ":gl:" Option
 do
-        case ${Option} in
+	case ${Option} in
 		g) generated=yes;;
 		l) language=${OPTARG};;
 		*) echo "Please specify an argument.";;
