@@ -24,6 +24,7 @@ xubuntu-docs (15.04) UNRELEASED; urgency=medium
   * Move validation to a 'test' target, don't run at build time.
   * scripts/translators: Create a fallback in case no translators are found.
   * network-troubleshooting section: 'nm-tool' ➞ 'nmcli device show'
+  * Lower the required translation percentage to 70.
 
   [ Steve Dodier-Lazaro ]
   * Update the security guide.
