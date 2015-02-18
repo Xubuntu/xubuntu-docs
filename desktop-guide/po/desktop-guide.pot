@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-02-14 18:24-0500\n"
+"POT-Creation-Date: 2015-02-18 23:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1612,7 +1612,7 @@ msgid "If you are connecting to a wireless network for the first time, security 
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:30(para)
-msgid "To disconnect from a network, click the <application>NetworkManager</application> icon, and select Disconnect under the appropriate connection type. To disable (and re-enable) wired and/or wireless connections all together, click the <application>NetworkManager</application> icon and select <menuchoice><guimenuitem>Enable Networking</guimenuitem></menuchoice> and <menuchoice><guimenuitem>Enable Wi-Fi</guimenuitem></menuchoice>. These choices are toggles. Their enabled/disabled status is indicated by the presence/absence of a check mark."
+msgid "To disconnect from a network, click the <application>NetworkManager</application> icon, and select Disconnect under the appropriate connection type. To disable (and re-enable) wired and/or wireless connections all together, click the <application>NetworkManager</application> icon, select <menuchoice><guimenuitem>Enable Networking</guimenuitem></menuchoice> and <menuchoice><guimenuitem>Enable Wi-Fi</guimenuitem></menuchoice>. These choices are toggles. Their enabled/disabled status is indicated by the presence/absence of a check mark."
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:34(title)
@@ -1724,7 +1724,7 @@ msgid "Using <application>ifconfig</application>"
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:100(para)
-msgid "Open a terminal (<application><menuchoice><placeholder-1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal Emulator</guimenuitem></menuchoice></application>) and type the command <userinput>ifconfig</userinput> and press <keycap><placeholder-2/>Enter</keycap>"
+msgid "Open a terminal (<application><menuchoice><placeholder-1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal Emulator</guimenuitem></menuchoice></application>), type the command <userinput>ifconfig</userinput> then press the <keycap><placeholder-2/>Enter</keycap> key."
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:101(para)
@@ -1740,7 +1740,7 @@ msgid "A reliable method to check if a connection is working properly is to ping
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:112(para)
-msgid "To check if your computer is connected to the Internet, open a terminal (<application><menuchoice><placeholder-1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal Emulator</guimenuitem></menuchoice></application>) and type the command <userinput>ping -c 3 www.xubuntu.org</userinput> and press <keycap><placeholder-2/>Enter</keycap>"
+msgid "To check if your computer is connected to the Internet, open a terminal (<application><menuchoice><placeholder-1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal Emulator</guimenuitem></menuchoice></application>), type the command <userinput>ping -c 3 www.xubuntu.org</userinput> then press the <keycap><placeholder-2/>Enter</keycap> key."
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:114(para)
@@ -1772,7 +1772,7 @@ msgid "This section covers some common problems faced with wireless support. The
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:131(para)
-msgid "Please note that the steps in this troubleshooting guide are designed to be carried out in the order shown, unless you are pointed to a different subsection"
+msgid "Please note that the steps in this troubleshooting guide are designed to be carried out in the order shown, unless you are pointed to a different subsection."
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:134(title)
@@ -1792,7 +1792,7 @@ msgid "Check if the device is recognized"
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:144(para)
-msgid "Open a terminal (<application><menuchoice><placeholder-1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal Emulator</guimenuitem></menuchoice></application>) and type the command <userinput>sudo lshw -C network</userinput> and press <keycap><placeholder-2/>Enter</keycap>. You will see some output, along with the words <guilabel>CLAIMED</guilabel>, <guilabel>UNCLAIMED</guilabel>, <guilabel>ENABLED</guilabel> or <guilabel>DISABLED</guilabel>."
+msgid "Open a terminal (<application><menuchoice><placeholder-1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal Emulator</guimenuitem></menuchoice></application>), type the command <userinput>sudo lshw -C network</userinput>, then press the <keycap><placeholder-2/>Enter</keycap> key. You will see some output, along with the words <guilabel>CLAIMED</guilabel>, <guilabel>UNCLAIMED</guilabel>, <guilabel>ENABLED</guilabel> or <guilabel>DISABLED</guilabel>."
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:147(para)
@@ -1820,7 +1820,7 @@ msgid "Xubuntu supports a system known as <application>NDISWrapper</application>
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:160(para)
-msgid "Obtain the Windows driver for your network device and locate the file that ends with .inf"
+msgid "Obtain the Windows driver for your network device and locate the file that ends with <literal>.inf</literal>"
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:161(para)
@@ -1848,7 +1848,7 @@ msgid "Checking for a connection to the router"
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:172(para)
-msgid "Open a terminal (<application><menuchoice><placeholder-1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal Emulator</guimenuitem></menuchoice></application>) and type the command <userinput>iwconfig</userinput> and press <keycap><placeholder-2/>Enter</keycap>."
+msgid "Open a terminal (<application><menuchoice><placeholder-1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal Emulator</guimenuitem></menuchoice></application>), type the command <userinput>iwconfig</userinput> then press the <keycap><placeholder-2/>Enter</keycap> key."
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:174(para)
@@ -1868,7 +1868,7 @@ msgid "Checking IP assignment"
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:186(para)
-msgid "Open a terminal (<application><menuchoice><placeholder-1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal Emulator</guimenuitem></menuchoice></application>) and type the command <userinput>ifconfig</userinput> and press <keycap><placeholder-2/>Enter</keycap>. If there is an IP address displayed, continue to <xref linkend=\"network-troubleshooting-dns\"/>."
+msgid "Open a terminal (<application><menuchoice><placeholder-1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal Emulator</guimenuitem></menuchoice></application>), type the command <userinput>ifconfig</userinput> then press the <keycap><placeholder-2/>Enter</keycap> key. If there is an IP address displayed, continue to <xref linkend=\"network-troubleshooting-dns\"/>."
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:188(para)
@@ -1888,11 +1888,11 @@ msgid "Check Domain Name Servers (DNS)"
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:199(para)
-msgid "Open a terminal (<application><menuchoice><placeholder-1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal Emulator</guimenuitem></menuchoice></application>) and type the command <userinput>nmcli device show</userinput> and press <keycap><placeholder-2/>Enter</keycap>, then look for the entry under <literal>IP4.DNS</literal>"
+msgid "Open a terminal (<application><menuchoice><placeholder-1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal Emulator</guimenuitem></menuchoice></application>), type the command <userinput>nmcli device show</userinput> then press the <keycap><placeholder-2/>Enter</keycap> key. Look for the entries under <literal>IP4.DNS</literal>"
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:201(para)
-msgid "To check if the listed DNS works, open a terminal (<application><menuchoice><placeholder-1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal Emulator</guimenuitem></menuchoice></application>) and type the command <userinput>dig xubuntu.org</userinput> and press <keycap><placeholder-2/>Enter</keycap>. If you see the word <literal>NOERROR</literal>in the header section of the output, your DNS is working."
+msgid "To check if the listed DNS works, open a terminal (<application><menuchoice><placeholder-1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal Emulator</guimenuitem></menuchoice></application>), type the command <userinput>dig xubuntu.org</userinput> then press the <keycap><placeholder-2/>Enter</keycap> key. If you see the word <literal>NOERROR</literal>in the header section of the output, your DNS is working."
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:203(para)
@@ -1924,11 +1924,11 @@ msgid "Upon successfully connecting to the server, an icon labeled with connecti
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:221(para)
-msgid "The Windows Share username should be in the format DOMAIN\\username"
+msgid "The Windows Share username should be in the format <literal>DOMAIN\\username</literal>"
 msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:223(para)
-msgid "For SAMBA Networks (Windows shares), the package <literal><placeholder-1/>gvfs-backends</literal> needs to be installed in order to connect using the <application>Thunar File Manager</application>."
+msgid "For Samba Networks (Windows shares), the package <literal><placeholder-1/>gvfs-backends</literal> needs to be installed in order to connect using the <application>Thunar File Manager</application>."
 msgstr ""
 
 #: desktop-guide/C/index.xml:12(title) desktop-guide/C/index.xml:15(title)
@@ -2064,7 +2064,7 @@ msgid "Welcome!"
 msgstr ""
 
 #: desktop-guide/C/index.xml:70(para)
-msgid "This documentation provides documentation to the most common issues with Xubuntu, including:"
+msgid "This documentation provides information to the most common issues with Xubuntu, including:"
 msgstr ""
 
 #: desktop-guide/C/index.xml:75(para)
@@ -2712,7 +2712,7 @@ msgid "Watch out for stolen passwords occasionally"
 msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:150(para)
-msgid "Websites like <ulink url=\"https://haveibeenpwnedcom/\">haveibeenpwned.com</ulink> can tell you if your email address or username appears amongst databases of stolen passwords. It is a good idea to check it every other month. Besides, you may occasionally hear about a service you use in the news, or get an email from a service provider informing you that they have been hacked. When you are confident that a password has been compromised, you should:"
+msgid "Websites like <ulink url=\"https://haveibeenpwned.com/\">haveibeenpwned.com</ulink> can tell you if your email address or username appears amongst databases of stolen passwords. It is a good idea to check it every other month. Besides, you may occasionally hear about a service you use in the news, or get an email from a service provider informing you that they have been hacked. When you are confident that a password has been compromised, you should:"
 msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:158(para)
