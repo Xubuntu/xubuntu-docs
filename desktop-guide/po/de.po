@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-02-18 23:20+0000\n"
-"PO-Revision-Date: 2015-02-21 18:37+0000\n"
+"PO-Revision-Date: 2015-02-22 17:20+0000\n"
 "Last-Translator: Daniel Kessel <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-02-22 05:38+0000\n"
+"X-Launchpad-Export-Date: 2015-02-23 05:40+0000\n"
 "X-Generator: Launchpad (build 17355)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -2178,6 +2178,14 @@ msgid ""
 "<userinput>prompt=normal</userinput> (for all releases) or "
 "<userinput>prompt=lts</userinput> (for LTS releases) depending on your choice"
 msgstr ""
+"Öffnen Sie ein <application><menuchoice><placeholder-"
+"1/><guisubmenu>Zubehör</guisubmenu><guimenuitem>Terminal</guimenuitem></menuc"
+"hoice></application> und führen Sie <userinput>sudoedit /etc/update-"
+"manager/release-upgrades</userinput> aus, und ändern Sie die Zeile, welche "
+"mit <literal>prompt=</literal> anfängt in "
+"<userinput>prompt=normal</userinput> (für alle Freigaben) oder "
+"<userinput>prompt=lts</userinput> (für LTS-Freigaben), abhängig von Ihrer "
+"Wahl"
 
 #: desktop-guide/C/migrating-upgrading.xml:83(para)
 msgid ""
@@ -3380,6 +3388,15 @@ msgid ""
 "choices are toggles. Their enabled/disabled status is indicated by the "
 "presence/absence of a check mark."
 msgstr ""
+"Um die Verbindung zu einem Netzwerk zu trennen, klicken Sie auf das "
+"<application>NetworkManager</application>-Symbol, und wählen Sie »Verbindung "
+"trennen«. Um kabelgebundene oder Funkverbindungen vollständig zu "
+"deaktivieren (und wieder zu aktivieren), klicken Sie auf das "
+"<application>NetworkManager</application>-Symbol, wählen Sie "
+"<menuchoice><guimenuitem>Netzwerk aktivieren</guimenuitem></menuchoice> und "
+"<menuchoice><guimenuitem>Funknetzwerk aktivieren</guimenuitem></menuchoice>. "
+"Diese Menüeinträge sind Ein-/Aus-Schalter. Ihr Status wird durch die "
+"Anwesenheit/Abwesenheit des Häkchens angezeigt."
 
 #: desktop-guide/C/internet-networks.xml:34(title)
 msgid "Configuring connections"
@@ -3445,6 +3462,15 @@ msgid ""
 "<guilabel>Method</guilabel> to <guilabel>Shared to other "
 "computers</guilabel> from the drop-down list."
 msgstr ""
+"Sie können Ihre Verbindung über ein Netzwerkkabel mit einem anderen Rechner "
+"teilen. Klicken Sie hierzu das <application>NetworkManager</application>-"
+"Symbol, wählen Sie "
+"<menuchoice><guimenuitem>Bearbeiten</guimenuitem></menuchoice>, und fügen "
+"Sie eine neue Funkverbindung hinzu (oder bearbeiten Sie eine existierende). "
+"Wählen Sie in dem Fenster mit den Verbindungseigenschaften den Reiter "
+"<guilabel>IPv4-Einstellungen</guilabel>, und ändern Sie "
+"<guilabel>Methode</guilabel> auf <guilabel>Gemeinsam mit anderen "
+"Rechnern</guilabel> aus der Auswahlliste."
 
 #: desktop-guide/C/internet-networks.xml:54(title)
 msgid "Dialup modems"
@@ -3594,6 +3620,10 @@ msgid ""
 "<userinput>ifconfig</userinput> then press the <keycap><placeholder-"
 "2/>Enter</keycap> key."
 msgstr ""
+"Öffnen Sie ein Terminal (<application><menuchoice><placeholder-"
+"1/><guisubmenu>Zubehör</guisubmenu><guimenuitem>Terminal</guimenuitem></menuc"
+"hoice></application>), geben Sie den Befehl <userinput>ifconfig</userinput> "
+"ein und betätigen Sie die <keycap><placeholder-2/>Enter</keycap>-Taste."
 
 #: desktop-guide/C/internet-networks.xml:101(para)
 msgid ""
@@ -3602,6 +3632,11 @@ msgid ""
 "in the left column, IP address in the <guilabel>inet addr</guilabel> column "
 "and the MAC address for your device in the <guilabel>HWaddr</guilabel> column"
 msgstr ""
+"<application>ifconfig</application> wird Ihnen umfangreiche Informationen "
+"über Ihre Verbindun anzeigen, darunter logische Namen oder Verbindungsnamen "
+"(z.B. eth1) in der linken Spalte, die IP-Adresse in der Spalte "
+"<guilabel>inet Adresse</guilabel> und die MAC-Adresse Ihres Gerätes in der "
+"Spalte <guilabel>Hardware Adresse</guilabel>"
 
 #: desktop-guide/C/internet-networks.xml:108(title)
 msgid "Check if a connection is working properly"
@@ -3612,6 +3647,9 @@ msgid ""
 "A reliable method to check if a connection is working properly is to ping "
 "another computer on the network or the Internet."
 msgstr ""
+"Eine verlässliche Methode zur Prüfung, ob eine Verbindung ordnungsgemäß "
+"funktioniert, ist es, einen anderen Rechner im Netzwerk oder Internet zu "
+"»pingen«."
 
 #: desktop-guide/C/internet-networks.xml:112(para)
 msgid ""
@@ -3630,17 +3668,24 @@ msgid ""
 "transmitted, how many packets were received, the percentage of packet loss, "
 "and the total time spent."
 msgstr ""
+"Der Rechner wird dann dreimal versuchen, www.xubuntu.org zu erreichen und "
+"die Ergebnisse anzeigen. Die Ping-Statistiken zeigen die Anzahl der "
+"gesendeten Pakete, die Anzahl der empfangenden Pakete, den Prozentsatz der "
+"verlorenen Pakete und die Gesamtdauer an."
 
 #: desktop-guide/C/internet-networks.xml:117(para)
 msgid ""
 "0% packet loss indicates that your computer is connected to the Internet"
 msgstr ""
+"0% Paketverlust zeigt an, dass der Rechner mit dem Internet verbunden ist"
 
 #: desktop-guide/C/internet-networks.xml:118(para)
 msgid ""
 "Greater than 0% but less than 100% packet loss indicates that your computer "
 "has a poor connection to the Internet or a poor wireless signal"
 msgstr ""
+"Mehr als 0% aber weniger als 100% Paketverlust zeigt an, dass Ihr Rechner "
+"eine schlechte Verbindung zum Internet oder einen schlechten Funkempfang hat."
 
 #: desktop-guide/C/internet-networks.xml:119(para)
 msgid ""
@@ -3648,6 +3693,9 @@ msgid ""
 "is connected to an access point or router that is not connected to the "
 "Internet"
 msgstr ""
+"100% Paketverlust deuten darauf hin, dass der Rechner eine sehr schlechte "
+"Verbindung hat oder mit einem Access Point oder Router verbunden ist, "
+"welcher nicht mit dem Internet verbunden ist."
 
 #: desktop-guide/C/internet-networks.xml:122(para)
 msgid ""
@@ -3674,6 +3722,9 @@ msgid ""
 "carried out in the order shown, unless you are pointed to a different "
 "subsection."
 msgstr ""
+"Bitte beachten Sie, dass die Schritte in dieser Problemlösungsanleitung so "
+"vorgesehen sind, dass Sie diese in der gezeigten Reihenfolge ausführen, es "
+"sei denn, Sie werden auf ein anderes Unterkapitel verwiesen."
 
 #: desktop-guide/C/internet-networks.xml:134(title)
 msgid "Check that the device is turned on"
@@ -3684,6 +3735,9 @@ msgid ""
 "Many wireless network devices can be turned on or off. Check for a hardware "
 "switch or a keyboard function key to turn the wireless device on."
 msgstr ""
+"Viele Funknetzwerkgeräte (WLAN-Adapter) können ein- oder ausgeschaltet "
+"werden. Suchen Sie nach einem Hardware-Schalter oder einer Funktionstaste "
+"auf der Tastatur, um das Funknetzwerkgerät einzuschalten."
 
 #: desktop-guide/C/internet-networks.xml:138(para)
 msgid "If the device is turned on, continue to the next topic."
@@ -3813,6 +3867,8 @@ msgid ""
 "The following troubleshooting methods are a bit more technical. Please try "
 "these methods only if the above methods failed."
 msgstr ""
+"Die folgenden Methoden zur Problemlösung sind etwas technischer. Bitte "
+"versuchen Sie diese nur, wenn obige Methoden fehlgeschlagen sind."
 
 #: desktop-guide/C/internet-networks.xml:184(title)
 msgid "Checking IP assignment"
@@ -3881,7 +3937,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:209(title)
 msgid "Connecting to servers"
-msgstr ""
+msgstr "Mit Servern verbinden"
 
 #: desktop-guide/C/internet-networks.xml:211(para)
 msgid ""
@@ -3890,6 +3946,11 @@ msgid ""
 "1/><guisubmenu>System</guisubmenu><guimenuitem>Gigolo</guimenuitem></menuchoi"
 "ce></application>. To connect to a server, follow the steps below:"
 msgstr ""
+"Um eine Verbindung mit verschiedenen Arten von Servern herzustellen, können "
+"Sie <application><menuchoice><placeholder-"
+"1/><guisubmenu>System</guisubmenu><guimenuitem>Gigolo</guimenuitem></menuchoi"
+"ce></application> verwenden. Um eine Verbindung mit einem Server "
+"herzustellen, folgen Sie den folgenden Schritten:"
 
 #: desktop-guide/C/internet-networks.xml:214(para)
 msgid ""
@@ -3897,18 +3958,26 @@ msgid ""
 "<menuchoice><guimenu>Actions</guimenu><guimenuitem>Connect</guimenuitem></men"
 "uchoice>"
 msgstr ""
+"Klicken Sie auf "
+"<menuchoice><guimenu>Aktionen</guimenu><guimenuitem>Verbinden</guimenuitem></"
+"menuchoice>"
 
 #: desktop-guide/C/internet-networks.xml:215(para)
 msgid ""
 "Select the appropriate <guilabel>Service type</guilabel> and insert "
 "connection information"
 msgstr ""
+"Wählen Sie die passende <guilabel>Art des Dienstes</guilabel> und geben Sie "
+"die Verbindungsinformationen ein"
 
 #: desktop-guide/C/internet-networks.xml:216(para)
 msgid ""
 "Click <guibutton>Connect</guibutton>; if you are attempting to connect to a "
 "server that requires you to log in, you will be prompted to enter a password"
 msgstr ""
+"Klicken Sie den <guibutton>Verbinden</guibutton>-Knopf; falls Sie sicht mit "
+"einem Server verbinden, welcher eine Anmeldung erfordert, werden Sie "
+"aufgefordert, ein Passwort einzugeben."
 
 #: desktop-guide/C/internet-networks.xml:219(para)
 msgid ""
@@ -3926,6 +3995,8 @@ msgid ""
 "The Windows Share username should be in the format <literal>DOMAIN\\"
 "username</literal>"
 msgstr ""
+"Der Benutzername für Windows-Netzwerkfreigaben sollte im Format "
+"<literal>DOMÄNE\\Benutzername</literal> sein."
 
 #: desktop-guide/C/internet-networks.xml:223(para)
 msgid ""
@@ -4065,6 +4136,8 @@ msgid ""
 "All trademarks or registered trademarks are the property of the respective "
 "owners."
 msgstr ""
+"Alle Markenzeichen oder eingetragene Markenzeichen sind Eigentum der "
+"jeweiligen Besitzer."
 
 #: desktop-guide/C/index.xml:57(year)
 msgid "2012"
@@ -4099,6 +4172,8 @@ msgid ""
 "This documentation provides information to the most common issues with "
 "Xubuntu, including:"
 msgstr ""
+"Diese Dokumentation enthält Informationen zu den häufigsten Sachverhalten "
+"mit Xubuntu, inklusive:"
 
 #: desktop-guide/C/index.xml:75(para)
 msgid "In addition, this documentation has three quick guides:"
@@ -4111,6 +4186,11 @@ msgid ""
 "url=\"http://xubuntu.org/help/\">Help &amp; Support</ulink> page of the "
 "Xubuntu website. There you will find links to additional help resources."
 msgstr ""
+"Die vollständige Liste der Themen befindet sich unter diesem Abschnitt. Wenn "
+"Sie Hilfe mit einem Thema oder Problem benötigen, welches nicht von der "
+"Dokumentation abgedeckt wird, gehen Sie zur <ulink "
+"url=\"http://xubuntu.org/help/\">Help &amp; Support</ulink>-Seite der "
+"Xubuntu-Webseite. Dort finden Sie Verweise auf zusätzliche Hilfe-Quellen."
 
 #: desktop-guide/C/index.xml:83(para)
 msgid ""
@@ -4118,6 +4198,10 @@ msgid ""
 "see the <ulink url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> "
 "section of the Xubuntu website."
 msgstr ""
+"Falls Sie sich zu Xubuntu beitragen möchten, inklusive dieser Dokumentation, "
+"sehen Sie sich den Abschnitt <ulink "
+"url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> der Xubuntu-"
+"Webseite an."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4306,12 +4390,17 @@ msgid ""
 "1/><guisubmenu>Accessories</guisubmenu><guimenuitem>File "
 "Manager</guimenuitem></menuchoice></application>"
 msgstr ""
+"Gehen Sie zu <application><menuchoice><placeholder-"
+"1/><guisubmenu>Zubehör</guisubmenu><guimenuitem>Dateimanager</guimenuitem></m"
+"enuchoice></application>"
 
 #: desktop-guide/C/hardware-devices.xml:74(para)
 msgid ""
 "Double-click on the <guilabel>File System</guilabel> or "
 "<guilabel>Home</guilabel> icon on your Desktop"
 msgstr ""
+"Führen Sie einen Doppeklick auf dem Symbol <guilabel>Dateisystem</guilabel> "
+"oder <guilabel>Persönlicher Ordner</guilabel> auf dem Schreibtisch aus."
 
 #: desktop-guide/C/hardware-devices.xml:75(para)
 msgid "Click the home folder on the Launcher Panel"
@@ -4887,7 +4976,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:12(title)
 msgid "Keeping your computer and personal information safe"
-msgstr ""
+msgstr "Wie Sie Ihren Rechner und Ihre persönlichen Informationen schützen"
 
 #: desktop-guide/C/guide-keeping-safe.xml:14(para)
 msgid ""
@@ -4896,10 +4985,15 @@ msgid ""
 "help you achieving a higher level of security. Pay particular attention to "
 "the following subsections:"
 msgstr ""
+"Der Schutz Ihres Rechners und Ihrer persönlichen Informationen vor "
+"Sicherheitsbedrohungen ist heutzutage einer der wichtigsten Aspekte der "
+"Bedienung eines Rechners. Diese Anleitung hilft Ihnen dabei, einen höheren "
+"Grad an Sicherheit zu erreichen. Achten Sie besonders auf die folgenden "
+"Unterkapitel:"
 
 #: desktop-guide/C/guide-keeping-safe.xml:25(title)
 msgid "Keep your software up to date"
-msgstr ""
+msgstr "Wie Sie Ihre Anwendungen auf dem neuesten Stand halten"
 
 #: desktop-guide/C/guide-keeping-safe.xml:27(para)
 msgid ""
@@ -4930,11 +5024,13 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:43(title)
 msgid "Passwords"
-msgstr ""
+msgstr "Passwörter"
 
 #: desktop-guide/C/guide-keeping-safe.xml:46(title)
 msgid "Use strong and unique passwords for important accounts"
 msgstr ""
+"Verwenden Sie schwer zu erratende und einzigartige Passwörter für wichtige "
+"Benutzerkonten"
 
 #: desktop-guide/C/guide-keeping-safe.xml:48(para)
 msgid ""
@@ -4985,7 +5081,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:68(title)
 msgid "What is a strong password?"
-msgstr ""
+msgstr "Was macht ein starkes Passwort aus?"
 
 #: desktop-guide/C/guide-keeping-safe.xml:70(para)
 msgid ""
@@ -4993,6 +5089,10 @@ msgid ""
 "guess it. Attackers use special programs that can make millions of guesses "
 "per second, so weak passwords don’t stand a chance."
 msgstr ""
+"Die Stärke eines Passwortes hängt davon ab, wie schwer es für einen "
+"Angreifer ist, es zu erraten. Angreifer verwenden spezielle Programme, "
+"welche Millionen von Versuchen, das Passwort zu erraten pro Sekunde "
+"durchführen, also haben schwache Passwörter keine Chance."
 
 #: desktop-guide/C/guide-keeping-safe.xml:75(para)
 msgid ""
@@ -5031,6 +5131,7 @@ msgstr ""
 #: desktop-guide/C/guide-keeping-safe.xml:103(para)
 msgid "Separate your professional password from your personal passwords."
 msgstr ""
+"Trennen Sie Ihre beruflichen Passwörter von Ihren privaten Passwörtern."
 
 #: desktop-guide/C/guide-keeping-safe.xml:104(para)
 msgid ""
@@ -5041,6 +5142,8 @@ msgstr ""
 #: desktop-guide/C/guide-keeping-safe.xml:105(para)
 msgid "Use a password you're willing to lose for sites you do not trust."
 msgstr ""
+"Verwenden Sie ein Passwort, welches ruhig gestohlen werden darf, für "
+"Webseiten, denen Sie nicht vertrauen."
 
 #: desktop-guide/C/guide-keeping-safe.xml:106(para)
 msgid ""
@@ -5050,7 +5153,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:111(title)
 msgid "When to change your password?"
-msgstr ""
+msgstr "Wann sollte ein Passwort geändert werden?"
 
 #: desktop-guide/C/guide-keeping-safe.xml:113(para)
 msgid ""
@@ -5070,11 +5173,11 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:124(title)
 msgid "How to change your login password"
-msgstr ""
+msgstr "Wie man sein Anmeldepasswort ändert"
 
 #: desktop-guide/C/guide-keeping-safe.xml:126(para)
 msgid "To change your password, follow the steps below:"
-msgstr ""
+msgstr "Um Ihr Passwort zu ändern, führen Sie die folgenden Schritte durch:"
 
 #: desktop-guide/C/guide-keeping-safe.xml:128(para)
 msgid ""
@@ -5082,6 +5185,10 @@ msgid ""
 "Settings Manager</guimenuitem><guimenuitem>Users and "
 "Groups</guimenuitem></menuchoice></application>"
 msgstr ""
+"Öffnen Sie <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/>Alle "
+"Einstellungen</guimenuitem><guimenuitem>Benutzer und "
+"Gruppen</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/guide-keeping-safe.xml:129(para)
 msgid "Click on your username on the list"
@@ -5092,6 +5199,8 @@ msgid ""
 "Click <guilabel>Change...</guilabel> next to the "
 "<guilabel>Password</guilabel> label"
 msgstr ""
+"Klicken Sie auf <guilabel>Ändern…</guilabel> neben der Beschriftung "
+"<guilabel>Passwort</guilabel>"
 
 #: desktop-guide/C/guide-keeping-safe.xml:131(para)
 msgid "First enter your <guilabel>Current password</guilabel>"
@@ -5099,13 +5208,16 @@ msgstr "Geben Sie zuerst ihr<guilabel>aktuelles Passwort</guilabel> ein."
 
 #: desktop-guide/C/guide-keeping-safe.xml:132(para)
 msgid "Now you can either"
-msgstr ""
+msgstr "Nun können Sie entweder"
 
 #: desktop-guide/C/guide-keeping-safe.xml:134(para)
 msgid ""
 "Generate a random password by selecting <guilabel>Generate random "
 "password</guilabel> and pressing <guibutton>Generate</guibutton>"
 msgstr ""
+"Ein zufälliges Passwort erzeugen, indem Sie <guilabel>Zufälliges Passwort "
+"erzeugen</guilabel> auswählen und den Knopf <guibutton>Erzeugen</guibutton> "
+"drücken."
 
 #: desktop-guide/C/guide-keeping-safe.xml:135(para)
 msgid ""
@@ -5113,11 +5225,16 @@ msgid ""
 "<guilabel>New password</guilabel> and <guilabel>Confirmation</guilabel> "
 "fields"
 msgstr ""
+"Ein neues Passwort wählen, indem Sie das neue Passwort in die Felder "
+"<guilabel>Neues Passwort</guilabel> und <guilabel>Bestätigung</guilabel> "
+"eingeben"
 
 #: desktop-guide/C/guide-keeping-safe.xml:138(para)
 msgid ""
 "Finally, click <guibutton>OK</guibutton> to confirm the password change"
 msgstr ""
+"Klicken Sie zum Abschluss auf den Knopf <guibutton>OK</guibutton>, um die "
+"Passwortänderung zu bestätigen."
 
 #: desktop-guide/C/guide-keeping-safe.xml:140(para)
 msgid ""
@@ -5126,6 +5243,11 @@ msgid ""
 "security for your system. Please turn on automatic login on only if you can "
 "trust everybody that has access to the computer."
 msgstr ""
+"Obwohl es mögliche ist, Xubuntu so einzustellen, dass es sich nach dem Start "
+"automatisch anmeldet, ist von der automatischen Abmeldung stark abzuraten, "
+"weil es weniger Sicherheit für Ihr System bietet. Bitte schalten Sie die "
+"automatische Anmeldung nur ein, wenn Sie jedem trauen, der Zugang zu dem "
+"Rechner hat."
 
 #: desktop-guide/C/guide-keeping-safe.xml:148(title)
 msgid "Watch out for stolen passwords occasionally"
@@ -5233,6 +5355,7 @@ msgstr ""
 #: desktop-guide/C/guide-keeping-safe.xml:203(para)
 msgid "Install applications from the repository whenever possible."
 msgstr ""
+"Installieren Sie Programme wenn möglich nur aus den offiziellen Paketquellen."
 
 #: desktop-guide/C/guide-keeping-safe.xml:204(para)
 msgid ""
@@ -5281,7 +5404,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:226(title)
 msgid "Remember email security"
-msgstr ""
+msgstr "Gehen Sie mit E-Mails sicher um"
 
 #: desktop-guide/C/guide-keeping-safe.xml:229(para)
 msgid ""
@@ -5289,16 +5412,24 @@ msgid ""
 "think the content of the email is incoherent or suspicious (for example "
 "invoices coming from people you have never heard of)."
 msgstr ""
+"Öffnen Sie keine E-Mail-Anhänge von Personen, die Sie nicht kennen oder wenn "
+"der Inhalt der E-Mail zusammenhanglos oder verdächtig ist (zum Beispiel "
+"Rechnungen von Personen/Unternehmen, von denen Sie noch nie gehört haben)."
 
 #: desktop-guide/C/guide-keeping-safe.xml:230(para)
 msgid ""
 "Do not reply to spam. This will inform spammers that your email address is "
 "active, and it will incite them to send you more spam."
 msgstr ""
+"Antworten Sie nicht auf Spam-E-Mails. Dies informiert die Spammer, dass ihre "
+"E-Mail-Adresse aktiv ist und wird sie dazu ermutigen, Ihnen noch mehr Spam "
+"zu schicken."
 
 #: desktop-guide/C/guide-keeping-safe.xml:235(title)
 msgid "Consider firewalls if your computer hosts Internet services"
 msgstr ""
+"Erwägen Sie die Verwendung einer Firewall, wenn Ihre Rechner Internetdienste "
+"zur Verfügung stellt"
 
 #: desktop-guide/C/guide-keeping-safe.xml:237(para)
 msgid ""
@@ -5351,13 +5482,15 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:269(para)
 msgid "General advice on how to keep good backups:"
-msgstr ""
+msgstr "Genereller Rat zur Erstellung guter Datensicherungen"
 
 #: desktop-guide/C/guide-keeping-safe.xml:272(para)
 msgid ""
 "Always test your backups after you make them to ensure that they have been "
 "made correctly"
 msgstr ""
+"Prüfen Sie Ihre Sicherungen immer nach der Erstellung, um sicherzustellen, "
+"dass sie korrekt erstellt wurden."
 
 #: desktop-guide/C/guide-keeping-safe.xml:274(para)
 msgid "Label your backups clearly and keep them in a safe place"
@@ -5391,7 +5524,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:293(title)
 msgid "Consider encryption"
-msgstr ""
+msgstr "Ziehen Sie Verschlüsselung in Erwägung"
 
 #: desktop-guide/C/guide-keeping-safe.xml:295(para)
 msgid ""
@@ -5424,7 +5557,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:315(title)
 msgid "Do not use shared accounts"
-msgstr ""
+msgstr "Teilen Sie ein Benutzerkonto nicht mit mehreren Personen"
 
 #: desktop-guide/C/guide-keeping-safe.xml:317(para)
 msgid ""
@@ -5433,6 +5566,10 @@ msgid ""
 "their own user account. To read more about adding users, refer to <xref "
 "linkend=\"users-groups\"/>."
 msgstr ""
+"Wenn Xubuntu installiert wird, ist es für eine einzelne Person eingerichtet. "
+"Wenn mehrere Personen den Rechner verwenden, ist es am besten für jede "
+"Person ein eigenes Benutzerkonto einzurichten. Um mehr über das Hinzufügen "
+"von Benutzerkonten zu erfahren, lesen Sie <xref linkend=\"users-groups\"/>."
 
 #: desktop-guide/C/guide-keeping-safe.xml:324(title)
 msgid "Lock your screen while away"
@@ -5985,13 +6122,15 @@ msgstr ""
 
 #: desktop-guide/C/command-line.xml:40(title)
 msgid "Common commands"
-msgstr ""
+msgstr "Grundlegende Befehle"
 
 #: desktop-guide/C/command-line.xml:42(para)
 msgid ""
 "Basic terminal commands are outlined below (square brackets indicate "
 "substitutions):"
 msgstr ""
+"Grundlegende Kommandozeilen-Befehle werden im Folgenden beschrieben (eckige "
+"Klammern zeigen Platzhalter an, die ersetzt werden müssen):"
 
 #: desktop-guide/C/command-line.xml:46(segtitle)
 msgid "Command"
@@ -6008,13 +6147,15 @@ msgstr "Syntax"
 #: desktop-guide/C/command-line.xml:47(userinput)
 #, no-wrap
 msgid "apt-cache"
-msgstr ""
+msgstr "apt-cache"
 
 #: desktop-guide/C/command-line.xml:47(seg)
 msgid ""
 "Shows information about the packages in the repository. Common commands are "
 "the search and show commands"
 msgstr ""
+"Zeigt Informationen über die Pakete in den Paketquellen an. Häufig "
+"gebrauchte Befehle sind die Befehle »search« und »show«."
 
 #: desktop-guide/C/command-line.xml:47(userinput)
 #, no-wrap
@@ -6045,7 +6186,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:48(userinput)
 #, no-wrap
 msgid "apt-get [command] [package]"
-msgstr ""
+msgstr "apt-get [Befehl] [Paket]"
 
 #: desktop-guide/C/command-line.xml:49(userinput)
 #, no-wrap
@@ -6059,7 +6200,7 @@ msgstr "Hängt zwei oder mehrere Dateien aneinander"
 #: desktop-guide/C/command-line.xml:49(userinput)
 #, no-wrap
 msgid "cat [file1] [file2] ... &gt; [output file]"
-msgstr ""
+msgstr "cat [Datei1] [Datei2] ... &gt; [Ausgabedatei]"
 
 #: desktop-guide/C/command-line.xml:50(userinput)
 #, no-wrap
@@ -6083,11 +6224,13 @@ msgstr "cp"
 #: desktop-guide/C/command-line.xml:51(seg)
 msgid "Copies a file (or files) to a directory or to overwrite another file"
 msgstr ""
+"Kopiet eine Datei (oder mehrere Dateien) in ein Verzeichnis oder "
+"überschreibt eine andere Datei"
 
 #: desktop-guide/C/command-line.xml:51(userinput)
 #, no-wrap
 msgid "cp [file(s)] [directory]"
-msgstr ""
+msgstr "cp [Datei(en)] [Verzeichnis]"
 
 #: desktop-guide/C/command-line.xml:52(userinput)
 #, no-wrap
@@ -6099,6 +6242,8 @@ msgid ""
 "Tells you the date and time in many different formats, timezones, and "
 "conversions."
 msgstr ""
+"Gibt das Datum und die Uhrzeit in vielen verschiedenen Formaten, Zeitzonen "
+"und Umwandlungen an."
 
 #: desktop-guide/C/command-line.xml:52(userinput)
 #, no-wrap
@@ -6131,12 +6276,12 @@ msgstr "Sucht Texte oder Dateien"
 #: desktop-guide/C/command-line.xml:54(userinput)
 #, no-wrap
 msgid "grep [text] [file(s)]"
-msgstr ""
+msgstr "grep [Suchtext] [Datei(en)]"
 
 #: desktop-guide/C/command-line.xml:54(userinput)
 #, no-wrap
 msgid "[command] | grep [text]"
-msgstr ""
+msgstr "[Befehl] | grep [Suchtext]"
 
 #: desktop-guide/C/command-line.xml:55(userinput)
 #, no-wrap
@@ -6153,6 +6298,8 @@ msgid ""
 "Terminates programs with a specified PID. If you don't know the PID you can "
 "use <placeholder-1/>"
 msgstr ""
+"Beendet Programme mit einer speziellen Prozess-ID. Wenn Sie die Prozess-ID "
+"nicht wissen, können Sie <placeholder-1/> verwenden."
 
 #: desktop-guide/C/command-line.xml:55(userinput)
 #, no-wrap
@@ -6167,11 +6314,13 @@ msgstr "killall"
 #: desktop-guide/C/command-line.xml:56(seg)
 msgid "Much like the one above, except you specify the programs name"
 msgstr ""
+"Größtenteils wie das vorherige, außer dass Sie den Namen des Programmes "
+"angeben."
 
 #: desktop-guide/C/command-line.xml:56(userinput)
 #, no-wrap
 msgid "killall [-SIGNAL] [process(es)]"
-msgstr ""
+msgstr "killall [-SIGNAL] [Prozessname(n)]"
 
 #: desktop-guide/C/command-line.xml:57(userinput)
 #, no-wrap
@@ -6243,6 +6392,8 @@ msgid ""
 "Removes files or directories. Be very careful with this command! With the -r "
 "option, it removes all files and directories recursively!"
 msgstr ""
+"Löscht Dateien oder Verzeichnisse. Vorsicht mit diesem Befehl! Mit der "
+"Option -r werden alle Dateien und Unterverzeichnisse rekursiv entfernt."
 
 #: desktop-guide/C/command-line.xml:61(userinput)
 #, no-wrap
@@ -6252,7 +6403,7 @@ msgstr "rm [Datei(en)]"
 #: desktop-guide/C/command-line.xml:61(userinput)
 #, no-wrap
 msgid "rm -ir [dir(s)]"
-msgstr ""
+msgstr "rm -ir [Verzeichnis(se)]"
 
 #: desktop-guide/C/command-line.xml:62(userinput)
 #, no-wrap
