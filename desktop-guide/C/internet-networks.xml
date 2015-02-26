@@ -198,7 +198,7 @@
 
 				<para>Open a terminal (&terminal;), type the command <userinput>nmcli device show</userinput> then press the <keycap>&key;Enter</keycap> key.  Look for the entries under <literal>IP4.DNS</literal></para>
 
-				<para>To check if the listed DNS works, open a terminal (&terminal;), type the command <userinput>dig xubuntu.org</userinput> then press the <keycap>&key;Enter</keycap> key.  If you see the word <literal>NOERROR</literal>in the header section of the output, your DNS is working.</para>
+				<para>To check if the listed DNS works, open a terminal (&terminal;), type the command <userinput>dig xubuntu.org</userinput> then press the <keycap>&key;Enter</keycap> key.  If you see the word <literal>NOERROR</literal> in the header section of the output, your DNS is working.</para>
 
 				<para>If there are no DNS settings listed, contact your Internet Service Provider (ISP), and find out your primary and secondary domain name servers. Once you have this information, continue to <xref linkend="network-connect-disconnect" /> and <xref linkend="network-configure" /> if needed.</para>
 			</section>
