@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-02-26 01:00+0000\n"
-"PO-Revision-Date: 2015-02-25 21:46+0000\n"
-"Last-Translator: David Pires <Unknown>\n"
+"POT-Creation-Date: 2015-02-26 22:57+0000\n"
+"PO-Revision-Date: 2015-02-26 17:30+0000\n"
+"Last-Translator: Pasi Lallinaho <pasi@shimmerproject.org>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-02-26 06:08+0000\n"
+"X-Launchpad-Export-Date: 2015-02-27 05:57+0000\n"
 "X-Generator: Launchpad (build 17361)\n"
 "Language: de\n"
 
@@ -3969,16 +3969,9 @@ msgid ""
 "1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal "
 "Emulator</guimenuitem></menuchoice></application>), type the command "
 "<userinput>dig xubuntu.org</userinput> then press the <keycap><placeholder-"
-"2/>Enter</keycap> key. If you see the word <literal>NOERROR</literal>in the "
+"2/>Enter</keycap> key. If you see the word <literal>NOERROR</literal> in the "
 "header section of the output, your DNS is working."
 msgstr ""
-"Um zu prüfen ob der aufgeführte DNS-Server funktioniert, öffnen Sie ein "
-"Terminal (<application><menuchoice><placeholder-"
-"1/><guisubmenu>Zubehör</guisubmenu><guimenuitem>Terminal</guimenuitem></menuc"
-"hoice></application>), geben Sie den Befehl <userinput>dig "
-"xubuntu.org</userinput> ein und drücken Sie dann die <keycap><placeholder-"
-"2/>Enter</keycap>-Taste. Wenn Sie das Wort <literal>NOERROR</literal> im "
-"HEADER-Abschnitt sehen, dann funktioniert ihr DNS-Server."
 
 #: desktop-guide/C/internet-networks.xml:203(para)
 msgid ""
@@ -4607,12 +4600,19 @@ msgid ""
 "the <xref linkend=\"partitioning-create\"/> section. Otherwise, follow the "
 "instructions below:"
 msgstr ""
+"Um eine neue Partition innerhalb eines bereits partitionierten Gerätes zu "
+"erstellen, müssen Sie zuerst eine existierende Partition verkleinern. Wenn "
+"Sie schon genügend freien Speicher haben, fahren Sie im Abschnitt <xref "
+"linkend=\"partitioning-create\"/> fort. Wenn nicht, folgen Sie den "
+"Anweisungen im nächsten Abschnitt:"
 
 #: desktop-guide/C/hardware-devices.xml:110(para) desktop-guide/C/hardware-devices.xml:124(para) desktop-guide/C/hardware-devices.xml:139(para)
 msgid ""
 "Select the device to partition from the drop-down list at the top-right of "
 "the main window"
 msgstr ""
+"Wählen Sie das zu partitionierende Gerät aus der Auswahlliste in der rechten "
+"oberen Ecke des Hauptfensters."
 
 #: desktop-guide/C/hardware-devices.xml:111(para)
 msgid ""
@@ -4621,6 +4621,10 @@ msgid ""
 "<menuchoice><guimenu>Partition</guimenu><guimenuitem>Unmount</guimenuitem></m"
 "enuchoice>"
 msgstr ""
+"Eine Liste von Partitionen erscheint im Hauptfenster. Wählen Sie die "
+"Partition, deren Größe Sie ändern möchten und wählen Sie "
+"<menuchoice><guimenu>Partition</guimenu><guimenuitem>Aushängen</guimenuitem><"
+"/menuchoice>"
 
 #: desktop-guide/C/hardware-devices.xml:112(para)
 msgid ""
@@ -4736,6 +4740,9 @@ msgid ""
 "mounted by the operating system so that you are able to access the files on "
 "the device."
 msgstr ""
+"Wenn Sie einen Wechseldatenträger mit Ihrem Rechner verbinden, muss der "
+"Datenträger eingehängt werden, damit Sie auf die Dateien auf dem Datenträger "
+"zugreifen können."
 
 #: desktop-guide/C/hardware-devices.xml:152(para)
 msgid ""
@@ -4829,6 +4836,9 @@ msgid ""
 "behaves; the most basic touchpad settings can be configured in the following "
 "way:"
 msgstr ""
+"Die meisten Laptops haben ein Touchpad, um den Mauszeiger zu steuern. Es "
+"gibt viele Arten, das Verhalten des Touchpads zu ändern; die grundlegenden "
+"Touchpad-Einstellungen können auf folgende Weise konfiguriert werden:"
 
 #: desktop-guide/C/hardware-devices.xml:181(para)
 msgid ""
@@ -4845,6 +4855,7 @@ msgstr ""
 msgid ""
 "From the <guilabel>Device:</guilabel> field pick list, select the touchpad."
 msgstr ""
+"Wählen Sie das Touchpad in der Auswahlliste <guilabel>Gerät:</guilabel>."
 
 #: desktop-guide/C/hardware-devices.xml:183(para)
 msgid ""
@@ -4862,6 +4873,12 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/SynapticsTouchpad\">Touchpads</ulink>"
 " page in the Ubuntu community wiki for more information on touchpads."
 msgstr ""
+"Einige Touchpads werden möglicherweise als normale Mäuse erkannt, obwohl Sie "
+"in Wirklichkeit Touchpads sind. In diesem Fall wird das "
+"<guilabel>Touchpad</guilabel>-Gerät nicht in den Mauseinstellungen verfügbar "
+"sein. Lesen Sie die <ulink "
+"url=\"https://help.ubuntu.com/community/SynapticsTouchpad\">Touchpads</ulink>"
+"-Seite Im Ubuntu Community Wiki für mehr Informationen zu Touchpads."
 
 #: desktop-guide/C/hardware-devices.xml:190(title)
 msgid "Finding laptop testing reports"
@@ -5137,6 +5154,10 @@ msgid ""
 "appropriate device from the <guilabel>Device:</guilabel> pick list on the "
 "<guilabel>Devices</guilabel> tab page."
 msgstr ""
+"Falls Sie eine Maus an einem Laptop verwenden, der auch ein Touchpad "
+"besitzt, können Sie das Verhalten der beiden einzeln ändern, indem Sie das "
+"entsprechende Gerät in der Auswahlliste <guilabel>Gerät:</guilabel> auf dem "
+"Reiter <guilabel>Geräte</guilabel> auswählen."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -5178,6 +5199,13 @@ msgid ""
 "they are searching for victims to hack with automated programs in under a "
 "few hours."
 msgstr ""
+"Sicherheitsaktualisierungen sind sehr wichtig. Sie sind die beste "
+"Verteidigung, die sie gegen die Menschen welche Ihrem Rechner Schaden "
+"zufügen wollen, haben. Sie sollten Sie unverzüglich installieren. Wenn eine "
+"Sicherheitsaktualisierung veröffentlicht wird, wissen Hacker bereits, wie "
+"man einen Rechner missbraucht, der nicht auf dem neuesten Stand ist. Im "
+"schlimmsten Fall suchen Sie innerhalb weniger Stunden nach Opfern, welche "
+"sie mit automatisierten Programmen hacken können."
 
 #: desktop-guide/C/guide-keeping-safe.xml:33(para)
 msgid ""
@@ -5223,20 +5251,29 @@ msgid ""
 "prevent unauthorized access to your personal information, identity theft and "
 "direct financial losses. Consider the following scenario:"
 msgstr ""
+"Die Verwendung starker und einzigartiger Passwörter für wichtige und "
+"sensible Benutzerkonten verhindert unbefugten Zugriff auf Ihre persönlichen "
+"Informationen, Identitätsdiebstahl und direkte finanzielle Verluste. "
+"Betrachten Sie folgendes Szenario:"
 
 #: desktop-guide/C/guide-keeping-safe.xml:53(para)
 msgid ""
 "Alice uses identical passwords for mytrustedbank.com and insecureblog.com"
 msgstr ""
+"Alice verwendet identische Passwörter für meinevertrauenswuerdigebank.de und "
+"unsichererblog.de"
 
 #: desktop-guide/C/guide-keeping-safe.xml:54(para)
 msgid ""
 "insecureblog is hacked and Alice’s information and password are stolen"
 msgstr ""
+"unsichererblog wird gehackt und Alices Information und Passwort werden "
+"gestohlen"
 
 #: desktop-guide/C/guide-keeping-safe.xml:55(para)
 msgid "Hackers can now access Alice’s bank account and steal her money"
 msgstr ""
+"Hacker können nun auf Alices Bankkonto zugreifen und ihr Geld stehlen"
 
 #: desktop-guide/C/guide-keeping-safe.xml:58(para)
 msgid ""
@@ -5250,6 +5287,9 @@ msgid ""
 "your other passwords via the “Forgotten password” links found on all "
 "websites."
 msgstr ""
+"<emphasis>E-Mail-Benutzerkonten</emphasis>. E-Mail-Benutzerkonten können "
+"dazu verwendet werden, um alle Ihre anderen Passwörter über die »Passwort "
+"vergessen«-Funktion auf allen Webseiten zurückzusetzen."
 
 #: desktop-guide/C/guide-keeping-safe.xml:62(para)
 msgid ""
@@ -5303,7 +5343,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:95(title)
 msgid "How to reuse passwords safely?"
-msgstr ""
+msgstr "Wie verwendet man Passwörter sicher wieder?"
 
 #: desktop-guide/C/guide-keeping-safe.xml:97(para)
 msgid ""
@@ -5346,6 +5386,9 @@ msgid ""
 "an attacker could steal your password, they will be able to steal it again "
 "in the future."
 msgstr ""
+"Sie müssen Ihre Passwörter nicht jeden zweiten Tag ändern. In vielen Fällen "
+"könnte ein Angreifer, wenn er Ihr Passwort einmal gestohlen hat, dies auch "
+"zukünftig wieder machen."
 
 #: desktop-guide/C/guide-keeping-safe.xml:116(para)
 msgid ""
@@ -5452,10 +5495,12 @@ msgstr ""
 #: desktop-guide/C/guide-keeping-safe.xml:158(para)
 msgid "identify all the services where you used that password"
 msgstr ""
+"identifizieren Sie alle Dienste, bei denen Sie dieses Passwort verwendet "
+"haben"
 
 #: desktop-guide/C/guide-keeping-safe.xml:159(para)
 msgid "change your password on all those services"
-msgstr ""
+msgstr "ändern Sie ihr Passwort bei allen diesen Diensten"
 
 #: desktop-guide/C/guide-keeping-safe.xml:160(para)
 msgid ""
@@ -5474,13 +5519,15 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:171(title)
 msgid "What about password managers?"
-msgstr ""
+msgstr "Was ist mit Passwort-Managern?"
 
 #: desktop-guide/C/guide-keeping-safe.xml:173(para)
 msgid ""
 "Password managers are a very convenient way of using many unique passwords "
 "without having to remember them all!"
 msgstr ""
+"Passwort-Manager sind eine sehr bequeme Art, viele einzigartige Passwörter "
+"zu verwenden, ohne sich an alle erinnern zu müssen!"
 
 #: desktop-guide/C/guide-keeping-safe.xml:176(para)
 msgid ""
@@ -5530,10 +5577,12 @@ msgid ""
 "If you keep the above advice in mind, password managers can be a great way "
 "to stay more secure, more easily!"
 msgstr ""
+"Wenn Sie die obigen Ratschläge befolgen, können Passwort-Manager eine "
+"großartige Art sein, auf einfache Art und Weise sicher zu sein!"
 
 #: desktop-guide/C/guide-keeping-safe.xml:197(title)
 msgid "Tips for good online security"
-msgstr ""
+msgstr "Hinweise für gute Online-Sicherheit"
 
 #: desktop-guide/C/guide-keeping-safe.xml:200(title)
 msgid "Do not run scripts or install applications from unknown sources"
@@ -5727,6 +5776,8 @@ msgid ""
 "The easiest way to enable full disk encryption is to do it during the "
 "installation."
 msgstr ""
+"Die einfachste Art und Weise, die vollständige Verschlüsselung eines "
+"Laufwerkes einzuschalten ist, dies während der Installation vorzunehmen."
 
 #: desktop-guide/C/guide-keeping-safe.xml:302(para)
 msgid ""
@@ -6613,7 +6664,7 @@ msgstr ""
 #: desktop-guide/C/command-line.xml:62(userinput)
 #, no-wrap
 msgid "wget [urls]"
-msgstr ""
+msgstr "wget [URLs]"
 
 #: desktop-guide/C/administrative-tasks.xml:12(title)
 msgid "Administrative tasks"
