@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-02-26 22:57+0000\n"
-"PO-Revision-Date: 2015-02-26 00:07+0000\n"
-"Last-Translator: David Pires <Unknown>\n"
+"PO-Revision-Date: 2015-02-28 09:13+0000\n"
+"Last-Translator: Eugenio González <Unknown>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-02-27 05:58+0000\n"
+"X-Launchpad-Export-Date: 2015-03-01 05:45+0000\n"
 "X-Generator: Launchpad (build 17361)\n"
 "Language: es\n"
 
@@ -190,11 +190,11 @@ msgstr "xfce4-taskmanager"
 
 #: desktop-guide/C/appendix-packages.xml:29(seg)
 msgid "Process manager for the Xfce4 Desktop Environment"
-msgstr "Gestor de tareas fácil de usar para el entorno de escritorio Xfce4"
+msgstr "Gestor de procesos para el entorno gráfico de escritorio XFCE4"
 
 #: desktop-guide/C/appendix-packages.xml:32(title)
 msgid "Settings Manager"
-msgstr "Gestor de configuración"
+msgstr "Administrador de configuración"
 
 #: desktop-guide/C/appendix-packages.xml:36(seg)
 msgid "Theme Configuration"
@@ -275,7 +275,7 @@ msgstr "system-config-printer-gnome"
 
 #: desktop-guide/C/appendix-packages.xml:42(seg)
 msgid "Printer configuration GUI"
-msgstr "Interfaz para configurar impresoras"
+msgstr "Interfaz gráfica para configurar las impresoras"
 
 #: desktop-guide/C/appendix-packages.xml:46(title)
 msgid "Behind the scenes"
@@ -421,10 +421,11 @@ msgstr ""
 "La «X» en Xubuntu proviene de Xfce, el ambiente de escritorio de Xubuntu. "
 "Así también la palabra «ubuntu» muestra la dependencia y el uso del núcleo "
 "de Ubuntu, que a su vez representa el núcleo filosófico del sistema "
-"operativo. Una burda traducción de la palabra ubuntu es «humanidad hacia los "
-"demás». Para leer más sobre la filosofía detrás de Ubuntu y Xubuntu puede ir "
-"a la página <ulink url=\"http://www.ubuntu.com/project/about-ubuntu/our-"
-"philosophy\">Ubuntu Philosophy</ulink> [En inglés]."
+"operativo. Un significado aproximado de la palabra ubuntu es «humanidad "
+"hacia los demás». Para conocer más sobre la filosofía e ideales detrás de "
+"Ubuntu y Xubuntu puede ir a la página <ulink "
+"url=\"http://www.ubuntu.com/project/about-ubuntu/our-philosophy\">Filosofía "
+"de Ubuntu</ulink> [En inglés]."
 
 #: desktop-guide/C/what-is-xubuntu.xml:33(para)
 msgid ""
@@ -434,7 +435,7 @@ msgid ""
 "by Mark Shuttleworth."
 msgstr ""
 "Además de usar el núcleo de Ubuntu, Xubuntu también utiliza la "
-"infraestructura provista y patrocinada por <ulink "
+"infraestructura proporcionada por <ulink "
 "url=\"http://www.canonical.com/\">Canonical Ltd.</ulink>, una empresa "
 "fundada por Mark Shuttleworth."
 
@@ -454,12 +455,12 @@ msgstr ""
 "de lanzamiento de la distribución. La primera parte del número da cuenta del "
 "año, mientras que la segunda parte nos dice el mes. Por ejemplo, la primera "
 "versión oficial de Xubuntu fue lanzada en junio del 2006, así el número de "
-"versión fue 6.06. La siguiente versión de soporte extendido (LTS por sus "
-"siglas en inglés) será 14.04, cuyo nombre en código es Trusty Tahr."
+"versión fue 6.06. La más reciente versión de soporte extendido (LTS por sus "
+"siglas en inglés) es la 14.04, cuyo nombre clave es Trusty Tahr"
 
 #: desktop-guide/C/what-is-xubuntu.xml:47(title)
 msgid "Learn more about what makes Xubuntu"
-msgstr "Aprender más sobre qué hace Xubuntu"
+msgstr "Conozca más sobre qué hace Xubuntu"
 
 #: desktop-guide/C/what-is-xubuntu.xml:50(title)
 msgid "Free Software"
@@ -597,12 +598,12 @@ msgid ""
 "application listed in the results, you can directly launch it or right-click "
 "on it and add it to your preferred launch location."
 msgstr ""
-"Si no está seguro de cómo se llama o dónde está catalogado un programa, "
-"puede usar la función de búsqueda. Cuando abre el menú el cursor ya estará "
-"en la barra de búsqueda. Simplemente escriba y se realizará una búsqueda "
-"incremental sobre los nombres y descripciones de las aplicaciones. Cuando "
-"vea la aplicación que desea en los resultados puede simplemente ejecutarla o "
-"añadirla a través del menú contextual del botón derecho a donde prefiera."
+"Si no está seguro de cómo se llama o dónde está un programa, puede usar la "
+"función de búsqueda. Cuando abre el menú el cursor ya estará en la barra de "
+"búsqueda. Simplemente escriba y se realizará una búsqueda incremental sobre "
+"los nombres y descripciones de las aplicaciones. Cuando vea la aplicación "
+"que desea en los resultados puede simplemente ejecutarla o añadirla a través "
+"del menú contextual del botón derecho a donde prefiera."
 
 #: desktop-guide/C/settings-preferences.xml:23(para)
 msgid ""
@@ -635,16 +636,16 @@ msgid ""
 msgstr ""
 "Para añadir directorios o entradas que no aparecen por defecto en el menú "
 "necesitará otra aplicación. Un editor avanzado del menú llamado "
-"<application>MenuLibre</application> se puede encontrar clickeando en "
+"<application>MenuLibre</application> se puede encontrar pulsando en "
 "<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
-"Configuración</guimenuitem><guimenuitem>Editor de "
+"Administrador de configuración</guimenuitem><guimenuitem>Editor de "
 "menús</guimenuitem></menuchoice></application>. Utilizando este editor puede "
 "crear, esconder y reordenar los directorios que aparecen en la estructura "
 "jerárquica a la derecha del menú principal. Dentro de estos directorios "
 "puede crear entradas para distintas aplicaciones, así como editar su "
 "comportamiento configurando las muchas opciones disponibles en este "
 "utilitario. Para más información sobre cómo utilizar todas estas opciones "
-"visita <ulink url=\"http://smdavis.us/doku/doku.php?id=menulibre-"
+"visite <ulink url=\"http://smdavis.us/doku/doku.php?id=menulibre-"
 "docs\">MenuLibre</ulink> donde obtendrá su documentación en línea en inglés."
 
 #: desktop-guide/C/settings-preferences.xml:31(title)
@@ -670,9 +671,9 @@ msgid ""
 "Me</guimenuitem></menuchoice></application>."
 msgstr ""
 "Para lanzar <application>Mugshot</application> vaya a "
-"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
-"Settings Manager</guimenuitem><guimenuitem>About "
-"Me</guimenuitem></menuchoice></application>."
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-"
+"2/>Administrador de configuración</guimenuitem><guimenuitem>Acerca de "
+"mí</guimenuitem></menuchoice></application>."
 
 #: desktop-guide/C/settings-preferences.xml:37(para)
 msgid ""
@@ -955,7 +956,7 @@ msgid ""
 msgstr ""
 "xfwm themes controla la apariencia de los bordes de sus ventanas. Para "
 "cambiar su tema xfwm, vaya a <application><menuchoice><placeholder-"
-"1/><guimenuitem><placeholder-2/> "
+"1/><guimenuitem><placeholder-2/> Administrador de "
 "configuración</guimenuitem><guimenuitem>Gestor de "
 "ventanas</guimenuitem></menuchoice></application>. En la pestaña "
 "<guilabel>Estilo</guilabel>, seleccione un nuevo tema para cambiar la "
@@ -971,13 +972,13 @@ msgid ""
 "change the window content appearance. The tool <application>gtk-theme-"
 "config</application> will also allow you to customize your window look."
 msgstr ""
-"Temas GTK - controlan el modo en el contenido de las ventanas se ve. Para "
-"cambiar el tema GTK, vaya a <application><menuchoice><placeholder-"
-"1/><guimenuitem><placeholder-2/> Settings "
-"Manager</guimenuitem><guimenuitem>Apariencia</guimenuitem></menuchoice></appl"
-"ication>. En la pestaña <guilabel>Estilo</guilabel>, seleccione un tema "
-"nuevo para cambiar la apariencia contenido de la ventana. La herramienta "
-"<application>gtk-theme-config</application> también le permitirá "
+"Temas GTK - controlan el modo en el que se ve contenido de las ventanas. "
+"Para cambiar el tema GTK, vaya a <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/>Administrador de "
+"configuración</guimenuitem><guimenuitem>Apariencia</guimenuitem></menuchoice>"
+"</application>. En la pestaña <guilabel>Estilo</guilabel>, seleccione un "
+"tema nuevo para cambiar la apariencia contenido de la ventana. La "
+"herramienta <application>gtk-theme-config</application> también le permitirá "
 "personalizar el aspecto de la ventana."
 
 #: desktop-guide/C/settings-preferences.xml:116(para)
@@ -992,11 +993,12 @@ msgid ""
 msgstr ""
 "Icon themes controla la apariencia de sus iconos. Para cambiar el tema de "
 "sus iconos, vaya a <application><menuchoice><placeholder-"
-"1/><guimenuitem><placeholder-2/> Settings "
-"Manager</guimenuitem><guimenuitem>Apariencia</guimenuitem></menuchoice></appl"
-"ication>. En la pestaña <guilabel>Iconos</guilabel>, seleccione un nuevo "
-"tema para cambiar la apariencia de los iconos. Tenga en cuenta que no todos "
-"los conjuntos de iconos funcionarán con paneles, ventanas o fondos oscuros."
+"1/><guimenuitem><placeholder-2/> Administrador de "
+"configuración</guimenuitem><guimenuitem>Apariencia</guimenuitem></menuchoice>"
+"</application>. En la pestaña <guilabel>Iconos</guilabel>, seleccione un "
+"nuevo tema para cambiar la apariencia de los iconos. Tenga en cuenta que no "
+"todos los conjuntos de iconos funcionarán con paneles, ventanas o fondos "
+"oscuros."
 
 #: desktop-guide/C/settings-preferences.xml:122(para)
 msgid ""
@@ -1019,10 +1021,11 @@ msgid ""
 "this, extract the theme package and copy them to:"
 msgstr ""
 "Si instala nuevos temas desde los repositorios deberían aparecer "
-"automáticamente en <application>Gestor de configuración</application>. Si "
-"descarga un tema desde otro lugar, necesitará instalar el tema antes de que "
-"aparezca en <application>Gestor de configuración</application>. Para ello, "
-"extraer el paquete de temas y copiarlos en:"
+"automáticamente en el <application>Administrador de "
+"configuración</application>. Si descarga un tema desde otro lugar, "
+"necesitará instalar el tema antes de que aparezca en el "
+"<application>Administrador de configuración</application>. Para ello, "
+"extraiga el paquete de temas y cópielos en:"
 
 #: desktop-guide/C/settings-preferences.xml:132(para)
 msgid "xfwm and GTK themes:"
@@ -1088,11 +1091,12 @@ msgstr ""
 "el compositor Xfce se usa para dibujar sombras para las ventanas y permitir "
 "los paneles translúcidos. Si tiene una GPU de gama baja o no le gustan los "
 "efectos de escritorio mencionados, puede apagar el compositor o cambiar los "
-"ajustes yendo a  <application><menuchoice><placeholder-"
-"1/><guimenuitem><placeholder-2/> Configuración</guimenuitem><guimenuitem> "
-"Ajustes del gestor de ventanas</guimenuitem></menuchoice></application> y en "
-"la pestaña <guilabel>Compositor</guilabel> desmarque <guilabel>Activar "
-"compositor de visualización</guilabel> o modifique los ajustes."
+"ajustes yendo a <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> Administrador de "
+"configuración</guimenuitem><guimenuitem> Ajustes del gestor de "
+"ventanas</guimenuitem></menuchoice></application> y en la pestaña "
+"<guilabel>Compositor</guilabel> desmarque <guilabel>Activar compositor de "
+"visualización</guilabel> o modifique los ajustes."
 
 #: desktop-guide/C/printing-scanning.xml:12(title)
 msgid "Printing and Scanning"
@@ -1337,6 +1341,16 @@ msgid ""
 "Computers running Xubuntu versions prior to 13.10, or other Linux/Ubuntu-"
 "based systems, may need to enable a setting to show shared printers."
 msgstr ""
+"Si no tiene una impresora de red, pero quiere compartir su impresora con "
+"otros equipos de su red, haga clic en "
+"<menuchoice><guimenu>Servidor</guimenu><guimenuitem>Configuración</guimenuite"
+"m></menuchoice> en el diálogo <guilabel>Impresoras</guilabel> , marque el "
+"campo <guilabel>Publicar impresoras compartidas conectadas a este "
+"sistema</guilabel>, y pulse <guibutton>Aceptar</guibutton>. Los equipos con "
+"versiones posteriores a Xubuntu 13.04 detectarán automáticamente las "
+"impresoras compartidas de este modo. En equipos con versiones anteriores a "
+"Xubuntu 13.10 y en otros sistemas basados en Linux/Ubuntu puede ser "
+"necesario habilitar la opción de mostrar impresoras compartidas."
 
 #: desktop-guide/C/printing-scanning.xml:68(title)
 msgid "Scanning"
@@ -1487,6 +1501,8 @@ msgid ""
 "Run <userinput>pkexec mousepad /etc/sane.d/dll.conf</userinput> at the "
 "command line to open the SANE driver file for editing"
 msgstr ""
+"Ejecute <userinput>pkexec mousepad /etc/sane.d/dll.conf</userinput> desde la "
+"terminal para editar el archivo del controlador SANE"
 
 #: desktop-guide/C/printing-scanning.xml:120(para)
 msgid ""
@@ -1806,6 +1822,12 @@ msgid ""
 "up. It takes just a moment but prevents some possible moments of grief later "
 "on."
 msgstr ""
+"Se recomienda evitar el uso de <userinput>-y</userinput> al actualizar la "
+"versión. Así tendrá una última oportunidad de revisar las actualizaciones en "
+"caso de que se produzca alguno de los problemas mencionados antes, como "
+"<application>flashplugin-installer</application> o <application>nautilus-"
+"dropbox</application>. Solo le tomará un momento, pero puede que se ahorre "
+"algunos malos ratos."
 
 #: desktop-guide/C/migrating-upgrading.xml:12(title)
 msgid "Migrating and Upgrading"
@@ -1841,7 +1863,7 @@ msgstr "Panel de control"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "<placeholder-1/> Settings Manager"
-msgstr "<placeholder-1/> Gestor de configuración"
+msgstr "<placeholder-1/> Administrador de configuración"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "System (menu)"
@@ -1970,6 +1992,13 @@ msgid ""
 "<guilabel>Windows Share</guilabel> from <guilabel>Service Type</guilabel>, "
 "then enter the remote share's details."
 msgstr ""
+"<application><menuchoice><placeholder-1/><guisubmenu> Sistema "
+"</guisubmenu><guimenuitem> Gigolo </guimenuitem></menuchoice></application>, "
+"permite guardar marcadores y administrar sistemas de archivos de manera "
+"remota, para conectar, haga clic en el primer botón de la barra de "
+"herramientas. Selecciona <guilabel> Recursos compartidos de Windows "
+"</guilabel> desde <guilabel>Tipos de Servicio </guilabel>, y luego ingrese "
+"los detalles del recurso compartido"
 
 #: desktop-guide/C/migrating-upgrading.xml:49(para)
 msgid ""
@@ -1981,7 +2010,7 @@ msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:54(title)
 msgid "Upgrading Xubuntu"
-msgstr ""
+msgstr "Actualizar Xubuntu"
 
 #: desktop-guide/C/migrating-upgrading.xml:56(para)
 msgid ""
@@ -1990,6 +2019,11 @@ msgid ""
 "version of its type (LTS or non-LTS) is available for download. Currently "
 "non-LTS versions are supported for 9 months and LTS versions for 3 years."
 msgstr ""
+"Una nueva versión de Xubuntu se lanzada cada 6 meses, y una nueva versión "
+"LTS (Soporte a Largo Plazo) se lanza cada 2 años; El actualizador de "
+"software debería informarle cuando hay una nueva versión disponible (LTS o "
+"No-LTS). Actualmente las versiones No-LTS tienen 9 meses de soporte y las "
+"versiones LTS tienen 3 años de soporte."
 
 #: desktop-guide/C/migrating-upgrading.xml:57(para)
 msgid ""
@@ -1997,10 +2031,14 @@ msgid ""
 "of packages must be downloaded and installed, although the actual figure "
 "will depend on how many packages are already installed on your computer."
 msgstr ""
+"Las actualizaciones suelen tardar un tiempo en completarse. Normalmente, "
+"alrededor de 1000 megabytes de paquetes deben ser descargados e instalados, "
+"aunque la cifra actual dependerá de cuantos paquetes estén instalados ya en "
+"su equipo."
 
 #: desktop-guide/C/migrating-upgrading.xml:60(title)
 msgid "Upgrading to the next available release"
-msgstr ""
+msgstr "Actualizar a la próxima versión disponible"
 
 #: desktop-guide/C/migrating-upgrading.xml:63(para)
 msgid ""
@@ -2010,7 +2048,7 @@ msgid ""
 "available updates to be downloaded"
 msgstr ""
 "Ir a <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
-"Configuración</guimenuitem><guimenuitem>Actualizador de "
+"Administrador de configuración</guimenuitem><guimenuitem>Actualizador de "
 "Software</guimenuitem></menuchoice></application> y verá el listado de "
 "actualizaciones disponibles para descargar"
 
@@ -2019,6 +2057,9 @@ msgid ""
 "If a new version of Xubuntu is available, a box at the top of the window "
 "will appear saying that a new distribution release is available"
 msgstr ""
+"Si hay una nueva versión de Xubuntu disponible, aparecerá en la parte "
+"superior de la ventana una notificación indicando que hay una nueva versión "
+"disponible"
 
 #: desktop-guide/C/migrating-upgrading.xml:65(para)
 msgid ""
@@ -2028,6 +2069,12 @@ msgid ""
 "Settings Manager</guimenuitem><guimenuitem>Software "
 "Updater</guimenuitem></menuchoice></application>"
 msgstr ""
+"Para actualizar a la próxima versión disponible, debe guardar todos sus "
+"documentos abiertos y presionar la opción <guibutton> Actualizar "
+"</guibutton> En el botón de <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> Administrador de configuración "
+"</guimenuitem><guimenuitem> Actualización de software "
+"</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/migrating-upgrading.xml:68(para)
 msgid ""
@@ -2035,16 +2082,20 @@ msgid ""
 "you are expecting to upgrade to, see <xref linkend=\"changing-upgrade-"
 "path\"/>."
 msgstr ""
+"Si no recibe ninguna notificación de actualización, o no ve la versión a la "
+"que espera actualizar, mire <xref linked=\"changing-upgrade-path\"/>"
 
 #: desktop-guide/C/migrating-upgrading.xml:72(title)
 msgid "Changing your upgrade path"
-msgstr ""
+msgstr "Cambiar su ruta de actualización"
 
 #: desktop-guide/C/migrating-upgrading.xml:74(para)
 msgid ""
 "There are two main upgrade paths you can follow: either upgrade to long-term "
 "support (LTS) releases only, or upgrade to all releases."
 msgstr ""
+"Hay dos formas principales de actualizar que puede seguir: o actualizar solo "
+"a  versiones de soporte extendido (LTS), o actualizar a todas las versiones."
 
 #: desktop-guide/C/migrating-upgrading.xml:75(para)
 msgid ""
@@ -2054,12 +2105,19 @@ msgid ""
 "have to upgrade your system to each one of them until you are running the "
 "next LTS release."
 msgstr ""
+"Si decide seguir la ruta de actualización LTS, será notificado de nuevos "
+"lanzamientos cada dos años. Si decide seguir la ruta de actualización de "
+"lanzamientos regulares, será notificado de cada nuevo lanzamiento cada seis "
+"meses y tendrá que actualizar su sistema en cada una de ellas hasta que "
+"utilice la siguiente versión LTS."
 
 #: desktop-guide/C/migrating-upgrading.xml:77(para)
 msgid ""
 "If you want to change your upgrade path, you can do it when running an LTS "
 "version. To do so, choose one of the following options:"
 msgstr ""
+"Si quiere cambiar la ruta de actualización, puede hacerlo cuando ejecute una "
+"versión LTS. Para hacer esto, elija una de las siguientes opciones:"
 
 #: desktop-guide/C/migrating-upgrading.xml:79(para)
 msgid ""
@@ -2072,6 +2130,15 @@ msgid ""
 "term support versions</guilabel> from the <guilabel>Notify me of a new "
 "Ubuntu version</guilabel> dropdown depending on your choice."
 msgstr ""
+"Navegue hasta <application><menuchoice><placeholder-1/><guimenuitem>Centro "
+"de software de "
+"Ubuntu</guimenuitem><guimenuitem>Editar</guimenuitem><guimenuitem>Orígenes "
+"de software</guimenuitem></menuchoice></application> y seleccione la pestaña "
+"<guilabel>Actualizaciones</guilabel>. En la pestaña "
+"<guilabel>Actualizaciones</guilabel>, seleccione <guilabel>Para cualquier "
+"versión nueva</guilabel> o <guilabel>Para versiones de soporte a largo "
+"plazo</guilabel> de la lista desplegable <guilabel>Notificarme una versión "
+"nueva de Ubuntu</guilabel> dependiendo de su elección."
 
 #: desktop-guide/C/migrating-upgrading.xml:80(para)
 msgid ""
@@ -2083,6 +2150,14 @@ msgid ""
 "<userinput>prompt=normal</userinput> (for all releases) or "
 "<userinput>prompt=lts</userinput> (for LTS releases) depending on your choice"
 msgstr ""
+"Abra <application><menuchoice><placeholder-"
+"1/><guisubmenu>Accesorios</guisubmenu><guimenuitem>Emulador de "
+"terminal</guimenuitem></menuchoice></application> y ejecute "
+"<userinput>sudoedit /etc/update-manager/release-upgrades</userinput> y "
+"cambie la línea comenzada por <literal>prompt=</literal> por "
+"<userinput>prompt=normal</userinput> (para todas las versiones) o "
+"<userinput>prompt=lts</userinput> (para versiones LTS) dependiendo de su "
+"elección."
 
 #: desktop-guide/C/migrating-upgrading.xml:83(para)
 msgid ""
@@ -2090,16 +2165,21 @@ msgid ""
 "LTS release, you should not change the upgrade target to long-term support "
 "(LTS) releases only."
 msgstr ""
+"Si utiliza una versión regular que no es seguida inmediatamente por una "
+"versión LTS, no debe seleccionar actualizar solo a versiones de soporte "
+"extendido (LTS)."
 
 #: desktop-guide/C/migrating-upgrading.xml:84(para)
 msgid ""
 "Upgrading an LTS version to anything other than another LTS version will "
 "lose the long term support."
 msgstr ""
+"Al actualizar una versión LTS a otra que no lo sea, perderá el soporte a "
+"largo plazo."
 
 #: desktop-guide/C/migrating-upgrading.xml:88(title)
 msgid "Upgrading to the development version"
-msgstr ""
+msgstr "Actualizar a la versión de desarrollo"
 
 #: desktop-guide/C/migrating-upgrading.xml:90(para)
 msgid ""
@@ -2108,12 +2188,18 @@ msgid ""
 "these problems for yourself or if you want to help the Xubuntu team by "
 "testing and giving feedback."
 msgstr ""
+"Las versiones de desarrollo sufren a menudo de paquetes rotos y otros "
+"problemas. Sólo instale una versión de desarrollo si está preparado para "
+"intentar solucionar esos problemas por usted mismo o si desea ayudar al "
+"equipo de Xubuntu probando y dando retroalimentación."
 
 #: desktop-guide/C/migrating-upgrading.xml:91(para)
 msgid ""
 "You will need to be running the latest regular version to be able to upgrade "
 "to the version currently under development."
 msgstr ""
+"Necesitará estar ejecutando la última versión regular para poder actualizar "
+"a la versión actual bajo desarrollo."
 
 #: desktop-guide/C/migrating-upgrading.xml:92(para)
 msgid ""
@@ -2124,6 +2210,12 @@ msgid ""
 "url=\"http://xubuntu.org/contribute/qa\">getting involved</ulink> with "
 "reporting usage of development versions and associated packages."
 msgstr ""
+"Si desea instalar y probar la última versión de desarrollo de Xubuntu antes "
+"de ser lanzada, ejecute <userinput>pkexec update-manager -c -d</userinput> "
+"en la línea de órdenes. Esto le permitirá actualizar a la versión actual de "
+"desarrollo. Por favor, considere <ulink "
+"url=\"http://xubuntu.org/contribute/qa\">involucrarse</ulink> con los "
+"informes de uso de las versiones de desarrollo y los paquetes asociados"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2724,6 +2816,13 @@ msgid ""
 "Sources</guimenuitem></menuchoice></application> and go to the "
 "<guilabel>Other Software</guilabel> tab"
 msgstr ""
+"Abra <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"Administrador de configuración</guimenuitem><guimenuitem>Software &amp; "
+"Actualizaciones</guimenuitem></menuchoice></application> o "
+"<application><menuchoice><placeholder-3/><guimenuitem> Centro de software "
+"Ubuntu </guimenuitem><guimenuitem>Editar</guimenuitem><guimenuitem>Orígenes "
+"del software</guimenuitem></menuchoice></application> e ir a <guilabel>Otro "
+"software</guilabel>"
 
 #: desktop-guide/C/managing-applications.xml:69(para)
 msgid "Press <guibutton>Add...</guibutton> to add a new repository."
@@ -2904,8 +3003,8 @@ msgid ""
 "<guilabel>Other Software</guilabel> tab"
 msgstr ""
 "Abra <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
-"Configuración</guimenuitem><guimenuitem>Software y "
-"Actualizaciones</guimenuitem></menuchoice></application> y <guilabel>Otro "
+"Administrador de configuración</guimenuitem><guimenuitem>Software y "
+"actualizaciones</guimenuitem></menuchoice></application> y <guilabel>Otro "
 "Software</guilabel>"
 
 #: desktop-guide/C/managing-applications.xml:107(para)
@@ -3072,6 +3171,9 @@ msgid ""
 "<guilabel>For long-term support versions</guilabel> - You will get "
 "notifications of new Long-term Support (LTS) releases, once in 2 years"
 msgstr ""
+"<guilabel>Para versiones de soporte extendido</guilabel> - Recibirá "
+"notificaciones del lanzamiento de nuevas versiones de soporte extendido "
+"(LTS), una cada dos años."
 
 #: desktop-guide/C/managing-applications.xml:151(para)
 msgid ""
@@ -3086,6 +3188,9 @@ msgid ""
 "recommmended option, especially if you are running Xubuntu on a production "
 "machine and/or need maximum stability."
 msgstr ""
+"Optar por las notificaciones de versiones de soporte extendido (LTS) suele "
+"ser la opción más recomendada, especialmente si está utilizando Xubuntu en "
+"una máquina de producción o necesita la máxima estabilidad."
 
 #: desktop-guide/C/managing-applications.xml:156(para)
 msgid ""
@@ -3096,6 +3201,12 @@ msgid ""
 "See <xref linkend=\"migrating-upgrading\"/> for more information on "
 "upgrading Xubuntu and release support lengths."
 msgstr ""
+"No es recomendable usar la opción <guilabel>Nunca</guilabel>. Esta le dejará "
+"con un sistema sin soporte, a menos que recuerde actualizar manualmente con "
+"bastante frecuencia. Adicionalmente perderá correcciones de fallos, "
+"actualizaciones para posibles problemas de seguridad y mejoras en el soporte "
+"del hardware. Vea <xref linkend=\"migrating-upgrading\"/> para más "
+"información acerca de actualizar Xubuntu y la duración del soporte."
 
 #: desktop-guide/C/managing-applications.xml:160(title)
 msgid "Other options"
@@ -3106,12 +3217,16 @@ msgid ""
 "Package updates can be scheduled from the desktop and you can change how and "
 "when the system updates itself."
 msgstr ""
+"Las actualizaciones de paquetes pueden programarse desde el escritorio y "
+"puede cambiar cómo y cuándo se actualiza el sistema."
 
 #: desktop-guide/C/managing-applications.xml:165(para)
 msgid ""
 "<guilabel>Frequency of check</guilabel> - Allows you to schedule when to "
 "check for updates"
 msgstr ""
+"<guilabel>Frecuencia de comprobaciones</guilabel> - Le permite ajustar "
+"cuándo comprobar actualizaciones"
 
 #: desktop-guide/C/managing-applications.xml:166(para)
 msgid ""
@@ -3120,6 +3235,10 @@ msgid ""
 "confirmation or downloads all updates in the background but waits for you to "
 "manually install them"
 msgstr ""
+"<guilabel>Comprobar e instalar actualizaciones automáticamente</guilabel> - "
+"Le permite definir si el sistema descargará e instalará las actualizaciones "
+"sin ninguna confirmación o descargará todas las actualizaciones en segundo "
+"plano pero esperará por la instalación manual de ellas"
 
 #: desktop-guide/C/managing-applications.xml:167(para)
 msgid ""
@@ -3127,6 +3246,9 @@ msgid ""
 "Allows you to define when will the system notify you about available "
 "security updates"
 msgstr ""
+"<guilabel>Cuándo hay actualizaciones de seguridad</guilabel> - Le permite "
+"definir cuándo le notificará  el sistema acerca de actualizaciones de "
+"seguridad disponibles"
 
 #: desktop-guide/C/internet-networks.xml:12(title)
 msgid "Connecting to Internet and Networks"
@@ -3139,9 +3261,9 @@ msgid ""
 "<application>NetworkManager</application> also keeps passwords secure by "
 "utilizing the user's keyring to store passphrases."
 msgstr ""
-"Xubuntu usa <application>Gestor de Red</application> para manejar conexiones "
-"sin cable, wireless, móviles, VPN y DSL. <application>Gestor de "
-"Red</application> guarda también las contraseñas seguras utilizando el "
+"Xubuntu usa <application>Conexiones de red</application> para manejar "
+"conexiones sin cable, wireless, móviles, VPN y DSL. <application>Conexiones "
+"de red</application> guarda también las contraseñas seguras utilizando el "
 "archivo de claves del usuario para almacenar las frases clave."
 
 #: desktop-guide/C/internet-networks.xml:16(para)
@@ -3151,7 +3273,7 @@ msgid ""
 "two grayed out arrows pointing up and down. When you are connected, the icon "
 "is different depending on the network type in use."
 msgstr ""
-"<application>Gestor de redes</application> es el icono situado en la parte "
+"<application>Conexiones de red</application> es el icono situado en la parte "
 "derecha del panel superior en su pantalla. Cuando no hay conexión, el icono "
 "muestra dos flechas grises apuntando hacia arriba y abajo. Cuando está "
 "conectado el icono es diferente, dependiendo del tipo de red en uso."
@@ -3169,7 +3291,7 @@ msgid ""
 "<application>NetworkManager</application> will automatically use a wired "
 "network, if one is available."
 msgstr ""
-"<application>Gestor de redes</application> utilizará una red cableada, si "
+"<application>Conexiones de red</application> utilizará una red cableada, si "
 "está disponible."
 
 #: desktop-guide/C/internet-networks.xml:26(para)
@@ -3208,6 +3330,15 @@ msgid ""
 "choices are toggles. Their enabled/disabled status is indicated by the "
 "presence/absence of a check mark."
 msgstr ""
+"Para desconectarse de una red, haga clic en el icono de "
+"<application>Conexiones de red</application>, y seleccione la opción "
+"Desconectar bajo el tipo de conexión deseado. Para deshabilitar, o "
+"habilitar, una conexión cableada, o inalámbrica, del todo, haga clic el "
+"icono de <application>Conexiones de red</application>, seleccione "
+"<menuchoice><guimenuitem>Activar red</guimenuitem></menuchoice> o "
+"<menuchoice><guimenuitem>Activar Wi-Fi</guimenuitem></menuchoice>. Estas "
+"opciones son interruptoras, su estado de activado/desactivado se indica por "
+"la presencia de una marca de tildado."
 
 #: desktop-guide/C/internet-networks.xml:34(title)
 msgid "Configuring connections"
@@ -3222,8 +3353,8 @@ msgid ""
 "network and press <guibutton>Edit</guibutton> or press "
 "<guibutton>Add</guibutton> to set up new networks."
 msgstr ""
-"Si necesita configurar sus conexiones, pulse el icono <application>Gestor de "
-"redes</application> y seleccione "
+"Si necesita configurar sus conexiones, pulse el icono "
+"<application>Conexiones de red</application> y seleccione "
 "<menuchoice><guimenuitem>Editar</guimenuitem></menuchoice>. En el cuadro de "
 "diálogo, verá pestañas para cada tipo de conexión. Seleccione la red "
 "apropiada y pulse <guibutton>Editar</guibutton>, o pulse "
@@ -3251,8 +3382,8 @@ msgid ""
 "network connections will be displayed in the <guilabel>Active "
 "Connections</guilabel> dialog, each in a separate tab."
 msgstr ""
-"Para ver la información de conexión, pulse el icono <application>Gestor de "
-"redes</application> y seleccione "
+"Para ver la información de conexión, pulse el icono <application>Conexiones "
+"de red</application> y seleccione "
 "<menuchoice><guimenuitem>Información</guimenuitem></menuchoice>. Sus "
 "conexiones activas se mostrarán en el cuadro de diálogo <guilabel>Conexiones "
 "activas</guilabel>, en pestañas separadas."
@@ -3293,8 +3424,8 @@ msgid ""
 "to</ulink> on the Ubuntu community wiki."
 msgstr ""
 "Desafortunadamente, los módems dialup no están soportados por "
-"<application>Gestor de Red</application>. Para leer sobre la conexión con "
-"módem dialup, vea <ulink "
+"<application>Conexiones de red</application>. Para leer sobre la conexión "
+"con módem dialup, vea <ulink "
 "url=\"https://help.ubuntu.com/community/DialupModemHowto\">Dialup modem How-"
 "to</ulink> en la wiki de la comunidad Ubuntu."
 
@@ -3315,7 +3446,7 @@ msgid ""
 "Click the <application>NetworkManager</application> icon in the notification "
 "area"
 msgstr ""
-"Pulse el icono <application>Administrador de redes</application> del área de "
+"Pulse el icono <application>Conexiones de red</application> del área de "
 "notificación."
 
 #: desktop-guide/C/internet-networks.xml:66(para)
@@ -3387,11 +3518,11 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:90(para)
 msgid "Using <application>NetworkManager</application>"
-msgstr "Usar <application>NetworkManager</application>"
+msgstr "Usar <application>Conexiones de red</application>"
 
 #: desktop-guide/C/internet-networks.xml:92(para)
 msgid "Click on the <application>NetworkManager</application> icon"
-msgstr "Pulse en el icono <application>Gestor de redes</application>."
+msgstr "Pulse en el icono <application>Conexiones de red</application>."
 
 #: desktop-guide/C/internet-networks.xml:93(para)
 msgid ""
@@ -3502,10 +3633,10 @@ msgid ""
 "or \"unknown host\", then your computer is probably not connected to the "
 "Internet or is unable to reach a Domain Name System (DNS) server."
 msgstr ""
-"Si recibe un mensaje de error diciendo \"www.xubuntu.org no se puede "
-"encontrar\" o \"host desconocido\", es posible que no esté conectado o no "
-"puede acceder al servidor de sistema de nombres de dominio (DNS por sus "
-"siglas en inglés)."
+"Si recibe un mensaje de error diciendo «www.xubuntu.org no se puede "
+"encontrar» o «host desconocido», es posible que no esté conectado o no puede "
+"acceder al servidor de sistema de nombres de dominio (DNS por sus siglas en "
+"inglés)."
 
 #: desktop-guide/C/internet-networks.xml:127(title)
 msgid "Wireless troubleshooting"
@@ -3631,7 +3762,7 @@ msgid ""
 "Drivers</guimenuitem></menuchoice></application>"
 msgstr ""
 "Ir a <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
-"Configuración</guimenuitem><guimenuitem>Windows Wireless "
+"Administrador de configuración</guimenuitem><guimenuitem>Windows Wireless "
 "Drivers</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/internet-networks.xml:163(para)
@@ -3783,18 +3914,25 @@ msgid ""
 "<menuchoice><guimenu>Actions</guimenu><guimenuitem>Connect</guimenuitem></men"
 "uchoice>"
 msgstr ""
+"Ir a "
+"<menuchoice><guimenu>Acciones</guimenu><guimenuitem>Conectar</guimenuitem></m"
+"enuchoice>"
 
 #: desktop-guide/C/internet-networks.xml:215(para)
 msgid ""
 "Select the appropriate <guilabel>Service type</guilabel> and insert "
 "connection information"
 msgstr ""
+"Seleccione el <guilabel>Tipo de servicio</guilabel> adecuado y teclee "
+"información de la conexión"
 
 #: desktop-guide/C/internet-networks.xml:216(para)
 msgid ""
 "Click <guibutton>Connect</guibutton>; if you are attempting to connect to a "
 "server that requires you to log in, you will be prompted to enter a password"
 msgstr ""
+"Pulse <guibutton>Conectar</guibutton>; si intenta conectar a un servidor que "
+"pide registro, deberá introducir una contraseña"
 
 #: desktop-guide/C/internet-networks.xml:219(para)
 msgid ""
@@ -3806,6 +3944,14 @@ msgid ""
 "set other options, including the option to auto-connect. Once you are done, "
 "click <guibutton>OK</guibutton> to create the bookmark."
 msgstr ""
+"Al conectarse correctamente al servidor, aparecerá un icono etiquetado con "
+"detalles de conexión en la ventana <application> Gigolo </application>. Para "
+"las conexiones de marcadores, haga clic en una conexión y seleccione "
+"<menuchoice> <guimenuitem> Crear marcador </guimenuitem> </menuchoice>. En "
+"el cuadro de diálogo <guilabel> Editar marcadores </guilabel>, puede nombrar "
+"el marcador y establecer otras opciones, incluyendo la opción de conexión "
+"automática. Una vez que haya terminado, haga clic en <guibutton> Aceptar "
+"</guibutton> para crear el marcador."
 
 #: desktop-guide/C/internet-networks.xml:221(para)
 msgid ""
@@ -3833,6 +3979,8 @@ msgid ""
 "This documentation is maintained by the Xubuntu Documentation team and is "
 "partly adapted from the Ubuntu documentation."
 msgstr ""
+"Esta documentación está mantenida por el equipo de documentación de Xubuntu "
+"y está adaptada parcialmente de la documentación de Ubuntu."
 
 #: desktop-guide/C/index.xml:20(para)
 msgid "The contributors to this documentation are:"
@@ -3844,7 +3992,7 @@ msgstr "Sean Davis (smd-seandavis)"
 
 #: desktop-guide/C/index.xml:23(para)
 msgid "Steve Dodier-Lazaro (sidi)"
-msgstr ""
+msgstr "Steve Dodier-Lazaro (sidi)"
 
 #: desktop-guide/C/index.xml:24(para)
 msgid "Kev (elfy)"
@@ -3880,7 +4028,7 @@ msgstr "Jay van Cooten (skippersboss)"
 
 #: desktop-guide/C/index.xml:34(para)
 msgid "The contributors to this translation of the documentation are:"
-msgstr ""
+msgstr "Los colaboradores de traducción de la documentación son:"
 
 #: desktop-guide/C/index.xml:37(para)
 msgid "The contributors to previous versions to this documentation are:"
@@ -3966,7 +4114,7 @@ msgstr "2014"
 
 #: desktop-guide/C/index.xml:60(year)
 msgid "2015"
-msgstr ""
+msgstr "2015"
 
 #: desktop-guide/C/index.xml:61(holder)
 msgid "Canonical Ltd. and members of the Xubuntu Documentation team."
@@ -4135,11 +4283,11 @@ msgid ""
 "Updates</guimenuitem></menuchoice></application>"
 msgstr ""
 "Ir a <application><menuchoice><placeholder-1/><guimenuitem>Centro de "
-"Software Ubuntu</guimenuitem><guimenuitem>Editar</guimenuitem><guimenuitem>Or"
-"ígenes del Software</guimenuitem></menuchoice></application> o "
+"software Ubuntu</guimenuitem><guimenuitem>Editar</guimenuitem><guimenuitem>Or"
+"ígenes del software</guimenuitem></menuchoice></application> o "
 "<application><menuchoice><placeholder-2/><guimenuitem><placeholder-3/> "
-"Configuración</guimenuitem><guimenuitem>Software y "
-"Actualizaciones</guimenuitem></menuchoice></application>"
+"Administrador de configuración</guimenuitem><guimenuitem>Software y "
+"actualizaciones</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/hardware-devices.xml:42(para)
 msgid ""
@@ -4304,9 +4452,10 @@ msgid ""
 msgstr ""
 "Puede usar <application>GParted (Editor de Particiones GNOME)</application> "
 "para hacer particiones. Instale <application>GParted</application> desde "
-"<application>Centro de Software Ubuntu</application> y entonces "
+"<application>Centro de software Ubuntu</application> y entonces "
 "<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
-"Configuración</guimenuitem><guimenuitem>GParted</guimenuitem></menuchoice></a"
+"Administrador de "
+"configuración</guimenuitem><guimenuitem>GParted</guimenuitem></menuchoice></a"
 "pplication> para iniciar el editor de particiones."
 
 #: desktop-guide/C/hardware-devices.xml:100(para)
@@ -4528,7 +4677,7 @@ msgid ""
 "Manager</guimenuitem></menuchoice></application>"
 msgstr ""
 "Desde <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
-"Configuración</guimenuitem><guimenuitem>Gestión de "
+"Administrador de configuración</guimenuitem><guimenuitem>Gestión de "
 "energía</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/hardware-devices.xml:168(para)
@@ -4573,7 +4722,7 @@ msgid ""
 "Touchpad</guimenuitem></menuchoice></application>"
 msgstr ""
 "Ir a <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
-"Configuración</guimenuitem><guimenuitem>Ratón y "
+"Administrador de configuración</guimenuitem><guimenuitem>Ratón y "
 "Touchpad</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/hardware-devices.xml:182(para)
@@ -4863,10 +5012,11 @@ msgstr ""
 "la configuración de cualquiera de estos dispositivos después de la "
 "instalación, puede hacerlo dirigiéndose a "
 "<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
-"Configuración</guimenuitem><guimenuitem>Ratón y panel "
+"Administrador de configuración</guimenuitem><guimenuitem>Ratón y panel "
 "táctil</guimenuitem></menuchoice></application> o "
 "<application><menuchoice><placeholder-3/><guimenuitem><placeholder-4/> "
-"Configuración</guimenuitem><guimenuitem>Teclado</guimenuitem></menuchoice></a"
+"Administrador de "
+"configuración</guimenuitem><guimenuitem>Teclado</guimenuitem></menuchoice></a"
 "pplication>."
 
 #: desktop-guide/C/hardware-devices.xml:257(para)
@@ -4938,7 +5088,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:12(title)
 msgid "Keeping your computer and personal information safe"
-msgstr ""
+msgstr "Mantener su equipo e información personal segura"
 
 #: desktop-guide/C/guide-keeping-safe.xml:14(para)
 msgid ""
@@ -4947,6 +5097,10 @@ msgid ""
 "help you achieving a higher level of security. Pay particular attention to "
 "the following subsections:"
 msgstr ""
+"Mantener su equipo e información personal a salvo de los amenazas de "
+"seguridad es uno de los aspectos más importantes de la computación hoy en "
+"día. Esta guía tiene como objetivo ayudarle a lograr un mayor nivel de "
+"seguridad. Preste especial atención a los siguientes apartados:"
 
 #: desktop-guide/C/guide-keeping-safe.xml:25(title)
 msgid "Keep your software up to date"
@@ -4961,6 +5115,12 @@ msgid ""
 "they are searching for victims to hack with automated programs in under a "
 "few hours."
 msgstr ""
+"Las actualizaciones de seguridad son muy importantes. Son la mejor defensa "
+"contra la gente que quiere dañar su equipo, por lo que debería instalarlas "
+"inmediatamente. Cuando se lanza una actualización de seguridad, los hackers "
+"ya conocen cómo abusar de los equipos que no están actualizados. En el peor "
+"de los casos, ellos buscan víctimas que hackear con programas automatizados "
+"en unas pocas horas."
 
 #: desktop-guide/C/guide-keeping-safe.xml:33(para)
 msgid ""
@@ -4971,6 +5131,13 @@ msgid ""
 "Updates</guimenuitem></menuchoice></application> and change the settings to "
 "your liking."
 msgstr ""
+"Las actualizaciones automáticas están activadas por defecto en Xubuntu. Si "
+"desea cambiar la configuración para mejoras sin atender, vaya a la pestaña "
+"\"Actualizaciones\" en <application><menuchoice><placeholder "
+"1/><guimenuitem>Administrador de "
+"configuración</guimenuitem><guimenuitem>Software y "
+"actualizaciones</guimenuitem></menuchoice></application> y cambie los "
+"ajustes que prefiera."
 
 #: desktop-guide/C/guide-keeping-safe.xml:37(para)
 msgid ""
@@ -4978,6 +5145,9 @@ msgid ""
 "use automatic updates, remember to update every time you have access to an "
 "unlimited connection."
 msgstr ""
+"Si utiliza una conexión a Internet con un ancho de banda limitado y no "
+"quiere recibir actualizaciones automáticas, recuerde actualizar cada vez que "
+"tenga acceso a una conexión ilimitada."
 
 #: desktop-guide/C/guide-keeping-safe.xml:43(title)
 msgid "Passwords"
@@ -4985,7 +5155,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:46(title)
 msgid "Use strong and unique passwords for important accounts"
-msgstr ""
+msgstr "Utilice contraseñas fuertes y únicas para las cuentas importantes"
 
 #: desktop-guide/C/guide-keeping-safe.xml:48(para)
 msgid ""
@@ -4993,26 +5163,38 @@ msgid ""
 "prevent unauthorized access to your personal information, identity theft and "
 "direct financial losses. Consider the following scenario:"
 msgstr ""
+"Utilizar contraseñas fuertes y únicas para las cuentas importantes y "
+"sensibles le ayuda a prevenir el acceso no autorizado a su información "
+"personal, robo de identidad y pérdidas económicas. Considere el siguiente "
+"escenario:"
 
 #: desktop-guide/C/guide-keeping-safe.xml:53(para)
 msgid ""
 "Alice uses identical passwords for mytrustedbank.com and insecureblog.com"
 msgstr ""
+"Alicia utiliza contraseñas idénticas para mibancodeconfianza.com y "
+"bloginseguro.com"
 
 #: desktop-guide/C/guide-keeping-safe.xml:54(para)
 msgid ""
 "insecureblog is hacked and Alice’s information and password are stolen"
 msgstr ""
+"bloginseguro es hackeado y la información y contraseña de Alicia son robadas"
 
 #: desktop-guide/C/guide-keeping-safe.xml:55(para)
 msgid "Hackers can now access Alice’s bank account and steal her money"
 msgstr ""
+"Ahora los hackers tienen acceso a la cuenta del banco de Alicia y roban su "
+"dinero"
 
 #: desktop-guide/C/guide-keeping-safe.xml:58(para)
 msgid ""
 "Password reuse can turn into a disaster. You should pay attention to use "
 "unique and strong passwords for the following services:"
 msgstr ""
+"La reutilización de una contraseña puede convertirse en un desastre. Debería "
+"prestar atención y usar contraseñas únicas y fuertes para los siguientes "
+"servicios:"
 
 #: desktop-guide/C/guide-keeping-safe.xml:61(para)
 msgid ""
@@ -5020,6 +5202,9 @@ msgid ""
 "your other passwords via the “Forgotten password” links found on all "
 "websites."
 msgstr ""
+"<emphasis>Cuentas de correo electrónico</emphasis>. Las cuentas de correo "
+"electrónico pueden ser utilizadas para restablecer todas sus contraseñas "
+"mediante los enlaces \"Olvidó su contraseña\" de las diferentes páginas web."
 
 #: desktop-guide/C/guide-keeping-safe.xml:62(para)
 msgid ""
@@ -5027,16 +5212,22 @@ msgid ""
 "good password for those services, since they allow you to avoid typing many "
 "other passwords!"
 msgstr ""
+"<emphasis>Administradores de contraseñas</emphasis>. Vale la pena tener una "
+"buena contraseña para esos servicios, ya que le permiten evitar ¡tener que "
+"escribir muchas otras contraseñas!"
 
 #: desktop-guide/C/guide-keeping-safe.xml:63(para)
 msgid ""
 "<emphasis>Accounts related to banking</emphasis>, including PayPal and other "
 "payment sites. If someone can access these, they can steal your money."
 msgstr ""
+"<emphasis>Cuentas relacionadas con el banco</emphasis>, incluyendo PayPal y "
+"otros sitios de pago. Si alguien tiene acceso a ellos, pueden robar su "
+"dinero."
 
 #: desktop-guide/C/guide-keeping-safe.xml:68(title)
 msgid "What is a strong password?"
-msgstr ""
+msgstr "¿Qué es una contraseña fuerte?"
 
 #: desktop-guide/C/guide-keeping-safe.xml:70(para)
 msgid ""
@@ -5044,6 +5235,10 @@ msgid ""
 "guess it. Attackers use special programs that can make millions of guesses "
 "per second, so weak passwords don’t stand a chance."
 msgstr ""
+"La fuerza de una contraseña depende de lo difícil que es para un atacante "
+"adivinarla. Los atacantes utilizan programas especiales que permiten "
+"realizar millones de sugerencias por segundos, por lo las contraseñas "
+"débiles no tienen ninguna oportunidad."
 
 #: desktop-guide/C/guide-keeping-safe.xml:75(para)
 msgid ""
@@ -5056,6 +5251,16 @@ msgid ""
 "<literal>monkey1</literal> is more common than <literal>mo5nkey</literal>, "
 "and also more common than <literal>monkey hoover</literal>)."
 msgstr ""
+"Algunas contraseñas (como <literal>mono</literal>, "
+"<literal>contraseña</literal>, <literal>test</literal>, "
+"<literal>123456</literal>) son extremadamente comunes. Si desea utilizar "
+"estas contraseñas comunes, sus cuentas podrán ser hackeadas fácilmente. Sin "
+"embargo, añadiendo letras en mayúscula, números o símbolos especiales, a "
+"menudo no es lo suficiente para convertir una contraseña débil en una "
+"fuerte. Esto se debe a que las personas tienden a elegir los mismos símbolos "
+"y números adicionales (por ejemplo, <literal>mono1</literal> es más común "
+"que <literal>mo5no</literal>, y también más común que <literal>mono "
+"aspiradora</literal>)."
 
 #: desktop-guide/C/guide-keeping-safe.xml:85(para)
 msgid ""
@@ -5066,10 +5271,17 @@ msgid ""
 "would naturally associate with you (for instance, you should not pick poker "
 "related words if you play poker every day)."
 msgstr ""
+"Es mejor elegir una contraseña larga, como una frase de acceso (por ejemplo "
+"<literal>todo lo que sube debe bajar</literal>, que una contraseña que es "
+"tanto difícil de recordar como fácil de descifrar. Considere utilizar una "
+"serie de palabras comunes que sea capaz de recordar fácilmente. No relacione "
+"palabras que la gente de alrededor podría asociar con usted (por ejemplo, no "
+"debería relacionar palabras relacionadas con el mus, si usted juega al mus "
+"todos los días)."
 
 #: desktop-guide/C/guide-keeping-safe.xml:95(title)
 msgid "How to reuse passwords safely?"
-msgstr ""
+msgstr "¿Cómo reutilizar contraseñas de forma segura?"
 
 #: desktop-guide/C/guide-keeping-safe.xml:97(para)
 msgid ""
@@ -5078,30 +5290,42 @@ msgid ""
 "agreement among security researchers on how to reduce the risk of reusing "
 "passwords, but you should consider the following:"
 msgstr ""
+"Mientras que usar la misma contraseña para múltiples cuentas no es lo "
+"recomendable, todo el mundo acaba realizándolo, incluso expertos en "
+"seguridad. No existe un acuerdo definitivo entre investigadores de seguridad "
+"sobre cómo reducir el riesgo de reutilizar contraseñas, pero debería "
+"considerar lo siguiente:"
 
 #: desktop-guide/C/guide-keeping-safe.xml:103(para)
 msgid "Separate your professional password from your personal passwords."
-msgstr ""
+msgstr "Separe sus contraseñas profesionales de sus contraseñas personales."
 
 #: desktop-guide/C/guide-keeping-safe.xml:104(para)
 msgid ""
 "Avoid mixing passwords between websites where attackers can damage your "
 "reputation and low-value websites."
 msgstr ""
+"Evite mezclar contraseñas entre los sitios web donde los atacantes pueden "
+"dañar su reputación y los sitios web de baja importancia."
 
 #: desktop-guide/C/guide-keeping-safe.xml:105(para)
 msgid "Use a password you're willing to lose for sites you do not trust."
 msgstr ""
+"Utilice una contraseña que está dispuesto a perder para los sitios en los "
+"que no confía."
 
 #: desktop-guide/C/guide-keeping-safe.xml:106(para)
 msgid ""
 "Do not \"waste\" passwords on websites you connect to once a year. Make up a "
 "random password and use the \"forgotten password\" feature next time."
 msgstr ""
+"No reutilice una contraseña en sitios web a los que se conecta una vez al "
+"año. Cree una contraseña aleatoria y utilice la opción «olvidó su "
+"contraseña» la próxima vez."
 
 #: desktop-guide/C/guide-keeping-safe.xml:111(title)
 msgid "When to change your password?"
-msgstr ""
+msgstr "¿Cuándo cambiar su contraseña?"
 
 #: desktop-guide/C/guide-keeping-safe.xml:113(para)
 msgid ""
@@ -5109,6 +5333,9 @@ msgid ""
 "an attacker could steal your password, they will be able to steal it again "
 "in the future."
 msgstr ""
+"No necesita cambiar sus contraseñas cada día. En muchos casos, si un "
+"atacante pudiese robar su contraseñas, ellos serán capaces de volver a "
+"robarla otra vez en el futuro."
 
 #: desktop-guide/C/guide-keeping-safe.xml:116(para)
 msgid ""
@@ -5118,14 +5345,19 @@ msgid ""
 "<literal>monkey4</literal>, and it will be easily guessed by an attacker who "
 "already stole your previous password!"
 msgstr ""
+"Si necesita cambiar su contraseña, debe elegir una que "
+"<emphasis>realmente</emphasis> sea diferente de la anterior. Por ejemplo, "
+"<literal>mono5</literal> no es un sustituto ideal para "
+"<literal>mono4</literal>, ¡y será fácil de adivinar para una atacante que ya "
+"ha robado su anterior contraseña!"
 
 #: desktop-guide/C/guide-keeping-safe.xml:124(title)
 msgid "How to change your login password"
-msgstr ""
+msgstr "Cómo cambiar su contraseña de acceso"
 
 #: desktop-guide/C/guide-keeping-safe.xml:126(para)
 msgid "To change your password, follow the steps below:"
-msgstr ""
+msgstr "Para cambiar su contraseña, siga los siguientes pasos:"
 
 #: desktop-guide/C/guide-keeping-safe.xml:128(para)
 msgid ""
@@ -5134,7 +5366,7 @@ msgid ""
 "Groups</guimenuitem></menuchoice></application>"
 msgstr ""
 "Abra <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
-"Configuración</guimenuitem><guimenuitem>Usuarios y "
+"Administrador de configuración</guimenuitem><guimenuitem>Usuarios y "
 "Grupos</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/guide-keeping-safe.xml:129(para)
@@ -5193,7 +5425,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:148(title)
 msgid "Watch out for stolen passwords occasionally"
-msgstr ""
+msgstr "Tenga cuidado con las contraseñas robadas ocasionalmente"
 
 #: desktop-guide/C/guide-keeping-safe.xml:150(para)
 msgid ""
@@ -5208,11 +5440,11 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:158(para)
 msgid "identify all the services where you used that password"
-msgstr ""
+msgstr "identificar todos los servicios donde utilizaba esta contraseña"
 
 #: desktop-guide/C/guide-keeping-safe.xml:159(para)
 msgid "change your password on all those services"
-msgstr ""
+msgstr "cambiar su contraseña en todos esos servicios"
 
 #: desktop-guide/C/guide-keeping-safe.xml:160(para)
 msgid ""
@@ -5220,6 +5452,10 @@ msgid ""
 "transfers; also, email services often keep a log of your recent connections "
 "with IP addresses and locations)"
 msgstr ""
+"comprobar la actividad reciente sobre las cuentas en cuestión (cuidado con "
+"las transferencias de dinero; también, de los servicios de correo "
+"electrónico  que a menudo mantienen un registro de sus últimas conexiones "
+"mediante la dirección IP y su localización)"
 
 #: desktop-guide/C/guide-keeping-safe.xml:162(para)
 msgid ""
@@ -5228,16 +5464,24 @@ msgid ""
 "email address, which is relatively public information. It does not ask for a "
 "password. Websites that ask for your password will most likely misuse it."
 msgstr ""
+"<emphasis>Nunca</emphasis> revele su <emphasis>contraseña</emphasis> a un "
+"sitio web de terceros. El sitio web de arriba está bien porque le pregunta "
+"acerca de una dirección de correo electrónico, la cual es una información "
+"relativamente pública. No le pregunta por una contraseña. Los sitios web que "
+"le preguntan acerca de su contraseña suelen realizar en la mayoría de los "
+"casos un mal uso de ella."
 
 #: desktop-guide/C/guide-keeping-safe.xml:171(title)
 msgid "What about password managers?"
-msgstr ""
+msgstr "¿Qué hay acerca de los administradores de contraseñas?"
 
 #: desktop-guide/C/guide-keeping-safe.xml:173(para)
 msgid ""
 "Password managers are a very convenient way of using many unique passwords "
 "without having to remember them all!"
 msgstr ""
+"Los administradores de contraseñas son una forma muy conveniente de utilizar "
+"muchas contraseñas únicas ¡sin tener que recordar todas ellas!"
 
 #: desktop-guide/C/guide-keeping-safe.xml:176(para)
 msgid ""
@@ -5245,6 +5489,9 @@ msgid ""
 "Software Center</application>, including <application>KeePassX</application> "
 "and <application>PaSaffe</application>."
 msgstr ""
+"Existen varios administradores de contraseñas disponibles en el "
+"<application>Centro de software de Ubuntu</application>, incluyendo "
+"<application>KeePassX</application> y <application>PaSaffe</application>."
 
 #: desktop-guide/C/guide-keeping-safe.xml:181(para)
 msgid ""
@@ -5253,12 +5500,20 @@ msgid ""
 "computers. You should be aware of a few limitations, if you decide to use a "
 "password manager:"
 msgstr ""
+"Algunos administradores de contraseñas, como "
+"<application>KeePassX</application> pueden sincronizar todas sus contraseñas "
+"a través de dispositivos, incluyendo sistemas Windows u OS X. Debe ser "
+"consciente de algunas limitaciones, si decide utilizar un administrador de "
+"contraseñas:"
 
 #: desktop-guide/C/guide-keeping-safe.xml:186(para)
 msgid ""
 "Online password managers can be hacked too. Do not store your email or bank "
 "passwords in a password manager."
 msgstr ""
+"Los administradores de contraseña en línea también pueden ser hackeados. No "
+"almacene las contraseñas de su correo electrónico o banco en un "
+"administrador de contraseñas."
 
 #: desktop-guide/C/guide-keeping-safe.xml:187(para)
 msgid ""
@@ -5266,12 +5521,18 @@ msgid ""
 "password, you could end up losing access to all your accounts (another good "
 "reason not to store emails in your password manager)."
 msgstr ""
+"¡Utilice una contraseña memorable para desbloquear el administrador de "
+"contraseñas! Si pierde esa contraseña, podría terminar perdiendo el acceso a "
+"todas sus cuentas (otra buena razón para no almacenar correos electrónicos "
+"en su administrador de contraseñas)."
 
 #: desktop-guide/C/guide-keeping-safe.xml:188(para)
 msgid ""
 "Proprietary password managers should not be trusted. Nobody knows what they "
 "do with your passwords."
 msgstr ""
+"Los administradores de contraseñas propietario no son de confianza. Nadie "
+"sabe lo que ellos hacen con sus contraseñas."
 
 #: desktop-guide/C/guide-keeping-safe.xml:189(para)
 msgid ""
@@ -5279,24 +5540,30 @@ msgid ""
 "those accounts, you can tell your password manager to use a specific and "
 "memorable password instead of a random password."
 msgstr ""
+"Puede que necesite utilizar algunas cuentas desde los dispositivos de sus "
+"amigos o familiares. Para esas cuentas, puede decirle al administrador de "
+"contraseñas que use una contraseña memorable en vez de una contraseña "
+"aleatoria."
 
 #: desktop-guide/C/guide-keeping-safe.xml:191(para)
 msgid ""
 "If you keep the above advice in mind, password managers can be a great way "
 "to stay more secure, more easily!"
 msgstr ""
+"Si tiene estos consejos en cuenta, los administradores de contraseñas pueden "
+"ser una gran opción para estar más seguro, ¡más fácilmente!"
 
 #: desktop-guide/C/guide-keeping-safe.xml:197(title)
 msgid "Tips for good online security"
-msgstr ""
+msgstr "Consejos para una buena seguridad en línea"
 
 #: desktop-guide/C/guide-keeping-safe.xml:200(title)
 msgid "Do not run scripts or install applications from unknown sources"
-msgstr ""
+msgstr "No ejecute scripts o instale aplicaciones de fuentes desconocidas"
 
 #: desktop-guide/C/guide-keeping-safe.xml:203(para)
 msgid "Install applications from the repository whenever possible."
-msgstr ""
+msgstr "Instale aplicaciones desde el repositorio siempre que sea posible."
 
 #: desktop-guide/C/guide-keeping-safe.xml:204(para)
 msgid ""
@@ -5305,10 +5572,15 @@ msgid ""
 "what the script does. Be especially wary of scripts that require root "
 "access, as they could compromise other users' accounts."
 msgstr ""
+"Cuando ejecute un script encontrado en un sitio web de consulta o solución "
+"de problemas o mediante un canal IRC, tome un momento para echarle un "
+"vistazo, o preguntar a un tercero para confirmar qué es lo que hace el "
+"script. Tenga especial cuidado de los scripts que requieren de acceso como "
+"superusuario, ya que podrían comprometer las cuentas de otros usuarios."
 
 #: desktop-guide/C/guide-keeping-safe.xml:209(title)
 msgid "Keep your browser clean for sensitive activities"
-msgstr ""
+msgstr "Mantener su navegador limpio para actividades sensibles"
 
 #: desktop-guide/C/guide-keeping-safe.xml:211(para)
 msgid ""
@@ -5318,15 +5590,21 @@ msgid ""
 "activity online for advertising, abuse your social media accounts or steal "
 "your money."
 msgstr ""
+"Las extensiones de navegador son mecanismos populares entre los hackers para "
+"dañar a usuarios. Estas son especialmente relevantes para Linux, desde que "
+"son compatibles con todas las plataformas. Las extensiones maliciosas "
+"podrían robar sus contraseñas, controlar su actividad en línea para el uso "
+"de publicidad, abusar de sus cuentas de redes sociales o robarle dinero."
 
 #: desktop-guide/C/guide-keeping-safe.xml:216(para)
 msgid "You can take measures to limit the risks you expose yourself to:"
-msgstr ""
+msgstr "Puede tomar medidas para limitar los riesgos que le exponen:"
 
 #: desktop-guide/C/guide-keeping-safe.xml:218(para)
 msgid ""
 "Never install an extension that is not distributed by your browser vendor"
 msgstr ""
+"Nunca instale una extensión que no se sea distribuida por su navegador"
 
 #: desktop-guide/C/guide-keeping-safe.xml:220(para)
 msgid ""
@@ -5336,16 +5614,25 @@ msgid ""
 "remove-firefox-profiles\">Use the Profile Manager to create and remove "
 "Firefox profiles</ulink>)."
 msgstr ""
+"En Firefox, use un perfil de usuario diferente para actividades sensibles "
+"como los trámites bancarios o las compras electrónicas. Los perfiles de "
+"usuario de Firefox no comparten extensiones (vea <ulink "
+"url=\"https://support.mozilla.org/es/kb/usar-el-administrador-de-perfiles-"
+"para-crear-y-eli\">Usar el Administrador de perfiles para crear y eliminar "
+"perfiles de Firefox</ulink>)."
 
 #: desktop-guide/C/guide-keeping-safe.xml:221(para)
 msgid ""
 "On Chrome and other browsers, use the Incognito mode for sensitive "
 "activities like banking and e-shopping. Incognito mode disables extensions."
 msgstr ""
+"En Chrome y otros navegadores, utilice el modo incógnito para actividades "
+"sensibles como los trámites bancarios o las compras electrónicas. El modo "
+"incógnito desactiva las extensiones."
 
 #: desktop-guide/C/guide-keeping-safe.xml:226(title)
 msgid "Remember email security"
-msgstr ""
+msgstr "Recuerde la seguridad del correo electrónico"
 
 #: desktop-guide/C/guide-keeping-safe.xml:229(para)
 msgid ""
@@ -5353,22 +5640,31 @@ msgid ""
 "think the content of the email is incoherent or suspicious (for example "
 "invoices coming from people you have never heard of)."
 msgstr ""
+"No abra correos electrónicos adjuntos de gente que no conoce, o si cree que "
+"el contenido del correo electrónico es incoherente o sospechoso (por "
+"ejemplo, facturas de personas que nunca ha oído hablar de ellas)."
 
 #: desktop-guide/C/guide-keeping-safe.xml:230(para)
 msgid ""
 "Do not reply to spam. This will inform spammers that your email address is "
 "active, and it will incite them to send you more spam."
 msgstr ""
+"No responda al correo basura (spam). Esto informará a los spammers de que su "
+"dirección de correo está activa y les incitará a mandarle más correo basura."
 
 #: desktop-guide/C/guide-keeping-safe.xml:235(title)
 msgid "Consider firewalls if your computer hosts Internet services"
 msgstr ""
+"Considere utilizar cortafuegos si su equipo aloja servicios de internet"
 
 #: desktop-guide/C/guide-keeping-safe.xml:237(para)
 msgid ""
 "If you run public facing Internet services, or are not on a NAT, you should "
 "consider using a firewall. Most home users are not concerned by this measure."
 msgstr ""
+"Si ejecuta servicios públicos de Internet, o no utilizan una NAT, debería "
+"plantearse utilizar un cortafuegos. La mayoría de los usuarios domésticos no "
+"son conscientes de  estas medidas."
 
 #: desktop-guide/C/guide-keeping-safe.xml:240(para)
 msgid ""
@@ -5380,6 +5676,13 @@ msgid ""
 "emerging threats, and they do not replace the need to install security "
 "updates."
 msgstr ""
+"Tenga en cuenta que los cortafuegos no son útiles con sus configuraciones "
+"por defecto. Debería considerar lo que pretende conseguir y configurar el "
+"cortafuegos de forma acorde. Los cortafuegos pueden protegerle contra "
+"ataques de denegación del servicio, limitar el acceso a un servicio a unas "
+"direcciones IP específicas o inspeccionar y rechazar paquetes sospechosos. "
+"Sin embargo, no le protegen ante amenazas desconocidas o recién descubiertas "
+"y no reemplazan la necesidad de instalar actualizaciones de seguridad."
 
 #: desktop-guide/C/guide-keeping-safe.xml:251(title) desktop-guide/C/guide-keeping-safe.xml:271(para)
 msgid "Back up on a regular basis"
@@ -5420,6 +5723,12 @@ msgid ""
 "compress files and pack them together. Alternatively, you can use a "
 "dedicated backup application."
 msgstr ""
+"Una forma sencilla de realizar copias de seguridad de sus archivos es "
+"copiarlos manualmente a un lugar seguro (véase arriba)  usando el "
+"<application>Explorador de archivos</application> así como el "
+"<application>Gestor de archivos</application> que le permiten comprimir "
+"archivos y empaquetarlos juntos. De forma alternativa, puede utilizar una "
+"aplicación dedicada a copias de respaldo."
 
 #: desktop-guide/C/guide-keeping-safe.xml:269(para)
 msgid "General advice on how to keep good backups:"
@@ -5454,6 +5763,9 @@ msgid ""
 "encrypt your documents and upload an encrypted archive. This will prevent "
 "the online services staff from accessing your documents."
 msgstr ""
+"Si usa servicios de copia de respaldo en línea como Dropbox, es una buena "
+"idea cifrar sus documentos  antes de subirlos. Esto impedirá al personal de "
+"los servicios en línea acceder a sus documentos."
 
 #: desktop-guide/C/guide-keeping-safe.xml:285(para)
 msgid ""
@@ -5463,10 +5775,15 @@ msgid ""
 "sources. For more information, see <xref linkend=\"script-applications-"
 "sources\"/>."
 msgstr ""
+"Las copias de respaldo pueden ser una protección eficaz contra software "
+"malicioso, los cuales pueden cifrar sus datos y descifrarlos solamente si "
+"paga a los desarrolladores del mismo. Para mantenerse limpio de este tipo de "
+"software malicioso, evite instalar aplicaciones desde fuentes desconocidas. "
+"Para más información, mire <xref linkend=\"script-applications-sources\"/>."
 
 #: desktop-guide/C/guide-keeping-safe.xml:293(title)
 msgid "Consider encryption"
-msgstr ""
+msgstr "Considerar el cifrado"
 
 #: desktop-guide/C/guide-keeping-safe.xml:295(para)
 msgid ""
@@ -5476,12 +5793,19 @@ msgid ""
 "Remember that full disk encryption will not protect you if you do not "
 "shutdown your computer when you are not using it."
 msgstr ""
+"El cifrado completo del disco es una buena medida para proteger su equipo de "
+"contenido que podría ser robado. Debería considerar utilizarlo, por ejemplo, "
+"si su trabajo contiene información de Propiedad Intelectual valiosa o "
+"responsabilidades ejecutivas. Recuerde que el cifrado completo del disco no "
+"le protegerá si no apaga su equipo cuando no lo esté usando."
 
 #: desktop-guide/C/guide-keeping-safe.xml:300(para)
 msgid ""
 "The easiest way to enable full disk encryption is to do it during the "
 "installation."
 msgstr ""
+"La manera más sencilla de habilitar el cifrado completo del disco es hacerlo "
+"durante la instalación."
 
 #: desktop-guide/C/guide-keeping-safe.xml:302(para)
 msgid ""
@@ -5492,14 +5816,20 @@ msgid ""
 "to do this is outside the scope of this documentation, but there are "
 "numerous tutorials online."
 msgstr ""
+"También puede crear volúmenes cifrados utilizando software dedicado, por "
+"ejemplo LUKS. Los volúmenes cifrados pueden contener datos arbitrarios de "
+"cualquier longitud. Puede montarlos al igual que lo hace cuando introduce "
+"una llave USB cuando necesita acceder a su contenido, y mantenerlos cerrados "
+"el resto del tiempo. La descripción de este proceso queda fuera del alcance "
+"de esta documentación, pero hay numerosos tutoriales en línea sobre ello."
 
 #: desktop-guide/C/guide-keeping-safe.xml:312(title)
 msgid "Using your computer in a shared environment"
-msgstr ""
+msgstr "Utilizar su equipo en una entorno compartido"
 
 #: desktop-guide/C/guide-keeping-safe.xml:315(title)
 msgid "Do not use shared accounts"
-msgstr ""
+msgstr "No utilice cuentas compartidas"
 
 #: desktop-guide/C/guide-keeping-safe.xml:317(para)
 msgid ""
@@ -5605,12 +5935,13 @@ msgid ""
 "Screen</guilabel> and <placeholder-4/><guilabel>Log Out</guilabel>."
 msgstr ""
 "El panel se usa para iniciar e intercambiar aplicaciones y para recibir "
-"información de su sistema. En la parte izda verá el logo de Xubuntu, "
-"<placeholder-1/>. Clic en este icono y abrirá el <guilabel>Menú</guilabel>, "
+"información de su sistema. En la parte izquierda verá el logo de Xubuntu, "
+"<placeholder-1/>. Pulse en este icono y abrirá el <guilabel>Menú</guilabel>, "
 "con varias opciones de aplicaciones de inicio. Además en la parte inferior "
 "de la ventana del menú están los iconos <placeholder-"
-"2/><guilabel>Configuración</guilabel>, <placeholder-3/><guilabel>Bloquear "
-"pantalla</guilabel> y <placeholder-4/><guilabel>Cerrar sesión</guilabel>."
+"2/><guilabel>Administrador de configuración</guilabel>, <placeholder-"
+"3/><guilabel>Bloquear pantalla</guilabel> y <placeholder-4/><guilabel>Cerrar "
+"sesión</guilabel>."
 
 #: desktop-guide/C/guide-desktop.xml:28(para)
 msgid ""
@@ -5750,6 +6081,14 @@ msgid ""
 "represents. Note that right-clicking on pathbar icons will also bring up a "
 "pop-up window with some options."
 msgstr ""
+"Para ver fácilmente el camino que tomó para llegar al directorio actual, "
+"puede cambiar las opciones de vista por defecto. En el menú Administrador de "
+"archivos, seleccione <menuchoice> <guimenuitem> Ver </ guimenuitem> "
+"<guimenuitem> Selector de ubicación </ guimenuitem> <guimenuitem> Estilo de "
+"barra de ruta </ guimenuitem> </ menuchoice>. Ahora usted puede hacer clic "
+"en cualquier icono de la barra de ruta para cambiar al directorio que "
+"representa. Tenga en cuenta que el botón derecho sobre la barra de ruta "
+"iconos también abrirá una ventana emergente con algunas opciones."
 
 #: desktop-guide/C/guide-desktop.xml:79(title)
 msgid "Creating and deleting files and folders"
@@ -5768,6 +6107,16 @@ msgid ""
 "choose <menuchoice><guimenuitem>Move to Trash</guimenuitem></menuchoice> to "
 "remove it. The file will be put into the Trash."
 msgstr ""
+"Para crear un documento nuevo, clic derecho en un espacio vacío del "
+"directorio Personal y seleccione <menuchoice><guimenuitem>Crear "
+"Documento</guimenuitem><guimenuitem>Nuevo Archivo</guimenuitem></menuchoice> "
+"en el menú emergente. El Gestor de Archivos pedirá un nombre. Deje el nombre "
+"predeterminado de momento. Después, verá el archivo nuevo en su directorio "
+"Personal. Clic derecho y elija "
+"<menuchoice><guimenuitem>Propiedades</guimenuitem></menuchoice>. Le mostrará "
+"algunos detalles sobre el archivo. Clic derecho en el archivo una vez más y "
+"escoja <menuchoice><guimenuitem>Mover a la "
+"Papelera</guimenuitem></menuchoice> para eliminarlo."
 
 #: desktop-guide/C/guide-desktop.xml:91(para)
 msgid ""
@@ -5788,6 +6137,12 @@ msgid ""
 "Double-click on it to enter it. To rename or remove the folder, right-click "
 "on it and choose the appropriate option from the pop-up menu."
 msgstr ""
+"Para crear una carpeta nueva, clic derecho en un espacio vacío y elija "
+"<menuchoice><guimenuitem>Crear carpeta</guimenuitem></menuchoice>. Le pedirá "
+"un nombre. Teclee algo y <keycap><placeholder-1/>Intro</keycap>. Verá esta "
+"nueva carpeta en su directorio Personal. Doble clic y acceda. Para renombrar "
+"o eliminar la carpeta, clic derecho y escoja la opción adecuada del menú "
+"emergente."
 
 #: desktop-guide/C/guide-desktop.xml:103(title)
 msgid "Copying"
@@ -5817,6 +6172,14 @@ msgid ""
 "<menuchoice><guimenuitem>Eject</guimenuitem></menuchoice>. The same applies "
 "for any other removable media."
 msgstr ""
+"Al insertar CD, memorias USB u otras unidades extraíbles al pc, o conectar "
+"un reproductor de música, Xubuntu debería detectar automáticamente el nuevo "
+"dispositivo. Por ejemplo, después de insertar un CD, verá una nueva entrada "
+"en el panel del <application>Gestor de Archivos</application> con un icono "
+"de CD. Clic y abrirá el CD en el área principal, igual que al pulsar en una "
+"carpeta normal. Para eliminar el CD, clic derecho en la entrada y elija "
+"<menuchoice><guimenuitem>Expulsar</guimenuitem></menuchoice>. Y así para "
+"otros dispositivos extraíbles."
 
 #: desktop-guide/C/guide-desktop.xml:121(para)
 msgid ""
@@ -5827,6 +6190,12 @@ msgid ""
 "shortcut and choose "
 "<menuchoice><guimenuitem>Eject</guimenuitem></menuchoice>."
 msgstr ""
+"Tenga en cuenta que hacer clic en el botón de Expulsar del CD puede no "
+"funcionar. Lo que puede sorprender a usuarios no avanzados, pero de hecho es "
+"el comportamiento esperado. Antes de que el CD sea expulsado, necesita estar "
+"«editado» adecuadamente (desmontado). Para eliminar un CD, siempre clic "
+"derecho en su entrada  y elija "
+"<menuchoice><guimenuitem>Expulsar</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/guide-desktop.xml:129(title)
 msgid "Customizing Thunar"
@@ -5840,6 +6209,11 @@ msgid ""
 "List</guimenuitem></menuchoice> to have the contents of the current "
 "directory displayed as a list."
 msgstr ""
+"Hay muchas formas de personalizar el <application> Gestor de archivos "
+"</application>. Si no le gusta la forma en que se muestran los iconos, "
+"seleccione <menuchoice><guimenu>Ver</guimenu><guimenuitem>Ver como lista "
+"detallada</guimenuitem></menuchoice> para tener el contenido del directorio "
+"actual como un lista."
 
 #: desktop-guide/C/guide-desktop.xml:136(para)
 msgid ""
@@ -5851,6 +6225,13 @@ msgid ""
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Side "
 "Pane</guimenuitem><guimenuitem>Tree</guimenuitem></menuchoice>."
 msgstr ""
+"Puede mostrar el <application>Gestor de archivos</application> en una barra "
+"de ubicación en lugar de en la barra de ruta seleccionando "
+"<guimenu>Ver</guimenu><guimenuitem>Selector de "
+"ubicación</guimenuitem><guimenuitem>Estilo de "
+"barra</guimenuitem></menuchoice>. Si prefiere una vista en árbol en el "
+"panel, elija <menuchoice><guimenu>Ver</guimenu><guimenuitem>Panel "
+"lateral</guimenuitem><guimenuitem>Árbol</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/guide-desktop.xml:143(para)
 msgid ""
@@ -5901,6 +6282,10 @@ msgid ""
 "more at the <ulink url=\"https://launchpad.net/simple-scan\">Simple Scan "
 "website</ulink>."
 msgstr ""
+"<application>Simple Scan</application> es una utilidad de escaneo fácil de "
+"usar, diseñado para hacer tareas simples como escanear a correo electrónico "
+"o directamente a PDF. Obtenga más información en el <ulink "
+"url=\"https://launchpad.net/simple-scan\">sitio web de Simple Scan</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:25(title)
 msgid "Internet"
@@ -6193,6 +6578,12 @@ msgid ""
 "<application>Mousepad</application> with administrative rights, run the "
 "command <userinput>pkexec mousepad /path/to/file</userinput>."
 msgstr ""
+"Si el programa que desea ejecutar como administrador es gráfico, como el "
+"editor de texto <application>Mousepad</application>, ejecute la orden "
+"precedida por <userinput>pkexec</userinput> en la línea de órdenes. Por "
+"ejemplo, para ejecutar <application>Mousepad</application> con privilegios "
+"administrativos, ejecute la orden <userinput>pkexec mousepad "
+"/ruta/al/archivo</userinput>."
 
 #: desktop-guide/C/command-line.xml:32(para)
 msgid ""
@@ -6201,6 +6592,11 @@ msgid ""
 "file. All default applications in Xubuntu that might need to be ran with "
 "administrative rights come with pkexec policy files."
 msgstr ""
+"Tenga en cuenta que para ejecutar correctamente una aplicación con "
+"<application>pkexec</application>, la aplicación debe tener un archivo de "
+"directivas pkexec. Todas las aplicaciones predeterminadas en Xubuntu que se "
+"pueden ejecutar con privilegios administrativos ya tienen archivos de "
+"directivas pkexec."
 
 #: desktop-guide/C/command-line.xml:34(para)
 msgid ""
@@ -6494,7 +6890,7 @@ msgstr "mv [nombre_de_archivo] [nombre_de_archivo_nuevo]"
 #: desktop-guide/C/command-line.xml:61(userinput)
 #, no-wrap
 msgid "rm"
-msgstr ""
+msgstr "rm"
 
 #: desktop-guide/C/command-line.xml:61(seg)
 msgid ""
@@ -6611,8 +7007,8 @@ msgid ""
 msgstr ""
 "Para modificar los usuarios y grupos en su sistema, vaya a "
 "<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
-"Configuración</guimenuitem><guimenuitem>Usuarios y "
-"Grupos</guimenuitem></menuchoice></application>."
+"Administrador de configuración</guimenuitem><guimenuitem>Usuarios y "
+"grupos</guimenuitem></menuchoice></application>."
 
 #: desktop-guide/C/administrative-tasks.xml:29(para)
 msgid "You need administrative rights to make changes to users and groups."
