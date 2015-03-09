@@ -31,9 +31,12 @@
 			worst case scenario, they are searching for victims to hack with
 			automated programs in under a few hours.</para>
 		<para>Automatic security updates are enabled by default in Xubuntu. If you
-			want to change the settings for the automatic upgrades, go to the
-			"Updates" tab under &software-properties; and change the settings to
-			your liking.</para>
+			want to change the settings for the automatic updates, go to the
+			<guilabel>Updates</guilabel> tab under &software-properties; and change
+			the settings to your liking.</para>
+		<warning><para>If you disable automatic updates, you are lowering the
+			security level of your computer. When the automatic updates are turned
+			off, it's essential to remember to upgrade manually often.</para></tip>
 		<tip><para>If you use an Internet connection with limited bandwidth and do
 			not want to use automatic updates, remember to update every time you
 			have access to an unlimited connection.</para></tip>
