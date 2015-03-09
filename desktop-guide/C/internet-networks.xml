@@ -220,6 +220,6 @@
 
 		<tip><para>The Windows Share username should be in the format <literal>DOMAIN\username</literal></para></tip>
 
-		<note><para>For Samba Networks (Windows shares), the package <literal>&package;gvfs-backends</literal> needs to be installed in order to connect using the <application>Thunar File Manager</application>.</para></note>
+		<note><para>In order to connect to Samba networks (Windows shares) using the <application>Thunar File Manager</application>, you will need to have the package <literal>&package;gvfs-backends</literal> installed.</para></note>
 	</section>
 </chapter>
