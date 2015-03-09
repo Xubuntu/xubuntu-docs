@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-02-26 22:57+0000\n"
+"POT-Creation-Date: 2015-03-09 13:14+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1058,78 +1058,82 @@ msgid "Upgrading Xubuntu"
 msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:56(para)
-msgid "A new version of Xubuntu is released every 6 months, a new LTS version is released every 2 years; the Software Updater should inform you when a new version of its type (LTS or non-LTS) is available for download. Currently non-LTS versions are supported for 9 months and LTS versions for 3 years."
+msgid "New regular releases of Xubuntu are released every 6 months. Long-term support (LTS) releases are released every 2 years. Currently, regular releases are supported for 9 months and LTS releases for 3 years."
 msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:57(para)
+msgid "The Software Updater will inform you when a new version for your upgrade path is available for download. To change the upgrade path, see <xref linkend=\"changing-upgrade-path\"/>."
+msgstr ""
+
+#: desktop-guide/C/migrating-upgrading.xml:58(para)
 msgid "Upgrades usually take a while to complete. Typically, around 1000 megabytes of packages must be downloaded and installed, although the actual figure will depend on how many packages are already installed on your computer."
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:60(title)
+#: desktop-guide/C/migrating-upgrading.xml:61(title)
 msgid "Upgrading to the next available release"
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:63(para)
+#: desktop-guide/C/migrating-upgrading.xml:64(para)
 msgid "Go to <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> Settings Manager</guimenuitem><guimenuitem>Software Updater</guimenuitem></menuchoice></application> and wait for the list of available updates to be downloaded"
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:64(para)
+#: desktop-guide/C/migrating-upgrading.xml:65(para)
 msgid "If a new version of Xubuntu is available, a box at the top of the window will appear saying that a new distribution release is available"
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:65(para)
+#: desktop-guide/C/migrating-upgrading.xml:66(para)
 msgid "To upgrade to the next available release that you can upgrade to, save all of your open documents and press the <guibutton>Upgrade</guibutton> button in <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> Settings Manager</guimenuitem><guimenuitem>Software Updater</guimenuitem></menuchoice></application>"
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:68(para)
+#: desktop-guide/C/migrating-upgrading.xml:69(para)
 msgid "If you are not getting an upgrade notification, or aren't seeing the release you are expecting to upgrade to, see <xref linkend=\"changing-upgrade-path\"/>."
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:72(title)
+#: desktop-guide/C/migrating-upgrading.xml:73(title)
 msgid "Changing your upgrade path"
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:74(para)
+#: desktop-guide/C/migrating-upgrading.xml:75(para)
 msgid "There are two main upgrade paths you can follow: either upgrade to long-term support (LTS) releases only, or upgrade to all releases."
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:75(para)
+#: desktop-guide/C/migrating-upgrading.xml:76(para)
 msgid "If you decide to follow the LTS upgrade path, you will be notified of new releases every two years. If you decide to follow the regular releases upgrade path, you will be notified of new releases every 6 months and will have to upgrade your system to each one of them until you are running the next LTS release."
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:77(para)
+#: desktop-guide/C/migrating-upgrading.xml:78(para)
 msgid "If you want to change your upgrade path, you can do it when running an LTS version. To do so, choose one of the following options:"
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:79(para)
+#: desktop-guide/C/migrating-upgrading.xml:80(para)
 msgid "Navigate to <application><menuchoice><placeholder-1/><guimenuitem>Ubuntu Software Center</guimenuitem><guimenuitem>Edit</guimenuitem><guimenuitem>Software Sources</guimenuitem></menuchoice></application> and select the <guilabel>Updates</guilabel> tab. In the <guilabel>Updates</guilabel> tab, select either <guilabel>For any new version</guilabel> or <guilabel>For long-term support versions</guilabel> from the <guilabel>Notify me of a new Ubuntu version</guilabel> dropdown depending on your choice."
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:80(para)
+#: desktop-guide/C/migrating-upgrading.xml:81(para)
 msgid "Open the <application><menuchoice><placeholder-1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal Emulator</guimenuitem></menuchoice></application> and run <userinput>sudoedit /etc/update-manager/release-upgrades</userinput> and change the line starting with <literal>prompt=</literal> to <userinput>prompt=normal</userinput> (for all releases) or <userinput>prompt=lts</userinput> (for LTS releases) depending on your choice"
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:83(para)
+#: desktop-guide/C/migrating-upgrading.xml:84(para)
 msgid "If you are running a regular release that is not immediately followed by an LTS release, you should not change the upgrade target to long-term support (LTS) releases only."
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:84(para)
+#: desktop-guide/C/migrating-upgrading.xml:85(para)
 msgid "Upgrading an LTS version to anything other than another LTS version will lose the long term support."
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:88(title)
+#: desktop-guide/C/migrating-upgrading.xml:89(title)
 msgid "Upgrading to the development version"
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:90(para)
+#: desktop-guide/C/migrating-upgrading.xml:91(para)
 msgid "Development releases often suffer from package breakages and other problems. Only install a development release if you are prepared to attempt to fix these problems for yourself or if you want to help the Xubuntu team by testing and giving feedback."
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:91(para)
+#: desktop-guide/C/migrating-upgrading.xml:92(para)
 msgid "You will need to be running the latest regular version to be able to upgrade to the version currently under development."
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:92(para)
+#: desktop-guide/C/migrating-upgrading.xml:93(para)
 msgid "If you would like to install and test the latest development version of Xubuntu before it is released, run <userinput>pkexec update-manager -c -d</userinput> at the command line. This will allow you to upgrade to the current development release. Please consider <ulink url=\"http://xubuntu.org/contribute/qa\">getting involved</ulink> with reporting usage of development versions and associated packages."
 msgstr ""
 
