@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-02-26 22:57+0000\n"
+"POT-Creation-Date: 2015-03-09 18:34+0200\n"
 "PO-Revision-Date: 2014-10-28 11:10+0000\n"
 "Last-Translator: Pasi Lallinaho <pasi@shimmerproject.org>\n"
 "Language-Team: English (United Kingdom) <en_GB@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-02-27 05:58+0000\n"
-"X-Generator: Launchpad (build 17361)\n"
+"X-Launchpad-Export-Date: 2015-03-10 05:59+0000\n"
+"X-Generator: Launchpad (build 17389)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1524,24 +1524,30 @@ msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:56(para)
 msgid ""
-"A new version of Xubuntu is released every 6 months, a new LTS version is "
-"released every 2 years; the Software Updater should inform you when a new "
-"version of its type (LTS or non-LTS) is available for download. Currently "
-"non-LTS versions are supported for 9 months and LTS versions for 3 years."
+"New regular releases of Xubuntu are released every 6 months. Long-term "
+"support (LTS) releases are released every 2 years. Currently, regular "
+"releases are supported for 9 months and LTS releases for 3 years."
 msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:57(para)
+msgid ""
+"The Software Updater will inform you when a new version for your upgrade "
+"path is available for download. To change the upgrade path, see <xref "
+"linkend=\"changing-upgrade-path\"/>."
+msgstr ""
+
+#: desktop-guide/C/migrating-upgrading.xml:58(para)
 msgid ""
 "Upgrades usually take a while to complete. Typically, around 1000 megabytes "
 "of packages must be downloaded and installed, although the actual figure "
 "will depend on how many packages are already installed on your computer."
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:60(title)
+#: desktop-guide/C/migrating-upgrading.xml:61(title)
 msgid "Upgrading to the next available release"
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:63(para)
+#: desktop-guide/C/migrating-upgrading.xml:64(para)
 msgid ""
 "Go to <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
 "Settings Manager</guimenuitem><guimenuitem>Software "
@@ -1549,39 +1555,39 @@ msgid ""
 "available updates to be downloaded"
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:64(para)
+#: desktop-guide/C/migrating-upgrading.xml:65(para)
 msgid ""
 "If a new version of Xubuntu is available, a box at the top of the window "
 "will appear saying that a new distribution release is available"
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:65(para)
+#: desktop-guide/C/migrating-upgrading.xml:66(para)
 msgid ""
 "To upgrade to the next available release that you can upgrade to, save all "
-"of your open documents and press the <guibutton>Upgrade</guibutton> button "
+"of your open documents and click the <guibutton>Upgrade</guibutton> button "
 "in <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
 "Settings Manager</guimenuitem><guimenuitem>Software "
 "Updater</guimenuitem></menuchoice></application>"
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:68(para)
+#: desktop-guide/C/migrating-upgrading.xml:69(para)
 msgid ""
 "If you are not getting an upgrade notification, or aren't seeing the release "
 "you are expecting to upgrade to, see <xref linkend=\"changing-upgrade-"
 "path\"/>."
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:72(title)
+#: desktop-guide/C/migrating-upgrading.xml:73(title)
 msgid "Changing your upgrade path"
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:74(para)
+#: desktop-guide/C/migrating-upgrading.xml:75(para)
 msgid ""
 "There are two main upgrade paths you can follow: either upgrade to long-term "
 "support (LTS) releases only, or upgrade to all releases."
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:75(para)
+#: desktop-guide/C/migrating-upgrading.xml:76(para)
 msgid ""
 "If you decide to follow the LTS upgrade path, you will be notified of new "
 "releases every two years. If you decide to follow the regular releases "
@@ -1590,13 +1596,13 @@ msgid ""
 "next LTS release."
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:77(para)
+#: desktop-guide/C/migrating-upgrading.xml:78(para)
 msgid ""
 "If you want to change your upgrade path, you can do it when running an LTS "
 "version. To do so, choose one of the following options:"
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:79(para)
+#: desktop-guide/C/migrating-upgrading.xml:80(para)
 msgid ""
 "Navigate to <application><menuchoice><placeholder-1/><guimenuitem>Ubuntu "
 "Software "
@@ -1608,7 +1614,7 @@ msgid ""
 "Ubuntu version</guilabel> dropdown depending on your choice."
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:80(para)
+#: desktop-guide/C/migrating-upgrading.xml:81(para)
 msgid ""
 "Open the <application><menuchoice><placeholder-"
 "1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal "
@@ -1619,24 +1625,24 @@ msgid ""
 "<userinput>prompt=lts</userinput> (for LTS releases) depending on your choice"
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:83(para)
+#: desktop-guide/C/migrating-upgrading.xml:84(para)
 msgid ""
 "If you are running a regular release that is not immediately followed by an "
 "LTS release, you should not change the upgrade target to long-term support "
 "(LTS) releases only."
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:84(para)
+#: desktop-guide/C/migrating-upgrading.xml:85(para)
 msgid ""
 "Upgrading an LTS version to anything other than another LTS version will "
 "lose the long term support."
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:88(title)
+#: desktop-guide/C/migrating-upgrading.xml:89(title)
 msgid "Upgrading to the development version"
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:90(para)
+#: desktop-guide/C/migrating-upgrading.xml:91(para)
 msgid ""
 "Development releases often suffer from package breakages and other problems. "
 "Only install a development release if you are prepared to attempt to fix "
@@ -1644,13 +1650,13 @@ msgid ""
 "testing and giving feedback."
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:91(para)
+#: desktop-guide/C/migrating-upgrading.xml:92(para)
 msgid ""
 "You will need to be running the latest regular version to be able to upgrade "
 "to the version currently under development."
 msgstr ""
 
-#: desktop-guide/C/migrating-upgrading.xml:92(para)
+#: desktop-guide/C/migrating-upgrading.xml:93(para)
 msgid ""
 "If you would like to install and test the latest development version of "
 "Xubuntu before it is released, run <userinput>pkexec update-manager -c -"
@@ -2443,10 +2449,10 @@ msgstr ""
 #: desktop-guide/C/internet-networks.xml:30(para)
 msgid ""
 "To disconnect from a network, click the "
-"<application>NetworkManager</application> icon, and select Disconnect under "
-"the appropriate connection type. To disable (and re-enable) wired and/or "
-"wireless connections all together, click the "
-"<application>NetworkManager</application> icon, select "
+"<application>NetworkManager</application> icon, and select "
+"<guilabel>Disconnect</guilabel> under the appropriate connection type. To "
+"disable (and re-enable) wired and/or wireless connections all together, "
+"click the <application>NetworkManager</application> icon, select "
 "<menuchoice><guimenuitem>Enable Networking</guimenuitem></menuchoice> and "
 "<menuchoice><guimenuitem>Enable Wi-Fi</guimenuitem></menuchoice>. These "
 "choices are toggles. Their enabled/disabled status is indicated by the "
@@ -2942,9 +2948,9 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:223(para)
 msgid ""
-"For Samba Networks (Windows shares), the package <literal><placeholder-"
-"1/>gvfs-backends</literal> needs to be installed in order to connect using "
-"the <application>Thunar File Manager</application>."
+"In order to connect to Samba networks (Windows shares) using the "
+"<application>Thunar File Manager</application>, you will need to have the "
+"package <literal><placeholder-1/>gvfs-backends</literal> installed."
 msgstr ""
 
 #: desktop-guide/C/index.xml:12(title) desktop-guide/C/index.xml:15(title)
@@ -3841,88 +3847,95 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:33(para)
 msgid ""
-"Automatic updates are enabled by default in Xubuntu. If you want to change "
-"the settings for the unattended upgrades, go to the \"Updates\" tab under "
-"<application><menuchoice><placeholder-1/><guimenuitem>Settings "
-"Manager</guimenuitem><guimenuitem>Software &amp; "
+"Automatic security updates are enabled by default in Xubuntu. If you want to "
+"change the settings for the automatic updates, go to the "
+"<guilabel>Updates</guilabel> tab under <application><menuchoice><placeholder-"
+"1/><guimenuitem>Settings Manager</guimenuitem><guimenuitem>Software &amp; "
 "Updates</guimenuitem></menuchoice></application> and change the settings to "
 "your liking."
 msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:37(para)
 msgid ""
+"If you disable automatic updates, you are lowering the security level of "
+"your computer. When the automatic updates are turned off, it's essential to "
+"remember to upgrade manually often."
+msgstr ""
+
+#: desktop-guide/C/guide-keeping-safe.xml:40(para)
+msgid ""
 "If you use an Internet connection with limited bandwidth and do not want to "
 "use automatic updates, remember to update every time you have access to an "
 "unlimited connection."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:43(title)
+#: desktop-guide/C/guide-keeping-safe.xml:46(title)
 msgid "Passwords"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:46(title)
+#: desktop-guide/C/guide-keeping-safe.xml:49(title)
 msgid "Use strong and unique passwords for important accounts"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:48(para)
+#: desktop-guide/C/guide-keeping-safe.xml:51(para)
 msgid ""
 "Using strong and unique passwords for important and sensitive accounts helps "
 "prevent unauthorized access to your personal information, identity theft and "
 "direct financial losses. Consider the following scenario:"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:53(para)
+#: desktop-guide/C/guide-keeping-safe.xml:56(para)
 msgid ""
 "Alice uses identical passwords for mytrustedbank.com and insecureblog.com"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:54(para)
+#: desktop-guide/C/guide-keeping-safe.xml:57(para)
 msgid ""
 "insecureblog is hacked and Alice’s information and password are stolen"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:55(para)
+#: desktop-guide/C/guide-keeping-safe.xml:58(para)
 msgid "Hackers can now access Alice’s bank account and steal her money"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:58(para)
+#: desktop-guide/C/guide-keeping-safe.xml:61(para)
 msgid ""
 "Password reuse can turn into a disaster. You should pay attention to use "
 "unique and strong passwords for the following services:"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:61(para)
+#: desktop-guide/C/guide-keeping-safe.xml:64(para)
 msgid ""
 "<emphasis>Email accounts</emphasis>. Email accounts can be used to reset all "
 "your other passwords via the “Forgotten password” links found on all "
 "websites."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:62(para)
+#: desktop-guide/C/guide-keeping-safe.xml:65(para)
 msgid ""
 "<emphasis>Key stores and password managers</emphasis>. It is worth having a "
 "good password for those services, since they allow you to avoid typing many "
 "other passwords!"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:63(para)
+#: desktop-guide/C/guide-keeping-safe.xml:66(para)
 msgid ""
 "<emphasis>Accounts related to banking</emphasis>, including PayPal and other "
 "payment sites. If someone can access these, they can steal your money."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:68(title)
+#: desktop-guide/C/guide-keeping-safe.xml:71(title)
 msgid "What is a strong password?"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:70(para)
+#: desktop-guide/C/guide-keeping-safe.xml:73(para)
 msgid ""
 "The strength of a password depends on how hard it is for an attacker to "
 "guess it. Attackers use special programs that can make millions of guesses "
 "per second, so weak passwords don’t stand a chance."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:75(para)
+#: desktop-guide/C/guide-keeping-safe.xml:78(para)
 msgid ""
 "Some passwords (like <literal>monkey</literal>, <literal>password</literal>, "
 "<literal>test</literal>, <literal>123456</literal>) are extremely common. If "
@@ -3934,21 +3947,21 @@ msgid ""
 "and also more common than <literal>monkey hoover</literal>)."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:85(para)
+#: desktop-guide/C/guide-keeping-safe.xml:88(para)
 msgid ""
 "It is better to choose a longer secret, such as a pass phrase (for example "
-"<literal>correct horse stable battery</literal>, than a secret that is both "
+"<literal>correct horse stable battery</literal>), than a secret that is both "
 "hard to remember and easy to crack. Consider using a series of common words "
 "which you can easily remember. Do not pick words that people around you "
 "would naturally associate with you (for instance, you should not pick poker "
 "related words if you play poker every day)."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:95(title)
+#: desktop-guide/C/guide-keeping-safe.xml:98(title)
 msgid "How to reuse passwords safely?"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:97(para)
+#: desktop-guide/C/guide-keeping-safe.xml:100(para)
 msgid ""
 "While using the same password for multiple accounts is not encouraged, "
 "everybody ends up doing this, even security experts. There is no definitive "
@@ -3956,38 +3969,38 @@ msgid ""
 "passwords, but you should consider the following:"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:103(para)
+#: desktop-guide/C/guide-keeping-safe.xml:106(para)
 msgid "Separate your professional password from your personal passwords."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:104(para)
+#: desktop-guide/C/guide-keeping-safe.xml:107(para)
 msgid ""
 "Avoid mixing passwords between websites where attackers can damage your "
 "reputation and low-value websites."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:105(para)
+#: desktop-guide/C/guide-keeping-safe.xml:108(para)
 msgid "Use a password you're willing to lose for sites you do not trust."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:106(para)
+#: desktop-guide/C/guide-keeping-safe.xml:109(para)
 msgid ""
 "Do not \"waste\" passwords on websites you connect to once a year. Make up a "
 "random password and use the \"forgotten password\" feature next time."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:111(title)
+#: desktop-guide/C/guide-keeping-safe.xml:114(title)
 msgid "When to change your password?"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:113(para)
+#: desktop-guide/C/guide-keeping-safe.xml:116(para)
 msgid ""
 "You don’t need to change your passwords every other day. In many cases, if "
 "an attacker could steal your password, they will be able to steal it again "
 "in the future."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:116(para)
+#: desktop-guide/C/guide-keeping-safe.xml:119(para)
 msgid ""
 "If you do need to change your password, you must pick one that is "
 "<emphasis>actually</emphasis> different from the previous one. For example, "
@@ -3996,58 +4009,58 @@ msgid ""
 "already stole your previous password!"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:124(title)
+#: desktop-guide/C/guide-keeping-safe.xml:127(title)
 msgid "How to change your login password"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:126(para)
+#: desktop-guide/C/guide-keeping-safe.xml:129(para)
 msgid "To change your password, follow the steps below:"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:128(para)
+#: desktop-guide/C/guide-keeping-safe.xml:131(para)
 msgid ""
 "Open <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
 "Settings Manager</guimenuitem><guimenuitem>Users and "
 "Groups</guimenuitem></menuchoice></application>"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:129(para)
+#: desktop-guide/C/guide-keeping-safe.xml:132(para)
 msgid "Click on your username on the list"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:130(para)
+#: desktop-guide/C/guide-keeping-safe.xml:133(para)
 msgid ""
 "Click <guilabel>Change...</guilabel> next to the "
 "<guilabel>Password</guilabel> label"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:131(para)
+#: desktop-guide/C/guide-keeping-safe.xml:134(para)
 msgid "First enter your <guilabel>Current password</guilabel>"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:132(para)
+#: desktop-guide/C/guide-keeping-safe.xml:135(para)
 msgid "Now you can either"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:134(para)
+#: desktop-guide/C/guide-keeping-safe.xml:137(para)
 msgid ""
 "Generate a random password by selecting <guilabel>Generate random "
 "password</guilabel> and pressing <guibutton>Generate</guibutton>"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:135(para)
+#: desktop-guide/C/guide-keeping-safe.xml:138(para)
 msgid ""
 "Choose your new password yourself by typing the new password to the "
 "<guilabel>New password</guilabel> and <guilabel>Confirmation</guilabel> "
 "fields"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:138(para)
+#: desktop-guide/C/guide-keeping-safe.xml:141(para)
 msgid ""
 "Finally, click <guibutton>OK</guibutton> to confirm the password change"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:140(para)
+#: desktop-guide/C/guide-keeping-safe.xml:143(para)
 msgid ""
 "While it is possible to make Xubuntu log in automatically on boot within the "
 "user dialog, automatic login is highly discouraged because it provides less "
@@ -4055,11 +4068,11 @@ msgid ""
 "trust everybody that has access to the computer."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:148(title)
+#: desktop-guide/C/guide-keeping-safe.xml:151(title)
 msgid "Watch out for stolen passwords occasionally"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:150(para)
+#: desktop-guide/C/guide-keeping-safe.xml:153(para)
 msgid ""
 "Websites like <ulink "
 "url=\"https://haveibeenpwned.com/\">haveibeenpwned.com</ulink> can tell you "
@@ -4070,22 +4083,22 @@ msgid ""
 "confident that a password has been compromised, you should:"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:158(para)
+#: desktop-guide/C/guide-keeping-safe.xml:161(para)
 msgid "identify all the services where you used that password"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:159(para)
+#: desktop-guide/C/guide-keeping-safe.xml:162(para)
 msgid "change your password on all those services"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:160(para)
+#: desktop-guide/C/guide-keeping-safe.xml:163(para)
 msgid ""
 "verify the recent activity on the concerned accounts (watch out for money "
 "transfers; also, email services often keep a log of your recent connections "
 "with IP addresses and locations)"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:162(para)
+#: desktop-guide/C/guide-keeping-safe.xml:165(para)
 msgid ""
 "<emphasis>Never</emphasis> reveal your <emphasis>password</emphasis> to a "
 "third-party website. The website above is OK to use because asks for an "
@@ -4093,24 +4106,24 @@ msgid ""
 "password. Websites that ask for your password will most likely misuse it."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:171(title)
+#: desktop-guide/C/guide-keeping-safe.xml:174(title)
 msgid "What about password managers?"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:173(para)
+#: desktop-guide/C/guide-keeping-safe.xml:176(para)
 msgid ""
 "Password managers are a very convenient way of using many unique passwords "
 "without having to remember them all!"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:176(para)
+#: desktop-guide/C/guide-keeping-safe.xml:179(para)
 msgid ""
 "There are several password managers available in the <application>Ubuntu "
 "Software Center</application>, including <application>KeePassX</application> "
 "and <application>PaSaffe</application>."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:181(para)
+#: desktop-guide/C/guide-keeping-safe.xml:184(para)
 msgid ""
 "Some password managers, like <application>KeePassX</application> can "
 "synchronise your passwords across devices, including Windows or OS X "
@@ -4118,51 +4131,51 @@ msgid ""
 "password manager:"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:186(para)
+#: desktop-guide/C/guide-keeping-safe.xml:189(para)
 msgid ""
 "Online password managers can be hacked too. Do not store your email or bank "
 "passwords in a password manager."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:187(para)
+#: desktop-guide/C/guide-keeping-safe.xml:190(para)
 msgid ""
 "Use a memorable password to unlock your password manager! If you lose that "
 "password, you could end up losing access to all your accounts (another good "
 "reason not to store emails in your password manager)."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:188(para)
+#: desktop-guide/C/guide-keeping-safe.xml:191(para)
 msgid ""
 "Proprietary password managers should not be trusted. Nobody knows what they "
 "do with your passwords."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:189(para)
+#: desktop-guide/C/guide-keeping-safe.xml:192(para)
 msgid ""
 "You may need to use some accounts from your friends or family’s devices. For "
 "those accounts, you can tell your password manager to use a specific and "
 "memorable password instead of a random password."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:191(para)
+#: desktop-guide/C/guide-keeping-safe.xml:194(para)
 msgid ""
 "If you keep the above advice in mind, password managers can be a great way "
 "to stay more secure, more easily!"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:197(title)
+#: desktop-guide/C/guide-keeping-safe.xml:200(title)
 msgid "Tips for good online security"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:200(title)
+#: desktop-guide/C/guide-keeping-safe.xml:203(title)
 msgid "Do not run scripts or install applications from unknown sources"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:203(para)
+#: desktop-guide/C/guide-keeping-safe.xml:206(para)
 msgid "Install applications from the repository whenever possible."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:204(para)
+#: desktop-guide/C/guide-keeping-safe.xml:207(para)
 msgid ""
 "When running a script found on a troubleshooting or support website or given "
 "to you on IRC, take a moment to look at it, or ask a third-party to confirm "
@@ -4170,11 +4183,11 @@ msgid ""
 "access, as they could compromise other users' accounts."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:209(title)
+#: desktop-guide/C/guide-keeping-safe.xml:212(title)
 msgid "Keep your browser clean for sensitive activities"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:211(para)
+#: desktop-guide/C/guide-keeping-safe.xml:214(para)
 msgid ""
 "Web browser extensions are a popular mechanism among hackers for harming "
 "users. They are especially relevant to Linux, since they are compatible with "
@@ -4183,16 +4196,16 @@ msgid ""
 "your money."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:216(para)
+#: desktop-guide/C/guide-keeping-safe.xml:219(para)
 msgid "You can take measures to limit the risks you expose yourself to:"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:218(para)
+#: desktop-guide/C/guide-keeping-safe.xml:221(para)
 msgid ""
 "Never install an extension that is not distributed by your browser vendor"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:220(para)
+#: desktop-guide/C/guide-keeping-safe.xml:223(para)
 msgid ""
 "On Firefox, use a separate user profile for sensitive activities like "
 "banking and e-shopping. Firefox user profiles do not share extensions (see "
@@ -4201,40 +4214,40 @@ msgid ""
 "Firefox profiles</ulink>)."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:221(para)
+#: desktop-guide/C/guide-keeping-safe.xml:224(para)
 msgid ""
 "On Chrome and other browsers, use the Incognito mode for sensitive "
 "activities like banking and e-shopping. Incognito mode disables extensions."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:226(title)
+#: desktop-guide/C/guide-keeping-safe.xml:229(title)
 msgid "Remember email security"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:229(para)
+#: desktop-guide/C/guide-keeping-safe.xml:232(para)
 msgid ""
 "Do not open email attachments from people that you don’t know, or if you "
 "think the content of the email is incoherent or suspicious (for example "
 "invoices coming from people you have never heard of)."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:230(para)
+#: desktop-guide/C/guide-keeping-safe.xml:233(para)
 msgid ""
 "Do not reply to spam. This will inform spammers that your email address is "
 "active, and it will incite them to send you more spam."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:235(title)
+#: desktop-guide/C/guide-keeping-safe.xml:238(title)
 msgid "Consider firewalls if your computer hosts Internet services"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:237(para)
+#: desktop-guide/C/guide-keeping-safe.xml:240(para)
 msgid ""
 "If you run public facing Internet services, or are not on a NAT, you should "
 "consider using a firewall. Most home users are not concerned by this measure."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:240(para)
+#: desktop-guide/C/guide-keeping-safe.xml:243(para)
 msgid ""
 "Understand that firewalls are not very useful in their default settings. You "
 "should consider what you want to achieve and configure the firewall "
@@ -4245,11 +4258,11 @@ msgid ""
 "updates."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:251(title) desktop-guide/C/guide-keeping-safe.xml:271(para)
+#: desktop-guide/C/guide-keeping-safe.xml:254(title) desktop-guide/C/guide-keeping-safe.xml:274(para)
 msgid "Back up on a regular basis"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:253(para)
+#: desktop-guide/C/guide-keeping-safe.xml:256(para)
 msgid ""
 "A problem that you may occasionally encounter is the unexpected loss of some "
 "of your work and settings for one reason or another. The causes of such data "
@@ -4259,7 +4272,7 @@ msgid ""
 "problem, you will not have lost those files."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:259(para)
+#: desktop-guide/C/guide-keeping-safe.xml:262(para)
 msgid ""
 "It is wise to store backup copies of files separately from your computer; "
 "that is, you should make use of some form of file storage which is not "
@@ -4268,7 +4281,7 @@ msgid ""
 "on the network."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:264(para)
+#: desktop-guide/C/guide-keeping-safe.xml:267(para)
 msgid ""
 "A simple way of backing up your files is to manually copy them to a safe "
 "location (see above) by using the <application>File Browser</application> as "
@@ -4277,21 +4290,21 @@ msgid ""
 "dedicated backup application."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:269(para)
+#: desktop-guide/C/guide-keeping-safe.xml:272(para)
 msgid "General advice on how to keep good backups:"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:272(para)
+#: desktop-guide/C/guide-keeping-safe.xml:275(para)
 msgid ""
 "Always test your backups after you make them to ensure that they have been "
 "made correctly"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:274(para)
+#: desktop-guide/C/guide-keeping-safe.xml:277(para)
 msgid "Label your backups clearly and keep them in a safe place"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:277(para)
+#: desktop-guide/C/guide-keeping-safe.xml:280(para)
 msgid ""
 "There are numerous dedicated backup applications available in the "
 "<application>Ubuntu Software Center</application>, including "
@@ -4299,14 +4312,14 @@ msgid ""
 "<application>luckyBackup</application>."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:281(para)
+#: desktop-guide/C/guide-keeping-safe.xml:284(para)
 msgid ""
 "If you use online backup services like Dropbox, it is a good idea to first "
 "encrypt your documents and upload an encrypted archive. This will prevent "
 "the online services staff from accessing your documents."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:285(para)
+#: desktop-guide/C/guide-keeping-safe.xml:288(para)
 msgid ""
 "Backups can also be an effective protection against ransomware, which "
 "encrypts your data and will only decrypt it if you pay the developers. To "
@@ -4315,11 +4328,11 @@ msgid ""
 "sources\"/>."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:293(title)
+#: desktop-guide/C/guide-keeping-safe.xml:296(title)
 msgid "Consider encryption"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:295(para)
+#: desktop-guide/C/guide-keeping-safe.xml:298(para)
 msgid ""
 "Full disk encryption is a good measure to protect your computers content "
 "should it get stolen. You should consider it if, for instance, your job "
@@ -4328,13 +4341,13 @@ msgid ""
 "shutdown your computer when you are not using it."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:300(para)
+#: desktop-guide/C/guide-keeping-safe.xml:303(para)
 msgid ""
 "The easiest way to enable full disk encryption is to do it during the "
 "installation."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:302(para)
+#: desktop-guide/C/guide-keeping-safe.xml:305(para)
 msgid ""
 "You can also create encrypted volumes using dedicated software, for example "
 "LUKS. Encrypted volumes can contain arbitrary data of any length. You can "
@@ -4344,15 +4357,15 @@ msgid ""
 "numerous tutorials online."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:312(title)
+#: desktop-guide/C/guide-keeping-safe.xml:315(title)
 msgid "Using your computer in a shared environment"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:315(title)
+#: desktop-guide/C/guide-keeping-safe.xml:318(title)
 msgid "Do not use shared accounts"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:317(para)
+#: desktop-guide/C/guide-keeping-safe.xml:320(para)
 msgid ""
 "When Xubuntu is installed, it is set up for a single person to use. If more "
 "than one person will use the computer, it is best for each person to have "
@@ -4360,32 +4373,32 @@ msgid ""
 "linkend=\"users-groups\"/>."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:324(title)
+#: desktop-guide/C/guide-keeping-safe.xml:327(title)
 msgid "Lock your screen while away"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:326(para)
+#: desktop-guide/C/guide-keeping-safe.xml:329(para)
 msgid ""
 "Locking your screen prevents other people from accessing your computer while "
 "you are away from it. All of your applications and work remain open while "
 "the screen is locked."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:329(para)
+#: desktop-guide/C/guide-keeping-safe.xml:332(para)
 msgid ""
 "To lock the screen, press <placeholder-1/><keycap>Ctrl+Alt+Delete</keycap> "
 "or click <application><menuchoice><placeholder-2/><guimenuitem><placeholder-"
 "3/> Lock Screen</guimenuitem></menuchoice></application>."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:331(para)
+#: desktop-guide/C/guide-keeping-safe.xml:334(para)
 msgid ""
 "To unlock the screen, move the mouse or press a key. Then, type your "
 "password and either press the <placeholder-1/><keycap>Enter</keycap> key or "
 "click the <guibutton>Unlock</guibutton> button."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:334(para)
+#: desktop-guide/C/guide-keeping-safe.xml:337(para)
 msgid ""
 "If more than one person has a user account on your computer and the screen "
 "is locked, other users can press the triangle button to the right of the "
