@@ -26,62 +26,51 @@
 #
 # Optional parameters:
 #	-g Translate for every language listed in po/LINGUAS
-#	-l<language>
-#	-u Update the list of translations in po/LINGUAS
+#	-l <language>
+#	-u Update the list of languages in po/LINGUAS
 #
 
-translate() {
-	lang=$(basename ${1} .po)
-	echo " --Translating ${lang}"
-	mkdir -p ${lang}
-	for i in C/*xml; do
-		xml=$(basename ${i} C/)
-		xml2po --expand-all-entities --po-file po/${lang}.po C/${xml} >${lang}/${xml}
+translate () {
+    for lang in $@; do
+	echo "Translating $lang ..."
+	mkdir -p $lang
+	for xml in C/*.xml; do
+	    xml=$(basename $xml)
+	    xml2po --expand-all-entities --po-file po/$lang.po C/$xml > $lang/$xml
 	done
-	if [ -e C/${document}-C.omf ]; then
-		xml2po --expand-all-entities --po-file ${1} C/${document}-C.omf >${lang}/${document}-${lang}.omf
-		sed -i -e s@\"C\"@\"${lang}\"@g -e s@C/@${lang}/@g ${lang}/${document}-${lang}.omf
-	fi
+    done
 }
 
-choose_language() {
-	if [ ${1} ]; then
-		translate "po/${1}.po"
-	else
-		for x in po/*.po; do
-			translate ${x}
-		done
+shipped_languages () {
+    percreq="70"
+    echo "Updating LINGUAS ..."
+    for po in po/*.po; do
+	percdone=$(msgfmt -o /dev/null --statistics $po 2>&1 | awk '{printf "%.0f\n", $1 / ($1 + $4 + $7) * 100}')
+	if [ "$percdone" -ge "$percreq" ]; then
+	    basename $po .po
 	fi
+    done | tee po/LINGUAS
 }
 
-shipped_languages() {
-percent=70
-for po in po/*.po
-do
-	if [ `msgfmt -o /dev/null --statistics $po 2>&1|awk '{printf("%.0f\n",$1 / ($1 + $4 + $7) * 100)}'` -ge "${percent}" ];then
-		basename $po .po
-	fi
-done | tee po/LINGUAS
-exit
-}
-
-while getopts ":gl:u" Option
-do
-	case ${Option} in
-		g) generated=yes;;
-		l) language=${OPTARG};;
-		u) shipped_languages;;
-		*) echo "Please specify an argument.";;
-	esac
+while getopts ":gl:u" opt; do
+    case $opt in
+	g)
+	    generated="yes";;
+	l)
+	    language=$OPTARG;;
+	u)
+	    shipped_languages
+	    exit;;
+    esac
 done
 
-if [ ${language} ]; then
-	choose_language ${language}
-elif [ ${generated} ] && [ -f po/LINGUAS ];then
-	for language in `cat po/LINGUAS`
-	do
-		choose_language ${language}
-	done
+if [ "$generated" = "yes" ]; then
+    if [ ! -f po/LINGUAS ]; then
+    	shipped_languages
+    fi
+    translate $(cat po/LINGUAS)
+elif [ -n "$language" ]; then
+    translate $language
 else
-		choose_language
+    translate $(basename -s .po -a po/*.po)
 fi
