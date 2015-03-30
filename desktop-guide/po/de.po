@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-03-09 18:34+0200\n"
-"PO-Revision-Date: 2015-03-28 15:22+0000\n"
-"Last-Translator: Pasi Lallinaho <pasi@shimmerproject.org>\n"
+"PO-Revision-Date: 2015-03-29 21:30+0000\n"
+"Last-Translator: Tobias Bannert <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-03-29 05:49+0000\n"
+"X-Launchpad-Export-Date: 2015-03-30 05:48+0000\n"
 "X-Generator: Launchpad (build 17413)\n"
 "Language: de\n"
 
@@ -2238,8 +2238,8 @@ msgid ""
 "You will need to be running the latest regular version to be able to upgrade "
 "to the version currently under development."
 msgstr ""
-"Sie müssen die letzte reguläre Version verwenden, um in der Lage zu sein, "
-"auf die derzeit in Entwicklung befindliche Version zu aktualisieren."
+"Sie müssen die letzte reguläre Version verwenden, um auf die derzeit in "
+"Entwicklung befindliche Version aktualisieren zu können."
 
 #: desktop-guide/C/migrating-upgrading.xml:93(para)
 msgid ""
@@ -2876,8 +2876,8 @@ msgstr ""
 #: desktop-guide/C/managing-applications.xml:69(para)
 msgid "Press <guibutton>Add...</guibutton> to add a new repository."
 msgstr ""
-"Klicken Sie <guibutton>Hinzufügen…</guibutton> um eine zusätzliche "
-"Paketquelle anzugeben."
+"<guibutton>Hinzufügen …</guibutton> betätigen, um eine zusätzliche "
+"Paketquelle hinzuzufügen."
 
 #: desktop-guide/C/managing-applications.xml:70(para)
 msgid ""
@@ -3073,7 +3073,7 @@ msgid ""
 "Press the <guibutton>Add Volume...</guibutton> button; you will be prompted "
 "for your password"
 msgstr ""
-"Drücken Sie den <guibutton>Medium hinzufügen…</guibutton> Knopf; Sie werden "
+"Den Knopf <guibutton>Medium hinzufügen …</guibutton> betätigen; Sie werden "
 "aufgefordert Ihr Passwort einzugeben"
 
 #: desktop-guide/C/managing-applications.xml:110(para)
@@ -4117,8 +4117,8 @@ msgid ""
 "This documentation is maintained by the Xubuntu Documentation team and is "
 "partly adapted from the Ubuntu documentation."
 msgstr ""
-"Diese Dokumentation wird vom Xubuntu Documentation Team gepflegt und ist "
-"teilweise aus Anpassungen der Ubuntu-Dokumentation entstanden."
+"Diese Dokumentation wird von der Xubuntu-Dokumentationsgruppe gepflegt und "
+"ist teilweise aus Anpassungen der Ubuntu-Dokumentation entstanden."
 
 #: desktop-guide/C/index.xml:20(para)
 msgid "The contributors to this documentation are:"
@@ -4227,7 +4227,7 @@ msgid ""
 "A copy of the license is available here: <link linkend=\"cc-by-sa\">Creative "
 "Commons ShareAlike License</link>."
 msgstr ""
-"Eine Kopie der Lizenzbedingungen findet sich unter: <link linkend=\"cc-by-"
+"Eine Kopie der Lizenzbedingungen befindet sich unter: <link linkend=\"cc-by-"
 "sa\">Creative Commons ShareAlike License</link>."
 
 #: desktop-guide/C/index.xml:53(para)
@@ -4256,7 +4256,7 @@ msgstr "2015"
 
 #: desktop-guide/C/index.xml:61(holder)
 msgid "Canonical Ltd. and members of the Xubuntu Documentation team."
-msgstr "Canonical Ltd. und Mitglieder des Xubuntu Dokumentationsteams."
+msgstr "Canonical Ltd. und Mitglieder der Xubuntu-Dokumentationsgruppe."
 
 #: desktop-guide/C/index.xml:65(publishername)
 msgid "The Ubuntu Documentation Project"
@@ -4272,7 +4272,7 @@ msgid ""
 "Xubuntu, including:"
 msgstr ""
 "Diese Dokumentation enthält Informationen zu den häufigsten Sachverhalten "
-"mit Xubuntu, inklusive:"
+"mit Xubuntu, einschließlich:"
 
 #: desktop-guide/C/index.xml:75(para)
 msgid "In addition, this documentation has three quick guides:"
@@ -4297,10 +4297,9 @@ msgid ""
 "see the <ulink url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> "
 "section of the Xubuntu website."
 msgstr ""
-"Falls Sie sich zu Xubuntu beitragen möchten, inklusive dieser Dokumentation, "
-"sehen Sie sich den Abschnitt <ulink "
-"url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> der Xubuntu-"
-"Webseite an."
+"Falls Sie zu Xubuntu beitragen möchten, einschließlich dieser Dokumentation, "
+"bitte den Abschnitt <ulink url=\"http://xubuntu.org/contribute/\">Get "
+"Involved</ulink> der Xubuntu-Internetseite ansehen."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -5415,7 +5414,7 @@ msgid ""
 "good password for those services, since they allow you to avoid typing many "
 "other passwords!"
 msgstr ""
-"<emphasis>Passwortspeicher und -verwaltung</emphasis>. Es ist sinnvoll für "
+"<emphasis>Passwortspeicher und -verwaltungen</emphasis>. Es ist sinnvoll für "
 "solche Dienste ein gutes Passwort zu verwenden, da sie Ihnen das Tippen "
 "vieler weiterer Passwörter vermeiden helfen!"
 
@@ -5582,7 +5581,7 @@ msgid ""
 "Click <guilabel>Change...</guilabel> next to the "
 "<guilabel>Password</guilabel> label"
 msgstr ""
-"Klicken Sie auf <guilabel>Ändern…</guilabel> neben der Beschriftung "
+"Auf <guilabel>Ändern …</guilabel> klicken, neben der Beschriftung "
 "<guilabel>Passwort</guilabel>"
 
 #: desktop-guide/C/guide-keeping-safe.xml:134(para)
@@ -5671,6 +5670,9 @@ msgid ""
 "transfers; also, email services often keep a log of your recent connections "
 "with IP addresses and locations)"
 msgstr ""
+"prüfen Sie kürzliche Vorgänge auf den betroffenen Konten (halten Sie "
+"Ausschau nach Geldüberweisungen; außerdem halten E-Mail-Dienste häufig ein "
+"Protokoll Ihrer kürzlichen Verbindungen mit IP-Adressen und Standorten vor)"
 
 #: desktop-guide/C/guide-keeping-safe.xml:165(para)
 msgid ""
@@ -5679,18 +5681,24 @@ msgid ""
 "email address, which is relatively public information. It does not ask for a "
 "password. Websites that ask for your password will most likely misuse it."
 msgstr ""
+"Geben Sie <emphasis>niemals</emphasis> Ihr <emphasis>Passwort</emphasis> "
+"einer Drittanbieter-Website preis. Es ist in Ordnung die oben genannte "
+"Website zu nutzen, da sie nur nach einer E-Mail-Adresse fragt, was relativ "
+"frei zugängliche Information ist. Sie fragt jedoch nach keinem Passwort. "
+"Websites, die nach Ihrem Passwort fragen, werden dieses höchstwahrscheinlich "
+"missbrauchen."
 
 #: desktop-guide/C/guide-keeping-safe.xml:174(title)
 msgid "What about password managers?"
-msgstr "Was ist mit Paketverwaltungen?"
+msgstr "Was ist mit Passwortverwaltungen?"
 
 #: desktop-guide/C/guide-keeping-safe.xml:176(para)
 msgid ""
 "Password managers are a very convenient way of using many unique passwords "
 "without having to remember them all!"
 msgstr ""
-"Paketverwaltungen sind eine sehr bequeme Art, viele einzigartige Passwörter "
-"zu verwenden, ohne sich an alle erinnern zu müssen!"
+"Passwortverwaltungen sind eine sehr bequeme Art, viele einzigartige "
+"Passwörter zu verwenden, ohne sich an alle erinnern zu müssen!"
 
 #: desktop-guide/C/guide-keeping-safe.xml:179(para)
 msgid ""
@@ -5698,8 +5706,8 @@ msgid ""
 "Software Center</application>, including <application>KeePassX</application> "
 "and <application>PaSaffe</application>."
 msgstr ""
-"Es stehen einige Paketverwaltungen im <application>Ubuntu-Software-"
-"Center</application> zur Verfügung, einschließlich "
+"Es sind einige Passwortverwaltungen im <application>Ubuntu Software-"
+"Center</application> verfügbar, einschließlich "
 "<application>KeePassX</application> und <application>PaSaffe</application>."
 
 #: desktop-guide/C/guide-keeping-safe.xml:184(para)
@@ -5709,18 +5717,18 @@ msgid ""
 "computers. You should be aware of a few limitations, if you decide to use a "
 "password manager:"
 msgstr ""
-"Manche Paketverwaltungen, wie <application>KeePassX</application>, können "
+"Manche Passwortverwaltungen, wie <application>KeePassX</application>, können "
 "Ihre Passwörter über mehrere Geräte hinweg synchronisieren, einschließlich "
 "Windows- oder OS-X-Rechner. Sie sollten sich jedoch über einige "
 "Einschränkungen im Klaren sein, wenn Sie sich für die Nutzung einer "
-"Paketverwaltung entscheiden:"
+"Passwortverwaltung entscheiden:"
 
 #: desktop-guide/C/guide-keeping-safe.xml:189(para)
 msgid ""
 "Online password managers can be hacked too. Do not store your email or bank "
 "passwords in a password manager."
 msgstr ""
-"Internetpasswortverwaltungen können auch gehackt werden. Speichern Sie in "
+"Online-Passwortverwaltungen können auch gehackt werden. Speichern Sie in "
 "einer Passwortverwaltung keine Passwörter Ihrer E-Mail- oder Bankkonten."
 
 #: desktop-guide/C/guide-keeping-safe.xml:190(para)
@@ -5739,8 +5747,8 @@ msgid ""
 "Proprietary password managers should not be trusted. Nobody knows what they "
 "do with your passwords."
 msgstr ""
-"Proprietären Paketverwaltungen sollte man nicht vertrauen. Niemand weiß, was "
-"diese mit Ihren Passwörtern machen."
+"Proprietären Passwortverwaltungen sollte man nicht vertrauen. Niemand weiß, "
+"was diese mit Ihren Passwörtern machen."
 
 #: desktop-guide/C/guide-keeping-safe.xml:192(para)
 msgid ""
@@ -5749,7 +5757,7 @@ msgid ""
 "memorable password instead of a random password."
 msgstr ""
 "Möglicherweise müssen Sie auf einige Konten von Geräten Ihrer Freunde oder "
-"Familie aus zugreifen. Für solche Konten können Sie Ihrer Paketverwaltung "
+"Familie aus zugreifen. Für solche Konten können Sie Ihrer Passwortverwaltung "
 "sagen, ein bestimmtes und einprägsames Passwort anstatt eines zufälligen zu "
 "verwenden."
 
@@ -5758,7 +5766,7 @@ msgid ""
 "If you keep the above advice in mind, password managers can be a great way "
 "to stay more secure, more easily!"
 msgstr ""
-"Wenn Sie die obigen Ratschläge befolgen, können Paketverwaltungen eine "
+"Wenn Sie die obigen Ratschläge befolgen, können Passwortverwaltungen eine "
 "großartige Art sein, auf einfache Art und Weise sicher zu sein!"
 
 #: desktop-guide/C/guide-keeping-safe.xml:200(title)
@@ -5768,6 +5776,8 @@ msgstr "Hinweise für gute Online-Sicherheit"
 #: desktop-guide/C/guide-keeping-safe.xml:203(title)
 msgid "Do not run scripts or install applications from unknown sources"
 msgstr ""
+"Vermeiden Sie die Ausführung von Skripten oder Installation von Anwendungen "
+"aus unbekannten Quellen"
 
 #: desktop-guide/C/guide-keeping-safe.xml:206(para)
 msgid "Install applications from the repository whenever possible."
@@ -5781,10 +5791,16 @@ msgid ""
 "what the script does. Be especially wary of scripts that require root "
 "access, as they could compromise other users' accounts."
 msgstr ""
+"Wenn Sie ein Skript ausführen, das Sie auf einer Fehlerdiagnose- oder "
+"Support-Website gefunden oder auf IRC bekommen haben, nehmen Sie sich einen "
+"Moment Zeit, es sich anzusehen, oder bitten Sie einen Dritten um "
+"Bestätigung, was das Skript tut. Seien Sie besonders vorsichtig bei "
+"Skripten, die Root-Zugriff erfordern, da sie auch Konten anderer Nutzer "
+"beeinträchtigen könnten."
 
 #: desktop-guide/C/guide-keeping-safe.xml:212(title)
 msgid "Keep your browser clean for sensitive activities"
-msgstr ""
+msgstr "Halten Sie Ihren Browser für sensible Tätigkeiten sauber"
 
 #: desktop-guide/C/guide-keeping-safe.xml:214(para)
 msgid ""
@@ -5794,15 +5810,24 @@ msgid ""
 "activity online for advertising, abuse your social media accounts or steal "
 "your money."
 msgstr ""
+"Webbrowser-Erweiterungen sind eine unter Hackern verbreitete Methode um "
+"Nutzern zu schaden. Sie sind für Linux besonders von Bedeutung, da sie mit "
+"allen Plattformen kompatibel sind. Bösartige Erweiterungen könnten Ihre "
+"Passwörter stehlen, Ihre Online-Aktivitäten für Werbung beobachten, Ihre "
+"Konten bei Sozialen Netzwerken missbrauchen oder Ihr Geld stehlen."
 
 #: desktop-guide/C/guide-keeping-safe.xml:219(para)
 msgid "You can take measures to limit the risks you expose yourself to:"
 msgstr ""
+"Sie können Maßnahmen ergreifen um das Risiko, dem Sie sich aussetzen, zu "
+"begrenzen:"
 
 #: desktop-guide/C/guide-keeping-safe.xml:221(para)
 msgid ""
 "Never install an extension that is not distributed by your browser vendor"
 msgstr ""
+"Installieren Sie nie eine Erweiterung, die nicht von Ihrem Browser-"
+"Hersteller bereitgestellt wird"
 
 #: desktop-guide/C/guide-keeping-safe.xml:223(para)
 msgid ""
@@ -5812,12 +5837,21 @@ msgid ""
 "remove-firefox-profiles\">Use the Profile Manager to create and remove "
 "Firefox profiles</ulink>)."
 msgstr ""
+"In Firefox: Verwenden Sie ein separates Benutzerkonto für sensible "
+"Tätigkeiten wie Bankgeschäfte und Online-Shopping. Firefox-Benutzerprofile "
+"teilen sich nicht die Erweiterungen (Lesen Sie <ulink "
+"url=\"https://support.mozilla.org/de/kb/firefox-profile-erstellen-und-"
+"loeschen\">Firefox-Profile mithilfe des Profil-Managers erstellen und "
+"löschen</ulink>)."
 
 #: desktop-guide/C/guide-keeping-safe.xml:224(para)
 msgid ""
 "On Chrome and other browsers, use the Incognito mode for sensitive "
 "activities like banking and e-shopping. Incognito mode disables extensions."
 msgstr ""
+"In Chrome und anderen Browsern: Nutzen Sie den Inkognito-Modus für sensible "
+"Tätigkeiten wie Bankgeschäfte und Online-Shopping. Der Inkognito-Modus "
+"deaktiviert standardmäßig alle Erweiterungen."
 
 #: desktop-guide/C/guide-keeping-safe.xml:229(title)
 msgid "Remember email security"
@@ -5845,14 +5879,17 @@ msgstr ""
 #: desktop-guide/C/guide-keeping-safe.xml:238(title)
 msgid "Consider firewalls if your computer hosts Internet services"
 msgstr ""
-"Erwägen Sie die Verwendung einer Firewall, wenn Ihre Rechner Internetdienste "
-"zur Verfügung stellt"
+"Erwägen Sie die Verwendung einer Firewall, wenn Ihr Rechner Internetdienste "
+"bereitstellt"
 
 #: desktop-guide/C/guide-keeping-safe.xml:240(para)
 msgid ""
 "If you run public facing Internet services, or are not on a NAT, you should "
 "consider using a firewall. Most home users are not concerned by this measure."
 msgstr ""
+"Wenn Sie öffentlich zugängliche Internetdienste anbieten oder nicht hinter "
+"einem NAT-Router sind, sollten Sie erwägen eine Firewall zu verwenden. Die "
+"meisten Heimanwender sind hiervon nicht betroffen."
 
 #: desktop-guide/C/guide-keeping-safe.xml:243(para)
 msgid ""
@@ -5922,6 +5959,10 @@ msgid ""
 "<application>Dejà Dup</application> and "
 "<application>luckyBackup</application>."
 msgstr ""
+"Es sind zahlreiche auf Datensicherung spezialisierte Anwendungen im "
+"<application>Ubuntu Software-Center</application> verfügbar, einschließlich "
+"<application>Dejà Dup</application> und "
+"<application>luckyBackup</application>."
 
 #: desktop-guide/C/guide-keeping-safe.xml:284(para)
 msgid ""
@@ -5929,6 +5970,10 @@ msgid ""
 "encrypt your documents and upload an encrypted archive. This will prevent "
 "the online services staff from accessing your documents."
 msgstr ""
+"Wenn Sie Online-Speicherdienste wie Dropbox nutzen, ist es eine gute Idee "
+"vorher Ihre Dokumente zu verschlüsseln und eine verschlüsselte Archivdatei "
+"hochzuladen. Dies verhindert, dass Online-Dienst-Mitarbeiter auf Ihre "
+"Dokumente zugreifen."
 
 #: desktop-guide/C/guide-keeping-safe.xml:288(para)
 msgid ""
@@ -6619,7 +6664,7 @@ msgstr "Hängt zwei oder mehrere Dateien aneinander"
 #: desktop-guide/C/command-line.xml:49(userinput)
 #, no-wrap
 msgid "cat [file1] [file2] ... &gt; [output file]"
-msgstr "cat [Datei1] [Datei2] ... &gt; [Ausgabedatei]"
+msgstr "cat [Datei1] [Datei2] … &gt; [Ausgabedatei]"
 
 #: desktop-guide/C/command-line.xml:50(userinput)
 #, no-wrap
@@ -6643,7 +6688,7 @@ msgstr "cp"
 #: desktop-guide/C/command-line.xml:51(seg)
 msgid "Copies a file (or files) to a directory or to overwrite another file"
 msgstr ""
-"Kopiet eine Datei (oder mehrere Dateien) in ein Verzeichnis oder "
+"Kopiert eine Datei (oder mehrere Dateien) in ein Verzeichnis oder "
 "überschreibt eine andere Datei"
 
 #: desktop-guide/C/command-line.xml:51(userinput)
@@ -6948,8 +6993,8 @@ msgid ""
 "Select the user whose account type you want to change and press the "
 "<guibutton>Change...</guibutton> button"
 msgstr ""
-"Wählen Sie den Benutzer, dessen Kontentyp Sie ändern möchten und klicken Sie "
-"auf den <guibutton>Ändern…</guibutton>–Knopf"
+"Den Benutzer auswählen, dessen Kontentyp Sie ändern möchten und auf den "
+"Knopf <guibutton>Ändern …</guibutton> klicken"
 
 #: desktop-guide/C/administrative-tasks.xml:47(para)
 msgid "Enter your password if prompted to do so"
