@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-03-20 02:49+0200\n"
-"PO-Revision-Date: 2015-03-28 15:22+0000\n"
+"PO-Revision-Date: 2015-03-29 13:18+0000\n"
 "Last-Translator: Pasi Lallinaho <pasi@shimmerproject.org>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-03-29 05:47+0000\n"
+"X-Launchpad-Export-Date: 2015-03-30 05:45+0000\n"
 "X-Generator: Launchpad (build 17413)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -2763,8 +2763,8 @@ msgstr ""
 #: desktop-guide/C/managing-applications.xml:69(para)
 msgid "Press <guibutton>Add...</guibutton> to add a new repository."
 msgstr ""
-"Klicken Sie <guibutton>Hinzufügen…</guibutton> um eine zusätzliche "
-"Paketquelle anzugeben."
+"<guibutton>Hinzufügen …</guibutton> betätigen, um eine zusätzliche "
+"Paketquelle hinzuzufügen."
 
 #: desktop-guide/C/managing-applications.xml:70(para)
 msgid ""
@@ -2960,7 +2960,7 @@ msgid ""
 "Press the <guibutton>Add Volume...</guibutton> button; you will be prompted "
 "for your password"
 msgstr ""
-"Drücken Sie den <guibutton>Medium hinzufügen…</guibutton> Knopf; Sie werden "
+"Den Knopf <guibutton>Medium hinzufügen …</guibutton> betätigen; Sie werden "
 "aufgefordert Ihr Passwort einzugeben"
 
 #: desktop-guide/C/managing-applications.xml:110(para)
@@ -4009,7 +4009,7 @@ msgid ""
 "A copy of the license is available here: <link linkend=\"cc-by-sa\">Creative "
 "Commons ShareAlike License</link>."
 msgstr ""
-"Eine Kopie der Lizenzbedingungen findet sich unter: <link linkend=\"cc-by-"
+"Eine Kopie der Lizenzbedingungen befindet sich unter: <link linkend=\"cc-by-"
 "sa\">Creative Commons ShareAlike License</link>."
 
 #: desktop-guide/C/index.xml:53(para)
@@ -4034,7 +4034,7 @@ msgstr "2014"
 
 #: desktop-guide/C/index.xml:61(holder)
 msgid "Canonical Ltd. and members of the Xubuntu Documentation team."
-msgstr "Canonical Ltd. und Mitglieder des Xubuntu Dokumentationsteams."
+msgstr "Canonical Ltd. und Mitglieder der Xubuntu-Dokumentationsgruppe."
 
 #: desktop-guide/C/index.xml:65(publishername)
 msgid "The Ubuntu Documentation Project"
@@ -4075,10 +4075,9 @@ msgid ""
 "see the <ulink url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> "
 "section of the Xubuntu website."
 msgstr ""
-"Falls Sie sich zu Xubuntu beitragen möchten, inklusive dieser Dokumentation, "
-"sehen Sie sich den Abschnitt <ulink "
-"url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> der Xubuntu-"
-"Webseite an."
+"Falls Sie zu Xubuntu beitragen möchten, einschließlich dieser Dokumentation, "
+"bitte den Abschnitt <ulink url=\"http://xubuntu.org/contribute/\">Get "
+"Involved</ulink> der Xubuntu-Internetseite ansehen."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -5115,7 +5114,7 @@ msgid ""
 "Click <guilabel>Change...</guilabel> next to the "
 "<guilabel>Password</guilabel> label"
 msgstr ""
-"Klicken Sie auf <guilabel>Ändern…</guilabel> neben der Beschriftung "
+"Auf <guilabel>Ändern …</guilabel> klicken, neben der Beschriftung "
 "<guilabel>Passwort</guilabel>"
 
 #: desktop-guide/C/guide-keeping-safe.xml:134(para)
@@ -5347,6 +5346,10 @@ msgid ""
 "<application>Dejà Dup</application> and "
 "<application>luckyBackup</application>."
 msgstr ""
+"Es sind zahlreiche auf Datensicherung spezialisierte Anwendungen im "
+"<application>Ubuntu Software-Center</application> verfügbar, einschließlich "
+"<application>Dejà Dup</application> und "
+"<application>luckyBackup</application>."
 
 #: desktop-guide/C/guide-keeping-safe.xml:272(para)
 msgid "General advice on how to keep good backups:"
@@ -5952,7 +5955,7 @@ msgstr "Hängt zwei oder mehrere Dateien aneinander"
 #: desktop-guide/C/command-line.xml:49(userinput)
 #, no-wrap
 msgid "cat [file1] [file2] ... &gt; [output file]"
-msgstr "cat [Datei1] [Datei2] ... &gt; [Ausgabedatei]"
+msgstr "cat [Datei1] [Datei2] … &gt; [Ausgabedatei]"
 
 #: desktop-guide/C/command-line.xml:50(userinput)
 #, no-wrap
@@ -5976,7 +5979,7 @@ msgstr "cp"
 #: desktop-guide/C/command-line.xml:51(seg)
 msgid "Copies a file (or files) to a directory or to overwrite another file"
 msgstr ""
-"Kopiet eine Datei (oder mehrere Dateien) in ein Verzeichnis oder "
+"Kopiert eine Datei (oder mehrere Dateien) in ein Verzeichnis oder "
 "überschreibt eine andere Datei"
 
 #: desktop-guide/C/command-line.xml:51(userinput)
@@ -6281,8 +6284,8 @@ msgid ""
 "Select the user whose account type you want to change and press the "
 "<guibutton>Change...</guibutton> button"
 msgstr ""
-"Wählen Sie den Benutzer, dessen Kontentyp Sie ändern möchten und klicken Sie "
-"auf den <guibutton>Ändern…</guibutton>–Knopf"
+"Den Benutzer auswählen, dessen Kontentyp Sie ändern möchten und auf den "
+"Knopf <guibutton>Ändern …</guibutton> klicken"
 
 #: desktop-guide/C/administrative-tasks.xml:47(para)
 msgid "Enter your password if prompted to do so"
