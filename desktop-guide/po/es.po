@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-03-09 18:34+0200\n"
+"POT-Creation-Date: 2015-04-03 18:33+0100\n"
 "PO-Revision-Date: 2015-03-13 11:29+0000\n"
 "Last-Translator: Krytarik Raido <Unknown>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-03-14 05:37+0000\n"
-"X-Generator: Launchpad (build 17389)\n"
+"X-Launchpad-Export-Date: 2015-04-04 05:51+0000\n"
+"X-Generator: Launchpad (build 17413)\n"
 "Language: es\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -5315,21 +5315,18 @@ msgstr "¿Cómo reutilizar contraseñas de forma segura?"
 #: desktop-guide/C/guide-keeping-safe.xml:100(para)
 msgid ""
 "While using the same password for multiple accounts is not encouraged, "
-"everybody ends up doing this, even security experts. There is no definitive "
-"agreement among security researchers on how to reduce the risk of reusing "
-"passwords, but you should consider the following:"
+"everybody ends up doing this, even security experts. However, many commonly "
+"used websites get compromised by hackers every year. Some of them might even "
+"purposefully sell their users' passwords to third-parties. There is no "
+"definitive agreement among security researchers on how to reduce the risk of "
+"reusing passwords, but you should consider the following:"
 msgstr ""
-"Mientras que usar la misma contraseña para múltiples cuentas no es lo "
-"recomendable, todo el mundo acaba realizándolo, incluso expertos en "
-"seguridad. No existe un acuerdo definitivo entre investigadores de seguridad "
-"sobre cómo reducir el riesgo de reutilizar contraseñas, pero debería "
-"considerar lo siguiente:"
 
-#: desktop-guide/C/guide-keeping-safe.xml:106(para)
+#: desktop-guide/C/guide-keeping-safe.xml:108(para)
 msgid "Separate your professional password from your personal passwords."
 msgstr "Separe sus contraseñas profesionales de sus contraseñas personales."
 
-#: desktop-guide/C/guide-keeping-safe.xml:107(para)
+#: desktop-guide/C/guide-keeping-safe.xml:109(para)
 msgid ""
 "Avoid mixing passwords between websites where attackers can damage your "
 "reputation and low-value websites."
@@ -5337,13 +5334,13 @@ msgstr ""
 "Evite mezclar contraseñas entre los sitios web donde los atacantes pueden "
 "dañar su reputación y los sitios web de baja importancia."
 
-#: desktop-guide/C/guide-keeping-safe.xml:108(para)
+#: desktop-guide/C/guide-keeping-safe.xml:110(para)
 msgid "Use a password you're willing to lose for sites you do not trust."
 msgstr ""
 "Utilice una contraseña que está dispuesto a perder para los sitios en los "
 "que no confía."
 
-#: desktop-guide/C/guide-keeping-safe.xml:109(para)
+#: desktop-guide/C/guide-keeping-safe.xml:111(para)
 msgid ""
 "Do not \"waste\" passwords on websites you connect to once a year. Make up a "
 "random password and use the \"forgotten password\" feature next time."
@@ -5352,11 +5349,11 @@ msgstr ""
 "año. Cree una contraseña aleatoria y utilice la opción «olvidó su "
 "contraseña» la próxima vez."
 
-#: desktop-guide/C/guide-keeping-safe.xml:114(title)
+#: desktop-guide/C/guide-keeping-safe.xml:116(title)
 msgid "When to change your password?"
 msgstr "¿Cuándo cambiar su contraseña?"
 
-#: desktop-guide/C/guide-keeping-safe.xml:116(para)
+#: desktop-guide/C/guide-keeping-safe.xml:118(para)
 msgid ""
 "You don’t need to change your passwords every other day. In many cases, if "
 "an attacker could steal your password, they will be able to steal it again "
@@ -5366,7 +5363,7 @@ msgstr ""
 "atacante pudiese robar su contraseñas, ellos serán capaces de volver a "
 "robarla otra vez en el futuro."
 
-#: desktop-guide/C/guide-keeping-safe.xml:119(para)
+#: desktop-guide/C/guide-keeping-safe.xml:121(para)
 msgid ""
 "If you do need to change your password, you must pick one that is "
 "<emphasis>actually</emphasis> different from the previous one. For example, "
@@ -5380,15 +5377,15 @@ msgstr ""
 "<literal>mono4</literal>, ¡y será fácil de adivinar para una atacante que ya "
 "ha robado su anterior contraseña!"
 
-#: desktop-guide/C/guide-keeping-safe.xml:127(title)
+#: desktop-guide/C/guide-keeping-safe.xml:129(title)
 msgid "How to change your login password"
 msgstr "Cómo cambiar su contraseña de acceso"
 
-#: desktop-guide/C/guide-keeping-safe.xml:129(para)
+#: desktop-guide/C/guide-keeping-safe.xml:131(para)
 msgid "To change your password, follow the steps below:"
 msgstr "Para cambiar su contraseña, siga los siguientes pasos:"
 
-#: desktop-guide/C/guide-keeping-safe.xml:131(para)
+#: desktop-guide/C/guide-keeping-safe.xml:133(para)
 msgid ""
 "Open <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
 "Settings Manager</guimenuitem><guimenuitem>Users and "
@@ -5398,11 +5395,11 @@ msgstr ""
 "Administrador de configuración</guimenuitem><guimenuitem>Usuarios y "
 "Grupos</guimenuitem></menuchoice></application>"
 
-#: desktop-guide/C/guide-keeping-safe.xml:132(para)
+#: desktop-guide/C/guide-keeping-safe.xml:134(para)
 msgid "Click on your username on the list"
 msgstr "Pulsar sobre el usuario en la lista"
 
-#: desktop-guide/C/guide-keeping-safe.xml:133(para)
+#: desktop-guide/C/guide-keeping-safe.xml:135(para)
 msgid ""
 "Click <guilabel>Change...</guilabel> next to the "
 "<guilabel>Password</guilabel> label"
@@ -5410,15 +5407,15 @@ msgstr ""
 "Pulse <guilabel>Cambiar...</guilabel> al lado de la etiqueta "
 "<guilabel>Contraseña</guilabel>"
 
-#: desktop-guide/C/guide-keeping-safe.xml:134(para)
+#: desktop-guide/C/guide-keeping-safe.xml:136(para)
 msgid "First enter your <guilabel>Current password</guilabel>"
 msgstr "Teclee su <guilabel>Contraseña actual</guilabel>"
 
-#: desktop-guide/C/guide-keeping-safe.xml:135(para)
+#: desktop-guide/C/guide-keeping-safe.xml:137(para)
 msgid "Now you can either"
 msgstr "Ahora ya puede"
 
-#: desktop-guide/C/guide-keeping-safe.xml:137(para)
+#: desktop-guide/C/guide-keeping-safe.xml:139(para)
 msgid ""
 "Generate a random password by selecting <guilabel>Generate random "
 "password</guilabel> and pressing <guibutton>Generate</guibutton>"
@@ -5426,7 +5423,7 @@ msgstr ""
 "Generar una contraseña aleatoria seleccionando <guilabel>Generar contraseña "
 "aleatoria</guilabel> y click <guibutton>Generar</guibutton>"
 
-#: desktop-guide/C/guide-keeping-safe.xml:138(para)
+#: desktop-guide/C/guide-keeping-safe.xml:140(para)
 msgid ""
 "Choose your new password yourself by typing the new password to the "
 "<guilabel>New password</guilabel> and <guilabel>Confirmation</guilabel> "
@@ -5435,13 +5432,13 @@ msgstr ""
 "Escoja su nueva contraseña tecleandola en <guilabel>Nueva "
 "contraseña</guilabel> y <guilabel>Confirmación</guilabel>"
 
-#: desktop-guide/C/guide-keeping-safe.xml:141(para)
+#: desktop-guide/C/guide-keeping-safe.xml:143(para)
 msgid ""
 "Finally, click <guibutton>OK</guibutton> to confirm the password change"
 msgstr ""
 "Finalmente, pulse <guibutton>Aceptar</guibutton> para confirmar los cambios"
 
-#: desktop-guide/C/guide-keeping-safe.xml:143(para)
+#: desktop-guide/C/guide-keeping-safe.xml:145(para)
 msgid ""
 "While it is possible to make Xubuntu log in automatically on boot within the "
 "user dialog, automatic login is highly discouraged because it provides less "
@@ -5452,11 +5449,11 @@ msgstr ""
 "es aconsejable ya que implica menos seguridad para su sistema. Active el "
 "registro automático solo sí confía en cada usuario con acceso al equipo."
 
-#: desktop-guide/C/guide-keeping-safe.xml:151(title)
+#: desktop-guide/C/guide-keeping-safe.xml:153(title)
 msgid "Watch out for stolen passwords occasionally"
 msgstr "Tenga cuidado con las contraseñas robadas ocasionalmente"
 
-#: desktop-guide/C/guide-keeping-safe.xml:153(para)
+#: desktop-guide/C/guide-keeping-safe.xml:155(para)
 msgid ""
 "Websites like <ulink "
 "url=\"https://haveibeenpwned.com/\">haveibeenpwned.com</ulink> can tell you "
@@ -5476,15 +5473,15 @@ msgstr ""
 "hackeados. Cuando se tiene la certeza de que una contraseña ha sido "
 "comprometida, debe:"
 
-#: desktop-guide/C/guide-keeping-safe.xml:161(para)
+#: desktop-guide/C/guide-keeping-safe.xml:163(para)
 msgid "identify all the services where you used that password"
 msgstr "identificar todos los servicios donde utilizaba esta contraseña"
 
-#: desktop-guide/C/guide-keeping-safe.xml:162(para)
+#: desktop-guide/C/guide-keeping-safe.xml:164(para)
 msgid "change your password on all those services"
 msgstr "cambiar su contraseña en todos esos servicios"
 
-#: desktop-guide/C/guide-keeping-safe.xml:163(para)
+#: desktop-guide/C/guide-keeping-safe.xml:165(para)
 msgid ""
 "verify the recent activity on the concerned accounts (watch out for money "
 "transfers; also, email services often keep a log of your recent connections "
@@ -5495,7 +5492,7 @@ msgstr ""
 "electrónico  que a menudo mantienen un registro de sus últimas conexiones "
 "mediante la dirección IP y su localización)"
 
-#: desktop-guide/C/guide-keeping-safe.xml:165(para)
+#: desktop-guide/C/guide-keeping-safe.xml:167(para)
 msgid ""
 "<emphasis>Never</emphasis> reveal your <emphasis>password</emphasis> to a "
 "third-party website. The website above is OK to use because asks for an "
@@ -5509,11 +5506,11 @@ msgstr ""
 "le preguntan acerca de su contraseña suelen realizar en la mayoría de los "
 "casos un mal uso de ella."
 
-#: desktop-guide/C/guide-keeping-safe.xml:174(title)
+#: desktop-guide/C/guide-keeping-safe.xml:176(title)
 msgid "What about password managers?"
 msgstr "¿Qué hay acerca de los administradores de contraseñas?"
 
-#: desktop-guide/C/guide-keeping-safe.xml:176(para)
+#: desktop-guide/C/guide-keeping-safe.xml:178(para)
 msgid ""
 "Password managers are a very convenient way of using many unique passwords "
 "without having to remember them all!"
@@ -5521,7 +5518,7 @@ msgstr ""
 "Los administradores de contraseñas son una forma muy conveniente de utilizar "
 "muchas contraseñas únicas ¡sin tener que recordar todas ellas!"
 
-#: desktop-guide/C/guide-keeping-safe.xml:179(para)
+#: desktop-guide/C/guide-keeping-safe.xml:181(para)
 msgid ""
 "There are several password managers available in the <application>Ubuntu "
 "Software Center</application>, including <application>KeePassX</application> "
@@ -5531,7 +5528,7 @@ msgstr ""
 "<application>Centro de software de Ubuntu</application>, incluyendo "
 "<application>KeePassX</application> y <application>PaSaffe</application>."
 
-#: desktop-guide/C/guide-keeping-safe.xml:184(para)
+#: desktop-guide/C/guide-keeping-safe.xml:186(para)
 msgid ""
 "Some password managers, like <application>KeePassX</application> can "
 "synchronise your passwords across devices, including Windows or OS X "
@@ -5544,7 +5541,7 @@ msgstr ""
 "consciente de algunas limitaciones, si decide utilizar un administrador de "
 "contraseñas:"
 
-#: desktop-guide/C/guide-keeping-safe.xml:189(para)
+#: desktop-guide/C/guide-keeping-safe.xml:191(para)
 msgid ""
 "Online password managers can be hacked too. Do not store your email or bank "
 "passwords in a password manager."
@@ -5553,7 +5550,7 @@ msgstr ""
 "almacene las contraseñas de su correo electrónico o banco en un "
 "administrador de contraseñas."
 
-#: desktop-guide/C/guide-keeping-safe.xml:190(para)
+#: desktop-guide/C/guide-keeping-safe.xml:192(para)
 msgid ""
 "Use a memorable password to unlock your password manager! If you lose that "
 "password, you could end up losing access to all your accounts (another good "
@@ -5564,7 +5561,7 @@ msgstr ""
 "todas sus cuentas (otra buena razón para no almacenar correos electrónicos "
 "en su administrador de contraseñas)."
 
-#: desktop-guide/C/guide-keeping-safe.xml:191(para)
+#: desktop-guide/C/guide-keeping-safe.xml:193(para)
 msgid ""
 "Proprietary password managers should not be trusted. Nobody knows what they "
 "do with your passwords."
@@ -5572,7 +5569,7 @@ msgstr ""
 "Los administradores de contraseñas propietario no son de confianza. Nadie "
 "sabe lo que ellos hacen con sus contraseñas."
 
-#: desktop-guide/C/guide-keeping-safe.xml:192(para)
+#: desktop-guide/C/guide-keeping-safe.xml:194(para)
 msgid ""
 "You may need to use some accounts from your friends or family’s devices. For "
 "those accounts, you can tell your password manager to use a specific and "
@@ -5583,7 +5580,7 @@ msgstr ""
 "contraseñas que use una contraseña memorable en vez de una contraseña "
 "aleatoria."
 
-#: desktop-guide/C/guide-keeping-safe.xml:194(para)
+#: desktop-guide/C/guide-keeping-safe.xml:196(para)
 msgid ""
 "If you keep the above advice in mind, password managers can be a great way "
 "to stay more secure, more easily!"
@@ -5591,19 +5588,19 @@ msgstr ""
 "Si tiene estos consejos en cuenta, los administradores de contraseñas pueden "
 "ser una gran opción para estar más seguro, ¡más fácilmente!"
 
-#: desktop-guide/C/guide-keeping-safe.xml:200(title)
+#: desktop-guide/C/guide-keeping-safe.xml:202(title)
 msgid "Tips for good online security"
 msgstr "Consejos para una buena seguridad en línea"
 
-#: desktop-guide/C/guide-keeping-safe.xml:203(title)
+#: desktop-guide/C/guide-keeping-safe.xml:205(title)
 msgid "Do not run scripts or install applications from unknown sources"
 msgstr "No ejecute scripts o instale aplicaciones de fuentes desconocidas"
 
-#: desktop-guide/C/guide-keeping-safe.xml:206(para)
+#: desktop-guide/C/guide-keeping-safe.xml:208(para)
 msgid "Install applications from the repository whenever possible."
 msgstr "Instale aplicaciones desde el repositorio siempre que sea posible."
 
-#: desktop-guide/C/guide-keeping-safe.xml:207(para)
+#: desktop-guide/C/guide-keeping-safe.xml:209(para)
 msgid ""
 "When running a script found on a troubleshooting or support website or given "
 "to you on IRC, take a moment to look at it, or ask a third-party to confirm "
@@ -5616,11 +5613,11 @@ msgstr ""
 "script. Tenga especial cuidado de los scripts que requieren de acceso como "
 "superusuario, ya que podrían comprometer las cuentas de otros usuarios."
 
-#: desktop-guide/C/guide-keeping-safe.xml:212(title)
+#: desktop-guide/C/guide-keeping-safe.xml:214(title)
 msgid "Keep your browser clean for sensitive activities"
 msgstr "Mantener su navegador limpio para actividades sensibles"
 
-#: desktop-guide/C/guide-keeping-safe.xml:214(para)
+#: desktop-guide/C/guide-keeping-safe.xml:216(para)
 msgid ""
 "Web browser extensions are a popular mechanism among hackers for harming "
 "users. They are especially relevant to Linux, since they are compatible with "
@@ -5634,17 +5631,17 @@ msgstr ""
 "podrían robar sus contraseñas, controlar su actividad en línea para el uso "
 "de publicidad, abusar de sus cuentas de redes sociales o robarle dinero."
 
-#: desktop-guide/C/guide-keeping-safe.xml:219(para)
+#: desktop-guide/C/guide-keeping-safe.xml:221(para)
 msgid "You can take measures to limit the risks you expose yourself to:"
 msgstr "Puede tomar medidas para limitar los riesgos que le exponen:"
 
-#: desktop-guide/C/guide-keeping-safe.xml:221(para)
+#: desktop-guide/C/guide-keeping-safe.xml:223(para)
 msgid ""
 "Never install an extension that is not distributed by your browser vendor"
 msgstr ""
 "Nunca instale una extensión que no se sea distribuida por su navegador"
 
-#: desktop-guide/C/guide-keeping-safe.xml:223(para)
+#: desktop-guide/C/guide-keeping-safe.xml:225(para)
 msgid ""
 "On Firefox, use a separate user profile for sensitive activities like "
 "banking and e-shopping. Firefox user profiles do not share extensions (see "
@@ -5659,7 +5656,7 @@ msgstr ""
 "para-crear-y-eli\">Usar el Administrador de perfiles para crear y eliminar "
 "perfiles de Firefox</ulink>)."
 
-#: desktop-guide/C/guide-keeping-safe.xml:224(para)
+#: desktop-guide/C/guide-keeping-safe.xml:226(para)
 msgid ""
 "On Chrome and other browsers, use the Incognito mode for sensitive "
 "activities like banking and e-shopping. Incognito mode disables extensions."
@@ -5668,11 +5665,11 @@ msgstr ""
 "sensibles como los trámites bancarios o las compras electrónicas. El modo "
 "incógnito desactiva las extensiones."
 
-#: desktop-guide/C/guide-keeping-safe.xml:229(title)
+#: desktop-guide/C/guide-keeping-safe.xml:231(title)
 msgid "Remember email security"
 msgstr "Recuerde la seguridad del correo electrónico"
 
-#: desktop-guide/C/guide-keeping-safe.xml:232(para)
+#: desktop-guide/C/guide-keeping-safe.xml:234(para)
 msgid ""
 "Do not open email attachments from people that you don’t know, or if you "
 "think the content of the email is incoherent or suspicious (for example "
@@ -5682,7 +5679,7 @@ msgstr ""
 "el contenido del correo electrónico es incoherente o sospechoso (por "
 "ejemplo, facturas de personas que nunca ha oído hablar de ellas)."
 
-#: desktop-guide/C/guide-keeping-safe.xml:233(para)
+#: desktop-guide/C/guide-keeping-safe.xml:235(para)
 msgid ""
 "Do not reply to spam. This will inform spammers that your email address is "
 "active, and it will incite them to send you more spam."
@@ -5690,12 +5687,12 @@ msgstr ""
 "No responda al correo basura (spam). Esto informará a los spammers de que su "
 "dirección de correo está activa y les incitará a mandarle más correo basura."
 
-#: desktop-guide/C/guide-keeping-safe.xml:238(title)
+#: desktop-guide/C/guide-keeping-safe.xml:240(title)
 msgid "Consider firewalls if your computer hosts Internet services"
 msgstr ""
 "Considere utilizar cortafuegos si su equipo aloja servicios de internet"
 
-#: desktop-guide/C/guide-keeping-safe.xml:240(para)
+#: desktop-guide/C/guide-keeping-safe.xml:242(para)
 msgid ""
 "If you run public facing Internet services, or are not on a NAT, you should "
 "consider using a firewall. Most home users are not concerned by this measure."
@@ -5704,7 +5701,7 @@ msgstr ""
 "plantearse utilizar un cortafuegos. La mayoría de los usuarios domésticos no "
 "son conscientes de  estas medidas."
 
-#: desktop-guide/C/guide-keeping-safe.xml:243(para)
+#: desktop-guide/C/guide-keeping-safe.xml:245(para)
 msgid ""
 "Understand that firewalls are not very useful in their default settings. You "
 "should consider what you want to achieve and configure the firewall "
@@ -5722,11 +5719,11 @@ msgstr ""
 "Sin embargo, no le protegen ante amenazas desconocidas o recién descubiertas "
 "y no reemplazan la necesidad de instalar actualizaciones de seguridad."
 
-#: desktop-guide/C/guide-keeping-safe.xml:254(title) desktop-guide/C/guide-keeping-safe.xml:274(para)
+#: desktop-guide/C/guide-keeping-safe.xml:256(title) desktop-guide/C/guide-keeping-safe.xml:276(para)
 msgid "Back up on a regular basis"
 msgstr "Respaldar regularmente"
 
-#: desktop-guide/C/guide-keeping-safe.xml:256(para)
+#: desktop-guide/C/guide-keeping-safe.xml:258(para)
 msgid ""
 "A problem that you may occasionally encounter is the unexpected loss of some "
 "of your work and settings for one reason or another. The causes of such data "
@@ -5741,7 +5738,7 @@ msgstr ""
 "error. Se recomienda hacer un respaldo de los archivos importantes "
 "regularmente así que, si encuentra un problema, no perderá los archivos."
 
-#: desktop-guide/C/guide-keeping-safe.xml:262(para)
+#: desktop-guide/C/guide-keeping-safe.xml:264(para)
 msgid ""
 "It is wise to store backup copies of files separately from your computer; "
 "that is, you should make use of some form of file storage which is not "
@@ -5753,7 +5750,7 @@ msgstr ""
 "almacenaje de archivos que no estén conectados al equipo. Algunas opciones "
 "son CD y DVD, discos duros externos, memorias USB y otros equipos en la red."
 
-#: desktop-guide/C/guide-keeping-safe.xml:267(para)
+#: desktop-guide/C/guide-keeping-safe.xml:269(para)
 msgid ""
 "A simple way of backing up your files is to manually copy them to a safe "
 "location (see above) by using the <application>File Browser</application> as "
@@ -5768,11 +5765,11 @@ msgstr ""
 "archivos y empaquetarlos juntos. De forma alternativa, puede utilizar una "
 "aplicación dedicada a copias de respaldo."
 
-#: desktop-guide/C/guide-keeping-safe.xml:272(para)
+#: desktop-guide/C/guide-keeping-safe.xml:274(para)
 msgid "General advice on how to keep good backups:"
 msgstr "Ideas generales sobre el mantenimiento de buenos respaldos:"
 
-#: desktop-guide/C/guide-keeping-safe.xml:275(para)
+#: desktop-guide/C/guide-keeping-safe.xml:277(para)
 msgid ""
 "Always test your backups after you make them to ensure that they have been "
 "made correctly"
@@ -5780,11 +5777,11 @@ msgstr ""
 "Compruebe siempre sus respaldos para asegurarse de que se han realizado "
 "correctamente."
 
-#: desktop-guide/C/guide-keeping-safe.xml:277(para)
+#: desktop-guide/C/guide-keeping-safe.xml:279(para)
 msgid "Label your backups clearly and keep them in a safe place"
 msgstr "Etiquete sus respaldos claramente y guárdelos en un lugar seguro."
 
-#: desktop-guide/C/guide-keeping-safe.xml:280(para)
+#: desktop-guide/C/guide-keeping-safe.xml:282(para)
 msgid ""
 "There are numerous dedicated backup applications available in the "
 "<application>Ubuntu Software Center</application>, including "
@@ -5795,7 +5792,7 @@ msgstr ""
 "de Software Ubuntu</application>, que incluyen <application>Dejà "
 "Dup</application> y <application>luckyBackup</application>.backup"
 
-#: desktop-guide/C/guide-keeping-safe.xml:284(para)
+#: desktop-guide/C/guide-keeping-safe.xml:286(para)
 msgid ""
 "If you use online backup services like Dropbox, it is a good idea to first "
 "encrypt your documents and upload an encrypted archive. This will prevent "
@@ -5805,7 +5802,7 @@ msgstr ""
 "idea cifrar sus documentos  antes de subirlos. Esto impedirá al personal de "
 "los servicios en línea acceder a sus documentos."
 
-#: desktop-guide/C/guide-keeping-safe.xml:288(para)
+#: desktop-guide/C/guide-keeping-safe.xml:290(para)
 msgid ""
 "Backups can also be an effective protection against ransomware, which "
 "encrypts your data and will only decrypt it if you pay the developers. To "
@@ -5819,11 +5816,11 @@ msgstr ""
 "software malicioso, evite instalar aplicaciones desde fuentes desconocidas. "
 "Para más información, mire <xref linkend=\"script-applications-sources\"/>."
 
-#: desktop-guide/C/guide-keeping-safe.xml:296(title)
+#: desktop-guide/C/guide-keeping-safe.xml:298(title)
 msgid "Consider encryption"
 msgstr "Considerar el cifrado"
 
-#: desktop-guide/C/guide-keeping-safe.xml:298(para)
+#: desktop-guide/C/guide-keeping-safe.xml:300(para)
 msgid ""
 "Full disk encryption is a good measure to protect your computers content "
 "should it get stolen. You should consider it if, for instance, your job "
@@ -5837,7 +5834,7 @@ msgstr ""
 "responsabilidades ejecutivas. Recuerde que el cifrado completo del disco no "
 "le protegerá si no apaga su equipo cuando no lo esté usando."
 
-#: desktop-guide/C/guide-keeping-safe.xml:303(para)
+#: desktop-guide/C/guide-keeping-safe.xml:305(para)
 msgid ""
 "The easiest way to enable full disk encryption is to do it during the "
 "installation."
@@ -5845,7 +5842,7 @@ msgstr ""
 "La manera más sencilla de habilitar el cifrado completo del disco es hacerlo "
 "durante la instalación."
 
-#: desktop-guide/C/guide-keeping-safe.xml:305(para)
+#: desktop-guide/C/guide-keeping-safe.xml:307(para)
 msgid ""
 "You can also create encrypted volumes using dedicated software, for example "
 "LUKS. Encrypted volumes can contain arbitrary data of any length. You can "
@@ -5861,15 +5858,15 @@ msgstr ""
 "el resto del tiempo. La descripción de este proceso queda fuera del alcance "
 "de esta documentación, pero hay numerosos tutoriales en línea sobre ello."
 
-#: desktop-guide/C/guide-keeping-safe.xml:315(title)
+#: desktop-guide/C/guide-keeping-safe.xml:317(title)
 msgid "Using your computer in a shared environment"
 msgstr "Utilizar su equipo en una entorno compartido"
 
-#: desktop-guide/C/guide-keeping-safe.xml:318(title)
+#: desktop-guide/C/guide-keeping-safe.xml:320(title)
 msgid "Do not use shared accounts"
 msgstr "No utilice cuentas compartidas"
 
-#: desktop-guide/C/guide-keeping-safe.xml:320(para)
+#: desktop-guide/C/guide-keeping-safe.xml:322(para)
 msgid ""
 "When Xubuntu is installed, it is set up for a single person to use. If more "
 "than one person will use the computer, it is best for each person to have "
@@ -5881,11 +5878,11 @@ msgstr ""
 "usuario. Más información sobre agregar usuarios en <xref linkend=\"users-"
 "groups\"/>."
 
-#: desktop-guide/C/guide-keeping-safe.xml:327(title)
+#: desktop-guide/C/guide-keeping-safe.xml:329(title)
 msgid "Lock your screen while away"
 msgstr "Bloquear la pantalla mientras está ausente"
 
-#: desktop-guide/C/guide-keeping-safe.xml:329(para)
+#: desktop-guide/C/guide-keeping-safe.xml:331(para)
 msgid ""
 "Locking your screen prevents other people from accessing your computer while "
 "you are away from it. All of your applications and work remain open while "
@@ -5894,7 +5891,7 @@ msgstr ""
 "Bloquear la pantalla previene el acceso no autorizado. Todas sus "
 "aplicaciones y tareas permanecen abiertas."
 
-#: desktop-guide/C/guide-keeping-safe.xml:332(para)
+#: desktop-guide/C/guide-keeping-safe.xml:334(para)
 msgid ""
 "To lock the screen, press <placeholder-1/><keycap>Ctrl+Alt+Delete</keycap> "
 "or click <application><menuchoice><placeholder-2/><guimenuitem><placeholder-"
@@ -5905,7 +5902,7 @@ msgstr ""
 "<application><menuchoice><placeholder-2/><guimenuitem><placeholder-3/> "
 "Bloquear pantalla</guimenuitem></menuchoice></application>."
 
-#: desktop-guide/C/guide-keeping-safe.xml:334(para)
+#: desktop-guide/C/guide-keeping-safe.xml:336(para)
 msgid ""
 "To unlock the screen, move the mouse or press a key. Then, type your "
 "password and either press the <placeholder-1/><keycap>Enter</keycap> key or "
@@ -5915,7 +5912,7 @@ msgstr ""
 "teclee su contraseña y <placeholder-1/><keycap>Intro</keycap> o clic en el "
 "botón <guibutton>Desbloquear</guibutton>"
 
-#: desktop-guide/C/guide-keeping-safe.xml:337(para)
+#: desktop-guide/C/guide-keeping-safe.xml:339(para)
 msgid ""
 "If more than one person has a user account on your computer and the screen "
 "is locked, other users can press the triangle button to the right of the "
