@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-03-20 02:49+0200\n"
-"PO-Revision-Date: 2015-03-29 13:18+0000\n"
-"Last-Translator: Pasi Lallinaho <pasi@shimmerproject.org>\n"
+"PO-Revision-Date: 2015-04-03 11:10+0000\n"
+"Last-Translator: Krytarik Raido <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-03-30 05:45+0000\n"
+"X-Launchpad-Export-Date: 2015-04-04 05:47+0000\n"
 "X-Generator: Launchpad (build 17413)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -5072,7 +5072,7 @@ msgstr "Teilen Sie ihr Benutzerkonto nicht zusammen mit anderen Personen"
 msgid "Keep your software up-to-date"
 msgstr "Halten Sie Ihre Software aktuell"
 
-#: desktop-guide/C/guide-keeping-safe.xml:327(title)
+#: desktop-guide/C/guide-keeping-safe.xml:329(title)
 msgid "Lock your screen while away"
 msgstr "Sperren Sie Ihren Bildschirm während Ihrer Abwesenheit"
 
@@ -5084,7 +5084,7 @@ msgstr "Richten Sie eine Firewall ein"
 msgid "Use common sense when working in the web"
 msgstr "Benutzen Sie gesunden Menschenverstand beim Arbeiten im Internet"
 
-#: desktop-guide/C/guide-keeping-safe.xml:254(title) desktop-guide/C/guide-keeping-safe.xml:274(para)
+#: desktop-guide/C/guide-keeping-safe.xml:256(title) desktop-guide/C/guide-keeping-safe.xml:276(para)
 msgid "Back up on a regular basis"
 msgstr "Fertigen Sie regelmäßig Datensicherungen an"
 
@@ -5094,7 +5094,7 @@ msgid ""
 "regularly. To change your password, follow the steps below:"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:131(para)
+#: desktop-guide/C/guide-keeping-safe.xml:133(para)
 msgid ""
 "Open <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
 "Settings Manager</guimenuitem><guimenuitem>Users and "
@@ -5105,11 +5105,11 @@ msgstr ""
 "Einstellungen</guimenuitem><guimenuitem>Benutzer und "
 "Gruppen</guimenuitem></menuchoice></application>"
 
-#: desktop-guide/C/guide-keeping-safe.xml:132(para)
+#: desktop-guide/C/guide-keeping-safe.xml:134(para)
 msgid "Click on your username on the list"
 msgstr "Klicken Sie in der Liste auf ihren Benutzernamen"
 
-#: desktop-guide/C/guide-keeping-safe.xml:133(para)
+#: desktop-guide/C/guide-keeping-safe.xml:135(para)
 msgid ""
 "Click <guilabel>Change...</guilabel> next to the "
 "<guilabel>Password</guilabel> label"
@@ -5117,15 +5117,15 @@ msgstr ""
 "Auf <guilabel>Ändern …</guilabel> klicken, neben der Beschriftung "
 "<guilabel>Passwort</guilabel>"
 
-#: desktop-guide/C/guide-keeping-safe.xml:134(para)
+#: desktop-guide/C/guide-keeping-safe.xml:136(para)
 msgid "First enter your <guilabel>Current password</guilabel>"
 msgstr "Geben Sie zuerst ihr<guilabel>aktuelles Passwort</guilabel> ein."
 
-#: desktop-guide/C/guide-keeping-safe.xml:135(para)
+#: desktop-guide/C/guide-keeping-safe.xml:137(para)
 msgid "Now you can either"
 msgstr "Nun können Sie entweder"
 
-#: desktop-guide/C/guide-keeping-safe.xml:137(para)
+#: desktop-guide/C/guide-keeping-safe.xml:139(para)
 msgid ""
 "Generate a random password by selecting <guilabel>Generate random "
 "password</guilabel> and pressing <guibutton>Generate</guibutton>"
@@ -5134,7 +5134,7 @@ msgstr ""
 "erzeugen</guilabel> auswählen und den Knopf <guibutton>Erzeugen</guibutton> "
 "drücken."
 
-#: desktop-guide/C/guide-keeping-safe.xml:138(para)
+#: desktop-guide/C/guide-keeping-safe.xml:140(para)
 msgid ""
 "Choose your new password yourself by typing the new password to the "
 "<guilabel>New password</guilabel> and <guilabel>Confirmation</guilabel> "
@@ -5144,14 +5144,14 @@ msgstr ""
 "<guilabel>Neues Passwort</guilabel> und <guilabel>Bestätigung</guilabel> "
 "eingeben"
 
-#: desktop-guide/C/guide-keeping-safe.xml:141(para)
+#: desktop-guide/C/guide-keeping-safe.xml:143(para)
 msgid ""
 "Finally, click <guibutton>OK</guibutton> to confirm the password change"
 msgstr ""
 "Klicken Sie zum Abschluss auf den Knopf <guibutton>OK</guibutton>, um die "
 "Passwortänderung zu bestätigen."
 
-#: desktop-guide/C/guide-keeping-safe.xml:143(para)
+#: desktop-guide/C/guide-keeping-safe.xml:145(para)
 msgid ""
 "While it is possible to make Xubuntu log in automatically on boot within the "
 "user dialog, automatic login is highly discouraged because it provides less "
@@ -5168,7 +5168,7 @@ msgstr ""
 msgid "Don't use shared accounts"
 msgstr "Verwenden Sie Benutzerkonten nicht zusammen mit anderen Personen"
 
-#: desktop-guide/C/guide-keeping-safe.xml:320(para)
+#: desktop-guide/C/guide-keeping-safe.xml:322(para)
 msgid ""
 "When Xubuntu is installed, it is set up for a single person to use. If more "
 "than one person will use the computer, it is best for each person to have "
@@ -5180,28 +5180,39 @@ msgstr ""
 "Person ein eigenes Benutzerkonto einzurichten. Um mehr über das Hinzufügen "
 "von Benutzerkonten zu erfahren, lesen Sie <xref linkend=\"users-groups\"/>."
 
-#: desktop-guide/C/guide-keeping-safe.xml:329(para)
+#: desktop-guide/C/guide-keeping-safe.xml:331(para)
 msgid ""
 "Locking your screen prevents other people from accessing your computer while "
 "you are away from it. All of your applications and work remain open while "
 "the screen is locked."
 msgstr ""
+"Ihren Bildschirm zu sperren hindert andere Leute auf Ihren Rechner "
+"zuzugreifen während Sie von ihm weg sind. All Ihre Anwendungen und Arbeit "
+"bleiben geöffnet während der Bildschirm gesperrt ist."
 
-#: desktop-guide/C/guide-keeping-safe.xml:332(para)
+#: desktop-guide/C/guide-keeping-safe.xml:334(para)
 msgid ""
 "To lock the screen, press <placeholder-1/><keycap>Ctrl+Alt+Delete</keycap> "
 "or click <application><menuchoice><placeholder-2/><guimenuitem><placeholder-"
 "3/> Lock Screen</guimenuitem></menuchoice></application>."
 msgstr ""
+"Um den Bildschirm zu sperren, drücken Sie <placeholder-"
+"1/><keycap>Strg+Alt+Entf</keycap> oder klicken "
+"<application><menuchoice><placeholder-2/><guimenuitem><placeholder-3/> "
+"Bildschirm sperren</guimenuitem></menuchoice></application>."
 
-#: desktop-guide/C/guide-keeping-safe.xml:334(para)
+#: desktop-guide/C/guide-keeping-safe.xml:336(para)
 msgid ""
 "To unlock the screen, move the mouse or press a key. Then, type your "
 "password and either press the <placeholder-1/><keycap>Enter</keycap> key or "
 "click the <guibutton>Unlock</guibutton> button."
 msgstr ""
+"Um den Bildschirm zu entsperren, bewegen Sie die Maus oder drücken eine "
+"Taste. Geben Sie dann Ihr Passwort ein und drücken entweder die <placeholder-"
+"1/><keycap>Enter</keycap>-Taste oder klicken den "
+"<guibutton>Entsperren</guibutton>-Knopf."
 
-#: desktop-guide/C/guide-keeping-safe.xml:337(para)
+#: desktop-guide/C/guide-keeping-safe.xml:339(para)
 msgid ""
 "If more than one person has a user account on your computer and the screen "
 "is locked, other users can press the triangle button to the right of the "
@@ -5210,6 +5221,13 @@ msgid ""
 "your currently open work and you will be able to switch back to your locked "
 "session when they have finished using the computer."
 msgstr ""
+"Wenn mehr als eine Person ein Benutzerkonto auf Ihrem Rechner hat und der "
+"Bildschirm ist gesperrt, können andere Benutzer den Dreiecksknopf rechts vom "
+"Benutzernamen klicken, ihren Namen aus der Liste wählen und ihr Passwort "
+"eingeben, sogar während der Bildschirm gesperrt ist. Diese können jedoch "
+"nicht auf Ihre derzeit geöffnete Arbeit zugreifen und Sie können zu Ihrer "
+"gesperrten Sitzung zurückgehen, wenn diese die Nutzung des Rechners beendet "
+"haben."
 
 #: desktop-guide/C/guide-keeping-safe.xml:81(para)
 msgid ""
@@ -5311,7 +5329,7 @@ msgid ""
 "service, asking you to enter your personal and financial details or passwords"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:256(para)
+#: desktop-guide/C/guide-keeping-safe.xml:258(para)
 msgid ""
 "A problem that you may occasionally encounter is the unexpected loss of some "
 "of your work and settings for one reason or another. The causes of such data "
@@ -5320,8 +5338,15 @@ msgid ""
 "backup copies of your important files so that, if you do encounter a "
 "problem, you will not have lost those files."
 msgstr ""
+"Ein Problem, das Sie gelegentlich erfahren können, ist der unerwartete "
+"Verlust einiger Ihrer Arbeit und Einstellungen aus dem einen oder anderen "
+"Grund. Die Ursachen solchen Datenverlusts sind zahlreich und vielfältig; sie "
+"können alles Mögliche sein vom Stromausfall bis zum versehentlichen Löschen "
+"einer Datei. Es ist strengstens empfohlen, dass Sie regelmäßig "
+"Sicherheitskopien Ihrer wichtigen Dateien anfertigen, sodass Sie diese bei "
+"Auftreten eines Problems nicht verlieren."
 
-#: desktop-guide/C/guide-keeping-safe.xml:262(para)
+#: desktop-guide/C/guide-keeping-safe.xml:264(para)
 msgid ""
 "It is wise to store backup copies of files separately from your computer; "
 "that is, you should make use of some form of file storage which is not "
@@ -5329,6 +5354,11 @@ msgid ""
 "to writable CDs and DVDs, external hard disks, USB disks and other computers "
 "on the network."
 msgstr ""
+"Es ist klug Sicherheitskopien getrennt von Ihrem Rechner aufzubewahren; das "
+"heißt, Sie sollten eine Art von Datenspeicher nutzen, die nicht dauernd mit "
+"Ihrem Rechner verbunden ist. Die Möglichkeiten umfassen, sind aber nicht "
+"beschränkt auf, beschreibbare CDs und DVDs, externe Festplatten, USB-"
+"Speicher und andere Rechner im Netzwerk."
 
 #: desktop-guide/C/guide-keeping-safe.xml:149(para)
 msgid ""
@@ -5339,7 +5369,7 @@ msgid ""
 "application."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:280(para)
+#: desktop-guide/C/guide-keeping-safe.xml:282(para)
 msgid ""
 "There are numerous dedicated backup applications available in the "
 "<application>Ubuntu Software Center</application>, including "
@@ -5351,11 +5381,11 @@ msgstr ""
 "<application>Dejà Dup</application> und "
 "<application>luckyBackup</application>."
 
-#: desktop-guide/C/guide-keeping-safe.xml:272(para)
+#: desktop-guide/C/guide-keeping-safe.xml:274(para)
 msgid "General advice on how to keep good backups:"
 msgstr "Allgemeine Ratschläge zur Verwahrung guter Datensicherungen:"
 
-#: desktop-guide/C/guide-keeping-safe.xml:275(para)
+#: desktop-guide/C/guide-keeping-safe.xml:277(para)
 msgid ""
 "Always test your backups after you make them to ensure that they have been "
 "made correctly"
@@ -5363,7 +5393,7 @@ msgstr ""
 "Prüfen Sie Ihre Sicherungen immer nach der Erstellung, um sicherzustellen, "
 "dass sie korrekt erstellt wurden."
 
-#: desktop-guide/C/guide-keeping-safe.xml:277(para)
+#: desktop-guide/C/guide-keeping-safe.xml:279(para)
 msgid "Label your backups clearly and keep them in a safe place"
 msgstr ""
 "Beschriften Sie ihre Datensicherungen deutlich und bewahren Sie sie an einem "
@@ -5380,6 +5410,10 @@ msgid ""
 "that make your life easy and it is well worth the time to get to know your "
 "way around it."
 msgstr ""
+"Wenn Ihr Rechner fertig hochgefahren ist und nachdem Sie Ihre Anmeldedaten "
+"eingegeben haben, erreichen Sie die Xubuntu-Arbeitsumgebung. Sie kommt mit "
+"vielen Funktionen, die Ihnen das Leben leicht machen, und es lohnt sich die "
+"Zeit zu nehmen sie kennenzulernen."
 
 #: desktop-guide/C/guide-desktop.xml:19(title)
 msgid "Desktop"
@@ -5425,6 +5459,10 @@ msgid ""
 "configurable. The <guilabel>Menu</guilabel> is also customizable. See <xref "
 "linkend=\"settings-preferences\"/> for more information on those topics."
 msgstr ""
+"Sowohl die Position der Leiste als auch die Objekte, die sie enthält, sind "
+"konfigurierbar. Das <guilabel>Menü</guilabel> ist ebenfalls anpassbar. Lesen "
+"Sie <xref linkend=\"settings-preferences\"/> für nähere Informationen zu "
+"diesen Themen."
 
 #: desktop-guide/C/guide-desktop.xml:34(title)
 msgid "The Desktop"
@@ -5440,6 +5478,15 @@ msgid ""
 "Settings</guimenuitem></menuchoice>. From here you can change the wallpaper "
 "and modify menu and icon behavior."
 msgstr ""
+"Auf dem Schreibtisch befinden sich in der Voreinstellung nur drei Symbole: "
+"<guilabel>Persönlicher Ordner</guilabel>, <guilabel>Dateisystem</guilabel> "
+"und <guilabel>Papierkorb</guilabel> (Symbole für Wechseldatenträger, wie CDs "
+"oder USB-Speicher, erscheinen ebenfalls sofern sie vorhanden sind). Sie "
+"können Ihren Schreibtisch anpassen, indem in einem freien Bereich "
+"rechtsklicken und "
+"<menuchoice><guimenuitem>Schreibtischeinstellungen</guimenuitem></menuchoice>"
+" auswählen. Von hier aus können Sie das Hintergrundbild als auch das "
+"Verhalten von Menü und Symbolen ändern."
 
 #: desktop-guide/C/guide-desktop.xml:46(title)
 msgid "Files and directories"
@@ -5455,6 +5502,14 @@ msgid ""
 "double-clicking the <guilabel>Home</guilabel> or <guilabel>File "
 "System</guilabel> icons on your desktop."
 msgstr ""
+"Xubuntu kommt mit der Dateiverwaltung von Xfce, genannt "
+"<application>Thunar</application>. Der Einfachheit halber verweisen wir "
+"einfach mit Dateiverwaltung auf sie. Laden Sie sie über "
+"<application><menuchoice><placeholder-"
+"1/><guisubmenu>Zubehör</guisubmenu><guimenuitem>Dateiverwaltung</guimenuitem>"
+"</menuchoice></application> oder durch Doppelklicken der Symbole "
+"<guilabel>Persönlicher Ordner</guilabel> oder "
+"<guilabel>Dateisystem</guilabel> auf Ihrem Schreibtisch."
 
 #: desktop-guide/C/guide-desktop.xml:54(title)
 msgid "Navigation"
@@ -6008,11 +6063,11 @@ msgstr "date [Optionen]"
 #: desktop-guide/C/command-line.xml:53(userinput)
 #, no-wrap
 msgid "editor"
-msgstr "Bearbeiter"
+msgstr "editor"
 
 #: desktop-guide/C/command-line.xml:53(seg)
 msgid "Opens a text file in an editor"
-msgstr "Öffnen eine Textdatei in einem Editor"
+msgstr "Öffnet eine Textdatei in einem Editor"
 
 #: desktop-guide/C/command-line.xml:53(userinput)
 #, no-wrap
@@ -6371,6 +6426,7 @@ msgstr ""
 "  Daniel Kessel https://launchpad.net/~dkessel\n"
 "  David Pires https://launchpad.net/~slickymaster\n"
 "  Estellnb-8 https://launchpad.net/~estellnb-8\n"
+"  Jens Maucher https://launchpad.net/~jensmaucher\n"
 "  Krytarik Raido https://launchpad.net/~krytarik\n"
 "  Leopold Stammler https://launchpad.net/~leopold-stammler\n"
 "  Markus J Schmidt https://launchpad.net/~smiddy84\n"
