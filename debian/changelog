@@ -1,4 +1,15 @@
-xubuntu-docs (15.04) UNRELEASED; urgency=medium
+xubuntu-docs (15.04.1) vivid; urgency=medium
+
+  [ Steve Dodier-Lazaro ]
+  * Mentioning the risks of password reuse more clearly
+
+  [ Krytarik Raido ]
+  * Make translation links on startpage use native language names
+  * Normalized appearance of cross references, startpage moved to document root and renamed to 'index.html', main docs' directory changed to 'C'
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 08 Apr 2015 18:44:13 -0400
+
+xubuntu-docs (15.04) vivid; urgency=medium
 
   [ Pasi Lallinaho ]
   * Bump version information to 15.04 Vivid Vervet
@@ -33,13 +44,8 @@ xubuntu-docs (15.04) UNRELEASED; urgency=medium
 
   [ Steve Dodier-Lazaro ]
   * Update the security guide.
-  * Mentioning the risks of password reuse more clearly
 
-  [ Krytarik Raido ]
-  * Make translation links on startpage use native language names
-  * Normalized appearance of cross references, startpage moved to document root and renamed to 'index.html', main docs' directory changed to 'C'
-
- -- Pasi Lallinaho <pasi@shimmerproject.org>  Mon, 09 Mar 2015 13:14:26 +0200
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 09 Mar 2015 20:33:59 -0400
 
 xubuntu-docs (14.10.1) utopic; urgency=medium
 
