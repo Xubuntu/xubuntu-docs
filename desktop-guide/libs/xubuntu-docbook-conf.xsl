@@ -89,4 +89,13 @@
 		<xsl:value-of select="'inline-icon-submenu'"/>
 	</xsl:template>
 
+	<!-- Normalize appearance of cross references -->
+	<xsl:template match="bridgehead|refsection|refsect1|refsect2|refsect3|sect1|sect2
+		|sect3|sect4|sect5|section|simplesect" mode="object.xref.template">
+		<xsl:text>%t</xsl:text>
+	</xsl:template>
+
+	<!-- Disable tooltips on links -->
+	<xsl:template match="*" mode="html.title.attribute"/>
+
 </xsl:stylesheet>

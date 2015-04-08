@@ -1,52 +1,46 @@
 #!/bin/sh
 
-CURDIR=$(pwd)/po/
+build_creds () {
+    for lang in $@; do
+	translators=$(sed -n '/^msgid "translator-credits"/,/^$/ {s@^"[ ]*\(.\+\)[ ]\+https://launchpad.net/~\([^ \\"]\+\).*$@\t<listitem><para>\1 (\2)</para></listitem>@p;/^$/Q}' po/$lang.po | sort -u)
+	if [ -z "$translators" ]; then
+	    translators='\t<listitem><para>Translator data could not be acquired, please see <ulink url="https://translations.launchpad.net/xubuntu-docs">Launchpad</ulink>.</para></listitem>'
+	fi
+	printf "<itemizedlist>\n%b\n</itemizedlist>\n" "$translators" > $lang/translators.xml
+    done
+}
 
-get_languages() {
-if [ "$generated" = yes ];then
-	languages=$(cat po/LINGUAS)
-elif [ -n $language ];then
-	languages=$language
+build_creds_alt () {
+    for lang in $@; do
+	mkdir -p po/mo/$lang/LC_MESSAGES
+	msgfmt -o po/mo/$lang/LC_MESSAGES/xubuntu-docs.mo po/$lang.po
+	translators=$(TEXTDOMAINDIR=po/mo LANGUAGE=$lang gettext -d xubuntu-docs -s 'translator-credits' | \
+	    sed -n 's@^[ ]*\(.\+\)[ ]\+https://launchpad.net/~\([^ ]\+\).*$@\t<listitem><para>\1 (\2)</para></listitem>@p' | sort -u)
+	if [ -z "$translators" ]; then
+	    translators='\t<listitem><para>Translator data could not be acquired, please see <ulink url="https://translations.launchpad.net/xubuntu-docs">Launchpad</ulink>.</para></listitem>'
+	fi
+	printf "<itemizedlist>\n%b\n</itemizedlist>\n" "$translators" > $lang/translators.xml
+    done
+    rm -rf po/mo
+}
+
+while getopts ":gl:" opt; do
+    case $opt in
+	g)
+	    generated="yes";;
+	l)
+	    language=$OPTARG;;
+    esac
+done
+
+if [ "$generated" = "yes" ]; then
+    if [ ! -f po/LINGUAS ]; then
+    	../scripts/translate.sh -u
+    fi
+    build_creds $(cat po/LINGUAS)
+elif [ -n "$language" ]; then
+    build_creds $language
 else
-	languages=$(basename -s.po $CURDIR/*.po)
+    build_creds $(basename -s .po -a po/*.po)
 fi
-}
 
-build_creds() {
-#for lang in `basename -s.po *.po`;do  ## Good for testing, uses all translations it can find.
-echo "<itemizedlist>"
-for lang in $languages;do
-	mkdir -p $CURDIR/mo/$lang/LC_MESSAGES/
-	msgfmt -o $CURDIR/mo/$lang/LC_MESSAGES/xubuntu-docs.mo $CURDIR/$lang.po
-	translators=$(TEXTDOMAINDIR=$CURDIR/mo/ LANGUAGE=$lang gettext -d xubuntu-docs -s 'translator-credits' | \
-		sed -e 's@^  @\t<listitem><para>@' -e '/launchpad.net/s@$@)</para></listitem>@' \
-		-e 's@https://launchpad.net/~@(@' -e /Launchpad\ Contributions/d -e /^translator-credits$/d | sort -u)
-done
-if [ "$translators" = "" ];then
-	echo "<listitem><para>Unable to parse translator data or data unavailable, see <ulink url=\"https://translations.launchpad.net/xubuntu-docs/\">Launchpad</ulink></para></listitem>"
-else
-	echo "$translators"
-fi
-echo "</itemizedlist>"
-rm -rf $CURDIR/mo/
-}
-
-grep_creds() {
-## Don't build, just grep.
-## This is incomplete and unused, potentially helpful later.
-for lang in $languages;do
-	echo  msggrep --msgid -F -e 'translator-credits' $lang.po
-done
-}
-
-while getopts ":gl:" Option
-do
-	case ${Option} in
-		g) generated=yes;;
-		l) language=${OPTARG};;
-		*) echo "Please specify an argument.";;
-	esac
-done
-
-get_languages
-build_creds
