@@ -1,10 +1,14 @@
 # Makefile for the Xubuntu Documentation
-# Ubuntu Documentation Project <ubuntu-doc@lists.ubuntu.com>
+# Xubuntu Project <xubuntu-devel@lists.ubuntu.com>
 
+# Include revision number
 ifneq ($(REVNO),)
     VERSION = 
     VERSION += (Rev. $(REVNO))
 endif
+
+# All available translations
+TRANSALL = $(shell basename -s .po -a desktop-guide/po/*.po)
 
 all: clean startpage html translate
 
@@ -20,34 +24,46 @@ startpage: get-translations
 	done >> build/index.html
 	cat startpage/xubuntu-index-end.htx >> build/index.html
 
-get-translations:
-ifneq ($(wildcard desktop-guide/po/LINGUAS),)
-	cd desktop-guide; \
-	../scripts/translate.sh -u
-    export TRANSLATIONS := $(shell cat desktop-guide/po/LINGUAS)
-    export TRANSOPTS = -g
-else
-    export TRANSLATIONS := $(shell basename -s .po -a desktop-guide/po/*.po)
-endif
+update-translations:
+    ifeq ($(TRANSLATIONS),)
+        ifneq ($(wildcard desktop-guide/po/LINGUAS),)
+		cd desktop-guide; \
+		../scripts/translate.sh -u
+        endif
+    endif
+
+get-translations: update-translations
+    ifeq ($(TRANSLATIONS),)
+        ifneq ($(wildcard desktop-guide/po/LINGUAS),)
+            export TRANSLATIONS = $(shell cat desktop-guide/po/LINGUAS)
+            export TRANSOPTS = -g
+        else
+            export TRANSLATIONS := $(TRANSALL)
+            export TRANSOPTS := -l "$(TRANSLATIONS)"
+        endif
+    else
+        export TRANSLATIONS
+        export TRANSOPTS := -l "$(TRANSLATIONS)"
+    endif
 
 html:
-	make -C desktop-guide html
+	$(MAKE) -C desktop-guide html
 
 epub:
-	make -C desktop-guide epub
+	$(MAKE) -C desktop-guide epub
 
-translate:
-	make -C desktop-guide translate
+translate: get-translations
+	$(MAKE) -C desktop-guide translate
 
-test:
-	make -C desktop-guide test
+test: get-translations
+	$(MAKE) -C desktop-guide test
 
 src-tarball:
 	# exclude archive, backup, and bzr files
 	tar cvfz xubuntu-doc.tar.gz  --exclude="*.tar.gz" --exclude="*~" --exclude "*.bzr*" *
 
 clean:
-	make -C desktop-guide clean
+	$(MAKE) -C desktop-guide clean
 	rm -rf build
 
 .PHONY: startpage

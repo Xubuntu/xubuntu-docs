@@ -1,6 +1,5 @@
 # Makefile for the Xubuntu Documentation
-# Ubuntu Documentation Project <ubuntu-doc@lists.ubuntu.com>
-# Public domain
+# Xubuntu Project <xubuntu-devel@lists.ubuntu.com>
 
 # Xubuntu Docbook Customization Layer
 XUBUNTUXSL = libs/xubuntu-docbook-conf.xsl
@@ -55,16 +54,27 @@ test: get-translations
 		../scripts/validate.sh $$dir/index.xml; \
 	done
 
-get-translations:
-ifeq ($(TRANSLATIONS),)
-    ifneq ($(wildcard po/LINGUAS),)
-	../scripts/translate.sh -u
-        TRANSLATIONS := $(shell cat po/LINGUAS)
-        TRANSOPTS = -g
-    else
-        TRANSLATIONS := $(TRANSALL)
+update-translations:
+    ifeq ($(TRANSLATIONS),)
+        ifneq ($(wildcard po/LINGUAS),)
+		../scripts/translate.sh -u
+        endif
     endif
-endif
+
+get-translations: update-translations
+    ifeq ($(TRANSLATIONS),)
+        ifneq ($(wildcard po/LINGUAS),)
+            TRANSLATIONS = $(shell cat po/LINGUAS)
+            TRANSOPTS = -g
+        else
+            TRANSLATIONS := $(TRANSALL)
+            TRANSOPTS := -l "$(TRANSLATIONS)"
+        endif
+    else
+        ifeq ($(TRANSOPTS),)
+            TRANSOPTS := -l "$(TRANSLATIONS)"
+        endif
+    endif
 
 clean:
-	${RM} -r $(TRANSALL) C/translators.xml
+	rm -rf $(TRANSALL) C/translators.xml

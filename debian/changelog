@@ -1,11 +1,37 @@
-xubuntu-docs (15.04.1) vivid; urgency=medium
+xubuntu-docs (15.04.2) vivid; urgency=medium
 
-  [ Steve Dodier-Lazaro ]
-  * Mentioning the risks of password reuse more clearly
+  [ Krytarik Raido ]
+  * Fix behavior on updating LINGUAS on build time
+  * Update LINGUAS on currently shipped translations
+  * Correct some data in the general contributor credits,
+    and sort those alphabetically too
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 08 Apr 2015 18:44:13 -0400
+
+xubuntu-docs (15.04.1) vivid; urgency=medium
 
   [ Krytarik Raido ]
   * Make translation links on startpage use native language names
-  * Normalized appearance of cross references, startpage moved to document root and renamed to 'index.html', main docs' directory changed to 'C'
+  * Normalize appearance of cross references both throughout
+    the various languages and towards other links
+  * Move startpage from 'about' directory to document root,
+    and rename it to 'index.html'
+  * Add option to include revision on startpage
+  * Change main docs' directory from 'desktop-guide' to 'C'
+  * Change main docs' link on startpage to a relative one
+  * Reduce duplication of 'documentation' on startpage as well,
+    and fix a couple of other things too
+  * Improve reliability and efficiency of creating
+    the translator credits
+  * Overhaul translation script as well
+  * Improve efficiency and modularity of the Makefiles
+  * Adapt appearance of translators reference in the main docs
+    to both the other credits and the translations
+  * Use different clauses heading the translator credits
+    for the main docs and the translations
+
+  [ Steve Dodier-Lazaro ]
+  * Mentioning the risks of password reuse more clearly
 
  -- Sean Davis <smd.seandavis@gmail.com>  Wed, 08 Apr 2015 18:44:13 -0400
 
