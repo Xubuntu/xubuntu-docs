@@ -1,8 +1,12 @@
 xubuntu-docs (15.04.2) vivid; urgency=medium
 
+  * Translation updates.
+    - Include German (de). 
+    - Updates for Finnish (fi), Spanish (es), and French (fr).
+
   [ Krytarik Raido ]
   * Fix behavior on updating LINGUAS at build time
-  * Update LINGUAS on currently shipped translations
+  * Update LINGUAS on currently shipped translations (LP: #1446259)
   * Correct some data in the general contributor credits,
     and sort those alphabetically too
 
