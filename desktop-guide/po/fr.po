@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-04-03 18:33+0100\n"
-"PO-Revision-Date: 2015-03-09 10:37+0000\n"
-"Last-Translator: David Pires <Unknown>\n"
+"PO-Revision-Date: 2015-04-19 18:58+0000\n"
+"Last-Translator: Arnaud LE CAM <alc@lecam-conseil.com>\n"
 "Language-Team: French <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-04-04 05:50+0000\n"
-"X-Generator: Launchpad (build 17413)\n"
+"X-Launchpad-Export-Date: 2015-04-20 06:39+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -306,7 +306,7 @@ msgstr "libnotify-bin"
 
 #: desktop-guide/C/appendix-packages.xml:52(seg)
 msgid "Binaries to send notification bubbles"
-msgstr ""
+msgstr "Binaires d'envoi d'infobulles"
 
 #: desktop-guide/C/appendix-packages.xml:53(seg)
 msgid "light-locker"
@@ -342,7 +342,7 @@ msgstr "xfce4-notifyd"
 
 #: desktop-guide/C/appendix-packages.xml:55(seg)
 msgid "Daemon used to display notification bubbles"
-msgstr ""
+msgstr "Démon utilisé pour afficher des infobulles"
 
 #: desktop-guide/C/appendix-packages.xml:56(seg)
 msgid "xfce4-indicator-plugin"
@@ -1320,27 +1320,29 @@ msgid ""
 "install and operate. This section will walk you through how to use your "
 "scanner and what to do if Xubuntu does not detect your scanner."
 msgstr ""
-"Beaucoup de scanners sont automatiquement pris en charge par Xubuntu et "
-"devraient être faciles à installer et à utiliser. Cette section vous "
-"montrera pas à pas comment utiliser votre scanner et ce qu'il faut faire si "
-"Xubuntu ne le détecte pas."
+"Beaucoup de périphériques de numérisation sont automatiquement pris en "
+"charge par Xubuntu et devraient être faciles à installer et à utiliser. "
+"Cette section vous montrera pas à pas comment utiliser votre périphérique de "
+"numérisation et ce qu'il faut faire si Xubuntu ne le détecte pas."
 
 #: desktop-guide/C/printing-scanning.xml:73(title)
 msgid "Does my scanner work in Xubuntu?"
-msgstr "Est-ce que mon scanner fonctionne sous Xubuntu ?"
+msgstr ""
+"Est-ce que mon périphérique de numérisation fonctionne sous Xubuntu ?"
 
 #: desktop-guide/C/printing-scanning.xml:75(para)
 msgid "There are three ways to see if you scanner works in Xubuntu:"
 msgstr ""
-"Il y a trois façons de voir si votre scanner fonctionne sous Xubuntu :"
+"Il y a trois façons de voir si votre périphérique de numérisation fonctionne "
+"sous Xubuntu :"
 
 #: desktop-guide/C/printing-scanning.xml:78(para)
 msgid ""
 "Simply plug it in and try it! If it is a newer USB scanner, it is likely "
 "that it will just work."
 msgstr ""
-"Il suffit de le brancher et de l'essayer ! S'il s'agit d'un scanner USB plus "
-"récent, il est probable qu'il fonctionnera."
+"Il suffit de le brancher et de l'essayer ! S'il s'agit d'un périphérique de "
+"numérisation USB plus récent, il est probable qu'il fonctionnera."
 
 #: desktop-guide/C/printing-scanning.xml:79(para)
 msgid ""
@@ -1350,7 +1352,7 @@ msgid ""
 msgstr ""
 "Consultez la <ulink "
 "url=\"https://wiki.ubuntu.com/HardwareSupportComponentsScanners\">liste des "
-"scanners pris en charge</ulink> pour Xubuntu"
+"périphériques de numérisation pris en charge</ulink> pour Xubuntu"
 
 #: desktop-guide/C/printing-scanning.xml:80(para)
 msgid ""
@@ -1358,10 +1360,14 @@ msgid ""
 "project listing of support scanners</ulink>. <application>SANE</application> "
 "is the software used by Xubuntu for most of its scanner support."
 msgstr ""
+"Vérifiez la <ulink url=\"http://www.sane-project.org/sane-"
+"backends.html\">liste des périphériques de numérisation pris en charge du "
+"projet SANE</ulink>. <application>SANE</application> est le logiciel utilisé "
+"par Xubuntu pour la majeur partie des fonctions de numérisation."
 
 #: desktop-guide/C/printing-scanning.xml:85(title)
 msgid "Using your scanner"
-msgstr "Utilisation de votre scanner"
+msgstr "Utilisation de votre périphérique de numérisation"
 
 #: desktop-guide/C/printing-scanning.xml:87(para)
 msgid "To scan a document:"
@@ -1369,7 +1375,8 @@ msgstr "Pour numériser un document :"
 
 #: desktop-guide/C/printing-scanning.xml:90(para)
 msgid "Place what you want to scan on the scanner"
-msgstr "Déposez ce que vous souhaitez numériser sur le scanner"
+msgstr ""
+"Placez ce que vous souhaitez numériser sur le périphérique de numérisation"
 
 #: desktop-guide/C/printing-scanning.xml:91(para)
 msgid ""
@@ -1384,14 +1391,19 @@ msgid ""
 "choose the type of media you are scanning, <guilabel>Text</guilabel> or "
 "<guilabel>Photo</guilabel>"
 msgstr ""
+"Cliquez sur la flèche à droite du bouton <guibutton>Numériser</guibutton> et "
+"choisissez le type de document que vous aller numériser, "
+"<guilabel>Texte</guilabel> ou <guilabel>Photo</guilabel>"
 
 #: desktop-guide/C/printing-scanning.xml:93(para)
 msgid "Click the <guibutton>Scan</guibutton> button to begin your scan"
 msgstr ""
+"Cliquez sur le bouton <guibutton>Numériser</guibutton> pour commencer votre "
+"numérisation."
 
 #: desktop-guide/C/printing-scanning.xml:98(title)
 msgid "The computer says \"No scanners detected\""
-msgstr "L'ordinateur dit « Pas de scanner détecté »"
+msgstr "L'ordinateur dit « Aucun scanner n'a été détecté »"
 
 #: desktop-guide/C/printing-scanning.xml:100(para)
 msgid "There are two reasons why you might get this message:"
@@ -1409,7 +1421,7 @@ msgstr ""
 
 #: desktop-guide/C/printing-scanning.xml:104(para)
 msgid "The driver for your scanner is not being loaded automatically."
-msgstr ""
+msgstr "Le pilote pour votre scanner n'a pas été chargé automatiquement."
 
 #: desktop-guide/C/printing-scanning.xml:107(para)
 msgid ""
@@ -1451,6 +1463,8 @@ msgid ""
 "Run <userinput>pkexec mousepad /etc/sane.d/dll.conf</userinput> at the "
 "command line to open the SANE driver file for editing"
 msgstr ""
+"Exécutez <userinput>pkexec mousepad /etc/sane.d/dll.conf</userinput> en "
+"ligne de commande pour éditer le ficher de pilote issus du projet SANE."
 
 #: desktop-guide/C/printing-scanning.xml:120(para)
 msgid ""
@@ -1615,6 +1629,9 @@ msgid ""
 "computer you enter this at the command line: <userinput>apt-offline set --"
 "update apt-offline.sig</userinput>"
 msgstr ""
+"Insérez d'abord un lecteur USB et ouvrez un terminal. Depuis votre "
+"ordinateur déconnecté, saisissez ceci sur la ligne de commande : "
+"<userinput>apt-offline set --update apt-offline.sig</userinput>"
 
 #: desktop-guide/C/offline-packages.xml:53(para)
 msgid ""
@@ -1857,7 +1874,7 @@ msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:54(title)
 msgid "Upgrading Xubuntu"
-msgstr ""
+msgstr "Mise à niveau de Xubuntu"
 
 #: desktop-guide/C/migrating-upgrading.xml:56(para)
 msgid ""
@@ -1882,7 +1899,7 @@ msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:61(title)
 msgid "Upgrading to the next available release"
-msgstr ""
+msgstr "Mise à niveau vers la prochaine version disponible"
 
 #: desktop-guide/C/migrating-upgrading.xml:64(para)
 msgid ""
@@ -1982,7 +1999,7 @@ msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:89(title)
 msgid "Upgrading to the development version"
-msgstr ""
+msgstr "Mise à niveau vers la version de développement"
 
 #: desktop-guide/C/migrating-upgrading.xml:91(para)
 msgid ""
@@ -2428,6 +2445,10 @@ msgid ""
 "manager while one is already open, you will receive an error message and the "
 "second package manager will not necessarily be able to function."
 msgstr ""
+"Vous ne pouvez utiliser qu'un seul gestionnaire de paquet à la fois. Si vous "
+"lancez un gestionnaire de paquet alors qu'un autre est ouvert, vous recevrez "
+"un message d'erreur et le second gestionnaire de paquet ne sera pas "
+"nécessairement capable de fonctionner."
 
 #: desktop-guide/C/managing-applications.xml:28(title)
 msgid "Using Ubuntu Software Center"
@@ -2534,6 +2555,9 @@ msgid ""
 "parties or those for older versions of Xubuntu. To enable more software "
 "repositories:"
 msgstr ""
+"Il est possible d'ajouter des dépôts supplémentaires, comme ceux fournis pas "
+"des tiers ou ceux pour les versions plus anciennes de Xubuntu. Pour activer "
+"d'avantage de dépôts logiciels :"
 
 #: desktop-guide/C/managing-applications.xml:68(para)
 msgid ""
@@ -6213,6 +6237,7 @@ msgstr ""
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
+"  Arnaud LE CAM https://launchpad.net/~alc-b\n"
 "  David Pires https://launchpad.net/~slickymaster\n"
 "  Hannequin Lionel https://launchpad.net/~yoyopoubbox\n"
 "  Jean Marc https://launchpad.net/~m-balthazar\n"
