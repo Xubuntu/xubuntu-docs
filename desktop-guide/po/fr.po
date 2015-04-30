@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-04-03 18:33+0100\n"
-"PO-Revision-Date: 2015-04-28 19:35+0000\n"
+"PO-Revision-Date: 2015-04-29 17:18+0000\n"
 "Last-Translator: Jean Marc <Unknown>\n"
 "Language-Team: French <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-04-29 05:45+0000\n"
+"X-Launchpad-Export-Date: 2015-04-30 05:33+0000\n"
 "X-Generator: Launchpad (build 17453)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -258,7 +258,7 @@ msgstr "Configurer les pilotes propriétaires et de tierces parties"
 
 #: desktop-guide/C/appendix-packages.xml:41(seg)
 msgid "Software &amp; Updates"
-msgstr "Logiciels &amp; Mises à jour"
+msgstr "Logiciels &amp; mises à jour"
 
 #: desktop-guide/C/appendix-packages.xml:41(seg)
 msgid "Configure the sources for installable software and updates"
@@ -335,6 +335,7 @@ msgstr "<placeholder-1/>xfdesktop4"
 #: desktop-guide/C/appendix-packages.xml:54(seg)
 msgid "Xfce thumbnail daemon used by <placeholder-1/> and <placeholder-2/>"
 msgstr ""
+"Démon de vignettes Xfce utilisé par <placeholder-1/> et <placeholder-2/>"
 
 #: desktop-guide/C/appendix-packages.xml:55(seg)
 msgid "xfce4-notifyd"
@@ -1203,6 +1204,9 @@ msgid ""
 "interface. It can be accessed at <ulink "
 "url=\"http://localhost:631/\">http://localhost:631/</ulink>."
 msgstr ""
+"Si vous rencontrez encore des problèmes, essayez d'utiliser l'interface web "
+"CUPS. Elle est accessible à l'adresse <ulink "
+"url=\"http://localhost:631/\">http://localhost:631/</ulink>."
 
 #: desktop-guide/C/printing-scanning.xml:39(para)
 msgid ""
@@ -1384,6 +1388,9 @@ msgid ""
 "1/><guisubmenu>Graphics</guisubmenu><guimenuitem>Simple "
 "Scan</guimenuitem></menuchoice></application>"
 msgstr ""
+"Allez sur <application><menuchoice><placeholder-"
+"1/><guisubmenu>Infographie</guisubmenu><guimenuitem>Simple "
+"Scan</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/printing-scanning.xml:92(para)
 msgid ""
@@ -1452,6 +1459,9 @@ msgid ""
 "There are some scanners that have less-than-complete drivers from the SANE "
 "project. They can sometimes be used, but not all the features may work."
 msgstr ""
+"Certains périphérique de numérisation ont des pilotes incomplets issus du "
+"projet SANE. Ils peuvent parfois être utilisés, mais toutes leurs "
+"fonctionnalités ne pourront peut-être pas être opérationnelles."
 
 #: desktop-guide/C/printing-scanning.xml:118(para)
 msgid "Install the <literal><placeholder-1/>libsane-extras</literal> package"
@@ -1639,6 +1649,9 @@ msgid ""
 "there are packages to upgrade. If there are packages to upgrade you can "
 "continue onward otherwise it is okay to stop."
 msgstr ""
+"Cela complète la première partie du processus. Vous saurez maintenant si, "
+"oui ou non, des paquets sont à mettre à niveau. Si des paquets sont à mettre "
+"à niveau vous pouvez continuer plus avant, sinon vous pouvez arrêter."
 
 #: desktop-guide/C/offline-packages.xml:55(para)
 msgid ""
@@ -1996,6 +2009,8 @@ msgid ""
 "Upgrading an LTS version to anything other than another LTS version will "
 "lose the long term support."
 msgstr ""
+"Mettre à niveau une version LTS par autre chose qu'une autre version LTS "
+"fera perdre le support à long terme."
 
 #: desktop-guide/C/migrating-upgrading.xml:89(title)
 msgid "Upgrading to the development version"
@@ -2844,6 +2859,9 @@ msgid ""
 "<guilabel>For long-term support versions</guilabel> - You will get "
 "notifications of new Long-term Support (LTS) releases, once in 2 years"
 msgstr ""
+"<guilabel>Pour les versions prises en charge sur le long terme</guilabel> - "
+"Vous recevrez des notifications pour les nouvelles versions avec support à "
+"long terme (LTS), une fois tous les 2 ans"
 
 #: desktop-guide/C/managing-applications.xml:151(para)
 msgid ""
@@ -2858,6 +2876,9 @@ msgid ""
 "recommmended option, especially if you are running Xubuntu on a production "
 "machine and/or need maximum stability."
 msgstr ""
+"Opter pour les notifications de support à long terme (LTS) est "
+"habituellement l'option recommandée, en particulier si vous exécutez Xubuntu "
+"sur une machine de production et/ou nécessitant une stabilité maximale."
 
 #: desktop-guide/C/managing-applications.xml:156(para)
 msgid ""
@@ -2914,6 +2935,11 @@ msgid ""
 "<application>NetworkManager</application> also keeps passwords secure by "
 "utilizing the user's keyring to store passphrases."
 msgstr ""
+"Xubuntu utilise <application>NetworkManager</application> pour gérer les "
+"connexions filaires, non-filaires, haut-débit mobile, VPN et ADSL. "
+"<application>NetworkManager</application> conserve également les mots de "
+"passe en sécurité en utilisant le trousseau de clé de l'utilisateur pour "
+"stocker les phrases secrètes."
 
 #: desktop-guide/C/internet-networks.xml:16(para)
 msgid ""
@@ -2922,6 +2948,10 @@ msgid ""
 "two grayed out arrows pointing up and down. When you are connected, the icon "
 "is different depending on the network type in use."
 msgstr ""
+"<application>NetworkManager</application> est la petite icône dans le "
+"panneaux supérieur à droite de votre écran. Hors-connexion, l'icône montre "
+"deux flèches grisées orientées vers le haut et vers le bas. Lorsque vous "
+"êtes connecté, l'icône est différente suivant le réseau utilisé."
 
 #: desktop-guide/C/internet-networks.xml:19(title)
 msgid "Network connections"
@@ -2936,6 +2966,8 @@ msgid ""
 "<application>NetworkManager</application> will automatically use a wired "
 "network, if one is available."
 msgstr ""
+"<application>NetworkManager</application> utilisera automatiquement un "
+"réseau filaire, s'il y en a un disponible."
 
 #: desktop-guide/C/internet-networks.xml:26(para)
 msgid ""
@@ -2943,6 +2975,9 @@ msgid ""
 "<application>NetworkManager</application> icon. To connect to a network, "
 "click the network name."
 msgstr ""
+"Pour voir toutes les connexions disponibles, cliquez sur l'icône "
+"<application>NetworkManager</application>. Pour vous connecter à un réseau, "
+"cliquez sur le nom du réseau."
 
 #: desktop-guide/C/internet-networks.xml:28(para)
 msgid ""
