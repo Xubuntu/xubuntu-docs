@@ -9,13 +9,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-03-20 02:49+0200\n"
 "PO-Revision-Date: 2014-05-14 19:47+0000\n"
-"Last-Translator: Jean Marc <m.balthazar@orange.fr>\n"
+"Last-Translator: Jean Marc <Unknown>\n"
 "Language-Team: French <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-05-15 06:16+0000\n"
-"X-Generator: Launchpad (build 17007)\n"
+"X-Launchpad-Export-Date: 2015-05-05 05:48+0000\n"
+"X-Generator: Launchpad (build 17474)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -29,11 +29,11 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:12(title)
 msgid "Application table"
-msgstr ""
+msgstr "Tableau d'utilisation"
 
 #: desktop-guide/C/appendix-packages.xml:16(segtitle) desktop-guide/C/appendix-packages.xml:35(segtitle)
 msgid "Friendly name"
-msgstr ""
+msgstr "Nom convivial"
 
 #: desktop-guide/C/appendix-packages.xml:16(segtitle) desktop-guide/C/appendix-packages.xml:35(segtitle) desktop-guide/C/appendix-packages.xml:49(segtitle)
 msgid "Package name"
@@ -66,6 +66,7 @@ msgstr "catfish"
 #: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "File searching tool which is configurable via the command line"
 msgstr ""
+"Outil de recherche de fichiers qui est configurable via la ligne de commande"
 
 #: desktop-guide/C/appendix-packages.xml:19(seg)
 msgid "Document Viewer"
@@ -137,7 +138,7 @@ msgstr "pavucontrol"
 
 #: desktop-guide/C/appendix-packages.xml:25(seg)
 msgid "Simple Scan"
-msgstr "Outil de numérisation Simple Scan"
+msgstr "Simple Scan"
 
 #: desktop-guide/C/appendix-packages.xml:25(seg)
 msgid "simple-scan"
@@ -149,7 +150,7 @@ msgstr "Utilitaire de numérisation simple"
 
 #: desktop-guide/C/appendix-packages.xml:26(seg)
 msgid "Application Finder"
-msgstr ""
+msgstr "Recherche d'applications"
 
 #: desktop-guide/C/appendix-packages.xml:26(seg) desktop-guide/C/appendix-packages.xml:27(seg)
 msgid "xfce4-appfinder"
@@ -189,7 +190,7 @@ msgstr "xfce4-taskmanager"
 
 #: desktop-guide/C/appendix-packages.xml:29(seg)
 msgid "Process manager for the Xfce4 Desktop Environment"
-msgstr ""
+msgstr "Gestionnaire de processus pour l'environnement de bureau Xfce4"
 
 #: desktop-guide/C/appendix-packages.xml:32(title)
 msgid "Settings Manager"
@@ -221,7 +222,7 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:38(seg)
 msgid "About Me"
-msgstr "À propos de moi"
+msgstr "À propos"
 
 #: desktop-guide/C/appendix-packages.xml:38(seg)
 msgid "mugshot"
@@ -257,7 +258,7 @@ msgstr "Configurer les pilotes propriétaires et de tierces parties"
 
 #: desktop-guide/C/appendix-packages.xml:41(seg)
 msgid "Software &amp; Updates"
-msgstr ""
+msgstr "Logiciels &amp; mises à jour"
 
 #: desktop-guide/C/appendix-packages.xml:41(seg)
 msgid "Configure the sources for installable software and updates"
@@ -274,7 +275,7 @@ msgstr "system-config-printer-gnome"
 
 #: desktop-guide/C/appendix-packages.xml:42(seg)
 msgid "Printer configuration GUI"
-msgstr "Interface graphique pour la configuration d'imprimantes."
+msgstr "Interface graphique pour la configuration d'imprimantes"
 
 #: desktop-guide/C/appendix-packages.xml:46(title)
 msgid "Behind the scenes"
@@ -305,7 +306,7 @@ msgstr "libnotify-bin"
 
 #: desktop-guide/C/appendix-packages.xml:52(seg)
 msgid "Binaries to send notification bubbles"
-msgstr ""
+msgstr "Binaires d'envoi d'infobulles"
 
 #: desktop-guide/C/appendix-packages.xml:53(seg)
 msgid "light-locker"
@@ -321,7 +322,7 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:54(seg)
 msgid "tumbler"
-msgstr ""
+msgstr "tumbler"
 
 #: desktop-guide/C/appendix-packages.xml:54(literal)
 msgid "<placeholder-1/>thunar"
@@ -334,6 +335,7 @@ msgstr "<placeholder-1/>xfdesktop4"
 #: desktop-guide/C/appendix-packages.xml:54(seg)
 msgid "Xfce thumbnail daemon used by <placeholder-1/> and <placeholder-2/>"
 msgstr ""
+"Démon de vignettes Xfce utilisé par <placeholder-1/> et <placeholder-2/>"
 
 #: desktop-guide/C/appendix-packages.xml:55(seg)
 msgid "xfce4-notifyd"
@@ -341,7 +343,7 @@ msgstr "xfce4-notifyd"
 
 #: desktop-guide/C/appendix-packages.xml:55(seg)
 msgid "Daemon used to display notification bubbles"
-msgstr ""
+msgstr "Démon utilisé pour afficher des infobulles"
 
 #: desktop-guide/C/appendix-packages.xml:56(seg)
 msgid "xfce4-indicator-plugin"
@@ -349,15 +351,17 @@ msgstr "xfce4-indicator-plugin"
 
 #: desktop-guide/C/appendix-packages.xml:56(literal)
 msgid "<placeholder-1/>indicator-application"
-msgstr ""
+msgstr "<placeholder-1/>indicator-application"
 
 #: desktop-guide/C/appendix-packages.xml:56(literal)
 msgid "<placeholder-1/>indicator-sound"
-msgstr ""
+msgstr "<placeholder-1/>indicator-sound"
 
 #: desktop-guide/C/appendix-packages.xml:56(seg)
 msgid "Panel plugin for the indicators (<placeholder-1/>, <placeholder-2/>)"
 msgstr ""
+"Greffon de tableau de bord pour les indicateurs (<placeholder-1/>, "
+"<placeholder-2/>)"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
 msgid "What is Xubuntu?"
@@ -473,6 +477,11 @@ msgid ""
 "and technical philosophy behind it at the <ulink "
 "url=\"http://www.gnu.org/\">GNU website</ulink>."
 msgstr ""
+"Le projet Xubuntu est entièrement dévoué aux principes du développement du "
+"logiciel libre ; les utilisateurs sont encouragés à utiliser des logiciels "
+"libres, à les améliorer et à les partager. Vous pouvez en apprendre plus sur "
+"le logiciel libre et la philosophie idéologique et technique qui en découle "
+"sur le <ulink url=\"http://www.gnu.org/\">site web GNU</ulink>."
 
 #: desktop-guide/C/what-is-xubuntu.xml:57(title)
 msgid "Linux"
@@ -490,8 +499,7 @@ msgstr ""
 "noyau Linux est le cœur du système d'exploitation Xubuntu. Un noyau est une "
 "partie importante de tout système d'exploitation, fournissant la passerelle "
 "de communication entre le matériel et le logiciel. En savoir plus sur Linux "
-"sur le <ulink url=\"http://www.kernel.org/\">site internet du noyau "
-"Linux</ulink>."
+"sur le <ulink url=\"http://www.kernel.org/\">site web du noyau Linux</ulink>."
 
 #: desktop-guide/C/what-is-xubuntu.xml:65(title)
 msgid "Xfce"
@@ -509,15 +517,15 @@ msgstr ""
 "être rapide et non gourmand en ressources système, tout en étant "
 "visuellement attrayant et convivial. Xfce incarne la traditionnelle "
 "philosophie UNIX de modularité et de convivialité. En apprendre plus sur "
-"Xfce sur le <ulink url=\"http://www.xfce.org/\">site internet de "
-"Xfce</ulink>."
+"Xfce sur le <ulink url=\"http://www.xfce.org/\">site web de Xfce</ulink>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/guide-keeping-safe.xml:0(None) desktop-guide/C/guide-keeping-safe.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/command-line.xml:0(None) desktop-guide/C/administrative-tasks.xml:0(None)
+#: desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/guide-keeping-safe.xml:0(None) desktop-guide/C/guide-keeping-safe.xml:0(None) desktop-guide/C/guide-keeping-safe.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/command-line.xml:0(None) desktop-guide/C/administrative-tasks.xml:0(None)
 msgid ""
 "@@image: '../libs/images/menu_icon.png'; md5=65599cdf4480dbc3d1bfa2154c0a255d"
 msgstr ""
+"@@image: '../libs/images/menu_icon.png'; md5=65599cdf4480dbc3d1bfa2154c0a255d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -526,6 +534,8 @@ msgid ""
 "@@image: '../libs/images/preferences-desktop.png'; "
 "md5=805e5ff06267de7ea2e15f257bf1a825"
 msgstr ""
+"@@image: '../libs/images/preferences-desktop.png'; "
+"md5=805e5ff06267de7ea2e15f257bf1a825"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -534,6 +544,8 @@ msgid ""
 "@@image: '../libs/images/location_icon.png'; "
 "md5=71b7dc6dffc6d296d54a2fa354f2204f"
 msgstr ""
+"@@image: '../libs/images/location_icon.png'; "
+"md5=71b7dc6dffc6d296d54a2fa354f2204f"
 
 #: desktop-guide/C/settings-preferences.xml:12(title)
 msgid "Settings and Preferences"
@@ -587,6 +599,11 @@ msgid ""
 "change <guilabel>Appearance</guilabel>, <guilabel>Behavior</guilabel> and "
 "<guilabel>Search Actions</guilabel>."
 msgstr ""
+"Pour plus d'options pour personnaliser le menu, faites un clic droit sur "
+"<placeholder-1/> et sélectionnez <guilabel>Propriétés</guilabel>. Vous y "
+"trouverez trois onglets pour changer d'<guilabel>Apparence</guilabel>, de "
+"<guilabel>Comportement</guilabel> et d'<guilabel>Actions de "
+"recherche</guilabel>."
 
 #: desktop-guide/C/settings-preferences.xml:26(para)
 msgid ""
@@ -604,6 +621,20 @@ msgid ""
 "url=\"http://smdavis.us/doku/doku.php?id=menulibre-docs\">MenuLibre</ulink> "
 "online documenation."
 msgstr ""
+"Pour ajouter des répertoires et des lanceurs qui n'apparaissent pas comme "
+"des entrées dans le menu par défaut, vous aurez besoin d'un autre outil. Un "
+"utilitaire d'édition de menu plus avancé appelé "
+"<application>MenuLibre</application> peut être trouvé en cliquant sur "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/>Tous "
+"les paramètres</guimenuitem><guimenuitem>Éditeur de "
+"menus</guimenuitem></menuchoice></application>. En utilisant cet éditeur, "
+"vous pouvez créer, cacher et réorganiser les répertoires qui apparaissent "
+"dans le volet de droite du menu. Dans ces répertoires, vous pouvez ensuite "
+"créer des lanceurs d'applications et personnaliser leur comportement en "
+"configurant les nombreuses options disponibles dans cet utilitaire. Pour "
+"plus d'informations détaillées sur la façon d'utiliser toutes ces options, "
+"consultez la documentation en ligne de <ulink "
+"url=\"http://smdavis.us/doku/doku.php?id=menulibre-docs\">MenuLibre</ulink>."
 
 #: desktop-guide/C/settings-preferences.xml:31(title)
 msgid "Customizing your personal info"
@@ -615,6 +646,10 @@ msgid ""
 "utility that allows you to easily set the profile image and user details for "
 "your user profile and any supported applications."
 msgstr ""
+"<application>Mugshot</application> est un utilitaire léger de configuration "
+"de l'utilisateur qui vous permet de configurer facilement l'image et les "
+"détails de l'utilisateur de votre profil d'utilisateur et de toutes les "
+"applications prises en charge."
 
 #: desktop-guide/C/settings-preferences.xml:35(para)
 msgid ""
@@ -623,6 +658,10 @@ msgid ""
 "Settings Manager</guimenuitem><guimenuitem>About "
 "Me</guimenuitem></menuchoice></application>."
 msgstr ""
+"Pour lancer <application>Mugshot</application>,  cliquez sur "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> Tous "
+"les paramètres</guimenuitem><guimenuitem>À "
+"propos</guimenuitem></menuchoice></application>."
 
 #: desktop-guide/C/settings-preferences.xml:37(para)
 msgid ""
@@ -630,6 +669,9 @@ msgid ""
 "on the left of the GUI, select one of the given options and follow the "
 "instructions."
 msgstr ""
+"Pour changer l'image de votre profil, cliquez sur le bouton "
+"<guibutton>image</guibutton> sur la gauche de l'interface graphique, "
+"sélectionnez l'une des options proposées et suivez les instructions."
 
 #: desktop-guide/C/settings-preferences.xml:39(para)
 msgid ""
@@ -637,6 +679,9 @@ msgid ""
 "tools</literal> package to use the <guilabel>Capture from "
 "camera...</guilabel> feature."
 msgstr ""
+"Mugshot nécessite l'installation du paquet <literal><placeholder-"
+"1/>gstreamer1.0-tools</literal> afin d'utiliser la fonction "
+"<guilabel>Prendre une photo...</guilabel>."
 
 #: desktop-guide/C/settings-preferences.xml:41(para)
 msgid ""
@@ -645,6 +690,10 @@ msgid ""
 "<application>Pidgin</application> and/or LibreOffice installed, you will be "
 "prompted to update their settings as well."
 msgstr ""
+"Remplissez les champs texte avec les données personnelles requises et "
+"cliquez sur <guibutton>Appliquer</guibutton>. Lors de l'application de ces "
+"détails avec <application>Pidgin</application> et / ou LibreOffice, vous "
+"serez également invité à mettre à jour leurs paramètres."
 
 #: desktop-guide/C/settings-preferences.xml:43(para)
 msgid ""
@@ -654,6 +703,11 @@ msgid ""
 "your password as a security measure to prevent unwanted updates to your "
 "personal information."
 msgstr ""
+"Si les données à caractère personnel insérées dans les champs texte "
+"<guilabel>Prénom</guilabel> et <guilabel>Nom</guilabel> diffèrent des "
+"valeurs existantes renseignées dans <userinput>/etc/passwd</userinput>, vous "
+"allez être invité à insérer votre mot de passe par mesure de sécurité pour "
+"empêcher les mises à jour indésirables de vos informations personnelles."
 
 #: desktop-guide/C/settings-preferences.xml:45(para)
 msgid ""
@@ -689,6 +743,13 @@ msgid ""
 "<menuchoice><guimenuitem>Desktop Settings...</guimenuitem></menuchoice> "
 "option."
 msgstr ""
+"Vous pouvez changer facilement votre fond d'écran en cliquant sur "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> Tous "
+"les "
+"paramètres</guimenuitem><guimenuitem>Bureau</guimenuitem></menuchoice></appli"
+"cation>, ou encore, en faisant un clic droit sur votre bureau et en "
+"sélectionnant l'option <menuchoice><guimenuitem>Paramètres du "
+"bureau...</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/settings-preferences.xml:59(para)
 msgid ""
@@ -697,6 +758,12 @@ msgid ""
 "look of your desktop background. You can choose to use a single image or "
 "multiple images as wallpaper or you can use a color scheme."
 msgstr ""
+"Une fois la boîte de dialogue des paramètres du "
+"<application>Bureau</application> ouverte, l'onglet <guilabel>Fond "
+"d'écran</guilabel> vous fournit des options pour configurer l'apparence du "
+"fond d'écran de votre bureau. Vous pouvez choisir d'utiliser une seule image "
+"ou plusieurs images comme fond(s) d'écran ou vous pouvez utiliser une "
+"palette de couleurs."
 
 #: desktop-guide/C/settings-preferences.xml:61(para)
 msgid ""
@@ -708,6 +775,15 @@ msgid ""
 "<filename><placeholder-1/> /usr/share/xfce4/backdrops/</filename> (requires "
 "administrative privileges)."
 msgstr ""
+"L'emplacement des images dans le volet <guilabel>Fond d'écran pour mon "
+"bureau</guilabel> est renseigné par l'option "
+"<guibutton>Dossier :</guibutton>. En mettant en place cette liste de "
+"sélection, vous pouvez choisir un emplacement alternatif pour la source de "
+"vos images. Si vous souhaitez ajouter une ou plusieurs de vos images à cette "
+"liste pour une utilisation ultérieure, vous pouvez copier ou créer des liens "
+"symboliques vers <filename><placeholder-1/> "
+"/usr/share/xfce4/backdrops/</filename> (nécessite des privilèges "
+"administrateur)."
 
 #: desktop-guide/C/settings-preferences.xml:63(para)
 msgid ""
@@ -718,6 +794,13 @@ msgid ""
 "<guilabel>Chronologically</guilabel>, will sort the pictures by filename and "
 "then go through them in that order, spread out equally over one day."
 msgstr ""
+"Si vous choisissez un emplacement qui contient plusieurs images, vous avez "
+"la possibilité de faire varier le fond d'écran en alternant chacune des "
+"images de cet emplacement. En cochant la case <guibutton>Changer le fond "
+"d'écran</guibutton>, vous obtenez plusieurs critères de choix basés sur le "
+"temps, dont le dernier, <guilabel>Chronologiquement</guilabel>, triera les "
+"images par nom de fichier et puis les passera en revue dans cet ordre, "
+"réparties de façon égale sur une journée."
 
 #: desktop-guide/C/settings-preferences.xml:65(para)
 msgid ""
@@ -727,22 +810,33 @@ msgid ""
 "This allows each monitor to have its own settings. Just drag the dialog to "
 "the monitor on which you want to edit the settings."
 msgstr ""
+"Xfdesktop prend en charge xinerama et les configurations multi-écrans. Avec "
+"plus d'un écran / moniteur connecté, l'onglet <guilabel>Fond "
+"d'écran</guilabel> reflétera toujours les paramètres de l'écran dans lequel "
+"la boîte de dialogue est positionnée. Cela permet à chaque moniteur d'avoir "
+"ses propres paramètres. Il suffit de faire glisser la boîte de dialogue vers "
+"l'écran sur lequel vous souhaitez modifier les paramètres."
 
 #: desktop-guide/C/settings-preferences.xml:67(para)
 msgid ""
 "If you want to set any of your own images as the wallpaper, the easiest way "
 "to achieve this is:"
 msgstr ""
+"Si vous voulez mettre une de vos propres images comme fond d'écran, la "
+"meilleure façon d'y parvenir est :"
 
 #: desktop-guide/C/settings-preferences.xml:71(para)
 msgid "Open Thunar and navigate to the directory with the image"
-msgstr ""
+msgstr "d'ouvrir Thunar et de naviguer vers le répertoire contenant l'image,"
 
 #: desktop-guide/C/settings-preferences.xml:72(para)
 msgid ""
 "Right-click the image and select <menuchoice><guimenuitem>Set as "
 "wallpaper</guimenuitem></menuchoice> from the context menu"
 msgstr ""
+"faire un clic droit sur l'image et sélectionnez "
+"<menuchoice><guimenuitem>Définir comme fond "
+"d'écran</guimenuitem></menuchoice> depuis le menu contextuel."
 
 #: desktop-guide/C/settings-preferences.xml:75(para)
 msgid ""
@@ -750,6 +844,9 @@ msgid ""
 "wallpaper. To change the wallpaper for other monitors, you will need to use "
 "the dialog described above."
 msgstr ""
+"Avec plusieurs moniteurs, ce paramètre ne changera que le fond d'écran de "
+"l'écran principal. Pour changer le fond d'écran pour les autres moniteurs, "
+"vous aurez besoin d'utiliser la boîte de dialogue décrite ci-dessus."
 
 #: desktop-guide/C/settings-preferences.xml:79(para)
 msgid ""
@@ -757,10 +854,12 @@ msgid ""
 "url=\"http://docs.xfce.org/xfce/xfdesktop/4.11/start\">Xfdesktop</ulink> "
 "official documentation."
 msgstr ""
+"En apprendre plus dans la documentation officielle de <ulink "
+"url=\"http://docs.xfce.org/xfce/xfdesktop/4.11/start\">Xfdesktop</ulink>."
 
 #: desktop-guide/C/settings-preferences.xml:83(title)
 msgid "Customizing your panel configuration"
-msgstr ""
+msgstr "Personnalisation de la configuration de votre tableau de bord"
 
 #: desktop-guide/C/settings-preferences.xml:85(para)
 msgid ""
@@ -768,10 +867,13 @@ msgid ""
 "or the applets installed by default, follow the steps below to customize the "
 "panel configuration:"
 msgstr ""
+"Si vous n'aimez pas la configuration par défaut du tableau de bord, y "
+"compris son positionnement ou les applications installées par défaut, suivez "
+"les étapes ci-dessous pour personnaliser sa configuration :"
 
 #: desktop-guide/C/settings-preferences.xml:90(para)
 msgid "Right-click on an empty area of the panel"
-msgstr ""
+msgstr "Faites un clic droit sur ​​une zone vide du tableau de bord"
 
 #: desktop-guide/C/settings-preferences.xml:91(para)
 msgid ""
@@ -779,16 +881,21 @@ msgid ""
 "<menuchoice><guimenuitem>Panel</guimenuitem><guimenuitem>Panel "
 "Preferences</guimenuitem></menuchoice>"
 msgstr ""
+"Dans le menu contextuel, sélectionnez <menuchoice><guimenuitem>Tableau de "
+"bord</guimenuitem><guimenuitem>Préférences du tableau de "
+"bord...</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/settings-preferences.xml:93(para)
 msgid ""
 "In the <guilabel>Display</guilabel> tab, you can control the panel's size "
 "and positioning, including:"
 msgstr ""
+"Dans l'onglet <guilabel>Affichage</guilabel>, vous pouvez contrôler la "
+"taille et le positionnement du tableau de bord, y compris :"
 
 #: desktop-guide/C/settings-preferences.xml:95(para)
 msgid "Displaying the panel vertically along either side of the screen"
-msgstr ""
+msgstr "Afficher le tableau de bord verticalement de chaque côté de l'écran"
 
 #: desktop-guide/C/settings-preferences.xml:96(para)
 msgid ""
@@ -796,30 +903,37 @@ msgid ""
 "panel</guilabel>, grabbing the handle which appears at either side of the "
 "panel and dragging it"
 msgstr ""
+"Déplacer le tableau de bord vers le bas ou la droite en décochant la case "
+"<guilabel>Verrouiller le tableau de bord</guilabel> et en saisissant la "
+"poignée qui apparaît de chaque côté de l'écran et en le faisant glisser"
 
 #: desktop-guide/C/settings-preferences.xml:97(para)
 msgid "Extending the panel across multiple monitors"
-msgstr ""
+msgstr "Étendre le tableau de bord sur plusieurs moniteurs"
 
 #: desktop-guide/C/settings-preferences.xml:99(para)
 msgid ""
 "In the <guilabel>Appearance</guilabel> tab, you can pick another background "
 "for the panel and regulate its transparency"
 msgstr ""
+"Dans l'onglet <guilabel>Apparence</guilabel>, vous pouvez choisir un autre "
+"fond d'écran pour le tableau de bord et régler sa transparence"
 
 #: desktop-guide/C/settings-preferences.xml:100(para)
 msgid ""
 "In the <guilabel>Items</guilabel> tab, you can add, remove and rearrange "
 "panel applets and other items"
 msgstr ""
+"Dans l'onglet <guilabel>Élément</guilabel>, vous pouvez ajouter, supprimer "
+"et réorganiser les applications du tableau de bord et d'autres éléments"
 
 #: desktop-guide/C/settings-preferences.xml:105(title)
 msgid "Changing your desktop themes"
-msgstr ""
+msgstr "Modification de vos thèmes de bureau"
 
 #: desktop-guide/C/settings-preferences.xml:107(para)
 msgid "There are three types of desktop themes:"
-msgstr ""
+msgstr "Il existe trois types de thèmes de bureau :"
 
 #: desktop-guide/C/settings-preferences.xml:110(para)
 msgid ""
@@ -831,6 +945,13 @@ msgid ""
 "<guilabel>Style</guilabel> tab, select a new theme to change the window "
 "borders appearance."
 msgstr ""
+"Thèmes xfwm - contrôler l'apparence de vos bordures de fenêtres. Pour "
+"changer votre thème xfwm, cliquez sur <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> Tous les "
+"paramètres</guimenuitem><guimenuitem>Gestionnaire de "
+"fenêtres</guimenuitem></menuchoice></application>.  Dans l'onglet "
+"<guilabel>Style</guilabel>, sélectionnez un nouveau thème pour changer "
+"l'apparence des bordures de fenêtres."
 
 #: desktop-guide/C/settings-preferences.xml:113(para)
 msgid ""
@@ -842,6 +963,14 @@ msgid ""
 "change the window content appearance. The tool <application>gtk-theme-"
 "config</application> will also allow you to customize your window look."
 msgstr ""
+"Thèmes GTK - contrôler l'apparence du contenu des fenêtres. Pour changer "
+"votre thème GTK, cliquez sur <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> Tous les "
+"paramètres</guimenuitem><guimenuitem>Apparence</guimenuitem></menuchoice></ap"
+"plication>. Dans l'onglet <guilabel>Style</guilabel>, sélectionnez un "
+"nouveau thème pour changer l'apparence du contenu de la fenêtre. L'outil "
+"<application>gtk-theme-config</application> vous permettra également de "
+"personnaliser l'apparence de vos fenêtres."
 
 #: desktop-guide/C/settings-preferences.xml:116(para)
 msgid ""
@@ -853,6 +982,14 @@ msgid ""
 "change the icon appearance. Note that not all icon sets will work well with "
 "dark panel/window backgrounds!"
 msgstr ""
+"Thèmes d'icônes - contrôler l'apparence de vos icônes. Pour changer votre "
+"thème d'icônes, cliquez sur <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> Tous les "
+"paramètres</guimenuitem><guimenuitem>Apparence</guimenuitem></menuchoice></ap"
+"plication>. Dans l'onglet <guilabel>Icônes</guilabel>, sélectionnez un "
+"nouveau thème pour changer l'apparence des icônes. Notez que tous les "
+"ensembles d'icônes ne conviendront pas aux fonds sombres du tableau de bord "
+"ou des fenêtres."
 
 #: desktop-guide/C/settings-preferences.xml:122(para)
 msgid ""
@@ -861,6 +998,11 @@ msgid ""
 "repositories, and more can be found on the Internet, for example on <ulink "
 "url=\"http://xfce-look.org/\">Xfce-look.org</ulink>."
 msgstr ""
+"Si la sélection de thèmes par défaut ne vous satisfait pas, vous pouvez "
+"télécharger et installer de nouveaux thèmes. De nouveaux thèmes peuvent être "
+"installés à partir des dépôts Ubuntu, et davantage peuvent être trouvés sur "
+"l'Internet, par exemple sur le site web <ulink url=\"http://xfce-"
+"look.org/\">Xfce-look.org</ulink>."
 
 #: desktop-guide/C/settings-preferences.xml:126(para)
 msgid ""
@@ -870,10 +1012,16 @@ msgid ""
 "it will appear in the <application>Settings Manager</application>. To do "
 "this, extract the theme package and copy them to:"
 msgstr ""
+"Si vous installez de nouveaux thèmes à partir des dépôts, ils devraient "
+"apparaître automatiquement dans <application>Tous les "
+"paramètres</application>. Si vous téléchargez un thème à partir de tout "
+"autre site, vous devez l'installer avant qu'il n'apparaisse dans "
+"<application>Tous les paramètres</application>. Pour ce faire, extraire le "
+"paquet du thème et de le copier dans :"
 
 #: desktop-guide/C/settings-preferences.xml:132(para)
 msgid "xfwm and GTK themes:"
-msgstr ""
+msgstr "Pour les thèmes xfwm et GTK :"
 
 #: desktop-guide/C/settings-preferences.xml:134(para)
 msgid ""
@@ -886,10 +1034,12 @@ msgstr ""
 #: desktop-guide/C/settings-preferences.xml:135(para)
 msgid "<filename><placeholder-1/> /usr/share/themes/</filename> (all users)"
 msgstr ""
+"<filename><placeholder-1/> /usr/share/themes/</filename> (tous les "
+"utilisateurs)"
 
 #: desktop-guide/C/settings-preferences.xml:138(para)
 msgid "Icon themes:"
-msgstr ""
+msgstr "Pour les thèmes d'icônes :"
 
 #: desktop-guide/C/settings-preferences.xml:140(para)
 msgid ""
@@ -901,16 +1051,21 @@ msgstr ""
 #: desktop-guide/C/settings-preferences.xml:141(para)
 msgid "<filename><placeholder-1/> /usr/share/icons/</filename> (all users)"
 msgstr ""
+"<filename><placeholder-1/> /usr/share/icons/</filename> (tous les "
+"utilisateurs)"
 
 #: desktop-guide/C/settings-preferences.xml:147(para)
 msgid ""
 "If these directories do not exist, you should create them first. Copying "
 "themes for all users will require administrative privileges."
 msgstr ""
+"Si ces répertoires n'existent pas, vous devrez d'abord les créer. La copie "
+"des thèmes pour tous les utilisateurs nécessitera des privilèges "
+"d'administrateur."
 
 #: desktop-guide/C/settings-preferences.xml:152(title)
 msgid "Disabling and modifying the desktop effects"
-msgstr ""
+msgstr "Désactivation et modification des effets du bureau"
 
 #: desktop-guide/C/settings-preferences.xml:154(para)
 msgid ""
@@ -981,6 +1136,10 @@ msgid ""
 "Manager</guimenuitem><guimenuitem>Printers</guimenuitem></menuchoice></applic"
 "ation>"
 msgstr ""
+"Cliquez sur <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> Tous les "
+"paramètres</guimenuitem><guimenuitem>Imprimantes</guimenuitem></menuchoice></"
+"application>"
 
 #: desktop-guide/C/printing-scanning.xml:28(para) desktop-guide/C/printing-scanning.xml:50(para)
 msgid ""
@@ -1003,6 +1162,7 @@ msgstr ""
 #: desktop-guide/C/printing-scanning.xml:30(para)
 msgid "Select your printer and click <guibutton>Forward</guibutton>"
 msgstr ""
+"Sélectionnez votre imprimante et cliquez sur <guibutton>Suivant</guibutton>"
 
 #: desktop-guide/C/printing-scanning.xml:31(para)
 msgid "Your computer will search for and install drivers for your printer"
@@ -1012,7 +1172,7 @@ msgstr ""
 #: desktop-guide/C/printing-scanning.xml:32(para)
 msgid "You can enter a description and location for your printer"
 msgstr ""
-"Vous pouvez entrer une description et un emplacement pour votre imprimante"
+"Vous pouvez saisir une description et un emplacement pour votre imprimante"
 
 #: desktop-guide/C/printing-scanning.xml:33(para) desktop-guide/C/printing-scanning.xml:57(para)
 msgid "Press <guibutton>Apply</guibutton>"
@@ -1044,6 +1204,9 @@ msgid ""
 "interface. It can be accessed at <ulink "
 "url=\"http://localhost:631/\">http://localhost:631/</ulink>."
 msgstr ""
+"Si vous rencontrez encore des problèmes, essayez d'utiliser l'interface web "
+"CUPS. Elle est accessible à l'adresse <ulink "
+"url=\"http://localhost:631/\">http://localhost:631/</ulink>."
 
 #: desktop-guide/C/printing-scanning.xml:39(para)
 msgid ""
@@ -1095,23 +1258,29 @@ msgid ""
 "Insert the details of the network printer and press "
 "<guibutton>Forward</guibutton>"
 msgstr ""
+"Insérer les détails de l'imprimante réseau et appuyez sur "
+"<guibutton>Suivant</guibutton>"
 
 #: desktop-guide/C/printing-scanning.xml:54(para)
 msgid ""
 "Select the printer manufacturer and then press <guibutton>Forward</guibutton>"
 msgstr ""
+"Sélectionnez le fabricant de l'imprimante, puis appuyez sur "
+"<guibutton>Suivant</guibutton>"
 
 #: desktop-guide/C/printing-scanning.xml:55(para)
 msgid ""
 "Select the printer model and driver then press <guibutton>Forward</guibutton>"
 msgstr ""
+"Sélectionnez le modèle d'imprimante et le pilote, puis appuyez sur "
+"<guibutton>Suivant</guibutton>"
 
 #: desktop-guide/C/printing-scanning.xml:56(para)
 msgid ""
 "You can enter a description and location for your printer in the "
 "corresponding fields"
 msgstr ""
-"Vous pouvez entrer une description et un emplacement pour votre imprimante "
+"Vous pouvez saisir une description et un emplacement pour votre imprimante "
 "dans les champs correspondants"
 
 #: desktop-guide/C/printing-scanning.xml:58(para)
@@ -1154,27 +1323,29 @@ msgid ""
 "install and operate. This section will walk you through how to use your "
 "scanner and what to do if Xubuntu does not detect your scanner."
 msgstr ""
-"Beaucoup de scanners sont automatiquement pris en charge par Xubuntu et "
-"devraient être faciles à installer et à utiliser. Cette section vous "
-"montrera pas à pas comment utiliser votre scanner et ce qu'il faut faire si "
-"Xubuntu ne le détecte pas."
+"Beaucoup de périphériques de numérisation sont automatiquement pris en "
+"charge par Xubuntu et devraient être faciles à installer et à utiliser. "
+"Cette section vous montrera pas à pas comment utiliser votre périphérique de "
+"numérisation et ce qu'il faut faire si Xubuntu ne le détecte pas."
 
 #: desktop-guide/C/printing-scanning.xml:73(title)
 msgid "Does my scanner work in Xubuntu?"
-msgstr "Est-ce que mon scanner fonctionne sous Xubuntu ?"
+msgstr ""
+"Est-ce que mon périphérique de numérisation fonctionne sous Xubuntu ?"
 
 #: desktop-guide/C/printing-scanning.xml:75(para)
 msgid "There are three ways to see if you scanner works in Xubuntu:"
 msgstr ""
-"Il y a trois façons de voir si votre scanner fonctionne sous Xubuntu :"
+"Il y a trois façons de voir si votre périphérique de numérisation fonctionne "
+"sous Xubuntu :"
 
 #: desktop-guide/C/printing-scanning.xml:78(para)
 msgid ""
 "Simply plug it in and try it! If it is a newer USB scanner, it is likely "
 "that it will just work."
 msgstr ""
-"Il suffit de le brancher et de l'essayer ! S'il s'agit d'un scanner USB plus "
-"récent, il est probable qu'il fonctionnera."
+"Il suffit de le brancher et de l'essayer ! S'il s'agit d'un périphérique de "
+"numérisation USB plus récent, il est probable qu'il fonctionnera."
 
 #: desktop-guide/C/printing-scanning.xml:79(para)
 msgid ""
@@ -1184,7 +1355,7 @@ msgid ""
 msgstr ""
 "Consultez la <ulink "
 "url=\"https://wiki.ubuntu.com/HardwareSupportComponentsScanners\">liste des "
-"scanners pris en charge</ulink> pour Xubuntu"
+"périphériques de numérisation pris en charge</ulink> pour Xubuntu"
 
 #: desktop-guide/C/printing-scanning.xml:80(para)
 msgid ""
@@ -1192,10 +1363,14 @@ msgid ""
 "project listing of support scanners</ulink>. <application>SANE</application> "
 "is the software used by Xubuntu for most of its scanner support."
 msgstr ""
+"Vérifiez la <ulink url=\"http://www.sane-project.org/sane-"
+"backends.html\">liste des périphériques de numérisation pris en charge du "
+"projet SANE</ulink>. <application>SANE</application> est le logiciel utilisé "
+"par Xubuntu pour la majeur partie des fonctions de numérisation."
 
 #: desktop-guide/C/printing-scanning.xml:85(title)
 msgid "Using your scanner"
-msgstr "Utilisation de votre scanner"
+msgstr "Utilisation de votre périphérique de numérisation"
 
 #: desktop-guide/C/printing-scanning.xml:87(para)
 msgid "To scan a document:"
@@ -1203,7 +1378,8 @@ msgstr "Pour numériser un document :"
 
 #: desktop-guide/C/printing-scanning.xml:90(para)
 msgid "Place what you want to scan on the scanner"
-msgstr "Déposez ce que vous souhaitez numériser sur le scanner"
+msgstr ""
+"Placez ce que vous souhaitez numériser sur le périphérique de numérisation"
 
 #: desktop-guide/C/printing-scanning.xml:91(para)
 msgid ""
@@ -1211,6 +1387,9 @@ msgid ""
 "1/><guisubmenu>Graphics</guisubmenu><guimenuitem>Simple "
 "Scan</guimenuitem></menuchoice></application>"
 msgstr ""
+"Allez sur <application><menuchoice><placeholder-"
+"1/><guisubmenu>Infographie</guisubmenu><guimenuitem>Simple "
+"Scan</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/printing-scanning.xml:92(para)
 msgid ""
@@ -1229,11 +1408,12 @@ msgstr ""
 
 #: desktop-guide/C/printing-scanning.xml:98(title)
 msgid "The computer says \"No scanners detected\""
-msgstr "L'ordinateur dit « Pas de scanner détecté »"
+msgstr "L'ordinateur dit « Aucun scanner n'a été détecté »"
 
 #: desktop-guide/C/printing-scanning.xml:100(para)
 msgid "There are two reasons why you might get this message:"
-msgstr "Il y a deux raisons pour lesquelles vous pourriez avoir ce message :"
+msgstr ""
+"Il y a deux raisons pour lesquelles vous pourriez recevoir ce message :"
 
 #: desktop-guide/C/printing-scanning.xml:103(para)
 msgid ""
@@ -1277,6 +1457,9 @@ msgid ""
 "There are some scanners that have less-than-complete drivers from the SANE "
 "project. They can sometimes be used, but not all the features may work."
 msgstr ""
+"Certains périphérique de numérisation ont des pilotes incomplets issus du "
+"projet SANE. Ils peuvent parfois être utilisés, mais toutes leurs "
+"fonctionnalités ne pourront peut-être pas être opérationnelles."
 
 #: desktop-guide/C/printing-scanning.xml:118(para)
 msgid "Install the <literal><placeholder-1/>libsane-extras</literal> package"
@@ -1298,13 +1481,15 @@ msgid ""
 msgstr ""
 "Activez le bon pilote pour votre scanner en enlevant le <literal>#</literal> "
 "devant le nom du pilote. Vous pourriez avoir besoin de chercher sur le Web "
-"pour savoir quel pilote est le bon."
+"pour savoir quel est le bon pilote."
 
 #: desktop-guide/C/printing-scanning.xml:121(para)
 msgid ""
 "Save the file and open <application>Simple Scan</application>. If all goes "
 "well, your scanner will now work."
 msgstr ""
+"Enregistrez le fichier et ouvrez <application>Simple Scan</application>. Si "
+"tout c'est bien passé, votre scanner fonctionnera."
 
 #: desktop-guide/C/offline-packages.xml:12(title)
 msgid "Offline Package Management"
@@ -1317,6 +1502,10 @@ msgid ""
 "multiple steps involved in the process of doing this. With a USB flash drive "
 "available to you, this can be managed."
 msgstr ""
+"L'outil <application>apt-offline</application> est disponible pour aider à "
+"garder votre ordinateur à jour même s'il ne peut pas rester connecté. Il "
+"existe de multiples étapes impliquées dans ce processus. Avec un lecteur "
+"flash USB à votre disposition, cela peut être géré."
 
 #: desktop-guide/C/offline-packages.xml:17(title)
 msgid "Updating Repositories"
@@ -1336,6 +1525,8 @@ msgid ""
 "From your disconnected computer you enter this at the command line: "
 "<userinput>apt-offline set --update apt-offline.sig</userinput>"
 msgstr ""
+"À partir de votre ordinateur déconnecté, saisissez ceci dans la ligne de "
+"commande : <userinput>apt-offline set --update apt-offline.sig</userinput>"
 
 #: desktop-guide/C/offline-packages.xml:23(para) desktop-guide/C/offline-packages.xml:49(para)
 msgid ""
@@ -1445,6 +1636,9 @@ msgid ""
 "computer you enter this at the command line: <userinput>apt-offline set --"
 "update apt-offline.sig</userinput>"
 msgstr ""
+"Insérez d'abord un lecteur USB et ouvrez un terminal. Depuis votre "
+"ordinateur déconnecté, saisissez ceci sur la ligne de commande : "
+"<userinput>apt-offline set --update apt-offline.sig</userinput>"
 
 #: desktop-guide/C/offline-packages.xml:53(para)
 msgid ""
@@ -1452,6 +1646,9 @@ msgid ""
 "there are packages to upgrade. If there are packages to upgrade you can "
 "continue onward otherwise it is okay to stop."
 msgstr ""
+"Cela complète la première partie du processus. Vous saurez maintenant si, "
+"oui ou non, des paquets sont à mettre à niveau. Si des paquets sont à mettre "
+"à niveau vous pouvez continuer plus avant, sinon vous pouvez arrêter."
 
 #: desktop-guide/C/offline-packages.xml:55(para)
 msgid ""
@@ -1516,11 +1713,11 @@ msgstr "Un dictionnaire rapide Windows-Xubuntu"
 
 #: desktop-guide/C/migrating-upgrading.xml:21(segtitle)
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: desktop-guide/C/migrating-upgrading.xml:21(segtitle)
 msgid "Xubuntu"
-msgstr ""
+msgstr "Xubuntu"
 
 #: desktop-guide/C/migrating-upgrading.xml:22(seg)
 msgid "Add/Remove Programs"
@@ -1536,7 +1733,7 @@ msgstr "Panneau de configuration"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "<placeholder-1/> Settings Manager"
-msgstr ""
+msgstr "<placeholder-1/> Tous les paramètres"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "System (menu)"
@@ -1549,14 +1746,18 @@ msgid ""
 "<?br?><application><menuchoice><placeholder-3/><placeholder-"
 "4/></menuchoice></application> for additional configuration"
 msgstr ""
+"<application><menuchoice><placeholder-1/><placeholder-"
+"2/></menuchoice></application> pour des préférences personnelles "
+"<?br?><application><menuchoice><placeholder-3/><placeholder-"
+"4/></menuchoice></application> pour une configuration supplémentaire"
 
 #: desktop-guide/C/migrating-upgrading.xml:24(seg)
 msgid "Windows Explorer"
-msgstr ""
+msgstr "Explorateur Windows"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guisubmenu)
 msgid "Accessories"
-msgstr ""
+msgstr "Accessoires"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "File Manager"
@@ -1625,12 +1826,14 @@ msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:41(title)
 msgid "Windows networking on Linux"
-msgstr ""
+msgstr "Réseau Windows sur Linux"
 
 #: desktop-guide/C/migrating-upgrading.xml:43(para)
 msgid ""
 "Accessing Windows network shares under Xubuntu can be easily done using:"
 msgstr ""
+"Accéder aux partages réseau Windows sous Xubuntu peut être réalisé "
+"facilement en utilisant :"
 
 #: desktop-guide/C/migrating-upgrading.xml:45(para)
 msgid ""
@@ -1643,6 +1846,15 @@ msgid ""
 "Location...</guimenuitem></menuchoice> and entering "
 "<userinput>smb://computername/sharename</userinput>."
 msgstr ""
+"<application><menuchoice><placeholder-"
+"1/><guisubmenu>Accessoires</guisubmenu><guimenuitem>Gestionnaire de "
+"fichiers</guimenuitem></menuchoice></application>, avec lequel vous pouvez "
+"parcourir les partages publiquement visibles en cliquant sur l'élément "
+"<guilabel>Réseau</guilabel> dans la barre latérale. Alternativement, vous "
+"pouvez parcourir un système de fichiers distant en cliquant sur "
+"<menuchoice><guimenu>Aller</guimenu><guimenuitem>Ouvrir un "
+"emplacement...</guimenuitem></menuchoice> et saisir l'emplacement suivant  : "
+"<userinput>smb://computername/sharename</userinput>."
 
 #: desktop-guide/C/migrating-upgrading.xml:46(para)
 msgid ""
@@ -1653,6 +1865,13 @@ msgid ""
 "<guilabel>Windows Share</guilabel> from <guilabel>Service Type</guilabel>, "
 "then enter the remote share's details."
 msgstr ""
+"<application><menuchoice><placeholder-"
+"1/><guisubmenu>Système</guisubmenu><guimenuitem>Gigolo</guimenuitem></menucho"
+"ice></application>, qui vous permet d'enregistrer les signets et de gérer "
+"les systèmes de fichiers distants. Pour vous connecter, cliquez sur le "
+"premier bouton de la barre d'outils. Sélectionnez <guilabel>Partage "
+"Windows</guilabel> dans la liste déroulante <guilabel>Type de "
+"service</guilabel>. Saisissez ensuite les détails de partage distant."
 
 #: desktop-guide/C/migrating-upgrading.xml:49(para)
 msgid ""
@@ -1691,6 +1910,10 @@ msgid ""
 "Settings Manager</guimenuitem><guimenuitem>Software &amp; "
 "Updates</guimenuitem></menuchoice></application>"
 msgstr ""
+"Accédez aux <application>Sources logicielles</application>, en cliquant sur "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> Tous "
+"les paramètres</guimenuitem><guimenuitem>Logiciels &amp; Mises à "
+"jour</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/migrating-upgrading.xml:63(para)
 msgid "Select the <guilabel>Updates</guilabel> tab"
@@ -1707,13 +1930,18 @@ msgstr ""
 "est disponible</guilabel>, saisissez votre mot de passe et appuyez sur "
 "<guibutton>Fermer</guibutton>"
 
-#: desktop-guide/C/migrating-upgrading.xml:65(para)
+#: desktop-guide/C/migrating-upgrading.xml:64(para)
 msgid ""
 "Go to <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
 "Settings Manager</guimenuitem><guimenuitem>Software "
 "Updater</guimenuitem></menuchoice></application> and wait for the list of "
 "available updates to be downloaded"
 msgstr ""
+"Cliquez sur <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> Tous les "
+"paramètres</guimenuitem><guimenuitem>Gestionnaire de mises à "
+"jour</guimenuitem></menuchoice></application> et attendez que la liste des "
+"mises à jour disponibles soit téléchargée"
 
 #: desktop-guide/C/migrating-upgrading.xml:66(para)
 msgid ""
@@ -1741,6 +1969,9 @@ msgid ""
 "packages must be downloaded and installed, although the actual figure will "
 "depend on how many packages are already installed on your computer."
 msgstr ""
+"Les mises à jour prennent habituellement un certain temps. En général, "
+"environ 700 Mo de paquets doivent être téléchargés et installés. Ceci "
+"dépendra néanmoins du nombre de paquets déjà installés sur votre système."
 
 #: desktop-guide/C/migrating-upgrading.xml:72(para)
 msgid ""
@@ -1752,6 +1983,16 @@ msgid ""
 "this rule is with Long Term Support (LTS) releases. You can upgrade directly "
 "from the previous LTS release to the current LTS release."
 msgstr ""
+"Vous ne pouvez mettre à niveau votre distribution vers la dernière version "
+"de Xubuntu que si vous utilisez la deuxième version la plus récente. Si vous "
+"avez une version antérieure, vous devez mettre à niveau votre distribution "
+"vers la version suivante et ainsi de suite jusqu'à ce que vous utilisiez la "
+"version la plus récente. Par exemple, les utilisateurs de la version 9.04 "
+"devront d'abord mettre à niveau leur distribution vers la version 9.10 avant "
+"de passer à la version 10.04. L'exception à cette règle concerne les "
+"versions profitant du support à long terme (LTS en anglais pour Long Term "
+"Support). Vous pouvez mettre à niveau votre distribution directement à "
+"partir de la version LTS précédente à la version LTS actuelle."
 
 #: desktop-guide/C/migrating-upgrading.xml:76(title)
 msgid "Upgrading to a development release"
@@ -1763,6 +2004,9 @@ msgid ""
 "Only install a development release if you are prepared to attempt to fix "
 "these problems for yourself."
 msgstr ""
+"Les versions en cours de développement souffrent souvent de paquets cassés "
+"et d'autres problèmes. N'installez une version en cours de développement que "
+"si vous êtes capable de corriger ces problèmes par vous-même."
 
 #: desktop-guide/C/migrating-upgrading.xml:80(para)
 msgid ""
@@ -1772,6 +2016,12 @@ msgid ""
 "manager -c -d</userinput>. This will allow you to upgrade to the current "
 "development release."
 msgstr ""
+"Si vous souhaitez installer et tester la dernière version en cours de "
+"développement de Xubuntu avant qu'elle ne soit publiée, exécutez "
+"<userinput>sudo -i</userinput> dans la ligne de commande du terminal pour "
+"obtenir une invite administrateur (root en anglais), puis saisissez ensuite "
+"<userinput>update-manager -c -d</userinput>. Cela vous permettra de mettre à "
+"niveau votre distribution vers la version en cours de développement actuelle."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1791,7 +2041,7 @@ msgstr "Musique"
 
 #: desktop-guide/C/media-apps.xml:18(title)
 msgid "Listening to music"
-msgstr "Écouter de la musique"
+msgstr "Écoute de la musique"
 
 #: desktop-guide/C/media-apps.xml:20(para)
 msgid ""
@@ -1802,8 +2052,8 @@ msgid ""
 "better at handling large music collections."
 msgstr ""
 "Vous pouvez utiliser <application>gmusicbrowser</application> et le "
-"<application>Lecteur Multimédia Parole</application> pour écouter de la "
-"musique sur votre ordinateur. Le <application>Lecteur Multimédia "
+"<application>Lecteur multimédia Parole</application> pour écouter de la "
+"musique sur votre ordinateur. Le <application>Lecteur multimédia "
 "Parole</application> peut ouvrir les fichiers audio d'un double-clic, mais "
 "<application>gmusicbrowser</application> est plus adapté à la manipulation "
 "de grandes collections de musique."
@@ -1825,6 +2075,9 @@ msgid ""
 "the instructions below. There are some legal issues that you should be aware "
 "of."
 msgstr ""
+"Lisez <xref linkend=\"software-repositories-restricted\"/> avant de suivre "
+"les instructions ci-dessous. Il y a quelques détails juridiques que vous "
+"devez connaître."
 
 #: desktop-guide/C/media-apps.xml:26(para)
 msgid ""
@@ -1832,6 +2085,9 @@ msgid ""
 "install the <literal><placeholder-1/>gstreamer0.10-plugins-ugly</literal> "
 "package."
 msgstr ""
+"Afin de pouvoir lire les fichiers MP3 dans "
+"<application>gmusicbrowser</application>, installez le paquet  "
+"<literal><placeholder-1/>gstreamer0.10-plugins-ugly</literal>."
 
 #: desktop-guide/C/media-apps.xml:28(para)
 msgid ""
@@ -1840,6 +2096,10 @@ msgid ""
 "<application>gmusicbrowser</application> to your music files by doing the "
 "following:"
 msgstr ""
+"Initialement, <application>gmusicbrowser</application> ne recherchera pas "
+"automatiquement des fichiers musicaux sur votre ordinateur et vous devrez "
+"diriger manuellement <application>gmusicbrowser</application> vers vos "
+"fichiers musicaux en procédant comme suit :"
 
 #: desktop-guide/C/media-apps.xml:31(para)
 msgid ""
@@ -1847,18 +2107,25 @@ msgid ""
 "1/><guisubmenu>Multimedia</guisubmenu><guimenuitem>gmusicbrowser</guimenuitem"
 "></menuchoice></application>"
 msgstr ""
+"Cliquez sur <application><menuchoice><placeholder-"
+"1/><guisubmenu>Multimédia</guisubmenu><guimenuitem>gmusicbrowser</guimenuitem"
+"></menuchoice></application>,"
 
 #: desktop-guide/C/media-apps.xml:32(para)
 msgid ""
 "Open the menu (a gear at the top right) and click "
 "<menuchoice><guimenuitem>Settings</guimenuitem></menuchoice>"
 msgstr ""
+"Ouvrez le menu (un engrenage en haut à droite) et cliquez sur "
+"<menuchoice><guimenuitem>Configuration</guimenuitem></menuchoice>,"
 
 #: desktop-guide/C/media-apps.xml:33(para)
 msgid ""
 "In the <guilabel>Settings</guilabel> dialog, go to the "
 "<guilabel>Library</guilabel> tab"
 msgstr ""
+"Dans la fenêtre contextuelle <guilabel>Configuration</guilabel>, rendez-vous "
+"à l'onglet <guilabel>Bibliothèque</guilabel>,"
 
 #: desktop-guide/C/media-apps.xml:34(para)
 msgid ""
@@ -1866,12 +2133,19 @@ msgid ""
 "contains your music files and press <guibutton>OK</guibutton>; your "
 "selection will now appear in the <guilabel>Settings</guilabel> dialog"
 msgstr ""
+"Cliquez sur <guibutton>Ajouter un dossier</guibutton> et choisissez le "
+"répertoire qui contient vos fichiers musicaux puis cliquez sur "
+"<guibutton>Valider</guibutton> ; votre sélection apparaîtra maintenant dans "
+"la fenêtre contextuelle <guilabel>Configuration</guilabel>."
 
 #: desktop-guide/C/media-apps.xml:35(para)
 msgid ""
 "If you wish to add other locations of music files repeat the previous step, "
 "or otherwise, press <guibutton>Close</guibutton>"
 msgstr ""
+"Si vous souhaitez ajouter d'autres emplacements de fichiers musicaux, "
+"répétez l'étape précédente, ou sinon, cliquez sur "
+"<guibutton>Fermer</guibutton>"
 
 #: desktop-guide/C/media-apps.xml:36(para)
 msgid ""
@@ -1880,11 +2154,17 @@ msgid ""
 "have to change views (to the left of the search) or restart "
 "<application>gmusicbrowser</application> to see your library."
 msgstr ""
+"<application>gmusicbrowser</application> commencera à parcourir votre "
+"bibliothèque. Une fois la barre de progression disparue, vous pourriez avoir "
+"à changer de vue (à gauche de la recherche) ou à redémarrer "
+"<application>gmusicbrowser</application> pour visualiser votre bibliothèque."
 
 #: desktop-guide/C/media-apps.xml:41(title)
 msgid ""
 "I see wrong metadata (song names, covers) for my tracks in gmusicbrowser"
 msgstr ""
+"Je vois des métadonnées erronées (noms de chanson, couvertures) pour mes "
+"pistes musicales dans gmusicbrowser"
 
 #: desktop-guide/C/media-apps.xml:43(para)
 msgid ""
@@ -1935,6 +2215,9 @@ msgid ""
 "Xubuntu unless you have done an initial synchronization with "
 "<application>iTunes</application> first."
 msgstr ""
+"Les iPod récents (6e génération et au-delà) ne fonctionneront pas "
+"automatiquement avec Xubuntu si vous n’avez pas effectué une synchronisation "
+"initiale avec <application>iTunes</application> au préalable."
 
 #: desktop-guide/C/media-apps.xml:57(para)
 msgid ""
@@ -1996,6 +2279,13 @@ msgid ""
 "<keycap><placeholder-2/>Enter</keycap> key: <userinput>sudo "
 "/usr/share/doc/libdvdread4/install-css.sh</userinput>"
 msgstr ""
+"Si vous souhaitez lire des DVD chiffrés, cliquez sur "
+"<application><menuchoice><placeholder-"
+"1/><guisubmenu>Accessoires</guisubmenu><guimenuitem>Émulateur de "
+"terminal</guimenuitem></menuchoice></application> et saisissez la commande "
+"suivante dans le <application>Terminal</application> suivie de la touche "
+"<keycap><placeholder-2/>Entrée</keycap> : <userinput>sudo "
+"/usr/share/doc/libdvdread4/install-css.sh</userinput>"
 
 #: desktop-guide/C/media-apps.xml:78(para)
 msgid ""
@@ -2003,7 +2293,7 @@ msgid ""
 "1/>libdvdcss2</literal> package will be downloaded and installed from a "
 "website."
 msgstr ""
-"Entrez votre mot de passe si vous y êtes invité. Le paquet "
+"Saisissez votre mot de passe si vous y êtes invité. Le paquet "
 "<literal><placeholder-1/>libdvdcss2</literal> sera téléchargé et installé à "
 "partir d'un site web."
 
@@ -2017,7 +2307,7 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:84(title)
 msgid "Playing video"
-msgstr "Lire une vidéo"
+msgstr "Lecture de vidéos"
 
 #: desktop-guide/C/media-apps.xml:86(para)
 msgid ""
@@ -2027,6 +2317,12 @@ msgid ""
 "install this plugin by following the wizard. Afterwards, you may need to "
 "restart <application>Parole Media Player</application>."
 msgstr ""
+"Le <application>lecteur multimédia Parole</application> prend en charge la "
+"plupart des formats de vidéo. Si vous essayez de lire un fichier vidéo non "
+"pris en charge, le <application>lecteur multimédia Parole</application> peut "
+"vous avertir d'un module externe manquant. Vous pouvez ensuite installer ce "
+"module externe en suivant l'assistant. Ensuite, vous devrez peut-être "
+"redémarrer le <application>lecteur multimédia Parole</application>."
 
 #: desktop-guide/C/media-apps.xml:88(para)
 msgid ""
@@ -2036,6 +2332,12 @@ msgid ""
 "right-click the video and select <menuchoice><guimenuitem>Open with Parole "
 "Media Player</guimenuitem></menuchoice>."
 msgstr ""
+"Si vous éprouvez des difficultés à obtenir une vidéo à diffuser dans votre "
+"navigateur, le <application>lecteur multimédia Parole</application> prend en "
+"charge le flux de données de la plupart des types de vidéo. Pour ouvrir une "
+"vidéo dans le <application>lecteur multimédia Parole</application>, faites "
+"un clic droit sur la vidéo et sélectionnez <menuchoice><guimenuitem>Ouvrir "
+"avec « Lecteur multimédia Parole »</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/media-apps.xml:91(title)
 msgid "Restricted formats"
@@ -2047,6 +2349,10 @@ msgid ""
 "are proprietary and so support for them cannot be included in Xubuntu by "
 "default. You must install some extra software to allow playback."
 msgstr ""
+"Certains formats de vidéo, comme « Adobe Flash », « QuickTime » et « Windows "
+"Media Video », sont propriétaires et, de fait, leurs prises en charge ne "
+"peuvent pas être incluses par défaut dans Xubuntu. Vous devrez installer un "
+"logiciel supplémentaire pour permettre la lecture."
 
 #: desktop-guide/C/media-apps.xml:95(para)
 msgid ""
@@ -2059,7 +2365,7 @@ msgstr ""
 
 #: desktop-guide/C/media-apps.xml:101(title)
 msgid "Burning CDs and DVDs"
-msgstr "Graver des CD et des DVD"
+msgstr "Gravure de CD et DVD"
 
 #: desktop-guide/C/media-apps.xml:103(para)
 msgid ""
@@ -2114,6 +2420,8 @@ msgid ""
 "<application>Ubuntu Software Center</application>, a simple graphical user "
 "interface to install new software."
 msgstr ""
+"La <application>Logithèque Ubuntu</application>, une interface graphique "
+"simple pour installer de nouveaux logiciels."
 
 #: desktop-guide/C/managing-applications.xml:20(para)
 msgid ""
@@ -2135,6 +2443,10 @@ msgid ""
 "manager while one is already open, you will receive an error message and the "
 "second package manager will not necessarily be able to function."
 msgstr ""
+"Vous ne pouvez utiliser qu'un seul gestionnaire de paquet à la fois. Si vous "
+"lancez un gestionnaire de paquet alors qu'un autre est ouvert, vous recevrez "
+"un message d'erreur et le second gestionnaire de paquet ne sera pas "
+"nécessairement capable de fonctionner."
 
 #: desktop-guide/C/managing-applications.xml:28(title)
 msgid "Using Ubuntu Software Center"
@@ -2146,6 +2458,9 @@ msgid ""
 "<application><menuchoice><placeholder-1/><guimenuitem>Ubuntu Software "
 "Center</guimenuitem></menuchoice></application>."
 msgstr ""
+"Vous pouvez lancer la logithèque Ubuntu à partir de la "
+"<application><menuchoice><placeholder-1/><guimenuitem>Logithèque "
+"Ubuntu</guimenuitem></menuchoice></application>."
 
 #: desktop-guide/C/managing-applications.xml:33(title)
 msgid "Installing new software"
@@ -2169,6 +2484,8 @@ msgid ""
 "You will be asked to enter your password; once you do that, the installation "
 "will begin"
 msgstr ""
+"Vous serez invité à saisir votre mot de passe ; ensuite, l'installation "
+"commencera"
 
 #: desktop-guide/C/managing-applications.xml:39(para)
 msgid "A shortcut to your application will added to the Applications menu"
@@ -2209,6 +2526,8 @@ msgid ""
 "You may be asked to enter your password; once you do that, the application "
 "will be removed"
 msgstr ""
+"Vous pouvez être invité à saisir votre mot de passe ; ensuite, l'application "
+"sera supprimée"
 
 #: desktop-guide/C/managing-applications.xml:55(para)
 msgid ""
@@ -2217,6 +2536,11 @@ msgid ""
 "application, both of them will be removed. You will be asked to confirm that "
 "this is what you want to happen before the applications are removed."
 msgstr ""
+"Certains programmes ont besoin que d'autres soient installés pour "
+"fonctionner correctement. Si vous essayez de supprimer une application "
+"nécessaire au fonctionnement d'une autre, les deux seront supprimées. Une "
+"confirmation vous sera demandée dans ce cas, avant que les applications ne "
+"soient supprimées."
 
 #: desktop-guide/C/managing-applications.xml:60(title)
 msgid "Additional software repositories"
@@ -2224,7 +2548,7 @@ msgstr "Dépôts logiciels additionnels"
 
 #: desktop-guide/C/managing-applications.xml:63(title)
 msgid "Enabling more repositories"
-msgstr ""
+msgstr "Ajout d'autres dépôts"
 
 #: desktop-guide/C/managing-applications.xml:65(para)
 msgid ""
@@ -2232,6 +2556,9 @@ msgid ""
 "parties or those for older versions of Xubuntu. To enable more software "
 "repositories:"
 msgstr ""
+"Il est possible d'ajouter des dépôts supplémentaires, comme ceux fournis pas "
+"des tiers ou ceux pour les versions plus anciennes de Xubuntu. Pour activer "
+"d'avantage de dépôts logiciels :"
 
 #: desktop-guide/C/managing-applications.xml:68(para)
 msgid ""
@@ -2290,6 +2617,9 @@ msgid ""
 "Be careful when installing software from third-party repositories. It may "
 "not have been tested with Xubuntu and could cause your system to break."
 msgstr ""
+"Soyez prudent lorsque vous installez des logiciels provenant de dépôts "
+"maintenus par des tierces parties. Ils peuvent ne pas avoir été testés avec "
+"Xubuntu et entraîner la défaillance de votre système."
 
 #: desktop-guide/C/managing-applications.xml:80(title)
 msgid "Restricted and non-free software"
@@ -2302,6 +2632,10 @@ msgid ""
 "the software and redistribute it if they like. Xubuntu is built from this "
 "type of software."
 msgstr ""
+"La majorité des applications disponibles pour Xubuntu sont libres. Ces "
+"applications peuvent être librement installées, utilisées, modifiées et "
+"redistribuées par quiconque. Xubuntu a été construit avec ce type de "
+"logiciels."
 
 #: desktop-guide/C/managing-applications.xml:84(para)
 msgid ""
@@ -2349,6 +2683,12 @@ msgid ""
 "unable to determine why a package is restricted, err on the side of caution "
 "and do not install it; it may be illegal to use it in your country."
 msgstr ""
+"Il est parfois difficile de savoir pourquoi un paquet logiciel en "
+"particulier est restreint. Dans ce cas demandez conseil sur les <ulink "
+"url=\"http://forum.ubuntu-fr.org/\">forums Ubuntu</ulink>. Si vous êtes "
+"malgré tout incapable de savoir pourquoi un paquet est restreint, par "
+"principe de précaution, vous ne devriez pas l'installer. Son utilisation est "
+"peut être illégale dans votre pays."
 
 #: desktop-guide/C/managing-applications.xml:97(title)
 msgid "Installing packages without an Internet connection"
@@ -2392,10 +2732,12 @@ msgid ""
 "After adding the disc to the software sources, you will be able to install "
 "packages from the disc."
 msgstr ""
+"Après avoir ajouté le disque aux sources de logiciels, vous pourrez "
+"installer des paquets depuis celui-ci."
 
 #: desktop-guide/C/managing-applications.xml:114(title)
 msgid "Helpful application"
-msgstr ""
+msgstr "Application utile"
 
 #: desktop-guide/C/managing-applications.xml:116(para)
 msgid ""
@@ -2506,8 +2848,10 @@ msgstr ""
 msgid ""
 "<guilabel>Never</guilabel> - You will not get notifications of new releases"
 msgstr ""
+"<guilabel>Jamais</guilabel> - Vous ne recevrez pas de notifications pour les "
+"nouvelles versions"
 
-#: desktop-guide/C/managing-applications.xml:156(title)
+#: desktop-guide/C/managing-applications.xml:160(title)
 msgid "Other options"
 msgstr "Autres options"
 
@@ -2534,6 +2878,11 @@ msgid ""
 "<application>NetworkManager</application> also keeps passwords secure by "
 "utilizing the user's keyring to store passphrases."
 msgstr ""
+"Xubuntu utilise <application>NetworkManager</application> pour gérer les "
+"connexions filaires, non-filaires, haut-débit mobile, VPN et ADSL. "
+"<application>NetworkManager</application> conserve également les mots de "
+"passe en sécurité en utilisant le trousseau de clé de l'utilisateur pour "
+"stocker les phrases secrètes."
 
 #: desktop-guide/C/internet-networks.xml:16(para)
 msgid ""
@@ -2542,6 +2891,10 @@ msgid ""
 "two grayed out arrows pointing up and down. When you are connected, the icon "
 "is different depending on the network type in use."
 msgstr ""
+"<application>NetworkManager</application> est la petite icône dans le "
+"panneaux supérieur à droite de votre écran. Hors-connexion, l'icône montre "
+"deux flèches grisées orientées vers le haut et vers le bas. Lorsque vous "
+"êtes connecté, l'icône est différente suivant le réseau utilisé."
 
 #: desktop-guide/C/internet-networks.xml:19(title)
 msgid "Network connections"
@@ -2556,6 +2909,8 @@ msgid ""
 "<application>NetworkManager</application> will automatically use a wired "
 "network, if one is available."
 msgstr ""
+"<application>NetworkManager</application> utilisera automatiquement un "
+"réseau filaire, s'il y en a un disponible."
 
 #: desktop-guide/C/internet-networks.xml:26(para)
 msgid ""
@@ -2563,6 +2918,9 @@ msgid ""
 "<application>NetworkManager</application> icon. To connect to a network, "
 "click the network name."
 msgstr ""
+"Pour voir toutes les connexions disponibles, cliquez sur l'icône "
+"<application>NetworkManager</application>. Pour vous connecter à un réseau, "
+"cliquez sur le nom du réseau."
 
 #: desktop-guide/C/internet-networks.xml:28(para)
 msgid ""
@@ -2606,6 +2964,9 @@ msgid ""
 "which you will get from your network administrator or your Internet Service "
 "Provider."
 msgstr ""
+"Pour pouvoir vous connecter à certains réseaux, vous aurez peut-être besoin "
+"de certaines informations de connexion que vous obtiendrez de votre "
+"administrateur réseau ou de votre fournisseur d’accès à internet."
 
 #: desktop-guide/C/internet-networks.xml:42(title)
 msgid "Connection information"
@@ -2622,7 +2983,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:48(title)
 msgid "Sharing your connection to another computer"
-msgstr ""
+msgstr "Partage de votre connexion avec un autre ordinateur"
 
 #: desktop-guide/C/internet-networks.xml:50(para)
 msgid ""
@@ -2658,6 +3019,8 @@ msgid ""
 "Before attempting any troubleshooting, ensure that the network connections "
 "are enabled:"
 msgstr ""
+"Avant de tenter tout dépannage, assurez-vous que les connexions réseau sont "
+"activées :"
 
 #: desktop-guide/C/internet-networks.xml:65(para)
 msgid ""
@@ -2669,11 +3032,13 @@ msgstr ""
 msgid ""
 "Check <menuchoice><guimenuitem>Enable Networking</guimenuitem></menuchoice>"
 msgstr ""
+"Cochez <menuchoice><guimenuitem>Activer le réseau</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/internet-networks.xml:67(para)
 msgid ""
 "Check <menuchoice><guimenuitem>Enable Wi-Fi</guimenuitem></menuchoice>"
 msgstr ""
+"Cochez <menuchoice><guimenuitem>Activer le Wi-Fi</guimenuitem></menuchoice>"
 
 #: desktop-guide/C/internet-networks.xml:70(para)
 msgid "If your network connection still doesn't work:"
@@ -2707,6 +3072,8 @@ msgid ""
 "If your network connection is not working properly, there are a few tools "
 "that can be used to help diagnose the problem."
 msgstr ""
+"Si votre connexion réseau ne fonctionne pas correctement, certains outils "
+"peuvent être utilisés pour aider à diagnostiquer le problème."
 
 #: desktop-guide/C/internet-networks.xml:84(title)
 msgid "Get information about the current connection"
@@ -2741,6 +3108,8 @@ msgid ""
 "Each active connection will have its own tab where you can find relevant "
 "connection information"
 msgstr ""
+"Chaque connexion active aura son propre onglet où figureront des "
+"informations pertinentes sur celle-ci."
 
 #: desktop-guide/C/internet-networks.xml:98(para)
 msgid "Using <application>ifconfig</application>"
@@ -2765,7 +3134,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:108(title)
 msgid "Check if a connection is working properly"
-msgstr "Vérifiez si une connexion fonctionne correctement"
+msgstr "Vérifier si une connexion fonctionne correctement"
 
 #: desktop-guide/C/internet-networks.xml:110(para)
 msgid ""
@@ -2795,6 +3164,7 @@ msgstr ""
 msgid ""
 "0% packet loss indicates that your computer is connected to the Internet"
 msgstr ""
+"0 % de paquets perdus indique que votre ordinateur est connecté à Internet."
 
 #: desktop-guide/C/internet-networks.xml:118(para)
 msgid ""
@@ -2847,7 +3217,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:138(para)
 msgid "If the device is turned on, continue to the next topic."
-msgstr ""
+msgstr "Si le périphérique est allumé, procédez à l'étape suivante."
 
 #: desktop-guide/C/internet-networks.xml:142(title)
 msgid "Check if the device is recognized"
@@ -2920,7 +3290,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:163(para)
 msgid "Select <guibutton>Install new driver</guibutton>"
-msgstr ""
+msgstr "Sélectionnez <guibutton>Installer un nouveau pilote</guibutton>"
 
 #: desktop-guide/C/internet-networks.xml:164(para)
 msgid ""
@@ -2934,7 +3304,7 @@ msgstr "Cliquez sur <guibutton>Valider</guibutton>"
 
 #: desktop-guide/C/internet-networks.xml:170(title)
 msgid "Checking for a connection to the router"
-msgstr "Vérification pour une connexion au routeur"
+msgstr "Vérification d'une connexion au routeur"
 
 #: desktop-guide/C/internet-networks.xml:172(para)
 msgid ""
@@ -2954,7 +3324,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:179(title)
 msgid "Advanced troubleshooting"
-msgstr ""
+msgstr "Dépannage avancé"
 
 #: desktop-guide/C/internet-networks.xml:181(para)
 msgid ""
@@ -2964,7 +3334,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:184(title)
 msgid "Checking IP assignment"
-msgstr ""
+msgstr "Vérification de l'affectation de l'IP"
 
 #: desktop-guide/C/internet-networks.xml:186(para)
 msgid ""
@@ -2993,7 +3363,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:192(para)
 msgid "If not, reboot the system"
-msgstr ""
+msgstr "Sinon, redémarrez le système"
 
 #: desktop-guide/C/internet-networks.xml:197(title)
 msgid "Check Domain Name Servers (DNS)"
@@ -3075,6 +3445,8 @@ msgstr ""
 #: desktop-guide/C/internet-networks.xml:221(para)
 msgid "The Windows Share username should be in the format DOMAIN\\username"
 msgstr ""
+"Le nom d'utilisateur de partage Windows devrait avoir le format "
+"DOMAINE/nomdutilisateur"
 
 #: desktop-guide/C/internet-networks.xml:223(para)
 msgid ""
@@ -3099,11 +3471,11 @@ msgid ""
 "documentation."
 msgstr ""
 
-#: desktop-guide/C/index.xml:21(para)
+#: desktop-guide/C/index.xml:20(para)
 msgid "The contributors to this documentation are:"
 msgstr "Les contributeurs à cette documentation sont :"
 
-#: desktop-guide/C/index.xml:23(para)
+#: desktop-guide/C/index.xml:22(para)
 msgid "Sean Davis (smd-seandavis)"
 msgstr "Sean Davis (smd-seandavis)"
 
@@ -3115,11 +3487,11 @@ msgstr "Kev (elfy)"
 msgid "Jack Fromm (jjfrv8-gmail)"
 msgstr "Jack Fromm (jjfrv8-gmail)"
 
-#: desktop-guide/C/index.xml:26(para)
+#: desktop-guide/C/index.xml:27(para)
 msgid "Elizabeth Krumbach (lyz)"
 msgstr "Elizabeth Krumbach (lyz)"
 
-#: desktop-guide/C/index.xml:27(para)
+#: desktop-guide/C/index.xml:26(para)
 msgid "Stephen Michael Kellat (skellat)"
 msgstr "Stephen Michael Kellat (skellat)"
 
@@ -3139,84 +3511,98 @@ msgstr "Unit 193 (Unit193)"
 msgid "Jay van Cooten (skippersboss)"
 msgstr "Jay van Cooten (skippersboss)"
 
-#: desktop-guide/C/index.xml:34(para)
+#: desktop-guide/C/index.xml:37(para)
 msgid "The contributors to previous versions to this documentation are:"
 msgstr ""
 "Les contributeurs des versions antérieures à cette documentation sont :"
 
-#: desktop-guide/C/index.xml:36(para)
+#: desktop-guide/C/index.xml:39(para)
 msgid "Jim Campbell (jwcampbell)"
 msgstr "Jim Campbell (jwcampbell)"
 
-#: desktop-guide/C/index.xml:37(para)
+#: desktop-guide/C/index.xml:40(para)
 msgid "Freddy Martinez (freddymartinez9)"
 msgstr "Freddy Martinez (freddymartinez9)"
 
-#: desktop-guide/C/index.xml:38(para)
+#: desktop-guide/C/index.xml:41(para)
 msgid "Jan M. (fijam7)"
 msgstr "Jan M. (fijam7)"
 
-#: desktop-guide/C/index.xml:39(para)
+#: desktop-guide/C/index.xml:42(para)
 msgid "Cody A.W. Somerville (cody-somerville)"
 msgstr "Cody A.W. Somerville (cody-somerville)"
 
-#: desktop-guide/C/index.xml:40(para)
+#: desktop-guide/C/index.xml:43(para)
 msgid "Luzius Thöny (lucius-antonius)"
 msgstr "Luzius Thöny (lucius-antonius)"
 
-#: desktop-guide/C/index.xml:43(para)
+#: desktop-guide/C/index.xml:46(para)
 msgid ""
 "This document is made available under the Creative Commons ShareAlike 2.5 "
 "License (CC-BY-SA)."
 msgstr ""
+"Ce document est diffusé sous licence Creative Commons Paternité - Partage à "
+"l'identique (CC-BY-SA 2.5)."
 
-#: desktop-guide/C/index.xml:44(para)
+#: desktop-guide/C/index.xml:47(para)
 msgid ""
 "You are free to modify, extend, and improve the Ubuntu documentation source "
 "code under the terms of this license. All derivative works must be released "
 "under this license."
 msgstr ""
+"Vous êtes libre de modifier, d'étendre ou d'améliorer le code source de la "
+"documentation d'Ubuntu selon les termes de cette licence. Tous les travaux "
+"dérivés doivent être publiés sous cette même licence."
 
-#: desktop-guide/C/index.xml:46(para)
+#: desktop-guide/C/index.xml:49(para)
 msgid ""
 "This documentation is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE AS DESCRIBED IN THE DISCLAIMER."
 msgstr ""
+"Cette documentation est distribuée dans l'espoir qu'elle sera utile, mais "
+"SANS AUCUNE GARANTIE de quelque nature que ce soit ; expresse ou implicite, "
+"y compris, mais sans y être limité, les garanties D'APTITUDE À LA VENTE ou À "
+"UN BUT PARTICULIER COMME EXPOSÉ DANS L'AVERTISSEMENT. (N.B. : en cas de "
+"litige, seule la version anglaise fait foi)"
 
-#: desktop-guide/C/index.xml:49(para)
+#: desktop-guide/C/index.xml:52(para)
 msgid ""
 "A copy of the license is available here: <link linkend=\"cc-by-sa\">Creative "
 "Commons ShareAlike License</link>."
 msgstr ""
+"Un exemplaire de la licence est disponible là : <link linkend=\"cc-by-"
+"sa\">Creative Commons ShareAlike License</link>."
 
-#: desktop-guide/C/index.xml:50(para)
+#: desktop-guide/C/index.xml:53(para)
 msgid ""
 "All trademarks or registered trademarks are the property of the respective "
 "owners."
 msgstr ""
+"Toutes les marques de commerce ou marques déposées sont la propriété de "
+"leurs propriétaires respectifs."
 
-#: desktop-guide/C/index.xml:54(year)
+#: desktop-guide/C/index.xml:57(year)
 msgid "2012"
-msgstr ""
+msgstr "2012"
 
-#: desktop-guide/C/index.xml:55(year)
+#: desktop-guide/C/index.xml:58(year)
 msgid "2013"
-msgstr ""
+msgstr "2013"
 
-#: desktop-guide/C/index.xml:56(year)
+#: desktop-guide/C/index.xml:59(year)
 msgid "2014"
-msgstr ""
+msgstr "2014"
 
-#: desktop-guide/C/index.xml:57(holder)
+#: desktop-guide/C/index.xml:61(holder)
 msgid "Canonical Ltd. and members of the Xubuntu Documentation team."
-msgstr ""
+msgstr "Canonical Ltd. et les membres de l'équipe de documentation Xubuntu."
 
-#: desktop-guide/C/index.xml:61(publishername)
+#: desktop-guide/C/index.xml:65(publishername)
 msgid "The Ubuntu Documentation Project"
-msgstr ""
+msgstr "Le projet de documentation d'Ubuntu"
 
-#: desktop-guide/C/index.xml:64(title)
+#: desktop-guide/C/index.xml:68(title)
 msgid "Welcome!"
 msgstr "Bienvenue !"
 
@@ -3228,11 +3614,11 @@ msgstr ""
 "Cette documentation fournit des solutions aux problèmes les plus courants "
 "rencontrés avec Xubuntu, y compris :"
 
-#: desktop-guide/C/index.xml:71(para)
+#: desktop-guide/C/index.xml:75(para)
 msgid "In addition, this documentation has three quick guides:"
 msgstr "En outre, cette documentation contient trois guides rapides :"
 
-#: desktop-guide/C/index.xml:77(para)
+#: desktop-guide/C/index.xml:81(para)
 msgid ""
 "The complete set of topics is listed below. If you require help with a topic "
 "or problem that is not addressed by the documentation, go to the <ulink "
@@ -3242,15 +3628,19 @@ msgstr ""
 "L'ensemble des sujets est listé ci-dessous. Si vous avez besoin d'aide sur "
 "un sujet ou un problème qui n'est pas abordé dans la documentation, rendez-"
 "vous sur la page <ulink url=\"http://xubuntu.org/help/\">Aide et "
-"support</ulink> du site internet de Xubuntu. Vous y trouverez des liens vers "
-"des ressources d'aide supplémentaires."
+"support</ulink> du site web de Xubuntu. Vous y trouverez des liens vers des "
+"ressources d'aide supplémentaires."
 
-#: desktop-guide/C/index.xml:79(para)
+#: desktop-guide/C/index.xml:83(para)
 msgid ""
 "If you would like to contribute to Xubuntu, including this documentation, "
 "see the <ulink url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> "
 "section of the Xubuntu website."
 msgstr ""
+"Si vous souhaitez contribuer à Xubuntu, y compris à cette documentation, "
+"rendez-vous sur la section <ulink "
+"url=\"http://xubuntu.org/contribute/\">Impliquez-vous</ulink> du site web de "
+"Xubuntu."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3279,6 +3669,10 @@ msgid ""
 "section provides information on tools which can be used to configure your "
 "hardware."
 msgstr ""
+"Normalement, Xubuntu configure automatiquement votre matériel, néanmoins il "
+"peut arriver que vous deviez configurer manuellement votre matériel. Cette "
+"section fournit des informations sur les outils qui peuvent être utilisés "
+"pour configurer votre matériel."
 
 #: desktop-guide/C/hardware-devices.xml:19(title)
 msgid "Restricted drivers"
@@ -3286,13 +3680,15 @@ msgstr "Pilotes propriétaires"
 
 #: desktop-guide/C/hardware-devices.xml:22(title)
 msgid "Why are some drivers restricted?"
-msgstr ""
+msgstr "Pourquoi certains pilotes sont-ils propriétaires ?"
 
 #: desktop-guide/C/hardware-devices.xml:24(para)
 msgid ""
 "Restricted drivers are drivers for your hardware that are not freely "
 "available or open source."
 msgstr ""
+"Les pilotes propriétaires sont des pilotes pour votre matériel qui ne sont "
+"pas libres ou disponibles gratuitement."
 
 #: desktop-guide/C/hardware-devices.xml:26(para)
 msgid ""
@@ -3356,7 +3752,7 @@ msgstr ""
 msgid ""
 "You will, if necessary, be prompted to enter the administration password."
 msgstr ""
-"Vous serez, si nécessaire, invité à entrer le mot de passe d'administration."
+"Vous serez, si nécessaire, invité à saisir le mot de passe d'administration."
 
 #: desktop-guide/C/hardware-devices.xml:44(para)
 msgid "You may be prompted to reboot to finish installation."
@@ -3373,6 +3769,8 @@ msgid ""
 "If a restricted driver is causing problems, or you would just like to turn "
 "it off, follow the procedure below:"
 msgstr ""
+"Si un pilote propriétaire pose problème, ou si vous voulez tout simplement "
+"ne plus l'utiliser, suivez cette procédure :"
 
 #: desktop-guide/C/hardware-devices.xml:55(para)
 msgid "Click on the <guilabel>Additional Drivers</guilabel> tab."
@@ -3446,6 +3844,7 @@ msgstr "Comment puis-je libérer de l'espace disque ?"
 #: desktop-guide/C/hardware-devices.xml:84(para)
 msgid "There are several simple ways of making more disk space available:"
 msgstr ""
+"Il existe plusieurs façons de libérer simplement de l'espace disque :"
 
 #: desktop-guide/C/hardware-devices.xml:87(para)
 msgid ""
@@ -3492,6 +3891,8 @@ msgid ""
 "Be careful when altering disk partitions, as it is possible to lose your "
 "data if you delete or change the wrong partition."
 msgstr ""
+"Attention lorsque vous modifiez des partitions, il est possible de perdre "
+"des données si vous effacez ou modifiez la mauvaise partition."
 
 #: desktop-guide/C/hardware-devices.xml:102(para)
 msgid ""
@@ -3501,7 +3902,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:105(title)
 msgid "Freeing space for a new partition"
-msgstr ""
+msgstr "Libérer de l'espace pour une nouvelle partition"
 
 #: desktop-guide/C/hardware-devices.xml:107(para)
 msgid ""
@@ -3578,8 +3979,8 @@ msgid ""
 "If desired, enter a description for the partition in the <guilabel>Label: "
 "</guilabel> field."
 msgstr ""
-"Si vous le souhaitez, entrez une description pour la partition dans le champ "
-"<guilabel>Étiquette : </guilabel>"
+"Si vous le souhaitez, saisissez une description pour la partition dans le "
+"champ <guilabel>Étiquette: </guilabel>"
 
 #: desktop-guide/C/hardware-devices.xml:128(para)
 msgid "Click the <guibutton>Add</guibutton> button."
@@ -3599,6 +4000,10 @@ msgid ""
 "<menuchoice><guimenu>Partition</guimenu><guimenuitem>Unmount</guimenuitem></m"
 "enuchoice>."
 msgstr ""
+"Une liste de partitions apparaîtra. Choisissez la partition désirée et "
+"sélectionnez "
+"<menuchoice><guimenu>Partition</guimenu><guimenuitem>Démonter</guimenuitem></"
+"menuchoice>."
 
 #: desktop-guide/C/hardware-devices.xml:141(para)
 msgid ""
@@ -3722,7 +4127,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:190(title)
 msgid "Finding laptop testing reports"
-msgstr ""
+msgstr "Trouver des rapports de test d'ordinateur portable"
 
 #: desktop-guide/C/hardware-devices.xml:192(para)
 msgid ""
@@ -3741,13 +4146,15 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:197(title)
 msgid "Suspending and Hibernating"
-msgstr "Mise en veille et Hibernation"
+msgstr "Mise en veille et hibernation"
 
 #: desktop-guide/C/hardware-devices.xml:199(para)
 msgid ""
 "In order to save power, you can put your computer into one of a number of "
 "power-saving modes when you are not using it:"
 msgstr ""
+"Pour économiser l'énergie, vous pouvez placer votre ordinateur dans divers "
+"modes lorsque vous ne l'utilisez pas :"
 
 #: desktop-guide/C/hardware-devices.xml:202(para)
 msgid ""
@@ -3807,6 +4214,7 @@ msgstr ""
 #: desktop-guide/C/hardware-devices.xml:215(title)
 msgid "My computer doesn't suspend or hibernate correctly"
 msgstr ""
+"Mon ordinateur ne se met pas en veille ou en veille prolongée correctement."
 
 #: desktop-guide/C/hardware-devices.xml:217(para)
 msgid ""
@@ -3814,26 +4222,35 @@ msgid ""
 "this is the case for your computer, you may notice some of the following "
 "symptoms:"
 msgstr ""
+"Certains ordinateurs ne sont pas capables de passer en veille ou d'hiberner "
+"correctement avec Xubuntu. Si c'est le cas de votre ordinateur, vous pouvez "
+"remarquer certains des symptômes suivants :"
 
 #: desktop-guide/C/hardware-devices.xml:220(para)
 msgid "The computer does not turn off after you click to hibernate it."
 msgstr ""
+"L'ordinateur ne s'éteint pas après que vous ayez cliqué pour le faire "
+"hiberner."
 
 #: desktop-guide/C/hardware-devices.xml:221(para)
 msgid ""
 "When you turn the computer on after hibernating it, your previously open "
 "programs are not restored."
 msgstr ""
+"Lorsque vous allumez votre ordinateur après hibernation, vos programmes "
+"précédemment ouverts ne sont pas restaurés."
 
 #: desktop-guide/C/hardware-devices.xml:222(para)
 msgid "The computer will not wake up after you have suspended it."
-msgstr ""
+msgstr "L'ordinateur ne se réveille pas après la mise en veille."
 
 #: desktop-guide/C/hardware-devices.xml:223(para)
 msgid ""
 "Certain programs or hardware devices stop working correctly after resuming "
 "from hibernation or waking-up from being suspended."
 msgstr ""
+"Certains programmes ou périphériques matériels cessent de fonctionner "
+"correctement après une sortie d'hibernation ou de mise en veille."
 
 #: desktop-guide/C/hardware-devices.xml:226(para)
 msgid ""
@@ -3850,6 +4267,8 @@ msgid ""
 "Make sure that you save all of your open documents before testing for "
 "suspend and hibernate problems."
 msgstr ""
+"Assurez-vous d'avoir enregistré tous vos documents ouverts avant de tester "
+"les problèmes de mise en veille et d'hibernation."
 
 #: desktop-guide/C/hardware-devices.xml:232(title)
 msgid "Enabling hibernation"
@@ -3858,6 +4277,7 @@ msgstr ""
 #: desktop-guide/C/hardware-devices.xml:234(para)
 msgid "To enable and use hibernation with Xubuntu, do the following:"
 msgstr ""
+"Pour activer et utiliser la veille prolongée avec Xubuntu, faites ceci :"
 
 #: desktop-guide/C/hardware-devices.xml:237(para)
 msgid ""
@@ -3872,15 +4292,18 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:239(para)
 msgid "Enter your password."
-msgstr ""
+msgstr "Saisissez votre mot de passe."
 
 #: desktop-guide/C/hardware-devices.xml:240(para)
 msgid "To resume from hibernation, press the power button."
 msgstr ""
+"Pour sortir de veille prolongée, appuyez sur le bouton d'alimentation."
 
 #: desktop-guide/C/hardware-devices.xml:246(title)
 msgid "I get strange patterns on the screen when I hibernate my computer"
 msgstr ""
+"J’ai d’étranges motifs sur mon écran lorsque je mets en veille prolongée mon "
+"ordinateur"
 
 #: desktop-guide/C/hardware-devices.xml:248(para)
 msgid ""
@@ -3915,7 +4338,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:257(para)
 msgid "Options for mice and touchpads include:"
-msgstr ""
+msgstr "Les options pour souris et pavé tactile comprennent :"
 
 #: desktop-guide/C/hardware-devices.xml:260(guilabel)
 msgid "Button orientation"
@@ -3931,11 +4354,11 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:263(guilabel)
 msgid "Cursor theme"
-msgstr ""
+msgstr "Thème du curseur"
 
 #: desktop-guide/C/hardware-devices.xml:266(para)
 msgid "Some of the options for configuring your keyboard include:"
-msgstr ""
+msgstr "Certaines options pour configurer votre clavier comprennent :"
 
 #: desktop-guide/C/hardware-devices.xml:269(guilabel)
 msgid "State of the Num Lock key on startup"
@@ -3947,7 +4370,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:271(guilabel)
 msgid "Cursor blinking speed"
-msgstr ""
+msgstr "Vitesse de clignotement du curseur"
 
 #: desktop-guide/C/hardware-devices.xml:272(guilabel)
 msgid "Application keyboard shortcuts"
@@ -3955,7 +4378,7 @@ msgstr ""
 
 #: desktop-guide/C/hardware-devices.xml:273(guilabel)
 msgid "Keyboard layout and language"
-msgstr ""
+msgstr "Disposition du clavier et langue"
 
 #: desktop-guide/C/hardware-devices.xml:276(para)
 msgid ""
@@ -3995,21 +4418,21 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:19(para)
 msgid "Keep your software up-to-date"
-msgstr ""
+msgstr "Maintenez vos logiciels à jour"
 
-#: desktop-guide/C/guide-keeping-safe.xml:20(para) desktop-guide/C/guide-keeping-safe.xml:62(title)
+#: desktop-guide/C/guide-keeping-safe.xml:329(title)
 msgid "Lock your screen while away"
 msgstr "Verrouillez votre écran lorsque vous êtes absent"
 
 #: desktop-guide/C/guide-keeping-safe.xml:21(para) desktop-guide/C/guide-keeping-safe.xml:79(title)
 msgid "Set up a firewall"
-msgstr "Configurer un pare-feu"
+msgstr "Configurez un pare-feu"
 
 #: desktop-guide/C/guide-keeping-safe.xml:22(para) desktop-guide/C/guide-keeping-safe.xml:101(title)
 msgid "Use common sense when working in the web"
 msgstr "Utilisez votre bon sens lorsque vous travaillez sur le Web"
 
-#: desktop-guide/C/guide-keeping-safe.xml:23(para) desktop-guide/C/guide-keeping-safe.xml:136(title) desktop-guide/C/guide-keeping-safe.xml:158(para)
+#: desktop-guide/C/guide-keeping-safe.xml:256(title) desktop-guide/C/guide-keeping-safe.xml:276(para)
 msgid "Back up on a regular basis"
 msgstr "Sauvegardez régulièrement"
 
@@ -4019,50 +4442,52 @@ msgid ""
 "regularly. To change your password, follow the steps below:"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:32(para)
+#: desktop-guide/C/guide-keeping-safe.xml:133(para)
 msgid ""
 "Open <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
 "Settings Manager</guimenuitem><guimenuitem>Users and "
 "Groups</guimenuitem></menuchoice></application>"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:33(para)
+#: desktop-guide/C/guide-keeping-safe.xml:134(para)
 msgid "Click on your username on the list"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:34(para)
+#: desktop-guide/C/guide-keeping-safe.xml:135(para)
 msgid ""
 "Click <guilabel>Change...</guilabel> next to the "
 "<guilabel>Password</guilabel> label"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:35(para)
+#: desktop-guide/C/guide-keeping-safe.xml:136(para)
 msgid "First enter your <guilabel>Current password</guilabel>"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:36(para)
+#: desktop-guide/C/guide-keeping-safe.xml:137(para)
 msgid "Now you can either"
-msgstr ""
+msgstr "Maintenant, vous pouvez soit"
 
-#: desktop-guide/C/guide-keeping-safe.xml:38(para)
+#: desktop-guide/C/guide-keeping-safe.xml:139(para)
 msgid ""
 "Generate a random password by selecting <guilabel>Generate random "
 "password</guilabel> and pressing <guibutton>Generate</guibutton>"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:39(para)
+#: desktop-guide/C/guide-keeping-safe.xml:140(para)
 msgid ""
 "Choose your new password yourself by typing the new password to the "
 "<guilabel>New password</guilabel> and <guilabel>Confirmation</guilabel> "
 "fields"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:42(para)
+#: desktop-guide/C/guide-keeping-safe.xml:143(para)
 msgid ""
 "Finally, click <guibutton>OK</guibutton> to confirm the password change"
 msgstr ""
+"Pour finir, cliquez sur <guibutton>OK</guibutton> pour confirmer le "
+"changement de mot de passe"
 
-#: desktop-guide/C/guide-keeping-safe.xml:45(para)
+#: desktop-guide/C/guide-keeping-safe.xml:145(para)
 msgid ""
 "While it is possible to make Xubuntu log in automatically on boot within the "
 "user dialog, automatic login is highly discouraged because it provides less "
@@ -4074,7 +4499,7 @@ msgstr ""
 msgid "Don't use shared accounts"
 msgstr "N'utilisez pas de comptes partagés"
 
-#: desktop-guide/C/guide-keeping-safe.xml:55(para)
+#: desktop-guide/C/guide-keeping-safe.xml:322(para)
 msgid ""
 "When Xubuntu is installed, it is set up for a single person to use. If more "
 "than one person will use the computer, it is best for each person to have "
@@ -4082,28 +4507,28 @@ msgid ""
 "linkend=\"users-groups\"/>."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:64(para)
+#: desktop-guide/C/guide-keeping-safe.xml:331(para)
 msgid ""
 "Locking your screen prevents other people from accessing your computer while "
 "you are away from it. All of your applications and work remain open while "
 "the screen is locked."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:67(para)
+#: desktop-guide/C/guide-keeping-safe.xml:334(para)
 msgid ""
 "To lock the screen, press <placeholder-1/><keycap>Ctrl+Alt+Delete</keycap> "
 "or click <application><menuchoice><placeholder-2/><guimenuitem><placeholder-"
 "3/> Lock Screen</guimenuitem></menuchoice></application>."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:68(para)
+#: desktop-guide/C/guide-keeping-safe.xml:336(para)
 msgid ""
 "To unlock the screen, move the mouse or press a key. Then, type your "
 "password and either press the <placeholder-1/><keycap>Enter</keycap> key or "
 "click the <guibutton>Unlock</guibutton> button."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:71(para)
+#: desktop-guide/C/guide-keeping-safe.xml:339(para)
 msgid ""
 "If more than one person has a user account on your computer and the screen "
 "is locked, other users can press the triangle button to the right of the "
@@ -4150,7 +4575,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:102(para)
 msgid "Here are a few tips for keeping safe online:"
-msgstr ""
+msgstr "Voici quelques astuces pour rester protégé en ligne :"
 
 #: desktop-guide/C/guide-keeping-safe.xml:104(para)
 msgid ""
@@ -4181,21 +4606,30 @@ msgid ""
 "Only download and run software from sources that you trust. By default, you "
 "can only download software directly from Xubuntu."
 msgstr ""
+"Ne téléchargez et n'exécutez que des logiciels provenant de sources "
+"auxquelles vous faites confiance. Par défaut, vous ne pouvez télécharger "
+"directement des logiciels que depuis Xubuntu."
 
 #: desktop-guide/C/guide-keeping-safe.xml:122(para)
 msgid ""
 "Unwanted (unsolicited) mail tends to fall in to one of several categories:"
 msgstr ""
+"Les courriels non-désirés (non sollicités) peuvent être classés en plusieurs "
+"catégories :"
 
 #: desktop-guide/C/guide-keeping-safe.xml:125(para)
 msgid "Spam (junk) email, where people offer unwanted services and products"
 msgstr ""
+"Les pourriels (spam), où des gens proposent des services et des produits non "
+"désirés"
 
 #: desktop-guide/C/guide-keeping-safe.xml:127(para)
 msgid ""
 "Scam emails, where people pretend to ask for help in exchange for large sums "
 "of money"
 msgstr ""
+"Les courriels d'arnaque, où des gens prétendent demander de l'aide contre "
+"d'importantes sommes d'argent"
 
 #: desktop-guide/C/guide-keeping-safe.xml:129(para)
 msgid ""
@@ -4203,7 +4637,7 @@ msgid ""
 "service, asking you to enter your personal and financial details or passwords"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:138(para)
+#: desktop-guide/C/guide-keeping-safe.xml:258(para)
 msgid ""
 "A problem that you may occasionally encounter is the unexpected loss of some "
 "of your work and settings for one reason or another. The causes of such data "
@@ -4213,7 +4647,7 @@ msgid ""
 "problem, you will not have lost those files."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:144(para)
+#: desktop-guide/C/guide-keeping-safe.xml:264(para)
 msgid ""
 "It is wise to store backup copies of files separately from your computer; "
 "that is, you should make use of some form of file storage which is not "
@@ -4231,27 +4665,30 @@ msgid ""
 "application."
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:152(para)
+#: desktop-guide/C/guide-keeping-safe.xml:282(para)
 msgid ""
 "There are numerous dedicated backup applications available in the "
 "<application>Ubuntu Software Center</application>, including "
 "<application>Dejà Dup</application> and "
 "<application>luckyBackup</application>."
 msgstr ""
+"Il existe de nombreuses applications de sauvegarde disponibles dans la "
+"<application>Logithèque Ubuntu</application>, comme <application>Déjà "
+"Dup</application> et <application>luckyBackup</application>."
 
-#: desktop-guide/C/guide-keeping-safe.xml:156(para)
+#: desktop-guide/C/guide-keeping-safe.xml:274(para)
 msgid "General advice on how to keep good backups:"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:159(para)
+#: desktop-guide/C/guide-keeping-safe.xml:277(para)
 msgid ""
 "Always test your backups after you make them to ensure that they have been "
 "made correctly"
 msgstr ""
 
-#: desktop-guide/C/guide-keeping-safe.xml:161(para)
+#: desktop-guide/C/guide-keeping-safe.xml:279(para)
 msgid "Label your backups clearly and keep them in a safe place"
-msgstr ""
+msgstr "Nommez intelligiblement vos sauvegardes et conservez-les en lieu sûr"
 
 #: desktop-guide/C/guide-desktop.xml:12(title)
 msgid "Getting to know your desktop environment"
@@ -4264,6 +4701,10 @@ msgid ""
 "that make your life easy and it is well worth the time to get to know your "
 "way around it."
 msgstr ""
+"Lorsque votre ordinateur a fini de démarrer et après avoir saisi vos données "
+"de connexion, vous arriverez sur le bureau de Xubuntu. Il est livré avec de "
+"nombreuses fonctionnalités qui facilitent son utilisation et il vaut bien un "
+"peu de votre temps pour le découvrir."
 
 #: desktop-guide/C/guide-desktop.xml:19(title)
 msgid "Desktop"
@@ -4274,10 +4715,12 @@ msgid ""
 "The Xubuntu desktop has a single panel which is located at the top of the "
 "screen."
 msgstr ""
+"Le bureau de Xubuntu possède un seul tableau de bord qui se trouve en haut "
+"de l'écran."
 
 #: desktop-guide/C/guide-desktop.xml:24(title)
 msgid "The Panel"
-msgstr ""
+msgstr "Le tableau de bord"
 
 #: desktop-guide/C/guide-desktop.xml:26(para)
 msgid ""
@@ -4289,6 +4732,15 @@ msgid ""
 "2/><guilabel>Settings Manager</guilabel>, <placeholder-3/><guilabel>Lock "
 "Screen</guilabel> and <placeholder-4/><guilabel>Log Out</guilabel>."
 msgstr ""
+"Le tableau de bord est utilisé pour exécuter les applications, pour passer "
+"de l'une à l'autre et pour recevoir des informations de votre système. Sur "
+"le côté gauche du tableau de bord vous verrez le logo Xubuntu, <placeholder-"
+"1/>. Cliquer sur cette icône ouvrira le <guilabel>Menu</guilabel> qui vous "
+"offrira un large choix d'applications à exécuter. Dans la partie inférieure "
+"de la fenêtre du menu, vous trouverez les icônes <placeholder-"
+"2/><guilabel>Tous les paramètres</guilabel>, <placeholder-"
+"3/><guilabel>Verrouiller l'écran</guilabel> et <placeholder-4/><guilabel>Se "
+"déconnecter</guilabel>."
 
 #: desktop-guide/C/guide-desktop.xml:28(para)
 msgid ""
@@ -4300,6 +4752,15 @@ msgid ""
 "instant messages and more. Some notification icons will only appear as "
 "necessary, for instance when software updates are available."
 msgstr ""
+"La partie centrale du tableau de bord est dédiée aux boutons des fenêtres "
+"des applications ouvertes. À l'extrême droite, vous trouverez l'horloge, "
+"l'affichage de la date et de l'heure. À gauche de ces éléments, vous "
+"trouverez la <guilabel>zone de notifications</guilabel>. Vous y verrez des "
+"indicateurs qui vous donneront des informations sur votre système, incluant "
+"la connectivité réseau, le niveau de volume sonore, l'état ​​de la batterie "
+"(le cas échéant), les messages instantanés et plus encore. Certaines icônes "
+"de notification apparaîtront seulement en cas de nécessité, par exemple "
+"lorsque des mises à jour logicielles sont disponibles."
 
 #: desktop-guide/C/guide-desktop.xml:30(para)
 msgid ""
@@ -4307,10 +4768,14 @@ msgid ""
 "configurable. The <guilabel>Menu</guilabel> is also customizable. See <xref "
 "linkend=\"settings-preferences\"/> for more information on those topics."
 msgstr ""
+"Tant la position du tableau de bord que les éléments qu'il contient sont "
+"configurables. Le <guilabel>Menu</guilabel> est également personnalisable. "
+"Voir <xref linkend=\"settings-preferences\"/> pour de plus amples "
+"informations sur ces sujets."
 
 #: desktop-guide/C/guide-desktop.xml:34(title)
 msgid "The Desktop"
-msgstr ""
+msgstr "Le bureau"
 
 #: desktop-guide/C/guide-desktop.xml:36(para)
 msgid ""
@@ -4322,6 +4787,15 @@ msgid ""
 "Settings</guimenuitem></menuchoice>. From here you can change the wallpaper "
 "and modify menu and icon behavior."
 msgstr ""
+"Le bureau par défaut contient seulement trois icônes : <guilabel>Répertoire "
+"personnel</guilabel>, <guilabel>Système de fichiers</guilabel> et "
+"<guilabel>Corbeille</guilabel> (les icônes pour les périphériques amovibles, "
+"comme les CD ou les lecteurs flash, apparaitront également si l'un de ces "
+"appareils est connecté). Vous pouvez le personnaliser par un clic droit dans "
+"une zone vide du bureau puis en choisissant "
+"<menuchoice><guimenuitem>Paramètres du bureau...</guimenuitem></menuchoice>. "
+"De là, vous pouvez changer le fond d'écran et modifier le menu ainsi que le "
+"comportement des icônes de bureau."
 
 #: desktop-guide/C/guide-desktop.xml:46(title)
 msgid "Files and directories"
@@ -4337,6 +4811,14 @@ msgid ""
 "double-clicking the <guilabel>Home</guilabel> or <guilabel>File "
 "System</guilabel> icons on your desktop."
 msgstr ""
+"Xubuntu est livré avec le gestionnaire de fichiers de Xfce appelé "
+"<application>Thunar</application>. Pour des raisons de simplicité, nous "
+"allons simplement se référer à lui comme étant le gestionnaire de fichiers. "
+"Exécutez-le en cliquant sur <application><menuchoice><placeholder-"
+"1/><guisubmenu>Accessoires</guisubmenu><guimenuitem>Gestionnaire de "
+"fichiers</guimenuitem></menuchoice></application> ou en double-cliquant sur "
+"les icônes <guilabel>Répertoire personnel</guilabel> ou  <guilabel>Système "
+"de fichiers</guilabel> sur votre bureau."
 
 #: desktop-guide/C/guide-desktop.xml:54(title)
 msgid "Navigation"
@@ -4357,12 +4839,30 @@ msgid ""
 "inside. When you're done, return to your home directory by clicking on the "
 "top shortcut."
 msgstr ""
+"La vue par défaut du gestionnaire de fichiers se compose d'un volet de "
+"raccourcis sur le côté gauche, de la zone principale sur la droite et d'une "
+"barre d'emplacement au dessus de la zone principale. Le volet de raccourcis "
+"fournit des raccourcis vers différents dossiers de votre système. Le premier "
+"raccourci sous <guilabel>EMPLACEMENTS</guilabel> conduira à votre répertoire "
+"personnel, le répertoire où vous stockez toutes vos données personnelles et "
+"portera donc le nom de l'utilisateur courant. Ce répertoire apparaîtra "
+"probablement vide. Le raccourci <guilabel>Système de fichiers</guilabel> "
+"sous <guilabel>PÉRIPHÉRIQUES</guilabel> vous conduira à la racine de votre "
+"système de fichiers. Vous aurez probablement envie de l'explorer un peu, "
+"même s'il sera pour vous source de confusion si vous débutez sous Linux. Il "
+"suffit de cliquer sur les différents dossiers et de voir ce qu'ils "
+"contiennent. Lorsque vous aurez terminé, revenez vers votre répertoire "
+"personnel en cliquant sur ​​le raccourci situé en haut qui porte le nom de "
+"l'utilisateur."
 
 #: desktop-guide/C/guide-desktop.xml:66(para)
 msgid ""
 "You can add your own shortcuts by simply dragging folders to the shortcut "
 "pane. This will allow you to access important folders instantly!"
 msgstr ""
+"Vous pouvez ajouter vos propres raccourcis en faisant simplement glisser les "
+"dossiers dans le volet de raccourcis. Cela vous permettra d'accéder "
+"instantanément aux dossiers importants !"
 
 #: desktop-guide/C/guide-desktop.xml:69(para)
 msgid ""
@@ -4373,6 +4873,14 @@ msgid ""
 "Alternatively, select one file, hold down the <keycap>Shift</keycap> key, "
 "and increase/decrease the selection using the arrow keys."
 msgstr ""
+"La zone principale affichera toujours le contenu du dossier courant. Double-"
+"cliquez sur les dossiers pour y accéder puis faites un clic droit sur ​​les "
+"fichiers ou les dossiers pour obtenir une fenêtre contextuelle vous offrant "
+"des choix d'actions. Sélectionnez plusieurs fichiers avec un clic droit en "
+"faisant glisser un rectangle sur eux avec la souris. Vous pouvez également "
+"sélectionner un fichier, maintenir enfoncée la touche "
+"<keycap>Majuscule</keycap> et augmenter ou diminuer la sélection à l'aide "
+"des touches fléchées."
 
 #: desktop-guide/C/guide-desktop.xml:75(para)
 msgid ""
@@ -4384,6 +4892,15 @@ msgid ""
 "represents. Note that right-clicking on pathbar icons will also bring up a "
 "pop-up window with some options."
 msgstr ""
+"Pour visualiser facilement le chemin qui vous a mené au répertoire courant, "
+"vous pouvez modifier les options de vue par défaut. Dans le menu "
+"gestionnaire de fichiers, sélectionnez "
+"<menuchoice><guimenuitem>Vue</guimenuitem><guimenuitem>Sélecteur de "
+"chemin</guimenuitem><guimenuitem>Barre de chemin</guimenuitem></menuchoice>. "
+"Vous pouvez maintenant cliquer sur n'importe quelle icône de la barre de "
+"chemin pour vous rendre dans le répertoire qu'elle représente. Notez qu'un "
+"clic droit sur ​​les icônes de la barre de chemin fera également apparaître "
+"une fenêtre contextuelle avec quelques options."
 
 #: desktop-guide/C/guide-desktop.xml:79(title)
 msgid "Creating and deleting files and folders"
@@ -4402,6 +4919,19 @@ msgid ""
 "choose <menuchoice><guimenuitem>Move to Trash</guimenuitem></menuchoice> to "
 "remove it. The file will be put into the Trash."
 msgstr ""
+"Pour créer un nouveau document, faites un clic droit sur ​​un espace vide "
+"dans votre répertoire personnel et sélectionnez "
+"<menuchoice><guimenuitem>Créer un document</guimenuitem><guimenuitem>Fichier "
+"vide</guimenuitem></menuchoice> dans la fenêtre contextuelle. Le "
+"gestionnaire de fichiers vous invitera à saisir un nom de fichier. Il suffit "
+"d'accepter le nom proposé pour le moment. Après cela, vous pourrez voir le "
+"nouveau fichier dans votre répertoire personnel. Faites un clic droit dessus "
+"et choisissez "
+"<menuchoice><guimenuitem>Propriétés</guimenuitem></menuchoice>. Cela "
+"affichera quelques détails sur le fichier. Faites de nouveau un clic droit "
+"sur ​​le fichier et choisissez <menuchoice><guimenuitem>Déplacer dans la "
+"corbeille</guimenuitem></menuchoice> pour le supprimer. Le fichier sera mis "
+"dans la corbeille."
 
 #: desktop-guide/C/guide-desktop.xml:91(para)
 msgid ""
@@ -4409,6 +4939,9 @@ msgid ""
 "<guilabel>Trash</guilabel>, right-click the file and click "
 "<menuchoice><guimenuitem>Restore</guimenuitem></menuchoice>."
 msgstr ""
+"Si jamais vous souhaitiez annuler la suppression d'un fichier, ouvrez la "
+"<guilabel>Corbeille</guilabel>, faites un clic droit sur le fichier et "
+"cliquez sur <menuchoice><guimenuitem>Restaurer</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/guide-desktop.xml:95(para)
 msgid ""
@@ -4419,6 +4952,14 @@ msgid ""
 "Double-click on it to enter it. To rename or remove the folder, right-click "
 "on it and choose the appropriate option from the pop-up menu."
 msgstr ""
+"Pour créer un nouveau dossier, faites un clic droit sur ​​l'espace vide, et "
+"choisissez <menuchoice><guimenuitem>Créer un "
+"dossier...</guimenuitem></menuchoice>. Vous serez invité à saisir un nom. "
+"Tapez quelque chose et appuyez sur <keycap><placeholder-1/>Entrée</keycap>. "
+"Vous verrez ce nouveau dossier dans votre répertoire personnel. Double-"
+"cliquez dessus pour y accéder. Afin de renommer ou de supprimer le dossier, "
+"faites un clic droit dessus et choisissez l'option appropriée dans le menu "
+"contextuel."
 
 #: desktop-guide/C/guide-desktop.xml:103(title)
 msgid "Copying"
@@ -4448,6 +4989,17 @@ msgid ""
 "<menuchoice><guimenuitem>Eject</guimenuitem></menuchoice>. The same applies "
 "for any other removable media."
 msgstr ""
+"Lors de l'insertion de CD, de clés USB ou d'autres supports amovibles sur "
+"votre ordinateur, ou lors de branchement de périphériques amovibles tel "
+"qu'un lecteur de musique, Xubuntu devrait détecter automatiquement le "
+"nouveau périphérique. Par exemple, après l'insertion d'un CD dans votre "
+"lecteur optique, vous verrez un nouveau raccourci dans le volet de gauche du "
+"<application>Gestionnaire de fichiers</application> représentant le CD. En "
+"cliquant dessus, vous ouvrirez le CD dans la zone principale, tout comme si "
+"vous aviez cliqué sur un dossier ordinaire. Pour retirer le CD, faites un "
+"clic droit sur ​​le raccourci et choisissez "
+"<menuchoice><guimenuitem>Éjecter</guimenuitem></menuchoice>. Il en va de "
+"même pour tout autre support amovible."
 
 #: desktop-guide/C/guide-desktop.xml:121(para)
 msgid ""
@@ -4458,6 +5010,12 @@ msgid ""
 "shortcut and choose "
 "<menuchoice><guimenuitem>Eject</guimenuitem></menuchoice>."
 msgstr ""
+"Veuillez noter qu'appuyer sur le bouton d'éjection du lecteur de CD peut ne "
+"pas fonctionner. Cela peut paraître surprenant pour certains utilisateurs "
+"mais c'est en fait le comportement attendu. Avant que le CD ne puisse être "
+"éjecté, il doit être correctement « arrêté » (démonté) par le système. Pour "
+"retirer un CD, faites toujours un clic droit sur le raccourci et choisissez "
+"<menuchoice><guimenuitem>Éjecter</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/guide-desktop.xml:129(title)
 msgid "Customizing Thunar"
@@ -4471,6 +5029,12 @@ msgid ""
 "List</guimenuitem></menuchoice> to have the contents of the current "
 "directory displayed as a list."
 msgstr ""
+"Il existe de nombreuses façons de personnaliser le <application>Gestionnaire "
+"de fichiers</application>.  Si vous n'aimez pas la façon dont les icônes "
+"sont affichées, choisissez "
+"<menuchoice><guimenu>Vue</guimenu><guimenuitem>Vue en liste "
+"détaillée</guimenuitem></menuchoice> afin d'avoir le contenu du répertoire "
+"courant affiché sous forme d'une liste."
 
 #: desktop-guide/C/guide-desktop.xml:136(para)
 msgid ""
@@ -4482,6 +5046,14 @@ msgid ""
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Side "
 "Pane</guimenuitem><guimenuitem>Tree</guimenuitem></menuchoice>."
 msgstr ""
+"Vous pouvez faire en sorte que le <application>Gestionnaire de "
+"fichiers</application> affiche une barre d'outils à la place d'une barre de "
+"chemin en sélectionnant "
+"<menuchoice><guimenu>Vue</guimenu><guimenuitem>Sélecteur de "
+"chemin</guimenuitem><guimenuitem>Barre d'outils</guimenuitem></menuchoice>. "
+"Si vous préférez une arborescence dans le volet gauche, sélectionnez "
+"<menuchoice><guimenu>Vue</guimenu><guimenuitem>Panneau "
+"latéral</guimenuitem><guimenuitem>Arborescence</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/guide-desktop.xml:143(para)
 msgid ""
@@ -4489,6 +5061,9 @@ msgid ""
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></me"
 "nuchoice>."
 msgstr ""
+"Pour plus de choix, explorez les options sous "
+"<menuchoice><guimenu>Éditer</guimenu><guimenuitem>Préférences...</guimenuitem"
+"></menuchoice>."
 
 #: desktop-guide/C/guide-default-apps.xml:12(title)
 msgid "Quick guide to default applications"
@@ -4505,6 +5080,10 @@ msgid ""
 "your own images. Read more at the <ulink "
 "url=\"http://www.gimp.org/\">GIMP</ulink> website."
 msgstr ""
+"<application>GIMP</application>, un éditeur d'images avancé. Vous pouvez "
+"l'utiliser pour modifier, améliorer et retoucher des photos et des "
+"numérisations, créer des dessins et faire vos propres images. En apprendre "
+"plus sur le site web de <ulink url=\"http://www.gimp.org/\">GIMP</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:19(para)
 msgid ""
@@ -4513,6 +5092,11 @@ msgid ""
 "url=\"http://docs.xfce.org/apps/ristretto/start\">Ristretto online "
 "documentation</ulink>."
 msgstr ""
+"<application>Ristretto</application> est une visionneuse d'images conçue "
+"pour consommer peu de ressources système. Plus d'informations peuvent être "
+"trouvées dans la <ulink "
+"url=\"http://docs.xfce.org/apps/ristretto/start\">documentation en ligne de "
+"Ristretto</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:21(para)
 msgid ""
@@ -4521,6 +5105,11 @@ msgid ""
 "more at the <ulink url=\"https://launchpad.net/simple-scan\">Simple Scan "
 "website</ulink>."
 msgstr ""
+"<application>Simple Scan</application> est un utilitaire de numérisation "
+"facile à utiliser et conçu pour effectuer des tâches simples telles que la "
+"numérisation pour les courriels ou directement au format PDF. En apprendre "
+"davantage sur le <ulink url=\"https://launchpad.net/simple-scan\">site web "
+"de Simple Scan</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:25(title)
 msgid "Internet"
@@ -4533,6 +5122,11 @@ msgid ""
 "<ulink url=\"http://support.mozilla.org/en-US/home\">Firefox's online "
 "help</ulink>."
 msgstr ""
+"<application>Firefox</application> est un navigateur Web complet et stable "
+"qui peut être agrémenté d'une grande variété de modules complémentaires. En "
+"apprendre davantage sur <ulink "
+"url=\"https://support.mozilla.org/fr/products/firefox\">l'aide en ligne de "
+"Firefox</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:29(para)
 msgid ""
@@ -4547,6 +5141,19 @@ msgid ""
 "<ulink url=\"https://support.mozillamessaging.com/en-US/home\">Thunderbird "
 "Support page</ulink>."
 msgstr ""
+"<application>Thunderbird</application> est un client de messagerie "
+"polyvalent qui peut gérer plusieurs comptes de messagerie et des identités "
+"différentes simultanément. Comme Firefox, il peut également être amélioré "
+"avec des modules complémentaires pour personnaliser son apparence et étendre "
+"ses fonctionnalités. Si vous migrez d'un autre programme de messagerie, "
+"<application>Thunderbird</application> permet d'importer vos courriels et "
+"vos carnets d'adresses. Dans <application>Thunderbird</application>, cliquez "
+"sur "
+"<menuchoice><guimenu>Outils</guimenu><guimenuitem>Importer...</guimenuitem></"
+"menuchoice> pour démarrer <guilabel>l'assistant d'importation</guilabel>. En "
+"apprendre davantage sur la <ulink "
+"url=\"https://support.mozilla.org/fr/products/thunderbird\">page de support "
+"de Thunderbird</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:31(para)
 msgid ""
@@ -4555,6 +5162,11 @@ msgid ""
 "from <ulink url=\"http://developer.pidgin.im/wiki/Using Pidgin\">Using "
 "Pidgin</ulink> at the Pidgin online help."
 msgstr ""
+"<application>Pidgin</application> est le client de messagerie instantanée "
+"par défaut capable de gérer MSN, XMPP (Google Talk, Facebook) et d'autres. "
+"En apprendre davantage sur <ulink "
+"url=\"http://developer.pidgin.im/wiki/Using Pidgin\">l'utilisation de "
+"Pidgin</ulink> sur l'aide en ligne de Pidgin."
 
 #: desktop-guide/C/guide-default-apps.xml:35(title)
 msgid "Media"
@@ -4567,6 +5179,11 @@ msgid ""
 "<ulink url=\"http://gmusicbrowser.org/guide.html\">gmusicbrowser user "
 "guide</ulink>."
 msgstr ""
+"<application>gmusicbrowser</application> a été prévu comme votre lecteur "
+"audio de base. En apprendre davantage sur <xref linkend=\"media-music-"
+"listen\"/> et dans le <ulink "
+"url=\"http://gmusicbrowser.org/guide.html\">guide utilisateur de "
+"gmusicbrowser</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:39(para)
 msgid ""
@@ -4575,12 +5192,19 @@ msgid ""
 "url=\"http://docs.xfce.org/apps/parole/start\">Parole online "
 "documentation</ulink>."
 msgstr ""
+"<application>Parole</application> est un lecteur multimédia simple qui peut "
+"lire les fichiers audio et vidéo. Plus d'informations peuvent être trouvées "
+"dans la <ulink url=\"http://docs.xfce.org/apps/parole/start\">documentation "
+"en ligne de Parole</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:41(para)
 msgid ""
 "It will be necessary to install <literal><placeholder-1/>xubuntu-restricted-"
 "extras</literal> in order to play proprietary media formats like e.g. MP3."
 msgstr ""
+"Il sera nécessaire d'installer le paquet <literal><placeholder-1/>xubuntu-"
+"restricted-extras</literal> afin de jouer les formats de médias "
+"propriétaires comme, par exemple, le MP3."
 
 #: desktop-guide/C/guide-default-apps.xml:43(para)
 msgid ""
@@ -4589,17 +5213,26 @@ msgid ""
 "url=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">PulseAudio "
 "website</ulink>."
 msgstr ""
+"<application>Le contrôle du volume PulseAudio</application> permet de "
+"commander les différentes sources sonores vers leur destination. En "
+"apprendre davantage sur le <ulink "
+"url=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">site web de "
+"PulseAudio</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:45(para)
 msgid ""
 "<application>Xfburn</application> is the chosen program for creating your "
 "CDs and DVDs."
 msgstr ""
+"<application>Xfburn</application> est le programme choisi pour la création "
+"de vos CD et DVD."
 
 #: desktop-guide/C/guide-default-apps.xml:47(para)
 msgid ""
 "To read more about media in Xubuntu, refer to <xref linkend=\"media-apps\"/>."
 msgstr ""
+"Pour en apprendre davantage sur les médias dans Xubuntu, reportez-vous à "
+"<xref linkend=\"media-apps\"/>."
 
 #: desktop-guide/C/guide-default-apps.xml:51(title)
 msgid "Office"
@@ -4611,12 +5244,18 @@ msgid ""
 "very capable word processor. Remember to save into the correct format if you "
 "are planning to share documents with others."
 msgstr ""
+"<application>AbiWord</application> a été conçu comme un utilitaire de "
+"traitement de texte léger mais très complet. N'oubliez pas de sauvegarder au "
+"bon format si vous prévoyez de partager des documents avec d'autres "
+"personnes."
 
 #: desktop-guide/C/guide-default-apps.xml:55(para)
 msgid ""
 "<application>Gnumeric</application> is a spreadsheet editor and the perfect "
 "light companion for <application>AbiWord</application>."
 msgstr ""
+"<application>Gnumeric</application> est un éditeur de feuilles de calculs, "
+"le parfait compagnon pour <application>AbiWord</application>."
 
 #: desktop-guide/C/guide-default-apps.xml:57(para)
 msgid ""
@@ -4627,6 +5266,13 @@ msgid ""
 "The Document Foundation as they lack Ubuntu-specific patches and polish "
 "available from repositories."
 msgstr ""
+"Si vous préférez la suite bureautique LibreOffice à ces applications par "
+"défaut, vous pouvez l'installer depuis les dépôts et supprimer, si vous le "
+"désirez, <application>AbiWord</application> et "
+"<application>Gnumeric</application>. Nous ne proposons pas directement "
+"d'installer les téléchargements offerts par <guilabel>« The Document "
+"Foundation »</guilabel> car ils manquent de correctifs et d'améliorations "
+"spécifiques à Ubuntu disponibles depuis les dépôts."
 
 #: desktop-guide/C/guide-default-apps.xml:59(para)
 msgid ""
@@ -4635,10 +5281,15 @@ msgid ""
 "<ulink url=\"http://goodies.xfce.org/projects/applications/xfce4-"
 "dict\">Xfce4 Dictionary online help</ulink>."
 msgstr ""
+"<application>Dictionary</application> fournit un moyen facile d'accéder à un "
+"certain nombre de dictionnaires différents à travers l'Internet. En "
+"apprendre davantage sur <ulink "
+"url=\"http://goodies.xfce.org/projects/applications/xfce4-dict\">l'aide en "
+"ligne du dictionnaire de Xfce4</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:61(para)
 msgid "<application>Document Viewer</application> is a PDF reader."
-msgstr ""
+msgstr "<application>Document Viewer</application> est un lecteur PDF."
 
 #: desktop-guide/C/guide-default-apps.xml:63(para)
 msgid ""
@@ -4647,6 +5298,10 @@ msgid ""
 "trigger alarms. Read more at the <ulink "
 "url=\"http://www.kolumbus.fi/~w408237/orage/\">Orage website</ulink>."
 msgstr ""
+"<application>Orage</application> a été conçue pour être une application de "
+"calendrier simple mais efficace qui permet de garder une trace de vos rendez-"
+"vous et de vos alarmes de rappels. En apprendre davantage sur le <ulink "
+"url=\"http://www.kolumbus.fi/~w408237/orage/\">site web d'Orage</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:67(title)
 msgid "System"
@@ -4658,6 +5313,9 @@ msgid ""
 "remote file systems. Read more at the <ulink "
 "url=\"http://www.uvena.de/gigolo/\">Gigolo website</ulink>."
 msgstr ""
+"<application>Gigolo</application> est un moyen facile de se connecter à des "
+"systèmes de fichiers locaux et distants. En apprendre davantage sur le "
+"<ulink url=\"http://www.uvena.de/gigolo/\">site web de Gigolo</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:71(para)
 msgid ""
@@ -4666,6 +5324,11 @@ msgid ""
 "url=\"http://goodies.xfce.org/projects/applications/xfce4-taskmanager\">Task "
 "Manager online documenatation</ulink>."
 msgstr ""
+"<application>Le gestionnaire de tâches</application> fournit un aperçu "
+"graphique des applications en cours d'exécution. Plus d'informations peuvent "
+"être trouvées dans la <ulink "
+"url=\"http://goodies.xfce.org/projects/applications/xfce4-"
+"taskmanager\">documentation en ligne du gestionnaire de tâches</ulink>."
 
 #: desktop-guide/C/command-line.xml:12(title)
 msgid "The command line"
@@ -4683,6 +5346,8 @@ msgstr ""
 msgid ""
 "To start the default terminal emulator and get to the command line, either:"
 msgstr ""
+"Pour démarrer l'émulateur de terminal par défaut et se rendre à la ligne de "
+"commande, soit :"
 
 #: desktop-guide/C/command-line.xml:19(para)
 msgid ""
@@ -4731,7 +5396,7 @@ msgid ""
 "application from the command line."
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:32(para)
+#: desktop-guide/C/command-line.xml:34(para)
 msgid ""
 "Be careful when using <application>sudo</application>; you might damage your "
 "system if you type the wrong command! As a general rule, only use sudo when "
@@ -4741,7 +5406,7 @@ msgid ""
 "access powers."
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:34(para)
+#: desktop-guide/C/command-line.xml:36(para)
 msgid ""
 "For more information on <application>sudo</application>, see the <ulink "
 "url=\"https://help.ubuntu.com/community/RootSudo\">sudo page</ulink> on the "
@@ -4751,34 +5416,34 @@ msgstr ""
 "url=\"https://help.ubuntu.com/community/RootSudo\">page sudo</ulink> sur le "
 "wiki de la communauté Ubuntu."
 
-#: desktop-guide/C/command-line.xml:38(title)
+#: desktop-guide/C/command-line.xml:40(title)
 msgid "Common commands"
 msgstr "Commandes communes"
 
-#: desktop-guide/C/command-line.xml:40(para)
+#: desktop-guide/C/command-line.xml:42(para)
 msgid ""
 "Basic terminal commands are outlined below (square brackets indicate "
 "substitutions):"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:44(segtitle)
+#: desktop-guide/C/command-line.xml:46(segtitle)
 msgid "Command"
 msgstr "Commande"
 
-#: desktop-guide/C/command-line.xml:44(segtitle)
+#: desktop-guide/C/command-line.xml:46(segtitle)
 msgid "What it does?"
 msgstr "Qu'est-ce qu'elle fait ?"
 
-#: desktop-guide/C/command-line.xml:44(segtitle)
+#: desktop-guide/C/command-line.xml:46(segtitle)
 msgid "Syntax"
 msgstr "Syntaxe"
 
-#: desktop-guide/C/command-line.xml:45(userinput)
+#: desktop-guide/C/command-line.xml:47(userinput)
 #, no-wrap
 msgid "apt-cache"
 msgstr "apt-cache"
 
-#: desktop-guide/C/command-line.xml:45(seg)
+#: desktop-guide/C/command-line.xml:47(seg)
 msgid ""
 "Shows information about the packages in the repository. Common commands are "
 "the search and show commands"
@@ -4786,26 +5451,26 @@ msgstr ""
 "Affiche les informations sur les paquets dans le dépôt. Les commandes "
 "communes sont les commandes de recherche et d'affichage"
 
-#: desktop-guide/C/command-line.xml:45(userinput)
+#: desktop-guide/C/command-line.xml:47(userinput)
 #, no-wrap
 msgid "apt-cache search web browser"
-msgstr ""
+msgstr "apt-cache search web browser"
 
-#: desktop-guide/C/command-line.xml:45(userinput)
+#: desktop-guide/C/command-line.xml:47(userinput)
 #, no-wrap
 msgid "apt-cache show firefox"
-msgstr ""
+msgstr "apt-cache show firefox"
 
-#: desktop-guide/C/command-line.xml:45(seg) desktop-guide/C/command-line.xml:52(seg) desktop-guide/C/command-line.xml:59(seg)
+#: desktop-guide/C/command-line.xml:47(seg) desktop-guide/C/command-line.xml:54(seg) desktop-guide/C/command-line.xml:61(seg)
 msgid "<placeholder-1/> or <placeholder-2/>"
 msgstr "<placeholder-1/> ou <placeholder-2/>"
 
-#: desktop-guide/C/command-line.xml:46(userinput)
+#: desktop-guide/C/command-line.xml:48(userinput)
 #, no-wrap
 msgid "apt-get"
 msgstr "apt-get"
 
-#: desktop-guide/C/command-line.xml:46(seg)
+#: desktop-guide/C/command-line.xml:48(seg)
 msgid ""
 "Manages packages in apt. Common commands are install to install a package, "
 "remove to remove a package, purge to remove a package and the configuration, "
@@ -4816,61 +5481,61 @@ msgstr ""
 "supprimer un paquet et sa configuration et « autoremove » qui supprimera "
 "également les paquets inutiles"
 
-#: desktop-guide/C/command-line.xml:46(userinput)
+#: desktop-guide/C/command-line.xml:48(userinput)
 #, no-wrap
 msgid "apt-get [command] [package]"
 msgstr "apt-get [commande] [paquet]"
 
-#: desktop-guide/C/command-line.xml:47(userinput)
+#: desktop-guide/C/command-line.xml:49(userinput)
 #, no-wrap
 msgid "cat"
 msgstr "cat"
 
-#: desktop-guide/C/command-line.xml:47(seg)
+#: desktop-guide/C/command-line.xml:49(seg)
 msgid "Joins (concatenates) two or more files"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:47(userinput)
+#: desktop-guide/C/command-line.xml:49(userinput)
 #, no-wrap
 msgid "cat [file1] [file2] ... &gt; [output file]"
 msgstr "cat [fichier1] [fichier2] ... &gt; [fichier de sortie]"
 
-#: desktop-guide/C/command-line.xml:48(userinput)
+#: desktop-guide/C/command-line.xml:50(userinput)
 #, no-wrap
 msgid "cd"
 msgstr "cd"
 
-#: desktop-guide/C/command-line.xml:48(seg)
+#: desktop-guide/C/command-line.xml:50(seg)
 msgid "Changes to another directory"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:48(userinput)
+#: desktop-guide/C/command-line.xml:50(userinput)
 #, no-wrap
 msgid "cd [directory]"
 msgstr "cd [répertoire]"
 
-#: desktop-guide/C/command-line.xml:49(userinput)
+#: desktop-guide/C/command-line.xml:51(userinput)
 #, no-wrap
 msgid "cp"
 msgstr "cp"
 
-#: desktop-guide/C/command-line.xml:49(seg)
+#: desktop-guide/C/command-line.xml:51(seg)
 msgid "Copies a file (or files) to a directory or to overwrite another file"
 msgstr ""
 "Copie un fichier (ou des fichiers) vers un répertoire ou écrase un autre "
 "fichier"
 
-#: desktop-guide/C/command-line.xml:49(userinput)
+#: desktop-guide/C/command-line.xml:51(userinput)
 #, no-wrap
 msgid "cp [file(s)] [directory]"
 msgstr "cp [fichier(s)] [répertoire]"
 
-#: desktop-guide/C/command-line.xml:50(userinput)
+#: desktop-guide/C/command-line.xml:52(userinput)
 #, no-wrap
 msgid "date"
 msgstr "date"
 
-#: desktop-guide/C/command-line.xml:50(seg)
+#: desktop-guide/C/command-line.xml:52(seg)
 msgid ""
 "Tells you the date and time in many different formats, timezones, and "
 "conversions."
@@ -4878,100 +5543,100 @@ msgstr ""
 "Vous indique la date et l'heure dans différents formats, fuseaux horaires et "
 "les conversions."
 
-#: desktop-guide/C/command-line.xml:50(userinput)
+#: desktop-guide/C/command-line.xml:52(userinput)
 #, no-wrap
 msgid "date [options]"
 msgstr "date [options]"
 
-#: desktop-guide/C/command-line.xml:51(userinput)
+#: desktop-guide/C/command-line.xml:53(userinput)
 #, no-wrap
 msgid "editor"
 msgstr "editor"
 
-#: desktop-guide/C/command-line.xml:51(seg)
+#: desktop-guide/C/command-line.xml:53(seg)
 msgid "Opens a text file in an editor"
 msgstr "Ouvre un fichier texte dans un éditeur"
 
-#: desktop-guide/C/command-line.xml:51(userinput)
+#: desktop-guide/C/command-line.xml:53(userinput)
 #, no-wrap
 msgid "editor [file]"
 msgstr "editor [fichier]"
 
-#: desktop-guide/C/command-line.xml:52(userinput)
+#: desktop-guide/C/command-line.xml:54(userinput)
 #, no-wrap
 msgid "grep"
 msgstr "grep"
 
-#: desktop-guide/C/command-line.xml:52(seg)
+#: desktop-guide/C/command-line.xml:54(seg)
 msgid "Searches strings or files"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:52(userinput)
+#: desktop-guide/C/command-line.xml:54(userinput)
 #, no-wrap
 msgid "grep [text] [file(s)]"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:52(userinput)
+#: desktop-guide/C/command-line.xml:54(userinput)
 #, no-wrap
 msgid "[command] | grep [text]"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:53(userinput)
+#: desktop-guide/C/command-line.xml:55(userinput)
 #, no-wrap
 msgid "kill"
 msgstr "kill"
 
-#: desktop-guide/C/command-line.xml:53(userinput)
+#: desktop-guide/C/command-line.xml:55(userinput)
 #, no-wrap
 msgid "pidof"
 msgstr "pidof"
 
-#: desktop-guide/C/command-line.xml:53(seg)
+#: desktop-guide/C/command-line.xml:55(seg)
 msgid ""
 "Terminates programs with a specified PID. If you don't know the PID you can "
 "use <placeholder-1/>"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:53(userinput)
+#: desktop-guide/C/command-line.xml:55(userinput)
 #, no-wrap
 msgid "kill [-SIGNAL] [PID(s)]"
-msgstr ""
+msgstr "kill [-SIGNAL] [PID(s)]"
 
-#: desktop-guide/C/command-line.xml:54(userinput)
+#: desktop-guide/C/command-line.xml:56(userinput)
 #, no-wrap
 msgid "killall"
 msgstr "killall"
 
-#: desktop-guide/C/command-line.xml:54(seg)
+#: desktop-guide/C/command-line.xml:56(seg)
 msgid "Much like the one above, except you specify the programs name"
 msgstr ""
 "Tout comme celui du dessus, sauf que vous spécifiez le nom des programmes"
 
-#: desktop-guide/C/command-line.xml:54(userinput)
+#: desktop-guide/C/command-line.xml:56(userinput)
 #, no-wrap
 msgid "killall [-SIGNAL] [process(es)]"
 msgstr ""
 
-#: desktop-guide/C/command-line.xml:55(userinput)
+#: desktop-guide/C/command-line.xml:57(userinput)
 #, no-wrap
 msgid "less"
 msgstr "less"
 
-#: desktop-guide/C/command-line.xml:55(seg)
+#: desktop-guide/C/command-line.xml:57(seg)
 msgid "Shows the contents of a text file"
 msgstr "Affiche le contenu d'un fichier texte"
 
-#: desktop-guide/C/command-line.xml:55(userinput)
+#: desktop-guide/C/command-line.xml:57(userinput)
 #, no-wrap
 msgid "less [file]"
 msgstr "less [fichier]"
 
-#: desktop-guide/C/command-line.xml:56(userinput)
+#: desktop-guide/C/command-line.xml:58(userinput)
 #, no-wrap
 msgid "ls"
 msgstr "ls"
 
-#: desktop-guide/C/command-line.xml:56(seg)
+#: desktop-guide/C/command-line.xml:58(seg)
 msgid ""
 "Lists files in a directory. Lists files in the current directory if none is "
 "specified"
@@ -4979,45 +5644,45 @@ msgstr ""
 "Liste les fichiers dans un répertoire. Liste les fichiers dans le répertoire "
 "courant si aucun n'est spécifié"
 
-#: desktop-guide/C/command-line.xml:56(userinput)
+#: desktop-guide/C/command-line.xml:58(userinput)
 #, no-wrap
 msgid "ls [directory]"
 msgstr "ls [répertoire]"
 
-#: desktop-guide/C/command-line.xml:57(userinput)
+#: desktop-guide/C/command-line.xml:59(userinput)
 #, no-wrap
 msgid "man"
 msgstr "man"
 
-#: desktop-guide/C/command-line.xml:57(seg)
+#: desktop-guide/C/command-line.xml:59(seg)
 msgid "Shows help about a command"
 msgstr "Affiche l'aide sur une commande"
 
-#: desktop-guide/C/command-line.xml:57(userinput)
+#: desktop-guide/C/command-line.xml:59(userinput)
 #, no-wrap
 msgid "man [command]"
 msgstr "man [commande]"
 
-#: desktop-guide/C/command-line.xml:58(userinput)
+#: desktop-guide/C/command-line.xml:60(userinput)
 #, no-wrap
 msgid "mv"
 msgstr "mv"
 
-#: desktop-guide/C/command-line.xml:58(seg)
+#: desktop-guide/C/command-line.xml:60(seg)
 msgid "Moves or renames a file"
 msgstr "Déplace ou renomme un fichier"
 
-#: desktop-guide/C/command-line.xml:58(userinput)
+#: desktop-guide/C/command-line.xml:60(userinput)
 #, no-wrap
 msgid "mv [filename] [newfilename]"
 msgstr "mv [nomdefichier] [nouveaunomdefichier]"
 
-#: desktop-guide/C/command-line.xml:59(userinput)
+#: desktop-guide/C/command-line.xml:61(userinput)
 #, no-wrap
 msgid "rm"
 msgstr "rm"
 
-#: desktop-guide/C/command-line.xml:59(seg)
+#: desktop-guide/C/command-line.xml:61(seg)
 msgid ""
 "Removes files or directories. Be very careful with this command! With the -r "
 "option, it removes all files and directories recursively!"
@@ -5026,27 +5691,27 @@ msgstr ""
 "commande ! Avec l'option -r, elle supprime tous les fichiers et répertoires "
 "de manière récursive !"
 
-#: desktop-guide/C/command-line.xml:59(userinput)
+#: desktop-guide/C/command-line.xml:61(userinput)
 #, no-wrap
 msgid "rm [file(s)]"
 msgstr "rm [fichier(s)]"
 
-#: desktop-guide/C/command-line.xml:59(userinput)
+#: desktop-guide/C/command-line.xml:61(userinput)
 #, no-wrap
 msgid "rm -ir [dir(s)]"
 msgstr "rm -ir [répertoire(s)]"
 
-#: desktop-guide/C/command-line.xml:60(userinput)
+#: desktop-guide/C/command-line.xml:62(userinput)
 #, no-wrap
 msgid "wget"
 msgstr "wget"
 
-#: desktop-guide/C/command-line.xml:60(userinput)
+#: desktop-guide/C/command-line.xml:62(userinput)
 #, no-wrap
 msgid "man wget"
 msgstr "man wget"
 
-#: desktop-guide/C/command-line.xml:60(seg)
+#: desktop-guide/C/command-line.xml:62(seg)
 msgid ""
 "Downloads files to current directory. The -N option can be useful for "
 "checking to see if a file on the server is newer than the one you have "
@@ -5056,10 +5721,10 @@ msgstr ""
 "utile pour vérifier si un fichier sur le serveur est plus récent que celui "
 "que vous avez localement, voir <placeholder-1/> pour plus d'informations."
 
-#: desktop-guide/C/command-line.xml:60(userinput)
+#: desktop-guide/C/command-line.xml:62(userinput)
 #, no-wrap
 msgid "wget [urls]"
-msgstr ""
+msgstr "wget [url]"
 
 #: desktop-guide/C/administrative-tasks.xml:12(title)
 msgid "Administrative tasks"
@@ -5168,17 +5833,21 @@ msgstr ""
 
 #: desktop-guide/C/administrative-tasks.xml:47(para)
 msgid "Enter your password if prompted to do so"
-msgstr "Entrez votre mot de passe si vous êtes invité à le faire"
+msgstr "Saisissez votre mot de passe si vous êtes invité à le faire"
 
 #: desktop-guide/C/administrative-tasks.xml:48(para)
 msgid ""
 "Select the <guilabel>Administrator</guilabel> option (or select "
 "<guilabel>Desktop User</guilabel> to revert)"
 msgstr ""
+"Sélectionnez l'option <guilabel>Administrateur</guilabel> (ou sélectionnez "
+"<guilabel>Utilisateur de l'ordinateur</guilabel> pour revenir en arrière)"
 
 #: desktop-guide/C/administrative-tasks.xml:49(para)
 msgid "Press <guibutton>OK</guibutton> to apply the selected changes"
 msgstr ""
+"Appuyez sur <guibutton>Valider</guibutton> pour appliquer les modifications "
+"sélectionnées"
 
 #: desktop-guide/C/administrative-tasks.xml:52(para)
 msgid ""
@@ -5208,7 +5877,7 @@ msgstr ""
 
 #: desktop-guide/C/administrative-tasks.xml:65(para)
 msgid "Enter your password"
-msgstr "Entrez votre mot de passe"
+msgstr "Saisissez votre mot de passe"
 
 #: desktop-guide/C/administrative-tasks.xml:66(para)
 msgid ""
@@ -5234,7 +5903,10 @@ msgstr ""
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
+"  Arnaud LE CAM https://launchpad.net/~alc-b\n"
+"  David Pires https://launchpad.net/~slickymaster\n"
 "  Hannequin Lionel https://launchpad.net/~yoyopoubbox\n"
 "  Jean Marc https://launchpad.net/~m-balthazar\n"
 "  Pasi Lallinaho https://launchpad.net/~knome\n"
-"  Teromene https://launchpad.net/~teromene"
+"  Teromene https://launchpad.net/~teromene\n"
+"  Urien Desterres https://launchpad.net/~urien-desterres"
