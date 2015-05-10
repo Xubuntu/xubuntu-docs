@@ -2,6 +2,11 @@ xubuntu-docs (15.10.0) UNRELEASED; urgency=medium
 
   [ David Pires ]
   * Bump version and start page to 15.10 Wily Werewolf
+  * Replace the occurrences of Abiword and Gnumeric for Writer and Calc in
+    the appendix-packages and guide-default-apps files
+  * Remove Gimp entry from guide-default-apps
+  * Remove Gimp entity from the entities file and create entities for Calc
+    and Writer
 
  -- David Pires <slickymaster@ubuntu.com>  Mon, 04 May 2015 23:07:29 +0100
 

@@ -14,12 +14,12 @@
  	<segmentedlist>
 		<?dbhtml list-presentation="table"?>
 		<segtitle>Friendly name</segtitle><segtitle>Package name</segtitle><segtitle>Short description</segtitle>
-		<seglistitem><seg>Abiword</seg><seg>abiword</seg><seg>Word processor</seg></seglistitem>
 		<seglistitem><seg>Catfish File Search</seg><seg>catfish</seg><seg>File searching tool which is configurable via the command line</seg></seglistitem>
 		<seglistitem><seg>Document Viewer</seg><seg>evince</seg><seg>Document (PostScript, PDF) viewer</seg></seglistitem>
 		<seglistitem><seg>Calculator</seg><seg>gnome-calculator</seg><seg>Desktop calculator</seg></seglistitem>
-		<seglistitem><seg>Gnumeric</seg><seg>gnumeric</seg><seg>Spreadsheet application</seg></seglistitem>
 		<seglistitem><seg>Character Map</seg><seg>gucharmap</seg><seg>Unicode character picker and font browser</seg></seglistitem>
+		<seglistitem><seg>Calc</seg><seg>libreoffice-calc</seg><seg>Spreadsheet application</seg></seglistitem>
+		<seglistitem><seg>Writer</seg><seg>libreoffice-writer</seg><seg>Word processor</seg></seglistitem>
 		<seglistitem><seg>Mousepad</seg><seg>mousepad</seg><seg>Simple Xfce oriented text editor</seg></seglistitem>
 		<seglistitem><seg>PulseAudio Volume Control</seg><seg>pavucontrol</seg><seg>PulseAudio Volume Control</seg></seglistitem>
 		<seglistitem><seg>Simple Scan</seg><seg>simple-scan</seg><seg>Simple Scanning Utility</seg></seglistitem>
