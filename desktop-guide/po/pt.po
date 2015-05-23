@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-04-03 18:33+0100\n"
-"PO-Revision-Date: 2015-04-09 11:30+0000\n"
+"POT-Creation-Date: 2015-05-10 22:28+0100\n"
+"PO-Revision-Date: 2015-05-04 22:30+0000\n"
 "Last-Translator: David Pires <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-04-10 05:32+0000\n"
-"X-Generator: Launchpad (build 17413)\n"
+"X-Launchpad-Export-Date: 2015-05-23 05:31+0000\n"
+"X-Generator: Launchpad (build 17514)\n"
 "Language: pt\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -45,77 +45,77 @@ msgid "Short description"
 msgstr "Descrição curta"
 
 #: desktop-guide/C/appendix-packages.xml:17(seg)
-msgid "Abiword"
-msgstr "Abiword"
-
-#: desktop-guide/C/appendix-packages.xml:17(seg)
-msgid "abiword"
-msgstr "abiword"
-
-#: desktop-guide/C/appendix-packages.xml:17(seg)
-msgid "Word processor"
-msgstr "Processador de texto"
-
-#: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "Catfish File Search"
 msgstr "Pesquisador de ficheiros Catfish"
 
-#: desktop-guide/C/appendix-packages.xml:18(seg)
+#: desktop-guide/C/appendix-packages.xml:17(seg)
 msgid "catfish"
 msgstr "catfish"
 
-#: desktop-guide/C/appendix-packages.xml:18(seg)
+#: desktop-guide/C/appendix-packages.xml:17(seg)
 msgid "File searching tool which is configurable via the command line"
 msgstr ""
 "Ferramenta de pesquisa que é configurável através da linha de comandos"
 
-#: desktop-guide/C/appendix-packages.xml:19(seg)
+#: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "Document Viewer"
 msgstr "Visualizador de Documento"
 
-#: desktop-guide/C/appendix-packages.xml:19(seg)
+#: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "evince"
 msgstr "evince"
 
-#: desktop-guide/C/appendix-packages.xml:19(seg)
+#: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "Document (PostScript, PDF) viewer"
 msgstr "Visualizador de documento (postscript, PDF)"
 
-#: desktop-guide/C/appendix-packages.xml:20(seg)
+#: desktop-guide/C/appendix-packages.xml:19(seg)
 msgid "Calculator"
 msgstr "Calculadora"
 
-#: desktop-guide/C/appendix-packages.xml:20(seg)
+#: desktop-guide/C/appendix-packages.xml:19(seg)
 msgid "gnome-calculator"
 msgstr "gnome-calculator"
 
-#: desktop-guide/C/appendix-packages.xml:20(seg)
+#: desktop-guide/C/appendix-packages.xml:19(seg)
 msgid "Desktop calculator"
 msgstr "Calculadora"
 
-#: desktop-guide/C/appendix-packages.xml:21(seg)
-msgid "Gnumeric"
-msgstr "Gnumeric"
+#: desktop-guide/C/appendix-packages.xml:20(seg)
+msgid "Character Map"
+msgstr "Mapa de Carateres"
+
+#: desktop-guide/C/appendix-packages.xml:20(seg)
+msgid "gucharmap"
+msgstr "gucharmap"
+
+#: desktop-guide/C/appendix-packages.xml:20(seg)
+msgid "Unicode character picker and font browser"
+msgstr "Seletor de caracteres Unicode e navegador de fontes"
 
 #: desktop-guide/C/appendix-packages.xml:21(seg)
-msgid "gnumeric"
-msgstr "gnumeric"
+msgid "LibreOffice Calc"
+msgstr ""
+
+#: desktop-guide/C/appendix-packages.xml:21(seg)
+msgid "libreoffice-calc"
+msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:21(seg)
 msgid "Spreadsheet application"
 msgstr "Aplicação de folha de cálculo"
 
 #: desktop-guide/C/appendix-packages.xml:22(seg)
-msgid "Character Map"
-msgstr "Mapa de Carateres"
+msgid "LibreOffice Writer"
+msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:22(seg)
-msgid "gucharmap"
-msgstr "gucharmap"
+msgid "libreoffice-writer"
+msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:22(seg)
-msgid "Unicode character picker and font browser"
-msgstr "Seletor de caracteres Unicode e navegador de fontes"
+msgid "Word processor"
+msgstr "Processador de texto"
 
 #: desktop-guide/C/appendix-packages.xml:23(seg)
 msgid "Mousepad"
@@ -4063,74 +4063,78 @@ msgid "The contributors to this documentation are:"
 msgstr "Os contribuidores para esta documentação são:"
 
 #: desktop-guide/C/index.xml:22(para)
-msgid "Sean Davis (smd-seandavis)"
-msgstr "Sean Davis (smd-seandavis)"
+msgid "David Pires (slickymaster)"
+msgstr "David Pires (slickymaster)"
 
 #: desktop-guide/C/index.xml:23(para)
-msgid "Steve Dodier-Lazaro (sidi)"
-msgstr "Steve Dodier-Lazaro (sidi)"
+msgid "Elizabeth Krumbach (lyz)"
+msgstr "Elizabeth Krumbach (lyz)"
 
 #: desktop-guide/C/index.xml:24(para)
+msgid "Jack Fromm (jjfrv8)"
+msgstr ""
+
+#: desktop-guide/C/index.xml:25(para)
+msgid "Jay van Cooten (skippersboss)"
+msgstr "Jay van Cooten (skippersboss)"
+
+#: desktop-guide/C/index.xml:26(para)
 msgid "Kev (elfy)"
 msgstr "Kev (elfy)"
 
-#: desktop-guide/C/index.xml:25(para)
-msgid "Jack Fromm (jjfrv8-gmail)"
-msgstr "Jack Fromm (jjfrv8-gmail)"
-
-#: desktop-guide/C/index.xml:26(para)
-msgid "Stephen Michael Kellat (skellat)"
-msgstr "Stephen Michael Kellat (skellat)"
-
 #: desktop-guide/C/index.xml:27(para)
-msgid "Elizabeth Krumbach (lyz)"
-msgstr "Elizabeth Krumbach (lyz)"
+msgid "Krytarik Raido (krytarik)"
+msgstr ""
 
 #: desktop-guide/C/index.xml:28(para)
 msgid "Pasi Lallinaho (knome)"
 msgstr "Pasi Lallinaho (knome)"
 
 #: desktop-guide/C/index.xml:29(para)
-msgid "David Pires (slickymaster)"
-msgstr "David Pires (slickymaster)"
+msgid "Sean Davis (bluesabre)"
+msgstr ""
 
 #: desktop-guide/C/index.xml:30(para)
-msgid "Unit 193 (Unit193)"
-msgstr "Unit 193 (Unit193)"
+msgid "Stephen Michael Kellat (skellat)"
+msgstr "Stephen Michael Kellat (skellat)"
 
 #: desktop-guide/C/index.xml:31(para)
-msgid "Jay van Cooten (skippersboss)"
-msgstr "Jay van Cooten (skippersboss)"
+msgid "Steve Dodier-Lazaro (sidi)"
+msgstr "Steve Dodier-Lazaro (sidi)"
 
-#: desktop-guide/C/index.xml:34(para)
+#: desktop-guide/C/index.xml:32(para)
+msgid "Unit 193 (unit193)"
+msgstr ""
+
+#: desktop-guide/C/index.xml:35(para)
 msgid "The contributors to this translation of the documentation are:"
 msgstr "Os contribuidores para esta tradução da documentação são:"
 
-#: desktop-guide/C/index.xml:37(para)
+#: desktop-guide/C/index.xml:38(para)
 msgid "The contributors to previous versions to this documentation are:"
 msgstr "Os contribuidores para versões anteriores a esta documentação são:"
 
-#: desktop-guide/C/index.xml:39(para)
-msgid "Jim Campbell (jwcampbell)"
-msgstr "Jim Campbell (jwcampbell)"
-
 #: desktop-guide/C/index.xml:40(para)
-msgid "Freddy Martinez (freddymartinez9)"
-msgstr "Freddy Martinez (freddymartinez9)"
-
-#: desktop-guide/C/index.xml:41(para)
-msgid "Jan M. (fijam7)"
-msgstr "Jan M. (fijam7)"
-
-#: desktop-guide/C/index.xml:42(para)
 msgid "Cody A.W. Somerville (cody-somerville)"
 msgstr "Cody A.W. Somerville (cody-somerville)"
 
+#: desktop-guide/C/index.xml:41(para)
+msgid "Freddy Martinez (freddymartinez9)"
+msgstr "Freddy Martinez (freddymartinez9)"
+
+#: desktop-guide/C/index.xml:42(para)
+msgid "Jan M. (fijam7)"
+msgstr "Jan M. (fijam7)"
+
 #: desktop-guide/C/index.xml:43(para)
+msgid "Jim Campbell (jwcampbell)"
+msgstr "Jim Campbell (jwcampbell)"
+
+#: desktop-guide/C/index.xml:44(para)
 msgid "Luzius Thöny (lucius-antonius)"
 msgstr "Luzius Thöny (lucius-antonius)"
 
-#: desktop-guide/C/index.xml:46(para)
+#: desktop-guide/C/index.xml:47(para)
 msgid ""
 "This document is made available under the Creative Commons ShareAlike 2.5 "
 "License (CC-BY-SA)."
@@ -4138,7 +4142,7 @@ msgstr ""
 "Este documento é disponibilizado sob a licença  da Creative Commons "
 "ShareAlike 2.5 (CC-BY-SA)."
 
-#: desktop-guide/C/index.xml:47(para)
+#: desktop-guide/C/index.xml:48(para)
 msgid ""
 "You are free to modify, extend, and improve the Ubuntu documentation source "
 "code under the terms of this license. All derivative works must be released "
@@ -4148,7 +4152,7 @@ msgstr ""
 "Ubuntu sob os termos desta licença. Todos os trabalhos derivados devem ser "
 "disponibilizados sob esta licença."
 
-#: desktop-guide/C/index.xml:49(para)
+#: desktop-guide/C/index.xml:50(para)
 msgid ""
 "This documentation is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
@@ -4158,7 +4162,7 @@ msgstr ""
 "NENHUMA GARANTIA; sem mesmo a garantia implícita de MERCANTIBILIDADE ou "
 "ADAPTAÇÃO A UM PROPÓSITO ESPECÍFICO COMO DESCRITO NAS DISPOSIÇÕES LEGAIS."
 
-#: desktop-guide/C/index.xml:52(para)
+#: desktop-guide/C/index.xml:53(para)
 msgid ""
 "A copy of the license is available here: <link linkend=\"cc-by-sa\">Creative "
 "Commons ShareAlike License</link>."
@@ -4166,7 +4170,7 @@ msgstr ""
 "Uma cópia da licença está disponível aqui: <link linkend=\"cc-by-"
 "sa\">Creative Commons ShareAlike License</link>."
 
-#: desktop-guide/C/index.xml:53(para)
+#: desktop-guide/C/index.xml:54(para)
 msgid ""
 "All trademarks or registered trademarks are the property of the respective "
 "owners."
@@ -4174,35 +4178,35 @@ msgstr ""
 "Todas as marcas comerciais ou marcas registradas são propriedade dos "
 "respectivos proprietários."
 
-#: desktop-guide/C/index.xml:57(year)
+#: desktop-guide/C/index.xml:58(year)
 msgid "2012"
 msgstr "2012"
 
-#: desktop-guide/C/index.xml:58(year)
+#: desktop-guide/C/index.xml:59(year)
 msgid "2013"
 msgstr "2013"
 
-#: desktop-guide/C/index.xml:59(year)
+#: desktop-guide/C/index.xml:60(year)
 msgid "2014"
 msgstr "2014"
 
-#: desktop-guide/C/index.xml:60(year)
+#: desktop-guide/C/index.xml:61(year)
 msgid "2015"
 msgstr "2015"
 
-#: desktop-guide/C/index.xml:61(holder)
+#: desktop-guide/C/index.xml:62(holder)
 msgid "Canonical Ltd. and members of the Xubuntu Documentation team."
 msgstr "Canonical Ltd. e membros da equipa de documentação Xubuntu."
 
-#: desktop-guide/C/index.xml:65(publishername)
+#: desktop-guide/C/index.xml:66(publishername)
 msgid "The Ubuntu Documentation Project"
 msgstr "O Projecto de Documentação do Ubuntu"
 
-#: desktop-guide/C/index.xml:68(title)
+#: desktop-guide/C/index.xml:69(title)
 msgid "Welcome!"
 msgstr "Bem-vindo!"
 
-#: desktop-guide/C/index.xml:70(para)
+#: desktop-guide/C/index.xml:71(para)
 msgid ""
 "This documentation provides information to the most common issues with "
 "Xubuntu, including:"
@@ -4210,11 +4214,11 @@ msgstr ""
 "Esta documentação fornece informações para os problemas mais comuns com o "
 "Xubuntu, incluindo:"
 
-#: desktop-guide/C/index.xml:75(para)
+#: desktop-guide/C/index.xml:76(para)
 msgid "In addition, this documentation has three quick guides:"
 msgstr "Além disso, esta documentação tem três guias rápidos:"
 
-#: desktop-guide/C/index.xml:81(para)
+#: desktop-guide/C/index.xml:82(para)
 msgid ""
 "The complete set of topics is listed below. If you require help with a topic "
 "or problem that is not addressed by the documentation, go to the <ulink "
@@ -4226,7 +4230,7 @@ msgstr ""
 "<ulink url=\"http://xubuntu.org/help/\">Help &amp; Support</ulink> no sítio "
 "do Xubuntu. Lá encontrará ligações para recursos de ajuda adicionais."
 
-#: desktop-guide/C/index.xml:83(para)
+#: desktop-guide/C/index.xml:84(para)
 msgid ""
 "If you would like to contribute to Xubuntu, including this documentation, "
 "see the <ulink url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> "
@@ -6380,18 +6384,6 @@ msgstr "Gráficos"
 
 #: desktop-guide/C/guide-default-apps.xml:17(para)
 msgid ""
-"<application>GIMP</application>, an advanced picture editor. You can use it "
-"to edit, enhance, and retouch photos and scans, create drawings, and make "
-"your own images. Read more at the <ulink "
-"url=\"http://www.gimp.org/\">GIMP</ulink> website."
-msgstr ""
-"<application>GIMP</application>, um editor de imagens avançado. Pode usá-lo "
-"para editar, melhorar e retocar fotos e digitalizações, criar desenhos, e "
-"fazer as suas próprias imagens. Leia mais no site do <ulink "
-"url=\"http://www.gimp.org/\">GIMP</ulink>."
-
-#: desktop-guide/C/guide-default-apps.xml:19(para)
-msgid ""
 "<application>Ristretto</application> is an image viewer designed to be very "
 "light on resources. More information can be found in the <ulink "
 "url=\"http://docs.xfce.org/apps/ristretto/start\">Ristretto online "
@@ -6403,7 +6395,7 @@ msgstr ""
 "url=\"http://docs.xfce.org/apps/ristretto/start\">Ristretto online "
 "documentation</ulink>."
 
-#: desktop-guide/C/guide-default-apps.xml:21(para)
+#: desktop-guide/C/guide-default-apps.xml:19(para)
 msgid ""
 "<application>Simple Scan</application> is an easy-to-use scan utility "
 "designed to do simple tasks like scanning to email or directly to PDF. Read "
@@ -6415,11 +6407,11 @@ msgstr ""
 "e-mail ou diretamente para PDF. Leia mais no site <ulink "
 "url=\"https://launchpad.net/simple-scan\">Simple Scan website</ulink>."
 
-#: desktop-guide/C/guide-default-apps.xml:25(title)
+#: desktop-guide/C/guide-default-apps.xml:23(title)
 msgid "Internet"
 msgstr "Internet"
 
-#: desktop-guide/C/guide-default-apps.xml:27(para)
+#: desktop-guide/C/guide-default-apps.xml:25(para)
 msgid ""
 "<application>Firefox</application> is a mature and stable web browser which "
 "can be extended with a wide variety of available add-ins. Read more on "
@@ -6431,7 +6423,7 @@ msgstr ""
 "disponíveis. Leia mais em <ulink url=\"http://support.mozilla.org/en-"
 "US/home\">Firefox's online help</ulink>."
 
-#: desktop-guide/C/guide-default-apps.xml:29(para)
+#: desktop-guide/C/guide-default-apps.xml:27(para)
 msgid ""
 "<application>Thunderbird</application> is a versatile mail client which can "
 "handle multiple email accounts and different identities simultaneously. Like "
@@ -6457,7 +6449,7 @@ msgstr ""
 "url=\"https://support.mozillamessaging.com/en-US/home\">Thunderbird Support "
 "page</ulink>."
 
-#: desktop-guide/C/guide-default-apps.xml:31(para)
+#: desktop-guide/C/guide-default-apps.xml:29(para)
 msgid ""
 "<application>Pidgin</application> is the default instant messaging client "
 "capable of handling MSN, XMPP (Google Talk, Facebook) and more. Read more "
@@ -6469,11 +6461,11 @@ msgstr ""
 "mais. Leia mais sobre <ulink url=\"http://developer.pidgin.im/wiki/Using "
 "Pidgin\">Using Pidgin</ulink> na ajuda online do Pidgin."
 
-#: desktop-guide/C/guide-default-apps.xml:35(title)
+#: desktop-guide/C/guide-default-apps.xml:33(title)
 msgid "Media"
 msgstr "Multimédia"
 
-#: desktop-guide/C/guide-default-apps.xml:37(para)
+#: desktop-guide/C/guide-default-apps.xml:35(para)
 msgid ""
 "<application>gmusicbrowser</application> has been provided as your basic "
 "audio player. Read more at <xref linkend=\"media-music-listen\"/> and on the "
@@ -6485,7 +6477,7 @@ msgstr ""
 "<ulink url=\"http://gmusicbrowser.org/guide.html\">gmusicbrowser user "
 "guide</ulink>."
 
-#: desktop-guide/C/guide-default-apps.xml:39(para)
+#: desktop-guide/C/guide-default-apps.xml:37(para)
 msgid ""
 "<application>Parole</application> is a simple media player that can play "
 "video and audio files. More information can be found in the <ulink "
@@ -6497,7 +6489,7 @@ msgstr ""
 "em <ulink url=\"http://docs.xfce.org/apps/parole/start\">Parole online "
 "documentation</ulink>."
 
-#: desktop-guide/C/guide-default-apps.xml:41(para)
+#: desktop-guide/C/guide-default-apps.xml:39(para)
 msgid ""
 "It will be necessary to install <literal><placeholder-1/>xubuntu-restricted-"
 "extras</literal> in order to play proprietary media formats like e.g. MP3."
@@ -6506,7 +6498,7 @@ msgstr ""
 "extras</literal> a fim de reproduzir os formatos de media proprietários como "
 "por exemplo MP3."
 
-#: desktop-guide/C/guide-default-apps.xml:43(para)
+#: desktop-guide/C/guide-default-apps.xml:41(para)
 msgid ""
 "<application>PulseAudio Volume Control</application> is the way to control "
 "the different sound sources to their destination. Read more at the <ulink "
@@ -6518,7 +6510,7 @@ msgstr ""
 "<ulink url=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">PulseAudio"
 " website</ulink>."
 
-#: desktop-guide/C/guide-default-apps.xml:45(para)
+#: desktop-guide/C/guide-default-apps.xml:43(para)
 msgid ""
 "<application>Xfburn</application> is the chosen program for creating your "
 "CDs and DVDs."
@@ -6526,52 +6518,35 @@ msgstr ""
 "<application>Xfburn</application> é o programa escolhido para a criação de "
 "CDs e DVDs."
 
-#: desktop-guide/C/guide-default-apps.xml:47(para)
+#: desktop-guide/C/guide-default-apps.xml:45(para)
 msgid ""
 "To read more about media in Xubuntu, refer to <xref linkend=\"media-apps\"/>."
 msgstr ""
 "Para ler mais sobre multimédia no Xubuntu, consulte <xref linkend=\"media-"
 "apps\"/>."
 
-#: desktop-guide/C/guide-default-apps.xml:51(title)
+#: desktop-guide/C/guide-default-apps.xml:49(title)
 msgid "Office"
 msgstr "Produtividade"
 
+#: desktop-guide/C/guide-default-apps.xml:51(para)
+msgid ""
+"<application>LibreOffice Writer</application> is a word processor with "
+"extensive WYSIWYG word processing capabilities. Read more at the <ulink "
+"url=\"https://www.libreoffice.org/discover/writer/\">LibreOffice Writer "
+"website</ulink>."
+msgstr ""
+
 #: desktop-guide/C/guide-default-apps.xml:53(para)
 msgid ""
-"<application>AbiWord</application> has been provided as a lightweight but "
-"very capable word processor. Remember to save into the correct format if you "
-"are planning to share documents with others."
+"<application>LibreOffice Calc</application> is a spreadsheet editor with a "
+"number of unique features, including a system which automatically defines "
+"series of graphs, based on information available to the user. Read more at "
+"the <ulink url=\"https://www.libreoffice.org/discover/calc/\">LibreOffice "
+"Calc website</ulink>."
 msgstr ""
-"<application>AbiWord</application> é fornecido como um leve mas muito capaz "
-"processador de texto. Lembre-se de gravar no formato correto se estiver a "
-"planear partilhar documentos com outras pessoas."
 
 #: desktop-guide/C/guide-default-apps.xml:55(para)
-msgid ""
-"<application>Gnumeric</application> is a spreadsheet editor and the perfect "
-"light companion for <application>AbiWord</application>."
-msgstr ""
-"<application>Gnumeric</application> é um editor de folha de cálculo leve e o "
-"perfeito companheiro para o <application>AbiWord</application>."
-
-#: desktop-guide/C/guide-default-apps.xml:57(para)
-msgid ""
-"If you prefer the LibreOffice suite over these default applications, you can "
-"install it from the repositories as well as remove "
-"<application>AbiWord</application> and <application>Gnumeric</application> "
-"if desired. We do not suggest directly installing the downloads offered by "
-"The Document Foundation as they lack Ubuntu-specific patches and polish "
-"available from repositories."
-msgstr ""
-"Se preferir a suíte LibreOffice em detrimento destas aplicações "
-"predefinidas, pode instalá-lo a partir dos repositórios bem como remover o "
-"<application>AbiWord</application> e o <application>Gnumeric</application> "
-"se desejar. Não sugerimos instalar diretamente as transferências oferecidas "
-"pela The Document Foundation visto não possuirem correções específicas para "
-"o Ubuntu e requintes disponíveis em repositórios."
-
-#: desktop-guide/C/guide-default-apps.xml:59(para)
 msgid ""
 "<application>Dictionary</application> provides an easy way to access a "
 "number of different dictionaries across the internet. Read more at the "
@@ -6583,11 +6558,11 @@ msgstr ""
 "<ulink url=\"http://goodies.xfce.org/projects/applications/xfce4-"
 "dict\">Xfce4 Dictionary online help</ulink>."
 
-#: desktop-guide/C/guide-default-apps.xml:61(para)
+#: desktop-guide/C/guide-default-apps.xml:57(para)
 msgid "<application>Document Viewer</application> is a PDF reader."
 msgstr "<application>Document Viewer</application> é um leitor de PDF."
 
-#: desktop-guide/C/guide-default-apps.xml:63(para)
+#: desktop-guide/C/guide-default-apps.xml:59(para)
 msgid ""
 "<application>Orage</application> has been designed to be a simple but "
 "effective calendar application to keep track of your appointments and "
@@ -6599,11 +6574,11 @@ msgstr ""
 "disparar alarmes. Leia mais em <ulink "
 "url=\"http://www.kolumbus.fi/~w408237/orage/\">Orage website</ulink>."
 
-#: desktop-guide/C/guide-default-apps.xml:67(title)
+#: desktop-guide/C/guide-default-apps.xml:63(title)
 msgid "System"
 msgstr "Sistema"
 
-#: desktop-guide/C/guide-default-apps.xml:69(para)
+#: desktop-guide/C/guide-default-apps.xml:65(para)
 msgid ""
 "<application>Gigolo</application> is an easy way to connect to local and "
 "remote file systems. Read more at the <ulink "
@@ -6613,7 +6588,7 @@ msgstr ""
 "de ficheiros locais e remotos. Leia mais em <ulink "
 "url=\"http://www.uvena.de/gigolo/\">Gigolo website</ulink>."
 
-#: desktop-guide/C/guide-default-apps.xml:71(para)
+#: desktop-guide/C/guide-default-apps.xml:67(para)
 msgid ""
 "<application>Task Manager</application> provides a graphical overview of "
 "running applications. More information can be found in the <ulink "
@@ -7270,464 +7245,65 @@ msgstr ""
 "  David Pires https://launchpad.net/~slickymaster\n"
 "  Pasi Lallinaho https://launchpad.net/~knome"
 
-#~ msgid "Upgrading from an older version of Xubuntu"
-#~ msgstr "Atualizar a partir de uma versão anterior do Xubuntu"
+#~ msgid "Jack Fromm (jjfrv8-gmail)"
+#~ msgstr "Jack Fromm (jjfrv8-gmail)"
 
-#~ msgid "How can I upgrade to the latest version of Xubuntu?"
-#~ msgstr "Como é que posso atualizar para a versão mais recente do Xubuntu?"
+#~ msgid "Sean Davis (smd-seandavis)"
+#~ msgstr "Sean Davis (smd-seandavis)"
 
-#~ msgid "Select the <guilabel>Updates</guilabel> tab"
-#~ msgstr "Selecione a aba <guilabel>Atualizações</guilabel>"
-
-#~ msgid ""
-#~ "If a new version of Xubuntu is available, a box at the top of the window "
-#~ "will appear saying that a new distribution release is available."
-#~ msgstr ""
-#~ "Se uma nova versão do Xubuntu estiver disponível, aparecerá uma caixa no "
-#~ "topo da janela indicando que uma nova versão da distribuição está disponível."
-
-#~ msgid "Upgrading to a development release"
-#~ msgstr "Atualizar para uma versão em desenvolvimento"
+#~ msgid "Unit 193 (Unit193)"
+#~ msgstr "Unit 193 (Unit193)"
 
 #~ msgid ""
-#~ "You can only upgrade to the latest Xubuntu release if you are running the "
-#~ "second most recent release. If you have an older release, you must upgrade "
-#~ "to the next release after that, and so on until you are running the most "
-#~ "recent version. For example, users of version 9.04 would first have to "
-#~ "upgrade to version 9.10 before upgrading to version 10.04. An exception to "
-#~ "this rule is with Long Term Support (LTS) releases. You can upgrade directly "
-#~ "from the previous LTS release to the current LTS release."
+#~ "<application>Gnumeric</application> is a spreadsheet editor and the perfect "
+#~ "light companion for <application>AbiWord</application>."
 #~ msgstr ""
-#~ "Apenas pode atualizar para a versão mais recente do Xubuntu se estiver a "
-#~ "executar o segundo lançamento mais recente. Se tem uma versão mais antiga, "
-#~ "terá de actualizar para a versão seguinte, e assim por diante até estar a "
-#~ "executar a versão mais recente. Por exemplo, utilizadores da versão 9.04 "
-#~ "teriam que primeiramente atualizar para a versão 9.10 antes de atualizar "
-#~ "para a versão 10.04. A exceção a esta regra verifica-se com as versões de "
-#~ "Suporte de Longo Prazo (LTS). É possível atualizar diretamente da versão LTS "
-#~ "anterior para a atual versão LTS."
+#~ "<application>Gnumeric</application> é um editor de folha de cálculo leve e o "
+#~ "perfeito companheiro para o <application>AbiWord</application>."
 
 #~ msgid ""
-#~ "Development releases often suffer from package breakages and other problems. "
-#~ "Only install a development release if you are prepared to attempt to fix "
-#~ "these problems for yourself."
+#~ "<application>AbiWord</application> has been provided as a lightweight but "
+#~ "very capable word processor. Remember to save into the correct format if you "
+#~ "are planning to share documents with others."
 #~ msgstr ""
-#~ "Versões de desenvolvimento muitas vezes sofrem de quebras de pacotes e "
-#~ "outros problemas. Só instale uma versão de desenvolvimento se você estiver "
-#~ "preparado para tentar corrigir esses problemas por si próprio."
+#~ "<application>AbiWord</application> é fornecido como um leve mas muito capaz "
+#~ "processador de texto. Lembre-se de gravar no formato correto se estiver a "
+#~ "planear partilhar documentos com outras pessoas."
 
 #~ msgid ""
-#~ "Upgrades usually take a while to complete. Typically, around 700MB of "
-#~ "packages must be downloaded and installed, although the actual figure will "
-#~ "depend on how many packages are already installed on your computer."
+#~ "If you prefer the LibreOffice suite over these default applications, you can "
+#~ "install it from the repositories as well as remove "
+#~ "<application>AbiWord</application> and <application>Gnumeric</application> "
+#~ "if desired. We do not suggest directly installing the downloads offered by "
+#~ "The Document Foundation as they lack Ubuntu-specific patches and polish "
+#~ "available from repositories."
 #~ msgstr ""
-#~ "As atualizações geralmentedemoram algum tempo para serem concluídas. "
-#~ "Tipicamente cerca de 700MB de pacotes tem de ser transferidos e instalados, "
-#~ "embora o número real irá depender de quantos pacotes já estão instalados no "
-#~ "computador."
+#~ "Se preferir a suíte LibreOffice em detrimento destas aplicações "
+#~ "predefinidas, pode instalá-lo a partir dos repositórios bem como remover o "
+#~ "<application>AbiWord</application> e o <application>Gnumeric</application> "
+#~ "se desejar. Não sugerimos instalar diretamente as transferências oferecidas "
+#~ "pela The Document Foundation visto não possuirem correções específicas para "
+#~ "o Ubuntu e requintes disponíveis em repositórios."
+
+#~ msgid "abiword"
+#~ msgstr "abiword"
+
+#~ msgid "Abiword"
+#~ msgstr "Abiword"
+
+#~ msgid "Gnumeric"
+#~ msgstr "Gnumeric"
+
+#~ msgid "gnumeric"
+#~ msgstr "gnumeric"
 
 #~ msgid ""
-#~ "Select <guilabel>For any new version</guilabel> from the list labeled "
-#~ "<guilabel>Notify me of a new Ubuntu version</guilabel>, enter your password, "
-#~ "and press <guibutton>Close</guibutton>"
+#~ "<application>GIMP</application>, an advanced picture editor. You can use it "
+#~ "to edit, enhance, and retouch photos and scans, create drawings, and make "
+#~ "your own images. Read more at the <ulink "
+#~ "url=\"http://www.gimp.org/\">GIMP</ulink> website."
 #~ msgstr ""
-#~ "Selecione <guilabel>Para qualquer versão</guilabel> da lista "
-#~ "<guilabel>Avisar-me de uma nova versão do Ubuntu</guilabel>, introduza a sua "
-#~ "password e clique <guibutton>Fechar</guibutton>"
-
-#~ msgid "Checking and installing updates automatically"
-#~ msgstr "Frequência de verificação"
-
-#~ msgid "Displaying notifications about security updates"
-#~ msgstr "Visualizar notificações sobre atualizações de segurança"
-
-#~ msgid "Frequency of check"
-#~ msgstr "Frequência de verificação"
-
-#~ msgid ""
-#~ "Open a terminal (<application><menuchoice><placeholder-"
-#~ "1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal "
-#~ "Emulator</guimenuitem></menuchoice></application>) and type the command "
-#~ "<userinput>ifconfig</userinput> and press <keycap><placeholder-"
-#~ "2/>Enter</keycap>"
-#~ msgstr ""
-#~ "Abra uma janela de terminal (<application><menuchoice><placeholder-"
-#~ "1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Emulador de "
-#~ "Terminal</guimenuitem></menuchoice></application>) introduza o comando "
-#~ "<userinput>ifconfig</userinput> e pressione <keycap><placeholder-"
-#~ "2/>Enter</keycap>"
-
-#~ msgid ""
-#~ "Please note that the steps in this troubleshooting guide are designed to be "
-#~ "carried out in the order shown, unless you are pointed to a different "
-#~ "subsection"
-#~ msgstr ""
-#~ "Por favor, note que as etapas deste guia de resolução de problemas são "
-#~ "concebidas para serem realizadas na ordem apresentada, a menos que seja "
-#~ "apontado para uma subseção diferente"
-
-#~ msgid ""
-#~ "To check if your computer is connected to the Internet, open a terminal "
-#~ "(<application><menuchoice><placeholder-"
-#~ "1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal "
-#~ "Emulator</guimenuitem></menuchoice></application>) and type the command "
-#~ "<userinput>ping -c 3 www.xubuntu.org</userinput> and press "
-#~ "<keycap><placeholder-2/>Enter</keycap>"
-#~ msgstr ""
-#~ "Para verificar se o computador está ligado à Internet, abra uma janela de "
-#~ "terminal (<application><menuchoice><placeholder-"
-#~ "1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Emulador de "
-#~ "Terminal</guimenuitem></menuchoice></application>)  introduza o comando "
-#~ "<userinput>ping -c 3 www.xubuntu.org</userinput> e pressione "
-#~ "<keycap><placeholder-2/>Enter</keycap>"
-
-#~ msgid ""
-#~ "Open a terminal (<application><menuchoice><placeholder-"
-#~ "1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal "
-#~ "Emulator</guimenuitem></menuchoice></application>) and type the command "
-#~ "<userinput>sudo lshw -C network</userinput> and press <keycap><placeholder-"
-#~ "2/>Enter</keycap>. You will see some output, along with the words "
-#~ "<guilabel>CLAIMED</guilabel>, <guilabel>UNCLAIMED</guilabel>, "
-#~ "<guilabel>ENABLED</guilabel> or <guilabel>DISABLED</guilabel>."
-#~ msgstr ""
-#~ "Abra uma janela de terminal (<application><menuchoice><placeholder-"
-#~ "1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Emulador de "
-#~ "Terminal</guimenuitem></menuchoice></application>) introduza o comando "
-#~ "<userinput>pingsudo lshw -C network</userinput> e pressione "
-#~ "<keycap><placeholder-2/>Enter</keycap>. Irá ver alguma saída de texto, junto "
-#~ "com as palavras <guilabel>CLAIMED</guilabel>, "
-#~ "<guilabel>UNCLAIMED</guilabel>, <guilabel>ENABLED</guilabel> or "
-#~ "<guilabel>DISABLED</guilabel>."
-
-#~ msgid ""
-#~ "Open a terminal (<application><menuchoice><placeholder-"
-#~ "1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal "
-#~ "Emulator</guimenuitem></menuchoice></application>) and type the command "
-#~ "<userinput>iwconfig</userinput> and press <keycap><placeholder-"
-#~ "2/>Enter</keycap>."
-#~ msgstr ""
-#~ "Abra uma janela de terminal (<application><menuchoice><placeholder-"
-#~ "1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Emulador de "
-#~ "Terminal</guimenuitem></menuchoice></application>) introduza o comando "
-#~ "<userinput>iwconfig</userinput> e pressione <keycap><placeholder-"
-#~ "2/>Enter</keycap>."
-
-#~ msgid ""
-#~ "Open a terminal (<application><menuchoice><placeholder-"
-#~ "1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal "
-#~ "Emulator</guimenuitem></menuchoice></application>) and type the command "
-#~ "<userinput>nm-tool</userinput> and press <keycap><placeholder-"
-#~ "2/>Enter</keycap>."
-#~ msgstr ""
-#~ "Abra uma janela de terminal (<application><menuchoice><placeholder-"
-#~ "1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Emulador de "
-#~ "Terminal</guimenuitem></menuchoice></application>) introduza o comando "
-#~ "<userinput>nm-tool</userinput> e pressione <keycap><placeholder-"
-#~ "2/>Enter</keycap>."
-
-#~ msgid ""
-#~ "To check if the listed DNS works, open a terminal "
-#~ "(<application><menuchoice><placeholder-"
-#~ "1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal "
-#~ "Emulator</guimenuitem></menuchoice></application>) and type the command "
-#~ "<userinput>dig xubuntu.org</userinput> and press <keycap><placeholder-"
-#~ "2/>Enter</keycap>. If you see the word <literal>NOERROR</literal>in the "
-#~ "header section of the output, your DNS is working."
-#~ msgstr ""
-#~ "Para verificar se os DNS listados funcionam, abra uma janela de terminal "
-#~ "(<application><menuchoice><placeholder-"
-#~ "1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Emulador de "
-#~ "Terminal</guimenuitem></menuchoice></application>) introduza o comando "
-#~ "<userinput>dig xubuntu.org</userinput> e pressione <keycap><placeholder-"
-#~ "2/>Enter</keycap>. Se vir a palavra <literal>NOERROR</literal> na seção do "
-#~ "cabeçalho da saída, o seu DNS está a funcionar."
-
-#~ msgid ""
-#~ "Obtain the Windows driver for your network device and locate the file that "
-#~ "ends with .inf"
-#~ msgstr ""
-#~ "Obtenha o controlador do Windows para o seu dispositivo de rede e localize o "
-#~ "ficheiro com extensão .inf"
-
-#~ msgid "The Windows Share username should be in the format DOMAIN\\username"
-#~ msgstr ""
-#~ "O nome de utilizador da partilha Windows deve estar no formato DOMÍNIO\\"
-#~ "nome_de_utilizador"
-
-#~ msgid ""
-#~ "For SAMBA Networks (Windows shares), the package <literal><placeholder-"
-#~ "1/>gvfs-backends</literal> needs to be installed in order to connect using "
-#~ "the <application>Thunar File Manager</application>."
-#~ msgstr ""
-#~ "Para Redes SAMBA (partilhas do Windows), o pacote <literal><placeholder-"
-#~ "1/>gvfs-backends</literal> precisa de ser instalado para se ligar usando o "
-#~ "<application>Gestor de ficheiros Thunar</application>."
-
-#~ msgid ""
-#~ "This document is maintained by the <ulink "
-#~ "url=\"https://wiki.ubuntu.com/DocumentationTeam\">Ubuntu documentation "
-#~ "team</ulink>. This documentation is partly adapted from the Ubuntu "
-#~ "documentation."
-#~ msgstr ""
-#~ "Este documento é mantido pela  <ulink "
-#~ "url=\"https://wiki.ubuntu.com/DocumentationTeam\">Ubuntu documentation "
-#~ "team</ulink>. Esta documentação é parcialmente adaptada a partir da "
-#~ "documentação do Ubuntu."
-
-#~ msgid ""
-#~ "This documentation provides documentation to the most common issues with "
-#~ "Xubuntu, including:"
-#~ msgstr ""
-#~ "Esta documentação fornece a documentação para os problemas mais comuns com o "
-#~ "Xubuntu, incluindo:"
-
-#~ msgid ""
-#~ "To disconnect from a network, click the "
-#~ "<application>NetworkManager</application> icon, and select Disconnect under "
-#~ "the appropriate connection type. To disable (and re-enable) wired and/or "
-#~ "wireless connections all together, click the "
-#~ "<application>NetworkManager</application> icon and select "
-#~ "<menuchoice><guimenuitem>Enable Networking</guimenuitem></menuchoice> and "
-#~ "<menuchoice><guimenuitem>Enable Wi-Fi</guimenuitem></menuchoice>. These "
-#~ "choices are toggles. Their enabled/disabled status is indicated by the "
-#~ "presence/absence of a check mark."
-#~ msgstr ""
-#~ "Para se desligar de uma rede, clique no ícone do "
-#~ "<application>NetworkManager</application> e seleccione Desligar debaixo do "
-#~ "tipo de ligação apropriada. Para desativar (e reativar) ligações com fios "
-#~ "e/ou sem fios, em simultâneo, clique no ícone do "
-#~ "<application>NetworkManager</application> e selecione "
-#~ "<menuchoice><guimenuitem>Ativar a Rede</guimenuitem></menuchoice> e "
-#~ "<menuchoice><guimenuitem>Ativar Wi-Fi</guimenuitem></menuchoice>. Estas "
-#~ "opções são alternáveis. O seu estado ativado/desativado é indicado pela "
-#~ "presença/ausência de uma marca de verificação."
-
-#~ msgid "Keeping your computer safe"
-#~ msgstr "Manter o seu computador seguro"
-
-#~ msgid "Use common sense when working in the web"
-#~ msgstr "Use o bom senso quando trabalhar na internet"
-
-#~ msgid "Don't use shared user accounts"
-#~ msgstr "Não use contas de utilizador partilhadas"
-
-#~ msgid "Keep your software up-to-date"
-#~ msgstr "Mantenha o seu software atualizado"
-
-#~ msgid "Set up a firewall"
-#~ msgstr "Configure uma firewall"
-
-#~ msgid ""
-#~ "This is a brief guide on keeping your computer safe from security threats. "
-#~ "We will guide you through seven different tips:"
-#~ msgstr ""
-#~ "Este é um breve guia sobre como manter seu computador a salvo de ameaças de "
-#~ "segurança. Vamos orientá-lo através de sete diferentes dicas:"
-
-#~ msgid "Don't use shared accounts"
-#~ msgstr "Não use contas partilhadas"
-
-#~ msgid "Change your password regularly"
-#~ msgstr "Altere a sua senha regularmente"
-
-#~ msgid ""
-#~ "In addition to having strong passwords, it is wise to change your password "
-#~ "regularly. To change your password, follow the steps below:"
-#~ msgstr ""
-#~ "Além de ter senhas fortes, é sábio alterar a sua senha regularmente. Para "
-#~ "alterar a sua senha, siga os passos abaixo:"
-
-#~ msgid ""
-#~ "Firewalls help to prevent security breaches by blocking connections to your "
-#~ "computer from unknown sources. No firewall is enabled in the default Xubuntu "
-#~ "installation. However, you have a couple of options for enabling a firewall "
-#~ "to protect your computer against unauthorized access by people on the "
-#~ "Internet or your network."
-#~ msgstr ""
-#~ "As firewalls ajudam a prevenir violações de segurança, bloqueando as "
-#~ "ligações para o seu computador a partir de fontes desconhecidas. Nenhuma "
-#~ "firewall é ativada na instalação padrão do Xubuntu. No entanto, você tem "
-#~ "algumas opções para habilitar uma firewall para proteger o seu computador "
-#~ "contra o acesso não autorizado de pessoas na Internet ou na sua rede."
-
-#~ msgid "Here are a few tips for keeping safe online:"
-#~ msgstr "Aqui estão algumas dicas para se manter seguro online:"
-
-#~ msgid ""
-#~ "You can install a firewall from <application>Ubuntu Software "
-#~ "Center</application>. One such option is "
-#~ "<application>Firestarter</application>, which is available from the Universe "
-#~ "repository. For help and advice on configuring Firestarter, see the <ulink "
-#~ "url=\"http://www.fs-security.com/docs.php\">Firestarter Online "
-#~ "Manual</ulink>."
-#~ msgstr ""
-#~ "Pode instalar uma firewall a partir do <application>Centro de Software "
-#~ "Ubuntu</application>. Uma dessas opções é o "
-#~ "<application>Firestarter</application>, que está disponível a partir do "
-#~ "repositório Universe. Para obter ajuda e conselhos sobre como configurar o "
-#~ "Firestarter, consulte o <ulink url=\"http://www.fs-"
-#~ "security.com/docs.php\">Firestarter Online Manual</ulink>."
-
-#~ msgid ""
-#~ "To check that your firewall is working correctly, make use of an online "
-#~ "firewall testing service such as <ulink "
-#~ "url=\"https://www.grc.com/x/ne.dll?bh0bkyd2\">ShieldsUP</ulink>."
-#~ msgstr ""
-#~ "Para verificar se a sua firewall está a funcionar correctamente, faça uso de "
-#~ "um serviço  online de testes de firewall como o <ulink "
-#~ "url=\"https://www.grc.com/x/ne.dll?bh0bkyd2\">ShieldsUP</ulink>."
-
-#~ msgid ""
-#~ "Phishing emails, where the message appears to be from a bank or other online "
-#~ "service, asking you to enter your personal and financial details or passwords"
-#~ msgstr ""
-#~ "Phishing emails, onde a mensagem parece ser de um banco ou outro serviço on-"
-#~ "line, pedindo-lhe para introduzir os seus dados pessoais e financeiros ou "
-#~ "senhas"
-
-#~ msgid ""
-#~ "Scam emails, where people pretend to ask for help in exchange for large sums "
-#~ "of money"
-#~ msgstr ""
-#~ "Emails fraudulentos, onde as pessoas pretendem pedir ajuda em troca de "
-#~ "grandes somas de dinheiro"
-
-#~ msgid ""
-#~ "Never click on links in emails which lead to websites asking for your "
-#~ "password or other confidential information. It is possible for the text of "
-#~ "the link to give one address when really it opens up another (possibly "
-#~ "dangerous) address. Instead, type the link directly into your web browser "
-#~ "yourself and proceed from there."
-#~ msgstr ""
-#~ "Nunca clique em ligações de emails que levam a sites que pedem sua senha ou "
-#~ "outra informação confidencial. É possível que o texto da ligação forneça um "
-#~ "endereço, quando na verdade ele abre um outro endereço (possivelmente "
-#~ "perigoso). Em vez disso, introduza a ligação diretamente no seu navegador da "
-#~ "internet e continue a partir daí."
-
-#~ msgid ""
-#~ "Never reply to unsolicited mail (see more info below) or even click on the "
-#~ "links in an email. Doing so usually results in more junk mail being sent to "
-#~ "you."
-#~ msgstr ""
-#~ "Nunca responda a emails não solicitados (veja mais informações abaixo) ou "
-#~ "até mesmo clique nas ligações dum email. Fazer isso geralmente resulta em "
-#~ "mais lixo eletrônico a ser-lhe enviado."
-
-#~ msgid "Spam (junk) email, where people offer unwanted services and products"
-#~ msgstr ""
-#~ "Spam (lixo), onde as pessoas oferecem serviços e produtos não desejados"
-
-#~ msgid ""
-#~ "Unwanted (unsolicited) mail tends to fall in to one of several categories:"
-#~ msgstr ""
-#~ "O correio electrónico indesejado (não solicitado) tende a pertencer a uma "
-#~ "das seguintes categorias:"
-
-#~ msgid ""
-#~ "Only download and run software from sources that you trust. By default, you "
-#~ "can only download software directly from Xubuntu."
-#~ msgstr ""
-#~ "Apenas transfira e execute software obtido a partir de fontes confiáveis. "
-#~ "Por padrão, só pode transferir software diretamente do Xubuntu."
-
-#~ msgid ""
-#~ "If a website asks for your financial details, ensure that it is secure. In "
-#~ "the <application>Firefox</application> web browser, secure websites have a "
-#~ "padlock icon to the left of the address. Click on the padlock to read more "
-#~ "information about the security of the website."
-#~ msgstr ""
-#~ "Se um sítio da internet lhe solicitar os seus dados financeiros, garantir-se "
-#~ "que é seguro. No navegador da internet <application>Firefox</application>, "
-#~ "as páginas seguras têm um ícone dum cadeado à esquerda do endereço. Clique "
-#~ "no cadeado para ler mais informações sobre a segurança do sítio."
-
-#~ msgid ""
-#~ "A new version of Xubuntu is released every 6 months; the "
-#~ "<application>Software Updater</application> should inform you when a new "
-#~ "version is available for download. To check for a new version:"
-#~ msgstr ""
-#~ "Uma nova versão do Xubuntu é lançada a cada 6 meses; o "
-#~ "<application>Atualizador de software</application> deverá informá-lo quando "
-#~ "uma nova versão está disponível para transferência. Para verificar se há uma "
-#~ "nova versão:"
-
-#~ msgid ""
-#~ "To upgrade to the latest release, save all of your open documents and press "
-#~ "the <guibutton>Upgrade</guibutton> button in <application>Software "
-#~ "Updater</application>"
-#~ msgstr ""
-#~ "Para atualizar para a versão mais recente, guarde todos os documentos "
-#~ "abertos e pressione o botão <guibutton>Atualizar</guibutton> em "
-#~ "<application>Atualizador de software</application>"
-
-#~ msgid ""
-#~ "<guilabel>For long-term support versions</guilabel> - You will get "
-#~ "notifications of new Long-term Support (LTS) releases, once in 2 years - "
-#~ "recommended if you need maximum stability"
-#~ msgstr ""
-#~ "<guilabel>Para as versões de suporte de longo</guilabel> - Receberá "
-#~ "notificações de novos lançamentos de Suporte de Longo Prazo (LTS), uma vez "
-#~ "em 2 anos - recomendado se necessita do máximo de estabilidade"
-
-#~ msgid ""
-#~ "A simple way of backing up your files is to manually copy them to a safe "
-#~ "location (see above) by using the File Browser as well as the "
-#~ "<application>Archive Manager</application> which lets you compress files and "
-#~ "pack them together. Alternatively, you can use a dedicated backup "
-#~ "application."
-#~ msgstr ""
-#~ "Uma maneira simples de fazer cópias de segurança dos seus ficheiros é copiá-"
-#~ "los manualmente para um local seguro (veja acima) usando o gestor de "
-#~ "ficheiros, bem como o <application>Gestor de Arquivos</application> que "
-#~ "permite compactar arquivos e juntá-los. Alternativamente, poderá usar uma "
-#~ "aplicação dedicada de cópia de segurança."
-
-#~ msgid ""
-#~ "Open a terminal (<application><menuchoice><placeholder-"
-#~ "1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal "
-#~ "Emulator</guimenuitem></menuchoice></application>) and type the command "
-#~ "<userinput>ifconfig</userinput> and press <keycap><placeholder-"
-#~ "2/>Enter</keycap>. If there is an IP address displayed, continue to <xref "
-#~ "linkend=\"network-troubleshooting-dns\"/>."
-#~ msgstr ""
-#~ "Abra uma janela de terminal (<application><menuchoice><placeholder-"
-#~ "1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Emulador de "
-#~ "Terminal</guimenuitem></menuchoice></application>) introduza o comando "
-#~ "<userinput>ifconfig</userinput> e pressione <keycap><placeholder-"
-#~ "2/>Enter</keycap>. Se houver um endereço IP exibido, continue para <xref "
-#~ "linkend=\"network-troubleshooting-dns\"/>."
-
-#~ msgid ""
-#~ "More advanced users may wish to use the <application>UFW</application> "
-#~ "firewall, which is installed, but not enabled, in the default Xubuntu "
-#~ "installation. See the <ulink "
-#~ "url=\"https://help.ubuntu.com/community/UFW\">UFW Community Help "
-#~ "Wiki</ulink> on the Ubuntu wiki for more information."
-#~ msgstr ""
-#~ "Os utilizadores mais avançados podem querer utilizar a firewall UFW, que é "
-#~ "instalado, mas não ativada, na instalação padrão do Xubuntu. Veja a <ulink "
-#~ "url=\"https://help.ubuntu.com/community/UFW\">UFW Community Help "
-#~ "Wiki</ulink> na wiki do Ubuntu para mais informações."
-
-#~ msgid ""
-#~ "Navigate to <application>Software Sources</application>, by clicking "
-#~ "<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
-#~ "Settings Manager</guimenuitem><guimenuitem>Software &amp; "
-#~ "Updates</guimenuitem></menuchoice></application>"
-#~ msgstr ""
-#~ "Navegue até <application>Fontes de Software</application>, clicando em "
-#~ "<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
-#~ "Gestor de definições</guimenuitem><guimenuitem>Programas &amp; "
-#~ "Atualizações</guimenuitem></menuchoice></application>"
-
-#~ msgid ""
-#~ "If you would like to install and test the latest development version of "
-#~ "Xubuntu before it is released, run <userinput>pkexec update-manager -c -"
-#~ "d</userinput> at the command line. This will allow you to upgrade to the "
-#~ "current development release."
-#~ msgstr ""
-#~ "Se desejar instalar e testar a versão de desenvolvimento do Xubuntu antes de "
-#~ "ser lançada, execute <userinput>pkexec update-manager -c -d</userinput> na "
-#~ "linha de comandos. Isto irá permitir que atualize para a versão de "
-#~ "desenvolvimento atual."
+#~ "<application>GIMP</application>, um editor de imagens avançado. Pode usá-lo "
+#~ "para editar, melhorar e retocar fotos e digitalizações, criar desenhos, e "
+#~ "fazer as suas próprias imagens. Leia mais no site do <ulink "
+#~ "url=\"http://www.gimp.org/\">GIMP</ulink>."
