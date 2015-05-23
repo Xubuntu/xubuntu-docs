@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-04-03 18:33+0100\n"
-"PO-Revision-Date: 2015-02-19 19:36+0000\n"
-"Last-Translator: Pasi Lallinaho <pasi@shimmerproject.org>\n"
+"PO-Revision-Date: 2015-05-15 08:28+0000\n"
+"Last-Translator: Yanpas <yanpaso@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-04-04 05:51+0000\n"
-"X-Generator: Launchpad (build 17413)\n"
+"X-Launchpad-Export-Date: 2015-05-23 05:29+0000\n"
+"X-Generator: Launchpad (build 17514)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -29,15 +29,15 @@ msgstr ""
 
 #: desktop-guide/C/appendix-packages.xml:12(title)
 msgid "Application table"
-msgstr ""
+msgstr "Таблица применений"
 
 #: desktop-guide/C/appendix-packages.xml:16(segtitle) desktop-guide/C/appendix-packages.xml:35(segtitle)
 msgid "Friendly name"
-msgstr ""
+msgstr "Дружественное имя"
 
 #: desktop-guide/C/appendix-packages.xml:16(segtitle) desktop-guide/C/appendix-packages.xml:35(segtitle) desktop-guide/C/appendix-packages.xml:49(segtitle)
 msgid "Package name"
-msgstr ""
+msgstr "Имена пакетов"
 
 #: desktop-guide/C/appendix-packages.xml:16(segtitle) desktop-guide/C/appendix-packages.xml:35(segtitle) desktop-guide/C/appendix-packages.xml:49(segtitle)
 msgid "Short description"
@@ -51,145 +51,145 @@ msgstr "Abiword"
 msgid "abiword"
 msgstr "abiword"
 
-#: desktop-guide/C/appendix-packages.xml:17(seg)
+#: desktop-guide/C/appendix-packages.xml:22(seg)
 msgid "Word processor"
 msgstr "Текстовый процессор"
 
-#: desktop-guide/C/appendix-packages.xml:18(seg)
+#: desktop-guide/C/appendix-packages.xml:17(seg)
 msgid "Catfish File Search"
-msgstr ""
+msgstr "Инструмент поиска файлов Catfish"
 
-#: desktop-guide/C/appendix-packages.xml:18(seg)
+#: desktop-guide/C/appendix-packages.xml:17(seg)
 msgid "catfish"
 msgstr "catfish"
 
-#: desktop-guide/C/appendix-packages.xml:18(seg)
+#: desktop-guide/C/appendix-packages.xml:17(seg)
 msgid "File searching tool which is configurable via the command line"
-msgstr ""
+msgstr "Инструмент поиска файлов, настраиваемый через командную строку"
 
-#: desktop-guide/C/appendix-packages.xml:19(seg)
+#: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "Document Viewer"
-msgstr ""
+msgstr "Программа для просмотра документов"
 
-#: desktop-guide/C/appendix-packages.xml:19(seg)
+#: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "evince"
-msgstr ""
+msgstr "Приложение просмотра документов evince"
+
+#: desktop-guide/C/appendix-packages.xml:18(seg)
+msgid "Document (PostScript, PDF) viewer"
+msgstr "Просмотрщик документов (PostScript, PDF)"
 
 #: desktop-guide/C/appendix-packages.xml:19(seg)
-msgid "Document (PostScript, PDF) viewer"
-msgstr ""
-
-#: desktop-guide/C/appendix-packages.xml:20(seg)
 msgid "Calculator"
-msgstr ""
+msgstr "Калькулятор"
 
-#: desktop-guide/C/appendix-packages.xml:20(seg)
+#: desktop-guide/C/appendix-packages.xml:19(seg)
 msgid "gnome-calculator"
-msgstr ""
+msgstr "Калькулятор для среды Gnome"
 
-#: desktop-guide/C/appendix-packages.xml:20(seg)
+#: desktop-guide/C/appendix-packages.xml:19(seg)
 msgid "Desktop calculator"
-msgstr ""
+msgstr "Настольный калькулятор"
 
 #: desktop-guide/C/appendix-packages.xml:21(seg)
 msgid "Gnumeric"
-msgstr ""
+msgstr "Приложение для работы с электронными таблицами Gnumeric"
 
 #: desktop-guide/C/appendix-packages.xml:21(seg)
 msgid "gnumeric"
-msgstr ""
+msgstr "Приложение для работы с электронными таблицами gnumeric"
 
 #: desktop-guide/C/appendix-packages.xml:21(seg)
 msgid "Spreadsheet application"
-msgstr ""
+msgstr "Приложение для работы с электронными таблицами"
 
-#: desktop-guide/C/appendix-packages.xml:22(seg)
+#: desktop-guide/C/appendix-packages.xml:20(seg)
 msgid "Character Map"
-msgstr ""
+msgstr "Таблица символов"
 
-#: desktop-guide/C/appendix-packages.xml:22(seg)
+#: desktop-guide/C/appendix-packages.xml:20(seg)
 msgid "gucharmap"
-msgstr ""
+msgstr "таблица символов Юникода gucharmap"
 
-#: desktop-guide/C/appendix-packages.xml:22(seg)
+#: desktop-guide/C/appendix-packages.xml:20(seg)
 msgid "Unicode character picker and font browser"
-msgstr ""
+msgstr "Программа просмотра шрифтов и выбора символов Юникода"
 
 #: desktop-guide/C/appendix-packages.xml:23(seg)
 msgid "Mousepad"
-msgstr ""
+msgstr "Mousepad"
 
 #: desktop-guide/C/appendix-packages.xml:23(seg)
 msgid "mousepad"
-msgstr ""
+msgstr "mousepad"
 
 #: desktop-guide/C/appendix-packages.xml:23(seg)
 msgid "Simple Xfce oriented text editor"
-msgstr ""
+msgstr "Простой текстовый редактор для Xfce"
 
 #: desktop-guide/C/appendix-packages.xml:24(seg) desktop-guide/C/appendix-packages.xml:24(seg)
 msgid "PulseAudio Volume Control"
-msgstr ""
+msgstr "Звуковой микшер PulseAudio Volume Control"
 
 #: desktop-guide/C/appendix-packages.xml:24(seg)
 msgid "pavucontrol"
-msgstr ""
+msgstr "pavucontrol"
 
 #: desktop-guide/C/appendix-packages.xml:25(seg)
 msgid "Simple Scan"
-msgstr ""
+msgstr "Приложение для сканирования Simple Scan"
 
 #: desktop-guide/C/appendix-packages.xml:25(seg)
 msgid "simple-scan"
-msgstr ""
+msgstr "simple-scan"
 
 #: desktop-guide/C/appendix-packages.xml:25(seg)
 msgid "Simple Scanning Utility"
-msgstr ""
+msgstr "Простая утилита сканирования"
 
 #: desktop-guide/C/appendix-packages.xml:26(seg)
 msgid "Application Finder"
-msgstr ""
+msgstr "Средство поиска приложений"
 
 #: desktop-guide/C/appendix-packages.xml:26(seg) desktop-guide/C/appendix-packages.xml:27(seg)
 msgid "xfce4-appfinder"
-msgstr ""
+msgstr "xfce4-appfinder"
 
 #: desktop-guide/C/appendix-packages.xml:26(seg)
 msgid "Find and launch applications installed on your system"
-msgstr ""
+msgstr "Поиск и запуск приложений, установленных в вашей системе"
 
 #: desktop-guide/C/appendix-packages.xml:27(seg)
 msgid "Run Program"
-msgstr ""
+msgstr "Запустить программу"
 
 #: desktop-guide/C/appendix-packages.xml:27(seg)
 msgid "Run a program"
-msgstr ""
+msgstr "Запустить программу"
 
 #: desktop-guide/C/appendix-packages.xml:28(seg)
 msgid "Dictionary"
-msgstr ""
+msgstr "Словарь"
 
 #: desktop-guide/C/appendix-packages.xml:28(seg)
 msgid "xfce4-dict"
-msgstr ""
+msgstr "xfce4-dict"
 
 #: desktop-guide/C/appendix-packages.xml:28(seg)
 msgid "Dictionary plugin for Xfce4 panel"
-msgstr ""
+msgstr "словарь, расширение для панели Xfce4"
 
 #: desktop-guide/C/appendix-packages.xml:29(seg)
 msgid "Task Manager"
-msgstr ""
+msgstr "Диспетчер задач"
 
 #: desktop-guide/C/appendix-packages.xml:29(seg)
 msgid "xfce4-taskmanager"
-msgstr ""
+msgstr "Диспетчер задач Xfce 4"
 
 #: desktop-guide/C/appendix-packages.xml:29(seg)
 msgid "Process manager for the Xfce4 Desktop Environment"
-msgstr ""
+msgstr "Диспетчер процессов для рабочей среды Xfce4"
 
 #: desktop-guide/C/appendix-packages.xml:32(title)
 msgid "Settings Manager"
@@ -197,164 +197,167 @@ msgstr "Диспетчер настроек"
 
 #: desktop-guide/C/appendix-packages.xml:36(seg)
 msgid "Theme Configuration"
-msgstr ""
+msgstr "Настройка тем"
 
 #: desktop-guide/C/appendix-packages.xml:36(seg)
 msgid "gtk-theme-config"
-msgstr ""
+msgstr "настройка тем gtk"
 
 #: desktop-guide/C/appendix-packages.xml:36(seg)
 msgid "Simple interface to change GTK+ themes"
-msgstr ""
+msgstr "Простой интерфейс для изменения тем GTK+"
 
 #: desktop-guide/C/appendix-packages.xml:37(seg)
 msgid "Menu Editor"
-msgstr ""
+msgstr "Редактор Меню"
 
 #: desktop-guide/C/appendix-packages.xml:37(seg)
 msgid "menulibre"
-msgstr ""
+msgstr "menulibre"
 
 #: desktop-guide/C/appendix-packages.xml:37(seg)
 msgid "Menu layout editor"
-msgstr ""
+msgstr "Редактор схемы меню"
 
 #: desktop-guide/C/appendix-packages.xml:38(seg)
 msgid "About Me"
-msgstr ""
+msgstr "Сведения о пользователе"
 
 #: desktop-guide/C/appendix-packages.xml:38(seg)
 msgid "mugshot"
-msgstr ""
+msgstr "mugshot"
 
 #: desktop-guide/C/appendix-packages.xml:38(seg)
 msgid "Lightweight user-configuration application"
-msgstr ""
+msgstr "Легковесное приложение настройки пользователя"
 
 #: desktop-guide/C/appendix-packages.xml:39(seg)
 msgid "Network Connections"
-msgstr ""
+msgstr "Подключение к сети"
 
 #: desktop-guide/C/appendix-packages.xml:39(seg)
 msgid "network-manager-gnome"
-msgstr ""
+msgstr "Сетевой менеджер рабочей среды gnome"
 
 #: desktop-guide/C/appendix-packages.xml:39(seg)
 msgid "Network management framework"
-msgstr ""
+msgstr "Структура сетевых настроек"
 
 #: desktop-guide/C/appendix-packages.xml:40(seg)
 msgid "Additional Drivers"
-msgstr ""
+msgstr "Дополнительные драйвера"
 
 #: desktop-guide/C/appendix-packages.xml:40(seg) desktop-guide/C/appendix-packages.xml:41(seg)
 msgid "software-properties-gtk"
-msgstr ""
+msgstr "software-properties-gtk"
 
 #: desktop-guide/C/appendix-packages.xml:40(seg)
 msgid "Configure third-party and proprietary drivers"
-msgstr ""
+msgstr "Настройка независимых поставщиков и проприетарных драйверов"
 
 #: desktop-guide/C/appendix-packages.xml:41(seg)
 msgid "Software &amp; Updates"
-msgstr ""
+msgstr "Программы и обновления"
 
 #: desktop-guide/C/appendix-packages.xml:41(seg)
 msgid "Configure the sources for installable software and updates"
-msgstr ""
+msgstr "Настроить источники приложений и обновлений"
 
 #: desktop-guide/C/appendix-packages.xml:42(seg)
 msgid "Printers"
-msgstr ""
+msgstr "Принтеры"
 
 #: desktop-guide/C/appendix-packages.xml:42(seg)
 msgid "system-config-printer-gnome"
-msgstr ""
+msgstr "Менеджер настройки принтеров рабочей среды gnome"
 
 #: desktop-guide/C/appendix-packages.xml:42(seg)
 msgid "Printer configuration GUI"
-msgstr ""
+msgstr "Графический интерфейс настройки принтера"
 
 #: desktop-guide/C/appendix-packages.xml:46(title)
 msgid "Behind the scenes"
-msgstr ""
+msgstr "За кадром"
 
 #: desktop-guide/C/appendix-packages.xml:50(seg)
 msgid "gvfs-backends"
-msgstr ""
+msgstr "gvfs-backends"
 
 #: desktop-guide/C/appendix-packages.xml:50(seg)
 msgid ""
 "Allows GVFS to connect to many network protocols (smb://, nfs://, etc)"
 msgstr ""
+"Позволяет GVFS подключаться к многим сетевым протоколам (smb://, nfs://, etc)"
 
 #: desktop-guide/C/appendix-packages.xml:51(seg)
 msgid "gvfs-fuse"
-msgstr ""
+msgstr "gvfs-fuse"
 
 #: desktop-guide/C/appendix-packages.xml:51(seg)
 msgid "Let non-GNOME apps use GVFS via fuse"
-msgstr ""
+msgstr "Запретить не-GNOME приложениям использовать GVFS через fuse"
 
 #: desktop-guide/C/appendix-packages.xml:52(seg)
 msgid "libnotify-bin"
-msgstr ""
+msgstr "libnotify-bin"
 
 #: desktop-guide/C/appendix-packages.xml:52(seg)
 msgid "Binaries to send notification bubbles"
-msgstr ""
+msgstr "Посылать уведомления исполняемыми файлами"
 
 #: desktop-guide/C/appendix-packages.xml:53(seg)
 msgid "light-locker"
-msgstr ""
+msgstr "Блокировщик экрана light-locker"
 
 #: desktop-guide/C/appendix-packages.xml:53(literal)
 msgid "<placeholder-1/>lightdm"
-msgstr ""
+msgstr "<placeholder-1/>lightdm"
 
 #: desktop-guide/C/appendix-packages.xml:53(seg)
 msgid "Simple session-locker for <placeholder-1/>"
-msgstr ""
+msgstr "Простой закрыватель-сессии для <placeholder-1/>"
 
 #: desktop-guide/C/appendix-packages.xml:54(seg)
 msgid "tumbler"
-msgstr ""
+msgstr "tumbler"
 
 #: desktop-guide/C/appendix-packages.xml:54(literal)
 msgid "<placeholder-1/>thunar"
-msgstr ""
+msgstr "<placeholder-1/>thunar"
 
 #: desktop-guide/C/appendix-packages.xml:54(literal)
 msgid "<placeholder-1/>xfdesktop4"
-msgstr ""
+msgstr "<placeholder-1/>xfdesktop4"
 
 #: desktop-guide/C/appendix-packages.xml:54(seg)
 msgid "Xfce thumbnail daemon used by <placeholder-1/> and <placeholder-2/>"
-msgstr ""
+msgstr "Демон эскизов Xfce используется <placeholder-1/> и <placeholder-2/>"
 
 #: desktop-guide/C/appendix-packages.xml:55(seg)
 msgid "xfce4-notifyd"
-msgstr ""
+msgstr "xfce4-notifyd"
 
 #: desktop-guide/C/appendix-packages.xml:55(seg)
 msgid "Daemon used to display notification bubbles"
-msgstr ""
+msgstr "Демон для отображения уведомлений"
 
 #: desktop-guide/C/appendix-packages.xml:56(seg)
 msgid "xfce4-indicator-plugin"
-msgstr ""
+msgstr "xfce4-indicator-plugin"
 
 #: desktop-guide/C/appendix-packages.xml:56(literal)
 msgid "<placeholder-1/>indicator-application"
-msgstr ""
+msgstr "<placeholder-1/>indicator-application"
 
 #: desktop-guide/C/appendix-packages.xml:56(literal)
 msgid "<placeholder-1/>indicator-sound"
-msgstr ""
+msgstr "<placeholder-1/>indicator-sound"
 
 #: desktop-guide/C/appendix-packages.xml:56(seg)
 msgid "Panel plugin for the indicators (<placeholder-1/>, <placeholder-2/>)"
 msgstr ""
+"Плагин панели для отображения индикаторов (<placeholder-1/>, <placeholder-"
+"2/>)"
 
 #: desktop-guide/C/what-is-xubuntu.xml:12(title)
 msgid "What is Xubuntu?"
@@ -414,6 +417,13 @@ msgid ""
 "to the <ulink url=\"http://www.ubuntu.com/project/about-ubuntu/our-"
 "philosophy\">Ubuntu Philosophy</ulink> page."
 msgstr ""
+"\"X\" в Xubuntu означает Xfce, рабочее окружение, используемое в Xubuntu. В "
+"то время как слово \"ubuntu\" указывает на то что \"под капотом\" системы "
+"работает обычная Ubuntu; также Xubutnu унаследовала философию Ubuntu. "
+"Дословный перевод Ubutnu: \"гуманность по отношению к остальным\". Чтобы "
+"подробнее ознакомиться с философией и идеалами Ubuntu и Xubuntu, посетите "
+"<ulink url=\"http://www.ubuntu.com/project/about-ubuntu/our-"
+"philosophy\">Ubuntu Philosophy</ulink>"
 
 #: desktop-guide/C/what-is-xubuntu.xml:33(para)
 msgid ""
@@ -439,6 +449,11 @@ msgid ""
 "released in June, 2006, thus its version number was 6.06. The latest Long "
 "Term Support (LTS) version is 14.04, codenamed Trusty Tahr."
 msgstr ""
+"Нумерация Xubutnu основана на дате выпуска дистрибутива. Первая цифра "
+"означает год выпуска, вторая месяц. Например, первая официальная версия "
+"Xubuntu была выпущена в Июне 2006 года, и, таким образом, получила номер "
+"6.06. Последняя стабильная версия - 14.04, кодовое имя Trusty Tahr (надёжный "
+"тар)"
 
 #: desktop-guide/C/what-is-xubuntu.xml:47(title)
 msgid "Learn more about what makes Xubuntu"
@@ -505,6 +520,7 @@ msgstr ""
 msgid ""
 "@@image: '../libs/images/menu_icon.png'; md5=65599cdf4480dbc3d1bfa2154c0a255d"
 msgstr ""
+"@@image: '../libs/images/menu_icon.png'; md5=65599cdf4480dbc3d1bfa2154c0a255d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -513,6 +529,8 @@ msgid ""
 "@@image: '../libs/images/preferences-desktop.png'; "
 "md5=805e5ff06267de7ea2e15f257bf1a825"
 msgstr ""
+"@@image: '../libs/images/preferences-desktop.png'; "
+"md5=805e5ff06267de7ea2e15f257bf1a825"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -521,10 +539,12 @@ msgid ""
 "@@image: '../libs/images/location_icon.png'; "
 "md5=71b7dc6dffc6d296d54a2fa354f2204f"
 msgstr ""
+"@@image: '../libs/images/location_icon.png'; "
+"md5=71b7dc6dffc6d296d54a2fa354f2204f"
 
 #: desktop-guide/C/settings-preferences.xml:12(title)
 msgid "Settings and Preferences"
-msgstr ""
+msgstr "Опции и настройки"
 
 #: desktop-guide/C/settings-preferences.xml:14(para)
 msgid ""
@@ -534,10 +554,15 @@ msgid ""
 "updated, customize the looks of the desktop and edit the main applications "
 "menu to your liking."
 msgstr ""
+"Настройки кастомизации Xubuntu под свои нужды и потребности, фактически, не "
+"ограничены: начиная от внешнего вида рабочего стола и заканчивая "
+"низкоуровневыми твиками. Разделы этой главы описывают как держать личные "
+"данные в актуальном состоянии, настраивать внешний вид рабочего стола и "
+"редактировать меню основных приложений."
 
 #: desktop-guide/C/settings-preferences.xml:17(title)
 msgid "Customizing the Menu"
-msgstr ""
+msgstr "Настройка меню"
 
 #: desktop-guide/C/settings-preferences.xml:19(para)
 msgid ""
@@ -551,6 +576,14 @@ msgid ""
 "the list. You can also rearrange <guilabel>Favorites</guilabel> just by "
 "dragging them."
 msgstr ""
+"Самое простое и часто используемое улучшение для меню - это ваше "
+"<guilabel>Избранное</guilabel>. Добавить что-то в избранное не составляет "
+"труда, достаточно нажать правой кнопкой мыши и выбрать <guilabel>Добавить в "
+"Избранное</guilabel>. Из этого же контекстного меню вы также можете добавить "
+"ярлык приложения на Рабочий Стол или Панель. Правый клик по приложению из "
+"секции <guilabel>Избранное</guilabel> предоставит вам возможность убрать его "
+"из избранного. Вы также можете изменить расположение элементов простым "
+"перетаскиванием, удерживая левую кнопку мыши."
 
 #: desktop-guide/C/settings-preferences.xml:21(para)
 msgid ""
@@ -561,6 +594,15 @@ msgid ""
 "application listed in the results, you can directly launch it or right-click "
 "on it and add it to your preferred launch location."
 msgstr ""
+"Если вы не знаете как называется ваша программа или где она находится - "
+"воспользуйтесь функцией поиска. Когда вы открываете меню, курсор уже "
+"находится в строке поиска. Просто наберите на клавиатуре и инкрементный "
+"поиск  будет искать как в названиях приложений так и в их описаниях. После "
+"того как вы увидите нужный элемент - просто нажмите на него левой кнопкой "
+"мыши. Нажатие правой кнопкой мыши предоставит возможность закрепить его в "
+"удобном для вас месте. Если вы нажмете Enter - то будет запущен первый "
+"результат в поисковой выдаче. Между ними можно перемещаться, используя "
+"клавиши Вверх и Вниз."
 
 #: desktop-guide/C/settings-preferences.xml:23(para)
 msgid ""
@@ -569,6 +611,10 @@ msgid ""
 "change <guilabel>Appearance</guilabel>, <guilabel>Behavior</guilabel> and "
 "<guilabel>Search Actions</guilabel>."
 msgstr ""
+"Для более подробной настройки меню нажмите правой кнопкой мыши на "
+"<placeholder-1/> и выберите <guilabel>Свойства</guilabel>. Там будет три "
+"вкладки с настройками <guilabel>Внешнего вида</guilabel>, "
+"<guilabel>Поведения</guilabel> и <guilabel>Поиска</guilabel>."
 
 #: desktop-guide/C/settings-preferences.xml:26(para)
 msgid ""
@@ -589,7 +635,7 @@ msgstr ""
 
 #: desktop-guide/C/settings-preferences.xml:31(title)
 msgid "Customizing your personal info"
-msgstr ""
+msgstr "Редактирование личной информации"
 
 #: desktop-guide/C/settings-preferences.xml:33(para)
 msgid ""
@@ -627,6 +673,10 @@ msgid ""
 "<application>Pidgin</application> and/or LibreOffice installed, you will be "
 "prompted to update their settings as well."
 msgstr ""
+"Заполните текстовые поля с необходимой персональной информацией и нажмите "
+"<guibutton> Применить </ guibutton>. При применении этих деталей с "
+"<Application> Pidgin </ Application> и / или установлен LibreOffice, вам "
+"будет предложено обновить свои настройки."
 
 #: desktop-guide/C/settings-preferences.xml:43(para)
 msgid ""
@@ -636,12 +686,19 @@ msgid ""
 "your password as a security measure to prevent unwanted updates to your "
 "personal information."
 msgstr ""
+"Если персональные данные, введенные в <guilabel> Имя </ guilabel> и "
+"<guilabel> Фамилия </ guilabel> Текст поля отличаются от существующих "
+"значений, проведенных в <UserInput> / и т.д. / пароль </ UserInput>, вам "
+"\"будет предложено ввести свой пароль в качестве меры безопасности, чтобы "
+"предотвратить нежелательные измения вашей личной информации."
 
 #: desktop-guide/C/settings-preferences.xml:45(para)
 msgid ""
 "Read more at the <ulink url=\"http://smdavis.us/doku/doku.php?id=mugshot-"
 "docs\">Mugshot</ulink> official documentation."
 msgstr ""
+"Подробнее на <ULINK URL = \"http://smdavis.us/doku/doku.php?id=mugshot-"
+"docs\"> Mugshot </ ULINK> Официальная документация."
 
 #: desktop-guide/C/settings-preferences.xml:49(title)
 msgid "Customizing the appearance"
@@ -758,7 +815,7 @@ msgstr ""
 
 #: desktop-guide/C/settings-preferences.xml:90(para)
 msgid "Right-click on an empty area of the panel"
-msgstr ""
+msgstr "Щелкните правой кнопкой мыши в пустой области панели"
 
 #: desktop-guide/C/settings-preferences.xml:91(para)
 msgid ""
@@ -3521,11 +3578,11 @@ msgstr "В создании этой документации принимали
 msgid "Sean Davis (smd-seandavis)"
 msgstr "Sean Davis (smd-seandavis)"
 
-#: desktop-guide/C/index.xml:23(para)
+#: desktop-guide/C/index.xml:31(para)
 msgid "Steve Dodier-Lazaro (sidi)"
 msgstr ""
 
-#: desktop-guide/C/index.xml:24(para)
+#: desktop-guide/C/index.xml:26(para)
 msgid "Kev (elfy)"
 msgstr "Kev (elfy)"
 
@@ -3533,11 +3590,11 @@ msgstr "Kev (elfy)"
 msgid "Jack Fromm (jjfrv8-gmail)"
 msgstr "Jack Fromm (jjfrv8-gmail)"
 
-#: desktop-guide/C/index.xml:26(para)
+#: desktop-guide/C/index.xml:30(para)
 msgid "Stephen Michael Kellat (skellat)"
 msgstr "Stephen Michael Kellat (skellat)"
 
-#: desktop-guide/C/index.xml:27(para)
+#: desktop-guide/C/index.xml:23(para)
 msgid "Elizabeth Krumbach (lyz)"
 msgstr "Elizabeth Krumbach (lyz)"
 
@@ -3545,7 +3602,7 @@ msgstr "Elizabeth Krumbach (lyz)"
 msgid "Pasi Lallinaho (knome)"
 msgstr "Pasi Lallinaho (knome)"
 
-#: desktop-guide/C/index.xml:29(para)
+#: desktop-guide/C/index.xml:22(para)
 msgid "David Pires (slickymaster)"
 msgstr ""
 
@@ -3553,39 +3610,39 @@ msgstr ""
 msgid "Unit 193 (Unit193)"
 msgstr ""
 
-#: desktop-guide/C/index.xml:31(para)
+#: desktop-guide/C/index.xml:25(para)
 msgid "Jay van Cooten (skippersboss)"
 msgstr "Jay van Cooten (skippersboss)"
 
-#: desktop-guide/C/index.xml:34(para)
+#: desktop-guide/C/index.xml:35(para)
 msgid "The contributors to this translation of the documentation are:"
 msgstr ""
 
-#: desktop-guide/C/index.xml:37(para)
+#: desktop-guide/C/index.xml:38(para)
 msgid "The contributors to previous versions to this documentation are:"
 msgstr "В создании предыдущей версии этой документации участвовали:"
 
-#: desktop-guide/C/index.xml:39(para)
+#: desktop-guide/C/index.xml:43(para)
 msgid "Jim Campbell (jwcampbell)"
 msgstr "Jim Campbell (jwcampbell)"
 
-#: desktop-guide/C/index.xml:40(para)
+#: desktop-guide/C/index.xml:41(para)
 msgid "Freddy Martinez (freddymartinez9)"
 msgstr "Freddy Martinez (freddymartinez9)"
 
-#: desktop-guide/C/index.xml:41(para)
+#: desktop-guide/C/index.xml:42(para)
 msgid "Jan M. (fijam7)"
 msgstr "Jan M. (fijam7)"
 
-#: desktop-guide/C/index.xml:42(para)
+#: desktop-guide/C/index.xml:40(para)
 msgid "Cody A.W. Somerville (cody-somerville)"
 msgstr "Cody A.W. Somerville (cody-somerville)"
 
-#: desktop-guide/C/index.xml:43(para)
+#: desktop-guide/C/index.xml:44(para)
 msgid "Luzius Thöny (lucius-antonius)"
 msgstr "Luzius Thöny (lucius-antonius)"
 
-#: desktop-guide/C/index.xml:46(para)
+#: desktop-guide/C/index.xml:47(para)
 msgid ""
 "This document is made available under the Creative Commons ShareAlike 2.5 "
 "License (CC-BY-SA)."
@@ -3593,7 +3650,7 @@ msgstr ""
 "Этот документ доступен под лицензией Creative Commons ShareAlike 2.5 (CC-BY-"
 "SA)."
 
-#: desktop-guide/C/index.xml:47(para)
+#: desktop-guide/C/index.xml:48(para)
 msgid ""
 "You are free to modify, extend, and improve the Ubuntu documentation source "
 "code under the terms of this license. All derivative works must be released "
@@ -3603,7 +3660,7 @@ msgstr ""
 "условия этой лицензии. Все производные работы должны распространяться под "
 "той же лицензией."
 
-#: desktop-guide/C/index.xml:49(para)
+#: desktop-guide/C/index.xml:50(para)
 msgid ""
 "This documentation is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
@@ -3614,7 +3671,7 @@ msgstr ""
 "ЦЕННОСТИ или ПРИГОДНОСТИ ДЛЯ ОПРЕДЕЛЁННОЙ ЦЕЛИ, КАК ИЗЛОЖЕНО В ОТКАЗЕ ОТ "
 "ПРАВА."
 
-#: desktop-guide/C/index.xml:52(para)
+#: desktop-guide/C/index.xml:53(para)
 msgid ""
 "A copy of the license is available here: <link linkend=\"cc-by-sa\">Creative "
 "Commons ShareAlike License</link>."
@@ -3622,7 +3679,7 @@ msgstr ""
 "Копия лицензии доступна здесь: <link linkend=\"cc-by-sa\">Лицензия Creative "
 "Commons ShareAlike</link>."
 
-#: desktop-guide/C/index.xml:53(para)
+#: desktop-guide/C/index.xml:54(para)
 msgid ""
 "All trademarks or registered trademarks are the property of the respective "
 "owners."
@@ -3630,45 +3687,45 @@ msgstr ""
 "Все торговые марки и зарегистрированные торговые марки являются "
 "собственностью соответствующих владельцев."
 
-#: desktop-guide/C/index.xml:57(year)
+#: desktop-guide/C/index.xml:58(year)
 msgid "2012"
 msgstr "2012"
 
-#: desktop-guide/C/index.xml:58(year)
+#: desktop-guide/C/index.xml:59(year)
 msgid "2013"
 msgstr "2013"
 
-#: desktop-guide/C/index.xml:59(year)
+#: desktop-guide/C/index.xml:60(year)
 msgid "2014"
 msgstr ""
 
-#: desktop-guide/C/index.xml:60(year)
+#: desktop-guide/C/index.xml:61(year)
 msgid "2015"
 msgstr ""
 
-#: desktop-guide/C/index.xml:61(holder)
+#: desktop-guide/C/index.xml:62(holder)
 msgid "Canonical Ltd. and members of the Xubuntu Documentation team."
 msgstr "Canonical Ltd. и участники команды документирования Xubuntu."
 
-#: desktop-guide/C/index.xml:65(publishername)
+#: desktop-guide/C/index.xml:66(publishername)
 msgid "The Ubuntu Documentation Project"
 msgstr "Проект документирования Ubuntu"
 
-#: desktop-guide/C/index.xml:68(title)
+#: desktop-guide/C/index.xml:69(title)
 msgid "Welcome!"
 msgstr "Добро пожаловать!"
 
-#: desktop-guide/C/index.xml:70(para)
+#: desktop-guide/C/index.xml:71(para)
 msgid ""
 "This documentation provides information to the most common issues with "
 "Xubuntu, including:"
 msgstr ""
 
-#: desktop-guide/C/index.xml:75(para)
+#: desktop-guide/C/index.xml:76(para)
 msgid "In addition, this documentation has three quick guides:"
 msgstr "В дополнение, эта документация содержит три кратких руководства:"
 
-#: desktop-guide/C/index.xml:81(para)
+#: desktop-guide/C/index.xml:82(para)
 msgid ""
 "The complete set of topics is listed below. If you require help with a topic "
 "or problem that is not addressed by the documentation, go to the <ulink "
@@ -3676,7 +3733,7 @@ msgid ""
 "Xubuntu website. There you will find links to additional help resources."
 msgstr ""
 
-#: desktop-guide/C/index.xml:83(para)
+#: desktop-guide/C/index.xml:84(para)
 msgid ""
 "If you would like to contribute to Xubuntu, including this documentation, "
 "see the <ulink url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> "
@@ -5453,7 +5510,7 @@ msgid ""
 "url=\"http://www.gimp.org/\">GIMP</ulink> website."
 msgstr ""
 
-#: desktop-guide/C/guide-default-apps.xml:19(para)
+#: desktop-guide/C/guide-default-apps.xml:17(para)
 msgid ""
 "<application>Ristretto</application> is an image viewer designed to be very "
 "light on resources. More information can be found in the <ulink "
@@ -5461,7 +5518,7 @@ msgid ""
 "documentation</ulink>."
 msgstr ""
 
-#: desktop-guide/C/guide-default-apps.xml:21(para)
+#: desktop-guide/C/guide-default-apps.xml:19(para)
 msgid ""
 "<application>Simple Scan</application> is an easy-to-use scan utility "
 "designed to do simple tasks like scanning to email or directly to PDF. Read "
@@ -5473,11 +5530,11 @@ msgstr ""
 "вложения или непосредственно в PDF. Подробности читайте на <ulink "
 "url=\"https://launchpad.net/simple-scan\">веб-сайте Simple Scan</ulink>."
 
-#: desktop-guide/C/guide-default-apps.xml:25(title)
+#: desktop-guide/C/guide-default-apps.xml:23(title)
 msgid "Internet"
 msgstr "Интернет"
 
-#: desktop-guide/C/guide-default-apps.xml:27(para)
+#: desktop-guide/C/guide-default-apps.xml:25(para)
 msgid ""
 "<application>Firefox</application> is a mature and stable web browser which "
 "can be extended with a wide variety of available add-ins. Read more on "
@@ -5485,7 +5542,7 @@ msgid ""
 "help</ulink>."
 msgstr ""
 
-#: desktop-guide/C/guide-default-apps.xml:29(para)
+#: desktop-guide/C/guide-default-apps.xml:27(para)
 msgid ""
 "<application>Thunderbird</application> is a versatile mail client which can "
 "handle multiple email accounts and different identities simultaneously. Like "
@@ -5499,7 +5556,7 @@ msgid ""
 "Support page</ulink>."
 msgstr ""
 
-#: desktop-guide/C/guide-default-apps.xml:31(para)
+#: desktop-guide/C/guide-default-apps.xml:29(para)
 msgid ""
 "<application>Pidgin</application> is the default instant messaging client "
 "capable of handling MSN, XMPP (Google Talk, Facebook) and more. Read more "
@@ -5507,11 +5564,11 @@ msgid ""
 "Pidgin</ulink> at the Pidgin online help."
 msgstr ""
 
-#: desktop-guide/C/guide-default-apps.xml:35(title)
+#: desktop-guide/C/guide-default-apps.xml:33(title)
 msgid "Media"
 msgstr "Мультимедиа"
 
-#: desktop-guide/C/guide-default-apps.xml:37(para)
+#: desktop-guide/C/guide-default-apps.xml:35(para)
 msgid ""
 "<application>gmusicbrowser</application> has been provided as your basic "
 "audio player. Read more at <xref linkend=\"media-music-listen\"/> and on the "
@@ -5524,7 +5581,7 @@ msgstr ""
 "url=\"http://gmusicbrowser.org/guide.html\">руководстве пользователя "
 "gmusicbrowser</ulink>."
 
-#: desktop-guide/C/guide-default-apps.xml:39(para)
+#: desktop-guide/C/guide-default-apps.xml:37(para)
 msgid ""
 "<application>Parole</application> is a simple media player that can play "
 "video and audio files. More information can be found in the <ulink "
@@ -5532,7 +5589,7 @@ msgid ""
 "documentation</ulink>."
 msgstr ""
 
-#: desktop-guide/C/guide-default-apps.xml:41(para)
+#: desktop-guide/C/guide-default-apps.xml:39(para)
 msgid ""
 "It will be necessary to install <literal><placeholder-1/>xubuntu-restricted-"
 "extras</literal> in order to play proprietary media formats like e.g. MP3."
@@ -5541,7 +5598,7 @@ msgstr ""
 "установить пакет <literal><placeholder-1/>xubuntu-restricted-"
 "extras</literal>."
 
-#: desktop-guide/C/guide-default-apps.xml:43(para)
+#: desktop-guide/C/guide-default-apps.xml:41(para)
 msgid ""
 "<application>PulseAudio Volume Control</application> is the way to control "
 "the different sound sources to their destination. Read more at the <ulink "
@@ -5553,20 +5610,20 @@ msgstr ""
 "url=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">веб-сайте "
 "PulseAudio</ulink>."
 
-#: desktop-guide/C/guide-default-apps.xml:45(para)
+#: desktop-guide/C/guide-default-apps.xml:43(para)
 msgid ""
 "<application>Xfburn</application> is the chosen program for creating your "
 "CDs and DVDs."
 msgstr "<application>Xfburn</application> — программа для записи CD и DVD."
 
-#: desktop-guide/C/guide-default-apps.xml:47(para)
+#: desktop-guide/C/guide-default-apps.xml:45(para)
 msgid ""
 "To read more about media in Xubuntu, refer to <xref linkend=\"media-apps\"/>."
 msgstr ""
 "Чтобы узнать больше о мультимедиа в Xubuntu, обратитесь к разделу <xref "
 "linkend=\"media-apps\"/>."
 
-#: desktop-guide/C/guide-default-apps.xml:51(title)
+#: desktop-guide/C/guide-default-apps.xml:49(title)
 msgid "Office"
 msgstr "Офис"
 
@@ -5600,7 +5657,7 @@ msgid ""
 "available from repositories."
 msgstr ""
 
-#: desktop-guide/C/guide-default-apps.xml:59(para)
+#: desktop-guide/C/guide-default-apps.xml:55(para)
 msgid ""
 "<application>Dictionary</application> provides an easy way to access a "
 "number of different dictionaries across the internet. Read more at the "
@@ -5608,11 +5665,11 @@ msgid ""
 "dict\">Xfce4 Dictionary online help</ulink>."
 msgstr ""
 
-#: desktop-guide/C/guide-default-apps.xml:61(para)
+#: desktop-guide/C/guide-default-apps.xml:57(para)
 msgid "<application>Document Viewer</application> is a PDF reader."
 msgstr ""
 
-#: desktop-guide/C/guide-default-apps.xml:63(para)
+#: desktop-guide/C/guide-default-apps.xml:59(para)
 msgid ""
 "<application>Orage</application> has been designed to be a simple but "
 "effective calendar application to keep track of your appointments and "
@@ -5624,11 +5681,11 @@ msgstr ""
 "информация доступна на <ulink "
 "url=\"http://www.kolumbus.fi/~w408237/orage/\">веб-сайте Orage</ulink>."
 
-#: desktop-guide/C/guide-default-apps.xml:67(title)
+#: desktop-guide/C/guide-default-apps.xml:63(title)
 msgid "System"
 msgstr "Система"
 
-#: desktop-guide/C/guide-default-apps.xml:69(para)
+#: desktop-guide/C/guide-default-apps.xml:65(para)
 msgid ""
 "<application>Gigolo</application> is an easy way to connect to local and "
 "remote file systems. Read more at the <ulink "
@@ -5638,7 +5695,7 @@ msgstr ""
 "и удалённым файловым системам. Узнайте больше на <ulink "
 "url=\"http://www.uvena.de/gigolo/\">веб-сайте Gigolo</ulink>."
 
-#: desktop-guide/C/guide-default-apps.xml:71(para)
+#: desktop-guide/C/guide-default-apps.xml:67(para)
 msgid ""
 "<application>Task Manager</application> provides a graphical overview of "
 "running applications. More information can be found in the <ulink "
@@ -6242,6 +6299,7 @@ msgstr ""
 "Launchpad Contributions:\n"
 "  Aleksey Kabanov https://launchpad.net/~ak099\n"
 "  Alex https://launchpad.net/~misterzixy\n"
+"  Dmitry Kireev https://launchpad.net/~dinimito2\n"
 "  Ilya https://launchpad.net/~iavaliahmetov\n"
 "  Pasi Lallinaho https://launchpad.net/~knome\n"
 "  Yanpas https://launchpad.net/~yanpaso\n"
@@ -6305,15 +6363,6 @@ msgstr ""
 
 #~ msgid "Use common sense when working in the web"
 #~ msgstr "Используйте свой здравый смысл при работе в Интернете"
-
-#~ msgid ""
-#~ "A new version of Xubuntu is released every 6 months; the "
-#~ "<application>Software Updater</application> should inform you when a new "
-#~ "version is available for download. To check for a new version:"
-#~ msgstr ""
-#~ "A new version of Xubuntu is released every 6 months; the "
-#~ "<application>Software Updater</application> should inform you when a new "
-#~ "version is available for download. To check for a new version:"
 
 #~ msgid ""
 #~ "To check if your computer is connected to the Internet, open a terminal "
@@ -6573,3 +6622,21 @@ msgstr ""
 #~ "Для сетей SAMBA (общих папок Windows) необходимо установить пакет "
 #~ "<literal><placeholder-1/>gvfs-backends</literal> для возможности подключения "
 #~ "из <application>файлового менеджера Thunar</application>."
+
+#~ msgid ""
+#~ "A new version of Xubuntu is released every 6 months; the "
+#~ "<application>Software Updater</application> should inform you when a new "
+#~ "version is available for download. To check for a new version:"
+#~ msgstr ""
+#~ "Новая версия Xubuntu выходит каждые 6 месяцев; <application>Обновление "
+#~ "приложений</application> должно информировать вас, когда новая версия "
+#~ "становится доступной для скачивания. Для проверки новой версии:"
+
+#~ msgid ""
+#~ "To upgrade to the latest release, save all of your open documents and press "
+#~ "the <guibutton>Upgrade</guibutton> button in <application>Software "
+#~ "Updater</application>"
+#~ msgstr ""
+#~ "Для обновления до последней версии сохраните все открытые документы и "
+#~ "нажмите кнопку <guibutton>Обновить</guibutton> в <application>Обновлении "
+#~ "приложений</application>"
