@@ -1,8 +1,9 @@
 # Makefile for the Xubuntu Documentation
 # Xubuntu Project <xubuntu-devel@lists.ubuntu.com>
 
-# Xubuntu Docbook Customization Layer
-XUBUNTUXSL = libs/xubuntu-docbook-conf.xsl
+# Xubuntu Docbook Customization Layers
+XUBUNTUXSL_HTML = libs/xubuntu-docbook-xhtml.xsl
+# XUBUNTUXSL_PDF = libs/xubuntu-docbook-pdf.xsl
 
 # All available translations
 TRANSALL = $(shell basename -s .po -a po/*.po)
@@ -11,7 +12,7 @@ all: clean html translate
 
 html: style
 	printf "<itemizedlist>\n\t<listitem><para>Attributed on each translation's page.</para></listitem>\n</itemizedlist>\n" > C/translators.xml
-	xsltproc --xinclude -o ../build/C/index.html $(XUBUNTUXSL) C/index.xml
+	xsltproc --xinclude -o ../build/C/index.html $(XUBUNTUXSL_HTML) C/index.xml
 	sed -i 's@\(<p>The contributors to\) this translation of the \(documentation are:</p>\)@\1 the various translations of this \2@' ../build/C/credits-license.html
 
 epub: epubstyle
@@ -45,7 +46,7 @@ translate: get-translations
 	../scripts/translate.sh $(TRANSOPTS)
 	../scripts/translators.sh $(TRANSOPTS)
 	for dir in $(TRANSLATIONS); do \
-		xsltproc --xinclude -o ../build/$$dir/index.html $(XUBUNTUXSL) $$dir/index.xml; \
+		xsltproc --xinclude -o ../build/$$dir/index.html $(XUBUNTUXSL_HTML) $$dir/index.xml; \
 	done
 
 test: get-translations
