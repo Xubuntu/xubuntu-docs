@@ -52,6 +52,9 @@ html:
 epub:
 	$(MAKE) -C desktop-guide epub
 
+pdf:
+	$(MAKE) -C desktop-guide pdf
+
 translate: get-translations
 	$(MAKE) -C desktop-guide translate
 
