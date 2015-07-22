@@ -6,7 +6,9 @@
 	<!-- Imports -->
 	<xsl:import href="/usr/share/xml/docbook/stylesheet/nwalsh/fo/docbook.xsl"/>
 
+	<!-- Enabling this means we can have a PDF chapter index -->
 	<xsl:param name="fop1.extensions" select="1"/>
+
 	<xsl:param name="menuchoice.menu.separator" select="' » '"/>
 	<xsl:param name="hyphenate" select="'false'"/>
 

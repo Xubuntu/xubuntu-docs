@@ -23,12 +23,11 @@ epub: epubstyle
 	zip -0Xq xubuntu-docs.epub mimetype; \
 	zip -Xr9Dq xubuntu-docs.epub *
 
-# please review
 pdf:
 	mkdir -p ../build/C
 	printf "<itemizedlist>\n\t<listitem><para>Attributed on each translation's page.</para></listitem>\n</itemizedlist>\n" > C/translators.xml
 	xsltproc --xinclude -o fo/C.fo $(XUBUNTUXSL_PDF) C/index.xml
-	fop -v fo/C.fo -pdf ../build/C/xubuntu-documentation.pdf
+	fop fo/C.fo -pdf ../build/C/xubuntu-documentation.pdf
 
 style:
 	mkdir -p ../build/libs
@@ -56,14 +55,13 @@ translate: get-translations
 		xsltproc --xinclude -o ../build/$$dir/index.html $(XUBUNTUXSL_HTML) $$dir/index.xml; \
 	done
 
-# please review
 translate-pdf: get-translations
 	../scripts/translate.sh $(TRANSOPTS)
 	../scripts/translators.sh $(TRANSOPTS)
 	for dir in $(TRANSLATIONS); do \
 		xsltproc --xinclude -o fo/$$dir.fo $(XUBUNTUXSL_PDF) $$dir/index.xml; \
 		mkdir -p ../build/$$dir; \
-		fop -v fo/$$dir.fo -pdf ../build/$$dir/xubuntu-documentation.pdf; \
+		fop fo/$$dir.fo -pdf ../build/$$dir/xubuntu-documentation.pdf; \
 	done
 
 test: get-translations
