@@ -26,8 +26,9 @@ epub: epubstyle
 pdf:
 	mkdir -p ../build/C
 	printf "<itemizedlist>\n\t<listitem><para>Attributed on each translation's page.</para></listitem>\n</itemizedlist>\n" > C/translators.xml
+	sed -i 's@\(>The contributors to\) this translation of the \(documentation are:</\)@\1 the various translations of this \2@' fo/C.fo
 	for paper in A4 USletter; do \
-		xsltproc --xinclude -o fo/C-$$paper.fo $(XUBUNTUXSL_PDF) C/index.xml; \
+		xsltproc --stringparam paper.type "$$paper" --xinclude -o fo/C-$$paper.fo $(XUBUNTUXSL_PDF) C/index.xml; \
 		fop -c libs/xubuntu-docbook-pdf.xml fo/C-$$paper.fo -pdf ../build/C/xubuntu-documentation-$$paper.pdf; \
 	done
 
@@ -71,7 +72,7 @@ translate-pdf: get-translations
 	for dir in $(TRANSLATIONS); do \
 		mkdir -p ../build/$$dir; \
 		for paper in A4 USletter; do \
-			xsltproc --xinclude -o fo/$$dir-$$paper.fo $(XUBUNTUXSL_PDF) $$dir/index.xml; \
+			xsltproc --stringparam paper.type "$$paper" --xinclude -o fo/$$dir-$$paper.fo $(XUBUNTUXSL_PDF) $$dir/index.xml; \
 			fop -c libs/xubuntu-docbook-pdf.xml fo/$$dir-$$paper.fo -pdf ../build/$$dir/xubuntu-documentation-$$paper.pdf; \
 		done \
 	done

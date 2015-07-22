@@ -58,6 +58,9 @@ pdf:
 translate: get-translations
 	$(MAKE) -C desktop-guide translate
 
+translate-pdf: get-translations
+	$(MAKE) -C desktop-guide translate
+
 test: get-translations
 	$(MAKE) -C desktop-guide test
 
