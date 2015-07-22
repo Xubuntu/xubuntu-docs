@@ -8,7 +8,12 @@ xubuntu-docs (15.10.0) UNRELEASED; urgency=medium
   * Remove Gimp entity from the entities file and create entities for Calc
     and Writer
 
- -- David Pires <slickymaster@ubuntu.com>  Mon, 04 May 2015 23:07:29 +0100
+  [ Pasi Lallinaho ]
+  * PDF exporting
+    - Prepare Makefile targets and automatization for exports
+    - Add a print-specific customization layer
+
+ -- Pasi Lallinaho <pasi@shimmerproject.org>  Wed, 22 Jul 2015 21:45:07 +0300
 
 xubuntu-docs (15.04.2) vivid; urgency=medium
 
