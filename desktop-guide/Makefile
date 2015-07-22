@@ -29,6 +29,12 @@ pdf:
 	xsltproc --xinclude -o fo/C.fo $(XUBUNTUXSL_PDF) C/index.xml
 	fop fo/C.fo -pdf ../build/C/xubuntu-documentation.pdf
 
+pdf-test:
+	mkdir -p ../build/C
+	printf "<itemizedlist>\n\t<listitem><para>Attributed on each translation's page.</para></listitem>\n</itemizedlist>\n" > C/translators.xml
+	xsltproc --stringparam monospace.font-family "Droid Sans" --stringparam title.font.family "Droid Sans" --stringparam body.font.family "Droid Sans" --xinclude -o fo/C.fo $(XUBUNTUXSL_PDF) C/index.xml
+	fop -c libs/xubuntu-docbook-pdf.xml fo/C.fo -pdf ../build/C/xubuntu-documentation.pdf
+
 style:
 	mkdir -p ../build/libs
 	cp -r   libs/*.css \
