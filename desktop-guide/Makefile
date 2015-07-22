@@ -26,14 +26,18 @@ epub: epubstyle
 pdf:
 	mkdir -p ../build/C
 	printf "<itemizedlist>\n\t<listitem><para>Attributed on each translation's page.</para></listitem>\n</itemizedlist>\n" > C/translators.xml
-	xsltproc --xinclude -o fo/C.fo $(XUBUNTUXSL_PDF) C/index.xml
-	fop fo/C.fo -pdf ../build/C/xubuntu-documentation.pdf
+	for paper in A4 USletter; do \
+		xsltproc --xinclude -o fo/C-$$paper.fo $(XUBUNTUXSL_PDF) C/index.xml; \
+		fop -c libs/xubuntu-docbook-pdf.xml fo/C-$$paper.fo -pdf ../build/C/xubuntu-documentation-$$paper.pdf; \
+	done
 
 pdf-test:
 	mkdir -p ../build/C
 	printf "<itemizedlist>\n\t<listitem><para>Attributed on each translation's page.</para></listitem>\n</itemizedlist>\n" > C/translators.xml
-	xsltproc --stringparam monospace.font-family "Droid Sans" --stringparam title.font.family "Droid Sans" --stringparam body.font.family "Droid Sans" --xinclude -o fo/C.fo $(XUBUNTUXSL_PDF) C/index.xml
-	fop -c libs/xubuntu-docbook-pdf.xml fo/C.fo -pdf ../build/C/xubuntu-documentation.pdf
+	for paper in A4 USletter; do \
+		xsltproc --stringparam paper.type "$$paper" --stringparam monospace.font-family "Droid Sans" --stringparam title.font.family "Droid Sans" --stringparam body.font.family "Droid Sans" --xinclude -o fo/C-$$paper.fo $(XUBUNTUXSL_PDF) C/index.xml; \
+		fop -c libs/xubuntu-docbook-pdf.xml fo/C-$$paper.fo -pdf ../build/C/xubuntu-documentation-$$paper.pdf; \
+	done
 
 style:
 	mkdir -p ../build/libs
@@ -65,9 +69,11 @@ translate-pdf: get-translations
 	../scripts/translate.sh $(TRANSOPTS)
 	../scripts/translators.sh $(TRANSOPTS)
 	for dir in $(TRANSLATIONS); do \
-		xsltproc --xinclude -o fo/$$dir.fo $(XUBUNTUXSL_PDF) $$dir/index.xml; \
 		mkdir -p ../build/$$dir; \
-		fop fo/$$dir.fo -pdf ../build/$$dir/xubuntu-documentation.pdf; \
+		for paper in A4 USletter; do \
+			xsltproc --xinclude -o fo/$$dir-$$paper.fo $(XUBUNTUXSL_PDF) $$dir/index.xml; \
+			fop -c libs/xubuntu-docbook-pdf.xml fo/$$dir-$$paper.fo -pdf ../build/$$dir/xubuntu-documentation-$$paper.pdf; \
+		done \
 	done
 
 test: get-translations
