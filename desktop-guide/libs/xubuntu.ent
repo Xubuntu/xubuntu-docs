@@ -62,11 +62,11 @@
 <!ENTITY xfdesktop-help 'http://docs.xfce.org/xfce/xfdesktop/4.11/start' >
 
 <!-- INLINE ICONS -->
-<!ENTITY package '<inlinemediaobject role="icon-pkg"><imageobject><imagedata role="icon" fileref="../libs/images/package_icon.png" /></imageobject></inlinemediaobject>' >
-<!ENTITY key '<inlinemediaobject role="icon-key"><imageobject><imagedata role="icon" fileref="../libs/images/key_icon.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY package '<inlinemediaobject role="icon-pkg"><imageobject><imagedata role="icon-pad" fileref="../libs/images/package_icon.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY key '<inlinemediaobject role="icon-key"><imageobject><imagedata role="icon-pad" fileref="../libs/images/key_icon.png" /></imageobject></inlinemediaobject>' >
 
 <!-- LOCATIONS -->
-<!ENTITY location '<inlinemediaobject role="icon-location"><imageobject><imagedata role="icon" fileref="../libs/images/location_icon.png"/></imageobject></inlinemediaobject>' >
+<!ENTITY location '<inlinemediaobject role="icon-location"><imageobject><imagedata role="icon-pad" fileref="../libs/images/location_icon.png"/></imageobject></inlinemediaobject>' >
 <!-- Items -->
 <!ENTITY location_home '<filename>&location; /home/username/</filename>' >
 <!ENTITY location_backdrops '<filename>&location; /usr/share/xfce4/backdrops/</filename>' >

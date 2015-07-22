@@ -59,7 +59,7 @@ translate: get-translations
 	$(MAKE) -C desktop-guide translate
 
 translate-pdf: get-translations
-	$(MAKE) -C desktop-guide translate
+	$(MAKE) -C desktop-guide translate-pdf
 
 test: get-translations
 	$(MAKE) -C desktop-guide test

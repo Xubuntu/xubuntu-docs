@@ -24,21 +24,13 @@ epub: epubstyle
 	zip -Xr9Dq xubuntu-docs.epub *
 
 pdf:
-	mkdir -p ../build/C
 	printf "<itemizedlist>\n\t<listitem><para>Attributed on each translation's page.</para></listitem>\n</itemizedlist>\n" > C/translators.xml
-	sed -i 's@\(>The contributors to\) this translation of the \(documentation are:</\)@\1 the various translations of this \2@' fo/C.fo
-	for paper in A4 USletter; do \
-		xsltproc --stringparam paper.type "$$paper" --xinclude -o fo/C-$$paper.fo $(XUBUNTUXSL_PDF) C/index.xml; \
-		fop -c libs/xubuntu-docbook-pdf.xml fo/C-$$paper.fo -pdf ../build/C/xubuntu-documentation-$$paper.pdf; \
-	done
-
-pdf-test:
+	xsltproc --stringparam paper.type "A4" --xinclude -o fo/C-A4.fo $(XUBUNTUXSL_PDF) C/index.xml
+	sed -i 's@\(>The contributors to\) this translation of the \(documentation are:</\)@\1 the various translations of this \2@' fo/C-A4.fo
 	mkdir -p ../build/C
-	printf "<itemizedlist>\n\t<listitem><para>Attributed on each translation's page.</para></listitem>\n</itemizedlist>\n" > C/translators.xml
-	for paper in A4 USletter; do \
-		xsltproc --stringparam paper.type "$$paper" --stringparam monospace.font-family "Droid Sans" --stringparam title.font.family "Droid Sans" --stringparam body.font.family "Droid Sans" --xinclude -o fo/C-$$paper.fo $(XUBUNTUXSL_PDF) C/index.xml; \
-		fop -c libs/xubuntu-docbook-pdf.xml fo/C-$$paper.fo -pdf ../build/C/xubuntu-documentation-$$paper.pdf; \
-	done
+	fop -c libs/xubuntu-docbook-pdf-fonts.xml fo/C-A4.fo -pdf ../build/C/xubuntu-documentation-A4.pdf
+	sed 's@\(page-width\)="[^"]*" \(page-height\)="[^"]*"@\1="8.5in" \2="11in"@g' fo/C-A4.fo > fo/C-USletter.fo
+	fop -c libs/xubuntu-docbook-pdf-fonts.xml fo/C-USletter.fo -pdf ../build/C/xubuntu-documentation-USletter.pdf
 
 style:
 	mkdir -p ../build/libs
@@ -70,11 +62,11 @@ translate-pdf: get-translations
 	../scripts/translate.sh $(TRANSOPTS)
 	../scripts/translators.sh $(TRANSOPTS)
 	for dir in $(TRANSLATIONS); do \
+		xsltproc --stringparam paper.type "A4" --xinclude -o fo/$$dir-A4.fo $(XUBUNTUXSL_PDF) $$dir/index.xml; \
 		mkdir -p ../build/$$dir; \
-		for paper in A4 USletter; do \
-			xsltproc --stringparam paper.type "$$paper" --xinclude -o fo/$$dir-$$paper.fo $(XUBUNTUXSL_PDF) $$dir/index.xml; \
-			fop -c libs/xubuntu-docbook-pdf.xml fo/$$dir-$$paper.fo -pdf ../build/$$dir/xubuntu-documentation-$$paper.pdf; \
-		done \
+		fop -c libs/xubuntu-docbook-pdf-fonts.xml fo/$$dir-A4.fo -pdf ../build/$$dir/xubuntu-documentation-A4.pdf; \
+		sed 's@\(page-width\)="[^"]*" \(page-height\)="[^"]*"@\1="8.5in" \2="11in"@g' fo/$$dir-A4.fo > fo/$$dir-USletter.fo; \
+		fop -c libs/xubuntu-docbook-pdf-fonts.xml fo/$$dir-USletter.fo -pdf ../build/$$dir/xubuntu-documentation-USletter.pdf; \
 	done
 
 test: get-translations

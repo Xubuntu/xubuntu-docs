@@ -1,0 +1,40 @@
+<fop version="1.0">
+	<renderers>
+		<renderer mime="application/pdf">
+			<fonts>
+				<!-- Droid Sans, regular -->
+				<font metrics-url="libs/fonts/fontmetric-droidsans.xml"  
+					kerning="yes" 
+					embed-url="/usr/share/fonts/truetype/droid/DroidSans.ttf">
+					<font-triplet name="Droid Sans" style="normal" weight="normal"/>
+				</font>
+				<!-- Droid Sans, bold -->
+				<font metrics-url="libs/fonts/fontmetric-droidsans-bold.xml"  
+					kerning="yes" 
+					embed-url="/usr/share/fonts/truetype/droid/DroidSans-Bold.ttf">
+					<font-triplet name="Droid Sans" style="normal" weight="bold"/>
+				</font>
+				<!-- Since Droid Sans doesn't have an italic style, we are using Open Sans, a derivative, as a replacement -->
+				<!-- TODO: Change font triplet name -->
+				<!-- Open Sans, italic -->
+				<font metrics-url="libs/fonts/fontmetric-opensans-italic.xml"  
+					kerning="yes" 
+					embed-url="libs/fonts/OpenSans-Italic.ttf">
+					<font-triplet name="Droid Sans" style="italic" weight="normal"/>
+				</font>
+				<!-- Open Sans, italic bold -->
+				<font metrics-url="libs/fonts/fontmetric-opensans-bolditalic.xml"  
+					kerning="yes" 
+					embed-url="libs/fonts/OpenSans-BoldItalic.ttf">
+					<font-triplet name="Droid Sans" style="italic" weight="bold"/>
+				</font>
+				<!-- Droid Sans Mono, regular -->
+				<font metrics-url="libs/fonts/fontmetric-droidsansmono.xml"  
+					kerning="yes" 
+					embed-url="/usr/share/fonts/truetype/droid/DroidSansMono.ttf">
+					<font-triplet name="Droid Sans Mono" style="normal" weight="normal"/>
+				</font>
+			</fonts>
+		</renderer>
+	</renderers>
+</fop>

@@ -10,13 +10,21 @@
 	<xsl:param name="fop1.extensions" select="1"/>
 
 	<!-- Page size and margins -->
+	<xsl:param name="paper.type" select="'A4'"/>
 	<xsl:param name="page.margin.inner" select="'1.5cm'"/>
 	<xsl:param name="page.margin.outer" select="'1.5cm'"/>
 	<xsl:param name="body.start.indent" select="'1cm'"/>
 
 	<!-- General options -->
-<!--	<xsl:param name="menuchoice.menu.separator" select="' » '"/>-->
 	<xsl:param name="hyphenate" select="'false'"/>
+	<xsl:attribute-set name="root.properties">
+		<xsl:attribute name="font-family">Droid Sans</xsl:attribute>
+		<xsl:attribute name="line-height">1.5</xsl:attribute>
+	</xsl:attribute-set>
+	<xsl:param name="body.font.family" select="'Droid Sans'"/>
+	<xsl:param name="title.font.family" select="'Droid Sans'"/>
+	<xsl:param name="monospace.font.family" select="'Droid Sans Mono'"/>
+	<!-- <xsl:param name="ulink.footnotes">1</xsl:param> -->
 
 	<!-- Section title styles -->
 	<xsl:attribute-set name="section.title.properties">
@@ -49,9 +57,42 @@
 
 	<xsl:attribute-set name="admonition.title.properties">
 		<xsl:attribute name="font-size">
-			<xsl:value-of select="$body.font.master * 1.1 "/>
+			<xsl:value-of select="$body.font.master * 1.1"/>
 			<xsl:text>pt</xsl:text>
 		</xsl:attribute>
+	</xsl:attribute-set>
+
+	<!-- Bold and italic styles-->
+	<xsl:template match="application/menuchoice/guimenuitem | application/menuchoice/guisubmenu">
+		<fo:inline xsl:use-attribute-sets="bold-italic">
+			<xsl:apply-templates/>
+		</fo:inline>
+	</xsl:template>
+	<xsl:template match="application | filename | guibutton | literal">
+		<!-- TODO: This breaks literal since it changes the font -->
+		<fo:inline xsl:use-attribute-sets="bold">
+			<xsl:apply-templates/>
+		</fo:inline>
+	</xsl:template>
+	<xsl:template match="guilabel | guimenu | guimenuitem | keycap">
+		<fo:inline xsl:use-attribute-sets="italic">
+			<xsl:apply-templates/>
+		</fo:inline>
+	</xsl:template>
+
+	<xsl:attribute-set name="bold-italic">
+		<xsl:attribute name="font-weight">bold</xsl:attribute>
+		<xsl:attribute name="font-style">italic</xsl:attribute>
+	</xsl:attribute-set>
+
+	<xsl:attribute-set name="bold">
+		<xsl:attribute name="font-weight">bold</xsl:attribute>
+		<xsl:attribute name="font-style">normal</xsl:attribute>
+	</xsl:attribute-set>
+
+	<xsl:attribute-set name="italic">
+		<xsl:attribute name="font-weight">normal</xsl:attribute>
+		<xsl:attribute name="font-style">italic</xsl:attribute>
 	</xsl:attribute-set>
 
 	<!-- Icons -->
@@ -60,8 +101,16 @@
 			<xsl:variable name="src">
 				<xsl:value-of select="@fileref"/>
 			</xsl:variable>
-			<fo:external-graphic alignment-baseline="hanging" content-width="1em" content-height="scale-to-fit" scaling="uniform" src="{$src}"/>
+			<fo:external-graphic alignment-baseline="mathematical" content-width="1em" content-height="scale-to-fit" scaling="uniform" src="{$src}"/>
 		</fo:inline>
+	</xsl:template>
+	<xsl:template match="imagedata[@role = 'icon-pad']">
+			<fo:inline>
+				<xsl:variable name="src">
+					<xsl:value-of select="@fileref"/>
+				</xsl:variable>
+				<fo:external-graphic alignment-baseline="mathematical" width="1.3em" content-width="1em" content-height="scale-to-fit" scaling="uniform" src="{$src}"/> 
+			</fo:inline>
 	</xsl:template>
 
 	<!-- Admonitions -->
