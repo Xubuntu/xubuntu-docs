@@ -8,14 +8,14 @@ XUBUNTUXSL_PDF = libs/xubuntu-docbook-pdf.xsl
 # All available translations
 TRANSALL = $(shell basename -s .po -a po/*.po)
 
-all: clean html translate
+all: clean html html-translations pdf pdf-translations
 
 html: style
 	printf "<itemizedlist>\n\t<listitem><para>Attributed on each translation's page.</para></listitem>\n</itemizedlist>\n" > C/translators.xml
 	xsltproc --xinclude -o ../build/C/index.html $(XUBUNTUXSL_HTML) C/index.xml
 	sed -i 's@\(<p>The contributors to\) this translation of the \(documentation are:</p>\)@\1 the various translations of this \2@' ../build/C/credits-license.html
 
-epub: epubstyle
+epub: style-epub
 	printf "<itemizedlist>\n\t<listitem><para>Attributed on each translation's page.</para></listitem>\n</itemizedlist>\n" > C/translators.xml
 	xsltproc --xinclude -o ../build/C/ /usr/share/xml/docbook/stylesheet/nwalsh/epub3/chunk.xsl C/index.xml
 	sed -i 's@\(<p>The contributors to\) this translation of the \(documentation are:</p>\)@\1 the various translations of this \2@' ../build/C/credits-license.html
@@ -25,12 +25,8 @@ epub: epubstyle
 
 pdf:
 	printf "<itemizedlist>\n\t<listitem><para>Attributed on each translation's page.</para></listitem>\n</itemizedlist>\n" > C/translators.xml
-	xsltproc --stringparam paper.type "A4" --xinclude -o fo/C-A4.fo $(XUBUNTUXSL_PDF) C/index.xml
+	xsltproc --stringparam paper.type A4 --xinclude -o fo/C-A4.fo $(XUBUNTUXSL_PDF) C/index.xml
 	sed -i 's@\(>The contributors to\) this translation of the \(documentation are:</\)@\1 the various translations of this \2@' fo/C-A4.fo
-	mkdir -p ../build/C
-	fop -c libs/xubuntu-docbook-pdf-fonts.xml fo/C-A4.fo -pdf ../build/C/xubuntu-documentation-A4.pdf
-	sed 's@\(page-width\)="[^"]*" \(page-height\)="[^"]*"@\1="8.5in" \2="11in"@g' fo/C-A4.fo > fo/C-USletter.fo
-	fop -c libs/xubuntu-docbook-pdf-fonts.xml fo/C-USletter.fo -pdf ../build/C/xubuntu-documentation-USletter.pdf
 
 style:
 	mkdir -p ../build/libs
@@ -39,8 +35,9 @@ style:
 		libs/admon \
 		libs/navig \
 		../build/libs/
+	@touch style
 
-epubstyle:
+style-epub:
 	mkdir -p ../build/C/libs/images
 	cp      libs/images/preferences-desktop.png \
 		libs/images/system-lock-screen.png \
@@ -51,23 +48,21 @@ epubstyle:
 		libs/images/key_icon.png \
 		../build/C/libs/images/
 
-translate: get-translations
+translate: | get-translations
 	../scripts/translate.sh $(TRANSOPTS)
 	../scripts/translators.sh $(TRANSOPTS)
+	@touch translate
+
+html-translations: style translate
 	for dir in $(TRANSLATIONS); do \
 		xsltproc --xinclude -o ../build/$$dir/index.html $(XUBUNTUXSL_HTML) $$dir/index.xml; \
 	done
 
-translate-pdf: get-translations
-	../scripts/translate.sh $(TRANSOPTS)
-	../scripts/translators.sh $(TRANSOPTS)
+pdf-translations: translate
 	for dir in $(TRANSLATIONS); do \
-		xsltproc --stringparam paper.type "A4" --xinclude -o fo/$$dir-A4.fo $(XUBUNTUXSL_PDF) $$dir/index.xml; \
-		mkdir -p ../build/$$dir; \
-		fop -c libs/xubuntu-docbook-pdf-fonts.xml fo/$$dir-A4.fo -pdf ../build/$$dir/xubuntu-documentation-A4.pdf; \
-		sed 's@\(page-width\)="[^"]*" \(page-height\)="[^"]*"@\1="8.5in" \2="11in"@g' fo/$$dir-A4.fo > fo/$$dir-USletter.fo; \
-		fop -c libs/xubuntu-docbook-pdf-fonts.xml fo/$$dir-USletter.fo -pdf ../build/$$dir/xubuntu-documentation-USletter.pdf; \
+		xsltproc --stringparam paper.type A4 --xinclude -o fo/$$dir-A4.fo $(XUBUNTUXSL_PDF) $$dir/index.xml; \
 	done
+	../scripts/pdf-create.sh $(TRANSLATIONS)
 
 test: get-translations
 	set -e; \
@@ -98,4 +93,4 @@ get-translations: update-translations
     endif
 
 clean:
-	rm -rf $(TRANSALL) C/translators.xml fo/
+	rm -rf $(TRANSALL) C/translators.xml fo/ style translate

@@ -1,6 +1,8 @@
 # Makefile for the Xubuntu Documentation
 # Xubuntu Project <xubuntu-devel@lists.ubuntu.com>
 
+VPATH = desktop-guide
+
 # Include revision number
 ifneq ($(REVNO),)
     VERSION = 
@@ -10,7 +12,7 @@ endif
 # All available translations
 TRANSALL = $(shell basename -s .po -a desktop-guide/po/*.po)
 
-all: clean startpage html translate
+all: clean startpage html html-translations pdf pdf-translations
 
 startpage: get-translations
 	mkdir -p build
@@ -58,8 +60,11 @@ pdf:
 translate: get-translations
 	$(MAKE) -C desktop-guide translate
 
-translate-pdf: get-translations
-	$(MAKE) -C desktop-guide translate-pdf
+html-translations: translate
+	$(MAKE) -C desktop-guide html-translations
+
+pdf-translations: translate
+	$(MAKE) -C desktop-guide pdf-translations
 
 test: get-translations
 	$(MAKE) -C desktop-guide test

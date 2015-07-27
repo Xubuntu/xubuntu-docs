@@ -403,3 +403,22 @@ p .application .guimenu {
 	font-weight: normal;
 	font-style: oblique;
 }
+
+/* PDF links */
+ul.inline li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 0.5em;
+}
+
+.pdf-links {
+	margin-bottom: 1em;
+}
+	.pdf-links .title {
+		font-weight: bold;
+		color: #555;
+	}
+	.pdf-links ul.inline {
+		display: inline;
+		margin-left: 0.5em;
+	}
