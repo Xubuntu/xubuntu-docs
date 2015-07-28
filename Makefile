@@ -1,8 +1,6 @@
 # Makefile for the Xubuntu Documentation
 # Xubuntu Project <xubuntu-devel@lists.ubuntu.com>
 
-VPATH = desktop-guide
-
 # Include revision number
 ifneq ($(REVNO),)
     VERSION = 
@@ -57,24 +55,24 @@ epub:
 pdf:
 	$(MAKE) -C desktop-guide pdf
 
-translate: get-translations
+translate:
 	$(MAKE) -C desktop-guide translate
 
-html-translations: translate
+html-translations:
 	$(MAKE) -C desktop-guide html-translations
 
-pdf-translations: translate
+pdf-translations:
 	$(MAKE) -C desktop-guide pdf-translations
 
-test: get-translations
+test:
 	$(MAKE) -C desktop-guide test
 
 src-tarball:
 	# exclude archive, backup, and bzr files
-	tar cvfz xubuntu-doc.tar.gz  --exclude="*.tar.gz" --exclude="*~" --exclude "*.bzr*" *
+	tar -czf xubuntu-docs.tar.gz --exclude='xubuntu-docs.tar.gz' --exclude-vcs --exclude-backups .
 
 clean:
 	$(MAKE) -C desktop-guide clean
-	rm -rf build
+	rm -rf build xubuntu-docs.tar.gz
 
 .PHONY: startpage
