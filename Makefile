@@ -68,7 +68,7 @@ test:
 	$(MAKE) -C desktop-guide test
 
 src-tarball:
-	# exclude archive, backup, and bzr files
+	# exclude archive, VCS and backups
 	tar -czf xubuntu-docs.tar.gz --exclude='xubuntu-docs.tar.gz' --exclude-vcs --exclude-backups .
 
 clean:
