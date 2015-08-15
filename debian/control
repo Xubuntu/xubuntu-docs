@@ -2,18 +2,20 @@ Source: xubuntu-docs
 Section: doc
 Priority: optional
 Maintainer: Ubuntu Documentation Team <ubuntu-doc@lists.ubuntu.com>
-Build-Depends: debhelper (>= 9),
- coreutils (>= 8.16),
+Build-Depends: coreutils (>= 8.16),
+ debhelper (>= 9),
  docbook-xml,
  docbook-xsl,
- xsltproc,
- gnome-doc-utils
-Standards-Version: 3.9.5
+ fonts-droid,
+ fop,
+ gnome-doc-utils,
+ xsltproc
+Standards-Version: 3.9.6
 
 Package: xubuntu-docs
 Architecture: all
 Depends: ${misc:Depends}
-Description: xubuntu documentation
+Description: Xubuntu documentation
  This package holds the official Xubuntu-specific documentation, maintained
  by the Xubuntu Documentation Team. The documentation can be viewed using
- your web browser.
+ a web browser or a PDF reader.
