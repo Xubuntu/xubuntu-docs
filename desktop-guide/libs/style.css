@@ -26,7 +26,7 @@ html {
 	max-width: 950px;
 	min-width: 580px;
 
-	margin: 3em auto 1em auto;
+	margin: 2.5em auto 2em auto;
 	padding: 0 3em;
 
 	line-height: 1.5em;
@@ -49,7 +49,7 @@ body > div.legalnotice {
 	margin: 0 auto;
 	padding: 3em;
 
-	background-color: #fff;
+	background-color: #fafafa;
 
 	line-height: 1.5em;
 
@@ -116,9 +116,11 @@ dd dd dl {
 
 h1 {
 	margin: 0 0 1em 0;
-	font-size: 200%;
-	font-weight: bold !important;
+	font-size: 220%;
+	font-weight: normal;
 	line-height: 1.2em;
+
+	color: #04a;
 }
 
 h2,
@@ -130,7 +132,7 @@ p.legalnotice-title {
 	font-weight: normal;
 	line-height: 1.2em;
 
-	color: #555;
+	color: #333;
 }
 	body > div.chapter > div:first-child h2,
 	body > div.sect1 > div:first-child h2,

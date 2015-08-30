@@ -7,7 +7,7 @@
 @import url('reset.css');
 
 body {
-	background-color: #eee;
+	background-color: #e4e4e4;
 
 	font-family: "Droid Sans", sans-serif;
 	font-size: small;
@@ -16,7 +16,7 @@ body {
 
 #header {
 	max-width: 950px;
-	margin: 3em auto 1em auto;
+	margin: 2.5em auto 2em auto;
 	padding: 0 3em;
 	line-height: 1.5em;
 }
@@ -29,18 +29,36 @@ body {
 	padding: 3em;
 	line-height: 1.5em;
 
-	background-color: #fff;
+	background-color: #fafafa;
 
-	border-radius: 4px;	
+	border-radius: 4px;
 	box-shadow: 0 0 10px rgba( 0, 0, 0, 0.1 );
 }
+
+#documentation {
+	margin: 0 -3em;
+	padding: 0 3em 1.5em 3em;
+
+	background-color: rgba( 255, 255, 255, 0.95 );
+	border-top: 0.5em solid rgba( 0, 0, 0, 0.1 );
+}
+	#documentation h3,
+	#documentation p,
+	#documentation li {
+		font-size: 115%;
+		line-height: 1.5em;
+	}
 
 /* */
 
 h1 {
 	margin: 0 0 1em 0;
-	font-size: 200%;
+
+	font-size: 220%;
+	font-weight: normal;
 	line-height: 1.2em;
+
+	color: #04a;
 }
 
 h2 {
@@ -50,7 +68,7 @@ h2 {
 	font-weight: normal;
 	line-height: 1.2em;
 
-	color: #555;
+	color: #333;
 }
 
 	h2.intro {
