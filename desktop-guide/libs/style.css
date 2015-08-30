@@ -8,7 +8,7 @@
 @import url('reset.css');
 
 html {
-	background-color: #eee;
+	background-color: #e4e4e4;
 	color: #111;
 
 	font-family: "Droid Sans", sans-serif;
@@ -53,9 +53,8 @@ body > div.legalnotice {
 
 	line-height: 1.5em;
 
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
+	border-radius: 4px;
+	box-shadow: 0 0 10px rgba( 0, 0, 0, 0.1 );
 }
 	body > div.legalnotice {
 		margin: 3em auto;
