@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-05-10 22:28+0100\n"
-"PO-Revision-Date: 2015-08-29 19:05+0000\n"
-"Last-Translator: Eugenio González <eugeagb@gmail.com>\n"
+"PO-Revision-Date: 2015-08-30 16:06+0000\n"
+"Last-Translator: Krytarik Raido <Unknown>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-08-30 05:37+0000\n"
+"X-Launchpad-Export-Date: 2015-08-31 05:30+0000\n"
 "X-Generator: Launchpad (build 17690)\n"
 "Language: es\n"
 
@@ -671,8 +671,8 @@ msgid ""
 "Me</guimenuitem></menuchoice></application>."
 msgstr ""
 "Para lanzar <application>Mugshot</application> vaya a "
-"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-"
-"2/>Administrador de configuración</guimenuitem><guimenuitem>Acerca de "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"Administrador de configuración</guimenuitem><guimenuitem>Acerca de "
 "mí</guimenuitem></menuchoice></application>."
 
 #: desktop-guide/C/settings-preferences.xml:37(para)
@@ -853,7 +853,7 @@ msgid ""
 "the dialog described above."
 msgstr ""
 "Con múltiples pantallas, esta opción solo cambiará el fondo de escritorio "
-"del monitor primario. Para cambiar el fondo de escritorio de otros "
+"del monitor primario. Para cambiar el fondo de escritorio de otras "
 "pantallas, necesitará el diálogo descrito anteriormente."
 
 #: desktop-guide/C/settings-preferences.xml:79(para)
@@ -1519,8 +1519,8 @@ msgid ""
 "Save the file and open <application>Simple Scan</application>. If all goes "
 "well, your scanner will now work."
 msgstr ""
-"Guarde el archivo y abra <application>Escaneo simple</application>. Si todo "
-"va bien, su escáner funcionará ahora."
+"Guarde el archivo y abra <application>Simple Scan</application>. Si todo va "
+"bien, su escáner funcionará ahora."
 
 #: desktop-guide/C/offline-packages.xml:12(title)
 msgid "Offline Package Management"
@@ -2826,10 +2826,10 @@ msgid ""
 "<guilabel>Other Software</guilabel> tab"
 msgstr ""
 "Abra <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
-"Administrador de configuración</guimenuitem><guimenuitem>Software &amp; "
-"Actualizaciones</guimenuitem></menuchoice></application> o "
-"<application><menuchoice><placeholder-3/><guimenuitem> Centro de software "
-"Ubuntu </guimenuitem><guimenuitem>Editar</guimenuitem><guimenuitem>Orígenes "
+"Administrador de configuración</guimenuitem><guimenuitem>Software y "
+"actualizaciones</guimenuitem></menuchoice></application> o "
+"<application><menuchoice><placeholder-3/><guimenuitem>Centro de software de "
+"Ubuntu</guimenuitem><guimenuitem>Editar</guimenuitem><guimenuitem>Orígenes "
 "del software</guimenuitem></menuchoice></application> e ir a <guilabel>Otro "
 "software</guilabel>"
 
@@ -3473,7 +3473,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:70(para)
 msgid "If your network connection still doesn't work:"
-msgstr "Si su conexión de red aun no funciona:"
+msgstr "Si su conexión de red aún no funciona:"
 
 #: desktop-guide/C/internet-networks.xml:73(para)
 msgid ""
@@ -3942,14 +3942,14 @@ msgid ""
 "disconnect\"/> and <xref linkend=\"network-configure\"/> if needed."
 msgstr ""
 "Si no hay ninguna configuración de DNS en la lista, comuníquese con su "
-"proveedor de servicios Internet (ISP), y averigue sus servidores de nombre "
+"proveedor de servicios Internet (ISP), y averigüe sus servidores de nombre "
 "de dominio primario y secundario. Una vez que tenga esta información, vaya a "
 "<xref linkend=\"network-connect-disconnect\"/> y <xref linkend=\"network-"
 "configure\"/> si es necesario."
 
 #: desktop-guide/C/internet-networks.xml:209(title)
 msgid "Connecting to servers"
-msgstr "Conectrar a servidores"
+msgstr "Conectar a servidores"
 
 #: desktop-guide/C/internet-networks.xml:211(para)
 msgid ""
@@ -4023,8 +4023,8 @@ msgid ""
 "package <literal><placeholder-1/>gvfs-backends</literal> installed."
 msgstr ""
 "Para conectarse a redes Samba (Archivos compartidos de Windows) utilizando "
-"el <application>Administrador de archivos Thunar</application>, necesitará "
-"tener instalado el paquete <literal><placeholder-1/>gvfs-backends</literal>."
+"el <application>Gestor de archivos Thunar</application>, necesitará tener "
+"instalado el paquete <literal><placeholder-1/>gvfs-backends</literal>."
 
 #: desktop-guide/C/index.xml:12(title) desktop-guide/C/index.xml:15(title)
 msgid "Xubuntu Documentation"
@@ -4056,7 +4056,7 @@ msgstr "Elizabeth Krumbach (lyz)"
 
 #: desktop-guide/C/index.xml:24(para)
 msgid "Jack Fromm (jjfrv8)"
-msgstr ""
+msgstr "Jack Fromm (jjfrv8)"
 
 #: desktop-guide/C/index.xml:25(para)
 msgid "Jay van Cooten (skippersboss)"
@@ -4068,7 +4068,7 @@ msgstr "Kev (elfy)"
 
 #: desktop-guide/C/index.xml:27(para)
 msgid "Krytarik Raido (krytarik)"
-msgstr ""
+msgstr "Krytarik Raido (krytarik)"
 
 #: desktop-guide/C/index.xml:28(para)
 msgid "Pasi Lallinaho (knome)"
@@ -4076,7 +4076,7 @@ msgstr "Pasi Lallinaho (knome)"
 
 #: desktop-guide/C/index.xml:29(para)
 msgid "Sean Davis (bluesabre)"
-msgstr ""
+msgstr "Sean Davis (bluesabre)"
 
 #: desktop-guide/C/index.xml:30(para)
 msgid "Stephen Michael Kellat (skellat)"
@@ -4088,7 +4088,7 @@ msgstr "Steve Dodier-Lazaro (sidi)"
 
 #: desktop-guide/C/index.xml:32(para)
 msgid "Unit 193 (unit193)"
-msgstr ""
+msgstr "Unit 193 (unit193)"
 
 #: desktop-guide/C/index.xml:35(para)
 msgid "The contributors to this translation of the documentation are:"
@@ -4349,8 +4349,9 @@ msgid ""
 "Updates</guimenuitem></menuchoice></application>"
 msgstr ""
 "Ir a <application><menuchoice><placeholder-1/><guimenuitem>Centro de "
-"software Ubuntu</guimenuitem><guimenuitem>Editar</guimenuitem><guimenuitem>Or"
-"ígenes del software</guimenuitem></menuchoice></application> o "
+"software de "
+"Ubuntu</guimenuitem><guimenuitem>Editar</guimenuitem><guimenuitem>Orígenes "
+"del software</guimenuitem></menuchoice></application> o "
 "<application><menuchoice><placeholder-2/><guimenuitem><placeholder-3/> "
 "Administrador de configuración</guimenuitem><guimenuitem>Software y "
 "actualizaciones</guimenuitem></menuchoice></application>"
@@ -4424,7 +4425,7 @@ msgid ""
 "this:"
 msgstr ""
 "Un modo simple de comprobar el espacio en disco es con la aplicación "
-"<application>Gestor de Archivos Thunar</application>. Exiten distintas "
+"<application>Gestor de archivos Thunar</application>. Existen distintas "
 "opciones:"
 
 #: desktop-guide/C/hardware-devices.xml:73(para)
@@ -4485,7 +4486,7 @@ msgid ""
 "Software Center</application> for information on removing packages."
 msgstr ""
 "Elimine paquetes de software que no utilice. Vea <application>Centro de "
-"Software Ubuntu</application> para información sobre eliminar paquetes."
+"software de Ubuntu</application> para información sobre eliminar paquetes."
 
 #: desktop-guide/C/hardware-devices.xml:89(para)
 msgid ""
@@ -4494,9 +4495,9 @@ msgid ""
 "Center</application> to find which files are taking up the most space."
 msgstr ""
 "Borre archivos que no necesite. Puede instalar la aplicación "
-"<application>Analizador de Uso de Disco GNOME</application> desde "
-"<application>Centro de Software Ubuntu</application> para ver qué archivos "
-"ocupan más espacio."
+"<application>Analizador del uso de discos de GNOME</application> desde "
+"<application>Centro de software de Ubuntu</application> para ver qué "
+"archivos ocupan más espacio."
 
 #: desktop-guide/C/hardware-devices.xml:92(para)
 msgid "Be careful not to delete files that you still need!"

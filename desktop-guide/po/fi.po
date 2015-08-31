@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-05-10 22:28+0100\n"
-"PO-Revision-Date: 2015-07-29 10:03+0000\n"
+"PO-Revision-Date: 2015-08-30 21:21+0000\n"
 "Last-Translator: Pasi Lallinaho <pasi@shimmerproject.org>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-08-25 06:01+0000\n"
+"X-Launchpad-Export-Date: 2015-08-31 05:30+0000\n"
 "X-Generator: Launchpad (build 17690)\n"
 "Language: fi\n"
 
@@ -94,11 +94,11 @@ msgstr "Unicode-merkkien valitsin ja fonttiselain"
 
 #: desktop-guide/C/appendix-packages.xml:21(seg)
 msgid "LibreOffice Calc"
-msgstr ""
+msgstr "LibreOffice Calc"
 
 #: desktop-guide/C/appendix-packages.xml:21(seg)
 msgid "libreoffice-calc"
-msgstr ""
+msgstr "libreoffice-calc"
 
 #: desktop-guide/C/appendix-packages.xml:21(seg)
 msgid "Spreadsheet application"
@@ -106,11 +106,11 @@ msgstr "Taulukkolaskentasovellus"
 
 #: desktop-guide/C/appendix-packages.xml:22(seg)
 msgid "LibreOffice Writer"
-msgstr ""
+msgstr "LibreOffice Writer"
 
 #: desktop-guide/C/appendix-packages.xml:22(seg)
 msgid "libreoffice-writer"
-msgstr ""
+msgstr "libreoffice-writer"
 
 #: desktop-guide/C/appendix-packages.xml:22(seg)
 msgid "Word processor"
@@ -1432,7 +1432,7 @@ msgstr "Tietokone sanoo \"Kuvanlukijoita ei havaittu\""
 
 #: desktop-guide/C/printing-scanning.xml:100(para)
 msgid "There are two reasons why you might get this message:"
-msgstr "On kaksi syytä miksi näet tämän viestin:"
+msgstr "Voit saada tämän viestin kahdesta eri syystä:"
 
 #: desktop-guide/C/printing-scanning.xml:103(para)
 msgid ""
@@ -4031,7 +4031,7 @@ msgstr "Elizabeth Krumbach (lyz)"
 
 #: desktop-guide/C/index.xml:24(para)
 msgid "Jack Fromm (jjfrv8)"
-msgstr ""
+msgstr "Jack Fromm (jjfrv8)"
 
 #: desktop-guide/C/index.xml:25(para)
 msgid "Jay van Cooten (skippersboss)"
@@ -4043,7 +4043,7 @@ msgstr "Kev (elfy)"
 
 #: desktop-guide/C/index.xml:27(para)
 msgid "Krytarik Raido (krytarik)"
-msgstr ""
+msgstr "Krytarik Raido (krytarik)"
 
 #: desktop-guide/C/index.xml:28(para)
 msgid "Pasi Lallinaho (knome)"
@@ -4051,7 +4051,7 @@ msgstr "Pasi Lallinaho (knome)"
 
 #: desktop-guide/C/index.xml:29(para)
 msgid "Sean Davis (bluesabre)"
-msgstr ""
+msgstr "Sean Davis (bluesabre)"
 
 #: desktop-guide/C/index.xml:30(para)
 msgid "Stephen Michael Kellat (skellat)"
@@ -4063,7 +4063,7 @@ msgstr "Steve Dodier-Lazaro (sidi)"
 
 #: desktop-guide/C/index.xml:32(para)
 msgid "Unit 193 (unit193)"
-msgstr ""
+msgstr "Unit 193 (unit193)"
 
 #: desktop-guide/C/index.xml:35(para)
 msgid "The contributors to this translation of the documentation are:"
@@ -6477,6 +6477,10 @@ msgid ""
 "url=\"https://www.libreoffice.org/discover/writer/\">LibreOffice Writer "
 "website</ulink>."
 msgstr ""
+"<application>LibreOffice Writer</application> on tekstinkäsittelysovellus "
+"lukuisilla WYSIWYG-ominaisuuksilla. Lue lisää <ulink "
+"url=\"https://www.libreoffice.org/discover/writer/\">LibreOffice Writerin "
+"verkkosivustolta</ulink> (englanniksi)."
 
 #: desktop-guide/C/guide-default-apps.xml:53(para)
 msgid ""
@@ -6486,6 +6490,12 @@ msgid ""
 "the <ulink url=\"https://www.libreoffice.org/discover/calc/\">LibreOffice "
 "Calc website</ulink>."
 msgstr ""
+"<application>LibreOffice Calc</application> on taulukkolaskentasovellus "
+"lukuisilla ainutlaatuisilla ominaisuuksilla, mukaan lukien järjestelmä, "
+"jolla voidaan määrittää sarja kuvaajia, jotka perustuvat käyttäjälle "
+"saatavissa olevaan tietoon. Lue lisää <ulink "
+"url=\"https://www.libreoffice.org/discover/calc/\">LibreOffice Calcin "
+"verkkosivustolta</ulink> (englanniksi)."
 
 #: desktop-guide/C/guide-default-apps.xml:55(para)
 msgid ""
@@ -6501,7 +6511,9 @@ msgstr ""
 
 #: desktop-guide/C/guide-default-apps.xml:57(para)
 msgid "<application>Document Viewer</application> is a PDF reader."
-msgstr "<application>Document Viewer</application> on PFD-luin."
+msgstr ""
+"<application>Document Viewer</application> soveltuu PDF-tiedostojen "
+"lukemiseen."
 
 #: desktop-guide/C/guide-default-apps.xml:59(para)
 msgid ""
