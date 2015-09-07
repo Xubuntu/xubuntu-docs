@@ -71,6 +71,9 @@ src-tarball:
 	# exclude archive, VCS and backups
 	tar -czf xubuntu-docs.tar.gz --exclude='xubuntu-docs.tar.gz' --exclude-vcs --exclude-backups .
 
+pot:
+	scripts/get-pot.sh
+
 clean:
 	$(MAKE) -C desktop-guide clean
 	rm -rf build xubuntu-docs.tar.gz

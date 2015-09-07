@@ -138,6 +138,10 @@
 		</fo:block>
 	</xsl:template>
 
+	<!-- Don't show links to PDF files in PDF files -->
+	<xsl:template match="section[@role= 'pdf-links']">
+	</xsl:template>
+
 	<!-- Title page -->
 <xsl:template name="book.titlepage.recto">
   <fo:block>

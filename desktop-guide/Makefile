@@ -10,24 +10,18 @@ TRANSALL = $(shell basename -s .po -a po/*.po)
 
 all: clean html html-translations pdf pdf-translations
 
-html: C/translators.xml style
+html: style
 	xsltproc --xinclude -o ../build/C/index.html $(XUBUNTUXSL_HTML) C/index.xml
-	sed -i 's@\(<p>The contributors to\) this translation of the \(documentation are:</p>\)@\1 the various translations of this \2@' ../build/C/credits-license.html
 
-epub: C/translators.xml style-epub
+epub: style-epub
 	xsltproc --xinclude -o ../build/C/ /usr/share/xml/docbook/stylesheet/nwalsh/epub3/chunk.xsl C/index.xml
-	sed -i 's@\(<p>The contributors to\) this translation of the \(documentation are:</p>\)@\1 the various translations of this \2@' ../build/C/credits-license.html
 	cd ../build/C; \
 	zip -0Xq xubuntu-docs.epub mimetype; \
 	zip -Xr9Dq xubuntu-docs.epub *
 
-pdf: C/translators.xml
+pdf:
 	xsltproc --stringparam paper.type A4 --xinclude -o fo/C-A4.fo $(XUBUNTUXSL_PDF) C/index.xml
-	sed -i 's@\(>The contributors to\) this translation of the \(documentation are:</\)@\1 the various translations of this \2@' fo/C-A4.fo
 	../scripts/pdf-create.sh C
-
-C/translators.xml:
-	printf "<itemizedlist>\n\t<listitem><para>Attributed on each translation's page.</para></listitem>\n</itemizedlist>\n" > C/translators.xml
 
 style:
 	mkdir -p ../build/libs
@@ -65,7 +59,7 @@ pdf-translations: translate
 	done
 	../scripts/pdf-create.sh $(TRANSLATIONS)
 
-test: C/translators.xml translate
+test: translate
 	set -e; \
 	for dir in C $(TRANSLATIONS); do \
 		../scripts/validate.sh $$dir/index.xml; \
@@ -94,4 +88,4 @@ get-translations: update-translations
     endif
 
 clean:
-	rm -rf ../build C/translators.xml $(TRANSALL) fo style translate
+	rm -rf ../build $(TRANSALL) fo style translate

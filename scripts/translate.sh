@@ -31,46 +31,46 @@
 #
 
 translate () {
-    for lang in $@; do
-	echo "Translating $lang ..."
-	mkdir -p $lang
-	for xml in C/*.xml; do
-	    xml=$(basename $xml)
-	    xml2po --expand-all-entities --po-file po/$lang.po C/$xml > $lang/$xml
+	for lang in $@; do
+		echo "Translating $lang ..."
+		mkdir -p $lang
+		for xml in C/*.xml; do
+			xml=$(basename $xml)
+			xml2po --expand-all-entities --po-file po/$lang.po C/$xml > $lang/$xml
+		done
 	done
-    done
 }
 
 shipped_languages () {
-    percreq="70"
-    echo "Updating LINGUAS ..."
-    for po in po/*.po; do
-	percdone=$(msgfmt -o /dev/null --statistics $po 2>&1 | awk '{printf "%.0f\n", $1 / ($1 + $4 + $7) * 100}')
-	if [ "$percdone" -ge "$percreq" ]; then
-	    basename $po .po
-	fi
-    done | tee po/LINGUAS
+	percreq="70"
+	echo "Updating LINGUAS ..."
+	for po in po/*.po; do
+		percdone=$(msgfmt -o /dev/null --statistics $po 2>&1 | awk '{printf "%.0f\n", $1 / ($1 + $4 + $7) * 100}')
+		if [ "$percdone" -ge "$percreq" ]; then
+			basename $po .po
+		fi
+	done | tee po/LINGUAS
 }
 
 while getopts ":gl:u" opt; do
-    case $opt in
+	case $opt in
 	g)
-	    generated="yes";;
+		generated="yes";;
 	l)
-	    language=$OPTARG;;
+		language=$OPTARG;;
 	u)
-	    shipped_languages
-	    exit;;
-    esac
+		shipped_languages
+		exit;;
+	esac
 done
 
 if [ "$generated" = "yes" ]; then
-    if [ ! -f po/LINGUAS ]; then
-    	shipped_languages
-    fi
-    translate $(cat po/LINGUAS)
+	if [ ! -f po/LINGUAS ]; then
+		shipped_languages
+	fi
+	translate $(cat po/LINGUAS)
 elif [ -n "$language" ]; then
-    translate $language
+	translate $language
 else
-    translate $(basename -s .po -a po/*.po)
+	translate $(basename -s .po -a po/*.po)
 fi

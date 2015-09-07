@@ -12,8 +12,15 @@ xubuntu-docs (15.10.0) UNRELEASED; urgency=medium
   * PDF exporting
     - Prepare Makefile targets and automatization for exports
     - Add a print-specific customization layer
+  * Hide translator credits from C
+  * Hide PDF links from the PDF files itself
+  * Improve Makefiles and scripts
 
- -- Pasi Lallinaho <pasi@shimmerproject.org>  Wed, 22 Jul 2015 21:45:07 +0300
+  [ Krytarik Raido ]
+  * Link to the PDF files from the documentation
+  * Improve Makefiles and scripts
+
+ -- Pasi Lallinaho <pasi@shimmerproject.org>  Mon, 07 Sep 2015 18:44:25 +0300
 
 xubuntu-docs (15.04.2) vivid; urgency=medium
 
