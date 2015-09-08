@@ -7,16 +7,34 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-05-10 22:28+0100\n"
+"POT-Creation-Date: 2015-09-07 18:47+0300\n"
 "PO-Revision-Date: 2015-08-30 16:06+0000\n"
 "Last-Translator: Krytarik Raido <Unknown>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-08-31 05:30+0000\n"
-"X-Generator: Launchpad (build 17690)\n"
+"X-Launchpad-Export-Date: 2015-09-08 06:18+0000\n"
+"X-Generator: Launchpad (build 17706)\n"
 "Language: es\n"
+
+#: desktop-guide/C/xi-pdf-files.xml:2(para)
+msgid ""
+"<emphasis>Would you rather read this documentation in PDF?</emphasis> Select "
+"your preferred paper size: <ulink url=\"xubuntu-documentation-"
+"A4.pdf\">A4</ulink> or <ulink url=\"xubuntu-documentation-USletter.pdf\">US "
+"letter</ulink>."
+msgstr ""
+
+#: desktop-guide/C/xi-translators-not-found.xml:1(para)
+msgid ""
+"Translator data could not be acquired, please see <ulink "
+"url=\"https://translations.launchpad.net/xubuntu-docs\">Launchpad</ulink>."
+msgstr ""
+
+#: desktop-guide/C/xi-translator-credits.xml:1(para)
+msgid "The contributors to this translation of the documentation are:"
+msgstr "Los colaboradores de traducción de la documentación son:"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -530,10 +548,8 @@ msgstr ""
 #: desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/guide-keeping-safe.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/administrative-tasks.xml:0(None)
 msgid ""
 "@@image: '../libs/images/preferences-desktop.png'; "
-"md5=805e5ff06267de7ea2e15f257bf1a825"
+"md5=50af8eb87047c848e38291e5616ad45b"
 msgstr ""
-"@@image: '../libs/images/preferences-desktop.png'; "
-"md5=805e5ff06267de7ea2e15f257bf1a825"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2229,9 +2245,8 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/guide-keeping-safe.xml:0(None) desktop-guide/C/guide-keeping-safe.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/command-line.xml:0(None)
 msgid ""
-"@@image: '../libs/images/key_icon.png'; md5=e35650403dee999b00c36b8d9a4f8b8a"
+"@@image: '../libs/images/key_icon.png'; md5=3b74de7a9c7025bf740f5ff3657f34d2"
 msgstr ""
-"@@image: '../libs/images/key_icon.png'; md5=e35650403dee999b00c36b8d9a4f8b8a"
 
 #: desktop-guide/C/media-apps.xml:12(title)
 msgid "Media applications"
@@ -4036,11 +4051,9 @@ msgstr "Créditos y licencia"
 
 #: desktop-guide/C/index.xml:18(para)
 msgid ""
-"This documentation is maintained by the Xubuntu Documentation team and is "
+"This documentation is maintained by the Xubuntu documentation team and is "
 "partly adapted from the Ubuntu documentation."
 msgstr ""
-"Esta documentación está mantenida por el equipo de documentación de Xubuntu "
-"y está adaptada parcialmente de la documentación de Ubuntu."
 
 #: desktop-guide/C/index.xml:20(para)
 msgid "The contributors to this documentation are:"
@@ -4090,36 +4103,32 @@ msgstr "Steve Dodier-Lazaro (sidi)"
 msgid "Unit 193 (unit193)"
 msgstr "Unit 193 (unit193)"
 
-#: desktop-guide/C/index.xml:35(para)
-msgid "The contributors to this translation of the documentation are:"
-msgstr "Los colaboradores de traducción de la documentación son:"
-
-#: desktop-guide/C/index.xml:38(para)
+#: desktop-guide/C/index.xml:39(para)
 msgid "The contributors to previous versions to this documentation are:"
 msgstr ""
 "Los colaboradores de las versiones anteriores a esta documentación son:"
 
-#: desktop-guide/C/index.xml:40(para)
+#: desktop-guide/C/index.xml:41(para)
 msgid "Cody A.W. Somerville (cody-somerville)"
 msgstr "Cody A.W. Somerville (cody-somerville)"
 
-#: desktop-guide/C/index.xml:41(para)
+#: desktop-guide/C/index.xml:42(para)
 msgid "Freddy Martinez (freddymartinez9)"
 msgstr "Freddy Martinez (freddymartinez9)"
 
-#: desktop-guide/C/index.xml:42(para)
+#: desktop-guide/C/index.xml:43(para)
 msgid "Jan M. (fijam7)"
 msgstr "Jan M. (fijam7)"
 
-#: desktop-guide/C/index.xml:43(para)
+#: desktop-guide/C/index.xml:44(para)
 msgid "Jim Campbell (jwcampbell)"
 msgstr "Jim Campbell (jwcampbell)"
 
-#: desktop-guide/C/index.xml:44(para)
+#: desktop-guide/C/index.xml:45(para)
 msgid "Luzius Thöny (lucius-antonius)"
 msgstr "Luzius Thöny (lucius-antonius)"
 
-#: desktop-guide/C/index.xml:47(para)
+#: desktop-guide/C/index.xml:48(para)
 msgid ""
 "This document is made available under the Creative Commons ShareAlike 2.5 "
 "License (CC-BY-SA)."
@@ -4127,7 +4136,7 @@ msgstr ""
 "Este documento está disponible bajo la licencia Creative Commons ShareAlike "
 "2.5 (CC-BY-SA)."
 
-#: desktop-guide/C/index.xml:48(para)
+#: desktop-guide/C/index.xml:49(para)
 msgid ""
 "You are free to modify, extend, and improve the Ubuntu documentation source "
 "code under the terms of this license. All derivative works must be released "
@@ -4137,7 +4146,7 @@ msgstr ""
 "documentación de Ubuntu bajo los términos de esta licencia. Todos los "
 "trabajos derivados deben publicarse bajo esta licencia."
 
-#: desktop-guide/C/index.xml:50(para)
+#: desktop-guide/C/index.xml:51(para)
 msgid ""
 "This documentation is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
@@ -4148,7 +4157,7 @@ msgstr ""
 "o de que SEA ADECUADA PARA UN PROPÓSITO PARTICULAR, TAL Y COMO SE INDICA EN "
 "LA CLÁUSULA DE EXENCIÓN DE RESPONSABILIDAD."
 
-#: desktop-guide/C/index.xml:53(para)
+#: desktop-guide/C/index.xml:54(para)
 msgid ""
 "A copy of the license is available here: <link linkend=\"cc-by-sa\">Creative "
 "Commons ShareAlike License</link>."
@@ -4156,7 +4165,7 @@ msgstr ""
 "Puede encontrar una copia de la licencia aquí: <link linkend=\"cc-by-"
 "sa\">Licencia Creative Commons ShareAlike</link>."
 
-#: desktop-guide/C/index.xml:54(para)
+#: desktop-guide/C/index.xml:55(para)
 msgid ""
 "All trademarks or registered trademarks are the property of the respective "
 "owners."
@@ -4164,47 +4173,47 @@ msgstr ""
 "Todas las marcas comerciales o marcas comerciales registradas son propiedad "
 "de sus respectivos propietarios."
 
-#: desktop-guide/C/index.xml:58(year)
+#: desktop-guide/C/index.xml:59(year)
 msgid "2012"
 msgstr "2012"
 
-#: desktop-guide/C/index.xml:59(year)
+#: desktop-guide/C/index.xml:60(year)
 msgid "2013"
 msgstr "2013"
 
-#: desktop-guide/C/index.xml:60(year)
+#: desktop-guide/C/index.xml:61(year)
 msgid "2014"
 msgstr "2014"
 
-#: desktop-guide/C/index.xml:61(year)
+#: desktop-guide/C/index.xml:62(year)
 msgid "2015"
 msgstr "2015"
 
-#: desktop-guide/C/index.xml:62(holder)
-msgid "Canonical Ltd. and members of the Xubuntu Documentation team."
-msgstr "Canonical Ltd. y miembros del equipo de documentación de Xubuntu."
+#: desktop-guide/C/index.xml:63(holder)
+msgid ""
+"The Xubuntu documentation team. Xubuntu and Canonical are registered "
+"trademarks of Canonical Ltd."
+msgstr ""
 
-#: desktop-guide/C/index.xml:66(publishername)
-msgid "The Ubuntu Documentation Project"
-msgstr "Proyecto de documentación de Ubuntu"
+#: desktop-guide/C/index.xml:67(publishername)
+msgid "The Xubuntu documentation team"
+msgstr ""
 
-#: desktop-guide/C/index.xml:69(title)
+#: desktop-guide/C/index.xml:70(title)
 msgid "Welcome!"
 msgstr "¡Bienvenido!"
 
-#: desktop-guide/C/index.xml:71(para)
+#: desktop-guide/C/index.xml:72(para)
 msgid ""
-"This documentation provides information to the most common issues with "
-"Xubuntu, including:"
+"This documentation provides information on some of the most common issues "
+"with Xubuntu, including:"
 msgstr ""
-"Esta documentación proporciona información a los problemas más comunes con "
-"Xubuntu, incluyendo:"
 
-#: desktop-guide/C/index.xml:76(para)
+#: desktop-guide/C/index.xml:77(para)
 msgid "In addition, this documentation has three quick guides:"
 msgstr "Además, esta documentación tiene tres guías rápidas:"
 
-#: desktop-guide/C/index.xml:82(para)
+#: desktop-guide/C/index.xml:83(para)
 msgid ""
 "The complete set of topics is listed below. If you require help with a topic "
 "or problem that is not addressed by the documentation, go to the <ulink "
@@ -4217,7 +4226,7 @@ msgstr ""
 "&amp; Support</ulink>. Allí podrá encontrar enlaces a recursos de ayuda "
 "adicionales."
 
-#: desktop-guide/C/index.xml:84(para)
+#: desktop-guide/C/index.xml:85(para)
 msgid ""
 "If you would like to contribute to Xubuntu, including this documentation, "
 "see the <ulink url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> "
@@ -7221,6 +7230,11 @@ msgstr ""
 "  nat6091 https://launchpad.net/~nat6091\n"
 "  rinopopo https://launchpad.net/~rinopopo"
 
+#~ msgid ""
+#~ "@@image: '../libs/images/key_icon.png'; md5=e35650403dee999b00c36b8d9a4f8b8a"
+#~ msgstr ""
+#~ "@@image: '../libs/images/key_icon.png'; md5=e35650403dee999b00c36b8d9a4f8b8a"
+
 #~ msgid "Sean Davis (smd-seandavis)"
 #~ msgstr "Sean Davis (smd-seandavis)"
 
@@ -7229,6 +7243,12 @@ msgstr ""
 
 #~ msgid "Unit 193 (Unit193)"
 #~ msgstr "Unit 193 (Unit193)"
+
+#~ msgid "The Ubuntu Documentation Project"
+#~ msgstr "Proyecto de documentación de Ubuntu"
+
+#~ msgid "Canonical Ltd. and members of the Xubuntu Documentation team."
+#~ msgstr "Canonical Ltd. y miembros del equipo de documentación de Xubuntu."
 
 #~ msgid "abiword"
 #~ msgstr "abiword"
@@ -7241,6 +7261,13 @@ msgstr ""
 
 #~ msgid "gnumeric"
 #~ msgstr "gnumeric"
+
+#~ msgid ""
+#~ "@@image: '../libs/images/preferences-desktop.png'; "
+#~ "md5=805e5ff06267de7ea2e15f257bf1a825"
+#~ msgstr ""
+#~ "@@image: '../libs/images/preferences-desktop.png'; "
+#~ "md5=805e5ff06267de7ea2e15f257bf1a825"
 
 #~ msgid ""
 #~ "<application>AbiWord</application> has been provided as a lightweight but "
@@ -7273,6 +7300,20 @@ msgstr ""
 #~ "descargables ofrecidos por The Document Foundation ya que carecen de los "
 #~ "parches y ajustes específicos de Ubuntu que sí están disponibles desde los "
 #~ "repositorios."
+
+#~ msgid ""
+#~ "This documentation is maintained by the Xubuntu Documentation team and is "
+#~ "partly adapted from the Ubuntu documentation."
+#~ msgstr ""
+#~ "Esta documentación está mantenida por el equipo de documentación de Xubuntu "
+#~ "y está adaptada parcialmente de la documentación de Ubuntu."
+
+#~ msgid ""
+#~ "This documentation provides information to the most common issues with "
+#~ "Xubuntu, including:"
+#~ msgstr ""
+#~ "Esta documentación proporciona información a los problemas más comunes con "
+#~ "Xubuntu, incluyendo:"
 
 #~ msgid ""
 #~ "<application>GIMP</application>, an advanced picture editor. You can use it "

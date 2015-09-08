@@ -7,15 +7,33 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-05-10 22:28+0100\n"
+"POT-Creation-Date: 2015-09-07 18:47+0300\n"
 "PO-Revision-Date: 2015-05-04 22:30+0000\n"
 "Last-Translator: Pasi Lallinaho <pasi@shimmerproject.org>\n"
 "Language-Team: Indonesian <id@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-08-25 06:01+0000\n"
-"X-Generator: Launchpad (build 17690)\n"
+"X-Launchpad-Export-Date: 2015-09-08 06:18+0000\n"
+"X-Generator: Launchpad (build 17706)\n"
+
+#: desktop-guide/C/xi-pdf-files.xml:2(para)
+msgid ""
+"<emphasis>Would you rather read this documentation in PDF?</emphasis> Select "
+"your preferred paper size: <ulink url=\"xubuntu-documentation-"
+"A4.pdf\">A4</ulink> or <ulink url=\"xubuntu-documentation-USletter.pdf\">US "
+"letter</ulink>."
+msgstr ""
+
+#: desktop-guide/C/xi-translators-not-found.xml:1(para)
+msgid ""
+"Translator data could not be acquired, please see <ulink "
+"url=\"https://translations.launchpad.net/xubuntu-docs\">Launchpad</ulink>."
+msgstr ""
+
+#: desktop-guide/C/xi-translator-credits.xml:1(para)
+msgid "The contributors to this translation of the documentation are:"
+msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -477,7 +495,7 @@ msgstr ""
 #: desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/settings-preferences.xml:0(None) desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/printing-scanning.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/migrating-upgrading.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/managing-applications.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/guide-keeping-safe.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/administrative-tasks.xml:0(None)
 msgid ""
 "@@image: '../libs/images/preferences-desktop.png'; "
-"md5=805e5ff06267de7ea2e15f257bf1a825"
+"md5=50af8eb87047c848e38291e5616ad45b"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -1670,7 +1688,7 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: desktop-guide/C/media-apps.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/internet-networks.xml:0(None) desktop-guide/C/hardware-devices.xml:0(None) desktop-guide/C/guide-keeping-safe.xml:0(None) desktop-guide/C/guide-keeping-safe.xml:0(None) desktop-guide/C/guide-desktop.xml:0(None) desktop-guide/C/command-line.xml:0(None)
 msgid ""
-"@@image: '../libs/images/key_icon.png'; md5=e35650403dee999b00c36b8d9a4f8b8a"
+"@@image: '../libs/images/key_icon.png'; md5=3b74de7a9c7025bf740f5ff3657f34d2"
 msgstr ""
 
 #: desktop-guide/C/media-apps.xml:12(title)
@@ -2963,7 +2981,7 @@ msgstr ""
 
 #: desktop-guide/C/index.xml:18(para)
 msgid ""
-"This documentation is maintained by the Xubuntu Documentation team and is "
+"This documentation is maintained by the Xubuntu documentation team and is "
 "partly adapted from the Ubuntu documentation."
 msgstr ""
 
@@ -3015,105 +3033,103 @@ msgstr ""
 msgid "Unit 193 (unit193)"
 msgstr ""
 
-#: desktop-guide/C/index.xml:35(para)
-msgid "The contributors to this translation of the documentation are:"
-msgstr ""
-
-#: desktop-guide/C/index.xml:38(para)
+#: desktop-guide/C/index.xml:39(para)
 msgid "The contributors to previous versions to this documentation are:"
 msgstr ""
 
-#: desktop-guide/C/index.xml:40(para)
+#: desktop-guide/C/index.xml:41(para)
 msgid "Cody A.W. Somerville (cody-somerville)"
 msgstr ""
 
-#: desktop-guide/C/index.xml:41(para)
+#: desktop-guide/C/index.xml:42(para)
 msgid "Freddy Martinez (freddymartinez9)"
 msgstr ""
 
-#: desktop-guide/C/index.xml:42(para)
+#: desktop-guide/C/index.xml:43(para)
 msgid "Jan M. (fijam7)"
 msgstr ""
 
-#: desktop-guide/C/index.xml:43(para)
+#: desktop-guide/C/index.xml:44(para)
 msgid "Jim Campbell (jwcampbell)"
 msgstr ""
 
-#: desktop-guide/C/index.xml:44(para)
+#: desktop-guide/C/index.xml:45(para)
 msgid "Luzius Thöny (lucius-antonius)"
 msgstr ""
 
-#: desktop-guide/C/index.xml:47(para)
+#: desktop-guide/C/index.xml:48(para)
 msgid ""
 "This document is made available under the Creative Commons ShareAlike 2.5 "
 "License (CC-BY-SA)."
 msgstr ""
 
-#: desktop-guide/C/index.xml:48(para)
+#: desktop-guide/C/index.xml:49(para)
 msgid ""
 "You are free to modify, extend, and improve the Ubuntu documentation source "
 "code under the terms of this license. All derivative works must be released "
 "under this license."
 msgstr ""
 
-#: desktop-guide/C/index.xml:50(para)
+#: desktop-guide/C/index.xml:51(para)
 msgid ""
 "This documentation is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE AS DESCRIBED IN THE DISCLAIMER."
 msgstr ""
 
-#: desktop-guide/C/index.xml:53(para)
+#: desktop-guide/C/index.xml:54(para)
 msgid ""
 "A copy of the license is available here: <link linkend=\"cc-by-sa\">Creative "
 "Commons ShareAlike License</link>."
 msgstr ""
 
-#: desktop-guide/C/index.xml:54(para)
+#: desktop-guide/C/index.xml:55(para)
 msgid ""
 "All trademarks or registered trademarks are the property of the respective "
 "owners."
 msgstr ""
 
-#: desktop-guide/C/index.xml:58(year)
+#: desktop-guide/C/index.xml:59(year)
 msgid "2012"
 msgstr ""
 
-#: desktop-guide/C/index.xml:59(year)
+#: desktop-guide/C/index.xml:60(year)
 msgid "2013"
 msgstr ""
 
-#: desktop-guide/C/index.xml:60(year)
+#: desktop-guide/C/index.xml:61(year)
 msgid "2014"
 msgstr ""
 
-#: desktop-guide/C/index.xml:61(year)
+#: desktop-guide/C/index.xml:62(year)
 msgid "2015"
 msgstr ""
 
-#: desktop-guide/C/index.xml:62(holder)
-msgid "Canonical Ltd. and members of the Xubuntu Documentation team."
+#: desktop-guide/C/index.xml:63(holder)
+msgid ""
+"The Xubuntu documentation team. Xubuntu and Canonical are registered "
+"trademarks of Canonical Ltd."
 msgstr ""
 
-#: desktop-guide/C/index.xml:66(publishername)
-msgid "The Ubuntu Documentation Project"
+#: desktop-guide/C/index.xml:67(publishername)
+msgid "The Xubuntu documentation team"
 msgstr ""
 
-#: desktop-guide/C/index.xml:69(title)
+#: desktop-guide/C/index.xml:70(title)
 msgid "Welcome!"
 msgstr ""
 
-#: desktop-guide/C/index.xml:71(para)
+#: desktop-guide/C/index.xml:72(para)
 msgid ""
-"This documentation provides information to the most common issues with "
-"Xubuntu, including:"
+"This documentation provides information on some of the most common issues "
+"with Xubuntu, including:"
 msgstr ""
 
-#: desktop-guide/C/index.xml:76(para)
+#: desktop-guide/C/index.xml:77(para)
 msgid "In addition, this documentation has three quick guides:"
 msgstr ""
 
-#: desktop-guide/C/index.xml:82(para)
+#: desktop-guide/C/index.xml:83(para)
 msgid ""
 "The complete set of topics is listed below. If you require help with a topic "
 "or problem that is not addressed by the documentation, go to the <ulink "
@@ -3121,7 +3137,7 @@ msgid ""
 "Xubuntu website. There you will find links to additional help resources."
 msgstr ""
 
-#: desktop-guide/C/index.xml:84(para)
+#: desktop-guide/C/index.xml:85(para)
 msgid ""
 "If you would like to contribute to Xubuntu, including this documentation, "
 "see the <ulink url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> "
