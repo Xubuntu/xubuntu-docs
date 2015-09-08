@@ -45,7 +45,7 @@ shipped_languages () {
 	percreq="70"
 	echo "Updating LINGUAS ..."
 	for po in po/*.po; do
-		percdone=$(msgfmt -o /dev/null --statistics $po 2>&1 | awk '{printf "%.0f\n", $1 / ($1 + $4 + $7) * 100}')
+		percdone=$(msgfmt -o /dev/null --statistics $po 2>&1 | awk '{printf "%.0f", $1 / ($1 + $4 + $7) * 100}')
 		if [ "$percdone" -ge "$percreq" ]; then
 			basename $po .po
 		fi
@@ -54,13 +54,13 @@ shipped_languages () {
 
 while getopts ":gl:u" opt; do
 	case $opt in
-	g)
-		generated="yes";;
-	l)
-		language=$OPTARG;;
-	u)
-		shipped_languages
-		exit;;
+		g)
+			generated="yes";;
+		l)
+			language=$OPTARG;;
+		u)
+			shipped_languages
+			exit;;
 	esac
 done
 

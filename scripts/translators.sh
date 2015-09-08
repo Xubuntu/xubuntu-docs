@@ -2,14 +2,12 @@
 
 build_creds () {
 	for lang in $@; do
-		echo '<?xml version="1.0" encoding="utf-8"?><section>' > $lang/translators.xml
-		translator_credits=$(tail -q -n +2 $lang/xi-translator-credits.xml)
-		echo $translator_credits >> $lang/translators.xml
+		printf '<?xml version="1.0" encoding="utf-8"?>\n<section>\n' > $lang/translators.xml
+		tail -n +2 $lang/xi-translator-credits.xml >> $lang/translators.xml
 
 		translators=$(sed -n '/^msgid "translator-credits"/,/^$/ {s@^"[ ]*\(.\+\)[ ]\+https://launchpad.net/~\([^ \\"]\+\).*$@\t<listitem><para>\1 (\2)</para></listitem>@p;/^$/Q}' po/$lang.po | sort -u)
 		if [ -z "$translators" ]; then
-			translators_not_found=$(tail -q -n +2 $lang/xi-translators-not-found.xml)
-			echo $translators_not_found >> $lang/translators.xml
+			tail -n +2 $lang/xi-translators-not-found.xml >> $lang/translators.xml
 		else
 			printf "<itemizedlist>\n%b\n</itemizedlist>\n" "$translators" >> $lang/translators.xml
 		fi
@@ -20,10 +18,10 @@ build_creds () {
 
 while getopts ":gl:" opt; do
 	case $opt in
-	g)
-		generated="yes";;
-	l)
-		language=$OPTARG;;
+		g)
+			generated="yes";;
+		l)
+			language=$OPTARG;;
 	esac
 done
 
