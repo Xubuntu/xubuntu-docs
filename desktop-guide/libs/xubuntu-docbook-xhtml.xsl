@@ -57,7 +57,7 @@
 	<!-- Show all subpages directly below the mainpage -->
 	<xsl:param name="chunk.section.depth" select="0" />
 
-	<!-- Inline Formatting -->
+	<!-- Formatting -->
 	<xsl:template match="application">
 		<xsl:call-template name="inline.boldseq"/>
 	</xsl:template>
@@ -70,6 +70,9 @@
 	<xsl:template match="processing-instruction('br')">
 		<br />
 		<fo:block/>
+	</xsl:template>
+	<xsl:template match="section[@role = 'pdf-links']" mode="class.value">
+		<xsl:value-of select="'pdf-links'"/>
 	</xsl:template>
 
 	<!-- Icons -->

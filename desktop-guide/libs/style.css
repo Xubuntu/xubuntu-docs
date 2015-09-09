@@ -415,11 +415,6 @@ ul.inline li {
 .pdf-links {
 	margin-bottom: 1em;
 }
-	.pdf-links .title {
-		font-weight: bold;
-		color: #555;
-	}
-	.pdf-links ul.inline {
-		display: inline;
-		margin-left: 0.5em;
+	.pdf-links p {
+		margin-bottom: 0;
 	}
