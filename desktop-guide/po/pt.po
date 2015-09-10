@@ -7,34 +7,43 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-09-07 18:47+0300\n"
-"PO-Revision-Date: 2015-05-04 22:30+0000\n"
+"POT-Creation-Date: 2015-09-09 19:24+0300\n"
+"PO-Revision-Date: 2015-09-09 16:33+0000\n"
 "Last-Translator: David Pires <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-09-08 06:18+0000\n"
+"X-Launchpad-Export-Date: 2015-09-10 06:36+0000\n"
 "X-Generator: Launchpad (build 17706)\n"
 "Language: pt\n"
 
-#: desktop-guide/C/xi-pdf-files.xml:2(para)
+#: desktop-guide/C/xi-pdf-files.xml:3(emphasis)
+msgid "Would you rather read this documentation in PDF?"
+msgstr "Prefere ler esta documentação em PDF?"
+
+#: desktop-guide/C/xi-pdf-files.xml:5(para)
 msgid ""
-"<emphasis>Would you rather read this documentation in PDF?</emphasis> Select "
-"your preferred paper size: <ulink url=\"xubuntu-documentation-"
+"Select your preferred paper size: <ulink url=\"xubuntu-documentation-"
 "A4.pdf\">A4</ulink> or <ulink url=\"xubuntu-documentation-USletter.pdf\">US "
 "letter</ulink>."
 msgstr ""
+"Selecione o tamanho do papel preferido: <ulink url=\"xubuntu-documentation-"
+"A4.pdf\">A4</ulink> ou <ulink url=\"xubuntu-documentation-USletter.pdf\">US "
+"letter</ulink>."
 
 #: desktop-guide/C/xi-translators-not-found.xml:1(para)
 msgid ""
 "Translator data could not be acquired, please see <ulink "
 "url=\"https://translations.launchpad.net/xubuntu-docs\">Launchpad</ulink>."
 msgstr ""
+"Os dados pessoais do tradutor não conseguiram ser adquiridos, por favor "
+"consulte <ulink url=\"https://translations.launchpad.net/xubuntu-"
+"docs\">Launchpad</ulink>."
 
 #: desktop-guide/C/xi-translator-credits.xml:1(para)
 msgid "The contributors to this translation of the documentation are:"
-msgstr "Os contribuidores para esta tradução da documentação são:"
+msgstr "Os contribuidores desta tradução da documentação são:"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -113,11 +122,11 @@ msgstr "Seletor de caracteres Unicode e navegador de fontes"
 
 #: desktop-guide/C/appendix-packages.xml:21(seg)
 msgid "LibreOffice Calc"
-msgstr ""
+msgstr "LibreOffice Calc"
 
 #: desktop-guide/C/appendix-packages.xml:21(seg)
 msgid "libreoffice-calc"
-msgstr ""
+msgstr "libreoffice-calc"
 
 #: desktop-guide/C/appendix-packages.xml:21(seg)
 msgid "Spreadsheet application"
@@ -125,11 +134,11 @@ msgstr "Aplicação de folha de cálculo"
 
 #: desktop-guide/C/appendix-packages.xml:22(seg)
 msgid "LibreOffice Writer"
-msgstr ""
+msgstr "LibreOffice Writer"
 
 #: desktop-guide/C/appendix-packages.xml:22(seg)
 msgid "libreoffice-writer"
-msgstr ""
+msgstr "libreoffice-writer"
 
 #: desktop-guide/C/appendix-packages.xml:22(seg)
 msgid "Word processor"
@@ -546,6 +555,8 @@ msgid ""
 "@@image: '../libs/images/preferences-desktop.png'; "
 "md5=50af8eb87047c848e38291e5616ad45b"
 msgstr ""
+"@@image: '../libs/images/preferences-desktop.png'; "
+"md5=50af8eb87047c848e38291e5616ad45b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2253,6 +2264,7 @@ msgstr ""
 msgid ""
 "@@image: '../libs/images/key_icon.png'; md5=3b74de7a9c7025bf740f5ff3657f34d2"
 msgstr ""
+"@@image: '../libs/images/key_icon.png'; md5=3b74de7a9c7025bf740f5ff3657f34d2"
 
 #: desktop-guide/C/media-apps.xml:12(title)
 msgid "Media applications"
@@ -4070,6 +4082,8 @@ msgid ""
 "This documentation is maintained by the Xubuntu documentation team and is "
 "partly adapted from the Ubuntu documentation."
 msgstr ""
+"Esta documentação é mantida pela equipa de documentação do Xubuntu e é "
+"parcialmente adaptada a partir da documentação do Ubuntu."
 
 #: desktop-guide/C/index.xml:20(para)
 msgid "The contributors to this documentation are:"
@@ -4085,7 +4099,7 @@ msgstr "Elizabeth Krumbach (lyz)"
 
 #: desktop-guide/C/index.xml:24(para)
 msgid "Jack Fromm (jjfrv8)"
-msgstr ""
+msgstr "Jack Fromm (jjfrv8)"
 
 #: desktop-guide/C/index.xml:25(para)
 msgid "Jay van Cooten (skippersboss)"
@@ -4097,7 +4111,7 @@ msgstr "Kev (elfy)"
 
 #: desktop-guide/C/index.xml:27(para)
 msgid "Krytarik Raido (krytarik)"
-msgstr ""
+msgstr "Krytarik Raido (krytarik)"
 
 #: desktop-guide/C/index.xml:28(para)
 msgid "Pasi Lallinaho (knome)"
@@ -4105,7 +4119,7 @@ msgstr "Pasi Lallinaho (knome)"
 
 #: desktop-guide/C/index.xml:29(para)
 msgid "Sean Davis (bluesabre)"
-msgstr ""
+msgstr "Sean Davis (bluesabre)"
 
 #: desktop-guide/C/index.xml:30(para)
 msgid "Stephen Michael Kellat (skellat)"
@@ -4117,7 +4131,7 @@ msgstr "Steve Dodier-Lazaro (sidi)"
 
 #: desktop-guide/C/index.xml:32(para)
 msgid "Unit 193 (unit193)"
-msgstr ""
+msgstr "Unit 193 (unit193)"
 
 #: desktop-guide/C/index.xml:39(para)
 msgid "The contributors to previous versions to this documentation are:"
@@ -4208,10 +4222,12 @@ msgid ""
 "The Xubuntu documentation team. Xubuntu and Canonical are registered "
 "trademarks of Canonical Ltd."
 msgstr ""
+"A equipa de documentação Xubuntu. Xubuntu e Canonical são marcas registradas "
+"da Canonical Ltd."
 
 #: desktop-guide/C/index.xml:67(publishername)
 msgid "The Xubuntu documentation team"
-msgstr ""
+msgstr "Equipa de documentação Xubuntu."
 
 #: desktop-guide/C/index.xml:70(title)
 msgid "Welcome!"
@@ -4222,6 +4238,8 @@ msgid ""
 "This documentation provides information on some of the most common issues "
 "with Xubuntu, including:"
 msgstr ""
+"Esta documentação fornece informações para os problemas mais comuns com o "
+"Xubuntu, incluindo:"
 
 #: desktop-guide/C/index.xml:77(para)
 msgid "In addition, this documentation has three quick guides:"
@@ -6545,6 +6563,10 @@ msgid ""
 "url=\"https://www.libreoffice.org/discover/writer/\">LibreOffice Writer "
 "website</ulink>."
 msgstr ""
+"O <application>LibreOffice Writer</application> é um processador de texto "
+"WYSIWYG com extensas capacidade de processamento. Leia mais em <ulink "
+"url=\"https://www.libreoffice.org/discover/writer/\">LibreOffice Writer "
+"website</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:53(para)
 msgid ""
@@ -6554,6 +6576,12 @@ msgid ""
 "the <ulink url=\"https://www.libreoffice.org/discover/calc/\">LibreOffice "
 "Calc website</ulink>."
 msgstr ""
+"O <application>LibreOffice Calc</application> é um editor de folhas de "
+"cálculo com uma série de características únicas, incluindo um sistema que "
+"define automaticamente séries de gráficos, com base em informações "
+"disponibilizados pelo utilizador. Leia mais em <ulink "
+"url=\"https://www.libreoffice.org/discover/calc/\">LibreOffice Calc "
+"website</ulink>."
 
 #: desktop-guide/C/guide-default-apps.xml:55(para)
 msgid ""
