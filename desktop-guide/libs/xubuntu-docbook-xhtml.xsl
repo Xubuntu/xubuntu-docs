@@ -17,10 +17,7 @@
 	<xsl:param name="shade.verbatim" select="0"/>
 	<xsl:param name="draft.mode" select="'no'"/>
 
-	<!-- Disable scaling (which is needed for PDF generation) -->
-	<!-- Does the Xubuntu documentation require this? -->
-	<xsl:param name="ignore.image.scaling" select="1"/>
-
+	<!-- Write HTML header -->
 	<xsl:template name="user.head.content">
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="../libs/images/favicon.png" />
@@ -31,7 +28,7 @@
 		<link rel="stylesheet" href="../libs/style-smallest.css" media="only screen and (max-width:400px)" />
 	</xsl:template>
 
-	<!-- Header -->
+	<!-- Print header with logo -->
 	<xsl:template name="header.navigation">
 		<xsl:variable name="home" select="/*[1]"/>
 		<xsl:variable name="up" select="parent::*"/>
@@ -71,7 +68,7 @@
 		<br />
 		<fo:block/>
 	</xsl:template>
-	<xsl:template match="section[@role = 'pdf-links']" mode="class.value">
+	<xsl:template match="formalpara[@role = 'pdf-links']" mode="class.value">
 		<xsl:value-of select="'pdf-links'"/>
 	</xsl:template>
 

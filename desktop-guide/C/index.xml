@@ -32,6 +32,9 @@
 				<listitem><para>Unit 193 (unit193)</para></listitem>
 			</itemizedlist>
 
+			<xi:include href="translator-credits.xml" xmlns:xi="http://www.w3.org/2001/XInclude">
+				<xi:fallback></xi:fallback>
+			</xi:include>
 			<xi:include href="translators.xml" xmlns:xi="http://www.w3.org/2001/XInclude">
 				<xi:fallback></xi:fallback>
 			</xi:include>
@@ -66,6 +69,7 @@
 		<publisher>
 			<publishername>The Xubuntu documentation team</publishername>
 		</publisher>
+
 		<abstract>
 			<title>Welcome!</title>
 

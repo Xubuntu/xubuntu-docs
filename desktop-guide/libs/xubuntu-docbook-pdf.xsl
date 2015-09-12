@@ -139,57 +139,30 @@
 	</xsl:template>
 
 	<!-- Don't show links to PDF files in PDF files -->
-	<xsl:template match="section[@role= 'pdf-links']">
+	<xsl:template match="formalpara[@role= 'pdf-links']">
 	</xsl:template>
 
-	<!-- Title page -->
-<xsl:template name="book.titlepage.recto">
-  <fo:block>
-    <fo:table inline-progression-dimension="100%" table-layout="fixed">
-      <fo:table-column column-width="50%"/>
-      <fo:table-column column-width="50%"/>
-      <fo:table-body>
-        <fo:table-row >
-          <fo:table-cell number-columns-spanned="2">
-            <fo:block text-align="center">
-              <xsl:choose>
-                <xsl:when test="bookinfo/title">
-                  <xsl:apply-templates 
-                         mode="book.titlepage.recto.auto.mode" 
-                         select="bookinfo/title"/>
-                </xsl:when>
-                <xsl:when test="title">
-                  <xsl:apply-templates 
-                         mode="book.titlepage.recto.auto.mode" 
-                         select="title"/>
-                </xsl:when>
-              </xsl:choose>
-            </fo:block>
-          </fo:table-cell>
-        </fo:table-row>
-        <fo:table-row >
-          <fo:table-cell number-columns-spanned="2">
-            <fo:block text-align="center">
-					<fo:external-graphic src="../libs/images/logo.svg"/>
-            </fo:block>
-          </fo:table-cell>
-        </fo:table-row>
-        <fo:table-row >
-          <fo:table-cell number-columns-spanned="2">
-            <fo:block text-align="center">
-              <xsl:choose>
-                <xsl:when test="bookinfo/copyright/holder">
-                  <xsl:apply-templates 
-                         mode="book.titlepage.recto.auto.mode" 
-                         select="bookinfo/copyright/holder"/>
-                </xsl:when>
-              </xsl:choose>
-            </fo:block>
-          </fo:table-cell>
-        </fo:table-row>
-      </fo:table-body> 
-    </fo:table>
-  </fo:block>
-</xsl:template>
+	<!-- Title page, recto -->
+	<xsl:template name="book.titlepage.recto">
+		<fo:block text-align="center">
+			<xsl:apply-templates mode="book.titlepage.recto.auto.mode" select="title" />
+			<fo:external-graphic src="../libs/images/logo.svg"/>
+			<fo:block>
+				<xsl:apply-templates mode="book.titlepage.recto.auto.mode" select="bookinfo/copyright/holder"/>
+			</fo:block>
+		</fo:block>
+	</xsl:template>
+
+	<!-- Title page, verso -->
+	<xsl:template name="book.titlepage.verso">
+		<fo:block>
+			<xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="bookinfo/title" />
+			<xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="bookinfo/copyright" />
+			<xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="bookinfo/legalnotice" />
+		</fo:block>
+		<fo:block page-break-before="always">
+			<xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="bookinfo/abstract" />
+		</fo:block>
+	</xsl:template>
 
 </xsl:stylesheet>

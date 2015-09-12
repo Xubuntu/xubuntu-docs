@@ -15,6 +15,9 @@ xubuntu-docs (15.10.0) UNRELEASED; urgency=medium
   * Hide translator credits from C
   * Hide PDF links from the PDF files itself
   * Improve Makefiles and scripts
+  * Improve the recto/verso page templates
+    - No unnecessary formatting tags
+    - Print the abstract on its own page, after the copyright notices
 
   [ Krytarik Raido ]
   * Link to the PDF files from the documentation

@@ -406,15 +406,11 @@ p .application .guimenu {
 }
 
 /* PDF links */
-ul.inline li {
-	list-style-type: none;
-	display: inline;
-	margin-right: 0.5em;
-}
 
 .pdf-links {
 	margin-bottom: 1em;
 }
-	.pdf-links p {
-		margin-bottom: 0;
+	.pdf-links strong {
+		display: block;
 	}
+
