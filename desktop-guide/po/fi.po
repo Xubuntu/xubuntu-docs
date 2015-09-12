@@ -8,19 +8,19 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-09-09 19:24+0300\n"
-"PO-Revision-Date: 2015-09-02 21:36+0000\n"
+"PO-Revision-Date: 2015-09-11 23:45+0000\n"
 "Last-Translator: Pasi Lallinaho <pasi@shimmerproject.org>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-09-10 06:35+0000\n"
-"X-Generator: Launchpad (build 17706)\n"
+"X-Launchpad-Export-Date: 2015-09-12 05:42+0000\n"
+"X-Generator: Launchpad (build 17720)\n"
 "Language: fi\n"
 
 #: desktop-guide/C/xi-pdf-files.xml:3(emphasis)
 msgid "Would you rather read this documentation in PDF?"
-msgstr ""
+msgstr "Lukisitko dokumentaation mieluummin PDF-muodossa?"
 
 #: desktop-guide/C/xi-pdf-files.xml:5(para)
 msgid ""
@@ -28,12 +28,18 @@ msgid ""
 "A4.pdf\">A4</ulink> or <ulink url=\"xubuntu-documentation-USletter.pdf\">US "
 "letter</ulink>."
 msgstr ""
+"Valitse haluamasi paperin koko: <ulink url=\"xubuntu-documentation-"
+"A4.pdf\">A4</ulink> tai <ulink url=\"xubuntu-documentation-USletter.pdf\">US "
+"letter</ulink>."
 
 #: desktop-guide/C/xi-translators-not-found.xml:1(para)
 msgid ""
 "Translator data could not be acquired, please see <ulink "
 "url=\"https://translations.launchpad.net/xubuntu-docs\">Launchpad</ulink>."
 msgstr ""
+"Kääntäjien tietoja ei voitu hakea, ole hyvä ja lue tiedot <ulink "
+"url=\"https://translations.launchpad.net/xubuntu-"
+"docs\">Launchpadista</ulink>."
 
 #: desktop-guide/C/xi-translator-credits.xml:1(para)
 msgid "The contributors to this translation of the documentation are:"
@@ -553,6 +559,8 @@ msgid ""
 "@@image: '../libs/images/preferences-desktop.png'; "
 "md5=50af8eb87047c848e38291e5616ad45b"
 msgstr ""
+"@@image: '../libs/images/preferences-desktop.png'; "
+"md5=50af8eb87047c848e38291e5616ad45b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2227,6 +2235,7 @@ msgstr ""
 msgid ""
 "@@image: '../libs/images/key_icon.png'; md5=3b74de7a9c7025bf740f5ff3657f34d2"
 msgstr ""
+"@@image: '../libs/images/key_icon.png'; md5=3b74de7a9c7025bf740f5ff3657f34d2"
 
 #: desktop-guide/C/media-apps.xml:12(title)
 msgid "Media applications"
@@ -4032,6 +4041,8 @@ msgid ""
 "This documentation is maintained by the Xubuntu documentation team and is "
 "partly adapted from the Ubuntu documentation."
 msgstr ""
+"Tätä dokumentaatiota ylläpitää Xubuntun dokumentaatiotiimi ja se on osittain "
+"sovellettu Ubuntun dokumentaatiosta."
 
 #: desktop-guide/C/index.xml:20(para)
 msgid "The contributors to this documentation are:"
@@ -4169,10 +4180,12 @@ msgid ""
 "The Xubuntu documentation team. Xubuntu and Canonical are registered "
 "trademarks of Canonical Ltd."
 msgstr ""
+"Xubuntun dokumentaatiotiimi. Xubuntu ja Canonical on Canonical Ltd.:n "
+"rekisteröityjä tavaramerkkejä."
 
 #: desktop-guide/C/index.xml:67(publishername)
 msgid "The Xubuntu documentation team"
-msgstr ""
+msgstr "Xubuntun dokumentatiotiimi"
 
 #: desktop-guide/C/index.xml:70(title)
 msgid "Welcome!"
@@ -4183,6 +4196,8 @@ msgid ""
 "This documentation provides information on some of the most common issues "
 "with Xubuntu, including:"
 msgstr ""
+"Tämä dokumentaatio tarjoaa tietoja joihinkin Xubuntun tyypillisimpiin "
+"ongelmiin liittyen, mukaan lukien:"
 
 #: desktop-guide/C/index.xml:77(para)
 msgid "In addition, this documentation has three quick guides:"
