@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-09-09 19:24+0300\n"
-"PO-Revision-Date: 2015-09-07 10:15+0000\n"
-"Last-Translator: David Pires <Unknown>\n"
+"PO-Revision-Date: 2015-09-17 12:04+0000\n"
+"Last-Translator: Krytarik Raido <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-09-10 06:35+0000\n"
-"X-Generator: Launchpad (build 17706)\n"
+"X-Launchpad-Export-Date: 2015-09-18 05:43+0000\n"
+"X-Generator: Launchpad (build 17746)\n"
 "Language: de\n"
 
 #: desktop-guide/C/xi-pdf-files.xml:3(emphasis)
@@ -372,11 +372,11 @@ msgstr "xfce4-indicator-plugin"
 
 #: desktop-guide/C/appendix-packages.xml:56(literal)
 msgid "<placeholder-1/>indicator-application"
-msgstr "<placeholder-1/>Anwendungsanzeige"
+msgstr "<placeholder-1/>indicator-application"
 
 #: desktop-guide/C/appendix-packages.xml:56(literal)
 msgid "<placeholder-1/>indicator-sound"
-msgstr "<placeholder-1/>Benachrichtigungston"
+msgstr "<placeholder-1/>indicator-sound"
 
 #: desktop-guide/C/appendix-packages.xml:56(seg)
 msgid "Panel plugin for the indicators (<placeholder-1/>, <placeholder-2/>)"
@@ -4137,6 +4137,8 @@ msgid ""
 "This documentation is maintained by the Xubuntu documentation team and is "
 "partly adapted from the Ubuntu documentation."
 msgstr ""
+"Diese Dokumentation wird durch das Xubuntu-Dokumentationsteam betreut und "
+"ist teilweise aus der Ubuntu Dokumentation übernommen."
 
 #: desktop-guide/C/index.xml:20(para)
 msgid "The contributors to this documentation are:"
@@ -4277,10 +4279,12 @@ msgid ""
 "The Xubuntu documentation team. Xubuntu and Canonical are registered "
 "trademarks of Canonical Ltd."
 msgstr ""
+"Das Xubuntu-Dokumentationsteam. Xubuntu und Canonical sind eingetragene "
+"Warenzeichen der Canonical Ltd."
 
 #: desktop-guide/C/index.xml:67(publishername)
 msgid "The Xubuntu documentation team"
-msgstr ""
+msgstr "Das Xubuntu-Dokumentationsteam"
 
 #: desktop-guide/C/index.xml:70(title)
 msgid "Welcome!"
@@ -5511,6 +5515,13 @@ msgid ""
 "definitive agreement among security researchers on how to reduce the risk of "
 "reusing passwords, but you should consider the following:"
 msgstr ""
+"Obwohl das Verwenden des gleichen Passworts für mehrere Accounts nicht "
+"empfohlen wird, tut dies am Ende fast jeder, sogar Sicherheits-Experten. "
+"Jedes Jahr werden viele bekannte Webseiten durch Hacker angegriffen. Einige "
+"Seiten verkaufen die Benutzer-Passwörter absichtlich an Dritte. Es gibt "
+"keine eindeutige Einigung unter Sicherheitsforschern wie das Risiko bei "
+"mehrfachen Nutzen eines Passwortes verringert werden kann, dennoch sollten "
+"Sie Folgendes bedenken:"
 
 #: desktop-guide/C/guide-keeping-safe.xml:108(para)
 msgid "Separate your professional password from your personal passwords."
@@ -6427,6 +6438,9 @@ msgid ""
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></me"
 "nuchoice>."
 msgstr ""
+"Für mehr Auswahlmöglichkeiten erkunden Sie weitere Optionen unter "
+"<menuchoice><guimenu>Bearbeiten</guimenu><guimenuitem>Einstellungen</guimenui"
+"tem></menuchoice>."
 
 #: desktop-guide/C/guide-default-apps.xml:12(title)
 msgid "Quick guide to default applications"
@@ -6688,6 +6702,9 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/RootSudo\">sudo page</ulink> on the "
 "Ubuntu community wiki."
 msgstr ""
+"Für mehr Informationen über <application>sudo</application>, besuchen Sie "
+"die <ulink url=\"https://help.ubuntu.com/community/RootSudo\">sudo "
+"Seite</ulink> im Ubuntu Community Wiki."
 
 #: desktop-guide/C/command-line.xml:40(title)
 msgid "Common commands"
