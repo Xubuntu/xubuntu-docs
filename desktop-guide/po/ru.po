@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-09-09 19:24+0300\n"
-"PO-Revision-Date: 2015-09-19 18:36+0000\n"
+"PO-Revision-Date: 2015-09-21 08:42+0000\n"
 "Last-Translator: Aleksey Kabanov <Unknown>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-09-20 04:59+0000\n"
-"X-Generator: Launchpad (build 17746)\n"
+"X-Launchpad-Export-Date: 2015-09-22 06:08+0000\n"
+"X-Generator: Launchpad (build 17749)\n"
 
 #: desktop-guide/C/xi-pdf-files.xml:3(emphasis)
 msgid "Would you rather read this documentation in PDF?"
@@ -1871,7 +1871,7 @@ msgstr ""
 
 #: desktop-guide/C/migrating-upgrading.xml:54(title)
 msgid "Upgrading Xubuntu"
-msgstr ""
+msgstr "Обновление версии Xubuntu"
 
 #: desktop-guide/C/migrating-upgrading.xml:56(para)
 msgid ""
@@ -1879,6 +1879,9 @@ msgid ""
 "support (LTS) releases are released every 2 years. Currently, regular "
 "releases are supported for 9 months and LTS releases for 3 years."
 msgstr ""
+"Новые обычные версии Xubuntu выпускаются каждые 6 месяцев. Версии с "
+"долговременной поддержкой (LTS) выходят каждые 2 года. В настоящее время "
+"обычные версии поддерживаются в течение 9 месяцев, а LTS — в течение 3 лет."
 
 #: desktop-guide/C/migrating-upgrading.xml:57(para)
 msgid ""
@@ -1893,10 +1896,13 @@ msgid ""
 "of packages must be downloaded and installed, although the actual figure "
 "will depend on how many packages are already installed on your computer."
 msgstr ""
+"Обновление обычно занимает много времени. Как правило, для этого должно быть "
+"загружено и установлено около 1000 мегабайт, хотя реальный объём зависит от "
+"того, сколько пакетов уже установлено на компьютере."
 
 #: desktop-guide/C/migrating-upgrading.xml:61(title)
 msgid "Upgrading to the next available release"
-msgstr ""
+msgstr "Обновление до следующего доступного выпуска"
 
 #: desktop-guide/C/migrating-upgrading.xml:64(para)
 msgid ""
@@ -1911,6 +1917,7 @@ msgid ""
 "If a new version of Xubuntu is available, a box at the top of the window "
 "will appear saying that a new distribution release is available"
 msgstr ""
+"Если доступна новая версия Xubuntu, наверху окна появится уведомление об этом"
 
 #: desktop-guide/C/migrating-upgrading.xml:66(para)
 msgid ""
@@ -1927,16 +1934,21 @@ msgid ""
 "you are expecting to upgrade to, see <xref linkend=\"changing-upgrade-"
 "path\"/>."
 msgstr ""
+"Если вы не получаете уведомление об обновлении или не видите в списке "
+"версии, до которой вы хотели бы выполнить обноление, смотрите <xref "
+"linkend=\"changing-upgrade-path\"/>."
 
 #: desktop-guide/C/migrating-upgrading.xml:73(title)
 msgid "Changing your upgrade path"
-msgstr ""
+msgstr "Изменение способа обновлений"
 
 #: desktop-guide/C/migrating-upgrading.xml:75(para)
 msgid ""
 "There are two main upgrade paths you can follow: either upgrade to long-term "
 "support (LTS) releases only, or upgrade to all releases."
 msgstr ""
+"Есть два основных способа: или только до выпусков с долгосрочной поддержкой "
+"(LTS), или до любых выпусков."
 
 #: desktop-guide/C/migrating-upgrading.xml:76(para)
 msgid ""
@@ -1946,12 +1958,20 @@ msgid ""
 "have to upgrade your system to each one of them until you are running the "
 "next LTS release."
 msgstr ""
+"Если вы решили следовать по пути обновлений только до LTS, вы будете "
+"получать уведомление о наличии  обновления каждые 2 года. Если же вы выбрали "
+"обновление до любых выпусков, вы будете получать уведомления каждые 6 "
+"месяцев и вам придётся обновлять систему до каждой новой версии, пока вы не "
+"достигнете следующего LTS-выпуска."
 
 #: desktop-guide/C/migrating-upgrading.xml:78(para)
 msgid ""
 "If you want to change your upgrade path, you can do it when running an LTS "
 "version. To do so, choose one of the following options:"
 msgstr ""
+"Если вы пожелаете изменить способ обновлений, это можно будет сделать при "
+"наличии на компьютере LTS-версии. Для этого выполните одно из следующих "
+"действий:"
 
 #: desktop-guide/C/migrating-upgrading.xml:80(para)
 msgid ""
@@ -1964,6 +1984,15 @@ msgid ""
 "term support versions</guilabel> from the <guilabel>Notify me of a new "
 "Ubuntu version</guilabel> dropdown depending on your choice."
 msgstr ""
+"Перейдите в <application><menuchoice><placeholder-1/><guimenuitem>Центр "
+"приложений "
+"Ubuntu</guimenuitem><guimenuitem>Правка</guimenuitem><guimenuitem>Источники "
+"приложений</guimenuitem></menuchoice></application> и выберите вкладку "
+"<guilabel>Обновления</guilabel>. На вкладке <guilabel>Обновления</guilabel> "
+"выберите либо <guilabel>При доступности любой новой версии</guilabel>, либо "
+"<guilabel>При доступности версий с длительным сроком поддержки</guilabel> в "
+"выпадающем меню <guilabel>Уведомлять меня о выходе новой версии "
+"Ubuntu</guilabel>."
 
 #: desktop-guide/C/migrating-upgrading.xml:81(para)
 msgid ""
@@ -1975,6 +2004,13 @@ msgid ""
 "<userinput>prompt=normal</userinput> (for all releases) or "
 "<userinput>prompt=lts</userinput> (for LTS releases) depending on your choice"
 msgstr ""
+"Откройте <application><menuchoice><placeholder-"
+"1/><guisubmenu>Инструменты</guisubmenu><guimenuitem>Эмулятор "
+"терминала</guimenuitem></menuchoice></application>, выполните "
+"<userinput>sudoedit /etc/update-manager/release-upgrades</userinput> и "
+"измените строку, начинающуюся с <literal>prompt=</literal> на "
+"<userinput>prompt=normal</userinput> (для любых выпусков) или "
+"<userinput>prompt=lts</userinput> (для LTS-выпусков)"
 
 #: desktop-guide/C/migrating-upgrading.xml:84(para)
 msgid ""
@@ -1982,16 +2018,21 @@ msgid ""
 "LTS release, you should not change the upgrade target to long-term support "
 "(LTS) releases only."
 msgstr ""
+"Если у вас обычная версия, сразу же за которой не следует LTS-версия, то вам "
+"не следует изменять способ обновления на вариант обновлений только до LTS-"
+"версий."
 
 #: desktop-guide/C/migrating-upgrading.xml:85(para)
 msgid ""
 "Upgrading an LTS version to anything other than another LTS version will "
 "lose the long term support."
 msgstr ""
+"Обновление LTS-версии на обычную приведёт к потере длительного срока "
+"поддержки."
 
 #: desktop-guide/C/migrating-upgrading.xml:89(title)
 msgid "Upgrading to the development version"
-msgstr ""
+msgstr "Обновление до разрабатываемой версии"
 
 #: desktop-guide/C/migrating-upgrading.xml:91(para)
 msgid ""
@@ -2000,12 +2041,18 @@ msgid ""
 "these problems for yourself or if you want to help the Xubuntu team by "
 "testing and giving feedback."
 msgstr ""
+"В разрабатываемых версиях часто случаются поломки пакетов и другие проблемы. "
+"Устанавливайте версию, находящуюся в разработке, только если вы способны "
+"самостоятельно исправить эти проблемы или хотите помочь команде Xubuntu в "
+"тестировании, сообщая им о замеченных неполадках."
 
 #: desktop-guide/C/migrating-upgrading.xml:92(para)
 msgid ""
 "You will need to be running the latest regular version to be able to upgrade "
 "to the version currently under development."
 msgstr ""
+"Чтобы обновиться до версии, находящейся в разработке, на компьютере должна "
+"быть установлен последняя из доступных обычных версий операционной системы."
 
 #: desktop-guide/C/migrating-upgrading.xml:93(para)
 msgid ""
@@ -2016,6 +2063,13 @@ msgid ""
 "url=\"http://xubuntu.org/contribute/qa\">getting involved</ulink> with "
 "reporting usage of development versions and associated packages."
 msgstr ""
+"Для того, чтобы установить и протестировать свежую разрабатываемую версию "
+"Xubuntu до её выпуска, выполните <userinput>pkexec update-manager -c -"
+"d</userinput> в командной строке. Эта команда позволяет выполнить обновление "
+"до текущей разрабатываемой версии. Пожалуйста, рассмотрите возможность "
+"<ulink url=\"http://xubuntu.org/contribute/qa\">вашего участия</ulink> в "
+"отправке отчётов разработчикам о замеченных проблемах с разрабатываемыми "
+"версиями и входящими в них пакетами."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2023,6 +2077,7 @@ msgstr ""
 msgid ""
 "@@image: '../libs/images/key_icon.png'; md5=3b74de7a9c7025bf740f5ff3657f34d2"
 msgstr ""
+"@@image: '../libs/images/key_icon.png'; md5=3b74de7a9c7025bf740f5ff3657f34d2"
 
 #: desktop-guide/C/media-apps.xml:12(title)
 msgid "Media applications"
@@ -2044,6 +2099,12 @@ msgid ""
 "they are double-clicked, but <application>gmusicbrowser</application> is "
 "better at handling large music collections."
 msgstr ""
+"Для прослушивания музыки на компьютере можно использовать "
+"<application>gmusicbrowser</application> и <application>Медиаплеер "
+"Parole</application>. <application>Медиаплеер Parole</application> умеет "
+"открывать аудиофайлы при двойном щелчке на них, а "
+"<application>gmusicbrowser</application> предпочтительнее в работе с "
+"большими музыкальными коллекциями."
 
 #: desktop-guide/C/media-apps.xml:22(para)
 msgid ""
@@ -2051,6 +2112,10 @@ msgid ""
 "install some additional software. Unfortunately, this software cannot be "
 "provided by default in Xubuntu due to legal restrictions in some countries."
 msgstr ""
+"Для воспроизведения некоторых популярных аудиоформатов, таких как MP3, "
+"понадобится установить дополнительное программное обеспечение. К сожалению, "
+"оно не может быть установлено по умолчанию в Xubuntu из-за правовых "
+"ограничений в некоторых странах."
 
 #: desktop-guide/C/media-apps.xml:24(para) desktop-guide/C/media-apps.xml:71(para)
 msgid ""
@@ -2068,6 +2133,9 @@ msgid ""
 "install the <literal><placeholder-1/>gstreamer0.10-plugins-ugly</literal> "
 "package."
 msgstr ""
+"Для воспроизведения MP3-файлов в <application>gmusicbrowser</application> "
+"установите пакет <literal><placeholder-1/>gstreamer0.10-plugins-"
+"ugly</literal>."
 
 #: desktop-guide/C/media-apps.xml:28(para)
 msgid ""
@@ -2437,6 +2505,11 @@ msgid ""
 "get</application>, see the <ulink url=\"http://www.debian.org/doc/user-"
 "manuals#apt-howto\">Debian apt manual</ulink>."
 msgstr ""
+"<application>apt-get</application>, инструмент командной строки с более "
+"широкими возможностями управления пакетами. Для дополнительной информации об "
+"<application>apt-get</application> смотрите <ulink "
+"url=\"http://www.debian.org/doc/user-manuals#apt-howto\">руководство Debian "
+"по apt</ulink>."
 
 #: desktop-guide/C/managing-applications.xml:23(para)
 msgid "You will need administrative access to add and remove software."
@@ -2449,6 +2522,10 @@ msgid ""
 "manager while one is already open, you will receive an error message and the "
 "second package manager will not necessarily be able to function."
 msgstr ""
+"Нельзя запускать несколько программ для управления пакетами одновременно. "
+"Если вы запустите другой менеджер пакетов, когда один уже открыт, вы "
+"получите сообщение об ошибке и второй менеджер пакетов может оказаться "
+"неспособным правильно функционировать."
 
 #: desktop-guide/C/managing-applications.xml:28(title)
 msgid "Using Ubuntu Software Center"
@@ -2552,6 +2629,9 @@ msgid ""
 "parties or those for older versions of Xubuntu. To enable more software "
 "repositories:"
 msgstr ""
+"Существует возможность добавлять дополнительные репозитории, например, "
+"предоставленные сторонними разработчиками или от предыдущих версий Xubuntu. "
+"Для подключения дополнительных репозиториев:"
 
 #: desktop-guide/C/managing-applications.xml:68(para)
 msgid ""
@@ -2563,6 +2643,13 @@ msgid ""
 "Sources</guimenuitem></menuchoice></application> and go to the "
 "<guilabel>Other Software</guilabel> tab"
 msgstr ""
+"Откройте <application><menuchoice><placeholder-1/><guimenuitem><placeholder-"
+"2/> Настройки</guimenuitem><guimenuitem>Программы и "
+"обновления</guimenuitem></menuchoice></application> или "
+"<application><menuchoice><placeholder-3/><guimenuitem>Центр приложений "
+"Ubuntu</guimenuitem><guimenuitem>Правка</guimenuitem><guimenuitem>Источники "
+"приложений</guimenuitem></menuchoice></application> и перейдите на вкладку "
+"<guilabel>Другое ПО</guilabel>"
 
 #: desktop-guide/C/managing-applications.xml:69(para)
 msgid "Press <guibutton>Add...</guibutton> to add a new repository."
@@ -2750,6 +2837,10 @@ msgid ""
 "Updates</guimenuitem></menuchoice></application> and go to the "
 "<guilabel>Other Software</guilabel> tab"
 msgstr ""
+"Откройте <application><menuchoice><placeholder-1/><guimenuitem><placeholder-"
+"2/> Настройки </guimenuitem><guimenuitem>Программы и "
+"обновления</guimenuitem></menuchoice></application> и перейдите на вкладку "
+"<guilabel>Другое ПО</guilabel>"
 
 #: desktop-guide/C/managing-applications.xml:107(para)
 msgid ""
@@ -2769,7 +2860,7 @@ msgstr ""
 
 #: desktop-guide/C/managing-applications.xml:114(title)
 msgid "Helpful application"
-msgstr ""
+msgstr "Полезное приложение"
 
 #: desktop-guide/C/managing-applications.xml:116(para)
 msgid ""
@@ -2783,6 +2874,15 @@ msgid ""
 "to learn more about this can be found in <xref linkend=\"offline-"
 "packages\"/>."
 msgstr ""
+"Если ваш доступ в Интернет далёк от оптимального, <application>apt-"
+"offline</application> позволит использовать другой компьютер с лучшим "
+"доступом для загрузки пакетов и проверки наличия обновлений, таких как "
+"обновления безопасности. Другой компьютер может работать под управлением "
+"Xubuntu, другого варианта Ubuntu или Debian. Доступен графический интерфейс "
+"<application>apt-offline-gui</application>, упрощающий этот кажущийся "
+"сложным процесс. Всё что понадобится — это время, терпение и съёмный USB-"
+"носитель. Пример использования можно найти в разделе <xref linkend=\"offline-"
+"packages\"/>."
 
 #: desktop-guide/C/managing-applications.xml:122(title)
 msgid "Changing update frequency and behavior"
@@ -3245,6 +3345,12 @@ msgid ""
 "<userinput>ping -c 3 www.xubuntu.org</userinput> then press the "
 "<keycap><placeholder-2/>Enter</keycap> key."
 msgstr ""
+"Чтобы проверить, подключён ли компьютер к Интернету, откройте терминал "
+"(<application><menuchoice><placeholder-"
+"1/><guisubmenu>Инструменты</guisubmenu><guimenuitem>Эмулятор "
+"терминала</guimenuitem></menuchoice></application>), наберите команду "
+"<userinput>ping -c 3 www.xubuntu.org</userinput> и нажмите клавишу "
+"<keycap><placeholder-2/>Enter</keycap>."
 
 #: desktop-guide/C/internet-networks.xml:114(para)
 msgid ""
@@ -3253,6 +3359,9 @@ msgid ""
 "transmitted, how many packets were received, the percentage of packet loss, "
 "and the total time spent."
 msgstr ""
+"Компьютер попытается связаться с www.xubuntu.org три раза и покажет "
+"результаты. Статистика ping отображает количество переданных пакетов, "
+"количество полученных пакетов, процент потери пакетов и затраченное время."
 
 #: desktop-guide/C/internet-networks.xml:117(para)
 msgid ""
