@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-09-09 19:24+0300\n"
-"PO-Revision-Date: 2015-09-22 11:28+0000\n"
-"Last-Translator: Krytarik Raido <Unknown>\n"
+"PO-Revision-Date: 2015-09-23 18:57+0000\n"
+"Last-Translator: Aleksey Kabanov <Unknown>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-09-23 07:16+0000\n"
+"X-Launchpad-Export-Date: 2015-09-24 06:01+0000\n"
 "X-Generator: Launchpad (build 17749)\n"
 
 #: desktop-guide/C/xi-pdf-files.xml:3(emphasis)
@@ -2289,6 +2289,13 @@ msgid ""
 "<application>gtkpod</application>, and "
 "<application>ideviceinstaller</application> for handling multimedia."
 msgstr ""
+"Если у вас есть аудиоплеер, умеющий также показывать фотографии и видео, вы "
+"можете предпочесть <application>Banshee</application> — музыкальный "
+"проигрыватель с хорошей поддержкой таких устройств. Владельцы iPod могут "
+"также попробовать специализированные приложения для работы с мультимедиа, "
+"такие как <application>GPixPod</application>, "
+"<application>gtkpod</application> и "
+"<application>ideviceinstaller</application>."
 
 #: desktop-guide/C/media-apps.xml:62(title)
 msgid "Movies, DVDs and videos"
@@ -3314,6 +3321,11 @@ msgid ""
 "<userinput>ifconfig</userinput> then press the <keycap><placeholder-"
 "2/>Enter</keycap> key."
 msgstr ""
+"Откройте терминал (<application><menuchoice><placeholder-"
+"1/><guisubmenu>Инструменты</guisubmenu><guimenuitem>Эмулятор "
+"терминала</guimenuitem></menuchoice></application>), наберите команду "
+"<userinput>ifconfig</userinput> и нажмите клавишу <keycap><placeholder-"
+"2/>Enter</keycap>."
 
 #: desktop-guide/C/internet-networks.xml:101(para)
 msgid ""
@@ -3534,6 +3546,11 @@ msgid ""
 "<userinput>iwconfig</userinput> then press the <keycap><placeholder-"
 "2/>Enter</keycap> key."
 msgstr ""
+"Откройте терминал (<application><menuchoice><placeholder-"
+"1/><guisubmenu>Инструменты</guisubmenu><guimenuitem>Эмулятор "
+"терминала</guimenuitem></menuchoice></application>), наберите команду "
+"<userinput>iwconfig</userinput> и нажмите клавишу <keycap><placeholder-"
+"2/>Enter</keycap>."
 
 #: desktop-guide/C/internet-networks.xml:174(para)
 msgid ""
@@ -3576,6 +3593,10 @@ msgid ""
 "from the <application>ifconfig</application> command: <userinput>sudo "
 "dhclient eth1</userinput>"
 msgstr ""
+"Введите в терминале следующую команду, заменив <literal>eth1</literal> на "
+"имя соединения, показанное в выводе команды "
+"<application>ifconfig</application>: <userinput>sudo dhclient "
+"eth1</userinput>"
 
 #: desktop-guide/C/internet-networks.xml:191(para)
 msgid ""
@@ -3711,7 +3732,7 @@ msgstr "В создании этой документации принимали
 
 #: desktop-guide/C/index.xml:22(para)
 msgid "David Pires (slickymaster)"
-msgstr ""
+msgstr "David Pires (slickymaster)"
 
 #: desktop-guide/C/index.xml:23(para)
 msgid "Elizabeth Krumbach (lyz)"
@@ -3719,7 +3740,7 @@ msgstr "Elizabeth Krumbach (lyz)"
 
 #: desktop-guide/C/index.xml:24(para)
 msgid "Jack Fromm (jjfrv8)"
-msgstr ""
+msgstr "Jack Fromm (jjfrv8)"
 
 #: desktop-guide/C/index.xml:25(para)
 msgid "Jay van Cooten (skippersboss)"
@@ -3731,7 +3752,7 @@ msgstr "Kev (elfy)"
 
 #: desktop-guide/C/index.xml:27(para)
 msgid "Krytarik Raido (krytarik)"
-msgstr ""
+msgstr "Krytarik Raido (krytarik)"
 
 #: desktop-guide/C/index.xml:28(para)
 msgid "Pasi Lallinaho (knome)"
@@ -3739,7 +3760,7 @@ msgstr "Pasi Lallinaho (knome)"
 
 #: desktop-guide/C/index.xml:29(para)
 msgid "Sean Davis (bluesabre)"
-msgstr ""
+msgstr "Sean Davis (bluesabre)"
 
 #: desktop-guide/C/index.xml:30(para)
 msgid "Stephen Michael Kellat (skellat)"
@@ -3747,11 +3768,11 @@ msgstr "Stephen Michael Kellat (skellat)"
 
 #: desktop-guide/C/index.xml:31(para)
 msgid "Steve Dodier-Lazaro (sidi)"
-msgstr ""
+msgstr "Steve Dodier-Lazaro (sidi)"
 
 #: desktop-guide/C/index.xml:32(para)
 msgid "Unit 193 (unit193)"
-msgstr ""
+msgstr "Unit 193 (unit193)"
 
 #: desktop-guide/C/index.xml:39(para)
 msgid "The contributors to previous versions to this documentation are:"
@@ -3832,11 +3853,11 @@ msgstr "2013"
 
 #: desktop-guide/C/index.xml:61(year)
 msgid "2014"
-msgstr ""
+msgstr "2014"
 
 #: desktop-guide/C/index.xml:62(year)
 msgid "2015"
-msgstr ""
+msgstr "2015"
 
 #: desktop-guide/C/index.xml:63(holder)
 msgid ""
@@ -3887,6 +3908,8 @@ msgid ""
 "@@image: '../libs/images/system-log-out.png'; "
 "md5=ba2ff28559a26da0486ad2554e71ca98"
 msgstr ""
+"@@image: '../libs/images/system-log-out.png'; "
+"md5=ba2ff28559a26da0486ad2554e71ca98"
 
 #: desktop-guide/C/hardware-devices.xml:12(title)
 msgid "Hardware devices"
@@ -3997,6 +4020,13 @@ msgid ""
 "Settings Manager</guimenuitem><guimenuitem>Software &amp; "
 "Updates</guimenuitem></menuchoice></application>"
 msgstr ""
+"Зайдите в <application><menuchoice><placeholder-1/><guimenuitem>Центр "
+"приложений "
+"Ubuntu</guimenuitem><guimenuitem>Правка</guimenuitem><guimenuitem>Источники "
+"приложений</guimenuitem></menuchoice></application> или "
+"<application><menuchoice><placeholder-2/><guimenuitem><placeholder-3/> "
+"Настройки</guimenuitem><guimenuitem>Программы и "
+"обновления</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/hardware-devices.xml:42(para)
 msgid ""
@@ -4133,6 +4163,10 @@ msgid ""
 "Disk Usage Analyzer</application> from the <application>Ubuntu Software "
 "Center</application> to find which files are taking up the most space."
 msgstr ""
+"Удалите файлы, которые больше не нужны. Можете установить "
+"<application>Анализатор использования дисков GNOME</application> из "
+"<application>Центра приложений Ubuntu</application>, чтобы определить, какие "
+"файлы занимают больше всего места."
 
 #: desktop-guide/C/hardware-devices.xml:92(para)
 msgid "Be careful not to delete files that you still need!"
@@ -4328,6 +4362,14 @@ msgid ""
 "could lose the files. To prevent this, you must always unmount a removable "
 "device before disconnecting it."
 msgstr ""
+"При копировании файлов на съёмный носитель они не всегда записываются на "
+"устройство немедленно. Часто они ставятся в очередь, чтобы их все можно было "
+"перенести на устройство одновременно (из соображений эффективности). "
+"Выполнение команды <userinput>sync</userinput> выполняет принудительную "
+"запись данных на съёмные носители. Если извлечь носитель до того, как "
+"завершится перенос всех данных, файлы могут быть потеряны. Поэтому всегда "
+"необходимо отмонтировать съёмный носитель перед его отсоединением от "
+"компьютера."
 
 #: desktop-guide/C/hardware-devices.xml:159(title)
 msgid "Laptops"
@@ -4606,15 +4648,18 @@ msgid ""
 "Install the <application>pm-utils</application> package from the "
 "<application>Ubuntu Software Center</application>."
 msgstr ""
+"Установите пакет <application>pm-utils</application> из <application>Центра "
+"приложений Ubuntu</application>."
 
 #: desktop-guide/C/hardware-devices.xml:238(para)
 msgid ""
 "From the command line, enter: <userinput>sudo pm-hibernate</userinput>."
 msgstr ""
+"В командной строке введите: <userinput>sudo pm-hibernate</userinput>."
 
 #: desktop-guide/C/hardware-devices.xml:239(para)
 msgid "Enter your password."
-msgstr ""
+msgstr "Введите пароль."
 
 #: desktop-guide/C/hardware-devices.xml:240(para)
 msgid "To resume from hibernation, press the power button."
@@ -4726,10 +4771,12 @@ msgid ""
 "@@image: '../libs/images/system-lock-screen.png'; "
 "md5=590defcb87fb77d35cd0a878d176a0dd"
 msgstr ""
+"@@image: '../libs/images/system-lock-screen.png'; "
+"md5=590defcb87fb77d35cd0a878d176a0dd"
 
 #: desktop-guide/C/guide-keeping-safe.xml:12(title)
 msgid "Keeping your computer and personal information safe"
-msgstr ""
+msgstr "Обеспечение защиты компьютера и личной информации"
 
 #: desktop-guide/C/guide-keeping-safe.xml:14(para)
 msgid ""
@@ -4752,6 +4799,12 @@ msgid ""
 "they are searching for victims to hack with automated programs in under a "
 "few hours."
 msgstr ""
+"Обновления безопасности очень важны. Это лучшая защита от людей, которые "
+"намереваются причинить вред вашему компьютеру, и их следует устанавливать "
+"незамедлительно. Когда выходит обновление безопасности, хакеры уже знают как "
+"атаковать компьютеры с устаревшим программным обеспечением. В худшем случае "
+"они уже подыскивают жертвы, которые можно взломать автоматическими "
+"программами в течение нескольких часов."
 
 #: desktop-guide/C/guide-keeping-safe.xml:33(para)
 msgid ""
@@ -4769,6 +4822,9 @@ msgid ""
 "your computer. When the automatic updates are turned off, it's essential to "
 "remember to upgrade manually often."
 msgstr ""
+"Отключив автоматические обновления, вы понижаете уровень защиты вашего "
+"компьютера. Если автоматические обновления отключены, важно не забывать "
+"часто выполнять обновления вручную."
 
 #: desktop-guide/C/guide-keeping-safe.xml:40(para)
 msgid ""
@@ -4779,11 +4835,11 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:46(title)
 msgid "Passwords"
-msgstr ""
+msgstr "Пароли"
 
 #: desktop-guide/C/guide-keeping-safe.xml:49(title)
 msgid "Use strong and unique passwords for important accounts"
-msgstr ""
+msgstr "Используйте надёжные и уникальные пароли для важных учётных записей"
 
 #: desktop-guide/C/guide-keeping-safe.xml:51(para)
 msgid ""
@@ -4791,26 +4847,35 @@ msgid ""
 "prevent unauthorized access to your personal information, identity theft and "
 "direct financial losses. Consider the following scenario:"
 msgstr ""
+"Использование надёжных и уникальных паролей для важных и секретных учётных "
+"записей помогает предотвратить неавторизованный доступ к вашей личной "
+"информации, «кражу личности» и финансовые потери. Представьте себе следующий "
+"сценарий:"
 
 #: desktop-guide/C/guide-keeping-safe.xml:56(para)
 msgid ""
 "Alice uses identical passwords for mytrustedbank.com and insecureblog.com"
 msgstr ""
+"Алиса использует одинаковые пароли для mytrustedbank.com и insecureblog.com"
 
 #: desktop-guide/C/guide-keeping-safe.xml:57(para)
 msgid ""
 "insecureblog is hacked and Alice’s information and password are stolen"
-msgstr ""
+msgstr "Сайт insecureblog взломан и информация и пароли Алисы похищены"
 
 #: desktop-guide/C/guide-keeping-safe.xml:58(para)
 msgid "Hackers can now access Alice’s bank account and steal her money"
 msgstr ""
+"Теперь хакеры могут получить доступ к банковскому счёту Алисы и украсть её "
+"деньги"
 
 #: desktop-guide/C/guide-keeping-safe.xml:61(para)
 msgid ""
 "Password reuse can turn into a disaster. You should pay attention to use "
 "unique and strong passwords for the following services:"
 msgstr ""
+"Использование одного и того же пароля может привести к катастрофе. "
+"Обязательно используйте уникальные и надёжные пароли для следующих сервисов:"
 
 #: desktop-guide/C/guide-keeping-safe.xml:64(para)
 msgid ""
@@ -4818,6 +4883,9 @@ msgid ""
 "your other passwords via the “Forgotten password” links found on all "
 "websites."
 msgstr ""
+"<emphasis>Электронная почта</emphasis>. Учётные записи электронной почты "
+"могут быть использованы для сброса всех остальных ваших паролей, с помощью "
+"услуги восстановления пароля, имеющейся почти на всех сайтах."
 
 #: desktop-guide/C/guide-keeping-safe.xml:65(para)
 msgid ""
@@ -4825,16 +4893,22 @@ msgid ""
 "good password for those services, since they allow you to avoid typing many "
 "other passwords!"
 msgstr ""
+"<emphasis>Хранилища ключей и менеджеры паролей</emphasis>. Для этих сервисов "
+"стоит использовать хороший пароль, так как они позволяют вам не держать в "
+"памяти многие другие пароли!"
 
 #: desktop-guide/C/guide-keeping-safe.xml:66(para)
 msgid ""
 "<emphasis>Accounts related to banking</emphasis>, including PayPal and other "
 "payment sites. If someone can access these, they can steal your money."
 msgstr ""
+"<emphasis>Учётные записи, связанные с банковскими операциями</emphasis>, "
+"включая PayPal и другие платёжные системы. Если кто-то получит к ним доступ, "
+"ваши деньги могут быть похищены."
 
 #: desktop-guide/C/guide-keeping-safe.xml:71(title)
 msgid "What is a strong password?"
-msgstr ""
+msgstr "Что такое надёжный пароль?"
 
 #: desktop-guide/C/guide-keeping-safe.xml:73(para)
 msgid ""
@@ -4842,6 +4916,10 @@ msgid ""
 "guess it. Attackers use special programs that can make millions of guesses "
 "per second, so weak passwords don’t stand a chance."
 msgstr ""
+"Надёжность пароля зависит от того, насколько трудно атакующему будет его "
+"угадать. Взломщики используют специальные программы, осуществляющие перебор "
+"миллионов вариантов паролей в секунду, так что у слабых паролей нет шансов "
+"выстоять."
 
 #: desktop-guide/C/guide-keeping-safe.xml:78(para)
 msgid ""
@@ -4854,6 +4932,15 @@ msgid ""
 "<literal>monkey1</literal> is more common than <literal>mo5nkey</literal>, "
 "and also more common than <literal>monkey hoover</literal>)."
 msgstr ""
+"Некоторые пароли (типа <literal>monkey</literal>, "
+"<literal>password</literal>, <literal>test</literal>, "
+"<literal>123456</literal>) очень типичны. При использовании таких паролей "
+"ваша учётная запись будет взломана с лёгкостью. Однако, добавления заглавных "
+"букв, чисел или символов зачастую недостаточно для превращения слабого "
+"пароля в надёжный. Дело в том, что люди предсказуемо выбирают одни и те же "
+"дополнительные символы и числа (например, пароль <literal>monkey1</literal> "
+"более типичен, чем <literal>mo5nkey</literal> или чем <literal>monkey "
+"hoover</literal>)."
 
 #: desktop-guide/C/guide-keeping-safe.xml:88(para)
 msgid ""
@@ -4864,6 +4951,12 @@ msgid ""
 "would naturally associate with you (for instance, you should not pick poker "
 "related words if you play poker every day)."
 msgstr ""
+"Лучше выбрать более длинный пароль, такой как парольная фраза (например, "
+"<literal>correct horse stable battery</literal>), чем пароль, который трудно "
+"запомнить, но легко взломать. Попробуйте использовать последовательность "
+"слов, которые вы можете легко запомнить. Не выбирайте слова, которые у "
+"окружающих могут естественным образом ассоциироваться с вами (например, "
+"слова, связанные с игрой в покер, если вы играете в него каждый день)."
 
 #: desktop-guide/C/guide-keeping-safe.xml:98(title)
 msgid "How to reuse passwords safely?"
