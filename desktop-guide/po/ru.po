@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-09-09 19:24+0300\n"
-"PO-Revision-Date: 2015-09-23 18:57+0000\n"
+"PO-Revision-Date: 2015-09-24 17:55+0000\n"
 "Last-Translator: Aleksey Kabanov <Unknown>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-09-24 06:01+0000\n"
-"X-Generator: Launchpad (build 17749)\n"
+"X-Launchpad-Export-Date: 2015-09-25 05:56+0000\n"
+"X-Generator: Launchpad (build 17754)\n"
 
 #: desktop-guide/C/xi-pdf-files.xml:3(emphasis)
 msgid "Would you rather read this documentation in PDF?"
@@ -4788,7 +4788,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:25(title)
 msgid "Keep your software up to date"
-msgstr ""
+msgstr "Обновляйте программное обеспечение"
 
 #: desktop-guide/C/guide-keeping-safe.xml:27(para)
 msgid ""
@@ -4971,30 +4971,44 @@ msgid ""
 "definitive agreement among security researchers on how to reduce the risk of "
 "reusing passwords, but you should consider the following:"
 msgstr ""
+"Хотя использовать одинаковый пароль для нескольких учётных записей не "
+"рекомендуется, это делают все, даже эксперты по безопасности. Но каждый год "
+"множество популярных веб-сайтов взламываются хакерами. Некоторые из них "
+"могут даже намеренно продавать пароли своих пользователей сторонним лицам. "
+"Среди исследователей в области компьютерной безопасности нет единого мнения "
+"о том, как снизить риск повторного использования паролей, но вы должны "
+"принять во внимание следующее:"
 
 #: desktop-guide/C/guide-keeping-safe.xml:108(para)
 msgid "Separate your professional password from your personal passwords."
-msgstr ""
+msgstr "Отделяйте пароли для деловых нужд от паролей для личных нужд."
 
 #: desktop-guide/C/guide-keeping-safe.xml:109(para)
 msgid ""
 "Avoid mixing passwords between websites where attackers can damage your "
 "reputation and low-value websites."
 msgstr ""
+"Не используйте одинаковые пароли для сайтов, атака на которые может "
+"повредить вашей репутации, и для сайтов, не имеющих столь важного значения."
 
 #: desktop-guide/C/guide-keeping-safe.xml:110(para)
 msgid "Use a password you're willing to lose for sites you do not trust."
 msgstr ""
+"Используйте пароль, который не жалко потерять, для сайтов, которым вы не "
+"доверяете."
 
 #: desktop-guide/C/guide-keeping-safe.xml:111(para)
 msgid ""
 "Do not \"waste\" passwords on websites you connect to once a year. Make up a "
 "random password and use the \"forgotten password\" feature next time."
 msgstr ""
+"Не «тратьте» хорошие пароли на сайты, на которые заходите раз в год. "
+"Создайте случайный пароль, а в следующий раз воспользуйтесь функцией "
+"восстановления забытого пароля на этом сайте."
 
 #: desktop-guide/C/guide-keeping-safe.xml:116(title)
 msgid "When to change your password?"
-msgstr ""
+msgstr "Когда нужно менять пароль?"
 
 #: desktop-guide/C/guide-keeping-safe.xml:118(para)
 msgid ""
@@ -5002,6 +5016,9 @@ msgid ""
 "an attacker could steal your password, they will be able to steal it again "
 "in the future."
 msgstr ""
+"Нет необходимости менять пароли каждый день. В большинстве случаев, если "
+"атакующему удалось взломать ваш пароль, он снова сумеет сделать это в "
+"будущем."
 
 #: desktop-guide/C/guide-keeping-safe.xml:121(para)
 msgid ""
@@ -5011,6 +5028,11 @@ msgid ""
 "<literal>monkey4</literal>, and it will be easily guessed by an attacker who "
 "already stole your previous password!"
 msgstr ""
+"Если вам всё же нужно изменить пароль, выберите такой, который "
+"<emphasis>действительно</emphasis> отличается от предыдущего. Например, "
+"<literal>monkey5</literal> — неподходящая замена для "
+"<literal>monkey4</literal>, поскольку о таком изменении может легко "
+"догадаться тот, кто смог взломать ваш предыдущий пароль!"
 
 #: desktop-guide/C/guide-keeping-safe.xml:129(title)
 msgid "How to change your login password"
@@ -5018,7 +5040,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:131(para)
 msgid "To change your password, follow the steps below:"
-msgstr ""
+msgstr "Для того, чтобы изменить пароль, сделайте следующее:"
 
 #: desktop-guide/C/guide-keeping-safe.xml:133(para)
 msgid ""
@@ -5086,7 +5108,7 @@ msgstr ""
 
 #: desktop-guide/C/guide-keeping-safe.xml:153(title)
 msgid "Watch out for stolen passwords occasionally"
-msgstr ""
+msgstr "Проверяйте иногда, какие пароли украдены"
 
 #: desktop-guide/C/guide-keeping-safe.xml:155(para)
 msgid ""
@@ -5098,14 +5120,22 @@ msgid ""
 "a service provider informing you that they have been hacked. When you are "
 "confident that a password has been compromised, you should:"
 msgstr ""
+"Веб-сайты типа <ulink "
+"url=\"https://haveibeenpwned.com/\">haveibeenpwned.com</ulink> могут "
+"сообщить, имеется ли ваш адрес электронной почты или имя пользователя в базе "
+"похищенных паролей. Неплохая идея проверять это каждый месяц. Кроме того, "
+"иногда можно услышать о взломе используемого вами сервиса в новостях или "
+"через почтовое сообщение от провайдера этого сервиса. Если вы уверены в том, "
+"что пароль взломан, вы должны:"
 
 #: desktop-guide/C/guide-keeping-safe.xml:163(para)
 msgid "identify all the services where you used that password"
 msgstr ""
+"составить список  всех сервисов, на которых вы использовали этот пароль"
 
 #: desktop-guide/C/guide-keeping-safe.xml:164(para)
 msgid "change your password on all those services"
-msgstr ""
+msgstr "изменить пароль на всех этих сервисах"
 
 #: desktop-guide/C/guide-keeping-safe.xml:165(para)
 msgid ""
@@ -5113,6 +5143,10 @@ msgid ""
 "transfers; also, email services often keep a log of your recent connections "
 "with IP addresses and locations)"
 msgstr ""
+"проверить, какие действия осуществлялись недавно на соответствующих учётных "
+"записях (обратите внимание на денежные переводы; кроме того, почтовые "
+"сервисы часто хранят журнал ваших недавних подключений с указанием IP-адреса "
+"и местонахождения)"
 
 #: desktop-guide/C/guide-keeping-safe.xml:167(para)
 msgid ""
@@ -5121,16 +5155,23 @@ msgid ""
 "email address, which is relatively public information. It does not ask for a "
 "password. Websites that ask for your password will most likely misuse it."
 msgstr ""
+"<emphasis>Никогда</emphasis> не разглашайте свой <emphasis>пароль</emphasis> "
+"на стороннем веб-сайте. Указанный выше сайт не опасен, поскольку он "
+"запрашивает лишь адрес электронной почты, который является относительно "
+"общедоступной информацией. Он не запрашивает пароль. Веб-сайты, которые "
+"запрашивают пароли от других сайтов, скорее всего используют их вам во вред."
 
 #: desktop-guide/C/guide-keeping-safe.xml:176(title)
 msgid "What about password managers?"
-msgstr ""
+msgstr "Что насчёт менеджеров паролей?"
 
 #: desktop-guide/C/guide-keeping-safe.xml:178(para)
 msgid ""
 "Password managers are a very convenient way of using many unique passwords "
 "without having to remember them all!"
 msgstr ""
+"Менеджеры паролей — очень удобный способ использовать множество уникальных "
+"паролей без необходимости все их держать в памяти!"
 
 #: desktop-guide/C/guide-keeping-safe.xml:181(para)
 msgid ""
@@ -5138,6 +5179,9 @@ msgid ""
 "Software Center</application>, including <application>KeePassX</application> "
 "and <application>PaSaffe</application>."
 msgstr ""
+"В <application>Центре приложений Ubuntu</application> доступно несколько "
+"менеджеров паролей, включая <application>KeePassX</application> и "
+"<application>PaSaffe</application>."
 
 #: desktop-guide/C/guide-keeping-safe.xml:186(para)
 msgid ""
@@ -5146,12 +5190,18 @@ msgid ""
 "computers. You should be aware of a few limitations, if you decide to use a "
 "password manager:"
 msgstr ""
+"Некоторые менеджеры паролей, такие как <application>KeePassX</application>, "
+"умеют синхронизировать ваши пароли на нескольких устройствах, включая "
+"компьютеры с Windows или OS X. Необходимо помнить о некоторых ограничениях, "
+"если вы решите использовать менеджер паролей:"
 
 #: desktop-guide/C/guide-keeping-safe.xml:191(para)
 msgid ""
 "Online password managers can be hacked too. Do not store your email or bank "
 "passwords in a password manager."
 msgstr ""
+"Онлайн-менеджеры паролей тоже могут быть взломаны. Не храните пароль от "
+"электронной почты или банковского счёта в менеджере паролей."
 
 #: desktop-guide/C/guide-keeping-safe.xml:192(para)
 msgid ""
@@ -5159,12 +5209,18 @@ msgid ""
 "password, you could end up losing access to all your accounts (another good "
 "reason not to store emails in your password manager)."
 msgstr ""
+"Используйте для открытия менеджера паролей хорошо запоминающийся пароль! "
+"Если вы его забудете, то потеряете доступ ко всем своим учётным записям (это "
+"ещё одна хорошая причина не хранить пароль электронной почты в менеджере "
+"паролей)."
 
 #: desktop-guide/C/guide-keeping-safe.xml:193(para)
 msgid ""
 "Proprietary password managers should not be trusted. Nobody knows what they "
 "do with your passwords."
 msgstr ""
+"Не доверяйте проприетарным менеджерам паролей. Никто не знает, что они "
+"делают с вашими паролями."
 
 #: desktop-guide/C/guide-keeping-safe.xml:194(para)
 msgid ""
