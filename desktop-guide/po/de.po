@@ -8,19 +8,19 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-09-09 19:24+0300\n"
-"PO-Revision-Date: 2015-09-17 12:04+0000\n"
-"Last-Translator: Krytarik Raido <Unknown>\n"
+"PO-Revision-Date: 2015-09-26 08:48+0000\n"
+"Last-Translator: Daniel Kessel <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-09-18 05:43+0000\n"
-"X-Generator: Launchpad (build 17746)\n"
+"X-Launchpad-Export-Date: 2015-09-27 05:45+0000\n"
+"X-Generator: Launchpad (build 17754)\n"
 "Language: de\n"
 
 #: desktop-guide/C/xi-pdf-files.xml:3(emphasis)
 msgid "Would you rather read this documentation in PDF?"
-msgstr ""
+msgstr "Möchten Sie diese Dokumentation lieber als PDF lesen?"
 
 #: desktop-guide/C/xi-pdf-files.xml:5(para)
 msgid ""
@@ -28,12 +28,18 @@ msgid ""
 "A4.pdf\">A4</ulink> or <ulink url=\"xubuntu-documentation-USletter.pdf\">US "
 "letter</ulink>."
 msgstr ""
+"Wählen Sie ihre bevorzugte Papiergröße aus: <ulink url=\"xubuntu-"
+"documentation-A4.pdf\">A4</ulink> or <ulink url=\"xubuntu-documentation-"
+"USletter.pdf\">US letter</ulink>."
 
 #: desktop-guide/C/xi-translators-not-found.xml:1(para)
 msgid ""
 "Translator data could not be acquired, please see <ulink "
 "url=\"https://translations.launchpad.net/xubuntu-docs\">Launchpad</ulink>."
 msgstr ""
+"Übersetzerdaten konnten nicht geladen werden, für weitere Informationen "
+"lesen Sie <ulink url=\"https://translations.launchpad.net/xubuntu-"
+"docs\">Launchpad</ulink>."
 
 #: desktop-guide/C/xi-translator-credits.xml:1(para)
 msgid "The contributors to this translation of the documentation are:"
@@ -551,6 +557,8 @@ msgid ""
 "@@image: '../libs/images/preferences-desktop.png'; "
 "md5=50af8eb87047c848e38291e5616ad45b"
 msgstr ""
+"@@image: '../libs/images/preferences-desktop.png'; "
+"md5=50af8eb87047c848e38291e5616ad45b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2284,6 +2292,7 @@ msgstr ""
 msgid ""
 "@@image: '../libs/images/key_icon.png'; md5=3b74de7a9c7025bf740f5ff3657f34d2"
 msgstr ""
+"@@image: '../libs/images/key_icon.png'; md5=3b74de7a9c7025bf740f5ff3657f34d2"
 
 #: desktop-guide/C/media-apps.xml:12(title)
 msgid "Media applications"
@@ -4295,6 +4304,8 @@ msgid ""
 "This documentation provides information on some of the most common issues "
 "with Xubuntu, including:"
 msgstr ""
+"Diese Dokumentation bietet Informationen zu den häufigsten Themen rund um "
+"Xubuntu, unter anderem:"
 
 #: desktop-guide/C/index.xml:77(para)
 msgid "In addition, this documentation has three quick guides:"
@@ -6358,6 +6369,9 @@ msgid ""
 "<guilabel>Trash</guilabel>, right-click the file and click "
 "<menuchoice><guimenuitem>Restore</guimenuitem></menuchoice>."
 msgstr ""
+"Falls Sie jemals das Löschen einer Datei rückgangig machen möchten, öffnen "
+"Sie den <guilabel>Papierkorb</guilabel>, rechtsklicken Sie die Datei und "
+"wählen <menuchoice><guimenuitem>Wiederherstellen</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/guide-desktop.xml:95(para)
 msgid ""
@@ -7205,6 +7219,7 @@ msgstr ""
 "  Elby Martin https://launchpad.net/~elby-martin\n"
 "  Estellnb-8 https://launchpad.net/~estellnb-8\n"
 "  Jan Jansen https://launchpad.net/~two-jays\n"
+"  Jan_Ho https://launchpad.net/~jokette\n"
 "  Jens Maucher https://launchpad.net/~jensmaucher\n"
 "  Krytarik Raido https://launchpad.net/~krytarik\n"
 "  Leopold Stammler https://launchpad.net/~leopold-stammler\n"
