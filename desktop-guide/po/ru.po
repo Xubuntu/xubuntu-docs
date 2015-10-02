@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-09-09 19:24+0300\n"
-"PO-Revision-Date: 2015-09-29 12:39+0000\n"
+"PO-Revision-Date: 2015-10-01 09:39+0000\n"
 "Last-Translator: Aleksey Kabanov <Unknown>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-09-30 05:48+0000\n"
-"X-Generator: Launchpad (build 17768)\n"
+"X-Launchpad-Export-Date: 2015-10-02 05:51+0000\n"
+"X-Generator: Launchpad (build 17783)\n"
 
 #: desktop-guide/C/xi-pdf-files.xml:3(emphasis)
 msgid "Would you rather read this documentation in PDF?"
@@ -677,6 +677,10 @@ msgid ""
 "Settings Manager</guimenuitem><guimenuitem>About "
 "Me</guimenuitem></menuchoice></application>."
 msgstr ""
+"Чтобы запустить <application>Mugshot</application> перейдите в "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"Настройки</guimenuitem><guimenuitem>Обо "
+"мне</guimenuitem></menuchoice></application>."
 
 #: desktop-guide/C/settings-preferences.xml:37(para)
 msgid ""
@@ -752,6 +756,13 @@ msgid ""
 "<menuchoice><guimenuitem>Desktop Settings...</guimenuitem></menuchoice> "
 "option."
 msgstr ""
+"Фоновое изображение для рабочего стола можно легко изменить, выбрав "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"Настройки</guimenuitem><guimenuitem>Рабочий "
+"стол</guimenuitem></menuchoice></application>, или просто щёлкнув правой "
+"кнопкой на рабочем столи и выбрав в появившемся меню "
+"<menuchoice><guimenuitem>Настройка рабочего "
+"стола...</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/settings-preferences.xml:59(para)
 msgid ""
@@ -858,10 +869,13 @@ msgid ""
 "In the <guilabel>Display</guilabel> tab, you can control the panel's size "
 "and positioning, including:"
 msgstr ""
+"Во вкладке <guilabel>Экран</guilabel> можно управлять размерами и положением "
+"панели, включая:"
 
 #: desktop-guide/C/settings-preferences.xml:95(para)
 msgid "Displaying the panel vertically along either side of the screen"
 msgstr ""
+"Вертикальное расположение панели вдоль любой из боковых сторон экрана"
 
 #: desktop-guide/C/settings-preferences.xml:96(para)
 msgid ""
@@ -869,22 +883,29 @@ msgid ""
 "panel</guilabel>, grabbing the handle which appears at either side of the "
 "panel and dragging it"
 msgstr ""
+"Перемещение панели вниз или вправо с помощью отключения флажка "
+"<guilabel>Закрепить панели</guilabel> и перетаскивания за один из элементов "
+"управления, появившихся вдоль обеих сторон панели"
 
 #: desktop-guide/C/settings-preferences.xml:97(para)
 msgid "Extending the panel across multiple monitors"
-msgstr ""
+msgstr "Расширение панели на несколько мониторов"
 
 #: desktop-guide/C/settings-preferences.xml:99(para)
 msgid ""
 "In the <guilabel>Appearance</guilabel> tab, you can pick another background "
 "for the panel and regulate its transparency"
 msgstr ""
+"Во вкладке <guilabel>Внешний вид</guilabel> можно изменить фон панели и "
+"отрегулировать её прозрачность"
 
 #: desktop-guide/C/settings-preferences.xml:100(para)
 msgid ""
 "In the <guilabel>Items</guilabel> tab, you can add, remove and rearrange "
 "panel applets and other items"
 msgstr ""
+"Во вкладке <guilabel>Элементы</guilabel> можно добавить, удалить или "
+"изменить порядок апплетов и других элементов панели"
 
 #: desktop-guide/C/settings-preferences.xml:105(title)
 msgid "Changing your desktop themes"
@@ -1077,6 +1098,10 @@ msgid ""
 "Manager</guimenuitem><guimenuitem>Printers</guimenuitem></menuchoice></applic"
 "ation>"
 msgstr ""
+"Перейдите в <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> "
+"Настройки</guimenuitem><guimenuitem>Принтеры</guimenuitem></menuchoice></appl"
+"ication>"
 
 #: desktop-guide/C/printing-scanning.xml:28(para) desktop-guide/C/printing-scanning.xml:50(para)
 msgid ""
