@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-03-20 02:49+0200\n"
-"PO-Revision-Date: 2015-05-06 12:39+0000\n"
-"Last-Translator: Pasi Lallinaho <pasi@shimmerproject.org>\n"
+"PO-Revision-Date: 2015-10-03 21:02+0000\n"
+"Last-Translator: Tobias Bannert <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-05-07 05:35+0000\n"
-"X-Generator: Launchpad (build 17474)\n"
+"X-Launchpad-Export-Date: 2015-10-04 06:12+0000\n"
+"X-Generator: Launchpad (build 17783)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -51,43 +51,43 @@ msgstr "Abiword"
 msgid "abiword"
 msgstr "abiword"
 
-#: desktop-guide/C/appendix-packages.xml:17(seg)
+#: desktop-guide/C/appendix-packages.xml:22(seg)
 msgid "Word processor"
 msgstr "Textverarbeitung"
 
-#: desktop-guide/C/appendix-packages.xml:18(seg)
+#: desktop-guide/C/appendix-packages.xml:17(seg)
 msgid "Catfish File Search"
 msgstr "Catfish-Dateisuche"
 
-#: desktop-guide/C/appendix-packages.xml:18(seg)
+#: desktop-guide/C/appendix-packages.xml:17(seg)
 msgid "catfish"
 msgstr "catfish"
 
-#: desktop-guide/C/appendix-packages.xml:18(seg)
+#: desktop-guide/C/appendix-packages.xml:17(seg)
 msgid "File searching tool which is configurable via the command line"
 msgstr "Dateisuchwerkzeug, welches über die Befehlszeile konfigurierbar ist"
 
-#: desktop-guide/C/appendix-packages.xml:19(seg)
+#: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "Document Viewer"
 msgstr "Dokumentenbetrachter"
 
-#: desktop-guide/C/appendix-packages.xml:19(seg)
+#: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "evince"
 msgstr "evince"
 
-#: desktop-guide/C/appendix-packages.xml:19(seg)
+#: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "Document (PostScript, PDF) viewer"
 msgstr "Dokumentenbetrachter (PostScript, PDF)"
 
-#: desktop-guide/C/appendix-packages.xml:20(seg)
+#: desktop-guide/C/appendix-packages.xml:19(seg)
 msgid "Calculator"
 msgstr "Taschenrechner"
 
-#: desktop-guide/C/appendix-packages.xml:20(seg)
+#: desktop-guide/C/appendix-packages.xml:19(seg)
 msgid "gnome-calculator"
 msgstr "gnome-calculator"
 
-#: desktop-guide/C/appendix-packages.xml:20(seg)
+#: desktop-guide/C/appendix-packages.xml:19(seg)
 msgid "Desktop calculator"
 msgstr "Taschenrechner"
 
@@ -103,15 +103,15 @@ msgstr "gnumeric"
 msgid "Spreadsheet application"
 msgstr "Tabellenkalkulation"
 
-#: desktop-guide/C/appendix-packages.xml:22(seg)
+#: desktop-guide/C/appendix-packages.xml:20(seg)
 msgid "Character Map"
 msgstr "Zeichentabelle"
 
-#: desktop-guide/C/appendix-packages.xml:22(seg)
+#: desktop-guide/C/appendix-packages.xml:20(seg)
 msgid "gucharmap"
 msgstr "gucharmap"
 
-#: desktop-guide/C/appendix-packages.xml:22(seg)
+#: desktop-guide/C/appendix-packages.xml:20(seg)
 msgid "Unicode character picker and font browser"
 msgstr "Unicode-Zeichenpalette und Schriftenanzeiger"
 
@@ -297,7 +297,7 @@ msgstr "gvfs-fuse"
 
 #: desktop-guide/C/appendix-packages.xml:51(seg)
 msgid "Let non-GNOME apps use GVFS via fuse"
-msgstr "Lässt nicht-GNOME Anwendungen GVFS via »fuse« nutzen"
+msgstr "Lässt nicht-GNOME-Anwendungen GVFS über »fuse« benutzen"
 
 #: desktop-guide/C/appendix-packages.xml:52(seg)
 msgid "libnotify-bin"
@@ -334,7 +334,7 @@ msgstr "<placeholder-1/>xfdesktop4"
 #: desktop-guide/C/appendix-packages.xml:54(seg)
 msgid "Xfce thumbnail daemon used by <placeholder-1/> and <placeholder-2/>"
 msgstr ""
-"Xfce Lesezeichen-Dienst, benutzt von <placeholder-1/> und <placeholder-2/>"
+"Xfce-Vorschaubilddienst, benutzt von <placeholder-1/> und <placeholder-2/>"
 
 #: desktop-guide/C/appendix-packages.xml:55(seg)
 msgid "xfce4-notifyd"
@@ -350,11 +350,11 @@ msgstr "xfce4-indicator-plugin"
 
 #: desktop-guide/C/appendix-packages.xml:56(literal)
 msgid "<placeholder-1/>indicator-application"
-msgstr "<placeholder-1/>Anwendungsanzeige"
+msgstr "<placeholder-1/>indicator-application"
 
 #: desktop-guide/C/appendix-packages.xml:56(literal)
 msgid "<placeholder-1/>indicator-sound"
-msgstr "<placeholder-1/>Benachrichtigungston"
+msgstr "<placeholder-1/>indicator-sound"
 
 #: desktop-guide/C/appendix-packages.xml:56(seg)
 msgid "Panel plugin for the indicators (<placeholder-1/>, <placeholder-2/>)"
@@ -703,6 +703,11 @@ msgid ""
 "<application>Pidgin</application> and/or LibreOffice installed, you will be "
 "prompted to update their settings as well."
 msgstr ""
+"Füllen Sie die Textfelder mit den benötigten persönlichen Daten aus und "
+"klicken auf <guibutton>Anwenden</guibutton>. Wenn Sie Änderungen anwenden "
+"und zusätzlich <application>Pidgin</application> und/oder LibreOffice "
+"installiert haben, werden Sie gefragt, die Änderungen dort ebenfalls zu "
+"übernehmen."
 
 #: desktop-guide/C/settings-preferences.xml:43(para)
 msgid ""
@@ -818,12 +823,13 @@ msgid ""
 "This allows each monitor to have its own settings. Just drag the dialog to "
 "the monitor on which you want to edit the settings."
 msgstr ""
-"Xfdesktop unterstützt xinerama und Multimonitor-Umgebungen. Wenn mehr als "
-"ein Monitor angeschlossen ist, stellt der <guilabel>Hintergrund</guilabel> "
-"Reiter immer die Einstellungen des Bildschirms dar, auf dem der Dialog "
-"positioniert ist. Dadurch ist es möglich, für verschiedene Monitore "
-"unterschiedliche Einstellungen zu setzen. Ziehen Sie dazu den Dialog auf den "
-"Monitor, für den Sie die Einstellungen setzen wollen."
+"Xfdesktop unterstützt xinerama und Einstellungen mit mehreren Bildschirmen. "
+"Wenn mehr als ein Bildschirm angeschlossen ist, stellt der Reiter "
+"<guilabel>Hintergrund</guilabel> immer die Einstellungen des Bildschirms "
+"dar, auf dem der Dialog positioniert ist. Dadurch ist es möglich, für "
+"verschiedene Bildschirme unterschiedliche Einstellungen zu verwenden. Ziehen "
+"Sie dazu den Dialog auf den Bildschirm, für den Sie die Einstellungen "
+"einstellen wollen."
 
 #: desktop-guide/C/settings-preferences.xml:67(para)
 msgid ""
@@ -1048,13 +1054,13 @@ msgstr ""
 
 #: desktop-guide/C/settings-preferences.xml:138(para)
 msgid "Icon themes:"
-msgstr "Symbol-Thema:"
+msgstr "Symbolthemen:"
 
 #: desktop-guide/C/settings-preferences.xml:140(para)
 msgid ""
 "<filename><placeholder-1/> /home/username/.icons/</filename> (this user only)"
 msgstr ""
-"<filename><placeholder-1/> /home/Nutzername/.icons/</filename> (nur für "
+"<filename><placeholder-1/> /home/Benutzername/.icons/</filename> (nur für "
 "diesen Benutzer)"
 
 #: desktop-guide/C/settings-preferences.xml:141(para)
@@ -1533,9 +1539,9 @@ msgid ""
 "available to you, this can be managed."
 msgstr ""
 "Das Werkzeug <application>apt-offline</application> ist verfügbar, um Ihren "
-"Computer aktuell zu halten, auch wenn er nicht mit dem Internet verbunden "
-"bleiben kann. Hierzu sind mehrere Schritte notwendig, zu denen Sie einen USB-"
-"Speicherstick benötigen."
+"Rechner aktuell zu halten, auch wenn er nicht mit dem Internet verbunden "
+"bleiben kann. Hierzu sind mehrere Schritte notwendig, zu denen Sie ein USB-"
+"Laufwerk benötigen."
 
 #: desktop-guide/C/offline-packages.xml:17(title)
 msgid "Updating Repositories"
@@ -2464,12 +2470,13 @@ msgid ""
 "install this plugin by following the wizard. Afterwards, you may need to "
 "restart <application>Parole Media Player</application>."
 msgstr ""
-"<application>Parole Medienspieler</application> unterstützt die meisten "
+"<application>Parole-Medienspieler</application> unterstützt die meisten "
 "Arten von Videos. Falls Sie versuchen, eine nicht unterstützte Videodatei "
-"abzuspielen, weist <application>Parole Mediienspieler</application> Sie auf "
-"ein fehlendes Plugin hin. Dann können Sie dieses Plugin installieren, indem "
-"Sie den Anweisungen im Assistenten folgen. Anschließend müssen sie eventuell "
-"<application>Parole Medienspieler</application> neu starten."
+"abzuspielen, weist der <application>Parole-Medienspieler</application> Sie "
+"auf eine fehlende Erweiterung hin. Dann können Sie dieses Erweiterung "
+"installieren, indem Sie den Anweisungen im Assistenten folgen. Anschließend "
+"müssen Sie eventuell den <application>Parole-Medienspieler</application> neu "
+"starten."
 
 #: desktop-guide/C/media-apps.xml:88(para)
 msgid ""
@@ -2480,7 +2487,7 @@ msgid ""
 "Media Player</guimenuitem></menuchoice>."
 msgstr ""
 "Wenn Sie Schwierigkeiten haben ein Video in ihrem Browser abzuspielen, dann "
-"unterstützt <application>Parole Mediienspieler</application> die meisten "
+"unterstützt <application>Parole Medienspieler</application> die meisten "
 "Videotypen. Um ein Video in <application>Parole Medienspieler</application> "
 "zu öffnen, rechtsklicken Sie das Video und wählen Sie "
 "<menuchoice><guimenuitem>Mit »Parole Medienspieler« "
@@ -3016,9 +3023,9 @@ msgstr ""
 "<application>Aktualisierungsverwaltung</application> läuft und den "
 "entsprechenden Dialog anzeigt, erscheint ein "
 "<guilabel>Einstellungen…</guilabel>-Knopf am unteren Rand. Wenn man diesen "
-"drückt, öffnet sich der <guilabel>Anwendungen &amp; Aktualisierungen "
-"Sources</guilabel> Dialog im <guilabel>Aktualisierungen</guilabel>-Reiter. "
-"Alternativ kann man den Einstellungsdialog "
+"drückt, öffnet sich der <guilabel>Anwendungen &amp; "
+"Aktualisierungen</guilabel> Dialog im <guilabel>Aktualisierungen</guilabel>-"
+"Reiter. Alternativ kann man den Einstellungsdialog "
 "via<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
 "Alle Einstellungen</guimenuitem><guimenuitem>Anwendungen &amp; "
 "Aktualisierungen</guimenuitem></menuchoice></application> und Öffnen des "
@@ -3914,7 +3921,7 @@ msgstr "Zu dieser Dokumentation haben beigetragen:"
 msgid "Sean Davis (smd-seandavis)"
 msgstr "Sean Davis (smd-seandavis)"
 
-#: desktop-guide/C/index.xml:24(para)
+#: desktop-guide/C/index.xml:26(para)
 msgid "Kev (elfy)"
 msgstr "Kev (elfy)"
 
@@ -3922,11 +3929,11 @@ msgstr "Kev (elfy)"
 msgid "Jack Fromm (jjfrv8-gmail)"
 msgstr "Jack Fromm (jjfrv8-gmail)"
 
-#: desktop-guide/C/index.xml:27(para)
+#: desktop-guide/C/index.xml:23(para)
 msgid "Elizabeth Krumbach (lyz)"
 msgstr "Elizabeth Krumbach (lyz)"
 
-#: desktop-guide/C/index.xml:26(para)
+#: desktop-guide/C/index.xml:30(para)
 msgid "Stephen Michael Kellat (skellat)"
 msgstr "Stephen Michael Kellat (skellat)"
 
@@ -3934,7 +3941,7 @@ msgstr "Stephen Michael Kellat (skellat)"
 msgid "Pasi Lallinaho (knome)"
 msgstr "Pasi Lallinaho (knome)"
 
-#: desktop-guide/C/index.xml:29(para)
+#: desktop-guide/C/index.xml:22(para)
 msgid "David Pires (slickymaster)"
 msgstr "David Pires (slickymaster)"
 
@@ -3942,35 +3949,35 @@ msgstr "David Pires (slickymaster)"
 msgid "Unit 193 (Unit193)"
 msgstr "Unit 193 (Unit193)"
 
-#: desktop-guide/C/index.xml:31(para)
+#: desktop-guide/C/index.xml:25(para)
 msgid "Jay van Cooten (skippersboss)"
 msgstr "Jay van Cooten (skippersboss)"
 
-#: desktop-guide/C/index.xml:37(para)
+#: desktop-guide/C/index.xml:39(para)
 msgid "The contributors to previous versions to this documentation are:"
 msgstr "Zu vorherigen Versionen dieser Dokumentation haben beigetragen:"
 
-#: desktop-guide/C/index.xml:39(para)
+#: desktop-guide/C/index.xml:44(para)
 msgid "Jim Campbell (jwcampbell)"
 msgstr "Jim Campbell (jwcampbell)"
 
-#: desktop-guide/C/index.xml:40(para)
+#: desktop-guide/C/index.xml:42(para)
 msgid "Freddy Martinez (freddymartinez9)"
 msgstr "Freddy Martinez (freddymartinez9)"
 
-#: desktop-guide/C/index.xml:41(para)
+#: desktop-guide/C/index.xml:43(para)
 msgid "Jan M. (fijam7)"
 msgstr "Jan M. (fijam7)"
 
-#: desktop-guide/C/index.xml:42(para)
+#: desktop-guide/C/index.xml:41(para)
 msgid "Cody A.W. Somerville (cody-somerville)"
 msgstr "Cody A.W. Somerville (cody-somerville)"
 
-#: desktop-guide/C/index.xml:43(para)
+#: desktop-guide/C/index.xml:45(para)
 msgid "Luzius Thöny (lucius-antonius)"
 msgstr "Luzius Thöny (lucius-antonius)"
 
-#: desktop-guide/C/index.xml:46(para)
+#: desktop-guide/C/index.xml:48(para)
 msgid ""
 "This document is made available under the Creative Commons ShareAlike 2.5 "
 "License (CC-BY-SA)."
@@ -3978,7 +3985,7 @@ msgstr ""
 "Dieses Dokument wurde unter der »Creative Commons ShareAlike 2.5«-Lizenz (CC-"
 "BY-SA) veröffentlicht."
 
-#: desktop-guide/C/index.xml:47(para)
+#: desktop-guide/C/index.xml:49(para)
 msgid ""
 "You are free to modify, extend, and improve the Ubuntu documentation source "
 "code under the terms of this license. All derivative works must be released "
@@ -3988,7 +3995,7 @@ msgstr ""
 "Lizenzbedingungen zu verändern, zu erweitern und zu verbessern. Alle davon "
 "abstammenden Werke müssen unter dieser Lizenz veröffentlicht werden."
 
-#: desktop-guide/C/index.xml:49(para)
+#: desktop-guide/C/index.xml:51(para)
 msgid ""
 "This documentation is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
@@ -4000,7 +4007,7 @@ msgstr ""
 "nicht begrenzt auf – Marktreife oder Verwendbarkeit für einen bestimmten "
 "Zweck, wie im Haftungsausschluss beschrieben."
 
-#: desktop-guide/C/index.xml:52(para)
+#: desktop-guide/C/index.xml:54(para)
 msgid ""
 "A copy of the license is available here: <link linkend=\"cc-by-sa\">Creative "
 "Commons ShareAlike License</link>."
@@ -4008,7 +4015,7 @@ msgstr ""
 "Eine Kopie der Lizenzbedingungen befindet sich unter: <link linkend=\"cc-by-"
 "sa\">Creative Commons ShareAlike License</link>."
 
-#: desktop-guide/C/index.xml:53(para)
+#: desktop-guide/C/index.xml:55(para)
 msgid ""
 "All trademarks or registered trademarks are the property of the respective "
 "owners."
@@ -4016,27 +4023,27 @@ msgstr ""
 "Alle Markenzeichen oder eingetragene Markenzeichen sind Eigentum der "
 "jeweiligen Besitzer."
 
-#: desktop-guide/C/index.xml:57(year)
+#: desktop-guide/C/index.xml:59(year)
 msgid "2012"
 msgstr "2012"
 
-#: desktop-guide/C/index.xml:58(year)
+#: desktop-guide/C/index.xml:60(year)
 msgid "2013"
 msgstr "2013"
 
-#: desktop-guide/C/index.xml:59(year)
+#: desktop-guide/C/index.xml:61(year)
 msgid "2014"
 msgstr "2014"
 
-#: desktop-guide/C/index.xml:61(holder)
+#: desktop-guide/C/index.xml:62(holder)
 msgid "Canonical Ltd. and members of the Xubuntu Documentation team."
 msgstr "Canonical Ltd. und Mitglieder der Xubuntu-Dokumentationsgruppe."
 
-#: desktop-guide/C/index.xml:65(publishername)
+#: desktop-guide/C/index.xml:66(publishername)
 msgid "The Ubuntu Documentation Project"
 msgstr "Das Ubuntu Dokumentationsprojekt"
 
-#: desktop-guide/C/index.xml:68(title)
+#: desktop-guide/C/index.xml:70(title)
 msgid "Welcome!"
 msgstr "Willkommen!"
 
@@ -4048,11 +4055,11 @@ msgstr ""
 "Dieses Dokument enthält die Dokumentation der häufigsten Themen rund um "
 "Xubuntu, inklusive:"
 
-#: desktop-guide/C/index.xml:75(para)
+#: desktop-guide/C/index.xml:77(para)
 msgid "In addition, this documentation has three quick guides:"
 msgstr "Zusätzlich enthält diese Dokumentation drei Kurzanleitungen:"
 
-#: desktop-guide/C/index.xml:81(para)
+#: desktop-guide/C/index.xml:83(para)
 msgid ""
 "The complete set of topics is listed below. If you require help with a topic "
 "or problem that is not addressed by the documentation, go to the <ulink "
@@ -4065,7 +4072,7 @@ msgstr ""
 "url=\"http://xubuntu.org/help/\">Help &amp; Support</ulink>-Seite der "
 "Xubuntu-Webseite. Dort finden Sie Verweise auf zusätzliche Hilfe-Quellen."
 
-#: desktop-guide/C/index.xml:83(para)
+#: desktop-guide/C/index.xml:85(para)
 msgid ""
 "If you would like to contribute to Xubuntu, including this documentation, "
 "see the <ulink url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> "
@@ -4182,8 +4189,8 @@ msgid ""
 "If any drivers are available for your hardware they will be installable from "
 "the <application>Software Sources</application> dialog:"
 msgstr ""
-"Falls Treiber für ihre Hardware verfügbar sind, sind diese in dem Dialog "
-"<application>Anwendungen & Aktualisierungen Sources</application>  "
+"Falls für Ihre Geräte irgendwelche Treiber zur Verfügung stehen, sind diese "
+"über den Dialog <application>Anwendungen & Aktualisierungen</application> "
 "installierbar:"
 
 #: desktop-guide/C/hardware-devices.xml:41(para) desktop-guide/C/hardware-devices.xml:54(para)
@@ -4195,12 +4202,12 @@ msgid ""
 "Settings Manager</guimenuitem><guimenuitem>Software &amp; "
 "Updates</guimenuitem></menuchoice></application>"
 msgstr ""
-"Gehen Sie zu <application><menuchoice><placeholder-1/><guimenuitem>Ubuntu "
+"Öffnen Sie <application><menuchoice><placeholder-1/><guimenuitem>Ubuntus "
 "Software-"
 "Center</guimenuitem><guimenuitem>Bearbeiten</guimenuitem><guimenuitem>Softwar"
-"e-Paketquellen…</guimenuitem></menuchoice></application> oder "
+"e-Paketquellen</guimenuitem></menuchoice></application> oder "
 "<application><menuchoice><placeholder-2/><guimenuitem><placeholder-3/> Alle "
-"Einstellungen</guimenuitem><guimenuitem>Anwendungen &amp; "
+"Einstellungen</guimenuitem><guimenuitem>Anwendungen & "
 "Aktualisierungen</guimenuitem></menuchoice></application>"
 
 #: desktop-guide/C/hardware-devices.xml:42(para)
@@ -4209,7 +4216,7 @@ msgid ""
 "<guilabel>Additional Drivers</guilabel> tab, select as appropriate and "
 "<guibutton>Apply Changes</guibutton>."
 msgstr ""
-"Für Ihre Hardware verfügbare Treiber werden auf dem Reiter "
+"Für Ihre Geräte verfügbare Treiber werden auf dem Reiter "
 "<guilabel>Zusätzliche Treiber</guilabel> angezeigt. Wählen Sie diese wie "
 "gewünscht aus und klicken Sie den Knopf <guibutton>Änderungen "
 "anwenden</guibutton>."
@@ -4218,7 +4225,7 @@ msgstr ""
 msgid ""
 "You will, if necessary, be prompted to enter the administration password."
 msgstr ""
-"Falls notwendig werden Sie dazu aufgefordert, das Systemverwaltungs-Passwort "
+"Falls notwendig werden Sie dazu aufgefordert, das Systemverwaltungspasswort "
 "einzugeben."
 
 #: desktop-guide/C/hardware-devices.xml:44(para)
@@ -5594,6 +5601,9 @@ msgid ""
 "<guilabel>Trash</guilabel>, right-click the file and click "
 "<menuchoice><guimenuitem>Restore</guimenuitem></menuchoice>."
 msgstr ""
+"Falls Sie jemals das Löschen einer Datei rückgangig machen möchten, öffnen "
+"Sie den <guilabel>Papierkorb</guilabel>, rechtsklicken Sie die Datei und "
+"wählen <menuchoice><guimenuitem>Wiederherstellen</guimenuitem></menuchoice>."
 
 #: desktop-guide/C/guide-desktop.xml:95(para)
 msgid ""
@@ -5674,6 +5684,9 @@ msgid ""
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></me"
 "nuchoice>."
 msgstr ""
+"Für mehr Auswahlmöglichkeiten erkunden Sie weitere Optionen unter "
+"<menuchoice><guimenu>Bearbeiten</guimenu><guimenuitem>Einstellungen</guimenui"
+"tem></menuchoice>."
 
 #: desktop-guide/C/guide-default-apps.xml:12(title)
 msgid "Quick guide to default applications"
@@ -5691,7 +5704,7 @@ msgid ""
 "url=\"http://www.gimp.org/\">GIMP</ulink> website."
 msgstr ""
 
-#: desktop-guide/C/guide-default-apps.xml:19(para)
+#: desktop-guide/C/guide-default-apps.xml:17(para)
 msgid ""
 "<application>Ristretto</application> is an image viewer designed to be very "
 "light on resources. More information can be found in the <ulink "
@@ -5699,7 +5712,7 @@ msgid ""
 "documentation</ulink>."
 msgstr ""
 
-#: desktop-guide/C/guide-default-apps.xml:21(para)
+#: desktop-guide/C/guide-default-apps.xml:19(para)
 msgid ""
 "<application>Simple Scan</application> is an easy-to-use scan utility "
 "designed to do simple tasks like scanning to email or directly to PDF. Read "
@@ -5707,11 +5720,11 @@ msgid ""
 "website</ulink>."
 msgstr ""
 
-#: desktop-guide/C/guide-default-apps.xml:25(title)
+#: desktop-guide/C/guide-default-apps.xml:23(title)
 msgid "Internet"
 msgstr "Internet"
 
-#: desktop-guide/C/guide-default-apps.xml:27(para)
+#: desktop-guide/C/guide-default-apps.xml:25(para)
 msgid ""
 "<application>Firefox</application> is a mature and stable web browser which "
 "can be extended with a wide variety of available add-ins. Read more on "
@@ -5719,7 +5732,7 @@ msgid ""
 "help</ulink>."
 msgstr ""
 
-#: desktop-guide/C/guide-default-apps.xml:29(para)
+#: desktop-guide/C/guide-default-apps.xml:27(para)
 msgid ""
 "<application>Thunderbird</application> is a versatile mail client which can "
 "handle multiple email accounts and different identities simultaneously. Like "
@@ -5733,7 +5746,7 @@ msgid ""
 "Support page</ulink>."
 msgstr ""
 
-#: desktop-guide/C/guide-default-apps.xml:31(para)
+#: desktop-guide/C/guide-default-apps.xml:29(para)
 msgid ""
 "<application>Pidgin</application> is the default instant messaging client "
 "capable of handling MSN, XMPP (Google Talk, Facebook) and more. Read more "
@@ -5741,11 +5754,11 @@ msgid ""
 "Pidgin</ulink> at the Pidgin online help."
 msgstr ""
 
-#: desktop-guide/C/guide-default-apps.xml:35(title)
+#: desktop-guide/C/guide-default-apps.xml:33(title)
 msgid "Media"
 msgstr "Multimedia"
 
-#: desktop-guide/C/guide-default-apps.xml:37(para)
+#: desktop-guide/C/guide-default-apps.xml:35(para)
 msgid ""
 "<application>gmusicbrowser</application> has been provided as your basic "
 "audio player. Read more at <xref linkend=\"media-music-listen\"/> and on the "
@@ -5753,15 +5766,19 @@ msgid ""
 "guide</ulink>."
 msgstr ""
 
-#: desktop-guide/C/guide-default-apps.xml:39(para)
+#: desktop-guide/C/guide-default-apps.xml:37(para)
 msgid ""
 "<application>Parole</application> is a simple media player that can play "
 "video and audio files. More information can be found in the <ulink "
 "url=\"http://docs.xfce.org/apps/parole/start\">Parole online "
 "documentation</ulink>."
 msgstr ""
+"<application>Parole</application> ist eine einfache Medienwiedergabe für "
+"Film- und Tondateien. Weitere Informationen können in der <ulink "
+"url=\"http://docs.xfce.org/apps/parole/start\">Parole-"
+"Internetdokumentation</ulink> gefunden werden."
 
-#: desktop-guide/C/guide-default-apps.xml:41(para)
+#: desktop-guide/C/guide-default-apps.xml:39(para)
 msgid ""
 "It will be necessary to install <literal><placeholder-1/>xubuntu-restricted-"
 "extras</literal> in order to play proprietary media formats like e.g. MP3."
@@ -5770,7 +5787,7 @@ msgstr ""
 "extras</literal> zu installlieren um proprietäre Medienformate wie z.B. MP3 "
 "abzuspielen."
 
-#: desktop-guide/C/guide-default-apps.xml:43(para)
+#: desktop-guide/C/guide-default-apps.xml:41(para)
 msgid ""
 "<application>PulseAudio Volume Control</application> is the way to control "
 "the different sound sources to their destination. Read more at the <ulink "
@@ -5778,7 +5795,7 @@ msgid ""
 "website</ulink>."
 msgstr ""
 
-#: desktop-guide/C/guide-default-apps.xml:45(para)
+#: desktop-guide/C/guide-default-apps.xml:43(para)
 msgid ""
 "<application>Xfburn</application> is the chosen program for creating your "
 "CDs and DVDs."
@@ -5786,14 +5803,14 @@ msgstr ""
 "<application>Xfburn</application> ist eine Anwendung zur Erstellung von CDs "
 "und DVDs."
 
-#: desktop-guide/C/guide-default-apps.xml:47(para)
+#: desktop-guide/C/guide-default-apps.xml:45(para)
 msgid ""
 "To read more about media in Xubuntu, refer to <xref linkend=\"media-apps\"/>."
 msgstr ""
 "Um mehr über Medien in Xubuntu zu erfahren, lesen Sie <xref linkend=\"media-"
 "apps\"/>."
 
-#: desktop-guide/C/guide-default-apps.xml:51(title)
+#: desktop-guide/C/guide-default-apps.xml:49(title)
 msgid "Office"
 msgstr "Büro"
 
@@ -5820,7 +5837,7 @@ msgid ""
 "available from repositories."
 msgstr ""
 
-#: desktop-guide/C/guide-default-apps.xml:59(para)
+#: desktop-guide/C/guide-default-apps.xml:55(para)
 msgid ""
 "<application>Dictionary</application> provides an easy way to access a "
 "number of different dictionaries across the internet. Read more at the "
@@ -5828,11 +5845,11 @@ msgid ""
 "dict\">Xfce4 Dictionary online help</ulink>."
 msgstr ""
 
-#: desktop-guide/C/guide-default-apps.xml:61(para)
+#: desktop-guide/C/guide-default-apps.xml:57(para)
 msgid "<application>Document Viewer</application> is a PDF reader."
 msgstr "<application>Dokumentenbetrachter</application> ist ein PDF-Leser."
 
-#: desktop-guide/C/guide-default-apps.xml:63(para)
+#: desktop-guide/C/guide-default-apps.xml:59(para)
 msgid ""
 "<application>Orage</application> has been designed to be a simple but "
 "effective calendar application to keep track of your appointments and "
@@ -5840,18 +5857,18 @@ msgid ""
 "url=\"http://www.kolumbus.fi/~w408237/orage/\">Orage website</ulink>."
 msgstr ""
 
-#: desktop-guide/C/guide-default-apps.xml:67(title)
+#: desktop-guide/C/guide-default-apps.xml:63(title)
 msgid "System"
 msgstr "System"
 
-#: desktop-guide/C/guide-default-apps.xml:69(para)
+#: desktop-guide/C/guide-default-apps.xml:65(para)
 msgid ""
 "<application>Gigolo</application> is an easy way to connect to local and "
 "remote file systems. Read more at the <ulink "
 "url=\"http://www.uvena.de/gigolo/\">Gigolo website</ulink>."
 msgstr ""
 
-#: desktop-guide/C/guide-default-apps.xml:71(para)
+#: desktop-guide/C/guide-default-apps.xml:67(para)
 msgid ""
 "<application>Task Manager</application> provides a graphical overview of "
 "running applications. More information can be found in the <ulink "
@@ -5941,6 +5958,9 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/RootSudo\">sudo page</ulink> on the "
 "Ubuntu community wiki."
 msgstr ""
+"Für mehr Informationen über <application>sudo</application>, besuchen Sie "
+"die <ulink url=\"https://help.ubuntu.com/community/RootSudo\">sudo "
+"Seite</ulink> im Ubuntu Community Wiki."
 
 #: desktop-guide/C/command-line.xml:40(title)
 msgid "Common commands"
@@ -6435,9 +6455,11 @@ msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
 "  Ablesius https://launchpad.net/~onkel-pflaume\n"
+"  Christoph Schreck https://launchpad.net/~christoph-schreck\n"
 "  Daniel Kessel https://launchpad.net/~dkessel\n"
 "  David Pires https://launchpad.net/~slickymaster\n"
 "  Estellnb-8 https://launchpad.net/~estellnb-8\n"
+"  Jan Jansen https://launchpad.net/~two-jays\n"
 "  Jens Maucher https://launchpad.net/~jensmaucher\n"
 "  Krytarik Raido https://launchpad.net/~krytarik\n"
 "  Leopold Stammler https://launchpad.net/~leopold-stammler\n"
