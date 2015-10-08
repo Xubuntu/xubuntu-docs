@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-09-09 19:24+0300\n"
-"PO-Revision-Date: 2015-09-27 13:51+0000\n"
-"Last-Translator: David Pires <Unknown>\n"
+"PO-Revision-Date: 2015-10-07 07:56+0000\n"
+"Last-Translator: Daniel Kessel <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-09-28 06:26+0000\n"
-"X-Generator: Launchpad (build 17754)\n"
+"X-Launchpad-Export-Date: 2015-10-08 05:59+0000\n"
+"X-Generator: Launchpad (build 17802)\n"
 "Language: de\n"
 
 #: desktop-guide/C/xi-pdf-files.xml:3(emphasis)
@@ -29,7 +29,7 @@ msgid ""
 "letter</ulink>."
 msgstr ""
 "Wählen Sie ihre bevorzugte Papiergröße aus: <ulink url=\"xubuntu-"
-"documentation-A4.pdf\">A4</ulink> or <ulink url=\"xubuntu-documentation-"
+"documentation-A4.pdf\">A4</ulink> oder <ulink url=\"xubuntu-documentation-"
 "USletter.pdf\">US letter</ulink>."
 
 #: desktop-guide/C/xi-translators-not-found.xml:1(para)
@@ -325,7 +325,7 @@ msgstr "gvfs-fuse"
 
 #: desktop-guide/C/appendix-packages.xml:51(seg)
 msgid "Let non-GNOME apps use GVFS via fuse"
-msgstr "Lässt nicht-GNOME Anwendungen GVFS via »fuse« nutzen"
+msgstr "Lässt nicht-GNOME-Anwendungen GVFS über »fuse« benutzen"
 
 #: desktop-guide/C/appendix-packages.xml:52(seg)
 msgid "libnotify-bin"
@@ -362,7 +362,7 @@ msgstr "<placeholder-1/>xfdesktop4"
 #: desktop-guide/C/appendix-packages.xml:54(seg)
 msgid "Xfce thumbnail daemon used by <placeholder-1/> and <placeholder-2/>"
 msgstr ""
-"Xfce Lesezeichen-Dienst, benutzt von <placeholder-1/> und <placeholder-2/>"
+"Xfce-Vorschaubilddienst, benutzt von <placeholder-1/> und <placeholder-2/>"
 
 #: desktop-guide/C/appendix-packages.xml:55(seg)
 msgid "xfce4-notifyd"
@@ -851,12 +851,13 @@ msgid ""
 "This allows each monitor to have its own settings. Just drag the dialog to "
 "the monitor on which you want to edit the settings."
 msgstr ""
-"Xfdesktop unterstützt xinerama und Multimonitor-Umgebungen. Wenn mehr als "
-"ein Monitor angeschlossen ist, stellt der <guilabel>Hintergrund</guilabel> "
-"Reiter immer die Einstellungen des Bildschirms dar, auf dem der Dialog "
-"positioniert ist. Dadurch ist es möglich, für verschiedene Monitore "
-"unterschiedliche Einstellungen zu setzen. Ziehen Sie dazu den Dialog auf den "
-"Monitor, für den Sie die Einstellungen setzen wollen."
+"Xfdesktop unterstützt xinerama und Einstellungen mit mehreren Bildschirmen. "
+"Wenn mehr als ein Bildschirm angeschlossen ist, stellt der Reiter "
+"<guilabel>Hintergrund</guilabel> immer die Einstellungen des Bildschirms "
+"dar, auf dem der Dialog positioniert ist. Dadurch ist es möglich, für "
+"verschiedene Bildschirme unterschiedliche Einstellungen zu verwenden. Ziehen "
+"Sie dazu den Dialog auf den Bildschirm, für den Sie die Einstellungen "
+"einstellen wollen."
 
 #: desktop-guide/C/settings-preferences.xml:67(para)
 msgid ""
@@ -1081,7 +1082,7 @@ msgstr ""
 
 #: desktop-guide/C/settings-preferences.xml:138(para)
 msgid "Icon themes:"
-msgstr "Symbol-Thema:"
+msgstr "Symbolthemen:"
 
 #: desktop-guide/C/settings-preferences.xml:140(para)
 msgid ""
@@ -1579,9 +1580,9 @@ msgid ""
 "available to you, this can be managed."
 msgstr ""
 "Das Werkzeug <application>apt-offline</application> ist verfügbar, um Ihren "
-"Computer aktuell zu halten, auch wenn er nicht mit dem Internet verbunden "
-"bleiben kann. Hierzu sind mehrere Schritte notwendig, zu denen Sie einen USB-"
-"Speicherstick benötigen."
+"Rechner aktuell zu halten, auch wenn er nicht mit dem Internet verbunden "
+"bleiben kann. Hierzu sind mehrere Schritte notwendig, zu denen Sie ein USB-"
+"Laufwerk benötigen."
 
 #: desktop-guide/C/offline-packages.xml:17(title)
 msgid "Updating Repositories"
@@ -6533,6 +6534,10 @@ msgid ""
 "url=\"http://docs.xfce.org/apps/parole/start\">Parole online "
 "documentation</ulink>."
 msgstr ""
+"<application>Parole</application> ist eine einfache Medienwiedergabe für "
+"Film- und Tondateien. Weitere Informationen können in der <ulink "
+"url=\"http://docs.xfce.org/apps/parole/start\">Parole-"
+"Internetdokumentation</ulink> gefunden werden."
 
 #: desktop-guide/C/guide-default-apps.xml:39(para)
 msgid ""
