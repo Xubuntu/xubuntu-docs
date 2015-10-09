@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-09-09 19:24+0300\n"
-"PO-Revision-Date: 2015-10-07 07:40+0000\n"
-"Last-Translator: Aleksey Kabanov <Unknown>\n"
+"PO-Revision-Date: 2015-10-08 14:55+0000\n"
+"Last-Translator: David Pires <Unknown>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-10-08 05:59+0000\n"
+"X-Launchpad-Export-Date: 2015-10-09 05:49+0000\n"
 "X-Generator: Launchpad (build 17802)\n"
 
 #: desktop-guide/C/xi-pdf-files.xml:3(emphasis)
@@ -87,7 +87,7 @@ msgstr "Программа для просмотра документов"
 
 #: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "evince"
-msgstr "Приложение просмотра документов evince"
+msgstr "evince"
 
 #: desktop-guide/C/appendix-packages.xml:18(seg)
 msgid "Document (PostScript, PDF) viewer"
@@ -99,7 +99,7 @@ msgstr "Калькулятор"
 
 #: desktop-guide/C/appendix-packages.xml:19(seg)
 msgid "gnome-calculator"
-msgstr "Калькулятор для среды Gnome"
+msgstr "gnome-calculator"
 
 #: desktop-guide/C/appendix-packages.xml:19(seg)
 msgid "Desktop calculator"
@@ -111,7 +111,7 @@ msgstr "Таблица символов"
 
 #: desktop-guide/C/appendix-packages.xml:20(seg)
 msgid "gucharmap"
-msgstr "таблица символов Юникода gucharmap"
+msgstr "gucharmap"
 
 #: desktop-guide/C/appendix-packages.xml:20(seg)
 msgid "Unicode character picker and font browser"
@@ -123,7 +123,7 @@ msgstr "LibreOffice Calc"
 
 #: desktop-guide/C/appendix-packages.xml:21(seg)
 msgid "libreoffice-calc"
-msgstr "LibreOffice-сalc"
+msgstr "libreoffice-calc"
 
 #: desktop-guide/C/appendix-packages.xml:21(seg)
 msgid "Spreadsheet application"
@@ -211,7 +211,7 @@ msgstr "Диспетчер задач"
 
 #: desktop-guide/C/appendix-packages.xml:29(seg)
 msgid "xfce4-taskmanager"
-msgstr "Диспетчер задач Xfce 4"
+msgstr "xfce4-taskmanager"
 
 #: desktop-guide/C/appendix-packages.xml:29(seg)
 msgid "Process manager for the Xfce4 Desktop Environment"
@@ -227,7 +227,7 @@ msgstr "Настройка тем"
 
 #: desktop-guide/C/appendix-packages.xml:36(seg)
 msgid "gtk-theme-config"
-msgstr "настройка тем gtk"
+msgstr "gtk-theme-config"
 
 #: desktop-guide/C/appendix-packages.xml:36(seg)
 msgid "Simple interface to change GTK+ themes"
@@ -263,7 +263,7 @@ msgstr "Подключение к сети"
 
 #: desktop-guide/C/appendix-packages.xml:39(seg)
 msgid "network-manager-gnome"
-msgstr "Сетевой менеджер рабочей среды gnome"
+msgstr "network-manager-gnome"
 
 #: desktop-guide/C/appendix-packages.xml:39(seg)
 msgid "Network management framework"
@@ -295,7 +295,7 @@ msgstr "Принтеры"
 
 #: desktop-guide/C/appendix-packages.xml:42(seg)
 msgid "system-config-printer-gnome"
-msgstr "Менеджер настройки принтеров рабочей среды gnome"
+msgstr "system-config-printer-gnome"
 
 #: desktop-guide/C/appendix-packages.xml:42(seg)
 msgid "Printer configuration GUI"
@@ -333,7 +333,7 @@ msgstr "Посылать уведомления исполняемыми фай�
 
 #: desktop-guide/C/appendix-packages.xml:53(seg)
 msgid "light-locker"
-msgstr "Блокировщик экрана light-locker"
+msgstr "light-locker"
 
 #: desktop-guide/C/appendix-packages.xml:53(literal)
 msgid "<placeholder-1/>lightdm"
@@ -2368,7 +2368,7 @@ msgid ""
 msgstr ""
 "Xubuntu работает с большинством портативных аудиоплееров, включая устройства "
 "iPod. Как правило, всё, что вам нужно сделать — это подключить плеер к "
-"компьютеру и воспользоваться <application>Файловым менеджером</application>, "
+"компьютеру и воспользоваться <application>Файловый менеджер</application>, "
 "чтобы вручную скопировать музыкальные композиции на плеер или с него."
 
 #: desktop-guide/C/media-apps.xml:55(para)
@@ -2407,7 +2407,7 @@ msgid ""
 "You can watch movies and video clips with the <application>Parole Media "
 "Player</application>."
 msgstr ""
-"Просматривать фильмы и видеоклипы можно в <application>Медиапроигрывателе "
+"Просматривать фильмы и видеоклипы можно в <application>Медиаплеер "
 "Parole</application>."
 
 #: desktop-guide/C/media-apps.xml:67(title)
@@ -2471,7 +2471,7 @@ msgid ""
 "<application>Parole Media Player</application>."
 msgstr ""
 "Вставьте DVD в привод. Он должен автоматически открыться в "
-"<application>Медиапроигрывателе Parole</application>."
+"<application>Медиаплеер Parole</application>."
 
 #: desktop-guide/C/media-apps.xml:84(title)
 msgid "Playing video"
@@ -2485,12 +2485,12 @@ msgid ""
 "install this plugin by following the wizard. Afterwards, you may need to "
 "restart <application>Parole Media Player</application>."
 msgstr ""
-"<application>Медиапроигрыватель Parole</application> поддерживает "
-"большинство форматов видео. Если вам нужно воспроизвести не поддерживаемый "
-"видеофайл, <application>Медиапроигрыватель Parole</application> может "
-"уведомить вас об отсутствующем модуле. Вы можете установить этот модуль с "
-"помощью мастера, после чего, возможно, понадобится перезапустить "
-"<application>Медиапроигрыватель Parole</application>."
+"<application>Медиаплеер Parole</application> поддерживает большинство "
+"форматов видео. Если вам нужно воспроизвести не поддерживаемый видеофайл, "
+"<application>Медиаплеер Parole</application> может уведомить вас об "
+"отсутствующем модуле. Вы можете установить этот модуль с помощью мастера, "
+"после чего, возможно, понадобится перезапустить <application>Медиаплеер "
+"Parole</application>."
 
 #: desktop-guide/C/media-apps.xml:88(para)
 msgid ""
@@ -2525,7 +2525,7 @@ msgid ""
 "information)."
 msgstr ""
 "Чтобы можно было воспроизводить большинство проприетарных форматов в "
-"<application>Медиапроигрывателе Parole</application> или "
+"<application>Медиаплеер Parole</application> или "
 "<application>Firefox</application>, установите пакет <literal><placeholder-"
 "1/>xubuntu-restricted-extras</literal> (смотрите <xref linkend=\"software-"
 "repositories-restricted\"/> для дополнительной информации)."
@@ -3388,7 +3388,7 @@ msgstr ""
 
 #: desktop-guide/C/internet-networks.xml:90(para)
 msgid "Using <application>NetworkManager</application>"
-msgstr "С помощью <application>Диспетчера сети</application>"
+msgstr "С помощью <application>Диспетчер сети</application>"
 
 #: desktop-guide/C/internet-networks.xml:92(para)
 msgid "Click on the <application>NetworkManager</application> icon"
@@ -3826,6 +3826,8 @@ msgid ""
 "This documentation is maintained by the Xubuntu documentation team and is "
 "partly adapted from the Ubuntu documentation."
 msgstr ""
+"Эта документация сопровождается командой документирования Xubuntu и частично "
+"является производной от документации Ubuntu."
 
 #: desktop-guide/C/index.xml:20(para)
 msgid "The contributors to this documentation are:"
@@ -4255,7 +4257,7 @@ msgid ""
 "Software Center</application> for information on removing packages."
 msgstr ""
 "Удалите пакеты приложений, которыми вы больше не пользуетесь. Информацию об "
-"удалении пакетов смотрите в разделе о <application>Центре приложений "
+"удалении пакетов смотрите в разделе о <application>Центр приложений "
 "Ubuntu</application>."
 
 #: desktop-guide/C/hardware-devices.xml:89(para)
@@ -5482,8 +5484,8 @@ msgid ""
 "dedicated backup application."
 msgstr ""
 "Простейший способ резервного копирования — это вручную скопировать файлы в "
-"безопасное место (см. выше) с помощью <application>Файлового "
-"менеджера</application>, а также использовать <application>Менеджер "
+"безопасное место (см. выше) с помощью <application>Файловый "
+"менеджер</application>, а также использовать <application>Менеджер "
 "архивов</application>, который позволяет сжимать файлы и упаковывать все их "
 "в один архив. Альтернативой является использование специализированного "
 "приложения для резервного копирования."
@@ -5513,8 +5515,8 @@ msgid ""
 "<application>luckyBackup</application>."
 msgstr ""
 "Существует множество специализированных приложений для резервного "
-"копирования, доступных в <application>Центре приложений "
-"Ubuntu</application>, включая <application>Dejà Dup</application> и "
+"копирования, доступных в <application>Центр приложений Ubuntu</application>, "
+"включая <application>Dejà Dup</application> и "
 "<application>luckyBackup</application>."
 
 #: desktop-guide/C/guide-keeping-safe.xml:286(para)
@@ -5980,8 +5982,8 @@ msgid ""
 "List</guimenuitem></menuchoice> to have the contents of the current "
 "directory displayed as a list."
 msgstr ""
-"Существует множество способов настройки <application>Файлового "
-"менеджера</application>. Если вам не нравится способ отображения значков, "
+"Существует множество способов настройки <application>Файловый "
+"менеджер</application>. Если вам не нравится способ отображения значков, "
 "можете выбрать <menuchoice><guimenu>Вид</guimenu><guimenuitem>Подробный "
 "список</guimenuitem></menuchoice>, чтобы содержимое текущего каталога "
 "отображалось в виде списка."
