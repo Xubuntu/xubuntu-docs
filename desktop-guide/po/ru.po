@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-09-09 19:24+0300\n"
-"PO-Revision-Date: 2015-10-13 12:21+0000\n"
+"PO-Revision-Date: 2015-10-14 11:51+0000\n"
 "Last-Translator: Aleksey Kabanov <Unknown>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-10-14 06:02+0000\n"
+"X-Launchpad-Export-Date: 2015-10-15 06:09+0000\n"
 "X-Generator: Launchpad (build 17812)\n"
 
 #: desktop-guide/C/xi-pdf-files.xml:3(emphasis)
@@ -1855,7 +1855,7 @@ msgstr "Панель управления"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "<placeholder-1/> Settings Manager"
-msgstr ""
+msgstr "<placeholder-1/> Настройки"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "System (menu)"
@@ -1868,6 +1868,10 @@ msgid ""
 "<?br?><application><menuchoice><placeholder-3/><placeholder-"
 "4/></menuchoice></application> for additional configuration"
 msgstr ""
+"<application><menuchoice><placeholder-1/><placeholder-"
+"2/></menuchoice></application> для персональных настроек "
+"<?br?><application><menuchoice><placeholder-3/><placeholder-"
+"4/></menuchoice></application> для дополнительных настроек"
 
 #: desktop-guide/C/migrating-upgrading.xml:24(seg)
 msgid "Windows Explorer"
@@ -1875,7 +1879,7 @@ msgstr "Проводник Windows"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guisubmenu)
 msgid "Accessories"
-msgstr ""
+msgstr "Инструменты"
 
 #: desktop-guide/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "File Manager"
@@ -3048,6 +3052,15 @@ msgid ""
 "Updates</guimenuitem></menuchoice></application> and opening the "
 "<guilabel>Updates</guilabel> tab."
 msgstr ""
+"Вы можете изменить частоту проверки обновлений и некоторые другие настройки "
+"обновлений. Когда <application>Обновление приложений</application> открыто, "
+"внизу его окна можно увидеть кнопку <guilabel>Настройки</guilabel>. Нажатие "
+"на неё откроет диалог <guilabel>Программы и обновления</guilabel> на вкладке "
+"<guilabel>Обновления</guilabel>. Другой способ попасть в диалог настройки — "
+"перейти в <application><menuchoice><placeholder-1/><guimenuitem><placeholder-"
+"2/> Настройки</guimenuitem><guimenuitem>Программы и "
+"обновления</guimenuitem></menuchoice></application> и открыть вкладку "
+"<guilabel>Обновления</guilabel>."
 
 #: desktop-guide/C/managing-applications.xml:125(para)
 msgid "The following settings can be changed from this dialog:"
@@ -3143,6 +3156,9 @@ msgid ""
 "<guilabel>For long-term support versions</guilabel> - You will get "
 "notifications of new Long-term Support (LTS) releases, once in 2 years"
 msgstr ""
+"<guilabel>При доступности версий с длительным сроком поддержки</guilabel> — "
+"вы будете получать уведомления о новых выпусках с длительным сроком "
+"поддержки (LTS), раз в 2 года"
 
 #: desktop-guide/C/managing-applications.xml:151(para)
 msgid ""
@@ -3157,6 +3173,10 @@ msgid ""
 "recommmended option, especially if you are running Xubuntu on a production "
 "machine and/or need maximum stability."
 msgstr ""
+"Выбор уведомлений о версиях с долгосрочной поддержкой (LTS) обычно является "
+"рекомендуемым вариантом, особенно если вы используете компьютер под "
+"управлением Xubuntu для важной работы и вам требуется максимальная "
+"стабильность."
 
 #: desktop-guide/C/managing-applications.xml:156(para)
 msgid ""
@@ -3167,6 +3187,13 @@ msgid ""
 "See <xref linkend=\"migrating-upgrading\"/> for more information on "
 "upgrading Xubuntu and release support lengths."
 msgstr ""
+"Использовать вариант <guilabel>Никогда</guilabel> не рекомендуется. Он "
+"оставит вашу систему без поддержки, если только вы не будете достаточно "
+"часто обновлять её вручную. Кроме того, вам не будут поступать исправления "
+"ошибок, обновления для устранения потенциальных угроз безопасности и "
+"улучшения поддержки различных устройств. Для более подробной информации об "
+"обновлении Xubuntu и сроках поддержки выпусков смотрите <xref "
+"linkend=\"migrating-upgrading\"/>."
 
 #: desktop-guide/C/managing-applications.xml:160(title)
 msgid "Other options"
