@@ -15,6 +15,13 @@
 
 	<section id="setup-bzr">
 		<title>Setting up Bzr</title>
+
+		<para>To set up Bzr, do the following:</para>
+
+		<itemizedlist>
+			<listitem><para>To make sure Bzr is installed in your system, run <userinput>sudo apt-get install bzr</userinput></para></listitem>
+			<listitem><para>To set up your personal information for Bzr to use, run <userinput>bzr whoami "John Doe &lt;john.doe@gmail.com&gt;"</userinput></para></listitem>
+		</itemizedlist>
 	</section>
 	<section id="setup-launchpad">
 		<title>Setting up a Launchpad account</title>
