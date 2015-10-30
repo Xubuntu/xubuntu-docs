@@ -2,8 +2,8 @@
 # Xubuntu Project <xubuntu-devel@lists.ubuntu.com>
 
 # Xubuntu Docbook Customization Layers
-XUBUNTUXSL_HTML = libs/xubuntu-docbook-xhtml.xsl
-XUBUNTUXSL_PDF = libs/xubuntu-docbook-pdf.xsl
+XUBUNTUXSL_HTML = libs-common/xubuntu-docbook-xhtml.xsl
+XUBUNTUXSL_PDF = libs-common/xubuntu-docbook-pdf.xsl
 
 # All available translations
 TRANSALL = $(shell basename -s .po -a po/*.po)
@@ -24,23 +24,16 @@ pdf:
 	../scripts/pdf-create.sh C
 
 style:
+	mkdir -p ../build/libs-common
+	cp -r ../libs-common ../build/
 	mkdir -p ../build/libs
-	cp -r   libs/*.css \
-		libs/images \
-		libs/admon \
-		libs/navig \
-		../build/libs/
+	cp -r libs/images ../build/libs/
 	@touch style
 
 style-epub:
 	mkdir -p ../build/C/libs/images
-	cp      libs/images/preferences-desktop.png \
-		libs/images/system-lock-screen.png \
-		libs/images/system-log-out.png \
-		libs/images/location_icon.png \
-		libs/images/package_icon.png \
-		libs/images/menu_icon.png \
-		libs/images/key_icon.png \
+	cp libs/images/*.png \
+		libs-common/images/*.png \
 		../build/C/libs/images/
 
 translate: | get-translations

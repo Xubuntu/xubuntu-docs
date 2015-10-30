@@ -24,6 +24,9 @@ startpage: get-translations
 	done >> build/index.html
 	cat startpage/xubuntu-index-end.htx >> build/index.html
 
+contributors:
+	$(MAKE) -C contributor-docs all
+
 update-translations:
     ifeq ($(TRANSLATIONS),)
         ifneq ($(wildcard desktop-guide/po/LINGUAS),)

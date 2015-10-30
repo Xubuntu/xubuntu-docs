@@ -3,8 +3,6 @@
 	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
 <!ENTITY % xubuntu-common SYSTEM "../libs-common/xubuntu-common.ent">
 %xubuntu-common;
-<!ENTITY % xubuntu-docs SYSTEM "../libs/xubuntu-docs.ent">
-%xubuntu-docs;
 <!ENTITY % xinclude SYSTEM "../libs-common/xinclude.mod">
 %xinclude;
 <!ENTITY language "&EnglishAmerican;">

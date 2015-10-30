@@ -19,11 +19,19 @@
 #    at /usr/share/common-licenses/GPL
 ####################################################################################
 
-files=$( cat desktop-guide/libs/shipped-docs )
-for file in $files
-do
-	filepath="desktop-guide/C/$file.xml"
-	filepaths="$filepaths $filepath"
-done
+templates='desktop-guide contributor-docs'
 
-xml2po -e -o desktop-guide/po/desktop-guide.pot $filepaths
+for template in $templates
+do
+	filepath=''
+	filepaths=''
+
+	files=$( cat $template/libs/shipped-docs )
+	for file in $files
+	do
+		filepath="$template/C/$file.xml"
+		filepaths="$filepaths $filepath"
+	done
+
+	xml2po -e -o $template/po/$template.pot $filepaths
+done

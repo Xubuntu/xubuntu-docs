@@ -8,13 +8,12 @@
 <!ENTITY xubuntu-web-contribute 'http://xubuntu.org/contribute/' >
 <!ENTITY xubuntu-web-help 'http://xubuntu.org/help/' >
 
-<!-- OTHER WEBSITES -->
+<!-- WEBSITES -->
 <!ENTITY aptoncd-web 'http://aptoncd.sourceforge.net/' >
 <!ENTITY aptoffline-example 'http://www.debian-administration.org/article/Offline_Package_Management_for_APT' >
 <!ENTITY askubuntu-web 'http://askubuntu.com/' >
 <!ENTITY calc-web 'https://www.libreoffice.org/discover/calc/' >
 <!ENTITY canonical-web 'http://www.canonical.com/' >
-<!ENTITY cc-web 'http://creativecommons.org/' >
 <!ENTITY communitywiki-dialup 'https://help.ubuntu.com/community/DialupModemHowto' >
 <!ENTITY communitywiki-installing 'https://help.ubuntu.com/community/InstallingSoftware' >
 <!ENTITY communitywiki-laptop-testing 'https://wiki.ubuntu.com/Testing/Laptop' >
@@ -61,13 +60,7 @@
 <!ENTITY xfce-web 'http://www.xfce.org/' >
 <!ENTITY xfdesktop-help 'http://docs.xfce.org/xfce/xfdesktop/4.11/start' >
 
-<!-- INLINE ICONS -->
-<!ENTITY package '<inlinemediaobject role="icon-pkg"><imageobject><imagedata role="icon-pad" fileref="../libs/images/package_icon.png" /></imageobject></inlinemediaobject>' >
-<!ENTITY key '<inlinemediaobject role="icon-key"><imageobject><imagedata role="icon-pad" fileref="../libs/images/key_icon.png" /></imageobject></inlinemediaobject>' >
-
-<!-- LOCATIONS -->
-<!ENTITY location '<inlinemediaobject role="icon-location"><imageobject><imagedata role="icon-pad" fileref="../libs/images/location_icon.png"/></imageobject></inlinemediaobject>' >
-<!-- Items -->
+<!-- Locations -->
 <!ENTITY location_home '<filename>&location; /home/username/</filename>' >
 <!ENTITY location_backdrops '<filename>&location; /usr/share/xfce4/backdrops/</filename>' >
 <!ENTITY location_themes_user '<filename>&location; /home/username/.themes/</filename>' >
@@ -75,8 +68,8 @@
 <!ENTITY location_icons_user '<filename>&location; /home/username/.icons/</filename>' >
 <!ENTITY location_icons_global '<filename>&location; /usr/share/icons/</filename>' >
 
-<!-- MENUS -->
-<!ENTITY appmenu '<guiicon><inlinemediaobject role="icon-menu"><imageobject><imagedata role="icon" fileref="../libs/images/menu_icon.png"/></imageobject></inlinemediaobject></guiicon>' >
+<!-- Menus -->
+<!ENTITY appmenu '<guiicon><inlinemediaobject role="icon-menu"><imageobject><imagedata role="icon" fileref="../libs/images/icon_menu.png"/></imageobject></inlinemediaobject></guiicon>' >
 <!ENTITY settings '<inlinemediaobject role="icon-submenu"><imageobject><imagedata role="icon" fileref="../libs/images/preferences-desktop.png" /></imageobject></inlinemediaobject>' >
 <!ENTITY lockscreen '<inlinemediaobject role="icon-submenu"><imageobject><imagedata role="icon" fileref="../libs/images/system-lock-screen.png" /></imageobject></inlinemediaobject>' >
 <!ENTITY users '<inlinemediaobject role="icon-submenu"><imageobject><imagedata role="icon" fileref="../libs/images/system-users.png" /></imageobject></inlinemediaobject>' >
@@ -127,147 +120,3 @@
 <!ENTITY wm-software-properties '<application><menuchoice>&appmenu; <guimenuitem>&settings; Settings Manager</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice></application>' >
 <!ENTITY wm-software-updater '<application><menuchoice>&appmenu; <guimenuitem>&settings; Settings Manager</guimenuitem><guimenuitem>Software Updater</guimenuitem></menuchoice></application>' >
 <!ENTITY wm-users-groups '<application><menuchoice>&appmenu; <guimenuitem>&settings; Settings Manager</guimenuitem><guimenuitem>Users and Groups</guimenuitem></menuchoice></application>' >
-
-<!-- LANGUAGES (sorted by two letter code)-->
-<!ENTITY Afar 'aa' >
-<!ENTITY Abkhazian 'ab' >
-<!ENTITY Afrikaans 'af' >
-<!ENTITY Amharic 'af' >
-<!ENTITY Arabic 'ar' >
-<!ENTITY Assamese 'as' >
-<!ENTITY Aymara 'ay' >
-<!ENTITY Azerbaijani 'az' >
-<!ENTITY Bashkir 'ba' >
-<!ENTITY Byelorussian 'be' >
-<!ENTITY Bulgarian 'bg' >
-<!ENTITY Bihari 'bh' >
-<!ENTITY Bislama 'bi' >
-<!ENTITY Bangla 'bn' >
-<!ENTITY Bengali 'bn' >
-<!ENTITY Tibetan 'bo' >
-<!ENTITY Breton 'br' >
-<!ENTITY Catalan 'ca' >
-<!ENTITY Corsican 'co' >
-<!ENTITY Czech 'cs' >
-<!ENTITY Welsh 'cy' >
-<!ENTITY Danish 'da' >
-<!ENTITY German 'de' >
-<!ENTITY Bhutani 'dz' >
-<!ENTITY Greek 'el' >
-<!-- <!ENTITY EnglishAmerican 'en'> -->
-<!ENTITY EnglishAmerican 'C'>
-<!ENTITY Esperanto 'eo' >
-<!ENTITY Spanish 'es' >
-<!ENTITY Estonian 'et' >
-<!ENTITY Basque 'eu' >
-<!ENTITY Persian 'fa' >
-<!ENTITY Finnish 'fi' >
-<!ENTITY Fiji 'fj' >
-<!ENTITY Faeroese 'fo' >
-<!ENTITY French 'fr' >
-<!ENTITY Frisian 'fy' >
-<!ENTITY Irish 'ga' >
-<!ENTITY Gaelic 'gd' >
-<!ENTITY ScotsGaelic 'gd' >
-<!ENTITY Galician 'gl' >
-<!ENTITY Guarani 'gn' >
-<!ENTITY Gujarati 'gu' >
-<!ENTITY Hausa 'ha' >
-<!ENTITY Hindi 'hi' >
-<!ENTITY Croatian 'hr' >
-<!ENTITY Hungarian 'hu' >
-<!ENTITY Armenian 'hy' >
-<!ENTITY Interlingua 'ia' >
-<!ENTITY Interlingue 'ie' >
-<!ENTITY Inupiak 'ik' >
-<!ENTITY Indonesian 'in' >
-<!ENTITY Icelandic 'is' >
-<!ENTITY Italian 'it' >
-<!ENTITY Hebrew 'iw' >
-<!ENTITY Japanese 'ja' >
-<!ENTITY Yiddish 'ji' >
-<!ENTITY Javanese 'jw' >
-<!ENTITY Georgian 'ka' >
-<!ENTITY Kazakh 'kk' >
-<!ENTITY Greenlandic 'kl' >
-<!ENTITY Cambodian 'km' >
-<!ENTITY Kannada 'kn' >
-<!ENTITY Korean 'ko' >
-<!ENTITY Kashmiri 'ks' >
-<!ENTITY Kurdish 'ku' >
-<!ENTITY Kirghiz 'ky' >
-<!ENTITY Latin 'la' >
-<!ENTITY Lingala 'ln' >
-<!ENTITY Laothian 'lo' >
-<!ENTITY Lithuanian 'lt' >
-<!ENTITY Latvian 'lv' >
-<!ENTITY Lettish 'lv' >
-<!ENTITY Malagasy 'mg' >
-<!ENTITY Maori 'mi' >
-<!ENTITY Macedonian 'mk' >
-<!ENTITY Malayalam 'ml' >
-<!ENTITY Mongolian 'mn' >
-<!ENTITY Moldavian 'mo' >
-<!ENTITY Marathi 'mr' >
-<!ENTITY Malay 'ms' >
-<!ENTITY Maltese 'mt' >
-<!ENTITY Burmese 'my' >
-<!ENTITY Nauru 'na' >
-<!ENTITY Nepali 'ne' >
-<!ENTITY Dutch 'nl' >
-<!ENTITY Norwegian 'no' >
-<!ENTITY Occitan 'oc' >
-<!ENTITY Afan 'om' >
-<!ENTITY Oromo 'om' >
-<!ENTITY Oriya 'or' >
-<!ENTITY Punjabi 'pa' >
-<!ENTITY Polish 'pl' >
-<!ENTITY Pushto 'ps' >
-<!ENTITY Pashto 'ps' >
-<!ENTITY Portuguese 'pt' >
-<!ENTITY Quechua 'qu' >
-<!ENTITY Rhaeto-Romance 'rm' >
-<!ENTITY Kirundi 'rn' >
-<!ENTITY Romanian 'ro' >
-<!ENTITY Russian 'ru' >
-<!ENTITY Kinyarwanda 'rw' >
-<!ENTITY Sanskrit 'sa' >
-<!ENTITY Sindhi 'sd' >
-<!ENTITY Sangro 'sg' >
-<!ENTITY Serbo-Croatian 'sh' >
-<!ENTITY Singhalese 'si' >
-<!ENTITY Slovak 'sk' >
-<!ENTITY Slovenian 'sl' >
-<!ENTITY Samoan 'sm' >
-<!ENTITY Shona 'sn' >
-<!ENTITY Somali 'so' >
-<!ENTITY Albanian 'sq' >
-<!ENTITY Serbian 'sr' >
-<!ENTITY Siswati 'ss' >
-<!ENTITY Sesotho 'st' >
-<!ENTITY Sudanese 'su' >
-<!ENTITY Swedish 'sv' >
-<!ENTITY Swahili 'sw' >
-<!ENTITY Tamil 'ta' >
-<!ENTITY Tegulu 'te' >
-<!ENTITY Tajik 'tg' >
-<!ENTITY Thai 'th' >
-<!ENTITY Tigrinya 'ti' >
-<!ENTITY Turkmen 'tk' >
-<!ENTITY Tagalog 'tl' >
-<!ENTITY Setswana 'tn' >
-<!ENTITY Tonga 'to' >
-<!ENTITY Turkish 'tr' >
-<!ENTITY Tsonga 'ts' >
-<!ENTITY Tatar 'tt' >
-<!ENTITY Twi 'tw' >
-<!ENTITY Ukrainian 'uk' >
-<!ENTITY Urdu 'ur' >
-<!ENTITY Uzbek 'uz' >
-<!ENTITY Vietnamese 'vi' >
-<!ENTITY Volapuk 'vo' >
-<!ENTITY Wolof 'wo' >
-<!ENTITY Xhosa 'xh' >
-<!ENTITY Yoruba 'yo' >
-<!ENTITY Chinese 'zh' >
-<!ENTITY Zulu 'zu' >

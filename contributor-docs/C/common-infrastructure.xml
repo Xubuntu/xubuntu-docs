@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-common SYSTEM "../libs-common/xubuntu-common.ent">
+%xubuntu-common;
+<!ENTITY % xubuntu-contributor-docs SYSTEM "../libs/xubuntu-contributor-docs.ent">
+%xubuntu-contributor-docs;
+<!ENTITY % xinclude SYSTEM "../libs-common/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+<chapter id="common-infrastructure">
+	<title>Common infrastructure</title>
+
+	<section id="setup-bzr">
+		<title>Setting up Bzr</title>
+	</section>
+	<section id="setup-launchpad">
+		<title>Setting up a Launchpad account</title>
+	</section>
+
+</chapter>

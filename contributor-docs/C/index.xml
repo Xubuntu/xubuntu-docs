@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-common SYSTEM "../libs-common/xubuntu-common.ent">
+%xubuntu-common;
+<!ENTITY % xubuntu-contributor-docs SYSTEM "../libs/xubuntu-contributor-docs.ent">
+%xubuntu-contributor-docs;
+<!ENTITY % xinclude SYSTEM "../libs-common/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+<book>
+	<title>Xubuntu Contributor Documentation</title>
+
+	<bookinfo>
+		<title>Xubuntu Contributor Documentation</title>
+		<legalnotice id="credits-license">
+			<title>Credits and License</title>
+			<para>This documentation is maintained by the Xubuntu documentation team.</para>
+
+			<para>The contributors to this documentation are:</para>
+			<itemizedlist>
+				<listitem><para>Pasi Lallinaho (knome)</para></listitem>
+			</itemizedlist>
+
+			<para>This document is made available under the Creative Commons ShareAlike 2.5 License (CC-BY-SA).</para>
+			<para>You are free to modify, extend, and improve the Ubuntu documentation source code under the
+				terms of this license. All derivative works must be released under this license.</para>
+			<para>This documentation is distributed in the hope that it will be useful, but WITHOUT ANY
+				WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+				PURPOSE AS DESCRIBED IN THE DISCLAIMER.</para>
+			<para>A copy of the license is available here: <link linkend="cc-by-sa">Creative Commons ShareAlike License</link>.</para>
+			<para>All trademarks or registered trademarks are the property of the respective owners.</para>
+		</legalnotice>
+
+		<copyright>
+			<year>2015</year>
+			<holder>The Xubuntu documentation team. Xubuntu and Canonical are registered trademarks of Canonical Ltd.</holder>
+		</copyright>
+
+		<publisher>
+			<publishername>The Xubuntu documentation team</publishername>
+		</publisher>
+
+		<abstract>
+			<title>Welcome!</title>
+
+			<para>This documentation is a reference for all Xubuntu contributors. This documentation provides information on the processes - both social and technical - that the Xubuntu contributors use.</para>
+		</abstract>
+	</bookinfo>
+
+	<!-- Table of Contents -->
+	<xi:include href="getting-started.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="common-infrastructure.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<!-- Appendix -->
+	<xi:include href="cc-by-sa.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</book>
