@@ -13,7 +13,7 @@
 <chapter id="hardware-devices">
 	<title>Hardware devices</title>
 
-	<para>Your computer consists of a number of connected devices that are collectively known as computer hardware.</para>
+	<para>Your computer consists of a number of connected devices collectively known as computer hardware.</para>
 
 	<para>Xubuntu normally configures your hardware automatically, but there may be occasions when you need to make changes to hardware settings yourself. This section provides information on tools which can be used to configure your hardware.</para>
 
@@ -33,15 +33,14 @@
 		<section id="restricted-enabling">
 			<title>Enabling restricted drivers</title>
 
-			<para>If a restricted driver is available for a certain device, you can install it in order to allow your device to function properly, or to add new features. For example, installing a restricted driver for certain graphics cards may allow you to use more advanced visual effects.</para>
+			<para>If a restricted driver is available for a certain device, it can be installed in order to allow your device to function properly, or to add new features. For example, installing a restricted driver for certain graphics cards may allow you to use more advanced visual effects.</para>
 
 			<para>Some computers may not have any devices that can use restricted drivers, either because all of the devices are fully supported by unrestricted drivers or because no restricted drivers are yet available for the device.</para>
 
 			<para>If any drivers are available for your hardware they will be installable from the <application>Software Sources</application> dialog:</para>
 
 			<itemizedlist>
-				<listitem><para>Go to &software-properties-usc; or &wm-software-properties;</para></listitem>
-				<listitem><para>Drivers available for your hardware will be shown under the <guilabel>Additional Drivers</guilabel> tab, select as appropriate and <guibutton>Apply Changes</guibutton>.</para></listitem>
+				<listitem><para>Go to &additional-drivers;</para></listitem>
 				<listitem><para>You will, if necessary, be prompted to enter the administration password.</para></listitem>
 				<listitem><para>You may be prompted to reboot to finish installation.</para></listitem>
 			</itemizedlist>
@@ -53,8 +52,7 @@
 			<para>If a restricted driver is causing problems, or you would just like to turn it off, follow the procedure below:</para>
 
 			<itemizedlist>
-				<listitem><para>Go to &software-properties-usc; or &wm-software-properties;</para></listitem>
-				<listitem><para>Click on the <guilabel>Additional Drivers</guilabel> tab.</para></listitem>
+				<listitem><para>Go to &additional-drivers;</para></listitem>
 				<listitem><para>Find the driver that you would like to disable and press the <guibutton>Deactivate</guibutton> button.</para></listitem>
 				<listitem><para>You will be prompted to enter your password. </para></listitem>
 			</itemizedlist>
@@ -69,7 +67,7 @@
 		<section id="disks-partitions-check-free-space">
 			<title>Checking how much disk space is available</title>
 
-			<para>A simple way to check available disk space is to launch the <application>Thunar File Manager</application>. There are several ways to do this:</para>
+			<para>A simple way to check available disk space is to launch <application>Thunar</application>. There are several ways to do this:</para>
 
 			<itemizedlist>
 				<listitem><para>Go to &file-manager;</para></listitem>
@@ -99,7 +97,7 @@
 
 			<para>You can use <application>GParted (GNOME Partition Editor)</application> to partition storage devices. Install <application>GParted</application> from the <application>Ubuntu Software Center</application> and then go to &wm-settings-gparted; to start the partition editor.</para>
 
-			<warning><para>Be careful when altering disk partitions, as it is possible to lose your data if you delete or change the wrong partition.</para></warning>
+			<warning><para>Be careful when altering disk partitions, as it is possible to lose your data if you delete or change the wrong partition. Altering disk partitions can take some time, do not assume that GParted has hung or crashed while it is working.</para></warning>
 
 			<note><para>If it is necessary to unmount the installed system to proceed with changes you wish to make, you will have to work from a live CD/USB to do so.</para></note>
 
@@ -203,8 +201,7 @@
 		<itemizedlist>
 			<listitem><para>Suspending a computer is like putting the computer to sleep. The computer will still be turned on and all of your work will be left open, but it will use much less power. You can wake the computer by pressing a key or clicking the mouse.</para></listitem>
 			<listitem><para>Hibernating is turning the computer off completely while saving the current state of the computer (such as keeping all of your open documents). When you turn the computer back on after hibernating, all of your work should be restored as it was before hibernation. No power is used when the computer is hibernating.</para></listitem>
-			<listitem><para>Shutting down is turning the computer off completely without saving the current state of the computer. No power is used when the computer is shut down.</para></listitem>
-			<listitem><para>Resuming is bringing the computer out of a power saving mode and back into normal operation. You can resume the computer from being suspended by pressing a keyboard button or by clicking the mouse. You can resume from being hibernated by pressing the power button on your computer. </para></listitem>
+			<listitem><para>Resuming is bringing the computer out of a power saving mode and back into normal operation. You can resume the computer from being suspended by pressing a keyboard button or by clicking the mouse. You can resume from hibernation by pressing the power button on your computer. </para></listitem>
 		</itemizedlist>
 
 		<note><para>Note that hibernate is disabled by default in Xubuntu and does not appear as an option in any menus. For a command line workaround, see <xref linkend="enabling-hibernation"/>.</para></note>

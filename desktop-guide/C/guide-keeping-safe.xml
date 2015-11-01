@@ -13,7 +13,7 @@
 <chapter id="guide-keeping-safe">
 	<title>Keeping your computer and personal information safe</title>
 
-	<para>Keeping your computer and personal information safe from security threats is one of the most important aspects of computing today. This guide aims to help you achieving a higher level of security. Pay particular attention to the following subsections:</para>
+	<para>Keeping your computer and personal information safe from security threats is one of the most important aspects of computing today. This guide aims to help you achieve a higher level of security. Pay particular attention to the following subsections:</para>
 
 	<itemizedlist>
 		<listitem><para><xref linkend="keep-software-uptodate" /></para></listitem>
@@ -36,9 +36,9 @@
 			want to change the settings for the automatic updates, go to the
 			<guilabel>Updates</guilabel> tab under &software-properties; and change
 			the settings to your liking.</para>
-		<warning><para>If you disable automatic updates, you are lowering the
+		<warning><para>Disabling automatic updates, lowers the
 			security level of your computer. When the automatic updates are turned
-			off, it's essential to remember to upgrade manually often.</para></warning>
+			off, it is essential to remember to upgrade manually often.</para></warning>
 		<tip><para>If you use an Internet connection with limited bandwidth and do
 			not want to use automatic updates, remember to update every time you
 			have access to an unlimited connection.</para></tip>
@@ -46,6 +46,8 @@
 
 	<section id="passwords">
 		<title>Passwords</title>
+
+		<warning><para>Official companies will not ask you for your password, if you are asked for your password delete any e-mail asking for such. If you are on the telephone, hang-up and call someone you know to ensure that the connection to those asking is lost.</para></warning>
 
 		<section id="passwords-important">
 			<title>Use strong and unique passwords for important accounts</title>
@@ -118,7 +120,7 @@
 			<title>When to change your password?</title>
 
 			<para>You don’t need to change your passwords every other day. In many
-				cases, if an attacker could steal your password, they will be able
+				cases, if an attacker can steal your password, they will be able
 				to steal it again in the future.</para>
 			<para>If you do need to change your password, you must pick one that is
 				<emphasis>actually</emphasis> different from the previous one. For

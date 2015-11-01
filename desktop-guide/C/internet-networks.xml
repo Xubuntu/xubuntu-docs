@@ -15,7 +15,7 @@
 
 	<para>Xubuntu uses <application>NetworkManager</application> to manage wired, wireless, mobile broadband, VPN and DSL connections. <application>NetworkManager</application> also keeps passwords secure by utilizing the user's keyring to store passphrases.</para>
 
-	<para><application>NetworkManager</application> is the little icon in the upper panel in the top right of your screen. When not connected, the icon shows two grayed out arrows pointing up and down. When you are connected, the icon is different depending on the network type in use.</para>
+	<para><application>NetworkManager</application> is one of the little icons in the upper panel in the top right of your screen. When not connected, the icon shows two grayed out arrows pointing up and down. When you are connected, the icon is different depending on the network type in use.</para>
 
 	<section id="network-connections">
 		<title>Network connections</title>
@@ -27,7 +27,7 @@
 
 			<para>To see all available connections, click the <application>NetworkManager</application> icon. To connect to a network, click the network name.</para>
 
-			<note><para>If you are connecting to a wireless network for the first time, security details may be needed. If so, a dialog box will open. In most cases, the security type will be detected automatically. If not, select the security type from the <guilabel>Wi-Fi Security</guilabel> drop-down box, enter the authentication details and press <guibutton>Connect</guibutton>.</para></note>
+			<note><para>If you are connecting to a wireless network for the first time, security details may be needed, a dialog box will open when required. In most cases, the security type will be detected automatically. If not, select the security type from the <guilabel>Wi-Fi Security</guilabel> drop-down box, enter the authentication details and press <guibutton>Connect</guibutton>.</para></note>
 
 			<para>To disconnect from a network, click the <application>NetworkManager</application> icon, and select <guilabel>Disconnect</guilabel> under the appropriate connection type. To disable (and re-enable) wired and/or wireless connections all together, click the <application>NetworkManager</application> icon, select <menuchoice><guimenuitem>Enable Networking</guimenuitem></menuchoice> and <menuchoice><guimenuitem>Enable Wi-Fi</guimenuitem></menuchoice>. These choices are toggles. Their enabled/disabled status is indicated by the presence/absence of a check mark.</para>
 		</section>
@@ -43,7 +43,7 @@
 		<section id="network-information">
 			<title>Connection information</title>
 
-			<para>To see the connection information, click the <application>NetworkManager</application> icon and select <menuchoice><guimenuitem>Information</guimenuitem></menuchoice>. Your active network connections will be displayed in the <guilabel>Active Connections</guilabel> dialog, each in a separate tab.</para>
+			<para>To see the connection information, click the <application>NetworkManager</application> icon and select <menuchoice><guimenuitem>Connection Information</guimenuitem></menuchoice>. Your active network connections will be displayed in the <guilabel>Active Connections</guilabel> dialog, each in a separate tab.</para>
 		</section>
 
 		<section id="network-sharing">
@@ -92,7 +92,7 @@
 						<para>Using <application>NetworkManager</application></para>
 						<itemizedlist>
 							<listitem><para>Click on the <application>NetworkManager</application> icon</para></listitem>
-							<listitem><para>Select <menuchoice><guimenuitem>Information</guimenuitem></menuchoice>. If <guilabel>Information</guilabel> is disabled, it is likely there is no active connection. Try using <application>ifconfig</application> to find out more.</para></listitem>
+							<listitem><para>Select <menuchoice><guimenuitem>Connection Information</guimenuitem></menuchoice>. If this is disabled, it is likely there is no active connection. Try using <application>ifconfig</application> to find out more.</para></listitem>
 							<listitem><para>Each active connection will have its own tab where you can find relevant connection information</para></listitem>
 						</itemizedlist>
 					</listitem>
@@ -100,7 +100,7 @@
 						<para>Using <application>ifconfig</application></para>
 						<itemizedlist>
 							<listitem><para>Open a terminal (&terminal;), type the command <userinput>ifconfig</userinput> then press the <keycap>&key;Enter</keycap> key.</para></listitem>
-							<listitem><para><application>ifconfig</application> will show you extensive information about your connection, including logical or connection name(s) (e.g. eth1) in the left column, IP address in the <guilabel>inet addr</guilabel> column and the MAC address for your device in the <guilabel>HWaddr</guilabel> column</para></listitem>
+							<listitem><para><application>ifconfig</application> will show you extensive information about your connection, including logical or connection name(s) (e.g. enp3s0) in the left column, IP address in the <guilabel>inet addr</guilabel> column and the MAC address for your device in the <guilabel>HWaddr</guilabel> column</para></listitem>
 						</itemizedlist>
 					</listitem>
 				</itemizedlist>
@@ -187,7 +187,7 @@
 
 				<para>Open a terminal (&terminal;), type the command <userinput>ifconfig</userinput> then press the <keycap>&key;Enter</keycap> key. If there is an IP address displayed, continue to <xref linkend="network-troubleshooting-dns" />.</para>
 
-				<para>From the terminal enter the following command, replacing <literal>eth1</literal> with the name of the connection shown in the output from the <application>ifconfig</application> command: <userinput>sudo dhclient eth1</userinput></para>
+				<para>From the terminal enter the following command, replacing <literal>enp3s0</literal> with the name of the connection shown in the output from the <application>ifconfig</application> command: <userinput>sudo dhclient enp3s0</userinput></para>
 
 				<itemizedlist>
 					<listitem><para>If you receive a message that says bound to <literal>xxx.xxx.xxx.xxx</literal> continue to <xref linkend="network-troubleshooting-dns" /></para></listitem>
