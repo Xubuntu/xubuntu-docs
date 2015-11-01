@@ -25,7 +25,7 @@
 		<para>For more options to customize the Menu, right-click on &appmenu; and select <guilabel>Properties</guilabel>. There you will find three tabs to change <guilabel>Appearance</guilabel>, <guilabel>Behavior</guilabel> and <guilabel>Search Actions</guilabel>.
 		</para>
 
-		<para>To add directories and launchers which don't appear as entries in the default Menu, you'll need another tool. A more advanced menu editing utility called <application>MenuLibre</application> can be found by clicking &wm-settings-menulibre;. Using this editor you can create, hide and reorder the directories which appear in the right-hand pane of the Menu. Within those directories you can then create application launchers and customize their behavior by configuring the many options available in this utility. For more in-depth information on how to use all of those options, consult the <ulink url="&menulibre-help;">MenuLibre</ulink> online documenation.</para>
+		<para>To add directories and launchers which don't appear as entries in the default Menu, you'll need another tool. A more advanced menu editing utility called <application>MenuLibre</application> can be found by clicking &wm-settings-menulibre; or by right-click on &appmenu; and choosing Edit Applications. Using this editor you can create, hide and reorder the directories which appear in the right-hand pane of the Menu. Within those directories you can then create application launchers and customize their behavior by configuring the many options available in this utility. For more in-depth information on how to use all of those options, consult the <ulink url="&menulibre-help;">MenuLibre</ulink> online documenation.</para>
 
 	</section>
 
@@ -51,12 +51,12 @@
 		<title>Customizing the appearance</title>
 
 		<para>If you want to customize the appearance of your Xubuntu system, the options are
-			unlimited. Here are a few good starting points.</para>
+			many. Here are a few good starting points.</para>
 
 		<section id="customizing-wallpaper">
 			<title>Changing your wallpaper</title>
 			
-			<para>You can easily change your desktop wallpaper navigating to &wm-settings-desktop;, or alternatively, by right clicking your desktop and selecting the <menuchoice><guimenuitem>Desktop Settings...</guimenuitem></menuchoice> option.</para>
+			<para>You can easily change your desktop wallpaper navigating to &wm-settings-desktop;, or alternatively, by right clicking your desktop and selecting the <menuchoice><guimenuitem>Desktop Settings...</guimenuitem></menuchoice> option. Where you have multiple workspaces, you can choose to have the same wallpaper across all workspaces, or by deselecting <literal>Apply to all workspaces</literal> and moving the dialogue to the next workspace selecting a different wallpaper</para>
 
 			<para>Once the <application>Desktop</application> settings dialog is open, the <guilabel>Background</guilabel> tab gives you options for configuring the look of your desktop background. You can choose to use a single image or multiple images as wallpaper or you can use a color scheme.</para>
 						
@@ -89,7 +89,7 @@
 				configuration:</para>
 
 			<itemizedlist>
-				<listitem><para>Right-click on an empty area of the panel</para></listitem>
+				<listitem><para>Right-click on the panel</para></listitem>
 				<listitem><para>From the context menu, select <menuchoice><guimenuitem>Panel</guimenuitem>
 					<guimenuitem>Panel Preferences</guimenuitem></menuchoice></para></listitem>
 				<listitem><para>In the <guilabel>Display</guilabel> tab, you can control the panel's size and positioning, including:</para>
@@ -100,6 +100,7 @@
 					</itemizedlist></listitem>
 				<listitem><para>In the <guilabel>Appearance</guilabel> tab, you can pick another background for the panel and regulate its transparency</para></listitem>
 				<listitem><para>In the <guilabel>Items</guilabel> tab, you can add, remove and rearrange panel applets and other items</para></listitem>
+				<listitem><para>If you add a Launcher in the <guilabel>Items</guilabel> tab you can then edit the Launcher to run any application you have installed</para></listitem>
 			</itemizedlist>
 		</section>
 
@@ -146,8 +147,7 @@
 
 			</itemizedlist>
 
-			<note><para>If these directories do not exist, you should create them first. Copying themes
-				for all users will require administrative privileges.</para></note>
+			<note><para>If these directories do not exist, you should create them first. Copying themes or icons for all users will require administrative privileges.</para></note>
 		</section>
 
 		<section id="customizing-desktop-effects">

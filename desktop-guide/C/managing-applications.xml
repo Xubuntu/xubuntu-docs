@@ -13,7 +13,7 @@
 <chapter id="managing-applications">
 	<title>Managing installed applications</title>
 
-	<para>In Xubuntu, you don't need to download and install packages separately. Instead, you can use the software repositories to install new software. The applications and libraries are stored as packages in the repositories and they are added, removed and updated with package managers.</para>
+	<para>In Xubuntu, you don't need to download and install packages separately. Instead, repositories contain sets of packages. These repositories are then accessed with package managers in order to add, remove or update the packages.</para>
 
 	<para>Xubuntu comes with two package managers installed:</para>
 
@@ -24,7 +24,7 @@
 
 	<note><para>You will need administrative access to add and remove software.</para></note>
 
-	<caution><para>You can only use one package manager at a time. If you start another package manager while one is already open, you will receive an error message and the second package manager will not necessarily be able to function.</para></caution>
+	<caution><para>You can only use one package manager at a time. If you start another package manager while one is already open, you will receive an error message and the second package manager will not function correctly.</para></caution>
 
 	<section id="ubuntu-software-center">
 		<title>Using Ubuntu Software Center</title>
@@ -37,11 +37,11 @@
 			<itemizedlist>
 				<listitem><para>Search for an application or select a category to find an application you want to install</para></listitem>
 				<listitem><para>From the application page, click <guibutton>Install</guibutton></para></listitem>
-				<listitem><para>You will be asked to enter your password; once you do that, the installation will begin</para></listitem>
+				<listitem><para>You will be asked to enter your password; once you do that, installation will begin</para></listitem>
 				<listitem><para>A shortcut to your application will added to the Applications menu</para></listitem>
 			</itemizedlist>
 
-			<note><para>To be able to install new software from the repositories, you need to be connected to the Internet.</para></note>
+			<note><para>To be able to install new software from the repositories, you need to be connected to the Internet.See <xref linkend="offline-packages"/> for information on using apt-offline</para></note>
 		</section>
 
 		<section id="usc-remove">
@@ -64,7 +64,7 @@
 		<section id="software-repositories-more">
 			<title>Enabling more repositories</title>
 
-			<para>It is possible to add extra repositories, such as those provided by third parties or those for older versions of Xubuntu. To enable more software repositories:</para>
+			<para>It is possible to add extra repositories, such as those provided by third parties. To enable more software repositories:</para>
 
 			<itemizedlist>
 				<listitem><para>Open &wm-software-properties; or &software-properties-usc; and go to the <guilabel>Other Software</guilabel> tab</para></listitem>
@@ -75,7 +75,7 @@
 				<listitem><para>Most software repositories use a GPG key to digitally sign the files they provide, which makes it easy to check that the files have not been tampered with since their creation. In order for apt to be able to check this, you need the public key that corresponds to the signatures. The key should be available for download on the repository's website. Once you have downloaded the GPG key, import the key by selecting the <guilabel>Authentication</guilabel> tab, clicking on <guibutton>Import Key File</guibutton>, and then selecting the GPG key to be imported.</para></listitem>
 			</itemizedlist>
 
-			<caution><para>Be careful when installing software from third-party repositories. It may not have been tested with Xubuntu and could cause your system to break.</para></caution>
+			<caution><para>Be careful when installing software from third-party repositories. It may not have been officially tested with Xubuntu and could cause your system to break.</para></caution>
 		</section>
 
 		<section id="software-repositories-restricted">
@@ -115,7 +115,7 @@
 		<section id="applications-offline-installation">
 			<title>Helpful application</title>
 
-			<para>If you have less than optimal Internet access, <application>apt-offline</application> allows you to use another computer with better access to download packages and check for package updates like security fixes.  The other computer can run Xubuntu, another flavor of Ubuntu, or Debian.  A graphical interface is available via <application>apt-offline-gui</application> that makes a complicated-looking process easy.  All you need is time, patience, and a portable USB storage device.  A usage example to learn more about this can be found in <xref linkend="offline-packages"/>.</para>
+			<para>If you have less than optimal Internet access, <application>apt-offline</application> allows you to use another computer with better access to download packages and check for package updates like security fixes. All you need is time, patience, and a portable USB storage device. A usage example to learn more about this can be found in <xref linkend="offline-packages"/>.</para>
 
 		</section>
 	</section>
