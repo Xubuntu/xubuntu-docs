@@ -13,18 +13,41 @@
 <chapter id="common-infrastructure">
 	<title>Common infrastructure</title>
 
-	<section id="setup-bzr">
-		<title>Setting up Bzr</title>
+	<section id="bzr">
+		<title>Bzr</title>
 
-		<para>To set up Bzr, do the following:</para>
+		<section id="bzr-setup">
+			<title>Setting up Bzr</title>
 
-		<itemizedlist>
-			<listitem><para>To make sure Bzr is installed in your system, run <userinput>sudo apt-get install bzr</userinput></para></listitem>
-			<listitem><para>To set up your personal information for Bzr to use, run <userinput>bzr whoami "John Doe &lt;john.doe@gmail.com&gt;"</userinput></para></listitem>
-		</itemizedlist>
+			<para>To set up Bzr, do the following:</para>
+
+			<itemizedlist>
+				<listitem><para>To make sure Bzr is installed in your system, run <userinput>sudo apt-get install bzr</userinput></para></listitem>
+				<listitem><para>To set up your personal information for Bzr to use, run <userinput>bzr whoami "John Doe &lt;john.doe@gmail.com&gt;"</userinput></para></listitem>
+			</itemizedlist>
+		</section>
+
+		<section id="bzr-branch">
+			<title>Getting and updating Bzr branches</title>
+
+			<para>After you have set up Bzr, you can get a local copy of a branch by running <userinput>bzr branch BRANCHNAME</userinput>. This will create a directory for the branch.</para>
+
+			<para>To make sure your local copy is up to date, run <userinput>bzr pull</userinput> inside the branch directory.</para>
+		</section>
 	</section>
-	<section id="setup-launchpad">
-		<title>Setting up a Launchpad account</title>
+
+	<section id="build-deps">
+		<title>Build dependencies</title>
+
+		<para>Before you can build a package, you will usually need to install its build dependencies. To do this, simply run <userinput>sudo apt-get build-dep PACKAGENAME</userinput>.</para>
+	</section>
+
+	<section id="launchpad">
+		<title>Launchpad</title>
+
+		<section id="launchpad-account">
+			<title>Setting up a Launchpad account</title>
+		</section>
 	</section>
 
 </chapter>

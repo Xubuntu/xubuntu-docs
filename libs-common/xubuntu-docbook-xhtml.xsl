@@ -73,6 +73,9 @@
 	</xsl:template>
 
 	<!-- Icons -->
+	<xsl:template match="inlinemediaobject[@role = 'icon-branch']" mode="class.value">
+		<xsl:value-of select="'inline-icon-branch'"/>
+	</xsl:template>
 	<xsl:template match="inlinemediaobject[@role = 'icon-pkg']" mode="class.value">
 		<xsl:value-of select="'inline-icon-pkg'"/>
 	</xsl:template>
