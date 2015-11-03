@@ -24,9 +24,6 @@ startpage: get-translations
 	done >> build/index.html
 	cat startpage/xubuntu-index-end.htx >> build/index.html
 
-contributors:
-	$(MAKE) -C contributor-docs all
-
 update-translations:
     ifeq ($(TRANSLATIONS),)
         ifneq ($(wildcard desktop-guide/po/LINGUAS),)
@@ -48,6 +45,9 @@ get-translations: update-translations
         export TRANSLATIONS
         export TRANSOPTS := -l "$(TRANSLATIONS)"
     endif
+
+contributors-html:
+	$(MAKE) -C contributor-docs html
 
 html:
 	$(MAKE) -C desktop-guide html
@@ -79,6 +79,7 @@ pot:
 
 clean:
 	$(MAKE) -C desktop-guide clean
+	$(MAKE) -C contributor-docs clean
 	rm -rf build xubuntu-docs.tar.gz
 
 .PHONY: startpage
