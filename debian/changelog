@@ -1,5 +1,12 @@
 xubuntu-docs (16.04) UNRELEASED; urgency=medium
 
+  [ Unit 193 ]
+  * Makefile:
+    - Only run 'html' on the contributor docs, not run 'all'.
+    - Add contributor docs to the clean section.
+    - Rename, contributors → contributors-html.
+
+
   [ David Pires ]
   * Bump version and start page to 16.04 Xenial Xerus
 
