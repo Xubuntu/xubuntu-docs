@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-common SYSTEM "../libs-common/xubuntu-common.ent">
+%xubuntu-common;
+<!ENTITY % xubuntu-contributor-docs SYSTEM "../libs/xubuntu-contributor-docs.ent">
+%xubuntu-contributor-docs;
+<!ENTITY % xinclude SYSTEM "../libs-common/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+
+<chapter id="qa-testing">
+	<title>Package and ISO testing</title>
+		
+	<section id="qa-testing-exploratory">
+		<title>Exploratory testing</title>
+
+		<para>In addition to testing the images and software with predefined testing actions (static testing), community members can take part in exploratory testing as well.</para>
+
+		<para>In essence, exploratory testing means running the development release and doing your daily tasks with the system and finally, filing bugs when you find them. This allows Xubuntu to get a much larger spread of testing than is possible with predefined tests.</para>
+
+		<para>A useful way to deal with this is dual (or multiple) boots. Where you can ensure you are able to access at all times a working version. In this way you can do as much work in the development release as is practical – all the while watching for bugs and regressions in the development release.</para>
+
+		<para>Issues which the development team are keen to address include, in addition to normally reported issues, usability bugs, missing icons, inconsistent functionality.</para>
+	</section>
+
+	<section id="qa-testing-ppa">
+		<title>Using Development PPAs</title>
+
+		<para>We have 3 PPAs which we use regularly to test packages. These are:</para>
+		
+		<itemizedlist>
+			<listitem><para>Shimmer Themes for daily builds of the Shimmer Project’s projects</para></listitem>
+			<listitem><para>Xubuntu Staging for packages and package versions that are being prepared for inclusion in Xubuntu</para></listitem>
+			<listitem><para>Xubuntu daily builds for daily Git and Bzr builds for packages related to Xubuntu and/or Xfce4</para></listitem>
+		</itemizedlist>
+		
+		<para>Installing these three PPAs means that you will be using and testing packages that developers are currently working with, this means that regressions found by you will not be present once they are released.</para>
+
+		<para>At times it is useful to remove a PPA. Using ppa-purge causes apt to disable a PPA source list and then change affected packages back to the default versions.</para>
+
+		<itemizedlist>
+			<listitem><para>Run <userinput>sudo apt-get install ppa-purge</userinput></para></listitem>
+			<listitem><para>Run <userinput>sudo ppa-purge ppa:ppaname</userinput></para></listitem>
+		</itemizedlist>
+
+		<para>Reporting bugs with PPAs can be problematic, please see further information on reporting bugs with PPAs in <xref linkend="qa-bugs-ppa" />.</para>
+	</section>
+	
+	<section id="qa-testing-static">
+		<title>Static Testing</title>
+		
+		<para>Testing the development versions of Xubuntu and packages in it helps keep up the every day quality. If you have spare hardware resources or are able to run a virtualized testing environment, you can help.</para>
+	
+		<itemizedlist>
+			<listitem><para>Check the devel mailing list close to the start of the cycle, where the decision as to which milestones we will participate in will be discussed.</para></listitem>
+			<listitem><para>While milestone testing is in progress, please watch for rebuilds. These will take place either when we have reason to rebuild, eg following a bug fix landing, or more likely when the Ubuntu Release Team have cause to do so.</para></listitem>
+		</itemizedlist>
+	</section>
+		
+	<section id="qa-testing-milestone">
+		<title>Milestone Testing</title>
+
+		<para>Stand alone image testing for milestones is useful in the 2 days before the release. To see how these milestones are scheduled, refer to the Ubuntu release schedule.</para>
+
+		<itemizedlist>
+			<listitem><para>Live Session: Boot with the image and ensure that basic application testing (open, close, saving etc.) passes.</para></listitem>
+			<listitem><para>Installation tests required pass. These test only the installation.</para></listitem>
+		</itemizedlist>
+	</section>
+
+	<section id="qa-testing-daily">
+		<title>Daily Testing</title>
+
+		<para>The importance of daily image testing lies in the main in knowing that boot or installation regressions haven’t appeared. Where it appears they have, if you are able to boot with a different flavours image, this can help prove a global or local to Xubuntu issue. If unsure contact the Xubuntu team, preferrably on IRC.</para>
+
+		<itemizedlist>
+			<listitem><para>Live Session: Boot with the image and ensure that basic application testing (open, close, saving etc.) passes.</para></listitem>
+			<listitem><para>Installation tests required pass. These test only the installation.</para></listitem>
+		</itemizedlist>
+	</section>			
+
+	<section id="qa-testing-package">
+		<title>Package Testing</title>
+
+		<para>For releases where we are making use of the Package Tracker, calls for package testing will be made to the xubuntu-devel mailing list as required. This could be a call from QA or Developers.</para>
+
+		<para>A schedule of planned tests is mailed to the Xubuntu Devel mailing list close to the cycle start,the schedule is shown on the <ulink url="https://trello.com/b/IV66JCHl/xubuntu-qa">QA Trello</ulink> page. Reminders of upcoming package test requirements are mailed to the Xubuntu devel mailing list as required. <emphasis>Specific developer testing requirement</emphasis> are mailed as they are available, often these packages will be those found on one of our PPAs.</para>
+	</section>
+</chapter>
