@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-common SYSTEM "../libs-common/xubuntu-common.ent">
+%xubuntu-common;
+<!ENTITY % xubuntu-contributor-docs SYSTEM "../libs/xubuntu-contributor-docs.ent">
+%xubuntu-contributor-docs;
+<!ENTITY % xinclude SYSTEM "../libs-common/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+
+<chapter id="bug">
+	<title>Dealing with bugs</title>
+	<section id="tags">
+		<title>Using tags for Xubuntu bug reports</title>
+
+		<para>So that we can easily find bugs for Xubuntu during a development cycle, there a few tags you can add to your bug reports. We assume that a tag for the cycle codename is included, if it is not please add one.</para>
+
+		<itemizedlist>
+			<listitem><para>xubuntu-exp: always add this tag</para></listitem>
+			<listitem><para>ppa: add this tag when you've reported a bug against a package from one of the 3 develeopment PPAs</para></listitem>
+			<listitem><para>usability: add this tag if the issue you are reporting is not a standard bug, but one which might be deemed wishlist, such as multiple selection of results in the Catfish results window</para></listitem>
+		</itemizedlist>
+
+	</section>
+	<section id="Bugs">
+		<title>Normal bug reporting</title>
+
+		<para>Anybody using Xubuntu can file (or in other words, report) bugs, even with no experience at all. Filing bugs is important because in some cases, bugs can go unnoticed unless an end user files them.</para>
+
+		<para>Before submitting a bug, you should look at the <ulink url="https://launchpad.net/ubuntu/+bugs">existing bug reports</ulink> and release notes to verify the bug hasn’t been reported already. If the bug has not already been reported, you should file a new bug report. It is sensible to read through the <ulink url="https://help.ubuntu.com/community/ReportingBugs"> bug reporting guidelines</ulink> before filing your first bug.</para>
+
+		<para>In the most situations, it is easiest to file a bug by opening a new Terminal and type ubuntu-bug package-name, where package-name is the package you want to file bug against. If you don’t know which package you should file the bug against, refer to the instructions on finding the <ulink url="https://wiki.ubuntu.com/Bugs/FindRightPackage">right</ulink> package. When filing the bug, it is better to have too much information than too little.</para>
+	</section>
+	
+	<section id="ppabug">
+		<title>Reporting bugs with PPAs</title>
+
+		<para>When you encounter a bug with a package from a PPA, you’ll need to file the bug report manually. Once you’ve got the offending package name, go to http://bugs.launchpad.net/ubuntu/+source/<emphasis>PACKAGENAME</emphasis>/+filebug.</para>
+
+		<para>Crash logs related to the package can be found in /var/crash/. This directory requires superuser (sudo) permissions to view and extract the contents. These logs can be particularly valuable to include in your bug report, but be sure to review them as they may contain sensitive or personally identifiable material.</para>
+
+		<para>Be sure to follow the above general guidelines, and also add the ppa tag so it is clear to developers that this is an unsupported package.</para>
+	</section>
+	
+	<section id="triage">
+		<title>Triaging bugs</title>
+
+		<para>Triaging bugs is getting bug reports in a state where they are useful for developers by making sure bug reports have useful titles, descriptions, appropriate logs and more. To get started, read the page on <ulink url="https://wiki.ubuntu.com/Bugs/Triage">How to triage</ulink> bugs in the Ubuntu wiki</para>
+	
+		<para>After you have made yourself familiar with the aspects of triaging bugs, you can start triaging <ulink url="https://bugs.launchpad.net/~xubuntu-bugs/+packagebugs">Xubuntu</ulink> bugs. Please note that the bug status and importance can be only be changed by members of the <ulink url="https://wiki.ubuntu.com/UbuntuBugControl">Ubuntu Bug Control</ulink> team – in the beginning, you will need to report triaged bugs for the team in #ubuntu-bugs on Freenode. After you have demonstrated your ability to triage bugs, you will gain more responsibilities by the Bug Control team.</para>
+
+		<para>As you gain experience on triaging Xubuntu bugs, you may want to take a look at new bugs that mention Xubuntu. Triaging new bugs is recommended for those who are more familiar with both triaging and Xubuntu generally, since not all of the new bugs mentioning Xubuntu are actually Xubuntu bugs.</para>
+	</section>
+	
+	<section id="forward">
+		<title>Forwarding bugs upstream</title>
+		
+		<para>When bugs are forwarded upstream, all users of the relevant software will benefit from the debugging, triaging and patching work carried out by bug triagers and developers.</para>
+
+		<para>Once it has been determined that a bug is not caused by a change in Xubuntu, bugs can be forwarded to their respective upstream projects to be reviewed. For example, all appropriate Xfce bugs should be filed in the <ulink url="https://bugzilla.xfce.org/">Xfce bug tracker</ulink>. In addition, to track the status of the bug in Ubuntu, the bug in Launchpad should be linked with the upstream bug.</para>
+
+		<para>The Ubuntu wiki has an extensive page on <ulink url="https://wiki.ubuntu.com/Bugs/Upstream">forwarding</ulink> bugs upstream along with instructions on how to report bugs in the upstream bug trackers. Detailed information on the way to add an upstream bug to Launchpad can be found on the <ulink url="https://wiki.ubuntu.com/Bugs/Watches">Bugs/Watches</ulink> page on the Ubuntu wiki.</para>
+	</section>
+</chapter>
+
