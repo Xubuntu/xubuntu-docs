@@ -14,7 +14,7 @@
 <chapter id="test">
 	<title>Package and ISO testing</title>
 		
-	<section id="testing">
+	<section id="qa-testing">
 		<title>Exploratory testing</title>
 
 		<para>In addition to testing the images and software with predefined testing actions (static testing), community members can take part in exploratory testing as well.</para>
@@ -24,7 +24,7 @@
     		<para>Issues which the development team are keen to address include, in addition to normally reported issues, usability bugs, missing icons, inconsistent functionality.</para>
 	</section>
 
-	<section id="ppa">
+	<section id="qa-ppa">
 		<title>Using Development PPAs</title>
 
 		<para>We have 3 PPAs which we use regularly to test packages. These are:</para>
@@ -43,10 +43,10 @@
 			<listitem><para>Run <userinput>sudo ppa-purge ppa:ppaname</userinput></para></listitem>
 		</itemizedlist>
 		
-		<para>Reporting bugs with PPAs can be problematic, please see further information on reporting bugs with PPAs in the <xref linkend="ppabug" /></para>
+		<para>Reporting bugs with PPAs can be problematic, please see further information on reporting bugs with PPAs in the <xref linkend="qa-ppabug" /></para>
 	</section>
 	
-	<section id="Static">
+	<section id="qa-Static">
 		<title>Static Testing</title>
 		
 		<para>Testing the development versions of Xubuntu and packages in it helps keep up the every day quality. If you have spare hardware resources or are able to run a virtualized testing environment, you can help.</para>
@@ -57,7 +57,7 @@
 			</itemizedlist>
 	</section>
 		
-	<section id="Milestone">
+	<section id="qa-Milestone">
 		<title>Milestone Testing</title>
 			<para>Stand alone image testing for milestones is useful in the 2 days before the release. To see how these milestones are scheduled, refer to the Ubuntu release schedule.</para>
 			<itemizedlist>
@@ -66,7 +66,7 @@
             </itemizedlist>
 	</section>
 
-	<section id="Daily">
+	<section id="qa-Daily">
 		<title>Daily Testing</title>
 			 <para>The importance of daily image testing lies in the main in knowing that boot or installation regressions haven’t appeared. Where it appears they have, if you are able to boot with a different flavours image, this can help prove a global or local to Xubuntu issue. If unsure contact the Xubuntu team, preferrably on IRC.</para>
 			<itemizedlist>
@@ -75,7 +75,7 @@
             		</itemizedlist>
 	</section>			
 
-	<section id="Package">
+	<section id="qa-Package">
 		<title>Package Testing</title>
 
 			<para>For releases where we are making use of the Package Tracker, calls for package testing will be made to the xubuntu-devel mailing list as required. This could be a call from QA or Developers.</para>

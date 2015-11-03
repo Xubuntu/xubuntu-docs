@@ -13,7 +13,7 @@
 
 <chapter id="bug">
 	<title>Dealing with bugs</title>
-	<section id="tags">
+	<section id="qa-tags">
 		<title>Using tags for Xubuntu bug reports</title>
 
 		<para>So that we can easily find bugs for Xubuntu during a development cycle, there a few tags you can add to your bug reports. We assume that a tag for the cycle codename is included, if it is not please add one.</para>
@@ -25,7 +25,7 @@
 		</itemizedlist>
 
 	</section>
-	<section id="Bugs">
+	<section id="qa-Bugs">
 		<title>Normal bug reporting</title>
 
 		<para>Anybody using Xubuntu can file (or in other words, report) bugs, even with no experience at all. Filing bugs is important because in some cases, bugs can go unnoticed unless an end user files them.</para>
@@ -35,7 +35,7 @@
 		<para>In the most situations, it is easiest to file a bug by opening a new Terminal and type ubuntu-bug package-name, where package-name is the package you want to file bug against. If you don’t know which package you should file the bug against, refer to the instructions on finding the <ulink url="https://wiki.ubuntu.com/Bugs/FindRightPackage">right</ulink> package. When filing the bug, it is better to have too much information than too little.</para>
 	</section>
 	
-	<section id="ppabug">
+	<section id="qa-ppabug">
 		<title>Reporting bugs with PPAs</title>
 
 		<para>When you encounter a bug with a package from a PPA, you’ll need to file the bug report manually. Once you’ve got the offending package name, go to http://bugs.launchpad.net/ubuntu/+source/<emphasis>PACKAGENAME</emphasis>/+filebug.</para>
@@ -45,7 +45,7 @@
 		<para>Be sure to follow the above general guidelines, and also add the ppa tag so it is clear to developers that this is an unsupported package.</para>
 	</section>
 	
-	<section id="triage">
+	<section id="qa-triage">
 		<title>Triaging bugs</title>
 
 		<para>Triaging bugs is getting bug reports in a state where they are useful for developers by making sure bug reports have useful titles, descriptions, appropriate logs and more. To get started, read the page on <ulink url="https://wiki.ubuntu.com/Bugs/Triage">How to triage</ulink> bugs in the Ubuntu wiki</para>
@@ -55,7 +55,7 @@
 		<para>As you gain experience on triaging Xubuntu bugs, you may want to take a look at new bugs that mention Xubuntu. Triaging new bugs is recommended for those who are more familiar with both triaging and Xubuntu generally, since not all of the new bugs mentioning Xubuntu are actually Xubuntu bugs.</para>
 	</section>
 	
-	<section id="forward">
+	<section id="qa-forward">
 		<title>Forwarding bugs upstream</title>
 		
 		<para>When bugs are forwarded upstream, all users of the relevant software will benefit from the debugging, triaging and patching work carried out by bug triagers and developers.</para>
