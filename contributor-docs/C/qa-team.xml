@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-common SYSTEM "../libs-common/xubuntu-common.ent">
+%xubuntu-common;
+<!ENTITY % xubuntu-contributor-docs SYSTEM "../libs/xubuntu-contributor-docs.ent">
+%xubuntu-contributor-docs;
+<!ENTITY % xinclude SYSTEM "../libs-common/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+
+<chapter id="qa-team">
+	<title>Xubuntu QA Team</title>
+
+	<section id="qa-team-basics">
+		<title>Xubuntu QA Team</title>
+		<para> The Xubuntu QA is formed to ensure that the quality of the released Xubuntu conforms to the parameters laid out in the Xubuntu Processes documents. In order to successfully accomplish this, close working relationships with the Development team and the Project Lead are paramount, notwithstanding Xubuntu's success is based on close working amongst all of the various teams.</para>
+
+		<para>The Xubuntu QA team gives people contributing through testing of Xubuntu the opportunity to become part of the <ulink url="https://launchpad.net/~xubuntu-team">Xubuntu Team</ulink> through their work with Xubuntu. For that to be of use the QA team can keep watch on testing reports on the tracker(s) and propose users they have seen taking a keen interest in the work of the QA Team</para>
+
+		<para>Excluding testing itself, control of the testcases that Xubuntu uses for ISO and Package testing is an important element, along with communicating the testing requirements for any particular development cycle (hereafter cycle), the bulk of the teams work in any given cycle is taken up with these two activities.</para>
+
+		<para>Members of the QA team should check the current Xubuntu QA blueprint, and assign themselves to tasks they feel able to undertake. In addition it is helpful that they also have a Trello account in order to work with the <ulink url="https://trello.com/b/IV66JCHl/xubuntu-qa">QA Trello</ulink>page.</para>
+
+	</section>
+
+	<section id="qa-team-testing">
+		<title>Testing Responsibilities</title>
+
+		<para>At the start of a cycle, members of the Release Team will decide which ISO Milestones Xubuntu will participate in</para>
+
+		<para>Amongst general testing of our OS, by running a combination of recent releases (with or without the testing PPAs <xref linkend="qa-testing-ppa"/>, dealt with further in <xref linkend="qa-testing-exploratory"/> further responibilities lie with ensuring that:
+
+		<itemizedlist>
+			<listitem><para>Sufficient testing takes place prior to ISO milestone release</para></listitem>
+			<listitem><para>Sufficient Package testing takes place following calls to testers</para></listitem>
+			<listitem><para>Sufficient testing takes place at Final Release</para></listitem>
+			<listitem><para>Bugs reported to our trackers are confirmed, or where unable to confirm, further information is requested from the reporter</para></listitem>
+			<listitem><para>Where appropriate confirmation can be asked of members of Xubuntu Team in the team devel IRC channel</para></listitem>
+		</itemizedlist>
+		</para>
+
+		<para>Members of the QA team might find use in subscribing to the <ulink url="https://launchpad.net/~xubuntu-bugs">Xubuntu Bugs Team</ulink> in order to be aware of bugs being reported by users.</para>
+
+	</section>
+
+	<section id="qa-team-trackers">
+		<title>Working with the QA Trackers</title>
+
+		<para>The initial decision(s) on what and when to test, will be taken following discussion with the members of the <ulink url="https://launchpad.net/~xubuntu-release">Xubuntu Release Team</ulink></para>.
+
+		<para>At the start of a cycle, the QA team needs to ensure that:
+
+		<itemizedlist>
+			<listitem><para>Image tests we use are still correct.</para></listitem>
+			<listitem><para>When the intention is that package testing will take place during the cycle, package test are still correct.</para></listitem>
+			<listitem><para>The testsuites on the Package Tracker make sense for what we intend to test during the cycle. Differences between regular and LTS releases are often, but not always, needed</para></listitem>
+			<listitem><para>Scheduling of ISO, and if appropriate Package, Testing should take place amongst the QA Team. The resulting schedule should be posted on the Xubuntu QA Trello page.</para></listitem>
+		</itemizedlist>
+		</para>
+
+		<para>During a cycle, changes to a package we test, should led to a further check of the testcase involved.</para>
+	</section>
+
+
+	<section id="qa-team-testedits">
+		<title>Working with testcases</title>
+
+		<para>Information on the basic method of working with the testcases can be found at the Ubuntu QA Team Manual <ulink url="https://wiki.ubuntu.com/QATeam/ContributingTestcases/Manual">Testcases</ulink>.</para>
+
+		<para><emphasis>We</emphasis> are only concerned with a specific set of tasks, grabbing the branch, making edits and then pushing the changes we need to the main branch. We have people in the testcase admin team for the LP Testcases and any member of our Release Team can edit the tracker, this helps ensure that changes are moved through to the trackers quickly.</para>
+
+		<para>To edit a testcase:
+
+		<itemizedlist>
+			<listitem><para>Report the required change as a bug report to the testcase <ulink url="https://bugs.launchpad.net/ubuntu-manual-tests/+filebug">project</ulink></para></listitem>
+			<listitem><para>Assign yourself to the bug</para></listitem>
+			<listitem><para><userinput>bzr branch lp:ubuntu-manual-tests</userinput></para></listitem>
+			<listitem><para>Make changes to the testcase(s)</para></listitem>
+			<listitem><para>Commit the change with <userinput>bzr commit -m "Change re bug#</userinput>, make bug # reflect the bug you reported above</para></listitem>
+			<listitem><para>Push the change to your branch <userinput>bzr push lp:~yourusername/ubuntu-manual-tests/#</userinput>.</para></listitem>
+		</itemizedlist>
+		</para>
+
+		<para>Once you've pushed to your local branch, you need to finally propose the change for merging, detailed information on that, and the above can be found at the Ubuntu QA Team <ulink url="https://wiki.ubuntu.com/QATeam/DevelopmentToolsUsage">Bzr</ulink> page.</para>
+		<para>Respond to requests for changes where asked from the Testcase Admins in order to get the required change through</para>
+	</section>
+
+	<section id="qa-team-users">
+		<title>Communicating with testers and users</title>
+
+		<para>We have 2 sets of people in the community (excluding Xubuntu Team) users and testers. During a cycle these groups will be contacted at different times.</para> 
+
+		<para>The QA team lead will be an administrator on the Testers Launchpad <ulink url="https://launchpad.net/~xubuntu-testers">page</ulink> and can contact those users via LP. Copies of testing calls sent to the dev mailing list should go to this group each time</para>
+
+		<para>Any member of the QA team can:
+
+		<itemizedlist>
+			<listitem><para>Watch dates on the Trello schedule for upcoming test calls</para></listitem>
+			<listitem><para>Mail the -dev list with a testing call</para></listitem>
+			<listitem><para>Prior to ISO Milestones, mail the -dev list just prior to a testdate warning testers of upcoming ISO calls</para></listitem>
+			<listitem><para>Make ISO Milestone testing calls</para></listitem>
+		</itemizedlist>
+		</para>
+
+		<para>Xubuntu Users will be contacted for ISO testing at later ISO Milestones, at the earliest the Beta 1 milestone, depending on the state of the current ISO and our packages</para>
+		
+	</section>
+
+	<section id="qa-team-release">
+		<title>Release Responsibilities</title>
+
+		<para>Much of the responsibility for the QA team at any release lies with with the QA Lead</para>
+
+		<para>However, <emphasis>any</emphasis> member of the QA team can :
+		<itemizedlist>
+			<listitem><para>Work with the draft wiki Release <ulink url="https://wiki.ubuntu.com/Xubuntu/Testing/ReleaseNoteBase">Note</ulink></para></listitem>
+			<listitem><para>Check status of bugs listed on draft</para></listitem>
+			<listitem><para>Check status of work items on the QA Launchpad blueprints, marking as appropriate.</para></listitem>
+		</itemizedlist>
+		</para>
+		
+	</section>
+</chapter>
