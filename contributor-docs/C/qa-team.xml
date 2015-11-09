@@ -16,11 +16,11 @@
 
 	<section id="qa-team-basics">
 		<title>Xubuntu QA Team</title>
-		<para> The Xubuntu QA is formed to ensure that the quality of the released Xubuntu conforms to the parameters laid out in the Xubuntu Processes documents. In order to successfully accomplish this, close team working relationships, especially with the Development team and the Project Lead are paramount. Xubuntu's success is based on close working amongst all of it's various teams.</para>
+		<para> The Xubuntu QA team was formed to ensure that the quality of a released Xubuntu conforms to the parameters laid out in the Xubuntu Processes documents. In order to successfully accomplish this, close team working relationships, especially with the Development team and the Project Lead are paramount. Xubuntu's success is based on close working amongst all of it's various teams.</para>
 
-		<para>The Xubuntu QA team gives people contributing through testing of Xubuntu the opportunity to become part of the <ulink url="https://launchpad.net/~xubuntu-team">Xubuntu Team</ulink> through their work with Xubuntu. For that to be of use the QA team can keep watch on testing reports on the tracker(s) and propose users they have seen taking a keen interest in the work of the QA Team</para>
+		<para>In addition, the Xubuntu QA team gives people contributing through testing of Xubuntu the opportunity to become part of the <ulink url="https://launchpad.net/~xubuntu-team">Xubuntu Team</ulink> through their contributions. For that to be of practical use, the QA team should keep watch on testing reports on the tracker(s) and propose users they have seen taking a keen interest in the work of the QA Team</para>
 
-		<para>Excluding testing itself, control of the testcases that Xubuntu uses for ISO and Package testing is an important element, along with communicating the testing requirements for any particular development cycle (hereafter cycle), the bulk of the teams work in any given cycle is taken up with these two activities.</para>
+		<para>Excluding testing itself, control of the testcases that Xubuntu uses for ISO and Package testing, along with communicating the testing requirements for any particular development cycle (hereafter cycle) to the community, makes up the bulk of the teams work in any given cycle is taken up with these two activities.</para>
 
 		<para>Members of the QA team should check the current Xubuntu QA blueprint, and assign themselves to tasks they feel able to undertake. In addition it is helpful that they also have a Trello account in order to work with the <ulink url="https://trello.com/b/IV66JCHl/xubuntu-qa">QA Trello</ulink> page.</para>
 
@@ -38,7 +38,7 @@
 			<listitem><para>Sufficient Package testing takes place following calls to testers</para></listitem>
 			<listitem><para>Sufficient testing takes place at Final Release</para></listitem>
 			<listitem><para>Bugs reported to our trackers are confirmed, or where unable to confirm, further information is requested from the reporter</para></listitem>
-			<listitem><para>Where appropriate confirmation can be asked of members of Xubuntu Team in the team devel IRC channel</para></listitem>
+			<listitem><para>Where appropriate, confirmation of bugs can be asked of members of Xubuntu Team in the team devel IRC channel</para></listitem>
 		</itemizedlist>
 		</para>
 
@@ -57,7 +57,7 @@
 			<listitem><para>Image testcases we use are still correct.</para></listitem>
 			<listitem><para>When the intention is that package testing will take place during the cycle, package testcases are still correct.</para></listitem>
 			<listitem><para>The testsuites on the Package Tracker make sense for what we intend to test during the cycle. Differences between regular and LTS releases are often, but not always, needed</para></listitem>
-			<listitem><para>Scheduling of ISO, and when appropriate Package, Testing should take place amongst the QA Team. The resulting schedule should be posted on the Xubuntu QA Trello page.</para></listitem>
+			<listitem><para>Scheduling of ISO, and when appropriate Package, Testing should take place amongst the QA Team. The resulting schedule should be posted on the Xubuntu QA Trello page for public view.</para></listitem>
 		</itemizedlist>
 		</para>
 
@@ -70,9 +70,9 @@
 	<section id="qa-team-testedits">
 		<title>Working with testcases</title>
 
-		<para>Information on the basic method of working with the testcases can be found at the Ubuntu QA Team Manual <ulink url="https://wiki.ubuntu.com/QATeam/ContributingTestcases/Manual">Testcases</ulink>.</para>
+		<para>Information on the basic method of working with the testcases can be found at the Ubuntu QA Team Manual <ulink url="https://wiki.ubuntu.com/QATeam/ContributingTestcases/Manual">Testcases</ulink> page.</para>
 
-		<para><emphasis>We</emphasis> are only concerned with a specific set of tasks, grabbing the branch, making edits and then pushing the changes we need to the main branch. We have people in the testcase admin team for the LP Testcases and any member of our Release Team can edit the tracker, this helps ensure that changes are moved through to the trackers quickly.</para>
+		<para><emphasis>We</emphasis> are only concerned with a specific set of tasks: grabbing the branch, making edits and then pushing the changes we need to the main branch. We have people in the Testcase Admin team for the LP Testcases, in addition any member of our Release Team can edit the tracker, this helps ensure that changes are moved through to the trackers quickly.</para>
 
 		<para>To edit a testcase:
 
@@ -86,8 +86,8 @@
 		</itemizedlist>
 		</para>
 
-		<para>Once you've pushed to your local branch, you need to finally propose the change for merging, detailed information on that, and the above can be found at the Ubuntu QA Team <ulink url="https://wiki.ubuntu.com/QATeam/DevelopmentToolsUsage">Bzr</ulink> page.</para>
-		<para>Respond to requests for changes where asked from the Testcase Admins in order to get the required change through</para>
+		<para>Once you've pushed to your local branch, you need to finally propose the change for merging. Detailed information on that, and the above can be found at the Ubuntu QA Team <ulink url="https://wiki.ubuntu.com/QATeam/DevelopmentToolsUsage">Bzr</ulink> page.</para>
+		<para>Respond to any requests for changes when asked by the Testcase Admins in order to get the required change through in a timely manner.</para>
 	</section>
 
 	<section id="qa-team-users">
