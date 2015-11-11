@@ -47,7 +47,14 @@
 		<abstract>
 			<title>Welcome!</title>
 
-			<para>This documentation is a reference for all Xubuntu contributors. This documentation provides information on the processes - both social and technical - that the Xubuntu contributors use.</para>
+			<para>This documentation is a reference for all Xubuntu contributors. The chapters of this documentation provides information on the development processes - both social and technical - that the Xubuntu contributors use as a guideline in their work.</para>
+
+			<para>There are two main appendice for this documentation:</para>
+
+			<itemizedlist>
+				<listitem><para><xref linkend="xsd" />, which is the primary guideline in Xubuntu development.</para></listitem>
+				<listitem><para><xref linkend="howto" />, which describes many technical tasks that the Xubuntu developers need to use continuously.</para></listitem>
+			</itemizedlist>
 
 			<note><para>This documentation is written with the assumption that the user knows the basics of working with Xubuntu. For example, it's expected that the reader knows how to work with a terminal and understand when they need to use one, without an explicit mention.</para></note>
 		</abstract>
@@ -62,9 +69,9 @@
 	<xi:include href="qa-bugs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="website.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<!-- Common documentation -->
-	<xi:include href="strategy-document.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>	
 	<xi:include href="processes.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="common-infrastructure.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<!-- Appendix -->
+	<xi:include href="strategy-document.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>	
+	<xi:include href="howto.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="cc-by-sa.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </book>
