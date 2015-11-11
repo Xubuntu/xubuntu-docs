@@ -48,7 +48,7 @@
 
 			<para>After you have done one or more commits, run <userinput>bzr push BRANCHNAME</userinput> to push your commits to a remote branch.</para>
 
-			<note><para>When you push to a remote branch the first time, you will need to specify your branch name. In most cases, the branch name you are pushing to will follow the format <literal>lp:~username/projectname/branchdescription</literal>. This pushes your code to your personal repository. On subsequent pushes, you can omit the branchname, as Bzr will have saved your previous push location in the local branch configuration files.</para></note>
+			<note><para>When you push to a remote branch the first time, you will need to specify your branch name. In most cases, the branch name you are pushing to will follow the format <literal>&branch;lp:~username/projectname/branchdescription</literal>. This pushes your code to your personal repository. On subsequent pushes, you can omit the branchname, as Bzr will have saved your previous push location in the local branch configuration files.</para></note>
 
 			<note><para>When you are working on a branch and are making several edits that aren't related to each other, it is recommended that you do several commits. This helps keep the commit log clean and finding potential issues that certain changes have introduced easier.</para></note>
 		</section>

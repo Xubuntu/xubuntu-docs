@@ -48,7 +48,7 @@
 	</section>
 
 	<section id="xsd-areas-focus">
-		<title>The areas of focus</title>
+		<title>The Areas of Focus</title>
 
 		<para>This part of the strategy document provides a transparent framework and a set of priorities for the whole Xubuntu development and its tasks, including but not limited to decision making processes, package selection and technical dispute resolution.</para>
 
@@ -75,19 +75,19 @@
 		</section>
 
 		<section id="xsd-areas-focus-ready-to-use">
-			<title>Focus 3: Ready to use product</title>
+			<title>Focus 3: Ready to use</title>
 
 			<para>It is important for us to provide a polished and unified product that is ready for end-users. It is also a prerequisite to enabling Xubuntu as a useful, usable and effective desktop. Without the mentioned integration, the Xubuntu desktop will appear rough and unpolished which is unappealing to end-users.</para>
 
 			<para>The integration is accomplished also by selecting applications and libraries that work well with each other as well as by applying patches to assure a more bug-free system.</para>
 
-			<para>See the "Package Selection" section for guidelines on how to determine if an application fits in the Xubuntu stack.</para>
+			<para>See <xref linkend="xsd-seeds-composition-package-selection" /> for guidelines on how to determine if an application fits in the Xubuntu stack.</para>
 		</section>
 
 		<section id="xsd-areas-focus-community">
 			<title>Focus 4: Community</title>
 
-			<para>The Xubuntu community is an important force in creating Xubuntu and making it as perfect as it can be. It's essential that regular coordination between contributors work well. The infrastructure to allow good communication between the contributors as well as users is described more closely in "Xubuntu Community" and "Xubuntu Development".</para>
+			<para>The Xubuntu community is an important force in creating Xubuntu and making it as perfect as it can be. It's essential that regular coordination between contributors work well. The infrastructure to allow good communication between the contributors as well as users is described more closely in <xref linkend="xsd-community" /> and <xref linkend="xsd-development" />.</para>
 
 			<para>Where possible and appropriate, the Xubuntu team should work together with other communities, including other Ubuntu teams and upstream. If cooperation at a given time is not possible but would be beneficial for both parties, the Xubuntu team should try to allocate some resources to the cooperation at a later time.</para>
 		</section>
@@ -176,6 +176,8 @@
 			<title>Dispute Resolution</title>
 
 			<para>The Code Of Conduct (CoC) is one of the most fundamental documents in the Ubuntu community, including Xubuntu, and it functions as the base for a working community. Everybody and every communicating medium in the Xubuntu community is CoC-compliant at all times.</para>
+
+			<note><para>To read the most recent revision of the Ubuntu Code of Conduct, refer to the <ulink url="http://www.ubuntu.com/about/about-ubuntu/conduct">Ubuntu Code of Conduct</ulink> page on the Ubuntu website.</para></note>
 
 			<para>The Ubuntu Community Council can be asked to act as mediators/advisors where their expertise would be useful when the Xubuntu team and project lead requires assistance. The Xubuntu Team and XPL are encouraged to talk any other teams in the Ubuntu community if it helps resolving the issue.</para>
 
