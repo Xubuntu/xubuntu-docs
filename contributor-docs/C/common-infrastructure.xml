@@ -34,6 +34,38 @@
 
 			<para>To make sure your local copy is up to date, run <userinput>bzr pull</userinput> inside the branch directory.</para>
 		</section>
+
+		<section id="bzr-push">
+			<title>Pushing to Bzr branches</title>
+
+			<para>When you have worked on a branch and want to push your changes to a branch, do the following in the branch root:</para>
+
+			<itemizedlist>
+				<listitem><para>If you have added new files, run <userinput>bzr add .</userinput>. This adds any previously untracked files in the branch to the tracked list.</para></listitem>
+				<listitem><para>If you have removed files, run <userinput>bzr remove</userinput>. In most cases, this should automatically stop tracking files that are no longer in the branch.</para></listitem>
+				<listitem><para>Commit your changes by running <userinput>bzr commit</userinput>. Running this command will open a text editor where you can write the commit message. This commit message should summarize all the changes you have done after the last commit.</para></listitem>
+			</itemizedlist>
+
+			<para>After you have done one or more commits, run <userinput>bzr push BRANCHNAME</userinput> to push your commits to a remote branch.</para>
+
+			<note><para>When you push to a remote branch the first time, you will need to specify your branch name. In most cases, the branch name you are pushing to will follow the format <literal>lp:~username/projectname/branchdescription</literal>. This pushes your code to your personal repository. On subsequent pushes, you can omit the branchname, as Bzr will have saved your previous push location in the local branch configuration files.</para></note>
+
+			<note><para>When you are working on a branch and are making several edits that aren't related to each other, it is recommended that you do several commits. This helps keep the commit log clean and finding potential issues that certain changes have introduced easier.</para></note>
+		</section>
+
+		<section id="bzr-merge-proposal">
+			<title>Submitting merge proposals</title>
+
+			<para>Once you have committed your changes to a personal repository, you might want to propose them to be merged to the main repository.</para>
+
+			<para>To do a merge proposal (often referred to as MP), start by opening the Launchpad page for your branch. You can find this page by going to <ulink url="https://launchpad.net/+me">your Launchpad page</ulink>, then clicking <guilabel>Code</guilabel> and after that, clicking on the branch in question.</para>
+
+			<para>On the branch page, click for <guilabel>Propose for merging</guilabel>. This will open up a page which asks for some details about the merge proposal you are about to do.</para>
+
+			<para><emphasis>The target branch</emphasis> is usually targeted correctly automatically. Change this only if you know it is wrong. If you have been told to add a specific <emphasis>reviewer</emphasis>, add that reviewer to the appropriate field. In most cases, you do not need to worry about the rest of the fields. If in doubt, ask the requested reviewer, or if one isn't specified, the IRC channel.</para>
+
+			<para>Finally, click <guibutton>Propose Merge</guibutton>. This submits your merge proposal and people who can approve your merge proposal will be sent a message. If they need further information or want you to work further on the branch, they will comment on the merge proposal. You will be sent a message each time any action is taken on the merge proposal, including when it's approved and merged to the main branch.</para>
+		</section>
 	</section>
 
 	<section id="build-deps">
