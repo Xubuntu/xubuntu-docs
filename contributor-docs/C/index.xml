@@ -54,13 +54,15 @@
 
 	<!-- Table of Contents -->
 	<xi:include href="getting-started.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-
+	<!-- Team specific documentation, teams in alphabetical order -->
 	<xi:include href="documentation.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="qa-testing.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="qa-bugs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>	
-
+	<xi:include href="qa-bugs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="website.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<!-- Common documentation -->
+	<xi:include href="strategy-document.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>	
+	<xi:include href="processes.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="common-infrastructure.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	
 	<!-- Appendix -->
 	<xi:include href="cc-by-sa.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </book>

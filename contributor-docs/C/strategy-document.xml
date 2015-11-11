@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-common SYSTEM "../libs-common/xubuntu-common.ent">
+%xubuntu-common;
+<!ENTITY % xubuntu-contributor-docs SYSTEM "../libs/xubuntu-contributor-docs.ent">
+%xubuntu-contributor-docs;
+<!ENTITY % xinclude SYSTEM "../libs-common/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+<chapter id="xsd">
+	<title>The Xubuntu Strategy Document</title>
+
+	<section id="xsd-introduction">
+		<title>Introduction</title>
+
+		<section id="xsd-introduction-about">
+			<title>About this document</title>
+
+			<para>This document will describe the strategy, vision and direction of the Xubuntu project as well as act as a guide and a reference for the Xubuntu Team.</para>
+
+			<para>This revised version has been written by Pasi Lallinaho with the help of Elizabeth Krumbach and Simon Steinbeiß along with numerous people in the community. This version is based on the former Xubuntu Strategy Document by Cody Somerville et al.</para>
+
+			<para>We wish thank to Cody Somerville, Jono Bacon, Eero Tamminen, Nico Veenkamp and Lionel Le Folgoc for their contributions to this document. Some content, ideas, and inspiration were derived from existing Ubuntu documentation.</para>
+		</section>
+
+		<section id="xsd-introduction-mission-statement">
+			<title>Mission Statement</title>
+
+			<para>Xubuntu is a community-developed, Ubuntu-based operating system that combines elegance and ease of use. Xubuntu provides a light, stable and configurable desktop environment with conservative workflows. Xubuntu delivers a polished and unified product ready for end-users.</para>
+
+			<para>In addition to the technical aspects, the Xubuntu team focuses on contributor and user communities.</para>
+		</section>
+	</section>
+
+	<section id="xsd-target">
+		<title>The Target</title>
+
+		<para>The target audience for Xubuntu consists of users who are interested in having an elegant, easy to use, polished and unified operating system. Xubuntu is a good option for those who want a stable, configurable and/or relatively light desktop environment too. Finally, Xubuntu is an appealing choice for users who prefer conservative workflows over the newest innovations.</para>
+
+		<para>Xubuntu does not target users with specific skill sets or aptitudes. We want Xubuntu to be a viable option for users who are new to Linux or the Ubuntu platform, but also be appealing to more experienced users. Xubuntu does not specifically focus on new users or users migrating from Windows, but according to this ease of use, it is a good alternative for those users as well.</para>
+
+		<para>Xubuntu does not explicitly target users with low, modest, or high powered machines but instead targets the entire spectrum. Xubuntu's extra responsiveness and speed, among other positive traits, can be appreciated by all users, regardless of their hardware.</para>
+
+		<para>While Xubuntu uses Xfce, it is not specifically targeted to Xfce enthusiasts or projects and software being hosted by the Xfce project or associating (officially or unofficially) with Xfce are not guaranteed for inclusion in Xubuntu.</para>
+	</section>
+
+	<section id="xsd-areas-focus">
+		<title>The areas of focus</title>
+
+		<para>This part of the strategy document provides a transparent framework and a set of priorities for the whole Xubuntu development and its tasks, including but not limited to decision making processes, package selection and technical dispute resolution.</para>
+
+		<para>The areas of focus are presented in an abstract and simple form but are also concrete enough to be actionable. As the foundation of the Xubuntu vision, the specifications in the strategy document should not be confused with release-specific goals and priorities, but instead recognized as the principles which the release-specific goals are based on.</para>
+
+		<section id="xsd-areas-focus-usability">
+			<title>Focus 1: Usability</title>
+
+			<para>Usability is one of the most important parts of an operating system which is used on a daily basis. This is why Xubuntu should be easy to use and have an appearance that doesn't get in the way. The appearance should be an all-round experience, covering all user interfaces from booting to shutting down.</para>
+
+			<para>Xubuntu should be localized to allow users to work in their preferred language. Another important aspect of usability is configurability. We believe Xfce gives users the possibility to configure their system in a meaningful way; other applications should live up to this expectation at least moderately well.</para>
+
+			<para>While accessibility is not one of the main priorities of Xubuntu, it should be taken into serious consideration as long as it doesn't require unreasonable efforts to integrate, implement or maintain. At least common accessibility tools should be installed in the default Xubuntu installation.</para>
+		</section>
+
+		<section id="xsd-areas-focus-performance">
+			<title>Focus 2: Performance</title>
+
+			<para>The Xubuntu team should strive to make Xubuntu lightweight. This means every Xubuntu release should work moderately well on machines that date to a few years before the release date. This ultimately means that newer Xubuntu releases may not able to support older computers. However, it assures that the Xubuntu team is able to work on other improvements and provide a release that is able to fulfill the expectations for a modern operating system.</para>
+
+			<para>Users wanting the most lightweight system possible should be pointed at the minimal CD, more lightweight derivatives (such as Lubuntu) or other options.</para>
+
+			<para>At the start of the release cycle, the minimum system requirements should be re-evaluated to determine if they continue to be realistic.</para>
+		</section>
+
+		<section id="xsd-areas-focus-ready-to-use">
+			<title>Focus 3: Ready to use product</title>
+
+			<para>It is important for us to provide a polished and unified product that is ready for end-users. It is also a prerequisite to enabling Xubuntu as a useful, usable and effective desktop. Without the mentioned integration, the Xubuntu desktop will appear rough and unpolished which is unappealing to end-users.</para>
+
+			<para>The integration is accomplished also by selecting applications and libraries that work well with each other as well as by applying patches to assure a more bug-free system.</para>
+
+			<para>See the "Package Selection" section for guidelines on how to determine if an application fits in the Xubuntu stack.</para>
+		</section>
+
+		<section id="xsd-areas-focus-community">
+			<title>Focus 4: Community</title>
+
+			<para>The Xubuntu community is an important force in creating Xubuntu and making it as perfect as it can be. It's essential that regular coordination between contributors work well. The infrastructure to allow good communication between the contributors as well as users is described more closely in "Xubuntu Community" and "Xubuntu Development".</para>
+
+			<para>Where possible and appropriate, the Xubuntu team should work together with other communities, including other Ubuntu teams and upstream. If cooperation at a given time is not possible but would be beneficial for both parties, the Xubuntu team should try to allocate some resources to the cooperation at a later time.</para>
+		</section>
+	</section>
+
+	<section id="xsd-community">
+		<title>Xubuntu Community</title>
+
+		<section id="xsd-community-xpl">
+			<title>Xubuntu Project Lead</title>
+
+			<para>The Xubuntu Project Lead (later: XPL) is ultimately responsible for Xubuntu and ensuring that a quality product is able to be released on schedule. The XPL serves a term of four releases at a time, ending with an LTS release to allow long-term planning and major undertakings.</para>
+
+			<para>The XPL is chosen by a simple majority vote. All members in the Xubuntu team are eligible to vote. Nominations are to be made in the two weeks preceding the election. Nominations may be submitted by individuals nominating themselves or someone else with their consent. Anybody in the community can nominate, but the nominee must be an active member of at least one Xubuntu subteam (excluding Xubuntu users).</para>
+
+			<para>All nominees are required to provide a wiki page with relevant information for the voting.</para><!-- To read more about the requirements, see the processes page. -->
+
+			<para>The voting should be arranged in a way that allows people in any timezone to vote. Ideally, the voting should be possible for 24 consecutive hours. Any voting method needs to fulfill the requirement to only allow members of the Xubuntu team to vote.</para>
+
+			<para>The XPL has a casting vote on any issue. Furthermore, in extreme cases, the XPL has a veto ability. The primary purpose of the veto vote is to prevent exhausting and interminable quarrels in the community. This authority is not to be used unless consensus has not been reached even after thorough, but not overly lenghty discussions. It's also encouraged to be in touch with other Ubuntu teams and ask for advice where applicable.</para>
+		</section>
+
+		<section id="xsd-community-team">
+			<title>Xubuntu Team</title>
+
+			<para>The Xubuntu team is a group of individuals who are primarily responsible for the Xubuntu development. The group is registered in Launchpad as xubuntu-team. The team is moderated.</para>
+
+			<para>The individuals wanting to join the Xubuntu team are required to meet the criteria described below prior to applying or they will be automatically declined. The XPL is responsible for moderating the Xubuntu team. From this group, the XPL can appoint specific team leads.</para>
+
+			<para>In case a team lead is in the minority when voting on an issue that concerns their area of expertise, the team lead should be given another hearing, after which the team should take extra care in deciding about the issue and may want to consider voting on it again after more discussion. If the XPL abstains from the vote, the team leader in question has a casting vote.</para>
+
+			<section id="xsd-community-team-members">
+				<title>Becoming and staying a member</title>
+
+				<para>To be accepted to the Xubuntu team, applicants participants must demonstrate their motivation and ability to contribute to Xubuntu. This is to ensure that any Xubuntu team member has a sufficient understanding of the Xubuntu community and its operation. The different steps one must go through will also indicate that the candidate member is able to work within the guidelines, and more important, with other people and communities. To become a member, one must:</para>
+
+				<itemizedlist>
+					<listitem><para>Commit meaningful contributions to one of the subteams, after which one will be approved to the subteam for "probation" by a subteam administrator</para></listitem>
+					<listitem><para>Demonstrate motivation to contribute perpetually, after which one will be approved to the Xubuntu team by the XPL</para></listitem>
+				</itemizedlist>
+
+				<para>To stay a member of the Xubuntu team, the member will have to have desire to continue contributing in the future. Anyone with no contributions for more than a complete cycle (6 months) should deactivate themself from the team as well as all subteams and reapply if/when they are willing to rejoin. The team administrators should purge people with no contributions in more than 6 months from the teams occasionally.</para>
+			</section>
+		</section>
+
+		<section id="xsd-community-users">
+			<title>Xubuntu Users</title>
+
+			<para>Xubuntu users is a collection of users who use and/or are interested in Xubuntu. The purpose of this group is to identify and organize Xubuntu users. The users in this group are able to vote in the Xubuntu community meetings. The members in the Xubuntu users group are encouraged to give user support on IRC and the xubuntu-users mailing list as well as spread the word about Xubuntu anywhere they see fit, including but not limited to blogs, social media and conferences.</para>
+		</section>
+	</section>
+
+	<section id="xsd-development">
+		<title>Xubuntu Development</title>
+
+		<section id="xsd-development-coordination">
+			<title>Coordination</title>
+
+			<para>The direction of the development of the project is coordinated by:</para>
+
+			<itemizedlist>
+				<listitem><para>The Strategy Document</para></listitem>
+				<listitem><para>Release-specific blueprints and specifications</para></listitem>
+				<listitem><para>The Xubuntu community meetings</para></listitem>
+				<listitem><para>The Xubuntu developer communication tools listed below</para></listitem>
+			</itemizedlist>
+		</section>
+
+		<section id="xsd-development-communication">
+			<title>Communication</title>
+
+			<para>For Xubuntu to be successful, its members and community must have the right tools to enable useful and helpful communication and ultimately, to help the community grow. These communication tools include the following "core" tools:</para>
+
+			<itemizedlist>
+				<listitem><para><emphasis>Mailing lists</emphasis>; xubuntu-users for community support and user discussions and xubuntu-devel for development discussion and coordination</para></listitem>
+				<listitem><para><emphasis>IRC channels</emphasis>; #xubuntu for community support, #xubuntu-devel for development discussion and coordination and #xubuntu-offtopic for general discussion with a more relaxed mood</para></listitem>
+				<listitem><para><emphasis>Launchpad</emphasis>, for organizing teams as well as tracking and managing blueprints and bugs</para></listitem>
+				<listitem><para><emphasis>The Xubuntu website</emphasis> for news, development articles and general information about Xubuntu</para></listitem>
+				<!-- <listitem><para><emphasis>The Xubuntu pages in the Ubuntu wiki for development coordination</para></listitem> -->
+			</itemizedlist>
+
+			<para>In addition to communicating with each other and the Xubuntu community, the Xubuntu team should communicate continuosly with other Ubuntu contributors, upstream and other projects related to Xubuntu. The team members should take part in the development discussion outside Xubuntu as well to create and maintain healthy relationships with other projects and their developers.</para>
+		</section>
+
+		<section id="xsd-development-dispute-resolution">
+			<title>Dispute Resolution</title>
+
+			<para>The Code Of Conduct (CoC) is one of the most fundamental documents in the Ubuntu community, including Xubuntu, and it functions as the base for a working community. Everybody and every communicating medium in the Xubuntu community is CoC-compliant at all times.</para>
+
+			<para>The Ubuntu Community Council can be asked to act as mediators/advisors where their expertise would be useful when the Xubuntu team and project lead requires assistance. The Xubuntu Team and XPL are encouraged to talk any other teams in the Ubuntu community if it helps resolving the issue.</para>
+
+			<para>When disputes occur, contributors are strongly encouraged to refrain from taking the disputed actions to avoid sabotaging the dispute resolution process.</para>
+		</section>
+	</section>
+
+	<section id="xsd-release-support-cycle">
+		<title>Release and Support Cycles</title>
+
+		<para>The Xubuntu release cycle consists of 6 months from start to release, then an additional 9 month of maintenance for standard releases and 3 years of support for LTS releases. Although the Xubuntu project itself can not provide commercial support or commercial guarantees, the Xubuntu team will make every effort to conform with the acknowledged support period and provide security updates for Xubuntu packages.</para>
+
+		<!-- <para>The release cycle itself consists of 5 more or less overlapping stages, which are:</para>
+
+		<itemizedlist>
+			<listitem><para>Planning</para></listitem>
+			<listitem><para>Developing</para></listitem>
+			<listitem><para>Testing</para></listitem>
+			<listitem><para>Releasing</para></listitem>
+			<listitem><para>Maintaining</para></listitem>
+		</itemizedlist> -->
+
+		<para>For more information about the specifics of the processes related to developing a release, see <xref linkend="processes" />.</para>
+	</section>
+
+	<section id="xsd-seeds-composition">
+		<title>Seeds &amp; Composition</title>
+
+		<section id="xsd-seeds-composition-core-components">
+			<title>Core Components</title>
+
+			<para>The following packages and their technical dependencies are considered essential in composing an operating system that represents the goals set previously in this document:</para>
+
+			<itemizedlist>
+				<listitem><para>xfwm4 (Xfce4 window manager)</para></listitem>
+				<listitem><para>xfdesktop4 (Xfce4 desktop)</para></listitem>
+				<listitem><para>xfce4-panel (Xfce4 panel)</para></listitem>
+				<listitem><para>xfce4-session (Xfce4 session manager)</para></listitem>
+				<listitem><para>xfconf (Xfce4 configuration storage system)</para></listitem>
+				<listitem><para>xfce4-settings (Xfce4 settings manager)</para></listitem>
+				<listitem><para>thunar (file manager)</para></listitem>
+			</itemizedlist>
+
+			<para>Unless the components mentioned above are deprecated and no longer work as they are intended, they should not be substituted or removed from the seed.</para>
+
+			<para>The <literal>&package;xubuntu-core</literal> metapackage consists of the core packages as well as other important packages which contribute to the Xubuntu experience. The <literal>&package;xubuntu-desktop</literal> metapackage depends on the core metapackage and includes additional packages to provide the full, ready to use, Xubuntu experience.</para>
+		</section>
+
+		<section id="xsd-seeds-composition-package-selection">
+			<title>Package Selection</title>
+
+			<para>When considering the package selection for Xubuntu, there are two main guidelines:</para>
+
+			<itemizedlist>
+				<listitem><para>The package must be in line with the mission statement</para></listitem>
+				<listitem><para>The package selection process must be conducted as objectively as possible</para></listitem>
+			</itemizedlist>
+
+			<para>While the Xubuntu Project Lead and the Xubuntu Technical Lead have the last word on package selection, it's recommended that the whole team is involved in the discussion, bringing up well thought out arguments both for and against. When appropriate, tests should be conducted to gather meaningful measurements.</para>
+
+			<para>Before seeding an application in Xubuntu, the following aspects should be considered:</para>
+
+			<itemizedlist>
+				<listitem><para>Usability and integration</para></listitem>
+				<listitem><para>Usefulness</para></listitem>
+				<listitem><para>Resource consumption and size</para></listitem>
+				<listitem><para>Reliability</para></listitem>
+				<listitem><para>Localization</para></listitem>
+			</itemizedlist>
+
+			<para>When measuring if a package is right for Xubuntu, the decision should not be based on an analysis of the package alone, but the target package along with its dependencies. Any package that is considered for seeding should fulfill the following requirements:</para>
+
+			<itemizedlist>
+				<listitem><para>The package should use the GTK toolkit</para></listitem>
+				<listitem><para>The package should not pull in heavy libraries, especially if they will run and/or start frequently</para></listitem>
+				<listitem><para>The package should be well maintained upstream</para></listitem>
+			</itemizedlist>
+
+			<para>The above guidelines can be omitted when there are extensive benefits to seeding the package, consensus between the Xubuntu Project Lead and Xubuntu Technical Lead as well as broad support from the Xubuntu team.</para>
+		</section>
+	</section>
+</chapter>

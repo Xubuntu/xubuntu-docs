@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-common SYSTEM "../libs-common/xubuntu-common.ent">
+%xubuntu-common;
+<!ENTITY % xubuntu-contributor-docs SYSTEM "../libs/xubuntu-contributor-docs.ent">
+%xubuntu-contributor-docs;
+<!ENTITY % xinclude SYSTEM "../libs-common/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+<chapter id="website">
+	<title>Website</title>
+
+	<section id="website-introduction">
+		<title>Introduction to the Xubuntu web presence</title>
+
+		<section id="website-introduction-xubuntu-org">
+			<title>Xubuntu.org</title>
+
+			<para><emphasis>The website is the main output for end-users.</emphasis> The content on the website should be easily understandable and approachable.</para>
+
+			<para>The website is a WordPress instance on a server maintained by the Canonical IS. The website content is overseen and administrated by the Xubuntu website team. The website team can submit tickets to the Canonical IS for any problems. Bugs that are related to the website can be submitted on Launchpad, under the <ulink url="https://bugs.launchpad.net/xubuntu-website/+bugs">bugs for xubuntu-website</ulink>.</para>
+
+			<para>The source code for the website is available at <literal>&branch;lp:xubuntu-website</literal> (the theme) and <literal>&branch;lp:xubuntu-website/plugins</literal> (the plugins).</para>
+		</section>
+
+		<section id="website-introduction-wiki">
+			<title>Xubuntu wiki</title>
+
+			<para><emphasis>The Xubuntu wiki is used for some developer communication and serves as an archive for older release roadmaps and specification.</emphasis></para>
+		</section>
+	</section>
+</chapter>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-common SYSTEM "../libs-common/xubuntu-common.ent">
+%xubuntu-common;
+<!ENTITY % xubuntu-contributor-docs SYSTEM "../libs/xubuntu-contributor-docs.ent">
+%xubuntu-contributor-docs;
+<!ENTITY % xinclude SYSTEM "../libs-common/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+<chapter id="processes">
+	<title>Processes</title>
+
+	<para>This section describes some of the community processes for Xubuntu development. The processes should be used as guidelines: the main goal of this section is to describe <emphasis>what we do</emphasis>, not so much to describe <emphasis>what we should do</emphasis>.</para>
+
+	<section id="processes-meetings">
+		<title>Meetings</title>
+
+		<section id="processes-meetings-chairing">
+			<title>Chairing a meeting</title>
+			<para>The community meetings are held in <literal>#xubuntu-devel</literal> and chaired by the Xubuntu team leads. The chairing team leader is cycled based on the team name. The actual upcoming chair list can be found in the comments of the Meetings page.</para>
+
+			<para>The chair is responsible for scheduling and announcing the meeting on the development mailing list, and for updating the wiki with the meeting time.</para>
+
+			<para>During any of the sections in the meeting, the chair can assign action items to individuals or teams with their permission. The chair should take care to copy these items to blueprint work items where applicable.</para>
+
+			<para>The meeting minutes will need to be added to the wiki after the meeting has ended. To do this, go to the <ulink url="https://wiki.ubuntu.com/Xubuntu/Meetings/Archive/Minutes/">Minutes startpage</ulink> and use the input box for creating a minutes page. You will get the content for the page directly from meetingology Moin output URL.</para>
+
+			<para>After you have created a minutes page, don't forget to update the include in <ulink url="https://wiki.ubuntu.com/Xubuntu/Meetings/">the Meetings main page</ulink>.</para>
+		</section>
+	</section>
+
+	<section id="processes-website-updates">
+		<title>Website updates</title>
+
+		<section id="processes-website-updates-release">
+			<title>Update on release</title>
+
+			<itemizedlist>	
+				<listitem><para>Update screenshots on the <ulink url="">Screenshots</ulink> page</para></listitem>
+				<listitem><para>Rotate the <ulink url="">In the Press</ulink> section</para></listitem>
+				<listitem><para>Add new release to the <ulink url="">Help &amp; Support</ulink> and <ulink url="">Get Xubuntu</ulink> pages</para></listitem>
+				<listitem><para>Change front page widget to point to a new release</para></listitem>
+				<listitem><para>When one is set, remove the widget mentioning testing from the front page</para></listitem>
+				<listitem><para>When one is prepared, release a FAQ blog article</para></listitem>
+			</itemizedlist>
+		</section>
+
+		<section id="processes-website-updates-point-release">
+			<title>Update on point releases</title>
+
+			<itemizedlist>	
+				<listitem><para>Update download links on the <ulink url="">Get Xubuntu</ulink> page</para></listitem>
+				<listitem><para>Update the front page widget</para></listitem>
+			</itemizedlist>
+		</section>
+
+		<section id="processes-website-updates-eol">
+			<title>Update on release EOL</title>
+
+			<itemizedlist>
+				<listitem><para>Update the supported releases list on the <ulink url="">Help &amp; Support</ulink> page</para></listitem>
+				<listitem><para>Update the <ulink url="">documentation subdomain</ulink> from <literal>&branch;lp:xubuntu-website/docs-startpage</literal></para></listitem>
+			</itemizedlist>
+		</section>
+	</section>
+</chapter>
