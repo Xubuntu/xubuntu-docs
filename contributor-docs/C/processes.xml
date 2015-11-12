@@ -15,6 +15,13 @@
 
 	<para>This section describes some of the community processes for Xubuntu development. The processes should be used as guidelines: the main goal of this section is to describe <emphasis>what we do</emphasis>, not so much to describe <emphasis>what we should do</emphasis>.</para>
 
+	<para>In addition to the Xubuntu processes described below, there are several generic Ubuntu processes that are useful for the team and described elsewhere:</para>
+
+	<itemizedlist>
+		<listitem><para><ulink url="https://wiki.ubuntu.com/FreezeExceptionProcess">Freeze exception process</ulink> for getting to upload changes after a relevant freeze</para></listitem>
+		<listitem><para><ulink url="https://wiki.ubuntu.com/SponsorshipProcess">Sponsorship process</ulink> for getting new package uploads in the archive</para></listitem>
+	</itemizedlist>
+
 	<section id="processes-meetings">
 		<title>Meetings</title>
 
@@ -65,5 +72,18 @@
 				<listitem><para>Update the <ulink url="http://docs.xubuntu.org/">documentation subdomain</ulink> from <literal>&branch;lp:xubuntu-website/docs-startpage</literal></para></listitem>
 			</itemizedlist>
 		</section>
+	</section>
+
+	<section id="processes-xpl">
+		<title>Information required from Xubuntu Project Lead nominees</title>
+
+		<para>To increase transparency and to make sure relevant information is available for the Xubuntu team members to vote, the Project Lead nominees are required to provide at least the following information:</para>
+
+		<itemizedlist>
+			<listitem><para>Previous activities in Xubuntu teams</para></listitem>
+			<listitem><para>Thoughts about the Xubuntu development, including the biggest challenges and possibilities</para></listitem>
+			<listitem><para>Areas of interest as a XPL, including any changes the nominee is wishing to see in the team</para></listitem>
+			<listitem><para>A brief history of the nominee in the free and open source software world</para></listitem>
+		</itemizedlist>
 	</section>
 </chapter>

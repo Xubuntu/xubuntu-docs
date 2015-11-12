@@ -63,14 +63,18 @@
 	<!-- Table of Contents -->
 	<xi:include href="getting-started.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<!-- Team specific documentation, teams in alphabetical order -->
-	<xi:include href="documentation.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="qa-team.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="qa-testing.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="qa-bugs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="website.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<part id="part-subteams">
+		<title>Subteam documentation</title>
+		<xi:include href="development.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+		<xi:include href="documentation.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+		<xi:include href="qa-team.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+		<xi:include href="qa-testing.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+		<xi:include href="qa-bugs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+		<xi:include href="website.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	</part>
 	<!-- Common documentation -->
 	<xi:include href="processes.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<!-- Appendix -->
+	<!-- Appendice -->
 	<xi:include href="strategy-document.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>	
 	<xi:include href="howto.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="cc-by-sa.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>

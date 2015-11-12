@@ -42,7 +42,8 @@ body > div.chapter,
 body > div.sect1,
 body > div.section,
 body > div.appendix,
-body > div.legalnotice {
+body > div.legalnotice,
+body > div.part {
 	max-width: 950px;
 	min-width: 580px;
 

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-common SYSTEM "../libs-common/xubuntu-common.ent">
+%xubuntu-common;
+<!ENTITY % xubuntu-contributor-docs SYSTEM "../libs/xubuntu-contributor-docs.ent">
+%xubuntu-contributor-docs;
+<!ENTITY % xinclude SYSTEM "../libs-common/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+<chapter id="development">
+	<title>Development</title>
+
+	<section id="development-packageset">
+		<title>Xubuntu packageset</title>
+
+		<para>The Xubuntu team maintains a certain subset of packages in the Ubuntu archive. The <ulink url="http://people.canonical.com/~ubuntu-archive/packagesets/&devel-codename;/xubuntu">Xubuntu packageset for the current development release</ulink>.</para>
+
+		<note><para>All per-release packageset lists are available at <ulink url="http://people.canonical.com/~ubuntu-archive/packagesets/">http://people.canonical.com/~ubuntu-archive/packagesets/</ulink>.</para></note>
+	</section>
+
+	<section id="development-ppa">
+		<title>Development PPA's</title>
+
+		<para>The Xubuntu developers use several PPA's (personal package archives) for staging, testing and previewing new packages and package versions. These PPA's can be found under the <ulink url="https://launchpad.net/~xubuntu-dev">~xubuntu-dev page at Launchpad</ulink>.</para>
+
+		<para>Currently, the official PPA's for development use are:</para>
+
+	 	<segmentedlist>
+			<?dbhtml list-presentation="table"?>
+			<segtitle>PPA</segtitle><segtitle>Description</segtitle>
+			<seglistitem><seg><ulink url="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/xubuntu-staging">Xubuntu Staging</ulink></seg><seg>A staging PPA for Xubuntu. The packages and package versions in this PPA are being prepared for inclusion in Xubuntu. The packages are uploaded for the convenience of people testing these new package versions and features. Some of them are daily builds used in testing.</seg></seglistitem>
+			<seglistitem><seg><ulink url="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/ppa">Xubuntu Daily Builds</ulink></seg><seg>Git/Bzr daily builds for packages related to Xubuntu and/or Xfce4.</seg></seglistitem>
+			<seglistitem><seg><ulink url="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/extras">Xubuntu Extras</ulink></seg><seg>A preview PPA for Xubuntu. The packages in this PPA are considered for inclusion in the Ubuntu repositories and/or Xubuntu at a later time. The packages are uploaded for the convenience of people willing to preview the new features.</seg></seglistitem>
+		</segmentedlist>
+	</section>
+</chapter>
