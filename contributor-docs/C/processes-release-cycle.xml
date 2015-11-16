@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-common SYSTEM "../libs-common/xubuntu-common.ent">
+%xubuntu-common;
+<!ENTITY % xubuntu-contributor-docs SYSTEM "../libs/xubuntu-contributor-docs.ent">
+%xubuntu-contributor-docs;
+<!ENTITY % xinclude SYSTEM "../libs-common/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+<chapter id="release-cycle">
+	<title>Release cycle</title>
+
+	<para>This section loosely describes the stages of a development and release cycle.</para>
+
+	<section id="release-cycle-planning">
+		<title>Planning</title>
+
+		<para>Planning the release is conducted in three phases:</para>
+
+		<itemizedlist>
+			<listitem><para>Brainstorming</para></listitem>
+			<listitem><para>Approving blueprints</para></listitem>
+			<listitem><para>Finalizing specifications</para></listitem>
+		</itemizedlist>
+
+		<para>During the brainstorming phase the contributors determine what they would like to work on during the release cycle, including proposals for changes in default applications. Anybody can items to the list. Settling on the goals in advance will make planning, focusing and estimating the likelihood for the features to be implemented easier.</para>
+
+		<para>After the brainstorming is over and before or on the Feature Definition Freeze day, the Xubuntu team will approve or reject the proposed blueprints. Any items with no assignee or rationale will be automatically rejected, but having them will not guarantee that the blueprint is approved. Other criteria include, but are not limited to: likelihood of getting the feature implemented, maintenance weight in the future, possible stability issues, influence on other blueprints, et cetera. The approved blueprints compose the roadmap for the release being developed.</para>
+
+		<para>After blueprints are approved, they should be finalized and detailed specifications should be written. These specifications should document the proposed changes and help guide the implementation.</para>
+
+		<para>Once the detailed specifications are ready, the developer team should coordinate with the QA team about the required scale and schedule of testing. The QA team will then build a schedule for testing for ISO and package tests. Additional requests for testing during the cycle should be sent out only after consulting the QA team.</para>
+
+		<para>The Ubuntu freezes define the deadlines for implementation.</para>
+	</section>
+
+	<section id="release-cycle-developing">
+		<title>Developing</title>
+
+		<para>In addition to implementing the features and/or improvements set in the roadmap, there are a number of tasks which will occur during each release cycle:</para>
+
+		<itemizedlist>
+			<listitem><para>Xubuntu packages will be synced or merged with Debian as appropriate</para></listitem>
+			<listitem><para>Bugs reported by users will be reviewed, fixed, and/or passed upstream</para></listitem>
+			<listitem><para>Attempt to reduce our delta by pushing appropriate patches upstream</para></listitem>
+			<listitem><para>Evaluate the seeds to ensure we are shipping the optimal software</para></listitem>
+			<listitem><para>Work on improving and updating the Xubuntu documentation and artwork </para></listitem>
+		</itemizedlist>
+	</section>
+
+	<section id="release-cycle-testing">
+		<title>Testing</title>
+
+		<para>Throughout the release cycle and even more so towards the end, we will test Xubuntu to ensure that Xubuntu is a quality product that we are proud of.</para>
+
+		<para>The most important goal of the testing is to find as many bugs as possible and report them with sufficient detail to the Ubuntu QA trackers. To read more about conducting tests and reporting them, refer to the QA tracker wiki page.</para>
+
+		<section id="release-cycle-testing-iso">
+			<title>ISO testing</title>
+
+			<para>The Xubuntu team will do its best to ensure that released milestone ISOs have enough tests completed. We will also test daily builds, upgrading through supported release paths and running the development version regularly to help detect problems and make sure the changes made meet the release goals, work as expected and do not cause regressions.</para>
+
+			<para>The following schedule is used for daily testing:</para>
+
+		 	<segmentedlist>
+				<?dbhtml list-presentation="table"?>
+				<segtitle>Scheduled time</segtitle><segtitle>Action</segtitle>
+				<seglistitem><seg>Beginning of cycle</seg><seg>Send testing schedule via both the developer and users mailing lists as well as the Launchpad testing team.</seg></seglistitem>
+				<seglistitem><seg>Monthly</seg><seg>As required, send out reminders of the testing schedule.</seg></seglistitem>
+			</segmentedlist>
+
+			<para>The following schedule is used for each milestone:</para>
+
+			<segmentedlist>
+				<?dbhtml list-presentation="table"?>
+				<segtitle>Scheduled time</segtitle><segtitle>Action</segtitle>
+				<seglistitem><seg>7 days before release</seg><seg>Pre-reminder for milestone testing</seg></seglistitem>
+				<seglistitem><seg>5 days before release</seg><seg>Smoketest images - automatic, reported by Jenkins</seg></seglistitem>
+				<seglistitem><seg>3 days before release</seg><seg>Once appropriate testing area set up, call for testing and start milestone testing</seg></seglistitem>
+				<seglistitem><seg>Release day</seg><seg>Mark images ready on the ISO tracker once the release team is confident to do so</seg></seglistitem>
+			</segmentedlist>
+		</section>
+
+		<section id="release-cycle-testing-package">
+			<title>Package testing</title>
+
+			<para>The QA team will schedule package testing sprints to happen during the cycle between milestone testing to ensure applications that are included in Xubuntu have sufficient amount of testing conducted.</para>
+
+			<para>Additional testing should be conducted when a new default application is to be included in the next Xubuntu release, when an application has a substantially large update in the middle of the cycle or when developers request specific testing for a specific update to an application.</para>
+
+			<para>Calls for package testing sprints will be sent out as required.</para>
+		</section>
+	</section>
+
+	<section id="release-cycle-releasing">
+		<title>Releasing</title>
+
+		<para>When it comes time to deploy a release (both milestones and final) several conditions must be met:</para>
+
+		<itemizedlist>
+			<listitem><para>Appropriate testing has been done on the image</para></listitem>
+			<listitem><para>There are no known bugs which cause data loss or damage to hardware</para></listitem>
+			<listitem><para>The image must not be oversized</para></listitem>
+			<listitem><para>Xubuntu must be of sufficient quality that it would not damage Xubuntu's, Ubuntu's, or any of the other flavors' reputation/image.</para></listitem>
+		</itemizedlist>
+
+		<para>When a release is made, the Xubuntu Release Team must follow the release process specified below. The release process ensures that the new release has sufficient release notes and release announcement and that all release-specific communication is updated to inform about the new release. Where needed, advice from the Ubuntu release team should be asked for.</para>
+
+		<segmentedlist>
+			<?dbhtml list-presentation="table"?>
+			<segtitle>Scheduled time</segtitle><segtitle>Action</segtitle>
+			<seglistitem><seg>User Interface Freeze</seg><seg>Upload artwork and slideshow packages</seg></seglistitem>
+			<seglistitem><seg>Documentation String Freeze</seg><seg>Update translation templates<?br?>Upload documentation packages</seg></seglistitem>
+			<seglistitem><seg>Non-Language Pack Translation Deadline</seg><seg>Upload documentation and slideshow packages</seg></seglistitem>
+			<seglistitem><seg>14 days before release</seg><seg>Reminder to update the website FAQ (final release only)</seg></seglistitem>
+			<seglistitem><seg>7 days before release</seg><seg>Start preparing release notes and release announcement<?br?>Make the tracker start tracking the next release</seg></seglistitem>
+			<seglistitem><seg>Release day</seg><seg>Publish release announcement and notes<?br?>Update the website, IRC channel topics and social media outlets with new release information</seg></seglistitem>
+			<seglistitem><seg>After release (final release only)</seg><seg>Set the new development version as the default in the tracker<?br?>Set up appropriate branches (documentation, ...) in Launchpad<?br?>Review and update this page</seg></seglistitem>
+		</segmentedlist>
+	</section>
+
+	<section id="release-cycle-maintaining">
+		<title>Maintaining</title>
+
+		<para>After a release is made, bugs and problems are bound to be reported. The period between the release and the start of the next release cycle is the optimal time to perform Stable Release Updates (SRU) for major bugs as long as developers do not forget to fix the issue in the next release as well, once the repository opens. Once the next release cycle has started, primary focus will be on the next release and the severity/importance of the SRU candidates will be more important when it comes to deciding whether an SRU will be performed or not.</para>
+	</section>
+</chapter>
