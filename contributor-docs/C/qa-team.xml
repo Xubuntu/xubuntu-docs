@@ -14,22 +14,35 @@
 <chapter id="qa-team">
 	<title>Xubuntu QA Team</title>
 
+	<section id="qa-team-links">
+		<title>Useful links for the QA Team:</title>
+			<itemizedlist>
+				<listitem><para><ulink url="https://trello.com/b/IV66JCHl/xubuntu-qa">Xubuntu QA Trello</ulink></para></listitem>
+				<listitem><para><ulink url="https://launchpad.net/~xubuntu-qa">Xubuntu QA</ulink></para></listitem>
+				<listitem><para><ulink url="https://launchpad.net/~xubuntu-testers">Xubuntu Testers</ulink></para></listitem>
+				<listitem><para><ulink url="http://iso.qa.ubuntu.com/qatracker">ISO Tracker</ulink></para></listitem>
+				<listitem><para><ulink url="http://packages.qa.ubuntu.com/">Package Tracker</ulink></para></listitem>
+				<listitem><para><ulink url="https://wiki.ubuntu.com/QATeam">Ubuntu QA wiki</ulink></para></listitem>
+				<listitem><para><ulink url="https://launchpad.net/ubuntu-manual-tests/">Ubuntu Manual Test Project</ulink></para></listitem>
+			</itemizedlist>
+	</section>
+
 	<section id="qa-team-basics">
 		<title>Xubuntu QA Team</title>
 		<para> The Xubuntu QA team was formed to ensure that the quality of a released Xubuntu conforms to the parameters laid out in the Xubuntu Processes documents. In order to successfully accomplish this, close team working relationships, especially with the Development team and the Project Lead are paramount. Xubuntu's success is based on close working amongst all of it's various teams.</para>
 
-		<para>In addition, the team gives people contributing through testing of Xubuntu the opportunity to become part of the <ulink url="https://launchpad.net/~xubuntu-team">Xubuntu Team</ulink> through their contributions. For that to be of practical use, the QA team should keep watch on testing reports on the tracker(s) and propose users they have seen taking a keen interest in the work of the QA Team</para>
+		<para>In addition, the team gives people contributing through testing of Xubuntu the opportunity to become part of the <ulink url="https://launchpad.net/~xubuntu-team">Xubuntu Team</ulink> through their contributions. For that to be of practical use, the QA team should keep watch on testing reports on the tracker(s) and propose users they have seen taking a keen interest in the work of the QA Team.</para>
 
 		<para>Excluding testing itself, control of the testcases that we use for ISO and Package testing, along with communicating the testing requirements for any particular development cycle (hereafter cycle) to the community, makes up the bulk of the teams work in any given cycle.</para>
 
-		<para>Members of the QA team should check the current Xubuntu QA blueprint, and assign themselves to tasks they feel able to undertake. In addition it is helpful that they also have a Trello account in order to work with the <ulink url="https://trello.com/b/IV66JCHl/xubuntu-qa">QA Trello</ulink> page.</para>
+		<para>Members of the QA team should check the current Xubuntu QA blueprint, and assign themselves to tasks they feel able to undertake. In addition it is helpful that they also have a Trello account in order to work with the QA Trello page.</para>
 
 	</section>
 
 	<section id="qa-team-testing">
 		<title>Testing Responsibilities</title>
 
-		<para>At the start of a cycle,the Release Team will discuss which ISO Milestones we will participate in. Then, during a Community Meeting, members of Xubuntu Team will discuss and then ratify Xubuntu's participation during the cycle. </para>
+		<para>At the start of a cycle, the Release Team will discuss which ISO Milestones we will participate in. Then, during a Community Meeting, members of Xubuntu Team will discuss and then ratify Xubuntu's participation during the cycle. </para>
 
 		<para>Along with general testing of our OS, dealt with further in <xref linkend="qa-testing-exploratory"/> and <xref linkend="qa-testing-ppa"/>, further responibilities lie with ensuring that:
 
@@ -61,7 +74,7 @@
 		</itemizedlist>
 		</para>
 
-		<para>During a cycle changes to a package we test, following for example a bug fix, should lead to a further check of the testcase involved. Further testing calls for that package should be made to check for regression</para>
+		<para>When there are changes to a package we test, following for example a bug fix, a further check of the testcase involved should take place. Further testing calls for that package should be made to check for regression during the cycle.</para>
 
 		<para>When a package during test constantly fails, or bug reports indicate a failure in a package for something not tested. The testcase for that package should be disabled temporarily. This should be noted on the Trello Disabled Tests list. The QA Lead is responsible for ensuring tests are both disabled and re-enabled when appropriate.</para>
 	</section>
@@ -86,7 +99,7 @@
 		</itemizedlist>
 		</para>
 
-		<para>Once pushed to your local branch, propose the change for merging, <xref linkend="bzr-merge-proposal"></xref></para>
+		<para>Once pushed to your local branch, propose the change for merging - <xref linkend="bzr-merge-proposal" /></para>
 		<para>Respond to any requests for changes when asked by the Testcase Admins in order to get the required change through in a timely manner.</para>
 	</section>
 
@@ -95,7 +108,7 @@
 
 		<para>While we have 2 sets of people in the community that we contact about required testing. Testers will get regular contact from us, we should only, in general, call on Users at later stages.</para>
 
-		<para>The team lead will be an administrator on the Testers Launchpad <ulink url="https://launchpad.net/~xubuntu-testers">page</ulink> and can contact those users via LP. Copies of testing calls sent to the dev mailing list should go to this group each time</para>
+		<para>The team lead will be an administrator on the Testers Launchpad page and can contact those users via LP. Copies of testing calls sent to the dev mailing list should go to this group each time</para>
 
 		<para>Any member of the QA team can:
 
