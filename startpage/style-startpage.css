@@ -1,0 +1,43 @@
+/*
+ *  Created by Pasi Lallinaho <pasi@shimmerproject.org>
+ *  The license of this file is CC-BY-SA 2.0.
+ *	
+ */
+
+.section {
+	margin: 0 -3em;
+	padding: 0 3em 1.5em 3em;
+	border-top: 0.5em solid rgba( 0, 0, 0, 0.1 );
+}
+
+.documentation {
+	margin: 0 -3em;
+	padding: 1.8em 3em;
+	background-color: rgba( 255, 255, 255, 0.95 );
+}
+	p + .documentation {
+		margin-top: 1.8em;
+	}
+	.documentation h2 {
+		margin-top: 0;
+	}
+	.documentation h3,
+	.documentation p,
+	.documentation li {
+		font-size: 115%;
+		line-height: 1.5em;
+	}
+
+h3 + ul {
+	margin-top: -1em;
+}
+
+ul {
+	margin: 0;
+}
+
+ul li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 0.5em;
+}
