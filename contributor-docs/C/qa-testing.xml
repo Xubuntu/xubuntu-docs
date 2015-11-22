@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
 "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
-<!ENTITY % xubuntu-common SYSTEM "../libs-common/xubuntu-common.ent">
+<!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
 %xubuntu-common;
-<!ENTITY % xubuntu-contributor-docs SYSTEM "../libs/xubuntu-contributor-docs.ent">
-%xubuntu-contributor-docs;
-<!ENTITY % xinclude SYSTEM "../libs-common/xinclude.mod">
+<!ENTITY % xubuntu-contributor SYSTEM "../libs/xubuntu-contributor.ent">
+%xubuntu-contributor;
+<!ENTITY % xinclude SYSTEM "../../libs-common/xinclude.mod">
 %xinclude;
 <!ENTITY language "&EnglishAmerican;">
 <!ENTITY language "C">
 ]>
 
 <chapter id="qa-testing">
-	<title>Package and ISO testing</title>
+	<title>Package and ISO Testing</title>
 		
 	<section id="qa-testing-exploratory">
-		<title>Exploratory testing</title>
+		<title>Exploratory Testing</title>
 
 		<para>In addition to testing the images and software with predefined testing actions (static testing), community members can take part in exploratory testing as well.</para>
 

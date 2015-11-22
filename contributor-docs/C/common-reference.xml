@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
+%xubuntu-common;
+<!ENTITY % xubuntu-contributor SYSTEM "../libs/xubuntu-contributor.ent">
+%xubuntu-contributor;
+<!ENTITY % xinclude SYSTEM "../../libs-common/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+<appendix id="common-reference">
+	<title>Common Reference</title>
+
+	<section id="bzr">
+		<title>Bazaar (Bzr)</title>
+
+		<para>Bazaar (commonly referred to as Bzr) is the version control system primarily used in Xubuntu development.</para>
+
+		<section id="bzr-setup">
+			<title>Setting up Bzr</title>
+
+			<para>To set up Bzr, do the following:</para>
+
+			<itemizedlist>
+				<listitem><para>To make sure Bzr is installed on your system, run <userinput>sudo apt-get install bzr</userinput></para></listitem>
+				<listitem><para>To set up your personal information for Bzr to use, run <userinput>bzr whoami "John Doe &lt;john.doe@gmail.com&gt;"</userinput></para></listitem>
+			</itemizedlist>
+		</section>
+
+		<section id="bzr-branch">
+			<title>Getting and updating Bzr branches</title>
+
+			<para>After you have set up Bzr, you can get a local copy of a branch by running <userinput>bzr branch LOCATION</userinput>. This will create a directory for the branch.</para>
+
+			<para>To make sure your local copy is up to date, run <userinput>bzr pull</userinput> inside the branch directory.</para>
+		</section>
+
+		<section id="bzr-push">
+			<title>Pushing to Bzr branches</title>
+
+			<para>When you have worked on your changes and want to push them to a remote branch, do the following in the local branch:</para>
+
+			<itemizedlist>
+				<listitem><para>To rename or move files, run <userinput>bzr mv OLD NEW</userinput>. This helps to keep the resulting diff meaningful, and also works after the fact.</para></listitem>
+				<listitem><para>If you have added files, run <userinput>bzr add .</userinput> in the branch root. This starts tracking any files in the branch that are currently unknown.</para></listitem>
+				<listitem><para>If you have removed files, run <userinput>bzr remove</userinput>. In most cases, this should automatically stop tracking files that are no longer in the branch.</para></listitem>
+				<listitem><para>To check the status of the branch, run <userinput>bzr status</userinput>.</para></listitem>
+				<listitem><para>Commit your changes by running <userinput>bzr commit</userinput>. This will open a text editor to enter the commit message.</para></listitem>
+				<listitem><para>After you have done one or more commits, run <userinput>bzr push LOCATION</userinput> to push your changes to a remote branch.</para></listitem>
+			</itemizedlist>
+
+			<para>The commit message should summarize all the changes you have done after the last commit. You can specify it directly by using <literal>-m MESSAGE</literal>, and link a bug report to the commit by using <literal>--fixes lp:BUGNO</literal>.</para>
+
+			<note><para>When you are working on a branch and are making several changes that aren't related to each other, it is recommended that you do several commits. This helps to keep the commit log clean and makes it easier to find any issues that certain changes may have introduced.</para></note>
+
+			<note><para>When you push to a remote branch the first time, you will need to specify the branch location. In most cases, it will follow the format <literal>&branch;lp:~username/projectname/branchname</literal>. This pushes your code to a personal remote branch. On subsequent pushes, you can omit the branch location, as Bzr will have saved your previous push location in the local branch configuration.</para></note>
+		</section>
+
+		<section id="bzr-merge-proposal">
+			<title>Submitting merge proposals</title>
+
+			<para>Once you have pushed your changes to a personal branch, you might want to propose them to be merged into the main branch.</para>
+
+			<para>To do a merge proposal (often referred to as MP) via web browser, start by opening the Launchpad page of your branch. You can find it by going to <ulink url="https://code.launchpad.net/people/+me">your Launchpad branches</ulink> page and clicking on the branch in question. Now, click on <guilabel>Propose for merging</guilabel>. This will open a page that asks for some details on the merge proposal you are about to do.</para>
+
+			<para>The <guilabel>Target Branch</guilabel> is usually set correctly by default, change this only if you know it is wrong. If you have been told to add a specific <guilabel>Reviewer</guilabel>, add that reviewer to the appropriate field. Enter a <guilabel>Description</guilabel> of your proposed change as well. If in doubt about any of the options, ask the requested reviewer, or if one isn't specified, in the IRC channel.</para>
+
+			<para>Finally, click on <guibutton>Propose Merge</guibutton>. This submits your merge proposal and the target branch's owner as well as the specified reviewers will be sent a mail. If they need further information or want you to work further on the branch, they will comment on the merge proposal. You will be sent a mail any time an action is taken on the merge proposal, including when it's approved and merged into the main branch.</para>
+
+			<para>To do a merge proposal from the command line, using both the remembered submit branch (defaults to the parent branch) and the default reviewer team for that branch, run <userinput>bzr lp-propose-merge</userinput>. This will open a text editor to enter the description of your proposed change. You can override the default reviewer by using <literal>--review NAME</literal> one or more times, and link a bug report to the merge proposal by using <literal>--fixes lp:BUGNO</literal>.</para>
+		</section>
+	</section>
+
+	<section id="git">
+		<title>Git</title>
+
+		<para>Git is the version control system used in Xfce development.</para>
+
+		<note><para>One major difference between Git and Bazaar to note is that, in Bazaar you usually deal only with branches, while in Git you have to differentiate between branches and repositories, which can hold multiple branches. This is also reflected by the various commands you use. Another is that Git doesn't automatically stage your changes for commit, you have to tell it to do so.</para></note>
+
+		<section id="git-setup">
+			<title>Setting up Git</title>
+
+			<para>To set up Git, do the following:</para>
+
+			<itemizedlist>
+				<listitem>
+					<para>To make sure Git is installed on your system, run:</para>
+					<para><userinput>sudo apt-get install git</userinput></para>
+				</listitem>
+				<listitem>
+					<para>To set up your personal information for Git to use, run:</para>
+					<para><userinput>git config --global user.name "John Doe"</userinput></para>
+					<para><userinput>git config --global user.email "john.doe@gmail.com"</userinput></para>
+				</listitem>
+			</itemizedlist>
+		</section>
+
+		<section id="git-clone">
+			<title>Getting and updating Git repositories</title>
+
+			<para>After you have set up Git, you can get a local copy of a repository by running <userinput>git clone LOCATION</userinput>. This will create a directory for the repository.</para>
+
+			<para>To make sure your local copy of a branch is up to date, run <userinput>git pull</userinput> inside the branch directory.</para>
+		</section>
+
+		<section id="git-push">
+			<title>Pushing to Git repositories</title>
+
+			<para>When you have worked on your changes and want to push them to a remote repository, do the following in the local branch:</para>
+
+			<itemizedlist>
+				<listitem><para>To rename or move files, run <userinput>git mv OLD NEW</userinput>. This helps to keep the resulting diff meaningful, while Git should figure this out automatically.</para></listitem>
+				<listitem><para>To remove files, run <userinput>git rm FILE</userinput>. This also stops tracking the specified files, while it's redundant if all changes are staged later anyway.</para></listitem>
+				<listitem><para>If you have added files, run <userinput>git add .</userinput> in the branch root. This starts tracking any files in the branch that aren't currently, and also stages any changes.</para></listitem>
+				<listitem><para>To check the status of the branch, run <userinput>git status</userinput>.</para></listitem>
+				<listitem><para>Commit your changes by running <userinput>git commit -a</userinput>. This stages any changes, and will open a text editor to enter the commit message.</para></listitem>
+				<listitem><para>After you have done one or more commits, run <userinput>git push LOCATION BRANCH</userinput> to push your changes to a remote repository.</para></listitem>
+			</itemizedlist>
+
+			<para>The commit message should summarize all the changes you have done after the last commit, you can specify it directly by using <literal>-m MESSAGE</literal>.</para>
+		</section>
+	</section>
+
+	<section id="build-deps">
+		<title>Build dependencies</title>
+
+		<para>Before you can build a package from source, you will usually need to install its build dependencies.</para>
+
+		<para>To do this, simply run <userinput>sudo apt-get build-dep PACKAGE</userinput>.</para>
+	</section>
+
+	<section id="launchpad">
+		<title>Launchpad</title>
+
+		<para>Launchpad is the primary platform used for Xubuntu development. Historically, the version control system used on Launchpad is Bazaar, but it recently added <ulink url="https://help.launchpad.net/Code/Git">support for Git</ulink>, too.</para>
+
+		<section id="launchpad-account">
+			<title>Setting up a Launchpad account</title>
+
+			<para>For information on setting up a Launchpad account, see <ulink url="https://help.launchpad.net/YourAccount/NewAccount">Creating a new account</ulink>.</para>
+		</section>
+	</section>
+</appendix>

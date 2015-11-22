@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
 "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
-<!ENTITY % xubuntu-common SYSTEM "../libs-common/xubuntu-common.ent">
+<!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
 %xubuntu-common;
-<!ENTITY % xubuntu-contributor-docs SYSTEM "../libs/xubuntu-contributor-docs.ent">
-%xubuntu-contributor-docs;
-<!ENTITY % xinclude SYSTEM "../libs-common/xinclude.mod">
+<!ENTITY % xubuntu-contributor SYSTEM "../libs/xubuntu-contributor.ent">
+%xubuntu-contributor;
+<!ENTITY % xinclude SYSTEM "../../libs-common/xinclude.mod">
 %xinclude;
 <!ENTITY language "&EnglishAmerican;">
 <!ENTITY language "C">
 ]>
 <chapter id="getting-started">
-	<title>Getting started</title>
+	<title>Getting Started</title>
 
 	<section id="important-places">
-		<title>Important places</title>
+		<title>Important Places</title>
 
 		<section id="irc-channel">
 			<title>#xubuntu-devel</title>
@@ -23,7 +23,7 @@
 		</section>
 
 		<section id="status-tracker">
-			<title>The status tracker</title>
+			<title>Status Tracker</title>
 
 			<para>The Xubuntu status tracker is where the development progress for the current development cycle is tracked and located at <ulink url="&status-tracker;">tracker.xubuntu.org</ulink>.</para>
 		</section>

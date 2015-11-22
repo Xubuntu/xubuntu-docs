@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
 "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
-<!ENTITY % xubuntu-common SYSTEM "../libs-common/xubuntu-common.ent">
+<!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
 %xubuntu-common;
-<!ENTITY % xubuntu-contributor-docs SYSTEM "../libs/xubuntu-contributor-docs.ent">
-%xubuntu-contributor-docs;
-<!ENTITY % xinclude SYSTEM "../libs-common/xinclude.mod">
+<!ENTITY % xubuntu-contributor SYSTEM "../libs/xubuntu-contributor.ent">
+%xubuntu-contributor;
+<!ENTITY % xinclude SYSTEM "../../libs-common/xinclude.mod">
 %xinclude;
 <!ENTITY language "&EnglishAmerican;">
 <!ENTITY language "C">
@@ -22,11 +22,11 @@
 	</section>
 
 	<section id="development-ppa">
-		<title>Development PPA's</title>
+		<title>Development PPAs</title>
 
-		<para>The Xubuntu developers use several PPA's (personal package archives) for staging, testing and previewing new packages and package versions. These PPA's can be found under the <ulink url="https://launchpad.net/~xubuntu-dev">~xubuntu-dev page at Launchpad</ulink>.</para>
+		<para>The Xubuntu developers use several PPAs (personal package archives) for staging, testing and previewing new packages and package versions. These PPAs can be found under the <ulink url="https://launchpad.net/~xubuntu-dev">Xubuntu Developers</ulink> page on Launchpad.</para>
 
-		<para>Currently, the official PPA's for development use are:</para>
+		<para>Currently, the official PPAs for development use are:</para>
 
 	 	<segmentedlist>
 			<?dbhtml list-presentation="table"?>

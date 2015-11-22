@@ -1,18 +1,33 @@
 xubuntu-docs (16.04) UNRELEASED; urgency=medium
 
-  [ Unit 193 ]
-  * Makefile:
-    - Only run 'html' on the contributor docs, not run 'all'.
-    - Add contributor docs to the clean section.
-    - Rename, contributors → contributors-html.
-
-
   [ David Pires ]
   * Bump version and start page to 16.04 Xenial Xerus
 
   [ flocculant ]
   * Wording updates and grammar fixes
   * Contributor docs: Initial content for QA
+
+  [ Unit 193 ]
+  * Makefile:
+    - Only run 'html' on the contributor docs, not run 'all'.
+    - Add contributor docs to the clean section.
+    - Rename, contributors → contributors-html.
+
+  [ Krytarik Raido ]
+  * Create subdirectory for user docs too
+  * Drop '-docs' from contributor docs directory
+  * Rename 'desktop-guide' source directory to 'user-docs'
+  * Rename 'xubuntu-docs.ent' to 'xubuntu-user.ent'
+  * Drop '-docs' from 'xubuntu-contributor-docs.ent'
+  * Consolidate to only one 'libs-common' directory
+  * Include contributor docs in the startpage
+  * Reword introduction to user docs
+  * Move common doc XMLs to 'libs-common'
+  * Move language names file to 'libs-common'
+  * Drop using 'shipped-docs' for translation
+  * Enable translations for contributor docs
+  * Enable PDFs for contributor docs
+  * Build contributor docs by default too
 
  -- Pasi Lallinaho <pasi@shimmerproject.org>  Wed, 04 Nov 2015 00:52:16 +0200
 

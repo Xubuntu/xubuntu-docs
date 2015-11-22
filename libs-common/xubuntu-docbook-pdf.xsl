@@ -146,7 +146,7 @@
 	<xsl:template name="book.titlepage.recto">
 		<fo:block text-align="center">
 			<xsl:apply-templates mode="book.titlepage.recto.auto.mode" select="title" />
-			<fo:external-graphic src="../libs-common/images/logo.svg"/>
+			<fo:external-graphic src="../../libs-common/images/logo.svg"/>
 			<fo:block>
 				<xsl:apply-templates mode="book.titlepage.recto.auto.mode" select="bookinfo/copyright/holder"/>
 			</fo:block>

@@ -26,7 +26,7 @@
 #
 # Optional parameters:
 #	-g Translate for every language listed in po/LINGUAS
-#	-l <language>
+#	-l <language> ...
 #	-u Update the list of languages in po/LINGUAS
 #
 
@@ -36,18 +36,26 @@ translate () {
 		mkdir -p $lang
 		for xml in C/*.xml; do
 			xml=$(basename $xml)
-			xml2po --expand-all-entities --po-file po/$lang.po C/$xml > $lang/$xml
+			xml2po -e -p po/$lang.po C/$xml > $lang/$xml
 		done
 	done
+}
+
+get_all_languages () {
+	languages=$(basename -s .po -a po/*.po)
+	if [ "$languages" != "*" ]; then
+		echo "$languages"
+	fi
 }
 
 shipped_languages () {
 	percreq="70"
 	echo "Updating LINGUAS ..."
-	for po in po/*.po; do
-		percdone=$(msgfmt -o /dev/null --statistics $po 2>&1 | awk '{printf "%.0f", $1 / ($1 + $4 + $7) * 100}')
+	langs=$(get_all_languages)
+	for lang in $langs; do
+		percdone=$(msgfmt -o /dev/null --statistics po/$lang.po 2>&1 | awk '{printf "%.0f", $1 / ($1 + $4 + $7) * 100}')
 		if [ "$percdone" -ge "$percreq" ]; then
-			basename $po .po
+			echo "$lang"
 		fi
 	done | tee po/LINGUAS
 }
@@ -57,7 +65,7 @@ while getopts ":gl:u" opt; do
 		g)
 			generated="yes";;
 		l)
-			language=$OPTARG;;
+			languages="$OPTARG";;
 		u)
 			shipped_languages
 			exit;;
@@ -69,8 +77,8 @@ if [ "$generated" = "yes" ]; then
 		shipped_languages
 	fi
 	translate $(cat po/LINGUAS)
-elif [ -n "$language" ]; then
-	translate $language
+elif [ -n "$languages" ]; then
+	translate $languages
 else
-	translate $(basename -s .po -a po/*.po)
+	translate $(get_all_languages)
 fi

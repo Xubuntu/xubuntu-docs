@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
+%xubuntu-common;
+<!ENTITY % xubuntu-user SYSTEM "../libs/xubuntu-user.ent">
+%xubuntu-user;
+<!ENTITY % xinclude SYSTEM "../../libs-common/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+<chapter id="command-line">
+	<title>The command line</title>
+
+	<para>While Xubuntu, including the default applications and the applications in the Ubuntu repositories, comes with graphical user interfaces to accomplish most tasks, sometimes you might want or need to use a command line to achieve your goal - or just achieve it faster.</para>
+
+	<para>To start the default terminal emulator and get to the command line, either:</para>
+
+	<itemizedlist>
+		<listitem><para>Navigate to &terminal;</para></listitem>
+		<listitem><para>Press <keycap>&key;Alt+F2</keycap> and run <userinput>xfce4-terminal</userinput></para></listitem>
+	</itemizedlist>
+
+	<para>There is a great <ulink url="&communitywiki-terminal;">tutorial on using the command line</ulink> in the Ubuntu community wiki.</para>
+
+	<section id="command-line-sudo">
+		<title>Running commands with administrative rights</title>
+
+		<para>When working on the command line, any command can be run as an administrator by prefixing the command with <userinput>sudo</userinput>. <application>Sudo</application> will remember your password for 15 minutes to allow you to perform multiple administrative tasks without being prompted for a password each time.</para>
+
+		<note><para>If the program you wish to run as an administrator is graphical, such as the <application>Mousepad</application> text editor, run the command prefixed with <userinput>pkexec</userinput> in the command line. For example, to run <application>Mousepad</application> with administrative rights, run the command <userinput>pkexec mousepad /path/to/file</userinput>.</para></note>
+
+		<note><para>Please note that for an application to run successfully with <application>pkexec</application>, it will need to ship a pkexec policy file. All default applications in Xubuntu that might need to be ran with administrative rights come with pkexec policy files.</para></note>
+
+		<warning><para>Be careful when using <application>sudo</application>; you might damage your system if you type the wrong command! As a general rule, only use sudo when absolutely necessary. When you use <application>sudo</application> from a terminal, be sure to either close it when you have finished, or type <userinput>exit</userinput> to continue using that terminal with normal access powers.</para></warning>
+
+		<para>For more information on <application>sudo</application>, see the <ulink url="&communitywiki-sudo;">sudo page</ulink> on the Ubuntu community wiki.</para>
+	</section>
+
+	<section id="command-line-common-commands">
+		<title>Common commands</title>
+
+		<para>Basic terminal commands are outlined below (square brackets indicate substitutions):</para>
+
+		<segmentedlist>
+			<?dbhtml list-presentation="table"?>
+			<segtitle>Command</segtitle><segtitle>What it does?</segtitle><segtitle>Syntax</segtitle>
+			<seglistitem><seg><userinput>apt-cache</userinput></seg><seg>Shows information about the packages in the repository. Common commands are the search and show commands</seg><seg><userinput>apt-cache search web browser</userinput> or <userinput>apt-cache show firefox</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>apt-get</userinput></seg><seg>Manages packages in apt. Common commands are install to install a package, remove to remove a package, purge to remove a package and the configuration, and autoremove which will also remove unneeded packages</seg><seg><userinput>apt-get [command] [package]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>cat</userinput></seg><seg>Joins (concatenates) two or more files</seg><seg><userinput>cat [file1] [file2] ... > [output file]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>cd</userinput></seg><seg>Changes to another directory</seg><seg><userinput>cd [directory]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>cp</userinput></seg><seg>Copies a file (or files) to a directory or to overwrite another file </seg><seg><userinput>cp [file(s)] [directory]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>date</userinput></seg><seg>Tells you the date and time in many different formats, timezones, and conversions. </seg><seg><userinput>date [options]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>editor</userinput></seg><seg>Opens a text file in an editor</seg><seg><userinput>editor [file]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>grep</userinput></seg><seg>Searches strings or files</seg><seg><userinput>grep [text] [file(s)]</userinput> or <userinput>[command] | grep [text]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>kill</userinput></seg><seg>Terminates programs with a specified PID. If you don't know the PID you can use <userinput>pidof</userinput> </seg><seg><userinput>kill [-SIGNAL] [PID(s)]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>killall</userinput></seg><seg>Much like the one above, except you specify the programs name </seg><seg><userinput>killall [-SIGNAL] [process(es)]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>less</userinput></seg><seg>Shows the contents of a text file</seg><seg><userinput>less [file]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>ls</userinput></seg><seg>Lists files in a directory. Lists files in the current directory if none is specified</seg><seg><userinput>ls [directory]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>man</userinput></seg><seg>Shows help about a command</seg><seg><userinput>man [command]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>mv</userinput></seg><seg>Moves or renames a file</seg><seg><userinput>mv [filename] [newfilename]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>rm</userinput></seg><seg>Removes files or directories. Be very careful with this command! With the -r option, it removes all files and directories recursively!</seg><seg><userinput>rm [file(s)]</userinput> or <userinput>rm -ir [dir(s)]</userinput></seg></seglistitem>
+			<seglistitem><seg><userinput>wget</userinput></seg><seg>Downloads files to current directory.  The -N option can be useful for checking to see if a file on the server is newer than the one you have locally, see <userinput>man wget</userinput> for more information.</seg><seg><userinput>wget [urls]</userinput></seg></seglistitem>
+		</segmentedlist>
+	</section>
+</chapter>
