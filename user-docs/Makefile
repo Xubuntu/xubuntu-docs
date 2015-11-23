@@ -33,8 +33,9 @@ epub: epub-style
 	zip -Xr9Dq xubuntu-documentation.epub *
 
 html-style:
+	$(MAKE) -C ../ common-libs
 	mkdir -p ../build/user/libs
-	cp -r ../libs-common ../build/
+#	cp -r ../libs-common ../build/
 	cp -r libs/images ../build/user/libs/
 	@touch html-style
 
