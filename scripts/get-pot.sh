@@ -19,19 +19,7 @@
 #    at /usr/share/common-licenses/GPL
 ####################################################################################
 
-templates='desktop-guide contributor-docs'
-
-for template in $templates
-do
-	filepath=''
-	filepaths=''
-
-	files=$( cat $template/libs/shipped-docs )
-	for file in $files
-	do
-		filepath="$template/C/$file.xml"
-		filepaths="$filepaths $filepath"
-	done
-
-	xml2po -e -o $template/po/$template.pot $filepaths
+for docs in $@; do
+	echo "Creating template for $docs ..."
+	xml2po -e -o $docs/po/$docs.pot $docs/C/*.xml
 done

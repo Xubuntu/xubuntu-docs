@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
 "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
-<!ENTITY % xubuntu-common SYSTEM "../libs-common/xubuntu-common.ent">
+<!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
 %xubuntu-common;
-<!ENTITY % xubuntu-contributor-docs SYSTEM "../libs/xubuntu-contributor-docs.ent">
-%xubuntu-contributor-docs;
-<!ENTITY % xinclude SYSTEM "../libs-common/xinclude.mod">
+<!ENTITY % xubuntu-contributor SYSTEM "../libs/xubuntu-contributor.ent">
+%xubuntu-contributor;
+<!ENTITY % xinclude SYSTEM "../../libs-common/xinclude.mod">
 %xinclude;
 <!ENTITY language "&EnglishAmerican;">
 <!ENTITY language "C">
@@ -34,19 +34,19 @@
 
 			<itemizedlist>
 				<listitem><para><ulink url="https://translations.launchpad.net/xubuntu-docs">Xubuntu Documentation</ulink></para></listitem>
-				<listitem><para><ulink url="https://translations.launchpad.net/xubuntu-default-settings">Default settings for Xubuntu</ulink></para></listitem>
-				<listitem><para><ulink url="https://translations.launchpad.net/ubuntu/&devel-codename;/+source/ubiquity-slideshow-ubuntu/+pots/ubiquity-slideshow-xubuntu">Ubiquity slideshow for Xubuntu</ulink></para></listitem>
+				<listitem><para><ulink url="https://translations.launchpad.net/xubuntu-default-settings">Xubuntu Default Settings</ulink></para></listitem>
+				<listitem><para><ulink url="https://translations.launchpad.net/ubuntu/&devel-codename;/+source/ubiquity-slideshow-ubuntu/+pots/ubiquity-slideshow-xubuntu">Ubiquity Slideshow for Xubuntu</ulink></para></listitem>
 			</itemizedlist>
 		</section>
 
 		<section id="docs-packages-xubuntu-mainly">
-			<title>Mainly built for/used by Xubuntu</title>
+			<title>Mainly built for and used by Xubuntu</title>
 
 			<para>These packages exist outside Xubuntu, but they are mainly built to fit a need in Xubuntu. Unless/until they are spread much wider than now (and have gathered the interest of other translation groups), the Xubuntu translators should take care of translating these packages.</para>
 
 			<itemizedlist>
 				<listitem><para><ulink url="https://translations.launchpad.net/lightdm-gtk-greeter">LightDM GTK+ Greeter</ulink></para></listitem>
-				<listitem><para><ulink url="https://translations.launchpad.net/light-locker-settings">Light Locker Settings UI</ulink></para></listitem>
+				<listitem><para><ulink url="https://translations.launchpad.net/light-locker-settings">Light Locker Settings</ulink></para></listitem>
 				<listitem><para><ulink url="https://translations.launchpad.net/menulibre">MenuLibre</ulink></para></listitem>
 				<listitem><para><ulink url="https://translations.launchpad.net/mugshot">Mugshot</ulink></para></listitem>
 			</itemizedlist>
@@ -66,9 +66,9 @@
 	</section>
 
 	<section id="docs-translation-guidelines">
-		<title>Translation Guidelines for Xubuntu packages</title>
+		<title>Translation guidelines for Xubuntu packages</title>
 
-		<para>These guidelines apply mostly for the Xubuntu documentation. They can generally be applied to any translation with minor modification. If unsure, ask the Documentation team members for assistance.</para>
+		<para>These guidelines apply mostly to the Xubuntu documentation. They can generally be applied to any translation with minor modification. If unsure, ask the Documentation team members for assistance.</para>
 
 		<para>The <ulink url="https://wiki.ubuntu.com/Translations/Contact/Teams">language-specific translation groups</ulink> usually want to encourage some conventions; please be in touch with the appropriate language-specific group before translating.</para>
 

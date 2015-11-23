@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
 "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
-<!ENTITY % xubuntu-common SYSTEM "../libs-common/xubuntu-common.ent">
+<!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
 %xubuntu-common;
-<!ENTITY % xubuntu-contributor-docs SYSTEM "../libs/xubuntu-contributor-docs.ent">
-%xubuntu-contributor-docs;
-<!ENTITY % xinclude SYSTEM "../libs-common/xinclude.mod">
+<!ENTITY % xubuntu-contributor SYSTEM "../libs/xubuntu-contributor.ent">
+%xubuntu-contributor;
+<!ENTITY % xinclude SYSTEM "../../libs-common/xinclude.mod">
 %xinclude;
 <!ENTITY language "&EnglishAmerican;">
 <!ENTITY language "C">
 ]>
 <appendix id="xsd">
-	<title>The Xubuntu Strategy Document</title>
+	<title>Strategy Document</title>
 
 	<section id="xsd-introduction">
 		<title>Introduction</title>
 
 		<section id="xsd-introduction-about">
-			<title>About this document</title>
+			<title>About this Document</title>
 
 			<para>This document will describe the strategy, vision and direction of the Xubuntu project as well as act as a guide and a reference for the Xubuntu Team.</para>
 
@@ -36,7 +36,7 @@
 	</section>
 
 	<section id="xsd-target">
-		<title>The Target</title>
+		<title>Target</title>
 
 		<para>The target audience for Xubuntu consists of users who are interested in having an elegant, easy to use, polished and unified operating system. Xubuntu is a good option for those who want a stable, configurable and/or relatively light desktop environment too. Finally, Xubuntu is an appealing choice for users who prefer conservative workflows over the newest innovations.</para>
 
@@ -48,7 +48,7 @@
 	</section>
 
 	<section id="xsd-areas-focus">
-		<title>The Areas of Focus</title>
+		<title>Areas of Focus</title>
 
 		<para>This part of the strategy document provides a transparent framework and a set of priorities for the whole Xubuntu development and its tasks, including but not limited to decision making processes, package selection and technical dispute resolution.</para>
 
@@ -75,7 +75,7 @@
 		</section>
 
 		<section id="xsd-areas-focus-ready-to-use">
-			<title>Focus 3: Ready to use</title>
+			<title>Focus 3: Ready to Use</title>
 
 			<para>It is important for us to provide a polished and unified product that is ready for end-users. It is also a prerequisite to enabling Xubuntu as a useful, usable and effective desktop. Without the mentioned integration, the Xubuntu desktop will appear rough and unpolished which is unappealing to end-users.</para>
 
@@ -94,10 +94,10 @@
 	</section>
 
 	<section id="xsd-community">
-		<title>Xubuntu Community</title>
+		<title>Community</title>
 
 		<section id="xsd-community-xpl">
-			<title>Xubuntu Project Lead</title>
+			<title>Project Lead</title>
 
 			<para>The Xubuntu Project Lead (later: XPL) is ultimately responsible for Xubuntu and ensuring that a quality product is able to be released on schedule. The XPL serves a term of four releases at a time, ending with an LTS release to allow long-term planning and major undertakings.</para>
 
@@ -141,7 +141,7 @@
 	</section>
 
 	<section id="xsd-development">
-		<title>Xubuntu Development</title>
+		<title>Development</title>
 
 		<section id="xsd-development-coordination">
 			<title>Coordination</title>
@@ -151,8 +151,8 @@
 			<itemizedlist>
 				<listitem><para>The Strategy Document</para></listitem>
 				<listitem><para>Release-specific blueprints and specifications</para></listitem>
-				<listitem><para>The Xubuntu community meetings</para></listitem>
-				<listitem><para>The Xubuntu developer communication tools listed below</para></listitem>
+				<listitem><para>The community meetings</para></listitem>
+				<listitem><para>The developer communication tools listed below</para></listitem>
 			</itemizedlist>
 		</section>
 
@@ -204,7 +204,7 @@
 	</section>
 
 	<section id="xsd-seeds-composition">
-		<title>Seeds &amp; Composition</title>
+		<title>Seeds and Composition</title>
 
 		<section id="xsd-seeds-composition-core-components">
 			<title>Core Components</title>

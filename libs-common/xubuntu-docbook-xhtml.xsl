@@ -13,19 +13,19 @@
 	<xsl:param name="toc.section.depth" select="1"/>
 	<xsl:param name="chunker.output.indent" select="'yes'"/>
 	<xsl:param name="body.font.master" select="10"/>
-	<xsl:param name="html.stylesheet" select="'../libs-common/css/style.css'"/>
+	<xsl:param name="html.stylesheet" select="'../../libs-common/css/style.css'"/>
 	<xsl:param name="shade.verbatim" select="0"/>
 	<xsl:param name="draft.mode" select="'no'"/>
 
 	<!-- Write HTML header -->
 	<xsl:template name="user.head.content">
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="../libs-common/images/favicon.png" />
+		<link rel="shortcut icon" href="../../libs-common/images/favicon.png" />
 		<!-- Viewport meta -->
 		<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
 		<!-- Responsive design -->
-		<link rel="stylesheet" href="../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
-		<link rel="stylesheet" href="../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+		<link rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+		<link rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
 	</xsl:template>
 
 	<!-- Print header with logo -->
@@ -34,21 +34,21 @@
 		<xsl:variable name="up" select="parent::*"/>
 			<div id="masthead">
 				<a href="index.html">
-					<img src="../libs-common/images/logo.png" alt="Xubuntu" />
+					<img src="../../libs-common/images/logo.png" alt="Xubuntu" />
 				</a>
 			</div>
 	</xsl:template>
 
 	<!-- Navigation Graphics -->
 	<xsl:param name="navig.graphics" select="1"/>
-	<xsl:param name="navig.graphics.path" select="'../libs-common/images/'"/>
+	<xsl:param name="navig.graphics.path" select="'../../libs-common/images/'"/>
 	<xsl:param name="navig.graphics.extension" select="'.png'"/> 
 	<xsl:param name="navig.showtitles" select="1"/>
 
 	<!-- Admon Graphics --> 
 	<xsl:param name="admon.graphics" select="1"/>
 	<xsl:param name="admon.textlabel" select="0"/>
-	<xsl:param name="admon.graphics.path" select="'../libs-common/images/'"/>
+	<xsl:param name="admon.graphics.path" select="'../../libs-common/images/'"/>
 	<xsl:param name="admon.graphics.extension" select="'.png'"/>
 	
 	<!-- Show all subpages directly below the mainpage -->

@@ -1,12 +1,12 @@
 # Makefile for the Xubuntu Documentation
 # Xubuntu Project <xubuntu-devel@lists.ubuntu.com>
 
-ifneq ($(TRANSLATCONTR),)
-    TRANSLATIONS = $(TRANSLATCONTR)
+ifneq ($(TRANSLATUSER),)
+    TRANSLATIONS = $(TRANSLATUSER)
 endif
 
-ifneq ($(TRANSOPTSCONTR),)
-    TRANSOPTS = $(TRANSOPTSCONTR)
+ifneq ($(TRANSOPTSUSER),)
+    TRANSOPTS = $(TRANSOPTSUSER)
 endif
 
 # Xubuntu Docbook Customization Layers
@@ -16,37 +16,33 @@ XUBUNTUXSL_PDF = ../libs-common/xubuntu-docbook-pdf.xsl
 # All available translations
 TRANSALL = $(shell basename -s .po -a po/*.po)
 
-ifeq ($(TRANSALL),*)
-    TRANSALL =
-endif
-
 all: clean html html-translations pdf pdf-translations
 
 html: html-style
-	xsltproc --xinclude -o ../build/contributor/C/index.html $(XUBUNTUXSL_HTML) C/index.xml
+	xsltproc --xinclude -o ../build/user/C/index.html $(XUBUNTUXSL_HTML) C/index.xml
 
 pdf:
 	xsltproc --stringparam paper.type A4 --xinclude -o fo/C-A4.fo $(XUBUNTUXSL_PDF) C/index.xml
 	../scripts/pdf-create.sh C
 
 epub: epub-style
-	xsltproc --xinclude -o ../build/contributor/C/ /usr/share/xml/docbook/stylesheet/nwalsh/epub3/chunk.xsl C/index.xml
-	sed -i 's@../../libs-common@../libs@g' ../build/contributor/C/OEBPS/*
-	cd ../build/contributor/C; \
+	xsltproc --xinclude -o ../build/user/C/ /usr/share/xml/docbook/stylesheet/nwalsh/epub3/chunk.xsl C/index.xml
+	sed -i 's@../../libs-common@../libs@g' ../build/user/C/OEBPS/*
+	cd ../build/user/C; \
 	zip -0Xq xubuntu-documentation.epub mimetype; \
 	zip -Xr9Dq xubuntu-documentation.epub *
 
 html-style:
-	mkdir -p ../build/contributor/libs
+	mkdir -p ../build/user/libs
 	cp -r ../libs-common ../build/
-	-cp -r libs/images ../build/contributor/libs/
+	cp -r libs/images ../build/user/libs/
 	@touch html-style
 
 epub-style:
-	mkdir -p ../build/contributor/C/libs/images
-	-cp ../libs-common/images/*.png \
+	mkdir -p ../build/user/C/libs/images
+	cp ../libs-common/images/*.png \
 		libs/images/*.png \
-		../build/contributor/C/libs/images/
+		../build/user/C/libs/images/
 	@touch epub-style
 
 translate: | get-translations
@@ -56,7 +52,7 @@ translate: | get-translations
 
 html-translations: html-style translate
 	for dir in $(TRANSLATIONS); do \
-		xsltproc --xinclude -o ../build/contributor/$$dir/index.html $(XUBUNTUXSL_HTML) $$dir/index.xml; \
+		xsltproc --xinclude -o ../build/user/$$dir/index.html $(XUBUNTUXSL_HTML) $$dir/index.xml; \
 	done
 
 pdf-translations: translate
@@ -95,4 +91,4 @@ get-translations: update-translations
     endif
 
 clean:
-	rm -rf ../build/libs-common ../build/contributor $(TRANSALL) fo html-style epub-style update-translations translate
+	rm -rf ../build/libs-common ../build/user $(TRANSALL) fo html-style epub-style update-translations translate

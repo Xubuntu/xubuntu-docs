@@ -8,78 +8,143 @@ ifneq ($(REVNO),)
 endif
 
 # All available translations
-TRANSALL = $(shell basename -s .po -a desktop-guide/po/*.po)
+TRANSALLUSER = $(shell basename -s .po -a user-docs/po/*.po)
+TRANSALLCONTR = $(shell basename -s .po -a contributor-docs/po/*.po)
 
-all: clean startpage html html-translations pdf pdf-translations
+ifeq ($(TRANSALLCONTR),*)
+    TRANSALLCONTR =
+endif
 
-startpage: get-translations
+# Translation links
+TRSLINKSUSER = $(shell for lang in $(TRANSLATUSER); do \
+        awk -v lang="$$lang" '$$1 == lang {print "\t\t\t\t\t\t<li><a href=\\\"user/" lang "/index.html\\\">" $$2 "</a></li>\\n"; f=1; exit} END {exit !f}' libs-common/language-names || \
+        awk -v lang="$$lang" '$$1 == "\"Language-Team:" {print "\t\t\t\t\t\t<li><a href=\\\"user/" lang "/index.html\\\">" $$2 "</a></li>\\n"; exit}' user-docs/po/$$lang.po; \
+    done | sed '$$ s/\\n$$//')
+
+TRSLINKSCONTR = $(shell for lang in $(TRANSLATCONTR); do \
+        awk -v lang="$$lang" '$$1 == lang {print "\t\t\t\t\t\t<li><a href=\\\"contributor/" lang "/index.html\\\">" $$2 "</a></li>\\n"; f=1; exit} END {exit !f}' libs-common/language-names || \
+        awk -v lang="$$lang" '$$1 == "\"Language-Team:" {print "\t\t\t\t\t\t<li><a href=\\\"contributor/" lang "/index.html\\\">" $$2 "</a></li>\\n"; exit}' contributor-docs/po/$$lang.po; \
+    done | sed '$$ s/\\n$$//')
+
+all: clean startpage user-all contributor-all
+
+user-all: user-html user-html-translations user-pdf user-pdf-translations
+
+contributor-all: contributor-html contributor-html-translations contributor-pdf contributor-pdf-translations
+
+startpage: startpage-style user-get-translations contributor-get-translations
+	sed "s@<a href=\"[^\"]\+\">Official Documentation</a>@&$(VERSION)@; \
+	    s@^\(.*\)<!-- user docs translations -->.*@$(TRSLINKSUSER)@" startpage/index.html > build/index.html
+	sed -i "s@<a href=\"[^\"]\+\">Contributor Documentation</a>@&$(VERSION)@; \
+	    s@^\(.*\)<!-- contributor docs translations -->.*@$(if $(TRSLINKSCONTR),$(TRSLINKSCONTR),\1)@" build/index.html
+
+startpage-style:
 	mkdir -p build
 	cp      startpage/*.css \
 		startpage/*.png \
 		build/
-	sed "s@\(<a href=\"\).*\([^/]\+/index\.html\">Official Documentation</a>\)@\1\2$(VERSION)@" startpage/xubuntu-index-start.htx > build/index.html
-	for lang in $(TRANSLATIONS); do \
-	    	awk -v lang="$$lang" '$$1 == lang {print "\t\t\t<li><a href=\"" lang "/index.html\">" $$2 "</a></li>"; f=1; exit} END {exit !f}' desktop-guide/po/LINGUANAMES || \
-		awk -v lang="$$lang" '$$1 == "\"Language-Team:" {print "\t\t\t<li><a href=\"" lang "/index.html\">" $$2 "</a></li>"; exit}' desktop-guide/po/$$lang.po; \
-	done >> build/index.html
-	cat startpage/xubuntu-index-end.htx >> build/index.html
+	@touch startpage-style
 
-update-translations:
+user-docs/update-translations:
     ifeq ($(TRANSLATIONS),)
-        ifneq ($(wildcard desktop-guide/po/LINGUAS),)
-		cd desktop-guide; \
+        ifneq ($(wildcard user-docs/po/LINGUAS),)
+		cd user-docs; \
 		../scripts/translate.sh -u
+		@touch user-docs/update-translations
         endif
     endif
 
-get-translations: update-translations
+user-update-translations: user-docs/update-translations
+
+user-get-translations: user-docs/update-translations
     ifeq ($(TRANSLATIONS),)
-        ifneq ($(wildcard desktop-guide/po/LINGUAS),)
-            export TRANSLATIONS = $(shell cat desktop-guide/po/LINGUAS)
-            export TRANSOPTS = -g
+        ifneq ($(wildcard user-docs/po/LINGUAS),)
+            export TRANSLATUSER = $(shell cat user-docs/po/LINGUAS)
+            export TRANSOPTSUSER = -g
         else
-            export TRANSLATIONS := $(TRANSALL)
-            export TRANSOPTS := -l "$(TRANSLATIONS)"
+            export TRANSLATUSER := $(TRANSALLUSER)
+            export TRANSOPTSUSER := -l "$(TRANSLATUSER)"
         endif
     else
-        export TRANSLATIONS
-        export TRANSOPTS := -l "$(TRANSLATIONS)"
+        export TRANSLATUSER := $(TRANSLATIONS)
+        export TRANSOPTSUSER := -l "$(TRANSLATIONS)"
     endif
 
-contributors-html:
+contributor-docs/update-translations:
+    ifeq ($(TRANSLATIONS),)
+        ifneq ($(wildcard contributor-docs/po/LINGUAS),)
+		cd contributor-docs; \
+		../scripts/translate.sh -u
+		@touch contributor-docs/update-translations
+        endif
+    endif
+
+contributor-update-translations: contributor-docs/update-translations
+
+contributor-get-translations: contributor-docs/update-translations
+    ifeq ($(TRANSLATIONS),)
+        ifneq ($(wildcard contributor-docs/po/LINGUAS),)
+            export TRANSLATCONTR = $(shell cat contributor-docs/po/LINGUAS)
+            export TRANSOPTSCONTR = -g
+        else
+            export TRANSLATCONTR := $(TRANSALLCONTR)
+            export TRANSOPTSCONTR := -l "$(TRANSLATCONTR)"
+        endif
+    else
+        export TRANSLATCONTR := $(TRANSLATIONS)
+        export TRANSOPTSCONTR := -l "$(TRANSLATIONS)"
+    endif
+
+user-html:
+	$(MAKE) -C user-docs html
+
+user-epub:
+	$(MAKE) -C user-docs epub
+
+user-pdf:
+	$(MAKE) -C user-docs pdf
+
+user-translate:
+	$(MAKE) -C user-docs translate
+
+user-html-translations:
+	$(MAKE) -C user-docs html-translations
+
+user-pdf-translations:
+	$(MAKE) -C user-docs pdf-translations
+
+contributor-html:
 	$(MAKE) -C contributor-docs html
 
-html:
-	$(MAKE) -C desktop-guide html
+contributor-epub:
+	$(MAKE) -C contributor-docs epub
 
-epub:
-	$(MAKE) -C desktop-guide epub
+contributor-pdf:
+	$(MAKE) -C contributor-docs pdf
 
-pdf:
-	$(MAKE) -C desktop-guide pdf
+contributor-translate:
+	$(MAKE) -C contributor-docs translate
 
-translate:
-	$(MAKE) -C desktop-guide translate
+contributor-html-translations:
+	$(MAKE) -C contributor-docs html-translations
 
-html-translations:
-	$(MAKE) -C desktop-guide html-translations
-
-pdf-translations:
-	$(MAKE) -C desktop-guide pdf-translations
+contributor-pdf-translations:
+	$(MAKE) -C contributor-docs pdf-translations
 
 test:
-	$(MAKE) -C desktop-guide test
+	$(MAKE) -C user-docs test
+	$(MAKE) -C contributor-docs test
 
 src-tarball:
-	# exclude archive, VCS and backups
+	# exclude archive, VCS, and backups
 	tar -czf xubuntu-docs.tar.gz --exclude='xubuntu-docs.tar.gz' --exclude-vcs --exclude-backups .
 
 pot:
-	scripts/get-pot.sh
+	scripts/get-pot.sh user-docs contributor-docs
 
 clean:
-	$(MAKE) -C desktop-guide clean
+	$(MAKE) -C user-docs clean
 	$(MAKE) -C contributor-docs clean
-	rm -rf build xubuntu-docs.tar.gz
+	rm -rf build startpage-style xubuntu-docs.tar.gz
 
 .PHONY: startpage

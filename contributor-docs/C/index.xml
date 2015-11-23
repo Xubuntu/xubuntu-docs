@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
 	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
-<!ENTITY % xubuntu-common SYSTEM "../libs-common/xubuntu-common.ent">
+<!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
 %xubuntu-common;
-<!ENTITY % xubuntu-contributor-docs SYSTEM "../libs/xubuntu-contributor-docs.ent">
-%xubuntu-contributor-docs;
-<!ENTITY % xinclude SYSTEM "../libs-common/xinclude.mod">
+<!ENTITY % xubuntu-contributor SYSTEM "../libs/xubuntu-contributor.ent">
+%xubuntu-contributor;
+<!ENTITY % xinclude SYSTEM "../../libs-common/xinclude.mod">
 %xinclude;
 <!ENTITY language "&EnglishAmerican;">
 <!ENTITY language "C">
@@ -22,8 +22,16 @@
 			<para>The contributors to this documentation are:</para>
 			<itemizedlist>
 				<listitem><para>Kev Bowring (flocculant)</para></listitem>
+				<listitem><para>Krytarik Raido (krytarik)</para></listitem>
 				<listitem><para>Pasi Lallinaho (knome)</para></listitem>
 			</itemizedlist>
+
+			<xi:include href="translator-credits.xml" xmlns:xi="http://www.w3.org/2001/XInclude">
+				<xi:fallback></xi:fallback>
+			</xi:include>
+			<xi:include href="translators.xml" xmlns:xi="http://www.w3.org/2001/XInclude">
+				<xi:fallback></xi:fallback>
+			</xi:include>
 
 			<para>This document is made available under the Creative Commons ShareAlike 2.5 License (CC-BY-SA).</para>
 			<para>You are free to modify, extend, and improve the Ubuntu documentation source code under the
@@ -51,12 +59,16 @@
 
 			<para>There are two main appendice for this documentation:</para>
 
-			<itemizedlist>
+			<para><itemizedlist>
 				<listitem><para><xref linkend="xsd" />, which is the primary guideline in Xubuntu development.</para></listitem>
-				<listitem><para><xref linkend="howto" />, which describes many technical tasks that the Xubuntu developers need to use continuously.</para></listitem>
-			</itemizedlist>
+				<listitem><para><xref linkend="common-reference" />, which describes many technical tasks that the Xubuntu developers need to use continuously.</para></listitem>
+			</itemizedlist></para>
 
-			<note><para>This documentation is written with the assumption that the user knows the basics of working with Xubuntu. For example, it's expected that the reader knows how to work with a terminal and understand when they need to use one, without an explicit mention.</para></note>
+			<para><note><para>This documentation is written with the assumption that the user knows the basics of working with Xubuntu. For example, it's expected that the reader knows how to work with a terminal and understand when they need to use one, without an explicit mention.</para></note></para>
+
+			<xi:include href="xi-pdf-files.xml" xmlns:xi="http://www.w3.org/2001/XInclude">
+				<xi:fallback></xi:fallback>
+			</xi:include>
 		</abstract>
 	</bookinfo>
 
@@ -64,7 +76,7 @@
 	<xi:include href="getting-started.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<!-- Team specific documentation, teams in alphabetical order -->
 	<part id="part-subteams">
-		<title>Subteam documentation</title>
+		<title>Subteam Documentation</title>
 		<xi:include href="development.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 		<xi:include href="documentation.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 		<xi:include href="qa-team.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
@@ -77,6 +89,6 @@
 	<xi:include href="processes-release-cycle.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<!-- Appendice -->
 	<xi:include href="strategy-document.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>	
-	<xi:include href="howto.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="cc-by-sa.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="common-reference.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="../../libs-common/cc-by-sa.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </book>
