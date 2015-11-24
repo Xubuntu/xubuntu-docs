@@ -26,24 +26,29 @@ TRSLINKSCONTR = $(shell for lang in $(TRANSLATCONTR); do \
         awk -v lang="$$lang" '$$1 == "\"Language-Team:" {print "\t\t\t\t\t\t<li><a href=\\\"contributor/" lang "/index.html\\\">" $$2 "</a></li>\\n"; exit}' contributor-docs/po/$$lang.po; \
     done | sed '$$ s/\\n$$//')
 
-all: clean common-libs startpage user-all contributor-all
+all: clean startpage user-all contributor-all
 
-user-all: common-libs user-html user-html-translations user-pdf user-pdf-translations
+user-all: user-html user-html-translations user-pdf user-pdf-translations
 
-contributor-all: common-libs contributor-html contributor-html-translations contributor-pdf contributor-pdf-translations
+contributor-all: contributor-html contributor-html-translations contributor-pdf contributor-pdf-translations
 
-common-libs:
-	mkdir -p build/
-	cp -r libs-common/ build/
-	-cp startpage/*.css build/
-	@touch common-libs
-
-startpage: common-libs user-get-translations contributor-get-translations
+startpage: startpage-style user-get-translations contributor-get-translations
 	sed "s@<a href=\"[^\"]\+\">Official Documentation</a>@&$(VERSION)@; \
 	    s@^\(.*\)<!-- user docs translations -->.*@$(TRSLINKSUSER)@" startpage/index.html > build/index.html
 	sed -i "s@<a href=\"[^\"]\+\">Contributor Documentation</a>@&$(VERSION)@; \
 	    s@^\(.*\)<!-- contributor docs translations -->.*@$(if $(TRSLINKSCONTR),$(TRSLINKSCONTR),\1)@" build/index.html
-	
+
+startpage-style: common-libs
+	cp startpage/*.css build/
+	@touch startpage-style
+
+common-libs:
+	mkdir -p build/libs-common 
+	cp -r libs-common/css \
+		libs-common/images \
+		build/libs-common/
+	@touch common-libs
+
 user-docs/update-translations:
     ifeq ($(TRANSLATIONS),)
         ifneq ($(wildcard user-docs/po/LINGUAS),)

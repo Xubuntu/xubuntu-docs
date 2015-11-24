@@ -32,10 +32,8 @@ epub: epub-style
 	zip -0Xq xubuntu-documentation.epub mimetype; \
 	zip -Xr9Dq xubuntu-documentation.epub *
 
-html-style:
-	$(MAKE) -C ../ common-libs
+html-style: ../common-libs
 	mkdir -p ../build/user/libs
-#	cp -r ../libs-common ../build/
 	cp -r libs/images ../build/user/libs/
 	@touch html-style
 
@@ -45,6 +43,11 @@ epub-style:
 		libs/images/*.png \
 		../build/user/C/libs/images/
 	@touch epub-style
+
+../common-libs:
+	$(MAKE) -C .. common-libs
+
+common-libs: ../common-libs
 
 translate: | get-translations
 	../scripts/translate.sh $(TRANSOPTS)
@@ -92,4 +95,4 @@ get-translations: update-translations
     endif
 
 clean:
-	rm -rf ../build/libs-common ../build/user $(TRANSALL) fo html-style epub-style update-translations translate
+	rm -rf ../build/libs-common ../build/user $(TRANSALL) fo ../common-libs html-style epub-style update-translations translate
