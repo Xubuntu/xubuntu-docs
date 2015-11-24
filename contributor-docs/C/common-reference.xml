@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
 "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
 <!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
 %xubuntu-common;
@@ -141,6 +141,20 @@
 			<title>Setting up a Launchpad account</title>
 
 			<para>For information on setting up a Launchpad account, see <ulink url="https://help.launchpad.net/YourAccount/NewAccount">Creating a new account</ulink>.</para>
+		</section>
+
+		<section id="qa-team-links">
+			<title>Useful QA Links</title>
+
+			<itemizedlist>
+				<listitem><para><ulink url="https://trello.com/b/IV66JCHl/xubuntu-qa">Xubuntu QA Trello</ulink></para></listitem>
+				<listitem><para><ulink url="https://launchpad.net/~xubuntu-qa">Xubuntu QA</ulink></para></listitem>
+				<listitem><para><ulink url="https://launchpad.net/~xubuntu-testers">Xubuntu Testers</ulink></para></listitem>
+				<listitem><para><ulink url="http://iso.qa.ubuntu.com/qatracker">ISO Tracker</ulink></para></listitem>
+				<listitem><para><ulink url="http://packages.qa.ubuntu.com/">Package Tracker</ulink></para></listitem>
+				<listitem><para><ulink url="https://wiki.ubuntu.com/QATeam">Ubuntu QA Team Wiki</ulink></para></listitem>
+				<listitem><para><ulink url="https://launchpad.net/ubuntu-manual-tests/">Ubuntu Manual Tests</ulink></para></listitem>
+			</itemizedlist>
 		</section>
 	</section>
 </appendix>
