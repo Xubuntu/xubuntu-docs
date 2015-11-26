@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-11-22 15:40+0100\n"
-"PO-Revision-Date: 2015-11-24 13:03+0000\n"
+"PO-Revision-Date: 2015-11-25 12:09+0000\n"
 "Last-Translator: Aleksey Kabanov <Unknown>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-25 05:39+0000\n"
+"X-Launchpad-Export-Date: 2015-11-26 05:40+0000\n"
 "X-Generator: Launchpad (build 17850)\n"
 
 #: contributor-docs/C/xi-translators-not-found.xml:1(para)
@@ -144,6 +144,9 @@ msgid ""
 "and Lionel Le Folgoc for their contributions to this document. Some content, "
 "ideas, and inspiration were derived from existing Ubuntu documentation."
 msgstr ""
+"Мы хотели бы поблагодарить Cody Somerville, Jono Bacon, Eero Tamminen, Nico "
+"Veenkamp и Lionel Le Folgoc за их вклад в этот документ. Некоторое "
+"содержимое и идеи позаимствованы из существующей документации Ubuntu."
 
 #: contributor-docs/C/strategy-document.xml:30(title)
 msgid "Mission Statement"
@@ -244,6 +247,11 @@ msgid ""
 "meaningful way; other applications should live up to this expectation at "
 "least moderately well."
 msgstr ""
+"Xubuntu должна быть локализована, чтобы пользователи могли работать на "
+"предпочитаемом ими языке. Ещё одним важным аспектом удобства использования "
+"являются возможности настройки. Мы считаем, что Xfce предоставляет "
+"пользователям значительные возможности настройки системы; другие приложения "
+"также должны хотя бы в некоторой степени соответствовать этим ожиданиям."
 
 #: contributor-docs/C/strategy-document.xml:64(para)
 msgid ""
@@ -278,6 +286,8 @@ msgid ""
 "At the start of the release cycle, the minimum system requirements should be "
 "re-evaluated to determine if they continue to be realistic."
 msgstr ""
+"В начале цикла выпуска необходимо переоценить минимальные системные "
+"требования, чтобы определить, продолжают ли они оставаться реалистичными."
 
 #: contributor-docs/C/strategy-document.xml:78(title)
 msgid "Focus 3: Ready to Use"
@@ -317,6 +327,12 @@ msgid ""
 "between the contributors as well as users is described more closely in <xref "
 "linkend=\"xsd-community\"/> and <xref linkend=\"xsd-development\"/>."
 msgstr ""
+"Сообщество Xubuntu — это важная действующая сила в создании Xubuntu и "
+"доведении её до совершенства. Крайне важна хорошая и регулярная координация "
+"действий между участвующими в разработке. Инфраструктура, позволяющая "
+"обеспечить хорошую связь между разработчиками и пользователями описана более "
+"подробно в  разделах <xref linkend=\"xsd-community\"/> и <xref linkend=\"xsd-"
+"development\"/>."
 
 #: contributor-docs/C/strategy-document.xml:92(para)
 msgid ""
@@ -326,10 +342,15 @@ msgid ""
 "the Xubuntu team should try to allocate some resources to the cooperation at "
 "a later time."
 msgstr ""
+"Там, где это возможно и удобно, команда Xubuntu должна работать совместно с "
+"другими сообществами, включая другие команды Ubuntu и команды в апстриме. "
+"Если кооперация в данный момент времени невозможна, но была бы выгодна обеим "
+"сторонам, команда Xubuntu должна стараться выделить некоторые ресурсы для "
+"совместной работы в будущем."
 
 #: contributor-docs/C/strategy-document.xml:97(title)
 msgid "Community"
-msgstr ""
+msgstr "Сообщество"
 
 #: contributor-docs/C/strategy-document.xml:100(title)
 msgid "Project Lead"
@@ -569,7 +590,7 @@ msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:189(title)
 msgid "Release and Support Cycles"
-msgstr ""
+msgstr "Циклы выпуска и поддержки"
 
 #: contributor-docs/C/strategy-document.xml:191(para)
 msgid ""
@@ -602,7 +623,7 @@ msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:210(title)
 msgid "Core Components"
-msgstr ""
+msgstr "Базовые компоненты"
 
 #: contributor-docs/C/strategy-document.xml:212(para)
 msgid ""
@@ -613,31 +634,31 @@ msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:215(para)
 msgid "xfwm4 (Xfce4 window manager)"
-msgstr ""
+msgstr "xfwm4 (оконный менеджер Xfce4)"
 
 #: contributor-docs/C/strategy-document.xml:216(para)
 msgid "xfdesktop4 (Xfce4 desktop)"
-msgstr ""
+msgstr "xfdesktop4 (среда рабочего стола Xfce4)"
 
 #: contributor-docs/C/strategy-document.xml:217(para)
 msgid "xfce4-panel (Xfce4 panel)"
-msgstr ""
+msgstr "xfce4-panel (панель Xfce4)"
 
 #: contributor-docs/C/strategy-document.xml:218(para)
 msgid "xfce4-session (Xfce4 session manager)"
-msgstr ""
+msgstr "xfce4-session (диспетчер сеансов Xfce4)"
 
 #: contributor-docs/C/strategy-document.xml:219(para)
 msgid "xfconf (Xfce4 configuration storage system)"
-msgstr ""
+msgstr "xfconf (система хранения настроек Xfce4)"
 
 #: contributor-docs/C/strategy-document.xml:220(para)
 msgid "xfce4-settings (Xfce4 settings manager)"
-msgstr ""
+msgstr "xfce4-settings (менеджер настроек Xfce4)"
 
 #: contributor-docs/C/strategy-document.xml:221(para)
 msgid "thunar (file manager)"
-msgstr ""
+msgstr "thunar (файловый менеджер)"
 
 #: contributor-docs/C/strategy-document.xml:224(para)
 msgid ""
@@ -653,10 +674,15 @@ msgid ""
 "desktop</literal> metapackage depends on the core metapackage and includes "
 "additional packages to provide the full, ready to use, Xubuntu experience."
 msgstr ""
+"Метапакет <literal><placeholder-1/>xubuntu-core</literal> состоит из базовых "
+"пакетов, а также других пакетов, важных для работы Xubuntu. Метапакет "
+"<literal><placeholder-2/>xubuntu-desktop</literal> зависит от этого базового "
+"метапакета и включает в себя дополнительные пакеты, необходимые для "
+"получения полноценной, готовой к использованию системы Xubuntu."
 
 #: contributor-docs/C/strategy-document.xml:230(title)
 msgid "Package Selection"
-msgstr ""
+msgstr "Выбор пакетов"
 
 #: contributor-docs/C/strategy-document.xml:232(para)
 msgid ""
@@ -694,19 +720,19 @@ msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:245(para)
 msgid "Usefulness"
-msgstr ""
+msgstr "Полезность"
 
 #: contributor-docs/C/strategy-document.xml:246(para)
 msgid "Resource consumption and size"
-msgstr ""
+msgstr "Потребление ресурсов и размер"
 
 #: contributor-docs/C/strategy-document.xml:247(para)
 msgid "Reliability"
-msgstr ""
+msgstr "Надёжность"
 
 #: contributor-docs/C/strategy-document.xml:248(para)
 msgid "Localization"
-msgstr ""
+msgstr "Локализация"
 
 #: contributor-docs/C/strategy-document.xml:251(para)
 msgid ""
@@ -782,6 +808,8 @@ msgstr ""
 #: contributor-docs/C/qa-testing.xml:32(para)
 msgid "We have 3 PPAs which we use regularly to test packages. These are:"
 msgstr ""
+"У нас есть 3 PPA, которые мы регулярно используем для тестирования пакетов. "
+"Это:"
 
 #: contributor-docs/C/qa-testing.xml:35(para)
 msgid "Shimmer Themes for daily builds of the Shimmer Project’s projects"
@@ -792,6 +820,8 @@ msgid ""
 "Xubuntu Staging for packages and package versions that are being prepared "
 "for inclusion in Xubuntu"
 msgstr ""
+"Xubuntu Staging для пакетов и версий пакетов, подготавливаемых ко включению "
+"в Xubuntu"
 
 #: contributor-docs/C/qa-testing.xml:37(para)
 msgid ""
@@ -815,11 +845,11 @@ msgstr ""
 
 #: contributor-docs/C/qa-testing.xml:45(para)
 msgid "Run <userinput>sudo apt-get install ppa-purge</userinput>"
-msgstr ""
+msgstr "Выполните <userinput>sudo apt-get install ppa-purge</userinput>"
 
 #: contributor-docs/C/qa-testing.xml:46(para)
 msgid "Run <userinput>sudo ppa-purge ppa:ppaname</userinput>"
-msgstr ""
+msgstr "Выполните <userinput>sudo ppa-purge ppa:ppaname</userinput>"
 
 #: contributor-docs/C/qa-testing.xml:49(para)
 msgid ""
@@ -887,7 +917,7 @@ msgstr ""
 
 #: contributor-docs/C/qa-testing.xml:86(title)
 msgid "Package Testing"
-msgstr ""
+msgstr "Тестирование пакетов"
 
 #: contributor-docs/C/qa-testing.xml:88(para)
 msgid ""
@@ -913,7 +943,7 @@ msgstr ""
 
 #: contributor-docs/C/qa-team.xml:18(title)
 msgid "Useful Links"
-msgstr ""
+msgstr "Полезные ссылки"
 
 #: contributor-docs/C/qa-team.xml:21(ulink)
 msgid "Xubuntu QA Trello"
@@ -2056,6 +2086,10 @@ msgid ""
 "knows how to work with a terminal and understand when they need to use one, "
 "without an explicit mention."
 msgstr ""
+"Данная документация создавалась, исходя из предположения, что пользователь "
+"знаком с основами работы в  Xubuntu. Например, ожидается, что пользователь "
+"умеет работать в терминале и понимает, когда его нужно использовать, без "
+"явного упоминания об этом."
 
 #: contributor-docs/C/index.xml:79(title)
 msgid "Subteam Documentation"
@@ -2071,7 +2105,7 @@ msgstr ""
 
 #: contributor-docs/C/getting-started.xml:20(title)
 msgid "#xubuntu-devel"
-msgstr ""
+msgstr "#xubuntu-devel"
 
 #: contributor-docs/C/getting-started.xml:22(para)
 msgid ""
@@ -2093,36 +2127,41 @@ msgstr ""
 
 #: contributor-docs/C/documentation.xml:14(title)
 msgid "Documentation"
-msgstr ""
+msgstr "Документация"
 
 #: contributor-docs/C/documentation.xml:17(title)
 msgid "Building the documentation locally"
-msgstr ""
+msgstr "Локальная сборка документации"
 
 #: contributor-docs/C/documentation.xml:20(para)
 msgid ""
 "Get the Bzr branch <literal><placeholder-1/>lp:xubuntu-docs</literal>."
 msgstr ""
+"Получите ветку Bzr <literal><placeholder-1/>lp:xubuntu-docs</literal>."
 
 #: contributor-docs/C/documentation.xml:21(para)
 msgid ""
 "Get the build dependencies for <literal><placeholder-1/>xubuntu-"
 "docs</literal>."
 msgstr ""
+"Получите сборочные зависимости для <literal><placeholder-1/>xubuntu-"
+"docs</literal>."
 
 #: contributor-docs/C/documentation.xml:26(title)
 msgid "Packages to be translated"
-msgstr ""
+msgstr "Пакеты для перевода"
 
 #: contributor-docs/C/documentation.xml:28(para)
 msgid ""
 "These are the packages that the Xubuntu team considers important and should "
 "take a precedence when translating."
 msgstr ""
+"Это пакеты, которые команда Xubuntu считает важными, и они должны иметь "
+"приоритет при переводе."
 
 #: contributor-docs/C/documentation.xml:31(title)
 msgid "The packages that only exist in Xubuntu"
-msgstr ""
+msgstr "Пакеты, существующие только в Xubuntu"
 
 #: contributor-docs/C/documentation.xml:33(para)
 msgid ""
@@ -2130,22 +2169,24 @@ msgid ""
 "Xubuntu translators solely. These are of high importance for the Xubuntu "
 "team."
 msgstr ""
+"Эти пакеты существуют только в Xubuntu, так что их перевод ложится полностью "
+"на переводчиков Xubuntu. Они имеют высокую значимость для команды Xubuntu."
 
 #: contributor-docs/C/documentation.xml:36(ulink)
 msgid "Xubuntu Documentation"
-msgstr ""
+msgstr "Документация Xubuntu"
 
 #: contributor-docs/C/documentation.xml:37(ulink)
 msgid "Xubuntu Default Settings"
-msgstr ""
+msgstr "Настройки Xubuntu по умолчанию"
 
 #: contributor-docs/C/documentation.xml:38(ulink)
 msgid "Ubiquity Slideshow for Xubuntu"
-msgstr ""
+msgstr "Слайд-шоу Ubiquity для Xubuntu"
 
 #: contributor-docs/C/documentation.xml:43(title)
 msgid "Mainly built for and used by Xubuntu"
-msgstr ""
+msgstr "Собираемые и используемые в основном Xubuntu"
 
 #: contributor-docs/C/documentation.xml:45(para)
 msgid ""
@@ -2154,6 +2195,10 @@ msgid ""
 "gathered the interest of other translation groups), the Xubuntu translators "
 "should take care of translating these packages."
 msgstr ""
+"Эти пакеты существуют за пределами Xubuntu, но в основном собираются для "
+"нужд Xubuntu. Если только они не получат более широкое распространение, чем "
+"сейчас (и привлекут интерес других групп перевода), о переводе этих пакетов "
+"следует позаботиться переводчикам Xubuntu."
 
 #: contributor-docs/C/documentation.xml:48(ulink)
 msgid "LightDM GTK+ Greeter"
@@ -2165,15 +2210,15 @@ msgstr ""
 
 #: contributor-docs/C/documentation.xml:50(ulink)
 msgid "MenuLibre"
-msgstr ""
+msgstr "MenuLibre"
 
 #: contributor-docs/C/documentation.xml:51(ulink)
 msgid "Mugshot"
-msgstr ""
+msgstr "Mugshot"
 
 #: contributor-docs/C/documentation.xml:56(title)
 msgid "Used by and essential for Xubuntu"
-msgstr ""
+msgstr "Используются в Xubuntu и важны для неё"
 
 #: contributor-docs/C/documentation.xml:58(para)
 msgid ""
@@ -2184,7 +2229,7 @@ msgstr ""
 
 #: contributor-docs/C/documentation.xml:61(ulink)
 msgid "Catfish"
-msgstr ""
+msgstr "Catfish"
 
 #: contributor-docs/C/documentation.xml:62(ulink)
 msgid "LightDM GTK+ Greeter Settings"
@@ -2196,7 +2241,7 @@ msgstr ""
 
 #: contributor-docs/C/documentation.xml:69(title)
 msgid "Translation guidelines for Xubuntu packages"
-msgstr ""
+msgstr "Руководство по переводу пакетов Xubuntu"
 
 #: contributor-docs/C/documentation.xml:71(para)
 msgid ""
@@ -2204,6 +2249,9 @@ msgid ""
 "generally be applied to any translation with minor modification. If unsure, "
 "ask the Documentation team members for assistance."
 msgstr ""
+"Это руководство касается в основном документации Xubuntu, но, в общем, с "
+"небольшими поправками применимо к любому переводу. В случае сомнений "
+"попросите помочь участников команды документации."
 
 #: contributor-docs/C/documentation.xml:73(para)
 msgid ""
@@ -2213,6 +2261,10 @@ msgid ""
 "please be in touch with the appropriate language-specific group before "
 "translating."
 msgstr ""
+"<ulink url=\"https://wiki.ubuntu.com/Translations/Contact/Teams\">Группы "
+"перевода на каждый из языков</ulink> обычно стремятся следовать некоторым "
+"собственным соглашениям. Перед началом перевода на какой-либо язык свяжитесь "
+"с соответствующей группой перевода."
 
 #: contributor-docs/C/documentation.xml:75(para)
 msgid ""
@@ -2220,6 +2272,9 @@ msgid ""
 "url=\"https://help.launchpad.net/Translations/Guide\">Launchpad translations "
 "guide</ulink>."
 msgstr ""
+"Более общие советы по переводу можно найти в <ulink "
+"url=\"https://help.launchpad.net/Translations/Guide\">Руководстве по "
+"переводу на Launchpad</ulink>."
 
 #: contributor-docs/C/documentation.xml:78(title)
 msgid "Maintain translation validity"
@@ -2235,6 +2290,13 @@ msgid ""
 "contains a URL that has an equivalent, translated version. In those cases "
 "the translator should use discretion about whether to localise the URL."
 msgstr ""
+"<emphasis>Теги переводить не следует.</emphasis> Если в исходной строке "
+"встретится тег (например: \"&lt;xref linkend=\"&amp;xubuntu-web;\" /&gt;\"), "
+"то не надо переводить ни сам тег, ни всё, что в нём содержится. Очень важно "
+"копировать и вставлять эти теги точно так, как они выглядят в исходной "
+"строке. Примечание: исключением является тег, содержащий URL, который имеет "
+"эквивалентный, переведённый вариант. В таких случаях переводчику нужно "
+"проявить осмотрительность в плане того, стоит ли локализовать этот URL."
 
 #: contributor-docs/C/documentation.xml:82(para)
 msgid ""
@@ -2253,6 +2315,13 @@ msgid ""
 "that order carefully - copying and pasting from the source language "
 "(English) is the best way to ensure that you do this correctly."
 msgstr ""
+"<emphasis>Всегда сохраняйте порядок тегов.</emphasis> Если различные теги "
+"вложены один в другой (например: "
+"\"&lt;menuchoice&gt;&lt;guimenu&gt;System&lt;/guimenu&gt;&lt;guimenuitem&gt;A"
+"dministration&lt;/guimenuitem&gt;&lt;guimenuitem&gt;Users and "
+"Groups&lt;/guimenuitem&gt;&lt;/menuchoice&gt;\"), всегда тщательно "
+"сохраняйте этот порядок — копирование и вставка из исходного (английского) "
+"языка является лучшим способом сделать это правильно."
 
 #: contributor-docs/C/documentation.xml:86(para)
 msgid ""
@@ -2261,6 +2330,10 @@ msgid ""
 "syntax when translating. More information on this can often be found in the "
 "translation string comment."
 msgstr ""
+"Различные языки программирования и программы могут иметь разный синтаксис "
+"переменных. Убедитесь при переводе, что вам знаком синтаксис переменных "
+"данной программы. Дополнительную информацию часто можно найти в комментарии "
+"к переводимой строке."
 
 #: contributor-docs/C/documentation.xml:90(title)
 msgid "Follow good and existing conventions"
@@ -2289,6 +2362,10 @@ msgid ""
 "XHTML or XML tag as the guillemets ( « » ). Using different kind of quotes "
 "can potentially develop into validity problems as well."
 msgstr ""
+"<emphasis>Не изменяйте тип кавычек внутри тегов.</emphasis>. Двойные кавычки "
+"( \" ) в тегах DocBook, XHTML или XML означают не то же самое, что "
+"типографские ( « » ). Использование другого вида кавычек может привести к "
+"ошибкам."
 
 #: contributor-docs/C/documentation.xml:98(para)
 msgid ""
@@ -2296,6 +2373,10 @@ msgid ""
 "the source is invalid or not semantic, file a bug against the package itself "
 "instead of changing it in the translation."
 msgstr ""
+"<emphasis>Никогда не заменяйте один тег на другой.</emphasis> Если вы "
+"считаете, что тег в исходном тексте ошибочный или семантически неправильный, "
+"отправьте отчёт об ошибке в пакете, вместо того, чтобы заменять тег в "
+"переводе."
 
 #: contributor-docs/C/development.xml:17(title)
 msgid "Xubuntu packageset"
@@ -2335,15 +2416,15 @@ msgstr ""
 
 #: contributor-docs/C/development.xml:33(segtitle)
 msgid "PPA"
-msgstr ""
+msgstr "PPA"
 
 #: contributor-docs/C/development.xml:33(segtitle)
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
 #: contributor-docs/C/development.xml:34(ulink)
 msgid "Xubuntu Staging"
-msgstr ""
+msgstr "Xubuntu Staging"
 
 #: contributor-docs/C/development.xml:34(seg)
 msgid ""
@@ -2360,10 +2441,11 @@ msgstr ""
 #: contributor-docs/C/development.xml:35(seg)
 msgid "Git/Bzr daily builds for packages related to Xubuntu and/or Xfce4."
 msgstr ""
+"Ежедневные сборки Git/Bzr для пакетов, относящихся к Xubuntu и/или Xfce4."
 
 #: contributor-docs/C/development.xml:36(ulink)
 msgid "Xubuntu Extras"
-msgstr ""
+msgstr "Xubuntu Extras"
 
 #: contributor-docs/C/development.xml:36(seg)
 msgid ""
@@ -2379,7 +2461,7 @@ msgstr ""
 
 #: contributor-docs/C/common-reference.xml:17(title)
 msgid "Bazaar (Bzr)"
-msgstr ""
+msgstr "Bazaar (Bzr)"
 
 #: contributor-docs/C/common-reference.xml:19(para)
 msgid ""
@@ -2400,12 +2482,16 @@ msgid ""
 "To make sure Bzr is installed on your system, run <userinput>sudo apt-get "
 "install bzr</userinput>"
 msgstr ""
+"Чтобы убедиться, что Bzr установлен в вашей системе, выполните "
+"<userinput>sudo apt-get install bzr</userinput>"
 
 #: contributor-docs/C/common-reference.xml:28(para)
 msgid ""
 "To set up your personal information for Bzr to use, run <userinput>bzr "
 "whoami \"John Doe &lt;john.doe@gmail.com&gt;\"</userinput>"
 msgstr ""
+"Чтобы настроить вашу личную информацию для использования Bzr, выполните "
+"<userinput>bzr whoami \"John Doe &lt;john.doe@gmail.com&gt;\"</userinput>"
 
 #: contributor-docs/C/common-reference.xml:33(title)
 msgid "Getting and updating Bzr branches"
@@ -2550,11 +2636,11 @@ msgstr ""
 
 #: contributor-docs/C/common-reference.xml:77(title)
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #: contributor-docs/C/common-reference.xml:79(para)
 msgid "Git is the version control system used in Xfce development."
-msgstr ""
+msgstr "Git — это система контроля версий, используемая в разработке Xfce."
 
 #: contributor-docs/C/common-reference.xml:81(para)
 msgid ""
@@ -2575,30 +2661,31 @@ msgstr ""
 
 #: contributor-docs/C/common-reference.xml:90(para)
 msgid "To make sure Git is installed on your system, run:"
-msgstr ""
+msgstr "Чтобы убедиться, что Git установлен в вашей системе, выполните:"
 
 #: contributor-docs/C/common-reference.xml:91(userinput)
 #, no-wrap
 msgid "sudo apt-get install git"
-msgstr ""
+msgstr "sudo apt-get install git"
 
 #: contributor-docs/C/common-reference.xml:94(para)
 msgid "To set up your personal information for Git to use, run:"
 msgstr ""
+"Чтобы настроить свою личную информацию для использования Git, выполните:"
 
 #: contributor-docs/C/common-reference.xml:95(userinput)
 #, no-wrap
 msgid "git config --global user.name \"John Doe\""
-msgstr ""
+msgstr "git config --global user.name \"John Doe\""
 
 #: contributor-docs/C/common-reference.xml:96(userinput)
 #, no-wrap
 msgid "git config --global user.email \"john.doe@gmail.com\""
-msgstr ""
+msgstr "git config --global user.email \"john.doe@gmail.com\""
 
 #: contributor-docs/C/common-reference.xml:102(title)
 msgid "Getting and updating Git repositories"
-msgstr ""
+msgstr "Получение и обновление репозиториев Git"
 
 #: contributor-docs/C/common-reference.xml:104(para)
 msgid ""
@@ -2685,7 +2772,7 @@ msgstr ""
 
 #: contributor-docs/C/common-reference.xml:136(title)
 msgid "Launchpad"
-msgstr ""
+msgstr "Launchpad"
 
 #: contributor-docs/C/common-reference.xml:138(para)
 msgid ""
@@ -2694,10 +2781,14 @@ msgid ""
 "recently added <ulink url=\"https://help.launchpad.net/Code/Git\">support "
 "for Git</ulink>, too."
 msgstr ""
+"Launchpad является основной платформой, используемой для разработки Xubuntu. "
+"Исторически на Launchpad используется система контроля версий Bazaar, но "
+"недавно добавлена <ulink "
+"url=\"https://help.launchpad.net/Code/Git\">поддержка Git</ulink>, too."
 
 #: contributor-docs/C/common-reference.xml:141(title)
 msgid "Setting up a Launchpad account"
-msgstr ""
+msgstr "Регистрация на Launchpad"
 
 #: contributor-docs/C/common-reference.xml:143(para)
 msgid ""
@@ -2705,6 +2796,10 @@ msgid ""
 "url=\"https://help.launchpad.net/YourAccount/NewAccount\">Creating a new "
 "account</ulink>."
 msgstr ""
+"О том, как зарегистрировать учётную запись на Launchpad, смотрите на веб-"
+"странице <ulink "
+"url=\"https://help.launchpad.net/YourAccount/NewAccount\">Создание новой "
+"учётной записи</ulink>."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: contributor-docs/C/common-reference.xml:0(None)
