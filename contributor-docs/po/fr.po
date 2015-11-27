@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-11-22 15:40+0100\n"
-"PO-Revision-Date: 2015-11-20 16:26+0000\n"
-"Last-Translator: David Pires <Unknown>\n"
+"PO-Revision-Date: 2015-11-26 21:12+0000\n"
+"Last-Translator: Jean-Marc <Unknown>\n"
 "Language-Team: French <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-25 05:39+0000\n"
+"X-Launchpad-Export-Date: 2015-11-27 05:55+0000\n"
 "X-Generator: Launchpad (build 17850)\n"
 
 #: contributor-docs/C/xi-translators-not-found.xml:1(para)
@@ -22,14 +22,17 @@ msgid ""
 "Translator data could not be acquired, please see <ulink "
 "url=\"https://translations.launchpad.net/xubuntu-docs\">Launchpad</ulink>."
 msgstr ""
+"Des éléments de traduction pourraient être manquants, veuillez consulter "
+"<ulink url=\"https://translations.launchpad.net/xubuntu-"
+"docs\">Launchpad</ulink> le cas échéant."
 
 #: contributor-docs/C/xi-translator-credits.xml:1(para)
 msgid "The contributors to this translation of the documentation are:"
-msgstr ""
+msgstr "Les traducteurs de la documentation sont :"
 
 #: contributor-docs/C/xi-pdf-files.xml:2(title)
 msgid "Would you rather read this documentation in PDF?"
-msgstr ""
+msgstr "Préférez-vous lire cette documentation en PDF ?"
 
 #: contributor-docs/C/xi-pdf-files.xml:3(para)
 msgid ""
@@ -37,6 +40,9 @@ msgid ""
 "A4.pdf\">A4</ulink> or <ulink url=\"xubuntu-documentation-USletter.pdf\">US "
 "letter</ulink>."
 msgstr ""
+"Sélectionnez votre format papier préféré : <ulink url=\"xubuntu-"
+"documentation-A4.pdf\">A4</ulink> ou <ulink url=\"xubuntu-documentation-"
+"USletter.pdf\">US letter</ulink>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -45,10 +51,12 @@ msgid ""
 "@@image: '../../libs-common/images/icon_branch.png'; "
 "md5=6c8acbb31a2d9585dac53fd6b553291f"
 msgstr ""
+"@@image: '../../libs-common/images/icon_branch.png'; "
+"md5=6c8acbb31a2d9585dac53fd6b553291f"
 
 #: contributor-docs/C/website.xml:14(title)
 msgid "Website"
-msgstr ""
+msgstr "Site web"
 
 #: contributor-docs/C/website.xml:17(title)
 msgid "Introduction to the Xubuntu web presence"
@@ -56,7 +64,7 @@ msgstr ""
 
 #: contributor-docs/C/website.xml:20(title)
 msgid "Xubuntu.org"
-msgstr ""
+msgstr "Xubuntu.org"
 
 #: contributor-docs/C/website.xml:22(para)
 msgid ""
@@ -98,6 +106,8 @@ msgid ""
 "@@image: '../../libs-common/images/icon_package.png'; "
 "md5=15cff8b23f9cf506a7b7e8f98f1289ac"
 msgstr ""
+"@@image: '../../libs-common/images/icon_package.png'; "
+"md5=15cff8b23f9cf506a7b7e8f98f1289ac"
 
 #: contributor-docs/C/strategy-document.xml:14(title)
 msgid "Strategy Document"
@@ -317,7 +327,7 @@ msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:97(title)
 msgid "Community"
-msgstr ""
+msgstr "Communauté"
 
 #: contributor-docs/C/strategy-document.xml:100(title)
 msgid "Project Lead"
@@ -448,11 +458,11 @@ msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:144(title) contributor-docs/C/development.xml:14(title)
 msgid "Development"
-msgstr ""
+msgstr "Développement"
 
 #: contributor-docs/C/strategy-document.xml:147(title)
 msgid "Coordination"
-msgstr ""
+msgstr "Coordination"
 
 #: contributor-docs/C/strategy-document.xml:149(para)
 msgid "The direction of the development of the project is coordinated by:"
@@ -476,7 +486,7 @@ msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:160(title)
 msgid "Communication"
-msgstr ""
+msgstr "Communication"
 
 #: contributor-docs/C/strategy-document.xml:162(para)
 msgid ""
@@ -690,7 +700,7 @@ msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:247(para)
 msgid "Reliability"
-msgstr ""
+msgstr "Fiabilité"
 
 #: contributor-docs/C/strategy-document.xml:248(para)
 msgid "Localization"
@@ -1415,7 +1425,7 @@ msgstr ""
 
 #: contributor-docs/C/processes.xml:14(title)
 msgid "Processes"
-msgstr ""
+msgstr "Processus"
 
 #: contributor-docs/C/processes.xml:16(para)
 msgid ""
@@ -1945,11 +1955,11 @@ msgstr "Les contributeurs à cette documentation sont :"
 
 #: contributor-docs/C/index.xml:24(para)
 msgid "Kev Bowring (flocculant)"
-msgstr ""
+msgstr "Kev Bowring (flocculant)"
 
 #: contributor-docs/C/index.xml:25(para)
 msgid "Krytarik Raido (krytarik)"
-msgstr ""
+msgstr "Krytarik Raido (krytarik)"
 
 #: contributor-docs/C/index.xml:26(para)
 msgid "Pasi Lallinaho (knome)"
@@ -2087,7 +2097,7 @@ msgstr ""
 
 #: contributor-docs/C/documentation.xml:14(title)
 msgid "Documentation"
-msgstr ""
+msgstr "Documentation"
 
 #: contributor-docs/C/documentation.xml:17(title)
 msgid "Building the documentation locally"
@@ -2127,7 +2137,7 @@ msgstr ""
 
 #: contributor-docs/C/documentation.xml:36(ulink)
 msgid "Xubuntu Documentation"
-msgstr ""
+msgstr "Documentation de Xubuntu"
 
 #: contributor-docs/C/documentation.xml:37(ulink)
 msgid "Xubuntu Default Settings"
@@ -2151,19 +2161,19 @@ msgstr ""
 
 #: contributor-docs/C/documentation.xml:48(ulink)
 msgid "LightDM GTK+ Greeter"
-msgstr ""
+msgstr "Écran d'accueil LightDM de GTK+"
 
 #: contributor-docs/C/documentation.xml:49(ulink)
 msgid "Light Locker Settings"
-msgstr ""
+msgstr "Paramètres de Light Locker"
 
 #: contributor-docs/C/documentation.xml:50(ulink)
 msgid "MenuLibre"
-msgstr ""
+msgstr "MenuLibre"
 
 #: contributor-docs/C/documentation.xml:51(ulink)
 msgid "Mugshot"
-msgstr ""
+msgstr "Mugshot"
 
 #: contributor-docs/C/documentation.xml:56(title)
 msgid "Used by and essential for Xubuntu"
@@ -2178,7 +2188,7 @@ msgstr ""
 
 #: contributor-docs/C/documentation.xml:61(ulink)
 msgid "Catfish"
-msgstr ""
+msgstr "Catfish"
 
 #: contributor-docs/C/documentation.xml:62(ulink)
 msgid "LightDM GTK+ Greeter Settings"
@@ -2329,11 +2339,11 @@ msgstr ""
 
 #: contributor-docs/C/development.xml:33(segtitle)
 msgid "PPA"
-msgstr ""
+msgstr "PPA"
 
 #: contributor-docs/C/development.xml:33(segtitle)
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: contributor-docs/C/development.xml:34(ulink)
 msgid "Xubuntu Staging"
@@ -2373,7 +2383,7 @@ msgstr ""
 
 #: contributor-docs/C/common-reference.xml:17(title)
 msgid "Bazaar (Bzr)"
-msgstr ""
+msgstr "Bazaar (Bzr)"
 
 #: contributor-docs/C/common-reference.xml:19(para)
 msgid ""
@@ -2544,7 +2554,7 @@ msgstr ""
 
 #: contributor-docs/C/common-reference.xml:77(title)
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #: contributor-docs/C/common-reference.xml:79(para)
 msgid "Git is the version control system used in Xfce development."
@@ -2574,7 +2584,7 @@ msgstr ""
 #: contributor-docs/C/common-reference.xml:91(userinput)
 #, no-wrap
 msgid "sudo apt-get install git"
-msgstr ""
+msgstr "sudo apt-get install git"
 
 #: contributor-docs/C/common-reference.xml:94(para)
 msgid "To set up your personal information for Git to use, run:"
@@ -2679,7 +2689,7 @@ msgstr ""
 
 #: contributor-docs/C/common-reference.xml:136(title)
 msgid "Launchpad"
-msgstr ""
+msgstr "Launchpad"
 
 #: contributor-docs/C/common-reference.xml:138(para)
 msgid ""
