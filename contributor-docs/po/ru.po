@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-11-22 15:40+0100\n"
-"PO-Revision-Date: 2015-11-25 12:09+0000\n"
+"PO-Revision-Date: 2015-12-15 08:22+0000\n"
 "Last-Translator: Aleksey Kabanov <Unknown>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-26 05:40+0000\n"
-"X-Generator: Launchpad (build 17850)\n"
+"X-Launchpad-Export-Date: 2015-12-16 06:02+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
 
 #: contributor-docs/C/xi-translators-not-found.xml:1(para)
 msgid ""
@@ -1736,16 +1736,21 @@ msgstr ""
 #: contributor-docs/C/processes-release-cycle.xml:50(para)
 msgid "Work on improving and updating the Xubuntu documentation and artwork"
 msgstr ""
+"Работа над улучшением и обновлением документации и графического оформления "
+"Xubuntu"
 
 #: contributor-docs/C/processes-release-cycle.xml:55(title)
 msgid "Testing"
-msgstr ""
+msgstr "Тестирование"
 
 #: contributor-docs/C/processes-release-cycle.xml:57(para)
 msgid ""
 "Throughout the release cycle and even more so towards the end, we will test "
 "Xubuntu to ensure that Xubuntu is a quality product that we are proud of."
 msgstr ""
+"В течение цикла выпуска, и ещё интенсивнее к его концу, мы тестируем "
+"Xubuntu, чтобы убедиться, что Xubuntu является качественным продуктом, "
+"которым мы можем гордиться."
 
 #: contributor-docs/C/processes-release-cycle.xml:59(para)
 msgid ""
@@ -1757,7 +1762,7 @@ msgstr ""
 
 #: contributor-docs/C/processes-release-cycle.xml:62(title)
 msgid "ISO testing"
-msgstr ""
+msgstr "Тестирование ISO"
 
 #: contributor-docs/C/processes-release-cycle.xml:64(para)
 msgid ""
@@ -1782,7 +1787,7 @@ msgstr ""
 
 #: contributor-docs/C/processes-release-cycle.xml:71(seg)
 msgid "Beginning of cycle"
-msgstr ""
+msgstr "Начало цикла"
 
 #: contributor-docs/C/processes-release-cycle.xml:71(seg)
 msgid ""
@@ -1804,7 +1809,7 @@ msgstr ""
 
 #: contributor-docs/C/processes-release-cycle.xml:80(seg) contributor-docs/C/processes-release-cycle.xml:119(seg)
 msgid "7 days before release"
-msgstr ""
+msgstr "7 дней до выпуска"
 
 #: contributor-docs/C/processes-release-cycle.xml:80(seg)
 msgid "Pre-reminder for milestone testing"
@@ -1812,7 +1817,7 @@ msgstr ""
 
 #: contributor-docs/C/processes-release-cycle.xml:81(seg)
 msgid "5 days before release"
-msgstr ""
+msgstr "5 дней до выпуска"
 
 #: contributor-docs/C/processes-release-cycle.xml:81(seg)
 msgid "Smoketest images - automatic, reported by Jenkins"
@@ -1820,7 +1825,7 @@ msgstr ""
 
 #: contributor-docs/C/processes-release-cycle.xml:82(seg)
 msgid "3 days before release"
-msgstr ""
+msgstr "3 дня до выпуска"
 
 #: contributor-docs/C/processes-release-cycle.xml:82(seg)
 msgid ""
@@ -1830,7 +1835,7 @@ msgstr ""
 
 #: contributor-docs/C/processes-release-cycle.xml:83(seg) contributor-docs/C/processes-release-cycle.xml:120(seg)
 msgid "Release day"
-msgstr ""
+msgstr "День выпуска"
 
 #: contributor-docs/C/processes-release-cycle.xml:83(seg)
 msgid ""
@@ -1840,7 +1845,7 @@ msgstr ""
 
 #: contributor-docs/C/processes-release-cycle.xml:88(title)
 msgid "Package testing"
-msgstr ""
+msgstr "Тестирование пакетов"
 
 #: contributor-docs/C/processes-release-cycle.xml:90(para)
 msgid ""
@@ -1924,7 +1929,7 @@ msgstr ""
 
 #: contributor-docs/C/processes-release-cycle.xml:118(seg)
 msgid "14 days before release"
-msgstr ""
+msgstr "14 дней до выпуска"
 
 #: contributor-docs/C/processes-release-cycle.xml:118(seg)
 msgid "Reminder to update the website FAQ (final release only)"
@@ -1987,11 +1992,11 @@ msgstr "В создании этой документации принимали
 
 #: contributor-docs/C/index.xml:24(para)
 msgid "Kev Bowring (flocculant)"
-msgstr ""
+msgstr "Kev Bowring (flocculant)"
 
 #: contributor-docs/C/index.xml:25(para)
 msgid "Krytarik Raido (krytarik)"
-msgstr ""
+msgstr "Krytarik Raido (krytarik)"
 
 #: contributor-docs/C/index.xml:26(para)
 msgid "Pasi Lallinaho (knome)"
@@ -2757,18 +2762,22 @@ msgstr ""
 
 #: contributor-docs/C/common-reference.xml:128(title)
 msgid "Build dependencies"
-msgstr ""
+msgstr "Сборочные зависимости"
 
 #: contributor-docs/C/common-reference.xml:130(para)
 msgid ""
 "Before you can build a package from source, you will usually need to install "
 "its build dependencies."
 msgstr ""
+"Перед тем, как собрать пакет из исходного кода, обычно необходимо установить "
+"его сборочные зависимости."
 
 #: contributor-docs/C/common-reference.xml:132(para)
 msgid ""
 "To do this, simply run <userinput>sudo apt-get build-dep PACKAGE</userinput>."
 msgstr ""
+"Для этого просто выполните <userinput>sudo apt-get build-dep "
+"ПАКЕТ</userinput>."
 
 #: contributor-docs/C/common-reference.xml:136(title)
 msgid "Launchpad"
