@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-11-22 15:40+0100\n"
-"PO-Revision-Date: 2015-12-18 15:55+0000\n"
+"PO-Revision-Date: 2015-12-23 16:07+0000\n"
 "Last-Translator: Piotr Strębski <strebski@o2.pl>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-12-20 07:05+0000\n"
+"X-Launchpad-Export-Date: 2015-12-24 05:44+0000\n"
 "X-Generator: Launchpad (build 17865)\n"
 
 #: contributor-docs/C/xi-translators-not-found.xml:1(para)
@@ -45,6 +45,8 @@ msgid ""
 "@@image: '../../libs-common/images/icon_branch.png'; "
 "md5=6c8acbb31a2d9585dac53fd6b553291f"
 msgstr ""
+"@@image: '../../libs-common/images/icon_branch.png'; "
+"md5=6c8acbb31a2d9585dac53fd6b553291f"
 
 #: contributor-docs/C/website.xml:14(title)
 msgid "Website"
@@ -56,7 +58,7 @@ msgstr ""
 
 #: contributor-docs/C/website.xml:20(title)
 msgid "Xubuntu.org"
-msgstr ""
+msgstr "Xubuntu.org"
 
 #: contributor-docs/C/website.xml:22(para)
 msgid ""
@@ -83,7 +85,7 @@ msgstr ""
 
 #: contributor-docs/C/website.xml:30(title)
 msgid "Xubuntu wiki"
-msgstr ""
+msgstr "Wiki Xubuntu"
 
 #: contributor-docs/C/website.xml:32(emphasis)
 msgid ""
@@ -98,6 +100,8 @@ msgid ""
 "@@image: '../../libs-common/images/icon_package.png'; "
 "md5=15cff8b23f9cf506a7b7e8f98f1289ac"
 msgstr ""
+"@@image: '../../libs-common/images/icon_package.png'; "
+"md5=15cff8b23f9cf506a7b7e8f98f1289ac"
 
 #: contributor-docs/C/strategy-document.xml:14(title)
 msgid "Strategy Document"
@@ -2530,7 +2534,7 @@ msgstr ""
 
 #: contributor-docs/C/common-reference.xml:77(title)
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #: contributor-docs/C/common-reference.xml:79(para)
 msgid "Git is the version control system used in Xfce development."
@@ -2560,7 +2564,7 @@ msgstr ""
 #: contributor-docs/C/common-reference.xml:91(userinput)
 #, no-wrap
 msgid "sudo apt-get install git"
-msgstr ""
+msgstr "sudo apt-get install git"
 
 #: contributor-docs/C/common-reference.xml:94(para)
 msgid "To set up your personal information for Git to use, run:"
@@ -2569,12 +2573,12 @@ msgstr ""
 #: contributor-docs/C/common-reference.xml:95(userinput)
 #, no-wrap
 msgid "git config --global user.name \"John Doe\""
-msgstr ""
+msgstr "git config --global user.name \"Jan Kowalski\""
 
 #: contributor-docs/C/common-reference.xml:96(userinput)
 #, no-wrap
 msgid "git config --global user.email \"john.doe@gmail.com\""
-msgstr ""
+msgstr "git config --global user.email \"jan.kowalski@gmail.com\""
 
 #: contributor-docs/C/common-reference.xml:102(title)
 msgid "Getting and updating Git repositories"
@@ -2665,7 +2669,7 @@ msgstr ""
 
 #: contributor-docs/C/common-reference.xml:136(title)
 msgid "Launchpad"
-msgstr ""
+msgstr "Launchpad"
 
 #: contributor-docs/C/common-reference.xml:138(para)
 msgid ""
