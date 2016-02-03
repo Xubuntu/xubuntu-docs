@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-11-22 15:40+0100\n"
-"PO-Revision-Date: 2016-01-31 14:06+0000\n"
+"PO-Revision-Date: 2016-02-02 18:08+0000\n"
 "Last-Translator: Eugenio González <eugeagb@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-02-02 05:53+0000\n"
+"X-Launchpad-Export-Date: 2016-02-03 06:09+0000\n"
 "X-Generator: Launchpad (build 17908)\n"
 
 #: contributor-docs/C/xi-translators-not-found.xml:1(para)
@@ -59,7 +59,7 @@ msgstr "Sitio Web"
 
 #: contributor-docs/C/website.xml:17(title)
 msgid "Introduction to the Xubuntu web presence"
-msgstr ""
+msgstr "Introducción a la presencia web de Xubuntu"
 
 #: contributor-docs/C/website.xml:20(title)
 msgid "Xubuntu.org"
@@ -96,16 +96,21 @@ msgid ""
 "1/>lp:xubuntu-website</literal> (the theme) and <literal><placeholder-"
 "2/>lp:xubuntu-website/plugins</literal> (the plugins)."
 msgstr ""
+"El código fuente del sitio web está disponible en <literal><placeholder-"
+"1/>lp:xubuntu-website</literal> (el tema) y <literal><placeholder-"
+"2/>lp:xubuntu-website/plugins</literal> (los plugins)."
 
 #: contributor-docs/C/website.xml:30(title)
 msgid "Xubuntu wiki"
-msgstr ""
+msgstr "wiki de Xubuntu"
 
 #: contributor-docs/C/website.xml:32(emphasis)
 msgid ""
 "The Xubuntu wiki is used for some developer communication and serves as an "
 "archive for older release roadmaps and specification."
 msgstr ""
+"La wiki de Xubuntu sirve para algunas comunicaciones de desarrollo y como "
+"repositorio de versiones antiguas y especificaciones."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -117,7 +122,7 @@ msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:14(title)
 msgid "Strategy Document"
-msgstr ""
+msgstr "Documento estratégico"
 
 #: contributor-docs/C/strategy-document.xml:17(title)
 msgid "Introduction"
@@ -125,7 +130,7 @@ msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:20(title)
 msgid "About this Document"
-msgstr ""
+msgstr "Sobre este Documento"
 
 #: contributor-docs/C/strategy-document.xml:22(para)
 msgid ""
@@ -133,6 +138,8 @@ msgid ""
 "Xubuntu project as well as act as a guide and a reference for the Xubuntu "
 "Team."
 msgstr ""
+"Este documento describirá la estrategia, visión y dirección del proyecto "
+"Xubuntu además de servir de guía y referencia para el equipo de Xubuntu."
 
 #: contributor-docs/C/strategy-document.xml:24(para)
 msgid ""
@@ -141,6 +148,10 @@ msgid ""
 "community. This version is based on the former Xubuntu Strategy Document by "
 "Cody Somerville et al."
 msgstr ""
+"Esta versión revisada ha sido escrita por Pasi Lallinaho con la ayuda de "
+"Elizabeth Krumbach y Simon Steinbeiß junto con más gente de la comunidad. "
+"Esta versión se basa en el anterior Documento Estratégico de Xubuntu de Cody "
+"Somerville et al."
 
 #: contributor-docs/C/strategy-document.xml:26(para)
 msgid ""
@@ -148,6 +159,10 @@ msgid ""
 "and Lionel Le Folgoc for their contributions to this document. Some content, "
 "ideas, and inspiration were derived from existing Ubuntu documentation."
 msgstr ""
+"Damos gracias a Cody Somerville, Jono Bacon, Eero Tamminen, Nico Veenkamp y "
+"Lionel Le Folgoc por sus contribuciones en este documento. Algunos "
+"contenidos, ideas e inspiraciones están derivadas de la documentación "
+"existente de Ubuntu."
 
 #: contributor-docs/C/strategy-document.xml:30(title)
 msgid "Mission Statement"
@@ -1945,7 +1960,7 @@ msgstr ""
 
 #: contributor-docs/C/index.xml:14(title) contributor-docs/C/index.xml:17(title)
 msgid "Xubuntu Contributor Documentation"
-msgstr ""
+msgstr "Contribuyentes de la documentación de Xubuntu"
 
 #: contributor-docs/C/index.xml:19(title)
 msgid "Credits and License"
@@ -1954,6 +1969,7 @@ msgstr "Créditos y licencia"
 #: contributor-docs/C/index.xml:20(para)
 msgid "This documentation is maintained by the Xubuntu documentation team."
 msgstr ""
+"Esta documentación está mantenida por el equipo de documentación de Xubuntu."
 
 #: contributor-docs/C/index.xml:22(para)
 msgid "The contributors to this documentation are:"
@@ -2400,7 +2416,7 @@ msgstr ""
 
 #: contributor-docs/C/common-reference.xml:22(title)
 msgid "Setting up Bzr"
-msgstr ""
+msgstr "Configuración de Bzr"
 
 #: contributor-docs/C/common-reference.xml:24(para)
 msgid "To set up Bzr, do the following:"
@@ -2708,7 +2724,7 @@ msgstr ""
 
 #: contributor-docs/C/common-reference.xml:141(title)
 msgid "Setting up a Launchpad account"
-msgstr ""
+msgstr "Configuración de una cuenta de Launchpad"
 
 #: contributor-docs/C/common-reference.xml:143(para)
 msgid ""
