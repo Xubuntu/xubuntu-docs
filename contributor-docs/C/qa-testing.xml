@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
 "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
 <!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
 %xubuntu-common;
@@ -13,7 +13,7 @@
 
 <chapter id="qa-testing">
 	<title>Package and ISO Testing</title>
-		
+
 	<section id="qa-testing-exploratory">
 		<title>Exploratory Testing</title>
 
@@ -30,13 +30,13 @@
 		<title>Using Development PPAs</title>
 
 		<para>We have 3 PPAs which we use regularly to test packages. These are:</para>
-		
+
 		<itemizedlist>
 			<listitem><para>Shimmer Themes for daily builds of the Shimmer Project’s projects</para></listitem>
 			<listitem><para>Xubuntu Staging for packages and package versions that are being prepared for inclusion in Xubuntu</para></listitem>
 			<listitem><para>Xubuntu daily builds for daily Git and Bzr builds for packages related to Xubuntu and/or Xfce4</para></listitem>
 		</itemizedlist>
-		
+
 		<para>Installing these three PPAs means that you will be using and testing packages that developers are currently working with, this means that regressions found by you will not be present once they are released.</para>
 
 		<para>At times it is useful to remove a PPA. Using ppa-purge causes apt to disable a PPA source list and then change affected packages back to the default versions.</para>
@@ -48,18 +48,18 @@
 
 		<para>Reporting bugs with PPAs can be problematic, please see further information on reporting bugs with PPAs in <xref linkend="qa-bugs-ppa" />.</para>
 	</section>
-	
+
 	<section id="qa-testing-static">
 		<title>Static Testing</title>
-		
+
 		<para>Testing the development versions of Xubuntu and packages in it helps keep up the every day quality. If you have spare hardware resources or are able to run a virtualized testing environment, you can help.</para>
-	
+
 		<itemizedlist>
 			<listitem><para>Check the devel mailing list close to the start of the cycle, where the decision as to which milestones we will participate in will be discussed.</para></listitem>
 			<listitem><para>While milestone testing is in progress, please watch for rebuilds. These will take place either when we have reason to rebuild, eg following a bug fix landing, or more likely when the Ubuntu Release Team have cause to do so.</para></listitem>
 		</itemizedlist>
 	</section>
-		
+
 	<section id="qa-testing-milestone">
 		<title>Milestone Testing</title>
 
@@ -80,7 +80,20 @@
 			<listitem><para>Live Session: Boot with the image and ensure that basic application testing (open, close, saving etc.) passes.</para></listitem>
 			<listitem><para>Installation tests required pass. These test only the installation.</para></listitem>
 		</itemizedlist>
-	</section>			
+	</section>
+
+	<section id="qa-testing-upgrade">
+	<title>Upgrade Testing</title>
+
+	<para>About half way through any development cycle (the Beta milestone(s)) we need to test upgrades from the previous release to the new development version. When the development version is intended to be the next LTS release, we need to test both upgrade paths - LTS to LTS and normal to LTS.
+
+	<para>The iso tracker has a section for upgrade tests, this does not change daily, but runs from Friday to Friday. This enables us to test upgrades for a week rather than a day. During these tests it is preferred that the image used for testing is the one built on the first Friday, except where bugs (and a land of it's fix) are reported.</para>
+
+	<itemizedlist>
+		<listitem><para>Upgrade: tested using the update-manager</para></listitem>
+		<listitem><para>Upgrade(Image): tested using the daily image</para></listitem>
+	</itemizedlist>
+</section>
 
 	<section id="qa-testing-package">
 		<title>Package Testing</title>
