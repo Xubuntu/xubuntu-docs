@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-11-22 15:40+0100\n"
-"PO-Revision-Date: 2015-10-26 10:30+0000\n"
+"PO-Revision-Date: 2016-03-04 17:34+0000\n"
 "Last-Translator: David Pires <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-25 05:39+0000\n"
-"X-Generator: Launchpad (build 17850)\n"
+"X-Launchpad-Export-Date: 2016-03-05 06:43+0000\n"
+"X-Generator: Launchpad (build 17936)\n"
 "Language: pt\n"
 
 #: user-docs/C/xi-translators-not-found.xml:1(para)
@@ -74,6 +74,9 @@ msgid ""
 "and netbooks, featuring a modern look and enough features for efficient, "
 "daily usage. It works well on older hardware too."
 msgstr ""
+"É perfeito para aqueles que querem obter o máximo partido dos seus desktops, "
+"laptops e netbooks. Possui um visual moderno e recursos suficientes para um "
+"uso diário eficiente. Também funciona bem em hardware antigo."
 
 #: user-docs/C/what-is-xubuntu.xml:25(para)
 msgid ""
@@ -112,6 +115,10 @@ msgid ""
 "url=\"http://www.canonical.com/\">Canonical Ltd.</ulink>, a company founded "
 "by Mark Shuttleworth."
 msgstr ""
+"Além de usar o núcleo do Ubuntu, o Xubuntu também usa a infra-estrutura "
+"gentilmente fornecida e patrocinada pela <ulink "
+"url=\"http://www.canonical.com/\">Canonical Ltd.</ulink>, uma empresa "
+"fundada por Mark Shuttleworth."
 
 #: user-docs/C/what-is-xubuntu.xml:40(title)
 msgid "Version numbering"
@@ -184,6 +191,10 @@ msgid ""
 "and re-usability. Read more about Xfce at the <ulink "
 "url=\"http://www.xfce.org/\">Xfce website</ulink>."
 msgstr ""
+"O Xfce é um ambiente gráfico de trabalho leve usado no Xubuntu. Tem como "
+"objectivo ser rápido e consumir poucos recursos do sistema, continuando a "
+"ser visualmente atraente e fácil de usar. Leia mais sobre o Xfce em <ulink "
+"url=\"http://www.xfce.org/\">Xfce website</ulink>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -191,6 +202,7 @@ msgstr ""
 msgid ""
 "@@image: '../libs/images/icon_menu.png'; md5=65599cdf4480dbc3d1bfa2154c0a255d"
 msgstr ""
+"@@image: '../libs/images/icon_menu.png'; md5=65599cdf4480dbc3d1bfa2154c0a255d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -209,6 +221,8 @@ msgid ""
 "@@image: '../../libs-common/images/icon_package.png'; "
 "md5=15cff8b23f9cf506a7b7e8f98f1289ac"
 msgstr ""
+"@@image: '../../libs-common/images/icon_package.png'; "
+"md5=15cff8b23f9cf506a7b7e8f98f1289ac"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -217,6 +231,8 @@ msgid ""
 "@@image: '../../libs-common/images/icon_location.png'; "
 "md5=71b7dc6dffc6d296d54a2fa354f2204f"
 msgstr ""
+"@@image: '../../libs-common/images/icon_location.png'; "
+"md5=71b7dc6dffc6d296d54a2fa354f2204f"
 
 #: user-docs/C/settings-preferences.xml:14(title)
 msgid "Settings and Preferences"
@@ -310,6 +326,19 @@ msgid ""
 "url=\"http://smdavis.us/doku/doku.php?id=menulibre-docs\">MenuLibre</ulink> "
 "online documenation."
 msgstr ""
+"Para adicionar diretórios e lançadores que não aparecem como entradas no "
+"menu padrão, precisará de outra ferramenta. Um utilitário de edição de menu "
+"mais avançado chamado MenuLibre pode ser encontrado clicando em "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"Settings Manager</guimenuitem><guimenuitem>Menu "
+"Editor</guimenuitem></menuchoice></application> ou clicando com o botão "
+"botão direito em <placeholder-3/> e escolher Editar Aplicações. Usando este "
+"editor pode criar, esconder e reordenar as listas que aparecem no painel do "
+"lado direito do menu. Dentro destes diretórios pode então criar lançadores "
+"de aplicações e personalizar o seu comportamento, configurando as muitas "
+"opções disponíveis neste utilitário. Para mais informações detalhadas sobre "
+"como utilizar todas essas opções, consulte a documentação online do <ulink "
+"url=\"http://smdavis.us/doku/doku.php?id=menulibre-docs\">MenuLibre</ulink>."
 
 #: user-docs/C/settings-preferences.xml:33(title)
 msgid "Customizing your personal info"
@@ -400,6 +429,8 @@ msgid ""
 "If you want to customize the appearance of your Xubuntu system, the options "
 "are many. Here are a few good starting points."
 msgstr ""
+"Se desejar personalizar a aparência do seu sistema Xubuntu, as opções são "
+"imensas. Aqui estão alguns bons pontos de partida."
 
 #: user-docs/C/settings-preferences.xml:57(title)
 msgid "Changing your wallpaper"
@@ -418,6 +449,17 @@ msgid ""
 "workspaces</literal> and moving the dialogue to the next workspace selecting "
 "a different wallpaper"
 msgstr ""
+"Pode facilmente mudar o fundo do seu ambiente de trabalho navegando até "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"Settings "
+"Manager</guimenuitem><guimenuitem>Desktop</guimenuitem></menuchoice></applica"
+"tion>, ou alternativamente, clicando com o botão direito do rato no seu "
+"ambiente de trabalho e selecionando a opção <menuchoice><guimenuitem>Desktop "
+"Settings...</guimenuitem></menuchoice>. Onde tem múltiplas áreas de "
+"trabalho, pode optar por ter o mesmo papel de parede em todas áreas de "
+"trabalho, ou desmarcando <literal>Aplicar a todas as áreas de "
+"trabalho</literal> e movendo o diálogo para a próxima área de trabalho "
+"selecionando um papel de parede diferente"
 
 #: user-docs/C/settings-preferences.xml:61(para)
 msgid ""
@@ -537,7 +579,7 @@ msgstr ""
 
 #: user-docs/C/settings-preferences.xml:92(para)
 msgid "Right-click on the panel"
-msgstr ""
+msgstr "Clique com o botão direito do rato no painel"
 
 #: user-docs/C/settings-preferences.xml:93(para)
 msgid ""
@@ -596,6 +638,8 @@ msgid ""
 "If you add a Launcher in the <guilabel>Items</guilabel> tab you can then "
 "edit the Launcher to run any application you have installed"
 msgstr ""
+"Se adicionar um Lançador na aba <guilabel>Itens</guilabel> pode então editar "
+"o Lançador para executar qualquer aplicação que tiver instalado"
 
 #: user-docs/C/settings-preferences.xml:108(title)
 msgid "Changing your desktop themes"
@@ -725,6 +769,9 @@ msgid ""
 "If these directories do not exist, you should create them first. Copying "
 "themes or icons for all users will require administrative privileges."
 msgstr ""
+"Se estes diretórios não existirem, deverá criá-los em primeiro lugar. Copiar "
+"temas ou ícones para todos os utilizadores exigirá privilégios "
+"administrativos."
 
 #: user-docs/C/settings-preferences.xml:154(title)
 msgid "Disabling and modifying the desktop effects"
