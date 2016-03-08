@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-11-22 15:40+0100\n"
+"POT-Creation-Date: 2016-03-07 21:52+0000\n"
 "PO-Revision-Date: 2015-11-26 21:12+0000\n"
 "Last-Translator: Jean-Marc <Unknown>\n"
 "Language-Team: French <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-27 05:55+0000\n"
-"X-Generator: Launchpad (build 17850)\n"
+"X-Launchpad-Export-Date: 2016-03-08 06:03+0000\n"
+"X-Generator: Launchpad (build 17936)\n"
 
 #: contributor-docs/C/xi-translators-not-found.xml:1(para)
 msgid ""
@@ -884,17 +884,46 @@ msgid ""
 msgstr ""
 
 #: contributor-docs/C/qa-testing.xml:86(title)
-msgid "Package Testing"
+msgid "Upgrade Testing"
 msgstr ""
 
 #: contributor-docs/C/qa-testing.xml:88(para)
+msgid ""
+"About half way through any development cycle (around the beta milestones) we "
+"need to test upgrades from the previous release to the new development "
+"version. When the development version is intended to be the next LTS "
+"release, we need to test both upgrade paths: LTS to LTS and regular to LTS."
+msgstr ""
+
+#: contributor-docs/C/qa-testing.xml:90(para)
+msgid ""
+"The ISO tracker has a section for upgrade tests which does not change daily, "
+"but runs from Friday to Friday. This enables us to test upgrades for a week "
+"rather than a day. During these tests it is preferred that the image used "
+"for testing is the one built on the first Friday, except where bugs are "
+"reported and fixes landed."
+msgstr ""
+
+#: contributor-docs/C/qa-testing.xml:93(para)
+msgid "Upgrade: tested using the update-manager"
+msgstr ""
+
+#: contributor-docs/C/qa-testing.xml:94(para)
+msgid "Upgrade (image): tested using the daily image"
+msgstr ""
+
+#: contributor-docs/C/qa-testing.xml:99(title)
+msgid "Package Testing"
+msgstr ""
+
+#: contributor-docs/C/qa-testing.xml:101(para)
 msgid ""
 "For releases where we are making use of the Package Tracker, calls for "
 "package testing will be made to the xubuntu-devel mailing list as required. "
 "This could be a call from QA or Developers."
 msgstr ""
 
-#: contributor-docs/C/qa-testing.xml:90(para)
+#: contributor-docs/C/qa-testing.xml:103(para)
 msgid ""
 "A schedule of planned tests is mailed to the Xubuntu Devel mailing list "
 "close to the cycle start,the schedule is shown on the <ulink "
@@ -905,43 +934,18 @@ msgid ""
 "packages will be those found on one of our PPAs."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:15(title) contributor-docs/C/qa-team.xml:32(title)
+#: contributor-docs/C/qa-team.xml:15(title) contributor-docs/C/qa-team.xml:20(title)
 msgid "QA Team"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:18(title)
-msgid "Useful Links"
+#: contributor-docs/C/qa-team.xml:17(para)
+msgid ""
+"In addition to the QA Team's Trello page, there are various QA tracker, wiki "
+"and Launchpad pages, the links to which can be found on <xref linkend=\"qa-"
+"team-links\"/>."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:21(ulink)
-msgid "Xubuntu QA Trello"
-msgstr ""
-
-#: contributor-docs/C/qa-team.xml:22(ulink)
-msgid "Xubuntu QA"
-msgstr ""
-
-#: contributor-docs/C/qa-team.xml:23(ulink)
-msgid "Xubuntu Testers"
-msgstr ""
-
-#: contributor-docs/C/qa-team.xml:24(ulink)
-msgid "ISO Tracker"
-msgstr ""
-
-#: contributor-docs/C/qa-team.xml:25(ulink)
-msgid "Package Tracker"
-msgstr ""
-
-#: contributor-docs/C/qa-team.xml:26(ulink)
-msgid "Ubuntu QA Team Wiki"
-msgstr ""
-
-#: contributor-docs/C/qa-team.xml:27(ulink)
-msgid "Ubuntu Manual Tests"
-msgstr ""
-
-#: contributor-docs/C/qa-team.xml:34(para)
+#: contributor-docs/C/qa-team.xml:22(para)
 msgid ""
 "The Xubuntu QA team was formed to ensure that the quality of a released "
 "Xubuntu conforms to the parameters laid out in the Xubuntu Processes "
@@ -951,7 +955,7 @@ msgid ""
 "various teams."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:36(para)
+#: contributor-docs/C/qa-team.xml:24(para)
 msgid ""
 "In addition, the team gives people contributing through testing of Xubuntu "
 "the opportunity to become part of the <ulink "
@@ -961,7 +965,7 @@ msgid ""
 "work of the QA team."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:38(para)
+#: contributor-docs/C/qa-team.xml:26(para)
 msgid ""
 "Excluding testing itself, control of the testcases that we use for ISO and "
 "Package testing, along with communicating the testing requirements for any "
@@ -969,7 +973,7 @@ msgid ""
 "the bulk of the teams work in any given cycle."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:40(para)
+#: contributor-docs/C/qa-team.xml:28(para)
 msgid ""
 "Members of the QA team should check the current Xubuntu QA blueprint, and "
 "assign themselves to tasks they feel able to undertake. In addition it is "
@@ -977,88 +981,88 @@ msgid ""
 "Trello page."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:44(title)
+#: contributor-docs/C/qa-team.xml:32(title)
 msgid "Testing Responsibilities"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:46(para)
+#: contributor-docs/C/qa-team.xml:34(para)
 msgid ""
 "At the start of a cycle, the Release Team will discuss which ISO Milestones "
 "we will participate in. Then, during a Community Meeting, members of Xubuntu "
 "Team will discuss and then ratify Xubuntu's participation during the cycle."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:48(para)
+#: contributor-docs/C/qa-team.xml:36(para)
 msgid ""
 "Along with general testing of our OS, dealt with further in <xref "
 "linkend=\"qa-testing-exploratory\"/> and <xref linkend=\"qa-testing-ppa\"/>, "
 "further responsibilities lie with ensuring that:"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:51(para)
+#: contributor-docs/C/qa-team.xml:39(para)
 msgid "Sufficient testing takes place prior to ISO Milestone releases"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:52(para)
+#: contributor-docs/C/qa-team.xml:40(para)
 msgid "Sufficient package testing takes place following calls to testers"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:53(para)
+#: contributor-docs/C/qa-team.xml:41(para)
 msgid "Sufficient testing has taken place by Final Release"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:54(para)
+#: contributor-docs/C/qa-team.xml:42(para)
 msgid ""
 "Bugs reported to our trackers are confirmed, or where unable to confirm, "
 "further information is requested from the reporter"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:55(para)
+#: contributor-docs/C/qa-team.xml:43(para)
 msgid ""
 "Where appropriate, confirmation of bugs can be asked of members of Xubuntu "
 "Team in the team devel IRC channel"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:58(para)
+#: contributor-docs/C/qa-team.xml:46(para)
 msgid ""
 "Members of the QA team might find it useful subscribing to the <ulink "
 "url=\"https://launchpad.net/~xubuntu-bugs\">Xubuntu Bugs</ulink> team in "
 "order to be aware of bugs being reported by users."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:62(title)
+#: contributor-docs/C/qa-team.xml:50(title)
 msgid "Working with the QA Trackers"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:64(para)
+#: contributor-docs/C/qa-team.xml:52(para)
 msgid ""
 "The initial decisions on what and when to test, will be taken following "
 "discussion with the members of the <ulink "
 "url=\"https://launchpad.net/~xubuntu-release\">Xubuntu Release</ulink> team."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:66(para)
+#: contributor-docs/C/qa-team.xml:54(para)
 msgid "At the start of a cycle, the QA team needs to ensure that:"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:69(para)
+#: contributor-docs/C/qa-team.xml:57(para)
 msgid "Image testcases we use are still correct."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:70(para)
+#: contributor-docs/C/qa-team.xml:58(para)
 msgid ""
 "When the intention is that package testing will take place during the cycle, "
 "package testcases are still correct."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:71(para)
+#: contributor-docs/C/qa-team.xml:59(para)
 msgid ""
 "The testsuites on the Package Tracker make sense for what we intend to test "
 "during the cycle. Differences between regular and LTS releases are often, "
 "but not always, needed."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:72(para)
+#: contributor-docs/C/qa-team.xml:60(para)
 msgid ""
 "Scheduling of ISO, and when appropriate Package, testing should take place "
 "amongst the QA team. The resulting schedule should be posted on the Xubuntu "
@@ -1066,7 +1070,7 @@ msgid ""
 "tracker's calendar tab."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:75(para)
+#: contributor-docs/C/qa-team.xml:63(para)
 msgid ""
 "When there are changes to a package we test, following for example a bug "
 "fix, a further check of the testcase involved should take place. Further "
@@ -1074,7 +1078,7 @@ msgid ""
 "the cycle."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:77(para)
+#: contributor-docs/C/qa-team.xml:65(para)
 msgid ""
 "When a package during test constantly fails, or bug reports indicate a "
 "failure in a package for something not tested. The testcase for that package "
@@ -1083,11 +1087,11 @@ msgid ""
 "and re-enabled when appropriate."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:81(title)
+#: contributor-docs/C/qa-team.xml:69(title)
 msgid "Working with Testcases"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:83(para)
+#: contributor-docs/C/qa-team.xml:71(para)
 msgid ""
 "Information on the basic method of working with testcases can be found at "
 "the Ubuntu QA Team <ulink "
@@ -1095,7 +1099,7 @@ msgid ""
 "Testcases</ulink> page."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:85(para)
+#: contributor-docs/C/qa-team.xml:73(para)
 msgid ""
 "<emphasis>We</emphasis> are only concerned with a specific set of tasks: "
 "grabbing the branch, making edits and then pushing the changes we need to "
@@ -1104,165 +1108,165 @@ msgid ""
 "this helps ensure that changes are moved through to the trackers quickly."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:87(para)
+#: contributor-docs/C/qa-team.xml:75(para)
 msgid "To edit a testcase:"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:90(para)
+#: contributor-docs/C/qa-team.xml:78(para)
 msgid ""
 "<ulink url=\"https://bugs.launchpad.net/ubuntu-manual-"
 "tests/+filebug\">Report</ulink> the required change as a bug against the "
 "testcase project"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:91(para)
+#: contributor-docs/C/qa-team.xml:79(para)
 msgid "Assign yourself to the bug"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:92(para)
+#: contributor-docs/C/qa-team.xml:80(para)
 msgid ""
 "Create a local branch: <userinput>bzr branch lp:ubuntu-manual-"
 "tests</userinput>"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:93(para)
+#: contributor-docs/C/qa-team.xml:81(para)
 msgid "Make changes to the testcase in your local branch"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:94(para)
+#: contributor-docs/C/qa-team.xml:82(para)
 msgid ""
 "Commit the changes: <userinput>bzr commit -m \"Fix LP bug "
 "#BUGNO.\"</userinput>"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:95(para)
+#: contributor-docs/C/qa-team.xml:83(para)
 msgid ""
 "Push to a personal remote branch: <userinput>bzr push lp:~username/ubuntu-"
 "manual-tests/bug-BUGNO</userinput>"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:98(para)
+#: contributor-docs/C/qa-team.xml:86(para)
 msgid ""
 "Once pushed to a personal remote branch, propose the change for merging - "
 "<xref linkend=\"bzr-merge-proposal\"/>."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:100(para)
+#: contributor-docs/C/qa-team.xml:88(para)
 msgid ""
 "Respond to any requests for changes when asked by the Testcase Admins in "
 "order to get the required change through in a timely manner."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:104(title)
+#: contributor-docs/C/qa-team.xml:92(title)
 msgid "Communicating with Testers and Users"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:106(para)
+#: contributor-docs/C/qa-team.xml:94(para)
 msgid ""
 "While we have two sets of people in the community that we contact about "
 "required testing, Testers will get regular contact from us, but we should "
 "only, in general, call on Users at later stages."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:108(para)
+#: contributor-docs/C/qa-team.xml:96(para)
 msgid ""
 "The QA Lead will be an administrator on the Testers Launchpad page and can "
 "contact those users via LP. Copies of testing calls sent to the devel "
 "mailing list should go to this group each time."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:110(para)
+#: contributor-docs/C/qa-team.xml:98(para)
 msgid "Any member of the QA team can:"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:113(para)
+#: contributor-docs/C/qa-team.xml:101(para)
 msgid ""
 "Watch dates on the Trello schedule for upcoming testing calls via the "
 "tracker's <ulink url=\"http://tracker.xubuntu.org/#tab-"
 "calendar\">calendar</ulink> tab"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:114(para)
+#: contributor-docs/C/qa-team.xml:102(para)
 msgid "Mail the devel list with a testing call"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:115(para)
+#: contributor-docs/C/qa-team.xml:103(para)
 msgid ""
 "Just prior to an upcoming ISO Milestone testing call, warn on the devel list"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:116(para)
+#: contributor-docs/C/qa-team.xml:104(para)
 msgid "Make an ISO Milestone testing call"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:119(para)
+#: contributor-docs/C/qa-team.xml:107(para)
 msgid ""
 "Xubuntu Users will be contacted for ISO testing at later ISO Milestones, at "
 "the earliest the Beta 1 milestone, depending on the state of the current ISO "
 "and our packages."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:123(title)
+#: contributor-docs/C/qa-team.xml:111(title)
 msgid "Release Responsibilities"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:125(para)
+#: contributor-docs/C/qa-team.xml:113(para)
 msgid ""
 "Much of the responsibility for the QA team at any release lies with the QA "
 "Lead."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:127(para)
+#: contributor-docs/C/qa-team.xml:115(para)
 msgid "However, <emphasis>any</emphasis> member of the QA team can:"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:130(para)
+#: contributor-docs/C/qa-team.xml:118(para)
 msgid ""
 "Work with the draft wiki <ulink "
 "url=\"https://wiki.ubuntu.com/Xubuntu/Testing/ReleaseNoteBase\">Release "
 "Note</ulink>"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:131(para)
+#: contributor-docs/C/qa-team.xml:119(para)
 msgid "Check status of bugs listed on the above draft"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:132(para)
+#: contributor-docs/C/qa-team.xml:120(para)
 msgid ""
 "Check status of work items on the QA blueprint, marking as appropriate"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:137(title)
+#: contributor-docs/C/qa-team.xml:125(title)
 msgid "Post Release Tasks"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:139(para)
+#: contributor-docs/C/qa-team.xml:127(para)
 msgid ""
 "Following release, there are a few tasks that need to be done before the "
 "next release cycle begins."
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:142(para)
+#: contributor-docs/C/qa-team.xml:130(para)
 msgid ""
 "QA Lead should set up the blueprints for both the QA team and the Bugs that "
 "the whole team uses"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:143(para)
+#: contributor-docs/C/qa-team.xml:131(para)
 msgid ""
 "Any member of the QA team can archive the previous cycle's Testing, "
 "Postponed and Done cards"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:144(para)
+#: contributor-docs/C/qa-team.xml:132(para)
 msgid "Set up new cycle cards for Testing, Postponed and Done"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:145(para)
+#: contributor-docs/C/qa-team.xml:133(para)
 msgid "Check that notes in the Tester Notes card is up to date"
 msgstr ""
 
-#: contributor-docs/C/qa-team.xml:146(para)
+#: contributor-docs/C/qa-team.xml:134(para)
 msgid "Check that the draft Release Note is up to date"
 msgstr ""
 
@@ -2710,10 +2714,43 @@ msgid ""
 "account</ulink>."
 msgstr ""
 
+#: contributor-docs/C/common-reference.xml:149(title)
+msgid "Useful QA Links"
+msgstr ""
+
+#: contributor-docs/C/common-reference.xml:152(ulink)
+msgid "Xubuntu QA Trello"
+msgstr ""
+
+#: contributor-docs/C/common-reference.xml:153(ulink)
+msgid "Xubuntu QA"
+msgstr ""
+
+#: contributor-docs/C/common-reference.xml:154(ulink)
+msgid "Xubuntu Testers"
+msgstr ""
+
+#: contributor-docs/C/common-reference.xml:155(ulink)
+msgid "ISO Tracker"
+msgstr ""
+
+#: contributor-docs/C/common-reference.xml:156(ulink)
+msgid "Package Tracker"
+msgstr ""
+
+#: contributor-docs/C/common-reference.xml:157(ulink)
+msgid "Ubuntu QA Team Wiki"
+msgstr ""
+
+#: contributor-docs/C/common-reference.xml:158(ulink)
+msgid "Ubuntu Manual Tests"
+msgstr ""
+
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: contributor-docs/C/common-reference.xml:0(None)
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
 "  David Pires https://launchpad.net/~slickymaster\n"
-"  Jean-Marc https://launchpad.net/~m-balthazar"
+"  Jean-Marc https://launchpad.net/~m-balthazar\n"
+"  Yosha872 https://launchpad.net/~yosha"
