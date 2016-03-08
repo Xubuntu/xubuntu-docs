@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
 	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
 <!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
 %xubuntu-common;
@@ -79,16 +79,16 @@
 		<title>Subteam Documentation</title>
 		<xi:include href="development.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 		<xi:include href="documentation.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-		<xi:include href="qa-team.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 		<xi:include href="qa-testing.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 		<xi:include href="qa-bugs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+		<xi:include href="qa-team.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 		<xi:include href="website.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	</part>
 	<!-- Common documentation -->
 	<xi:include href="processes.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="processes-release-cycle.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<!-- Appendice -->
-	<xi:include href="strategy-document.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>	
+	<xi:include href="strategy-document.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="common-reference.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="../../libs-common/cc-by-sa.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </book>
