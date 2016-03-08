@@ -77,6 +77,8 @@
 <!ENTITY additional-drivers '<application><menuchoice>&appmenu;<guimenuitem>Settings</guimenuitem><guimenuitem>Additional Drivers</guimenuitem></menuchoice></application>' >
 <!ENTITY file-manager '<application><menuchoice>&appmenu;<guisubmenu>Accessories</guisubmenu><guimenuitem>File Manager</guimenuitem></menuchoice></application>' >
 <!ENTITY gigolo '<application><menuchoice>&appmenu;<guisubmenu>System</guisubmenu><guimenuitem>Gigolo</guimenuitem></menuchoice></application>' >
+<!ENTITY gnome-software '<application><menuchoice>&appmenu;<guimenuitem>Software</guimenuitem></menuchoice></application>' >
+<!ENTITY gnome-software-properties '<application><menuchoice>&appmenu;<guimenuitem>Software</guimenuitem><guimenuitem>App menu</guimenuitem><guimenuitem>Software Sources</guimenuitem></menuchoice></application>' >
 <!ENTITY gparted '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>GParted</guimenuitem></menuchoice></application>' >
 <!ENTITY log-out '<application><menuchoice>&appmenu;<guimenuitem>Log Out</guimenuitem></menuchoice></application>' >
 <!ENTITY ndisgtk '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Windows Wireless Drivers</guimenuitem></menuchoice></application>' >
@@ -92,9 +94,7 @@
 <!ENTITY settings-window-manager '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Window Manager</guimenuitem></menuchoice></application>' >
 <!ENTITY settings-window-manager-tweaks '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Window Manager Tweaks</guimenuitem></menuchoice></application>' >
 <!ENTITY simple-scan '<application><menuchoice>&appmenu;<guisubmenu>Graphics</guisubmenu><guimenuitem>Simple Scan</guimenuitem></menuchoice></application>' >
-<!ENTITY software-center '<application><menuchoice>&appmenu;<guimenuitem>Ubuntu Software Center</guimenuitem></menuchoice></application>' >
 <!ENTITY software-properties '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice></application>' >
-<!ENTITY software-properties-usc '<application><menuchoice>&appmenu;<guimenuitem>Ubuntu Software Center</guimenuitem><guimenuitem>Edit</guimenuitem><guimenuitem>Software Sources</guimenuitem></menuchoice></application>' >
 <!ENTITY software-updater '<application><menuchoice>&appmenu;<guimenuitem>Settings Manager</guimenuitem><guimenuitem>Software Updater</guimenuitem></menuchoice></application>' >
 <!ENTITY system-menu '<application><menuchoice>&appmenu;<guimenuitem>System (menu)</guimenuitem></menuchoice></application>' >
 <!ENTITY terminal '<application><menuchoice>&appmenu;<guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal Emulator</guimenuitem></menuchoice></application>' >

@@ -21,7 +21,7 @@
 			<segmentedlist>
 				<?dbhtml list-presentation="table"?>
 				<segtitle>Windows</segtitle><segtitle>Xubuntu</segtitle>
-				<seglistitem><seg>Add/Remove Programs</seg><seg>&software-center;</seg></seglistitem>
+				<seglistitem><seg>Add/Remove Programs</seg><seg>&gnome-software;</seg></seglistitem>
 				<seglistitem><seg>Control Panel</seg><seg>&wm-settings-manager; for personal preferences <?br?> &system-menu; for additional configuration</seg></seglistitem>
 				<seglistitem><seg>Windows Explorer</seg><seg>&file-manager;</seg></seglistitem>
 				<seglistitem><seg>My Documents</seg><seg>&location_home;</seg></seglistitem>
@@ -79,7 +79,7 @@
 
 			<para>If you want to change your upgrade path, you can do it when running an LTS version. To do so, choose one of the following options:</para>
 			<itemizedlist>
-				<listitem><para>Navigate to &software-properties-usc; and select the <guilabel>Updates</guilabel> tab. In the <guilabel>Updates</guilabel> tab, select either <guilabel>For any new version</guilabel> or <guilabel>For long-term support versions</guilabel> from the <guilabel>Notify me of a new Ubuntu version</guilabel> dropdown depending on your choice.</para></listitem>
+				<listitem><para>Navigate to &gnome-software-properties; and select the <guilabel>Updates</guilabel> tab. In the <guilabel>Updates</guilabel> tab, select either <guilabel>For any new version</guilabel> or <guilabel>For long-term support versions</guilabel> from the <guilabel>Notify me of a new Ubuntu version</guilabel> dropdown depending on your choice.</para></listitem>
 				<listitem><para>Open the &terminal; and run <userinput>sudoedit /etc/update-manager/release-upgrades</userinput> and change the line starting with <literal>prompt=</literal> to <userinput>prompt=normal</userinput> (for all releases) or <userinput>prompt=lts</userinput> (for LTS releases) depending on your choice</para></listitem>
 			</itemizedlist>
 

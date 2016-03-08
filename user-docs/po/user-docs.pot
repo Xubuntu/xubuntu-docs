@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-03-07 21:52+0000\n"
+"POT-Creation-Date: 2016-03-08 22:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -670,7 +670,7 @@ msgid "Add/Remove Programs"
 msgstr ""
 
 #: user-docs/C/migrating-upgrading.xml:0(guimenuitem)
-msgid "Ubuntu Software Center"
+msgid "Software"
 msgstr ""
 
 #: user-docs/C/migrating-upgrading.xml:25(seg)
@@ -802,7 +802,7 @@ msgid "If you want to change your upgrade path, you can do it when running an LT
 msgstr ""
 
 #: user-docs/C/migrating-upgrading.xml:82(para)
-msgid "Navigate to <application><menuchoice><placeholder-1/><guimenuitem>Ubuntu Software Center</guimenuitem><guimenuitem>Edit</guimenuitem><guimenuitem>Software Sources</guimenuitem></menuchoice></application> and select the <guilabel>Updates</guilabel> tab. In the <guilabel>Updates</guilabel> tab, select either <guilabel>For any new version</guilabel> or <guilabel>For long-term support versions</guilabel> from the <guilabel>Notify me of a new Ubuntu version</guilabel> dropdown depending on your choice."
+msgid "Navigate to <application><menuchoice><placeholder-1/><guimenuitem>Software</guimenuitem><guimenuitem>App menu</guimenuitem><guimenuitem>Software Sources</guimenuitem></menuchoice></application> and select the <guilabel>Updates</guilabel> tab. In the <guilabel>Updates</guilabel> tab, select either <guilabel>For any new version</guilabel> or <guilabel>For long-term support versions</guilabel> from the <guilabel>Notify me of a new Ubuntu version</guilabel> dropdown depending on your choice."
 msgstr ""
 
 #: user-docs/C/migrating-upgrading.xml:83(para)
@@ -972,7 +972,7 @@ msgid "Xubuntu comes with two package managers installed:"
 msgstr ""
 
 #: user-docs/C/managing-applications.xml:21(para)
-msgid "<application>Ubuntu Software Center</application>, a simple graphical user interface to install new software."
+msgid "<application>Gnome Software</application>, a simple graphical user interface to install new software."
 msgstr ""
 
 #: user-docs/C/managing-applications.xml:22(para)
@@ -988,11 +988,11 @@ msgid "You can only use one package manager at a time. If you start another pack
 msgstr ""
 
 #: user-docs/C/managing-applications.xml:30(title)
-msgid "Using Ubuntu Software Center"
+msgid "Using Gnome Software"
 msgstr ""
 
 #: user-docs/C/managing-applications.xml:32(para)
-msgid "You can launch Ubuntu Software Center from <application><menuchoice><placeholder-1/><guimenuitem>Ubuntu Software Center</guimenuitem></menuchoice></application>."
+msgid "You can launch Gnome Software from <application><menuchoice><placeholder-1/><guimenuitem>Software</guimenuitem></menuchoice></application>."
 msgstr ""
 
 #: user-docs/C/managing-applications.xml:35(title)
@@ -1056,7 +1056,7 @@ msgid "It is possible to add extra repositories, such as those provided by third
 msgstr ""
 
 #: user-docs/C/managing-applications.xml:70(para)
-msgid "Open <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> Settings Manager</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice></application> or <application><menuchoice><placeholder-3/><guimenuitem>Ubuntu Software Center</guimenuitem><guimenuitem>Edit</guimenuitem><guimenuitem>Software Sources</guimenuitem></menuchoice></application> and go to the <guilabel>Other Software</guilabel> tab"
+msgid "Open <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> Settings Manager</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice></application> or <application><menuchoice><placeholder-3/><guimenuitem>Software</guimenuitem><guimenuitem>App menu</guimenuitem><guimenuitem>Software Sources</guimenuitem></menuchoice></application> and go to the <guilabel>Other Software</guilabel> tab"
 msgstr ""
 
 #: user-docs/C/managing-applications.xml:71(para)
@@ -1858,11 +1858,11 @@ msgid "Empty your trash by right-clicking the <guilabel>Trash</guilabel> icon on
 msgstr ""
 
 #: user-docs/C/hardware-devices.xml:88(para)
-msgid "Remove software packages that you no longer use. See the <application>Ubuntu Software Center</application> for information on removing packages."
+msgid "Remove software packages that you no longer use. See <application>Gnome Software</application> for information on removing packages."
 msgstr ""
 
 #: user-docs/C/hardware-devices.xml:89(para)
-msgid "Delete files that you no longer need. You can install the <application>GNOME Disk Usage Analyzer</application> from the <application>Ubuntu Software Center</application> to find which files are taking up the most space."
+msgid "Delete files that you no longer need. You can install the <application>GNOME Disk Usage Analyzer</application> from <application>Gnome Software</application> to find which files are taking up the most space."
 msgstr ""
 
 #: user-docs/C/hardware-devices.xml:92(para)
@@ -1874,7 +1874,7 @@ msgid "Partitioning a Device"
 msgstr ""
 
 #: user-docs/C/hardware-devices.xml:98(para)
-msgid "You can use <application>GParted (GNOME Partition Editor)</application> to partition storage devices. Install <application>GParted</application> from the <application>Ubuntu Software Center</application> and then go to <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> Settings Manager</guimenuitem><guimenuitem>GParted</guimenuitem></menuchoice></application> to start the partition editor."
+msgid "You can use <application>GParted (GNOME Partition Editor)</application> to partition storage devices. Install <application>GParted</application> from <application>Gnome Software</application> and then go to <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> Settings Manager</guimenuitem><guimenuitem>GParted</guimenuitem></menuchoice></application> to start the partition editor."
 msgstr ""
 
 #: user-docs/C/hardware-devices.xml:100(para)
@@ -2102,7 +2102,7 @@ msgid "To enable and use hibernation with Xubuntu, do the following:"
 msgstr ""
 
 #: user-docs/C/hardware-devices.xml:236(para)
-msgid "Install the <application>pm-utils</application> package from the <application>Ubuntu Software Center</application>."
+msgid "Install the <application>pm-utils</application> package from <application>Gnome Software</application>."
 msgstr ""
 
 #: user-docs/C/hardware-devices.xml:237(para)
@@ -2388,7 +2388,7 @@ msgid "Password managers are a very convenient way of using many unique password
 msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:185(para)
-msgid "There are several password managers available in the <application>Ubuntu Software Center</application>, including <application>KeePassX</application> and <application>PaSaffe</application>."
+msgid "There are several password managers available in <application>Gnome Software</application>, including <application>KeePassX</application> and <application>PaSaffe</application>."
 msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:190(para)
@@ -2508,7 +2508,7 @@ msgid "Label your backups clearly and keep them in a safe place"
 msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:286(para)
-msgid "There are numerous dedicated backup applications available in the <application>Ubuntu Software Center</application>, including <application>Dejà Dup</application> and <application>luckyBackup</application>."
+msgid "There are numerous dedicated backup applications available in <application>Gnome Software</application>, including <application>Dejà Dup</application> and <application>luckyBackup</application>."
 msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:290(para)

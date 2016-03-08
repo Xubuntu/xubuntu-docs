@@ -18,7 +18,7 @@
 	<para>Xubuntu comes with two package managers installed:</para>
 
 	<itemizedlist>
-		<listitem><para><application>Ubuntu Software Center</application>, a simple graphical user interface to install new software.</para></listitem>
+		<listitem><para><application>Gnome Software</application>, a simple graphical user interface to install new software.</para></listitem>
 		<listitem><para><application>apt-get</application>, a command-line tool that can be used for advanced package management. For more information on <application>apt-get</application>, see the <ulink url="&debian-apt-manual;">Debian apt manual</ulink>.</para></listitem>
 	</itemizedlist>
 
@@ -26,12 +26,12 @@
 
 	<caution><para>You can only use one package manager at a time. If you start another package manager while one is already open, you will receive an error message and the second package manager will not function correctly.</para></caution>
 
-	<section id="ubuntu-software-center">
-		<title>Using Ubuntu Software Center</title>
+	<section id="gnome-software">
+		<title>Using Gnome Software</title>
 
-		<para>You can launch Ubuntu Software Center from &software-center;.</para>
+		<para>You can launch Gnome Software from &gnome-software;.</para>
 
-		<section id="usc-install">
+		<section id="gs-install">
 			<title>Installing new software</title>
 
 			<itemizedlist>
@@ -44,7 +44,7 @@
 			<note><para>To be able to install new software from the repositories, you need to be connected to the Internet.See <xref linkend="offline-packages"/> for information on using apt-offline</para></note>
 		</section>
 
-		<section id="usc-remove">
+		<section id="gs-remove">
 			<title>Removing software</title>
 
 			<itemizedlist>
@@ -67,7 +67,7 @@
 			<para>It is possible to add extra repositories, such as those provided by third parties. To enable more software repositories:</para>
 
 			<itemizedlist>
-				<listitem><para>Open &wm-software-properties; or &software-properties-usc; and go to the <guilabel>Other Software</guilabel> tab</para></listitem>
+				<listitem><para>Open &wm-software-properties; or &gnome-software-properties; and go to the <guilabel>Other Software</guilabel> tab</para></listitem>
 				<listitem><para>Press <guibutton>Add...</guibutton> to add a new repository.</para></listitem>
 				<listitem><para>Enter the APT line for the extra repository. This is available from the website of the repository in the majority of cases and it should look something like the following: <literal>deb http://ftp.debian.org etch main</literal></para></listitem>
 				<listitem><para>Press <guibutton>Add Source</guibutton> and then click <guibutton>Close</guibutton> to save your changes.</para></listitem>
