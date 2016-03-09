@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-03-07 21:52+0000\n"
+"POT-Creation-Date: 2016-03-08 22:18+0000\n"
 "PO-Revision-Date: 2015-10-26 10:30+0000\n"
 "Last-Translator: Cédric VALMARY (Tot en òc) <cvalmary@yahoo.fr>\n"
 "Language-Team: Occitan (post 1500) <oc@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-03-08 06:03+0000\n"
+"X-Launchpad-Export-Date: 2016-03-09 06:08+0000\n"
 "X-Generator: Launchpad (build 17936)\n"
 
 #: user-docs/C/xi-translators-not-found.xml:1(para)
@@ -1088,8 +1088,8 @@ msgid "Add/Remove Programs"
 msgstr "Installar/desintallar de logicials"
 
 #: user-docs/C/migrating-upgrading.xml:0(guimenuitem)
-msgid "Ubuntu Software Center"
-msgstr "Logitèca Ubuntu"
+msgid "Software"
+msgstr ""
 
 #: user-docs/C/migrating-upgrading.xml:25(seg)
 msgid "Control Panel"
@@ -1289,9 +1289,9 @@ msgstr ""
 
 #: user-docs/C/migrating-upgrading.xml:82(para)
 msgid ""
-"Navigate to <application><menuchoice><placeholder-1/><guimenuitem>Ubuntu "
-"Software "
-"Center</guimenuitem><guimenuitem>Edit</guimenuitem><guimenuitem>Software "
+"Navigate to <application><menuchoice><placeholder-"
+"1/><guimenuitem>Software</guimenuitem><guimenuitem>App "
+"menu</guimenuitem><guimenuitem>Software "
 "Sources</guimenuitem></menuchoice></application> and select the "
 "<guilabel>Updates</guilabel> tab. In the <guilabel>Updates</guilabel> tab, "
 "select either <guilabel>For any new version</guilabel> or <guilabel>For long-"
@@ -1573,8 +1573,8 @@ msgstr ""
 
 #: user-docs/C/managing-applications.xml:21(para)
 msgid ""
-"<application>Ubuntu Software Center</application>, a simple graphical user "
-"interface to install new software."
+"<application>Gnome Software</application>, a simple graphical user interface "
+"to install new software."
 msgstr ""
 
 #: user-docs/C/managing-applications.xml:22(para)
@@ -1597,14 +1597,13 @@ msgid ""
 msgstr ""
 
 #: user-docs/C/managing-applications.xml:30(title)
-msgid "Using Ubuntu Software Center"
+msgid "Using Gnome Software"
 msgstr ""
 
 #: user-docs/C/managing-applications.xml:32(para)
 msgid ""
-"You can launch Ubuntu Software Center from "
-"<application><menuchoice><placeholder-1/><guimenuitem>Ubuntu Software "
-"Center</guimenuitem></menuchoice></application>."
+"You can launch Gnome Software from <application><menuchoice><placeholder-"
+"1/><guimenuitem>Software</guimenuitem></menuchoice></application>."
 msgstr ""
 
 #: user-docs/C/managing-applications.xml:35(title)
@@ -1689,8 +1688,9 @@ msgid ""
 "Open <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
 "Settings Manager</guimenuitem><guimenuitem>Software &amp; "
 "Updates</guimenuitem></menuchoice></application> or "
-"<application><menuchoice><placeholder-3/><guimenuitem>Ubuntu Software "
-"Center</guimenuitem><guimenuitem>Edit</guimenuitem><guimenuitem>Software "
+"<application><menuchoice><placeholder-"
+"3/><guimenuitem>Software</guimenuitem><guimenuitem>App "
+"menu</guimenuitem><guimenuitem>Software "
 "Sources</guimenuitem></menuchoice></application> and go to the "
 "<guilabel>Other Software</guilabel> tab"
 msgstr ""
@@ -2909,15 +2909,15 @@ msgstr ""
 
 #: user-docs/C/hardware-devices.xml:88(para)
 msgid ""
-"Remove software packages that you no longer use. See the <application>Ubuntu "
-"Software Center</application> for information on removing packages."
+"Remove software packages that you no longer use. See <application>Gnome "
+"Software</application> for information on removing packages."
 msgstr ""
 
 #: user-docs/C/hardware-devices.xml:89(para)
 msgid ""
 "Delete files that you no longer need. You can install the <application>GNOME "
-"Disk Usage Analyzer</application> from the <application>Ubuntu Software "
-"Center</application> to find which files are taking up the most space."
+"Disk Usage Analyzer</application> from <application>Gnome "
+"Software</application> to find which files are taking up the most space."
 msgstr ""
 
 #: user-docs/C/hardware-devices.xml:92(para)
@@ -2932,7 +2932,7 @@ msgstr ""
 msgid ""
 "You can use <application>GParted (GNOME Partition Editor)</application> to "
 "partition storage devices. Install <application>GParted</application> from "
-"the <application>Ubuntu Software Center</application> and then go to "
+"<application>Gnome Software</application> and then go to "
 "<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
 "Settings "
 "Manager</guimenuitem><guimenuitem>GParted</guimenuitem></menuchoice></applica"
@@ -3295,8 +3295,8 @@ msgstr ""
 
 #: user-docs/C/hardware-devices.xml:236(para)
 msgid ""
-"Install the <application>pm-utils</application> package from the "
-"<application>Ubuntu Software Center</application>."
+"Install the <application>pm-utils</application> package from "
+"<application>Gnome Software</application>."
 msgstr ""
 
 #: user-docs/C/hardware-devices.xml:237(para)
@@ -3716,9 +3716,9 @@ msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:185(para)
 msgid ""
-"There are several password managers available in the <application>Ubuntu "
-"Software Center</application>, including <application>KeePassX</application> "
-"and <application>PaSaffe</application>."
+"There are several password managers available in <application>Gnome "
+"Software</application>, including <application>KeePassX</application> and "
+"<application>PaSaffe</application>."
 msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:190(para)
@@ -3904,10 +3904,9 @@ msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:286(para)
 msgid ""
-"There are numerous dedicated backup applications available in the "
-"<application>Ubuntu Software Center</application>, including "
-"<application>Dejà Dup</application> and "
-"<application>luckyBackup</application>."
+"There are numerous dedicated backup applications available in "
+"<application>Gnome Software</application>, including <application>Dejà "
+"Dup</application> and <application>luckyBackup</application>."
 msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:290(para)

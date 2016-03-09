@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-03-07 21:52+0000\n"
-"PO-Revision-Date: 2015-10-26 10:30+0000\n"
-"Last-Translator: Kentaro Kazuhama <Unknown>\n"
+"POT-Creation-Date: 2016-03-08 22:18+0000\n"
+"PO-Revision-Date: 2016-03-08 07:38+0000\n"
+"Last-Translator: Kiyotaka Nemoto <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-03-08 06:03+0000\n"
+"X-Launchpad-Export-Date: 2016-03-09 06:07+0000\n"
 "X-Generator: Launchpad (build 17936)\n"
 
 #: user-docs/C/xi-translators-not-found.xml:1(para)
@@ -646,7 +646,7 @@ msgstr ""
 
 #: user-docs/C/printing-scanning.xml:22(title)
 msgid "Local printing"
-msgstr ""
+msgstr "ローカルプリンターでの印刷"
 
 #: user-docs/C/printing-scanning.xml:24(para)
 msgid ""
@@ -675,6 +675,9 @@ msgid ""
 "Manager</guimenuitem><guimenuitem>Printers</guimenuitem></menuchoice></applic"
 "ation>"
 msgstr ""
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"設定マネージャー</guimenuitem><guimenuitem>プリンター</guimenuitem></menuchoice></applicat"
+"ion>に移動します"
 
 #: user-docs/C/printing-scanning.xml:30(para) user-docs/C/printing-scanning.xml:52(para)
 msgid ""
@@ -958,6 +961,8 @@ msgid ""
 "<literal>#</literal> from in front of the name of the driver. You may need "
 "to search the web to find out which driver is the right one."
 msgstr ""
+"ドライバー名の前にある <literal>#</literal> "
+"を削除して、スキャナーの正しいドライバーを有効にします。ウェブを検索して、合っているドライバーを見つける必要があるかもしれません。"
 
 #: user-docs/C/printing-scanning.xml:123(para)
 msgid ""
@@ -1171,7 +1176,7 @@ msgid "Add/Remove Programs"
 msgstr ""
 
 #: user-docs/C/migrating-upgrading.xml:0(guimenuitem)
-msgid "Ubuntu Software Center"
+msgid "Software"
 msgstr ""
 
 #: user-docs/C/migrating-upgrading.xml:25(seg)
@@ -1300,6 +1305,8 @@ msgid ""
 "If some options are not available or do not work, ensure that the "
 "<literal><placeholder-1/>gvfs-backends</literal> is installed."
 msgstr ""
+"一部のオプションが利用できないか、動作しない場合は、 <literal><placeholder-1/>gvfs-backends</literal> "
+"がインストールされているか確認してください。"
 
 #: user-docs/C/migrating-upgrading.xml:56(title)
 msgid "Upgrading Xubuntu"
@@ -1390,9 +1397,9 @@ msgstr ""
 
 #: user-docs/C/migrating-upgrading.xml:82(para)
 msgid ""
-"Navigate to <application><menuchoice><placeholder-1/><guimenuitem>Ubuntu "
-"Software "
-"Center</guimenuitem><guimenuitem>Edit</guimenuitem><guimenuitem>Software "
+"Navigate to <application><menuchoice><placeholder-"
+"1/><guimenuitem>Software</guimenuitem><guimenuitem>App "
+"menu</guimenuitem><guimenuitem>Software "
 "Sources</guimenuitem></menuchoice></application> and select the "
 "<guilabel>Updates</guilabel> tab. In the <guilabel>Updates</guilabel> tab, "
 "select either <guilabel>For any new version</guilabel> or <guilabel>For long-"
@@ -1496,6 +1503,8 @@ msgid ""
 "the instructions below. There are some legal issues that you should be aware "
 "of."
 msgstr ""
+"以下の指示に従う前に、<xref linkend=\"software-repositories-restricted\"/> "
+"を読んでください。知っておくべき法的問題があります。"
 
 #: user-docs/C/media-apps.xml:31(title)
 msgid "Portable music players"
@@ -1549,7 +1558,7 @@ msgstr ""
 
 #: user-docs/C/media-apps.xml:53(para)
 msgid "To be able to play DVDs, do the following:"
-msgstr ""
+msgstr "DVDを再生するには、以下を実行してください："
 
 #: user-docs/C/media-apps.xml:56(para)
 msgid ""
@@ -1620,6 +1629,9 @@ msgid ""
 "are proprietary and so support for them cannot be included in Xubuntu by "
 "default. You must install some extra software to allow playback."
 msgstr ""
+"Adobe Flash、QuickTime、Windows Media "
+"Videoといった動画形式はプロプライエタリな形式であるため、Xubuntuはデフォルトではサポートに含んでいません。再生を許可するには、いくつかの追加ソ"
+"フトウェアをインストールする必要があります。"
 
 #: user-docs/C/media-apps.xml:75(para)
 msgid ""
@@ -1666,7 +1678,7 @@ msgstr ""
 
 #: user-docs/C/managing-applications.xml:14(title)
 msgid "Managing installed applications"
-msgstr ""
+msgstr "インストール済みアプリケーションの管理"
 
 #: user-docs/C/managing-applications.xml:16(para)
 msgid ""
@@ -1682,11 +1694,9 @@ msgstr "Xubuntuには2つのパッケージマネージャーがインストー�
 
 #: user-docs/C/managing-applications.xml:21(para)
 msgid ""
-"<application>Ubuntu Software Center</application>, a simple graphical user "
-"interface to install new software."
+"<application>Gnome Software</application>, a simple graphical user interface "
+"to install new software."
 msgstr ""
-"<application>Ubuntu ソフトウェアセンター</application> "
-"新しいソフトウェアをインストールするためのシンプルなグラフィカルユーザーインターフェース"
 
 #: user-docs/C/managing-applications.xml:22(para)
 msgid ""
@@ -1708,18 +1718,14 @@ msgid ""
 msgstr ""
 
 #: user-docs/C/managing-applications.xml:30(title)
-msgid "Using Ubuntu Software Center"
-msgstr "Ubuntuソフトウェアセンターの利用"
+msgid "Using Gnome Software"
+msgstr ""
 
 #: user-docs/C/managing-applications.xml:32(para)
 msgid ""
-"You can launch Ubuntu Software Center from "
-"<application><menuchoice><placeholder-1/><guimenuitem>Ubuntu Software "
-"Center</guimenuitem></menuchoice></application>."
+"You can launch Gnome Software from <application><menuchoice><placeholder-"
+"1/><guimenuitem>Software</guimenuitem></menuchoice></application>."
 msgstr ""
-"Ubuntu ソフトウェアセンターは <application><menuchoice><placeholder-"
-"1/><guimenuitem>Ubuntu "
-"ソフトウェアセンター</guimenuitem></menuchoice></application>から起動できます。"
 
 #: user-docs/C/managing-applications.xml:35(title)
 msgid "Installing new software"
@@ -1803,8 +1809,9 @@ msgid ""
 "Open <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
 "Settings Manager</guimenuitem><guimenuitem>Software &amp; "
 "Updates</guimenuitem></menuchoice></application> or "
-"<application><menuchoice><placeholder-3/><guimenuitem>Ubuntu Software "
-"Center</guimenuitem><guimenuitem>Edit</guimenuitem><guimenuitem>Software "
+"<application><menuchoice><placeholder-"
+"3/><guimenuitem>Software</guimenuitem><guimenuitem>App "
+"menu</guimenuitem><guimenuitem>Software "
 "Sources</guimenuitem></menuchoice></application> and go to the "
 "<guilabel>Other Software</guilabel> tab"
 msgstr ""
@@ -1951,7 +1958,7 @@ msgstr ""
 
 #: user-docs/C/managing-applications.xml:116(title)
 msgid "Helpful application"
-msgstr ""
+msgstr "役に立つアプリケーション"
 
 #: user-docs/C/managing-applications.xml:118(para)
 msgid ""
@@ -1965,7 +1972,7 @@ msgstr ""
 
 #: user-docs/C/managing-applications.xml:124(title)
 msgid "Changing update frequency and behavior"
-msgstr ""
+msgstr "アップデートの頻度と挙動の変更"
 
 #: user-docs/C/managing-applications.xml:126(para)
 msgid ""
@@ -1987,7 +1994,7 @@ msgstr ""
 
 #: user-docs/C/managing-applications.xml:130(title)
 msgid "Update Sources"
-msgstr ""
+msgstr "ソースのアップデート"
 
 #: user-docs/C/managing-applications.xml:133(para)
 msgid ""
@@ -2030,7 +2037,7 @@ msgstr ""
 
 #: user-docs/C/managing-applications.xml:146(title)
 msgid "Notifications of new Xubuntu versions"
-msgstr ""
+msgstr "Xubuntuの新バージョンの通知"
 
 #: user-docs/C/managing-applications.xml:148(para)
 msgid ""
@@ -2053,7 +2060,7 @@ msgstr ""
 #: user-docs/C/managing-applications.xml:153(para)
 msgid ""
 "<guilabel>Never</guilabel> - You will not get notifications of new releases"
-msgstr ""
+msgstr "<guilabel>なし</guilabel> - 新しいリリースは通知されません"
 
 #: user-docs/C/managing-applications.xml:156(para)
 msgid ""
@@ -2105,7 +2112,7 @@ msgstr ""
 
 #: user-docs/C/internet-networks.xml:14(title)
 msgid "Connecting to Internet and Networks"
-msgstr ""
+msgstr "インターネットやネットワークへの接続"
 
 #: user-docs/C/internet-networks.xml:16(para)
 msgid ""
@@ -2125,11 +2132,11 @@ msgstr ""
 
 #: user-docs/C/internet-networks.xml:21(title)
 msgid "Network connections"
-msgstr ""
+msgstr "ネットワーク接続"
 
 #: user-docs/C/internet-networks.xml:24(title)
 msgid "Connecting and disconnecting"
-msgstr ""
+msgstr "接続と切断"
 
 #: user-docs/C/internet-networks.xml:26(para)
 msgid ""
@@ -2168,7 +2175,7 @@ msgstr ""
 
 #: user-docs/C/internet-networks.xml:36(title)
 msgid "Configuring connections"
-msgstr ""
+msgstr "接続の設定"
 
 #: user-docs/C/internet-networks.xml:38(para)
 msgid ""
@@ -2189,7 +2196,7 @@ msgstr ""
 
 #: user-docs/C/internet-networks.xml:44(title)
 msgid "Connection information"
-msgstr ""
+msgstr "接続情報"
 
 #: user-docs/C/internet-networks.xml:46(para)
 msgid ""
@@ -2202,7 +2209,7 @@ msgstr ""
 
 #: user-docs/C/internet-networks.xml:50(title)
 msgid "Sharing your connection to another computer"
-msgstr ""
+msgstr "ネットワーク接続を他のコンピューターと共有する"
 
 #: user-docs/C/internet-networks.xml:52(para)
 msgid ""
@@ -2218,7 +2225,7 @@ msgstr ""
 
 #: user-docs/C/internet-networks.xml:56(title)
 msgid "Dialup modems"
-msgstr ""
+msgstr "ダイヤルアップモデム"
 
 #: user-docs/C/internet-networks.xml:58(para)
 msgid ""
@@ -2231,7 +2238,7 @@ msgstr ""
 
 #: user-docs/C/internet-networks.xml:62(title)
 msgid "Network troubleshooting"
-msgstr ""
+msgstr "ネットワークのトラブルシューティング"
 
 #: user-docs/C/internet-networks.xml:64(para)
 msgid ""
@@ -2280,7 +2287,7 @@ msgstr ""
 
 #: user-docs/C/internet-networks.xml:81(title)
 msgid "General troubleshooting"
-msgstr ""
+msgstr "一般的なトラブルシューティング"
 
 #: user-docs/C/internet-networks.xml:83(para)
 msgid ""
@@ -2322,7 +2329,7 @@ msgstr ""
 
 #: user-docs/C/internet-networks.xml:100(para)
 msgid "Using <application>ifconfig</application>"
-msgstr ""
+msgstr "<application>ifconfig</application> を使う"
 
 #: user-docs/C/internet-networks.xml:102(para)
 msgid ""
@@ -2508,11 +2515,11 @@ msgstr ""
 
 #: user-docs/C/internet-networks.xml:167(para)
 msgid "Click <guibutton>OK</guibutton>"
-msgstr ""
+msgstr "<guibutton>OK</guibutton>をクリックします"
 
 #: user-docs/C/internet-networks.xml:172(title)
 msgid "Checking for a connection to the router"
-msgstr ""
+msgstr "ルーターへの接続を確認する"
 
 #: user-docs/C/internet-networks.xml:174(para)
 msgid ""
@@ -2542,7 +2549,7 @@ msgstr ""
 
 #: user-docs/C/internet-networks.xml:186(title)
 msgid "Checking IP assignment"
-msgstr ""
+msgstr "IPアドレスの割り当ての確認"
 
 #: user-docs/C/internet-networks.xml:188(para)
 msgid ""
@@ -2575,7 +2582,7 @@ msgstr ""
 
 #: user-docs/C/internet-networks.xml:199(title)
 msgid "Check Domain Name Servers (DNS)"
-msgstr ""
+msgstr "ドメインネームサーバー (DNS)を確認する"
 
 #: user-docs/C/internet-networks.xml:201(para)
 msgid ""
@@ -2607,7 +2614,7 @@ msgstr ""
 
 #: user-docs/C/internet-networks.xml:211(title)
 msgid "Connecting to servers"
-msgstr ""
+msgstr "サーバーに接続する"
 
 #: user-docs/C/internet-networks.xml:213(para)
 msgid ""
@@ -2662,7 +2669,7 @@ msgstr ""
 
 #: user-docs/C/index.xml:14(title) user-docs/C/index.xml:17(title)
 msgid "Xubuntu Documentation"
-msgstr ""
+msgstr "Xubuntu ドキュメント"
 
 #: user-docs/C/index.xml:19(title)
 msgid "Credits and License"
@@ -2788,11 +2795,11 @@ msgstr ""
 
 #: user-docs/C/index.xml:66(year)
 msgid "2014"
-msgstr ""
+msgstr "2014"
 
 #: user-docs/C/index.xml:67(year)
 msgid "2015"
-msgstr ""
+msgstr "2015"
 
 #: user-docs/C/index.xml:68(holder)
 msgid ""
@@ -2843,7 +2850,7 @@ msgstr ""
 
 #: user-docs/C/hardware-devices.xml:14(title)
 msgid "Hardware devices"
-msgstr ""
+msgstr "ハードウェアデバイス"
 
 #: user-docs/C/hardware-devices.xml:16(para)
 msgid ""
@@ -3010,15 +3017,15 @@ msgstr ""
 
 #: user-docs/C/hardware-devices.xml:88(para)
 msgid ""
-"Remove software packages that you no longer use. See the <application>Ubuntu "
-"Software Center</application> for information on removing packages."
+"Remove software packages that you no longer use. See <application>Gnome "
+"Software</application> for information on removing packages."
 msgstr ""
 
 #: user-docs/C/hardware-devices.xml:89(para)
 msgid ""
 "Delete files that you no longer need. You can install the <application>GNOME "
-"Disk Usage Analyzer</application> from the <application>Ubuntu Software "
-"Center</application> to find which files are taking up the most space."
+"Disk Usage Analyzer</application> from <application>Gnome "
+"Software</application> to find which files are taking up the most space."
 msgstr ""
 
 #: user-docs/C/hardware-devices.xml:92(para)
@@ -3033,7 +3040,7 @@ msgstr ""
 msgid ""
 "You can use <application>GParted (GNOME Partition Editor)</application> to "
 "partition storage devices. Install <application>GParted</application> from "
-"the <application>Ubuntu Software Center</application> and then go to "
+"<application>Gnome Software</application> and then go to "
 "<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
 "Settings "
 "Manager</guimenuitem><guimenuitem>GParted</guimenuitem></menuchoice></applica"
@@ -3108,7 +3115,7 @@ msgstr ""
 
 #: user-docs/C/hardware-devices.xml:121(para)
 msgid "To create a new partition:"
-msgstr ""
+msgstr "新しいパーティションを作成するには："
 
 #: user-docs/C/hardware-devices.xml:125(para)
 msgid ""
@@ -3131,11 +3138,11 @@ msgstr ""
 
 #: user-docs/C/hardware-devices.xml:128(para)
 msgid "Click the <guibutton>Add</guibutton> button."
-msgstr ""
+msgstr "<guibutton>追加</guibutton> ボタンをクリックします。"
 
 #: user-docs/C/hardware-devices.xml:134(title)
 msgid "Formatting a partition"
-msgstr ""
+msgstr "パーティションをフォーマットする"
 
 #: user-docs/C/hardware-devices.xml:136(para)
 msgid "To format a partition, do the following:"
@@ -3158,7 +3165,7 @@ msgstr ""
 
 #: user-docs/C/hardware-devices.xml:148(title)
 msgid "Mounting and unmounting devices"
-msgstr ""
+msgstr "デバイスのマウントとアンマウント"
 
 #: user-docs/C/hardware-devices.xml:150(para)
 msgid ""
@@ -3213,7 +3220,7 @@ msgstr ""
 
 #: user-docs/C/hardware-devices.xml:169(para)
 msgid "Changes are applied instantly"
-msgstr ""
+msgstr "変更はすぐに適用されます"
 
 #: user-docs/C/hardware-devices.xml:172(para)
 msgid ""
@@ -3283,7 +3290,7 @@ msgstr ""
 
 #: user-docs/C/hardware-devices.xml:197(title)
 msgid "Suspending and Hibernating"
-msgstr ""
+msgstr "サスペンドとハイバネーション"
 
 #: user-docs/C/hardware-devices.xml:199(para)
 msgid ""
@@ -3388,16 +3395,16 @@ msgstr ""
 
 #: user-docs/C/hardware-devices.xml:231(title)
 msgid "Enabling hibernation"
-msgstr ""
+msgstr "ハイバネーションを有効にする"
 
 #: user-docs/C/hardware-devices.xml:233(para)
 msgid "To enable and use hibernation with Xubuntu, do the following:"
-msgstr ""
+msgstr "Xubuntuでハイバネーションを有効にするには、以下のようにしてください："
 
 #: user-docs/C/hardware-devices.xml:236(para)
 msgid ""
-"Install the <application>pm-utils</application> package from the "
-"<application>Ubuntu Software Center</application>."
+"Install the <application>pm-utils</application> package from "
+"<application>Gnome Software</application>."
 msgstr ""
 
 #: user-docs/C/hardware-devices.xml:237(para)
@@ -3482,7 +3489,7 @@ msgstr ""
 
 #: user-docs/C/hardware-devices.xml:270(guilabel)
 msgid "Cursor blinking speed"
-msgstr ""
+msgstr "カーソルの点滅速度"
 
 #: user-docs/C/hardware-devices.xml:271(guilabel)
 msgid "Application keyboard shortcuts"
@@ -3490,7 +3497,7 @@ msgstr ""
 
 #: user-docs/C/hardware-devices.xml:272(guilabel)
 msgid "Keyboard layout and language"
-msgstr ""
+msgstr "キーボードのレイアウトと言語"
 
 #: user-docs/C/hardware-devices.xml:275(para)
 msgid ""
@@ -3724,24 +3731,27 @@ msgid ""
 "Settings Manager</guimenuitem><guimenuitem>Users and "
 "Groups</guimenuitem></menuchoice></application>"
 msgstr ""
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-"
+"2/>設定マネージャー</guimenuitem><guimenuitem>ユーザーとグループ</guimenuitem></menuchoice></a"
+"pplication>を開きます"
 
 #: user-docs/C/guide-keeping-safe.xml:138(para)
 msgid "Click on your username on the list"
-msgstr ""
+msgstr "一覧にあるあなたのユーザー名をクリックします"
 
 #: user-docs/C/guide-keeping-safe.xml:139(para)
 msgid ""
 "Click <guilabel>Change...</guilabel> next to the "
 "<guilabel>Password</guilabel> label"
-msgstr ""
+msgstr "<guilabel>パスワード</guilabel>ラベルの横にある<guilabel>変更...</guilabel>クリックします"
 
 #: user-docs/C/guide-keeping-safe.xml:140(para)
 msgid "First enter your <guilabel>Current password</guilabel>"
-msgstr ""
+msgstr "はじめにあなたの<guilabel>現在のパスワード</guilabel>を入力します"
 
 #: user-docs/C/guide-keeping-safe.xml:141(para)
 msgid "Now you can either"
-msgstr ""
+msgstr "どちらかを選ぶことができます"
 
 #: user-docs/C/guide-keeping-safe.xml:143(para)
 msgid ""
@@ -3819,9 +3829,9 @@ msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:185(para)
 msgid ""
-"There are several password managers available in the <application>Ubuntu "
-"Software Center</application>, including <application>KeePassX</application> "
-"and <application>PaSaffe</application>."
+"There are several password managers available in <application>Gnome "
+"Software</application>, including <application>KeePassX</application> and "
+"<application>PaSaffe</application>."
 msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:190(para)
@@ -3961,7 +3971,7 @@ msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:260(title) user-docs/C/guide-keeping-safe.xml:280(para)
 msgid "Back up on a regular basis"
-msgstr ""
+msgstr "定期的なバックアップ"
 
 #: user-docs/C/guide-keeping-safe.xml:262(para)
 msgid ""
@@ -4007,10 +4017,9 @@ msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:286(para)
 msgid ""
-"There are numerous dedicated backup applications available in the "
-"<application>Ubuntu Software Center</application>, including "
-"<application>Dejà Dup</application> and "
-"<application>luckyBackup</application>."
+"There are numerous dedicated backup applications available in "
+"<application>Gnome Software</application>, including <application>Dejà "
+"Dup</application> and <application>luckyBackup</application>."
 msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:290(para)
@@ -4076,7 +4085,7 @@ msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:333(title)
 msgid "Lock your screen while away"
-msgstr ""
+msgstr "離席時に画面をロックする"
 
 #: user-docs/C/guide-keeping-safe.xml:335(para)
 msgid ""
@@ -4132,7 +4141,7 @@ msgstr ""
 
 #: user-docs/C/guide-desktop.xml:26(title)
 msgid "The Panel"
-msgstr ""
+msgstr "パネル"
 
 #: user-docs/C/guide-desktop.xml:28(para)
 msgid ""
@@ -4320,7 +4329,7 @@ msgstr ""
 
 #: user-docs/C/guide-desktop.xml:132(title)
 msgid "Customizing Thunar"
-msgstr ""
+msgstr "Thunarのカスタマイズ"
 
 #: user-docs/C/guide-desktop.xml:134(para)
 msgid ""
@@ -4359,7 +4368,7 @@ msgstr ""
 
 #: user-docs/C/guide-default-apps.xml:14(title)
 msgid "Quick guide to default applications"
-msgstr ""
+msgstr "デフォルトアプリケーションのクイックガイド"
 
 #: user-docs/C/guide-default-apps.xml:17(title)
 msgid "Graphics"
@@ -4514,7 +4523,7 @@ msgstr ""
 
 #: user-docs/C/command-line.xml:14(title)
 msgid "The command line"
-msgstr ""
+msgstr "コマンドライン"
 
 #: user-docs/C/command-line.xml:16(para)
 msgid ""
@@ -4527,7 +4536,7 @@ msgstr ""
 #: user-docs/C/command-line.xml:18(para)
 msgid ""
 "To start the default terminal emulator and get to the command line, either:"
-msgstr ""
+msgstr "デフォルトのターミナルエミュレーターを開始し、コマンドラインを入力するには以下の方法があります:"
 
 #: user-docs/C/command-line.xml:21(para)
 msgid ""
@@ -4544,6 +4553,8 @@ msgid ""
 "Press <keycap><placeholder-1/>Alt+F2</keycap> and run <userinput>xfce4-"
 "terminal</userinput>"
 msgstr ""
+"<keycap><placeholder-1/>Alt+F2</keycap>を押し、<userinput>xfce4-"
+"terminal</userinput>を実行"
 
 #: user-docs/C/command-line.xml:25(para)
 msgid ""
@@ -4551,10 +4562,13 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/UsingTheTerminal\">tutorial on using "
 "the command line</ulink> in the Ubuntu community wiki."
 msgstr ""
+"Ubuntu community wikiに<ulink "
+"url=\"https://help.ubuntu.com/community/UsingTheTerminal\">コマンドラインを利用したチュートリア"
+"ル</ulink>があります。"
 
 #: user-docs/C/command-line.xml:28(title)
 msgid "Running commands with administrative rights"
-msgstr ""
+msgstr "管理者権限でコマンドを実行する"
 
 #: user-docs/C/command-line.xml:30(para)
 msgid ""
@@ -4598,10 +4612,12 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/RootSudo\">sudo page</ulink> on the "
 "Ubuntu community wiki."
 msgstr ""
+"<application>sudo</application>の詳細な情報は、Ubuntu community wikiの<ulink "
+"url=\"https://help.ubuntu.com/community/RootSudo\">sudoページ</ulink>にあります。"
 
 #: user-docs/C/command-line.xml:42(title)
 msgid "Common commands"
-msgstr ""
+msgstr "一般的なコマンド"
 
 #: user-docs/C/command-line.xml:44(para)
 msgid ""
@@ -4611,11 +4627,11 @@ msgstr ""
 
 #: user-docs/C/command-line.xml:48(segtitle)
 msgid "Command"
-msgstr ""
+msgstr "コマンド"
 
 #: user-docs/C/command-line.xml:48(segtitle)
 msgid "What it does?"
-msgstr ""
+msgstr "どういった時に実行しますか?"
 
 #: user-docs/C/command-line.xml:48(segtitle)
 msgid "Syntax"
@@ -4644,7 +4660,7 @@ msgstr "apt-cache show firefox"
 
 #: user-docs/C/command-line.xml:49(seg) user-docs/C/command-line.xml:56(seg) user-docs/C/command-line.xml:63(seg)
 msgid "<placeholder-1/> or <placeholder-2/>"
-msgstr ""
+msgstr "<placeholder-1/>または<placeholder-2/>"
 
 #: user-docs/C/command-line.xml:50(userinput)
 #, no-wrap
@@ -4661,7 +4677,7 @@ msgstr ""
 #: user-docs/C/command-line.xml:50(userinput)
 #, no-wrap
 msgid "apt-get [command] [package]"
-msgstr ""
+msgstr "apt-get [コマンド] [パッケージ]"
 
 #: user-docs/C/command-line.xml:51(userinput)
 #, no-wrap
@@ -4675,7 +4691,7 @@ msgstr ""
 #: user-docs/C/command-line.xml:51(userinput)
 #, no-wrap
 msgid "cat [file1] [file2] ... &gt; [output file]"
-msgstr ""
+msgstr "cat [ファイル1] [ファイル2] ... &gt; [出力ファイル]"
 
 #: user-docs/C/command-line.xml:52(userinput)
 #, no-wrap
@@ -4684,12 +4700,12 @@ msgstr "cd"
 
 #: user-docs/C/command-line.xml:52(seg)
 msgid "Changes to another directory"
-msgstr ""
+msgstr "他のディレクトリーに変更します"
 
 #: user-docs/C/command-line.xml:52(userinput)
 #, no-wrap
 msgid "cd [directory]"
-msgstr ""
+msgstr "cd [ディレクトリー]"
 
 #: user-docs/C/command-line.xml:53(userinput)
 #, no-wrap
@@ -4703,7 +4719,7 @@ msgstr ""
 #: user-docs/C/command-line.xml:53(userinput)
 #, no-wrap
 msgid "cp [file(s)] [directory]"
-msgstr ""
+msgstr "cp [ファイル] [ディレクトリ]"
 
 #: user-docs/C/command-line.xml:54(userinput)
 #, no-wrap
@@ -4719,7 +4735,7 @@ msgstr ""
 #: user-docs/C/command-line.xml:54(userinput)
 #, no-wrap
 msgid "date [options]"
-msgstr ""
+msgstr "date [オプション]"
 
 #: user-docs/C/command-line.xml:55(userinput)
 #, no-wrap
@@ -4728,12 +4744,12 @@ msgstr "editor"
 
 #: user-docs/C/command-line.xml:55(seg)
 msgid "Opens a text file in an editor"
-msgstr ""
+msgstr "テキストファイルをエディターで開きます"
 
 #: user-docs/C/command-line.xml:55(userinput)
 #, no-wrap
 msgid "editor [file]"
-msgstr ""
+msgstr "editor [ファイル]"
 
 #: user-docs/C/command-line.xml:56(userinput)
 #, no-wrap
@@ -4742,17 +4758,17 @@ msgstr "grep"
 
 #: user-docs/C/command-line.xml:56(seg)
 msgid "Searches strings or files"
-msgstr ""
+msgstr "文字列やファイルを検索します"
 
 #: user-docs/C/command-line.xml:56(userinput)
 #, no-wrap
 msgid "grep [text] [file(s)]"
-msgstr ""
+msgstr "grep [テキスト] [ファイル]"
 
 #: user-docs/C/command-line.xml:56(userinput)
 #, no-wrap
 msgid "[command] | grep [text]"
-msgstr ""
+msgstr "[コマンド] | grep [テキスト]"
 
 #: user-docs/C/command-line.xml:57(userinput)
 #, no-wrap
@@ -4773,7 +4789,7 @@ msgstr ""
 #: user-docs/C/command-line.xml:57(userinput)
 #, no-wrap
 msgid "kill [-SIGNAL] [PID(s)]"
-msgstr ""
+msgstr "kill [-SIGNAL] [PID]"
 
 #: user-docs/C/command-line.xml:58(userinput)
 #, no-wrap
@@ -4817,7 +4833,7 @@ msgstr ""
 #: user-docs/C/command-line.xml:60(userinput)
 #, no-wrap
 msgid "ls [directory]"
-msgstr ""
+msgstr "ls [ディレクトリー]"
 
 #: user-docs/C/command-line.xml:61(userinput)
 #, no-wrap
@@ -4826,12 +4842,12 @@ msgstr "man"
 
 #: user-docs/C/command-line.xml:61(seg)
 msgid "Shows help about a command"
-msgstr ""
+msgstr "コマンドに関するヘルプを表示"
 
 #: user-docs/C/command-line.xml:61(userinput)
 #, no-wrap
 msgid "man [command]"
-msgstr ""
+msgstr "man [コマンド]"
 
 #: user-docs/C/command-line.xml:62(userinput)
 #, no-wrap
@@ -4840,12 +4856,12 @@ msgstr "mv"
 
 #: user-docs/C/command-line.xml:62(seg)
 msgid "Moves or renames a file"
-msgstr ""
+msgstr "ファイルの移動やリネームを行う"
 
 #: user-docs/C/command-line.xml:62(userinput)
 #, no-wrap
 msgid "mv [filename] [newfilename]"
-msgstr ""
+msgstr "mv [ファイル名] [新しいファイル名]"
 
 #: user-docs/C/command-line.xml:63(userinput)
 #, no-wrap
@@ -4861,12 +4877,12 @@ msgstr ""
 #: user-docs/C/command-line.xml:63(userinput)
 #, no-wrap
 msgid "rm [file(s)]"
-msgstr ""
+msgstr "rm [ファイル]"
 
 #: user-docs/C/command-line.xml:63(userinput)
 #, no-wrap
 msgid "rm -ir [dir(s)]"
-msgstr ""
+msgstr "rm -ir [ディレクトリ]"
 
 #: user-docs/C/command-line.xml:64(userinput)
 #, no-wrap
@@ -4888,7 +4904,7 @@ msgstr ""
 #: user-docs/C/command-line.xml:64(userinput)
 #, no-wrap
 msgid "wget [urls]"
-msgstr ""
+msgstr "wget [URL]"
 
 #: user-docs/C/appendix-packages.xml:14(title)
 msgid "Application table"
@@ -5282,24 +5298,24 @@ msgstr ""
 
 #: user-docs/C/administrative-tasks.xml:36(para)
 msgid "To add a new user:"
-msgstr ""
+msgstr "新しいユーザーを追加するには:"
 
 #: user-docs/C/administrative-tasks.xml:39(para) user-docs/C/administrative-tasks.xml:66(para)
 msgid "Click the <guibutton>Add</guibutton> button"
-msgstr ""
+msgstr "<guibutton>追加</guibutton>ボタンをクリックします"
 
 #: user-docs/C/administrative-tasks.xml:40(para)
 msgid "Enter you password"
-msgstr ""
+msgstr "あなたのパスワードを入力します"
 
 #: user-docs/C/administrative-tasks.xml:41(para)
 msgid ""
 "Fill in the <guilabel>Name</guilabel> and <guilabel>Username</guilabel>"
-msgstr ""
+msgstr "<guilabel>名前</guilabel>と<guilabel>ユーザ名</guilabel>を埋めます"
 
 #: user-docs/C/administrative-tasks.xml:42(para) user-docs/C/administrative-tasks.xml:70(para)
 msgid "Click the <guibutton>OK</guibutton> button"
-msgstr ""
+msgstr "<guibutton>OK</guibutton>ボタンをクリックします"
 
 #: user-docs/C/administrative-tasks.xml:45(para)
 msgid "If you want to give a user administrative rights to the system:"
@@ -5379,6 +5395,7 @@ msgstr ""
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
+"  Kenichi Ito https://launchpad.net/~ken-i54k\n"
 "  Kentaro Kazuhama https://launchpad.net/~kazken3\n"
 "  Kiyotaka Nemoto https://launchpad.net/~kiyotaka\n"
 "  Pasi Lallinaho https://launchpad.net/~knome\n"
