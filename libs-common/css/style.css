@@ -312,7 +312,7 @@ div.warning .inline-icon-pkg img {
 	}
 
 .filename, .literal {
-	font-family: "DejaVu Sans Mono", monospace;
+	font-family: "Liberation Mono", monospace;
 	font-size: 85%;
 }
 	.literal {
@@ -325,7 +325,7 @@ div.warning .inline-icon-pkg img {
 .screen, .programlisting, .userinput, { 
 	padding: 0.2em 0.6em;
 
-	font-family: "DejaVu Sans Mono", monospace;
+	font-family: "Liberation Mono", monospace;
 	font-size: 110%;
 
 	background-color: #ccc;

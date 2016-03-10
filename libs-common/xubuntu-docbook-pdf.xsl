@@ -23,7 +23,7 @@
 	</xsl:attribute-set>
 	<xsl:param name="body.font.family" select="'Noto Sans'"/>
 	<xsl:param name="title.font.family" select="'Noto Sans'"/>
-	<xsl:param name="monospace.font.family" select="'DejaVu Sans Mono'"/>
+	<xsl:param name="monospace.font.family" select="'Liberation Mono'"/>
 	<!-- <xsl:param name="ulink.footnotes">1</xsl:param> -->
 
 	<!-- Section title styles -->
