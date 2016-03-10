@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
 "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
 <!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
 %xubuntu-common;
@@ -21,7 +21,7 @@
 		<section id="printing-local">
 			<title>Local printing</title>
 
-			<para>A local printer is one which is directly connected to your computer (as opposed to a network printer, discussed in <xref linkend="printing-network" />). To set up a new local printer, plug your printer into your computer and power it on. Most printers will be automatically detected and configured. Once detected, a printer icon will appear in the notification area and after waiting a few moments, you should get a popup with the text <guilabel>Printer is ready for printing</guilabel>. If your printer was not detected after a few moments, then you will need to follow these steps:</para>
+			<para>A local printer is one which is directly connected to your computer (as opposed to a network printer, discussed in <xref linkend="printing-network" />). To set up a new local printer, plug your printer into your computer and power it on. Most printers will be automatically detected and configured. Once detected, a printer icon will appear in the notification area and you should get a popup with the text <guilabel>Printer is ready for printing</guilabel>. If your printer was not detected, then you will need to follow these steps:</para>
 
 			<itemizedlist>
 				<listitem><para>Obtain the model name of your printer</para></listitem>
@@ -74,7 +74,7 @@
 		<section id="scanning-compatible">
 			<title>Does my scanner work in Xubuntu?</title>
 
-			<para>There are three ways to see if you scanner works in Xubuntu:</para>
+			<para>There are three ways to see if your scanner works in Xubuntu:</para>
 
 			<itemizedlist>
 				<listitem><para>Simply plug it in and try it! If it is a newer USB scanner, it is likely that it will just work.</para></listitem>

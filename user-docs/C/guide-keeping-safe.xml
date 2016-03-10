@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
 "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
 <!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
 %xubuntu-common;
@@ -38,7 +38,7 @@
 			the settings to your liking.</para>
 		<warning><para>Disabling automatic updates, lowers the
 			security level of your computer. When the automatic updates are turned
-			off, it is essential to remember to upgrade manually often.</para></warning>
+			off, it is essential to remember to manually upgrade often.</para></warning>
 		<tip><para>If you use an Internet connection with limited bandwidth and do
 			not want to use automatic updates, remember to update every time you
 			have access to an unlimited connection.</para></tip>
@@ -168,9 +168,9 @@
 				<listitem><para>change your password on all those services</para></listitem>
 				<listitem><para>verify the recent activity on the concerned accounts (watch out for money transfers; also, email services often keep a log of your recent connections with IP addresses and locations)</para></listitem>
 			</orderedlist>
-			<warning><para><emphasis>Never</emphasis> reveal your 
+			<warning><para><emphasis>Never</emphasis> reveal your
 				<emphasis>password</emphasis> to a third-party website. The website
-				above is OK to use because asks for an email address, which is
+				above is OK to use because it asks for an email address, which is
 				relatively public information. It does not ask for a password.
 				Websites that ask for your password will most likely misuse
 				it.</para></warning>
@@ -207,7 +207,7 @@
 
 		<section id="script-applications-sources">
 			<title>Do not run scripts or install applications from unknown sources</title>
-	
+
 			<itemizedlist>
 				<listitem><para>Install applications from the repository whenever possible.</para></listitem>
 				<listitem><para>When running a script found on a troubleshooting or support website or given to you on IRC, take a moment to look at it, or ask a third-party to confirm what the script does. Be especially wary of scripts that require root access, as they could compromise other users' accounts.</para></listitem>
