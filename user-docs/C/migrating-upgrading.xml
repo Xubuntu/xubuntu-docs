@@ -92,7 +92,7 @@
 
 			<warning><para>Development releases often suffer from package breakages and other problems. Only install a development release if you are prepared to attempt to fix these problems for yourself or if you want to help the Xubuntu team by testing and giving feedback.</para></warning>
 			<note><para>You will need to be running the latest regular version to be able to upgrade to the version currently under development.</para></note>
-			<para>If you would like to install and test the latest development version of Xubuntu before it is released, run <userinput>update-manager -d -c</userinput> at the command line. This will allow you to upgrade to the current development release. Please consider <ulink url="http://xubuntu.org/contribute/qa">getting involved</ulink> with reporting usage of development versions and associated packages.</para>
+			<para>If you would like to install and test the latest development version of Xubuntu before it is released, run <userinput>update-manager -c -d</userinput> at the command line. This will allow you to upgrade to the current development release. Please consider <ulink url="http://xubuntu.org/contribute/qa">getting involved</ulink> with reporting usage of development versions and associated packages.</para>
 		</section>
 	</section>
 </chapter>
