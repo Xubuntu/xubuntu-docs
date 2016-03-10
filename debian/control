@@ -4,9 +4,11 @@ Priority: optional
 Maintainer: Ubuntu Documentation Team <ubuntu-doc@lists.ubuntu.com>
 Build-Depends: coreutils (>= 8.16),
  debhelper (>= 9),
+ default-jre,
  docbook-xml,
  docbook-xsl,
- fonts-droid,
+ fonts-dejavu-core,
+ fonts-noto,
  fop,
  gnome-doc-utils,
  xsltproc
