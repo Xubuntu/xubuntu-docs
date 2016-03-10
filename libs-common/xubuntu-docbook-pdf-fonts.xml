@@ -7,37 +7,37 @@
 				<font metrics-url="../libs-common/fonts/fontmetric-notosans-regular.xml"  
 					kerning="yes" 
 					embed-url="/usr/share/fonts/truetype/noto/NotoSans-Regular.ttf">
-					<font-triplet name="Noto Sans" style="normal" weight="normal"/>
+					<font-triplet name="Noto Sans" style="normal" weight="normal" />
 				</font>
 				<!-- Noto Sans, bold -->
 				<font metrics-url="../libs-common/fonts/fontmetric-notosans-bold.xml"  
 					kerning="yes" 
 					embed-url="/usr/share/fonts/truetype/noto/NotoSans-Bold.ttf">
-					<font-triplet name="Noto Sans" style="normal" weight="bold"/>
+					<font-triplet name="Noto Sans" style="normal" weight="bold" />
 				</font>
 				<!-- Noto Sans, italic -->
 				<font metrics-url="../libs-common/fonts/fontmetric-notosans-italic.xml"  
 					kerning="yes" 
 					embed-url="/usr/share/fonts/truetype/noto/NotoSans-Italic.ttf">
-					<font-triplet name="Noto Sans" style="italic" weight="normal"/>
+					<font-triplet name="Noto Sans" style="italic" weight="normal" />
 				</font>
 				<!-- Noto Sans, italic -->
 				<font metrics-url="../libs-common/fonts/fontmetric-notosans-bolditalic.xml"  
 					kerning="yes" 
 					embed-url="/usr/share/fonts/truetype/noto/NotoSans-BoldItalic.ttf">
-					<font-triplet name="Noto Sans" style="italic" weight="bold"/>
+					<font-triplet name="Noto Sans" style="italic" weight="bold" />
 				</font>
-				<!-- Liberation Mono, regular -->
-				<font metrics-url="../libs-common/fonts/fontmetric-liberationmono-regular.xml"  
+				<!-- DejaVu Sans Mono -->
+				<font metrics-url="../libs-common/fonts/fontmetric-dejavusansmono-regular.xml"  
 					kerning="yes" 
-					embed-url="/usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf">
-					<font-triplet name="Liberation Mono" style="normal" weight="normal"/>
+					embed-url="/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf">
+					<font-triplet name="DejaVu Sans Mono" style="normal" weight="normal" />
 				</font>
-				<!-- Liberation Mono, bold -->
-				<font metrics-url="../libs-common/fonts/fontmetric-liberationmono-bold.xml"  
+				<!-- DejaVu Sans Mono Bold -->
+				<font metrics-url="../libs-common/fonts/fontmetric-dejavusansmono-bold.xml"  
 					kerning="yes" 
-					embed-url="/usr/share/fonts/truetype/liberation/LiberationMono-Bold.ttf">
-					<font-triplet name="Liberation Mono" style="normal" weight="bold"/>
+					embed-url="/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf">
+					<font-triplet name="DejaVu Sans Mono" style="normal" weight="bold" />
 				</font>
 			</fonts>
 		</renderer>
