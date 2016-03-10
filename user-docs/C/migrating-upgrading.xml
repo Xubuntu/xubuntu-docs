@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
 "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
 <!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
 %xubuntu-common;
@@ -30,7 +30,7 @@
 
 		<section id="windows-applications">
 			<title>Windows applications on Linux</title>
-			<para>It is possible to run Windows applications under Xubuntu. A few possible choices are:</para>
+			<para>It is possible to run Windows applications under Xubuntu. Two possible choices are:</para>
 			<itemizedlist>
 				<listitem><para><ulink url="&wine-web;">Wine</ulink>, the Windows emulator. Wine allows running some Windows applications without having to install a Windows operating system. Refer to the <ulink url="&wine-appdb;">Wine AppDB</ulink> to find out which applications will run on Wine and the <ulink url="&wine-docs;">Wine documentation</ulink> for FAQ's and user support.</para></listitem>
 				<listitem><para><ulink url="&vbox-web;">VirtualBox</ulink>, virtualization software. You can install a Windows operating system along with any application into a virtual machine managed by VirtualBox. Note that 3D support on VirtualBox is still quite unreliable. To read more about VirtualBox and virtualization, refer to the <ulink url="&vbox-docs;">VirtualBox end-user documentation</ulink>.</para></listitem>
@@ -43,7 +43,7 @@
 			<title>Windows networking on Linux</title>
 
 			<para>Accessing Windows network shares under Xubuntu can be easily done using:</para>
-			<itemizedlist>	
+			<itemizedlist>
 				<listitem><para>&file-manager;, where you can browse publicly visible shares by clicking on the <guilabel>Network</guilabel> item in the sidebar. Alternatively, you can browse a remote file system by going to <menuchoice><guimenu>Go</guimenu><guimenuitem>Open Location...</guimenuitem></menuchoice> and entering <userinput>smb://computername/sharename</userinput>.</para></listitem>
 				<listitem><para>&gigolo;, which allows you to save bookmarks and manage remote file systems. To connect, click the first toolbar button. Select <guilabel>Windows Share</guilabel> from <guilabel>Service Type</guilabel>, then enter the remote share's details.</para></listitem>
 			</itemizedlist>
@@ -92,7 +92,7 @@
 
 			<warning><para>Development releases often suffer from package breakages and other problems. Only install a development release if you are prepared to attempt to fix these problems for yourself or if you want to help the Xubuntu team by testing and giving feedback.</para></warning>
 			<note><para>You will need to be running the latest regular version to be able to upgrade to the version currently under development.</para></note>
-			<para>If you would like to install and test the latest development version of Xubuntu before it is released, run <userinput>pkexec update-manager -c -d</userinput> at the command line. This will allow you to upgrade to the current development release. Please consider <ulink url="http://xubuntu.org/contribute/qa">getting involved</ulink> with reporting usage of development versions and associated packages.</para>
+			<para>If you would like to install and test the latest development version of Xubuntu before it is released, run <userinput>update-manager -d -c</userinput> at the command line. This will allow you to upgrade to the current development release. Please consider <ulink url="http://xubuntu.org/contribute/qa">getting involved</ulink> with reporting usage of development versions and associated packages.</para>
 		</section>
 	</section>
 </chapter>

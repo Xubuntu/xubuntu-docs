@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
 "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
 <!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
 %xubuntu-common;
@@ -24,7 +24,7 @@
 
 	<note><para>You will need administrative access to add and remove software.</para></note>
 
-	<caution><para>You can only use one package manager at a time. If you start another package manager while one is already open, you will receive an error message and the second package manager will not function correctly.</para></caution>
+	<caution><para>In most cases you can only use one package manager at a time. If you start another package manager while one is already open, you may receive an error message and the second package manager will not function correctly. </para></caution>
 
 	<section id="gnome-software">
 		<title>Using Gnome Software</title>
@@ -55,6 +55,10 @@
 			</itemizedlist>
 
 			<caution><para>Some applications depend on others being installed in order to work properly. If you try to remove an application which is needed by another application, both of them will be removed. You will be asked to confirm that this is what you want to happen before the applications are removed.</para></caution>
+
+			<note><para>Gnome Software does not remove dependencies installed with a package. To remove the dependencies run <userinput>sudo apt-get autoremove</userinput>. Before agreeing to the command continuing, check that the packages being marked for removal are as expected.</para></note>
+
+
 		</section>
 	</section>
 
@@ -152,17 +156,17 @@
 				<listitem><para><guilabel>For long-term support versions</guilabel> - You will get notifications of new Long-term Support (LTS) releases, once in 2 years</para></listitem>
 				<listitem><para><guilabel>Never</guilabel> - You will not get notifications of new releases</para></listitem>
 			</itemizedlist>
-			
+
 			<note><para>Opting in for Long-term Support (LTS) notifications is usually the recommmended option, especially if you are running Xubuntu on a production machine and/or need maximum stability.</para></note>
-			
+
 			<warning><para>It's not recommended to use the <guilabel>Never</guilabel> setting. This will leave you with an unsupported system, unless you manually remember to upgrade often enough. Additionally you will be missing out on bug fixes, updates for potential security problems and hardware support improvements. See <xref linkend="migrating-upgrading" /> for more information on upgrading Xubuntu and release support lengths.</para></warning>
 		</section>
 
 		<section id="update-configuration-other">
 			<title>Other options</title>
-			
+
 			<para>Package updates can be scheduled from the desktop and you can change how and when the system updates itself.</para>
-			
+
 			<itemizedlist>
 				<listitem><para><guilabel>Frequency of check</guilabel> - Allows you to schedule when to check for updates</para></listitem>
 				<listitem><para><guilabel>Checking and installing updates automatically</guilabel> - Allows you to define if the system downloads and install updates without confirmation or downloads all updates in the background but waits for you to manually install them</para></listitem>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
 "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
 <!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
 %xubuntu-common;
@@ -24,9 +24,9 @@
 	<section id="default-internet">
 		<title>Internet</title>
 
-		<para><application>Firefox</application> is a mature and stable web browser which can be extended with a wide variety of available add-ins. Read more on <ulink url="&firefox-help;">Firefox's online help</ulink>.</para>
+		<para><application>Firefox</application> is a mature and stable web browser which can be extended with a wide variety of available add-ons. Read more on <ulink url="&firefox-help;">Firefox's online help</ulink>.</para>
 
-		<para><application>Thunderbird</application> is a versatile mail client which can handle multiple email accounts and different identities simultaneously. Like Firefox, it can also be enhanced with add-ins to customize its appearance and extend its functionality. If you are migrating from another mail program, <application>Thunderbird</application> allows importing your emails and address books. In <application>Thunderbird</application>, navigate to <menuchoice><guimenu>Tools</guimenu><guimenuitem>Import</guimenuitem></menuchoice> to start the <guilabel>Import assistant</guilabel>. Read more on the <ulink url="&thunderbird-help;">Thunderbird Support page</ulink>.</para>
+		<para><application>Thunderbird</application> is a versatile mail client which can handle multiple email accounts and different identities simultaneously. Like Firefox, it can also be enhanced with add-ons to customize its appearance and extend its functionality. If you are migrating from another mail program, <application>Thunderbird</application> allows importing your emails and address books. In <application>Thunderbird</application>, navigate to <menuchoice><guimenu>Tools</guimenu><guimenuitem>Import</guimenuitem></menuchoice> to start the <guilabel>Import assistant</guilabel>. Read more on the <ulink url="&thunderbird-help;">Thunderbird Support page</ulink>.</para>
 
 		<para><application>Pidgin</application> is the default instant messaging client capable of handling MSN, XMPP (Google Talk, Facebook) and more. Read more from <ulink url="&pidgin-help;">Using Pidgin</ulink> at the Pidgin online help.</para>
 	</section>
@@ -38,7 +38,7 @@
 
 		<note><para>It will be necessary to install <literal>&package;xubuntu-restricted-extras</literal> in order to play proprietary media formats like e.g. MP3.</para></note>
 
-		<para><application>PulseAudio Volume Control</application> is the way to control the different sound sources to their destination. Read more at the <ulink url="&pulseaudio-web;">PulseAudio website</ulink>.</para>
+		<para><application>PulseAudio Volume Control</application> is the way to control the different sound sources and their destinations. Read more at the <ulink url="&pulseaudio-web;">PulseAudio website</ulink>.</para>
 
 		<para><application>Xfburn</application> is the chosen program for creating your CDs and DVDs.</para>
 

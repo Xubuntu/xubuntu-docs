@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
 "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
 <!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
 %xubuntu-common;
@@ -37,7 +37,7 @@
 
 			<para>Some computers may not have any devices that can use restricted drivers, either because all of the devices are fully supported by unrestricted drivers or because no restricted drivers are yet available for the device.</para>
 
-			<para>If any drivers are available for your hardware they will be installable from the <application>Software Sources</application> dialog:</para>
+			<para>If any drivers are available for your hardware they will be installable from the <application>Software and Updates</application> application:</para>
 
 			<itemizedlist>
 				<listitem><para>Go to &additional-drivers;</para></listitem>
@@ -80,7 +80,7 @@
 
 		<section id="disks-partitions-free-up-space">
 			<title>How can I free up disk space?</title>
-			
+
 			<para>There are several simple ways of making more disk space available:</para>
 
 			<itemizedlist>
@@ -168,7 +168,7 @@
 				<listitem><para>Change settings as appropriate</para></listitem>
 				<listitem><para>Changes are applied instantly</para></listitem>
 			</itemizedlist>
-			
+
 			<tip><para>When your laptop is running on battery, one of the biggest drains on power is the display. Turning the brightness of the display down could improve battery life significantly; many laptops allow you to do this by pressing <keycap>&key;Fn+F7</keycap> (or other marked key) several times.</para></tip>
 		</section>
 
