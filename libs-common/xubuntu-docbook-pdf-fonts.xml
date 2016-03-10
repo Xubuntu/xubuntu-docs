@@ -2,37 +2,36 @@
 	<renderers>
 		<renderer mime="application/pdf">
 			<fonts>
-				<!-- Droid Sans, regular -->
-				<font metrics-url="../libs-common/fonts/fontmetric-droidsans.xml"  
+				<!-- Create font metric files with 'fop-ttfreader source.ttf output.xml' -->
+				<!-- Noto Sans, regular -->
+				<font metrics-url="../libs-common/fonts/fontmetric-notosans-regular.xml"  
 					kerning="yes" 
-					embed-url="/usr/share/fonts/truetype/droid/DroidSans.ttf">
-					<font-triplet name="Droid Sans" style="normal" weight="normal"/>
+					embed-url="/usr/share/fonts/truetype/noto/NotoSans-Regular.ttf">
+					<font-triplet name="Noto Sans" style="normal" weight="normal"/>
 				</font>
-				<!-- Droid Sans, bold -->
-				<font metrics-url="../libs-common/fonts/fontmetric-droidsans-bold.xml"  
+				<!-- Noto Sans, bold -->
+				<font metrics-url="../libs-common/fonts/fontmetric-notosans-bold.xml"  
 					kerning="yes" 
-					embed-url="/usr/share/fonts/truetype/droid/DroidSans-Bold.ttf">
-					<font-triplet name="Droid Sans" style="normal" weight="bold"/>
+					embed-url="/usr/share/fonts/truetype/noto/NotoSans-Bold.ttf">
+					<font-triplet name="Noto Sans" style="normal" weight="bold"/>
 				</font>
-				<!-- Since Droid Sans doesn't have an italic style, we are using Open Sans, a derivative, as a replacement -->
-				<!-- TODO: Change font triplet name -->
-				<!-- Open Sans, italic -->
-				<font metrics-url="../libs-common/fonts/fontmetric-opensans-italic.xml"  
+				<!-- Noto Sans, italic -->
+				<font metrics-url="../libs-common/fonts/fontmetric-notosans-italic.xml"  
 					kerning="yes" 
-					embed-url="../libs-common/fonts/OpenSans-Italic.ttf">
-					<font-triplet name="Droid Sans" style="italic" weight="normal"/>
+					embed-url="/usr/share/fonts/truetype/noto/NotoSans-Italic.ttf">
+					<font-triplet name="Noto Sans" style="italic" weight="normal"/>
 				</font>
-				<!-- Open Sans, italic bold -->
-				<font metrics-url="../libs-common/fonts/fontmetric-opensans-bolditalic.xml"  
+				<!-- Noto Sans, italic -->
+				<font metrics-url="../libs-common/fonts/fontmetric-notosans-bolditalic.xml"  
 					kerning="yes" 
-					embed-url="../libs-common/fonts/OpenSans-BoldItalic.ttf">
-					<font-triplet name="Droid Sans" style="italic" weight="bold"/>
+					embed-url="/usr/share/fonts/truetype/noto/NotoSans-BoldItalic.ttf">
+					<font-triplet name="Noto Sans" style="italic" weight="bold"/>
 				</font>
-				<!-- Droid Sans Mono, regular -->
-				<font metrics-url="../libs-common/fonts/fontmetric-droidsansmono.xml"  
+				<!-- DejaVu Sans Mono -->
+				<font metrics-url="../libs-common/fonts/fontmetric-dejavusans-mono.xml"  
 					kerning="yes" 
-					embed-url="/usr/share/fonts/truetype/droid/DroidSansMono.ttf">
-					<font-triplet name="Droid Sans Mono" style="normal" weight="normal"/>
+					embed-url="/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf">
+					<font-triplet name="DejaVu Sans Mono" style="normal" weight="normal"/>
 				</font>
 			</fonts>
 		</renderer>

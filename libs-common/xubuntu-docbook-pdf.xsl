@@ -21,9 +21,9 @@
 		<xsl:attribute name="font-family">Droid Sans</xsl:attribute>
 		<xsl:attribute name="line-height">1.5</xsl:attribute>
 	</xsl:attribute-set>
-	<xsl:param name="body.font.family" select="'Droid Sans'"/>
-	<xsl:param name="title.font.family" select="'Droid Sans'"/>
-	<xsl:param name="monospace.font.family" select="'Droid Sans Mono'"/>
+	<xsl:param name="body.font.family" select="'Noto Sans'"/>
+	<xsl:param name="title.font.family" select="'Noto Sans'"/>
+	<xsl:param name="monospace.font.family" select="'DejaVu Sans Mono'"/>
 	<!-- <xsl:param name="ulink.footnotes">1</xsl:param> -->
 
 	<!-- Section title styles -->
