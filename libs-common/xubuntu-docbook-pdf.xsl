@@ -18,7 +18,7 @@
 	<!-- General options -->
 	<xsl:param name="hyphenate" select="'false'"/>
 	<xsl:attribute-set name="root.properties">
-		<xsl:attribute name="font-family">Droid Sans</xsl:attribute>
+		<xsl:attribute name="font-family">Noto Sans</xsl:attribute>
 		<xsl:attribute name="line-height">1.5</xsl:attribute>
 	</xsl:attribute-set>
 	<xsl:param name="body.font.family" select="'Noto Sans'"/>
@@ -69,7 +69,6 @@
 		</fo:inline>
 	</xsl:template>
 	<xsl:template match="application | filename | guibutton | literal">
-		<!-- TODO: This breaks literal since it changes the font -->
 		<fo:inline xsl:use-attribute-sets="bold">
 			<xsl:apply-templates/>
 		</fo:inline>
@@ -101,7 +100,7 @@
 			<xsl:variable name="src">
 				<xsl:value-of select="@fileref"/>
 			</xsl:variable>
-			<fo:external-graphic alignment-baseline="mathematical" content-width="1em" content-height="scale-to-fit" scaling="uniform" src="{$src}"/>
+			<fo:external-graphic alignment-baseline="mathematical" content-width="1.1em" content-height="scale-to-fit" scaling="uniform" src="{$src}"/>
 		</fo:inline>
 	</xsl:template>
 	<xsl:template match="imagedata[@role = 'icon-pad']">
@@ -109,7 +108,7 @@
 				<xsl:variable name="src">
 					<xsl:value-of select="@fileref"/>
 				</xsl:variable>
-				<fo:external-graphic alignment-baseline="mathematical" width="1.3em" content-width="1em" content-height="scale-to-fit" scaling="uniform" src="{$src}"/> 
+				<fo:external-graphic alignment-baseline="mathematical" width="1.4em" content-width="1.1em" content-height="scale-to-fit" scaling="uniform" src="{$src}"/> 
 			</fo:inline>
 	</xsl:template>
 
