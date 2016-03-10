@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-03-08 22:18+0000\n"
+"POT-Creation-Date: 2016-03-10 23:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,7 +66,7 @@ msgid "Version numbering"
 msgstr ""
 
 #: user-docs/C/what-is-xubuntu.xml:41(para)
-msgid "The Xubuntu version numbering scheme is based on the distribution release date. The first part of the release denotes the year while the second part denotes the month. For example, the first official Xubuntu version was released in June, 2006, thus its version number was 6.06. The latest Long Term Support (LTS) version is 14.04, codenamed Trusty Tahr."
+msgid "The Xubuntu version numbering scheme is based on the distribution release date. The first part of the release denotes the year while the second part denotes the month. For example, the first official Xubuntu version was released in June, 2006, thus its version number was 6.06. The latest Long Term Support (LTS) version is 16.04, codenamed Xenial Xerus."
 msgstr ""
 
 #: user-docs/C/what-is-xubuntu.xml:49(title)
@@ -126,7 +126,7 @@ msgid "Settings and Preferences"
 msgstr ""
 
 #: user-docs/C/settings-preferences.xml:16(para)
-msgid "The options to customize Xubuntu to your needs and preferences are virtually unlimited, ranging from desktop looks to low level operation tweaks. The sections in this chapter describe how to keep your personal information updated, customize the looks of the desktop and edit the main applications menu to your liking."
+msgid "The options to customize Xubuntu to your needs and preferences are virtually unlimited, ranging from desktop looks to low level operation tweaks. The sections in this chapter describe how to edit the main applications menu to your liking, keep your personal information updated and customize the looks of the desktop."
 msgstr ""
 
 #: user-docs/C/settings-preferences.xml:19(title)
@@ -134,7 +134,7 @@ msgid "Customizing the Menu"
 msgstr ""
 
 #: user-docs/C/settings-preferences.xml:21(para)
-msgid "The easiest and probably most useful tweak you can make to the Menu is to customize your <guilabel>Favorites</guilabel>. Accomplishing this is a simple matter of locating the application you want, right-clicking on it and selecting <guilabel>Add to Favorites</guilabel>. From that same right-click popup, you can also choose to add the application to the Desktop or to the Panel. Right-clicking on applications already in <guilabel>Favorites</guilabel> gives you to option to remove them or to sort the list. You can also rearrange <guilabel>Favorites</guilabel> just by dragging them."
+msgid "The easiest and probably most useful tweak you can make to the Menu is to customize your <guilabel>Favorites</guilabel>. Accomplishing this is a simple matter of locating the application you want, right-clicking on it and selecting <guilabel>Add to Favorites</guilabel>. From that same right-click popup, you can also choose to add the application to the Desktop or to the Panel. Right-clicking on applications already in <guilabel>Favorites</guilabel> gives you the option to remove them or to sort the list. You can also rearrange <guilabel>Favorites</guilabel> just by dragging them."
 msgstr ""
 
 #: user-docs/C/settings-preferences.xml:23(para)
@@ -146,7 +146,7 @@ msgid "For more options to customize the Menu, right-click on <placeholder-1/> a
 msgstr ""
 
 #: user-docs/C/settings-preferences.xml:28(para)
-msgid "To add directories and launchers which don't appear as entries in the default Menu, you'll need another tool. A more advanced menu editing utility called <application>MenuLibre</application> can be found by clicking <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> Settings Manager</guimenuitem><guimenuitem>Menu Editor</guimenuitem></menuchoice></application> or by right-click on <placeholder-3/> and choosing Edit Applications. Using this editor you can create, hide and reorder the directories which appear in the right-hand pane of the Menu. Within those directories you can then create application launchers and customize their behavior by configuring the many options available in this utility. For more in-depth information on how to use all of those options, consult the <ulink url=\"http://smdavis.us/doku/doku.php?id=menulibre-docs\">MenuLibre</ulink> online documenation."
+msgid "To add directories and launchers which don't appear as entries in the default Menu, you'll need another tool. A more advanced menu editing utility called <application>MenuLibre</application> can be found by clicking <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> Settings Manager</guimenuitem><guimenuitem>Menu Editor</guimenuitem></menuchoice></application> or by a right-click on <placeholder-3/> and choosing Edit Applications. Using this editor you can create, hide and reorder the directories which appear in the right-hand pane of the Menu. Within those directories you can then create application launchers and customize their behavior by configuring the many options available in this utility. For more in-depth information on how to use all of those options, consult the <ulink url=\"http://smdavis.us/doku/doku.php?id=menulibre-docs\">MenuLibre</ulink> online documenation."
 msgstr ""
 
 #: user-docs/C/settings-preferences.xml:33(title)
@@ -194,7 +194,7 @@ msgid "Changing your wallpaper"
 msgstr ""
 
 #: user-docs/C/settings-preferences.xml:59(para)
-msgid "You can easily change your desktop wallpaper navigating to <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> Settings Manager</guimenuitem><guimenuitem>Desktop</guimenuitem></menuchoice></application>, or alternatively, by right clicking your desktop and selecting the <menuchoice><guimenuitem>Desktop Settings...</guimenuitem></menuchoice> option. Where you have multiple workspaces, you can choose to have the same wallpaper across all workspaces, or by deselecting <literal>Apply to all workspaces</literal> and moving the dialogue to the next workspace selecting a different wallpaper"
+msgid "You can easily change your desktop wallpaper by navigating to <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> Settings Manager</guimenuitem><guimenuitem>Desktop</guimenuitem></menuchoice></application>, or alternatively, by right clicking on your desktop and selecting the <menuchoice><guimenuitem>Desktop Settings...</guimenuitem></menuchoice> option. Where you have multiple workspaces, you can choose to have the same wallpaper across all workspaces, or by deselecting <literal>Apply to all workspaces</literal> and moving the dialogue to the next workspace selecting a different wallpaper"
 msgstr ""
 
 #: user-docs/C/settings-preferences.xml:61(para)
@@ -226,7 +226,7 @@ msgid "Right-click the image and select <menuchoice><guimenuitem>Set as wallpape
 msgstr ""
 
 #: user-docs/C/settings-preferences.xml:77(para)
-msgid "With multiple monitors, this setting will only change the primary monitor's wallpaper. To change the wallpaper for other monitors, you will need to use the dialog described above."
+msgid "With multiple monitors, this setting will only change the primary monitor's wallpaper. To change the wallpaper for other monitors, you will need to use the dialog as described above."
 msgstr ""
 
 #: user-docs/C/settings-preferences.xml:81(para)
@@ -358,7 +358,7 @@ msgid "Local printing"
 msgstr ""
 
 #: user-docs/C/printing-scanning.xml:24(para)
-msgid "A local printer is one which is directly connected to your computer (as opposed to a network printer, discussed in <xref linkend=\"printing-network\"/>). To set up a new local printer, plug your printer into your computer and power it on. Most printers will be automatically detected and configured. Once detected, a printer icon will appear in the notification area and after waiting a few moments, you should get a popup with the text <guilabel>Printer is ready for printing</guilabel>. If your printer was not detected after a few moments, then you will need to follow these steps:"
+msgid "A local printer is one which is directly connected to your computer (as opposed to a network printer, discussed in <xref linkend=\"printing-network\"/>). To set up a new local printer, plug your printer into your computer and power it on. Most printers will be automatically detected and configured. Once detected, a printer icon will appear in the notification area and you should get a popup with the text <guilabel>Printer is ready for printing</guilabel>. If your printer was not detected, then you will need to follow these steps:"
 msgstr ""
 
 #: user-docs/C/printing-scanning.xml:27(para) user-docs/C/printing-scanning.xml:49(para)
@@ -470,7 +470,7 @@ msgid "Does my scanner work in Xubuntu?"
 msgstr ""
 
 #: user-docs/C/printing-scanning.xml:77(para)
-msgid "There are three ways to see if you scanner works in Xubuntu:"
+msgid "There are three ways to see if your scanner works in Xubuntu:"
 msgstr ""
 
 #: user-docs/C/printing-scanning.xml:80(para)
@@ -714,7 +714,7 @@ msgid "Windows applications on Linux"
 msgstr ""
 
 #: user-docs/C/migrating-upgrading.xml:33(para)
-msgid "It is possible to run Windows applications under Xubuntu. A few possible choices are:"
+msgid "It is possible to run Windows applications under Xubuntu. Two possible choices are:"
 msgstr ""
 
 #: user-docs/C/migrating-upgrading.xml:35(para)
@@ -830,7 +830,7 @@ msgid "You will need to be running the latest regular version to be able to upgr
 msgstr ""
 
 #: user-docs/C/migrating-upgrading.xml:95(para)
-msgid "If you would like to install and test the latest development version of Xubuntu before it is released, run <userinput>pkexec update-manager -c -d</userinput> at the command line. This will allow you to upgrade to the current development release. Please consider <ulink url=\"http://xubuntu.org/contribute/qa\">getting involved</ulink> with reporting usage of development versions and associated packages."
+msgid "If you would like to install and test the latest development version of Xubuntu before it is released, run <userinput>update-manager -c -d</userinput> at the command line. This will allow you to upgrade to the current development release. Please consider <ulink url=\"http://xubuntu.org/contribute/qa\">getting involved</ulink> with reporting usage of development versions and associated packages."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -984,7 +984,7 @@ msgid "You will need administrative access to add and remove software."
 msgstr ""
 
 #: user-docs/C/managing-applications.xml:27(para)
-msgid "You can only use one package manager at a time. If you start another package manager while one is already open, you will receive an error message and the second package manager will not function correctly."
+msgid "In most cases you can only use one package manager at a time. If you start another package manager while one is already open, you may receive an error message and the second package manager will not function correctly."
 msgstr ""
 
 #: user-docs/C/managing-applications.xml:30(title)
@@ -1043,191 +1043,195 @@ msgstr ""
 msgid "Some applications depend on others being installed in order to work properly. If you try to remove an application which is needed by another application, both of them will be removed. You will be asked to confirm that this is what you want to happen before the applications are removed."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:62(title)
+#: user-docs/C/managing-applications.xml:59(para)
+msgid "Gnome Software does not remove dependencies installed with a package. To remove the dependencies run <userinput>sudo apt-get autoremove</userinput>. Before agreeing to the command continuing, check that the packages being marked for removal are as expected."
+msgstr ""
+
+#: user-docs/C/managing-applications.xml:66(title)
 msgid "Additional software repositories"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:65(title)
+#: user-docs/C/managing-applications.xml:69(title)
 msgid "Enabling more repositories"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:67(para)
+#: user-docs/C/managing-applications.xml:71(para)
 msgid "It is possible to add extra repositories, such as those provided by third parties. To enable more software repositories:"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:70(para)
+#: user-docs/C/managing-applications.xml:74(para)
 msgid "Open <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> Settings Manager</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice></application> or <application><menuchoice><placeholder-3/><guimenuitem>Software</guimenuitem><guimenuitem>App menu</guimenuitem><guimenuitem>Software Sources</guimenuitem></menuchoice></application> and go to the <guilabel>Other Software</guilabel> tab"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:71(para)
+#: user-docs/C/managing-applications.xml:75(para)
 msgid "Press <guibutton>Add...</guibutton> to add a new repository."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:72(para)
+#: user-docs/C/managing-applications.xml:76(para)
 msgid "Enter the APT line for the extra repository. This is available from the website of the repository in the majority of cases and it should look something like the following: <literal>deb http://ftp.debian.org etch main</literal>"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:73(para)
+#: user-docs/C/managing-applications.xml:77(para)
 msgid "Press <guibutton>Add Source</guibutton> and then click <guibutton>Close</guibutton> to save your changes."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:74(para)
+#: user-docs/C/managing-applications.xml:78(para)
 msgid "You will be notified that the information about available software is out-of-date. Press <guibutton>Reload</guibutton>."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:75(para)
+#: user-docs/C/managing-applications.xml:79(para)
 msgid "Most software repositories use a GPG key to digitally sign the files they provide, which makes it easy to check that the files have not been tampered with since their creation. In order for apt to be able to check this, you need the public key that corresponds to the signatures. The key should be available for download on the repository's website. Once you have downloaded the GPG key, import the key by selecting the <guilabel>Authentication</guilabel> tab, clicking on <guibutton>Import Key File</guibutton>, and then selecting the GPG key to be imported."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:78(para)
+#: user-docs/C/managing-applications.xml:82(para)
 msgid "Be careful when installing software from third-party repositories. It may not have been officially tested with Xubuntu and could cause your system to break."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:82(title)
+#: user-docs/C/managing-applications.xml:86(title)
 msgid "Restricted and non-free software"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:84(para)
+#: user-docs/C/managing-applications.xml:88(para)
 msgid "Most of the software available for Xubuntu is free, open-source software. This software is free for anyone to install and use, and people can modify the software and redistribute it if they like. Xubuntu is built from this type of software."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:86(para)
+#: user-docs/C/managing-applications.xml:90(para)
 msgid "<guilabel>Non-free software</guilabel> is software that is not freely redistributable or modifiable. This makes it difficult for the Xubuntu developers to improve the software and correct problems, so it is normally recommended that you use <ulink url=\"http://www.ubuntu.com/project/about-ubuntu/our-philosophy\">free software</ulink> instead."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:88(para)
+#: user-docs/C/managing-applications.xml:92(para)
 msgid "<guilabel>Restricted software</guilabel> is software that has restrictions on its use, preventing it from being classed as free software. Non-free software is a type of restricted software, where the restrictions are due to the software having a non-free license. Other reasons for software being classed as restricted include legal issues (use of some types of software is illegal in some countries) and patent issues (some software requires a patent license to be used legally)."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:90(para)
+#: user-docs/C/managing-applications.xml:94(para)
 msgid "In some cases, restricted software is the only option. Such cases include software for the playback of certain audio and video formats, some fonts and certain video card drivers."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:92(para)
+#: user-docs/C/managing-applications.xml:96(para)
 msgid "You should be warned by the package manager when you try to install restricted software. If the restricted software cannot be used legally in your country then there is little you can do; you should not install the software. If the software is restricted simply because it is non-free, you may choose to use it (for example, in the case of graphics card drivers). Be aware that most restricted software is not supported in Xubuntu and problems with such software often cannot be corrected by Xubuntu developers."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:94(para)
+#: user-docs/C/managing-applications.xml:98(para)
 msgid "Sometimes it is difficult to determine why a particular software package is restricted. If this is the case, seek advice on the <ulink url=\"http://ubuntuforums.org/\">Ubuntu Forums</ulink>. If you are still unable to determine why a package is restricted, err on the side of caution and do not install it; it may be illegal to use it in your country."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:99(title)
+#: user-docs/C/managing-applications.xml:103(title)
 msgid "Installing packages without an Internet connection"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:102(title)
+#: user-docs/C/managing-applications.xml:106(title)
 msgid "Adding discs as software sources"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:104(para)
+#: user-docs/C/managing-applications.xml:108(para)
 msgid "To add a disc as a software source for your system:"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:107(para)
+#: user-docs/C/managing-applications.xml:111(para)
 msgid "Insert a disc which contains packages; e.g., the Xubuntu installation disc which comes with a limited selection of packages"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:108(para)
+#: user-docs/C/managing-applications.xml:112(para)
 msgid "Open <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> Settings Manager</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice></application> and go to the <guilabel>Other Software</guilabel> tab"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:109(para)
+#: user-docs/C/managing-applications.xml:113(para)
 msgid "Press the <guibutton>Add Volume...</guibutton> button; you will be prompted for your password"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:112(para)
+#: user-docs/C/managing-applications.xml:116(para)
 msgid "After adding the disc to the software sources, you will be able to install packages from the disc."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:116(title)
+#: user-docs/C/managing-applications.xml:120(title)
 msgid "Helpful application"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:118(para)
+#: user-docs/C/managing-applications.xml:122(para)
 msgid "If you have less than optimal Internet access, <application>apt-offline</application> allows you to use another computer with better access to download packages and check for package updates like security fixes. All you need is time, patience, and a portable USB storage device. A usage example to learn more about this can be found in <xref linkend=\"offline-packages\"/>."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:124(title)
+#: user-docs/C/managing-applications.xml:128(title)
 msgid "Changing update frequency and behavior"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:126(para)
+#: user-docs/C/managing-applications.xml:130(para)
 msgid "You can change the frequency of the check and the way in which updates are handled. When <application>Software Updater</application> runs and presents you with its dialog, there is a <guilabel>Settings</guilabel> button at the bottom. Pressing this will open the <guilabel>Software Sources</guilabel> dialog at the <guilabel>Updates</guilabel> tab. Alternatively, you can access the settings dialog by going to <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> Settings Manager</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice></application> and opening the <guilabel>Updates</guilabel> tab."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:127(para)
+#: user-docs/C/managing-applications.xml:131(para)
 msgid "The following settings can be changed from this dialog:"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:130(title)
+#: user-docs/C/managing-applications.xml:134(title)
 msgid "Update Sources"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:133(para)
+#: user-docs/C/managing-applications.xml:137(para)
 msgid "<guilabel>Important security updates</guilabel> - Updates that fix critical security flaws are made available through this source. It is recommended that all users leave this source enabled (it should be enabled by default)."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:134(para)
+#: user-docs/C/managing-applications.xml:138(para)
 msgid "<guilabel>Recommended updates</guilabel> - Updates that fix serious software problems (which are not security flaws) are made available through this source. Most users will want to leave this source enabled as common and annoying problems are often fixed with these updates."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:137(para)
+#: user-docs/C/managing-applications.xml:141(para)
 msgid "The following updates should be used with some caution."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:140(para)
+#: user-docs/C/managing-applications.xml:144(para)
 msgid "<guilabel>Pre-released updates</guilabel> - Updates that are currently being tested before being released to everyone are provided through this update source. If you would like to help test new updates (and get fixes for problems more quickly), enable this source. Be aware that these updates may not yet be well tested; it is not recommended that you enable this source unless you are prepared to experience occasional problems."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:141(para)
+#: user-docs/C/managing-applications.xml:145(para)
 msgid "<guilabel>Unsupported updates</guilabel> - When new versions of popular software are released they are sometimes “backported” to an older version of Xubuntu so that users can benefit from new features and fixes for problems. These backports are unsupported, may cause problems when installed and should only be used by people who are in a real need of a new version of a software package that they know has been backported."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:146(title)
+#: user-docs/C/managing-applications.xml:150(title)
 msgid "Notifications of new Xubuntu versions"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:148(para)
+#: user-docs/C/managing-applications.xml:152(para)
 msgid "This section of the <application>Software Updater</application> deals with the way you wish future versions to be given to you. You have three options:"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:151(para)
+#: user-docs/C/managing-applications.xml:155(para)
 msgid "<guilabel>For any new version</guilabel> - You will get notifications of all new releases, once in 6 months"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:152(para)
+#: user-docs/C/managing-applications.xml:156(para)
 msgid "<guilabel>For long-term support versions</guilabel> - You will get notifications of new Long-term Support (LTS) releases, once in 2 years"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:153(para)
+#: user-docs/C/managing-applications.xml:157(para)
 msgid "<guilabel>Never</guilabel> - You will not get notifications of new releases"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:156(para)
+#: user-docs/C/managing-applications.xml:160(para)
 msgid "Opting in for Long-term Support (LTS) notifications is usually the recommmended option, especially if you are running Xubuntu on a production machine and/or need maximum stability."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:158(para)
+#: user-docs/C/managing-applications.xml:162(para)
 msgid "It's not recommended to use the <guilabel>Never</guilabel> setting. This will leave you with an unsupported system, unless you manually remember to upgrade often enough. Additionally you will be missing out on bug fixes, updates for potential security problems and hardware support improvements. See <xref linkend=\"migrating-upgrading\"/> for more information on upgrading Xubuntu and release support lengths."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:162(title)
+#: user-docs/C/managing-applications.xml:166(title)
 msgid "Other options"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:164(para)
+#: user-docs/C/managing-applications.xml:168(para)
 msgid "Package updates can be scheduled from the desktop and you can change how and when the system updates itself."
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:167(para)
+#: user-docs/C/managing-applications.xml:171(para)
 msgid "<guilabel>Frequency of check</guilabel> - Allows you to schedule when to check for updates"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:168(para)
+#: user-docs/C/managing-applications.xml:172(para)
 msgid "<guilabel>Checking and installing updates automatically</guilabel> - Allows you to define if the system downloads and install updates without confirmation or downloads all updates in the background but waits for you to manually install them"
 msgstr ""
 
-#: user-docs/C/managing-applications.xml:169(para)
+#: user-docs/C/managing-applications.xml:173(para)
 msgid "<guilabel>Displaying notifications about security updates</guilabel> - Allows you to define when will the system notify you about available security updates"
 msgstr ""
 
@@ -1620,114 +1624,118 @@ msgid "Jay van Cooten (skippersboss)"
 msgstr ""
 
 #: user-docs/C/index.xml:29(para)
-msgid "Krytarik Raido (krytarik)"
+msgid "Kev Bowring (flocculant)"
 msgstr ""
 
 #: user-docs/C/index.xml:30(para)
-msgid "Pasi Lallinaho (knome)"
+msgid "Krytarik Raido (krytarik)"
 msgstr ""
 
 #: user-docs/C/index.xml:31(para)
-msgid "Sean Davis (bluesabre)"
+msgid "Pasi Lallinaho (knome)"
 msgstr ""
 
 #: user-docs/C/index.xml:32(para)
-msgid "Stephen Michael Kellat (skellat)"
+msgid "Sean Davis (bluesabre)"
 msgstr ""
 
 #: user-docs/C/index.xml:33(para)
-msgid "Steve Dodier-Lazaro (sidi)"
+msgid "Stephen Michael Kellat (skellat)"
 msgstr ""
 
 #: user-docs/C/index.xml:34(para)
+msgid "Steve Dodier-Lazaro (sidi)"
+msgstr ""
+
+#: user-docs/C/index.xml:35(para)
 msgid "Unit 193 (unit193)"
 msgstr ""
 
-#: user-docs/C/index.xml:44(para)
+#: user-docs/C/index.xml:45(para)
 msgid "The contributors to previous versions to this documentation are:"
 msgstr ""
 
-#: user-docs/C/index.xml:46(para)
+#: user-docs/C/index.xml:47(para)
 msgid "Cody A.W. Somerville (cody-somerville)"
 msgstr ""
 
-#: user-docs/C/index.xml:47(para)
+#: user-docs/C/index.xml:48(para)
 msgid "Freddy Martinez (freddymartinez9)"
 msgstr ""
 
-#: user-docs/C/index.xml:48(para)
+#: user-docs/C/index.xml:49(para)
 msgid "Jan M. (fijam7)"
 msgstr ""
 
-#: user-docs/C/index.xml:49(para)
+#: user-docs/C/index.xml:50(para)
 msgid "Jim Campbell (jwcampbell)"
 msgstr ""
 
-#: user-docs/C/index.xml:50(para)
+#: user-docs/C/index.xml:51(para)
 msgid "Luzius Thöny (lucius-antonius)"
 msgstr ""
 
-#: user-docs/C/index.xml:53(para)
+#: user-docs/C/index.xml:54(para)
 msgid "This document is made available under the Creative Commons ShareAlike 2.5 License (CC-BY-SA)."
 msgstr ""
 
-#: user-docs/C/index.xml:54(para)
+#: user-docs/C/index.xml:55(para)
 msgid "You are free to modify, extend, and improve the Ubuntu documentation source code under the terms of this license. All derivative works must be released under this license."
 msgstr ""
 
-#: user-docs/C/index.xml:56(para)
+#: user-docs/C/index.xml:57(para)
 msgid "This documentation is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE AS DESCRIBED IN THE DISCLAIMER."
 msgstr ""
 
-#: user-docs/C/index.xml:59(para)
+#: user-docs/C/index.xml:60(para)
 msgid "A copy of the license is available here: <link linkend=\"cc-by-sa\">Creative Commons ShareAlike License</link>."
 msgstr ""
 
-#: user-docs/C/index.xml:60(para)
+#: user-docs/C/index.xml:61(para)
 msgid "All trademarks or registered trademarks are the property of the respective owners."
 msgstr ""
 
-#: user-docs/C/index.xml:64(year)
+#: user-docs/C/index.xml:65(year)
 msgid "2012"
 msgstr ""
 
-#: user-docs/C/index.xml:65(year)
+#: user-docs/C/index.xml:66(year)
 msgid "2013"
 msgstr ""
 
-#: user-docs/C/index.xml:66(year)
+#: user-docs/C/index.xml:67(year)
 msgid "2014"
 msgstr ""
 
-#: user-docs/C/index.xml:67(year)
+#: user-docs/C/index.xml:68(year)
 msgid "2015"
 msgstr ""
 
-#: user-docs/C/index.xml:68(holder)
+#: user-docs/C/index.xml:69(holder)
 msgid "The Xubuntu documentation team. Xubuntu and Canonical are registered trademarks of Canonical Ltd."
 msgstr ""
 
-#: user-docs/C/index.xml:72(publishername)
+#: user-docs/C/index.xml:73(publishername)
 msgid "The Xubuntu documentation team"
 msgstr ""
 
-#: user-docs/C/index.xml:76(title)
+#: user-docs/C/index.xml:77(title)
 msgid "Welcome!"
 msgstr ""
 
-#: user-docs/C/index.xml:78(para)
+#: user-docs/C/index.xml:79(para)
 msgid "This documentation provides information on some of the most common topics on using Xubuntu, including:"
 msgstr ""
 
-#: user-docs/C/index.xml:83(para)
+#: user-docs/C/index.xml:84(para)
 msgid "In addition, this documentation has three quick guides:"
 msgstr ""
 
-#: user-docs/C/index.xml:89(para)
+#: user-docs/C/index.xml:90(para)
 msgid "The complete set of topics is listed below. If you require help with a topic or problem that is not addressed by the documentation, go to the <ulink url=\"http://xubuntu.org/help/\">Help &amp; Support</ulink> page of the Xubuntu website. There you will find links to additional help resources."
 msgstr ""
 
-#: user-docs/C/index.xml:91(para)
+#: user-docs/C/index.xml:92(para)
 msgid "If you would like to contribute to Xubuntu, including this documentation, see the <ulink url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> section of the Xubuntu website."
 msgstr ""
 
@@ -1782,7 +1790,7 @@ msgid "Some computers may not have any devices that can use restricted drivers, 
 msgstr ""
 
 #: user-docs/C/hardware-devices.xml:40(para)
-msgid "If any drivers are available for your hardware they will be installable from the <application>Software Sources</application> dialog:"
+msgid "If any drivers are available for your hardware they will be installable from the <application>Software and Updates</application> application:"
 msgstr ""
 
 #: user-docs/C/hardware-devices.xml:43(para) user-docs/C/hardware-devices.xml:55(para)
@@ -2208,7 +2216,7 @@ msgid "Automatic security updates are enabled by default in Xubuntu. If you want
 msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:39(para)
-msgid "Disabling automatic updates, lowers the security level of your computer. When the automatic updates are turned off, it is essential to remember to upgrade manually often."
+msgid "Disabling automatic updates, lowers the security level of your computer. When the automatic updates are turned off, it is essential to remember to manually upgrade often."
 msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:42(para)
@@ -2376,7 +2384,7 @@ msgid "verify the recent activity on the concerned accounts (watch out for money
 msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:171(para)
-msgid "<emphasis>Never</emphasis> reveal your <emphasis>password</emphasis> to a third-party website. The website above is OK to use because asks for an email address, which is relatively public information. It does not ask for a password. Websites that ask for your password will most likely misuse it."
+msgid "<emphasis>Never</emphasis> reveal your <emphasis>password</emphasis> to a third-party website. The website above is OK to use because it asks for an email address, which is relatively public information. It does not ask for a password. Websites that ask for your password will most likely misuse it."
 msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:180(title)
@@ -2588,11 +2596,11 @@ msgid "The Panel"
 msgstr ""
 
 #: user-docs/C/guide-desktop.xml:28(para)
-msgid "The panel is used for starting and switching applications and for receiving information about your system. On the left side of the panel you will see the Xubuntu logo, <placeholder-1/>. Clicking on this icon will open the <guilabel>Menu</guilabel>, offering you many choices of applications to start. Along the bottom of the menu window are icons for <placeholder-2/><guilabel>Settings Manager</guilabel>, <placeholder-3/><guilabel>Lock Screen</guilabel> and <placeholder-4/><guilabel>Log Out</guilabel>."
+msgid "The panel is used for starting and switching applications and for receiving information about your system. On the left side of the panel you will see the Xubuntu logo, <placeholder-1/>. Clicking on this icon will open the <guilabel>Menu</guilabel>, offering you many choices of applications. Along the bottom of the menu window are icons for <placeholder-2/><guilabel>Settings Manager</guilabel>, <placeholder-3/><guilabel>Lock Screen</guilabel> and <placeholder-4/><guilabel>Log Out</guilabel>."
 msgstr ""
 
 #: user-docs/C/guide-desktop.xml:30(para)
-msgid "The middle section of the panel is dedicated to window buttons for open applications. On the far right is the clock, displaying the date and time. To the left of that is the <guilabel>Notification Area</guilabel>. Here you will see indicators which give you information on your system, including network connectivity, sound volume level, battery status (when appropriate), instant messages and more. Some notification icons only appear when needed, for instance when software updates are available."
+msgid "The middle section of the panel is dedicated to window buttons for open applications. On the far right is the clock, displaying the date and time. To the left of that is the <guilabel>Notification Area</guilabel>. Here you will see indicators which give you information on your system, including network connectivity, sound volume level, battery status (when appropriate), instant messages. Some notification icons only appear when needed, for instance when software updates are available."
 msgstr ""
 
 #: user-docs/C/guide-desktop.xml:32(para)
@@ -2716,11 +2724,11 @@ msgid "Internet"
 msgstr ""
 
 #: user-docs/C/guide-default-apps.xml:27(para)
-msgid "<application>Firefox</application> is a mature and stable web browser which can be extended with a wide variety of available add-ins. Read more on <ulink url=\"http://support.mozilla.org/en-US/home\">Firefox's online help</ulink>."
+msgid "<application>Firefox</application> is a mature and stable web browser which can be extended with a wide variety of available add-ons. Read more on <ulink url=\"http://support.mozilla.org/en-US/home\">Firefox's online help</ulink>."
 msgstr ""
 
 #: user-docs/C/guide-default-apps.xml:29(para)
-msgid "<application>Thunderbird</application> is a versatile mail client which can handle multiple email accounts and different identities simultaneously. Like Firefox, it can also be enhanced with add-ins to customize its appearance and extend its functionality. If you are migrating from another mail program, <application>Thunderbird</application> allows importing your emails and address books. In <application>Thunderbird</application>, navigate to <menuchoice><guimenu>Tools</guimenu><guimenuitem>Import</guimenuitem></menuchoice> to start the <guilabel>Import assistant</guilabel>. Read more on the <ulink url=\"https://support.mozillamessaging.com/en-US/home\">Thunderbird Support page</ulink>."
+msgid "<application>Thunderbird</application> is a versatile mail client which can handle multiple email accounts and different identities simultaneously. Like Firefox, it can also be enhanced with add-ons to customize its appearance and extend its functionality. If you are migrating from another mail program, <application>Thunderbird</application> allows importing your emails and address books. In <application>Thunderbird</application>, navigate to <menuchoice><guimenu>Tools</guimenu><guimenuitem>Import</guimenuitem></menuchoice> to start the <guilabel>Import assistant</guilabel>. Read more on the <ulink url=\"https://support.mozillamessaging.com/en-US/home\">Thunderbird Support page</ulink>."
 msgstr ""
 
 #: user-docs/C/guide-default-apps.xml:31(para)
@@ -2740,7 +2748,7 @@ msgid "It will be necessary to install <literal><placeholder-1/>xubuntu-restrict
 msgstr ""
 
 #: user-docs/C/guide-default-apps.xml:41(para)
-msgid "<application>PulseAudio Volume Control</application> is the way to control the different sound sources to their destination. Read more at the <ulink url=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">PulseAudio website</ulink>."
+msgid "<application>PulseAudio Volume Control</application> is the way to control the different sound sources and their destinations. Read more at the <ulink url=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">PulseAudio website</ulink>."
 msgstr ""
 
 #: user-docs/C/guide-default-apps.xml:43(para)
