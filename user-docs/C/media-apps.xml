@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
 "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
 <!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
 %xubuntu-common;
@@ -19,12 +19,12 @@
 		<section id="media-music-listen">
 			<title>Listening to music</title>
 
-			<para>You can use <application>Parole Media Player</application> to listen to music on your computer. <application>Parole Media Player</application> will open audio files when they are double-clicked. Alternatively, you can right click on audio files and select <menuchoice><guimenuitem>Open with Parole Media Player</guimenuitem></menuchoice>.</para> 
-			
+			<para>You can use <application>Parole Media Player</application> to listen to music on your computer. <application>Parole Media Player</application> will open audio files when they are double-clicked. Alternatively, you can right click on audio files and select <menuchoice><guimenuitem>Open with Parole Media Player</guimenuitem></menuchoice>.</para>
+
 			<para>In order to play some popular audio formats like MP3, you will need to install some additional software. Unfortunately, this software cannot be provided by default in Xubuntu due to legal restrictions in some countries.</para>
 
 			<caution><para>Read <xref linkend="software-repositories-restricted" /> before following the instructions below. There are some legal issues that you should be aware of.</para></caution>
-			
+
 		</section>
 
 		<section id="media-portable">
@@ -53,10 +53,10 @@
 			<para>To be able to play DVDs, do the following:</para>
 
 			<itemizedlist>
-				<listitem><para>Install the <literal>&package;libdvdnav4</literal>, <literal>&package;libdvdread4</literal> and <literal>&package;gstreamer0.10-plugins-ugly</literal> packages.</para></listitem>
-				<listitem><para>If you would like to play encrypted DVDs, open &terminal; and type the following into the <application>Terminal</application> followed by the <keycap>&key;Enter</keycap> key: <userinput>sudo /usr/share/doc/libdvdread4/install-css.sh</userinput></para></listitem>
-				<listitem><para>Enter your password if prompted. The <literal>&package;libdvdcss2</literal> package will be downloaded and installed from a website.</para></listitem>
+				<listitem><para>Install the <literal>&package;libdvdnav4</literal>, <literal>&package;libdvdread4</literal> and <literal>&package;gstreamer1.0-plugins-ugly</literal> packages.</para></listitem>
 				<listitem><para>Insert a DVD into your drive. It should open automatically in the <application>Parole Media Player</application>.</para></listitem>
+				<listitem><para>If you would like to play encrypted DVDs, open &terminal; and type the following into the <application>Terminal</application> followed by the <keycap>&key;Enter</keycap> key: <userinput>sudo apt-get install libdvd-pkg</userinput> Take note of the information provided in the terminal during installation, particularly with regard to upgrades to the package.</para></listitem>
+				<listitem><para> Once libdvd-pkg is finished run <userinput>sudo dpkg-reconfigure libdvd-pkg</userinput> The installation of libdvdcss2 will now complete.</para></listitem>
 			</itemizedlist>
 		</section>
 

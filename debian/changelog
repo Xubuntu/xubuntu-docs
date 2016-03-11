@@ -1,4 +1,4 @@
-xubuntu-docs (16.04) UNRELEASED; urgency=medium
+xubuntu-docs (16.04) xenial; urgency=medium
 
   [ David Pires ]
   * Bump version and start page to 16.04 Xenial Xerus
@@ -10,6 +10,8 @@ xubuntu-docs (16.04) UNRELEASED; urgency=medium
   * Contributor docs: Initial content for QA
   * Added ISO section to QA testing
   * Added 3 PPA links and new catfish note to QA testing
+  * Replaced gstreamer0.1 ugly with gstreamer1.0 ugly
+  * Replaced install-css.sh with the new libdvd-pkg information
 
   [ Unit 193 ]
   * Makefile:
@@ -33,7 +35,7 @@ xubuntu-docs (16.04) UNRELEASED; urgency=medium
   * Enable PDFs for contributor docs
   * Build contributor docs by default too
 
- -- David Pires <slickymaster@ubuntu.com>  Thu, 10 Mar 2016 23:41:13 +0000
+ -- David Pires <slickymaster@ubuntu.com>  Fri, 11 Mar 2016 20:28:14 +0000
 
 xubuntu-docs (15.10.1) wily; urgency=medium
 

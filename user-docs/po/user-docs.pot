@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-03-10 23:41+0000\n"
+"POT-Creation-Date: 2016-03-11 20:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -111,7 +111,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: user-docs/C/settings-preferences.xml:0(None) user-docs/C/printing-scanning.xml:0(None) user-docs/C/migrating-upgrading.xml:0(None) user-docs/C/media-apps.xml:0(None) user-docs/C/media-apps.xml:0(None) user-docs/C/media-apps.xml:0(None) user-docs/C/media-apps.xml:0(None) user-docs/C/media-apps.xml:0(None) user-docs/C/internet-networks.xml:0(None) user-docs/C/internet-networks.xml:0(None) user-docs/C/guide-default-apps.xml:0(None) user-docs/C/appendix-packages.xml:0(None) user-docs/C/appendix-packages.xml:0(None) user-docs/C/appendix-packages.xml:0(None) user-docs/C/appendix-packages.xml:0(None) user-docs/C/appendix-packages.xml:0(None)
+#: user-docs/C/settings-preferences.xml:0(None) user-docs/C/printing-scanning.xml:0(None) user-docs/C/migrating-upgrading.xml:0(None) user-docs/C/media-apps.xml:0(None) user-docs/C/media-apps.xml:0(None) user-docs/C/media-apps.xml:0(None) user-docs/C/media-apps.xml:0(None) user-docs/C/internet-networks.xml:0(None) user-docs/C/internet-networks.xml:0(None) user-docs/C/guide-default-apps.xml:0(None) user-docs/C/appendix-packages.xml:0(None) user-docs/C/appendix-packages.xml:0(None) user-docs/C/appendix-packages.xml:0(None) user-docs/C/appendix-packages.xml:0(None) user-docs/C/appendix-packages.xml:0(None)
 msgid "@@image: '../../libs-common/images/icon_package.png'; md5=15cff8b23f9cf506a7b7e8f98f1289ac"
 msgstr ""
 
@@ -146,7 +146,7 @@ msgid "For more options to customize the Menu, right-click on <placeholder-1/> a
 msgstr ""
 
 #: user-docs/C/settings-preferences.xml:28(para)
-msgid "To add directories and launchers which don't appear as entries in the default Menu, you'll need another tool. A more advanced menu editing utility called <application>MenuLibre</application> can be found by clicking <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> Settings Manager</guimenuitem><guimenuitem>Menu Editor</guimenuitem></menuchoice></application> or by a right-click on <placeholder-3/> and choosing Edit Applications. Using this editor you can create, hide and reorder the directories which appear in the right-hand pane of the Menu. Within those directories you can then create application launchers and customize their behavior by configuring the many options available in this utility. For more in-depth information on how to use all of those options, consult the <ulink url=\"http://smdavis.us/doku/doku.php?id=menulibre-docs\">MenuLibre</ulink> online documenation."
+msgid "To add directories and launchers which don't appear as entries in the default Menu, you'll need another tool. A more advanced menu editing utility called <application>MenuLibre</application> can be found by clicking <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> Settings Manager</guimenuitem><guimenuitem>Menu Editor</guimenuitem></menuchoice></application> or by a right-click on <placeholder-3/> and choosing <guilabel>Edit Applications</guilabel>. Using this editor you can create, hide and reorder the directories which appear in the right-hand pane of the Menu. Within those directories you can then create application launchers and customize their behavior by configuring the many options available in this utility. For more in-depth information on how to use all of those options, consult the <ulink url=\"http://smdavis.us/doku/doku.php?id=menulibre-docs\">MenuLibre</ulink> online documentation."
 msgstr ""
 
 #: user-docs/C/settings-preferences.xml:33(title)
@@ -900,19 +900,19 @@ msgid "To be able to play DVDs, do the following:"
 msgstr ""
 
 #: user-docs/C/media-apps.xml:56(para)
-msgid "Install the <literal><placeholder-1/>libdvdnav4</literal>, <literal><placeholder-2/>libdvdread4</literal> and <literal><placeholder-3/>gstreamer0.10-plugins-ugly</literal> packages."
+msgid "Install the <literal><placeholder-1/>libdvdnav4</literal>, <literal><placeholder-2/>libdvdread4</literal> and <literal><placeholder-3/>gstreamer1.0-plugins-ugly</literal> packages."
 msgstr ""
 
 #: user-docs/C/media-apps.xml:57(para)
-msgid "If you would like to play encrypted DVDs, open <application><menuchoice><placeholder-1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal Emulator</guimenuitem></menuchoice></application> and type the following into the <application>Terminal</application> followed by the <keycap><placeholder-2/>Enter</keycap> key: <userinput>sudo /usr/share/doc/libdvdread4/install-css.sh</userinput>"
+msgid "Insert a DVD into your drive. It should open automatically in the <application>Parole Media Player</application>."
 msgstr ""
 
 #: user-docs/C/media-apps.xml:58(para)
-msgid "Enter your password if prompted. The <literal><placeholder-1/>libdvdcss2</literal> package will be downloaded and installed from a website."
+msgid "If you would like to play encrypted DVDs, open <application><menuchoice><placeholder-1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal Emulator</guimenuitem></menuchoice></application> and type the following into the <application>Terminal</application> followed by the <keycap><placeholder-2/>Enter</keycap> key: <userinput>sudo apt-get install libdvd-pkg</userinput> Take note of the information provided in the terminal during installation, particularly with regard to upgrades to the package."
 msgstr ""
 
 #: user-docs/C/media-apps.xml:59(para)
-msgid "Insert a DVD into your drive. It should open automatically in the <application>Parole Media Player</application>."
+msgid "Once libdvd-pkg is finished run <userinput>sudo dpkg-reconfigure libdvd-pkg</userinput> The installation of libdvdcss2 will now complete."
 msgstr ""
 
 #: user-docs/C/media-apps.xml:64(title)
