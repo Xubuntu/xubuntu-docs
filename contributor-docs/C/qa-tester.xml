@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
+%xubuntu-common;
+<!ENTITY % xubuntu-contributor SYSTEM "../libs/xubuntu-contributor.ent">
+%xubuntu-contributor;
+<!ENTITY % xinclude SYSTEM "../../libs-common/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+
+<chapter id="qa-tester">
+	<title>Testing Infrastructure</title>
+	<section id="qa-infra">
+		<title>Getting ready to test</title>
+
+		<para>To successfully test for Xubuntu, so we know you have and you know what we need, you will need at a minimum 4 things: a Launchpad account, mailing list subscription, an image and something to test it on. This page will give you the basic information in order to do those things and more.	  </para>
+	</section>
+
+	<section id="qa-infra-specs">
+		<title>Contacts</title>
+
+		<para>You need a Launchpad account - you'll use it to join the necessary Launchpad team(s) and it makes logging into the 2 QA trackers we use easier.</para>
+
+		<para>We use one mailing list to detail what we intend to test during a cycle, we use the same list when we are calling for tests. The same list is used by the team to discuss the development of Xubuntu. So you will need to join the Xubuntu Devel <ulink url="https://lists.ubuntu.com/mailman/listinfo/xubuntu-devel"> Mailing</ulink> list.</para>
+
+		<para>While it is not necessary to do so, we make much use of IRC, so having an account you can use to access the main #xubuntu-devel channel will help you, you can though access the channel via the IRC tab of the Xubuntu <ulink url="http://dev.xubuntu.org/">development</ulink> tracker.</para>
+
+		<para>Join the Xubuntu Testers <ulink url="https://launchpad.net/~xubuntu-testers">Launchpad</ulink> team.</para>
+
+		<para>Consider adding your details to the <ulink url="http://wiki.xubuntu.org/qa/teamhardware">Hardware</ulink> page. We can use this data to request specific testing from specific testers.</para>
+	</section>
+
+	<section id="qa-infra-iso">
+		<title>Getting the ISO</title>
+
+		<para>Iso's can be obtained through a few methods. The simplest method is to visit the <ulink url="http://iso.qa.ubuntu.com/">ISO</ulink> tracker. Follow the testcases through version to Xubuntu's group of tests. Then choose either 32 or 64 bit. Download links are available there</para>
+
+		<para>When you intend to test more regularly, then you might find (especially if bandwidth is an issue for you) using the <ulink url="https://help.ubuntu.com/community/ZsyncCdImage">zsync</ulink> link more appropriate. This is will just grab the difference between your local copy and the current one.</para>
+
+	</section>
+
+	<section id="qa-infra-test">
+		<title>Methods of testing</title>
+
+		<para>Now you've set up your basic contact(s)and have your ISO, you are in a position to test it.</para>
+
+		<para>There are two main methods of testing the ISO:</para>
+
+		<itemizedlist>
+			<listitem><para>Using a virtual machine enables you to carry on using a normal release and to test our ISO's. You can install a virtual machine by directly using your downloaded ISO.</para></listitem>
+			<listitem><para>Install the ISO to hardware where that possibility is available. This is more important towards the end of the development cycle. You will necessarily need to have the ISO in some bootable medium. A member of Xubuntu's Website team details a simple method for preparing a bootable <ulink url="http://princessleia.com/journal/2016/03/xubuntu-16-04-iso-testing-tips/">USB</ulink> stick with Gnome Disks.</para></listitem>
+		</itemizedlist>
+	</section>
+
+	<section id="qa-infra-track">
+		<title>Reporting your result</title>
+
+		<para>There are two QA trackers we use.</para>
+
+		<itemizedlist>
+			<listitem><para>The ISO tracker mentioned above for any testing done with an ISO either an install or an upgrade test. </para></listitem>
+			<listitem><para>The <ulink url="http://packages.qa.ubuntu.com/">Package</ulink> tracker, which is used when we are testing applications during a cycle.</para></listitem>
+		</itemizedlist>
+
+		<para>These trackers form the backbone of what we are able to gain from your testing. It is important that you report your results.</para>
+
+		<para>The next two sections of these documents go into more detail on how you can test for us and how to report bugs for us</para>
+	</section>
+
+
+</chapter>
