@@ -1,3 +1,12 @@
+xubuntu-docs (16.04.1) xenial; urgency=medium
+
+  [ flocculant ]
+  * Replaced gstreamer0.1 ugly with gstreamer1.0 ugly
+  * Replaced install-css.sh with the new libdvd-pkg information
+  * Added new dev doc page for testers
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 16 Mar 2016 19:10:17 -0400
+
 xubuntu-docs (16.04) xenial; urgency=medium
 
   [ David Pires ]
@@ -10,9 +19,6 @@ xubuntu-docs (16.04) xenial; urgency=medium
   * Contributor docs: Initial content for QA
   * Added ISO section to QA testing
   * Added 3 PPA links and new catfish note to QA testing
-  * Replaced gstreamer0.1 ugly with gstreamer1.0 ugly
-  * Replaced install-css.sh with the new libdvd-pkg information
-  * Added new dev doc page for testers
 
   [ Unit 193 ]
   * Makefile:
@@ -36,7 +42,7 @@ xubuntu-docs (16.04) xenial; urgency=medium
   * Enable PDFs for contributor docs
   * Build contributor docs by default too
 
- -- David Pires <slickymaster@ubuntu.com>  Tue, 15 Mar 2016 23:09:21 +0000
+ -- David Pires <slickymaster@ubuntu.com>  Thu, 10 Mar 2016 23:41:13 +0000
 
 xubuntu-docs (15.10.1) wily; urgency=medium
 
