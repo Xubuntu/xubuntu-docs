@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-03-11 20:31+0000\n"
+"POT-Creation-Date: 2016-03-15 23:10+0000\n"
 "PO-Revision-Date: 2015-12-23 16:07+0000\n"
 "Last-Translator: Piotr Strębski <strebski@o2.pl>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-03-12 06:22+0000\n"
-"X-Generator: Launchpad (build 17939)\n"
+"X-Launchpad-Export-Date: 2016-03-16 06:18+0000\n"
+"X-Generator: Launchpad (build 17947)\n"
 
 #: contributor-docs/C/xi-translators-not-found.xml:1(para)
 msgid ""
@@ -954,6 +954,146 @@ msgid ""
 "devel mailing list as required. <emphasis>Specific developer testing "
 "requirement</emphasis> are mailed as they are available, often these "
 "packages will be those found on one of our PPAs."
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:15(title)
+msgid "Testing Infrastructure"
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:17(title)
+msgid "Getting ready to test"
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:19(para)
+msgid ""
+"To successfully test for Xubuntu, so we know you have and you know what we "
+"need, you will need at a minimum 4 things: a Launchpad account, mailing list "
+"subscription, an image and something to test it on. This page will give you "
+"the basic information in order to do those things and more."
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:23(title)
+msgid "Contacts"
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:25(para)
+msgid ""
+"You need a Launchpad account - you'll use it to join the necessary Launchpad "
+"team(s) and it makes logging into the 2 QA trackers we use easier."
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:27(para)
+msgid ""
+"We use one mailing list to detail what we intend to test during a cycle, we "
+"use the same list when we are calling for tests. The same list is used by "
+"the team to discuss the development of Xubuntu. So you will need to join the "
+"Xubuntu Devel <ulink url=\"https://lists.ubuntu.com/mailman/listinfo/xubuntu-"
+"devel\"> Mailing</ulink> list."
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:29(para)
+msgid ""
+"While it is not necessary to do so, we make much use of IRC, so having an "
+"account you can use to access the main #xubuntu-devel channel will help you, "
+"you can though access the channel via the IRC tab of the Xubuntu <ulink "
+"url=\"http://dev.xubuntu.org/\">development</ulink> tracker."
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:31(para)
+msgid ""
+"Join the Xubuntu Testers <ulink url=\"https://launchpad.net/~xubuntu-"
+"testers\">Launchpad</ulink> team."
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:33(para)
+msgid ""
+"Consider adding your details to the <ulink "
+"url=\"http://wiki.xubuntu.org/qa/teamhardware\">Hardware</ulink> page. We "
+"can use this data to request specific testing from specific testers."
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:37(title)
+msgid "Getting the ISO"
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:39(para)
+msgid ""
+"Iso's can be obtained through a few methods. The simplest method is to visit "
+"the <ulink url=\"http://iso.qa.ubuntu.com/\">ISO</ulink> tracker. Follow the "
+"testcases through version to Xubuntu's group of tests. Then choose either 32 "
+"or 64 bit. Download links are available there"
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:41(para)
+msgid ""
+"When you intend to test more regularly, then you might find (especially if "
+"bandwidth is an issue for you) using the <ulink "
+"url=\"https://help.ubuntu.com/community/ZsyncCdImage\">zsync</ulink> link "
+"more appropriate. This is will just grab the difference between your local "
+"copy and the current one."
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:46(title)
+msgid "Methods of testing"
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:48(para)
+msgid ""
+"Now you've set up your basic contact(s)and have your ISO, you are in a "
+"position to test it."
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:50(para)
+msgid "There are two main methods of testing the ISO:"
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:53(para)
+msgid ""
+"Using a virtual machine enables you to carry on using a normal release and "
+"to test our ISO's. You can install a virtual machine by directly using your "
+"downloaded ISO."
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:54(para)
+msgid ""
+"Install the ISO to hardware where that possibility is available. This is "
+"more important towards the end of the development cycle. You will "
+"necessarily need to have the ISO in some bootable medium. A member of "
+"Xubuntu's Website team details a simple method for preparing a bootable "
+"<ulink url=\"http://princessleia.com/journal/2016/03/xubuntu-16-04-iso-"
+"testing-tips/\">USB</ulink> stick with Gnome Disks."
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:59(title)
+msgid "Reporting your result"
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:61(para)
+msgid "There are two QA trackers we use."
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:64(para)
+msgid ""
+"The ISO tracker mentioned above for any testing done with an ISO either an "
+"install or an upgrade test."
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:65(para)
+msgid ""
+"The <ulink url=\"http://packages.qa.ubuntu.com/\">Package</ulink> tracker, "
+"which is used when we are testing applications during a cycle."
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:68(para)
+msgid ""
+"These trackers form the backbone of what we are able to gain from your "
+"testing. It is important that you report your results."
+msgstr ""
+
+#: contributor-docs/C/qa-tester.xml:70(para)
+msgid ""
+"The next two sections of these documents go into more detail on how you can "
+"test for us and how to report bugs for us"
 msgstr ""
 
 #: contributor-docs/C/qa-team.xml:15(title)
