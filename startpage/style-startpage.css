@@ -9,29 +9,37 @@
 	margin-bottom: 3em;
 }
 
-.section {
-	margin: 0 -3em;
-	padding: 0 3em 1.5em 3em;
-	border-top: 0.5em solid rgba( 0, 0, 0, 0.1 );
-}
-
 .documentation {
-	margin: 0 -3em;
-	padding: 1.8em 3em;
-	background-color: rgba( 255, 255, 255, 0.95 );
+	/* Imitates the .hb style */
+	margin: 2em 0;
+	padding: 10px 25px 10px 25px;
+
+	background-color: #fff;
+	color: #333;
+
+	box-shadow: 0 0 5px rgba( 0, 0, 0, 0.1 );
+	border-color: rgba( 0, 0, 0, 0.1 );
+	border-left-width: 10px;
+	border-left-style: solid;
+
+	line-height: 1.4em;
 }
-	p + .documentation {
-		margin-top: 1.8em;
+	.documentation > :first-child { margin-top: 10px; }
+	.documentation > :last-child { margin-bottom: 10px; }
+
+	#user .documentation {
+		/* green */
+		border-color: rgba( 74, 145, 15, 0.9 );
 	}
-	.documentation h2 {
-		margin-top: 0;
-	}
-	.documentation h3,
-	.documentation p,
-	.documentation li {
-		font-size: 115%;
-		line-height: 1.5em;
-	}
+		#user .documentation a {
+			color: rgba( 74, 145, 15, 0.8 );
+		}
+			#user .documentation a:hover, #user .documentation a:active, #user .documentation a:focus {
+				color: rgba( 74, 145, 15, 1 );
+			}
+h3 {
+	font-weight: normal;
+}
 
 h3 + ul {
 	margin-top: -1em;
