@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-03-22 20:20+0200\n"
+"POT-Creation-Date: 2016-03-22 21:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -194,7 +194,7 @@ msgid "Changing your wallpaper"
 msgstr ""
 
 #: user-docs/C/settings-preferences.xml:59(para)
-msgid "You can easily change your desktop wallpaper by navigating to <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> Settings Manager</guimenuitem><guimenuitem>Desktop</guimenuitem></menuchoice></application>, or alternatively, by right clicking on your desktop and selecting the <menuchoice><guimenuitem>Desktop Settings...</guimenuitem></menuchoice> option. Where you have multiple workspaces, you can choose to have the same wallpaper across all workspaces, or use a different wallpaper for each workspace by deselecting <guilabel>Apply to all workspaces</guilabel> and moving the dialogue to the next workspace selecting a different wallpaper."
+msgid "You can easily change your desktop wallpaper by navigating to <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> Settings Manager</guimenuitem><guimenuitem>Desktop</guimenuitem></menuchoice></application>, or alternatively, by right clicking on your desktop and selecting the <menuchoice><guimenuitem>Desktop Settings...</guimenuitem></menuchoice> option. Where you have multiple workspaces, you can choose to have the same wallpaper across all workspaces, or use a different wallpaper for each workspace by deselecting <guilabel>Apply to all workspaces</guilabel> and moving the dialogue to each workspace individually and selecting a different wallpaper."
 msgstr ""
 
 #: user-docs/C/settings-preferences.xml:61(para)
@@ -226,7 +226,7 @@ msgid "Right-click the image and select <menuchoice><guimenuitem>Set as wallpape
 msgstr ""
 
 #: user-docs/C/settings-preferences.xml:77(para)
-msgid "With multiple monitors, this setting will only change the currently seleted monitors wallpaper. To change the wallpaper for other monitors, you will need to move the dialog to each other monitor before changing the settings."
+msgid "With multiple monitors, this setting will only change the wallpaper for the currently active monitor. To change the wallpaper for other monitors, move the dialog to each other monitor to access their settings."
 msgstr ""
 
 #: user-docs/C/settings-preferences.xml:79(para)
@@ -1044,7 +1044,7 @@ msgid "Some applications depend on others being installed in order to work prope
 msgstr ""
 
 #: user-docs/C/managing-applications.xml:59(para)
-msgid "<application>Gnome Software</application> does not remove dependencies installed with a package. To remove the dependencies run <userinput>sudo apt-get autoremove</userinput>. Before agreeing to the command continuing, check that the packages being marked for removal are as expected."
+msgid "<application>Gnome Software</application> does not remove dependencies installed with a package. To remove any unneded dependencies run <userinput>sudo apt-get autoremove</userinput> in a terminal. Before agreeing to the command continuing, check that the packages being marked for removal are as expected."
 msgstr ""
 
 #: user-docs/C/managing-applications.xml:66(title)

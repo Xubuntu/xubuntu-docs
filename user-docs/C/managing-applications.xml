@@ -56,7 +56,7 @@
 
 			<caution><para>Some applications depend on others being installed in order to work properly. If you try to remove an application which is needed by another application, both of them will be removed. You will be asked to confirm that this is what you want to happen before the applications are removed.</para></caution>
 
-			<note><para><application>Gnome Software</application> does not remove dependencies installed with a package. To remove the dependencies run <userinput>sudo apt-get autoremove</userinput>. Before agreeing to the command continuing, check that the packages being marked for removal are as expected.</para></note>
+			<note><para><application>Gnome Software</application> does not remove dependencies installed with a package. To remove any unneded dependencies run <userinput>sudo apt-get autoremove</userinput> in a terminal. Before agreeing to the command continuing, check that the packages being marked for removal are as expected.</para></note>
 
 
 		</section>
