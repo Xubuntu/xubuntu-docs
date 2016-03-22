@@ -1,3 +1,10 @@
+xubuntu-docs (16.04.3) UNRELEASED; urgency=medium
+
+  * Create temporary symlinks while creating PDFs (fixes FTBFS, thanks Krytarik)
+  * Drop contributor documentation from the default build
+
+ -- Pasi Lallinaho <pasi@shimmerproject.org>  Tue, 22 Mar 2016 13:48:45 +0200
+
 xubuntu-docs (16.04.2) xenial; urgency=medium
 
   * Fix relative paths for font metric files to allow PDFs to build
