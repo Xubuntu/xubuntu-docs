@@ -85,7 +85,7 @@
 
 			<itemizedlist>
 				<listitem><para>Empty your trash by right-clicking the <guilabel>Trash</guilabel> icon on the Desktop or the Launcher Panel and selecting <menuchoice><guimenuitem>Empty Trash</guimenuitem></menuchoice>.</para></listitem>
-				<listitem><para>Remove software packages that you no longer use. See <application>Gnome Software</application> for information on removing packages.</para></listitem>
+				<listitem><para>Remove software packages that you no longer use. See <xref linkend="gs-remove" /> for information on removing packages.</para></listitem>
 				<listitem><para>Delete files that you no longer need. You can install the <application>GNOME Disk Usage Analyzer</application> from <application>Gnome Software</application> to find which files are taking up the most space.</para></listitem>
 			</itemizedlist>
 
@@ -97,7 +97,9 @@
 
 			<para>You can use <application>GParted (GNOME Partition Editor)</application> to partition storage devices. Install <application>GParted</application> from <application>Gnome Software</application> and then go to &wm-settings-gparted; to start the partition editor.</para>
 
-			<warning><para>Be careful when altering disk partitions, as it is possible to lose your data if you delete or change the wrong partition. Altering disk partitions can take some time, do not assume that GParted has hung or crashed while it is working.</para></warning>
+			<warning><para>Be careful when altering disk partitions, as it is possible to lose your data if you delete or change the wrong partition.</para></warning>
+
+			<warning><para>Altering disk partitions can take some time. Do not assume that GParted has hung or crashed while it is working.</para></warning>
 
 			<note><para>If it is necessary to unmount the installed system to proceed with changes you wish to make, you will have to work from a live CD/USB to do so.</para></note>
 
@@ -184,12 +186,6 @@
 			</itemizedlist>
 
 			<note><para>Some touchpads may be detected as normal mouse devices, even though they are actually touchpads. In this case, the <guilabel>Touchpad</guilabel> device will not be available in the mouse preferences. See the <ulink url="&communitywiki-touchpads;">Touchpads</ulink> page in the Ubuntu community wiki for more information on touchpads.</para></note>
-		</section>
-
-		<section id="laptops-reports">
-			<title>Finding laptop testing reports</title>
-
-			<para>Many laptops are regularly tested by the Ubuntu community to ensure that various features work correctly. The results of these tests are available for you to read and may offer insight into any problems you might be experiencing with your laptop. See the <ulink url="&communitywiki-laptop-testing;">Laptop Testing</ulink> page in the Ubuntu community wiki for a full listing of available laptop tests and instructions on how you can contribute by submitting details pertaining to your laptop's performance. You can report your testing results on <ulink url="&laptop-qa;">&laptop-qa;</ulink>. You can also find help on #ubuntu-quality or #xubuntu-devel in the Freenode IRC network.</para>
 		</section>
 	</section>
 

@@ -56,7 +56,7 @@
 		<section id="customizing-wallpaper">
 			<title>Changing your wallpaper</title>
 
-			<para>You can easily change your desktop wallpaper by navigating to &wm-settings-desktop;, or alternatively, by right clicking on your desktop and selecting the <menuchoice><guimenuitem>Desktop Settings...</guimenuitem></menuchoice> option. Where you have multiple workspaces, you can choose to have the same wallpaper across all workspaces, or by deselecting <literal>Apply to all workspaces</literal> and moving the dialogue to the next workspace selecting a different wallpaper</para>
+			<para>You can easily change your desktop wallpaper by navigating to &wm-settings-desktop;, or alternatively, by right clicking on your desktop and selecting the <menuchoice><guimenuitem>Desktop Settings...</guimenuitem></menuchoice> option. Where you have multiple workspaces, you can choose to have the same wallpaper across all workspaces, or use a different wallpaper for each workspace by deselecting <guilabel>Apply to all workspaces</guilabel> and moving the dialogue to the next workspace selecting a different wallpaper.</para>
 
 			<para>Once the <application>Desktop</application> settings dialog is open, the <guilabel>Background</guilabel> tab gives you options for configuring the look of your desktop background. You can choose to use a single image or multiple images as wallpaper or you can use a color scheme.</para>
 
@@ -74,9 +74,7 @@
 				<listitem><para>Right-click the image and select <menuchoice><guimenuitem>Set as wallpaper</guimenuitem></menuchoice> from the context menu</para></listitem>
 			</itemizedlist>
 
-			<caution><para>With multiple monitors, this setting will only change the primary monitor's
-				wallpaper. To change the wallpaper for other monitors, you will need to use the
-				dialog as described above.</para></caution>
+			<caution><para>With multiple monitors, this setting will only change the currently seleted monitors wallpaper. To change the wallpaper for other monitors, you will need to move the dialog to each other monitor before changing the settings.</para></caution>
 
 			<para>Read more at the <ulink url="&xfdesktop-help;">Xfdesktop</ulink> official documentation.</para>
 		</section>
