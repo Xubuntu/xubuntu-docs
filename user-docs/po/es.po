@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-03-22 21:45+0200\n"
-"PO-Revision-Date: 2016-03-28 16:38+0000\n"
-"Last-Translator: Alfonso <alfonsomthd@tutanota.com>\n"
+"PO-Revision-Date: 2016-04-02 10:34+0000\n"
+"Last-Translator: Eugenio González <eugeagb@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-03-29 05:49+0000\n"
-"X-Generator: Launchpad (build 17967)\n"
+"X-Launchpad-Export-Date: 2016-04-03 06:00+0000\n"
+"X-Generator: Launchpad (build 17972)\n"
 "Language: es\n"
 
 #: user-docs/C/xi-translators-not-found.xml:1(para)
@@ -555,6 +555,10 @@ msgid ""
 "currently active monitor. To change the wallpaper for other monitors, move "
 "the dialog to each other monitor to access their settings."
 msgstr ""
+"Con varios monitores, este ajuste solo va a cambiar el fondo de pantalla "
+"para el monitor activo en ese momento. Para cambiar el fondo de pantalla "
+"para otros monitores,mueva el cuadro de diálogo a cada monitor para acceder "
+"a su configuración."
 
 #: user-docs/C/settings-preferences.xml:79(para)
 msgid ""
@@ -2012,6 +2016,9 @@ msgid ""
 "<literal><placeholder-2/>libdvdread4</literal> and <literal><placeholder-"
 "3/>gstreamer1.0-plugins-ugly</literal> packages."
 msgstr ""
+"Instale los paquetes <literal><placeholder-1/>libdvdnav4</literal>, "
+"<literal><placeholder-2/>libdvdread4</literal> y <literal><placeholder-"
+"3/>gstreamer1.0-plugins-ugly</literal>."
 
 #: user-docs/C/media-apps.xml:57(para)
 msgid ""
@@ -2205,6 +2212,10 @@ msgid ""
 "message. In this case it is likely the second package manager will not "
 "function correctly."
 msgstr ""
+"En la mayoría de los casos solo se puede utilizar un gestor de paquetes a la "
+"vez. Si inicia otro gestor de paquetes mientras que uno ya está abierto, "
+"puede recibir un mensaje de error. En este caso es probable que el segundo "
+"gestor de paquetes no funcione correctamente."
 
 #: user-docs/C/managing-applications.xml:30(title)
 msgid "Using Gnome Software"
@@ -3572,7 +3583,7 @@ msgstr "Jay van Cooten (skippersboss)"
 
 #: user-docs/C/index.xml:29(para)
 msgid "Kev Bowring (flocculant)"
-msgstr ""
+msgstr "Kev Bowring (flocculant)"
 
 #: user-docs/C/index.xml:30(para)
 msgid "Krytarik Raido (krytarik)"
