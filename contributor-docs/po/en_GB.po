@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-03-22 21:45+0200\n"
-"PO-Revision-Date: 2016-04-19 16:04+0000\n"
+"PO-Revision-Date: 2016-04-20 12:20+0000\n"
 "Last-Translator: Elias Adeleke <adeelias4real@gmail.com>\n"
 "Language-Team: English (United Kingdom) <en_GB@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-04-20 05:50+0000\n"
+"X-Launchpad-Export-Date: 2016-04-21 05:53+0000\n"
 "X-Generator: Launchpad (build 17995)\n"
 
 #: contributor-docs/C/xi-translators-not-found.xml:1(para)
@@ -1018,11 +1018,11 @@ msgstr ""
 
 #: contributor-docs/C/qa-testing.xml:36(title)
 msgid "Using Development PPAs"
-msgstr ""
+msgstr "Using Development PPAs"
 
 #: contributor-docs/C/qa-testing.xml:38(para)
 msgid "We have 3 PPAs which we use regularly to test packages. These are:"
-msgstr ""
+msgstr "We have 3 PPAs which we use regularly to test packages. These are:"
 
 #: contributor-docs/C/qa-testing.xml:41(para)
 msgid ""
@@ -1030,6 +1030,9 @@ msgid ""
 "url=\"https://launchpad.net/~shimmerproject/+archive/ubuntu/daily\">Shimmer "
 "Themes</ulink> for daily builds of the Shimmer Project’s projects"
 msgstr ""
+"<ulink "
+"url=\"https://launchpad.net/~shimmerproject/+archive/ubuntu/daily\">Shimmer "
+"Themes</ulink> for daily builds of the Shimmer Project’s projects"
 
 #: contributor-docs/C/qa-testing.xml:42(para)
 msgid ""
@@ -1037,6 +1040,9 @@ msgid ""
 "staging\">Xubuntu Staging</ulink> for packages and package versions that are "
 "being prepared for inclusion in Xubuntu"
 msgstr ""
+"<ulink url=\"https://launchpad.net/~xubuntu-dev/+archive/ubuntu/xubuntu-"
+"staging\">Xubuntu Staging</ulink> for packages and package versions that are "
+"being prepared for inclusion in Xubuntu"
 
 #: contributor-docs/C/qa-testing.xml:43(para)
 msgid ""
@@ -1044,6 +1050,9 @@ msgid ""
 "dev/+archive/ubuntu/ppa\">Xubuntu daily builds</ulink> for daily Git and Bzr "
 "builds for packages related to Xubuntu and/or Xfce4"
 msgstr ""
+"<ulink url=\"https://launchpad.net/~xubuntu-"
+"dev/+archive/ubuntu/ppa\">Xubuntu daily builds</ulink> for daily Git and Bzr "
+"builds for packages related to Xubuntu and/or Xfce4"
 
 #: contributor-docs/C/qa-testing.xml:46(para)
 msgid ""
@@ -1052,6 +1061,10 @@ msgid ""
 "search/+archive/ubuntu/ppa\">Catfish PPA</ulink> which provides catfish and "
 "both a daily and unstable version for testing when required."
 msgstr ""
+"In addition to these 3 main PPAs, developers also provide more specific PPAs "
+"for applications, such as the <ulink url=\"https://launchpad.net/~catfish-"
+"search/+archive/ubuntu/ppa\">Catfish PPA</ulink> which provides catfish and "
+"both a daily and unstable version for testing when required."
 
 #: contributor-docs/C/qa-testing.xml:48(para)
 msgid ""
@@ -1059,6 +1072,9 @@ msgid ""
 "packages that developers are currently working with, this means that "
 "regressions found by you will not be present once they are released."
 msgstr ""
+"Installing these three PPAs means that you will be using and testing "
+"packages that developers are currently working with, this means that "
+"regressions found by you will not be present once they are released."
 
 #: contributor-docs/C/qa-testing.xml:50(para)
 msgid ""
@@ -1066,14 +1082,17 @@ msgid ""
 "a PPA source list and then change affected packages back to the default "
 "versions."
 msgstr ""
+"At times it is useful to remove a PPA. Using ppa-purge causes apt to disable "
+"a PPA source list and then change affected packages back to the default "
+"versions."
 
 #: contributor-docs/C/qa-testing.xml:53(para)
 msgid "Run <userinput>sudo apt-get install ppa-purge</userinput>"
-msgstr ""
+msgstr "Run <userinput>sudo apt-get install ppa-purge</userinput>"
 
 #: contributor-docs/C/qa-testing.xml:54(para)
 msgid "Run <userinput>sudo ppa-purge ppa:ppaname</userinput>"
-msgstr ""
+msgstr "Run <userinput>sudo ppa-purge ppa:ppaname</userinput>"
 
 #: contributor-docs/C/qa-testing.xml:57(para)
 msgid ""
