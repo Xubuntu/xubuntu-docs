@@ -1,4 +1,11 @@
-xubuntu-docs (16.04.3) UNRELEASED; urgency=medium
+xubuntu-docs (16.10) UNRELEASED; urgency=medium
+
+  [ David Pires ]
+  * Bump version and start page to 16.10 Yakkety Yak
+
+ -- David Pires <slickymaster@ubuntu.com>  Sat, 23 Apr 2016 15:35:24 +0100
+
+xubuntu-docs (16.04.3) xenial; urgency=medium
 
   * Create temporary symlinks while creating PDFs (fixes FTBFS, thanks Krytarik)
   * Drop contributor documentation from the default build
