@@ -24,7 +24,7 @@
 
 	<note><para>You will need administrative access to add and remove software.</para></note>
 
-	<caution><para>In most cases you can only use one package manager at a time. If you start another package manager while one is already open, you may receive an error message and the second package manager will not function correctly. </para></caution>
+	<caution><para>In most cases you can only use one package manager at a time. If you start another package manager while one is already open, you may receive an error message. In this case it is likely the second package manager will not function correctly.</para></caution>
 
 	<section id="gnome-software">
 		<title>Using Gnome Software</title>
@@ -41,7 +41,7 @@
 				<listitem><para>A shortcut to your application will added to the Applications menu</para></listitem>
 			</itemizedlist>
 
-			<note><para>To be able to install new software from the repositories, you need to be connected to the Internet.See <xref linkend="offline-packages"/> for information on using apt-offline</para></note>
+			<note><para>To be able to install new software from the repositories, you need to be connected to the Internet. See <xref linkend="offline-packages"/> for information on using <application>apt-offline</application>.</para></note>
 		</section>
 
 		<section id="gs-remove">
@@ -56,7 +56,7 @@
 
 			<caution><para>Some applications depend on others being installed in order to work properly. If you try to remove an application which is needed by another application, both of them will be removed. You will be asked to confirm that this is what you want to happen before the applications are removed.</para></caution>
 
-			<note><para>Gnome Software does not remove dependencies installed with a package. To remove the dependencies run <userinput>sudo apt-get autoremove</userinput>. Before agreeing to the command continuing, check that the packages being marked for removal are as expected.</para></note>
+			<note><para><application>Gnome Software</application> does not remove dependencies installed with a package. To remove any dependencies no longer needed, run <userinput>sudo apt-get autoremove</userinput> in a terminal. Before agreeing to the command continuing, check that the packages being marked for removal are as expected.</para></note>
 
 
 		</section>

@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-03-15 23:10+0000\n"
-"PO-Revision-Date: 2016-03-06 14:39+0000\n"
+"POT-Creation-Date: 2016-04-23 00:03+0100\n"
+"PO-Revision-Date: 2016-04-02 20:40+0000\n"
 "Last-Translator: Eugenio González <eugeagb@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-03-16 06:18+0000\n"
-"X-Generator: Launchpad (build 17947)\n"
+"X-Launchpad-Export-Date: 2016-04-23 05:43+0000\n"
+"X-Generator: Launchpad (build 17995)\n"
 
 #: contributor-docs/C/xi-translators-not-found.xml:1(para)
 msgid ""
@@ -285,7 +285,7 @@ msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:58(title)
 msgid "Focus 1: Usability"
-msgstr "Interés 1: Usabilidad"
+msgstr "Enfoque 1: Usabilidad"
 
 #: contributor-docs/C/strategy-document.xml:60(para)
 msgid ""
@@ -321,10 +321,14 @@ msgid ""
 "unreasonable efforts to integrate, implement or maintain. At least common "
 "accessibility tools should be installed in the default Xubuntu installation."
 msgstr ""
+"Aunque la accesibilidad no es una de las principales prioridades de Xubuntu, "
+"hay que tenerla muy en cuenta ya que no requiere esfuerzos razonables para "
+"integrar, implementar o mantener. Al menos las herramientas de accesibilidad "
+"comunes deben estar instalados en la instalación por defecto de Xubuntu."
 
 #: contributor-docs/C/strategy-document.xml:68(title)
 msgid "Focus 2: Performance"
-msgstr ""
+msgstr "Enfoque 2: Rendimiento"
 
 #: contributor-docs/C/strategy-document.xml:70(para)
 msgid ""
@@ -335,22 +339,34 @@ msgid ""
 "the Xubuntu team is able to work on other improvements and provide a release "
 "that is able to fulfill the expectations for a modern operating system."
 msgstr ""
+"El equipo de Xubuntu debe esforzarse por hacer Xubuntu ligero. Esto "
+"significa que cada nueva versión de Xubuntu debería funcionar moderadamente "
+"bien en las máquinas que datan de unos pocos años antes de la fecha de "
+"lanzamiento. Este último término significa que las nuevas versiones de "
+"Xubuntu pueden no soportar los equipos más antiguos. Sin embargo, asegura "
+"que el equipo de Xubuntu es capaz de trabajar en otras mejoras y "
+"proporcionar una liberación que es capaz de cumplir con las expectativas de "
+"un sistema operativo moderno."
 
 #: contributor-docs/C/strategy-document.xml:72(para)
 msgid ""
 "Users wanting the most lightweight system possible should be pointed at the "
 "minimal CD, more lightweight derivatives (such as Lubuntu) or other options."
 msgstr ""
+"Los usuarios que deseen el sistema más ligero posible, deben optar por el CD "
+"mínimo, los derivados más ligeros (como Lubuntu) u otras opciones."
 
 #: contributor-docs/C/strategy-document.xml:74(para)
 msgid ""
 "At the start of the release cycle, the minimum system requirements should be "
 "re-evaluated to determine if they continue to be realistic."
 msgstr ""
+"Al comienzo del ciclo de lanzamiento, los requisitos mínimos del sistema "
+"deben ser revaluados para determinar si continúan siendo realistas."
 
 #: contributor-docs/C/strategy-document.xml:78(title)
 msgid "Focus 3: Ready to Use"
-msgstr ""
+msgstr "Enfoque 3: Listo para usar"
 
 #: contributor-docs/C/strategy-document.xml:80(para)
 msgid ""
@@ -360,6 +376,11 @@ msgid ""
 "Xubuntu desktop will appear rough and unpolished which is unappealing to end-"
 "users."
 msgstr ""
+"Es importante para nosotros proporcionar un producto pulido y unificado que "
+"esté listo para los usuarios finales. También es un requisito previo para "
+"permitir Xubuntu como un escritorio útil, utilizable y eficaz. Sin la "
+"integración mencionada, el escritorio Xubuntu aparecerá en bruto y sin "
+"pulir, que es poco atractivo para los usuarios finales."
 
 #: contributor-docs/C/strategy-document.xml:82(para)
 msgid ""
@@ -367,16 +388,22 @@ msgid ""
 "that work well with each other as well as by applying patches to assure a "
 "more bug-free system."
 msgstr ""
+"La integración se logra también mediante la selección de las aplicaciones y "
+"bibliotecas que funcionan bien con las demás, así como mediante la "
+"aplicación de parches para asegurar un sistema más libre de errores."
 
 #: contributor-docs/C/strategy-document.xml:84(para)
 msgid ""
 "See <xref linkend=\"xsd-seeds-composition-package-selection\"/> for "
 "guidelines on how to determine if an application fits in the Xubuntu stack."
 msgstr ""
+"Vea <xref linkend=\"xsd-seeds-composition-package-selection\"/> para las "
+"instrucciones sobre cómo determinar si una aplicación se ajusta en la pila "
+"de Xubuntu."
 
 #: contributor-docs/C/strategy-document.xml:88(title)
 msgid "Focus 4: Community"
-msgstr ""
+msgstr "Enfoque 4: Comunidad"
 
 #: contributor-docs/C/strategy-document.xml:90(para)
 msgid ""
@@ -386,6 +413,12 @@ msgid ""
 "between the contributors as well as users is described more closely in <xref "
 "linkend=\"xsd-community\"/> and <xref linkend=\"xsd-development\"/>."
 msgstr ""
+"La comunidad Xubuntu es una fuerza importante en la creación de Xubuntu y "
+"haciéndolo tan perfecto sea posible. Es esencial que la coordinación regular "
+"entre contribuyentes funcione bien. La infraestructura para permitir una "
+"buena comunicación entre los contribuyentes, así como los usuarios se "
+"describe más de cerca en <xref linkend=\"xsd-community\"/> and <xref "
+"linkend=\"xsd-development\"/>."
 
 #: contributor-docs/C/strategy-document.xml:92(para)
 msgid ""
@@ -395,14 +428,19 @@ msgid ""
 "the Xubuntu team should try to allocate some resources to the cooperation at "
 "a later time."
 msgstr ""
+"Siempre que sea posible y apropiado, el equipo de Xubuntu debe trabajar en "
+"conjunto con otras comunidades, incluyendo otros equipos de Ubuntu y "
+"superiores. Si la cooperación en un momento dado no es posible, pero sería "
+"beneficioso para ambas partes, el equipo de Xubuntu debe tratar de asignar "
+"algunos recursos a la cooperación en un momento posterior."
 
 #: contributor-docs/C/strategy-document.xml:97(title)
 msgid "Community"
-msgstr ""
+msgstr "Comunidad"
 
 #: contributor-docs/C/strategy-document.xml:100(title)
 msgid "Project Lead"
-msgstr ""
+msgstr "Líder de Proyecto"
 
 #: contributor-docs/C/strategy-document.xml:102(para)
 msgid ""
@@ -411,6 +449,11 @@ msgid ""
 "XPL serves a term of four releases at a time, ending with an LTS release to "
 "allow long-term planning and major undertakings."
 msgstr ""
+"El jefe de proyecto Xubuntu (en adelante: XPL) es el responsable último de "
+"Xubuntu y garantiza que se pueda lanzar un producto de calidad en la fecha "
+"prevista. El XPL sirve un término de cuatro versiones a la vez, terminando "
+"con una versión LTS para permitir la planificación a largo plazo y grandes "
+"empresas."
 
 #: contributor-docs/C/strategy-document.xml:104(para)
 msgid ""
@@ -427,6 +470,8 @@ msgid ""
 "All nominees are required to provide a wiki page with relevant information "
 "for the voting."
 msgstr ""
+"Todos los candidatos están obligados a proporcionar una página wiki con "
+"información relevante para la votación."
 
 #. To read more about the requirements, see the processes page.
 #: contributor-docs/C/strategy-document.xml:108(para)
@@ -436,6 +481,11 @@ msgid ""
 "voting method needs to fulfill the requirement to only allow members of the "
 "Xubuntu team to vote."
 msgstr ""
+"La votación debe estar dispuesta de manera que permita votar a las personas "
+"en cualquier zona horaria. Lo ideal sería que la votación sea posible "
+"durante 24 horas consecutivas. Cualquier método de votación tiene que "
+"cumplir con el requisito de que solo voten otros miembros del equipo de "
+"Xubuntu."
 
 #: contributor-docs/C/strategy-document.xml:110(para)
 msgid ""
@@ -449,7 +499,7 @@ msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:114(title)
 msgid "Xubuntu Team"
-msgstr ""
+msgstr "Equipo de Xubuntu"
 
 #: contributor-docs/C/strategy-document.xml:116(para)
 msgid ""
@@ -457,6 +507,9 @@ msgid ""
 "the Xubuntu development. The group is registered in Launchpad as xubuntu-"
 "team. The team is moderated."
 msgstr ""
+"El equipo de Xubuntu es un grupo de individuos que son los principales "
+"responsables del desarrollo de Xubuntu. El grupo se ha registrado en "
+"Launchpad como Xubuntu-team. El equipo está moderado."
 
 #: contributor-docs/C/strategy-document.xml:118(para)
 msgid ""
@@ -2341,7 +2394,7 @@ msgstr ""
 msgid ""
 "The Xubuntu status tracker is where the development progress for the current "
 "development cycle is tracked and located at <ulink "
-"url=\"http://tracker.xubuntu.org/\">tracker.xubuntu.org</ulink>."
+"url=\"http://tracker.xubuntu.org/\">dev.xubuntu.org</ulink>."
 msgstr ""
 
 #: contributor-docs/C/documentation.xml:14(title)

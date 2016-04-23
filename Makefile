@@ -26,7 +26,7 @@ TRSLINKSCONTR = $(shell for lang in $(TRANSLATCONTR); do \
         awk -v lang="$$lang" '$$1 == "\"Language-Team:" {print "\t\t\t\t\t\t<li><a href=\\\"contributor/" lang "/index.html\\\">" $$2 "</a></li>\\n"; exit}' contributor-docs/po/$$lang.po; \
     done | sed '$$ s/\\n$$//')
 
-all: clean startpage user-all contributor-all
+all: clean startpage user-all
 
 user-all: user-html user-html-translations user-pdf user-pdf-translations
 

@@ -36,7 +36,7 @@
 			want to change the settings for the automatic updates, go to the
 			<guilabel>Updates</guilabel> tab under &software-properties; and change
 			the settings to your liking.</para>
-		<warning><para>Disabling automatic updates, lowers the
+		<warning><para>Disabling automatic updates lowers the
 			security level of your computer. When the automatic updates are turned
 			off, it is essential to remember to manually upgrade often.</para></warning>
 		<tip><para>If you use an Internet connection with limited bandwidth and do
@@ -47,7 +47,7 @@
 	<section id="passwords">
 		<title>Passwords</title>
 
-		<warning><para>Official companies will not ask you for your password, if you are asked for your password delete any e-mail asking for such. If you are on the telephone, hang-up and call someone you know to ensure that the connection to those asking is lost.</para></warning>
+		<warning><para>Official companies will not ask you for your password. If you are asked for your password, delete any e-mail asking for such. If you are on the telephone, hang up and call someone you know to ensure that the connection to those asking is lost.</para></warning>
 
 		<section id="passwords-important">
 			<title>Use strong and unique passwords for important accounts</title>
@@ -182,10 +182,7 @@
 			<para>Password managers are a very convenient way of using many unique
 				passwords without having to remember them all!</para>
 
-			<tip><para>There are several password managers available in
-				<application>Gnome Software</application>, including
-				<application>KeePassX</application> and
-				<application>PaSaffe</application>.</para></tip>
+			<tip><para>There are several password managers available in the repositories, including <application>KeePassX</application> and <application>PaSaffe</application>.</para></tip>
 
 			<para>Some password managers, like <application>KeePassX</application>
 				can synchronise your passwords across devices, including Windows or
@@ -283,10 +280,7 @@
 			<listitem><para>Label your backups clearly and keep them in a safe
 				place</para></listitem>
 		</itemizedlist>
-		<tip><para>There are numerous dedicated backup applications available
-			in <application>Gnome Software</application>, including
-			<application>Dejà Dup</application> and
-			<application>luckyBackup</application>.</para></tip>
+		<tip><para>There are numerous dedicated backup applications available in the repositories, including <application>Dejà Dup</application> and <application>luckyBackup</application>.</para></tip>
 		<tip><para>If you use online backup services like Dropbox, it is a good
 			idea to first encrypt your documents and upload an encrypted archive.
 			This will prevent the online services staff from accessing your

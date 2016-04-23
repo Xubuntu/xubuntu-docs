@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-03-15 23:10+0000\n"
-"PO-Revision-Date: 2016-03-15 22:46+0000\n"
+"POT-Creation-Date: 2016-04-23 00:03+0100\n"
+"PO-Revision-Date: 2016-04-01 16:50+0000\n"
 "Last-Translator: David Pires <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-03-16 06:17+0000\n"
-"X-Generator: Launchpad (build 17947)\n"
+"X-Launchpad-Export-Date: 2016-04-23 05:43+0000\n"
+"X-Generator: Launchpad (build 17995)\n"
 "Language: pt\n"
 
 #: user-docs/C/xi-translators-not-found.xml:1(para)
@@ -446,21 +446,21 @@ msgid ""
 "tion>, or alternatively, by right clicking on your desktop and selecting the "
 "<menuchoice><guimenuitem>Desktop Settings...</guimenuitem></menuchoice> "
 "option. Where you have multiple workspaces, you can choose to have the same "
-"wallpaper across all workspaces, or by deselecting <literal>Apply to all "
-"workspaces</literal> and moving the dialogue to the next workspace selecting "
-"a different wallpaper"
+"wallpaper across all workspaces, or use a different wallpaper for each "
+"workspace by deselecting <guilabel>Apply to all workspaces</guilabel> and "
+"moving the dialogue to each workspace individually and selecting a different "
+"wallpaper."
 msgstr ""
 "Pode facilmente mudar o fundo do seu ambiente de trabalho navegando até "
 "<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
 "Definições</guimenuitem><guimenuitem>Ambiente de "
 "trabalho</guimenuitem></menuchoice></application>, ou alternativamente, "
 "clicando com o botão direito do rato no seu ambiente de trabalho e "
-"selecionando a opção  <menuchoice><guimenuitem>Definições do ambiente de "
-"trabalho...</guimenuitem></menuchoice>. Onde tiver múltiplas áreas de "
-"trabalho, pode optar por ter o mesmo papel de parede em todas as áreas de "
-"trabalho, ou desmarcando <literal>Aplicar a todas as áreas de "
-"trabalho</literal> e movendo o diálogo para a próximo área de trabalho "
-"selecionando um papel de parede diferente"
+"selecionando a opção <menuchoice><guimenuitem>Definições do ambiente de "
+"trabalho...</guimenuitem></menuchoice>. Quando tem múltiplas áreas de "
+"trabalho, pode optar por ter o mesmo fundo em todas as áreas de trabalho, ou "
+"usar um fundo diferente para cada área de trabalho desmarcando "
+"<guilabel>Aplicar a todas as áreas de trabalho</guilabel>"
 
 #: user-docs/C/settings-preferences.xml:61(para)
 msgid ""
@@ -547,15 +547,16 @@ msgstr ""
 
 #: user-docs/C/settings-preferences.xml:77(para)
 msgid ""
-"With multiple monitors, this setting will only change the primary monitor's "
-"wallpaper. To change the wallpaper for other monitors, you will need to use "
-"the dialog as described above."
+"With multiple monitors, this setting will only change the wallpaper for the "
+"currently active monitor. To change the wallpaper for other monitors, move "
+"the dialog to each other monitor to access their settings."
 msgstr ""
-"Com múltiplos monitores, esta definição só irá mudar o papel de parede do "
-"monitor principal. Para alterar o papel de parede dos outros monitores, terá "
-"que usar o diálogo como descrito acima."
+"Com múltiplos monitores, esta definição só irá mudar o fundo do ambiente de "
+"trabalho do monitor ativo atualmente. Para alterar o fundo do ambiente de "
+"trabalho de outros monitores, mova o diálogo para cad um deles para aceder "
+"às suas definições."
 
-#: user-docs/C/settings-preferences.xml:81(para)
+#: user-docs/C/settings-preferences.xml:79(para)
 msgid ""
 "Read more at the <ulink "
 "url=\"http://docs.xfce.org/xfce/xfdesktop/4.11/start\">Xfdesktop</ulink> "
@@ -564,11 +565,11 @@ msgstr ""
 "Leia mais na documentação oficial do <ulink "
 "url=\"http://docs.xfce.org/xfce/xfdesktop/4.11/start\">Xfdesktop</ulink>."
 
-#: user-docs/C/settings-preferences.xml:85(title)
+#: user-docs/C/settings-preferences.xml:83(title)
 msgid "Customizing your panel configuration"
 msgstr "Personalização da configuração do painel"
 
-#: user-docs/C/settings-preferences.xml:87(para)
+#: user-docs/C/settings-preferences.xml:85(para)
 msgid ""
 "If you don't like the default panel configuration, including the positioning "
 "or the applets installed by default, follow the steps below to customize the "
@@ -578,11 +579,11 @@ msgstr ""
 "posicionamento ou os mini-aplicativos instalados por padrão, siga os passos "
 "abaixo para personalizar a configuração do painel:"
 
-#: user-docs/C/settings-preferences.xml:92(para)
+#: user-docs/C/settings-preferences.xml:90(para)
 msgid "Right-click on the panel"
 msgstr "Clique com o botão direito do rato no painel"
 
-#: user-docs/C/settings-preferences.xml:93(para)
+#: user-docs/C/settings-preferences.xml:91(para)
 msgid ""
 "From the context menu, select "
 "<menuchoice><guimenuitem>Panel</guimenuitem><guimenuitem>Panel "
@@ -592,7 +593,7 @@ msgstr ""
 "<menuchoice><guimenuitem>Painel</guimenuitem><guimenuitem>Preferências do "
 "painel...</guimenuitem></menuchoice>"
 
-#: user-docs/C/settings-preferences.xml:95(para)
+#: user-docs/C/settings-preferences.xml:93(para)
 msgid ""
 "In the <guilabel>Display</guilabel> tab, you can control the panel's size "
 "and positioning, including:"
@@ -600,11 +601,11 @@ msgstr ""
 "Na aba <guilabel>Aparência</guilabel>, pode controlar o tamanho do painel e "
 "posicionamento, incluindo:"
 
-#: user-docs/C/settings-preferences.xml:97(para)
+#: user-docs/C/settings-preferences.xml:95(para)
 msgid "Displaying the panel vertically along either side of the screen"
 msgstr "Exibir o painel vertical ao longo de cada lado do ecrã"
 
-#: user-docs/C/settings-preferences.xml:98(para)
+#: user-docs/C/settings-preferences.xml:96(para)
 msgid ""
 "Moving the panel to the bottom or the right by unchecking <guilabel>Lock "
 "panel</guilabel>, grabbing the handle which appears at either side of the "
@@ -614,11 +615,11 @@ msgstr ""
 "<guilabel>Bloquear painel</guilabel>, agarrando a pega, que aparece em cada "
 "lado do painel e arrastá-lo"
 
-#: user-docs/C/settings-preferences.xml:99(para)
+#: user-docs/C/settings-preferences.xml:97(para)
 msgid "Extending the panel across multiple monitors"
 msgstr "Estendendo o painel em vários monitores"
 
-#: user-docs/C/settings-preferences.xml:101(para)
+#: user-docs/C/settings-preferences.xml:99(para)
 msgid ""
 "In the <guilabel>Appearance</guilabel> tab, you can pick another background "
 "for the panel and regulate its transparency"
@@ -626,7 +627,7 @@ msgstr ""
 "Na aba <guilabel>Aparência</guilabel>, pode escolher um outro fundo para o "
 "painel e regular a sua transparência"
 
-#: user-docs/C/settings-preferences.xml:102(para)
+#: user-docs/C/settings-preferences.xml:100(para)
 msgid ""
 "In the <guilabel>Items</guilabel> tab, you can add, remove and rearrange "
 "panel applets and other items"
@@ -634,7 +635,7 @@ msgstr ""
 "Na aba <guilabel>Itens</guilabel>, pode adicionar, remover e reorganizar "
 "mini-aplicativos do painel e outros itens"
 
-#: user-docs/C/settings-preferences.xml:103(para)
+#: user-docs/C/settings-preferences.xml:101(para)
 msgid ""
 "If you add a Launcher in the <guilabel>Items</guilabel> tab you can then "
 "edit the Launcher to run any application you have installed"
@@ -642,15 +643,15 @@ msgstr ""
 "Se adicionar um Lançador na aba <guilabel>Itens</guilabel> pode então editar "
 "o Lançador para executar qualquer aplicação que tiver instalado"
 
-#: user-docs/C/settings-preferences.xml:108(title)
+#: user-docs/C/settings-preferences.xml:106(title)
 msgid "Changing your desktop themes"
 msgstr "Mudar os seus temas do ambiente de trabalho"
 
-#: user-docs/C/settings-preferences.xml:110(para)
+#: user-docs/C/settings-preferences.xml:108(para)
 msgid "There are three types of desktop themes:"
 msgstr "Existem três tipos de temas de ambiente de trabalho:"
 
-#: user-docs/C/settings-preferences.xml:113(para)
+#: user-docs/C/settings-preferences.xml:111(para)
 msgid ""
 "xfwm themes - control how your window borders look. To change your xfwm "
 "theme, go to <application><menuchoice><placeholder-"
@@ -667,7 +668,7 @@ msgstr ""
 "<guilabel>Estilo</guilabel>, selecione um novo tema para mudar a aparência "
 "dos limites da janela."
 
-#: user-docs/C/settings-preferences.xml:116(para)
+#: user-docs/C/settings-preferences.xml:114(para)
 msgid ""
 "GTK themes - control how the content of the windows looks. To change your "
 "GTK theme, go to <application><menuchoice><placeholder-"
@@ -686,7 +687,7 @@ msgstr ""
 "theme-config</application> também irá permitir que personalize o visual da "
 "janela."
 
-#: user-docs/C/settings-preferences.xml:119(para)
+#: user-docs/C/settings-preferences.xml:117(para)
 msgid ""
 "Icon themes - control how your icons look. To change your icon theme, go to "
 "<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
@@ -704,7 +705,7 @@ msgstr ""
 "mudar a aparência dos ícones. Note que nem todos os conjuntos de ícones "
 "funcionarão bem com painel/janela escuros!"
 
-#: user-docs/C/settings-preferences.xml:125(para)
+#: user-docs/C/settings-preferences.xml:123(para)
 msgid ""
 "If the default selection of themes doesn't satisfy you, you can download and "
 "install new themes. Some new themes can be installed from the Ubuntu "
@@ -716,7 +717,7 @@ msgstr ""
 "repositórios do Ubuntu, e muito mais podem ser encontrados na Internet, por "
 "exemplo em <ulink url=\"http://xfce-look.org/\">Xfce-look.org</ulink>."
 
-#: user-docs/C/settings-preferences.xml:129(para)
+#: user-docs/C/settings-preferences.xml:127(para)
 msgid ""
 "If you install new themes from the repositories, they should appear "
 "automatically in the <application>Settings Manager</application>. If you "
@@ -730,11 +731,11 @@ msgstr ""
 "que ele apareça em <application>Definições</application>. Para fazer isso, "
 "extraia o pacote do tema e copie-o para:"
 
-#: user-docs/C/settings-preferences.xml:135(para)
+#: user-docs/C/settings-preferences.xml:133(para)
 msgid "xfwm and GTK themes:"
 msgstr "Temas xfwm e GTK:"
 
-#: user-docs/C/settings-preferences.xml:137(para)
+#: user-docs/C/settings-preferences.xml:135(para)
 msgid ""
 "<filename><placeholder-1/> /home/username/.themes/</filename> (this user "
 "only)"
@@ -742,30 +743,30 @@ msgstr ""
 "<filename><placeholder-1/> /home/username/.themes/</filename> (somente este "
 "utilizador)"
 
-#: user-docs/C/settings-preferences.xml:138(para)
+#: user-docs/C/settings-preferences.xml:136(para)
 msgid "<filename><placeholder-1/> /usr/share/themes/</filename> (all users)"
 msgstr ""
 "<filename><placeholder-1/> /usr/share/themes/</filename> (todos os "
 "utilizadores)"
 
-#: user-docs/C/settings-preferences.xml:141(para)
+#: user-docs/C/settings-preferences.xml:139(para)
 msgid "Icon themes:"
 msgstr "Temas de ícones"
 
-#: user-docs/C/settings-preferences.xml:143(para)
+#: user-docs/C/settings-preferences.xml:141(para)
 msgid ""
 "<filename><placeholder-1/> /home/username/.icons/</filename> (this user only)"
 msgstr ""
 "<filename><placeholder-1/> /home/username/.icons/</filename> (somente este "
 "utilizador)"
 
-#: user-docs/C/settings-preferences.xml:144(para)
+#: user-docs/C/settings-preferences.xml:142(para)
 msgid "<filename><placeholder-1/> /usr/share/icons/</filename> (all users)"
 msgstr ""
 "<filename><placeholder-1/> /usr/share/icons/</filename>  (todos os "
 "utilizadores)"
 
-#: user-docs/C/settings-preferences.xml:150(para)
+#: user-docs/C/settings-preferences.xml:148(para)
 msgid ""
 "If these directories do not exist, you should create them first. Copying "
 "themes or icons for all users will require administrative privileges."
@@ -774,11 +775,11 @@ msgstr ""
 "temas ou ícones para todos os utilizadores exigirá privilégios "
 "administrativos."
 
-#: user-docs/C/settings-preferences.xml:154(title)
+#: user-docs/C/settings-preferences.xml:152(title)
 msgid "Disabling and modifying the desktop effects"
 msgstr "Desativar e modificar os efeitos no ambiente de trabalho"
 
-#: user-docs/C/settings-preferences.xml:156(para)
+#: user-docs/C/settings-preferences.xml:154(para)
 msgid ""
 "While Xubuntu doesn't come with many desktop effects, the Xfce compositor is "
 "enabled by default. In the default Xubuntu configuration, the Xfce "
@@ -1802,21 +1803,20 @@ msgstr ""
 #: user-docs/C/migrating-upgrading.xml:82(para)
 msgid ""
 "Navigate to <application><menuchoice><placeholder-"
-"1/><guimenuitem>Software</guimenuitem><guimenuitem>App "
-"menu</guimenuitem><guimenuitem>Software "
-"Sources</guimenuitem></menuchoice></application> and select the "
+"1/><guimenuitem>Software</guimenuitem><guimenuitem>Software &amp; "
+"Updates</guimenuitem></menuchoice></application> and select the "
 "<guilabel>Updates</guilabel> tab. In the <guilabel>Updates</guilabel> tab, "
 "select either <guilabel>For any new version</guilabel> or <guilabel>For long-"
 "term support versions</guilabel> from the <guilabel>Notify me of a new "
 "Ubuntu version</guilabel> dropdown depending on your choice."
 msgstr ""
 "Navegue para <application><menuchoice><placeholder-"
-"1/><guimenuitem>Software</guimenuitem><guimenuitem>App "
-"menu</guimenuitem><guimenuitem>Fontes de "
-"Software</guimenuitem></menuchoice></application> e selecione a aba "
+"1/><guimenuitem>Software</guimenuitem><guimenuitem>Programas &amp; "
+"Atualizações</guimenuitem></menuchoice></application> e selecione a aba "
 "<guilabel>Atualizações</guilabel>. Na aba <guilabel>Atualizações</guilabel>, "
 "selecione <guilabel>Para qualquer nova versão</guilabel> ou <guilabel>Para "
-"versões de suporte de longo prazo</guilabel> da lista suspensa, dependendo "
+"versões de suporte de longo prazo</guilabel> da lista suspensa "
+"<guilabel>Notifique-me de uma nova versão do Ubuntu</guilabel>, dependendo "
 "da sua escolha."
 
 #: user-docs/C/migrating-upgrading.xml:83(para)
@@ -2236,11 +2236,13 @@ msgstr ""
 msgid ""
 "In most cases you can only use one package manager at a time. If you start "
 "another package manager while one is already open, you may receive an error "
-"message and the second package manager will not function correctly."
+"message. In this case it is likely the second package manager will not "
+"function correctly."
 msgstr ""
-"Na maioria dos casos, só pode usar um gestor de pacotes de cada vez. Se "
-"iniciar outro gestor de pacotes com um já está aberto, poderá receber uma "
-"mensagem de erro e o segundo gestor de pacotes não funcionará corretamente."
+"Na maioria dos casos só pode utilizar um gestor de pacotes de cada vez. Se "
+"iniciar um outro gestor de pacotes enquanto um já está aberto, poderá "
+"receber uma mensagem de erro. Neste caso é provável que o segundo gestor de "
+"pacotes não irá funcionar corretamente."
 
 #: user-docs/C/managing-applications.xml:30(title)
 msgid "Using Gnome Software"
@@ -2287,12 +2289,13 @@ msgstr "Um atalho para a aplicação será adicionado ao menu Aplicações"
 #: user-docs/C/managing-applications.xml:44(para)
 msgid ""
 "To be able to install new software from the repositories, you need to be "
-"connected to the Internet.See <xref linkend=\"offline-packages\"/> for "
-"information on using apt-offline"
+"connected to the Internet. See <xref linkend=\"offline-packages\"/> for "
+"information on using <application>apt-offline</application>."
 msgstr ""
 "Para ser capaz de instalar novo software a partir dos repositórios, "
 "necessitará de estar conectado à Internet. Veja <xref linkend=\"offline-"
-"packages\"/> para informações sobre como usar o apt-offline"
+"packages\"/> para informações sobre como usar <application>apt-"
+"offline</application>."
 
 #: user-docs/C/managing-applications.xml:48(title)
 msgid "Removing software"
@@ -2336,15 +2339,17 @@ msgstr ""
 
 #: user-docs/C/managing-applications.xml:59(para)
 msgid ""
-"Gnome Software does not remove dependencies installed with a package. To "
-"remove the dependencies run <userinput>sudo apt-get autoremove</userinput>. "
-"Before agreeing to the command continuing, check that the packages being "
-"marked for removal are as expected."
+"<application>Gnome Software</application> does not remove dependencies "
+"installed with a package. To remove any dependencies no longer needed, run "
+"<userinput>sudo apt-get autoremove</userinput> in a terminal. Before "
+"agreeing to the command continuing, check that the packages being marked for "
+"removal are as expected."
 msgstr ""
-"O Gnome Software não remove as dependências instaladas por um pacote. Para "
-"remover as dependências executar <userinput>sudo apt-get "
-"autoremove</userinput>. Antes de concordar com a continuação do comando, "
-"verifique se os pacotes que estão marcados para remoção são os esperados."
+"O <application>Gnome Software</application> não remove as dependências "
+"instaladas por um pacote. Para remover quaisquer dependências não mais "
+"necessárias, execute <userinput>sudo apt-get autoremove</userinput> num "
+"terminal. Antes de concordar com a continuação do comando, verifique se os "
+"pacotes que estão marcados para remoção são os esperados."
 
 #: user-docs/C/managing-applications.xml:66(title)
 msgid "Additional software repositories"
@@ -2368,19 +2373,17 @@ msgid ""
 "Settings Manager</guimenuitem><guimenuitem>Software &amp; "
 "Updates</guimenuitem></menuchoice></application> or "
 "<application><menuchoice><placeholder-"
-"3/><guimenuitem>Software</guimenuitem><guimenuitem>App "
-"menu</guimenuitem><guimenuitem>Software "
-"Sources</guimenuitem></menuchoice></application> and go to the "
+"3/><guimenuitem>Software</guimenuitem><guimenuitem>Software &amp; "
+"Updates</guimenuitem></menuchoice></application> and go to the "
 "<guilabel>Other Software</guilabel> tab"
 msgstr ""
 "Abrir <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
 "Definições</guimenuitem><guimenuitem>Programas &amp; "
 "Atualizações</guimenuitem></menuchoice></application> ou "
 "<application><menuchoice><placeholder-"
-"3/><guimenuitem>Software</guimenuitem><guimenuitem>App "
-"menu</guimenuitem><guimenuitem>Fontes de "
-"Software</guimenuitem></menuchoice></application> e ir à aba <guilabel>Outro "
-"Software</guilabel>"
+"3/><guimenuitem>Software</guimenuitem><guimenuitem>Programas &amp; "
+"Atualizações</guimenuitem></menuchoice></application> e ir à aba "
+"<guilabel>Outro Software</guilabel>"
 
 #: user-docs/C/managing-applications.xml:75(para)
 msgid "Press <guibutton>Add...</guibutton> to add a new repository."
@@ -2940,6 +2943,11 @@ msgid ""
 "Your active network connections will be displayed in the <guilabel>Active "
 "Connections</guilabel> dialog, each in a separate tab."
 msgstr ""
+"Para ver as informações da ligação, clique no ícone  "
+"<application>NetworkManager</application> e selecione "
+"<menuchoice><guimenuitem>Informações da ligação</guimenuitem></menuchoice>. "
+"As ligações de rede ativas serão exibidas na caixa de diálogo "
+"<guilabel>Ligações de Redes Ativas</guilabel>, cada uma em uma aba separada."
 
 #: user-docs/C/internet-networks.xml:50(title)
 msgid "Sharing your connection to another computer"
@@ -3083,6 +3091,10 @@ msgid ""
 "there is no active connection. Try using <application>ifconfig</application> "
 "to find out more."
 msgstr ""
+"Selecione <menuchoice><guimenuitem>Informações da "
+"ligação</guimenuitem></menuchoice>. Se a informação estiver desativada, é "
+"provável que não exista uma ligação ativa. Tente usar "
+"<application>ifconfig</application> para descobrir mais."
 
 #: user-docs/C/internet-networks.xml:96(para)
 msgid ""
@@ -3117,6 +3129,11 @@ msgid ""
 "in the left column, IP address in the <guilabel>inet addr</guilabel> column "
 "and the MAC address for your device in the <guilabel>HWaddr</guilabel> column"
 msgstr ""
+"<application>ifconfig</application> irá mostrar-lhe informações detalhadas "
+"acerca da ligação, inclusive nome(s) lógico ou da ligação (por exemplo, "
+"enp3s0) na coluna esquerda, o endereço IP esquerda na coluna <guilabel>inet "
+"addr</guilabel> e o endereço MAC do seu dispositivo na coluna "
+"<guilabel>HWaddr</guilabel>"
 
 #: user-docs/C/internet-networks.xml:110(title)
 msgid "Check if a connection is working properly"
@@ -3415,6 +3432,9 @@ msgid ""
 "output from the <application>ifconfig</application> command: <userinput>sudo "
 "dhclient enp3s0</userinput>"
 msgstr ""
+"A partir do terminal digite o seguinte comando: <userinput>sudo dhclient "
+"enp3s0</userinput>, substituindo <literal>enp3s0</literal> com o nome da "
+"ligação obtido a partir do comando <application>ifconfig</application>"
 
 #: user-docs/C/internet-networks.xml:193(para)
 msgid ""
@@ -3733,6 +3753,8 @@ msgid ""
 "This documentation provides information on some of the most common topics on "
 "using Xubuntu, including:"
 msgstr ""
+"Esta documentação fornece informações para os problemas mais comuns sobre o "
+"uso do Xubuntu, incluindo:"
 
 #: user-docs/C/index.xml:84(para)
 msgid "In addition, this documentation has three quick guides:"
@@ -3779,6 +3801,8 @@ msgid ""
 "Your computer consists of a number of connected devices collectively known "
 "as computer hardware."
 msgstr ""
+"O seu computador é constituído por um certo número de dispositivos ligados "
+"entre si que são colectivamente conhecidos como hardware."
 
 #: user-docs/C/hardware-devices.xml:18(para)
 msgid ""
@@ -3843,6 +3867,11 @@ msgid ""
 "features. For example, installing a restricted driver for certain graphics "
 "cards may allow you to use more advanced visual effects."
 msgstr ""
+"Se um controlador restrito está disponível para um determinado dispositivo, "
+"ele pode ser instalado a fim de permitir que o dispositivo funcione "
+"corretamente, ou para adicionar novos recursos. Por exemplo, a instalação de "
+"um controlador restrito para determinadas placas de vídeo pode permitir a "
+"utilização efeitos visuais mais avançados."
 
 #: user-docs/C/hardware-devices.xml:38(para)
 msgid ""
@@ -3860,6 +3889,9 @@ msgid ""
 "If any drivers are available for your hardware they will be installable from "
 "the <application>Software and Updates</application> application:"
 msgstr ""
+"Se quaisquer controladores estão disponíveis para o seu hardware eles serão "
+"instalados a partir da aplicação <application>Programas & "
+"Atualizações</application>."
 
 #: user-docs/C/hardware-devices.xml:43(para) user-docs/C/hardware-devices.xml:55(para)
 msgid ""
@@ -3867,6 +3899,9 @@ msgid ""
 "1/><guimenuitem>Settings</guimenuitem><guimenuitem>Additional "
 "Drivers</guimenuitem></menuchoice></application>"
 msgstr ""
+"Ir para <application><menuchoice><placeholder-"
+"1/><guimenuitem>Settings</guimenuitem><guimenuitem>Controladores "
+"Adicionais</guimenuitem></menuchoice></application>"
 
 #: user-docs/C/hardware-devices.xml:44(para)
 msgid ""
@@ -3921,6 +3956,8 @@ msgid ""
 "A simple way to check available disk space is to launch "
 "<application>Thunar</application>. There are several ways to do this:"
 msgstr ""
+"Uma maneira simples de verificar o espaço em disco disponível é iniciar o "
+"<application>Thunar</application>. Existem várias maneiras de fazer isso:"
 
 #: user-docs/C/hardware-devices.xml:73(para)
 msgid ""
@@ -3977,9 +4014,11 @@ msgstr ""
 
 #: user-docs/C/hardware-devices.xml:88(para)
 msgid ""
-"Remove software packages that you no longer use. See <application>Gnome "
-"Software</application> for information on removing packages."
+"Remove software packages that you no longer use. See <xref linkend=\"gs-"
+"remove\"/> for information on removing packages."
 msgstr ""
+"Remova os pacotes de software que já não usa. Consulte <xref linkend=\"gs-"
+"remove\"/> para mais informações sobre a remoção de pacotes."
 
 #: user-docs/C/hardware-devices.xml:89(para)
 msgid ""
@@ -3987,6 +4026,10 @@ msgid ""
 "Disk Usage Analyzer</application> from <application>Gnome "
 "Software</application> to find which files are taking up the most space."
 msgstr ""
+"Apague os ficheiros que já não necessita. Pode instalar o <application>GNOME "
+"Disk Usage Analyzer</application> a partir do <application>Gnome "
+"Software</application> para descobrir quais os ficheiros que estão a ocupar "
+"mais espaço."
 
 #: user-docs/C/hardware-devices.xml:92(para)
 msgid "Be careful not to delete files that you still need!"
@@ -4006,16 +4049,31 @@ msgid ""
 "Manager</guimenuitem><guimenuitem>GParted</guimenuitem></menuchoice></applica"
 "tion> to start the partition editor."
 msgstr ""
+"Pode utilizar o <application>GParted (Editor de partições "
+"GNOME)</application> para particionar dispositivos de armazenamento. Instale "
+"o <application>GParted</application> a partir do <application>Gnome "
+"Software</application> e em seguida, vá para  "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"Definições</guimenuitem><guimenuitem>GParted</guimenuitem></menuchoice></appl"
+"ication> para iniciar o editor de partições."
 
 #: user-docs/C/hardware-devices.xml:100(para)
 msgid ""
 "Be careful when altering disk partitions, as it is possible to lose your "
-"data if you delete or change the wrong partition. Altering disk partitions "
-"can take some time, do not assume that GParted has hung or crashed while it "
-"is working."
+"data if you delete or change the wrong partition."
 msgstr ""
+"Tenha cuidado ao alterar partições do disco, já que é possível perder os "
+"seus dados se eliminar ou alterar a partição errada."
 
 #: user-docs/C/hardware-devices.xml:102(para)
+msgid ""
+"Altering disk partitions can take some time. Do not assume that GParted has "
+"hung or crashed while it is working."
+msgstr ""
+"Alterar partições do disco pode demorar algum tempo. Não presuma que o "
+"GParted suspendeu ou paralisou enquanto ele estiver a trabalhar."
+
+#: user-docs/C/hardware-devices.xml:104(para)
 msgid ""
 "If it is necessary to unmount the installed system to proceed with changes "
 "you wish to make, you will have to work from a live CD/USB to do so."
@@ -4024,11 +4082,11 @@ msgstr ""
 "mudanças que deseja fazer, terá que trabalhar a partir de um CD/USB de "
 "instalação para fazê-lo."
 
-#: user-docs/C/hardware-devices.xml:105(title)
+#: user-docs/C/hardware-devices.xml:107(title)
 msgid "Freeing space for a new partition"
 msgstr "Libertar espaço para uma nova partição"
 
-#: user-docs/C/hardware-devices.xml:107(para)
+#: user-docs/C/hardware-devices.xml:109(para)
 msgid ""
 "To create a new partition inside an already partitioned device, you must "
 "first resize an existing partition. If you already have free space, skip to "
@@ -4040,7 +4098,7 @@ msgstr ""
 "para a seção <xref linkend=\"partitioning-create\"/>. Caso contrário, siga "
 "as instruções abaixo:"
 
-#: user-docs/C/hardware-devices.xml:110(para) user-docs/C/hardware-devices.xml:124(para) user-docs/C/hardware-devices.xml:139(para)
+#: user-docs/C/hardware-devices.xml:112(para) user-docs/C/hardware-devices.xml:126(para) user-docs/C/hardware-devices.xml:141(para)
 msgid ""
 "Select the device to partition from the drop-down list at the top-right of "
 "the main window"
@@ -4048,7 +4106,7 @@ msgstr ""
 "Selecione o dispositivo a particionar a partir da lista suspensa no canto "
 "superior direito da janela principal"
 
-#: user-docs/C/hardware-devices.xml:111(para)
+#: user-docs/C/hardware-devices.xml:113(para)
 msgid ""
 "A list of partitions will appear in the main window. Select the partition "
 "you want to resize and from the menu, choose "
@@ -4060,7 +4118,7 @@ msgstr ""
 "<menuchoice><guimenu>Partição</guimenu><guimenuitem>Desmontar</guimenuitem></"
 "menuchoice>"
 
-#: user-docs/C/hardware-devices.xml:112(para)
+#: user-docs/C/hardware-devices.xml:114(para)
 msgid ""
 "To resize the partition choose "
 "<menuchoice><guimenu>Partition</guimenu><guimenuitem>Resize/Move</guimenuitem"
@@ -4080,11 +4138,11 @@ msgstr ""
 "Alternativamente, pode usar o controle deslizante para ajustar o tamanho da "
 "partição."
 
-#: user-docs/C/hardware-devices.xml:113(para)
+#: user-docs/C/hardware-devices.xml:115(para)
 msgid "Click <guibutton>Resize/Move</guibutton>"
 msgstr "Clique <guibutton>Redimensionar/Mover</guibutton>"
 
-#: user-docs/C/hardware-devices.xml:114(para) user-docs/C/hardware-devices.xml:129(para) user-docs/C/hardware-devices.xml:142(para)
+#: user-docs/C/hardware-devices.xml:116(para) user-docs/C/hardware-devices.xml:131(para) user-docs/C/hardware-devices.xml:144(para)
 msgid ""
 "To apply the changes, click "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Apply All "
@@ -4094,15 +4152,15 @@ msgstr ""
 "<menuchoice><guimenu>Editar</guimenu><guimenuitem>Aplicar todas as "
 "operações</guimenuitem></menuchoice>"
 
-#: user-docs/C/hardware-devices.xml:119(title)
+#: user-docs/C/hardware-devices.xml:121(title)
 msgid "Creating a new partition"
 msgstr "Criar uma nova partição"
 
-#: user-docs/C/hardware-devices.xml:121(para)
+#: user-docs/C/hardware-devices.xml:123(para)
 msgid "To create a new partition:"
 msgstr "Para criar uma nova partição:"
 
-#: user-docs/C/hardware-devices.xml:125(para)
+#: user-docs/C/hardware-devices.xml:127(para)
 msgid ""
 "A list of partitions will appear. Select the one called "
 "<guilabel>unallocated</guilabel>, right-click on it and click "
@@ -4112,7 +4170,7 @@ msgstr ""
 "alocação</guilabel>, clique com o botão direito do rato sobre ela e clique "
 "<menuchoice><guimenuitem>Nova</guimenuitem></menuchoice>"
 
-#: user-docs/C/hardware-devices.xml:126(para)
+#: user-docs/C/hardware-devices.xml:128(para)
 msgid ""
 "From the <guilabel>File system:</guilabel> pick list, choose the desired "
 "type of filesystem to use."
@@ -4120,7 +4178,7 @@ msgstr ""
 "Da lista de seleção <guilabel>Sistema de ficheiros:</guilabel>, escolha o "
 "tipo desejado de sistema de ficheiros para usar."
 
-#: user-docs/C/hardware-devices.xml:127(para)
+#: user-docs/C/hardware-devices.xml:129(para)
 msgid ""
 "If desired, enter a description for the partition in the <guilabel>Label: "
 "</guilabel> field."
@@ -4128,19 +4186,19 @@ msgstr ""
 "Se desejado, introduza uma descrição para a partição no campo "
 "<guilabel>Etiqueta: </guilabel>."
 
-#: user-docs/C/hardware-devices.xml:128(para)
+#: user-docs/C/hardware-devices.xml:130(para)
 msgid "Click the <guibutton>Add</guibutton> button."
 msgstr "Clique o botão <guibutton>Adicionar</guibutton>"
 
-#: user-docs/C/hardware-devices.xml:134(title)
+#: user-docs/C/hardware-devices.xml:136(title)
 msgid "Formatting a partition"
 msgstr "Formatar uma partição"
 
-#: user-docs/C/hardware-devices.xml:136(para)
+#: user-docs/C/hardware-devices.xml:138(para)
 msgid "To format a partition, do the following:"
 msgstr "Para formatar uma partição, faça o seguinte:"
 
-#: user-docs/C/hardware-devices.xml:140(para)
+#: user-docs/C/hardware-devices.xml:142(para)
 msgid ""
 "A list of partitions will appear. Select the desired partition and choose "
 "<menuchoice><guimenu>Partition</guimenu><guimenuitem>Unmount</guimenuitem></m"
@@ -4150,7 +4208,7 @@ msgstr ""
 "<menuchoice><guimenu>Partição</guimenu><guimenuitem>Desmontar</guimenuitem></"
 "menuchoice>."
 
-#: user-docs/C/hardware-devices.xml:141(para)
+#: user-docs/C/hardware-devices.xml:143(para)
 msgid ""
 "Select the partition you want to format and choose "
 "<menuchoice><guimenu>Partition</guimenu><guimenuitem>Format "
@@ -4162,11 +4220,11 @@ msgstr ""
 "para</guimenuitem></menuchoice> e selecione da lista o tipo de sistema de "
 "arquivos para formatar a partição para"
 
-#: user-docs/C/hardware-devices.xml:148(title)
+#: user-docs/C/hardware-devices.xml:150(title)
 msgid "Mounting and unmounting devices"
 msgstr "Montar e desmontar dispositivos"
 
-#: user-docs/C/hardware-devices.xml:150(para)
+#: user-docs/C/hardware-devices.xml:152(para)
 msgid ""
 "When you connect a removable storage device to your computer, it must be "
 "mounted by the operating system so that you are able to access the files on "
@@ -4176,7 +4234,7 @@ msgstr ""
 "ele deve ser montado pelo sistema operativo para que seja capaz de aceder "
 "aos ficheiros no dispositivo."
 
-#: user-docs/C/hardware-devices.xml:152(para)
+#: user-docs/C/hardware-devices.xml:154(para)
 msgid ""
 "To find out how to mount and unmount storage devices manually and/or "
 "automatically, see the Ubuntu community wiki page for the <ulink "
@@ -4186,7 +4244,7 @@ msgstr ""
 "e/ou automaticamente, consulte a página wiki da comunidade Ubuntu para o "
 "<ulink url=\"https://help.ubuntu.com/community/Mount\">mount command</ulink>."
 
-#: user-docs/C/hardware-devices.xml:154(para)
+#: user-docs/C/hardware-devices.xml:156(para)
 msgid ""
 "When you copy files to a removable storage device, they are not always "
 "written to the device immediately. Instead, they are often stored in a queue "
@@ -4207,15 +4265,15 @@ msgstr ""
 "transferidos, pode perder os ficheiros. Para evitar isso, deve sempre "
 "desmontar um dispositivo removível antes de o desligar."
 
-#: user-docs/C/hardware-devices.xml:159(title)
+#: user-docs/C/hardware-devices.xml:161(title)
 msgid "Laptops"
 msgstr "Computadores portáteis"
 
-#: user-docs/C/hardware-devices.xml:162(title)
+#: user-docs/C/hardware-devices.xml:164(title)
 msgid "Power management settings"
 msgstr "Configurações de Gestão de Energia"
 
-#: user-docs/C/hardware-devices.xml:164(para)
+#: user-docs/C/hardware-devices.xml:166(para)
 msgid ""
 "You may wish to change the power management settings of your laptop in order "
 "to help extend its battery life and save energy."
@@ -4223,7 +4281,7 @@ msgstr ""
 "Pode desejar alterar as configurações de gestão de energia do seu portátil a "
 "fim de ajudar a prolongar a vida da bateria e economizar energia."
 
-#: user-docs/C/hardware-devices.xml:167(para)
+#: user-docs/C/hardware-devices.xml:169(para)
 msgid ""
 "Go to <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
 "Settings Manager</guimenuitem><guimenuitem>Power "
@@ -4233,15 +4291,15 @@ msgstr ""
 "2/> Definições</guimenuitem><guimenuitem>Gestor de "
 "energia</guimenuitem></menuchoice></application>"
 
-#: user-docs/C/hardware-devices.xml:168(para)
+#: user-docs/C/hardware-devices.xml:170(para)
 msgid "Change settings as appropriate"
 msgstr "Altere as configurações conforme apropriado"
 
-#: user-docs/C/hardware-devices.xml:169(para)
+#: user-docs/C/hardware-devices.xml:171(para)
 msgid "Changes are applied instantly"
 msgstr "As alterações são aplicadas imediatamente"
 
-#: user-docs/C/hardware-devices.xml:172(para)
+#: user-docs/C/hardware-devices.xml:174(para)
 msgid ""
 "When your laptop is running on battery, one of the biggest drains on power "
 "is the display. Turning the brightness of the display down could improve "
@@ -4254,11 +4312,11 @@ msgstr ""
 "permitem que você faça isso pressionando <keycap><placeholder-"
 "1/>Fn+F7</keycap> (ou outra tecla marcada) várias vezes."
 
-#: user-docs/C/hardware-devices.xml:176(title)
+#: user-docs/C/hardware-devices.xml:178(title)
 msgid "Touchpads"
 msgstr "Painel de toque"
 
-#: user-docs/C/hardware-devices.xml:178(para)
+#: user-docs/C/hardware-devices.xml:180(para)
 msgid ""
 "Most laptop computers come with a touchpad, which is used to control the "
 "mouse pointer. There are many ways of changing the way that the touchpad "
@@ -4270,7 +4328,7 @@ msgstr ""
 "como o painel de toque se comporta; as definições mais básicas do painel de "
 "toque podem ser configuradas da seguinte forma:"
 
-#: user-docs/C/hardware-devices.xml:181(para)
+#: user-docs/C/hardware-devices.xml:183(para)
 msgid ""
 "Go to <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
 "Settings Manager</guimenuitem><guimenuitem>Mouse and "
@@ -4280,14 +4338,14 @@ msgstr ""
 "2/> Definições</guimenuitem><guimenuitem>Rato e Painel de "
 "toque</guimenuitem></menuchoice></application>"
 
-#: user-docs/C/hardware-devices.xml:182(para)
+#: user-docs/C/hardware-devices.xml:184(para)
 msgid ""
 "From the <guilabel>Device:</guilabel> field pick list, select the touchpad."
 msgstr ""
 "Da lista de selecção <guilabel>Dispositivo:</guilabel>, escolha Painel de "
 "toque."
 
-#: user-docs/C/hardware-devices.xml:183(para)
+#: user-docs/C/hardware-devices.xml:185(para)
 msgid ""
 "Here you can change the touchpad settings to your liking. Changes should "
 "take effect immediately."
@@ -4295,7 +4353,7 @@ msgstr ""
 "Aqui pode alterar as configurações do painel de toque ao seu gosto. As "
 "mudanças devem entrar em vigor imediatamente."
 
-#: user-docs/C/hardware-devices.xml:186(para)
+#: user-docs/C/hardware-devices.xml:188(para)
 msgid ""
 "Some touchpads may be detected as normal mouse devices, even though they are "
 "actually touchpads. In this case, the <guilabel>Touchpad</guilabel> device "
@@ -4310,42 +4368,11 @@ msgstr ""
 "url=\"https://help.ubuntu.com/community/SynapticsTouchpad\">Touchpads</ulink>"
 " na wiki da comunidade Ubuntu para mais informações sobre painéis de toque."
 
-#: user-docs/C/hardware-devices.xml:190(title)
-msgid "Finding laptop testing reports"
-msgstr "Encontrar relatórios de testes a portáteis"
-
-#: user-docs/C/hardware-devices.xml:192(para)
-msgid ""
-"Many laptops are regularly tested by the Ubuntu community to ensure that "
-"various features work correctly. The results of these tests are available "
-"for you to read and may offer insight into any problems you might be "
-"experiencing with your laptop. See the <ulink "
-"url=\"https://wiki.ubuntu.com/Testing/Laptop\">Laptop Testing</ulink> page "
-"in the Ubuntu community wiki for a full listing of available laptop tests "
-"and instructions on how you can contribute by submitting details pertaining "
-"to your laptop's performance. You can report your testing results on <ulink "
-"url=\"http://laptop.qa.ubuntu.com/\">http://laptop.qa.ubuntu.com/</ulink>. "
-"You can also find help on #ubuntu-quality or #xubuntu-devel in the Freenode "
-"IRC network."
-msgstr ""
-"Muitos portáteis são regularmente testados pela comunidade Ubuntu para "
-"garantir que vários recursos funcionam corretamente. Os resultados destes "
-"testes estão disponíveis para leitura e podem oferecer uma visão sobre os "
-"problemas que possam estar a ocorrer com o seu portátil. Consulte a página "
-"<ulink url=\"https://wiki.ubuntu.com/Testing/Laptop\">Laptop Testing</ulink> "
-"na wiki da comunidade Ubuntu para uma lista completa disponível de testes a "
-"portáteis e instruções sobre como pode contribuir enviando detalhes "
-"referentes ao desempenho do seu portátil. Pode relatar os seus resultados de "
-"teste em <ulink "
-"url=\"http://laptop.qa.ubuntu.com/\">http://laptop.qa.ubuntu.com/</ulink>. "
-"Pode também pode encontrar ajuda nos canais #ubuntu-quality ou #xubuntu-"
-"devel na rede IRC Freenode."
-
-#: user-docs/C/hardware-devices.xml:197(title)
+#: user-docs/C/hardware-devices.xml:193(title)
 msgid "Suspending and Hibernating"
 msgstr "Suspender e Hibernar"
 
-#: user-docs/C/hardware-devices.xml:199(para)
+#: user-docs/C/hardware-devices.xml:195(para)
 msgid ""
 "In order to save power, you can put your computer into one of a number of "
 "power-saving modes when you are not using it:"
@@ -4353,7 +4380,7 @@ msgstr ""
 "De modo a economizar energia, pode colocar o seu computador em um dos vários "
 "modos de economia de energia quando não estiver a utilizá-lo:"
 
-#: user-docs/C/hardware-devices.xml:202(para)
+#: user-docs/C/hardware-devices.xml:198(para)
 msgid ""
 "Suspending a computer is like putting the computer to sleep. The computer "
 "will still be turned on and all of your work will be left open, but it will "
@@ -4365,7 +4392,7 @@ msgstr ""
 "muito menos energia. Pode ativar o computador pressionando uma tecla ou "
 "clicando o rato."
 
-#: user-docs/C/hardware-devices.xml:203(para)
+#: user-docs/C/hardware-devices.xml:199(para)
 msgid ""
 "Hibernating is turning the computer off completely while saving the current "
 "state of the computer (such as keeping all of your open documents). When you "
@@ -4379,15 +4406,19 @@ msgstr ""
 "deverá ser restaurado tal como estava antes da hibernação. Não é consumida "
 "energia quando o computador está em hibernação."
 
-#: user-docs/C/hardware-devices.xml:204(para)
+#: user-docs/C/hardware-devices.xml:200(para)
 msgid ""
 "Resuming is bringing the computer out of a power saving mode and back into "
 "normal operation. You can resume the computer from being suspended by "
 "pressing a keyboard button or by clicking the mouse. You can resume from "
 "hibernation by pressing the power button on your computer."
 msgstr ""
+"Retomar é trazer o computador de um modo de economia de energia de volta ao "
+"funcionamento normal. Pode retomar o computador do estado de suspensão pelo "
+"pressionar de um botão do teclado ou clicando com o rato. Pode retomar do "
+"estado de hibernação pressionando o botão de alimentação no computador."
 
-#: user-docs/C/hardware-devices.xml:207(para)
+#: user-docs/C/hardware-devices.xml:203(para)
 msgid ""
 "Note that hibernate is disabled by default in Xubuntu and does not appear as "
 "an option in any menus. For a command line workaround, see <xref "
@@ -4397,7 +4428,7 @@ msgstr ""
 "como uma opção em quaisquer menus. Para uma solução através da linha de "
 "comandos, consulte <xref linkend=\"enabling-hibernation\"/>."
 
-#: user-docs/C/hardware-devices.xml:209(para)
+#: user-docs/C/hardware-devices.xml:205(para)
 msgid ""
 "You can manually put your computer into a power-saving mode by pressing "
 "<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> Log "
@@ -4410,7 +4441,7 @@ msgstr ""
 "Sair...</guimenuitem></menuchoice></application> e então, pressionando o "
 "botão apropriado."
 
-#: user-docs/C/hardware-devices.xml:211(para)
+#: user-docs/C/hardware-devices.xml:207(para)
 msgid ""
 "Some computers may have problems going into certain power-saving modes. The "
 "best way of checking if your computer can handle a power-saving mode is to "
@@ -4423,11 +4454,11 @@ msgstr ""
 "esse modo e ver se ele se comporta como o esperado. Certifique-se sempre de "
 "guardar documentos importantes antes de suspender ou hibernar."
 
-#: user-docs/C/hardware-devices.xml:214(title)
+#: user-docs/C/hardware-devices.xml:210(title)
 msgid "My computer doesn't suspend or hibernate correctly"
 msgstr "O meu computador não suspende ou hiberna corretamente"
 
-#: user-docs/C/hardware-devices.xml:216(para)
+#: user-docs/C/hardware-devices.xml:212(para)
 msgid ""
 "Some computers are unable to suspend or hibernate correctly with Xubuntu. If "
 "this is the case for your computer, you may notice some of the following "
@@ -4437,11 +4468,11 @@ msgstr ""
 "o Xubuntu. Se este for o caso para o seu computador, poderá observar alguns "
 "dos seguintes sintomas:"
 
-#: user-docs/C/hardware-devices.xml:219(para)
+#: user-docs/C/hardware-devices.xml:215(para)
 msgid "The computer does not turn off after you click to hibernate it."
 msgstr "O computador não desliga depois de clicar para hibernar."
 
-#: user-docs/C/hardware-devices.xml:220(para)
+#: user-docs/C/hardware-devices.xml:216(para)
 msgid ""
 "When you turn the computer on after hibernating it, your previously open "
 "programs are not restored."
@@ -4449,11 +4480,11 @@ msgstr ""
 "Quando liga o computador após a hibernação, os seus programas anteriormente "
 "abertos não são restaurados."
 
-#: user-docs/C/hardware-devices.xml:221(para)
+#: user-docs/C/hardware-devices.xml:217(para)
 msgid "The computer will not wake up after you have suspended it."
 msgstr "O computador não retoma depois de o ter suspendido."
 
-#: user-docs/C/hardware-devices.xml:222(para)
+#: user-docs/C/hardware-devices.xml:218(para)
 msgid ""
 "Certain programs or hardware devices stop working correctly after resuming "
 "from hibernation or waking-up from being suspended."
@@ -4461,7 +4492,7 @@ msgstr ""
 "Alguns programas ou dispositivos de hardware param de funcionar corretamente "
 "após sair do modo de hibernação ou retomar após estar suspenso."
 
-#: user-docs/C/hardware-devices.xml:225(para)
+#: user-docs/C/hardware-devices.xml:221(para)
 msgid ""
 "If you suffer from any of these problems, you should report a bug to <ulink "
 "url=\"http://launchpad.net/\">Launchpad</ulink>. The problems will hopefully "
@@ -4477,7 +4508,7 @@ msgstr ""
 "reinicie o computador e ele deverá voltar ao normal. Se um programa não "
 "funciona adequadamente, tente fechar o programa e depois iniciá-lo novamente."
 
-#: user-docs/C/hardware-devices.xml:227(para)
+#: user-docs/C/hardware-devices.xml:223(para)
 msgid ""
 "Make sure that you save all of your open documents before testing for "
 "suspend and hibernate problems."
@@ -4485,41 +4516,43 @@ msgstr ""
 "Certifique-se de guardar todos os seus documentos abertos antes de testar "
 "problemas de suspensão e hibernação."
 
-#: user-docs/C/hardware-devices.xml:231(title)
+#: user-docs/C/hardware-devices.xml:227(title)
 msgid "Enabling hibernation"
 msgstr "Ativar a hibernação"
 
-#: user-docs/C/hardware-devices.xml:233(para)
+#: user-docs/C/hardware-devices.xml:229(para)
 msgid "To enable and use hibernation with Xubuntu, do the following:"
 msgstr "Para ativar e usar a hibernação com o Xubuntu, faça o seguinte:"
 
-#: user-docs/C/hardware-devices.xml:236(para)
+#: user-docs/C/hardware-devices.xml:232(para)
 msgid ""
 "Install the <application>pm-utils</application> package from "
 "<application>Gnome Software</application>."
 msgstr ""
+"Instale o pacote <application>pm-utils</application> a partir do "
+"<application>Gnome Software</application>."
 
-#: user-docs/C/hardware-devices.xml:237(para)
+#: user-docs/C/hardware-devices.xml:233(para)
 msgid ""
 "From the command line, enter: <userinput>sudo pm-hibernate</userinput>."
 msgstr ""
 "A partir da linha de comando, introduza: <userinput>sudo pm-"
 "hibernate</userinput>."
 
-#: user-docs/C/hardware-devices.xml:238(para)
+#: user-docs/C/hardware-devices.xml:234(para)
 msgid "Enter your password."
 msgstr "Introduza a sua senha."
 
-#: user-docs/C/hardware-devices.xml:239(para)
+#: user-docs/C/hardware-devices.xml:235(para)
 msgid "To resume from hibernation, press the power button."
 msgstr ""
 "Para retomar a partir do modo de hibernação, pressione o botão de energia."
 
-#: user-docs/C/hardware-devices.xml:245(title)
+#: user-docs/C/hardware-devices.xml:241(title)
 msgid "I get strange patterns on the screen when I hibernate my computer"
 msgstr "Recebo padrões estranhos no ecrã quando hiberno o meu computador"
 
-#: user-docs/C/hardware-devices.xml:247(para)
+#: user-docs/C/hardware-devices.xml:243(para)
 msgid ""
 "Your screen may show a black and white pattern just after you click to "
 "hibernate your computer. This is usually nothing to worry about and is just "
@@ -4537,11 +4570,11 @@ msgstr ""
 "com a hibernação. Consulte <xref linkend=\"suspending-troubleshooting\"/> "
 "para mais informações."
 
-#: user-docs/C/hardware-devices.xml:252(title)
+#: user-docs/C/hardware-devices.xml:248(title)
 msgid "Mice and keyboards"
 msgstr "Ratos e Teclados"
 
-#: user-docs/C/hardware-devices.xml:254(para)
+#: user-docs/C/hardware-devices.xml:250(para)
 msgid ""
 "When you install Xubuntu, you are given the option of selecting your "
 "keyboard type and language. During the installation, your pointing devices "
@@ -4567,51 +4600,51 @@ msgstr ""
 "Definições</guimenuitem><guimenuitem>Teclado</guimenuitem></menuchoice></appl"
 "ication>."
 
-#: user-docs/C/hardware-devices.xml:256(para)
+#: user-docs/C/hardware-devices.xml:252(para)
 msgid "Options for mice and touchpads include:"
 msgstr "As opções para ratos e painéis de toque incluem:"
 
-#: user-docs/C/hardware-devices.xml:259(guilabel)
+#: user-docs/C/hardware-devices.xml:255(guilabel)
 msgid "Button orientation"
 msgstr "Orientação do botão"
 
-#: user-docs/C/hardware-devices.xml:260(guilabel)
+#: user-docs/C/hardware-devices.xml:256(guilabel)
 msgid "Pointer speed and sensitivity"
 msgstr "Velocidade do ponteiro e sensibilidade"
 
-#: user-docs/C/hardware-devices.xml:261(guilabel)
+#: user-docs/C/hardware-devices.xml:257(guilabel)
 msgid "Double-click sensitivity"
 msgstr "Sensibilidade do duplo clique"
 
-#: user-docs/C/hardware-devices.xml:262(guilabel)
+#: user-docs/C/hardware-devices.xml:258(guilabel)
 msgid "Cursor theme"
 msgstr "Tema do cursor"
 
-#: user-docs/C/hardware-devices.xml:265(para)
+#: user-docs/C/hardware-devices.xml:261(para)
 msgid "Some of the options for configuring your keyboard include:"
 msgstr "Algumas das opções para configurar o teclado incluem:"
 
-#: user-docs/C/hardware-devices.xml:268(guilabel)
+#: user-docs/C/hardware-devices.xml:264(guilabel)
 msgid "State of the Num Lock key on startup"
 msgstr "Estado da tecla Num Lock no arranque"
 
-#: user-docs/C/hardware-devices.xml:269(guilabel)
+#: user-docs/C/hardware-devices.xml:265(guilabel)
 msgid "Key repeat speed and delay"
 msgstr "Velocidade de repeticão de tecla e atraso"
 
-#: user-docs/C/hardware-devices.xml:270(guilabel)
+#: user-docs/C/hardware-devices.xml:266(guilabel)
 msgid "Cursor blinking speed"
 msgstr "Velocidade de intermitência do cursor"
 
-#: user-docs/C/hardware-devices.xml:271(guilabel)
+#: user-docs/C/hardware-devices.xml:267(guilabel)
 msgid "Application keyboard shortcuts"
 msgstr "Atalhos de teclado de aplicações"
 
-#: user-docs/C/hardware-devices.xml:272(guilabel)
+#: user-docs/C/hardware-devices.xml:268(guilabel)
 msgid "Keyboard layout and language"
 msgstr "Esquema de teclado e linguagem"
 
-#: user-docs/C/hardware-devices.xml:275(para)
+#: user-docs/C/hardware-devices.xml:271(para)
 msgid ""
 "If you are using a mouse on a laptop that also has a touchpad, you can "
 "change the behavior of each of them individually by selecting the "
@@ -4645,6 +4678,10 @@ msgid ""
 "help you achieve a higher level of security. Pay particular attention to the "
 "following subsections:"
 msgstr ""
+"Manter o seu computador e informações pessoais a salvo de ameaças de "
+"segurança é um dos aspectos mais importantes da computação hoje em dia. Este "
+"guia tem como objetivo ajudá-lo a alcançar um nível mais alto de segurança. "
+"Preste especial atenção às seguintes subseções:"
 
 #: user-docs/C/guide-keeping-safe.xml:27(title)
 msgid "Keep your software up to date"
@@ -4685,10 +4722,13 @@ msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:39(para)
 msgid ""
-"Disabling automatic updates, lowers the security level of your computer. "
-"When the automatic updates are turned off, it is essential to remember to "
+"Disabling automatic updates lowers the security level of your computer. When "
+"the automatic updates are turned off, it is essential to remember to "
 "manually upgrade often."
 msgstr ""
+"Desativar as atualizações automáticas, estará a baixar o nível de segurança "
+"do seu computador. Quando as atualizações automáticas estão desligados, é "
+"essencial que se lembre de atualizar manualmente muitas vezes."
 
 #: user-docs/C/guide-keeping-safe.xml:42(para)
 msgid ""
@@ -4706,11 +4746,15 @@ msgstr "Senhas"
 
 #: user-docs/C/guide-keeping-safe.xml:50(para)
 msgid ""
-"Official companies will not ask you for your password, if you are asked for "
-"your password delete any e-mail asking for such. If you are on the "
-"telephone, hang-up and call someone you know to ensure that the connection "
+"Official companies will not ask you for your password. If you are asked for "
+"your password, delete any e-mail asking for such. If you are on the "
+"telephone, hang up and call someone you know to ensure that the connection "
 "to those asking is lost."
 msgstr ""
+"Empresas oficiais não irão solicitar-lhe a sua senha. Elimine qualquer um e-"
+"mail solicitando-lhe a sua senha. Se estiver ao telefone, desligue e contate "
+"alguém conhecido, para garantir que a ligação com quem lhe solicitava a "
+"senha é perdida."
 
 #: user-docs/C/guide-keeping-safe.xml:53(title)
 msgid "Use strong and unique passwords for important accounts"
@@ -4889,6 +4933,9 @@ msgid ""
 "an attacker can steal your password, they will be able to steal it again in "
 "the future."
 msgstr ""
+"Não é necessário alterar as suas senhas a cada dois dias. Em muitos casos, "
+"se um atacante conseguir roubar sua senha, eles serão capazes de a roubar "
+"novamente no futuro."
 
 #: user-docs/C/guide-keeping-safe.xml:125(para)
 msgid ""
@@ -5027,6 +5074,11 @@ msgid ""
 "email address, which is relatively public information. It does not ask for a "
 "password. Websites that ask for your password will most likely misuse it."
 msgstr ""
+"<emphasis>Nunca</emphasis> revele a sua <emphasis>senha</emphasis> a um site "
+"de terceiros. O site acima mencionado é seguro para usar, porque pede um "
+"endereço de e-mail, que é uma informação relativamente pública. Ele não pede "
+"uma senha. Sites que pedirem a sua senha provavelmente irão fazer um mau uso "
+"da mesma."
 
 #: user-docs/C/guide-keeping-safe.xml:180(title)
 msgid "What about password managers?"
@@ -5042,12 +5094,13 @@ msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:185(para)
 msgid ""
-"There are several password managers available in <application>Gnome "
-"Software</application>, including <application>KeePassX</application> and "
-"<application>PaSaffe</application>."
+"There are several password managers available in the repositories, including "
+"<application>KeePassX</application> and <application>PaSaffe</application>."
 msgstr ""
+"Existem vários gestores de senhas disponíveis nos repositórios, incluindo o "
+"<application>KeePassX</application> e o <application>PaSaffe</application>."
 
-#: user-docs/C/guide-keeping-safe.xml:190(para)
+#: user-docs/C/guide-keeping-safe.xml:187(para)
 msgid ""
 "Some password managers, like <application>KeePassX</application> can "
 "synchronise your passwords across devices, including Windows or OS X "
@@ -5059,7 +5112,7 @@ msgstr ""
 "Windows ou OS X. Deve estar ciente de algumas limitações, se decidir "
 "utilizar um gestor de senhas:"
 
-#: user-docs/C/guide-keeping-safe.xml:195(para)
+#: user-docs/C/guide-keeping-safe.xml:192(para)
 msgid ""
 "Online password managers can be hacked too. Do not store your email or bank "
 "passwords in a password manager."
@@ -5067,7 +5120,7 @@ msgstr ""
 "Gestores de senhas on-line podem também ser invadidos. Não guarde o seu e-"
 "mail ou senhas bancárias num gestor de senhas."
 
-#: user-docs/C/guide-keeping-safe.xml:196(para)
+#: user-docs/C/guide-keeping-safe.xml:193(para)
 msgid ""
 "Use a memorable password to unlock your password manager! If you lose that "
 "password, you could end up losing access to all your accounts (another good "
@@ -5077,7 +5130,7 @@ msgstr ""
 "senha, acabará perdendo o acesso a todas as suas contas (outra boa razão "
 "para não armazenar e-mails no seu gestor de senhas)."
 
-#: user-docs/C/guide-keeping-safe.xml:197(para)
+#: user-docs/C/guide-keeping-safe.xml:194(para)
 msgid ""
 "Proprietary password managers should not be trusted. Nobody knows what they "
 "do with your passwords."
@@ -5085,7 +5138,7 @@ msgstr ""
 "Gestores de senhas proprietários não devem ser confiáveis. Ninguém sabe o "
 "que eles fazem com as suas senhas."
 
-#: user-docs/C/guide-keeping-safe.xml:198(para)
+#: user-docs/C/guide-keeping-safe.xml:195(para)
 msgid ""
 "You may need to use some accounts from your friends or family’s devices. For "
 "those accounts, you can tell your password manager to use a specific and "
@@ -5095,7 +5148,7 @@ msgstr ""
 "familiares. Para essas contas, pode configurar o seu gestor de senhas para "
 "usar uma senha específica e memorável em vez de uma senha aleatória."
 
-#: user-docs/C/guide-keeping-safe.xml:200(para)
+#: user-docs/C/guide-keeping-safe.xml:197(para)
 msgid ""
 "If you keep the above advice in mind, password managers can be a great way "
 "to stay more secure, more easily!"
@@ -5103,19 +5156,19 @@ msgstr ""
 "Se mantiver  em mente o conselho acima, os gestores de senhas podem ser um "
 "ótima maneira de ficar mais seguro, mais facilmente!"
 
-#: user-docs/C/guide-keeping-safe.xml:206(title)
+#: user-docs/C/guide-keeping-safe.xml:203(title)
 msgid "Tips for good online security"
 msgstr "Dicas para uma boa segurança online"
 
-#: user-docs/C/guide-keeping-safe.xml:209(title)
+#: user-docs/C/guide-keeping-safe.xml:206(title)
 msgid "Do not run scripts or install applications from unknown sources"
 msgstr "Não execute scripts ou instale aplicações de fontes desconhecidas"
 
-#: user-docs/C/guide-keeping-safe.xml:212(para)
+#: user-docs/C/guide-keeping-safe.xml:209(para)
 msgid "Install applications from the repository whenever possible."
 msgstr "Instale aplicações a partir dos repositórios sempre que possível."
 
-#: user-docs/C/guide-keeping-safe.xml:213(para)
+#: user-docs/C/guide-keeping-safe.xml:210(para)
 msgid ""
 "When running a script found on a troubleshooting or support website or given "
 "to you on IRC, take a moment to look at it, or ask a third-party to confirm "
@@ -5126,11 +5179,11 @@ msgstr ""
 "suporte ou obtido num canal de IRC, perca uns momentos a olhar para ele, ou "
 "peça a um terceiro para confirmar o que o script faz."
 
-#: user-docs/C/guide-keeping-safe.xml:218(title)
+#: user-docs/C/guide-keeping-safe.xml:215(title)
 msgid "Keep your browser clean for sensitive activities"
 msgstr "Mantenha seu navegador limpo para actividades sensíveis"
 
-#: user-docs/C/guide-keeping-safe.xml:220(para)
+#: user-docs/C/guide-keeping-safe.xml:217(para)
 msgid ""
 "Web browser extensions are a popular mechanism among hackers for harming "
 "users. They are especially relevant to Linux, since they are compatible with "
@@ -5144,18 +5197,18 @@ msgstr ""
 "roubar as suas senhas, monitorizar a sua atividade online para publicidade, "
 "abusar de contas de mídia social, ou roubar o seu dinheiro."
 
-#: user-docs/C/guide-keeping-safe.xml:225(para)
+#: user-docs/C/guide-keeping-safe.xml:222(para)
 msgid "You can take measures to limit the risks you expose yourself to:"
 msgstr "Pode tomar medidas para limitar os riscos a que se expôe:"
 
-#: user-docs/C/guide-keeping-safe.xml:227(para)
+#: user-docs/C/guide-keeping-safe.xml:224(para)
 msgid ""
 "Never install an extension that is not distributed by your browser vendor"
 msgstr ""
 "Nunca instale uma extensão que não seja distribuída pelo fornecedor do seu "
 "navegador"
 
-#: user-docs/C/guide-keeping-safe.xml:229(para)
+#: user-docs/C/guide-keeping-safe.xml:226(para)
 msgid ""
 "On Firefox, use a separate user profile for sensitive activities like "
 "banking and e-shopping. Firefox user profiles do not share extensions (see "
@@ -5169,7 +5222,7 @@ msgstr ""
 "US/kb/profile-manager-create-and-remove-firefox-profiles\">Gestão de "
 "perfis</ulink>)."
 
-#: user-docs/C/guide-keeping-safe.xml:230(para)
+#: user-docs/C/guide-keeping-safe.xml:227(para)
 msgid ""
 "On Chrome and other browsers, use the Incognito mode for sensitive "
 "activities like banking and e-shopping. Incognito mode disables extensions."
@@ -5178,11 +5231,11 @@ msgstr ""
 "sensíveis, como bancos e comércio eletrónico. O modo Incognito desabilita "
 "extensões."
 
-#: user-docs/C/guide-keeping-safe.xml:235(title)
+#: user-docs/C/guide-keeping-safe.xml:232(title)
 msgid "Remember email security"
 msgstr "Lembre-se da segurança de e-mail"
 
-#: user-docs/C/guide-keeping-safe.xml:238(para)
+#: user-docs/C/guide-keeping-safe.xml:235(para)
 msgid ""
 "Do not open email attachments from people that you don’t know, or if you "
 "think the content of the email is incoherent or suspicious (for example "
@@ -5192,7 +5245,7 @@ msgstr ""
 "que o conteúdo do e-mail é incoerente ou suspeito (por exemplo facturas "
 "provenientes de pessoas quem nunca ouviu falar)."
 
-#: user-docs/C/guide-keeping-safe.xml:239(para)
+#: user-docs/C/guide-keeping-safe.xml:236(para)
 msgid ""
 "Do not reply to spam. This will inform spammers that your email address is "
 "active, and it will incite them to send you more spam."
@@ -5201,12 +5254,12 @@ msgstr ""
 "seu endereço de e-mail está ativo, e irá incentivá-los a enviar mais correio "
 "não solicitado."
 
-#: user-docs/C/guide-keeping-safe.xml:244(title)
+#: user-docs/C/guide-keeping-safe.xml:241(title)
 msgid "Consider firewalls if your computer hosts Internet services"
 msgstr ""
 "Considere usar firewalls se o seu computador alojar serviços da Internet"
 
-#: user-docs/C/guide-keeping-safe.xml:246(para)
+#: user-docs/C/guide-keeping-safe.xml:243(para)
 msgid ""
 "If you run public facing Internet services, or are not on a NAT, you should "
 "consider using a firewall. Most home users are not concerned by this measure."
@@ -5215,7 +5268,7 @@ msgstr ""
 "deve considerar o uso de uma firewall. A maioria dos utilizadores domésticos "
 "não são abrangidos por esta medida."
 
-#: user-docs/C/guide-keeping-safe.xml:249(para)
+#: user-docs/C/guide-keeping-safe.xml:246(para)
 msgid ""
 "Understand that firewalls are not very useful in their default settings. You "
 "should consider what you want to achieve and configure the firewall "
@@ -5233,11 +5286,11 @@ msgstr ""
 "lo contra ameaças desconhecidas ou emergentes, e elas não substituem a "
 "necessidade de instalar atualizações de segurança."
 
-#: user-docs/C/guide-keeping-safe.xml:260(title) user-docs/C/guide-keeping-safe.xml:280(para)
+#: user-docs/C/guide-keeping-safe.xml:257(title) user-docs/C/guide-keeping-safe.xml:277(para)
 msgid "Back up on a regular basis"
 msgstr "Faça cópias de segurança com regularidade"
 
-#: user-docs/C/guide-keeping-safe.xml:262(para)
+#: user-docs/C/guide-keeping-safe.xml:259(para)
 msgid ""
 "A problem that you may occasionally encounter is the unexpected loss of some "
 "of your work and settings for one reason or another. The causes of such data "
@@ -5254,7 +5307,7 @@ msgstr ""
 "importantes para que, caso se depare com um problema, não terá perdido esses "
 "ficheiros."
 
-#: user-docs/C/guide-keeping-safe.xml:268(para)
+#: user-docs/C/guide-keeping-safe.xml:265(para)
 msgid ""
 "It is wise to store backup copies of files separately from your computer; "
 "that is, you should make use of some form of file storage which is not "
@@ -5268,7 +5321,7 @@ msgstr ""
 "incluem mas não estão limitadas a CDs e DVDs, discos rígidos externos, "
 "discos USB e outros computadores na rede."
 
-#: user-docs/C/guide-keeping-safe.xml:273(para)
+#: user-docs/C/guide-keeping-safe.xml:270(para)
 msgid ""
 "A simple way of backing up your files is to manually copy them to a safe "
 "location (see above) by using the <application>File Browser</application> as "
@@ -5283,11 +5336,11 @@ msgstr ""
 "arquivos e juntá-los. Alternativamente, poderá usar uma aplicação de cópias "
 "de segurança dedicada."
 
-#: user-docs/C/guide-keeping-safe.xml:278(para)
+#: user-docs/C/guide-keeping-safe.xml:275(para)
 msgid "General advice on how to keep good backups:"
 msgstr "Conselhos gerais sobre como manter boas cópias de segurança:"
 
-#: user-docs/C/guide-keeping-safe.xml:281(para)
+#: user-docs/C/guide-keeping-safe.xml:278(para)
 msgid ""
 "Always test your backups after you make them to ensure that they have been "
 "made correctly"
@@ -5295,20 +5348,23 @@ msgstr ""
 "Testar sempre as suas cópias de segurança depois de as fazer para garantir "
 "que elas foram feitas corretamente"
 
-#: user-docs/C/guide-keeping-safe.xml:283(para)
+#: user-docs/C/guide-keeping-safe.xml:280(para)
 msgid "Label your backups clearly and keep them in a safe place"
 msgstr ""
 "Etiquetar as suas cópias de segurança de forma clara e mantê-las em um lugar "
 "seguro"
 
-#: user-docs/C/guide-keeping-safe.xml:286(para)
+#: user-docs/C/guide-keeping-safe.xml:283(para)
 msgid ""
-"There are numerous dedicated backup applications available in "
-"<application>Gnome Software</application>, including <application>Dejà "
-"Dup</application> and <application>luckyBackup</application>."
+"There are numerous dedicated backup applications available in the "
+"repositories, including <application>Dejà Dup</application> and "
+"<application>luckyBackup</application>."
 msgstr ""
+"Existem inúmeras aplicações dedicadas de cópia de segurança disponíveis nos "
+"repositórios, incluindo o <application>Dejà Dup</application> e o "
+"<application>luckyBackup</application>."
 
-#: user-docs/C/guide-keeping-safe.xml:290(para)
+#: user-docs/C/guide-keeping-safe.xml:284(para)
 msgid ""
 "If you use online backup services like Dropbox, it is a good idea to first "
 "encrypt your documents and upload an encrypted archive. This will prevent "
@@ -5318,7 +5374,7 @@ msgstr ""
 "encriptar primeiro os seus documentos e carregar um arquivo encriptado. Isso "
 "impedirá que a equipe de serviços online aceda aos seus documentos."
 
-#: user-docs/C/guide-keeping-safe.xml:294(para)
+#: user-docs/C/guide-keeping-safe.xml:288(para)
 msgid ""
 "Backups can also be an effective protection against ransomware, which "
 "encrypts your data and will only decrypt it if you pay the developers. To "
@@ -5332,11 +5388,11 @@ msgstr ""
 "fontes desconhecidas. Para obter mais informações, consulte <xref "
 "linkend=\"script-applications-sources\"/>."
 
-#: user-docs/C/guide-keeping-safe.xml:302(title)
+#: user-docs/C/guide-keeping-safe.xml:296(title)
 msgid "Consider encryption"
 msgstr "Considere encriptação"
 
-#: user-docs/C/guide-keeping-safe.xml:304(para)
+#: user-docs/C/guide-keeping-safe.xml:298(para)
 msgid ""
 "Full disk encryption is a good measure to protect your computers content "
 "should it get stolen. You should consider it if, for instance, your job "
@@ -5351,7 +5407,7 @@ msgstr ""
 "poderá protegê-lo se não desligar o computador quando não o estiver a "
 "utilizar."
 
-#: user-docs/C/guide-keeping-safe.xml:309(para)
+#: user-docs/C/guide-keeping-safe.xml:303(para)
 msgid ""
 "The easiest way to enable full disk encryption is to do it during the "
 "installation."
@@ -5359,7 +5415,7 @@ msgstr ""
 "A maneira mais fácil para activar a encriptação total do disco é fazê-lo "
 "durante a instalação."
 
-#: user-docs/C/guide-keeping-safe.xml:311(para)
+#: user-docs/C/guide-keeping-safe.xml:305(para)
 msgid ""
 "You can also create encrypted volumes using dedicated software, for example "
 "LUKS. Encrypted volumes can contain arbitrary data of any length. You can "
@@ -5375,15 +5431,15 @@ msgstr ""
 "Descrever o processo para fazer isso está fora do âmbito desta documentação, "
 "mas existem inúmeros tutoriais online."
 
-#: user-docs/C/guide-keeping-safe.xml:321(title)
+#: user-docs/C/guide-keeping-safe.xml:315(title)
 msgid "Using your computer in a shared environment"
 msgstr "Utilização do computador num ambiente partilhado"
 
-#: user-docs/C/guide-keeping-safe.xml:324(title)
+#: user-docs/C/guide-keeping-safe.xml:318(title)
 msgid "Do not use shared accounts"
 msgstr "Não use contas partilhadas"
 
-#: user-docs/C/guide-keeping-safe.xml:326(para)
+#: user-docs/C/guide-keeping-safe.xml:320(para)
 msgid ""
 "When Xubuntu is installed, it is set up for a single person to use. If more "
 "than one person will use the computer, it is best for each person to have "
@@ -5395,11 +5451,11 @@ msgstr ""
 "pessoa tenha a sua própria conta de utilizador. Para ler mais sobre como "
 "adicionar utilizadores, consulte <xref linkend=\"users-groups\"/>."
 
-#: user-docs/C/guide-keeping-safe.xml:333(title)
+#: user-docs/C/guide-keeping-safe.xml:327(title)
 msgid "Lock your screen while away"
 msgstr "Bloquear o seu ecrã enquanto estiver ausente"
 
-#: user-docs/C/guide-keeping-safe.xml:335(para)
+#: user-docs/C/guide-keeping-safe.xml:329(para)
 msgid ""
 "Locking your screen prevents other people from accessing your computer while "
 "you are away from it. All of your applications and work remain open while "
@@ -5409,7 +5465,7 @@ msgstr ""
 "está ausente dele. Todas as suas aplicações e trabalhos permanecem abertos "
 "enquanto o ecrã está bloqueado."
 
-#: user-docs/C/guide-keeping-safe.xml:338(para)
+#: user-docs/C/guide-keeping-safe.xml:332(para)
 msgid ""
 "To lock the screen, press <placeholder-1/><keycap>Ctrl+Alt+Delete</keycap> "
 "or click <application><menuchoice><placeholder-2/><guimenuitem><placeholder-"
@@ -5420,7 +5476,7 @@ msgstr ""
 "<application><menuchoice><placeholder-2/><guimenuitem><placeholder-3/> "
 "Bloquear ecrã</guimenuitem></menuchoice></application>."
 
-#: user-docs/C/guide-keeping-safe.xml:340(para)
+#: user-docs/C/guide-keeping-safe.xml:334(para)
 msgid ""
 "To unlock the screen, move the mouse or press a key. Then, type your "
 "password and either press the <placeholder-1/><keycap>Enter</keycap> key or "
@@ -5431,7 +5487,7 @@ msgstr ""
 "1/><keycap>Enter</keycap> ou clique o botão "
 "<guibutton>Desbloquear</guibutton>."
 
-#: user-docs/C/guide-keeping-safe.xml:343(para)
+#: user-docs/C/guide-keeping-safe.xml:337(para)
 msgid ""
 "If more than one person has a user account on your computer and the screen "
 "is locked, other users can press the triangle button to the right of the "
@@ -5459,6 +5515,10 @@ msgid ""
 "designed to make your life easy, it is well worth taking the time to get to "
 "know it."
 msgstr ""
+"Quando o computador concluir a inicialização, e depois de introduzir os seus "
+"dados de acesso, irá entrar no desktop Xubuntu. Ele inclui muitas "
+"características para tornar a sua vida mais fácil, vale a pena o tempo "
+"despendido para ficar a conhecê-lo."
 
 #: user-docs/C/guide-desktop.xml:21(title)
 msgid "Desktop"
@@ -5468,6 +5528,8 @@ msgstr "Ambiente de trabalho"
 msgid ""
 "The Xubuntu desktop has a single panel located at the top of the screen."
 msgstr ""
+"O ambiente de trabalho do Xubuntu tem um único painel localizado na parte "
+"superior do ecrã."
 
 #: user-docs/C/guide-desktop.xml:26(title)
 msgid "The Panel"
@@ -5483,6 +5545,13 @@ msgid ""
 "2/><guilabel>Settings Manager</guilabel>, <placeholder-3/><guilabel>Lock "
 "Screen</guilabel> and <placeholder-4/><guilabel>Log Out</guilabel>."
 msgstr ""
+"O painel é usado para iniciar e alternar entre aplicações e para receber "
+"informações sobre o seu sistema. No lado esquerdo do painel verá o logótipo "
+"do Xubuntu, <placeholder-1/>. Ao clicar neste ícone abrirá o "
+"<guilabel>Menu</guilabel>, oferecendo-lhe muitas opções de aplicações. Ao "
+"longo da parte inferior da janela do menu estão os ícones para <placeholder-"
+"2/><guilabel>Definições</guilabel>, <placeholder-3/><guilabel>Bloquear "
+"ecrã</guilabel> e <placeholder-4/><guilabel>Sair</guilabel>."
 
 #: user-docs/C/guide-desktop.xml:30(para)
 msgid ""
@@ -5494,6 +5563,14 @@ msgid ""
 "instant messages. Some notification icons only appear when needed, for "
 "instance when software updates are available."
 msgstr ""
+"A seção central do painel é dedicada aos botões das janelas para as "
+"aplicações abertas. No extremo direito está o relógio, exibindo a data e a "
+"hora. Para a esquerda disso está a <guilabel>Área de notificação</guilabel>. "
+"Aqui irá ver os indicadores que lhe dão informações sobre o sistema, "
+"incluindo conectividade de rede, o nível de volume de som, estado da bateria "
+"(quando apropriado), mensagens instantâneas. Alguns ícones de notificação só "
+"aparecerão na medida do necessário, por exemplo quando estão disponíveis "
+"atualizações de software."
 
 #: user-docs/C/guide-desktop.xml:32(para)
 msgid ""
@@ -5501,6 +5578,9 @@ msgid ""
 "<guilabel>Menu</guilabel> are all customizable. See <xref linkend=\"settings-"
 "preferences\"/> for more information on those topics."
 msgstr ""
+"A posição do painel, os itens nele contidos e o <guilabel>Menu</guilabel> "
+"são configuráveis. Veja <xref linkend=\"settings-preferences\"/> para mais "
+"informações sobre estes temas."
 
 #: user-docs/C/guide-desktop.xml:36(title)
 msgid "The Desktop"
@@ -5515,6 +5595,15 @@ msgid ""
 "<menuchoice><guimenuitem>Desktop Settings</guimenuitem></menuchoice>. From "
 "here you can change the wallpaper and modify menu and icon behavior."
 msgstr ""
+"O ambiente de trabalho padrão tem apenas três ícones: <guilabel>Pasta "
+"pessoal</guilabel>, <guilabel>Sistema de ficheiros</guilabel> e "
+"<guilabel>Lixo</guilabel> (ícones de dispositivos removíveis, como CDs ou "
+"unidades flash aparecerão se qualquer um desses dispositivos estiver "
+"presente). Pode personalizar a sua área de trabalho clicando com o botão "
+"direito do rato numa área vazia e escolher "
+"<menuchoice><guimenuitem>Definições do ambiente de "
+"trabalho...</guimenuitem></menuchoice>. A partir daí pode alterar o papel de "
+"parede e modificar o comportamento de menus e ícones."
 
 #: user-docs/C/guide-desktop.xml:47(title)
 msgid "Files and directories"
@@ -5530,6 +5619,14 @@ msgid ""
 "<guilabel>Home</guilabel> or <guilabel>File System</guilabel> icons on your "
 "desktop."
 msgstr ""
+"O Xubuntu vem com o gestor de ficheiros do Xfce, "
+"<application>Thunar</application>. Para simplificar, referir-nos-emos a ele "
+"como o Gestor de ficheiros. Inicie-o a partir de "
+"<application><menuchoice><placeholder-"
+"1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Gestor de "
+"ficheiros</guimenuitem></menuchoice></application> ou clicando duas vezes o "
+"ícone <guilabel>Pasta pessoal</guilabel> ou o ícone <guilabel>Sistema de "
+"ficheiros</guilabel> no seu ambiente de trabalho."
 
 #: user-docs/C/guide-desktop.xml:55(title)
 msgid "Navigation"
@@ -5550,6 +5647,18 @@ msgid ""
 "inside. When you're done, return to your home directory by clicking on the "
 "top shortcut."
 msgstr ""
+"A vista predefinida do gestor de ficheiros consiste de um painel de atalhos "
+"no lado esquerdo, a área principal à direita, e uma barra de caminho acima "
+"da área principal. O painel de atalhos fornece atalhos para diferentes "
+"pastas no seu sistema. O primeiro atalho em <guilabel>LOCAIS</guilabel> "
+"conduzirá para o diretório home, o diretório onde armazena todos os seus "
+"dados pessoais, e terá o nome do utilizador atual. Esse diretório "
+"provavelmente aparecerá vazio. O atalho <guilabel>Sistema de "
+"ficheiros</guilabel> sob <guilabel>DISPOSITIVOS</guilabel> conduzi-lo-á para "
+"a raiz do seu sistema de ficheiros. Poderá querer explorá-lo um pouco, "
+"apesar de lhe poder parecer confuso se for desconhecedor de Linux. Apenas "
+"clique nas diferentes pastas e veja o que contêm dentro. Quando estiver "
+"pronto, volte para seu diretório home clicando no atalho do topo."
 
 #: user-docs/C/guide-desktop.xml:67(para)
 msgid ""
@@ -5566,6 +5675,9 @@ msgid ""
 "read rights to files you see while browsing under the <guilabel>File "
 "System</guilabel> shortcut."
 msgstr ""
+"Ao usar o <application>Thunar</application> irá, em geral, apenas ter "
+"permissões de leitura nos ficheiros que encontra enquanto navega sob o "
+"atalho <guilabel>Sistema de ficheiros</guilabel>."
 
 #: user-docs/C/guide-desktop.xml:72(para)
 msgid ""
@@ -5689,6 +5801,16 @@ msgid ""
 "<menuchoice><guimenuitem>Eject</guimenuitem></menuchoice>. The same applies "
 "for any other removable media."
 msgstr ""
+"Ao inserir CDs, unidades USB e outros mídias removíveis no seu computador, "
+"ou inserir dispositivos removíveis como um leitor de música, o Xubuntu "
+"deverá detectar automaticamente o novo dispositivo. Por exemplo, depois de "
+"inserir um CD na sua unidade óptica verá um novo atalho no painel esquerdo "
+"do <application>Gestor de ficheiros</application> representando o CD. "
+"Clicando-o ele irá abrir o CD na área principal, tal qual ao clicar numa "
+"pasta normal. Para remover o CD, clique com o botão direito do rato sobre o "
+"atalho e escolha  "
+"<menuchoice><guimenuitem>Ejetar</guimenuitem></menuchoice>. O mesmo se "
+"aplica para qualquer outro mídia removível."
 
 #: user-docs/C/guide-desktop.xml:124(para)
 msgid ""
@@ -5746,11 +5868,16 @@ msgstr ""
 
 #: user-docs/C/guide-desktop.xml:146(para)
 msgid ""
-"You can add Custom Actions, these can add useful options to the menu. Many "
-"custom actions can be found at the Ubuntu Wiki <ulink "
-"url=\"https://help.ubuntu.com/community/ThunarCustomActions\"> Thunar Custom "
-"Action </ulink> page"
+"Finally, you can add Custom Actions, which can add useful options to the "
+"menu. Many custom actions can be found at the Ubuntu Wiki <ulink "
+"url=\"https://help.ubuntu.com/community/ThunarCustomActions\">Thunar Custom "
+"Action</ulink> page."
 msgstr ""
+"Finalmente, pode adicionar ações personalizadas, que podem adicionar opções "
+"úteis ao menu. Muitas ações personalizadas podem ser encontradas na página "
+"da Wiki Ubuntu <ulink "
+"url=\"https://help.ubuntu.com/community/ThunarCustomActions\">Thunar Custom "
+"Action</ulink>."
 
 #: user-docs/C/guide-desktop.xml:148(para)
 msgid ""
@@ -5806,6 +5933,10 @@ msgid ""
 "<ulink url=\"http://support.mozilla.org/en-US/home\">Firefox's online "
 "help</ulink>."
 msgstr ""
+"O <application>Firefox</application> é um navegador de internet maduro e "
+"estável que pode ser expandido com uma grande variedade de suplementos "
+"disponíveis. Leia mais em <ulink url=\"http://support.mozilla.org/en-"
+"US/home\">Firefox's online help</ulink>."
 
 #: user-docs/C/guide-default-apps.xml:29(para)
 msgid ""
@@ -5820,6 +5951,17 @@ msgid ""
 "<ulink url=\"https://support.mozillamessaging.com/en-US/home\">Thunderbird "
 "Support page</ulink>."
 msgstr ""
+"O <application>Thunderbird</application> é um cliente de email versátil, que "
+"pode lidar com várias contas de e-mail e identidades diferentes "
+"simultaneamente. Tal como o Firefox, ele também pode ser melhorado com "
+"suplementos para personalizar a sua aparência e expandir a sua "
+"funcionalidade. Se estiver a migrar de outro programa de email, o "
+"Thunderbird permite a importação dos seus e-mails e livros de endereços. No "
+"<application>Thunderbird</application>, navegue até "
+"<menuchoice><guimenu>Ferramentas</guimenu><guimenuitem>Importar</guimenuitem>"
+"</menuchoice> para iniciar o <guilabel>Assistente de importação</guilabel>. "
+"Leia mais em <ulink url=\"https://support.mozillamessaging.com/en-"
+"US/home\">Thunderbird Support page</ulink>."
 
 #: user-docs/C/guide-default-apps.xml:31(para)
 msgid ""
@@ -5865,6 +6007,10 @@ msgid ""
 "url=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">PulseAudio "
 "website</ulink>."
 msgstr ""
+"<application>PulseAudio Volume Control</application> é a maneira de "
+"controlar as diferentes fontes de som e o seu destino. Leia mais em <ulink "
+"url=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">PulseAudio "
+"website</ulink>."
 
 #: user-docs/C/guide-default-apps.xml:43(para)
 msgid ""
