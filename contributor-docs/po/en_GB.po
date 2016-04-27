@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-04-23 00:03+0100\n"
+"POT-Creation-Date: 2016-04-26 23:53+0100\n"
 "PO-Revision-Date: 2016-04-23 20:40+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: English (United Kingdom) <en_GB@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-04-24 06:12+0000\n"
+"X-Launchpad-Export-Date: 2016-04-27 06:11+0000\n"
 "X-Generator: Launchpad (build 17995)\n"
 
 #: contributor-docs/C/xi-translators-not-found.xml:1(para)
@@ -425,8 +425,8 @@ msgid "Community"
 msgstr "Community"
 
 #: contributor-docs/C/strategy-document.xml:100(title)
-msgid "Project Lead"
-msgstr "Project Lead"
+msgid "Xubuntu Project Lead"
+msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:102(para)
 msgid ""
@@ -442,6 +442,15 @@ msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:104(para)
 msgid ""
+"The XPL is the administrator and only user of the <ulink "
+"url=\"https://launchpad.net/~xubuntu-project-lead\">xubuntu-project-"
+"lead</ulink> Launchpad team, which is the administrator for all other "
+"Xubuntu Launchpad teams, giving the XPL full administration access to all "
+"Xubuntu teams."
+msgstr ""
+
+#: contributor-docs/C/strategy-document.xml:106(para)
+msgid ""
 "The XPL is chosen by a simple majority vote. All members in the Xubuntu team "
 "are eligible to vote. Nominations are to be made in the two weeks preceding "
 "the election. Nominations may be submitted by individuals nominating "
@@ -456,7 +465,7 @@ msgstr ""
 "nominate, but the nominee must be an active member of at least one Xubuntu "
 "subteam (excluding Xubuntu users)."
 
-#: contributor-docs/C/strategy-document.xml:106(para)
+#: contributor-docs/C/strategy-document.xml:108(para)
 msgid ""
 "All nominees are required to provide a wiki page with relevant information "
 "for the voting."
@@ -465,20 +474,20 @@ msgstr ""
 "for the voting."
 
 #. To read more about the requirements, see the processes page.
-#: contributor-docs/C/strategy-document.xml:108(para)
-msgid ""
-"The voting should be arranged in a way that allows people in any timezone to "
-"vote. Ideally, the voting should be possible for 24 consecutive hours. Any "
-"voting method needs to fulfill the requirement to only allow members of the "
-"Xubuntu team to vote."
-msgstr ""
-"The voting should be arranged in a way that allows people in any timezone to "
-"vote. Ideally, the voting should be possible for 24 consecutive hours. Any "
-"voting method needs to fulfill the requirement to only allow members of the "
-"Xubuntu team to vote."
-
 #: contributor-docs/C/strategy-document.xml:110(para)
 msgid ""
+"The voting should be arranged in a way that allows people in any timezone to "
+"vote. Ideally, the voting should be possible for 24 consecutive hours. Any "
+"voting method needs to fulfill the requirement to only allow members of the "
+"Xubuntu team to vote."
+msgstr ""
+"The voting should be arranged in a way that allows people in any timezone to "
+"vote. Ideally, the voting should be possible for 24 consecutive hours. Any "
+"voting method needs to fulfill the requirement to only allow members of the "
+"Xubuntu team to vote."
+
+#: contributor-docs/C/strategy-document.xml:112(para)
+msgid ""
 "The XPL has a casting vote on any issue. Furthermore, in extreme cases, the "
 "XPL has a veto ability. The primary purpose of the veto vote is to prevent "
 "exhausting and interminable quarrels in the community. This authority is not "
@@ -493,34 +502,37 @@ msgstr ""
 "not overly lenghty discussions. It's also encouraged to be in touch with "
 "other Ubuntu teams and ask for advice where applicable."
 
-#: contributor-docs/C/strategy-document.xml:114(title)
+#: contributor-docs/C/strategy-document.xml:116(title)
 msgid "Xubuntu Team"
 msgstr "Xubuntu Team"
 
-#: contributor-docs/C/strategy-document.xml:116(para)
-msgid ""
-"The Xubuntu team is a group of individuals who are primarily responsible for "
-"the Xubuntu development. The group is registered in Launchpad as xubuntu-"
-"team. The team is moderated."
-msgstr ""
-"The Xubuntu team is a group of individuals who are primarily responsible for "
-"the Xubuntu development. The group is registered in Launchpad as xubuntu-"
-"team. The team is moderated."
-
 #: contributor-docs/C/strategy-document.xml:118(para)
 msgid ""
-"The individuals wanting to join the Xubuntu team are required to meet the "
-"criteria described below prior to applying or they will be automatically "
-"declined. The XPL is responsible for moderating the Xubuntu team. From this "
-"group, the XPL can appoint specific team leads."
+"The Xubuntu team is a group of individuals who are primarily responsible for "
+"the Xubuntu development."
 msgstr ""
-"The individuals wanting to join the Xubuntu team are required to meet the "
-"criteria described below prior to applying or they will be automatically "
-"declined. The XPL is responsible for moderating the Xubuntu team. From this "
-"group, the XPL can appoint specific team leads."
 
 #: contributor-docs/C/strategy-document.xml:120(para)
 msgid ""
+"The Xubuntu team is organized in Launchpad as <ulink "
+"url=\"https://launchpad.net/~xubuntu-team\">xubuntu-team</ulink>. The "
+"Launchpad team is moderated."
+msgstr ""
+
+#: contributor-docs/C/strategy-document.xml:122(para)
+msgid ""
+"The individuals wanting to join the Xubuntu team are required to meet the "
+"criteria described below prior to applying or they will be automatically "
+"declined. The XPL is responsible for moderating the Xubuntu team. From this "
+"group, the XPL can appoint specific team leads."
+msgstr ""
+"The individuals wanting to join the Xubuntu team are required to meet the "
+"criteria described below prior to applying or they will be automatically "
+"declined. The XPL is responsible for moderating the Xubuntu team. From this "
+"group, the XPL can appoint specific team leads."
+
+#: contributor-docs/C/strategy-document.xml:124(para)
+msgid ""
 "In case a team lead is in the minority when voting on an issue that concerns "
 "their area of expertise, the team lead should be given another hearing, "
 "after which the team should take extra care in deciding about the issue and "
@@ -533,11 +545,11 @@ msgstr ""
 "may want to consider voting on it again after more discussion. If the XPL "
 "abstains from the vote, the team leader in question has a casting vote."
 
-#: contributor-docs/C/strategy-document.xml:123(title)
+#: contributor-docs/C/strategy-document.xml:127(title)
 msgid "Becoming and staying a member"
 msgstr "Becoming and staying a member"
 
-#: contributor-docs/C/strategy-document.xml:125(para)
+#: contributor-docs/C/strategy-document.xml:129(para)
 msgid ""
 "To be accepted to the Xubuntu team, applicants participants must demonstrate "
 "their motivation and ability to contribute to Xubuntu. This is to ensure "
@@ -548,24 +560,24 @@ msgid ""
 "a member, one must:"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:128(para)
-msgid ""
-"Commit meaningful contributions to one of the subteams, after which one will "
-"be approved to the subteam for \"probation\" by a subteam administrator"
-msgstr ""
-"Commit meaningful contributions to one of the subteams, after which one will "
-"be approved to the subteam for \"probation\" by a subteam administrator"
-
-#: contributor-docs/C/strategy-document.xml:129(para)
-msgid ""
-"Demonstrate motivation to contribute perpetually, after which one will be "
-"approved to the Xubuntu team by the XPL"
-msgstr ""
-"Demonstrate motivation to contribute perpetually, after which one will be "
-"approved to the Xubuntu team by the XPL"
-
 #: contributor-docs/C/strategy-document.xml:132(para)
 msgid ""
+"Commit meaningful contributions to one of the subteams, after which one will "
+"be approved to the subteam for \"probation\" by a subteam administrator"
+msgstr ""
+"Commit meaningful contributions to one of the subteams, after which one will "
+"be approved to the subteam for \"probation\" by a subteam administrator"
+
+#: contributor-docs/C/strategy-document.xml:133(para)
+msgid ""
+"Demonstrate motivation to contribute perpetually, after which one will be "
+"approved to the Xubuntu team by the XPL"
+msgstr ""
+"Demonstrate motivation to contribute perpetually, after which one will be "
+"approved to the Xubuntu team by the XPL"
+
+#: contributor-docs/C/strategy-document.xml:136(para)
+msgid ""
 "To stay a member of the Xubuntu team, the member will have to have desire to "
 "continue contributing in the future. Anyone with no contributions for more "
 "than a complete cycle (6 months) should deactivate themself from the team as "
@@ -580,61 +592,69 @@ msgstr ""
 "team administrators should purge people with no contributions in more than 6 "
 "months from the teams occasionally."
 
-#: contributor-docs/C/strategy-document.xml:137(title)
+#: contributor-docs/C/strategy-document.xml:141(title)
 msgid "Xubuntu Users"
 msgstr "Xubuntu Users"
 
-#: contributor-docs/C/strategy-document.xml:139(para)
+#: contributor-docs/C/strategy-document.xml:143(para)
 msgid ""
-"Xubuntu users is a collection of users who use and/or are interested in "
-"Xubuntu. The purpose of this group is to identify and organize Xubuntu "
-"users. The users in this group are able to vote in the Xubuntu community "
-"meetings. The members in the Xubuntu users group are encouraged to give user "
-"support on IRC and the xubuntu-users mailing list as well as spread the word "
-"about Xubuntu anywhere they see fit, including but not limited to blogs, "
-"social media and conferences."
+"The Launchpad team <ulink url=\"https://launchpad.net/~xubuntu-"
+"users\">xubuntu-users</ulink> is the formal top-level group of people who "
+"are interested in Xubuntu. The team is open for anybody to join."
 msgstr ""
-"Xubuntu users is a collection of users who use and/or are interested in "
-"Xubuntu. The purpose of this group is to identify and organize Xubuntu "
-"users. The users in this group are able to vote in the Xubuntu community "
-"meetings. The members in the Xubuntu users group are encouraged to give user "
-"support on IRC and the xubuntu-users mailing list as well as spread the word "
-"about Xubuntu anywhere they see fit, including but not limited to blogs, "
-"social media and conferences."
 
-#: contributor-docs/C/strategy-document.xml:144(title) contributor-docs/C/development.xml:14(title)
+#: contributor-docs/C/strategy-document.xml:145(para)
+msgid ""
+"The members of the official Launchpad group are encouraged to give user "
+"support on IRC and on the Xubuntu users mailing list as well as spread the "
+"word about Xubuntu anywhere they see fit, including but not limited to "
+"blogs, social media and conferences."
+msgstr ""
+
+#: contributor-docs/C/strategy-document.xml:147(para)
+msgid ""
+"In addition to user support and advocacy, the members are free to organize "
+"as they like on social media platforms and more. If the group is considered "
+"substantial and useful enough, the Xubuntu team can name it official and "
+"help with maintaining it. All currently official teams and their "
+"administrators are listed on the Xubuntu wiki under the <ulink "
+"url=\"http://wiki.xubuntu.org/website/admins\">Website "
+"Administrators</ulink> page."
+msgstr ""
+
+#: contributor-docs/C/strategy-document.xml:152(title) contributor-docs/C/development.xml:14(title)
 msgid "Development"
 msgstr "Development"
 
-#: contributor-docs/C/strategy-document.xml:147(title)
+#: contributor-docs/C/strategy-document.xml:155(title)
 msgid "Coordination"
 msgstr "Coordination"
 
-#: contributor-docs/C/strategy-document.xml:149(para)
+#: contributor-docs/C/strategy-document.xml:157(para)
 msgid "The direction of the development of the project is coordinated by:"
 msgstr "The direction of the development of the project is coordinated by:"
 
-#: contributor-docs/C/strategy-document.xml:152(para)
+#: contributor-docs/C/strategy-document.xml:160(para)
 msgid "The Strategy Document"
 msgstr "The Strategy Document"
 
-#: contributor-docs/C/strategy-document.xml:153(para)
+#: contributor-docs/C/strategy-document.xml:161(para)
 msgid "Release-specific blueprints and specifications"
 msgstr "Release-specific blueprints and specifications"
 
-#: contributor-docs/C/strategy-document.xml:154(para)
+#: contributor-docs/C/strategy-document.xml:162(para)
 msgid "The community meetings"
 msgstr "The community meetings"
 
-#: contributor-docs/C/strategy-document.xml:155(para)
+#: contributor-docs/C/strategy-document.xml:163(para)
 msgid "The developer communication tools listed below"
 msgstr "The developer communication tools listed below"
 
-#: contributor-docs/C/strategy-document.xml:160(title)
+#: contributor-docs/C/strategy-document.xml:168(title)
 msgid "Communication"
 msgstr "Communication"
 
-#: contributor-docs/C/strategy-document.xml:162(para)
+#: contributor-docs/C/strategy-document.xml:170(para)
 msgid ""
 "For Xubuntu to be successful, its members and community must have the right "
 "tools to enable useful and helpful communication and ultimately, to help the "
@@ -646,7 +666,7 @@ msgstr ""
 "community grow. These communication tools include the following \"core\" "
 "tools:"
 
-#: contributor-docs/C/strategy-document.xml:165(para)
+#: contributor-docs/C/strategy-document.xml:173(para)
 msgid ""
 "<emphasis>Mailing lists</emphasis>; xubuntu-users for community support and "
 "user discussions and xubuntu-devel for development discussion and "
@@ -656,7 +676,7 @@ msgstr ""
 "user discussions and xubuntu-devel for development discussion and "
 "coordination"
 
-#: contributor-docs/C/strategy-document.xml:166(para)
+#: contributor-docs/C/strategy-document.xml:174(para)
 msgid ""
 "<emphasis>IRC channels</emphasis>; #xubuntu for community support, #xubuntu-"
 "devel for development discussion and coordination and #xubuntu-offtopic for "
@@ -666,7 +686,7 @@ msgstr ""
 "devel for development discussion and coordination and #xubuntu-offtopic for "
 "general discussion with a more relaxed mood"
 
-#: contributor-docs/C/strategy-document.xml:167(para)
+#: contributor-docs/C/strategy-document.xml:175(para)
 msgid ""
 "<emphasis>Launchpad</emphasis>, for organizing teams as well as tracking and "
 "managing blueprints and bugs"
@@ -674,46 +694,46 @@ msgstr ""
 "<emphasis>Launchpad</emphasis>, for organizing teams as well as tracking and "
 "managing blueprints and bugs"
 
-#: contributor-docs/C/strategy-document.xml:168(para)
+#: contributor-docs/C/strategy-document.xml:176(para)
 msgid ""
 "<emphasis>The Xubuntu website</emphasis> for news, development articles and "
 "general information about Xubuntu"
 msgstr ""
 "<emphasis>The Xubuntu website</emphasis> for news, development articles and "
 "general information about Xubuntu"
-
-#: contributor-docs/C/strategy-document.xml:172(para)
-msgid ""
-"In addition to communicating with each other and the Xubuntu community, the "
-"Xubuntu team should communicate continuosly with other Ubuntu contributors, "
-"upstream and other projects related to Xubuntu. The team members should take "
-"part in the development discussion outside Xubuntu as well to create and "
-"maintain healthy relationships with other projects and their developers."
-msgstr ""
-"In addition to communicating with each other and the Xubuntu community, the "
-"Xubuntu team should communicate continuosly with other Ubuntu contributors, "
-"upstream and other projects related to Xubuntu. The team members should take "
-"part in the development discussion outside Xubuntu as well to create and "
-"maintain healthy relationships with other projects and their developers."
-
-#: contributor-docs/C/strategy-document.xml:176(title)
-msgid "Dispute Resolution"
-msgstr "Dispute Resolution"
-
-#: contributor-docs/C/strategy-document.xml:178(para)
-msgid ""
-"The Code Of Conduct (CoC) is one of the most fundamental documents in the "
-"Ubuntu community, including Xubuntu, and it functions as the base for a "
-"working community. Everybody and every communicating medium in the Xubuntu "
-"community is CoC-compliant at all times."
-msgstr ""
-"The Code Of Conduct (CoC) is one of the most fundamental documents in the "
-"Ubuntu community, including Xubuntu, and it functions as the base for a "
-"working community. Everybody and every communicating medium in the Xubuntu "
-"community is CoC-compliant at all times."
 
 #: contributor-docs/C/strategy-document.xml:180(para)
 msgid ""
+"In addition to communicating with each other and the Xubuntu community, the "
+"Xubuntu team should communicate continuosly with other Ubuntu contributors, "
+"upstream and other projects related to Xubuntu. The team members should take "
+"part in the development discussion outside Xubuntu as well to create and "
+"maintain healthy relationships with other projects and their developers."
+msgstr ""
+"In addition to communicating with each other and the Xubuntu community, the "
+"Xubuntu team should communicate continuosly with other Ubuntu contributors, "
+"upstream and other projects related to Xubuntu. The team members should take "
+"part in the development discussion outside Xubuntu as well to create and "
+"maintain healthy relationships with other projects and their developers."
+
+#: contributor-docs/C/strategy-document.xml:184(title)
+msgid "Dispute Resolution"
+msgstr "Dispute Resolution"
+
+#: contributor-docs/C/strategy-document.xml:186(para)
+msgid ""
+"The Code Of Conduct (CoC) is one of the most fundamental documents in the "
+"Ubuntu community, including Xubuntu, and it functions as the base for a "
+"working community. Everybody and every communicating medium in the Xubuntu "
+"community is CoC-compliant at all times."
+msgstr ""
+"The Code Of Conduct (CoC) is one of the most fundamental documents in the "
+"Ubuntu community, including Xubuntu, and it functions as the base for a "
+"working community. Everybody and every communicating medium in the Xubuntu "
+"community is CoC-compliant at all times."
+
+#: contributor-docs/C/strategy-document.xml:188(para)
+msgid ""
 "To read the most recent revision of the Ubuntu Code of Conduct, refer to the "
 "<ulink url=\"http://www.ubuntu.com/about/about-ubuntu/conduct\">Ubuntu Code "
 "of Conduct</ulink> page on the Ubuntu website."
@@ -722,7 +742,7 @@ msgstr ""
 "<ulink url=\"http://www.ubuntu.com/about/about-ubuntu/conduct\">Ubuntu Code "
 "of Conduct</ulink> page on the Ubuntu website."
 
-#: contributor-docs/C/strategy-document.xml:182(para)
+#: contributor-docs/C/strategy-document.xml:190(para)
 msgid ""
 "The Ubuntu Community Council can be asked to act as mediators/advisors where "
 "their expertise would be useful when the Xubuntu team and project lead "
@@ -734,7 +754,7 @@ msgstr ""
 "requires assistance. The Xubuntu Team and XPL are encouraged to talk any "
 "other teams in the Ubuntu community if it helps resolving the issue."
 
-#: contributor-docs/C/strategy-document.xml:184(para)
+#: contributor-docs/C/strategy-document.xml:192(para)
 msgid ""
 "When disputes occur, contributors are strongly encouraged to refrain from "
 "taking the disputed actions to avoid sabotaging the dispute resolution "
@@ -744,11 +764,11 @@ msgstr ""
 "taking the disputed actions to avoid sabotaging the dispute resolution "
 "process."
 
-#: contributor-docs/C/strategy-document.xml:189(title)
+#: contributor-docs/C/strategy-document.xml:197(title)
 msgid "Release and Support Cycles"
 msgstr "Release and Support Cycles"
 
-#: contributor-docs/C/strategy-document.xml:191(para)
+#: contributor-docs/C/strategy-document.xml:199(para)
 msgid ""
 "The Xubuntu release cycle consists of 6 months from start to release, then "
 "an additional 9 month of maintenance for standard releases and 3 years of "
@@ -773,7 +793,7 @@ msgstr ""
 #. <listitem><para>Releasing</para></listitem>
 #. <listitem><para>Maintaining</para></listitem>
 #. </itemizedlist>
-#: contributor-docs/C/strategy-document.xml:203(para)
+#: contributor-docs/C/strategy-document.xml:211(para)
 msgid ""
 "For more information about the specifics of the processes related to "
 "developing a release, see <xref linkend=\"processes\"/>."
@@ -781,15 +801,15 @@ msgstr ""
 "For more information about the specifics of the processes related to "
 "developing a release, see <xref linkend=\"processes\"/>."
 
-#: contributor-docs/C/strategy-document.xml:207(title)
+#: contributor-docs/C/strategy-document.xml:215(title)
 msgid "Seeds and Composition"
 msgstr "Seeds and Composition"
 
-#: contributor-docs/C/strategy-document.xml:210(title)
+#: contributor-docs/C/strategy-document.xml:218(title)
 msgid "Core Components"
 msgstr "Core Components"
 
-#: contributor-docs/C/strategy-document.xml:212(para)
+#: contributor-docs/C/strategy-document.xml:220(para)
 msgid ""
 "The following packages and their technical dependencies are considered "
 "essential in composing an operating system that represents the goals set "
@@ -799,35 +819,35 @@ msgstr ""
 "essential in composing an operating system that represents the goals set "
 "previously in this document:"
 
-#: contributor-docs/C/strategy-document.xml:215(para)
+#: contributor-docs/C/strategy-document.xml:223(para)
 msgid "xfwm4 (Xfce4 window manager)"
 msgstr "xfwm4 (Xfce4 window manager)"
 
-#: contributor-docs/C/strategy-document.xml:216(para)
+#: contributor-docs/C/strategy-document.xml:224(para)
 msgid "xfdesktop4 (Xfce4 desktop)"
 msgstr "xfdesktop4 (Xfce4 desktop)"
 
-#: contributor-docs/C/strategy-document.xml:217(para)
+#: contributor-docs/C/strategy-document.xml:225(para)
 msgid "xfce4-panel (Xfce4 panel)"
 msgstr "xfce4-panel (Xfce4 panel)"
 
-#: contributor-docs/C/strategy-document.xml:218(para)
+#: contributor-docs/C/strategy-document.xml:226(para)
 msgid "xfce4-session (Xfce4 session manager)"
 msgstr "xfce4-session (Xfce4 session manager)"
 
-#: contributor-docs/C/strategy-document.xml:219(para)
+#: contributor-docs/C/strategy-document.xml:227(para)
 msgid "xfconf (Xfce4 configuration storage system)"
 msgstr "xfconf (Xfce4 configuration storage system)"
 
-#: contributor-docs/C/strategy-document.xml:220(para)
+#: contributor-docs/C/strategy-document.xml:228(para)
 msgid "xfce4-settings (Xfce4 settings manager)"
 msgstr "xfce4-settings (Xfce4 settings manager)"
 
-#: contributor-docs/C/strategy-document.xml:221(para)
+#: contributor-docs/C/strategy-document.xml:229(para)
 msgid "thunar (file manager)"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:224(para)
+#: contributor-docs/C/strategy-document.xml:232(para)
 msgid ""
 "Unless the components mentioned above are deprecated and no longer work as "
 "they are intended, they should not be substituted or removed from the seed."
@@ -835,7 +855,7 @@ msgstr ""
 "Unless the components mentioned above are deprecated and no longer work as "
 "they are intended, they should not be substituted or removed from the seed."
 
-#: contributor-docs/C/strategy-document.xml:226(para)
+#: contributor-docs/C/strategy-document.xml:234(para)
 msgid ""
 "The <literal><placeholder-1/>xubuntu-core</literal> metapackage consists of "
 "the core packages as well as other important packages which contribute to "
@@ -849,11 +869,11 @@ msgstr ""
 "desktop</literal> metapackage depends on the core metapackage and includes "
 "additional packages to provide the full, ready to use, Xubuntu experience."
 
-#: contributor-docs/C/strategy-document.xml:230(title)
+#: contributor-docs/C/strategy-document.xml:238(title)
 msgid "Package Selection"
 msgstr "Package Selection"
 
-#: contributor-docs/C/strategy-document.xml:232(para)
+#: contributor-docs/C/strategy-document.xml:240(para)
 msgid ""
 "When considering the package selection for Xubuntu, there are two main "
 "guidelines:"
@@ -861,59 +881,59 @@ msgstr ""
 "When considering the package selection for Xubuntu, there are two main "
 "guidelines:"
 
-#: contributor-docs/C/strategy-document.xml:235(para)
+#: contributor-docs/C/strategy-document.xml:243(para)
 msgid "The package must be in line with the mission statement"
 msgstr "The package must be in line with the mission statement"
 
-#: contributor-docs/C/strategy-document.xml:236(para)
-msgid ""
-"The package selection process must be conducted as objectively as possible"
-msgstr ""
-"The package selection process must be conducted as objectively as possible"
-
-#: contributor-docs/C/strategy-document.xml:239(para)
-msgid ""
-"While the Xubuntu Project Lead and the Xubuntu Technical Lead have the last "
-"word on package selection, it's recommended that the whole team is involved "
-"in the discussion, bringing up well thought out arguments both for and "
-"against. When appropriate, tests should be conducted to gather meaningful "
-"measurements."
-msgstr ""
-"While the Xubuntu Project Lead and the Xubuntu Technical Lead have the last "
-"word on package selection, it's recommended that the whole team is involved "
-"in the discussion, bringing up well thought out arguments both for and "
-"against. When appropriate, tests should be conducted to gather meaningful "
-"measurements."
-
-#: contributor-docs/C/strategy-document.xml:241(para)
-msgid ""
-"Before seeding an application in Xubuntu, the following aspects should be "
-"considered:"
-msgstr ""
-"Before seeding an application in Xubuntu, the following aspects should be "
-"considered:"
-
 #: contributor-docs/C/strategy-document.xml:244(para)
+msgid ""
+"The package selection process must be conducted as objectively as possible"
+msgstr ""
+"The package selection process must be conducted as objectively as possible"
+
+#: contributor-docs/C/strategy-document.xml:247(para)
+msgid ""
+"While the Xubuntu Project Lead and the Xubuntu Technical Lead have the last "
+"word on package selection, it's recommended that the whole team is involved "
+"in the discussion, bringing up well thought out arguments both for and "
+"against. When appropriate, tests should be conducted to gather meaningful "
+"measurements."
+msgstr ""
+"While the Xubuntu Project Lead and the Xubuntu Technical Lead have the last "
+"word on package selection, it's recommended that the whole team is involved "
+"in the discussion, bringing up well thought out arguments both for and "
+"against. When appropriate, tests should be conducted to gather meaningful "
+"measurements."
+
+#: contributor-docs/C/strategy-document.xml:249(para)
+msgid ""
+"Before seeding an application in Xubuntu, the following aspects should be "
+"considered:"
+msgstr ""
+"Before seeding an application in Xubuntu, the following aspects should be "
+"considered:"
+
+#: contributor-docs/C/strategy-document.xml:252(para)
 msgid "Usability and integration"
 msgstr "Usability and integration"
 
-#: contributor-docs/C/strategy-document.xml:245(para)
+#: contributor-docs/C/strategy-document.xml:253(para)
 msgid "Usefulness"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:246(para)
+#: contributor-docs/C/strategy-document.xml:254(para)
 msgid "Resource consumption and size"
 msgstr "Resource consumption and size"
 
-#: contributor-docs/C/strategy-document.xml:247(para)
+#: contributor-docs/C/strategy-document.xml:255(para)
 msgid "Reliability"
 msgstr "Reliability"
 
-#: contributor-docs/C/strategy-document.xml:248(para)
+#: contributor-docs/C/strategy-document.xml:256(para)
 msgid "Localization"
 msgstr "Localisation"
 
-#: contributor-docs/C/strategy-document.xml:251(para)
+#: contributor-docs/C/strategy-document.xml:259(para)
 msgid ""
 "When measuring if a package is right for Xubuntu, the decision should not be "
 "based on an analysis of the package alone, but the target package along with "
@@ -925,21 +945,21 @@ msgstr ""
 "its dependencies. Any package that is considered for seeding should fulfill "
 "the following requirements:"
 
-#: contributor-docs/C/strategy-document.xml:254(para)
+#: contributor-docs/C/strategy-document.xml:262(para)
 msgid "The package should use the GTK toolkit"
 msgstr "The package should use the GTK toolkit"
 
-#: contributor-docs/C/strategy-document.xml:255(para)
+#: contributor-docs/C/strategy-document.xml:263(para)
 msgid ""
 "The package should not pull in heavy libraries, especially if they will run "
 "and/or start frequently"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:256(para)
+#: contributor-docs/C/strategy-document.xml:264(para)
 msgid "The package should be well maintained upstream"
 msgstr "The package should be well maintained upstream"
 
-#: contributor-docs/C/strategy-document.xml:259(para)
+#: contributor-docs/C/strategy-document.xml:267(para)
 msgid ""
 "The above guidelines can be omitted when there are extensive benefits to "
 "seeding the package, consensus between the Xubuntu Project Lead and Xubuntu "
@@ -1099,10 +1119,12 @@ msgid ""
 "Reporting bugs with PPAs can be problematic, please see further information "
 "on reporting bugs with PPAs in <xref linkend=\"qa-bugs-ppa\"/>."
 msgstr ""
+"Reporting bugs with PPAs can be problematic, please see further information "
+"on reporting bugs with PPAs in <xref linkend=\"qa-bugs-ppa\"/>."
 
 #: contributor-docs/C/qa-testing.xml:61(title)
 msgid "Static Testing"
-msgstr ""
+msgstr "Static Testing"
 
 #: contributor-docs/C/qa-testing.xml:63(para)
 msgid ""
@@ -1110,12 +1132,17 @@ msgid ""
 "the every day quality. If you have spare hardware resources or are able to "
 "run a virtualized testing environment, you can help."
 msgstr ""
+"Testing the development versions of Xubuntu and packages in it helps keep up "
+"the every day quality. If you have spare hardware resources or are able to "
+"run a virtualized testing environment, you can help."
 
 #: contributor-docs/C/qa-testing.xml:66(para)
 msgid ""
 "Check the devel mailing list close to the start of the cycle, where the "
 "decision as to which milestones we will participate in will be discussed."
 msgstr ""
+"Check the devel mailing list close to the start of the cycle, where the "
+"decision as to which milestones we will participate in will be discussed."
 
 #: contributor-docs/C/qa-testing.xml:67(para)
 msgid ""
@@ -1123,10 +1150,13 @@ msgid ""
 "will take place either when we have reason to rebuild, eg following a bug "
 "fix landing, or more likely when the Ubuntu Release Team have cause to do so."
 msgstr ""
+"While milestone testing is in progress, please watch for rebuilds. These "
+"will take place either when we have reason to rebuild, eg following a bug "
+"fix landing, or more likely when the Ubuntu Release Team have cause to do so."
 
 #: contributor-docs/C/qa-testing.xml:72(title)
 msgid "Milestone Testing"
-msgstr ""
+msgstr "Milestone Testing"
 
 #: contributor-docs/C/qa-testing.xml:74(para)
 msgid ""
@@ -1134,20 +1164,25 @@ msgid ""
 "release. To see how these milestones are scheduled, refer to the Ubuntu "
 "release schedule."
 msgstr ""
+"Stand alone image testing for milestones is useful in the 2 days before the "
+"release. To see how these milestones are scheduled, refer to the Ubuntu "
+"release schedule."
 
 #: contributor-docs/C/qa-testing.xml:77(para) contributor-docs/C/qa-testing.xml:88(para)
 msgid ""
 "Live Session: Boot with the image and ensure that basic application testing "
 "(open, close, saving etc.) passes."
 msgstr ""
+"Live Session: Boot with the image and ensure that basic application testing "
+"(open, close, saving etc.) passes."
 
 #: contributor-docs/C/qa-testing.xml:78(para) contributor-docs/C/qa-testing.xml:89(para)
 msgid "Installation tests required pass. These test only the installation."
-msgstr ""
+msgstr "Installation tests required pass. These test only the installation."
 
 #: contributor-docs/C/qa-testing.xml:83(title)
 msgid "Daily Testing"
-msgstr ""
+msgstr "Daily Testing"
 
 #: contributor-docs/C/qa-testing.xml:85(para)
 msgid ""
@@ -1157,10 +1192,15 @@ msgid ""
 "global or local to Xubuntu issue. If unsure contact the Xubuntu team, "
 "preferrably on IRC."
 msgstr ""
+"The importance of daily image testing lies in the main in knowing that boot "
+"or installation regressions haven’t appeared. Where it appears they have, if "
+"you are able to boot with a different flavours image, this can help prove a "
+"global or local to Xubuntu issue. If unsure contact the Xubuntu team, "
+"preferrably on IRC."
 
 #: contributor-docs/C/qa-testing.xml:94(title)
 msgid "Upgrade Testing"
-msgstr ""
+msgstr "Upgrade Testing"
 
 #: contributor-docs/C/qa-testing.xml:96(para)
 msgid ""
@@ -1169,6 +1209,10 @@ msgid ""
 "version. When the development version is intended to be the next LTS "
 "release, we need to test both upgrade paths: LTS to LTS and regular to LTS."
 msgstr ""
+"About half way through any development cycle (around the beta milestones) we "
+"need to test upgrades from the previous release to the new development "
+"version. When the development version is intended to be the next LTS "
+"release, we need to test both upgrade paths: LTS to LTS and regular to LTS."
 
 #: contributor-docs/C/qa-testing.xml:98(para)
 msgid ""
@@ -1178,18 +1222,23 @@ msgid ""
 "for testing is the one built on the first Friday, except where bugs are "
 "reported and fixes landed."
 msgstr ""
+"The ISO tracker has a section for upgrade tests which does not change daily, "
+"but runs from Friday to Friday. This enables us to test upgrades for a week "
+"rather than a day. During these tests it is preferred that the image used "
+"for testing is the one built on the first Friday, except where bugs are "
+"reported and fixes landed."
 
 #: contributor-docs/C/qa-testing.xml:101(para)
 msgid "Upgrade: tested using the update-manager"
-msgstr ""
+msgstr "Upgrade: tested using the update-manager"
 
 #: contributor-docs/C/qa-testing.xml:102(para)
 msgid "Upgrade (image): tested using the daily image"
-msgstr ""
+msgstr "Upgrade (image): tested using the daily image"
 
 #: contributor-docs/C/qa-testing.xml:107(title)
 msgid "Package Testing"
-msgstr ""
+msgstr "Package Testing"
 
 #: contributor-docs/C/qa-testing.xml:109(para)
 msgid ""
@@ -1197,6 +1246,9 @@ msgid ""
 "package testing will be made to the xubuntu-devel mailing list as required. "
 "This could be a call from QA or Developers."
 msgstr ""
+"For releases where we are making use of the Package Tracker, calls for "
+"package testing will be made to the xubuntu-devel mailing list as required. "
+"This could be a call from QA or Developers."
 
 #: contributor-docs/C/qa-testing.xml:111(para)
 msgid ""
@@ -1208,14 +1260,21 @@ msgid ""
 "requirement</emphasis> are mailed as they are available, often these "
 "packages will be those found on one of our PPAs."
 msgstr ""
+"A schedule of planned tests is mailed to the Xubuntu Devel mailing list "
+"close to the cycle start,the schedule is shown on the <ulink "
+"url=\"https://trello.com/b/IV66JCHl/xubuntu-qa\">QA Trello</ulink> page. "
+"Reminders of upcoming package test requirements are mailed to the Xubuntu "
+"devel mailing list as required. <emphasis>Specific developer testing "
+"requirement</emphasis> are mailed as they are available, often these "
+"packages will be those found on one of our PPAs."
 
 #: contributor-docs/C/qa-tester.xml:15(title)
 msgid "Testing Infrastructure"
-msgstr ""
+msgstr "Testing Infrastructure"
 
 #: contributor-docs/C/qa-tester.xml:17(title)
 msgid "Getting ready to test"
-msgstr ""
+msgstr "Getting ready to test"
 
 #: contributor-docs/C/qa-tester.xml:19(para)
 msgid ""
@@ -1224,16 +1283,22 @@ msgid ""
 "subscription, an image and something to test it on. This page will give you "
 "the basic information in order to do those things and more."
 msgstr ""
+"To successfully test for Xubuntu, so we know you have and you know what we "
+"need, you will need at a minimum 4 things: a Launchpad account, mailing list "
+"subscription, an image and something to test it on. This page will give you "
+"the basic information in order to do those things and more."
 
 #: contributor-docs/C/qa-tester.xml:23(title)
 msgid "Contacts"
-msgstr ""
+msgstr "Contacts"
 
 #: contributor-docs/C/qa-tester.xml:25(para)
 msgid ""
 "You need a Launchpad account - you'll use it to join the necessary Launchpad "
 "team(s) and it makes logging into the 2 QA trackers we use easier."
 msgstr ""
+"You need a Launchpad account - you'll use it to join the necessary Launchpad "
+"team(s) and it makes logging into the 2 QA trackers we use easier."
 
 #: contributor-docs/C/qa-tester.xml:27(para)
 msgid ""
@@ -1243,6 +1308,11 @@ msgid ""
 "Xubuntu Devel <ulink url=\"https://lists.ubuntu.com/mailman/listinfo/xubuntu-"
 "devel\"> Mailing</ulink> list."
 msgstr ""
+"We use one mailing list to detail what we intend to test during a cycle, we "
+"use the same list when we are calling for tests. The same list is used by "
+"the team to discuss the development of Xubuntu. So you will need to join the "
+"Xubuntu Devel <ulink url=\"https://lists.ubuntu.com/mailman/listinfo/xubuntu-"
+"devel\"> Mailing</ulink> list."
 
 #: contributor-docs/C/qa-tester.xml:29(para)
 msgid ""
@@ -1251,12 +1321,18 @@ msgid ""
 "you can though access the channel via the IRC tab of the Xubuntu <ulink "
 "url=\"http://dev.xubuntu.org/\">development</ulink> tracker."
 msgstr ""
+"While it is not necessary to do so, we make much use of IRC, so having an "
+"account you can use to access the main #xubuntu-devel channel will help you, "
+"you can though access the channel via the IRC tab of the Xubuntu <ulink "
+"url=\"http://dev.xubuntu.org/\">development</ulink> tracker."
 
 #: contributor-docs/C/qa-tester.xml:31(para)
 msgid ""
 "Join the Xubuntu Testers <ulink url=\"https://launchpad.net/~xubuntu-"
 "testers\">Launchpad</ulink> team."
 msgstr ""
+"Join the Xubuntu Testers <ulink url=\"https://launchpad.net/~xubuntu-"
+"testers\">Launchpad</ulink> team."
 
 #: contributor-docs/C/qa-tester.xml:33(para)
 msgid ""
@@ -1264,10 +1340,13 @@ msgid ""
 "url=\"http://wiki.xubuntu.org/qa/teamhardware\">Hardware</ulink> page. We "
 "can use this data to request specific testing from specific testers."
 msgstr ""
+"Consider adding your details to the <ulink "
+"url=\"http://wiki.xubuntu.org/qa/teamhardware\">Hardware</ulink> page. We "
+"can use this data to request specific testing from specific testers."
 
 #: contributor-docs/C/qa-tester.xml:37(title)
 msgid "Getting the ISO"
-msgstr ""
+msgstr "Getting the ISO"
 
 #: contributor-docs/C/qa-tester.xml:39(para)
 msgid ""
@@ -1276,6 +1355,10 @@ msgid ""
 "testcases through version to Xubuntu's group of tests. Then choose either 32 "
 "or 64 bit. Download links are available there"
 msgstr ""
+"Iso's can be obtained through a few methods. The simplest method is to visit "
+"the <ulink url=\"http://iso.qa.ubuntu.com/\">ISO</ulink> tracker. Follow the "
+"testcases through version to Xubuntu's group of tests. Then choose either 32 "
+"or 64 bit. Download links are available there"
 
 #: contributor-docs/C/qa-tester.xml:41(para)
 msgid ""
@@ -1285,20 +1368,27 @@ msgid ""
 "more appropriate. This is will just grab the difference between your local "
 "copy and the current one."
 msgstr ""
+"When you intend to test more regularly, then you might find (especially if "
+"bandwidth is an issue for you) using the <ulink "
+"url=\"https://help.ubuntu.com/community/ZsyncCdImage\">zsync</ulink> link "
+"more appropriate. This is will just grab the difference between your local "
+"copy and the current one."
 
 #: contributor-docs/C/qa-tester.xml:46(title)
 msgid "Methods of testing"
-msgstr ""
+msgstr "Methods of testing"
 
 #: contributor-docs/C/qa-tester.xml:48(para)
 msgid ""
 "Now you've set up your basic contact(s)and have your ISO, you are in a "
 "position to test it."
 msgstr ""
+"Now you've set up your basic contact(s)and have your ISO, you are in a "
+"position to test it."
 
 #: contributor-docs/C/qa-tester.xml:50(para)
 msgid "There are two main methods of testing the ISO:"
-msgstr ""
+msgstr "There are two main methods of testing the ISO:"
 
 #: contributor-docs/C/qa-tester.xml:53(para)
 msgid ""
@@ -1306,6 +1396,9 @@ msgid ""
 "to test our ISO's. You can install a virtual machine by directly using your "
 "downloaded ISO."
 msgstr ""
+"Using a virtual machine enables you to carry on using a normal release and "
+"to test our ISO's. You can install a virtual machine by directly using your "
+"downloaded ISO."
 
 #: contributor-docs/C/qa-tester.xml:54(para)
 msgid ""
@@ -1316,42 +1409,56 @@ msgid ""
 "<ulink url=\"http://princessleia.com/journal/2016/03/xubuntu-16-04-iso-"
 "testing-tips/\">USB</ulink> stick with Gnome Disks."
 msgstr ""
+"Install the ISO to hardware where that possibility is available. This is "
+"more important towards the end of the development cycle. You will "
+"necessarily need to have the ISO in some bootable medium. A member of "
+"Xubuntu's Website team details a simple method for preparing a bootable "
+"<ulink url=\"http://princessleia.com/journal/2016/03/xubuntu-16-04-iso-"
+"testing-tips/\">USB</ulink> stick with Gnome Disks."
 
 #: contributor-docs/C/qa-tester.xml:59(title)
 msgid "Reporting your result"
-msgstr ""
+msgstr "Reporting your result"
 
 #: contributor-docs/C/qa-tester.xml:61(para)
 msgid "There are two QA trackers we use."
-msgstr ""
+msgstr "There are two QA trackers we use."
 
 #: contributor-docs/C/qa-tester.xml:64(para)
 msgid ""
 "The ISO tracker mentioned above for any testing done with an ISO either an "
 "install or an upgrade test."
 msgstr ""
+"The ISO tracker mentioned above for any testing done with an ISO either an "
+"install or an upgrade test."
 
 #: contributor-docs/C/qa-tester.xml:65(para)
 msgid ""
 "The <ulink url=\"http://packages.qa.ubuntu.com/\">Package</ulink> tracker, "
 "which is used when we are testing applications during a cycle."
 msgstr ""
+"The <ulink url=\"http://packages.qa.ubuntu.com/\">Package</ulink> tracker, "
+"which is used when we are testing applications during a cycle."
 
 #: contributor-docs/C/qa-tester.xml:68(para)
 msgid ""
 "These trackers form the backbone of what we are able to gain from your "
 "testing. It is important that you report your results."
 msgstr ""
+"These trackers form the backbone of what we are able to gain from your "
+"testing. It is important that you report your results."
 
 #: contributor-docs/C/qa-tester.xml:70(para)
 msgid ""
 "The next two sections of these documents go into more detail on how you can "
 "test for us and how to report bugs for us"
 msgstr ""
+"The next two sections of these documents go into more detail on how you can "
+"test for us and how to report bugs for us"
 
 #: contributor-docs/C/qa-team.xml:15(title)
 msgid "QA Team Responsibilies"
-msgstr ""
+msgstr "QA Team Responsibilies"
 
 #: contributor-docs/C/qa-team.xml:17(para)
 msgid ""
@@ -1359,10 +1466,13 @@ msgid ""
 "and Launchpad pages, the links to which can be found on <xref linkend=\"qa-"
 "team-links\"/>."
 msgstr ""
+"In addition to the QA Team's Trello page, there are various QA tracker, wiki "
+"and Launchpad pages, the links to which can be found on <xref linkend=\"qa-"
+"team-links\"/>."
 
 #: contributor-docs/C/qa-team.xml:20(title)
 msgid "QA Team"
-msgstr ""
+msgstr "QA Team"
 
 #: contributor-docs/C/qa-team.xml:22(para)
 msgid ""
@@ -1373,6 +1483,12 @@ msgid ""
 "paramount. Xubuntu's success is based on close working amongst all of its "
 "various teams."
 msgstr ""
+"The Xubuntu QA team was formed to ensure that the quality of a released "
+"Xubuntu conforms to the parameters laid out in the Xubuntu Processes "
+"documents. In order to successfully accomplish this, close team working "
+"relationships, especially with the Development team and the Project Lead are "
+"paramount. Xubuntu's success is based on close working amongst all of its "
+"various teams."
 
 #: contributor-docs/C/qa-team.xml:24(para)
 msgid ""
@@ -1383,6 +1499,12 @@ msgid ""
 "the trackers and propose users they have seen taking a keen interest in the "
 "work of the QA team."
 msgstr ""
+"In addition, the team gives people contributing through testing of Xubuntu "
+"the opportunity to become part of the <ulink "
+"url=\"https://launchpad.net/~xubuntu-team\">Xubuntu Team</ulink>. For that "
+"to be of practical use, the QA team should keep an eye on testing reports on "
+"the trackers and propose users they have seen taking a keen interest in the "
+"work of the QA team."
 
 #: contributor-docs/C/qa-team.xml:26(para)
 msgid ""
@@ -1391,6 +1513,10 @@ msgid ""
 "particular development cycle (hereafter cycle) to the community, makes up "
 "the bulk of the teams work in any given cycle."
 msgstr ""
+"Excluding testing itself, control of the testcases that we use for ISO and "
+"Package testing, along with communicating the testing requirements for any "
+"particular development cycle (hereafter cycle) to the community, makes up "
+"the bulk of the teams work in any given cycle."
 
 #: contributor-docs/C/qa-team.xml:28(para)
 msgid ""
@@ -1399,10 +1525,14 @@ msgid ""
 "helpful that they also have a Trello account in order to work with the QA "
 "Trello page."
 msgstr ""
+"Members of the QA team should check the current Xubuntu QA blueprint, and "
+"assign themselves to tasks they feel able to undertake. In addition it is "
+"helpful that they also have a Trello account in order to work with the QA "
+"Trello page."
 
 #: contributor-docs/C/qa-team.xml:32(title)
 msgid "Testing Responsibilities"
-msgstr ""
+msgstr "Testing Responsibilities"
 
 #: contributor-docs/C/qa-team.xml:34(para)
 msgid ""
@@ -1410,6 +1540,9 @@ msgid ""
 "we will participate in. Then, during a Community Meeting, members of Xubuntu "
 "Team will discuss and then ratify Xubuntu's participation during the cycle."
 msgstr ""
+"At the start of a cycle, the Release Team will discuss which ISO Milestones "
+"we will participate in. Then, during a Community Meeting, members of Xubuntu "
+"Team will discuss and then ratify Xubuntu's participation during the cycle."
 
 #: contributor-docs/C/qa-team.xml:36(para)
 msgid ""
@@ -1417,30 +1550,37 @@ msgid ""
 "linkend=\"qa-testing-exploratory\"/> and <xref linkend=\"qa-testing-ppa\"/>, "
 "further responsibilities lie with ensuring that:"
 msgstr ""
+"Along with general testing of our OS, dealt with further in <xref "
+"linkend=\"qa-testing-exploratory\"/> and <xref linkend=\"qa-testing-ppa\"/>, "
+"further responsibilities lie with ensuring that:"
 
 #: contributor-docs/C/qa-team.xml:39(para)
 msgid "Sufficient testing takes place prior to ISO Milestone releases"
-msgstr ""
+msgstr "Sufficient testing takes place prior to ISO Milestone releases"
 
 #: contributor-docs/C/qa-team.xml:40(para)
 msgid "Sufficient package testing takes place following calls to testers"
-msgstr ""
+msgstr "Sufficient package testing takes place following calls to testers"
 
 #: contributor-docs/C/qa-team.xml:41(para)
 msgid "Sufficient testing has taken place by Final Release"
-msgstr ""
+msgstr "Sufficient testing has taken place by Final Release"
 
 #: contributor-docs/C/qa-team.xml:42(para)
 msgid ""
 "Bugs reported to our trackers are confirmed, or where unable to confirm, "
 "further information is requested from the reporter"
 msgstr ""
+"Bugs reported to our trackers are confirmed, or where unable to confirm, "
+"further information is requested from the reporter"
 
 #: contributor-docs/C/qa-team.xml:43(para)
 msgid ""
 "Where appropriate, confirmation of bugs can be asked of members of Xubuntu "
 "Team in the team devel IRC channel"
 msgstr ""
+"Where appropriate, confirmation of bugs can be asked of members of Xubuntu "
+"Team in the team devel IRC channel"
 
 #: contributor-docs/C/qa-team.xml:46(para)
 msgid ""
@@ -1448,10 +1588,13 @@ msgid ""
 "url=\"https://launchpad.net/~xubuntu-bugs\">Xubuntu Bugs</ulink> team in "
 "order to be aware of bugs being reported by users."
 msgstr ""
+"Members of the QA team might find it useful subscribing to the <ulink "
+"url=\"https://launchpad.net/~xubuntu-bugs\">Xubuntu Bugs</ulink> team in "
+"order to be aware of bugs being reported by users."
 
 #: contributor-docs/C/qa-team.xml:50(title)
 msgid "Working with the QA Trackers"
-msgstr ""
+msgstr "Working with the QA Trackers"
 
 #: contributor-docs/C/qa-team.xml:52(para)
 msgid ""
@@ -1459,20 +1602,25 @@ msgid ""
 "discussion with the members of the <ulink "
 "url=\"https://launchpad.net/~xubuntu-release\">Xubuntu Release</ulink> team."
 msgstr ""
+"The initial decisions on what and when to test, will be taken following "
+"discussion with the members of the <ulink "
+"url=\"https://launchpad.net/~xubuntu-release\">Xubuntu Release</ulink> team."
 
 #: contributor-docs/C/qa-team.xml:54(para)
 msgid "At the start of a cycle, the QA team needs to ensure that:"
-msgstr ""
+msgstr "At the start of a cycle, the QA team needs to ensure that:"
 
 #: contributor-docs/C/qa-team.xml:57(para)
 msgid "Image testcases we use are still correct."
-msgstr ""
+msgstr "Image testcases we use are still correct."
 
 #: contributor-docs/C/qa-team.xml:58(para)
 msgid ""
 "When the intention is that package testing will take place during the cycle, "
 "package testcases are still correct."
 msgstr ""
+"When the intention is that package testing will take place during the cycle, "
+"package testcases are still correct."
 
 #: contributor-docs/C/qa-team.xml:59(para)
 msgid ""
@@ -1480,6 +1628,9 @@ msgid ""
 "during the cycle. Differences between regular and LTS releases are often, "
 "but not always, needed."
 msgstr ""
+"The testsuites on the Package Tracker make sense for what we intend to test "
+"during the cycle. Differences between regular and LTS releases are often, "
+"but not always, needed."
 
 #: contributor-docs/C/qa-team.xml:60(para)
 msgid ""
@@ -1488,6 +1639,10 @@ msgid ""
 "QA Trello page with Due Dates, this ensures that the schedule shows on the "
 "tracker's calendar tab."
 msgstr ""
+"Scheduling of ISO, and when appropriate Package, testing should take place "
+"amongst the QA team. The resulting schedule should be posted on the Xubuntu "
+"QA Trello page with Due Dates, this ensures that the schedule shows on the "
+"tracker's calendar tab."
 
 #: contributor-docs/C/qa-team.xml:63(para)
 msgid ""
@@ -1496,6 +1651,10 @@ msgid ""
 "testing calls for that package should be made to check for regression during "
 "the cycle."
 msgstr ""
+"When there are changes to a package we test, following for example a bug "
+"fix, a further check of the testcase involved should take place. Further "
+"testing calls for that package should be made to check for regression during "
+"the cycle."
 
 #: contributor-docs/C/qa-team.xml:65(para)
 msgid ""
@@ -1505,10 +1664,15 @@ msgid ""
 "Tests list. The QA Lead is responsible for ensuring tests are both disabled "
 "and re-enabled when appropriate."
 msgstr ""
+"When a package during test constantly fails, or bug reports indicate a "
+"failure in a package for something not tested. The testcase for that package "
+"should be disabled temporarily. This should be noted on the Trello Disabled "
+"Tests list. The QA Lead is responsible for ensuring tests are both disabled "
+"and re-enabled when appropriate."
 
 #: contributor-docs/C/qa-team.xml:69(title)
 msgid "Working with Testcases"
-msgstr ""
+msgstr "Working with Testcases"
 
 #: contributor-docs/C/qa-team.xml:71(para)
 msgid ""
@@ -1526,6 +1690,11 @@ msgid ""
 "Testcases, in addition any member of our Release Team can edit the tracker, "
 "this helps ensure that changes are moved through to the trackers quickly."
 msgstr ""
+"<emphasis>We</emphasis> are only concerned with a specific set of tasks: "
+"grabbing the branch, making edits and then pushing the changes we need to "
+"the main branch. We have people in the Testcase Admin team for the LP "
+"Testcases, in addition any member of our Release Team can edit the tracker, "
+"this helps ensure that changes are moved through to the trackers quickly."
 
 #: contributor-docs/C/qa-team.xml:75(para)
 msgid "To edit a testcase:"
@@ -1641,8 +1810,8 @@ msgstr ""
 
 #: contributor-docs/C/qa-team.xml:118(para)
 msgid ""
-"Work with the draft wiki <ulink "
-"url=\"https://wiki.ubuntu.com/Xubuntu/Testing/ReleaseNoteBase\">Release "
+"Work with the testing wiki <ulink "
+"url=\"https://wiki.ubuntu.com/Xubuntu/Testing/ReleaseNote\">Release "
 "Note</ulink>"
 msgstr ""
 
@@ -3157,3 +3326,32 @@ msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
 "  Elias Adeleke https://launchpad.net/~adeelias4real"
+
+#~ msgid "Project Lead"
+#~ msgstr "Project Lead"
+
+#~ msgid ""
+#~ "The Xubuntu team is a group of individuals who are primarily responsible for "
+#~ "the Xubuntu development. The group is registered in Launchpad as xubuntu-"
+#~ "team. The team is moderated."
+#~ msgstr ""
+#~ "The Xubuntu team is a group of individuals who are primarily responsible for "
+#~ "the Xubuntu development. The group is registered in Launchpad as xubuntu-"
+#~ "team. The team is moderated."
+
+#~ msgid ""
+#~ "Xubuntu users is a collection of users who use and/or are interested in "
+#~ "Xubuntu. The purpose of this group is to identify and organize Xubuntu "
+#~ "users. The users in this group are able to vote in the Xubuntu community "
+#~ "meetings. The members in the Xubuntu users group are encouraged to give user "
+#~ "support on IRC and the xubuntu-users mailing list as well as spread the word "
+#~ "about Xubuntu anywhere they see fit, including but not limited to blogs, "
+#~ "social media and conferences."
+#~ msgstr ""
+#~ "Xubuntu users is a collection of users who use and/or are interested in "
+#~ "Xubuntu. The purpose of this group is to identify and organize Xubuntu "
+#~ "users. The users in this group are able to vote in the Xubuntu community "
+#~ "meetings. The members in the Xubuntu users group are encouraged to give user "
+#~ "support on IRC and the xubuntu-users mailing list as well as spread the word "
+#~ "about Xubuntu anywhere they see fit, including but not limited to blogs, "
+#~ "social media and conferences."

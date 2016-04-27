@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-04-23 00:03+0100\n"
+"POT-Creation-Date: 2016-04-26 23:53+0100\n"
 "PO-Revision-Date: 2016-04-23 20:40+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-04-24 06:12+0000\n"
+"X-Launchpad-Export-Date: 2016-04-27 06:11+0000\n"
 "X-Generator: Launchpad (build 17995)\n"
 
 #: contributor-docs/C/xi-translators-not-found.xml:1(para)
@@ -326,7 +326,7 @@ msgid "Community"
 msgstr "Bendruomenė"
 
 #: contributor-docs/C/strategy-document.xml:100(title)
-msgid "Project Lead"
+msgid "Xubuntu Project Lead"
 msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:102(para)
@@ -339,6 +339,15 @@ msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:104(para)
 msgid ""
+"The XPL is the administrator and only user of the <ulink "
+"url=\"https://launchpad.net/~xubuntu-project-lead\">xubuntu-project-"
+"lead</ulink> Launchpad team, which is the administrator for all other "
+"Xubuntu Launchpad teams, giving the XPL full administration access to all "
+"Xubuntu teams."
+msgstr ""
+
+#: contributor-docs/C/strategy-document.xml:106(para)
+msgid ""
 "The XPL is chosen by a simple majority vote. All members in the Xubuntu team "
 "are eligible to vote. Nominations are to be made in the two weeks preceding "
 "the election. Nominations may be submitted by individuals nominating "
@@ -347,14 +356,14 @@ msgid ""
 "subteam (excluding Xubuntu users)."
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:106(para)
+#: contributor-docs/C/strategy-document.xml:108(para)
 msgid ""
 "All nominees are required to provide a wiki page with relevant information "
 "for the voting."
 msgstr ""
 
 #. To read more about the requirements, see the processes page.
-#: contributor-docs/C/strategy-document.xml:108(para)
+#: contributor-docs/C/strategy-document.xml:110(para)
 msgid ""
 "The voting should be arranged in a way that allows people in any timezone to "
 "vote. Ideally, the voting should be possible for 24 consecutive hours. Any "
@@ -362,7 +371,7 @@ msgid ""
 "Xubuntu team to vote."
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:110(para)
+#: contributor-docs/C/strategy-document.xml:112(para)
 msgid ""
 "The XPL has a casting vote on any issue. Furthermore, in extreme cases, the "
 "XPL has a veto ability. The primary purpose of the veto vote is to prevent "
@@ -372,18 +381,24 @@ msgid ""
 "other Ubuntu teams and ask for advice where applicable."
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:114(title)
+#: contributor-docs/C/strategy-document.xml:116(title)
 msgid "Xubuntu Team"
 msgstr "Xubuntu komanda"
 
-#: contributor-docs/C/strategy-document.xml:116(para)
+#: contributor-docs/C/strategy-document.xml:118(para)
 msgid ""
 "The Xubuntu team is a group of individuals who are primarily responsible for "
-"the Xubuntu development. The group is registered in Launchpad as xubuntu-"
-"team. The team is moderated."
+"the Xubuntu development."
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:118(para)
+#: contributor-docs/C/strategy-document.xml:120(para)
+msgid ""
+"The Xubuntu team is organized in Launchpad as <ulink "
+"url=\"https://launchpad.net/~xubuntu-team\">xubuntu-team</ulink>. The "
+"Launchpad team is moderated."
+msgstr ""
+
+#: contributor-docs/C/strategy-document.xml:122(para)
 msgid ""
 "The individuals wanting to join the Xubuntu team are required to meet the "
 "criteria described below prior to applying or they will be automatically "
@@ -391,7 +406,7 @@ msgid ""
 "group, the XPL can appoint specific team leads."
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:120(para)
+#: contributor-docs/C/strategy-document.xml:124(para)
 msgid ""
 "In case a team lead is in the minority when voting on an issue that concerns "
 "their area of expertise, the team lead should be given another hearing, "
@@ -400,11 +415,11 @@ msgid ""
 "abstains from the vote, the team leader in question has a casting vote."
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:123(title)
+#: contributor-docs/C/strategy-document.xml:127(title)
 msgid "Becoming and staying a member"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:125(para)
+#: contributor-docs/C/strategy-document.xml:129(para)
 msgid ""
 "To be accepted to the Xubuntu team, applicants participants must demonstrate "
 "their motivation and ability to contribute to Xubuntu. This is to ensure "
@@ -415,19 +430,19 @@ msgid ""
 "a member, one must:"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:128(para)
+#: contributor-docs/C/strategy-document.xml:132(para)
 msgid ""
 "Commit meaningful contributions to one of the subteams, after which one will "
 "be approved to the subteam for \"probation\" by a subteam administrator"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:129(para)
+#: contributor-docs/C/strategy-document.xml:133(para)
 msgid ""
 "Demonstrate motivation to contribute perpetually, after which one will be "
 "approved to the Xubuntu team by the XPL"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:132(para)
+#: contributor-docs/C/strategy-document.xml:136(para)
 msgid ""
 "To stay a member of the Xubuntu team, the member will have to have desire to "
 "continue contributing in the future. Anyone with no contributions for more "
@@ -437,54 +452,69 @@ msgid ""
 "months from the teams occasionally."
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:137(title)
+#: contributor-docs/C/strategy-document.xml:141(title)
 msgid "Xubuntu Users"
 msgstr "Xubuntu naudotojai"
 
-#: contributor-docs/C/strategy-document.xml:139(para)
+#: contributor-docs/C/strategy-document.xml:143(para)
 msgid ""
-"Xubuntu users is a collection of users who use and/or are interested in "
-"Xubuntu. The purpose of this group is to identify and organize Xubuntu "
-"users. The users in this group are able to vote in the Xubuntu community "
-"meetings. The members in the Xubuntu users group are encouraged to give user "
-"support on IRC and the xubuntu-users mailing list as well as spread the word "
-"about Xubuntu anywhere they see fit, including but not limited to blogs, "
-"social media and conferences."
+"The Launchpad team <ulink url=\"https://launchpad.net/~xubuntu-"
+"users\">xubuntu-users</ulink> is the formal top-level group of people who "
+"are interested in Xubuntu. The team is open for anybody to join."
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:144(title) contributor-docs/C/development.xml:14(title)
+#: contributor-docs/C/strategy-document.xml:145(para)
+msgid ""
+"The members of the official Launchpad group are encouraged to give user "
+"support on IRC and on the Xubuntu users mailing list as well as spread the "
+"word about Xubuntu anywhere they see fit, including but not limited to "
+"blogs, social media and conferences."
+msgstr ""
+
+#: contributor-docs/C/strategy-document.xml:147(para)
+msgid ""
+"In addition to user support and advocacy, the members are free to organize "
+"as they like on social media platforms and more. If the group is considered "
+"substantial and useful enough, the Xubuntu team can name it official and "
+"help with maintaining it. All currently official teams and their "
+"administrators are listed on the Xubuntu wiki under the <ulink "
+"url=\"http://wiki.xubuntu.org/website/admins\">Website "
+"Administrators</ulink> page."
+msgstr ""
+
+#: contributor-docs/C/strategy-document.xml:152(title) contributor-docs/C/development.xml:14(title)
 msgid "Development"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:147(title)
+#: contributor-docs/C/strategy-document.xml:155(title)
 msgid "Coordination"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:149(para)
+#: contributor-docs/C/strategy-document.xml:157(para)
 msgid "The direction of the development of the project is coordinated by:"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:152(para)
+#: contributor-docs/C/strategy-document.xml:160(para)
 msgid "The Strategy Document"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:153(para)
+#: contributor-docs/C/strategy-document.xml:161(para)
 msgid "Release-specific blueprints and specifications"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:154(para)
+#: contributor-docs/C/strategy-document.xml:162(para)
 msgid "The community meetings"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:155(para)
+#: contributor-docs/C/strategy-document.xml:163(para)
 msgid "The developer communication tools listed below"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:160(title)
+#: contributor-docs/C/strategy-document.xml:168(title)
 msgid "Communication"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:162(para)
+#: contributor-docs/C/strategy-document.xml:170(para)
 msgid ""
 "For Xubuntu to be successful, its members and community must have the right "
 "tools to enable useful and helpful communication and ultimately, to help the "
@@ -492,33 +522,33 @@ msgid ""
 "tools:"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:165(para)
+#: contributor-docs/C/strategy-document.xml:173(para)
 msgid ""
 "<emphasis>Mailing lists</emphasis>; xubuntu-users for community support and "
 "user discussions and xubuntu-devel for development discussion and "
 "coordination"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:166(para)
+#: contributor-docs/C/strategy-document.xml:174(para)
 msgid ""
 "<emphasis>IRC channels</emphasis>; #xubuntu for community support, #xubuntu-"
 "devel for development discussion and coordination and #xubuntu-offtopic for "
 "general discussion with a more relaxed mood"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:167(para)
+#: contributor-docs/C/strategy-document.xml:175(para)
 msgid ""
 "<emphasis>Launchpad</emphasis>, for organizing teams as well as tracking and "
 "managing blueprints and bugs"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:168(para)
+#: contributor-docs/C/strategy-document.xml:176(para)
 msgid ""
 "<emphasis>The Xubuntu website</emphasis> for news, development articles and "
 "general information about Xubuntu"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:172(para)
+#: contributor-docs/C/strategy-document.xml:180(para)
 msgid ""
 "In addition to communicating with each other and the Xubuntu community, the "
 "Xubuntu team should communicate continuosly with other Ubuntu contributors, "
@@ -527,11 +557,11 @@ msgid ""
 "maintain healthy relationships with other projects and their developers."
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:176(title)
+#: contributor-docs/C/strategy-document.xml:184(title)
 msgid "Dispute Resolution"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:178(para)
+#: contributor-docs/C/strategy-document.xml:186(para)
 msgid ""
 "The Code Of Conduct (CoC) is one of the most fundamental documents in the "
 "Ubuntu community, including Xubuntu, and it functions as the base for a "
@@ -539,14 +569,14 @@ msgid ""
 "community is CoC-compliant at all times."
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:180(para)
+#: contributor-docs/C/strategy-document.xml:188(para)
 msgid ""
 "To read the most recent revision of the Ubuntu Code of Conduct, refer to the "
 "<ulink url=\"http://www.ubuntu.com/about/about-ubuntu/conduct\">Ubuntu Code "
 "of Conduct</ulink> page on the Ubuntu website."
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:182(para)
+#: contributor-docs/C/strategy-document.xml:190(para)
 msgid ""
 "The Ubuntu Community Council can be asked to act as mediators/advisors where "
 "their expertise would be useful when the Xubuntu team and project lead "
@@ -554,18 +584,18 @@ msgid ""
 "other teams in the Ubuntu community if it helps resolving the issue."
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:184(para)
+#: contributor-docs/C/strategy-document.xml:192(para)
 msgid ""
 "When disputes occur, contributors are strongly encouraged to refrain from "
 "taking the disputed actions to avoid sabotaging the dispute resolution "
 "process."
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:189(title)
+#: contributor-docs/C/strategy-document.xml:197(title)
 msgid "Release and Support Cycles"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:191(para)
+#: contributor-docs/C/strategy-document.xml:199(para)
 msgid ""
 "The Xubuntu release cycle consists of 6 months from start to release, then "
 "an additional 9 month of maintenance for standard releases and 3 years of "
@@ -584,62 +614,62 @@ msgstr ""
 #. <listitem><para>Releasing</para></listitem>
 #. <listitem><para>Maintaining</para></listitem>
 #. </itemizedlist>
-#: contributor-docs/C/strategy-document.xml:203(para)
+#: contributor-docs/C/strategy-document.xml:211(para)
 msgid ""
 "For more information about the specifics of the processes related to "
 "developing a release, see <xref linkend=\"processes\"/>."
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:207(title)
+#: contributor-docs/C/strategy-document.xml:215(title)
 msgid "Seeds and Composition"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:210(title)
+#: contributor-docs/C/strategy-document.xml:218(title)
 msgid "Core Components"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:212(para)
+#: contributor-docs/C/strategy-document.xml:220(para)
 msgid ""
 "The following packages and their technical dependencies are considered "
 "essential in composing an operating system that represents the goals set "
 "previously in this document:"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:215(para)
+#: contributor-docs/C/strategy-document.xml:223(para)
 msgid "xfwm4 (Xfce4 window manager)"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:216(para)
+#: contributor-docs/C/strategy-document.xml:224(para)
 msgid "xfdesktop4 (Xfce4 desktop)"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:217(para)
+#: contributor-docs/C/strategy-document.xml:225(para)
 msgid "xfce4-panel (Xfce4 panel)"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:218(para)
+#: contributor-docs/C/strategy-document.xml:226(para)
 msgid "xfce4-session (Xfce4 session manager)"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:219(para)
+#: contributor-docs/C/strategy-document.xml:227(para)
 msgid "xfconf (Xfce4 configuration storage system)"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:220(para)
+#: contributor-docs/C/strategy-document.xml:228(para)
 msgid "xfce4-settings (Xfce4 settings manager)"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:221(para)
+#: contributor-docs/C/strategy-document.xml:229(para)
 msgid "thunar (file manager)"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:224(para)
+#: contributor-docs/C/strategy-document.xml:232(para)
 msgid ""
 "Unless the components mentioned above are deprecated and no longer work as "
 "they are intended, they should not be substituted or removed from the seed."
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:226(para)
+#: contributor-docs/C/strategy-document.xml:234(para)
 msgid ""
 "The <literal><placeholder-1/>xubuntu-core</literal> metapackage consists of "
 "the core packages as well as other important packages which contribute to "
@@ -648,26 +678,26 @@ msgid ""
 "additional packages to provide the full, ready to use, Xubuntu experience."
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:230(title)
+#: contributor-docs/C/strategy-document.xml:238(title)
 msgid "Package Selection"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:232(para)
+#: contributor-docs/C/strategy-document.xml:240(para)
 msgid ""
 "When considering the package selection for Xubuntu, there are two main "
 "guidelines:"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:235(para)
+#: contributor-docs/C/strategy-document.xml:243(para)
 msgid "The package must be in line with the mission statement"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:236(para)
+#: contributor-docs/C/strategy-document.xml:244(para)
 msgid ""
 "The package selection process must be conducted as objectively as possible"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:239(para)
+#: contributor-docs/C/strategy-document.xml:247(para)
 msgid ""
 "While the Xubuntu Project Lead and the Xubuntu Technical Lead have the last "
 "word on package selection, it's recommended that the whole team is involved "
@@ -676,33 +706,33 @@ msgid ""
 "measurements."
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:241(para)
+#: contributor-docs/C/strategy-document.xml:249(para)
 msgid ""
 "Before seeding an application in Xubuntu, the following aspects should be "
 "considered:"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:244(para)
+#: contributor-docs/C/strategy-document.xml:252(para)
 msgid "Usability and integration"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:245(para)
+#: contributor-docs/C/strategy-document.xml:253(para)
 msgid "Usefulness"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:246(para)
+#: contributor-docs/C/strategy-document.xml:254(para)
 msgid "Resource consumption and size"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:247(para)
+#: contributor-docs/C/strategy-document.xml:255(para)
 msgid "Reliability"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:248(para)
+#: contributor-docs/C/strategy-document.xml:256(para)
 msgid "Localization"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:251(para)
+#: contributor-docs/C/strategy-document.xml:259(para)
 msgid ""
 "When measuring if a package is right for Xubuntu, the decision should not be "
 "based on an analysis of the package alone, but the target package along with "
@@ -710,21 +740,21 @@ msgid ""
 "the following requirements:"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:254(para)
+#: contributor-docs/C/strategy-document.xml:262(para)
 msgid "The package should use the GTK toolkit"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:255(para)
+#: contributor-docs/C/strategy-document.xml:263(para)
 msgid ""
 "The package should not pull in heavy libraries, especially if they will run "
 "and/or start frequently"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:256(para)
+#: contributor-docs/C/strategy-document.xml:264(para)
 msgid "The package should be well maintained upstream"
 msgstr ""
 
-#: contributor-docs/C/strategy-document.xml:259(para)
+#: contributor-docs/C/strategy-document.xml:267(para)
 msgid ""
 "The above guidelines can be omitted when there are extensive benefits to "
 "seeding the package, consensus between the Xubuntu Project Lead and Xubuntu "
@@ -1390,8 +1420,8 @@ msgstr ""
 
 #: contributor-docs/C/qa-team.xml:118(para)
 msgid ""
-"Work with the draft wiki <ulink "
-"url=\"https://wiki.ubuntu.com/Xubuntu/Testing/ReleaseNoteBase\">Release "
+"Work with the testing wiki <ulink "
+"url=\"https://wiki.ubuntu.com/Xubuntu/Testing/ReleaseNote\">Release "
 "Note</ulink>"
 msgstr ""
 
