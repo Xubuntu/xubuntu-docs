@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-04-26 23:53+0100\n"
-"PO-Revision-Date: 2016-05-18 13:36+0000\n"
+"PO-Revision-Date: 2016-05-21 16:38+0000\n"
 "Last-Translator: Carlos Alberto Teixeira Magalhães "
 "<carlos.alberto.tm@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-05-19 05:58+0000\n"
+"X-Launchpad-Export-Date: 2016-05-22 05:59+0000\n"
 "X-Generator: Launchpad (build 18025)\n"
 
 #: user-docs/C/xi-translators-not-found.xml:1(para)
@@ -64,6 +64,8 @@ msgid ""
 "Xubuntu is an elegant and easy-to-use operating system. Xubuntu comes with "
 "Xfce, which is a stable, light and configurable desktop environment."
 msgstr ""
+"O Xubuntu é um sistema operacional elegante e fácil de usar. Ele vem com o "
+"Xfce, um ambiente gráfico estável, rápido e personalizável."
 
 #: user-docs/C/what-is-xubuntu.xml:23(para)
 msgid ""
@@ -71,12 +73,18 @@ msgid ""
 "and netbooks, featuring a modern look and enough features for efficient, "
 "daily usage. It works well on older hardware too."
 msgstr ""
+"Ele é perfeito para quem deseja aproveitar ao máximo seus desktops, laptops "
+"e netbooks, oferecendo um visual moderno e recursos suficientes para uma "
+"utilização eficiente, no dia-a-dia. Ele também  é eficente em hardwares mais "
+"antigos."
 
 #: user-docs/C/what-is-xubuntu.xml:25(para)
 msgid ""
 "Find out more at the <ulink url=\"http://xubuntu.org/\">Xubuntu "
 "website</ulink>."
 msgstr ""
+"Saiba mais na <ulink url=\"http://xubuntu.org/\">página oficial do "
+"Xubuntu</ulink>."
 
 #: user-docs/C/what-is-xubuntu.xml:29(title)
 msgid "About the name"
@@ -92,6 +100,14 @@ msgid ""
 "to the <ulink url=\"http://www.ubuntu.com/project/about-ubuntu/our-"
 "philosophy\">Ubuntu Philosophy</ulink> page."
 msgstr ""
+"O \"X\" no Xubuntu se refere ao Xfce, o ambiente de trabalho do Xubuntu. Já "
+"a palavra \"ubuntu\" se refere à dependência da utilização do núcleo Ubuntu, "
+"mas ela também representa o núcleo filosófico do sistema operacional. Uma "
+"tradução aproximada para a palavra ubuntu seria \"humanidade em favor dos "
+"outros\". Para ler mais sobre a filosofia e os ideais por trás do Ubuntu e "
+"do Xubuntu, por favor acesse a página <ulink "
+"url=\"http://www.ubuntu.com/project/about-ubuntu/our-philosophy\">Filosofia "
+"Ubuntu</ulink>."
 
 #: user-docs/C/what-is-xubuntu.xml:35(para)
 msgid ""
@@ -100,6 +116,10 @@ msgid ""
 "url=\"http://www.canonical.com/\">Canonical Ltd.</ulink>, a company founded "
 "by Mark Shuttleworth."
 msgstr ""
+"Além de utilizar o núcleo do Ubuntu, o Xubuntu também utiliza uma "
+"infraestrutura gentilmente cedida e patrocinada pela <ulink "
+"url=\"http://www.canonical.com/\">Canonical Ltd.</ulink>, uma companhia "
+"fundada por Mark Shuttleworth."
 
 #: user-docs/C/what-is-xubuntu.xml:40(title)
 msgid "Version numbering"
@@ -113,6 +133,11 @@ msgid ""
 "released in June, 2006, thus its version number was 6.06. The latest Long "
 "Term Support (LTS) version is 16.04, codenamed Xenial Xerus."
 msgstr ""
+"O esquema de numeração de versão do Xubuntu é baseado na data de lançamento "
+"da distribuição. A primeira parte da versão mostra o ano, enquanto a segunda "
+"parte mostra o mês. Por exemplo, a primeira versão oficial do Xubuntu foi "
+"lançada em junho de 2006, portanto, sua versão foi a 6.06. A última versão "
+"de suporte a longo prazo (LTS) é a 16.04, apelidada de Xenial Xerus."
 
 #: user-docs/C/what-is-xubuntu.xml:49(title)
 msgid "Learn more about what makes Xubuntu"
@@ -120,7 +145,7 @@ msgstr "Aprenda mais sobre o Xubuntu"
 
 #: user-docs/C/what-is-xubuntu.xml:52(title)
 msgid "Free Software"
-msgstr "Software livre"
+msgstr "Software Livre"
 
 #: user-docs/C/what-is-xubuntu.xml:53(para)
 msgid ""
@@ -130,6 +155,11 @@ msgid ""
 "and technical philosophy behind it at the <ulink "
 "url=\"http://www.gnu.org/\">GNU website</ulink>."
 msgstr ""
+"O projeto Xubuntu é inteiramente comprometido com os pincípios do "
+"desenvolvimento de software livre; as pessoas são incentivadas a usar o "
+"software, melhorá-los e passá-los adiante. Você pode entender mais sobre "
+"software livre e a filosofia técnica e ideológica que ele possui na <ulink "
+"url=\"http://www.gnu.org/\">Página do GNU</ulink>."
 
 #: user-docs/C/what-is-xubuntu.xml:59(title)
 msgid "Linux"
@@ -143,6 +173,12 @@ msgid ""
 "bridge between hardware and software. Read more about Linux at the <ulink "
 "url=\"http://www.kernel.org/\">Linux kernel website</ulink>."
 msgstr ""
+"O Linux foi trazido à vida em 1991 através de um estudante Finlandês chamado "
+"Linus Torvalds. O kernel do Linux é o coração do sistema operacional "
+"Xubuntu. Um kernel é uma parte importante de qualquer sistema operacional, "
+"porque ele faz a comunicação entre o hardware e o software. Leia mais sobre "
+"Linux na <ulink url=\"http://www.kernel.org/\">Página do Kernel "
+"Linux</ulink>."
 
 #: user-docs/C/what-is-xubuntu.xml:67(title)
 msgid "Xfce"
@@ -156,6 +192,11 @@ msgid ""
 "and re-usability. Read more about Xfce at the <ulink "
 "url=\"http://www.xfce.org/\">Xfce website</ulink>."
 msgstr ""
+"O Xfce é um leve ambiente de trabalho, utilizado no Xubuntu. Seu objetivo é "
+"ser rápido consumindo poucos recursos, sem perder a beleza e a facilidade de "
+"uso. O Xfce carrega a tradicional filosofia UNIX de modularidade e "
+"reusabilidade. Leia mais sobre o Xfce na <ulink "
+"url=\"http://www.xfce.org/\">Página do Xfce</ulink>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -192,7 +233,7 @@ msgstr ""
 
 #: user-docs/C/settings-preferences.xml:14(title)
 msgid "Settings and Preferences"
-msgstr "Configurações e preferências"
+msgstr "Configurações e Preferências"
 
 #: user-docs/C/settings-preferences.xml:16(para)
 msgid ""
@@ -202,10 +243,16 @@ msgid ""
 "your liking, keep your personal information updated and customize the looks "
 "of the desktop."
 msgstr ""
+"As possibilidades de personalização do Xubuntu para suas necessidades são "
+"virtualmente ilimitadas, desde ajustes visuais no ambiente de trabalho até "
+"customizações de operações de baixo nível. As seções neste capítulo "
+"descrevem como editar o menu principal de aplicativos a seu gosto, mantendo "
+"suas informações pessoais atualizadas e personalizando a aparência do "
+"ambiente de trabalho."
 
 #: user-docs/C/settings-preferences.xml:19(title)
 msgid "Customizing the Menu"
-msgstr "Personalizando o menu"
+msgstr "Personalizando o Menu"
 
 #: user-docs/C/settings-preferences.xml:21(para)
 msgid ""
@@ -219,6 +266,15 @@ msgid ""
 "sort the list. You can also rearrange <guilabel>Favorites</guilabel> just by "
 "dragging them."
 msgstr ""
+"O ajuste mais fácil e provavelmente mais útil que você pode fazer no Menu é "
+"personalizar seu <guilabel>Favoritos</guilabel>. Para isto, basta localizar "
+"o aplicativo que você quer, clicar com o botão direito nele e selecionar "
+"<guilabel>Adicionar aos Favoritos</guilabel>. No mesmo menu popup, você pode "
+"também escolher adicionar o aplicativo à Área de Trabalho ou ao Painel. "
+"Clicando com o botão direito nos aplicativos que já estão nos "
+"<guilabel>Favoritos</guilabel>, você tem a opção de removê-los da lista ou "
+"organizá-la. Você também pode organizar os aplicativos que estão nos "
+"<guilabel>Favoritos</guilabel> através do recurso de arrastar e soltar."
 
 #: user-docs/C/settings-preferences.xml:23(para)
 msgid ""
@@ -229,6 +285,14 @@ msgid ""
 "application listed in the results, you can directly launch it or right-click "
 "on it and add it to your preferred launch location."
 msgstr ""
+"Se você não tem certeza onde um programa está ou qual o nome dele, você pode "
+"usar a ferramenta de pesquisa. Quando você abre o Menu, o cursor já está "
+"posicionado na barra de pesquisa. Basta começar a digitar alguma "
+"característica e uma pesquisa incremental é efetuada, levando em "
+"consideração o nome dos aplicativos e suas descrições. Quando você encontrar "
+"o aplicativo desejado no resultado da busca, você pode diretamente executá-"
+"lo ou clicar com o botão direito nele e adicioná-lo a um local de sua "
+"preferência."
 
 #: user-docs/C/settings-preferences.xml:25(para)
 msgid ""
@@ -237,6 +301,10 @@ msgid ""
 "change <guilabel>Appearance</guilabel>, <guilabel>Behavior</guilabel> and "
 "<guilabel>Search Actions</guilabel>."
 msgstr ""
+"Para mais opções de personalização do Menu, clique com o botão direito em "
+"<placeholder-1/> e selecione <guilabel>Propriedades</guilabel>. Lá, você "
+"encontrará três abas para personalização: <guilabel>Aparência</guilabel>, "
+"<guilabel>Comportamento</guilabel> e <guilabel>Ações de Pesquisa</guilabel>."
 
 #: user-docs/C/settings-preferences.xml:28(para)
 msgid ""
@@ -255,6 +323,20 @@ msgid ""
 "url=\"http://smdavis.us/doku/doku.php?id=menulibre-docs\">MenuLibre</ulink> "
 "online documentation."
 msgstr ""
+"Para adicionar diretórios e lançadores que não aparecem no Menu padrão, você "
+"necessitará de outra ferramenta. Um editor de menus mais avançado, chamado "
+"<application>MenuLibre</application>, pode ser encontrado clicando em "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"Gerenciador de Configurações </guimenuitem><guimenuitem>Editor do "
+"Menu</guimenuitem></menuchoice></application> ou clicando com o botão "
+"direito em <placeholder-3/> e selecionando <guilabel>Editar "
+"Aplicativos</guilabel>. Através deste editor, você pode criar, ocultar e "
+"reordenar os diretórios que aparecem no panel do lado direito do Menu. "
+"Dentro destes diretórios, você pode então criar lançadores de aplicativos e "
+"personalizar seus comportamentos configurando as opções que o utilitário "
+"disponibiliza. Para mais informações sobre como ajustar todas estas opções, "
+"consulte a documentação online do <ulink "
+"url=\"http://smdavis.us/doku/doku.php?id=menulibre-docs\">MenuLibre</ulink>"
 
 #: user-docs/C/settings-preferences.xml:33(title)
 msgid "Customizing your personal info"
@@ -266,6 +348,9 @@ msgid ""
 "utility that allows you to easily set the profile image and user details for "
 "your user profile and any supported applications."
 msgstr ""
+"<application>Mugshot</application> é um leve utilitário de configuração do "
+"usuário, que permite de maneira simples colocar uma imagem e adicionar "
+"informações detalhadas ao seu perfil e quaisquer aplicações suportadas."
 
 #: user-docs/C/settings-preferences.xml:37(para)
 msgid ""
@@ -274,6 +359,10 @@ msgid ""
 "Settings Manager</guimenuitem><guimenuitem>About "
 "Me</guimenuitem></menuchoice></application>."
 msgstr ""
+"Para executar o <application>Mugshot</application> navegue para "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"Gerenciador de Configurações</guimenuitem><guimenuitem>Sobre "
+"Mim</guimenuitem></menuchoice></application>."
 
 #: user-docs/C/settings-preferences.xml:39(para)
 msgid ""
@@ -281,6 +370,9 @@ msgid ""
 "on the left of the GUI, select one of the given options and follow the "
 "instructions."
 msgstr ""
+"Para alterar a imagem do seu perfil, clique no botão "
+"<guibutton>image</guibutton> à esquerda da janela, selecione a opção "
+"desejada e siga as instruções."
 
 #: user-docs/C/settings-preferences.xml:41(para)
 msgid ""
@@ -288,6 +380,9 @@ msgid ""
 "tools</literal> package to use the <guilabel>Capture from "
 "camera...</guilabel> feature."
 msgstr ""
+"Mugshot requer a instalação do pacote <literal><placeholder-1/>gstreamer1.0-"
+"tools</literal> para usar o recurso de <guilabel>Capturar da "
+"câmera...</guilabel>"
 
 #: user-docs/C/settings-preferences.xml:43(para)
 msgid ""
@@ -296,6 +391,10 @@ msgid ""
 "<application>Pidgin</application> and/or LibreOffice installed, you will be "
 "prompted to update their settings as well."
 msgstr ""
+"Preencha os campos de texto com os dados pessoais solicitados e clique em "
+"<guibutton>Aplicar</guibutton>.  Caso o <application>Pidgin</application> "
+"e/ou LibreOffice estejam instalados, será solicitado que você atualize estes "
+"dados neles também."
 
 #: user-docs/C/settings-preferences.xml:45(para)
 msgid ""
@@ -305,6 +404,11 @@ msgid ""
 "your password as a security measure to prevent unwanted updates to your "
 "personal information."
 msgstr ""
+"Se dos dados inseridos nos campos de texto <guilabel>Nome</guilabel> e "
+"<guilabel>Sobrenome</guilabel> forem diferentes dos existentes no arquivo "
+"<userinput>/etc/passwd</userinput>, será solicitado que você insira sua "
+"senha, como medida de segurança, para impedir atualizações indesejadas de "
+"suas informações pessoais."
 
 #: user-docs/C/settings-preferences.xml:47(para)
 msgid ""
@@ -323,6 +427,8 @@ msgid ""
 "If you want to customize the appearance of your Xubuntu system, the options "
 "are many. Here are a few good starting points."
 msgstr ""
+"Existem várias opções para personalizar a aparência do seu sistema Xubuntu. "
+"Aqui estão algumas boas dicas."
 
 #: user-docs/C/settings-preferences.xml:57(title)
 msgid "Changing your wallpaper"
@@ -342,6 +448,18 @@ msgid ""
 "moving the dialogue to each workspace individually and selecting a different "
 "wallpaper."
 msgstr ""
+"Você pode facilmente alterar seu papel de parede, navegando até o "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"Gerenciador de Configurações</guimenuitem><guimenuitem>Área de "
+"Trabalho</guimenuitem></menuchoice></application>, ou clicando com o botão "
+"direito na área de trabalho e selecionando a opção "
+"<menuchoice><guimenuitem>Configurações da Área de "
+"Trabalho...</guimenuitem></menuchoice>. Se você possui muitos espaços de "
+"trabalho, você pode escolher o mesmo papel de parede para todos eles, ou "
+"usar um papel de parede para cada espaço, ao desmarcar a opção "
+"<guilabel>Aplicar a todos os espaços de trabalho</guilabel> e mover a caixa "
+"de diálogo para cada espaço de trabalho, individualmente, selecionando um "
+"papel de parede para cada."
 
 #: user-docs/C/settings-preferences.xml:61(para)
 msgid ""
@@ -350,6 +468,11 @@ msgid ""
 "look of your desktop background. You can choose to use a single image or "
 "multiple images as wallpaper or you can use a color scheme."
 msgstr ""
+"Uma vez que a caixa de diálogo <application>Área de Trabalho</application> "
+"está aberta, a aba <guilabel>Plano de Fundo</guilabel> oferece opções para "
+"configurar a aparência do plano de fundo da sua área de trabalho. Você pode "
+"utilizar tanto uma simples imagem quanto múltiplas imagens como papel de "
+"parede, como também, você pode utilizar um esquema de cores."
 
 #: user-docs/C/settings-preferences.xml:63(para)
 msgid ""
@@ -395,12 +518,20 @@ msgid ""
 "This allows each monitor to have its own settings. Just drag the dialog to "
 "the monitor on which you want to edit the settings."
 msgstr ""
+"O Xfdesktop suporta xinerama e a instalação em múltiplos monitores. Com mais "
+"de um monitor conectado, a aba <guilabel>Plano de fundo</guilabel> irá "
+"sempre refletir as configurações do monitor onde a caixa de diálogo está "
+"posicionada. Isto permite que cada monitor tenha suas próprias "
+"configurações. Apenas arraste a caixa de diálogo para o monitor ao qual você "
+"quer editar as configurações."
 
 #: user-docs/C/settings-preferences.xml:69(para)
 msgid ""
 "If you want to set any of your own images as the wallpaper, the easiest way "
 "to achieve this is:"
 msgstr ""
+"Se você quiser definir qualquer imagem sua como papel de parede, a maneira "
+"mais fácil de conseguir isto é:"
 
 #: user-docs/C/settings-preferences.xml:73(para)
 msgid "Open Thunar and navigate to the directory with the image"
@@ -411,6 +542,9 @@ msgid ""
 "Right-click the image and select <menuchoice><guimenuitem>Set as "
 "wallpaper</guimenuitem></menuchoice> from the context menu"
 msgstr ""
+"Clique com o botão direito sobre a imagem e, no menu de contexto, selecione "
+"<menuchoice><guimenuitem>Definir como papel de "
+"parede</guimenuitem></menuchoice>"
 
 #: user-docs/C/settings-preferences.xml:77(para)
 msgid ""
@@ -418,6 +552,10 @@ msgid ""
 "currently active monitor. To change the wallpaper for other monitors, move "
 "the dialog to each other monitor to access their settings."
 msgstr ""
+"No caso de múltiplos monitores, esta configuração somente mudará o papel de "
+"parede do monitor ativo neste momento. Para mudar o papel de parede de "
+"outros monitores, mova a caixa de diálogo para cada monitor e acesse suas "
+"configurações."
 
 #: user-docs/C/settings-preferences.xml:79(para)
 msgid ""
@@ -425,6 +563,8 @@ msgid ""
 "url=\"http://docs.xfce.org/xfce/xfdesktop/4.11/start\">Xfdesktop</ulink> "
 "official documentation."
 msgstr ""
+"Leia mais na documentação oficial do <ulink "
+"url=\"http://docs.xfce.org/xfce/xfdesktop/4.11/start\">Xfdesktop</ulink>."
 
 #: user-docs/C/settings-preferences.xml:83(title)
 msgid "Customizing your panel configuration"
@@ -436,6 +576,9 @@ msgid ""
 "or the applets installed by default, follow the steps below to customize the "
 "panel configuration:"
 msgstr ""
+"Se você não gosta da configuração padrão do painel, incluindo a posição dos "
+"miniaplicativos instalados, siga os passos a seguir para personalizar a "
+"configuração:"
 
 #: user-docs/C/settings-preferences.xml:90(para)
 msgid "Right-click on the panel"
@@ -447,16 +590,21 @@ msgid ""
 "<menuchoice><guimenuitem>Panel</guimenuitem><guimenuitem>Panel "
 "Preferences</guimenuitem></menuchoice>"
 msgstr ""
+"No menu de contexto, selecione "
+"<menuchoice><guimenuitem>Painel</guimenuitem><guimenuitem>Preferências do "
+"painel</guimenuitem></menuchoice>"
 
 #: user-docs/C/settings-preferences.xml:93(para)
 msgid ""
 "In the <guilabel>Display</guilabel> tab, you can control the panel's size "
 "and positioning, including:"
 msgstr ""
+"Na aba <guilabel>Exibição</guilabel>, você pode controlar o tamanho e a "
+"posição do painel, incluindo:"
 
 #: user-docs/C/settings-preferences.xml:95(para)
 msgid "Displaying the panel vertically along either side of the screen"
-msgstr ""
+msgstr "Exibindo o painel verticalmente em qualquer lado da tela"
 
 #: user-docs/C/settings-preferences.xml:96(para)
 msgid ""
@@ -464,22 +612,29 @@ msgid ""
 "panel</guilabel>, grabbing the handle which appears at either side of the "
 "panel and dragging it"
 msgstr ""
+"Movendo o painel para o rodapé ou para a direita, desmarcando "
+"<guilabel>Travar painel</guilabel>, segurando a borda que aparece em ambos "
+"os lados do painel e arrastando."
 
 #: user-docs/C/settings-preferences.xml:97(para)
 msgid "Extending the panel across multiple monitors"
-msgstr ""
+msgstr "Estentendo o painel através de vários monitores"
 
 #: user-docs/C/settings-preferences.xml:99(para)
 msgid ""
 "In the <guilabel>Appearance</guilabel> tab, you can pick another background "
 "for the panel and regulate its transparency"
 msgstr ""
+"Na aba <guilabel>Aparência</guilabel>, você pode escolher outro plano de "
+"fundo para o painel e regular a sua transparência"
 
 #: user-docs/C/settings-preferences.xml:100(para)
 msgid ""
 "In the <guilabel>Items</guilabel> tab, you can add, remove and rearrange "
 "panel applets and other items"
 msgstr ""
+"Na aba <guilabel>Itens</guilabel>, você pode adicionar, remover e "
+"reorganizar os miniaplicativos e outros itens do painel"
 
 #: user-docs/C/settings-preferences.xml:101(para)
 msgid ""
@@ -489,11 +644,11 @@ msgstr ""
 
 #: user-docs/C/settings-preferences.xml:106(title)
 msgid "Changing your desktop themes"
-msgstr ""
+msgstr "Alterando temas da sua área de trabalho"
 
 #: user-docs/C/settings-preferences.xml:108(para)
 msgid "There are three types of desktop themes:"
-msgstr ""
+msgstr "Existem três tipos de temas para a área de trabalho:"
 
 #: user-docs/C/settings-preferences.xml:111(para)
 msgid ""
@@ -505,6 +660,13 @@ msgid ""
 "<guilabel>Style</guilabel> tab, select a new theme to change the window "
 "borders appearance."
 msgstr ""
+"Temas do xfwm - controlam a aparência das bordas da sua janela. Para alterar "
+"o seu tema do xfwm, vá até <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> Gerenciador de "
+"Configurações</guimenuitem><guimenuitem>Gerenciador de "
+"Janelas</guimenuitem></menuchoice></application>. Na aba "
+"<guilabel>Estilo</guilabel>, selecione um novo tema para alterar a aparência "
+"das bordas da janela."
 
 #: user-docs/C/settings-preferences.xml:114(para)
 msgid ""
@@ -516,6 +678,14 @@ msgid ""
 "change the window content appearance. The tool <application>gtk-theme-"
 "config</application> will also allow you to customize your window look."
 msgstr ""
+"Temas GTK - controlam a aparência do conteúdo das janelas. Para alterar seu "
+"tema GTK, vá até <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> Gerenciador de "
+"Configurações</guimenuitem><guimenuitem>Aparência</guimenuitem></menuchoice><"
+"/application>. Na aba <guilabel>Estilo</guilabel>, selecione um novo tema "
+"para alterar a aparência do conteúdo da janela. O utilitário "
+"<application>gtk-theme-config</application> também permite que você "
+"personalize a aparência da sua janela."
 
 #: user-docs/C/settings-preferences.xml:117(para)
 msgid ""
@@ -527,6 +697,13 @@ msgid ""
 "change the icon appearance. Note that not all icon sets will work well with "
 "dark panel/window backgrounds!"
 msgstr ""
+"Temas de ícones - controlam a aparência dos seus ícones. Para alterar seu "
+"tema de ícone, vá até <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> Gerenciador de "
+"Configurações</guimenuitem><guimenuitem>Aparência</guimenuitem></menuchoice><"
+"/application>. Na aba <guilabel>Ícones</guilabel>, selecione um novo tema "
+"para alterar a aparência dos ícones. Note que nem todos tipos de ícones irão "
+"combinar com fundos pretos de painéis e janelas."
 
 #: user-docs/C/settings-preferences.xml:123(para)
 msgid ""
@@ -535,6 +712,10 @@ msgid ""
 "repositories, and more can be found on the Internet, for example on <ulink "
 "url=\"http://xfce-look.org/\">Xfce-look.org</ulink>."
 msgstr ""
+"Se a seleção padrão de temas não te agradar, você pode baixar e instalar "
+"novos temas. Alguns deles podem ser instalados a partir dos repositórios "
+"Ubuntu, e outros podem ser encontrados na Internet, por exemplo em <ulink "
+"url=\"http://xfce-look.org/\">Xfce-look.org</ulink>."
 
 #: user-docs/C/settings-preferences.xml:127(para)
 msgid ""
@@ -544,43 +725,58 @@ msgid ""
 "it will appear in the <application>Settings Manager</application>. To do "
 "this, extract the theme package and copy them to:"
 msgstr ""
+"Se você instalar novos temas a partir dos repositórios, eles deverão "
+"aparecer automaticamente no <application>Gerenciador de "
+"Configurações</application>. Se você baixar um tema de qualquer outro site, "
+"você precisará instalá-lo antes dele aparecer no <application>Gerenciador de "
+"Configurações</application>. Para isto, descompacte o pacote que contém o "
+"tema e, após isto, copie-o para:"
 
 #: user-docs/C/settings-preferences.xml:133(para)
 msgid "xfwm and GTK themes:"
-msgstr ""
+msgstr "Temas xfwm e GTK:"
 
 #: user-docs/C/settings-preferences.xml:135(para)
 msgid ""
 "<filename><placeholder-1/> /home/username/.themes/</filename> (this user "
 "only)"
 msgstr ""
+"<filename><placeholder-1/> /home/username/.themes/</filename> (apenas este "
+"usuário)"
 
 #: user-docs/C/settings-preferences.xml:136(para)
 msgid "<filename><placeholder-1/> /usr/share/themes/</filename> (all users)"
 msgstr ""
+"<filename><placeholder-1/> /usr/share/themes/</filename> (todos os usuários)"
 
 #: user-docs/C/settings-preferences.xml:139(para)
 msgid "Icon themes:"
-msgstr ""
+msgstr "Temas de ícones:"
 
 #: user-docs/C/settings-preferences.xml:141(para)
 msgid ""
 "<filename><placeholder-1/> /home/username/.icons/</filename> (this user only)"
 msgstr ""
+"<filename><placeholder-1/> /home/username/.icons/</filename> (apenas este "
+"usuário)"
 
 #: user-docs/C/settings-preferences.xml:142(para)
 msgid "<filename><placeholder-1/> /usr/share/icons/</filename> (all users)"
 msgstr ""
+"<filename><placeholder-1/> /usr/share/icons/</filename> (todos os usuários)"
 
 #: user-docs/C/settings-preferences.xml:148(para)
 msgid ""
 "If these directories do not exist, you should create them first. Copying "
 "themes or icons for all users will require administrative privileges."
 msgstr ""
+"Se estes diretórios não existem, você deverá criá-los primeiro. Você "
+"precisará de privilégios administrativos para copiar temas ou ícones para "
+"todos os usuários."
 
 #: user-docs/C/settings-preferences.xml:152(title)
 msgid "Disabling and modifying the desktop effects"
-msgstr ""
+msgstr "Desativando e modificando os efeitos da área de trabalho"
 
 #: user-docs/C/settings-preferences.xml:154(para)
 msgid ""
@@ -596,14 +792,25 @@ msgid ""
 "<guilabel>Compositor</guilabel> tab either unticking <guilabel>Enable "
 "display compositing</guilabel> or modifying settings."
 msgstr ""
+"Pelo fato do Xubuntu não vir com muitos efeitos na área de trabalho, o "
+"compositor do Xfce está ativado por padrão. Na configuração padrão do "
+"Xubuntu, o compositor do Xfce é usado para desenhar sombras nas janelas e "
+"ativar painéis transparentes. Se você possui uma placa de vídeo antiga ou se "
+"você não gosta dos efeitos mencionados, você pode desativar o compositor ou "
+"mudar as configurações dele, acessando <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> Gerenciador de "
+"Configurações</guimenuitem><guimenuitem>Ajustes no Gerenciador de "
+"Janelas</guimenuitem></menuchoice></application> e na aba "
+"<guilabel>Compositor</guilabel>, basta desmarcar <guilabel>Ativar compositor "
+"de exibição</guilabel> ou modificar as opções disponíveis."
 
 #: user-docs/C/printing-scanning.xml:14(title)
 msgid "Printing and Scanning"
-msgstr ""
+msgstr "Impressão e Digitalização"
 
 #: user-docs/C/printing-scanning.xml:17(title)
 msgid "Printing"
-msgstr ""
+msgstr "Imprimindo"
 
 #: user-docs/C/printing-scanning.xml:19(para)
 msgid ""
@@ -613,10 +820,15 @@ msgid ""
 "application to share the printer with other computers on a network, disable "
 "the printer or restart it."
 msgstr ""
+"Muitas impressoras são automaticamente suportadas pelo Xubuntu. O aplicativo "
+"<application>Configuração da Impressora</application> permite tanto "
+"adicionar suas impressoras, quanto modificar as suas configurações. Através  "
+"deste aplicativo, você também pode compartilhar a impressora com outros "
+"computadores em uma rede, desativá-la ou reiniciá-la."
 
 #: user-docs/C/printing-scanning.xml:22(title)
 msgid "Local printing"
-msgstr ""
+msgstr "Impressão local"
 
 #: user-docs/C/printing-scanning.xml:24(para)
 msgid ""
@@ -629,14 +841,22 @@ msgid ""
 "printing</guilabel>. If your printer was not detected, then you will need to "
 "follow these steps:"
 msgstr ""
+"Uma impressora local está diretamente conectada ao seu computador (ao "
+"contrário da impressora de rede, como mencionado em <xref linkend=\"printing-"
+"network\"/>). Para instalar uma nova impressora local, conecte sua "
+"impressora no seu computador e ligue-a. A maioria das impressoras serão "
+"automaticamente detectadas e configuradas. Uma vez detectada, um ícone de "
+"impressora irá aparecer na área de notificação e será exibida a mensagem "
+"<guilabel>Impressora pronta para uso</guilabel> em uma janela popup.  Se a "
+"sua impressora não foi detectada, você deverá seguir estes passos:"
 
 #: user-docs/C/printing-scanning.xml:27(para) user-docs/C/printing-scanning.xml:49(para)
 msgid "Obtain the model name of your printer"
-msgstr ""
+msgstr "Obtendo o modelo da sua impressora"
 
 #: user-docs/C/printing-scanning.xml:28(para) user-docs/C/printing-scanning.xml:50(para)
 msgid "Ensure the printer is turned on"
-msgstr ""
+msgstr "Verifique se sua impressora está ligada"
 
 #: user-docs/C/printing-scanning.xml:29(para) user-docs/C/printing-scanning.xml:51(para)
 msgid ""
@@ -645,6 +865,10 @@ msgid ""
 "Manager</guimenuitem><guimenuitem>Printers</guimenuitem></menuchoice></applic"
 "ation>"
 msgstr ""
+"Vá para <application><menuchoice><placeholder-1/><guimenuitem><placeholder-"
+"2/> Gerenciador de "
+"configurações</guimenuitem><guimenuitem>Impressoras</guimenuitem></menuchoice"
+"></application>"
 
 #: user-docs/C/printing-scanning.xml:30(para) user-docs/C/printing-scanning.xml:52(para)
 msgid ""
@@ -652,34 +876,42 @@ msgid ""
 "<menuchoice><guimenu>Server</guimenu><guisubmenu>New</guisubmenu><guimenuitem"
 ">Printer</guimenuitem></menuchoice>"
 msgstr ""
+"Clique em "
+"<menuchoice><guimenu>Servidor</guimenu><guisubmenu>Novo</guisubmenu><guimenui"
+"tem>Impressora</guimenuitem></menuchoice>"
 
 #: user-docs/C/printing-scanning.xml:31(para)
 msgid ""
 "Your printer should be automatically detected and displayed in the "
 "<guilabel>Devices</guilabel> window"
 msgstr ""
+"A sua impressora deverá ser detectada automaticamente e exibida na janela "
+"<guilabel>Dispostivos</guilabel>"
 
 #: user-docs/C/printing-scanning.xml:32(para)
 msgid "Select your printer and click <guibutton>Forward</guibutton>"
-msgstr ""
+msgstr "Selecione sua impressora e clique em <guibutton>Próximo</guibutton>"
 
 #: user-docs/C/printing-scanning.xml:33(para)
 msgid "Your computer will search for and install drivers for your printer"
 msgstr ""
+"Seu computador irá pesquisar e instalar drivers para a sua impressora"
 
 #: user-docs/C/printing-scanning.xml:34(para)
 msgid "You can enter a description and location for your printer"
-msgstr ""
+msgstr "Você pode fornecer uma descrição e localização para a sua impressora"
 
 #: user-docs/C/printing-scanning.xml:35(para) user-docs/C/printing-scanning.xml:59(para)
 msgid "Press <guibutton>Apply</guibutton>"
-msgstr ""
+msgstr "Clique em <guibutton>Aplicar</guibutton>"
 
 #: user-docs/C/printing-scanning.xml:36(para)
 msgid ""
 "Your printer should be properly configured at this point and you will be "
 "prompted if you want to print a test page"
 msgstr ""
+"Neste ponto, sua impressora deverá estar corretamente configurada e você "
+"será questionado se deseja imprimir uma página de teste"
 
 #: user-docs/C/printing-scanning.xml:37(para)
 msgid ""
@@ -687,6 +919,10 @@ msgid ""
 "will print and you can verify if it printed correctly, or you can press "
 "<guibutton>Cancel</guibutton>. Either way, your printer is ready to print."
 msgstr ""
+"Se você clicar no botão <guibutton>Imprimir Página de Teste</guibutton>, uma "
+"página de teste será impressa e você pode verificar se tudo ocorreu "
+"normalmente, ou você pode clicar no botão <guibutton>Cancelar</guibutton>. "
+"De qualquer modo, sua impressora está pronta para uso."
 
 #: user-docs/C/printing-scanning.xml:38(para)
 msgid ""
@@ -694,6 +930,9 @@ msgid ""
 "interface. It can be accessed at <ulink "
 "url=\"http://localhost:631/\">http://localhost:631/</ulink>."
 msgstr ""
+"Se você ainda estiver enfrentando problemas, tente utilizar a interface do "
+"CUPS através do navegador. Ela pode ser acessada no endereço <ulink "
+"url=\"http://localhost:631/\">http://localhost:631/</ulink>."
 
 #: user-docs/C/printing-scanning.xml:41(para)
 msgid ""
@@ -705,10 +944,18 @@ msgid ""
 "url=\"https://wiki.ubuntu.com/HardwareSupportComponentsPrinters\">Ubuntu "
 "Wiki Printer page</ulink> for information on your printer."
 msgstr ""
+"Se a sua impressora não foi automaticamente detectada, você pode tentar "
+"informar manualmente a porta e o driver da impressora. Algumas impressoras "
+"precisam de configuração adicional na instalação. Procure no <ulink "
+"url=\"http://www.linuxfoundation.org/collaborate/workgroups/openprinting\">Ba"
+"nco de Dados da OpenPrinting</ulink> ou visite a <ulink "
+"url=\"https://wiki.ubuntu.com/HardwareSupportComponentsPrinters\">Página de "
+"Impressoras da Wiki do Ubuntu</ulink> para obter informações sobre a sua "
+"impressora."
 
 #: user-docs/C/printing-scanning.xml:45(title)
 msgid "Network printing"
-msgstr ""
+msgstr "Imprimindo a partir da rede"
 
 #: user-docs/C/printing-scanning.xml:47(para)
 msgid ""
@@ -716,12 +963,17 @@ msgid ""
 "print server. Remote printers are hosted somewhere on a network. To "
 "configure a remote printer:"
 msgstr ""
+"Você pode, também, configurar o Xubuntu para enviar impressões para um "
+"servidor de impressão remoto. As impressoras remotas estão hospedadas em "
+"algum lugar em uma rede. Para configurar uma impressora remota:"
 
 #: user-docs/C/printing-scanning.xml:53(para)
 msgid ""
 "Click on <guilabel>Network Printer</guilabel> in the "
 "<guilabel>Devices</guilabel> window"
 msgstr ""
+"Na janela <guilabel>Dispositivos</guilabel>, clique em <guilabel>Impressora "
+"de Rede</guilabel>"
 
 #: user-docs/C/printing-scanning.xml:54(para)
 msgid ""
@@ -729,28 +981,39 @@ msgid ""
 "choose <guilabel>Windows Printer via SAMBA</guilabel>. Otherwise, select the "
 "protocol your printer uses to communicate."
 msgstr ""
+"Se sua impressora está conectada diretamente à uma máquina Windows na sua "
+"rede, escolha <guilabel>Impressora Windows via SAMBA</guilabel>. Senão, "
+"escolha o protocolo que sua impressora usa para se comunicar."
 
 #: user-docs/C/printing-scanning.xml:55(para)
 msgid ""
 "Insert the details of the network printer and press "
 "<guibutton>Forward</guibutton>"
 msgstr ""
+"Forneça os detalhes da sua impressora de rede e clique em "
+"<guibutton>Próximo</guibutton>"
 
 #: user-docs/C/printing-scanning.xml:56(para)
 msgid ""
 "Select the printer manufacturer and then press <guibutton>Forward</guibutton>"
 msgstr ""
+"Selecione o fabricante da impressora e clique em "
+"<guibutton>Próximo</guibutton>"
 
 #: user-docs/C/printing-scanning.xml:57(para)
 msgid ""
 "Select the printer model and driver then press <guibutton>Forward</guibutton>"
 msgstr ""
+"Selecione o modelo e o driver da impressora e clique em "
+"<guibutton>Próximo</guibutton>"
 
 #: user-docs/C/printing-scanning.xml:58(para)
 msgid ""
 "You can enter a description and location for your printer in the "
 "corresponding fields"
 msgstr ""
+"Você pode fornecer uma descriçao e localização da sua impressora nos campos "
+"correspondentes"
 
 #: user-docs/C/printing-scanning.xml:60(para)
 msgid ""
@@ -758,12 +1021,18 @@ msgid ""
 "to print a test page, press <guibutton>Cancel</guibutton> or "
 "<guibutton>Print Test Page</guibutton> depending on your preference"
 msgstr ""
+"Neste ponto, sua impressora está devidamente configurada e você será "
+"questionado sobre imprimir uma página de teste. Caso prefira, clique em "
+"<guibutton>Imprimir Página de Teste</guibutton>. Caso contrário, clique em "
+"<guibutton>Cancelar</guibutton>"
 
 #: user-docs/C/printing-scanning.xml:63(para)
 msgid ""
 "If you do not know the protocol or details of your network printer, you "
 "should consult your network administrator."
 msgstr ""
+"Se você não sabe o protocolo ou outros detalhes da sua impressora de rede, "
+"consulte o administrador da sua rede."
 
 #: user-docs/C/printing-scanning.xml:65(para)
 msgid ""
@@ -777,10 +1046,21 @@ msgid ""
 "Computers running Xubuntu versions prior to 13.10, or other Linux/Ubuntu-"
 "based systems, may need to enable a setting to show shared printers."
 msgstr ""
+"Se você não tem uma impressora de rede, mas deseja que ela seja "
+"compartilhada com outros computadores na sua rede, no diálogo "
+"<guilabel>Impressoras</guilabel>, clique em "
+"<menuchoice><guimenu>Servidor</guimenu><guimenuitem>Configurações</guimenuite"
+"m></menuchoice>, marque o item <guilabel>Compartilhar impressoras conectadas "
+"a este computador</guilabel> e clique em <guibutton>OK</guibutton>. Outros "
+"computadores executando versões do Xubuntu posteriores à 13.04 irão detectar "
+"automaticamente as impressoras compartilhadas desta forma. Já computadores "
+"executando versões do Xubuntu anteriores à 13.04, ou outros sistemas "
+"Linux/Baseados no Ubuntu, podem precisar ativar uma configuração para "
+"mostrar impressoras compartilhadas."
 
 #: user-docs/C/printing-scanning.xml:70(title)
 msgid "Scanning"
-msgstr ""
+msgstr "Digitalizando"
 
 #: user-docs/C/printing-scanning.xml:72(para)
 msgid ""
@@ -788,20 +1068,25 @@ msgid ""
 "install and operate. This section will walk you through how to use your "
 "scanner and what to do if Xubuntu does not detect your scanner."
 msgstr ""
+"Muitos scanners são automaticamente suportados pelo Xubuntu e devem fáceis "
+"de instalar e utilizar. Esta seção guiará você no uso do seu scanner e no "
+"que fazer se o Xubuntu não detectá-lo."
 
 #: user-docs/C/printing-scanning.xml:75(title)
 msgid "Does my scanner work in Xubuntu?"
-msgstr ""
+msgstr "Meu scanner funciona no Xubuntu?"
 
 #: user-docs/C/printing-scanning.xml:77(para)
 msgid "There are three ways to see if your scanner works in Xubuntu:"
-msgstr ""
+msgstr "Existem três maneiras de saber se o seu scanner funciona no Xubuntu:"
 
 #: user-docs/C/printing-scanning.xml:80(para)
 msgid ""
 "Simply plug it in and try it! If it is a newer USB scanner, it is likely "
 "that it will just work."
 msgstr ""
+"Simplesmente conecte-o e teste-o! Se for um scanner USB novo, provavelmente "
+"ele irá funcionar."
 
 #: user-docs/C/printing-scanning.xml:81(para)
 msgid ""
@@ -809,6 +1094,9 @@ msgid ""
 "url=\"https://wiki.ubuntu.com/HardwareSupportComponentsScanners\">list of "
 "supported scanners</ulink> for Xubuntu"
 msgstr ""
+"Confira a <ulink "
+"url=\"https://wiki.ubuntu.com/HardwareSupportComponentsScanners\">lista de "
+"scanners suportados</ulink> no Xubuntu"
 
 #: user-docs/C/printing-scanning.xml:82(para)
 msgid ""
@@ -816,18 +1104,22 @@ msgid ""
 "project listing of support scanners</ulink>. <application>SANE</application> "
 "is the software used by Xubuntu for most of its scanner support."
 msgstr ""
+"Confira na <ulink url=\"http://www.sane-project.org/sane-"
+"backends.html\">lista de scanners suportados do projeto SANE</ulink>. "
+"<application>SANE</application> é o software utilizado pelo Xubuntu para "
+"suportar a maioria dos scanners."
 
 #: user-docs/C/printing-scanning.xml:87(title)
 msgid "Using your scanner"
-msgstr ""
+msgstr "Utilizando seu scanner"
 
 #: user-docs/C/printing-scanning.xml:89(para)
 msgid "To scan a document:"
-msgstr ""
+msgstr "Para digitalizar um documento:"
 
 #: user-docs/C/printing-scanning.xml:92(para)
 msgid "Place what you want to scan on the scanner"
-msgstr ""
+msgstr "Coloque o que você quer digitalizar em seu scanner"
 
 #: user-docs/C/printing-scanning.xml:93(para)
 msgid ""
@@ -835,6 +1127,9 @@ msgid ""
 "1/><guisubmenu>Graphics</guisubmenu><guimenuitem>Simple "
 "Scan</guimenuitem></menuchoice></application>"
 msgstr ""
+"Vá em <application><menuchoice><placeholder-"
+"1/><guisubmenu>Gráficos</guisubmenu><guimenuitem>Digitalização "
+"Simples</guimenuitem></menuchoice></application>"
 
 #: user-docs/C/printing-scanning.xml:94(para)
 msgid ""
@@ -842,28 +1137,36 @@ msgid ""
 "choose the type of media you are scanning, <guilabel>Text</guilabel> or "
 "<guilabel>Photo</guilabel>"
 msgstr ""
+"Clique na seta à direita do botão <guibutton>Digitalizar</guibutton> e "
+"indique o conteúdo que você está digitalizando,  <guilabel>Texto</guilabel> "
+"ou <guilabel>Foto</guilabel>"
 
 #: user-docs/C/printing-scanning.xml:95(para)
 msgid "Click the <guibutton>Scan</guibutton> button to begin your scan"
 msgstr ""
+"Clique no botão <guibutton>Digitalizar</guibutton> para iniciar a sua "
+"digitalização"
 
 #: user-docs/C/printing-scanning.xml:100(title)
 msgid "The computer says \"No scanners detected\""
-msgstr ""
+msgstr "O computador mostra a mensagem \"Nenhum scanner detectado\""
 
 #: user-docs/C/printing-scanning.xml:102(para)
 msgid "There are two reasons why you might get this message:"
-msgstr ""
+msgstr "Você pode receber esta mensagem por duas razões:"
 
 #: user-docs/C/printing-scanning.xml:105(para)
 msgid ""
 "Your scanner is not supported in Xubuntu. For example, most parallel port "
 "scanners and Lexmark All-in-One printer/scanner/faxes are not supported."
 msgstr ""
+"O seu scanner não é suportado pelo Xubuntu. Por exemplo, muitos scanners que "
+"utilizam porta paralela e multifuncionais Lexmark Tudo-em-Um "
+"(impressora/scanner/fax) não são suportados."
 
 #: user-docs/C/printing-scanning.xml:106(para)
 msgid "The driver for your scanner is not being loaded automatically."
-msgstr ""
+msgstr "O driver do seu scanner não está sendo carregado automaticamente."
 
 #: user-docs/C/printing-scanning.xml:109(para)
 msgid ""
@@ -872,32 +1175,43 @@ msgid ""
 "url=\"http://ubuntuforums.org/\">Ubuntu forums</ulink> or on <ulink "
 "url=\"http://askubuntu.com/\">AskUbuntu</ulink>."
 msgstr ""
+"Você pode conseguir fazer seu scanner funcionar instalando um driver ou "
+"alterando algum arquivo de configuração. Por favor, peça ajuda nos <ulink "
+"url=\"http://ubuntuforums.org/\">fóruns do Ubuntu</ulink> ou no <ulink "
+"url=\"http://askubuntu.com/\">AskUbuntu</ulink>."
 
 #: user-docs/C/printing-scanning.xml:111(para)
 msgid ""
 "To get some scanners working, you may need to plug in the scanner after the "
 "computer has booted."
 msgstr ""
+"Para fazer alguns scanners funcionarem, pode ser preciso que você plugue o "
+"scanner somente após o computador ter iniciado."
 
 #: user-docs/C/printing-scanning.xml:115(title)
 msgid "Manually installing a scanner"
-msgstr ""
+msgstr "Instalando um scanner manualmente"
 
 #: user-docs/C/printing-scanning.xml:117(para)
 msgid ""
 "There are some scanners that have less-than-complete drivers from the SANE "
 "project. They can sometimes be used, but not all the features may work."
 msgstr ""
+"Alguns scanners possuem drivers incompletos providos pelo projeto SANE. "
+"Estes drivers podem ser utilizados em alguns casos, mas nem todos os "
+"recursos do aparelho podem funcionar."
 
 #: user-docs/C/printing-scanning.xml:120(para)
 msgid "Install the <literal><placeholder-1/>libsane-extras</literal> package"
-msgstr ""
+msgstr "Instale o pacote <literal><placeholder-1/>libsane-extras</literal>"
 
 #: user-docs/C/printing-scanning.xml:121(para)
 msgid ""
 "Run <userinput>pkexec mousepad /etc/sane.d/dll.conf</userinput> at the "
 "command line to open the SANE driver file for editing"
 msgstr ""
+"Execute <userinput>pkexec mousepad /etc/sane.d/dll.conf</userinput> na linha "
+"de comando para editar o arquivo de driver do SANE."
 
 #: user-docs/C/printing-scanning.xml:122(para)
 msgid ""
@@ -905,16 +1219,21 @@ msgid ""
 "<literal>#</literal> from in front of the name of the driver. You may need "
 "to search the web to find out which driver is the right one."
 msgstr ""
+"Habilite o driver correto para o seu scanner removendo a "
+"<literal>#</literal> localizada em frente ao nome do driver. Você pode "
+"pesquisar na internet qual é o driver a ser habilitado."
 
 #: user-docs/C/printing-scanning.xml:123(para)
 msgid ""
 "Save the file and open <application>Simple Scan</application>. If all goes "
 "well, your scanner will now work."
 msgstr ""
+"Salve o arquivo e abra <application>Digitalização Simples</application>. Se "
+"tudo correr bem, seu scanner irá funcionar."
 
 #: user-docs/C/offline-packages.xml:14(title)
 msgid "Offline Package Management"
-msgstr ""
+msgstr "Gerenciador de Pacotes Offline"
 
 #: user-docs/C/offline-packages.xml:16(para)
 msgid ""
@@ -925,6 +1244,13 @@ msgid ""
 "<application>apt-offline-gui</application>. This document deals with the "
 "command line variant."
 msgstr ""
+"A ferramenta <application>apt-offline</application> existe para ajudar a "
+"manter o seu computador atualizado, mesmo se ele não estiver conectado à "
+"internet. Ele pode estar conectado a um segundo computador (e este conectado "
+"à internet), onde este último pode estar executando o Xubuntu ou qualquer "
+"distribuição baseada no Ubuntu, ou até mesmo Debian. Uma interface gráfica "
+"está disponível via <application>apt-offline-gui</application>. Este "
+"documento detalha as opções de linha de comando dessa ferramenta."
 
 #: user-docs/C/offline-packages.xml:18(para)
 msgid ""
@@ -932,6 +1258,9 @@ msgid ""
 "are given, the naming and path to this directory is for you to decide "
 "beforehand."
 msgstr ""
+"Ao longo deste capítulo, será mostrado como utilizar um diretório em uma "
+"unidade flash USB, onde o nome e o caminho para este diretório devem ser "
+"decididos antecipadamente por você."
 
 #: user-docs/C/offline-packages.xml:20(para)
 msgid ""
@@ -943,6 +1272,12 @@ msgid ""
 "installer</application>. There is no workaround for installation packages "
 "that themselves make downloads."
 msgstr ""
+"Alguns pacotes específicos não são construídos para serem executados em um "
+"ambiente desconectado, uma vez que eles baixam scripts durante a instalação "
+"ou durante um upgrade. Alguns exemplos típicos destes pacotes são o "
+"<application>flashplugin-installer</application>, o <application>nautilus-"
+"dropbox</application> e o <application>ttf-mscorefonts-"
+"installer</application>. Neste caso, não há como instalar estes pacotes."
 
 #: user-docs/C/offline-packages.xml:22(para)
 msgid ""
@@ -950,6 +1285,9 @@ msgid ""
 "upgrading so that you get a last chance to look through your upgrades to see "
 "if any problems mentioned above show up."
 msgstr ""
+"É aconselhado evitar o uso da flag <userinput>-y</userinput> ao fazer "
+"atualizações, para que você tenha a chance de revisá-las em busca de algum "
+"dos problemas mencionados acima."
 
 #: user-docs/C/offline-packages.xml:24(para)
 msgid ""
@@ -957,10 +1295,14 @@ msgid ""
 "text may show up about being unable to download files relative to "
 "translations, these can be safely ignored."
 msgstr ""
+"Durante o uso do <application>apt-offline</application>, alguns erros "
+"destacados em vermelho podem aparecer, relacionados à impossibilidade de "
+"baixar arquivos referentes à traduções. Estes erros podem ser ignorados sem "
+"problemas."
 
 #: user-docs/C/offline-packages.xml:27(title)
 msgid "Updating Repositories"
-msgstr ""
+msgstr "Atualizando Repositórios"
 
 #: user-docs/C/offline-packages.xml:29(para)
 msgid ""
@@ -969,12 +1311,19 @@ msgid ""
 "software repositories. This allows your computer to see if there are bug "
 "fixes, security updates or new software available for your computer."
 msgstr ""
+"Depois de conectar uma unidade flash USB e abrir um terminal, você pode usar "
+"o comando apt-offline para gerar uma requisição de autalização dos "
+"repositórios reconhecidos pelo seu computador. Isto permite ao seu "
+"computador enxergar se há correções de falhas, atualizações de segurança ou "
+"se há novos softwares disponíveis."
 
 #: user-docs/C/offline-packages.xml:31(para)
 msgid ""
 "From your disconnected computer run: <userinput>apt-offline set --update apt-"
 "offline.sig</userinput>"
 msgstr ""
+"Execute no seu computador desconectado: <userinput>apt-offline set --update "
+"apt-offline.sig</userinput>"
 
 #: user-docs/C/offline-packages.xml:33(para)
 msgid ""
@@ -986,6 +1335,14 @@ msgid ""
 "offline.sig</userinput>. When complete remove the USB flash drive and take "
 "it back to the disconnected computer."
 msgstr ""
+"Uma vez feito isto, copie o arquivo <literal>apt-offline.sig</literal> para "
+"sua unidade flash USB e leve-a para o computador conectado. Neste último, "
+"use o comando apt-offline com o arquivo apt-offline.sig para baixar o que o "
+"seu computador desconectado necessita para se atualizar. Para isto, navegue "
+"até o diretório na unidade flash que contém o arquivo apt-offline.sig e "
+"digite <userinput>apt-offline get --bundle bundle.zip apt-"
+"offline.sig</userinput>. Ao final, remova a unidade flash USB e leve-a de "
+"volta ao computador desconectado."
 
 #: user-docs/C/offline-packages.xml:35(para)
 msgid ""
@@ -994,10 +1351,15 @@ msgid ""
 "<userinput>sudo apt-offline install bundle.zip</userinput>. Once the command "
 "completes your repositories will be updated."
 msgstr ""
+"No computador desconectado, reconecte a unidade flash USB. Navegue até o "
+"diretório da unidade flash que contém os dois arquivos e digite: "
+"<userinput>sudo apt-offline install bundle.zip</userinput>. Ao final da "
+"execução do comando, os repositórios do computador desconectado estarão "
+"atualizados."
 
 #: user-docs/C/offline-packages.xml:39(title)
 msgid "Installing a Package"
-msgstr ""
+msgstr "Instalando um Pacote"
 
 #: user-docs/C/offline-packages.xml:41(para)
 msgid ""
@@ -1005,6 +1367,10 @@ msgid ""
 "also be combined with updating the software repositories. In a disconnected "
 "environment, using opportunities to connect efficiently is key."
 msgstr ""
+"Você pode utilizar o comando apt-offline para baixar um pacote e instalá-lo. "
+"Esta ação pode ser combinada com a atualização dos repositórios de software. "
+"Em um ambiente desconectado, é fundamental que se utilizem opções eficientes "
+"de conexão."
 
 #: user-docs/C/offline-packages.xml:43(para)
 msgid ""
@@ -1018,6 +1384,15 @@ msgid ""
 "<userinput>sudo apt-offline set --install-packages $PACKAGENAME --update apt-"
 "offline.sig</userinput>to start the process"
 msgstr ""
+"Neste exemplo, nós assumimos que você quer instalar um novo pacote. Vamos "
+"referenciar o pacote como sendo <emphasis>PACKAGENAME</emphasis>, embora "
+"normalmente você irá digitar o nome do pacote. Frequentemente, a instalação "
+"de um pacote requer a instalação de dependências. O <application>apt-"
+"offline</application> manipula a resolução de dependências automaticamente "
+"para você. Para iniciar o processo de instalação, abra um terminal, conecte "
+"uma unidade flash USB e navegue até um diretório qualquer. Então, execute  "
+"<userinput>sudo apt-offline set --install-packages $PACKAGENAME --update apt-"
+"offline.sig</userinput>."
 
 #: user-docs/C/offline-packages.xml:45(para)
 msgid ""
@@ -1031,6 +1406,17 @@ msgid ""
 "any dependencies your system requires. Remove the USB flash drive when "
 "complete and take it back to the disconnected computer."
 msgstr ""
+"Ao final da execução do comando, copie o arquivo <literal>apt-"
+"offline.sig</literal> para sua unidade de disco USB e leve-o ao computador "
+"conectado. Neste último, utilize o apt-offline com o arquivo apt-offline.sig "
+"para baixar o que o computador desconectado necessita para autalizar a "
+"instalar PACKAGENAME. Para isto, na unidade flash, navegue até o diretório "
+"onde está o arquivo apt-offline.sig e execute <userinput>sudo apt-offline "
+"get --bundle bundle.zip apt-offline.sig</userinput>. A saída irá mostrar uma "
+"tentativa de baixar atualizações de repositórios, como também o pacote "
+"<emphasis>PACKAGENAME</emphasis> e qualquer dependência necessitada pelo "
+"sistema. Por fim, remova a unidade flash USB e leve-a de volta ao computador "
+"desconectado."
 
 #: user-docs/C/offline-packages.xml:47(para)
 msgid ""
@@ -1041,22 +1427,32 @@ msgid ""
 "then install <emphasis>PACKAGENAME</emphasis> by then entering: "
 "<userinput>sudo apt-get install PACKAGENAME</userinput>."
 msgstr ""
+"Finalmente, no computador desconectado, conecte a unidade flash USB. Nele, "
+"navegue até o diretório que contém os dois arquivos e execute: "
+"<userinput>sudo apt-offline install bundle.zip</userinput>. Ao final da "
+"execução do comando, seus repositórios estarão atualizados. Com isto, você "
+"pode então instalar o pacote <emphasis>PACKAGENAME</emphasis> executando:  "
+"<userinput>sudo apt-get install PACKAGENAME</userinput>."
 
 #: user-docs/C/offline-packages.xml:51(title)
 msgid "Upgrading Your System"
-msgstr ""
+msgstr "Atualizando Seu Sistema"
 
 #: user-docs/C/offline-packages.xml:53(para)
 msgid ""
 "Upgrading packages requires 2 stages: updating repositories and then the "
 "download and upgrade as required."
 msgstr ""
+"A atualização de pacotes se dá em dois estágios: atualizar os repositórios e "
+"então baixar e atualizar o que for necessário."
 
 #: user-docs/C/offline-packages.xml:55(para)
 msgid ""
 "First update your repositories following the instructions in <xref "
 "linkend=\"offline-repo-update\"/>"
 msgstr ""
+"Primeiramente, atualize os repositórios seguindo as instruções em <xref "
+"linkend=\"offline-repo-update\"/>"
 
 #: user-docs/C/offline-packages.xml:57(para)
 msgid ""
@@ -1068,6 +1464,13 @@ msgid ""
 "repositories. Enter <userinput>apt-offline set --update --upgrade apt-"
 "offline.sig</userinput>"
 msgstr ""
+"Na unidade flash USB, faça uma limpeza no diretório que você utilizou "
+"anteriormente. Com uma nova sessão de terminal aberta, navegue até o "
+"diretório na unidade flash USB que você irá usar. Uma vez que nós nunca "
+"queremos perder a oportunidade de atualizar os repositórios de uma máquina "
+"desconectada, nós podemos utilizar um comando tanto para obter pacotes de "
+"atualização quanto para atualizar os repositórios. Digite <userinput>apt-"
+"offline set --update --upgrade apt-offline.sig</userinput>"
 
 #: user-docs/C/offline-packages.xml:59(para)
 msgid ""
@@ -1081,6 +1484,16 @@ msgid ""
 "system. Once done, remove the USB flash drive and take it back to the "
 "disconnected computer."
 msgstr ""
+"Uma vez executado o comando, copie o arquivo <literal>apt-"
+"offline.sig</literal> para sua unidade flash USB e leve-a para o computador "
+"conectado. Neste último, use o comando apt-offline em conjunto com o apt-"
+"offline.sig para baixar o que o computador desconectado necessita para "
+"atualiza-se. Para isto, navegue até o diretório na unidade flash que contém "
+"o arquivo apt-offline.sig e execute <userinput>sudo apt-offline get --bundle "
+"bundle.zip apt-offline.sig</userinput>. A saída mostrará uma tentantiva de "
+"baixar atualizações para o repositório, bem como atualizações e dependências "
+"requeridas pelo seu sistema. Ao final, remova a unidade flash USB e leve-a "
+"de volta ao computador desconectado."
 
 #: user-docs/C/offline-packages.xml:61(para)
 msgid ""
@@ -1090,46 +1503,51 @@ msgid ""
 "repositories will be updated, you can then install the upgrades by entering: "
 "<userinput>sudo apt-get upgrade</userinput>."
 msgstr ""
+"No computador desconectado, conecte a unidade flash USB, navegue até o "
+"diretório que contém os dois arquivos e execute <userinput>sudo apt-offline "
+"install bundle.zip</userinput>. Após a execução deste comando, seus "
+"repositórios estarão atualizados e então você poderá instalar as "
+"atualizações executando: <userinput>sudo apt-get upgrade</userinput>."
 
 #: user-docs/C/migrating-upgrading.xml:14(title)
 msgid "Migrating and Upgrading"
-msgstr ""
+msgstr "Migrando e Atualizando"
 
 #: user-docs/C/migrating-upgrading.xml:17(title)
 msgid "Migrating from Windows"
-msgstr ""
+msgstr "Migrando do Windows"
 
 #: user-docs/C/migrating-upgrading.xml:20(title)
 msgid "A quick Windows&ndash;Xubuntu dictionary"
-msgstr ""
+msgstr "Um rápido dicionário Windows&ndash;Xubuntu"
 
 #: user-docs/C/migrating-upgrading.xml:23(segtitle)
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: user-docs/C/migrating-upgrading.xml:23(segtitle)
 msgid "Xubuntu"
-msgstr ""
+msgstr "Xubuntu"
 
 #: user-docs/C/migrating-upgrading.xml:24(seg)
 msgid "Add/Remove Programs"
-msgstr ""
+msgstr "Adicionar/Remover Programas"
 
 #: user-docs/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "Software"
-msgstr ""
+msgstr "Aplicativo Software do GNOME"
 
 #: user-docs/C/migrating-upgrading.xml:25(seg)
 msgid "Control Panel"
-msgstr ""
+msgstr "Painel de Controle"
 
 #: user-docs/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "<placeholder-1/> Settings Manager"
-msgstr ""
+msgstr "<placeholder-1/> Gerenciador de Configurações"
 
 #: user-docs/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "System (menu)"
-msgstr ""
+msgstr "Sistema (menu)"
 
 #: user-docs/C/migrating-upgrading.xml:25(seg)
 msgid ""
@@ -1141,33 +1559,35 @@ msgstr ""
 
 #: user-docs/C/migrating-upgrading.xml:26(seg)
 msgid "Windows Explorer"
-msgstr ""
+msgstr "Windows Explorer"
 
 #: user-docs/C/migrating-upgrading.xml:0(guisubmenu)
 msgid "Accessories"
-msgstr ""
+msgstr "Acessórios"
 
 #: user-docs/C/migrating-upgrading.xml:0(guimenuitem)
 msgid "File Manager"
-msgstr ""
+msgstr "Gerenciador de Arquivos"
 
 #: user-docs/C/migrating-upgrading.xml:27(seg)
 msgid "My Documents"
-msgstr ""
+msgstr "Meus Documentos"
 
 #: user-docs/C/migrating-upgrading.xml:0(filename)
 msgid "<placeholder-1/> /home/username/"
-msgstr ""
+msgstr "<placeholder-1/> /home/username/"
 
 #: user-docs/C/migrating-upgrading.xml:32(title)
 msgid "Windows applications on Linux"
-msgstr ""
+msgstr "Aplicativos Windows no Linux"
 
 #: user-docs/C/migrating-upgrading.xml:33(para)
 msgid ""
 "It is possible to run Windows applications under Xubuntu. Two possible "
 "choices are:"
 msgstr ""
+"É possível executar aplicativos Windows no Xubuntu. As duas maneiras "
+"possíveis são:"
 
 #: user-docs/C/migrating-upgrading.xml:35(para)
 msgid ""
@@ -1178,6 +1598,12 @@ msgid ""
 "url=\"http://www.winehq.org/help/\">Wine documentation</ulink> for FAQ's and "
 "user support."
 msgstr ""
+"<ulink url=\"http://winehq.org/\">Wine</ulink> O Wine permite executar "
+"alguns aplicativos WIndows sem ter que instalar um sistema operacional "
+"Windows. Veja no link <ulink url=\"http://appdb.winehq.org/\">Wine "
+"AppDB</ulink> quais aplicativos irão funcionar no Wine e acesse o link "
+"<ulink url=\"http://www.winehq.org/help/\">documentação do Wine</ulink> para "
+"perguntas frequentes e respostas."
 
 #: user-docs/C/migrating-upgrading.xml:36(para)
 msgid ""
@@ -1189,19 +1615,29 @@ msgid ""
 "url=\"https://www.virtualbox.org/wiki/End-user_documentation\">VirtualBox "
 "end-user documentation</ulink>."
 msgstr ""
+"<ulink url=\"https://www.virtualbox.org/\">VirtualBox</ulink>, um software "
+"de virtualização. Você pode instalar um sistema operacional Windows junto "
+"com qualquer aplicativo dentro de uma máquina virtual gerenciada pelo "
+"VirtualBox. Note que o suporte a 3D no VirtualBox ainda não é confiável. "
+"Para ler mais sobre o VirtualBox e virtualização, acesse a <ulink "
+"url=\"https://www.virtualbox.org/wiki/End-user_documentation\">documentação "
+"de usuário final do VirtualBox</ulink>."
 
 #: user-docs/C/migrating-upgrading.xml:39(para)
 msgid "Both Wine and VirtualBox are available in the software repositories."
 msgstr ""
+"Ambos, Wine e VirtualBox estão disponíveis nos repositórios de programas."
 
 #: user-docs/C/migrating-upgrading.xml:43(title)
 msgid "Windows networking on Linux"
-msgstr ""
+msgstr "Rede Windows no Linux"
 
 #: user-docs/C/migrating-upgrading.xml:45(para)
 msgid ""
 "Accessing Windows network shares under Xubuntu can be easily done using:"
 msgstr ""
+"O acesso a compartilhamentos de rede Windows no Xubuntu pode ser feito "
+"facilmente utilizando:"
 
 #: user-docs/C/migrating-upgrading.xml:47(para)
 msgid ""
@@ -1214,6 +1650,15 @@ msgid ""
 "Location...</guimenuitem></menuchoice> and entering "
 "<userinput>smb://computername/sharename</userinput>."
 msgstr ""
+"<application><menuchoice><placeholder-"
+"1/><guisubmenu>Acessórios</guisubmenu><guimenuitem>Gerenciador de "
+"Arquivos</guimenuitem></menuchoice></application>, onde lá você poderá "
+"acessar compartilhamentos visíveis publicamente, ao clicar no item "
+"<guilabel>Rede</guilabel>, na barra lateral. Alternativamente, você pode "
+"acessar um sistema de arquivo remoto, clicando em "
+"<menuchoice><guimenu>Ir</guimenu><guimenuitem>Abrir "
+"Localização...</guimenuitem></menuchoice> e digitando "
+"<userinput>smb://nomecomputador/nomecompartilhamento</userinput>."
 
 #: user-docs/C/migrating-upgrading.xml:48(para)
 msgid ""
@@ -1224,16 +1669,24 @@ msgid ""
 "<guilabel>Windows Share</guilabel> from <guilabel>Service Type</guilabel>, "
 "then enter the remote share's details."
 msgstr ""
+"<application><menuchoice><placeholder-"
+"1/><guisubmenu>Sistema</guisubmenu><guimenuitem>Gigolo</guimenuitem></menucho"
+"ice></application>, que permite a você salvar marcadores e gerenciar "
+"sistemas de arquivo remotos. Selecione <guilabel>Compartilhamento "
+"Windows</guilabel> no item <guilabel>Tipo de Serviço</guilabel> e forneça os "
+"detalhes do compartilhamento remoto."
 
 #: user-docs/C/migrating-upgrading.xml:51(para)
 msgid ""
 "If some options are not available or do not work, ensure that the "
 "<literal><placeholder-1/>gvfs-backends</literal> is installed."
 msgstr ""
+"Se algumas opções não estão disponíveis ou não funcionam, assegure que o "
+"pacote <literal><placeholder-1/>gvfs-backends</literal> está instalado."
 
 #: user-docs/C/migrating-upgrading.xml:56(title)
 msgid "Upgrading Xubuntu"
-msgstr ""
+msgstr "Atualizando o Xubuntu"
 
 #: user-docs/C/migrating-upgrading.xml:58(para)
 msgid ""
@@ -1241,6 +1694,10 @@ msgid ""
 "Support (LTS) releases every 2 years. Currently, regular releases are "
 "supported for 9 months and LTS releases for 3 years."
 msgstr ""
+"Novas versões regulares do Xubuntu são lançadas a cada 6 meses, enquanto que "
+"versões de Suporte a Longo Prazo (LTS) são lançadas a cada 2 anos. "
+"Atualmente, versões regulares são suportadas por 9 meses, enquanto que "
+"versões LTS são suportadas por 3 anos."
 
 #: user-docs/C/migrating-upgrading.xml:59(para)
 msgid ""
@@ -1248,6 +1705,9 @@ msgid ""
 "path is available for download. To change the upgrade path, see <xref "
 "linkend=\"changing-upgrade-path\"/>."
 msgstr ""
+"O Atualizador de Programas informará quando uma nova versão, adequada ao seu "
+"caminho de atualização, estiver disponível para download. Para alterar o "
+"caminho de atualização, veja <xref linkend=\"changing-upgrade-path\"/>."
 
 #: user-docs/C/migrating-upgrading.xml:60(para)
 msgid ""
@@ -1255,10 +1715,13 @@ msgid ""
 "of packages must be downloaded and installed, although the actual figure "
 "will depend on how many packages are already installed on your computer."
 msgstr ""
+"Atualizações geralmente demoram um pouco para serem completadas. "
+"Tipicamente, cerca de 1000 megabytes de pacotes são baixados e instalados, "
+"dependendo de quantos pacotes já estão instalados no seu computador."
 
 #: user-docs/C/migrating-upgrading.xml:63(title)
 msgid "Upgrading to the next available release"
-msgstr ""
+msgstr "Atualizando para a próxima versão disponível"
 
 #: user-docs/C/migrating-upgrading.xml:66(para)
 msgid ""
@@ -1267,12 +1730,19 @@ msgid ""
 "Updater</guimenuitem></menuchoice></application> and wait for the list of "
 "available updates to be downloaded"
 msgstr ""
+"Vá em <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"Gerenciador de Configurações</guimenuitem><guimenuitem>Atualizador de "
+"Programas</guimenuitem></menuchoice></application> e espere pela lista de "
+"atualizações disponíveis a serem baixadas."
 
 #: user-docs/C/migrating-upgrading.xml:67(para)
 msgid ""
 "If a new version of Xubuntu is available, a box at the top of the window "
 "will appear saying that a new distribution release is available"
 msgstr ""
+"Se uma nova versão do Xubuntu estiver disponível, uma caixa na parte "
+"superior da tela aparecerá dizendo que uma nova versão da distribuição está "
+"disponível"
 
 #: user-docs/C/migrating-upgrading.xml:68(para)
 msgid ""
@@ -1282,6 +1752,12 @@ msgid ""
 "Settings Manager</guimenuitem><guimenuitem>Software "
 "Updater</guimenuitem></menuchoice></application>"
 msgstr ""
+"Para atualizar para a próxima versão disponível, salve todos os seus "
+"documentos abertos e clique no botão <guibutton>Atualizar</guibutton>, "
+"presente em <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> Gerenciador de "
+"Configurações</guimenuitem><guimenuitem>Atualizador de "
+"Programas</guimenuitem></menuchoice></application>"
 
 #: user-docs/C/migrating-upgrading.xml:71(para)
 msgid ""
@@ -1289,16 +1765,22 @@ msgid ""
 "you are expecting to upgrade to, see <xref linkend=\"changing-upgrade-"
 "path\"/>."
 msgstr ""
+"Se você não está recebendo uma notificação de atualização, ou não está vendo "
+"a versão para a qual você esperava atualizar, leia a seção <xref "
+"linkend=\"changing-upgrade-path\"/>."
 
 #: user-docs/C/migrating-upgrading.xml:75(title)
 msgid "Changing your upgrade path"
-msgstr ""
+msgstr "Alterando seu caminho de atualização"
 
 #: user-docs/C/migrating-upgrading.xml:77(para)
 msgid ""
 "There are two main upgrade paths you can follow: either upgrade to long-term "
 "support (LTS) releases only, or upgrade to all releases."
 msgstr ""
+"Existem dois caminhos de atualização que você pode seguir: atualizar somente "
+"para versões com suporte a longo prazo (LTS) ou atualizar para qualquer nova "
+"versão (regular e/ou LTS)."
 
 #: user-docs/C/migrating-upgrading.xml:78(para)
 msgid ""
@@ -1308,12 +1790,21 @@ msgid ""
 "change from regular to LTS upgrade path once you have reached the next LTS "
 "release."
 msgstr ""
+"Se você decidir seguir o caminho de atualização LTS, você será notificado "
+"sobre a disponibilidade de novas versões a cada dois anos. Se você decidir "
+"seguir o caminho de atualização de versões regulares, você será notificado "
+"sobre a disponibilidade de novas versões a cada 6 meses. Você pode mudar o "
+"caminho de atualização de regular para LTS apenas quando você tiver "
+"alcançado a próxima versão LTS."
 
 #: user-docs/C/migrating-upgrading.xml:80(para)
 msgid ""
 "If you want to change your upgrade path, you can do it when running an LTS "
 "version. To do so, choose one of the following options:"
 msgstr ""
+"Se você quiser alterar o seu caminho de atualização, você poderá fazer isto "
+"quando estiver executando uma versão LTS. Para tal, escolha uma das "
+"seguintes opções:"
 
 #: user-docs/C/migrating-upgrading.xml:82(para)
 msgid ""
@@ -1325,6 +1816,13 @@ msgid ""
 "term support versions</guilabel> from the <guilabel>Notify me of a new "
 "Ubuntu version</guilabel> dropdown depending on your choice."
 msgstr ""
+"Navegue até o menu <application><menuchoice><placeholder-"
+"1/><guimenuitem>Configurações</guimenuitem><guimenuitem>Programas e "
+"atualizações</guimenuitem></menuchoice></application> e clique na aba "
+"<guilabel>Atualizações</guilabel>. Nesta aba, no item <guilabel>Notificar-me "
+"de uma nova versão do Ubuntu</guilabel>, selecione ou <guilabel>Para "
+"qualquer nova versão</guilabel> ou <guilabel>Para versão de suporte "
+"longo</guilabel>, dependendo da sua escolha."
 
 #: user-docs/C/migrating-upgrading.xml:83(para)
 msgid ""
@@ -1336,6 +1834,14 @@ msgid ""
 "<userinput>prompt=normal</userinput> (for all releases) or "
 "<userinput>prompt=lts</userinput> (for LTS releases) depending on your choice"
 msgstr ""
+"Clique em <application><menuchoice><placeholder-"
+"1/><guisubmenu>Acessórios</guisubmenu><guimenuitem>Emulador de "
+"Terminal</guimenuitem></menuchoice></application> e digite "
+"<userinput>sudoedit /etc/update-manager/release-upgrades</userinput>, "
+"mudando a linha que inicia com <literal>prompt=</literal> para "
+"<userinput>prompt=normal</userinput> (para todas as versões) ou para "
+"<userinput>prompt=lts</userinput> (para versões LTS), dependendo da sua "
+"escolha."
 
 #: user-docs/C/migrating-upgrading.xml:86(para)
 msgid ""
@@ -1343,16 +1849,21 @@ msgid ""
 "LTS release, you should not change the upgrade target to long-term support "
 "(LTS) releases only."
 msgstr ""
+"Se você está executando uma versão regular, que não é seguida imediatamente "
+"por uma versão LTS, você não deve alterar o caminho de atualização para "
+"\"somente versões com suporte a longo prazo\"."
 
 #: user-docs/C/migrating-upgrading.xml:87(para)
 msgid ""
 "Upgrading an LTS version to anything other than another LTS version will "
 "lose the long term support."
 msgstr ""
+"Ao atualizar uma versão LTS para qualquer outra que não seja LTS, você "
+"perderá o suporte a longo prazo."
 
 #: user-docs/C/migrating-upgrading.xml:91(title)
 msgid "Upgrading to the development version"
-msgstr ""
+msgstr "Atualizando para uma versão de desenvolvimento."
 
 #: user-docs/C/migrating-upgrading.xml:93(para)
 msgid ""
@@ -1361,12 +1872,19 @@ msgid ""
 "these problems for yourself or if you want to help the Xubuntu team by "
 "testing and giving feedback."
 msgstr ""
+"Versões de desenvolvimento frequentemente sofrem com quebras de pacotes e "
+"outros problemas. Instale uma versão de desenvolvimento somente se você "
+"estiver preparado para consertar estes problemas por conta própria, ou se "
+"você quer ajudar a equipe do Xubuntu testando e fornecendo feedback do "
+"sistema."
 
 #: user-docs/C/migrating-upgrading.xml:94(para)
 msgid ""
 "You will need to be running the latest regular version to be able to upgrade "
 "to the version currently under development."
 msgstr ""
+"Para conseguir atualizar para uma versão em desenvolvimento, você deverá "
+"estar executando a versão regular mais recente do sistema."
 
 #: user-docs/C/migrating-upgrading.xml:95(para)
 msgid ""
@@ -1377,6 +1895,14 @@ msgid ""
 "url=\"http://xubuntu.org/contribute/qa\">getting involved</ulink> with "
 "reporting usage of development versions and associated packages."
 msgstr ""
+"Se você quiser instalar e testar a versão mais recente em desenvolvimento do "
+"Xubuntu, antes mesmo de ela ser lançada oficialmente, execute o comando "
+"<userinput>update-manager -c -d</userinput>. Este comando permitirá que você "
+"atualize o sistema para a versão atual em desenvolvimento. Por favor, "
+"considere as instruções em <ulink "
+"url=\"http://xubuntu.org/contribute/qa\">getting involved</ulink> sobre "
+"relatórios de uso em versões de desenvolvimento e sobre os pacotes "
+"associados."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1388,15 +1914,15 @@ msgstr ""
 
 #: user-docs/C/media-apps.xml:14(title)
 msgid "Media applications"
-msgstr ""
+msgstr "Aplicativos Multimídia"
 
 #: user-docs/C/media-apps.xml:17(title)
 msgid "Music"
-msgstr ""
+msgstr "Música"
 
 #: user-docs/C/media-apps.xml:20(title)
 msgid "Listening to music"
-msgstr ""
+msgstr "Ouvindo música"
 
 #: user-docs/C/media-apps.xml:22(para)
 msgid ""
@@ -1406,6 +1932,12 @@ msgid ""
 "click on audio files and select <menuchoice><guimenuitem>Open with Parole "
 "Media Player</guimenuitem></menuchoice>."
 msgstr ""
+"Você pode utilizar o <application>Parole Media Player</application> para "
+"ouvir música no seu computador. <application>Parole Media "
+"Player</application> abrirá arquivos de áudio quando você der um clique "
+"duplo neles. Alternativamente, você poderá clicar com o botão direito no "
+"arquivos de áudio e selecionar <menuchoice><guimenuitem>Abrir com Parole "
+"Media Player</guimenuitem></menuchoice>."
 
 #: user-docs/C/media-apps.xml:24(para)
 msgid ""
@@ -1413,6 +1945,9 @@ msgid ""
 "install some additional software. Unfortunately, this software cannot be "
 "provided by default in Xubuntu due to legal restrictions in some countries."
 msgstr ""
+"A fim de reproduzir alguns formatos populares de áudio como MP3, você deverá "
+"instalar algum software adicional. Infelizmente, este software não pode ser "
+"fornecido por padrão no Xubunu, devido a restrições legais em alguns países."
 
 #: user-docs/C/media-apps.xml:26(para) user-docs/C/media-apps.xml:51(para)
 msgid ""
@@ -1420,10 +1955,13 @@ msgid ""
 "the instructions below. There are some legal issues that you should be aware "
 "of."
 msgstr ""
+"Leia <xref linkend=\"software-repositories-restricted\"/> antes de seguir as "
+"instruções abaixo. Existem alguns problemas legais, sobre os quais você "
+"deverá estar ciente."
 
 #: user-docs/C/media-apps.xml:31(title)
 msgid "Portable music players"
-msgstr ""
+msgstr "Reprodutores portáteis de música"
 
 #: user-docs/C/media-apps.xml:33(para)
 msgid ""
@@ -1432,6 +1970,11 @@ msgid ""
 "use <application>File Manager</application> to manually copy songs to and "
 "from the player."
 msgstr ""
+"O Xubuntu não funcionará com a maioria dos reprodutores portáteis de áudio, "
+"incluindo iPods. Normalmente, tudo que você tem que fazer é plugar o "
+"reprodutor no seu computador e então utilizar o <application>Gerenciador de "
+"Arquivos</application> para copiar manualmente as músicas do computador para "
+"o reprodutor e vice-versa."
 
 #: user-docs/C/media-apps.xml:35(para)
 msgid ""
@@ -1439,6 +1982,9 @@ msgid ""
 "Xubuntu unless you have done an initial synchronization with "
 "<application>iTunes</application> first."
 msgstr ""
+"iPods mais novos (a partir da 6ª geração) não funcionarão automaticamente no "
+"Xubuntu, a não ser que você tenha feito uma sincronização inicial com o "
+"<application>iTunes</application> antes."
 
 #: user-docs/C/media-apps.xml:37(para)
 msgid ""
@@ -1449,20 +1995,30 @@ msgid ""
 "<application>gtkpod</application>, and "
 "<application>ideviceinstaller</application> for handling multimedia."
 msgstr ""
+"Se você tem um reprodutor portátil de música que também pode exibir fotos e "
+"vídeos, você pode utilizar o <application>Banshee</application>, que é um "
+"reprodutor de música com um bom suporte para este tipo de dispositivo. Os "
+"proprietários de iPod podem, também, testar aplicativos mais específicos, "
+"tais como <application>GPixPod</application>, "
+"<application>gtkpod</application>, e "
+"<application>ideviceinstaller</application> para a manipulação de arquivos "
+"multimídia."
 
 #: user-docs/C/media-apps.xml:42(title)
 msgid "Movies, DVDs and videos"
-msgstr ""
+msgstr "Filmes, DVDs e vídeos"
 
 #: user-docs/C/media-apps.xml:44(para)
 msgid ""
 "You can watch movies and video clips with the <application>Parole Media "
 "Player</application>."
 msgstr ""
+"Você pode assistir a filmes e clipes de vídeo com o <application>Parole "
+"Media Player</application>."
 
 #: user-docs/C/media-apps.xml:47(title)
 msgid "Playing DVDs"
-msgstr ""
+msgstr "Reproduzindo DVDs"
 
 #: user-docs/C/media-apps.xml:49(para)
 msgid ""
@@ -1470,10 +2026,13 @@ msgid ""
 "Unfortunately, DVD support cannot be provided by default in Xubuntu due to "
 "legal restrictions in some countries."
 msgstr ""
+"Para reproduzir DVDs, você deverá instalar alguns programas adicionais. "
+"Infelizmente, o suporte a DVDs no Xubuntu não é oferecido por padrão, devido "
+"a restrições legais existentes em alguns países."
 
 #: user-docs/C/media-apps.xml:53(para)
 msgid "To be able to play DVDs, do the following:"
-msgstr ""
+msgstr "Para reproduzir DVDs, siga as instruções:"
 
 #: user-docs/C/media-apps.xml:56(para)
 msgid ""
@@ -1481,12 +2040,17 @@ msgid ""
 "<literal><placeholder-2/>libdvdread4</literal> and <literal><placeholder-"
 "3/>gstreamer1.0-plugins-ugly</literal> packages."
 msgstr ""
+"Instale os pacotes <literal><placeholder-1/>libdvdnav4</literal>, "
+"<literal><placeholder-2/>libdvdread4</literal> e <literal><placeholder-"
+"3/>gstreamer1.0-plugins-ugly</literal>"
 
 #: user-docs/C/media-apps.xml:57(para)
 msgid ""
 "Insert a DVD into your drive. It should open automatically in the "
 "<application>Parole Media Player</application>."
 msgstr ""
+"Insira um DVD no seu drive. A reprodução deverá iniciar automaticamente no "
+"<application>Parole Media Player</application>."
 
 #: user-docs/C/media-apps.xml:58(para)
 msgid ""
@@ -1499,16 +2063,28 @@ msgid ""
 "libdvd-pkg</userinput> Take note of the information provided in the terminal "
 "during installation, particularly with regard to upgrades to the package."
 msgstr ""
+"Se você quiser reproduzir DVDs criptografados, clique em "
+"<application><menuchoice><placeholder-"
+"1/><guisubmenu>Acessórios</guisubmenu><guimenuitem>Emulador de "
+"Terminal</guimenuitem></menuchoice></application> e digite o seguinte "
+"comando no <application>Terminal</application>, seguido de "
+"<keycap><placeholder-2/>Enter</keycap>: <userinput>sudo apt-get install "
+"libdvd-pkg</userinput> Preste atenção nas informações exibidas no terminal "
+"durante a instalação, principalmente no que diz respeito a atualizações do "
+"pacote."
 
 #: user-docs/C/media-apps.xml:59(para)
 msgid ""
 "Once libdvd-pkg is finished run <userinput>sudo dpkg-reconfigure libdvd-"
 "pkg</userinput> The installation of libdvdcss2 will now complete."
 msgstr ""
+"Uma vez que o pacote libdvd-pkg está instalado, execute <userinput>sudo dpkg-"
+"reconfigure libdvd-pkg</userinput> A instalação do pacote libdvdcss2 será "
+"completada agora."
 
 #: user-docs/C/media-apps.xml:64(title)
 msgid "Playing video"
-msgstr ""
+msgstr "Reproduzindo vídeo"
 
 #: user-docs/C/media-apps.xml:66(para)
 msgid ""
@@ -1518,6 +2094,12 @@ msgid ""
 "install this plugin by following the wizard. Afterwards, you may need to "
 "restart <application>Parole Media Player</application>."
 msgstr ""
+"O <application>Parole Media Player</application> suporta a maioria dos tipos "
+"de vídeos. Se você tentar reproduzir um arquivo de vídeo não suportado, o "
+"<application>Parole Media Player</application> poderá notificar que algum "
+"plugin está faltando. Você poderá, então, instalar este plugin, seguindo o "
+"assistente. Ao final, talvez você precise reiniciar o <application>Parole "
+"Media Player</application>."
 
 #: user-docs/C/media-apps.xml:68(para)
 msgid ""
@@ -1527,10 +2109,16 @@ msgid ""
 "right-click the video and select <menuchoice><guimenuitem>Open with Parole "
 "Media Player</guimenuitem></menuchoice>."
 msgstr ""
+"Se você está tendo dificuldades em reproduzir um streaming de vídeo no seu "
+"navegador, o <application>Parole Media Player</application> suporta vários "
+"tipos de streaming de vídeo. Para abrir um vídeo no <application>Parole "
+"Media Player</application>, clique com o botão direito nele e selecione "
+"<menuchoice><guimenuitem>Abrir com Parole Media "
+"Player</guimenuitem></menuchoice>."
 
 #: user-docs/C/media-apps.xml:71(title)
 msgid "Restricted formats"
-msgstr ""
+msgstr "Formatos restritos"
 
 #: user-docs/C/media-apps.xml:73(para)
 msgid ""
@@ -1538,6 +2126,10 @@ msgid ""
 "are proprietary and so support for them cannot be included in Xubuntu by "
 "default. You must install some extra software to allow playback."
 msgstr ""
+"Alguns formatos de vídeos, tais como Adobe Flash, QuickTime e Windows Media "
+"Video, são proprietários e o suporte a eles não pode ser incluído no Xubuntu "
+"por padrão. Você deverá instalar algum software adicional para permitir a "
+"reprodução destes formatos."
 
 #: user-docs/C/media-apps.xml:75(para)
 msgid ""
@@ -1547,6 +2139,11 @@ msgid ""
 "(see <xref linkend=\"software-repositories-restricted\"/> for more "
 "information)."
 msgstr ""
+"Para reproduzir a maior parte dos formatos proprietários no "
+"<application>Parole Media Player</application> ou no "
+"<application>Firefox</application>, instale o pacote <literal><placeholder-"
+"1/>xubuntu-restricted-extras</literal> (mais informações em <xref "
+"linkend=\"software-repositories-restricted\"/>)."
 
 #: user-docs/C/media-apps.xml:81(title)
 msgid "Burning CDs and DVDs"
