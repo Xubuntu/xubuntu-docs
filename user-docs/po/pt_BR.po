@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-04-26 23:53+0100\n"
-"PO-Revision-Date: 2016-05-21 16:38+0000\n"
+"PO-Revision-Date: 2016-06-06 18:49+0000\n"
 "Last-Translator: Carlos Alberto Teixeira Magalhães "
 "<carlos.alberto.tm@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-05-22 05:59+0000\n"
-"X-Generator: Launchpad (build 18025)\n"
+"X-Launchpad-Export-Date: 2016-06-07 05:45+0000\n"
+"X-Generator: Launchpad (build 18097)\n"
 
 #: user-docs/C/xi-translators-not-found.xml:1(para)
 msgid ""
@@ -641,6 +641,8 @@ msgid ""
 "If you add a Launcher in the <guilabel>Items</guilabel> tab you can then "
 "edit the Launcher to run any application you have installed"
 msgstr ""
+"Se você adicionar um Lançador na aba <guilabel>Itens</guilabel>, você poderá "
+"editá-lo para executar qualquer aplicativo que você tenha instalado."
 
 #: user-docs/C/settings-preferences.xml:106(title)
 msgid "Changing your desktop themes"
@@ -1556,6 +1558,10 @@ msgid ""
 "<?br?><application><menuchoice><placeholder-3/><placeholder-"
 "4/></menuchoice></application> for additional configuration"
 msgstr ""
+"<application><menuchoice><placeholder-1/><placeholder-"
+"2/></menuchoice></application> para preferências pessoais "
+"<?br?><application><menuchoice><placeholder-3/><placeholder-"
+"4/></menuchoice></application> para configuração adicional"
 
 #: user-docs/C/migrating-upgrading.xml:26(seg)
 msgid "Windows Explorer"
@@ -2147,13 +2153,15 @@ msgstr ""
 
 #: user-docs/C/media-apps.xml:81(title)
 msgid "Burning CDs and DVDs"
-msgstr ""
+msgstr "Gravando CDs e DVDs"
 
 #: user-docs/C/media-apps.xml:83(para)
 msgid ""
 "You can make your own CDs and DVDs by burning files onto a blank disc using "
 "the CD or DVD writer drive of your computer."
 msgstr ""
+"Você poderá criar seus próprios CDs e DVDs, gravando arquivos em um disco "
+"virgem, utilizando um gravador de CD e DVD em seu computador."
 
 #: user-docs/C/media-apps.xml:85(para)
 msgid ""
@@ -2162,6 +2170,11 @@ msgid ""
 "easily create audio CDs, burn CDs and DVDs with either plain data or disk "
 "images and prepare blank re-writable disks for a new burn."
 msgstr ""
+"O <application>Xfburn</application> é o aplicativo padrão no Xubuntu para "
+"executar estas tarefas. O <application>Xfburn</application> permite, "
+"facilmente, que você crie CDs de áudio, grave CDs e DVDs com dados ou "
+"imagens de discos e, ainda, prepare discos regraváveis para uma nova "
+"gravação."
 
 #: user-docs/C/media-apps.xml:87(para)
 msgid ""
@@ -2170,6 +2183,10 @@ msgid ""
 "1/><guisubmenu>Multimedia</guisubmenu><guimenuitem>Xfburn</guimenuitem></menu"
 "choice></application>."
 msgstr ""
+"Para executar o <application>Xfburn</application>, clique em "
+"<application><menuchoice><placeholder-"
+"1/><guisubmenu>Multimídia</guisubmenu><guimenuitem>Xfburn</guimenuitem></menu"
+"choice></application>."
 
 #: user-docs/C/media-apps.xml:89(para)
 msgid ""
@@ -2178,10 +2195,13 @@ msgid ""
 "(<guibutton>New Data Composition</guibutton>, <guibutton>Audio "
 "CD</guibutton>, etc.)."
 msgstr ""
+"Com ele aberto, insira o CD-R(W) ou DVD-R(W) que você deseja gravar e então "
+"clique no botão da ação desejada (<guibutton>Nova Composição de "
+"Dados</guibutton>, <guibutton>CD de Áudio</guibutton>, etc.)."
 
 #: user-docs/C/managing-applications.xml:14(title)
 msgid "Managing installed applications"
-msgstr ""
+msgstr "Gerenciando aplicações instaladas"
 
 #: user-docs/C/managing-applications.xml:16(para)
 msgid ""
@@ -2190,16 +2210,22 @@ msgid ""
 "accessed with package managers in order to add, remove or update the "
 "packages."
 msgstr ""
+"No Xubuntu, você não precisa baixar e instalar cada pacote individualmente. "
+"Para ajudar nesta tarefa, dxistem os repositórios, que  contém conjuntos de "
+"pacotes. Estes repositórios são acessados por gerenciadores de pacotes ao "
+"adicionar, remover ou atualizar pacotes."
 
 #: user-docs/C/managing-applications.xml:18(para)
 msgid "Xubuntu comes with two package managers installed:"
-msgstr ""
+msgstr "O Xubuntu vem com dois gerenciadores de pacotes instalados."
 
 #: user-docs/C/managing-applications.xml:21(para)
 msgid ""
 "<application>Gnome Software</application>, a simple graphical user interface "
 "to install new software."
 msgstr ""
+"<application>Gnome Software</application>, uma interface gráfica simples que "
+"permite ao usuário instalar novos softwares."
 
 #: user-docs/C/managing-applications.xml:22(para)
 msgid ""
@@ -2208,10 +2234,17 @@ msgid ""
 "get</application>, see the <ulink url=\"http://www.debian.org/doc/user-"
 "manuals#apt-howto\">Debian apt manual</ulink>."
 msgstr ""
+"<application>apt-get</application>,  um ferramenta de linha de comando pode "
+"ser utilizada para o gerenciamento avançado de pacotes. Para mais "
+"informações sobre o <application>apt-get</application>, leia o <ulink "
+"url=\"http://www.debian.org/doc/user-manuals#apt-howto\">manual do apt "
+"Debian</ulink>."
 
 #: user-docs/C/managing-applications.xml:25(para)
 msgid "You will need administrative access to add and remove software."
 msgstr ""
+"Você precisará de permissões administrativas para adicionar e remover "
+"programas."
 
 #: user-docs/C/managing-applications.xml:27(para)
 msgid ""
@@ -2220,40 +2253,52 @@ msgid ""
 "message. In this case it is likely the second package manager will not "
 "function correctly."
 msgstr ""
+"Em muitos casos, você poderá utilizar somente um gerenciador de pacotes por "
+"vez. Se você iniciar outro gerenciador de pacotes enquanto um já estiver em "
+"execução, você poderá receber uma mensagem de erro. Neste caso, é provável "
+"que o segundo gerenciador de pacotes não funcione corretamente."
 
 #: user-docs/C/managing-applications.xml:30(title)
 msgid "Using Gnome Software"
-msgstr ""
+msgstr "Utilizando o Gnome Software"
 
 #: user-docs/C/managing-applications.xml:32(para)
 msgid ""
 "You can launch Gnome Software from <application><menuchoice><placeholder-"
 "1/><guimenuitem>Software</guimenuitem></menuchoice></application>."
 msgstr ""
+"Você pode executar o Gnome Software clicando em "
+"<application><menuchoice><placeholder-"
+"1/><guimenuitem>Software</guimenuitem></menuchoice></application>."
 
 #: user-docs/C/managing-applications.xml:35(title)
 msgid "Installing new software"
-msgstr ""
+msgstr "Instalando um novo software"
 
 #: user-docs/C/managing-applications.xml:38(para)
 msgid ""
 "Search for an application or select a category to find an application you "
 "want to install"
 msgstr ""
+"Procure um aplicativo ou selecione uma categoria para encontrar o aplicativo "
+"que você quer instalar"
 
 #: user-docs/C/managing-applications.xml:39(para)
 msgid "From the application page, click <guibutton>Install</guibutton>"
-msgstr ""
+msgstr "Na página do aplicativo, clique em <guibutton>Instalar</guibutton>"
 
 #: user-docs/C/managing-applications.xml:40(para)
 msgid ""
 "You will be asked to enter your password; once you do that, installation "
 "will begin"
 msgstr ""
+"Será solicitado que você digite sua senha; após isto, a instalação será "
+"iniciada"
 
 #: user-docs/C/managing-applications.xml:41(para)
 msgid "A shortcut to your application will added to the Applications menu"
 msgstr ""
+"Um atalho para o seu aplicativo será adicionado no menu de Aplicativos"
 
 #: user-docs/C/managing-applications.xml:44(para)
 msgid ""
@@ -2261,30 +2306,37 @@ msgid ""
 "connected to the Internet. See <xref linkend=\"offline-packages\"/> for "
 "information on using <application>apt-offline</application>."
 msgstr ""
+"Para instalar novos softwares a partir dos repositórios, você precisará "
+"estar conectado à Internet. Veja o <xref linkend=\"offline-packages\"/> para "
+"informações sobre a utilização do <application>apt-offline</application>."
 
 #: user-docs/C/managing-applications.xml:48(title)
 msgid "Removing software"
-msgstr ""
+msgstr "Removendo um software"
 
 #: user-docs/C/managing-applications.xml:51(para)
 msgid "Click <guilabel>Installed</guilabel> on the top panel"
-msgstr ""
+msgstr "Clique em <guilabel>Instalados</guilabel> no painel superior"
 
 #: user-docs/C/managing-applications.xml:52(para)
 msgid ""
 "Find the application that you want to remove by using the search box or "
 "looking through the installed applications"
 msgstr ""
+"Encontre o aplicativo que você quer remover utilizando a caixa de pesquisa "
+"ou verificando através dos aplicativos instalados"
 
 #: user-docs/C/managing-applications.xml:53(para)
 msgid "Select the application and click <guibutton>Remove</guibutton>"
-msgstr ""
+msgstr "Selecione o aplicativo e clique em <guibutton>Remover</guibutton>"
 
 #: user-docs/C/managing-applications.xml:54(para)
 msgid ""
 "You may be asked to enter your password; once you do that, the application "
 "will be removed"
 msgstr ""
+"Provavelmente, será solicitado que você digite sua senha; após isto, o "
+"aplicativo será removido"
 
 #: user-docs/C/managing-applications.xml:57(para)
 msgid ""
@@ -2293,6 +2345,10 @@ msgid ""
 "application, both of them will be removed. You will be asked to confirm that "
 "this is what you want to happen before the applications are removed."
 msgstr ""
+"Alguns aplicativos, para funcionarem corretamente, precisam que outros sejam "
+"instalados. Se você tentar remover um aplcativo que é necessário a algum "
+"outro, ambos serão removidos. Será solicitado que você confirme se realmente "
+"você quer a remoção dos aplicativos envolvidos."
 
 #: user-docs/C/managing-applications.xml:59(para)
 msgid ""
@@ -2302,20 +2358,27 @@ msgid ""
 "agreeing to the command continuing, check that the packages being marked for "
 "removal are as expected."
 msgstr ""
+"O <application>Gnome Software</application> não remove as dependências "
+"instaladas com um pacote. Para remover quaisquer dependências que não são "
+"mais necessárias, execute <userinput>sudo apt-get autoremove</userinput> em "
+"um terminal. Antes de continuar com a execução do comando, verifique se os "
+"pacotes marcados para remoção são realmente os esperados."
 
 #: user-docs/C/managing-applications.xml:66(title)
 msgid "Additional software repositories"
-msgstr ""
+msgstr "Repositórios de software adicionais"
 
 #: user-docs/C/managing-applications.xml:69(title)
 msgid "Enabling more repositories"
-msgstr ""
+msgstr "Habilitando mais repositórios"
 
 #: user-docs/C/managing-applications.xml:71(para)
 msgid ""
 "It is possible to add extra repositories, such as those provided by third "
 "parties. To enable more software repositories:"
 msgstr ""
+"É possível adicionar repositórios extras, tais como os fornecidos por "
+"terceiros. Para habilitar mais repositórios de software:"
 
 #: user-docs/C/managing-applications.xml:74(para)
 msgid ""
@@ -2327,10 +2390,19 @@ msgid ""
 "Updates</guimenuitem></menuchoice></application> and go to the "
 "<guilabel>Other Software</guilabel> tab"
 msgstr ""
+"Abra <application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"Gerenciador de Configurações</guimenuitem><guimenuitem>Programas e "
+"atualizações</guimenuitem></menuchoice></application> ou "
+"<application><menuchoice><placeholder-"
+"3/><guimenuitem>Configurações</guimenuitem><guimenuitem>Programas e "
+"atualizações</guimenuitem></menuchoice></application> e clique na aba "
+"<guilabel>Outros programas</guilabel>"
 
 #: user-docs/C/managing-applications.xml:75(para)
 msgid "Press <guibutton>Add...</guibutton> to add a new repository."
 msgstr ""
+"Clique em <guibutton>Adicionar... </guibutton> para adicionar um novo "
+"repositório."
 
 #: user-docs/C/managing-applications.xml:76(para)
 msgid ""
@@ -2339,18 +2411,25 @@ msgid ""
 "something like the following: <literal>deb http://ftp.debian.org etch "
 "main</literal>"
 msgstr ""
+"Forneça a linha APT do repositório adicional. Ela está disponível na página "
+"do repositório e, na maior parte dos casos, será parecida com a seguinte: "
+"<literal>deb http://ftp.debian.org etch main</literal>"
 
 #: user-docs/C/managing-applications.xml:77(para)
 msgid ""
 "Press <guibutton>Add Source</guibutton> and then click "
 "<guibutton>Close</guibutton> to save your changes."
 msgstr ""
+"Clique em <guibutton>Adicionar Fonte</guibutton> e então em "
+"<guibutton>Fechar</guibutton> para salvar suas alterações."
 
 #: user-docs/C/managing-applications.xml:78(para)
 msgid ""
 "You will be notified that the information about available software is out-of-"
 "date. Press <guibutton>Reload</guibutton>."
 msgstr ""
+"Será avisado a você que a lista de software disponível está desatualizada. "
+"Clique em <guibutton>Recarregar</guibutton>."
 
 #: user-docs/C/managing-applications.xml:79(para)
 msgid ""
@@ -2363,6 +2442,15 @@ msgid ""
 "<guilabel>Authentication</guilabel> tab, clicking on <guibutton>Import Key "
 "File</guibutton>, and then selecting the GPG key to be imported."
 msgstr ""
+"A maioria dos repositórios de software utiliza uma chave GPG para assinar "
+"digitalmente os arquivos que eles fornecem, o que torna mais fácil "
+"identificar se os arquivos não foram adulterados desde sua criação. Para "
+"habilitar o apt a checar isto, você precisará de uma chave pública que "
+"corresponda com as assinaturas. Esta chave deverá ser disponibilizada para "
+"download no site do repositório. Uma vez que você baixou a chave GPG, "
+"importe-a clicando na aba <guilabel>Autenticação</guilabel>, depois em "
+"<guibutton>Importando Arquivo de Chave</guibutton>, e então selecione a "
+"chave GPG a ser importada."
 
 #: user-docs/C/managing-applications.xml:82(para)
 msgid ""
@@ -2370,10 +2458,13 @@ msgid ""
 "not have been officially tested with Xubuntu and could cause your system to "
 "break."
 msgstr ""
+"Tenha cuidado ao instalar software a partir de repositórios de terceiros. "
+"Ele pode não ter sido oficialmente testado com o Xubuntu, causando eventuais "
+"danos ao seu sistema."
 
 #: user-docs/C/managing-applications.xml:86(title)
 msgid "Restricted and non-free software"
-msgstr ""
+msgstr "Software restrito e não livre"
 
 #: user-docs/C/managing-applications.xml:88(para)
 msgid ""
@@ -2382,6 +2473,10 @@ msgid ""
 "the software and redistribute it if they like. Xubuntu is built from this "
 "type of software."
 msgstr ""
+"A maioria do software disponível para o Xubuntu é livre e de código aberto. "
+"Este software é livre para qualquer pessoa instalar e utilizar, e as pessoas "
+"podem modificá-lo e redistribuí-lo se assim desejarem. O Xubuntu é "
+"construído a partir desse tipo de software."
 
 #: user-docs/C/managing-applications.xml:90(para)
 msgid ""
@@ -2391,6 +2486,12 @@ msgid ""
 "recommended that you use <ulink url=\"http://www.ubuntu.com/project/about-"
 "ubuntu/our-philosophy\">free software</ulink> instead."
 msgstr ""
+"<guilabel>Software não livre</guilabel> é um software que não é "
+"redistribuível ou modificável livremente. Isto torna difícil aos "
+"desenvolvedores do Xubuntu aplicar melhorias e corrigir problemas neste "
+"software, logo é recomendado que você utilize <ulink "
+"url=\"http://www.ubuntu.com/project/about-ubuntu/our-philosophy\">software "
+"livre</ulink> ao invés deste."
 
 #: user-docs/C/managing-applications.xml:92(para)
 msgid ""
@@ -2402,6 +2503,13 @@ msgid ""
 "illegal in some countries) and patent issues (some software requires a "
 "patent license to be used legally)."
 msgstr ""
+"<guilabel>Software restrito</guilabel> é um software que tem restrições em "
+"sua utilização, não podendo ser classificado como um software livre. Um "
+"software não livre é um tipo de software restrito, onde as restrições se "
+"devem à licença não livre do software. Outras razões para um software ser "
+"classificado como restrito incluiem questões legais (a utilização de alguns "
+"tipos de softwares é ilegal em alguns países) e questões de patentes (alguns "
+"softwares requerem uma licença patenteada para utilização legal)."
 
 #: user-docs/C/managing-applications.xml:94(para)
 msgid ""
@@ -2409,6 +2517,9 @@ msgid ""
 "software for the playback of certain audio and video formats, some fonts and "
 "certain video card drivers."
 msgstr ""
+"Em alguns casos, softwares restritos são a única opção. Tais casos incluem "
+"software para reprodução de formatos específicos de audio e vídeo, algumas "
+"fontes e drivers de placas de vídeo específicos."
 
 #: user-docs/C/managing-applications.xml:96(para)
 msgid ""
@@ -2420,6 +2531,14 @@ msgid ""
 "aware that most restricted software is not supported in Xubuntu and problems "
 "with such software often cannot be corrected by Xubuntu developers."
 msgstr ""
+"Você deverá ser avisado, pelo gerenciador de pacotes, quando você tentar "
+"instalar um software restrito. Se ele não puder ser utilizado legalmente no "
+"seu país, então não há muito o que fazer; você não deve instalar este "
+"software. Se o software é restrito simplesmente porque ele não é livre, você "
+"pode optar por utilizá-lo (por exemplo, no caso de drivers de placas de "
+"vídeo). Esteja ciente que a muitos softwares restritos não não suportados "
+"pelo Xubuntu e problemas em tais softwares frequentemente não podem ser "
+"corrigidos pelos desenvolvedores do Xubuntu."
 
 #: user-docs/C/managing-applications.xml:98(para)
 msgid ""
@@ -2429,24 +2548,31 @@ msgid ""
 "unable to determine why a package is restricted, err on the side of caution "
 "and do not install it; it may be illegal to use it in your country."
 msgstr ""
+"Às vezes, é difícil determinar por que um determinado pacote de software é "
+"restrito. Se este for o caso, procure ajuda nos <ulink "
+"url=\"http://ubuntuforums.org/\">Fóruns do Ubuntu</ulink>. Se você ainda não "
+"conseguiu descobrir por que um pacote é restrito, mantenha-se do lado da "
+"prudência e não o instale; pode ser ilegal utilizá-lo em seu país."
 
 #: user-docs/C/managing-applications.xml:103(title)
 msgid "Installing packages without an Internet connection"
-msgstr ""
+msgstr "Instalando pacotes sem uma conexão com a Internet"
 
 #: user-docs/C/managing-applications.xml:106(title)
 msgid "Adding discs as software sources"
-msgstr ""
+msgstr "Adicionando discos como fontes de software"
 
 #: user-docs/C/managing-applications.xml:108(para)
 msgid "To add a disc as a software source for your system:"
-msgstr ""
+msgstr "Para adicionar um disco como fonte de software em seu sistema:"
 
 #: user-docs/C/managing-applications.xml:111(para)
 msgid ""
 "Insert a disc which contains packages; e.g., the Xubuntu installation disc "
 "which comes with a limited selection of packages"
 msgstr ""
+"Insira um disco que contenha os pacotes; por exemplo, o disco de instalação "
+"do Xubuntu, que contém um seleção limitada de pacotes."
 
 #: user-docs/C/managing-applications.xml:112(para)
 msgid ""
@@ -2455,22 +2581,30 @@ msgid ""
 "Updates</guimenuitem></menuchoice></application> and go to the "
 "<guilabel>Other Software</guilabel> tab"
 msgstr ""
+"Clique em <application><menuchoice><placeholder-1/><guimenuitem><placeholder-"
+"2/> Gerenciador de Configurações</guimenuitem><guimenuitem>Programas e "
+"atualizações</guimenuitem></menuchoice></application> e clique na aba "
+"<guilabel>Outros programas</guilabel>"
 
 #: user-docs/C/managing-applications.xml:113(para)
 msgid ""
 "Press the <guibutton>Add Volume...</guibutton> button; you will be prompted "
 "for your password"
 msgstr ""
+"Pressione o botão <guibutton>Adicionar Volume...</guibutton>; sua senha será "
+"solicitada"
 
 #: user-docs/C/managing-applications.xml:116(para)
 msgid ""
 "After adding the disc to the software sources, you will be able to install "
 "packages from the disc."
 msgstr ""
+"Após adicionar o disco para as fontes de software, você será capaz de "
+"instalar pacotes a partir dele."
 
 #: user-docs/C/managing-applications.xml:120(title)
 msgid "Helpful application"
-msgstr ""
+msgstr "Aplicativo útil"
 
 #: user-docs/C/managing-applications.xml:122(para)
 msgid ""
@@ -2481,10 +2615,16 @@ msgid ""
 "example to learn more about this can be found in <xref linkend=\"offline-"
 "packages\"/>."
 msgstr ""
+"Se você não tem uma boa conexão com a Internet, o <application>apt-"
+"offline</application> permite que você utilize outro computador, com uma "
+"conexão melhor, para baixar pacotes e checar por atualizações de segurança, "
+"por exemplo. Tudo o que você precisa é tempo, paciência e um dispositivo de "
+"armazenamento USB portátil. Um exemplo de uso que ensinará mais sobre isto "
+"pode ser encontrado em <xref linkend=\"offline-packages\"/>."
 
 #: user-docs/C/managing-applications.xml:128(title)
 msgid "Changing update frequency and behavior"
-msgstr ""
+msgstr "Alterando a frequencia e o comportamento das atualizações"
 
 #: user-docs/C/managing-applications.xml:130(para)
 msgid ""
@@ -2499,14 +2639,26 @@ msgid ""
 "Updates</guimenuitem></menuchoice></application> and opening the "
 "<guilabel>Updates</guilabel> tab."
 msgstr ""
+"Você pode alterar a frequencia das verificações e a maneira na qual as "
+"atualizações são manipuladas. Quando o <application>Atualizador de "
+"Programas</application> é executado, ele mostra um botão "
+"<guilabel>Configurações</guilabel> no rodapé. Clicando nele, será aberto o "
+"diálogo <guilabel>Programas e atualizações</guilabel>, na aba "
+"<guilabel>Atualizações</guilabel>. Alternativamente, você pode acessar o "
+"diálogo clicando em <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> Gerenciador de "
+"Configurações</guimenuitem><guimenuitem>Programas e "
+"atualizações</guimenuitem></menuchoice></application> e abrindo a aba "
+"<guilabel>Atualizações</guilabel>."
 
 #: user-docs/C/managing-applications.xml:131(para)
 msgid "The following settings can be changed from this dialog:"
 msgstr ""
+"As configurações seguintes podem ser alteradas a partir deste diálogo:"
 
 #: user-docs/C/managing-applications.xml:134(title)
 msgid "Update Sources"
-msgstr ""
+msgstr "Origem das Atualizações"
 
 #: user-docs/C/managing-applications.xml:137(para)
 msgid ""
@@ -2514,6 +2666,10 @@ msgid ""
 "security flaws are made available through this source. It is recommended "
 "that all users leave this source enabled (it should be enabled by default)."
 msgstr ""
+"<guilabel>Atualizações de segurança importantes</guilabel> - Atualizações "
+"que corrigem falhas críticas são disponibilizadas através desta fonte. É "
+"recomendado que todos os usuários deixem esta fonte habilitada (ela estará "
+"habilitada por padrão)."
 
 #: user-docs/C/managing-applications.xml:138(para)
 msgid ""
@@ -2522,10 +2678,15 @@ msgid ""
 "source. Most users will want to leave this source enabled as common and "
 "annoying problems are often fixed with these updates."
 msgstr ""
+"<guilabel>Atualizações recomendadas</guilabel> - Atualizações que corrigem "
+"problemas sérios em softwares (exceto falhas de segurança) são "
+"disponibilizadas através desta fonte. A maioria dos usuários desejará que "
+"esta fonte esteja habilitada, uma vez que problemas comuns e irritantes são "
+"frequentemente resolvidos com estas atualizações."
 
 #: user-docs/C/managing-applications.xml:141(para)
 msgid "The following updates should be used with some caution."
-msgstr ""
+msgstr "As atualizações seguintes devem ser utilizadas com atenção."
 
 #: user-docs/C/managing-applications.xml:144(para)
 msgid ""
@@ -2536,6 +2697,13 @@ msgid ""
 "not yet be well tested; it is not recommended that you enable this source "
 "unless you are prepared to experience occasional problems."
 msgstr ""
+"<guilabel>Atualizações de pré-lançamento</guilabel> -  Atualizações que "
+"estão em fase de testes, antes de serem lançadas ao público, são fornecidas "
+"através desta fonte. Se você quiser ajudar testando novas atualizações (e "
+"recebendo correções para problemas mais rapidamente), habilite esta fonte. "
+"Esteja ciente que estas atualizações podem não ser bem testadas; não é "
+"recomendado que você habilite esta fonte, a menos que você esteja preparado "
+"para enfrentar eventuais problemas."
 
 #: user-docs/C/managing-applications.xml:145(para)
 msgid ""
@@ -2546,33 +2714,48 @@ msgid ""
 "should only be used by people who are in a real need of a new version of a "
 "software package that they know has been backported."
 msgstr ""
+"<guilabel>Atualizações não suportadas</guilabel> - Quando novas versões de "
+"um software popular são lançadas, às vezes elas são \"portadas\" para uma "
+"versão mais antiga do Xubuntu, para que os usuários desta versão antiga "
+"possam se beneficiar de novos recursos e correções de problemas. Estes "
+"pacotes portados não são suportados, podem causar problemas quando "
+"instalados e devem ser utilizados somente por pessoas que tem uma real "
+"necessidade da nova versão do pacote."
 
 #: user-docs/C/managing-applications.xml:150(title)
 msgid "Notifications of new Xubuntu versions"
-msgstr ""
+msgstr "Notificações de novas versões do Xubuntu"
 
 #: user-docs/C/managing-applications.xml:152(para)
 msgid ""
 "This section of the <application>Software Updater</application> deals with "
 "the way you wish future versions to be given to you. You have three options:"
 msgstr ""
+"Esta seção do <application>Atualizador de programas</application> explica "
+"como versões futuras serão apresentadas a você. Você tem três opções:"
 
 #: user-docs/C/managing-applications.xml:155(para)
 msgid ""
 "<guilabel>For any new version</guilabel> - You will get notifications of all "
 "new releases, once in 6 months"
 msgstr ""
+"<guilabel>Para qualquer nova versão</guilabel> - Você será notificado sobre "
+"todo lançamento de versão, a cada 6 meses"
 
 #: user-docs/C/managing-applications.xml:156(para)
 msgid ""
 "<guilabel>For long-term support versions</guilabel> - You will get "
 "notifications of new Long-term Support (LTS) releases, once in 2 years"
 msgstr ""
+"<guilabel>Para versões de suporte longo</guilabel> - Você será notificado "
+"apenas sobre lançamentos de versões de suporte longo (Long-term Support - "
+"LTS), a cada 2 anos"
 
 #: user-docs/C/managing-applications.xml:157(para)
 msgid ""
 "<guilabel>Never</guilabel> - You will not get notifications of new releases"
 msgstr ""
+"<guilabel>Nunca</guilabel> - Você não será notificado sobre novos lançamentos"
 
 #: user-docs/C/managing-applications.xml:160(para)
 msgid ""
@@ -2580,6 +2763,9 @@ msgid ""
 "recommmended option, especially if you are running Xubuntu on a production "
 "machine and/or need maximum stability."
 msgstr ""
+"Geralmente, a opção recomendada é receber notificações de versões de suporte "
+"longo (LTS), especialmente se você está executando o Xubuntu em uma máquina "
+"de produção e/ou que necessita de máxima estabilidade."
 
 #: user-docs/C/managing-applications.xml:162(para)
 msgid ""
@@ -2590,22 +2776,33 @@ msgid ""
 "See <xref linkend=\"migrating-upgrading\"/> for more information on "
 "upgrading Xubuntu and release support lengths."
 msgstr ""
+"Não é recomentado utilizar a configuração <guilabel>Nunca</guilabel>. Isto "
+"deixará você com um sistema sem suporte, a menos que você se lembre "
+"manualmente de atualizá-lo com uma certa frequencia. Além disso, você estará "
+"deixando de receber correções de bugs,  atualizações para eventuais "
+"problemas de segurança e melhorias no suporte ao hardware. Consulte <xref "
+"linkend=\"migrating-upgrading\"/> para mais informações sobre a atualização "
+"do Xubuntu e os caminhos de suporte aos lançamentos de versões."
 
 #: user-docs/C/managing-applications.xml:166(title)
 msgid "Other options"
-msgstr ""
+msgstr "Outras opções"
 
 #: user-docs/C/managing-applications.xml:168(para)
 msgid ""
 "Package updates can be scheduled from the desktop and you can change how and "
 "when the system updates itself."
 msgstr ""
+"As atualizações de pacotes podem ser agendadas no seu computador e você "
+"poderá alterar como e quando o sistema irá executá-las."
 
 #: user-docs/C/managing-applications.xml:171(para)
 msgid ""
 "<guilabel>Frequency of check</guilabel> - Allows you to schedule when to "
 "check for updates"
 msgstr ""
+"<guilabel>Frequencia de verificações</guilabel> - Permite que você agende "
+"quando verificar por atualizações"
 
 #: user-docs/C/managing-applications.xml:172(para)
 msgid ""
@@ -2614,6 +2811,10 @@ msgid ""
 "confirmation or downloads all updates in the background but waits for you to "
 "manually install them"
 msgstr ""
+"<guilabel>Verificando e instalando automaticamente as "
+"atualizações</guilabel> - Permite que você defina se o sistema baixará e "
+"instalará as atualizações sem confirmação ou baixará todas as atualizações "
+"em segundo plano e aguardará que você as instale manualmente."
 
 #: user-docs/C/managing-applications.xml:173(para)
 msgid ""
@@ -2621,10 +2822,13 @@ msgid ""
 "Allows you to define when will the system notify you about available "
 "security updates"
 msgstr ""
+"<guilabel>Exibindo notificações sobre atualizações de segurança</guilabel> - "
+"Permite que você defina quando o sistema lhe notificará sobre atualizações "
+"de segurança disponíveis."
 
 #: user-docs/C/internet-networks.xml:14(title)
 msgid "Connecting to Internet and Networks"
-msgstr ""
+msgstr "Conectado a Redes e à Internet"
 
 #: user-docs/C/internet-networks.xml:16(para)
 msgid ""
@@ -2633,6 +2837,10 @@ msgid ""
 "<application>NetworkManager</application> also keeps passwords secure by "
 "utilizing the user's keyring to store passphrases."
 msgstr ""
+"O Xubuntu utiliza o <application>Conexões de rede</application> para "
+"gerenciar conexões cabeadas, sem fio, móveis VPN e DSL. O "
+"<application>Conexões de rede</application> também mantém as senhas seguras, "
+"utilizando o chaveiro do usuário para armazená-las."
 
 #: user-docs/C/internet-networks.xml:18(para)
 msgid ""
@@ -2641,20 +2849,28 @@ msgid ""
 "shows two grayed out arrows pointing up and down. When you are connected, "
 "the icon is different depending on the network type in use."
 msgstr ""
+"O <application>Conexões de rede</application> é um dos ícones pequenos que "
+"aparecem no lado superior direito do painel, que fica no topo da sua tela. "
+"Quando você não estiver conectado, o ícone exibirá, na cor cinza, duas setas "
+"verticais, apontando para cima e para baixo. Quando você estiver conectado, "
+"o ícone exibido será diferente, dependendo do tipo de conexão que estiver em "
+"uso."
 
 #: user-docs/C/internet-networks.xml:21(title)
 msgid "Network connections"
-msgstr ""
+msgstr "Conexões de rede"
 
 #: user-docs/C/internet-networks.xml:24(title)
 msgid "Connecting and disconnecting"
-msgstr ""
+msgstr "Conectando e desconectando"
 
 #: user-docs/C/internet-networks.xml:26(para)
 msgid ""
 "<application>NetworkManager</application> will automatically use a wired "
 "network, if one is available."
 msgstr ""
+"O <application>Conexões de rede</application> irá automaticamente utilizar "
+"uma conexão cabeada, se ela estiver disponível."
 
 #: user-docs/C/internet-networks.xml:28(para)
 msgid ""
@@ -2662,6 +2878,9 @@ msgid ""
 "<application>NetworkManager</application> icon. To connect to a network, "
 "click the network name."
 msgstr ""
+"Para ver todas as conexões disponíveis, clique no ícone "
+"<application>Conexões de rede</application>. Para conectar a uma rede, "
+"clique no nome dela."
 
 #: user-docs/C/internet-networks.xml:30(para)
 msgid ""
@@ -2671,6 +2890,12 @@ msgid ""
 "security type from the <guilabel>Wi-Fi Security</guilabel> drop-down box, "
 "enter the authentication details and press <guibutton>Connect</guibutton>."
 msgstr ""
+"Se você está conectando a uma rede wireless pela primeira vez, pode ser "
+"necessário fornecer alguns detalhes, uma caixa de diálogo abrirá quando "
+"necessário. Em muitos casos, o tipo de segurança da rede será detectado "
+"automaticamente. Se não for, selecione o tipo de segurança na caixa "
+"<guilabel>Segurança Wi-Fi</guilabel>, forneça os detalhes da autenticação e "
+"clique em <guibutton>Conectar</guibutton>."
 
 #: user-docs/C/internet-networks.xml:32(para)
 msgid ""
@@ -2684,10 +2909,18 @@ msgid ""
 "choices are toggles. Their enabled/disabled status is indicated by the "
 "presence/absence of a check mark."
 msgstr ""
+"Para desconectar de uma rede, clique no ícone <application>Conexões de "
+"rede</application> e selecione <guilabel>Desconectar</guilabel> no tipo de "
+"conexão que você deseja. Para desativar (e reativar) todas as conexões "
+"cabeadas e/ou wireless, clique no ícone <application>Conexões de "
+"rede</application>, selecione <menuchoice><guimenuitem>Habilitar "
+"rede</guimenuitem></menuchoice> e <menuchoice><guimenuitem>Habilitar Wi-"
+"Fi</guimenuitem></menuchoice>. Estas opções estão juntas. Cada conexão "
+"habilitada é caracterizada por uma marca ao lado do tipo dela."
 
 #: user-docs/C/internet-networks.xml:36(title)
 msgid "Configuring connections"
-msgstr ""
+msgstr "Configurando conexões"
 
 #: user-docs/C/internet-networks.xml:38(para)
 msgid ""
@@ -2698,6 +2931,13 @@ msgid ""
 "network and press <guibutton>Edit</guibutton> or press "
 "<guibutton>Add</guibutton> to set up new networks."
 msgstr ""
+"Se você precisa configurar suas conexões, clique no ícone "
+"<application>Conexões de rede</application> e selecione "
+"<menuchoice><guimenuitem>Editar conexões...</guimenuitem></menuchoice>. No "
+"diálogo que será aberto, você verá que cada tipo de conexão conterá uma ou "
+"mais conexões. Selecione a conexão apropriada e clique em "
+"<guibutton>Editar</guibutton>, ou clique em <guibutton>Adicionar</guibutton> "
+"para configurar novas conexões."
 
 #: user-docs/C/internet-networks.xml:40(para)
 msgid ""
@@ -2705,10 +2945,13 @@ msgid ""
 "which you will get from your network administrator or your Internet Service "
 "Provider."
 msgstr ""
+"Para conseguir conectar em algumas redes, você pode precisar fornecer mais "
+"detalhes da conexão, os quais você obterá com seu administrador de rede ou "
+"provedor de Internet (ISP)."
 
 #: user-docs/C/internet-networks.xml:44(title)
 msgid "Connection information"
-msgstr ""
+msgstr "Informações da conexão"
 
 #: user-docs/C/internet-networks.xml:46(para)
 msgid ""
@@ -2718,10 +2961,15 @@ msgid ""
 "Your active network connections will be displayed in the <guilabel>Active "
 "Connections</guilabel> dialog, each in a separate tab."
 msgstr ""
+"Para ver as informações da conexão, clique no ícone <application>Conexões de "
+"rede</application> e selecione <menuchoice><guimenuitem>Informações da "
+"conexão</guimenuitem></menuchoice>. As conexões ativas serão exibidas no "
+"diálogo <guilabel>Conexões de rede ativas</guilabel>, cada uma em uma aba "
+"diferente."
 
 #: user-docs/C/internet-networks.xml:50(title)
 msgid "Sharing your connection to another computer"
-msgstr ""
+msgstr "Compartilhando sua conexão de rede com outro computador"
 
 #: user-docs/C/internet-networks.xml:52(para)
 msgid ""
@@ -2734,10 +2982,18 @@ msgid ""
 "<guilabel>Method</guilabel> to <guilabel>Shared to other "
 "computers</guilabel> from the drop-down list."
 msgstr ""
+"Você pode compartilhar sua conexão com outro computador, utilizando um cabo "
+"de rede Ethernet. Isto pode ser feito clicando no ícone "
+"<application>Conexões de rede</application>, selecionando "
+"<menuchoice><guimenuitem>Editar conexões...</guimenuitem></menuchoice> e "
+"então adicionando uma nova conexão (ou editando uma já existente). Na janela "
+"de propriedades da conexão, selecione <guilabel>Configurações "
+"IPv4</guilabel> e mude o item <guilabel>Método</guilabel> para "
+"<guilabel>Compartilhado com outros computadores</guilabel>."
 
 #: user-docs/C/internet-networks.xml:56(title)
 msgid "Dialup modems"
-msgstr ""
+msgstr "Modems dialup"
 
 #: user-docs/C/internet-networks.xml:58(para)
 msgid ""
@@ -2747,42 +3003,57 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/DialupModemHowto\">Dialup modem How-"
 "to</ulink> on the Ubuntu community wiki."
 msgstr ""
+"Infelizmente, modems dialup não são suportados pelo <application>Conexões de "
+"rede</application>. Para saber como conectar utilizando um modem dialup, por "
+"favor leia o <ulink "
+"url=\"https://help.ubuntu.com/community/DialupModemHowto\">Guia do modem "
+"Dialup</ulink> na wiki da comunidade Ubuntu."
 
 #: user-docs/C/internet-networks.xml:62(title)
 msgid "Network troubleshooting"
-msgstr ""
+msgstr "Solução de problemas na conectividade da rede"
 
 #: user-docs/C/internet-networks.xml:64(para)
 msgid ""
 "Before attempting any troubleshooting, ensure that the network connections "
 "are enabled:"
 msgstr ""
+"Antes de tentar resolver qualquer problema, tenha certeza que as conexões de "
+"rede estão habilitadas:"
 
 #: user-docs/C/internet-networks.xml:67(para)
 msgid ""
 "Click the <application>NetworkManager</application> icon in the notification "
 "area"
 msgstr ""
+"Clique no ícone <application>Conexões de rede</application> na área de "
+"notificação"
 
 #: user-docs/C/internet-networks.xml:68(para)
 msgid ""
 "Check <menuchoice><guimenuitem>Enable Networking</guimenuitem></menuchoice>"
 msgstr ""
+"Cheque o item <menuchoice><guimenuitem>Habilitar "
+"rede</guimenuitem></menuchoice>"
 
 #: user-docs/C/internet-networks.xml:69(para)
 msgid ""
 "Check <menuchoice><guimenuitem>Enable Wi-Fi</guimenuitem></menuchoice>"
 msgstr ""
+"Cheque o item <menuchoice><guimenuitem>Habilitar Wi-"
+"Fi</guimenuitem></menuchoice>"
 
 #: user-docs/C/internet-networks.xml:72(para)
 msgid "If your network connection still doesn't work:"
-msgstr ""
+msgstr "Se a sua conexão de rede ainda não funciona:"
 
 #: user-docs/C/internet-networks.xml:75(para)
 msgid ""
 "For wired (Ethernet) connections, please see <xref linkend=\"network-"
 "troubleshooting-general\"/>"
 msgstr ""
+"Para conexões cabeadas (Ethernet), por favor leia a seção <xref "
+"linkend=\"network-troubleshooting-general\"/>"
 
 #: user-docs/C/internet-networks.xml:76(para)
 msgid ""
@@ -2790,40 +3061,49 @@ msgid ""
 "troubleshooting-general\"/> and <xref linkend=\"network-troubleshooting-"
 "wireless\"/>"
 msgstr ""
+"Para conexões sem fio, por favor leia as seções <xref linkend=\"network-"
+"troubleshooting-general\"/> e <xref linkend=\"network-troubleshooting-"
+"wireless\"/>"
 
 #: user-docs/C/internet-networks.xml:77(para)
 msgid ""
 "If your network connection problems are still not resolved, see <xref "
 "linkend=\"network-troubleshooting-advanced\"/>"
 msgstr ""
+"Se, mesmo assim, os problemas da sua conexão de rede não forem resolvidos, "
+"leia a seção <xref linkend=\"network-troubleshooting-advanced\"/>"
 
 #: user-docs/C/internet-networks.xml:81(title)
 msgid "General troubleshooting"
-msgstr ""
+msgstr "Solução de problemas comuns"
 
 #: user-docs/C/internet-networks.xml:83(para)
 msgid ""
 "If your network connection is not working properly, there are a few tools "
 "that can be used to help diagnose the problem."
 msgstr ""
+"Se a sua conexão de rede não está funcionando devidamente, existem algumas "
+"ferramentas que podem ajudar você a diagnosticar o problema."
 
 #: user-docs/C/internet-networks.xml:86(title)
 msgid "Get information about the current connection"
-msgstr ""
+msgstr "Obtenha informações sobre a conexão atual"
 
 #: user-docs/C/internet-networks.xml:88(para)
 msgid ""
 "To get information about your network connection and network devices, you "
 "have two options:"
 msgstr ""
+"Você tem duas alternativas para obter informações sobre a sua conexão de "
+"rede, bem como sobre os dispositivos de rede:"
 
 #: user-docs/C/internet-networks.xml:92(para)
 msgid "Using <application>NetworkManager</application>"
-msgstr ""
+msgstr "Utilizando o <application>Conexões de rede</application>"
 
 #: user-docs/C/internet-networks.xml:94(para)
 msgid "Click on the <application>NetworkManager</application> icon"
-msgstr ""
+msgstr "Clique no ícone <application>Conexões de rede</application>"
 
 #: user-docs/C/internet-networks.xml:95(para)
 msgid ""
@@ -2832,16 +3112,22 @@ msgid ""
 "there is no active connection. Try using <application>ifconfig</application> "
 "to find out more."
 msgstr ""
+"Clique em <menuchoice><guimenuitem>Informações da "
+"conexão</guimenuitem></menuchoice>. Se essa está desabilitada, é provável "
+"que não haja uma conexão ativa. Tente utilizar o "
+"<application>ifconfig</application> para saber mais informações."
 
 #: user-docs/C/internet-networks.xml:96(para)
 msgid ""
 "Each active connection will have its own tab where you can find relevant "
 "connection information"
 msgstr ""
+"Cada conexão ativa terá sua própria aba, onde você poderá encontrar mais "
+"informações relevantes."
 
 #: user-docs/C/internet-networks.xml:100(para)
 msgid "Using <application>ifconfig</application>"
-msgstr ""
+msgstr "Utilizando o <application>ifconfig</application>"
 
 #: user-docs/C/internet-networks.xml:102(para)
 msgid ""
@@ -2851,6 +3137,11 @@ msgid ""
 "<userinput>ifconfig</userinput> then press the <keycap><placeholder-"
 "2/>Enter</keycap> key."
 msgstr ""
+"Abra um terminal (<application><menuchoice><placeholder-"
+"1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Emulador de "
+"terminal</guimenuitem></menuchoice></application>), digite o comando "
+"<userinput>ifconfig</userinput> e tecle <keycap><placeholder-"
+"2/>Enter</keycap>."
 
 #: user-docs/C/internet-networks.xml:103(para)
 msgid ""
@@ -2859,16 +3150,23 @@ msgid ""
 "in the left column, IP address in the <guilabel>inet addr</guilabel> column "
 "and the MAC address for your device in the <guilabel>HWaddr</guilabel> column"
 msgstr ""
+"O <application>ifconfig</application> irá lhe mostrar várias informações "
+"sobre sua conexão, incluindo o nome lógico ou da conexão (por exemplo, "
+"enp3s0) na coluna à esquerda, o endereço IP na coluna <guilabel>inet "
+"addr</guilabel> e o endereço MAC do seu dispositivo na coluna "
+"<guilabel>HWaddr</guilabel>"
 
 #: user-docs/C/internet-networks.xml:110(title)
 msgid "Check if a connection is working properly"
-msgstr ""
+msgstr "Verifique se a conexão está funcionando corretamente"
 
 #: user-docs/C/internet-networks.xml:112(para)
 msgid ""
 "A reliable method to check if a connection is working properly is to ping "
 "another computer on the network or the Internet."
 msgstr ""
+"Um método confiável para checar se uma conexão está funcionando "
+"adequadamente, é pingar outro computador na rede ou na Internet."
 
 #: user-docs/C/internet-networks.xml:114(para)
 msgid ""
@@ -2879,6 +3177,12 @@ msgid ""
 "<userinput>ping -c 3 www.xubuntu.org</userinput> then press the "
 "<keycap><placeholder-2/>Enter</keycap> key."
 msgstr ""
+"Para verificar se o seu computador está conectado à Internet, abra um "
+"terminal (<application><menuchoice><placeholder-"
+"1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Emulador de "
+"terminal</guimenuitem></menuchoice></application>), digite o comando "
+"<userinput>ping -c 3 www.xubuntu.org</userinput> e tecle "
+"<keycap><placeholder-2/>Enter</keycap>."
 
 #: user-docs/C/internet-networks.xml:116(para)
 msgid ""
@@ -2887,17 +3191,24 @@ msgid ""
 "transmitted, how many packets were received, the percentage of packet loss, "
 "and the total time spent."
 msgstr ""
+"O computador irá tentar contactar www.xubuntu.org três vezes e exibir os "
+"resultados. As estatísticas do ping mostram o número de pacotes "
+"transmitidos, quantos pacotes foram recebidos, a porcentagem de pacotes "
+"perdidos e o tempo total utilizado."
 
 #: user-docs/C/internet-networks.xml:119(para)
 msgid ""
 "0% packet loss indicates that your computer is connected to the Internet"
 msgstr ""
+"0% de pacotes perdidos indicam que o seu computador está conectado à Internet"
 
 #: user-docs/C/internet-networks.xml:120(para)
 msgid ""
 "Greater than 0% but less than 100% packet loss indicates that your computer "
 "has a poor connection to the Internet or a poor wireless signal"
 msgstr ""
+"Entre 0% e 100% de pacotes perdidos indicam que o seu computador tem uma "
+"conexão ruim com a Internet ou um sinal ruim da rede sem fio"
 
 #: user-docs/C/internet-networks.xml:121(para)
 msgid ""
@@ -2905,6 +3216,9 @@ msgid ""
 "is connected to an access point or router that is not connected to the "
 "Internet"
 msgstr ""
+"100% de pacotes perdidos indicam que o seu computador tem uma conexão "
+"péssima ou ele está conectado a um access point ou roteador que não está "
+"conectado à Internet"
 
 #: user-docs/C/internet-networks.xml:124(para)
 msgid ""
@@ -2912,10 +3226,14 @@ msgid ""
 "or \"unknown host\", then your computer is probably not connected to the "
 "Internet or is unable to reach a Domain Name System (DNS) server."
 msgstr ""
+"Se você receber uma mensagem de erro do tipo  \"www.xubuntu.org não pode ser "
+"encontrado\" ou \"host desconhecido\", então o seu computador está "
+"provavelmente desconectado da Internet ou é incapaz de alcançar um servidor "
+"DNS (Servidor de Nomes de Domínio)."
 
 #: user-docs/C/internet-networks.xml:129(title)
 msgid "Wireless troubleshooting"
-msgstr ""
+msgstr "Solução de problemas na rede sem fio"
 
 #: user-docs/C/internet-networks.xml:131(para)
 msgid ""
@@ -2924,6 +3242,10 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/WifiDocs\">Community Help "
 "Wiki</ulink>."
 msgstr ""
+"Esta seção cobre alguns problemas comuns enfrentados nas redes sem fio. Há "
+"muito mais informações disponíveis na <ulink "
+"url=\"https://help.ubuntu.com/community/WifiDocs\">Wiki de Ajuda da "
+"Comunidade</ulink>."
 
 #: user-docs/C/internet-networks.xml:133(para)
 msgid ""
@@ -2931,24 +3253,30 @@ msgid ""
 "carried out in the order shown, unless you are pointed to a different "
 "subsection."
 msgstr ""
+"Por favor, note que os passos neste guia de resolução de problemas devem ser "
+"realizados na ordem exibida, a menos que você seja direcionado a uma "
+"subseção específica."
 
 #: user-docs/C/internet-networks.xml:136(title)
 msgid "Check that the device is turned on"
-msgstr ""
+msgstr "Verifique se o dispositivo está ligado"
 
 #: user-docs/C/internet-networks.xml:138(para)
 msgid ""
 "Many wireless network devices can be turned on or off. Check for a hardware "
 "switch or a keyboard function key to turn the wireless device on."
 msgstr ""
+"Muitos dispositivos de rede sem fio podem ser ligados ou desligados. Procure "
+"uma espécie de interruptor no hardware ou uma tecla de função no teclado "
+"para ligar o dispositivo de rede sem fio."
 
 #: user-docs/C/internet-networks.xml:140(para)
 msgid "If the device is turned on, continue to the next topic."
-msgstr ""
+msgstr "Se o dispositivo está ligado, continue no próximo tópico."
 
 #: user-docs/C/internet-networks.xml:144(title)
 msgid "Check if the device is recognized"
-msgstr ""
+msgstr "Verifique se o dispositivo foi reconhecido"
 
 #: user-docs/C/internet-networks.xml:146(para)
 msgid ""
@@ -2960,6 +3288,13 @@ msgid ""
 "with the words <guilabel>CLAIMED</guilabel>, <guilabel>UNCLAIMED</guilabel>, "
 "<guilabel>ENABLED</guilabel> or <guilabel>DISABLED</guilabel>."
 msgstr ""
+"Abra um terminal (<application><menuchoice><placeholder-"
+"1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Emulador de "
+"terminal</guimenuitem></menuchoice></application>), digite o comando "
+"<userinput>sudo lshw -C network</userinput> e tecle <keycap><placeholder-"
+"2/>Enter</keycap>. Você verá alguma saída, juntamente com as palavras "
+"<guilabel>CLAIMED</guilabel>, <guilabel>UNCLAIMED</guilabel>, "
+"<guilabel>ENABLED</guilabel> ou <guilabel>DISABLED</guilabel>."
 
 #: user-docs/C/internet-networks.xml:149(para)
 msgid ""
@@ -2967,12 +3302,17 @@ msgid ""
 "functioning. Continue to <xref linkend=\"network-troubleshooting-"
 "ndiswrapper\"/>."
 msgstr ""
+"<guilabel>CLAIMED</guilabel> indica que o driver está carregado mas não está "
+"funcionando. Continue para a subseção <xref linkend=\"network-"
+"troubleshooting-ndiswrapper\"/>."
 
 #: user-docs/C/internet-networks.xml:150(para)
 msgid ""
 "<guilabel>UNCLAIMED</guilabel> indicates that there is no driver loaded. "
 "Continue to <xref linkend=\"network-troubleshooting-ndiswrapper\"/>."
 msgstr ""
+"<guilabel>UNCLAIMED</guilabel> indica que não há driver carregado. Continue "
+"para a subseção <xref linkend=\"network-troubleshooting-ndiswrapper\"/>."
 
 #: user-docs/C/internet-networks.xml:151(para)
 msgid ""
@@ -2980,16 +3320,22 @@ msgid ""
 "working. Continue to section <xref linkend=\"network-troubleshooting-"
 "router\"/>."
 msgstr ""
+"<guilabel>ENABLED</guilabel> indica que o driver está instalado e "
+"funcionando. Continue para a subseção <xref linkend=\"network-"
+"troubleshooting-router\"/>."
 
 #: user-docs/C/internet-networks.xml:152(para)
 msgid ""
 "<guilabel>DISABLED</guilabel> indicates the driver is installed, but "
 "disabled. Continue to <xref linkend=\"network-troubleshoothing-wifi-on\"/>."
 msgstr ""
+"<guilabel>DISABLED</guilabel> indica que o driver está instalado, mas está "
+"desabilitado. Continue para a subseção <xref linkend=\"network-"
+"troubleshoothing-wifi-on\"/>."
 
 #: user-docs/C/internet-networks.xml:157(title)
 msgid "Using Windows wireless drivers"
-msgstr ""
+msgstr "Utilizando drivers do Windows para a rede sem fio"
 
 #: user-docs/C/internet-networks.xml:159(para)
 msgid ""
@@ -2997,16 +3343,22 @@ msgid ""
 "This allows you to use a Windows wireless device driver under Xubuntu. To "
 "start using <application>NDISWrapper</application>:"
 msgstr ""
+"O Xubuntu suporta um sistema conhecido como "
+"<application>NDISWrapper</application>. Ele permite que você utilize um "
+"driver do Windows, para o dispositivo sem fio, dentro do Xubuntu. Para "
+"utilizar o <application>NDISWrapper</application>:"
 
 #: user-docs/C/internet-networks.xml:162(para)
 msgid ""
 "Obtain the Windows driver for your network device and locate the file that "
 "ends with <literal>.inf</literal>"
 msgstr ""
+"Obtenha o driver para Windows do seu dispositivo de rede e localize o "
+"arquivo que termina com a extensão <literal>.inf</literal>"
 
 #: user-docs/C/internet-networks.xml:163(para)
 msgid "Install the <literal><placeholder-1/>ndisgtk</literal> package"
-msgstr ""
+msgstr "Instale o pacote <literal><placeholder-1/>ndisgtk</literal>"
 
 #: user-docs/C/internet-networks.xml:164(para)
 msgid ""
@@ -3014,24 +3366,29 @@ msgid ""
 "Settings Manager</guimenuitem><guimenuitem>Windows Wireless "
 "Drivers</guimenuitem></menuchoice></application>"
 msgstr ""
+"Clique em <application><menuchoice><placeholder-1/><guimenuitem><placeholder-"
+"2/> Gerenciador de configurações</guimenuitem><guimenuitem>Drivers para rede "
+"sem fio do Windows</guimenuitem></menuchoice></application>"
 
 #: user-docs/C/internet-networks.xml:165(para)
 msgid "Select <guibutton>Install new driver</guibutton>"
-msgstr ""
+msgstr "Selecione <guibutton>Instalar novo driver</guibutton>"
 
 #: user-docs/C/internet-networks.xml:166(para)
 msgid ""
 "Choose the location of your Windows .inf file and click "
 "<guibutton>Install</guibutton>"
 msgstr ""
+"Aponte para o local do seu arquivo .inf do Windows e clique em "
+"<guibutton>Instalar</guibutton>"
 
 #: user-docs/C/internet-networks.xml:167(para)
 msgid "Click <guibutton>OK</guibutton>"
-msgstr ""
+msgstr "Clique em <guibutton>OK</guibutton>"
 
 #: user-docs/C/internet-networks.xml:172(title)
 msgid "Checking for a connection to the router"
-msgstr ""
+msgstr "Verificando a conexão com o roteador"
 
 #: user-docs/C/internet-networks.xml:174(para)
 msgid ""
@@ -3041,6 +3398,11 @@ msgid ""
 "<userinput>iwconfig</userinput> then press the <keycap><placeholder-"
 "2/>Enter</keycap> key."
 msgstr ""
+"Abra um terminal (<application><menuchoice><placeholder-"
+"1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Emulador de "
+"terminal</guimenuitem></menuchoice></application>), digite o comando "
+"<userinput>iwconfig</userinput> e tecle <keycap><placeholder-"
+"2/>Enter</keycap>."
 
 #: user-docs/C/internet-networks.xml:176(para)
 msgid ""
@@ -3048,20 +3410,25 @@ msgid ""
 "a problem with ACPI support. Boot Xubuntu with the "
 "<literal>pci=noacpi</literal> option."
 msgstr ""
+"Se for exibido o <guilabel>ESSID</guilabel> do seu roteador, pode haver um "
+"problema com o suporte ao ACPI. Inicie o Xubuntu com a opção "
+"<literal>pci=noacpi</literal>."
 
 #: user-docs/C/internet-networks.xml:181(title)
 msgid "Advanced troubleshooting"
-msgstr ""
+msgstr "Resolução avançada de problemas"
 
 #: user-docs/C/internet-networks.xml:183(para)
 msgid ""
 "The following troubleshooting methods are a bit more technical. Please try "
 "these methods only if the above methods failed."
 msgstr ""
+"Os métodos de resolução de problemas a seguir são um pouco mais técnicos. "
+"Por favor, tente-os somente se os métodos anteriores não funcionarem."
 
 #: user-docs/C/internet-networks.xml:186(title)
 msgid "Checking IP assignment"
-msgstr ""
+msgstr "Verificando se o IP está definido"
 
 #: user-docs/C/internet-networks.xml:188(para)
 msgid ""
@@ -3072,6 +3439,12 @@ msgid ""
 "2/>Enter</keycap> key. If there is an IP address displayed, continue to "
 "<xref linkend=\"network-troubleshooting-dns\"/>."
 msgstr ""
+"Abra um terminal (<application><menuchoice><placeholder-"
+"1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Emulador de "
+"terminal</guimenuitem></menuchoice></application>), digite o comando "
+"<userinput>ifconfig</userinput> e tecle <keycap><placeholder-"
+"2/>Enter</keycap>. Se for exibido um endereço IP, continue para a subeção "
+"<xref linkend=\"network-troubleshooting-dns\"/>."
 
 #: user-docs/C/internet-networks.xml:190(para)
 msgid ""
@@ -3080,6 +3453,10 @@ msgid ""
 "output from the <application>ifconfig</application> command: <userinput>sudo "
 "dhclient enp3s0</userinput>"
 msgstr ""
+"Digite o seguinte comnado no terminal, substituindo "
+"<literal>enp3s0</literal> pelo nome da conexão exibida na saída do comando "
+"<application>ifconfig</application>: <userinput>sudo dhclient -v "
+"enp3s0</userinput>"
 
 #: user-docs/C/internet-networks.xml:193(para)
 msgid ""
@@ -3087,14 +3464,17 @@ msgid ""
 "<literal>xxx.xxx.xxx.xxx</literal> continue to <xref linkend=\"network-"
 "troubleshooting-dns\"/>"
 msgstr ""
+"Se você receber uma mensagem do tipo \"bound to "
+"<literal>xxx.xxx.xxx.xxx</literal>\", continue para a subseção <xref "
+"linkend=\"network-troubleshooting-dns\"/>"
 
 #: user-docs/C/internet-networks.xml:194(para)
 msgid "If not, reboot the system"
-msgstr ""
+msgstr "Senão, reinicie o sistema"
 
 #: user-docs/C/internet-networks.xml:199(title)
 msgid "Check Domain Name Servers (DNS)"
-msgstr ""
+msgstr "Verifique o Servidor de Nome de Domínio (DNS)"
 
 #: user-docs/C/internet-networks.xml:201(para)
 msgid ""
@@ -3104,6 +3484,11 @@ msgid ""
 "<userinput>nmcli device show</userinput> then press the <keycap><placeholder-"
 "2/>Enter</keycap> key. Look for the entries under <literal>IP4.DNS</literal>"
 msgstr ""
+"Abra um terminal (<application><menuchoice><placeholder-"
+"1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Emulador de "
+"terminal</guimenuitem></menuchoice></application>), digite o comando "
+"<userinput>nmcli device show</userinput> e tecle <keycap><placeholder-"
+"2/>Enter</keycap>. Veja as informações no item <literal>IP4.DNS</literal>"
 
 #: user-docs/C/internet-networks.xml:203(para)
 msgid ""
@@ -3115,6 +3500,14 @@ msgid ""
 "2/>Enter</keycap> key. If you see the word <literal>NOERROR</literal> in the "
 "header section of the output, your DNS is working."
 msgstr ""
+"Para verificar se o DNS listado está funcionando, abra um terminal "
+"(<application><menuchoice><placeholder-"
+"1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Emulador de "
+"terminal</guimenuitem></menuchoice></application>), digite o comando "
+"<userinput>dig xubuntu.org</userinput> e tecle <keycap><placeholder-"
+"2/>Enter</keycap>. Caso você veja a palavra <literal>NOERROR</literal> na "
+"seção no cabeçalho da saída do comando, significa que o servidor DNS em "
+"questão está funcionando."
 
 #: user-docs/C/internet-networks.xml:205(para)
 msgid ""
@@ -3123,10 +3516,15 @@ msgid ""
 "have this information, continue to <xref linkend=\"network-connect-"
 "disconnect\"/> and <xref linkend=\"network-configure\"/> if needed."
 msgstr ""
+"Se não for exibido nenhuma configuração sobre DNS, entre em contato com o "
+"Provedor de Serviços de Internet (ISP), a fim de encontrar seus servidores "
+"DNS primário e secundário. Com essas informações em mãos, continue para as "
+"subseções <xref linkend=\"network-connect-disconnect\"/> e <xref "
+"linkend=\"network-configure\"/> se necessário."
 
 #: user-docs/C/internet-networks.xml:211(title)
 msgid "Connecting to servers"
-msgstr ""
+msgstr "Acessando servidores"
 
 #: user-docs/C/internet-networks.xml:213(para)
 msgid ""
@@ -3135,6 +3533,10 @@ msgid ""
 "1/><guisubmenu>System</guisubmenu><guimenuitem>Gigolo</guimenuitem></menuchoi"
 "ce></application>. To connect to a server, follow the steps below:"
 msgstr ""
+"Você pode acessar vários tipos de servidores, utilizando o "
+"<application><menuchoice><placeholder-"
+"1/><guisubmenu>Sistema</guisubmenu><guimenuitem>Gigolo</guimenuitem></menucho"
+"ice></application>. Para conectar a um servidor, siga os passos abaixo:"
 
 #: user-docs/C/internet-networks.xml:216(para)
 msgid ""
@@ -3142,18 +3544,26 @@ msgid ""
 "<menuchoice><guimenu>Actions</guimenu><guimenuitem>Connect</guimenuitem></men"
 "uchoice>"
 msgstr ""
+"Clique em "
+"<menuchoice><guimenu>Ações</guimenu><guimenuitem>Conectar</guimenuitem></menu"
+"choice>"
 
 #: user-docs/C/internet-networks.xml:217(para)
 msgid ""
 "Select the appropriate <guilabel>Service type</guilabel> and insert "
 "connection information"
 msgstr ""
+"Selecione o <guilabel>Tipo de serviço</guilabel> apropriado e forneça os "
+"parâmetros da conexão"
 
 #: user-docs/C/internet-networks.xml:218(para)
 msgid ""
 "Click <guibutton>Connect</guibutton>; if you are attempting to connect to a "
 "server that requires you to log in, you will be prompted to enter a password"
 msgstr ""
+"Clique em <guibutton>Conectar</guibutton>; se você está tentando conectar a "
+"um servidor que requer autenticação, será solicitado que você digite uma "
+"senha"
 
 #: user-docs/C/internet-networks.xml:221(para)
 msgid ""
@@ -3165,12 +3575,22 @@ msgid ""
 "set other options, including the option to auto-connect. Once you are done, "
 "click <guibutton>OK</guibutton> to create the bookmark."
 msgstr ""
+"Após conectar com sucesso ao servidor, um ícone rotulado com os detalhes da "
+"conexão irá aparecer na janela do <application>Gigolo</application>. Para "
+"marcar conexões para acessos posteriores, clique com o botão direito na "
+"conexão e selecione <menuchoice><guimenuitem>Criar "
+"marcador</guimenuitem></menuchoice>. No diálogo <guilabel>Editar "
+"marcadores</guilabel>, você pode nomear o marcador e definir outras opções, "
+"incuindo a de auto-conexão. Feito isso, clique em <guibutton>OK</guibutton> "
+"para criar o marcador."
 
 #: user-docs/C/internet-networks.xml:223(para)
 msgid ""
 "The Windows Share username should be in the format <literal>DOMAIN\\"
 "username</literal>"
 msgstr ""
+"O usuário do Compartilhamento do Windows deve estar no formato "
+"<literal>DOMINIO\\usuario</literal>"
 
 #: user-docs/C/internet-networks.xml:225(para)
 msgid ""
@@ -3178,102 +3598,110 @@ msgid ""
 "<application>Thunar File Manager</application>, you will need to have the "
 "package <literal><placeholder-1/>gvfs-backends</literal> installed."
 msgstr ""
+"Para conectar à redes Samba (compartilhamentos Windows), utilize o "
+"<application>Gerenciador de Arquivos Thunar</application>, você precisará do "
+"pacote <literal><placeholder-1/>gvfs-backends</literal> instalado."
 
 #: user-docs/C/index.xml:14(title) user-docs/C/index.xml:17(title)
 msgid "Xubuntu Documentation"
-msgstr ""
+msgstr "Documentação do Xubuntu"
 
 #: user-docs/C/index.xml:19(title)
 msgid "Credits and License"
-msgstr ""
+msgstr "Créditos e Licença"
 
 #: user-docs/C/index.xml:20(para)
 msgid ""
 "This documentation is maintained by the Xubuntu documentation team and is "
 "partly adapted from the Ubuntu documentation."
 msgstr ""
+"Esta documentação é mantida pelo time de documentação do Xubuntu e é "
+"parcialmente adaptada a partir da documentação do Ubuntu."
 
 #: user-docs/C/index.xml:22(para)
 msgid "The contributors to this documentation are:"
-msgstr ""
+msgstr "As seguintes pessoas contribuíram para esta documentação:"
 
 #: user-docs/C/index.xml:24(para)
 msgid "David Pires (slickymaster)"
-msgstr ""
+msgstr "David Pires (slickymaster)"
 
 #: user-docs/C/index.xml:25(para)
 msgid "Elfy (elfy)"
-msgstr ""
+msgstr "Elfy (elfy)"
 
 #: user-docs/C/index.xml:26(para)
 msgid "Elizabeth Krumbach (lyz)"
-msgstr ""
+msgstr "Elizabeth Krumbach (lyz)"
 
 #: user-docs/C/index.xml:27(para)
 msgid "Jack Fromm (jjfrv8)"
-msgstr ""
+msgstr "Jack Fromm (jjfrv8)"
 
 #: user-docs/C/index.xml:28(para)
 msgid "Jay van Cooten (skippersboss)"
-msgstr ""
+msgstr "Jay van Cooten (skippersboss)"
 
 #: user-docs/C/index.xml:29(para)
 msgid "Kev Bowring (flocculant)"
-msgstr ""
+msgstr "Kev Bowring (flocculant)"
 
 #: user-docs/C/index.xml:30(para)
 msgid "Krytarik Raido (krytarik)"
-msgstr ""
+msgstr "Krytarik Raido (krytarik)"
 
 #: user-docs/C/index.xml:31(para)
 msgid "Pasi Lallinaho (knome)"
-msgstr ""
+msgstr "Pasi Lallinaho (knome)"
 
 #: user-docs/C/index.xml:32(para)
 msgid "Sean Davis (bluesabre)"
-msgstr ""
+msgstr "Sean Davis (bluesabre)"
 
 #: user-docs/C/index.xml:33(para)
 msgid "Stephen Michael Kellat (skellat)"
-msgstr ""
+msgstr "Stephen Michael Kellat (skellat)"
 
 #: user-docs/C/index.xml:34(para)
 msgid "Steve Dodier-Lazaro (sidi)"
-msgstr ""
+msgstr "Steve Dodier-Lazaro (sidi)"
 
 #: user-docs/C/index.xml:35(para)
 msgid "Unit 193 (unit193)"
-msgstr ""
+msgstr "Unit 193 (unit193)"
 
 #: user-docs/C/index.xml:45(para)
 msgid "The contributors to previous versions to this documentation are:"
 msgstr ""
+"As seguintes pessoas contribuíram para versões anteriores desta documentação:"
 
 #: user-docs/C/index.xml:47(para)
 msgid "Cody A.W. Somerville (cody-somerville)"
-msgstr ""
+msgstr "Cody A.W. Somerville (cody-somerville)"
 
 #: user-docs/C/index.xml:48(para)
 msgid "Freddy Martinez (freddymartinez9)"
-msgstr ""
+msgstr "Freddy Martinez (freddymartinez9)"
 
 #: user-docs/C/index.xml:49(para)
 msgid "Jan M. (fijam7)"
-msgstr ""
+msgstr "Jan M. (fijam7)"
 
 #: user-docs/C/index.xml:50(para)
 msgid "Jim Campbell (jwcampbell)"
-msgstr ""
+msgstr "Jim Campbell (jwcampbell)"
 
 #: user-docs/C/index.xml:51(para)
 msgid "Luzius Thöny (lucius-antonius)"
-msgstr ""
+msgstr "Luzius Thöny (lucius-antonius)"
 
 #: user-docs/C/index.xml:54(para)
 msgid ""
 "This document is made available under the Creative Commons ShareAlike 2.5 "
 "License (CC-BY-SA)."
 msgstr ""
+"Este documento está disponível sob os termos da Licença Creative Commons "
+"ShareAlike 2.5 (CC-BY-SA)."
 
 #: user-docs/C/index.xml:55(para)
 msgid ""
@@ -3281,6 +3709,9 @@ msgid ""
 "code under the terms of this license. All derivative works must be released "
 "under this license."
 msgstr ""
+"Você é livre para modificar, estender e melhorar o código fonte da "
+"documentação do Ubuntu sob os termos desta licença. Todos os trabalhos "
+"derivados devem ser disponibilizados sob esta licença."
 
 #: user-docs/C/index.xml:57(para)
 msgid ""
@@ -3288,58 +3719,70 @@ msgid ""
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE AS DESCRIBED IN THE DISCLAIMER."
 msgstr ""
+"Esta documentação é distribuída na expectativa de que será útil, mas SEM "
+"NENHUMA GARANTIA; até mesmo sem a garantia de COMERCIALIZAÇÃO ou de "
+"ADEQUAÇÃO A UM PROPÓSITO EM PARTICULAR, CONFORME DESCRITO NO TERMO DE "
+"RESPONSABILIDADE."
 
 #: user-docs/C/index.xml:60(para)
 msgid ""
 "A copy of the license is available here: <link linkend=\"cc-by-sa\">Creative "
 "Commons ShareAlike License</link>."
 msgstr ""
+"Uma cópia da licença está disponível aqui: <link linkend=\"cc-by-"
+"sa\">Creative Commons ShareAlike License</link>."
 
 #: user-docs/C/index.xml:61(para)
 msgid ""
 "All trademarks or registered trademarks are the property of the respective "
 "owners."
 msgstr ""
+"Todas as marcas comerciais ou registradas são de propriedade dos seus "
+"respectivos donos."
 
 #: user-docs/C/index.xml:65(year)
 msgid "2012"
-msgstr ""
+msgstr "2012"
 
 #: user-docs/C/index.xml:66(year)
 msgid "2013"
-msgstr ""
+msgstr "2013"
 
 #: user-docs/C/index.xml:67(year)
 msgid "2014"
-msgstr ""
+msgstr "2014"
 
 #: user-docs/C/index.xml:68(year)
 msgid "2015"
-msgstr ""
+msgstr "2015"
 
 #: user-docs/C/index.xml:69(holder)
 msgid ""
 "The Xubuntu documentation team. Xubuntu and Canonical are registered "
 "trademarks of Canonical Ltd."
 msgstr ""
+"Time de documentação do Xubuntu. Xubuntu e Canonical são marcas registradas "
+"da Canonical Ltd."
 
 #: user-docs/C/index.xml:73(publishername)
 msgid "The Xubuntu documentation team"
-msgstr ""
+msgstr "Time de documentação do Xubuntu"
 
 #: user-docs/C/index.xml:77(title)
 msgid "Welcome!"
-msgstr ""
+msgstr "Bem-vindo!"
 
 #: user-docs/C/index.xml:79(para)
 msgid ""
 "This documentation provides information on some of the most common topics on "
 "using Xubuntu, including:"
 msgstr ""
+"Esta documentação fornece informações sobre os tópicos mais comuns na "
+"utilização do Xubuntu, incluindo:"
 
 #: user-docs/C/index.xml:84(para)
 msgid "In addition, this documentation has three quick guides:"
-msgstr ""
+msgstr "Além disso, esta documentação possui três guias rápidos:"
 
 #: user-docs/C/index.xml:90(para)
 msgid ""
@@ -3348,6 +3791,11 @@ msgid ""
 "url=\"http://xubuntu.org/help/\">Help &amp; Support</ulink> page of the "
 "Xubuntu website. There you will find links to additional help resources."
 msgstr ""
+"A lista completa de tópicos é listada a seguir. Se você precisar de ajuda "
+"com um tópico ou problema que não é abordado pela documentação, acesse o "
+"link <ulink url=\"http://xubuntu.org/help/\">Ajuda e Suporte</ulink> da "
+"página oficial do Xubuntu. Lá, você encontrará links para fontes de ajuda "
+"adicionais."
 
 #: user-docs/C/index.xml:92(para)
 msgid ""
@@ -3355,6 +3803,9 @@ msgid ""
 "see the <ulink url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> "
 "section of the Xubuntu website."
 msgstr ""
+"Se você quiser contribuir com o Xubuntu, inclusive com esta documentação, "
+"veja a seção <ulink url=\"http://xubuntu.org/contribute/\">Envolva-"
+"se</ulink> da página oficial do Xubuntu."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3366,13 +3817,15 @@ msgstr ""
 
 #: user-docs/C/hardware-devices.xml:14(title)
 msgid "Hardware devices"
-msgstr ""
+msgstr "Dispositivos de hardware"
 
 #: user-docs/C/hardware-devices.xml:16(para)
 msgid ""
 "Your computer consists of a number of connected devices collectively known "
 "as computer hardware."
 msgstr ""
+"Seu computador consiste em um conjunto de dispositivos conectados, "
+"normalmente conhecido como hardware do computador."
 
 #: user-docs/C/hardware-devices.xml:18(para)
 msgid ""
@@ -3381,20 +3834,26 @@ msgid ""
 "section provides information on tools which can be used to configure your "
 "hardware."
 msgstr ""
+"Normalmente, o Xubuntu configura o seu hardware automaticamente, mas podem "
+"haver situações onde você precisará alterar configurações no seu hardware "
+"por conta própria. Esta seção fornece informações sobre ferramentas que "
+"podem ser utilizadas para configurar o seu hardware."
 
 #: user-docs/C/hardware-devices.xml:21(title)
 msgid "Restricted drivers"
-msgstr ""
+msgstr "Drivers restritos"
 
 #: user-docs/C/hardware-devices.xml:24(title)
 msgid "Why are some drivers restricted?"
-msgstr ""
+msgstr "Por que alguns drivers são restritos?"
 
 #: user-docs/C/hardware-devices.xml:26(para)
 msgid ""
 "Restricted drivers are drivers for your hardware that are not freely "
 "available or open source."
 msgstr ""
+"Drivers restritos são drivers para o seu hardware que não estão disponíveis "
+"gratuitamente ou não são de código aberto."
 
 #: user-docs/C/hardware-devices.xml:28(para)
 msgid ""
@@ -3403,6 +3862,11 @@ msgid ""
 "which means that the drivers can be modified by the Xubuntu developers and "
 "problems with them can be fixed."
 msgstr ""
+"Muitos dispositivos (hardware) conectados ao seu computador devem funcionar "
+"adequadamente no Xubuntu. Esses dispositivos provavelmente não tem drivers "
+"restritos, o que significa que os drivers podem ser modificados pelos "
+"desenvolvedores do Xubuntu e, assim, eventuais problemas neles poderão ser "
+"consertados."
 
 #: user-docs/C/hardware-devices.xml:30(para)
 msgid ""
@@ -3411,10 +3875,15 @@ msgid ""
 "make it possible to create such a driver. These devices may have limited "
 "functionality or may not work at all."
 msgstr ""
+"Alguns dispositivos, porém, só possuem drivers restritos, tipicamente porque "
+"o fabricante não divulgou detalhes suficientes desse dispositivo, fazendo "
+"com que não seja possível construir um driver para o mesmo. Assim, esses "
+"dispositivos podem ter funcionalidade limitada ou, no pior caso, não "
+"funcionar."
 
 #: user-docs/C/hardware-devices.xml:34(title)
 msgid "Enabling restricted drivers"
-msgstr ""
+msgstr "Habilitando drivers restritos"
 
 #: user-docs/C/hardware-devices.xml:36(para)
 msgid ""
@@ -3423,6 +3892,11 @@ msgid ""
 "features. For example, installing a restricted driver for certain graphics "
 "cards may allow you to use more advanced visual effects."
 msgstr ""
+"Se um driver restrito está disponível para um dispositivo, ele pode ser "
+"instalado para permitir que seu dispositivo funcione adequadamente, ou para "
+"adicionar novos recursos. Por exemplo, ao instalar um driver restrito para "
+"algumas placas de vídeo, pode ser que você consiga utilizar efeitos visuais "
+"mais avançados."
 
 #: user-docs/C/hardware-devices.xml:38(para)
 msgid ""
@@ -3430,12 +3904,19 @@ msgid ""
 "either because all of the devices are fully supported by unrestricted "
 "drivers or because no restricted drivers are yet available for the device."
 msgstr ""
+"Alguns computadores podem não ter nenhum dispositivo que utilize drivers "
+"restritos, tanto pelo fato de todos eles serem totalmente suportados por "
+"drivers não restritos, quanto pelo fato de não existirem drivers restritos "
+"para eles."
 
 #: user-docs/C/hardware-devices.xml:40(para)
 msgid ""
 "If any drivers are available for your hardware they will be installable from "
 "the <application>Software and Updates</application> application:"
 msgstr ""
+"Se existirem drivers disponíveis para o seu hardware, você poderá instalá-"
+"los através do aplicativo <application>Programas e "
+"atualizações</application>:"
 
 #: user-docs/C/hardware-devices.xml:43(para) user-docs/C/hardware-devices.xml:55(para)
 msgid ""
@@ -3443,53 +3924,67 @@ msgid ""
 "1/><guimenuitem>Settings</guimenuitem><guimenuitem>Additional "
 "Drivers</guimenuitem></menuchoice></application>"
 msgstr ""
+"Clique em <application><menuchoice><placeholder-"
+"1/><guimenuitem>Configurações</guimenuitem><guimenuitem>Drivers "
+"adicionais</guimenuitem></menuchoice></application>"
 
 #: user-docs/C/hardware-devices.xml:44(para)
 msgid ""
 "You will, if necessary, be prompted to enter the administration password."
 msgstr ""
+"Caso necessário, será solicitado que você digite uma senha de administrador."
 
 #: user-docs/C/hardware-devices.xml:45(para)
 msgid "You may be prompted to reboot to finish installation."
 msgstr ""
+"Talvez seja solicitado que você reinicie o computador para finalizar a "
+"instalação."
 
 #: user-docs/C/hardware-devices.xml:50(title)
 msgid "Disabling restricted drivers"
-msgstr ""
+msgstr "Desabilitando drivers restritos"
 
 #: user-docs/C/hardware-devices.xml:52(para)
 msgid ""
 "If a restricted driver is causing problems, or you would just like to turn "
 "it off, follow the procedure below:"
 msgstr ""
+"Se um driver restrito está causando problemas, ou você apenas quer desativá-"
+"lo, siga o procedimento abaixo:"
 
 #: user-docs/C/hardware-devices.xml:56(para)
 msgid ""
 "Find the driver that you would like to disable and press the "
 "<guibutton>Deactivate</guibutton> button."
 msgstr ""
+"Encontre o driver que você quer desabilitar e clique em "
+"<guibutton>Desativar</guibutton>."
 
 #: user-docs/C/hardware-devices.xml:57(para)
 msgid "You will be prompted to enter your password."
-msgstr ""
+msgstr "Será solicitado que você digite sua senha."
 
 #: user-docs/C/hardware-devices.xml:60(para)
 msgid "You may need to restart your computer to finish disabling the driver."
 msgstr ""
+"Pode ser necessário reiniciar o seu computador para finalizar a desativação "
+"do driver."
 
 #: user-docs/C/hardware-devices.xml:65(title)
 msgid "Disks and partitions"
-msgstr ""
+msgstr "Discos e partições"
 
 #: user-docs/C/hardware-devices.xml:68(title)
 msgid "Checking how much disk space is available"
-msgstr ""
+msgstr "Verificando espaço disponível em disco"
 
 #: user-docs/C/hardware-devices.xml:70(para)
 msgid ""
 "A simple way to check available disk space is to launch "
 "<application>Thunar</application>. There are several ways to do this:"
 msgstr ""
+"Uma maneira simples de verificar o espaço disponível em disco é executando o "
+"<application>Thunar</application>. Há várias maneiras de fazer isso:"
 
 #: user-docs/C/hardware-devices.xml:73(para)
 msgid ""
@@ -3497,16 +3992,21 @@ msgid ""
 "1/><guisubmenu>Accessories</guisubmenu><guimenuitem>File "
 "Manager</guimenuitem></menuchoice></application>"
 msgstr ""
+"Clique em <application><menuchoice><placeholder-"
+"1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Gerenciador de "
+"arquivos</guimenuitem></menuchoice></application>"
 
 #: user-docs/C/hardware-devices.xml:74(para)
 msgid ""
 "Double-click on the <guilabel>File System</guilabel> or "
 "<guilabel>Home</guilabel> icon on your Desktop"
 msgstr ""
+"Clique duplo no ícone <guilabel>Sistema de arquivos</guilabel> ou no ícone "
+"<guilabel>Início</guilabel>, ambos em sua Área de Trabalho."
 
 #: user-docs/C/hardware-devices.xml:75(para)
 msgid "Click the home folder on the Launcher Panel"
-msgstr ""
+msgstr "Clique na pasta inicial no Painel de Lançadores"
 
 #: user-docs/C/hardware-devices.xml:78(para)
 msgid ""
@@ -3515,14 +4015,18 @@ msgid ""
 "you can click on them in the side pane and you will then see displayed the "
 "free space for that disk."
 msgstr ""
+"A barra de status, no rodapé da janela, mostra o espaço livre para o disco "
+"ou drive atual. Se você tem mais de um drive montado ou conectado, você pode "
+"clicar nele, no painel lateral, e você verá o espaço livre disponível neste "
+"disco."
 
 #: user-docs/C/hardware-devices.xml:82(title)
 msgid "How can I free up disk space?"
-msgstr ""
+msgstr "Como eu posso liberar espaço em disco?"
 
 #: user-docs/C/hardware-devices.xml:84(para)
 msgid "There are several simple ways of making more disk space available:"
-msgstr ""
+msgstr "Há várias formas simples de disponibilizar mais espaço em disco:"
 
 #: user-docs/C/hardware-devices.xml:87(para)
 msgid ""
@@ -3530,12 +4034,18 @@ msgid ""
 "the Desktop or the Launcher Panel and selecting "
 "<menuchoice><guimenuitem>Empty Trash</guimenuitem></menuchoice>."
 msgstr ""
+"Esvazie sua lixeira, clicando com o botão direito no ícone "
+"<guilabel>Lixeira</guilabel> na Área de Trabalho ou no Painel de Lançadores "
+"e selecionando a opção <menuchoice><guimenuitem>Esvaziar "
+"Lixeira</guimenuitem></menuchoice>."
 
 #: user-docs/C/hardware-devices.xml:88(para)
 msgid ""
 "Remove software packages that you no longer use. See <xref linkend=\"gs-"
 "remove\"/> for information on removing packages."
 msgstr ""
+"Desinstale pacotes que você não utiliza mais. Veja a seção <xref "
+"linkend=\"gs-remove\"/> para informações sobre como desinstalar pacotes."
 
 #: user-docs/C/hardware-devices.xml:89(para)
 msgid ""
@@ -3543,14 +4053,18 @@ msgid ""
 "Disk Usage Analyzer</application> from <application>Gnome "
 "Software</application> to find which files are taking up the most space."
 msgstr ""
+"Exclua arquivos que você não precisa mais. Você pode instalar o aplicativo "
+"<application>Analisador de uso de discos</application>, a partir do  "
+"<application>Aplicativo Software do Gnome</application>, para saber quais "
+"arquivos estão ocupando mais espaço no disco."
 
 #: user-docs/C/hardware-devices.xml:92(para)
 msgid "Be careful not to delete files that you still need!"
-msgstr ""
+msgstr "Tenha cuidado para não excluir arquivos que você ainda precisa!"
 
 #: user-docs/C/hardware-devices.xml:96(title)
 msgid "Partitioning a Device"
-msgstr ""
+msgstr "Particionando um Dispositivo"
 
 #: user-docs/C/hardware-devices.xml:98(para)
 msgid ""
@@ -3562,28 +4076,44 @@ msgid ""
 "Manager</guimenuitem><guimenuitem>GParted</guimenuitem></menuchoice></applica"
 "tion> to start the partition editor."
 msgstr ""
+"Você pode utilizar o <application>GParted (Editor de Partições do "
+"GNOME)</application> para particionar dispositivos de armazenamento. Instale "
+"o <application>GParted</application> a partir do <application>Aplicativo "
+"Software do Gnome</application> e então clique em "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"Gerenciador de "
+"Configurações</guimenuitem><guimenuitem>GParted</guimenuitem></menuchoice></a"
+"pplication> para iniciar o editor de partições."
 
 #: user-docs/C/hardware-devices.xml:100(para)
 msgid ""
 "Be careful when altering disk partitions, as it is possible to lose your "
 "data if you delete or change the wrong partition."
 msgstr ""
+"Tenha cuidado ao alterar as partições do disco, é possível perder seus dados "
+"se você excluir ou alterar a partição errada."
 
 #: user-docs/C/hardware-devices.xml:102(para)
 msgid ""
 "Altering disk partitions can take some time. Do not assume that GParted has "
 "hung or crashed while it is working."
 msgstr ""
+"A alteração de partições de disco é uma operação que pode demorar. Previna "
+"que o GParted não seja suspenso ou encerrado enquanto está realizando "
+"operações no disco."
 
 #: user-docs/C/hardware-devices.xml:104(para)
 msgid ""
 "If it is necessary to unmount the installed system to proceed with changes "
 "you wish to make, you will have to work from a live CD/USB to do so."
 msgstr ""
+"Se for necessário, desmonte o sistema de arquivos para aplicar as mudanças "
+"que você desejar no disco. Para isso, você deverá estar executando o sistema "
+"a partir de um Live CD/USB."
 
 #: user-docs/C/hardware-devices.xml:107(title)
 msgid "Freeing space for a new partition"
-msgstr ""
+msgstr "Liberando espaço para uma nova partição"
 
 #: user-docs/C/hardware-devices.xml:109(para)
 msgid ""
@@ -3592,12 +4122,18 @@ msgid ""
 "the <xref linkend=\"partitioning-create\"/> section. Otherwise, follow the "
 "instructions below:"
 msgstr ""
+"Para criar uma nova partição, dentro de um dispositivo já particionado, você "
+"deverá primeiro redimensionar uma partição existente. Se o disco já tem "
+"espaço livre, vá para a seção <xref linkend=\"partitioning-create\"/>. "
+"Senão, siga as instruções abaixo:"
 
 #: user-docs/C/hardware-devices.xml:112(para) user-docs/C/hardware-devices.xml:126(para) user-docs/C/hardware-devices.xml:141(para)
 msgid ""
 "Select the device to partition from the drop-down list at the top-right of "
 "the main window"
 msgstr ""
+"Selecione o dispositivo para particionar na lista drop-down no canto "
+"superior direito da janela"
 
 #: user-docs/C/hardware-devices.xml:113(para)
 msgid ""
@@ -3606,6 +4142,10 @@ msgid ""
 "<menuchoice><guimenu>Partition</guimenu><guimenuitem>Unmount</guimenuitem></m"
 "enuchoice>"
 msgstr ""
+"Uma lista de partições será exibida.  Selecione a partição que você quer "
+"redimensionar e, no menu, escolha "
+"<menuchoice><guimenu>Partição</guimenu><guimenuitem>Desmontar</guimenuitem></"
+"menuchoice>"
 
 #: user-docs/C/hardware-devices.xml:114(para)
 msgid ""
@@ -3617,10 +4157,18 @@ msgid ""
 "Preceding (MiB)</guilabel> to free space before this partition. "
 "Alternatively you can use the slider to adjust the partition size."
 msgstr ""
+"Para redimensionar a partição, clique em "
+"<menuchoice><guimenu>Partição</guimenu><guimenuitem>Redimensionar/Mover</guim"
+"enuitem></menuchoice>. Será exibido o diálogo de redimensionamento. Você "
+"pode usar a caixa <guilabel>Espaço livre após (MB)</guilabel> para escolher "
+"quanto de espaço livre liberar após a partição, ou a caixa <guilabel>Espaço "
+"livre antes (MB)</guilabel> para liberar espaço antes da partição. "
+"Alternativamente, você pode usar o controle deslizante para ajustar o "
+"tamanho da partição."
 
 #: user-docs/C/hardware-devices.xml:115(para)
 msgid "Click <guibutton>Resize/Move</guibutton>"
-msgstr ""
+msgstr "Clique em <guibutton>Redimensionar</guibutton>"
 
 #: user-docs/C/hardware-devices.xml:116(para) user-docs/C/hardware-devices.xml:131(para) user-docs/C/hardware-devices.xml:144(para)
 msgid ""
@@ -3628,14 +4176,17 @@ msgid ""
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Apply All "
 "Operations</guimenuitem></menuchoice>"
 msgstr ""
+"Para aplicar as alterações, clique em "
+"<menuchoice><guimenu>Editar</guimenu><guimenuitem>Aplicar todas as "
+"operações</guimenuitem></menuchoice>"
 
 #: user-docs/C/hardware-devices.xml:121(title)
 msgid "Creating a new partition"
-msgstr ""
+msgstr "Criando uma nova partição"
 
 #: user-docs/C/hardware-devices.xml:123(para)
 msgid "To create a new partition:"
-msgstr ""
+msgstr "Para criar uma nova partição:"
 
 #: user-docs/C/hardware-devices.xml:127(para)
 msgid ""
@@ -3643,12 +4194,17 @@ msgid ""
 "<guilabel>unallocated</guilabel>, right-click on it and click "
 "<menuchoice><guimenuitem>New</guimenuitem></menuchoice>"
 msgstr ""
+"Uma lista de partições será exibida. Selecione o espaço chamado "
+"<guilabel>não alocado</guilabel>, clique com o botão direito nele e clique "
+"em <menuchoice><guimenuitem>Novo</guimenuitem></menuchoice>"
 
 #: user-docs/C/hardware-devices.xml:128(para)
 msgid ""
 "From the <guilabel>File system:</guilabel> pick list, choose the desired "
 "type of filesystem to use."
 msgstr ""
+"Na lista <guilabel>Sistema de arquivos:</guilabel>, escolha o tipo de "
+"sistema de arquivos que você quer utilizar."
 
 #: user-docs/C/hardware-devices.xml:129(para)
 msgid ""
