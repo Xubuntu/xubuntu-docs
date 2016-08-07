@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
 "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
 <!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
 %xubuntu-common;
@@ -96,20 +96,29 @@
 	<section id="xsd-community">
 		<title>Community</title>
 
-		<section id="xsd-community-xpl">
-			<title>Xubuntu Project Lead</title>
+		<section id="xsd-community-xc">
+			<title>Xubuntu Council</title>
 
-			<para>The Xubuntu Project Lead (later: XPL) is ultimately responsible for Xubuntu and ensuring that a quality product is able to be released on schedule. The XPL serves a term of four releases at a time, ending with an LTS release to allow long-term planning and major undertakings.</para>
+			<para>The Xubuntu Council (later: council) is responsible for overseeing the development direction of Xubuntu and enabling the community to work with Xubuntu as smoothly as possible. The council serves a term of four releases/two years at a time, ending with an LTS release to allow long-term planning.</para>
 
-			<para>The XPL is the administrator and only user of the <ulink url="https://launchpad.net/~xubuntu-project-lead">xubuntu-project-lead</ulink> Launchpad team, which is the administrator for all other Xubuntu Launchpad teams, giving the XPL full administration access to all Xubuntu teams.</para>
+			<para>The xubuntu-council Launchpad team consists of the council members. The xubuntu-council team is the administrator for all other Xubuntu Launchpad teams, giving the council full administration access for the Xubuntu teams.</para>
 
-			<para>The XPL is chosen by a simple majority vote. All members in the Xubuntu team are eligible to vote. Nominations are to be made in the two weeks preceding the election. Nominations may be submitted by individuals nominating themselves or someone else with their consent. Anybody in the community can nominate, but the nominee must be an active member of at least one Xubuntu subteam (excluding Xubuntu users).</para>
+			<section>
+			<title>Membership</title>
 
-			<para>All nominees are required to provide a wiki page with relevant information for the voting.</para><!-- To read more about the requirements, see the processes page. -->
+			<para>The council consists of 3 members, who are chosen by a <ulink url="http://civs.cs.cornell.edu/">CIVS</ulink> vote. All members in the <ulink url="https://launchpad.net/~xubuntu-team">Xubuntu Team</ulink> and/or direct members of any moderated subteams can be nominated, either by themselves or anybody else in the Xubuntu community with the nominees consent. The same group of people is eligible to vote.</para>
 
-			<para>The voting should be arranged in a way that allows people in any timezone to vote. Ideally, the voting should be possible for 24 consecutive hours. Any voting method needs to fulfill the requirement to only allow members of the Xubuntu team to vote.</para>
+			<para>If a council member becomes inactive for 6 months, the member shall be replaced by a new council member for the remainder of their term, elected by a new CIVS vote.</para>
 
-			<para>The XPL has a casting vote on any issue. Furthermore, in extreme cases, the XPL has a veto ability. The primary purpose of the veto vote is to prevent exhausting and interminable quarrels in the community. This authority is not to be used unless consensus has not been reached even after thorough, but not overly lenghty discussions. It's also encouraged to be in touch with other Ubuntu teams and ask for advice where applicable.</para>
+			<para>The council will decide on a chair for the whole council term. The chair will act as the official point of contact for Xubuntu.</para>
+			</section>
+
+			<section>
+			<title>Council operation</title>
+			<para>The council is expected to take action or respond to any issue raised within 2 weeks. If appropriate and fair, the first action can be postponement.</para>
+
+			<para>If at any time a majority of the Xubuntu team considers the actions of the council harmful for the project, the issue at hand should be raised to the council for reconsideration. If a resolution can't be found, the council should consult the the Ubuntu Community Council and other appropriate Ubuntu community teams. Similarly, if the council can't reach a consensus even after consulting the Xubuntu team, they should consult the Ubuntu Community Council and other appropriate Ubuntu community teams.</para>
+			</section>
 		</section>
 
 		<section id="xsd-community-team">
