@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-04-27 06:11+0000\n"
-"X-Generator: Launchpad (build 17995)\n"
+"X-Launchpad-Export-Date: 2016-08-15 05:49+0000\n"
+"X-Generator: Launchpad (build 18169)\n"
 
 #: contributor-docs/C/xi-translators-not-found.xml:1(para)
 msgid ""
@@ -1698,7 +1698,7 @@ msgstr ""
 
 #: contributor-docs/C/qa-team.xml:75(para)
 msgid "To edit a testcase:"
-msgstr ""
+msgstr "To edit a testcase:"
 
 #: contributor-docs/C/qa-team.xml:78(para)
 msgid ""
@@ -1706,48 +1706,61 @@ msgid ""
 "tests/+filebug\">Report</ulink> the required change as a bug against the "
 "testcase project"
 msgstr ""
+"<ulink url=\"https://bugs.launchpad.net/ubuntu-manual-"
+"tests/+filebug\">Report</ulink> the required change as a bug against the "
+"testcase project"
 
 #: contributor-docs/C/qa-team.xml:79(para)
 msgid "Assign yourself to the bug"
-msgstr ""
+msgstr "Assign yourself to the bug"
 
 #: contributor-docs/C/qa-team.xml:80(para)
 msgid ""
 "Create a local branch: <userinput>bzr branch lp:ubuntu-manual-"
 "tests</userinput>"
 msgstr ""
+"Create a local branch: <userinput>bzr branch lp:ubuntu-manual-"
+"tests</userinput>"
 
 #: contributor-docs/C/qa-team.xml:81(para)
 msgid "Make changes to the testcase in your local branch"
-msgstr ""
+msgstr "Make changes to the testcase in your local branch"
 
 #: contributor-docs/C/qa-team.xml:82(para)
 msgid ""
 "Commit the changes: <userinput>bzr commit -m \"Fix LP bug "
 "#BUGNO.\"</userinput>"
 msgstr ""
+"Commit the changes: <userinput>bzr commit -m \"Fix LP bug "
+"#BUGNO.\"</userinput>"
 
 #: contributor-docs/C/qa-team.xml:83(para)
 msgid ""
 "Push to a personal remote branch: <userinput>bzr push lp:~username/ubuntu-"
 "manual-tests/bug-BUGNO</userinput>"
 msgstr ""
+"Push to a personal remote branch: <userinput>bzr push lp:~username/ubuntu-"
+"manual-tests/bug-BUGNO</userinput>"
 
 #: contributor-docs/C/qa-team.xml:86(para)
 msgid ""
 "Once pushed to a personal remote branch, propose the change for merging - "
 "<xref linkend=\"bzr-merge-proposal\"/>."
 msgstr ""
+"Once pushed to a personal remote branch, propose the change for merging - "
+"<xref linkend=\"bzr-merge-proposal\"/>."
 
 #: contributor-docs/C/qa-team.xml:88(para)
 msgid ""
 "Respond to any requests for changes when asked by the Testcase Admins in "
 "order to get the required change through in a timely manner."
 msgstr ""
+"Respond to any requests for changes when asked by the Testcase Admins in "
+"order to get the required change through in a timely manner."
 
 #: contributor-docs/C/qa-team.xml:92(title)
 msgid "Communicating with Testers and Users"
-msgstr ""
+msgstr "Communicating with Testers and Users"
 
 #: contributor-docs/C/qa-team.xml:94(para)
 msgid ""
@@ -1755,6 +1768,9 @@ msgid ""
 "required testing, Testers will get regular contact from us, but we should "
 "only, in general, call on Users at later stages."
 msgstr ""
+"While we have two sets of people in the community that we contact about "
+"required testing, Testers will get regular contact from us, but we should "
+"only, in general, call on Users at later stages."
 
 #: contributor-docs/C/qa-team.xml:96(para)
 msgid ""
@@ -1762,10 +1778,13 @@ msgid ""
 "contact those users via LP. Copies of testing calls sent to the devel "
 "mailing list should go to this group each time."
 msgstr ""
+"The QA Lead will be an administrator on the Testers Launchpad page and can "
+"contact those users via LP. Copies of testing calls sent to the devel "
+"mailing list should go to this group each time."
 
 #: contributor-docs/C/qa-team.xml:98(para)
 msgid "Any member of the QA team can:"
-msgstr ""
+msgstr "Any member of the QA team can:"
 
 #: contributor-docs/C/qa-team.xml:101(para)
 msgid ""
@@ -1773,19 +1792,23 @@ msgid ""
 "tracker's <ulink url=\"http://tracker.xubuntu.org/#tab-"
 "calendar\">calendar</ulink> tab"
 msgstr ""
+"Watch dates on the Trello schedule for upcoming testing calls via the "
+"tracker's <ulink url=\"http://tracker.xubuntu.org/#tab-"
+"calendar\">calendar</ulink> tab"
 
 #: contributor-docs/C/qa-team.xml:102(para)
 msgid "Mail the devel list with a testing call"
-msgstr ""
+msgstr "Mail the devel list with a testing call"
 
 #: contributor-docs/C/qa-team.xml:103(para)
 msgid ""
 "Just prior to an upcoming ISO Milestone testing call, warn on the devel list"
 msgstr ""
+"Just prior to an upcoming ISO Milestone testing call, warn on the devel list"
 
 #: contributor-docs/C/qa-team.xml:104(para)
 msgid "Make an ISO Milestone testing call"
-msgstr ""
+msgstr "Make an ISO Milestone testing call"
 
 #: contributor-docs/C/qa-team.xml:107(para)
 msgid ""
@@ -1793,16 +1816,21 @@ msgid ""
 "the earliest the Beta 1 milestone, depending on the state of the current ISO "
 "and our packages."
 msgstr ""
+"Xubuntu Users will be contacted for ISO testing at later ISO Milestones, at "
+"the earliest the Beta 1 milestone, depending on the state of the current ISO "
+"and our packages."
 
 #: contributor-docs/C/qa-team.xml:111(title)
 msgid "Release Responsibilities"
-msgstr ""
+msgstr "Release Responsibilities"
 
 #: contributor-docs/C/qa-team.xml:113(para)
 msgid ""
 "Much of the responsibility for the QA team at any release lies with the QA "
 "Lead."
 msgstr ""
+"Much of the responsibility for the QA team at any release lies with the QA "
+"Lead."
 
 #: contributor-docs/C/qa-team.xml:115(para)
 msgid "However, <emphasis>any</emphasis> member of the QA team can:"

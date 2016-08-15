@@ -15,8 +15,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-06-07 05:45+0000\n"
-"X-Generator: Launchpad (build 18097)\n"
+"X-Launchpad-Export-Date: 2016-08-15 05:50+0000\n"
+"X-Generator: Launchpad (build 18169)\n"
 
 #: user-docs/C/xi-translators-not-found.xml:1(para)
 msgid ""
@@ -4211,18 +4211,20 @@ msgid ""
 "If desired, enter a description for the partition in the <guilabel>Label: "
 "</guilabel> field."
 msgstr ""
+"Se desejar, forneça uma descrição para a partição no campo <guilabel>Rótulo: "
+"</guilabel>"
 
 #: user-docs/C/hardware-devices.xml:130(para)
 msgid "Click the <guibutton>Add</guibutton> button."
-msgstr ""
+msgstr "Clique em <guibutton>Adicionar</guibutton>"
 
 #: user-docs/C/hardware-devices.xml:136(title)
 msgid "Formatting a partition"
-msgstr ""
+msgstr "Formatando uma partição"
 
 #: user-docs/C/hardware-devices.xml:138(para)
 msgid "To format a partition, do the following:"
-msgstr ""
+msgstr "Para formatar uma partição, faça o seguinte:"
 
 #: user-docs/C/hardware-devices.xml:142(para)
 msgid ""
@@ -4230,6 +4232,10 @@ msgid ""
 "<menuchoice><guimenu>Partition</guimenu><guimenuitem>Unmount</guimenuitem></m"
 "enuchoice>."
 msgstr ""
+"A lista de partições será exibida. Selecione a partição desejada e clique no "
+"menu "
+"<menuchoice><guimenu>Partição</guimenu><guimenuitem>Desmontar</guimenuitem></"
+"menuchoice>."
 
 #: user-docs/C/hardware-devices.xml:143(para)
 msgid ""
@@ -4238,10 +4244,14 @@ msgid ""
 "to</guimenuitem></menuchoice> and select from the list the type of "
 "filesystem to format the partition to"
 msgstr ""
+"Selecione a partição que você quer formatar, clique no menu "
+"<menuchoice><guimenu>Partição</guimenu><guimenuitem>Formatar "
+"para</guimenuitem></menuchoice> e escolha o tipo de sistema de arquivo na "
+"lista que será exibida."
 
 #: user-docs/C/hardware-devices.xml:150(title)
 msgid "Mounting and unmounting devices"
-msgstr ""
+msgstr "Montando e desmontando dispositivos"
 
 #: user-docs/C/hardware-devices.xml:152(para)
 msgid ""
@@ -4249,6 +4259,9 @@ msgid ""
 "mounted by the operating system so that you are able to access the files on "
 "the device."
 msgstr ""
+"Quando você conecta um dispositivo de armazenamento removível em seu "
+"computador, ele deverá ser montado pelo sistema operacional, para que você "
+"consiga acessar os arquivos nesse dispositivo."
 
 #: user-docs/C/hardware-devices.xml:154(para)
 msgid ""
@@ -4256,6 +4269,9 @@ msgid ""
 "automatically, see the Ubuntu community wiki page for the <ulink "
 "url=\"https://help.ubuntu.com/community/Mount\">mount command</ulink>."
 msgstr ""
+"Para saber como montar e desmontar dispositivos de armazenamento manualmente "
+"e/ou automaticamente, veja a página wiki da comunidade Ubuntu para o <ulink "
+"url=\"https://help.ubuntu.com/community/Mount\">comando mount</ulink>."
 
 #: user-docs/C/hardware-devices.xml:156(para)
 msgid ""
@@ -4268,20 +4284,31 @@ msgid ""
 "could lose the files. To prevent this, you must always unmount a removable "
 "device before disconnecting it."
 msgstr ""
+"Quando você copia arquivos para um dispositivo de armazenamento removível, "
+"nem sempre eles são gravados no dispositivo imediatamente. Ao invés disso, "
+"eles são frequentemente armazenados em uma fila, de modo que todos eles "
+"podem ser transferidos para o dispositivo ao mesmo tempo (por razões de "
+"eficiência). O comando <userinput>sync</userinput> pode forçar os dados "
+"pendentes a serem gravados nos dispositivos de armazenamento removível. Se "
+"você desconectar o dispositivo antes de todos os arquivos terem sido "
+"transferidos, você poderá perdê-los. Para evitar isso, você deverá sempre "
+"desmontar um dispositivo removível antes de desconectá-lo."
 
 #: user-docs/C/hardware-devices.xml:161(title)
 msgid "Laptops"
-msgstr ""
+msgstr "Laptops"
 
 #: user-docs/C/hardware-devices.xml:164(title)
 msgid "Power management settings"
-msgstr ""
+msgstr "Configurações de gerenciamento de energia"
 
 #: user-docs/C/hardware-devices.xml:166(para)
 msgid ""
 "You may wish to change the power management settings of your laptop in order "
 "to help extend its battery life and save energy."
 msgstr ""
+"Você pode mudar as configurações de gerenciamento de energia do seu laptop, "
+"para economizar energia e ajudar a prologar a vida útil da bateria."
 
 #: user-docs/C/hardware-devices.xml:169(para)
 msgid ""
@@ -4289,14 +4316,17 @@ msgid ""
 "Settings Manager</guimenuitem><guimenuitem>Power "
 "Manager</guimenuitem></menuchoice></application>"
 msgstr ""
+"Clique em <application><menuchoice><placeholder-1/><guimenuitem><placeholder-"
+"2/> Gerenciador de configurações</guimenuitem><guimenuitem>Gerenciador de "
+"energia</guimenuitem></menuchoice></application>"
 
 #: user-docs/C/hardware-devices.xml:170(para)
 msgid "Change settings as appropriate"
-msgstr ""
+msgstr "Altere as configurações como desejado"
 
 #: user-docs/C/hardware-devices.xml:171(para)
 msgid "Changes are applied instantly"
-msgstr ""
+msgstr "As alterações são aplicadas instantaneamente"
 
 #: user-docs/C/hardware-devices.xml:174(para)
 msgid ""
@@ -4305,10 +4335,15 @@ msgid ""
 "battery life significantly; many laptops allow you to do this by pressing "
 "<keycap><placeholder-1/>Fn+F7</keycap> (or other marked key) several times."
 msgstr ""
+"Quando o seu laptop está utilizando a bateria, um dos maiores consumidores "
+"de energia é a tela. Diminuir o brilho da tela pode aumentar "
+"significativamente a duração da carga da bateria; muitos laptops permitem "
+"que você faça isso pressionando as teclas  <keycap><placeholder-"
+"1/>Fn+F7</keycap> (ou se esta função estiver em outra tecla) várias vezes."
 
 #: user-docs/C/hardware-devices.xml:178(title)
 msgid "Touchpads"
-msgstr ""
+msgstr "Touchpads"
 
 #: user-docs/C/hardware-devices.xml:180(para)
 msgid ""
@@ -4317,6 +4352,9 @@ msgid ""
 "behaves; the most basic touchpad settings can be configured in the following "
 "way:"
 msgstr ""
+"Muitos laptops possuem um touchpad, que é usado para controlar o mouse. Há "
+"várias maneiras de mudar o comportamento do touchpad; a configuração mais "
+"básica dele pode ser feita da seguinte maneira:"
 
 #: user-docs/C/hardware-devices.xml:183(para)
 msgid ""
@@ -4324,17 +4362,22 @@ msgid ""
 "Settings Manager</guimenuitem><guimenuitem>Mouse and "
 "Touchpad</guimenuitem></menuchoice></application>"
 msgstr ""
+"Clique em <application><menuchoice><placeholder-1/><guimenuitem><placeholder-"
+"2/> Gerenciador de configurações</guimenuitem><guimenuitem>Mouse e "
+"Touchpad</guimenuitem></menuchoice></application>"
 
 #: user-docs/C/hardware-devices.xml:184(para)
 msgid ""
 "From the <guilabel>Device:</guilabel> field pick list, select the touchpad."
-msgstr ""
+msgstr "No campo <guilabel>Dispositivo:</guilabel>, selecione o touchpad."
 
 #: user-docs/C/hardware-devices.xml:185(para)
 msgid ""
 "Here you can change the touchpad settings to your liking. Changes should "
 "take effect immediately."
 msgstr ""
+"Aqui você pode mudar as configurações de touchpad ao seu gosto. As mudanças "
+"devem ser percebidas imediatamente."
 
 #: user-docs/C/hardware-devices.xml:188(para)
 msgid ""
@@ -4344,16 +4387,23 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/SynapticsTouchpad\">Touchpads</ulink>"
 " page in the Ubuntu community wiki for more information on touchpads."
 msgstr ""
+"Alguns touchpads podem ser detectados como mouses \"normais\". Nesse caso, o "
+"dispositivo <guilabel>Touchpad</guilabel> não estará disponível nas "
+"preferências do mouse. Leia a página <ulink "
+"url=\"https://help.ubuntu.com/community/SynapticsTouchpad\">Touchpads</ulink>"
+" na wiki da comunidade Ubuntu para mais informações sobre touchpads."
 
 #: user-docs/C/hardware-devices.xml:193(title)
 msgid "Suspending and Hibernating"
-msgstr ""
+msgstr "Suspendendo e Hibernando"
 
 #: user-docs/C/hardware-devices.xml:195(para)
 msgid ""
 "In order to save power, you can put your computer into one of a number of "
 "power-saving modes when you are not using it:"
 msgstr ""
+"Para economizar energia, você poderá configurar o seu computador em um dos "
+"vários modos de economia de energia, quando ele estiver inativo:"
 
 #: user-docs/C/hardware-devices.xml:198(para)
 msgid ""
@@ -4362,6 +4412,10 @@ msgid ""
 "use much less power. You can wake the computer by pressing a key or clicking "
 "the mouse."
 msgstr ""
+"Suspender um computador é como colocá-lo para \"dormir\". Ele ainda estará "
+"ligado e com todo o seu trabalho aberto, mas utilizando muito menos energia. "
+"Você poderá \"acordar\" o computador pressionando qualquer tecla ou clicando "
+"no mouse."
 
 #: user-docs/C/hardware-devices.xml:199(para)
 msgid ""
@@ -4371,6 +4425,11 @@ msgid ""
 "restored as it was before hibernation. No power is used when the computer is "
 "hibernating."
 msgstr ""
+"Hibernar é desligar o computador completamente, salvando o atual estado de "
+"uso dele (por exemplo, mantendo todos os seus documentos e programas "
+"abertos). Quando você religar o computador, todo o seu trabalho deverá ser "
+"restaurado ao mesmo estado antes da hibernação. Não há consumo de energia "
+"quando o computador está hibernando."
 
 #: user-docs/C/hardware-devices.xml:200(para)
 msgid ""
@@ -4379,6 +4438,10 @@ msgid ""
 "pressing a keyboard button or by clicking the mouse. You can resume from "
 "hibernation by pressing the power button on your computer."
 msgstr ""
+"Retornar é trazer o computador de volta para o modo normal de operação, "
+"saindo do modo de economia de energia. Você pode retornar o computador que "
+"está suspenso pressionando qualquer tecla ou clicando no mouse. Você pode "
+"retornar da hibernação pressionando o botão liga/desliga do seu computador."
 
 #: user-docs/C/hardware-devices.xml:203(para)
 msgid ""
@@ -4386,6 +4449,9 @@ msgid ""
 "an option in any menus. For a command line workaround, see <xref "
 "linkend=\"enabling-hibernation\"/>."
 msgstr ""
+"Note que a hibernação está desativada por padrão no Xubuntu e, por isso, ela "
+"não aparece como opção em qualquer menu. Para uma solução alternativa via "
+"linha de comando, veja <xref linkend=\"enabling-hibernation\"/>."
 
 #: user-docs/C/hardware-devices.xml:205(para)
 msgid ""
@@ -4394,6 +4460,10 @@ msgid ""
 "Out</guimenuitem></menuchoice></application> and then pressing the "
 "appropriate button."
 msgstr ""
+"Você pode, manualmente, colocar o seu computador em um modo de economia de "
+"energia, clicando em <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> Encerrar "
+"sessão</guimenuitem></menuchoice></application> e depois no botão apropriado."
 
 #: user-docs/C/hardware-devices.xml:207(para)
 msgid ""
@@ -4402,10 +4472,15 @@ msgid ""
 "try to switch to that mode and see if it behaves as you expected. Always "
 "make sure you save important documents before suspending or hibernating."
 msgstr ""
+"Alguns computadores podem ter problemas em certos modos de economia de "
+"energia. A melhor maneira de verificar se o seu computador pode manipular um "
+"modo de economia de energia é configurar este modo e observar se o "
+"computador se comporta como esperado. Sempre se certifique de salvar seus "
+"documentos importantes antes do seu computador ficar suspenso ou hibernando."
 
 #: user-docs/C/hardware-devices.xml:210(title)
 msgid "My computer doesn't suspend or hibernate correctly"
-msgstr ""
+msgstr "Meu computador não suspende ou hiberna corretamente"
 
 #: user-docs/C/hardware-devices.xml:212(para)
 msgid ""
@@ -4413,26 +4488,33 @@ msgid ""
 "this is the case for your computer, you may notice some of the following "
 "symptoms:"
 msgstr ""
+"Alguns computadores não conseguem suspender ou hibernar corretamente no "
+"Xubuntu. Se esse é o caso do seu, você poderá notar alguns dos seguintes "
+"sintomas:"
 
 #: user-docs/C/hardware-devices.xml:215(para)
 msgid "The computer does not turn off after you click to hibernate it."
-msgstr ""
+msgstr "O computador não desliga depois que você o colocou para hibernar."
 
 #: user-docs/C/hardware-devices.xml:216(para)
 msgid ""
 "When you turn the computer on after hibernating it, your previously open "
 "programs are not restored."
 msgstr ""
+"Quando você liga o computador depois de colocá-lo para hibernar, seus "
+"programas anteriormente abertos não são restaurados."
 
 #: user-docs/C/hardware-devices.xml:217(para)
 msgid "The computer will not wake up after you have suspended it."
-msgstr ""
+msgstr "O computador não desperta depois de você suspendê-lo."
 
 #: user-docs/C/hardware-devices.xml:218(para)
 msgid ""
 "Certain programs or hardware devices stop working correctly after resuming "
 "from hibernation or waking-up from being suspended."
 msgstr ""
+"Certos programas ou dispositivos param de funcionar corretamente depois de "
+"retornar da hibernação ou da suspensão."
 
 #: user-docs/C/hardware-devices.xml:221(para)
 msgid ""
@@ -4443,43 +4525,57 @@ msgid ""
 "computer and it should return to normal. If a program does not work "
 "properly, try closing the program and then starting it again."
 msgstr ""
+"Se você convive com algum destes problemas, você deve reportar um bug para o "
+"<ulink url=\"http://launchpad.net/\">Launchpad</ulink>. Os problemas serão "
+"reparados em uma versão seguinte do Xubuntu. Se o seu hardware não funciona "
+"adequadamente depois de suspender ou hibernar o seu computador, reinicie o "
+"seu computador e ele deverá voltar ao normal. Se um programa não funciona "
+"adequadamente, tente fechá-lo e executá-lo novamente."
 
 #: user-docs/C/hardware-devices.xml:223(para)
 msgid ""
 "Make sure that you save all of your open documents before testing for "
 "suspend and hibernate problems."
 msgstr ""
+"Certifique-se de que você tenha salvo todos os seus documentos abertos antes "
+"de verificar o funcionamento do seu computador nos modos de suspensão e "
+"hibernação."
 
 #: user-docs/C/hardware-devices.xml:227(title)
 msgid "Enabling hibernation"
-msgstr ""
+msgstr "Ativando a hibernação"
 
 #: user-docs/C/hardware-devices.xml:229(para)
 msgid "To enable and use hibernation with Xubuntu, do the following:"
-msgstr ""
+msgstr "Para ativar e usar a hibernação com o Xubuntu, faça o seguinte:"
 
 #: user-docs/C/hardware-devices.xml:232(para)
 msgid ""
 "Install the <application>pm-utils</application> package from "
 "<application>Gnome Software</application>."
 msgstr ""
+"A partir do <application>Aplicativo Software do Gnome</application>, instale "
+"o pacote <application>pm-utils</application>."
 
 #: user-docs/C/hardware-devices.xml:233(para)
 msgid ""
 "From the command line, enter: <userinput>sudo pm-hibernate</userinput>."
 msgstr ""
+"Na linha de comando, digite: <userinput>sudo pm-hibernate</userinput>."
 
 #: user-docs/C/hardware-devices.xml:234(para)
 msgid "Enter your password."
-msgstr ""
+msgstr "Informe sua senha de usuário"
 
 #: user-docs/C/hardware-devices.xml:235(para)
 msgid "To resume from hibernation, press the power button."
-msgstr ""
+msgstr "Para retornar da hibernação, pressione o botão liga/desliga."
 
 #: user-docs/C/hardware-devices.xml:241(title)
 msgid "I get strange patterns on the screen when I hibernate my computer"
 msgstr ""
+"Eu percebo padrões estranhos na tela após ativar a hibernação do meu "
+"computador"
 
 #: user-docs/C/hardware-devices.xml:243(para)
 msgid ""
@@ -4491,10 +4587,17 @@ msgid ""
 "problem with hibernation. See <xref linkend=\"suspending-troubleshooting\"/> "
 "for more information."
 msgstr ""
+"Sua tela pode mostrar um padrão preto e branco logo após você ativar a "
+"hibernação do seu computador. Normalmente, não há com o que se preocupar, e "
+"somente algumas placas de vídeo de alguns computadores respondem aos "
+"estágios iniciais do processo de hibernação. Se o computador exibe o padrão "
+"por muito tempo, sem se desligar, então você pode ter um problema com a "
+"hibernação. Leia a seção <xref linkend=\"suspending-troubleshooting\"/> para "
+"mais informações."
 
 #: user-docs/C/hardware-devices.xml:248(title)
 msgid "Mice and keyboards"
-msgstr ""
+msgstr "Mouses e teclados"
 
 #: user-docs/C/hardware-devices.xml:250(para)
 msgid ""
@@ -4511,50 +4614,61 @@ msgid ""
 "Manager</guimenuitem><guimenuitem>Keyboard</guimenuitem></menuchoice></applic"
 "ation>."
 msgstr ""
+"Quando você instala o Xubuntu, você seleciona o tipo do seu teclado e seu "
+"idioma. Durante a instalação, seus dispositivos apontadores podem ser "
+"automaticamente detectados e configurados. Se você quer ou precisa modificar "
+"as configurações de alguns desses dispositivos depois da instalação, você "
+"pode fazê-lo clicando em <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> "
+"Configurações</guimenuitem><guimenuitem>Mouse e "
+"Touchpad</guimenuitem></menuchoice></application> ou "
+"<application><menuchoice><placeholder-3/><guimenuitem><placeholder-4/> "
+"Configurações</guimenuitem><guimenuitem>Teclado</guimenuitem></menuchoice></a"
+"pplication>."
 
 #: user-docs/C/hardware-devices.xml:252(para)
 msgid "Options for mice and touchpads include:"
-msgstr ""
+msgstr "As opções disponíveis para configuração de mouse e touchpad incluem:"
 
 #: user-docs/C/hardware-devices.xml:255(guilabel)
 msgid "Button orientation"
-msgstr ""
+msgstr "Orientação de botões"
 
 #: user-docs/C/hardware-devices.xml:256(guilabel)
 msgid "Pointer speed and sensitivity"
-msgstr ""
+msgstr "Velocidade e sensibilidade do ponteiro"
 
 #: user-docs/C/hardware-devices.xml:257(guilabel)
 msgid "Double-click sensitivity"
-msgstr ""
+msgstr "Sensibilidade do clique duplo"
 
 #: user-docs/C/hardware-devices.xml:258(guilabel)
 msgid "Cursor theme"
-msgstr ""
+msgstr "Tema do Ponteiro"
 
 #: user-docs/C/hardware-devices.xml:261(para)
 msgid "Some of the options for configuring your keyboard include:"
-msgstr ""
+msgstr "As opções disponíveis para configuração de teclado incluem:"
 
 #: user-docs/C/hardware-devices.xml:264(guilabel)
 msgid "State of the Num Lock key on startup"
-msgstr ""
+msgstr "Estado da tecla Num Lock na inicialização"
 
 #: user-docs/C/hardware-devices.xml:265(guilabel)
 msgid "Key repeat speed and delay"
-msgstr ""
+msgstr "Velocidade e intervalo de repetição de tecla"
 
 #: user-docs/C/hardware-devices.xml:266(guilabel)
 msgid "Cursor blinking speed"
-msgstr ""
+msgstr "Velocidade de intermitência do cursor"
 
 #: user-docs/C/hardware-devices.xml:267(guilabel)
 msgid "Application keyboard shortcuts"
-msgstr ""
+msgstr "Atalhos de teclado para aplicativos"
 
 #: user-docs/C/hardware-devices.xml:268(guilabel)
 msgid "Keyboard layout and language"
-msgstr ""
+msgstr "Leiaute do teclado e idioma"
 
 #: user-docs/C/hardware-devices.xml:271(para)
 msgid ""
@@ -4563,6 +4677,10 @@ msgid ""
 "appropriate device from the <guilabel>Device:</guilabel> pick list on the "
 "<guilabel>Devices</guilabel> tab page."
 msgstr ""
+"Se você está utilizando um mouse em um laptop que também tem um touchpad, "
+"você pode mudar o comportamento de cada um deles individualmente, "
+"selecionando o dispositivo apropriado na lista "
+"<guilabel>Dispositivo:</guilabel>, na aba <guilabel>Dispositivos</guilabel>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4574,7 +4692,7 @@ msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:14(title)
 msgid "Keeping your computer and personal information safe"
-msgstr ""
+msgstr "Protegendo suas informações pessoais e do computador"
 
 #: user-docs/C/guide-keeping-safe.xml:16(para)
 msgid ""
@@ -4583,10 +4701,14 @@ msgid ""
 "help you achieve a higher level of security. Pay particular attention to the "
 "following subsections:"
 msgstr ""
+"Manter suas informações pessoais e do computador protegidas de ameaças de "
+"segurança, é uma das mais importantes tarefas da computação atualmente. Este "
+"guia pretende ajudar você a alcançar um alto nível de segurança. Preste "
+"bastante atenção às seguintes subseções:"
 
 #: user-docs/C/guide-keeping-safe.xml:27(title)
 msgid "Keep your software up to date"
-msgstr ""
+msgstr "Mantenha seus programas atualizados"
 
 #: user-docs/C/guide-keeping-safe.xml:29(para)
 msgid ""
@@ -4597,6 +4719,12 @@ msgid ""
 "they are searching for victims to hack with automated programs in under a "
 "few hours."
 msgstr ""
+"As atualizações de segurança são muito importantes. Elas são a melhor defesa "
+"que você tem contra as pessoas que querem prejudicar o seu computador, e "
+"você deve instalá-las imediatamente. Quando uma atualização de segurança é "
+"lançada, os hackers já sabem como explorar os computadores que não estão "
+"atualizados. No pior caso, eles estão procurando vítimas susceptíveis a "
+"ataques através de programas automatizados em poucas horas."
 
 #: user-docs/C/guide-keeping-safe.xml:35(para)
 msgid ""
@@ -4607,6 +4735,12 @@ msgid ""
 "Updates</guimenuitem></menuchoice></application> and change the settings to "
 "your liking."
 msgstr ""
+"Por padrão, as atualizações de segurança automáticas estão habilitadas no "
+"Xubuntu. Se você quiser mudar estas configurações, clique na aba "
+"<guilabel>Atualizações</guilabel>, clicando em "
+"<application><menuchoice><placeholder-"
+"1/><guimenuitem>Configurações</guimenuitem><guimenuitem>Programas e "
+"atualizações</guimenuitem></menuchoice></application>"
 
 #: user-docs/C/guide-keeping-safe.xml:39(para)
 msgid ""
@@ -4614,6 +4748,9 @@ msgid ""
 "the automatic updates are turned off, it is essential to remember to "
 "manually upgrade often."
 msgstr ""
+"Desativar as atualizações automáticas diminui o nível de segurança do seu "
+"computador. Quando elas são desativadas, é essencial lembrar de instalá-las "
+"frequentemente, de maneira manual."
 
 #: user-docs/C/guide-keeping-safe.xml:42(para)
 msgid ""
@@ -4621,10 +4758,13 @@ msgid ""
 "use automatic updates, remember to update every time you have access to an "
 "unlimited connection."
 msgstr ""
+"Se você utiliza uma conexão com a Internet com velocidade limitada e não "
+"quiser utilizar as atualizações automáticas, lembre-se de instalar as "
+"atualizações toda vez que você tiver um acesso à uma conexão sem limitações."
 
 #: user-docs/C/guide-keeping-safe.xml:48(title)
 msgid "Passwords"
-msgstr ""
+msgstr "Senhas"
 
 #: user-docs/C/guide-keeping-safe.xml:50(para)
 msgid ""
@@ -4633,10 +4773,14 @@ msgid ""
 "telephone, hang up and call someone you know to ensure that the connection "
 "to those asking is lost."
 msgstr ""
+"Empresas genuínas não solicitarão que você forneça sua senha. Se você for "
+"questionado sobre sua senha, exclua qualquer e-mail solicitando isto. Se "
+"você está ao telefone, desligue e ligue para alguém que possa assegurar que "
+"a conexão com o solicitante não genuíno foi perdida."
 
 #: user-docs/C/guide-keeping-safe.xml:53(title)
 msgid "Use strong and unique passwords for important accounts"
-msgstr ""
+msgstr "Utilize senhas fortes e únicas para contas importantes"
 
 #: user-docs/C/guide-keeping-safe.xml:55(para)
 msgid ""
@@ -4644,26 +4788,37 @@ msgid ""
 "prevent unauthorized access to your personal information, identity theft and "
 "direct financial losses. Consider the following scenario:"
 msgstr ""
+"Utilizar senhas fortes e únicas para contas importantes e sensíveis ajuda a "
+"prevenir acesso não autorizado para suas informações pessoais, identificar "
+"roubo de identidade e perdas financeiras. Considere o seguinte cenário:"
 
 #: user-docs/C/guide-keeping-safe.xml:60(para)
 msgid ""
 "Alice uses identical passwords for mytrustedbank.com and insecureblog.com"
 msgstr ""
+"Alice utiliza a mesma senha para o site meubancoseguro.com e para o site "
+"bloginseguro.com"
 
 #: user-docs/C/guide-keeping-safe.xml:61(para)
 msgid ""
 "insecureblog is hacked and Alice’s information and password are stolen"
 msgstr ""
+"O site bloginseguro foi invadido e as informações de Alice, incluindo a "
+"senha, foram roubadas"
 
 #: user-docs/C/guide-keeping-safe.xml:62(para)
 msgid "Hackers can now access Alice’s bank account and steal her money"
 msgstr ""
+"Os hackers podem agora acessar a conta de banco da Alice e roubar o dinheiro "
+"dela"
 
 #: user-docs/C/guide-keeping-safe.xml:65(para)
 msgid ""
 "Password reuse can turn into a disaster. You should pay attention to use "
 "unique and strong passwords for the following services:"
 msgstr ""
+"A reutilização da senha pode se tornar um desastre. Você deve prestar "
+"atenção e utilizar senhas únicas e fortes para os seguintes serviços:"
 
 #: user-docs/C/guide-keeping-safe.xml:68(para)
 msgid ""
@@ -4671,6 +4826,9 @@ msgid ""
 "your other passwords via the “Forgotten password” links found on all "
 "websites."
 msgstr ""
+"<emphasis>Contas de e-mail</emphasis>. Contas de e-mail podem ser utilizadas "
+"para recuperar todas as suas outras senhas, através dos links do tipo "
+"\"Esqueci a senha\" encontrados em praticamente todos os sites."
 
 #: user-docs/C/guide-keeping-safe.xml:69(para)
 msgid ""
@@ -4678,16 +4836,22 @@ msgid ""
 "good password for those services, since they allow you to avoid typing many "
 "other passwords!"
 msgstr ""
+"<emphasis>Gerenciadores de senhas e de armazenamento de chaves</emphasis>. "
+"Vale a pena ter uma boa senha para estes serviços, desde que eles permitam "
+"que você evite digitar muitas outras senhas!"
 
 #: user-docs/C/guide-keeping-safe.xml:70(para)
 msgid ""
 "<emphasis>Accounts related to banking</emphasis>, including PayPal and other "
 "payment sites. If someone can access these, they can steal your money."
 msgstr ""
+"<emphasis>Contas relacionadas a transações bancárias</emphasis>, incluindo "
+"PayPal e outros sites de pagamentos. Se alguém pode acessá-los, seu dinheiro "
+"poderá ser roubado."
 
 #: user-docs/C/guide-keeping-safe.xml:75(title)
 msgid "What is a strong password?"
-msgstr ""
+msgstr "O que significa uma senha forte?"
 
 #: user-docs/C/guide-keeping-safe.xml:77(para)
 msgid ""
@@ -4695,6 +4859,8 @@ msgid ""
 "guess it. Attackers use special programs that can make millions of guesses "
 "per second, so weak passwords don’t stand a chance."
 msgstr ""
+"A força de uma senha depende de quão difícil ela é para um atacante descobri-"
+"la."
 
 #: user-docs/C/guide-keeping-safe.xml:82(para)
 msgid ""
@@ -4707,6 +4873,15 @@ msgid ""
 "<literal>monkey1</literal> is more common than <literal>mo5nkey</literal>, "
 "and also more common than <literal>monkey hoover</literal>)."
 msgstr ""
+"Algumas senhas (como <literal>casa</literal>, <literal>senha</literal>, "
+"<literal>teste</literal>, <literal>123456</literal>) são extremamente "
+"comuns. Se você usa senhas comuns, suas contas serão facilmente invadidas. "
+"Porém, adicionando letras maiúsculas, números ou símbolos muitas vezes não é "
+"suficiente para transformar uma senha fraca em forte. Isto acontece porque "
+"as pessoas escolhem frequentemente os mesmos símbolos e números adicionais "
+"(por exemplo, <literal>casa1</literal> é mais comum que "
+"<literal>ca5a</literal>), e também mais comum que <literal>casa "
+"aspirador</literal>)."
 
 #: user-docs/C/guide-keeping-safe.xml:92(para)
 msgid ""
@@ -4717,10 +4892,17 @@ msgid ""
 "would naturally associate with you (for instance, you should not pick poker "
 "related words if you play poker every day)."
 msgstr ""
+"É melhor escolher uma senha longa, como uma frase (por exemplo "
+"<literal>cavalo correto bateria estável</literal>), do que uma senha que é, "
+"ao mesmo tempo, difícil de lembrar e fácil de adivinhar. Considere a ideia "
+"de usar uma série de palavras comuns, as quais você poderá facilmente "
+"lembrar. Mas não escolha palavras que podem naturalmente serem associadas a "
+"você, por pessoas conhecidas (por exemplo, você não deve escolher palavras "
+"relacionadas a poker, se jogar poker for uma atividade rotineira sua)."
 
 #: user-docs/C/guide-keeping-safe.xml:102(title)
 msgid "How to reuse passwords safely?"
-msgstr ""
+msgstr "Como reutilizar senhas de maneira segura?"
 
 #: user-docs/C/guide-keeping-safe.xml:104(para)
 msgid ""
@@ -4731,26 +4913,38 @@ msgid ""
 "definitive agreement among security researchers on how to reduce the risk of "
 "reusing passwords, but you should consider the following:"
 msgstr ""
+"Mesmo sabendo que usar senhas iguais para múltiplas contas é uma atitude "
+"desaconselhada, todo mundo acaba fazendo isso, até experts em segurança. "
+"Porém, muitos websites são invadidos por hackers todo ano. Alguns deles "
+"podem até propositalmente vazar as senhas dos usuários para terceiros. Não "
+"existe uma regra definitiva entre os pesquisadores de segurança sobre como "
+"reduzir o risco na reutilização de senhas, mas você pode considerar o "
+"seguinte:"
 
 #: user-docs/C/guide-keeping-safe.xml:112(para)
 msgid "Separate your professional password from your personal passwords."
 msgstr ""
+"Diferencie as senhas utilizadas no seu trabalho das suas senhas pessoais."
 
 #: user-docs/C/guide-keeping-safe.xml:113(para)
 msgid ""
 "Avoid mixing passwords between websites where attackers can damage your "
 "reputation and low-value websites."
 msgstr ""
+"Evite misturar senhas entre sites onde invasores podem difamar você e sites "
+"não confiáveis."
 
 #: user-docs/C/guide-keeping-safe.xml:114(para)
 msgid "Use a password you're willing to lose for sites you do not trust."
-msgstr ""
+msgstr "Use uma senha que você pode perder em sites que você não confia."
 
 #: user-docs/C/guide-keeping-safe.xml:115(para)
 msgid ""
 "Do not \"waste\" passwords on websites you connect to once a year. Make up a "
 "random password and use the \"forgotten password\" feature next time."
 msgstr ""
+"Não \"desperdice\" senhas em sites que você conecta uma vez por ano. Coloque "
+"uma senha aleatória e use o recurso \"esqueci a senha\" no próximo acesso."
 
 #: user-docs/C/guide-keeping-safe.xml:120(title)
 msgid "When to change your password?"
