@@ -96,7 +96,7 @@
 	<section id="xsd-community">
 		<title>Community</title>
 
-		<section id="xsd-community-xc">
+		<section id="xsd-community-council">
 			<title>Xubuntu Council</title>
 
 			<para>The Xubuntu Council (later: council) is responsible for overseeing the development direction of Xubuntu and enabling the community to work with Xubuntu as smoothly as possible. The council serves a term of four releases/two years at a time, ending with an LTS release to allow long-term planning.</para>
@@ -128,9 +128,9 @@
 
 			<para>The Xubuntu team is organized in Launchpad as <ulink url="https://launchpad.net/~xubuntu-team">xubuntu-team</ulink>. The Launchpad team is moderated.</para>
 
-			<para>The individuals wanting to join the Xubuntu team are required to meet the criteria described below prior to applying or they will be automatically declined. The Xubuntu Council is responsible for moderating the Xubuntu team. From this group, the Council can appoint specific team leads.</para>
+			<para>The individuals wanting to join the Xubuntu team are required to meet the criteria described below prior to applying or they will be automatically declined. Leaders for subteams can be appointed from this team. The Xubuntu team is moderated by the council.</para>
 
-			<para>In case a team lead is in the minority when voting on an issue that concerns their area of expertise, the team lead should be given another hearing, after which the team should take extra care in deciding about the issue and may want to consider voting on it again after more discussion.  If the XPL abstains from the vote, the team leader in question has a casting vote.</para>
+			<para>In case a team lead is in the minority when voting on an issue that concerns their area of expertise, the team lead should be given another hearing, after which the team should take extra care in deciding about the issue and may want to consider voting on it again after more discussion. If required, the issue can be raised to the council for further consideration.</para>
 
 			<section id="xsd-community-team-members">
 				<title>Becoming and staying a member</title>
@@ -138,8 +138,8 @@
 				<para>To be accepted to the Xubuntu team, applicants participants must demonstrate their motivation and ability to contribute to Xubuntu. This is to ensure that any Xubuntu team member has a sufficient understanding of the Xubuntu community and its operation. The different steps one must go through will also indicate that the candidate member is able to work within the guidelines, and more important, with other people and communities. To become a member, one must:</para>
 
 				<itemizedlist>
-					<listitem><para>Commit meaningful contributions to one of the subteams, after which one will be approved to the subteam for "probation" by a subteam administrator</para></listitem>
-					<listitem><para>Demonstrate motivation to contribute perpetually, after which one will be approved to the Xubuntu team by the Council</para></listitem>
+					<listitem><para>Commit meaningful contributions to one of the subteams, after which one can be approved to the subteam for "probation" by a subteam administrator</para></listitem>
+					<listitem><para>Demonstrate motivation to contribute perpetually, after which one can be approved to the Xubuntu team</para></listitem>
 				</itemizedlist>
 
 				<para>To stay a member of the Xubuntu team, the member will have to have desire to continue contributing in the future. Anyone with no contributions for more than a complete cycle (6 months) should deactivate themself from the team as well as all subteams and reapply if/when they are willing to rejoin. The team administrators should purge people with no contributions in more than 6 months from the teams occasionally.</para>
@@ -179,11 +179,11 @@
 			<para>For Xubuntu to be successful, its members and community must have the right tools to enable useful and helpful communication and ultimately, to help the community grow. These communication tools include the following "core" tools:</para>
 
 			<itemizedlist>
-				<listitem><para><emphasis>Mailing lists</emphasis>; xubuntu-users for community support and user discussions and xubuntu-devel for development discussion and coordination</para></listitem>
+				<listitem><para><emphasis>Mailing lists</emphasis>; Xubuntu-users for community support and user discussions and the Xubuntu-devel list for development discussion and coordination</para></listitem>
 				<listitem><para><emphasis>IRC channels</emphasis>; #xubuntu for community support, #xubuntu-devel for development discussion and coordination and #xubuntu-offtopic for general discussion with a more relaxed mood</para></listitem>
-				<listitem><para><emphasis>Launchpad</emphasis>, for organizing teams as well as tracking and managing blueprints and bugs</para></listitem>
+				<listitem><para><emphasis>Launchpad</emphasis> for team organization and granting permissions and access rights via team memberships</para></listitem>
 				<listitem><para><emphasis>The Xubuntu website</emphasis> for news, development articles and general information about Xubuntu</para></listitem>
-				<!-- <listitem><para><emphasis>The Xubuntu pages in the Ubuntu wiki for development coordination</para></listitem> -->
+				<listitem><para><emphasis>The Xubuntu developer area</emphasis> for tracking development progress and collaborating on development issues and sharing development related information on the wiki</para></listitem>
 			</itemizedlist>
 
 			<para>In addition to communicating with each other and the Xubuntu community, the Xubuntu team should communicate continuosly with other Ubuntu contributors, upstream and other projects related to Xubuntu. The team members should take part in the development discussion outside Xubuntu as well to create and maintain healthy relationships with other projects and their developers.</para>
@@ -196,7 +196,7 @@
 
 			<note><para>To read the most recent revision of the Ubuntu Code of Conduct, refer to the <ulink url="http://www.ubuntu.com/about/about-ubuntu/conduct">Ubuntu Code of Conduct</ulink> page on the Ubuntu website.</para></note>
 
-			<para>The Ubuntu Community Council can be asked to act as mediators/advisors where their expertise would be useful when the Xubuntu Council and Team requires assistance. The Xubuntu Council and Team are encouraged to talk to other teams in the Ubuntu community if it helps resolving the issue.</para>
+			<para>The Ubuntu Community Council can be asked to act as mediators/advisors where their expertise would be useful when the Xubuntu Council requires assistance. The Xubuntu Council and the Xubuntu team are encouraged to talk to other teams in the Ubuntu community if it helps resolving the issue.</para>
 
 			<para>When disputes occur, contributors are strongly encouraged to refrain from taking the disputed actions to avoid sabotaging the dispute resolution process.</para>
 		</section>
@@ -206,16 +206,6 @@
 		<title>Release and Support Cycles</title>
 
 		<para>The Xubuntu release cycle consists of 6 months from start to release, then an additional 9 month of maintenance for standard releases and 3 years of support for LTS releases. Although the Xubuntu project itself can not provide commercial support or commercial guarantees, the Xubuntu team will make every effort to conform with the acknowledged support period and provide security updates for Xubuntu packages.</para>
-
-		<!-- <para>The release cycle itself consists of 5 more or less overlapping stages, which are:</para>
-
-		<itemizedlist>
-			<listitem><para>Planning</para></listitem>
-			<listitem><para>Developing</para></listitem>
-			<listitem><para>Testing</para></listitem>
-			<listitem><para>Releasing</para></listitem>
-			<listitem><para>Maintaining</para></listitem>
-		</itemizedlist> -->
 
 		<para>For more information about the specifics of the processes related to developing a release, see <xref linkend="processes" />.</para>
 	</section>
@@ -253,7 +243,7 @@
 				<listitem><para>The package selection process must be conducted as objectively as possible</para></listitem>
 			</itemizedlist>
 
-			<para>While the Xubuntu Council and the Xubuntu Technical Lead have the last word on package selection, it's recommended that the whole team is involved in the discussion, bringing up well thought out arguments both for and against. When appropriate, tests should be conducted to gather meaningful measurements.</para>
+			<para>While the Xubuntu Technical Lead has the last word on package selection with the approval of the Xubuntu Council, it's recommended that the whole team is involved in the discussion, bringing up well thought out arguments both for and against. When appropriate, tests should be conducted to gather meaningful measurements.</para>
 
 			<para>Before seeding an application in Xubuntu, the following aspects should be considered:</para>
 
@@ -273,7 +263,7 @@
 				<listitem><para>The package should be well maintained upstream</para></listitem>
 			</itemizedlist>
 
-			<para>While the Xubuntu Council and the Xubuntu Technical Lead have the last word on package selection, it is recommended that the whole team is involved in the discussion, using well thought out arguments both for and against.</para>
+			<para>While the Xubuntu Technical Lead has the last word on package selection with the approval of the Xubuntu Council, it is recommended that the whole team is involved in the discussion, using well thought out arguments both for and against.</para>
 		</section>
 	</section>
 </appendix>
