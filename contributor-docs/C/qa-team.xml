@@ -19,7 +19,7 @@
 		<section id="qa-team-basics">
 		<title>QA Team</title>
 
-		<para>The Xubuntu QA team was formed to ensure that the quality of a released Xubuntu conforms to the parameters laid out in the Xubuntu Processes documents. In order to successfully accomplish this, close team working relationships, especially with the Development team and the Project Lead are paramount. Xubuntu's success is based on close working amongst all of its various teams.</para>
+		<para>The Xubuntu QA team was formed to ensure that the quality of a released Xubuntu conforms to the parameters laid out in the Xubuntu Processes documents. In order to successfully accomplish this, close team working relationships, especially with the Development team and the Council are paramount. Xubuntu's success is based on close working amongst all of its various teams.</para>
 
 		<para>In addition, the team gives people contributing through testing of Xubuntu the opportunity to become part of the <ulink url="https://launchpad.net/~xubuntu-team">Xubuntu Team</ulink>. For that to be of practical use, the QA team should keep an eye on testing reports on the trackers and propose users they have seen taking a keen interest in the work of the QA team.</para>
 
@@ -63,6 +63,9 @@
 		<para>When there are changes to a package we test, following for example a bug fix, a further check of the testcase involved should take place. Further testing calls for that package should be made to check for regression during the cycle.</para>
 
 		<para>When a package during test constantly fails, or bug reports indicate a failure in a package for something not tested. The testcase for that package should be disabled temporarily. This should be noted on the Trello Disabled Tests list. The QA Lead is responsible for ensuring tests are both disabled and re-enabled when appropriate.</para>
+
+		<para>Xubuntu ISO's are built and added to the tracker at approximately 2am. This time can be changed by amending our build times at <ulink url="http://bazaar.launchpad.net/~ubuntu-cdimage/ubuntu-cdimage/mainline/files/head:/etc/">crontab</ulink> and proposing the change.</para>
+		
 	</section>
 
 	<section id="qa-team-testedits">
