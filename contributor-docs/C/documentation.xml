@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
 "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
 <!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
 %xubuntu-common;
@@ -21,6 +21,10 @@
 			<listitem><para>Get the build dependencies for <literal>&package;xubuntu-docs</literal>.</para></listitem>
 		</itemizedlist>
 	</section>
+
+	<section id="docs-editing">
+		<title>Editing the User Documentation</title>
+		<para>Changes to the user documentation should be made to the .xml files in <code>/xubuntu-docs/user-docs</code>. Once edited and saved, push changes to your local branch as detailed in <xref linkend="common-reference" /></para>
 
 	<section id="docs-packages">
 		<title>Packages to be translated</title>
@@ -72,7 +76,7 @@
 
 		<para>The <ulink url="https://wiki.ubuntu.com/Translations/Contact/Teams">language-specific translation groups</ulink> usually want to encourage some conventions; please be in touch with the appropriate language-specific group before translating.</para>
 
-		<para>More general translation guidelines can be found at the <ulink url="https://help.launchpad.net/Translations/Guide">Launchpad translations guide</ulink>.</para> 
+		<para>More general translation guidelines can be found at the <ulink url="https://help.launchpad.net/Translations/Guide">Launchpad translations guide</ulink>.</para>
 
 		<section id="docs-translation-guidelines-validity">
 			<title>Maintain translation validity</title>
