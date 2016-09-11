@@ -15,8 +15,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-08-15 05:50+0000\n"
-"X-Generator: Launchpad (build 18169)\n"
+"X-Launchpad-Export-Date: 2016-09-11 06:24+0000\n"
+"X-Generator: Launchpad (build 18186)\n"
 
 #: user-docs/C/xi-translators-not-found.xml:1(para)
 msgid ""
@@ -4948,7 +4948,7 @@ msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:120(title)
 msgid "When to change your password?"
-msgstr ""
+msgstr "Quando alterar sua senha?"
 
 #: user-docs/C/guide-keeping-safe.xml:122(para)
 msgid ""
@@ -4956,6 +4956,9 @@ msgid ""
 "an attacker can steal your password, they will be able to steal it again in "
 "the future."
 msgstr ""
+"Você não precisa alterar sua senha todo dia. Em muitos casos, se um invasor "
+"consegue roubar sua senha uma vez, ele será capaz de roubá-la novamente no "
+"futuro."
 
 #: user-docs/C/guide-keeping-safe.xml:125(para)
 msgid ""
@@ -4965,14 +4968,19 @@ msgid ""
 "<literal>monkey4</literal>, and it will be easily guessed by an attacker who "
 "already stole your previous password!"
 msgstr ""
+"Se você precisar mudar a sua senha, escolha uma nova senha "
+"<emphasis>realmente</emphasis> diferente da anterior. Por exemplo, "
+"<literal>macaco5</literal> não é um substituto aceitável para "
+"<literal>macaco4<literal>, logo esta senha será facilmente advinhada por um "
+"invasor que já roubou a sua senha anteriormente."
 
 #: user-docs/C/guide-keeping-safe.xml:133(title)
 msgid "How to change your login password"
-msgstr ""
+msgstr "Como alterar sua senha de login"
 
 #: user-docs/C/guide-keeping-safe.xml:135(para)
 msgid "To change your password, follow the steps below:"
-msgstr ""
+msgstr "Para alterar sua senha, siga os passos:"
 
 #: user-docs/C/guide-keeping-safe.xml:137(para)
 msgid ""
@@ -4980,30 +4988,37 @@ msgid ""
 "Settings Manager</guimenuitem><guimenuitem>Users and "
 "Groups</guimenuitem></menuchoice></application>"
 msgstr ""
+"Clique em <application><menuchoice><placeholder-1/><guimenuitem><placeholder-"
+"2/> Configurações</guimenuitem><guimenuitem>Usuários e "
+"Grupos</guimenuitem></menuchoice></application>"
 
 #: user-docs/C/guide-keeping-safe.xml:138(para)
 msgid "Click on your username on the list"
-msgstr ""
+msgstr "Na lista exibida, clique no seu nome de usuário"
 
 #: user-docs/C/guide-keeping-safe.xml:139(para)
 msgid ""
 "Click <guilabel>Change...</guilabel> next to the "
 "<guilabel>Password</guilabel> label"
 msgstr ""
+"Clique em <guilabel>Modificar...</guilabel> ao lado do rótulo "
+"<guilabel>Senha</guilabel>"
 
 #: user-docs/C/guide-keeping-safe.xml:140(para)
 msgid "First enter your <guilabel>Current password</guilabel>"
-msgstr ""
+msgstr "Primeiro, digite sua <guilabel>Senha atual</guilabel>"
 
 #: user-docs/C/guide-keeping-safe.xml:141(para)
 msgid "Now you can either"
-msgstr ""
+msgstr "Agora você pode tanto"
 
 #: user-docs/C/guide-keeping-safe.xml:143(para)
 msgid ""
 "Generate a random password by selecting <guilabel>Generate random "
 "password</guilabel> and pressing <guibutton>Generate</guibutton>"
 msgstr ""
+"Gerar uma senha aleatória, selecionando <guilabel>Gerar senha "
+"aleatória</guilabel> e clicando em <guibutton>Gerar</guibutton>"
 
 #: user-docs/C/guide-keeping-safe.xml:144(para)
 msgid ""
@@ -5011,11 +5026,15 @@ msgid ""
 "<guilabel>New password</guilabel> and <guilabel>Confirmation</guilabel> "
 "fields"
 msgstr ""
+"Escolher, você mesmo, sua nova senha e digitá-la nos campos <guilabel>Nova "
+"senha</guilabel> e <guilabel>Confirmação</guilabel>"
 
 #: user-docs/C/guide-keeping-safe.xml:147(para)
 msgid ""
 "Finally, click <guibutton>OK</guibutton> to confirm the password change"
 msgstr ""
+"Ao final, clique em <guibutton>OK</guibutton> para confirmar a alteração da "
+"senha"
 
 #: user-docs/C/guide-keeping-safe.xml:149(para)
 msgid ""
@@ -5024,6 +5043,10 @@ msgid ""
 "security for your system. Please turn on automatic login on only if you can "
 "trust everybody that has access to the computer."
 msgstr ""
+"Apesar de ser possível configurar o Xubuntu para efetuar login "
+"automaticamente, esta opção é altamente desencorajada, porque ela oferece "
+"menos segurança ao seu sistema. Por favor, habilite o login automático "
+"somente se você puder confiar em quem for utilizar o computador."
 
 #: user-docs/C/guide-keeping-safe.xml:157(title)
 msgid "Watch out for stolen passwords occasionally"
@@ -5039,14 +5062,21 @@ msgid ""
 "a service provider informing you that they have been hacked. When you are "
 "confident that a password has been compromised, you should:"
 msgstr ""
+"Existem sites como <ulink "
+"url=\"https://haveibeenpwned.com/\">haveibeenpwned.com</ulink> que podem "
+"informar se o seu endereço de e-mail ou nome de usuário está presente em "
+"serviços cujas senhas foram roubadas. É uma boa prática checar esta "
+"informação mensalmente. Além disso, você pode ocasionalmente ser informado "
+"sobre um serviço que você utiliza ter sido invadido. Quando você tiver "
+"certeza que uma senha sua foi comprometida, você deverá:"
 
 #: user-docs/C/guide-keeping-safe.xml:167(para)
 msgid "identify all the services where you used that password"
-msgstr ""
+msgstr "identificar todos os serviços onde você utilizou esta senha"
 
 #: user-docs/C/guide-keeping-safe.xml:168(para)
 msgid "change your password on all those services"
-msgstr ""
+msgstr "alterar a senha em todos estes serviços"
 
 #: user-docs/C/guide-keeping-safe.xml:169(para)
 msgid ""
@@ -5054,6 +5084,9 @@ msgid ""
 "transfers; also, email services often keep a log of your recent connections "
 "with IP addresses and locations)"
 msgstr ""
+"verificar a atividade recente das contas implicadas (atente para "
+"transferências bancárias; também, serviços de e-mail geralmente mantém um "
+"registro das recentes conexões, incluindo endereços IP e locais)"
 
 #: user-docs/C/guide-keeping-safe.xml:171(para)
 msgid ""
@@ -5062,22 +5095,32 @@ msgid ""
 "email address, which is relatively public information. It does not ask for a "
 "password. Websites that ask for your password will most likely misuse it."
 msgstr ""
+"<emphasis>Nunca</emphasis> revele sua <emphasis>senha</emphasis> para sites "
+"de terceiros. O site acima pode ser utilizado sem problemas, porque ele "
+"requer apenas um endereço de e-mail, o que é uma informação relativamente "
+"pública. Ele não pede por uma senha. Sites que pedem senhas provavelmente "
+"farão mau uso delas."
 
 #: user-docs/C/guide-keeping-safe.xml:180(title)
 msgid "What about password managers?"
-msgstr ""
+msgstr "E sobre os gerenciadores de senha?"
 
 #: user-docs/C/guide-keeping-safe.xml:182(para)
 msgid ""
 "Password managers are a very convenient way of using many unique passwords "
 "without having to remember them all!"
 msgstr ""
+"Os gerenciadores de senha são uma maneira conveniente de usar muitas senhas "
+"únicas sem ter que lembrar de todas!"
 
 #: user-docs/C/guide-keeping-safe.xml:185(para)
 msgid ""
 "There are several password managers available in the repositories, including "
 "<application>KeePassX</application> and <application>PaSaffe</application>."
 msgstr ""
+"Existem vários gerenciadores de senha disponíveis nos repositórios, "
+"incluindo o <application>KeePassX</application> e o "
+"<application>PaSaffe</application>."
 
 #: user-docs/C/guide-keeping-safe.xml:187(para)
 msgid ""
@@ -5086,12 +5129,18 @@ msgid ""
 "computers. You should be aware of a few limitations, if you decide to use a "
 "password manager:"
 msgstr ""
+"Alguns gerenciadores de senha, como o <application>KeePassX</application> "
+"podem sincronizar suas senhas com outros dispositivos, incluindo "
+"computadores Windows ou OS X. Se você decidir utilizar um gerenciador de "
+"senha, você deverá estar ciente de algumas limitações:"
 
 #: user-docs/C/guide-keeping-safe.xml:192(para)
 msgid ""
 "Online password managers can be hacked too. Do not store your email or bank "
 "passwords in a password manager."
 msgstr ""
+"Gerenciadores de senha on line também podem ser invadidos. Não armazene seu "
+"e-mail ou senhas em branco em um software deste tipo."
 
 #: user-docs/C/guide-keeping-safe.xml:193(para)
 msgid ""
@@ -5099,12 +5148,18 @@ msgid ""
 "password, you could end up losing access to all your accounts (another good "
 "reason not to store emails in your password manager)."
 msgstr ""
+"Utilize uma senha memorizável para desbloquear seu gerenciador de senha! Se "
+"você perder esta senha, você pode acabar perdendo o acesso a todas as suas "
+"contas (outra boa razão para não armazenar e-mails no seu gerenciador de "
+"senha)."
 
 #: user-docs/C/guide-keeping-safe.xml:194(para)
 msgid ""
 "Proprietary password managers should not be trusted. Nobody knows what they "
 "do with your passwords."
 msgstr ""
+"Gerenciadores de senha proprietários não são confiáveis. Ninguém sabe o que "
+"eles fazem com suas senhas."
 
 #: user-docs/C/guide-keeping-safe.xml:195(para)
 msgid ""
@@ -5112,24 +5167,31 @@ msgid ""
 "those accounts, you can tell your password manager to use a specific and "
 "memorable password instead of a random password."
 msgstr ""
+"Você pode precisar utilizar algumas contas de seus amigos ou dispositivos de "
+"familiares. Para estas contas, você pode indicar que seu gerenciador de "
+"senha utilize uma senha específica e memorizável, ao invés de gerar uma "
+"senha aleatória."
 
 #: user-docs/C/guide-keeping-safe.xml:197(para)
 msgid ""
 "If you keep the above advice in mind, password managers can be a great way "
 "to stay more secure, more easily!"
 msgstr ""
+"Se você mantiver em mente os avisos acima, os gerenciadores de senha podem "
+"ser uma excelente maneira de deixar suas senhas mais seguras, de maneira "
+"fácil!"
 
 #: user-docs/C/guide-keeping-safe.xml:203(title)
 msgid "Tips for good online security"
-msgstr ""
+msgstr "Dicas para uma boa segurança on line"
 
 #: user-docs/C/guide-keeping-safe.xml:206(title)
 msgid "Do not run scripts or install applications from unknown sources"
-msgstr ""
+msgstr "Não execute scripts nem instale aplicativos de fontes inseguras"
 
 #: user-docs/C/guide-keeping-safe.xml:209(para)
 msgid "Install applications from the repository whenever possible."
-msgstr ""
+msgstr "Sempre que possível, instale aplicativos a partir de repositórios."
 
 #: user-docs/C/guide-keeping-safe.xml:210(para)
 msgid ""
@@ -5138,10 +5200,14 @@ msgid ""
 "what the script does. Be especially wary of scripts that require root "
 "access, as they could compromise other users' accounts."
 msgstr ""
+"Antes de executar um script obtido de um site de suporte ou similar, examine-"
+"o, ou peça a terceiros que confirme o que o script faz. Tenha cuidado "
+"especial com scripts que exigem acesso de root, uma vez que eles podem "
+"comprometer contas de outros usuários."
 
 #: user-docs/C/guide-keeping-safe.xml:215(title)
 msgid "Keep your browser clean for sensitive activities"
-msgstr ""
+msgstr "Não deixe resquícios de atividades sensíveis no seu navegador"
 
 #: user-docs/C/guide-keeping-safe.xml:217(para)
 msgid ""
@@ -5151,15 +5217,25 @@ msgid ""
 "activity online for advertising, abuse your social media accounts or steal "
 "your money."
 msgstr ""
+"As extensões para navegadores de internet são mecanismos populares que "
+"invasores utilizam para lesar usuários. Este mecanismo é especialmente "
+"relevante para o Linux, já que as extensões são compatíveis com todas as "
+"plataformas. Extensões maliciosas podem roubar suas senhas, monitorar sua "
+"atividade online para a publicidade, abusar de suas contas de mídia social "
+"ou roubar o seu dinheiro."
 
 #: user-docs/C/guide-keeping-safe.xml:222(para)
 msgid "You can take measures to limit the risks you expose yourself to:"
 msgstr ""
+"Você pode aplicar algumas medidas para limitar os riscos de exposição dos "
+"seus dados:"
 
 #: user-docs/C/guide-keeping-safe.xml:224(para)
 msgid ""
 "Never install an extension that is not distributed by your browser vendor"
 msgstr ""
+"Nunca instalar uma extensão que não é distribuída pelo fabricante do "
+"navegador"
 
 #: user-docs/C/guide-keeping-safe.xml:226(para)
 msgid ""
@@ -5169,16 +5245,24 @@ msgid ""
 "remove-firefox-profiles\">Use the Profile Manager to create and remove "
 "Firefox profiles</ulink>)."
 msgstr ""
+"No Firefox, utilize um perfil de usuário separado para atividades sensíveis, "
+"como internet banking e compras on line. Os perfis de usuário do Firefox não "
+"compartilham extensões  (veja em <ulink url=\"https://support.mozilla.org/en-"
+"US/kb/profile-manager-create-and-remove-firefox-profiles\">Utilize o "
+"Gerenciador de Perfis para criar e remover perfis do Firefox</ulink>)."
 
 #: user-docs/C/guide-keeping-safe.xml:227(para)
 msgid ""
 "On Chrome and other browsers, use the Incognito mode for sensitive "
 "activities like banking and e-shopping. Incognito mode disables extensions."
 msgstr ""
+"No Chrome ou em outros navegadores, utilize a navegação privativa para "
+"atividades sensíveis como internet banking e compras on line. A navegação "
+"privativa desativa as extensões."
 
 #: user-docs/C/guide-keeping-safe.xml:232(title)
 msgid "Remember email security"
-msgstr ""
+msgstr "Lembre-se da segurança do e-mail"
 
 #: user-docs/C/guide-keeping-safe.xml:235(para)
 msgid ""
@@ -5186,22 +5270,32 @@ msgid ""
 "think the content of the email is incoherent or suspicious (for example "
 "invoices coming from people you have never heard of)."
 msgstr ""
+"Não abra anexos de e-mail de pessoas que você não conhece, ou se você achar "
+"que o conteúdo do e-mail é incoerente ou suspeito (por exemplo, faturas "
+"recebidas de pessoas que você nunca ouviu falar)."
 
 #: user-docs/C/guide-keeping-safe.xml:236(para)
 msgid ""
 "Do not reply to spam. This will inform spammers that your email address is "
 "active, and it will incite them to send you more spam."
 msgstr ""
+"Não responda a um spam. Isto informará aos spammers que o seu e-mail está "
+"ativo, e isto irá incentivá-los a enviar mais spams a você."
 
 #: user-docs/C/guide-keeping-safe.xml:241(title)
 msgid "Consider firewalls if your computer hosts Internet services"
 msgstr ""
+"Considere a instalação de um firewall se o seu computador hospeda serviços "
+"de internet"
 
 #: user-docs/C/guide-keeping-safe.xml:243(para)
 msgid ""
 "If you run public facing Internet services, or are not on a NAT, you should "
 "consider using a firewall. Most home users are not concerned by this measure."
 msgstr ""
+"Se você executa serviços de internet que atendem ao público, ou se você não "
+"está sob um NAT, você deve considerar a utlização de um firewall. A maioria "
+"dos usuários domésticos não estão contemplados com esta medida."
 
 #: user-docs/C/guide-keeping-safe.xml:246(para)
 msgid ""
@@ -5213,10 +5307,16 @@ msgid ""
 "emerging threats, and they do not replace the need to install security "
 "updates."
 msgstr ""
+"Entenda que firewalls não são muito úteis em suas configurações padrão. Você "
+"precisará configurar o firewall de maneira adequada. Os firewalls podem "
+"proteger você de ataques de negação de serviço, podem limitar o acesso a um "
+"serviço para um IP específico ou inspecionar e rejeitar pacotes suspeitos. "
+"Porém, eles não podem proteger você de ameaças desconhecidas, nem substituem "
+"a necessidade de instalar atualizações de segurança."
 
 #: user-docs/C/guide-keeping-safe.xml:257(title) user-docs/C/guide-keeping-safe.xml:277(para)
 msgid "Back up on a regular basis"
-msgstr ""
+msgstr "Faça cópias de segurança regurlarmente"
 
 #: user-docs/C/guide-keeping-safe.xml:259(para)
 msgid ""
@@ -5227,6 +5327,12 @@ msgid ""
 "backup copies of your important files so that, if you do encounter a "
 "problem, you will not have lost those files."
 msgstr ""
+"Um problema que você pode ocasionalmente encontrar é a perda inesperada de "
+"algum trabalhou ou de configurações, por alguma razão. As causas destas "
+"perdas de dados são variadas, vão desde uma queda de energia até a exclusão "
+"acidental de um arquivo. Por isto, é altamente recomendado que você faça, "
+"regularmente, uma cópia de segurança dos seus arquivos importantes para que, "
+"na ocorrência de um problema, você possa recuperar estes arquivos."
 
 #: user-docs/C/guide-keeping-safe.xml:265(para)
 msgid ""
@@ -5236,6 +5342,10 @@ msgid ""
 "to writable CDs and DVDs, external hard disks, USB disks and other computers "
 "on the network."
 msgstr ""
+"É sábio armazenar cópias de segurança fora do seu computador, ou seja, você "
+"deve utilizar algum dispositivo de armazenamento que não está "
+"permanentemente conectado ao seu computador. Você pode salvar em CDs e DVDs, "
+"discos rígidos externos, discos USB e outros computadores na rede."
 
 #: user-docs/C/guide-keeping-safe.xml:270(para)
 msgid ""
@@ -5245,20 +5355,30 @@ msgid ""
 "compress files and pack them together. Alternatively, you can use a "
 "dedicated backup application."
 msgstr ""
+"Uma maneira simples de efetuar o backup dos seus arquivos é copiá-los para "
+"um local seguro (veja acima) utilizando o <application>Gerenciador de "
+"arquivos</application>, bem como o <application>Gerenciador de arquivos "
+"compactados</application>, que compactará os arquivos e os empacotará. "
+"Alternativamente, você pode utilizar um aplicativo dedicado a cópias de "
+"segurança."
 
 #: user-docs/C/guide-keeping-safe.xml:275(para)
 msgid "General advice on how to keep good backups:"
-msgstr ""
+msgstr "Boas práticas para manter boas cópias de segurança"
 
 #: user-docs/C/guide-keeping-safe.xml:278(para)
 msgid ""
 "Always test your backups after you make them to ensure that they have been "
 "made correctly"
 msgstr ""
+"Sempre teste as suas cópias de segurança logo após criá-las, para assegurar "
+"que elas foram feitas corretamente."
 
 #: user-docs/C/guide-keeping-safe.xml:280(para)
 msgid "Label your backups clearly and keep them in a safe place"
 msgstr ""
+"Nomeie suas cópias de segurança de maneira clara e mantenha-as em um local "
+"seguro"
 
 #: user-docs/C/guide-keeping-safe.xml:283(para)
 msgid ""
@@ -5266,6 +5386,9 @@ msgid ""
 "repositories, including <application>Dejà Dup</application> and "
 "<application>luckyBackup</application>."
 msgstr ""
+"Existem vários aplicativos dedicados a cópias de segurança disponíveis nos "
+"repositórios, incluindo <application>Dejà Dup</application> and "
+"<application>luckyBackup</application>."
 
 #: user-docs/C/guide-keeping-safe.xml:284(para)
 msgid ""
@@ -5273,6 +5396,10 @@ msgid ""
 "encrypt your documents and upload an encrypted archive. This will prevent "
 "the online services staff from accessing your documents."
 msgstr ""
+"Se você utiliza serviços de backup online tais como o Dropbox, é uma boa "
+"ideia criptografar seus arquivos antes de efetuar o upload para a nuvem. "
+"Isto evitará que a equipe do serviço online tenha acesso ao conteúdo dos "
+"seus arquivos."
 
 #: user-docs/C/guide-keeping-safe.xml:288(para)
 msgid ""
@@ -5282,10 +5409,15 @@ msgid ""
 "sources. For more information, see <xref linkend=\"script-applications-"
 "sources\"/>."
 msgstr ""
+"Cópias de segurança também oferecem uma maneira efetiva de proteção contra "
+"ransomware, uma espécie de malware que criptografa seus dados e seus "
+"desenvolvedores cobram dinheiro para descriptografá-los. Para manter-se "
+"livre de ransomware, evite instalar aplicativos de fontes desconhecidas. "
+"Para mais informações, veja <xref linkend=\"script-applications-sources\"/>."
 
 #: user-docs/C/guide-keeping-safe.xml:296(title)
 msgid "Consider encryption"
-msgstr ""
+msgstr "Considere a criptografia"
 
 #: user-docs/C/guide-keeping-safe.xml:298(para)
 msgid ""
@@ -5295,12 +5427,19 @@ msgid ""
 "Remember that full disk encryption will not protect you if you do not "
 "shutdown your computer when you are not using it."
 msgstr ""
+"Criptografia completa de disco é uma boa medida para proteger o roubo de "
+"conteúdo de seus computadores. Você deve considerar isso se, por exemplo, o "
+"seu trabalho envolve valores de Propriedade Intelectual ou responsabilidades "
+"executivas. Lembre-se que a criptografia completa do disco não protegerá "
+"você se você não desliga o seu computador quando ele está ocioso."
 
 #: user-docs/C/guide-keeping-safe.xml:303(para)
 msgid ""
 "The easiest way to enable full disk encryption is to do it during the "
 "installation."
 msgstr ""
+"A maneira mais fácil de ativar a criptografia completa de disco e fazê-lo na "
+"instalação do sistema."
 
 #: user-docs/C/guide-keeping-safe.xml:305(para)
 msgid ""
@@ -5311,10 +5450,16 @@ msgid ""
 "to do this is outside the scope of this documentation, but there are "
 "numerous tutorials online."
 msgstr ""
+"Você pode, também, criar volumes criptografados utilizando softwares "
+"específicos, por exemplo, o LUKS. Os volumes criptografados podem conter "
+"dados de qualquer tamanho. Você pode montá-los como você montaria um "
+"pendrive para acessar o seu conteúdo, e mantê-lo fechando pelo resto do "
+"tempo. Está fora do escopo deste documento a descrição deste processo, mas "
+"existem inúmeros tutoriais online."
 
 #: user-docs/C/guide-keeping-safe.xml:315(title)
 msgid "Using your computer in a shared environment"
-msgstr ""
+msgstr "Utilizando o seu computador em um ambiente compartilhado"
 
 #: user-docs/C/guide-keeping-safe.xml:318(title)
 msgid "Do not use shared accounts"
