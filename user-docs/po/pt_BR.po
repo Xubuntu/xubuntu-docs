@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-04-26 23:53+0100\n"
-"PO-Revision-Date: 2016-06-06 18:49+0000\n"
+"PO-Revision-Date: 2016-10-04 17:06+0000\n"
 "Last-Translator: Carlos Alberto Teixeira Magalhães "
 "<carlos.alberto.tm@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-09-11 06:24+0000\n"
-"X-Generator: Launchpad (build 18186)\n"
+"X-Launchpad-Export-Date: 2016-10-05 06:27+0000\n"
+"X-Generator: Launchpad (build 18217)\n"
 
 #: user-docs/C/xi-translators-not-found.xml:1(para)
 msgid ""
@@ -204,6 +204,7 @@ msgstr ""
 msgid ""
 "@@image: '../libs/images/icon_menu.png'; md5=65599cdf4480dbc3d1bfa2154c0a255d"
 msgstr ""
+"@@image: '../libs/images/icon_menu.png'; md5=65599cdf4480dbc3d1bfa2154c0a255d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -222,6 +223,8 @@ msgid ""
 "@@image: '../../libs-common/images/icon_package.png'; "
 "md5=15cff8b23f9cf506a7b7e8f98f1289ac"
 msgstr ""
+"@@image: '../../libs-common/images/icon_package.png'; "
+"md5=15cff8b23f9cf506a7b7e8f98f1289ac"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -230,6 +233,8 @@ msgid ""
 "@@image: '../../libs-common/images/icon_location.png'; "
 "md5=71b7dc6dffc6d296d54a2fa354f2204f"
 msgstr ""
+"@@image: '../../libs-common/images/icon_location.png'; "
+"md5=71b7dc6dffc6d296d54a2fa354f2204f"
 
 #: user-docs/C/settings-preferences.xml:14(title)
 msgid "Settings and Preferences"
@@ -5050,7 +5055,7 @@ msgstr ""
 
 #: user-docs/C/guide-keeping-safe.xml:157(title)
 msgid "Watch out for stolen passwords occasionally"
-msgstr ""
+msgstr "Cuidado com o vazamento de senhas"
 
 #: user-docs/C/guide-keeping-safe.xml:159(para)
 msgid ""
@@ -5463,7 +5468,7 @@ msgstr "Utilizando o seu computador em um ambiente compartilhado"
 
 #: user-docs/C/guide-keeping-safe.xml:318(title)
 msgid "Do not use shared accounts"
-msgstr ""
+msgstr "Não utilize contas compartilhadas"
 
 #: user-docs/C/guide-keeping-safe.xml:320(para)
 msgid ""
@@ -5472,10 +5477,14 @@ msgid ""
 "their own user account. To read more about adding users, refer to <xref "
 "linkend=\"users-groups\"/>."
 msgstr ""
+"Quando o Xubuntu é instalado, ele é configurado para a utilização de uma "
+"única pessoa. Se mais de uma pessoa irá utilizar o computador, o mais "
+"adequado é que cada pessoa tenha sua própria conta de usuário. Para ler mais "
+"sobre como adicionar usuários, leia a seção <xref linkend=\"users-groups\"/>."
 
 #: user-docs/C/guide-keeping-safe.xml:327(title)
 msgid "Lock your screen while away"
-msgstr ""
+msgstr "Bloqueie sua tela enquanto estiver ausente"
 
 #: user-docs/C/guide-keeping-safe.xml:329(para)
 msgid ""
@@ -5483,6 +5492,9 @@ msgid ""
 "you are away from it. All of your applications and work remain open while "
 "the screen is locked."
 msgstr ""
+"Bloquear sua tela evita que outras pessoas acesse o seu computador enquanto "
+"você estiver ausente. Todos os seus aplicativos e trabalhos permanecerão "
+"abertos enquanto a tela é bloqueada."
 
 #: user-docs/C/guide-keeping-safe.xml:332(para)
 msgid ""
@@ -5490,6 +5502,10 @@ msgid ""
 "or click <application><menuchoice><placeholder-2/><guimenuitem><placeholder-"
 "3/> Lock Screen</guimenuitem></menuchoice></application>."
 msgstr ""
+"Para bloquear a tela, pressione <placeholder-"
+"1/><keycap>Ctrl+Alt+Delete</keycap> ou clique em "
+"<application><menuchoice><placeholder-2/><guimenuitem><placeholder-3/> "
+"Bloquear a tela</guimenuitem></menuchoice></application>."
 
 #: user-docs/C/guide-keeping-safe.xml:334(para)
 msgid ""
@@ -5497,6 +5513,9 @@ msgid ""
 "password and either press the <placeholder-1/><keycap>Enter</keycap> key or "
 "click the <guibutton>Unlock</guibutton> button."
 msgstr ""
+"Para desbloquear a tela, mova o mouse ou pressione uma tecla. Então, digite "
+"sua senha e tecle <placeholder-1/><keycap>Enter</keycap> ou clique no botão "
+"<guibutton>Desbloquear</guibutton>."
 
 #: user-docs/C/guide-keeping-safe.xml:337(para)
 msgid ""
@@ -5507,10 +5526,16 @@ msgid ""
 "your currently open work and you will be able to switch back to your locked "
 "session when they have finished using the computer."
 msgstr ""
+"Se mais de uma pessoa tem conta de usuário no seu computador e a tela está "
+"bloqueada, outros usuários podem clicar no triângulo ao lado do nome de "
+"usuário, selecionar um nome na lista e digitar a senha correspondente para "
+"utilizar o computador, mesmo enquanto a tela estiver bloqueada. Eles não "
+"podem acessar o trabalho que você deixou aberto e você poderá voltar para a "
+"sua sessão bloqueada após eles terminarem de usar o computador."
 
 #: user-docs/C/guide-desktop.xml:14(title)
 msgid "Getting to know your desktop environment"
-msgstr ""
+msgstr "Conhecendo o seu ambiente de trabalho"
 
 #: user-docs/C/guide-desktop.xml:16(para)
 msgid ""
@@ -5519,19 +5544,24 @@ msgid ""
 "designed to make your life easy, it is well worth taking the time to get to "
 "know it."
 msgstr ""
+"Após o seu computador ter inicalizado e você ter efetuado login, você "
+"chegará ao ambiente de trabalho do Xubuntu. Ele vem com vários recursos que "
+"facilitam a sua vida, vale a pena investir seu tempo para conhecê-los."
 
 #: user-docs/C/guide-desktop.xml:21(title)
 msgid "Desktop"
-msgstr ""
+msgstr "Área de Trabalho"
 
 #: user-docs/C/guide-desktop.xml:23(para)
 msgid ""
 "The Xubuntu desktop has a single panel located at the top of the screen."
 msgstr ""
+"A área de trabalho do Xubuntu tem um painel simples localizado no topo da "
+"tela."
 
 #: user-docs/C/guide-desktop.xml:26(title)
 msgid "The Panel"
-msgstr ""
+msgstr "O Painel"
 
 #: user-docs/C/guide-desktop.xml:28(para)
 msgid ""
@@ -5543,6 +5573,14 @@ msgid ""
 "2/><guilabel>Settings Manager</guilabel>, <placeholder-3/><guilabel>Lock "
 "Screen</guilabel> and <placeholder-4/><guilabel>Log Out</guilabel>."
 msgstr ""
+"O painel é utilizado para iniciar aplicativos e para receber informações "
+"sobre o seu sistema. Do lado esquerdo do painel, você verá o logotipo do "
+"Xubuntu, <placeholder-1/>. Clicando neste ícone, será aberto o "
+"<guilabel>Menu</guilabel>, oferecendo a você várias opções de aplicativos. "
+"No rodapé do menu, estão os ícones para <placeholder-"
+"2/><guilabel>Gerenciador de Configurações</guilabel>, <placeholder-"
+"3/><guilabel>Bloquear a Tela</guilabel> e <placeholder-4/><guilabel>Log "
+"Out</guilabel>."
 
 #: user-docs/C/guide-desktop.xml:30(para)
 msgid ""
@@ -5554,6 +5592,14 @@ msgid ""
 "instant messages. Some notification icons only appear when needed, for "
 "instance when software updates are available."
 msgstr ""
+"A parte central do painel é dedicada para hospedar botões de janelas de "
+"aplicativos abertos. No lado direito está o relógio, exibindo a data e a "
+"hora. À esquerda dele, fica a <guilabel>Área de Notificação</guilabel>. Aqui "
+"você verá indicadores, os quais lhe mostrarão informações sobre o sistema, "
+"includindo conectividade de rede, volume do áudio, status da bateria (quando "
+"houver) e mensagens instantâneas. Alguns ícones de notificação somente "
+"aparecerão quando necessário, por exemplo, quando atualizações de software "
+"estão disponíveis."
 
 #: user-docs/C/guide-desktop.xml:32(para)
 msgid ""
@@ -5561,10 +5607,13 @@ msgid ""
 "<guilabel>Menu</guilabel> are all customizable. See <xref linkend=\"settings-"
 "preferences\"/> for more information on those topics."
 msgstr ""
+"A posição do painel, os itens que ele contém e o <guilabel>Menu</guilabel> "
+"são todos personalizáveis. Veja o capítulo <xref linkend=\"settings-"
+"preferences\"/> para mais informações sobre esses temas."
 
 #: user-docs/C/guide-desktop.xml:36(title)
 msgid "The Desktop"
-msgstr ""
+msgstr "A Área de Trabalho"
 
 #: user-docs/C/guide-desktop.xml:38(para)
 msgid ""
@@ -5575,10 +5624,18 @@ msgid ""
 "<menuchoice><guimenuitem>Desktop Settings</guimenuitem></menuchoice>. From "
 "here you can change the wallpaper and modify menu and icon behavior."
 msgstr ""
+"A área de trabalho padrão contém somente três ícones: "
+"<guilabel>Início</guilabel>, <guilabel>Sistema de Arquivos</guilabel> e "
+"<guilabel>Lixeira</guilabel> (ícones sobre dispositivos removíveis irão "
+"também aparecer quando eles estiverem presentes). Você pode personalizar sua "
+"área de trabalho, clicando com o botão direito nela e escolhendo "
+"<menuchoice><guimenuitem>Configurações da Área de "
+"Trabalho</guimenuitem></menuchoice>. Você poderá modificar o papel de parede "
+"e o comportamento do menu e dos ícones."
 
 #: user-docs/C/guide-desktop.xml:47(title)
 msgid "Files and directories"
-msgstr ""
+msgstr "Arquivos e diretórios"
 
 #: user-docs/C/guide-desktop.xml:49(para)
 msgid ""
@@ -5590,10 +5647,18 @@ msgid ""
 "<guilabel>Home</guilabel> or <guilabel>File System</guilabel> icons on your "
 "desktop."
 msgstr ""
+"O Xubuntu vem com o <application>Thunar</application>, o gerenciador de "
+"arquivos do Xfce. Para simplificar, nós iremos nos referir a ele como o "
+"Gerenciador de Arquivos. Abra-o acessando "
+"<application><menuchoice><placeholder-"
+"1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Gerenciador de "
+"Arquivos</guimenuitem></menuchoice></application> ou com um clique duplo nos "
+"ícones <guilabel>Início</guilabel> ou <guilabel>Sistema de "
+"Arquivos</guilabel> na sua área de trabalho."
 
 #: user-docs/C/guide-desktop.xml:55(title)
 msgid "Navigation"
-msgstr ""
+msgstr "Navegação"
 
 #: user-docs/C/guide-desktop.xml:57(para)
 msgid ""
@@ -5610,12 +5675,28 @@ msgid ""
 "inside. When you're done, return to your home directory by clicking on the "
 "top shortcut."
 msgstr ""
+"A visualização padrão do Gerenciador de Arquivos consiste em um painel de "
+"atalhos no lado esquerdo, a área principal à direita, e a barra de "
+"localização acima da área principal. O painel de atalhos oferece acesso "
+"rápido a diferente pastas no sistema. O primeiro atalho abaixo do item "
+"<guilabel>LUGARES</guilabel> levará ao seu diretório home, que é o diretório "
+"onde você armazenará todos os seus dados pessoais, e terá o mesmo nome do "
+"usuário que estiver logado. Este diretório provavelmente aparecerá vazio. O "
+"atalho <guilabel>Sistema de Arquivos</guilabel>, abaixo do item "
+"<guilabel>DISPOSITIVOS</guilabel>, levará você à raiz do sistema de "
+"arquivos. Você pode querer explorá-lo um pouco, apesar de ele parecer "
+"confuso se você for novato com o Linux. Apenas clique em diferentes pastas e "
+"você verá o seu conteúdo. Ao final, retorne ao diretório home clicando no "
+"atalho correspondente."
 
 #: user-docs/C/guide-desktop.xml:67(para)
 msgid ""
 "You can add your own shortcuts by simply dragging folders to the shortcut "
 "pane. This will allow you to access important folders instantly!"
 msgstr ""
+"Você pode adicionar seus próprios atalhos, simplesmente arrastando pastas "
+"para o painel de atalhos. Isto permite que você acesse suas pastas "
+"importantes instantaneamente!"
 
 #: user-docs/C/guide-desktop.xml:70(para)
 msgid ""
@@ -5623,6 +5704,9 @@ msgid ""
 "read rights to files you see while browsing under the <guilabel>File "
 "System</guilabel> shortcut."
 msgstr ""
+"Ao utilizar o <application>Thunar</application>, geralmente, você terá "
+"somente permissões de leitura em arquivos localizados no atalho "
+"<guilabel>Sistema de Arquivos</guilabel>."
 
 #: user-docs/C/guide-desktop.xml:72(para)
 msgid ""
@@ -5633,6 +5717,14 @@ msgid ""
 "Alternatively, select one file, hold down the <keycap>Shift</keycap> key, "
 "and increase/decrease the selection using the arrow keys."
 msgstr ""
+"A área principal sempre mostrará o conteúdo da pasta atual. Um clique duplo "
+"nas pastas fará com que você entre nelas, e um clique com o botão direito "
+"nos arquivos/pastas lhe mostrará um menu suspenso, que oferecerá algumas "
+"operações disponíveis sobre o item clicado. Selecione múltiplos arquivos "
+"segurando o botão esquerdo do mouse e desenhando um retângulo sobre os "
+"arquivos desejados. Outra forma de fazer isso é selecionar um único arquivo, "
+"manter pressionada a tecla <keycap>Shift</keycap> e utilizar as teclas de "
+"seta."
 
 #: user-docs/C/guide-desktop.xml:78(para)
 msgid ""
@@ -5644,10 +5736,19 @@ msgid ""
 "represents. Note that right-clicking on pathbar icons will also bring up a "
 "pop-up window with some options."
 msgstr ""
+"Para facilmente visualizar o caminho que você pegou para chegar ao diretório "
+"atual, você deverá alterar o comportamento do menu Ver. No menu do "
+"Gerenciador de Arquivos, selecione "
+"<menuchoice><guimenuitem>Ver</guimenuitem><guimenuitem>Seletor de "
+"Localização</guimenuitem><guimenuitem>Estilo barra de "
+"caminho</guimenuitem></menuchoice>. Agora você pdoe clicar em qualquer ícone "
+"da barra de caminho para mudar de diretório. Note que clicar com o botão "
+"direito nos ícones da barra de caminho irá também exibir um menu suspenso "
+"com algumas opções."
 
 #: user-docs/C/guide-desktop.xml:82(title)
 msgid "Creating and deleting files and folders"
-msgstr ""
+msgstr "Criando e excluindo arquivos e pastas"
 
 #: user-docs/C/guide-desktop.xml:84(para)
 msgid ""
@@ -5662,6 +5763,17 @@ msgid ""
 "choose <menuchoice><guimenuitem>Move to Trash</guimenuitem></menuchoice> to "
 "remove it. The file will be put into the Trash."
 msgstr ""
+"Para criar um novo documento, clique com o botão direito em algum espaço "
+"vazio no seu diretório home e selecione <menuchoice><guimenuitem>Criar "
+"Documento</guimenuitem><guimenuitem>Arquivo Vazio</guimenuitem></menuchoice> "
+"a partir do menu suspenso. O Gerenciador de Arquivos solicitará que você "
+"forneça um nome. Por enquanto, apenas aceite o nome proposto. Depois disso, "
+"você verá o novo arquivo no seu diretório home. Clique com o botão direito "
+"nele e escolha "
+"<menuchoice><guimenuitem>Propriedades</guimenuitem></menuchoice>. Isto lhe "
+"mostrará alguns detalhes sobre o arquivo. Para remover o arquivo, clique com "
+"o botão direito no arquivo e escolha <menuchoice><guimenuitem>Mover para a "
+"Lixeira</guimenuitem>.</menuchoice>"
 
 #: user-docs/C/guide-desktop.xml:94(para)
 msgid ""
@@ -5669,6 +5781,10 @@ msgid ""
 "<guilabel>Trash</guilabel>, right-click the file and click "
 "<menuchoice><guimenuitem>Restore</guimenuitem></menuchoice>."
 msgstr ""
+"Se você quiser desfazer a remoção do arquivo, abra a "
+"<guilabel>Lixeira</guilabel>, clique com o botão direito no arquivo e "
+"escolha a opção "
+"<menuchoice><guimenuitem>Restaurar</guimenuitem></menuchoice>."
 
 #: user-docs/C/guide-desktop.xml:98(para)
 msgid ""
@@ -5679,20 +5795,29 @@ msgid ""
 "Double-click on it to enter it. To rename or remove the folder, right-click "
 "on it and choose the appropriate option from the pop-up menu."
 msgstr ""
+"Para criar uma nova pasta, clique com o botão direito em um espaço vazio e "
+"escolha <menuchoice><guimenuitem>Criar Pasta</guimenuitem></menuchoice>. "
+"Será solicitado que você forneça um nome. Digite alguma coisa e tecle "
+"<keycap><placeholder-1/>Enter</keycap>. Você verá esta nova pasta no seu "
+"diretório home. Dê um clique duplo para entrar nela. Para renomear ou "
+"remover a pasta, clique com o botão direito nela e escolha a opção "
+"apropriada no menu suspenso."
 
 #: user-docs/C/guide-desktop.xml:106(title)
 msgid "Copying"
-msgstr ""
+msgstr "Copiando"
 
 #: user-docs/C/guide-desktop.xml:108(para)
 msgid ""
 "To copy and move files on your computer, just click and drag files and "
 "folders to other folders."
 msgstr ""
+"Para copiar e mover arquivos no seu computador, basta selecionar e arrastar "
+"os arquivos para outras pastas."
 
 #: user-docs/C/guide-desktop.xml:113(title)
 msgid "Removable devices"
-msgstr ""
+msgstr "Dispositivos removíveis"
 
 #: user-docs/C/guide-desktop.xml:115(para)
 msgid ""
@@ -5706,6 +5831,16 @@ msgid ""
 "<menuchoice><guimenuitem>Eject</guimenuitem></menuchoice>. The same applies "
 "for any other removable media."
 msgstr ""
+"Quando inserir CDs, pendrives USB ou outra mídia removível no seu "
+"computador, ou ao inserir dispositivos removíveis tais como um tocador de "
+"músicas, o Xubuntu deverá automaticamente detectar o novo dispositivo. Por "
+"exemplo, depois de inserir um CD em seu drive óptico, você verá um novo "
+"atalho no painel esquerdo do <application>Gerenciador de "
+"Arquivos</application>, representando o CD. Clicando nele, o conteúdo do CD "
+"será mostrado na área principal. Para remover o CD, clique com o botão "
+"direito no atalho e selecione "
+"<menuchoice><guimenuitem>Ejetar</guimenuitem></menuchoice>. A mesma operação "
+"se aplica a outras mídias removíveis."
 
 #: user-docs/C/guide-desktop.xml:124(para)
 msgid ""
@@ -5716,10 +5851,16 @@ msgid ""
 "shortcut and choose "
 "<menuchoice><guimenuitem>Eject</guimenuitem></menuchoice>."
 msgstr ""
+"Por favor, note que pressionar o botão de ejetar no seu drive de CD pode não "
+"funcionar. Isto pode ser surpreendente para alguns usuários, mas na verdade "
+"é um comportamento esperado. Antes que o CD possa ser ejetado, ele precisa "
+"ser efetivamente \"liberado\" (desmontado) pelo sistema. Para remover um CD, "
+"sempre clique com o botão direito no seu atalho e escolha "
+"<menuchoice><guimenuitem>Ejetar</guimenuitem></menuchoice>."
 
 #: user-docs/C/guide-desktop.xml:132(title)
 msgid "Customizing Thunar"
-msgstr ""
+msgstr "Personalizando o Thunar"
 
 #: user-docs/C/guide-desktop.xml:134(para)
 msgid ""
@@ -5729,6 +5870,11 @@ msgid ""
 "List</guimenuitem></menuchoice> to have the contents of the current "
 "directory displayed as a list."
 msgstr ""
+"Existem várias maneiras de personalizar o <application>Gerenciador de "
+"Arquivos</application>. Se você não gosta da maneira como os ícones são "
+"exibidos, clique em <menuchoice><guimenu>Ver</guimenu><guimenuitem>Ver como "
+"Lista Detalhada</guimenuitem></menuchoice> para ter o conteúdo do diretório "
+"atual exibido como uma lista."
 
 #: user-docs/C/guide-desktop.xml:139(para)
 msgid ""
@@ -5740,6 +5886,14 @@ msgid ""
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Side "
 "Pane</guimenuitem><guimenuitem>Tree</guimenuitem></menuchoice>."
 msgstr ""
+"Você pode fazer o <application>Gerenciador de Arquivos</application> exibir "
+"uma barra de localização ao invés da barra de caminho, clicando em "
+"<menuchoice><guimenu>Ver</guimenu><guimenuitem>Seletor de "
+"Localização</guimenuitem><guimenuitem>Estilo Barra de "
+"Ferramentas</guimenuitem></menuchoice>. Se você prefere uma visualização em "
+"árvore no painel esquerdo, clique em "
+"<menuchoice><guimenu>Ver</guimenu><guimenuitem>Painel "
+"Lateral</guimenuitem><guimenuitem>Árvore</guimenuitem></menuchoice>."
 
 #: user-docs/C/guide-desktop.xml:146(para)
 msgid ""
@@ -5748,6 +5902,11 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/ThunarCustomActions\">Thunar Custom "
 "Action</ulink> page."
 msgstr ""
+"Finalmente, você poderá adicionar Ações Personalizadas, que podem adicionar "
+"opções úteis ao menu. Muitas ações personalizadas podem ser encontradas na "
+"Wiki do Ubuntu, na página <ulink "
+"url=\"https://help.ubuntu.com/community/ThunarCustomActions\">Thunar Custom "
+"Action</ulink>."
 
 #: user-docs/C/guide-desktop.xml:148(para)
 msgid ""
@@ -5755,14 +5914,17 @@ msgid ""
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></me"
 "nuchoice>."
 msgstr ""
+"Para mais opções, explore o menu "
+"<menuchoice><guimenu>Editar</guimenu><guimenuitem>Preferências</guimenuitem><"
+"/menuchoice>."
 
 #: user-docs/C/guide-default-apps.xml:14(title)
 msgid "Quick guide to default applications"
-msgstr ""
+msgstr "Guia rápido para os aplicativos padrão"
 
 #: user-docs/C/guide-default-apps.xml:17(title)
 msgid "Graphics"
-msgstr ""
+msgstr "Gráficos"
 
 #: user-docs/C/guide-default-apps.xml:19(para)
 msgid ""
@@ -5771,6 +5933,11 @@ msgid ""
 "url=\"http://docs.xfce.org/apps/ristretto/start\">Ristretto online "
 "documentation</ulink>."
 msgstr ""
+"O <application>Ristretto</application> é um visualizador de imagens "
+"projetado para um leve consumo de recursos. Mais informações podem ser "
+"encontradas na <ulink "
+"url=\"http://docs.xfce.org/apps/ristretto/start\">documentação online do "
+"Ristretto</ulink>."
 
 #: user-docs/C/guide-default-apps.xml:21(para)
 msgid ""
@@ -5779,10 +5946,14 @@ msgid ""
 "more at the <ulink url=\"https://launchpad.net/simple-scan\">Simple Scan "
 "website</ulink>."
 msgstr ""
+"O <application>Simple Scan</application> é um utilitário para digitalização "
+"de fácil uso, projetado para executar tarefas simples, tais como digitalizar "
+"para enviar por e-mail ou converter para PDF. Leia mais na <ulink "
+"url=\"https://launchpad.net/simple-scan\">página do Simple Scan</ulink>."
 
 #: user-docs/C/guide-default-apps.xml:25(title)
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #: user-docs/C/guide-default-apps.xml:27(para)
 msgid ""
@@ -5791,6 +5962,10 @@ msgid ""
 "<ulink url=\"http://support.mozilla.org/en-US/home\">Firefox's online "
 "help</ulink>."
 msgstr ""
+"O <application>Firefox</application> é um navegador web maduro e estável, "
+"que pode ter sua funcionalidade estendida através de vários add-ons. Leia "
+"mais na <ulink url=\"http://support.mozilla.org/en-US/home\">ajuda online do "
+"Firefox</ulink>."
 
 #: user-docs/C/guide-default-apps.xml:29(para)
 msgid ""
@@ -5805,6 +5980,17 @@ msgid ""
 "<ulink url=\"https://support.mozillamessaging.com/en-US/home\">Thunderbird "
 "Support page</ulink>."
 msgstr ""
+"O <application>Thunderbird</application> é um cliente de e-mail versátil, o "
+"qual pode gerenciar várias contas de e-mail simultaneamente. Assim como o "
+"Firefox, ele pode ser melhorado com add-ons para personalizar sua aparência "
+"e estender sua funcionalidade. Se você está migrando de outro cliente de e-"
+"mail, o <application>Thunderbird</application> permite importar seus e-mails "
+"e agenda. Para isto, acesse o menu "
+"<menuchoice><guimenu>Ferramentas</guimenu><guimenuitem>Importar...</guimenuit"
+"em></menuchoice> para iniciar o <guilabel>Assitente de "
+"Importação</guilabel>. Leia mais na <ulink "
+"url=\"https://support.mozillamessaging.com/en-US/home\">página de Suporte do "
+"Thunderbird</ulink>."
 
 #: user-docs/C/guide-default-apps.xml:31(para)
 msgid ""
@@ -5813,10 +5999,14 @@ msgid ""
 "from <ulink url=\"http://developer.pidgin.im/wiki/Using Pidgin\">Using "
 "Pidgin</ulink> at the Pidgin online help."
 msgstr ""
+"O <application>Pidgin</application> é o cliente de mensagens instantâneas "
+"padrão, capaz de manipular MSN, XMPP (Google Talk, Facebook) e outros. Leia "
+"mais na seção <ulink url=\"http://developer.pidgin.im/wiki/Using "
+"Pidgin\">Utilizando o Pidgin</ulink>, na ajuda online do Pidgin."
 
 #: user-docs/C/guide-default-apps.xml:35(title)
 msgid "Media"
-msgstr ""
+msgstr "Mídia"
 
 #: user-docs/C/guide-default-apps.xml:37(para)
 msgid ""
@@ -5825,12 +6015,20 @@ msgid ""
 "url=\"http://docs.xfce.org/apps/parole/start\">Parole online "
 "documentation</ulink>."
 msgstr ""
+"O <application>Parole</application> é um reprodutor de mídia simples, que "
+"pode reproduzir arquivos de áudio e vídeo. Mais informações podem ser "
+"encontradas na <ulink "
+"url=\"http://docs.xfce.org/apps/parole/start\">documentação online do "
+"Parole</ulink>."
 
 #: user-docs/C/guide-default-apps.xml:39(para)
 msgid ""
 "It will be necessary to install <literal><placeholder-1/>xubuntu-restricted-"
 "extras</literal> in order to play proprietary media formats like e.g. MP3."
 msgstr ""
+"Será necessário instalar o pacote <literal><placeholder-1/>xubuntu-"
+"restricted-extras</literal> para poder reproduzir formatos de mídia "
+"proprietários, tais como MP3."
 
 #: user-docs/C/guide-default-apps.xml:41(para)
 msgid ""
@@ -5839,21 +6037,29 @@ msgid ""
 "url=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">PulseAudio "
 "website</ulink>."
 msgstr ""
+"O <application>Controle de Volume do PulseAudio</application> é a o "
+"aplicativo que controla as diferentes fontes de som e seus destinos. Leia "
+"mais na <ulink "
+"url=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">página do "
+"PulseAudio</ulink>."
 
 #: user-docs/C/guide-default-apps.xml:43(para)
 msgid ""
 "<application>Xfburn</application> is the chosen program for creating your "
 "CDs and DVDs."
 msgstr ""
+"O <application>Xfburn</application> é o aplicativo para criação de  CDs e "
+"DVDs."
 
 #: user-docs/C/guide-default-apps.xml:45(para)
 msgid ""
 "To read more about media in Xubuntu, refer to <xref linkend=\"media-apps\"/>."
 msgstr ""
+"Para ler mais sobre mídia no Xubuntu, acesse <xref linkend=\"media-apps\"/>."
 
 #: user-docs/C/guide-default-apps.xml:49(title)
 msgid "Office"
-msgstr ""
+msgstr "Escritório"
 
 #: user-docs/C/guide-default-apps.xml:51(para)
 msgid ""
@@ -5862,6 +6068,10 @@ msgid ""
 "url=\"https://www.libreoffice.org/discover/writer/\">LibreOffice Writer "
 "website</ulink>."
 msgstr ""
+"O <application>LibreOffice Writer</application> é um processador de texto "
+"com recursos WYSIWYG extensos. Leia mais na <ulink "
+"url=\"https://www.libreoffice.org/discover/writer/\">página do LibreOffice "
+"Writer</ulink>."
 
 #: user-docs/C/guide-default-apps.xml:53(para)
 msgid ""
@@ -5871,6 +6081,12 @@ msgid ""
 "the <ulink url=\"https://www.libreoffice.org/discover/calc/\">LibreOffice "
 "Calc website</ulink>."
 msgstr ""
+"O <application>LibreOffice Calc</application> é um editor de planilhas com "
+"muitos recursos, alguns exclusivos, incluindo um sistema que automaticamente "
+"define uma série de gráficos, baseado na informação disponível para o "
+"usuário. Leia mais <ulink "
+"url=\"https://www.libreoffice.org/discover/calc/\">na página do LibreOffice "
+"Calc</ulink>."
 
 #: user-docs/C/guide-default-apps.xml:55(para)
 msgid ""
@@ -5879,10 +6095,16 @@ msgid ""
 "<ulink url=\"http://goodies.xfce.org/projects/applications/xfce4-"
 "dict\">Xfce4 Dictionary online help</ulink>."
 msgstr ""
+"O <application>Dicionário</application> oferece uma maneira fácil de acessar "
+"diferentes dicionários através da internet. Leia mais na <ulink "
+"url=\"http://goodies.xfce.org/projects/applications/xfce4-dict\">ajuda "
+"online do Dicionário do Xfce4</ulink>."
 
 #: user-docs/C/guide-default-apps.xml:57(para)
 msgid "<application>Document Viewer</application> is a PDF reader."
 msgstr ""
+"O <application>Visualizador de Documentos</application> é um leitor de "
+"arquivos PDF."
 
 #: user-docs/C/guide-default-apps.xml:59(para)
 msgid ""
@@ -5891,10 +6113,14 @@ msgid ""
 "trigger alarms. Read more at the <ulink "
 "url=\"http://www.kolumbus.fi/~w408237/orage/\">Orage website</ulink>."
 msgstr ""
+"O <application>Orage</application> é um aplicativo de calendário simples mas "
+"efetivo, para manter o controle de seus compromissos e disparar alarmes. "
+"Leia mais na <ulink url=\"http://www.kolumbus.fi/~w408237/orage/\">página do "
+"Orage</ulink>."
 
 #: user-docs/C/guide-default-apps.xml:63(title)
 msgid "System"
-msgstr ""
+msgstr "Sistema"
 
 #: user-docs/C/guide-default-apps.xml:65(para)
 msgid ""
@@ -5902,6 +6128,9 @@ msgid ""
 "remote file systems. Read more at the <ulink "
 "url=\"http://www.uvena.de/gigolo/\">Gigolo website</ulink>."
 msgstr ""
+"O <application>Gigolo</application> é um aplicativo que permite, de maneira "
+"fácil, conectar a sistemas de arquivos locais e remotos. Leia mais na <ulink "
+"url=\"http://www.uvena.de/gigolo/\">página do Gigolo</ulink>."
 
 #: user-docs/C/guide-default-apps.xml:67(para)
 msgid ""
@@ -5910,10 +6139,14 @@ msgid ""
 "url=\"http://goodies.xfce.org/projects/applications/xfce4-taskmanager\">Task "
 "Manager online documenatation</ulink>."
 msgstr ""
+"O <application>Task Manager</application> oferece uma visão gráfica dos "
+"aplicativos em execução. Mais informações podem ser encontradas na <ulink "
+"url=\"http://goodies.xfce.org/projects/applications/xfce4-"
+"taskmanager\">documentação online do Gerenciador de Tarefas</ulink>."
 
 #: user-docs/C/command-line.xml:14(title)
 msgid "The command line"
-msgstr ""
+msgstr "A linha de comando"
 
 #: user-docs/C/command-line.xml:16(para)
 msgid ""
@@ -5922,11 +6155,17 @@ msgid ""
 "most tasks, sometimes you might want or need to use a command line to "
 "achieve your goal - or just achieve it faster."
 msgstr ""
+"Apesar de o Xubuntu vir com uma interface gráfica que permite ao usuário "
+"realizar a maior parte de suas tarefas, inclusive com a ajuda dos "
+"aplicativos padrão e os disponíveis no repositório do Ubuntu, às vezes você "
+"pode querer ou precisar utilizar a linha de comando para alcançar o seu "
+"objetivo - inclusive alcançá-lo de maneira mais rápida."
 
 #: user-docs/C/command-line.xml:18(para)
 msgid ""
 "To start the default terminal emulator and get to the command line, either:"
 msgstr ""
+"Para iniciar o emulador de terminal padrão e obter a linha de comando, ou:"
 
 #: user-docs/C/command-line.xml:21(para)
 msgid ""
@@ -5934,12 +6173,17 @@ msgid ""
 "1/><guisubmenu>Accessories</guisubmenu><guimenuitem>Terminal "
 "Emulator</guimenuitem></menuchoice></application>"
 msgstr ""
+"Clique em <application><menuchoice><placeholder-"
+"1/><guisubmenu>Accessórios</guisubmenu><guimenuitem>Emulador de "
+"Terminal</guimenuitem></menuchoice></application>"
 
 #: user-docs/C/command-line.xml:22(para)
 msgid ""
 "Press <keycap><placeholder-1/>Alt+F2</keycap> and run <userinput>xfce4-"
 "terminal</userinput>"
 msgstr ""
+"Pressione <keycap><placeholder-1/>Alt+F2</keycap> e execute <userinput>xfce4-"
+"terminal</userinput>"
 
 #: user-docs/C/command-line.xml:25(para)
 msgid ""
@@ -5947,10 +6191,13 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/UsingTheTerminal\">tutorial on using "
 "the command line</ulink> in the Ubuntu community wiki."
 msgstr ""
+"Existe um ótimo <ulink "
+"url=\"https://help.ubuntu.com/community/UsingTheTerminal\">tutorial sobre o "
+"uso da linha de comando</ulink> na wiki da comunidade do Ubuntu."
 
 #: user-docs/C/command-line.xml:28(title)
 msgid "Running commands with administrative rights"
-msgstr ""
+msgstr "Executando comandos com direitos administrativos"
 
 #: user-docs/C/command-line.xml:30(para)
 msgid ""
@@ -5960,6 +6207,12 @@ msgid ""
 "to allow you to perform multiple administrative tasks without being prompted "
 "for a password each time."
 msgstr ""
+"Ao trabalhar na linha de comando, qualquer comando pode ser executado com "
+"permissões administrativas, prefixando o comando com "
+"<userinput>sudo</userinput>. O <application>Sudo</application> memorizará "
+"sua senha por 15 minutos para permitir que você execute múltiplos comandos "
+"com permissões administrativas sem que seja preciso fornecer sua senha a "
+"cada comando."
 
 #: user-docs/C/command-line.xml:32(para)
 msgid ""
@@ -5969,6 +6222,11 @@ msgid ""
 "<application>Mousepad</application> with administrative rights, run the "
 "command <userinput>pkexec mousepad /path/to/file</userinput>."
 msgstr ""
+"Se o programa que você quer executar como um administrador é gráfico, tal "
+"como o editor de texto <application>Mousepad</application>, execute o "
+"comando prefixado com <userinput>pkexec</userinput>. Por exemplo, execute "
+"<userinput>pkexec mousepad /path/to/file</userinput> para executar o "
+"<application>Mousepad</application> com direitos administrativos."
 
 #: user-docs/C/command-line.xml:34(para)
 msgid ""
@@ -5977,6 +6235,11 @@ msgid ""
 "file. All default applications in Xubuntu that might need to be ran with "
 "administrative rights come with pkexec policy files."
 msgstr ""
+"Por favor, note que para um aplicativo ser executado com "
+"<application>pkexec</application> corretamente, ele precisará enviar um "
+"arquivo de política do pkexec. Todos os aplicativos padrão no Xubuntu que "
+"necessitam ser executados com direitos administrativos já vem com arquivos "
+"de políticas do pkexec."
 
 #: user-docs/C/command-line.xml:36(para)
 msgid ""
@@ -5987,6 +6250,12 @@ msgid ""
 "<userinput>exit</userinput> to continue using that terminal with normal "
 "access powers."
 msgstr ""
+"Tenha cuidado ao utilizar o <application>sudo</application>; você pode "
+"danificar o seu sistema se você digitar o comando errado! Como regra geral, "
+"somente utilize o sudo somente quando absolutamente necessário. Quando você "
+"utiliza o <application>sudo</application> a partir de um terminal, assegure "
+"de fechá-lo ao final, ou digitar <userinput>exit</userinput> para continuar "
+"utilizando este terminal sem direitos administrativos."
 
 #: user-docs/C/command-line.xml:38(para)
 msgid ""
@@ -5994,58 +6263,65 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/RootSudo\">sudo page</ulink> on the "
 "Ubuntu community wiki."
 msgstr ""
+"Para mais informações sobre o <application>sudo</application>, veja a <ulink "
+"url=\"https://help.ubuntu.com/community/RootSudo\">página do sudo</ulink> na "
+"wiki da comunidade do Ubuntu."
 
 #: user-docs/C/command-line.xml:42(title)
 msgid "Common commands"
-msgstr ""
+msgstr "Comandos mais comuns"
 
 #: user-docs/C/command-line.xml:44(para)
 msgid ""
 "Basic terminal commands are outlined below (square brackets indicate "
 "substitutions):"
 msgstr ""
+"Alguns comandos básicos de terminal são listados abaixo (colchetes indicam "
+"os parâmetros de cada comando):"
 
 #: user-docs/C/command-line.xml:48(segtitle)
 msgid "Command"
-msgstr ""
+msgstr "Comando"
 
 #: user-docs/C/command-line.xml:48(segtitle)
 msgid "What it does?"
-msgstr ""
+msgstr "O que ele faz?"
 
 #: user-docs/C/command-line.xml:48(segtitle)
 msgid "Syntax"
-msgstr ""
+msgstr "Sintaxe"
 
 #: user-docs/C/command-line.xml:49(userinput)
 #, no-wrap
 msgid "apt-cache"
-msgstr ""
+msgstr "apt-cache"
 
 #: user-docs/C/command-line.xml:49(seg)
 msgid ""
 "Shows information about the packages in the repository. Common commands are "
 "the search and show commands"
 msgstr ""
+"Mostra informações sobre os pacotes no repositório. Comandos comuns comando "
+"são \"search\" e \"show\""
 
 #: user-docs/C/command-line.xml:49(userinput)
 #, no-wrap
 msgid "apt-cache search web browser"
-msgstr ""
+msgstr "apt-cache search web browser"
 
 #: user-docs/C/command-line.xml:49(userinput)
 #, no-wrap
 msgid "apt-cache show firefox"
-msgstr ""
+msgstr "apt-cache show firefox"
 
 #: user-docs/C/command-line.xml:49(seg) user-docs/C/command-line.xml:56(seg) user-docs/C/command-line.xml:63(seg)
 msgid "<placeholder-1/> or <placeholder-2/>"
-msgstr ""
+msgstr "<placeholder-1/> ou <placeholder-2/>"
 
 #: user-docs/C/command-line.xml:50(userinput)
 #, no-wrap
 msgid "apt-get"
-msgstr ""
+msgstr "apt-get"
 
 #: user-docs/C/command-line.xml:50(seg)
 msgid ""
@@ -6053,226 +6329,241 @@ msgid ""
 "remove to remove a package, purge to remove a package and the configuration, "
 "and autoremove which will also remove unneeded packages"
 msgstr ""
+"Gerencia pacotes no apt. Comandos comuns são \"install\" para instalar um "
+"pacote, \"remove\" para desinstalar um pacote, \"purge\" para desinstalar um "
+"pacote e sua configuração, e \"autoremove\" que desinstalará pacotes "
+"desnecessários."
 
 #: user-docs/C/command-line.xml:50(userinput)
 #, no-wrap
 msgid "apt-get [command] [package]"
-msgstr ""
+msgstr "apt-get [command] [package]"
 
 #: user-docs/C/command-line.xml:51(userinput)
 #, no-wrap
 msgid "cat"
-msgstr ""
+msgstr "cat"
 
 #: user-docs/C/command-line.xml:51(seg)
 msgid "Joins (concatenates) two or more files"
-msgstr ""
+msgstr "Une (concatena) dois ou mais arquivos"
 
 #: user-docs/C/command-line.xml:51(userinput)
 #, no-wrap
 msgid "cat [file1] [file2] ... &gt; [output file]"
-msgstr ""
+msgstr "cat [file1] [file2] ... &gt; [output file]"
 
 #: user-docs/C/command-line.xml:52(userinput)
 #, no-wrap
 msgid "cd"
-msgstr ""
+msgstr "cd"
 
 #: user-docs/C/command-line.xml:52(seg)
 msgid "Changes to another directory"
-msgstr ""
+msgstr "Muda para outro diretório"
 
 #: user-docs/C/command-line.xml:52(userinput)
 #, no-wrap
 msgid "cd [directory]"
-msgstr ""
+msgstr "cd [diretório]"
 
 #: user-docs/C/command-line.xml:53(userinput)
 #, no-wrap
 msgid "cp"
-msgstr ""
+msgstr "cp"
 
 #: user-docs/C/command-line.xml:53(seg)
 msgid "Copies a file (or files) to a directory or to overwrite another file"
 msgstr ""
+"Copia um arquivo (ou arquivos) para um diretório ou sobrescreve outro arquivo"
 
 #: user-docs/C/command-line.xml:53(userinput)
 #, no-wrap
 msgid "cp [file(s)] [directory]"
-msgstr ""
+msgstr "cp [arquivo(s)] [diretório]"
 
 #: user-docs/C/command-line.xml:54(userinput)
 #, no-wrap
 msgid "date"
-msgstr ""
+msgstr "date"
 
 #: user-docs/C/command-line.xml:54(seg)
 msgid ""
 "Tells you the date and time in many different formats, timezones, and "
 "conversions."
 msgstr ""
+"Exibe a data e hora em vários diferentes formatos, fusos horários e "
+"conversões."
 
 #: user-docs/C/command-line.xml:54(userinput)
 #, no-wrap
 msgid "date [options]"
-msgstr ""
+msgstr "date [opções]"
 
 #: user-docs/C/command-line.xml:55(userinput)
 #, no-wrap
 msgid "editor"
-msgstr ""
+msgstr "editor"
 
 #: user-docs/C/command-line.xml:55(seg)
 msgid "Opens a text file in an editor"
-msgstr ""
+msgstr "Abre um arquivo de texto em um editor"
 
 #: user-docs/C/command-line.xml:55(userinput)
 #, no-wrap
 msgid "editor [file]"
-msgstr ""
+msgstr "editor [arquivo]"
 
 #: user-docs/C/command-line.xml:56(userinput)
 #, no-wrap
 msgid "grep"
-msgstr ""
+msgstr "grep"
 
 #: user-docs/C/command-line.xml:56(seg)
 msgid "Searches strings or files"
-msgstr ""
+msgstr "Busca por texto em arquivos"
 
 #: user-docs/C/command-line.xml:56(userinput)
 #, no-wrap
 msgid "grep [text] [file(s)]"
-msgstr ""
+msgstr "grep [texto] [arquivos(s)]"
 
 #: user-docs/C/command-line.xml:56(userinput)
 #, no-wrap
 msgid "[command] | grep [text]"
-msgstr ""
+msgstr "[comando] | grep [texto]"
 
 #: user-docs/C/command-line.xml:57(userinput)
 #, no-wrap
 msgid "kill"
-msgstr ""
+msgstr "kill"
 
 #: user-docs/C/command-line.xml:57(userinput)
 #, no-wrap
 msgid "pidof"
-msgstr ""
+msgstr "pidof"
 
 #: user-docs/C/command-line.xml:57(seg)
 msgid ""
 "Terminates programs with a specified PID. If you don't know the PID you can "
 "use <placeholder-1/>"
 msgstr ""
+"Termina aplicativos com um específico PID. Para descobrir o PID, você pode "
+"utilizar o  <placeholder-1/>"
 
 #: user-docs/C/command-line.xml:57(userinput)
 #, no-wrap
 msgid "kill [-SIGNAL] [PID(s)]"
-msgstr ""
+msgstr "kill [-SINAL] [PID(s)]"
 
 #: user-docs/C/command-line.xml:58(userinput)
 #, no-wrap
 msgid "killall"
-msgstr ""
+msgstr "killall"
 
 #: user-docs/C/command-line.xml:58(seg)
 msgid "Much like the one above, except you specify the programs name"
 msgstr ""
+"Muito parecido com o comando acima, exceto pelo fato que você deve "
+"especificar o nome do processo do aplicativo"
 
 #: user-docs/C/command-line.xml:58(userinput)
 #, no-wrap
 msgid "killall [-SIGNAL] [process(es)]"
-msgstr ""
+msgstr "killall [-SINAL] [processo(s)]"
 
 #: user-docs/C/command-line.xml:59(userinput)
 #, no-wrap
 msgid "less"
-msgstr ""
+msgstr "less"
 
 #: user-docs/C/command-line.xml:59(seg)
 msgid "Shows the contents of a text file"
-msgstr ""
+msgstr "Exibe o conteúdo de um arquivo de texto"
 
 #: user-docs/C/command-line.xml:59(userinput)
 #, no-wrap
 msgid "less [file]"
-msgstr ""
+msgstr "less [arquivo]"
 
 #: user-docs/C/command-line.xml:60(userinput)
 #, no-wrap
 msgid "ls"
-msgstr ""
+msgstr "ls"
 
 #: user-docs/C/command-line.xml:60(seg)
 msgid ""
 "Lists files in a directory. Lists files in the current directory if none is "
 "specified"
 msgstr ""
+"Lista os arquivos em um diretório. Lista arquivos no diretório atual, se "
+"nenhum for especificado."
 
 #: user-docs/C/command-line.xml:60(userinput)
 #, no-wrap
 msgid "ls [directory]"
-msgstr ""
+msgstr "ls [diretório]"
 
 #: user-docs/C/command-line.xml:61(userinput)
 #, no-wrap
 msgid "man"
-msgstr ""
+msgstr "man"
 
 #: user-docs/C/command-line.xml:61(seg)
 msgid "Shows help about a command"
-msgstr ""
+msgstr "Exibe a ajuda sobre um comando"
 
 #: user-docs/C/command-line.xml:61(userinput)
 #, no-wrap
 msgid "man [command]"
-msgstr ""
+msgstr "man [comando]"
 
 #: user-docs/C/command-line.xml:62(userinput)
 #, no-wrap
 msgid "mv"
-msgstr ""
+msgstr "mv"
 
 #: user-docs/C/command-line.xml:62(seg)
 msgid "Moves or renames a file"
-msgstr ""
+msgstr "Move ou renomeia um arquivo"
 
 #: user-docs/C/command-line.xml:62(userinput)
 #, no-wrap
 msgid "mv [filename] [newfilename]"
-msgstr ""
+msgstr "mv [arquivo] [novo_arquivo]"
 
 #: user-docs/C/command-line.xml:63(userinput)
 #, no-wrap
 msgid "rm"
-msgstr ""
+msgstr "rm"
 
 #: user-docs/C/command-line.xml:63(seg)
 msgid ""
 "Removes files or directories. Be very careful with this command! With the -r "
 "option, it removes all files and directories recursively!"
 msgstr ""
+"Remove arquivos ou diretórios. Tenha cuidado com este comando! Com a opção -"
+"r, ele remove todos os arquivos e diretórios recursivamente!"
 
 #: user-docs/C/command-line.xml:63(userinput)
 #, no-wrap
 msgid "rm [file(s)]"
-msgstr ""
+msgstr "rm [arquivo(s)]"
 
 #: user-docs/C/command-line.xml:63(userinput)
 #, no-wrap
 msgid "rm -ir [dir(s)]"
-msgstr ""
+msgstr "rm -ir [diretório(s)]"
 
 #: user-docs/C/command-line.xml:64(userinput)
 #, no-wrap
 msgid "wget"
-msgstr ""
+msgstr "wget"
 
 #: user-docs/C/command-line.xml:64(userinput)
 #, no-wrap
 msgid "man wget"
-msgstr ""
+msgstr "man wget"
 
 #: user-docs/C/command-line.xml:64(seg)
 msgid ""
@@ -6280,344 +6571,350 @@ msgid ""
 "checking to see if a file on the server is newer than the one you have "
 "locally, see <placeholder-1/> for more information."
 msgstr ""
+"Baixa arquivos para o diretório atual. A opção -N pode ser útil para checar "
+"se um arquivo no servidor é mais recente do que o arquivo que você tem "
+"localmente, veja <placeholder-1/> para mais informações."
 
 #: user-docs/C/command-line.xml:64(userinput)
 #, no-wrap
 msgid "wget [urls]"
-msgstr ""
+msgstr "wget [urls]"
 
 #: user-docs/C/appendix-packages.xml:14(title)
 msgid "Application table"
-msgstr ""
+msgstr "Tabela de aplicativos"
 
 #: user-docs/C/appendix-packages.xml:18(segtitle) user-docs/C/appendix-packages.xml:37(segtitle)
 msgid "Friendly name"
-msgstr ""
+msgstr "Nome amigável"
 
 #: user-docs/C/appendix-packages.xml:18(segtitle) user-docs/C/appendix-packages.xml:37(segtitle) user-docs/C/appendix-packages.xml:51(segtitle)
 msgid "Package name"
-msgstr ""
+msgstr "Nome do pacote"
 
 #: user-docs/C/appendix-packages.xml:18(segtitle) user-docs/C/appendix-packages.xml:37(segtitle) user-docs/C/appendix-packages.xml:51(segtitle)
 msgid "Short description"
-msgstr ""
+msgstr "Descrição resumida"
 
 #: user-docs/C/appendix-packages.xml:19(seg)
 msgid "Catfish File Search"
-msgstr ""
+msgstr "Localizador de Arquivos Catfish"
 
 #: user-docs/C/appendix-packages.xml:19(seg)
 msgid "catfish"
-msgstr ""
+msgstr "catfish"
 
 #: user-docs/C/appendix-packages.xml:19(seg)
 msgid "File searching tool which is configurable via the command line"
-msgstr ""
+msgstr "Ferramenta de busca de arquivos configurável via linha de comando"
 
 #: user-docs/C/appendix-packages.xml:20(seg)
 msgid "Document Viewer"
-msgstr ""
+msgstr "Visualizador de Documentos"
 
 #: user-docs/C/appendix-packages.xml:20(seg)
 msgid "evince"
-msgstr ""
+msgstr "evince"
 
 #: user-docs/C/appendix-packages.xml:20(seg)
 msgid "Document (PostScript, PDF) viewer"
-msgstr ""
+msgstr "Visualizador de documentos (Postscript, PDF)"
 
 #: user-docs/C/appendix-packages.xml:21(seg)
 msgid "Calculator"
-msgstr ""
+msgstr "Calculadora"
 
 #: user-docs/C/appendix-packages.xml:21(seg)
 msgid "gnome-calculator"
-msgstr ""
+msgstr "gnome-calculator"
 
 #: user-docs/C/appendix-packages.xml:21(seg)
 msgid "Desktop calculator"
-msgstr ""
+msgstr "Calculadora de mesa"
 
 #: user-docs/C/appendix-packages.xml:22(seg)
 msgid "Character Map"
-msgstr ""
+msgstr "Mapa de Caracteres"
 
 #: user-docs/C/appendix-packages.xml:22(seg)
 msgid "gucharmap"
-msgstr ""
+msgstr "gucharmap"
 
 #: user-docs/C/appendix-packages.xml:22(seg)
 msgid "Unicode character picker and font browser"
-msgstr ""
+msgstr "Seletor de  caracteres unicode e navegador de fontes"
 
 #: user-docs/C/appendix-packages.xml:23(seg)
 msgid "LibreOffice Calc"
-msgstr ""
+msgstr "LibreOffice Calc"
 
 #: user-docs/C/appendix-packages.xml:23(seg)
 msgid "libreoffice-calc"
-msgstr ""
+msgstr "libreoffice-calc"
 
 #: user-docs/C/appendix-packages.xml:23(seg)
 msgid "Spreadsheet application"
-msgstr ""
+msgstr "Aplicação de planilhas eletrônicas"
 
 #: user-docs/C/appendix-packages.xml:24(seg)
 msgid "LibreOffice Writer"
-msgstr ""
+msgstr "LibreOffice Writer"
 
 #: user-docs/C/appendix-packages.xml:24(seg)
 msgid "libreoffice-writer"
-msgstr ""
+msgstr "libreoffice-writer"
 
 #: user-docs/C/appendix-packages.xml:24(seg)
 msgid "Word processor"
-msgstr ""
+msgstr "Processador de texto"
 
 #: user-docs/C/appendix-packages.xml:25(seg)
 msgid "Mousepad"
-msgstr ""
+msgstr "Mousepad"
 
 #: user-docs/C/appendix-packages.xml:25(seg)
 msgid "mousepad"
-msgstr ""
+msgstr "mousepad"
 
 #: user-docs/C/appendix-packages.xml:25(seg)
 msgid "Simple Xfce oriented text editor"
-msgstr ""
+msgstr "Editor de texto simples Xfce"
 
 #: user-docs/C/appendix-packages.xml:26(seg) user-docs/C/appendix-packages.xml:26(seg)
 msgid "PulseAudio Volume Control"
-msgstr ""
+msgstr "Controle de volume do PulseAudio"
 
 #: user-docs/C/appendix-packages.xml:26(seg)
 msgid "pavucontrol"
-msgstr ""
+msgstr "pavucontrol"
 
 #: user-docs/C/appendix-packages.xml:27(seg)
 msgid "Simple Scan"
-msgstr ""
+msgstr "Digitalizador Simples"
 
 #: user-docs/C/appendix-packages.xml:27(seg)
 msgid "simple-scan"
-msgstr ""
+msgstr "simple-scan"
 
 #: user-docs/C/appendix-packages.xml:27(seg)
 msgid "Simple Scanning Utility"
-msgstr ""
+msgstr "Utilitário Simples para Digitalização"
 
 #: user-docs/C/appendix-packages.xml:28(seg)
 msgid "Application Finder"
-msgstr ""
+msgstr "Localizador de Aplicativos"
 
 #: user-docs/C/appendix-packages.xml:28(seg) user-docs/C/appendix-packages.xml:29(seg)
 msgid "xfce4-appfinder"
-msgstr ""
+msgstr "xfce4-appfinder"
 
 #: user-docs/C/appendix-packages.xml:28(seg)
 msgid "Find and launch applications installed on your system"
-msgstr ""
+msgstr "Encontre e inicie aplicativos instalados em seu sistema"
 
 #: user-docs/C/appendix-packages.xml:29(seg)
 msgid "Run Program"
-msgstr ""
+msgstr "Executar Programa"
 
 #: user-docs/C/appendix-packages.xml:29(seg)
 msgid "Run a program"
-msgstr ""
+msgstr "Executar um programa"
 
 #: user-docs/C/appendix-packages.xml:30(seg)
 msgid "Dictionary"
-msgstr ""
+msgstr "Dicionário"
 
 #: user-docs/C/appendix-packages.xml:30(seg)
 msgid "xfce4-dict"
-msgstr ""
+msgstr "xfce4-dict"
 
 #: user-docs/C/appendix-packages.xml:30(seg)
 msgid "Dictionary plugin for Xfce4 panel"
-msgstr ""
+msgstr "Plugin de dicionário para o painel do Xfce4"
 
 #: user-docs/C/appendix-packages.xml:31(seg)
 msgid "Task Manager"
-msgstr ""
+msgstr "Gerenciador de Tarefas"
 
 #: user-docs/C/appendix-packages.xml:31(seg)
 msgid "xfce4-taskmanager"
-msgstr ""
+msgstr "xfce4-taskmanager"
 
 #: user-docs/C/appendix-packages.xml:31(seg)
 msgid "Process manager for the Xfce4 Desktop Environment"
-msgstr ""
+msgstr "Gerenciador de processos para o Ambiente de Trabalho do Xfce4"
 
 #: user-docs/C/appendix-packages.xml:34(title)
 msgid "Settings Manager"
-msgstr ""
+msgstr "Gerenciador de Configurações"
 
 #: user-docs/C/appendix-packages.xml:38(seg)
 msgid "Theme Configuration"
-msgstr ""
+msgstr "Configuração de Tema"
 
 #: user-docs/C/appendix-packages.xml:38(seg)
 msgid "gtk-theme-config"
-msgstr ""
+msgstr "gtk-theme-config"
 
 #: user-docs/C/appendix-packages.xml:38(seg)
 msgid "Simple interface to change GTK+ themes"
-msgstr ""
+msgstr "Interface simples para mudar os temas do GTK+"
 
 #: user-docs/C/appendix-packages.xml:39(seg)
 msgid "Menu Editor"
-msgstr ""
+msgstr "Editor do Menu"
 
 #: user-docs/C/appendix-packages.xml:39(seg)
 msgid "menulibre"
-msgstr ""
+msgstr "menulibre"
 
 #: user-docs/C/appendix-packages.xml:39(seg)
 msgid "Menu layout editor"
-msgstr ""
+msgstr "Editor do leiaute do menu"
 
 #: user-docs/C/appendix-packages.xml:40(seg)
 msgid "About Me"
-msgstr ""
+msgstr "Sobre Mim"
 
 #: user-docs/C/appendix-packages.xml:40(seg)
 msgid "mugshot"
-msgstr ""
+msgstr "mugshot"
 
 #: user-docs/C/appendix-packages.xml:40(seg)
 msgid "Lightweight user-configuration application"
-msgstr ""
+msgstr "Aplicativo leve de configuração do usuário"
 
 #: user-docs/C/appendix-packages.xml:41(seg)
 msgid "Network Connections"
-msgstr ""
+msgstr "Conexões de Rede"
 
 #: user-docs/C/appendix-packages.xml:41(seg)
 msgid "network-manager-gnome"
-msgstr ""
+msgstr "network-manager-gnome"
 
 #: user-docs/C/appendix-packages.xml:41(seg)
 msgid "Network management framework"
-msgstr ""
+msgstr "Framework de gerenciamento de rede"
 
 #: user-docs/C/appendix-packages.xml:42(seg)
 msgid "Additional Drivers"
-msgstr ""
+msgstr "Drivers Adicionais"
 
 #: user-docs/C/appendix-packages.xml:42(seg) user-docs/C/appendix-packages.xml:43(seg)
 msgid "software-properties-gtk"
-msgstr ""
+msgstr "software-properties-gtk"
 
 #: user-docs/C/appendix-packages.xml:42(seg)
 msgid "Configure third-party and proprietary drivers"
-msgstr ""
+msgstr "Configura drivers de terceiros e proprietários"
 
 #: user-docs/C/appendix-packages.xml:43(seg)
 msgid "Software &amp; Updates"
-msgstr ""
+msgstr "Programas e Atualizações"
 
 #: user-docs/C/appendix-packages.xml:43(seg)
 msgid "Configure the sources for installable software and updates"
-msgstr ""
+msgstr "Configura as fontes para instalação e atualização de programas"
 
 #: user-docs/C/appendix-packages.xml:44(seg)
 msgid "Printers"
-msgstr ""
+msgstr "Impressoras"
 
 #: user-docs/C/appendix-packages.xml:44(seg)
 msgid "system-config-printer-gnome"
-msgstr ""
+msgstr "system-config-printer-gnome"
 
 #: user-docs/C/appendix-packages.xml:44(seg)
 msgid "Printer configuration GUI"
-msgstr ""
+msgstr "Interface de configuração de impressora"
 
 #: user-docs/C/appendix-packages.xml:48(title)
 msgid "Behind the scenes"
-msgstr ""
+msgstr "Por trás das cenas"
 
 #: user-docs/C/appendix-packages.xml:52(seg)
 msgid "gvfs-backends"
-msgstr ""
+msgstr "gvfs-backends"
 
 #: user-docs/C/appendix-packages.xml:52(seg)
 msgid ""
 "Allows GVFS to connect to many network protocols (smb://, nfs://, etc)"
 msgstr ""
+"Permite ao GVFS conectar em muitos protocolos de rede (smb://, nfs://, etc)"
 
 #: user-docs/C/appendix-packages.xml:53(seg)
 msgid "gvfs-fuse"
-msgstr ""
+msgstr "gvfs-fuse"
 
 #: user-docs/C/appendix-packages.xml:53(seg)
 msgid "Let non-GNOME apps use GVFS via fuse"
-msgstr ""
+msgstr "Permite que aplicativos não-GNOME usem o GVFS via fuse"
 
 #: user-docs/C/appendix-packages.xml:54(seg)
 msgid "libnotify-bin"
-msgstr ""
+msgstr "libnotify-bin"
 
 #: user-docs/C/appendix-packages.xml:54(seg)
 msgid "Binaries to send notification bubbles"
-msgstr ""
+msgstr "Envia notificações da área de trabalho a um serviço de notificação"
 
 #: user-docs/C/appendix-packages.xml:55(seg)
 msgid "light-locker"
-msgstr ""
+msgstr "light-locker"
 
 #: user-docs/C/appendix-packages.xml:55(literal)
 msgid "<placeholder-1/>lightdm"
-msgstr ""
+msgstr "<placeholder-1/>lightdm"
 
 #: user-docs/C/appendix-packages.xml:55(seg)
 msgid "Simple session-locker for <placeholder-1/>"
-msgstr ""
+msgstr "Bloqueador de sessão simples para <placeholder-1/>"
 
 #: user-docs/C/appendix-packages.xml:56(seg)
 msgid "tumbler"
-msgstr ""
+msgstr "tumbler"
 
 #: user-docs/C/appendix-packages.xml:56(literal)
 msgid "<placeholder-1/>thunar"
-msgstr ""
+msgstr "<placeholder-1/>thunar"
 
 #: user-docs/C/appendix-packages.xml:56(literal)
 msgid "<placeholder-1/>xfdesktop4"
-msgstr ""
+msgstr "<placeholder-1/>xfdesktop4"
 
 #: user-docs/C/appendix-packages.xml:56(seg)
 msgid "Xfce thumbnail daemon used by <placeholder-1/> and <placeholder-2/>"
 msgstr ""
+"Daemon de miniaturas do Xfce usado pelo <placeholder-1/> e <placeholder-2/>"
 
 #: user-docs/C/appendix-packages.xml:57(seg)
 msgid "xfce4-notifyd"
-msgstr ""
+msgstr "xfce4-notifyd"
 
 #: user-docs/C/appendix-packages.xml:57(seg)
 msgid "Daemon used to display notification bubbles"
-msgstr ""
+msgstr "Daemon utilizado para mostrar notificação em balões"
 
 #: user-docs/C/appendix-packages.xml:58(seg)
 msgid "xfce4-indicator-plugin"
-msgstr ""
+msgstr "xfce4-indicator-plugin"
 
 #: user-docs/C/appendix-packages.xml:58(literal)
 msgid "<placeholder-1/>indicator-application"
-msgstr ""
+msgstr "<placeholder-1/>indicator-application"
 
 #: user-docs/C/appendix-packages.xml:58(literal)
 msgid "<placeholder-1/>indicator-sound"
-msgstr ""
+msgstr "<placeholder-1/>indicator-sound"
 
 #: user-docs/C/appendix-packages.xml:58(seg)
 msgid "Panel plugin for the indicators (<placeholder-1/>, <placeholder-2/>)"
 msgstr ""
+"Plugin do painel para os indicadores (<placeholder-1/>, <placeholder-2/>)"
 
 #: user-docs/C/administrative-tasks.xml:14(title)
 msgid "Administrative tasks"
-msgstr ""
+msgstr "Tarefas administrativas"
 
 #: user-docs/C/administrative-tasks.xml:16(para)
 msgid ""
@@ -6626,6 +6923,10 @@ msgid ""
 "created during installation will, by default, be able to perform "
 "administrative tasks."
 msgstr ""
+"Por motivos de segurança, as tarefas administrativas no Xubuntu somente "
+"podem ser efetuadas por usuários com privilégios administrativos especiais. "
+"A primeira conta de usuário criada durante a instalação é, por padrão, capaz "
+"de realizar tarefas administrativas."
 
 #: user-docs/C/administrative-tasks.xml:18(para)
 msgid ""
@@ -6634,12 +6935,18 @@ msgid ""
 "from malicious files and lessens the chances that you will accidentally "
 "select options which may change the way your system works."
 msgstr ""
+"Quando você executa um aplicativo que requer privilégios administrativos, "
+"será solicitado que você forneça sua senha. Isto ajuda a proteger o seu "
+"sistema de arquivos maliciosos e diminui as chances de você, acidentalmente, "
+"selecionar opções que podem modificar a maneira que seu sistema funciona."
 
 #: user-docs/C/administrative-tasks.xml:20(para)
 msgid ""
 "Each time you type your password, the system remembers it for 15 minutes so "
 "that you do not have to type it again."
 msgstr ""
+"Cada vez que você digita sua senha, o sistema lembra-se dela por 15 minutos "
+"e, neste intervalo de tempo, você não precisa digitá-la novamente."
 
 #: user-docs/C/administrative-tasks.xml:22(para)
 msgid ""
@@ -6647,10 +6954,13 @@ msgid ""
 "administrative operations. Information on how to change groups can be found "
 "below."
 msgstr ""
+"Usuários devem ser membros do grupo 'sudo' para poderem efetuar operações "
+"administrativas. Informações sobre como modificar grupos podem ser "
+"encontradas abaixo."
 
 #: user-docs/C/administrative-tasks.xml:25(title)
 msgid "Users and groups"
-msgstr ""
+msgstr "Usuários e grupos"
 
 #: user-docs/C/administrative-tasks.xml:27(para)
 msgid ""
@@ -6659,6 +6969,10 @@ msgid ""
 "accounts for everybody. This allows users to have their individual settings, "
 "files and access rights."
 msgstr ""
+"Quando o Xubuntu é instalado, somente uma conta de usuário é criada. Se "
+"múltiplos usuários utilizam o computador, é altamente recomendado criar "
+"contas de usuários separadas para todos. Isto permite que usuários tenha "
+"suas próprias configurações, arquivos e permissões."
 
 #: user-docs/C/administrative-tasks.xml:29(para)
 msgid ""
@@ -6667,59 +6981,73 @@ msgid ""
 "Settings Manager</guimenuitem><guimenuitem>Users and "
 "Groups</guimenuitem></menuchoice></application>."
 msgstr ""
+"Para modificar os usuários ou grupos no seu sistema, clique em "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"Gerenciador de Configurações</guimenuitem><guimenuitem>Usuários e "
+"Grupos</guimenuitem></menuchoice></application>."
 
 #: user-docs/C/administrative-tasks.xml:31(para)
 msgid "You need administrative rights to make changes to users and groups."
 msgstr ""
+"Você precisa de permissões administrativas para efetuar mudanças em usuários "
+"e grupos."
 
 #: user-docs/C/administrative-tasks.xml:34(title)
 msgid "Managing users"
-msgstr ""
+msgstr "Gerenciando usuários"
 
 #: user-docs/C/administrative-tasks.xml:36(para)
 msgid "To add a new user:"
-msgstr ""
+msgstr "Para adicionar um novo usuário:"
 
 #: user-docs/C/administrative-tasks.xml:39(para) user-docs/C/administrative-tasks.xml:66(para)
 msgid "Click the <guibutton>Add</guibutton> button"
-msgstr ""
+msgstr "Clique no botão <guibutton>Adicionar</guibutton>"
 
 #: user-docs/C/administrative-tasks.xml:40(para)
 msgid "Enter you password"
-msgstr ""
+msgstr "Digite sua senha"
 
 #: user-docs/C/administrative-tasks.xml:41(para)
 msgid ""
 "Fill in the <guilabel>Name</guilabel> and <guilabel>Username</guilabel>"
 msgstr ""
+"Complete o  <guilabel>Nome</guilabel> e o <guilabel>Nome de "
+"usuário</guilabel>"
 
 #: user-docs/C/administrative-tasks.xml:42(para) user-docs/C/administrative-tasks.xml:70(para)
 msgid "Click the <guibutton>OK</guibutton> button"
-msgstr ""
+msgstr "Clique no botão <guibutton>OK</guibutton>"
 
 #: user-docs/C/administrative-tasks.xml:45(para)
 msgid "If you want to give a user administrative rights to the system:"
 msgstr ""
+"Se você quiser dar, a um usuário, privilégios administrativos para o sistema:"
 
 #: user-docs/C/administrative-tasks.xml:48(para)
 msgid ""
 "Select the user whose account type you want to change and press the "
 "<guibutton>Change...</guibutton> button"
 msgstr ""
+"Selecione o usuário cujo tipo de conta você quer modificar e pressione o "
+"botão <guibutton>Modificar...</guibutton>"
 
 #: user-docs/C/administrative-tasks.xml:49(para)
 msgid "Enter your password if prompted to do so"
-msgstr ""
+msgstr "Digite sua senha se for solicitado"
 
 #: user-docs/C/administrative-tasks.xml:50(para)
 msgid ""
 "Select the <guilabel>Administrator</guilabel> option (or select "
 "<guilabel>Desktop User</guilabel> to revert)"
 msgstr ""
+"Selecione a opção <guilabel>Administrador</guilabel> (ou selecione "
+"<guilabel>Usuário</guilabel> para reverter)"
 
 #: user-docs/C/administrative-tasks.xml:51(para)
 msgid "Press <guibutton>OK</guibutton> to apply the selected changes"
 msgstr ""
+"Clique em <guibutton>OK</guibutton> para aplicar as alterações selecionadas"
 
 #: user-docs/C/administrative-tasks.xml:54(para)
 msgid ""
@@ -6728,40 +7056,51 @@ msgid ""
 "dialog, enter your password, click the <guilabel>User Privileges</guilabel> "
 "tab and from there select or deselect wanted capabilities."
 msgstr ""
+"Para um controle de acesso mais personalizado, clique no botão "
+"<guibutton>Configurações Avançadas</guibutton> no diálogo "
+"<guilabel>Configurações de Usuário</guilabel>, forneça sua senha, clique na "
+"aba <guilabel>Privilégios do Usuário</guilabel> e, então, marque ou "
+"desmarque as permissões desejadas."
 
 #: user-docs/C/administrative-tasks.xml:56(para)
 msgid ""
 "To remove a user from the system, select the user you want to delete and "
 "click the <guibutton>Delete</guibutton> button."
 msgstr ""
+"Para remover um usuário do sistema, selecione o mesmo e clique em "
+"<guibutton>Excluir</guibutton>."
 
 #: user-docs/C/administrative-tasks.xml:60(title)
 msgid "Managing groups"
-msgstr ""
+msgstr "Gerenciando grupos"
 
 #: user-docs/C/administrative-tasks.xml:62(para)
 msgid "To add a new group:"
-msgstr ""
+msgstr "Para adicionar um novo grupo:"
 
 #: user-docs/C/administrative-tasks.xml:65(para)
 msgid "Click the <guibutton>Manage Groups</guibutton> button"
-msgstr ""
+msgstr "Clique no botão <guibutton>Gerenciar Grupos</guibutton>"
 
 #: user-docs/C/administrative-tasks.xml:67(para)
 msgid "Enter your password"
-msgstr ""
+msgstr "Digite sua senha"
 
 #: user-docs/C/administrative-tasks.xml:68(para)
 msgid ""
 "Choose a name for the new group and, if you want, change the default value "
 "for the <guilabel>Group ID</guilabel>"
 msgstr ""
+"Escolha um nome para o novo grupo e, se você quiser, modifique o valor "
+"padrão para o <guilabel>ID do Grupo</guilabel>"
 
 #: user-docs/C/administrative-tasks.xml:69(para)
 msgid ""
 "At this time, you have the option of selecting <guilabel>Group "
 "Members</guilabel> from the list"
 msgstr ""
+"Nesse momento, você tem a opção de selecionar os <guilabel>Membros do "
+"Grupo</guilabel> a partir da lista"
 
 #: user-docs/C/administrative-tasks.xml:73(para)
 msgid ""
@@ -6769,6 +7108,9 @@ msgid ""
 "Groups</guibutton> button, select the group you want to delete and click the "
 "<guibutton>Delete</guibutton> button."
 msgstr ""
+"Para remover um grupo do sistema, clique no botão <guibutton>Gerenciar "
+"Grupos</guibutton>, selecione o grupo que deseja remover e clique no botão "
+"<guibutton>Excluir</guibutton>."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: user-docs/C/administrative-tasks.xml:0(None)
