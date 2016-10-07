@@ -17,13 +17,13 @@ endif
 
 # Translation links
 TRSLINKSUSER = $(shell for lang in $(TRANSLATUSER); do \
-        awk -v lang="$$lang" '$$1 == lang {print "\t\t\t\t\t\t<li><a href=\\\"user/" lang "/index.html\\\">" $$2 "</a></li>\\n"; f=1; exit} END {exit !f}' libs-common/language-names || \
-        awk -v lang="$$lang" '$$1 == "\"Language-Team:" {print "\t\t\t\t\t\t<li><a href=\\\"user/" lang "/index.html\\\">" $$2 "</a></li>\\n"; exit}' user-docs/po/$$lang.po; \
+        awk -F '[\t]+' -v lang="$$lang" '$$1 == lang {print "\t\t\t\t\t\t<li><a href=\\\"user/" lang "/index.html\\\">" $$2 "</a></li>\\n"; f=1; exit} END {exit !f}' libs-common/language-names || \
+        sed -n "/^\"Language-Team:/ {s|^\"Language-Team: \([^<]\+\) <.*$$|\t\t\t\t\t\t<li><a href=\\\\\"user/$$lang/index.html\\\\\">\1</a></li>\\\n|p;q}" user-docs/po/$$lang.po; \
     done | sed '$$ s/\\n$$//')
 
 TRSLINKSCONTR = $(shell for lang in $(TRANSLATCONTR); do \
-        awk -v lang="$$lang" '$$1 == lang {print "\t\t\t\t\t\t<li><a href=\\\"contributor/" lang "/index.html\\\">" $$2 "</a></li>\\n"; f=1; exit} END {exit !f}' libs-common/language-names || \
-        awk -v lang="$$lang" '$$1 == "\"Language-Team:" {print "\t\t\t\t\t\t<li><a href=\\\"contributor/" lang "/index.html\\\">" $$2 "</a></li>\\n"; exit}' contributor-docs/po/$$lang.po; \
+        awk -F '[\t]+' -v lang="$$lang" '$$1 == lang {print "\t\t\t\t\t\t<li><a href=\\\"contributor/" lang "/index.html\\\">" $$2 "</a></li>\\n"; f=1; exit} END {exit !f}' libs-common/language-names || \
+        sed -n "/^\"Language-Team:/ {s|^\"Language-Team: \([^<]\+\) <.*$$|\t\t\t\t\t\t<li><a href=\\\\\"contributor/$$lang/index.html\\\\\">\1</a></li>\\\n|p;q}" contributor-docs/po/$$lang.po; \
     done | sed '$$ s/\\n$$//')
 
 all: clean startpage user-all

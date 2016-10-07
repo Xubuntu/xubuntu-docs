@@ -1,12 +1,28 @@
-xubuntu-docs (16.10) UNRELEASED; urgency=medium
+xubuntu-docs (16.10) yakkety; urgency=medium
 
   [ David Pires ]
   * Bump version and start page to 16.10 Yakkety Yak
+  * Updates for the 'Community' section in the Strategy Document
 
   [ flocculant ]
   * Changed url for release note base to /Xubuntu/Testing/ReleaseNote 
+  * Updates for replacement of XPL by Xubuntu Council
+  * Describe files to update for the User Documentation
 
- -- David Pires <slickymaster@ubuntu.com>  Tue, 26 Apr 2016 23:51:38 +0100
+  [ Pasi Lallinaho ]
+  * Updates for Xubuntu Council
+  * Change the description for the package guidelines.
+
+  [ Krytarik Raido ]
+  * Fix pt_BR language validation.
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 06 Oct 2016 21:57:34 -0400
+
+xubuntu-docs (16.04.4) xenial; urgency=medium
+
+  * New bugfix and translation release.
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 07 Apr 2016 18:39:41 -0400
 
 xubuntu-docs (16.04.3) xenial; urgency=medium
 
