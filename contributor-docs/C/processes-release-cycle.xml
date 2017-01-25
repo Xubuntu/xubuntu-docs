@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
 "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
 <!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
 %xubuntu-common;
@@ -26,7 +26,7 @@
 			<listitem><para>Finalizing specifications</para></listitem>
 		</itemizedlist>
 
-		<para>During the brainstorming phase the contributors determine what they would like to work on during the release cycle, including proposals for changes in default applications. Anybody can items to the list. Settling on the goals in advance will make planning, focusing and estimating the likelihood for the features to be implemented easier.</para>
+		<para>During the brainstorming phase the contributors determine what they would like to work on during the release cycle, including proposals for changes in default applications. Anybody can add items to the list. Settling on the goals in advance will make planning, focusing and estimating the likelihood for the features to be implemented easier.</para>
 
 		<para>After the brainstorming is over and before or on the Feature Definition Freeze day, the Xubuntu team will approve or reject the proposed blueprints. Any items with no assignee or rationale will be automatically rejected, but having them will not guarantee that the blueprint is approved. Other criteria include, but are not limited to: likelihood of getting the feature implemented, maintenance weight in the future, possible stability issues, influence on other blueprints, et cetera. The approved blueprints compose the roadmap for the release being developed.</para>
 
@@ -78,8 +78,7 @@
 				<?dbhtml list-presentation="table"?>
 				<segtitle>Scheduled time</segtitle><segtitle>Action</segtitle>
 				<seglistitem><seg>7 days before release</seg><seg>Pre-reminder for milestone testing</seg></seglistitem>
-				<seglistitem><seg>5 days before release</seg><seg>Smoketest images - automatic, reported by Jenkins</seg></seglistitem>
-				<seglistitem><seg>3 days before release</seg><seg>Once appropriate testing area set up, call for testing and start milestone testing</seg></seglistitem>
+				<seglistitem><seg>2 -3 days before release</seg><seg>Once appropriate testing area set up, call for testing and start milestone testing</seg></seglistitem>
 				<seglistitem><seg>Release day</seg><seg>Mark images ready on the ISO tracker once the release team is confident to do so</seg></seglistitem>
 			</segmentedlist>
 		</section>
@@ -87,9 +86,9 @@
 		<section id="release-cycle-testing-package">
 			<title>Package testing</title>
 
-			<para>The QA team will schedule package testing sprints to happen during the cycle between milestone testing to ensure applications that are included in Xubuntu have sufficient amount of testing conducted.</para>
+			<para>When being used the QA team will schedule package testing sprints to happen during the cycle between milestone testing to ensure applications that are included in Xubuntu have sufficient amount of testing conducted.</para>
 
-			<para>Additional testing should be conducted when a new default application is to be included in the next Xubuntu release, when an application has a substantially large update in the middle of the cycle or when developers request specific testing for a specific update to an application.</para>
+			<para>Regardless of whether package testing is taking place during a dev cycle, additional testing should be conducted for a new default application is to be included in the next Xubuntu release, when an existing application has a substantially large update in the middle of the cycle or when developers request specific testing for a specific update to an application.</para>
 
 			<para>Calls for package testing sprints will be sent out as required.</para>
 		</section>

@@ -25,35 +25,24 @@
 	<section id="docs-editing">
 		<title>Editing the User Documentation</title>
 		<para>Changes to the user documentation should be made to the .xml files under <code>user-docs/C/</code>. Once edited and saved, push changes to your local branch as detailed in <xref linkend="common-reference" /></para>
+
+		<para>Changes to the contributor documentation should be made to the .xml files under <code>contributor-docs/C/</code>. Once edited and saved, push changes to your local branch as detailed in <xref linkend="common-reference" /></para>
 	</section>
 
 	<section id="docs-packages">
 		<title>Packages to be translated</title>
 
-		<para>These are the packages that the Xubuntu team considers important and should take a precedence when translating.</para>
+		<para>These are packages that the Xubuntu team considers important, and should take precedence when translating.</para>
 
 		<section id="docs-packages-xubuntu-only">
 			<title>The packages that only exist in Xubuntu</title>
 
-			<para>These packages only exist in Xubuntu, so their translation is up to the Xubuntu translators solely. These are of high importance for the Xubuntu team.</para>
+			<para>These packages only exist in Xubuntu, so their translation is solely dealt with by Xubuntu translators. These are of high importance for the Xubuntu team.</para>
 
 			<itemizedlist>
 				<listitem><para><ulink url="https://translations.launchpad.net/xubuntu-docs">Xubuntu Documentation</ulink></para></listitem>
 				<listitem><para><ulink url="https://translations.launchpad.net/xubuntu-default-settings">Xubuntu Default Settings</ulink></para></listitem>
 				<listitem><para><ulink url="https://translations.launchpad.net/ubuntu/&devel-codename;/+source/ubiquity-slideshow-ubuntu/+pots/ubiquity-slideshow-xubuntu">Ubiquity Slideshow for Xubuntu</ulink></para></listitem>
-			</itemizedlist>
-		</section>
-
-		<section id="docs-packages-xubuntu-mainly">
-			<title>Mainly built for and used by Xubuntu</title>
-
-			<para>These packages exist outside Xubuntu, but they are mainly built to fit a need in Xubuntu. Unless/until they are spread much wider than now (and have gathered the interest of other translation groups), the Xubuntu translators should take care of translating these packages.</para>
-
-			<itemizedlist>
-				<listitem><para><ulink url="https://translations.launchpad.net/lightdm-gtk-greeter">LightDM GTK+ Greeter</ulink></para></listitem>
-				<listitem><para><ulink url="https://translations.launchpad.net/light-locker-settings">Light Locker Settings</ulink></para></listitem>
-				<listitem><para><ulink url="https://translations.launchpad.net/menulibre">MenuLibre</ulink></para></listitem>
-				<listitem><para><ulink url="https://translations.launchpad.net/mugshot">Mugshot</ulink></para></listitem>
 			</itemizedlist>
 		</section>
 
@@ -64,18 +53,32 @@
 
 			<itemizedlist>
 				<listitem><para><ulink url="https://translations.launchpad.net/catfish-search">Catfish</ulink></para></listitem>
-				<listitem><para><ulink url="https://translations.launchpad.net/lightdm-gtk-greeter-settings/">LightDM GTK+ Greeter Settings</ulink></para></listitem>
+				<listitem><para><ulink url="https://translations.launchpad.net/lightdm-gtk-greeter">LightDM GTK+ Greeter</ulink></para></listitem>
 				<listitem><para><ulink url="https://www.transifex.com/projects/p/xfce4-whiskermenu-plugin/">Whiskermenu</ulink></para></listitem>
 			</itemizedlist>
 		</section>
 	</section>
+
+
+		<section id="docs-packages-xubuntu-mainly">
+			<title>Mainly built for and used by Xubuntu</title>
+
+			<para>These packages exist outside Xubuntu, but they are mainly built to fit a need in Xubuntu. Unless/until they are spread much wider than now (and have gathered the interest of other translation groups), the Xubuntu translators should take care of translating these packages.</para>
+
+			<itemizedlist>
+				<listitem><para><ulink url="https://translations.launchpad.net/lightdm-gtk-greeter-settings/">LightDM GTK+ Greeter Settings</ulink></para></listitem>
+				<listitem><para><ulink url="https://translations.launchpad.net/menulibre">MenuLibre</ulink></para></listitem>
+				<listitem><para><ulink url="https://translations.launchpad.net/mugshot">Mugshot</ulink></para></listitem>
+			</itemizedlist>
+		</section>
+
 
 	<section id="docs-translation-guidelines">
 		<title>Translation guidelines for Xubuntu packages</title>
 
 		<para>These guidelines apply mostly to the Xubuntu documentation. They can generally be applied to any translation with minor modification. If unsure, ask the Documentation team members for assistance.</para>
 
-		<para>The <ulink url="https://wiki.ubuntu.com/Translations/Contact/Teams">language-specific translation groups</ulink> usually want to encourage some conventions; please be in touch with the appropriate language-specific group before translating.</para>
+		<para>The <ulink url="https://wiki.ubuntu.com/Translations/Contact/Teams">language-specific translation groups</ulink> usually want to encourage some conventions; please contact the appropriate language-specific group before translating.</para>
 
 		<para>More general translation guidelines can be found at the <ulink url="https://help.launchpad.net/Translations/Guide">Launchpad translations guide</ulink>.</para>
 

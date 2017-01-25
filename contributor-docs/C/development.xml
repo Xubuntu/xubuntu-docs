@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
 "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
 <!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
 %xubuntu-common;
@@ -16,9 +16,9 @@
 	<section id="development-packageset">
 		<title>Xubuntu packageset</title>
 
-		<para>The Xubuntu team maintains a certain subset of packages in the Ubuntu archive. The <ulink url="http://people.canonical.com/~ubuntu-archive/packagesets/&devel-codename;/xubuntu">Xubuntu packageset for the current development release</ulink>.</para>
+		<para>The Xubuntu team maintains a subset of packages in the Ubuntu archive. The Xubuntu packageset for the current development release can be found listed at the packagesets link shown below.</para>
 
-		<note><para>All per-release packageset lists are available at <ulink url="http://people.canonical.com/~ubuntu-archive/packagesets/">http://people.canonical.com/~ubuntu-archive/packagesets/</ulink>.</para></note>
+		<note><para>All per-release, including current development, packageset lists are available at <ulink url="http://people.canonical.com/~ubuntu-archive/packagesets/">http://people.canonical.com/~ubuntu-archive/packagesets/</ulink>.</para></note>
 	</section>
 
 	<section id="development-ppa">
