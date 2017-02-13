@@ -14,7 +14,7 @@
 <chapter id="qa-team">
 	<title>QA Team Responsibilies</title>
 
-		<note><para>There are various QA tracker, wiki and Launchpad pages, the links to which can be found on <xref linkend="qa-team-links" />.</para></note>
+		<note><para>There are various QA trackers, wiki and Launchpad pages, the links to which can be found on <xref linkend="qa-team-links" />.</para></note>
 
 		<section id="qa-team-basics">
 		<title>QA Team</title>
@@ -64,7 +64,7 @@
 
 		<para>When a package during test constantly fails, or bug reports indicate a failure in a package for something not tested. The testcase for that package can be disabled temporarily. The QA Lead is responsible for ensuring tests are both disabled and re-enabled when appropriate.</para>
 
-		<para>Xubuntu ISO's are built and added to the tracker at approximately 02:00 UTC. This time can be changed by amending our build times on the <ulink url="http://bazaar.launchpad.net/~ubuntu-cdimage/ubuntu-cdimage/mainline/files/head:/etc/">ubuntu-cdimage crontab</ulink> and proposing the change.</para>
+		<para>Xubuntu ISOs are built and added to the tracker at approximately 02:00 UTC. This time can be changed by amending our build times on the <ulink url="http://bazaar.launchpad.net/~ubuntu-cdimage/ubuntu-cdimage/mainline/files/head:/etc/">ubuntu-cdimage crontab</ulink> and proposing the change.</para>
 
 	</section>
 

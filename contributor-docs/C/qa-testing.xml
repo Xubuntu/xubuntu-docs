@@ -18,7 +18,7 @@
 
 		<para>In general links for specific isos for daily or milestone use can be found at the <ulink url="http://iso.qa.ubuntu.com/">ISO Tracker</ulink> A link exists for the <ulink url="http://cdimage.ubuntu.com/xubuntu/daily-live/current/">current</ulink> development daily iso. This can be useful, especially when setting up methods to download your testing iso, such as with <ulink url="https://help.ubuntu.com/community/ZsyncCdImage">zsync</ulink>
 
-		<note><para>You can find the last known boot and installation status of our iso's at <ulink url="http://dev.xubuntu.org/#tab-qa">QA Status</ulink> of the development status tracker</para></note>
+		<note><para>You can find the last known boot and installation status of our ISOs at <ulink url="http://dev.xubuntu.org/#tab-qa">QA Status</ulink> of the development status tracker</para></note>
 	  </para>
 	</section>
 
@@ -45,7 +45,7 @@
 			<listitem><para><ulink url="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/ppa">Xubuntu daily builds</ulink> for daily Git and Bzr builds for packages related to Xubuntu and/or Xfce4</para></listitem>
 		</itemizedlist>
 
-		<note><para>At times the development team use other ppa's to test specific packages. Details of these will be made known to testers when appropriate</para></note>
+		<note><para>At times the development team use other PPAs to test specific packages. Details of these will be made known to testers when appropriate</para></note>
 
 		<para>Installing these three PPAs means that you will be using and testing packages that developers are currently working with, this means that regressions found by you will not be present once they are released.</para>
 
@@ -66,7 +66,7 @@
 
 		<itemizedlist>
 			<listitem><para>Check the devel mailing list close to the start of the cycle, where the decision as to which milestones we will participate in will be discussed.</para></listitem>
-			<listitem><para>While milestone testing is in progress, please watch for rebuilds. A rebuilt iso will have .1 appended to the iso name. These will take place either when we have reason to rebuild, eg following a bug fix landing, or more likely when the Ubuntu Release Team have cause to do so.</para></listitem>
+			<listitem><para>While milestone testing is in progress, please watch for rebuilds. A rebuilt iso will have .something appended to the iso name (eg. "".1"). These will take place either when we have reason to rebuild, eg following a bug fix landing, or more likely when the Ubuntu Release Team have cause to do so.</para></listitem>
 		</itemizedlist>
 	</section>
 
