@@ -14,7 +14,7 @@
 <chapter id="qa-team">
 	<title>QA Team Responsibilies</title>
 
-		<note><para>In addition to the QA Team's Trello page, there are various QA tracker, wiki and Launchpad pages, the links to which can be found on <xref linkend="qa-team-links" />.</para></note>
+		<note><para>There are various QA trackers, wiki and Launchpad pages, the links to which can be found on <xref linkend="qa-team-links" />.</para></note>
 
 		<section id="qa-team-basics">
 		<title>QA Team</title>
@@ -25,7 +25,7 @@
 
 		<para>Excluding testing itself, control of the testcases that we use for ISO and Package testing, along with communicating the testing requirements for any particular development cycle (hereafter cycle) to the community, makes up the bulk of the teams work in any given cycle.</para>
 
-		<para>Members of the QA team should check the current Xubuntu QA blueprint, and assign themselves to tasks they feel able to undertake. In addition it is helpful that they also have a Trello account in order to work with the QA Trello page.</para>
+		<para>Members of the QA team should check the current Xubuntu QA blueprint, and assign themselves to tasks they feel able to undertake.</para>
 	</section>
 
 	<section id="qa-team-testing">
@@ -55,17 +55,17 @@
 
 		<itemizedlist>
 			<listitem><para>Image testcases we use are still correct.</para></listitem>
-			<listitem><para>When the intention is that package testing will take place during the cycle, package testcases are still correct.</para></listitem>
+			<listitem><para>When the intention is that package testing will take place during the cycle, package testcases required during the cycle are still correct.</para></listitem>
 			<listitem><para>The testsuites on the Package Tracker make sense for what we intend to test during the cycle. Differences between regular and LTS releases are often, but not always, needed.</para></listitem>
-			<listitem><para>Scheduling of ISO, and when appropriate Package, testing should take place amongst the QA team. The resulting schedule should be posted on the Xubuntu QA Trello page with Due Dates, this ensures that the schedule shows on the tracker's calendar tab.</para></listitem>
+			<listitem><para>Scheduling of ISO, and when appropriate Package, testing should take place amongst the QA team.</para></listitem>
 		</itemizedlist>
 
 		<para>When there are changes to a package we test, following for example a bug fix, a further check of the testcase involved should take place. Further testing calls for that package should be made to check for regression during the cycle.</para>
 
-		<para>When a package during test constantly fails, or bug reports indicate a failure in a package for something not tested. The testcase for that package should be disabled temporarily. This should be noted on the Trello Disabled Tests list. The QA Lead is responsible for ensuring tests are both disabled and re-enabled when appropriate.</para>
+		<para>When a package during test constantly fails, or bug reports indicate a failure in a package for something not tested. The testcase for that package can be disabled temporarily. The QA Lead is responsible for ensuring tests are both disabled and re-enabled when appropriate.</para>
 
-		<para>Xubuntu ISO's are built and added to the tracker at approximately 02:00 UTC. This time can be changed by amending our build times on the <ulink url="http://bazaar.launchpad.net/~ubuntu-cdimage/ubuntu-cdimage/mainline/files/head:/etc/">ubuntu-cdimage crontab</ulink> and proposing the change.</para>
-		
+		<para>Xubuntu ISOs are built and added to the tracker at approximately 02:00 UTC. This time can be changed by amending our build times on the <ulink url="http://bazaar.launchpad.net/~ubuntu-cdimage/ubuntu-cdimage/mainline/files/head:/etc/">ubuntu-cdimage crontab</ulink> and proposing the change.</para>
+
 	</section>
 
 	<section id="qa-team-testedits">
@@ -101,7 +101,6 @@
 		<para>Any member of the QA team can:</para>
 
 		<itemizedlist>
-			<listitem><para>Watch dates on the Trello schedule for upcoming testing calls via the tracker's <ulink url="http://tracker.xubuntu.org/#tab-calendar">calendar</ulink> tab</para></listitem>
 			<listitem><para>Mail the devel list with a testing call</para></listitem>
 			<listitem><para>Just prior to an upcoming ISO Milestone testing call, warn on the devel list</para></listitem>
 			<listitem><para>Make an ISO Milestone testing call</para></listitem>
@@ -131,9 +130,6 @@
 
 		<itemizedlist>
 			 <listitem><para>QA Lead should set up the blueprints for both the QA team and the Bugs that the whole team uses</para></listitem>
-			 <listitem><para>Any member of the QA team can archive the previous cycle's Testing, Postponed and Done cards</para></listitem>
-			 <listitem><para>Set up new cycle cards for Testing, Postponed and Done</para></listitem>
-			 <listitem><para>Check that notes in the Tester Notes card is up to date</para></listitem>
 			 <listitem><para>Check that the draft Release Note is up to date</para></listitem>
 	 	</itemizedlist>
 	</section>
