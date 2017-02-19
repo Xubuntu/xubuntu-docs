@@ -24,9 +24,10 @@
 
 	<section id="docs-editing">
 		<title>Editing the User Documentation</title>
-		<para>Changes to the user documentation should be made to the .xml files under <code>user-docs/C/</code>. Once edited and saved, push changes to your local branch as detailed in <xref linkend="common-reference" /></para>
 
-		<para>Changes to the contributor documentation should be made to the .xml files under <code>contributor-docs/C/</code>. Once edited and saved, push changes to your local branch as detailed in <xref linkend="common-reference" /></para>
+		<para>Changes to the user documentation should be made to the .xml files under <literal>user-docs/C/</literal>. Once edited and saved, push changes to your local branch as detailed in <xref linkend="common-reference" />.</para>
+
+		<para>Similarly, changes to the contributor documentation should be made to the .xml files under <literal>contributor-docs/C/</literal>.</para>
 	</section>
 
 	<section id="docs-packages">
@@ -57,8 +58,6 @@
 				<listitem><para><ulink url="https://www.transifex.com/projects/p/xfce4-whiskermenu-plugin/">Whiskermenu</ulink></para></listitem>
 			</itemizedlist>
 		</section>
-	</section>
-
 
 		<section id="docs-packages-xubuntu-mainly">
 			<title>Mainly built for and used by Xubuntu</title>
@@ -71,14 +70,14 @@
 				<listitem><para><ulink url="https://translations.launchpad.net/mugshot">Mugshot</ulink></para></listitem>
 			</itemizedlist>
 		</section>
-
+	</section>
 
 	<section id="docs-translation-guidelines">
 		<title>Translation guidelines for Xubuntu packages</title>
 
 		<para>These guidelines apply mostly to the Xubuntu documentation. They can generally be applied to any translation with minor modification. If unsure, ask the Documentation team members for assistance.</para>
 
-		<para>The <ulink url="https://wiki.ubuntu.com/Translations/Contact/Teams">language-specific translation groups</ulink> usually want to encourage some conventions; please contact the appropriate language-specific group before translating.</para>
+		<para>The <ulink url="https://wiki.ubuntu.com/Translations/Contact/Teams">language-specific translation teams</ulink> usually want to encourage some conventions; please contact the appropriate language-specific team before translating.</para>
 
 		<para>More general translation guidelines can be found at the <ulink url="https://help.launchpad.net/Translations/Guide">Launchpad translations guide</ulink>.</para>
 

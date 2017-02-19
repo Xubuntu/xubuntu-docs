@@ -14,9 +14,9 @@
 <chapter id="qa-team">
 	<title>QA Team Responsibilies</title>
 
-		<note><para>There are various QA trackers, wiki and Launchpad pages, the links to which can be found on <xref linkend="qa-team-links" />.</para></note>
+	<note><para>There are various QA trackers, wiki and Launchpad pages, the links to which can be found on <xref linkend="qa-team-links" />.</para></note>
 
-		<section id="qa-team-basics">
+	<section id="qa-team-basics">
 		<title>QA Team</title>
 
 		<para>The Xubuntu QA team was formed to ensure that the quality of a released Xubuntu conforms to the parameters laid out in the Xubuntu Processes documents. In order to successfully accomplish this, close team working relationships, especially with the development team and the Xubuntu Council are paramount. Xubuntu's success is based on close working amongst all of its various teams.</para>
@@ -62,7 +62,7 @@
 
 		<para>When there are changes to a package we test, following for example a bug fix, a further check of the testcase involved should take place. Further testing calls for that package should be made to check for regression during the cycle.</para>
 
-		<para>When a package during test constantly fails, or bug reports indicate a failure in a package for something not tested. The testcase for that package can be disabled temporarily. The QA Lead is responsible for ensuring tests are both disabled and re-enabled when appropriate.</para>
+		<para>When a package during test constantly fails, or bug reports indicate a failure in a package for something not tested, the testcase for that package can be disabled temporarily. The QA Lead is responsible for ensuring tests are both disabled and re-enabled when appropriate.</para>
 
 		<para>Xubuntu ISOs are built and added to the tracker at approximately 02:00 UTC. This time can be changed by amending our build times on the <ulink url="http://bazaar.launchpad.net/~ubuntu-cdimage/ubuntu-cdimage/mainline/files/head:/etc/">ubuntu-cdimage crontab</ulink> and proposing the change.</para>
 

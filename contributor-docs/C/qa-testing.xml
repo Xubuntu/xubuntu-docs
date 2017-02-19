@@ -16,10 +16,9 @@
 	<section id="qa-iso">
 		<title>ISOs</title>
 
-		<para>In general links for specific isos for daily or milestone use can be found at the <ulink url="http://iso.qa.ubuntu.com/">ISO Tracker</ulink> A link exists for the <ulink url="http://cdimage.ubuntu.com/xubuntu/daily-live/current/">current</ulink> development daily iso. This can be useful, especially when setting up methods to download your testing iso, such as with <ulink url="https://help.ubuntu.com/community/ZsyncCdImage">zsync</ulink>
+		<para>In general, links for specific ISOs for daily or milestone use can be found at the <ulink url="http://iso.qa.ubuntu.com/">ISO Tracker</ulink>. A link exists for the <ulink url="http://cdimage.ubuntu.com/xubuntu/daily-live/current/">current</ulink> development daily ISO. This can be useful, especially when setting up methods to download your testing ISO, such as with <ulink url="https://help.ubuntu.com/community/ZsyncCdImage">zsync</ulink></para>
 
 		<note><para>You can find the last known boot and installation status of our ISOs at <ulink url="http://dev.xubuntu.org/#tab-qa">QA Status</ulink> of the development status tracker</para></note>
-	  </para>
 	</section>
 
 	<section id="qa-testing-exploratory">
@@ -66,7 +65,7 @@
 
 		<itemizedlist>
 			<listitem><para>Check the devel mailing list close to the start of the cycle, where the decision as to which milestones we will participate in will be discussed.</para></listitem>
-			<listitem><para>While milestone testing is in progress, please watch for rebuilds. A rebuilt iso will have .something appended to the iso name (eg. "".1"). These will take place either when we have reason to rebuild, eg following a bug fix landing, or more likely when the Ubuntu Release Team have cause to do so.</para></listitem>
+			<listitem><para>While milestone testing is in progress, please watch for rebuilds. A rebuilt ISO will have <literal>.something</literal> appended to its name (e.g. <literal>.1</literal>). These will take place either when we have reason to rebuild, e.g. following a bug fix landing, or more likely when the Ubuntu Release Team have cause to do so.</para></listitem>
 		</itemizedlist>
 	</section>
 
@@ -93,17 +92,17 @@
 	</section>
 
 	<section id="qa-testing-upgrade">
-	<title>Upgrade Testing</title>
+		<title>Upgrade Testing</title>
 
-	<para>About half way through any development cycle (around the beta milestones) we need to test upgrades from the previous release to the new development version. When the development version is intended to be the next LTS release, we need to test both upgrade paths: LTS to LTS and regular to LTS.</para>
+		<para>About half way through any development cycle (around the beta milestones) we need to test upgrades from the previous release to the new development version. When the development version is intended to be the next LTS release, we need to test both upgrade paths: LTS to LTS and regular to LTS.</para>
 
-	<para>The ISO tracker has a section for upgrade tests which does not change daily, but runs from Friday to Friday. This enables us to test upgrades for a week rather than a day. During these tests it is preferred that the image used for testing is the one built on the first Friday, except where bugs are reported and fixes landed.</para>
+		<para>The ISO tracker has a section for upgrade tests which does not change daily, but runs from Friday to Friday. This enables us to test upgrades for a week rather than a day. During these tests it is preferred that the image used for testing is the one built on the first Friday, except where bugs are reported and fixes landed.</para>
 
-	<itemizedlist>
-		<listitem><para>Upgrade: tested using the update-manager</para></listitem>
-		<listitem><para>Upgrade (image): tested using the daily image</para></listitem>
-	</itemizedlist>
-</section>
+		<itemizedlist>
+			<listitem><para>Upgrade: tested using the update-manager</para></listitem>
+			<listitem><para>Upgrade (image): tested using the daily image</para></listitem>
+		</itemizedlist>
+	</section>
 
 	<section id="qa-testing-package">
 		<title>Package Testing</title>

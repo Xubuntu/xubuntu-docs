@@ -34,16 +34,16 @@
 		<para>Before submitting a bug, you should look at the <ulink url="https://launchpad.net/ubuntu/+bugs">existing bug reports</ulink> and release notes to verify the bug hasn’t been reported already. If the bug has not already been reported, you should file a new bug report. It is sensible to read through the <ulink url="https://help.ubuntu.com/community/ReportingBugs">bug reporting guidelines</ulink> before filing your first bug.</para>
 
 		<para>In the most situations, it is easiest to file a bug by opening a new Terminal and type ubuntu-bug package-name, where package-name is the package you want to file bug against. If you don’t know which package you should file the bug against, refer to the instructions on <ulink url="https://wiki.ubuntu.com/Bugs/FindRightPackage">finding the right package</ulink>. When filing the bug, it is better to have too much information than too little.</para>
-	</section>
 
-	<note><para>If you are unsure of the package name to report against, you can use your mouse to click on the application window, in a terminal run <code>ubuntu-bug -w</code>, click to close the message window and then click on the application window</para></note>
+		<note><para>If you are unsure of the package name to report against, you can use your mouse to click on the application window; in a terminal run <userinput>ubuntu-bug -w</userinput>, click to close the message window and then click on the application window.</para></note>
+	</section>
 
 	<section id="qa-bugs-ppa">
 		<title>Reporting bugs with PPAs</title>
 
-		<para>When you encounter a bug with a package from a PPA, you’ll need to file the bug report manually. Once you’ve got the offending package name, go to http://bugs.launchpad.net/ubuntu/+source/<emphasis>PACKAGENAME</emphasis>/+filebug.</para>
+		<para>When you encounter a bug with a package from a PPA, you’ll need to file the bug report manually. Once you’ve got the offending package name, go to <literal>https://bugs.launchpad.net/ubuntu/+source/PACKAGENAME/+filebug</literal>.</para>
 
-		<para>Crash logs related to the package can be found in /var/crash/. This directory sometimes requires superuser (sudo) permissions to view and extract the contents. These logs can be particularly valuable to include in your bug report, but be sure to review them as they may contain sensitive or personally identifiable material.</para>
+		<para>Crash logs related to the package can be found in <literal>/var/crash/</literal>. This directory sometimes requires superuser (<literal>sudo</literal>) permissions to view and extract the contents. These logs can be particularly valuable to include in your bug report, but be sure to review them as they may contain sensitive or personally identifiable material.</para>
 
 		<para>Be sure to follow the above general guidelines, and also add the ppa tag so it is clear to developers that this is an unsupported package.</para>
 	</section>
@@ -53,7 +53,7 @@
 
 		<para>Triaging bugs is getting bug reports in a state where they are useful for developers by making sure bug reports have useful titles, descriptions, appropriate logs and more. To get started, read the page on <ulink url="https://wiki.ubuntu.com/Bugs/Triage">triaging bugs</ulink> in the Ubuntu wiki.</para>
 
-		<para>After you have made yourself familiar with the aspects of triaging bugs, you can start triaging <ulink url="https://bugs.launchpad.net/~xubuntu-bugs/+packagebugs">Xubuntu bugs</ulink>. Please note that the bug status and importance can be only be changed by members of the <ulink url="https://wiki.ubuntu.com/UbuntuBugControl">Ubuntu Bug Control</ulink> team &ndash; in the beginning, you will need to report triaged bugs for the team in #ubuntu-bugs on Freenode. After you have demonstrated your ability to triage bugs, you will gain more responsibilities from the Bug Control team.</para>
+		<para>After you have made yourself familiar with the aspects of triaging bugs, you can start triaging <ulink url="https://bugs.launchpad.net/~xubuntu-bugs/+packagebugs">Xubuntu bugs</ulink>. Please note that the bug status and importance can only be changed by members of the <ulink url="https://wiki.ubuntu.com/UbuntuBugControl">Ubuntu Bug Control</ulink> team &ndash; in the beginning, you will need to report triaged bugs for the team in #ubuntu-bugs on Freenode. After you have demonstrated your ability to triage bugs, you will gain more responsibilities from the Bug Control team.</para>
 
 		<para>As you gain experience on triaging Xubuntu bugs, you may want to take a look at new bugs that mention Xubuntu. Triaging new bugs is recommended for those who are more familiar with both triaging and Xubuntu generally, since not all of the new bugs mentioning Xubuntu are actually Xubuntu bugs.</para>
 	</section>
