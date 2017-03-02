@@ -18,8 +18,8 @@
 
 		<para>These are packages that the Xubuntu team considers important, and should take precedence when translating.</para>
 
-		<section id="docs-packages-xubuntu-only">
-			<title>The packages that only exist in Xubuntu</title>
+		<section id="docs-packages-essential">
+			<title>Packages that only exist in Xubuntu</title>
 
 			<para>These packages only exist in Xubuntu, so their translation is solely dealt with by Xubuntu translators. These are of high importance for the Xubuntu team.</para>
 
@@ -30,27 +30,18 @@
 			</itemizedlist>
 		</section>
 
-		<section id="docs-packages-xubuntu-used">
-			<title>Used by and essential for Xubuntu</title>
+		<section id="docs-packages-xubuntu-important">
+			<title>Used by Xubuntu</title>
 
-			<para>These packages are used by Xubuntu and provide essential features to the Xubuntu experience. When these are translated, the base system is immediately more usable for more people.</para>
+			<para>These packages are used by Xubuntu and provide features to the Xubuntu experience. When these are translated, the base system is immediately more usable for more people.</para>
 
 			<itemizedlist>
 				<listitem><para><ulink url="https://translations.launchpad.net/catfish-search">Catfish</ulink></para></listitem>
 				<listitem><para><ulink url="https://translations.launchpad.net/lightdm-gtk-greeter">LightDM GTK+ Greeter</ulink></para></listitem>
-				<listitem><para><ulink url="https://www.transifex.com/projects/p/xfce4-whiskermenu-plugin/">Whiskermenu</ulink></para></listitem>
-			</itemizedlist>
-		</section>
-
-		<section id="docs-packages-xubuntu-mainly">
-			<title>Mainly built for and used by Xubuntu</title>
-
-			<para>These packages exist outside Xubuntu, but they are mainly built to fit a need in Xubuntu. Unless/until they are spread much wider than now (and have gathered the interest of other translation groups), the Xubuntu translators should take care of translating these packages.</para>
-
-			<itemizedlist>
 				<listitem><para><ulink url="https://translations.launchpad.net/lightdm-gtk-greeter-settings/">LightDM GTK+ Greeter Settings</ulink></para></listitem>
 				<listitem><para><ulink url="https://translations.launchpad.net/menulibre">MenuLibre</ulink></para></listitem>
 				<listitem><para><ulink url="https://translations.launchpad.net/mugshot">Mugshot</ulink></para></listitem>
+				<listitem><para><ulink url="https://www.transifex.com/projects/p/xfce4-whiskermenu-plugin/">Whiskermenu</ulink></para></listitem>
 			</itemizedlist>
 		</section>
 	</section>

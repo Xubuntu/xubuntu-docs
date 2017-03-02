@@ -16,11 +16,11 @@
 	<section id="docs-tasks-user">
 		<title>User documentation</title>
 
-		<para>The documentation team works with the developers to make sure that any new features that are part of the core functionality of the operating system or otherwise important are covered in the documentation. When completely new sections are written, the documentation team makes sure the Xubuntu team has a chance to review and propose changes and fixes to the new sections. When any documented features are removed or changed, the team makes sure the new documentation does not have any mentions left to them.</para>
+		<para>The documentation team works with the developers to ensure any new features that are part of the core functionality of the operating system are covered in the documentation. In addition, the documentation team makes sure features highlighted in the installer slideshow or any other marketing material are appropriately documented. When completely new sections are written, the documentation team makes sure the Xubuntu team has a chance to review and propose changes and fixes to the new sections. When any documented features are removed or changed, the team makes sure the documentation does not refer to any removed functionality.</para>
 
-		<note><para>The team should also keep an eye on the LTS release and potential SRUs, as those might affect documentation.</para></note>
+		<note><para>The team should be aware of changes to new releases, particularly on LTS releases and potential SRUs, as those might affect documentation.</para></note>
 
-		<para>The documentation team is responsible for making sure the documentation is updated before the Documentation String Freeze for uploading. Once the upload is done, the team coordinates translation efforts and makes sure the documentation gets another upload before the Translation Freeze. The team should also request the <ulink url="http://docs.xubuntu.org/">online documentation</ulink> to be updated shortly before the release.</para>
+		<para>The documentation team is responsible for making sure the documentation is updated before the Documentation String Freeze prior to uploading. Once the upload is done, the team coordinates translation efforts and makes sure the documentation gets another upload before the Translation Freeze. The team should also request the <ulink url="http://docs.xubuntu.org/">online documentation</ulink> to be updated shortly before the release.</para>
 
 		<para>The documentation team should also look to improve and expand the existing documentation, especially during the development cycles when most uploads are done for maintenance purposes. The team should involve the community in these efforts the best way they see fit.</para>
 	</section>
