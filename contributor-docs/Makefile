@@ -10,7 +10,7 @@ ifneq ($(TRANSOPTSCONTR),)
 endif
 
 # Xubuntu Docbook Customization Layers
-XUBUNTUXSL_HTML = ../libs-common/xubuntu-docbook-xhtml.xsl
+XUBUNTUXSL_HTML_CONTRIBUTOR = ../libs-common/xubuntu-docbook-xhtml-contributor.xsl
 XUBUNTUXSL_PDF = ../libs-common/xubuntu-docbook-pdf.xsl
 
 # All available translations
@@ -23,7 +23,7 @@ endif
 all: clean html html-translations pdf pdf-translations
 
 html: html-style
-	xsltproc --xinclude -o ../build/contributor/C/index.html $(XUBUNTUXSL_HTML) C/index.xml
+	xsltproc --xinclude -o ../build/contributor/C/index.html $(XUBUNTUXSL_HTML_CONTRIBUTOR) C/index.xml
 
 pdf:
 	xsltproc --stringparam paper.type A4 --xinclude -o fo/C-A4.fo $(XUBUNTUXSL_PDF) C/index.xml
@@ -60,7 +60,7 @@ translate: | get-translations
 
 html-translations: html-style translate
 	for dir in $(TRANSLATIONS); do \
-		xsltproc --xinclude -o ../build/contributor/$$dir/index.html $(XUBUNTUXSL_HTML) $$dir/index.xml; \
+		xsltproc --xinclude -o ../build/contributor/$$dir/index.html $(XUBUNTUXSL_HTML_CONTRIBUTOR) $$dir/index.xml; \
 	done
 
 pdf-translations: translate

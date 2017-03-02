@@ -13,96 +13,13 @@
 <chapter id="documentation">
 	<title>Documentation</title>
 
-	<section id="docs-building">
-		<title>Building the documentation locally</title>
+	<simplesect>
+		<title>Introduction</title>
 
-		<itemizedlist>
-			<listitem><para>Get the Bzr branch <literal>&branch;lp:xubuntu-docs</literal>.</para></listitem>
-			<listitem><para>Get the build dependencies for <literal>&package;xubuntu-docs</literal>.</para></listitem>
-		</itemizedlist>
-	</section>
+		<para>The Xubuntu documentation oversees the user documentation and contributor documentation as translations for the documentation and other packages important to Xubuntu. In addition the team works together with other teams in producing content and more.</para>
+	</simplesect>
 
-	<section id="docs-editing">
-		<title>Editing the User Documentation</title>
-
-		<para>Changes to the user documentation should be made to the .xml files under <literal>user-docs/C/</literal>. Once edited and saved, push changes to your local branch as detailed in <xref linkend="common-reference" />.</para>
-
-		<para>Similarly, changes to the contributor documentation should be made to the .xml files under <literal>contributor-docs/C/</literal>.</para>
-	</section>
-
-	<section id="docs-packages">
-		<title>Packages to be translated</title>
-
-		<para>These are packages that the Xubuntu team considers important, and should take precedence when translating.</para>
-
-		<section id="docs-packages-xubuntu-only">
-			<title>The packages that only exist in Xubuntu</title>
-
-			<para>These packages only exist in Xubuntu, so their translation is solely dealt with by Xubuntu translators. These are of high importance for the Xubuntu team.</para>
-
-			<itemizedlist>
-				<listitem><para><ulink url="https://translations.launchpad.net/xubuntu-docs">Xubuntu Documentation</ulink></para></listitem>
-				<listitem><para><ulink url="https://translations.launchpad.net/xubuntu-default-settings">Xubuntu Default Settings</ulink></para></listitem>
-				<listitem><para><ulink url="https://translations.launchpad.net/ubuntu/&devel-codename;/+source/ubiquity-slideshow-ubuntu/+pots/ubiquity-slideshow-xubuntu">Ubiquity Slideshow for Xubuntu</ulink></para></listitem>
-			</itemizedlist>
-		</section>
-
-		<section id="docs-packages-xubuntu-used">
-			<title>Used by and essential for Xubuntu</title>
-
-			<para>These packages are used by Xubuntu and provide essential features to the Xubuntu experience. When these are translated, the base system is immediately more usable for more people.</para>
-
-			<itemizedlist>
-				<listitem><para><ulink url="https://translations.launchpad.net/catfish-search">Catfish</ulink></para></listitem>
-				<listitem><para><ulink url="https://translations.launchpad.net/lightdm-gtk-greeter">LightDM GTK+ Greeter</ulink></para></listitem>
-				<listitem><para><ulink url="https://www.transifex.com/projects/p/xfce4-whiskermenu-plugin/">Whiskermenu</ulink></para></listitem>
-			</itemizedlist>
-		</section>
-
-		<section id="docs-packages-xubuntu-mainly">
-			<title>Mainly built for and used by Xubuntu</title>
-
-			<para>These packages exist outside Xubuntu, but they are mainly built to fit a need in Xubuntu. Unless/until they are spread much wider than now (and have gathered the interest of other translation groups), the Xubuntu translators should take care of translating these packages.</para>
-
-			<itemizedlist>
-				<listitem><para><ulink url="https://translations.launchpad.net/lightdm-gtk-greeter-settings/">LightDM GTK+ Greeter Settings</ulink></para></listitem>
-				<listitem><para><ulink url="https://translations.launchpad.net/menulibre">MenuLibre</ulink></para></listitem>
-				<listitem><para><ulink url="https://translations.launchpad.net/mugshot">Mugshot</ulink></para></listitem>
-			</itemizedlist>
-		</section>
-	</section>
-
-	<section id="docs-translation-guidelines">
-		<title>Translation guidelines for Xubuntu packages</title>
-
-		<para>These guidelines apply mostly to the Xubuntu documentation. They can generally be applied to any translation with minor modification. If unsure, ask the Documentation team members for assistance.</para>
-
-		<para>The <ulink url="https://wiki.ubuntu.com/Translations/Contact/Teams">language-specific translation teams</ulink> usually want to encourage some conventions; please contact the appropriate language-specific team before translating.</para>
-
-		<para>More general translation guidelines can be found at the <ulink url="https://help.launchpad.net/Translations/Guide">Launchpad translations guide</ulink>.</para>
-
-		<section id="docs-translation-guidelines-validity">
-			<title>Maintain translation validity</title>
-
-			<para><emphasis>Tags should not be translated.</emphasis> Where you see a tag in the source string (for example: "&lt;xref linkend="&amp;xubuntu-web;" /&gt;"), the tag and anything inside the tag itself should not be translated. It is very important to copy and paste these tags exactly as they appear in the source string. Note: The exception to this is where a tag contains a URL that has an equivalent, translated version. In those cases the translator should use discretion about whether to localise the URL.</para>
-
-			<para><emphasis>Entities should not be translated.</emphasis> Where you see a phrase expressed like "&amp;gt;" or "&amp;xubuntu-web;", do not change this.</para>
-
-			<para><emphasis>Always maintain the order of tags.</emphasis> When you see different tags nested inside each other (for example: "&lt;menuchoice&gt;&lt;guimenu&gt;System&lt;/guimenu&gt;&lt;guimenuitem&gt;Administration&lt;/guimenuitem&gt;&lt;guimenuitem&gt;Users and Groups&lt;/guimenuitem&gt;&lt;/menuchoice&gt;"), you must always preserve that order carefully - copying and pasting from the source language (English) is the best way to ensure that you do this correctly.</para>
-
-			<note><para>Different programming languages and software might have different variable syntaxes; make sure you are familiar with the appropriate software variable syntax when translating. More information on this can often be found in the translation string comment.</para></note>
-		</section>
-
-		<section id="docs-translation-guidelines-conventions">
-			<title>Follow good and existing conventions</title>
-
-			<para><emphasis>Use application and label names found in the (graphical) UI.</emphasis> When translating UI labels and application names, use the term or name that is used on the graphical UI. This makes it easier for the user to follow the instructions. Running the system in both the translation target language and English can help with this.</para>
-
-			<para><emphasis>Do not change the amount of spacing.</emphasis> When translating, do not change the amount of spacing inside our outside tags. Keeping the spacing as it is makes the technical reviewing of the translation easier.</para>
-
-			<para><emphasis>Do not change the type of quotes used inside the tags.</emphasis> The double quotes ( " ) doesn't have the same significance in a DocBook, XHTML or XML tag as the guillemets ( « » ). Using different kind of quotes can potentially develop into validity problems as well.</para>
-
-			<para><emphasis>Never change a tag to another.</emphasis> If you think a tag in the source is invalid or not semantic, file a bug against the package itself instead of changing it in the translation.</para>
-		</section>
-	</section>
+	<xi:include href="documentation-tasks.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="documentation-working.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="documentation-translations.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </chapter>

@@ -10,8 +10,7 @@
 <!ENTITY language "&EnglishAmerican;">
 <!ENTITY language "C">
 ]>
-
-<chapter id="qa-bugs">
+<sect1 id="qa-bugs">
 	<title>Dealing with bugs</title>
 
 	<section id="qa-bugs-tags">
@@ -67,4 +66,4 @@
 
 		<para>The Ubuntu wiki has an extensive page on <ulink url="https://wiki.ubuntu.com/Bugs/Upstream">forwarding bugs upstream</ulink> along with instructions on how to report bugs in the upstream bug trackers. Detailed information on the way to add an upstream bug to Launchpad can be found on the <ulink url="https://wiki.ubuntu.com/Bugs/Watches">Bugs/Watches</ulink> page on the Ubuntu wiki.</para>
 	</section>
-</chapter>
+</sect1>

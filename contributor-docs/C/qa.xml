@@ -10,14 +10,13 @@
 <!ENTITY language "&EnglishAmerican;">
 <!ENTITY language "C">
 ]>
-
-<chapter id="qa-team">
-	<title>QA Team Responsibilies</title>
+<chapter id="qa">
+	<title>Quality Assurance (QA)</title>
 
 	<note><para>There are various QA trackers, wiki and Launchpad pages, the links to which can be found on <xref linkend="qa-team-links" />.</para></note>
 
-	<section id="qa-team-basics">
-		<title>QA Team</title>
+	<simplesect>
+		<title>Introduction</title>
 
 		<para>The Xubuntu QA team was formed to ensure that the quality of a released Xubuntu conforms to the parameters laid out in the Xubuntu Processes documents. In order to successfully accomplish this, close team working relationships, especially with the development team and the Xubuntu Council are paramount. Xubuntu's success is based on close working amongst all of its various teams.</para>
 
@@ -26,10 +25,10 @@
 		<para>Excluding testing itself, control of the testcases that we use for ISO and Package testing, along with communicating the testing requirements for any particular development cycle (hereafter cycle) to the community, makes up the bulk of the teams work in any given cycle.</para>
 
 		<para>Members of the QA team should check the current Xubuntu QA blueprint, and assign themselves to tasks they feel able to undertake.</para>
-	</section>
+	</simplesect>
 
 	<section id="qa-team-testing">
-		<title>Testing Responsibilities</title>
+		<title>Testing</title>
 
 		<para>At the start of a cycle, the Release Team will discuss which ISO Milestones we will participate in. Then, during a Community Meeting, members of Xubuntu Team will discuss and then ratify Xubuntu's participation during the cycle.</para>
 
@@ -44,10 +43,14 @@
 		</itemizedlist>
 
 		<para>Members of the QA team might find it useful subscribing to the <ulink url="https://launchpad.net/~xubuntu-bugs">Xubuntu Bugs</ulink> team in order to be aware of bugs being reported by users.</para>
+
+		<xi:include href="qa-infra.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+		<xi:include href="qa-testing.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+		<xi:include href="qa-bugs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	</section>
 
 	<section id="qa-team-trackers">
-		<title>Working with the QA Trackers</title>
+		<title>Working with trackers</title>
 
 		<para>The initial decisions on what and when to test, will be taken following discussion with the members of the <ulink url="https://launchpad.net/~xubuntu-release">Xubuntu Release</ulink> team.</para>
 
@@ -65,11 +68,10 @@
 		<para>When a package during test constantly fails, or bug reports indicate a failure in a package for something not tested, the testcase for that package can be disabled temporarily. The QA Lead is responsible for ensuring tests are both disabled and re-enabled when appropriate.</para>
 
 		<para>Xubuntu ISOs are built and added to the tracker at approximately 02:00 UTC. This time can be changed by amending our build times on the <ulink url="http://bazaar.launchpad.net/~ubuntu-cdimage/ubuntu-cdimage/mainline/files/head:/etc/">ubuntu-cdimage crontab</ulink> and proposing the change.</para>
-
 	</section>
 
-	<section id="qa-team-testedits">
-		<title>Working with Testcases</title>
+	<section id="qa-team-testcases">
+		<title>Working with testcases</title>
 
 		<para>Information on the basic method of working with testcases can be found at the Ubuntu QA Team <ulink url="https://wiki.ubuntu.com/QATeam/ContributingTestcases/Manual">Manual Testcases</ulink> page.</para>
 
@@ -91,7 +93,7 @@
 		<para>Respond to any requests for changes when asked by the Testcase Admins in order to get the required change through in a timely manner.</para>
 	</section>
 
-	<section id="qa-team-users">
+	<section id="qa-team-communication">
 		<title>Communicating with Testers and Users</title>
 
 		<para>While we have two sets of people in the community that we contact about required testing, Testers will get regular contact from us, but we should only, in general, call on Users at later stages.</para>
@@ -123,7 +125,7 @@
 		</itemizedlist>
 	</section>
 
-	<section id="qa-post-release">
+	<section id="qa-team-post-release">
 		<title>Post Release Tasks</title>
 
 		<para>Following release, there are a few tasks that need to be done before the next release cycle begins.</para>

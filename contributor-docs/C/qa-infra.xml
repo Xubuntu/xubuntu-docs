@@ -10,10 +10,9 @@
 <!ENTITY language "&EnglishAmerican;">
 <!ENTITY language "C">
 ]>
-
-<chapter id="qa-tester">
+<sect1 id="qa-infra">
 	<title>Testing Infrastructure</title>
-	<section id="qa-infra">
+	<section id="qa-infra-getting-ready">
 		<title>Getting ready to test</title>
 
 		<para>To successfully test for Xubuntu, you will need at a minimum 4 things: a Launchpad account, mailing list subscription, an image and something to test it on. This page will give you the basic information in order to do those things and more.</para>
@@ -71,6 +70,4 @@
 
 		<para>The next two sections of these documents go into more detail on how you can test for us and how to report bugs for us.</para>
 	</section>
-
-
-</chapter>
+</sect1>

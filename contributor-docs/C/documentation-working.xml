@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
+%xubuntu-common;
+<!ENTITY % xubuntu-contributor SYSTEM "../libs/xubuntu-contributor.ent">
+%xubuntu-contributor;
+<!ENTITY % xinclude SYSTEM "../../libs-common/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+<section id="docs-working">
+	<title>Working with the documentation</title>
+
+	<section id="docs-working-editing">
+		<title>Editing the documentation</title>
+
+		<para>First make sure you have the Bzr branch <literal>&branch;lp:xubuntu-docs</literal> and the build dependencies for <literal>&package;xubuntu-docs</literal>.</para>
+
+		<para>Changes to the user documentation should be made to the .xml files under <literal>user-docs/C/</literal>. Once edited and saved, push changes to your local branch as detailed in <xref linkend="bzr" />.</para>
+
+		<para>Similarly, changes to the contributor documentation should be made to the .xml files under <literal>contributor-docs/C/</literal>.</para>
+	</section>
+
+	<section id="docs-working-notes-contributor">
+		<title>Notes on the contributor documentation</title>
+
+		<para>For various reasons, the contributor documentation is more complex in structure than the user documentation. Particularly, pay attention to the following when working with the subteam documentation:</para>
+
+		<itemizedlist>
+			<listitem><para>If you want to create an introductory paragraph that is shown on the subteam main page, use the <literal>&lt;simplesect&gt;</literal> element. Otherwise this will be chunked into a separate HTML file. Note that this also removes the section from the Table of Contents.</para></listitem>
+			<listitem><para>If you want a subsection of a section to be visible in the Table of Contents, use the <literal>&lt;sect1&gt;</literal> element. For an actual example, see the <literal>qa-*</literal> files.</para></listitem>
+			<listitem><para>The sections are chunked up to the first level; this means all direct ascendants of <literal>&lt;chapter&gt;</literal> elements will be chunked into separate HTML files. If you want to avoid this (for example if your chapter is very short), insert the <literal>&lt;?dbhtml stop-chunking?&gt;</literal> after the <literal>&lt;title&gt;</literal> element of your chapter. Note that doing this will not stop the Table of Contents from being printed with each section; you might can use the <literal>&lt;simplesect&gt;</literal> element again to hide sections from the Table of Contents.</para></listitem>
+		</itemizedlist>
+	</section>
+</section>

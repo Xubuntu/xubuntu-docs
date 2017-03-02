@@ -12,6 +12,7 @@
 	<xsl:param name="use.id.as.filename" select="1"/>
 	<xsl:param name="toc.section.depth" select="1"/>
 	<xsl:param name="chunker.output.indent" select="'yes'"/>
+	<xsl:param name="chunk.section.depth" select="0" />
 	<xsl:param name="body.font.master" select="10"/>
 	<xsl:param name="html.stylesheet" select="'../../libs-common/css/style.css'"/>
 	<xsl:param name="shade.verbatim" select="0"/>
@@ -30,13 +31,11 @@
 
 	<!-- Print header with logo -->
 	<xsl:template name="header.navigation">
-		<xsl:variable name="home" select="/*[1]"/>
-		<xsl:variable name="up" select="parent::*"/>
-			<div id="masthead">
-				<a href="index.html">
-					<img src="../../libs-common/images/logo.png" alt="Xubuntu" />
-				</a>
-			</div>
+		<div id="masthead">
+			<a href="index.html">
+				<img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+			</a>
+		</div>
 	</xsl:template>
 
 	<!-- Navigation Graphics -->
@@ -51,9 +50,6 @@
 	<xsl:param name="admon.graphics.path" select="'../../libs-common/images/'"/>
 	<xsl:param name="admon.graphics.extension" select="'.png'"/>
 	
-	<!-- Show all subpages directly below the mainpage -->
-	<xsl:param name="chunk.section.depth" select="0" />
-
 	<!-- Formatting -->
 	<xsl:template match="application">
 		<xsl:call-template name="inline.boldseq"/>

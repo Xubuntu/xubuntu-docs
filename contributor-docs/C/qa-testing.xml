@@ -10,10 +10,9 @@
 <!ENTITY language "&EnglishAmerican;">
 <!ENTITY language "C">
 ]>
-
-<chapter id="qa-testing">
+<sect1 id="qa-testing">
 	<title>Package and ISO Testing</title>
-	<section id="qa-iso">
+	<section id="qa-testing-iso">
 		<title>ISOs</title>
 
 		<para>In general, links for specific ISOs for daily or milestone use can be found at the <ulink url="http://iso.qa.ubuntu.com/">ISO Tracker</ulink>. A link exists for the <ulink url="http://cdimage.ubuntu.com/xubuntu/daily-live/current/">current</ulink> development daily ISO. This can be useful, especially when setting up methods to download your testing ISO, such as with <ulink url="https://help.ubuntu.com/community/ZsyncCdImage">zsync</ulink></para>
@@ -111,4 +110,4 @@
 
 		<para>A schedule of planned tests will be mailed to the Xubuntu Devel mailing list close to the cycle start. Reminders of upcoming package test requirements are mailed to the Xubuntu devel mailing list as required. <emphasis>Specific developer testing requirement</emphasis> are mailed as they are available, often these packages will be those found on one of our PPAs.</para>
 	</section>
-</chapter>
+</sect1>
