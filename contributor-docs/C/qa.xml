@@ -15,17 +15,13 @@
 
 	<note><para>There are various QA trackers, wiki and Launchpad pages, the links to which can be found on <xref linkend="qa-team-links" />.</para></note>
 
-	<simplesect>
-		<title>Introduction</title>
+	<para>The Xubuntu QA team was formed to ensure that the quality of a released Xubuntu conforms to the parameters laid out in the Xubuntu Processes documents. In order to successfully accomplish this, close team working relationships, especially with the development team and the Xubuntu Council are paramount. Xubuntu's success is based on close working amongst all of its various teams.</para>
 
-		<para>The Xubuntu QA team was formed to ensure that the quality of a released Xubuntu conforms to the parameters laid out in the Xubuntu Processes documents. In order to successfully accomplish this, close team working relationships, especially with the development team and the Xubuntu Council are paramount. Xubuntu's success is based on close working amongst all of its various teams.</para>
+	<para>In addition, the team gives people contributing through testing of Xubuntu the opportunity to become part of the <ulink url="https://launchpad.net/~xubuntu-team">Xubuntu Team</ulink>. For that to be of practical use, the QA team should keep an eye on testing reports on the trackers and propose users they have seen taking a keen interest in the work of the QA team.</para>
 
-		<para>In addition, the team gives people contributing through testing of Xubuntu the opportunity to become part of the <ulink url="https://launchpad.net/~xubuntu-team">Xubuntu Team</ulink>. For that to be of practical use, the QA team should keep an eye on testing reports on the trackers and propose users they have seen taking a keen interest in the work of the QA team.</para>
+	<para>Excluding testing itself, control of the testcases that we use for ISO and Package testing, along with communicating the testing requirements for any particular development cycle (hereafter cycle) to the community, makes up the bulk of the teams work in any given cycle.</para>
 
-		<para>Excluding testing itself, control of the testcases that we use for ISO and Package testing, along with communicating the testing requirements for any particular development cycle (hereafter cycle) to the community, makes up the bulk of the teams work in any given cycle.</para>
-
-		<para>Members of the QA team should check the current Xubuntu QA blueprint, and assign themselves to tasks they feel able to undertake.</para>
-	</simplesect>
+	<para>Members of the QA team should check the current Xubuntu QA blueprint, and assign themselves to tasks they feel able to undertake.</para>
 
 	<section id="qa-team-testing">
 		<title>Testing</title>

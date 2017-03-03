@@ -8,7 +8,7 @@
 
 	<!-- Params -->
 	<xsl:param name="toc.max.depth" select="3"/>
-	<xsl:param name="chunk.section.depth" select="1" />
+	<xsl:param name="chunk.section.depth" select="2" />
 	<xsl:param name="chunk.first.sections" select="1" />
 	<xsl:param name="generate.section.toc.level" select="3"/>
 
@@ -25,11 +25,11 @@
 
 	<xsl:template match="chapter" mode="toc">
 		<xsl:call-template name="subtoc">
-			<xsl:with-param name="nodes" select="section|section/sect1"/>
+			<xsl:with-param name="nodes" select="section|section/sect1|section/section[@role = 'toc']"/>
 		</xsl:call-template>
 	</xsl:template>
 
-	<xsl:template match="sect1" mode="toc">
+	<xsl:template match="section[@role = 'toc']" mode="toc">
 		<dd><xsl:call-template name="toc.line"/></dd>
 	</xsl:template>
 </xsl:stylesheet>

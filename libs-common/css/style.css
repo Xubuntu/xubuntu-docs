@@ -149,8 +149,8 @@ p.legalnotice-title {
 	color: #333;
 }
 	body > div.chapter > div:first-child h2,
-	body > div.sect1 > div:first-child h2,
 	body > div.section > div:first-child h2,
+	body > div.section > div:first-child h3,
 	body > div.appendix > div:first-child h2,
 	body > div.legalnotice p.legalnotice-title {
 		margin-top: 0;

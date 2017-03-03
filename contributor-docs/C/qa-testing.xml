@@ -10,7 +10,7 @@
 <!ENTITY language "&EnglishAmerican;">
 <!ENTITY language "C">
 ]>
-<sect1 id="qa-testing">
+<section id="qa-testing" role="toc">
 	<title>Package and ISO Testing</title>
 	<section id="qa-testing-iso">
 		<title>ISOs</title>
@@ -110,4 +110,4 @@
 
 		<para>A schedule of planned tests will be mailed to the Xubuntu Devel mailing list close to the cycle start. Reminders of upcoming package test requirements are mailed to the Xubuntu devel mailing list as required. <emphasis>Specific developer testing requirement</emphasis> are mailed as they are available, often these packages will be those found on one of our PPAs.</para>
 	</section>
-</sect1>
+</section>

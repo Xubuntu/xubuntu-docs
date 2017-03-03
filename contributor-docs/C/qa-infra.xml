@@ -10,7 +10,7 @@
 <!ENTITY language "&EnglishAmerican;">
 <!ENTITY language "C">
 ]>
-<sect1 id="qa-infra">
+<section id="qa-infra" role="toc">
 	<title>Testing Infrastructure</title>
 	<section id="qa-infra-getting-ready">
 		<title>Getting ready to test</title>
@@ -70,4 +70,4 @@
 
 		<para>The next two sections of these documents go into more detail on how you can test for us and how to report bugs for us.</para>
 	</section>
-</sect1>
+</section>
