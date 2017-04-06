@@ -1,6 +1,36 @@
 xubuntu-docs (17.04) UNRELEASED; urgency=medium
 
+  [ flocculant ]
+  * Changes to contributor docs following review
+  * Changes as per review
+
+  [ Krytarik Raido ]
+  * Syntax, formatting, typo, and wording fixes.
+
+  [ Pasi Lallinaho ]
+  * d/copyright:  Update copyright year for both user and contributor documentation
+  * Improvements for contributor docs:
+    - Update the tracker description (and more importantly, link)
+      in the important places section.
+    - Update the entity file with the new status tracker link.
+    - Move all QA related material under one section in the Subteam documentation
+    - Do some id cleanup/consistency fixes as well as improve some titles
+    - Add a mechanism to show subsections under subteam documentation sections
+      in the ToC (sect1)
+    - Chunk each section/sect1 to a separate file (use simplesect to bundle),
+      unless the <?dbhtml stop-chunking?> tag is used
+    - Add documentation for the documentation team
+    - Control which elements get a ToC printed with them
+  * General fixes:
+    - Fix icon placement inside notes etc.
+    - Update development release entity
+    - Clean up the header navigation template
+  * Fix invalidity created by the reorganization:
+    - No longer use <sect1>, instead use <section role="toc">
+    - Don't use <simplesect> when any content would follow it
+    - Update documentation regarding these changes
   * Update the startpage to be release-agnostic
+  * Synchronize translations from Launchpad manually
 
  -- Pasi Lallinaho <pasi@shimmerproject.org>  Thu, 06 Apr 2017 13:53:56 +0300
 
