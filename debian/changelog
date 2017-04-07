@@ -1,14 +1,12 @@
-xubuntu-docs (17.04) UNRELEASED; urgency=medium
+xubuntu-docs (17.04) zesty; urgency=medium
 
   [ flocculant ]
-  * Changes to contributor docs following review
-  * Changes as per review
+  * Changes to contributor docs.
 
   [ Krytarik Raido ]
   * Syntax, formatting, typo, and wording fixes.
 
   [ Pasi Lallinaho ]
-  * d/copyright:  Update copyright year for both user and contributor documentation
   * Improvements for contributor docs:
     - Update the tracker description (and more importantly, link)
       in the important places section.
@@ -22,6 +20,7 @@ xubuntu-docs (17.04) UNRELEASED; urgency=medium
     - Add documentation for the documentation team
     - Control which elements get a ToC printed with them
   * General fixes:
+    - Update copyright year for both user and contributor documentation
     - Fix icon placement inside notes etc.
     - Update development release entity
     - Clean up the header navigation template
@@ -32,7 +31,16 @@ xubuntu-docs (17.04) UNRELEASED; urgency=medium
   * Update the startpage to be release-agnostic
   * Synchronize translations from Launchpad manually
 
- -- Pasi Lallinaho <pasi@shimmerproject.org>  Thu, 06 Apr 2017 13:53:56 +0300
+  [ Unit 193 ]
+  * d/copyright:
+    - Update years.
+    - Switch to https on the format url.
+  * d/control:
+    - Update maintainer to Xubuntu Documentation Team <xubuntu-devel@lists.ubuntu.com>
+    - Drop versioned depend on coreutils.
+  * Update standards-version to 3.9.8.
+
+ -- Unit 193 <unit193@ubuntu.com>  Thu, 06 Apr 2017 19:54:40 -0400
 
 xubuntu-docs (16.10) yakkety; urgency=medium
 
