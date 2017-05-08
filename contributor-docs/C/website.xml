@@ -12,7 +12,6 @@
 ]>
 <chapter id="website">
 	<title>Website</title>
-	<?dbhtml stop-chunking?>
 
 	<section id="website-introduction">
 		<title>Introduction to the Xubuntu web presence</title>
@@ -32,5 +31,43 @@
 
 			<para><emphasis>The Xubuntu wiki is used for some developer communication and serves as an archive for older release roadmaps and specification.</emphasis></para>
 		</simplesect>
+	</section>
+
+	<section id="website-maintenance">
+		<title>Xubuntu website maintenance documentation</title>
+
+		<simplesect id="website-maintenance-releases">
+			<title>Releases</title>
+
+			<para>The Xubuntu website tracks releases with a custom WordPress taxonomy. The release terms can be attached to virtually any content type used on the website. The release term information and attached content are used to automatize some content creation on the website, including but not necessarily limited to: the <ulink url="https://xubuntu.org/releases">release pages</ulink>, the <ulink url="https://xubuntu.org/getxubuntu/">Download page</ulink>, the <ulink url="https://xubuntu.org/help/">Help &amp; Support</ulink> page and the <ulink url="https://xubuntu.org/press/">In the Press</ulink> page.</para>
+
+			<para>To edit the generic information for each release (codename, release date, EOL date, links for Torrent downloads and online documentation and release switch), go to <ulink url="https://xubuntu.org/wp-admin/edit-tags.php?taxonomy=release">Posts – Releases</ulink>.</para>
+
+			<para>To attach any content to a release, select the desired release(s) on the content edit page.</para>
+
+			<para>The following shortcodes are used to output aggregated release information (replace <literal>xx-xx</literal> with the desired release slug):</para>
+
+			<itemizedlist>
+				<listitem><para><userinput>[torrents release=xx-xx]</userinput> to output Torrent download links</para></listitem>
+				<listitem><para><userinput>[mirrors release=xx-xx]</userinput> to output the mirror download link list with extended information available</para></listitem>
+				<listitem><para><userinput>[press release=xx-xx]</userinput> to output all press links attached to the release and <userinput>[press]</userinput> to output the press archive</para></listitem>
+				<listitem><para><userinput>[documentation_links]</userinput> to output a list with links to the online documentation for all released and supported releases</para></listitem>
+			</itemizedlist>
+
+			<para>The releases landing page uses the page template of the same name; the template lists all released and supported releases with their short descriptions. The release pages are created automatically.</para>
+		</simplesect>
+
+		<simplesect id="website-maintenance-releaselinks">
+			<title>Release links</title>
+
+			<para>To add press links (and other official release-specific links apart from Torrent download links and links to online documentation), go to <ulink url="https://xubuntu.org/wp-admin/post-new.php?post_type=release_link">Release Links</ulink>. Once added to the database, links will appear in the appropriate places automatically.</para>
+		</simplesect>
+
+		<simplesect id="website-maintenance-mirrors">
+			<title>Download mirrors</title>
+
+			<para>The download link lists are created automatically from URL templates saved in the database. To manage release mirrors on the download lists, go to <ulink url="https://xubuntu.org/wp-admin/edit.php?post_type=download_mirror">DL Mirrors</ulink>. On the edit pages you are able to make download mirrors active or inactive (respectively visible and hidden on the frontend). You can also change which download links are shown on the default listing; set the mirror as a <emphasis>main download mirror</emphasis> if you want it to be visible directly.</para>
+		</simplesect>
+
 	</section>
 </chapter>
