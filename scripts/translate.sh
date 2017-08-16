@@ -49,7 +49,6 @@ get_all_languages () {
 }
 
 shipped_languages () {
-	percreq="70"
 	echo "Updating LINGUAS ..."
 	langs=$(get_all_languages)
 	for lang in $langs; do
@@ -60,12 +59,16 @@ shipped_languages () {
 	done | tee po/LINGUAS
 }
 
-while getopts ":gl:u" opt; do
+percreq="70"
+
+while getopts ":gl:t:u" opt; do
 	case $opt in
 		g)
 			generated="yes";;
 		l)
 			languages="$OPTARG";;
+		t)
+			percreq="$OPTARG";;
 		u)
 			shipped_languages
 			exit;;

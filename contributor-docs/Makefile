@@ -9,6 +9,11 @@ ifneq ($(TRANSOPTSCONTR),)
     TRANSOPTS = $(TRANSOPTSCONTR)
 endif
 
+# Specify threshold for translation
+ifneq ($(TRANSPERC),)
+    TRANSOPTSPERC = -t $(TRANSPERC)
+endif
+
 # Xubuntu Docbook Customization Layers
 XUBUNTUXSL_HTML_CONTRIBUTOR = ../libs-common/xubuntu-docbook-xhtml-contributor.xsl
 XUBUNTUXSL_PDF = ../libs-common/xubuntu-docbook-pdf.xsl
@@ -78,7 +83,7 @@ test: translate
 update-translations:
     ifeq ($(TRANSLATIONS),)
         ifneq ($(wildcard po/LINGUAS),)
-		../scripts/translate.sh -u
+		../scripts/translate.sh $(TRANSOPTSPERC) -u
 		@touch update-translations
         endif
     endif

@@ -7,6 +7,11 @@ ifneq ($(REVNO),)
     VERSION += (Rev. $(REVNO))
 endif
 
+# Specify threshold for translation
+ifneq ($(TRANSPERC),)
+    export TRANSOPTSPERC = -t $(TRANSPERC)
+endif
+
 # All available translations
 TRANSALLUSER = $(shell basename -s .po -a user-docs/po/*.po)
 TRANSALLCONTR = $(shell basename -s .po -a contributor-docs/po/*.po)
@@ -53,7 +58,7 @@ user-docs/update-translations:
     ifeq ($(TRANSLATIONS),)
         ifneq ($(wildcard user-docs/po/LINGUAS),)
 		cd user-docs; \
-		../scripts/translate.sh -u
+		../scripts/translate.sh $(TRANSOPTSPERC) -u
 		@touch user-docs/update-translations
         endif
     endif
@@ -78,7 +83,7 @@ contributor-docs/update-translations:
     ifeq ($(TRANSLATIONS),)
         ifneq ($(wildcard contributor-docs/po/LINGUAS),)
 		cd contributor-docs; \
-		../scripts/translate.sh -u
+		../scripts/translate.sh $(TRANSOPTSPERC) -u
 		@touch contributor-docs/update-translations
         endif
     endif
