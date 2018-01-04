@@ -38,7 +38,7 @@
 
 		<note><para>It will be necessary to install <literal>&package;xubuntu-restricted-extras</literal> in order to play proprietary media formats like e.g. MP3.</para></note>
 
-		<para><application>PulseAudio Volume Control</application> is the way to control the different sound sources and their destinations. Read more at the <ulink url="&pulseaudio-web;">PulseAudio website</ulink>.</para>
+		<para><application>PulseAudio Volume Control</application> allows you to control the different sound sources available on your machine e.g. HDMI or other audio ports and where you hear the sound. Once open, the tabs available in pavucontrol are self-explanatory. However, if you have no sound - check specifically the Playback, Output Devices and Configuration tabs. More detailed information on PulseAudio and controlling it can be found at the <ulink url="&pulseaudio-web;">PulseAudio website</ulink>.</para>
 
 		<para><application>Xfburn</application> is the chosen program for creating your CDs and DVDs.</para>
 
