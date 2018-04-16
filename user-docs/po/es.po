@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-04-26 23:53+0100\n"
-"PO-Revision-Date: 2016-11-06 07:17+0000\n"
-"Last-Translator: Adolfo Jayme <fitoschido@gmail.com>\n"
+"POT-Creation-Date: 2018-01-11 16:39-0500\n"
+"PO-Revision-Date: 2018-04-06 09:21+0000\n"
+"Last-Translator: Rodrigo <rodhos92@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-04-06 22:13+0000\n"
-"X-Generator: Launchpad (build 18343)\n"
+"X-Launchpad-Export-Date: 2018-04-16 05:57+0000\n"
+"X-Generator: Launchpad (build 18610)\n"
 
 #: user-docs/C/xi-translators-not-found.xml:1(para)
 msgid ""
@@ -323,24 +323,24 @@ msgid ""
 "create application launchers and customize their behavior by configuring the "
 "many options available in this utility. For more in-depth information on how "
 "to use all of those options, consult the <ulink "
-"url=\"http://smdavis.us/doku/doku.php?id=menulibre-docs\">MenuLibre</ulink> "
-"online documentation."
+"url=\"https://wiki.bluesabre.org/doku.php?id=menulibre-"
+"docs\">MenuLibre</ulink> online documentation."
 msgstr ""
-"Para añadir carpetas y lanzadores que no aparecen como entradas en el Menú "
-"predeterminado, necesitará otra herramienta. Una utilidad de edición de menú "
-"más avanzada llamada <application>MenuLibre</application> se puede encontrar "
-"haciendo click en <application><menuchoice><placeholder-"
-"1/><guimenuitem><placeholder-2/>Administrador de "
-"Configuraciones</guimenuitem><guimenuitem>Editor de "
-"Menú</guimenuitem></menuchoice></application> o haciendo clic con botón "
-"derecho en <placeholder-3/> y eligiendo <guilabel>Editar "
-"Aplicaciones</guilabel>. Usando este editor se puede crear, ocultar y "
-"reordenar las carpetas que aparecen en el panel derecho del Menú. Dentro de "
-"estas carpetas se pueden crear lanzadores de aplicaciones y personalizar su "
-"comportamiento configurando las múltiples opciones disponibles en esta "
-"utilidad. Para obtener información más detallada sobre cómo usar todas estas "
-"opciones, consulte la documentación en línea <ulink "
-"url=\"http://smdavis.us/doku/doku.php?id=menulibre-docs\">MenuLibre</ulink>."
+"Para añadir directorios y lanzadores que no aparecen como entradas en el "
+"menú predeterminado, necesitará otra herramienta. Se puede encontrar una "
+"herramienta de edición de menú más avanzada llamada "
+"<application>MenuLibre</application> presionando "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"Administrador de configuración</guimenuitem><guimenuitem>Editor de "
+"menú</guimenuitem></menuchoice></application> o haciendo clic derecho en "
+"<placeholder-3/> y seleccionando <guilabel>Editar aplicaciones</guilabel>. "
+"Al usar este editor, puede crear, ocultar y reordenar los directorios que "
+"aparecen en el panel derecho del Menú. Dentro de esos directorios, puede "
+"crear lanzadores de aplicaciones y personalizar su comportamiento "
+"configurando las muchas opciones disponibles en esta utilidad. Para obtener "
+"información más detallada sobre cómo usar todas esas opciones, consulte la "
+"documentación en línea de <ulink url "
+"=\"https://wiki.bluesabre.org/doku.php?id=menulibre-docs\">MenuLibre</ulink>."
 
 #: user-docs/C/settings-preferences.xml:33(title)
 msgid "Customizing your personal info"
@@ -416,12 +416,11 @@ msgstr ""
 
 #: user-docs/C/settings-preferences.xml:47(para)
 msgid ""
-"Read more at the <ulink url=\"http://smdavis.us/doku/doku.php?id=mugshot-"
+"Read more at the <ulink url=\"https://wiki.bluesabre.org/doku.php?id=mugshot-"
 "docs\">Mugshot</ulink> official documentation."
 msgstr ""
-"Puede leer más en la documentación oficial <ulink "
-"url=\"http://smdavis.us/doku/doku.php?id=mugshot-docs\">Mugshot</ulink> (en "
-"inglés)."
+"Lea más en la documentación oficial de <ulink "
+"url=\"https://wiki.bluesabre.org/doku.php?id=mugshot-docs\">Mugshot</ulink>."
 
 #: user-docs/C/settings-preferences.xml:51(title)
 msgid "Customizing the appearance"
@@ -1807,6 +1806,14 @@ msgid ""
 "term support versions</guilabel> from the <guilabel>Notify me of a new "
 "Ubuntu version</guilabel> dropdown depending on your choice."
 msgstr ""
+"Vaya a <aplicación><menuchoice><placeholder-"
+"1/><guimenuitem>Software</guimenuitem><guimenuitem>Software y "
+"actualizaciones</guimenuitem></menuchoice></application> y seleccione la "
+"pestaña <guilabel>Actualizaciones</guilabel>. En la pestaña "
+"<guilabel>Actualizaciones</guilabel>, seleccione <guilabel>Para cualquier "
+"versión nueva</guilabel> o <guilabel>Para versiones de soporte a largo "
+"plazo</guilabel> del desplegable <guilabel>Notificarme sobre una nueva "
+"versión de Ubuntu</guilabel> dependiendo de su elección."
 
 #: user-docs/C/migrating-upgrading.xml:83(para)
 msgid ""
@@ -2363,6 +2370,13 @@ msgid ""
 "Updates</guimenuitem></menuchoice></application> and go to the "
 "<guilabel>Other Software</guilabel> tab"
 msgstr ""
+"Abra el <application><menuchoice><placeholder-1/><guimenuitem><placeholder-"
+"2/> Gestor de configuraciones</guimenuitem><guimenuitem>Software y "
+"actualizaciones</guimenuitem></menuchoice></application> o "
+"<application><menuchoice><placeholder-"
+"3/><guimenuitem>Software</guimenuitem><guimenuitem>Software y "
+"actualizaciones</guimenuitem></menuchoice></application> y vaya a la pestaña "
+"<guilabel>Otro software</guilabel>"
 
 #: user-docs/C/managing-applications.xml:75(para)
 msgid "Press <guibutton>Add...</guibutton> to add a new repository."
@@ -3695,22 +3709,10 @@ msgstr ""
 "de sus respectivos propietarios."
 
 #: user-docs/C/index.xml:65(year)
-msgid "2012"
-msgstr "2012"
+msgid "2012–2017"
+msgstr "2012–2017"
 
-#: user-docs/C/index.xml:66(year)
-msgid "2013"
-msgstr "2013"
-
-#: user-docs/C/index.xml:67(year)
-msgid "2014"
-msgstr "2014"
-
-#: user-docs/C/index.xml:68(year)
-msgid "2015"
-msgstr "2015"
-
-#: user-docs/C/index.xml:69(holder)
+#: user-docs/C/index.xml:66(holder)
 msgid ""
 "The Xubuntu documentation team. Xubuntu and Canonical are registered "
 "trademarks of Canonical Ltd."
@@ -3718,15 +3720,15 @@ msgstr ""
 "El equipo de documentación de Xubuntu. Xubuntu y Canonical son marcas "
 "registradas de Canonical Ltd."
 
-#: user-docs/C/index.xml:73(publishername)
+#: user-docs/C/index.xml:70(publishername)
 msgid "The Xubuntu documentation team"
 msgstr "El equipo de documentación de Xubuntu"
 
-#: user-docs/C/index.xml:77(title)
+#: user-docs/C/index.xml:74(title)
 msgid "Welcome!"
 msgstr "¡Bienvenido!"
 
-#: user-docs/C/index.xml:79(para)
+#: user-docs/C/index.xml:76(para)
 msgid ""
 "This documentation provides information on some of the most common topics on "
 "using Xubuntu, including:"
@@ -3734,11 +3736,11 @@ msgstr ""
 "Esta documentación proporciona información sobre los temas más comunes en el "
 "uso de Xubuntu, incluyendo:"
 
-#: user-docs/C/index.xml:84(para)
+#: user-docs/C/index.xml:81(para)
 msgid "In addition, this documentation has three quick guides:"
 msgstr "Además, esta documentación tiene tres guías rápidas:"
 
-#: user-docs/C/index.xml:90(para)
+#: user-docs/C/index.xml:87(para)
 msgid ""
 "The complete set of topics is listed below. If you require help with a topic "
 "or problem that is not addressed by the documentation, go to the <ulink "
@@ -3751,7 +3753,7 @@ msgstr ""
 "&amp; Support</ulink>. Allí podrá encontrar enlaces a recursos de ayuda "
 "adicionales."
 
-#: user-docs/C/index.xml:92(para)
+#: user-docs/C/index.xml:89(para)
 msgid ""
 "If you would like to contribute to Xubuntu, including this documentation, "
 "see the <ulink url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> "
@@ -3870,6 +3872,8 @@ msgid ""
 "If any drivers are available for your hardware they will be installable from "
 "the <application>Software and Updates</application> application:"
 msgstr ""
+"Si hay algún controlador disponible para su hardware, puede instalarlo desde "
+"la aplicación: <application>Software y actualizaciones</application>:"
 
 #: user-docs/C/hardware-devices.xml:43(para) user-docs/C/hardware-devices.xml:55(para)
 msgid ""
@@ -4046,6 +4050,8 @@ msgid ""
 "Altering disk partitions can take some time. Do not assume that GParted has "
 "hung or crashed while it is working."
 msgstr ""
+"Cambiar las particiones del disco puede llevar algo de tiempo. No crea que "
+"GParted se ha colgado o bloqueado mientras trabaja."
 
 #: user-docs/C/hardware-devices.xml:104(para)
 msgid ""
@@ -4689,6 +4695,9 @@ msgid ""
 "the automatic updates are turned off, it is essential to remember to "
 "manually upgrade often."
 msgstr ""
+"Desactivar las actualizaciones automáticas reduce el nivel de seguridad de "
+"su equipo. Cuando se apagan las actualizaciones automáticas, es esencial que "
+"recuerde actualizar manualmente con frecuencia."
 
 #: user-docs/C/guide-keeping-safe.xml:42(para)
 msgid ""
@@ -5506,6 +5515,14 @@ msgid ""
 "2/><guilabel>Settings Manager</guilabel>, <placeholder-3/><guilabel>Lock "
 "Screen</guilabel> and <placeholder-4/><guilabel>Log Out</guilabel>."
 msgstr ""
+"El panel se usa para iniciar o cambiar aplicaciones y para recibir "
+"información sobre el sistema. A la izquierda del panel verá el logo de "
+"Xubuntu, <placeholder-1/>. Al presionar en este icono se abrirá el "
+"<guilabel>Menú</guilabel>, ofreciendo diversas aplicaciones para elegir. "
+"Sobre la parte inferior de la ventana del menú hay iconos de <placeholder-"
+"2/><guilabel>Gestor de configuración</guilabel>, <placeholder-"
+"3/><guilabel>Bloquear pantalla</guilabel> y <placeholder-4/><guilabel>Cerrar "
+"sesión</guilabel>."
 
 #: user-docs/C/guide-desktop.xml:30(para)
 msgid ""
@@ -5517,6 +5534,14 @@ msgid ""
 "instant messages. Some notification icons only appear when needed, for "
 "instance when software updates are available."
 msgstr ""
+"La sección central del panel está dedicada a los botones de ventana para "
+"aplicaciones abiertas. En el extremo derecho está el reloj, que muestra la "
+"fecha y la hora. A la izquierda se encuentra el <guilabel>Área de "
+"notificación</guilabel>. Aquí verá indicadores que le brindan información "
+"sobre su sistema, incluyendo la conectividad de red, el nivel de volumen del "
+"sonido, estado de la batería (cuando corresponda) y mensajes instantáneos. "
+"Algunos iconos de notificación solo aparecen cuando es necesario, por "
+"ejemplo, cuando hay actualizaciones de software disponibles."
 
 #: user-docs/C/guide-desktop.xml:32(para)
 msgid ""
@@ -5810,6 +5835,11 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/ThunarCustomActions\">Thunar Custom "
 "Action</ulink> page."
 msgstr ""
+"Por último, puede agregar acciones personalizadas que añaden opciones útiles "
+"al menú. Se pueden encontrar muchas acciones personalizadas en la página "
+"Ubuntu Wiki <ulink "
+"url=\"https://help.ubuntu.com/community/ThunarCustomActions\"> Acción "
+"Personalizada Thunar</ulink>."
 
 #: user-docs/C/guide-desktop.xml:148(para)
 msgid ""
@@ -5864,6 +5894,10 @@ msgid ""
 "<ulink url=\"http://support.mozilla.org/en-US/home\">Firefox's online "
 "help</ulink>."
 msgstr ""
+"<application>Firefox</application> es un navegador web maduro y estable que "
+"se puede ampliar con una amplia variedad de complementos disponibles. Lea "
+"más en la <ulink url=\"http://support.mozilla.org/es-ES/home\">ayuda en "
+"línea de Firefox</ulink>."
 
 #: user-docs/C/guide-default-apps.xml:29(para)
 msgid ""
@@ -5930,15 +5964,25 @@ msgstr ""
 
 #: user-docs/C/guide-default-apps.xml:41(para)
 msgid ""
-"<application>PulseAudio Volume Control</application> is the way to control "
-"the different sound sources and their destinations. Read more at the <ulink "
-"url=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">PulseAudio "
-"website</ulink>."
+"<application>PulseAudio Volume Control</application> allows you to control "
+"the different sound sources available on your machine e.g. HDMI or other "
+"audio ports and where you hear the sound. Once open, the tabs available in "
+"pavucontrol are self-explanatory. However, if you have no sound - check "
+"specifically the Playback, Output Devices and Configuration tabs. More "
+"detailed information on PulseAudio and controlling it can be found at the "
+"<ulink "
+"url=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">PulseAudio websit"
+"e</ulink>."
 msgstr ""
-"<application>Control de Volumen PulseAudio</application> es la forma de "
-"controlar las diferentes fuentes de sonido y sus destinos. Lea más en la "
-"<ulink url=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">página "
-"web de PulseAudio</ulink>."
+"<application>Control de volumen de PulseAudio</application> le permite "
+"controlar las diferentes fuentes de sonido disponibles en su máquina, p.ej. "
+"HDMI u otros puertos de audio y donde escucha el sonido. Una vez abierto, "
+"las pestañas disponibles en pavucontrol se explican por sí mismas. Sin "
+"embargo, si no tiene sonido, verifique específicamente las pestañas "
+"Reproducir, Dispositivos de salida y Configuración. Puede encontrar "
+"información más detallada sobre PulseAudio y como controlarlo en el <ulink "
+"url = \"http://www.freedesktop.org/wiki/Software/PulseAudio\">sitio web de "
+"PulseAudio</ulink>."
 
 #: user-docs/C/guide-default-apps.xml:43(para)
 msgid ""
@@ -5988,6 +6032,28 @@ msgstr ""
 
 #: user-docs/C/guide-default-apps.xml:55(para)
 msgid ""
+"<application>Atril Document Viewer</application> is a lightweight and easy-"
+"to-navigate PDF reader with a compact selection of features, such as "
+"thumbnail browser, bookmarking, and toolbar editor function to tweak its "
+"user interface."
+msgstr ""
+"El <application>Visor de documentos Atril</application> es un lector de PDF "
+"ligero y fácil de navegar con una selección compacta de funciones, como el "
+"navegador de miniaturas, marcadores y la función de editor de barra de "
+"herramientas para ajustar su interfaz de usuario."
+
+#: user-docs/C/guide-default-apps.xml:57(para)
+msgid ""
+"<application>Mate Calculator</application> is visually similar to a lot of "
+"hand-held calculators and has been designed to be used with either the mouse "
+"or the keyboard."
+msgstr ""
+"La <application>Calculadora Mate</application> es visualmente similar a una "
+"gran cantidad de calculadoras de mano y ha sido diseñada para ser utilizada "
+"con el mouse o el teclado."
+
+#: user-docs/C/guide-default-apps.xml:59(para)
+msgid ""
 "<application>Dictionary</application> provides an easy way to access a "
 "number of different dictionaries across the internet. Read more at the "
 "<ulink url=\"http://goodies.xfce.org/projects/applications/xfce4-"
@@ -5998,11 +6064,7 @@ msgstr ""
 "url=\"http://goodies.xfce.org/projects/applications/xfce4-dict\">Xfce4 "
 "Diccionario Ayuda en línea</ulink>."
 
-#: user-docs/C/guide-default-apps.xml:57(para)
-msgid "<application>Document Viewer</application> is a PDF reader."
-msgstr "<application>Visor de documentos</application> es un lector de PDF."
-
-#: user-docs/C/guide-default-apps.xml:59(para)
+#: user-docs/C/guide-default-apps.xml:61(para)
 msgid ""
 "<application>Orage</application> has been designed to be a simple but "
 "effective calendar application to keep track of your appointments and "
@@ -6014,11 +6076,11 @@ msgstr ""
 "programadas. Lea más en <ulink "
 "url=\"http://www.kolumbus.fi/~w408237/orage/\">Orage website</ulink>."
 
-#: user-docs/C/guide-default-apps.xml:63(title)
+#: user-docs/C/guide-default-apps.xml:65(title)
 msgid "System"
 msgstr "Sistema"
 
-#: user-docs/C/guide-default-apps.xml:65(para)
+#: user-docs/C/guide-default-apps.xml:67(para)
 msgid ""
 "<application>Gigolo</application> is an easy way to connect to local and "
 "remote file systems. Read more at the <ulink "
@@ -6028,7 +6090,17 @@ msgstr ""
 "de archivos locales y remotos. Lea más en <ulink "
 "url=\"http://www.uvena.de/gigolo/\">Gigolo website</ulink>."
 
-#: user-docs/C/guide-default-apps.xml:67(para)
+#: user-docs/C/guide-default-apps.xml:69(para)
+msgid ""
+"<application>Engrampa</application> is an archive manager which allows to "
+"create and modify archives, view the contents of an archive and extract "
+"files from the archive."
+msgstr ""
+"<application>Engrampa</application> es un administrador de archivadores que "
+"permite crear y modificar archivadores, ver los contenidos de un archivador "
+"y extraer archivos del archivador."
+
+#: user-docs/C/guide-default-apps.xml:71(para)
 msgid ""
 "<application>Task Manager</application> provides a graphical overview of "
 "running applications. More information can be found in the <ulink "
@@ -7031,9 +7103,50 @@ msgstr ""
 "  Paco Molinero https://launchpad.net/~franciscomol\n"
 "  Pasi Lallinaho https://launchpad.net/~knome\n"
 "  Ramiro Encinas https://launchpad.net/~ramix\n"
+"  Rodrigo https://launchpad.net/~rodhos-hp\n"
 "  bitseater https://launchpad.net/~bitseater\n"
 "  bjsg https://launchpad.net/~bjsg\n"
 "  libuntu https://launchpad.net/~libuntu\n"
 "  manuelchacon https://launchpad.net/~manuelchacon\n"
 "  nat6091 https://launchpad.net/~nat6091\n"
 "  rinopopo https://launchpad.net/~rinopopo"
+
+#~ msgid ""
+#~ "Read more at the <ulink url=\"http://smdavis.us/doku/doku.php?id=mugshot-"
+#~ "docs\">Mugshot</ulink> official documentation."
+#~ msgstr ""
+#~ "Puede leer más en la documentación oficial <ulink "
+#~ "url=\"http://smdavis.us/doku/doku.php?id=mugshot-docs\">Mugshot</ulink> (en "
+#~ "inglés)."
+
+#~ msgid ""
+#~ "To add directories and launchers which don't appear as entries in the "
+#~ "default Menu, you'll need another tool. A more advanced menu editing utility "
+#~ "called <application>MenuLibre</application> can be found by clicking "
+#~ "<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+#~ "Settings Manager</guimenuitem><guimenuitem>Menu "
+#~ "Editor</guimenuitem></menuchoice></application> or by a right-click on "
+#~ "<placeholder-3/> and choosing <guilabel>Edit Applications</guilabel>. Using "
+#~ "this editor you can create, hide and reorder the directories which appear in "
+#~ "the right-hand pane of the Menu. Within those directories you can then "
+#~ "create application launchers and customize their behavior by configuring the "
+#~ "many options available in this utility. For more in-depth information on how "
+#~ "to use all of those options, consult the <ulink "
+#~ "url=\"http://smdavis.us/doku/doku.php?id=menulibre-docs\">MenuLibre</ulink> "
+#~ "online documentation."
+#~ msgstr ""
+#~ "Para añadir carpetas y lanzadores que no aparecen como entradas en el Menú "
+#~ "predeterminado, necesitará otra herramienta. Una utilidad de edición de menú "
+#~ "más avanzada llamada <application>MenuLibre</application> se puede encontrar "
+#~ "haciendo click en <application><menuchoice><placeholder-"
+#~ "1/><guimenuitem><placeholder-2/>Administrador de "
+#~ "Configuraciones</guimenuitem><guimenuitem>Editor de "
+#~ "Menú</guimenuitem></menuchoice></application> o haciendo clic con botón "
+#~ "derecho en <placeholder-3/> y eligiendo <guilabel>Editar "
+#~ "Aplicaciones</guilabel>. Usando este editor se puede crear, ocultar y "
+#~ "reordenar las carpetas que aparecen en el panel derecho del Menú. Dentro de "
+#~ "estas carpetas se pueden crear lanzadores de aplicaciones y personalizar su "
+#~ "comportamiento configurando las múltiples opciones disponibles en esta "
+#~ "utilidad. Para obtener información más detallada sobre cómo usar todas estas "
+#~ "opciones, consulte la documentación en línea <ulink "
+#~ "url=\"http://smdavis.us/doku/doku.php?id=menulibre-docs\">MenuLibre</ulink>."

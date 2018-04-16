@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-04-26 23:53+0100\n"
-"PO-Revision-Date: 2016-10-25 09:40+0000\n"
+"POT-Creation-Date: 2018-01-11 16:39-0500\n"
+"PO-Revision-Date: 2018-01-14 20:34+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-04-06 22:12+0000\n"
-"X-Generator: Launchpad (build 18343)\n"
+"X-Launchpad-Export-Date: 2018-04-16 05:56+0000\n"
+"X-Generator: Launchpad (build 18610)\n"
 
 #: user-docs/C/xi-translators-not-found.xml:1(para)
 msgid ""
@@ -39,6 +39,9 @@ msgid ""
 "A4.pdf\">A4</ulink> or <ulink url=\"xubuntu-documentation-USletter.pdf\">US "
 "letter</ulink>."
 msgstr ""
+"Pasirinkite pageidaujamą popieriaus dydį: <ulink url=\"xubuntu-documentation-"
+"A4.pdf\">A4</ulink> ar <ulink url=\"xubuntu-documentation-USletter.pdf\">US "
+"letter</ulink>."
 
 #: user-docs/C/what-is-xubuntu.xml:14(title)
 msgid "What is Xubuntu?"
@@ -60,7 +63,7 @@ msgid ""
 "Xfce, which is a stable, light and configurable desktop environment."
 msgstr ""
 "Xubuntu yra elegantiška ir lengva naudoti operacinė sistema. Xubuntu "
-"pateikiama su kartu Xfce, kuri savo ruožtu yra lengva ir konfigūruojama "
+"pateikiama kartu su Xfce, kuri savo ruožtu yra lengva ir konfigūruojama "
 "darbalaukio aplinka."
 
 #: user-docs/C/what-is-xubuntu.xml:23(para)
@@ -69,6 +72,10 @@ msgid ""
 "and netbooks, featuring a modern look and enough features for efficient, "
 "daily usage. It works well on older hardware too."
 msgstr ""
+"Ji puikiai tinka tiems, kas nori pilnai išnaudoti savo stalinių, nešiojamųjų "
+"kompiuterių ar tinklinukų galimybes, ji atrodo šiuolaikiškai ir joje yra "
+"pakankamai ypatybių efektyviam kasdieniam naudojimui. Be to, ji puikiai "
+"veikia senesnėje aparatinėje įrangoje."
 
 #: user-docs/C/what-is-xubuntu.xml:25(para)
 msgid ""
@@ -108,6 +115,10 @@ msgid ""
 "url=\"http://www.canonical.com/\">Canonical Ltd.</ulink>, a company founded "
 "by Mark Shuttleworth."
 msgstr ""
+"Xubuntu ne tik naudoja Ubuntu branduolį, tačiau taip pat yra remiama ir "
+"naudoja infrastruktūrą, kurią teikia <ulink "
+"url=\"http://www.canonical.com/\">Canonical Ltd.</ulink>, Mark Shuttleworth "
+"įkurta kompanija."
 
 #: user-docs/C/what-is-xubuntu.xml:40(title)
 msgid "Version numbering"
@@ -121,6 +132,12 @@ msgid ""
 "released in June, 2006, thus its version number was 6.06. The latest Long "
 "Term Support (LTS) version is 16.04, codenamed Xenial Xerus."
 msgstr ""
+"Xubuntu versijų numeravimo schema yra paremta distribucijos laidos data. "
+"Pirmoji laidos dalis nurodo metus, tuo tarpu antroji dalis nurodo mėnesį. "
+"Pavyzdžiui, pirmoji oficiali Xubuntu versija buvo išleista 2006-ųjų, "
+"birželį, taigi versijos numeris buvo 6.06. Naujausia Ilgojo Laikotarpio "
+"Palaikymo (LTS) versija yra 16.04, kurios kodinis pavadinimas yra Xenial "
+"Xerus."
 
 #: user-docs/C/what-is-xubuntu.xml:49(title)
 msgid "Learn more about what makes Xubuntu"
@@ -138,6 +155,11 @@ msgid ""
 "and technical philosophy behind it at the <ulink "
 "url=\"http://www.gnu.org/\">GNU website</ulink>."
 msgstr ""
+"Xubuntu projektas yra visiškai pasišventęs laisvosios programinės įrangos "
+"kūrimo principams; žmonės yra skatinami naudoti laisvąją programinę įrangą, "
+"ją tobulinti ir dalintis su kitais. Daugiau apie laisvąją programinę įrangą "
+"ir apie už jos slypinčią ideologinę ir techninę filosofiją galite sužinoti "
+"<ulink url=\"http://www.gnu.org/\">GNU internetinėje svetainėje</ulink>."
 
 #: user-docs/C/what-is-xubuntu.xml:59(title)
 msgid "Linux"
@@ -151,6 +173,12 @@ msgid ""
 "bridge between hardware and software. Read more about Linux at the <ulink "
 "url=\"http://www.kernel.org/\">Linux kernel website</ulink>."
 msgstr ""
+"Linux, 1991 metais, sukūrė suomių studentas, vardu Linus Torvalds. Linux "
+"branduolys yra Xubuntu operacinės sistemos širdis. Branduolys yra svarbi bet "
+"kurios operacinės sistemos dalis, sukurianti komunikacijos tiltą tarp "
+"aparatinės ir programinės įrangos. Daugiau apie Linux skaitykite <ulink "
+"url=\"http://www.kernel.org/\">Linux branduolio internetinėje "
+"svetainėje</ulink>."
 
 #: user-docs/C/what-is-xubuntu.xml:67(title)
 msgid "Xfce"
@@ -220,10 +248,15 @@ msgid ""
 "your liking, keep your personal information updated and customize the looks "
 "of the desktop."
 msgstr ""
+"Xubuntu tinkinimo savo reikmėms ir nuostatoms galimybės yra virtualiai "
+"beribės, pradedant nuo darbalaukio išvaizdos iki smulkių veikimo "
+"patobulinimų. Šiame skyriuje esančios sekcijos aprašo kaip pritaikyti "
+"pagrindinį programų meniu savo reikmėms, išlaikyti savo asmeninę informaciją "
+"atnaujintą ir tinkinti darbalaukio išvaizdą."
 
 #: user-docs/C/settings-preferences.xml:19(title)
 msgid "Customizing the Menu"
-msgstr ""
+msgstr "Meniu tinkinimas"
 
 #: user-docs/C/settings-preferences.xml:21(para)
 msgid ""
@@ -237,6 +270,16 @@ msgid ""
 "sort the list. You can also rearrange <guilabel>Favorites</guilabel> just by "
 "dragging them."
 msgstr ""
+"Tikriausiai, lengviausias ir naudingiausias patobulinimas, kurį galite "
+"atlikti savo Meniu, tai tinkinti <guilabel>Mėgstamas</guilabel> programas. "
+"Tai atlikti yra labai paprasta - raskite norimą programą, spustelėkite ant "
+"jos dešiniuoju pelės mygtuku ir pasirinkite <guilabel>Pridėti į "
+"mėgstamas</guilabel>. Tame pačiame iškylančiajame lange, galite pasirinkti "
+"pridėti programą į Darbalaukį ar Skydelį. Spustelėjus dešiniuoju pelės "
+"mygtuku ant programos, kuri jau yra <guilabel>Mėgstamų</guilabel> sąraše, "
+"jums bus suteikta galimybė ją pašalinti iš sąrašo arba surikiuoti sąrašą. "
+"Taip pat galite pertvarkyti <guilabel>Mėgstamas</guilabel> programas, "
+"tiesiog, jas vilkdami."
 
 #: user-docs/C/settings-preferences.xml:23(para)
 msgid ""
@@ -247,6 +290,12 @@ msgid ""
 "application listed in the results, you can directly launch it or right-click "
 "on it and add it to your preferred launch location."
 msgstr ""
+"Jeigu nesate tikri ar programa yra sąraše, arba kaip ji vadinasi, tuomet "
+"galite pasinaudoti paieška. Atvėrus meniu, jūsų žymeklis jau yra paieškos "
+"juostoje. Tiesiog, pradėkite rašyti ir bus atliekama prieauginė paieška "
+"programų pavadinimuose ir jų aprašuose. Pamatę sąraše programą, galite iš "
+"karto ją paleisti arba spustelėti ant jos dešiniu pelės mygtuku ir pridėti "
+"ją į savo mėgstamą paleidimo vietą."
 
 #: user-docs/C/settings-preferences.xml:25(para)
 msgid ""
@@ -255,6 +304,11 @@ msgid ""
 "change <guilabel>Appearance</guilabel>, <guilabel>Behavior</guilabel> and "
 "<guilabel>Search Actions</guilabel>."
 msgstr ""
+"Daugiau parinkčių kaip tinkinti savo Meniu galite rasti spustelėję dešiniu "
+"pelės mygtuku ant <placeholder-1/> ir pasirinkę "
+"<guilabel>Savybės</guilabel>. Ten rasite tris korteles, skirtas keisti "
+"<guilabel>Išvaizdą</guilabel>, <guilabel>Elgseną</guilabel> ir "
+"<guilabel>Paieškos veiksmus</guilabel>."
 
 #: user-docs/C/settings-preferences.xml:28(para)
 msgid ""
@@ -270,13 +324,29 @@ msgid ""
 "create application launchers and customize their behavior by configuring the "
 "many options available in this utility. For more in-depth information on how "
 "to use all of those options, consult the <ulink "
-"url=\"http://smdavis.us/doku/doku.php?id=menulibre-docs\">MenuLibre</ulink> "
-"online documentation."
+"url=\"https://wiki.bluesabre.org/doku.php?id=menulibre-"
+"docs\">MenuLibre</ulink> online documentation."
 msgstr ""
+"Norint pridėti katalogus ir leistukus, kurie nėra rodomi kaip įrašai "
+"numatytajame Meniu, jums prireiks kito įrankio. Labiau išplėstinę meniu "
+"redagavimo paslaugų programą, pavadinimu "
+"<application>MenuLibre</application> galima rasti spustelėjus "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"Nustatymų tvarkytuvė</guimenuitem><guimenuitem>Meniu "
+"redaktorius</guimenuitem></menuchoice></application> arba spustelėjus "
+"dešiniuoju pelės mygtuku ant <placeholder-3/> ir pasirenkant "
+"<guilabel>Taisyti programas</guilabel>. Naudodami šį redaktorių, galite "
+"sukurti, slėpti ir pertvarkyti dešiniajame Meniu polangyje esančius "
+"katalogus. Tuomet tuose kataloguose galite sukurti programų leistukus ir "
+"tinkinti jų elgseną, konfigūruodami daugybę šioje paslaugų programoje "
+"prieinamų parametrų. Išsamesnės informacijos apie tai, kaip naudoti visus "
+"šiuos parametrus, ieškokite <ulink "
+"url=\"https://wiki.bluesabre.org/doku.php?id=menulibre-"
+"docs\">MenuLibre</ulink> dokumentacijoje internete."
 
 #: user-docs/C/settings-preferences.xml:33(title)
 msgid "Customizing your personal info"
-msgstr ""
+msgstr "Asmeninės informacijos tinkinimas"
 
 #: user-docs/C/settings-preferences.xml:35(para)
 msgid ""
@@ -296,6 +366,10 @@ msgid ""
 "Settings Manager</guimenuitem><guimenuitem>About "
 "Me</guimenuitem></menuchoice></application>."
 msgstr ""
+"Norėdami paleisti <application>Mugshot</application> naršykite į "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"Nustatymų tvarkytuvė</guimenuitem><guimenuitem>Apie "
+"mane</guimenuitem></menuchoice></application>."
 
 #: user-docs/C/settings-preferences.xml:39(para)
 msgid ""
@@ -303,6 +377,9 @@ msgid ""
 "on the left of the GUI, select one of the given options and follow the "
 "instructions."
 msgstr ""
+"Norėdami pakeisti savo profilio paveikslą, spustelėkite naudotojo sąsajos "
+"kairėje esantį <guibutton>paveikslo</guibutton> mygtuką, pasirinkite vieną "
+"iš nurodytų pasirinkimų ir sekite instrukcijas."
 
 #: user-docs/C/settings-preferences.xml:41(para)
 msgid ""
@@ -310,6 +387,9 @@ msgid ""
 "tools</literal> package to use the <guilabel>Capture from "
 "camera...</guilabel> feature."
 msgstr ""
+"Norint naudoti ypatybę <guilabel>Fotografuoti per kamerą...</guilabel>, "
+"Mugshot reikalauja, kad būtų įdiegtas paketas <literal><placeholder-"
+"1/>gstreamer1.0-tools</literal>."
 
 #: user-docs/C/settings-preferences.xml:43(para)
 msgid ""
@@ -318,6 +398,11 @@ msgid ""
 "<application>Pidgin</application> and/or LibreOffice installed, you will be "
 "prompted to update their settings as well."
 msgstr ""
+"Užpildykite tekstinius laukus reikiamais asmeniniais duomenimis ir "
+"spustelėkite <guibutton>Pritaikyti</guibutton>. Pritaikant šią informaciją "
+"ir esant įdiegtoms programoms <application>Pidgin</application> ir/ar "
+"LibreOffice,  jūsų bus paklausta ar norite atnaujinti tuo pačiu ir šių "
+"programų nustatymus."
 
 #: user-docs/C/settings-preferences.xml:45(para)
 msgid ""
@@ -327,29 +412,36 @@ msgid ""
 "your password as a security measure to prevent unwanted updates to your "
 "personal information."
 msgstr ""
+"Jeigu į <guilabel>Vardo</guilabel> ir <guilabel>Pavardės</guilabel> "
+"tekstinius laukus įvesta informacija skiriasi nuo "
+"<userinput>/etc/passwd</userinput> faile saugomų esamų reikšmių, tuomet, "
+"siekiant neleisti nepageidaujamų asmeninės informacijos atnaujinimų, jūsų "
+"bus paprašyta įvesti savo slaptažodį."
 
 #: user-docs/C/settings-preferences.xml:47(para)
 msgid ""
-"Read more at the <ulink url=\"http://smdavis.us/doku/doku.php?id=mugshot-"
+"Read more at the <ulink url=\"https://wiki.bluesabre.org/doku.php?id=mugshot-"
 "docs\">Mugshot</ulink> official documentation."
 msgstr ""
 "Daugiau skaitykite oficialioje <ulink "
-"url=\"http://smdavis.us/doku/doku.php?id=mugshot-docs\">Mugshot</ulink> "
+"url=\"https://wiki.bluesabre.org/doku.php?id=mugshot-docs\">Mugshot</ulink> "
 "dokumentacijoje."
 
 #: user-docs/C/settings-preferences.xml:51(title)
 msgid "Customizing the appearance"
-msgstr ""
+msgstr "Išvaizdos tinkinimas"
 
 #: user-docs/C/settings-preferences.xml:53(para)
 msgid ""
 "If you want to customize the appearance of your Xubuntu system, the options "
 "are many. Here are a few good starting points."
 msgstr ""
+"Yra daug būdų, norint tinkinti savo Xubuntu sistemos išvaizdą. Štai keli "
+"geri pradiniai žingsniai."
 
 #: user-docs/C/settings-preferences.xml:57(title)
 msgid "Changing your wallpaper"
-msgstr ""
+msgstr "Darbalaukio fono keitimas"
 
 #: user-docs/C/settings-preferences.xml:59(para)
 msgid ""
@@ -409,10 +501,12 @@ msgid ""
 "If you want to set any of your own images as the wallpaper, the easiest way "
 "to achieve this is:"
 msgstr ""
+"Norint nustatyti bet kurį savo paveikslą kaip darbalaukio foną, lengviausias "
+"būdas tai padaryti yra šis:"
 
 #: user-docs/C/settings-preferences.xml:73(para)
 msgid "Open Thunar and navigate to the directory with the image"
-msgstr ""
+msgstr "Atverkite Thunar ir naršykite į katalogą, kuriame yra paveikslas"
 
 #: user-docs/C/settings-preferences.xml:74(para)
 msgid ""
@@ -2716,46 +2810,34 @@ msgid ""
 msgstr ""
 
 #: user-docs/C/index.xml:65(year)
-msgid "2012"
+msgid "2012–2017"
 msgstr ""
 
-#: user-docs/C/index.xml:66(year)
-msgid "2013"
-msgstr ""
-
-#: user-docs/C/index.xml:67(year)
-msgid "2014"
-msgstr ""
-
-#: user-docs/C/index.xml:68(year)
-msgid "2015"
-msgstr ""
-
-#: user-docs/C/index.xml:69(holder)
+#: user-docs/C/index.xml:66(holder)
 msgid ""
 "The Xubuntu documentation team. Xubuntu and Canonical are registered "
 "trademarks of Canonical Ltd."
 msgstr ""
 
-#: user-docs/C/index.xml:73(publishername)
+#: user-docs/C/index.xml:70(publishername)
 msgid "The Xubuntu documentation team"
 msgstr ""
 
-#: user-docs/C/index.xml:77(title)
+#: user-docs/C/index.xml:74(title)
 msgid "Welcome!"
 msgstr ""
 
-#: user-docs/C/index.xml:79(para)
+#: user-docs/C/index.xml:76(para)
 msgid ""
 "This documentation provides information on some of the most common topics on "
 "using Xubuntu, including:"
 msgstr ""
 
-#: user-docs/C/index.xml:84(para)
+#: user-docs/C/index.xml:81(para)
 msgid "In addition, this documentation has three quick guides:"
 msgstr ""
 
-#: user-docs/C/index.xml:90(para)
+#: user-docs/C/index.xml:87(para)
 msgid ""
 "The complete set of topics is listed below. If you require help with a topic "
 "or problem that is not addressed by the documentation, go to the <ulink "
@@ -2763,7 +2845,7 @@ msgid ""
 "Xubuntu website. There you will find links to additional help resources."
 msgstr ""
 
-#: user-docs/C/index.xml:92(para)
+#: user-docs/C/index.xml:89(para)
 msgid ""
 "If you would like to contribute to Xubuntu, including this documentation, "
 "see the <ulink url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> "
@@ -4353,10 +4435,15 @@ msgstr ""
 
 #: user-docs/C/guide-default-apps.xml:41(para)
 msgid ""
-"<application>PulseAudio Volume Control</application> is the way to control "
-"the different sound sources and their destinations. Read more at the <ulink "
-"url=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">PulseAudio "
-"website</ulink>."
+"<application>PulseAudio Volume Control</application> allows you to control "
+"the different sound sources available on your machine e.g. HDMI or other "
+"audio ports and where you hear the sound. Once open, the tabs available in "
+"pavucontrol are self-explanatory. However, if you have no sound - check "
+"specifically the Playback, Output Devices and Configuration tabs. More "
+"detailed information on PulseAudio and controlling it can be found at the "
+"<ulink "
+"url=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">PulseAudio websit"
+"e</ulink>."
 msgstr ""
 
 #: user-docs/C/guide-default-apps.xml:43(para)
@@ -4393,17 +4480,28 @@ msgstr ""
 
 #: user-docs/C/guide-default-apps.xml:55(para)
 msgid ""
+"<application>Atril Document Viewer</application> is a lightweight and easy-"
+"to-navigate PDF reader with a compact selection of features, such as "
+"thumbnail browser, bookmarking, and toolbar editor function to tweak its "
+"user interface."
+msgstr ""
+
+#: user-docs/C/guide-default-apps.xml:57(para)
+msgid ""
+"<application>Mate Calculator</application> is visually similar to a lot of "
+"hand-held calculators and has been designed to be used with either the mouse "
+"or the keyboard."
+msgstr ""
+
+#: user-docs/C/guide-default-apps.xml:59(para)
+msgid ""
 "<application>Dictionary</application> provides an easy way to access a "
 "number of different dictionaries across the internet. Read more at the "
 "<ulink url=\"http://goodies.xfce.org/projects/applications/xfce4-"
 "dict\">Xfce4 Dictionary online help</ulink>."
 msgstr ""
 
-#: user-docs/C/guide-default-apps.xml:57(para)
-msgid "<application>Document Viewer</application> is a PDF reader."
-msgstr ""
-
-#: user-docs/C/guide-default-apps.xml:59(para)
+#: user-docs/C/guide-default-apps.xml:61(para)
 msgid ""
 "<application>Orage</application> has been designed to be a simple but "
 "effective calendar application to keep track of your appointments and "
@@ -4411,18 +4509,25 @@ msgid ""
 "url=\"http://www.kolumbus.fi/~w408237/orage/\">Orage website</ulink>."
 msgstr ""
 
-#: user-docs/C/guide-default-apps.xml:63(title)
+#: user-docs/C/guide-default-apps.xml:65(title)
 msgid "System"
 msgstr ""
 
-#: user-docs/C/guide-default-apps.xml:65(para)
+#: user-docs/C/guide-default-apps.xml:67(para)
 msgid ""
 "<application>Gigolo</application> is an easy way to connect to local and "
 "remote file systems. Read more at the <ulink "
 "url=\"http://www.uvena.de/gigolo/\">Gigolo website</ulink>."
 msgstr ""
 
-#: user-docs/C/guide-default-apps.xml:67(para)
+#: user-docs/C/guide-default-apps.xml:69(para)
+msgid ""
+"<application>Engrampa</application> is an archive manager which allows to "
+"create and modify archives, view the contents of an archive and extract "
+"files from the archive."
+msgstr ""
+
+#: user-docs/C/guide-default-apps.xml:71(para)
 msgid ""
 "<application>Task Manager</application> provides a graphical overview of "
 "running applications. More information can be found in the <ulink "
@@ -5295,3 +5400,11 @@ msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
 "  Moo https://launchpad.net/~mooo"
+
+#~ msgid ""
+#~ "Read more at the <ulink url=\"http://smdavis.us/doku/doku.php?id=mugshot-"
+#~ "docs\">Mugshot</ulink> official documentation."
+#~ msgstr ""
+#~ "Daugiau skaitykite oficialioje <ulink "
+#~ "url=\"http://smdavis.us/doku/doku.php?id=mugshot-docs\">Mugshot</ulink> "
+#~ "dokumentacijoje."

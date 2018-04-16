@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-04-26 23:53+0100\n"
-"PO-Revision-Date: 2016-10-25 09:40+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2018-01-11 16:39-0500\n"
+"PO-Revision-Date: 2018-03-28 16:28+0000\n"
+"Last-Translator: David Pires <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-04-06 22:13+0000\n"
-"X-Generator: Launchpad (build 18343)\n"
+"X-Launchpad-Export-Date: 2018-04-16 05:56+0000\n"
+"X-Generator: Launchpad (build 18610)\n"
 
 #: user-docs/C/xi-translators-not-found.xml:1(para)
 msgid ""
@@ -322,23 +322,24 @@ msgid ""
 "create application launchers and customize their behavior by configuring the "
 "many options available in this utility. For more in-depth information on how "
 "to use all of those options, consult the <ulink "
-"url=\"http://smdavis.us/doku/doku.php?id=menulibre-docs\">MenuLibre</ulink> "
-"online documentation."
+"url=\"https://wiki.bluesabre.org/doku.php?id=menulibre-"
+"docs\">MenuLibre</ulink> online documentation."
 msgstr ""
 "Para adicionar diretórios e lançadores que não aparecem como entradas no "
 "Menu padrão, precisará de outra ferramenta. Um utilitário de edição de menu "
-"mais avançado chamado MenuLibre pode ser encontrado clicando "
-"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
-"Definições</guimenuitem><guimenuitem>Editor de "
-"Menus</guimenuitem></menuchoice></application> ou clicando com o botão "
-"direito do rato em <placeholder-3/> e escolhendo <guilabel>Editar "
+"mais avançado chamado <application>MenuLibre</application> pode ser "
+"encontrado clicando em  <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> Definições</guimenuitem><guimenuitem>Editor "
+"de Menus</guimenuitem></menuchoice></application> ou clicando com o botão "
+"direito do rato em <placeholder-3/> e selecionar  <guilabel>Editar "
 "Aplicações</guilabel>. Usando este editor pode criar, esconder e reordenar "
 "as listas que aparecem no painel do lado direito do menu. Dentro destes "
 "diretórios pode então criar lançadores de aplicações e personalizar o seu "
 "comportamento, configurando as muitas opções disponíveis neste utilitário. "
 "Para mais informações detalhadas sobre como utilizar todas essas opções, "
 "consulte a documentação online do <ulink "
-"url=\"http://smdavis.us/doku/doku.php?id=menulibre-docs\">MenuLibre</ulink>."
+"url=\"https://wiki.bluesabre.org/doku.php?id=menulibre-"
+"docs\">MenuLibre</ulink>."
 
 #: user-docs/C/settings-preferences.xml:33(title)
 msgid "Customizing your personal info"
@@ -414,11 +415,11 @@ msgstr ""
 
 #: user-docs/C/settings-preferences.xml:47(para)
 msgid ""
-"Read more at the <ulink url=\"http://smdavis.us/doku/doku.php?id=mugshot-"
+"Read more at the <ulink url=\"https://wiki.bluesabre.org/doku.php?id=mugshot-"
 "docs\">Mugshot</ulink> official documentation."
 msgstr ""
 "Leia mais no sítio da documentação oficial do <ulink "
-"url=\"http://smdavis.us/doku/doku.php?id=mugshot-docs\">Mugshot</ulink>"
+"url=\"https://wiki.bluesabre.org/doku.php?id=mugshot-docs\">Mugshot</ulink>."
 
 #: user-docs/C/settings-preferences.xml:51(title)
 msgid "Customizing the appearance"
@@ -3716,22 +3717,10 @@ msgstr ""
 "respectivos proprietários."
 
 #: user-docs/C/index.xml:65(year)
-msgid "2012"
-msgstr "2012"
+msgid "2012–2017"
+msgstr "2012–2017"
 
-#: user-docs/C/index.xml:66(year)
-msgid "2013"
-msgstr "2013"
-
-#: user-docs/C/index.xml:67(year)
-msgid "2014"
-msgstr "2014"
-
-#: user-docs/C/index.xml:68(year)
-msgid "2015"
-msgstr "2015"
-
-#: user-docs/C/index.xml:69(holder)
+#: user-docs/C/index.xml:66(holder)
 msgid ""
 "The Xubuntu documentation team. Xubuntu and Canonical are registered "
 "trademarks of Canonical Ltd."
@@ -3739,15 +3728,15 @@ msgstr ""
 "A equipa de documentação Xubuntu. Xubuntu e Canonical são marcas registradas "
 "da Canonical Ltd."
 
-#: user-docs/C/index.xml:73(publishername)
+#: user-docs/C/index.xml:70(publishername)
 msgid "The Xubuntu documentation team"
 msgstr "Equipa de documentação Xubuntu."
 
-#: user-docs/C/index.xml:77(title)
+#: user-docs/C/index.xml:74(title)
 msgid "Welcome!"
 msgstr "Bem-vindo!"
 
-#: user-docs/C/index.xml:79(para)
+#: user-docs/C/index.xml:76(para)
 msgid ""
 "This documentation provides information on some of the most common topics on "
 "using Xubuntu, including:"
@@ -3755,11 +3744,11 @@ msgstr ""
 "Esta documentação fornece informações para os problemas mais comuns sobre o "
 "uso do Xubuntu, incluindo:"
 
-#: user-docs/C/index.xml:84(para)
+#: user-docs/C/index.xml:81(para)
 msgid "In addition, this documentation has three quick guides:"
 msgstr "Além disso, esta documentação tem três guias rápidos:"
 
-#: user-docs/C/index.xml:90(para)
+#: user-docs/C/index.xml:87(para)
 msgid ""
 "The complete set of topics is listed below. If you require help with a topic "
 "or problem that is not addressed by the documentation, go to the <ulink "
@@ -3771,7 +3760,7 @@ msgstr ""
 "<ulink url=\"http://xubuntu.org/help/\">Help &amp; Support</ulink> no sítio "
 "do Xubuntu. Lá encontrará ligações para recursos de ajuda adicionais."
 
-#: user-docs/C/index.xml:92(para)
+#: user-docs/C/index.xml:89(para)
 msgid ""
 "If you would like to contribute to Xubuntu, including this documentation, "
 "see the <ulink url=\"http://xubuntu.org/contribute/\">Get Involved</ulink> "
@@ -6001,13 +5990,23 @@ msgstr ""
 
 #: user-docs/C/guide-default-apps.xml:41(para)
 msgid ""
-"<application>PulseAudio Volume Control</application> is the way to control "
-"the different sound sources and their destinations. Read more at the <ulink "
-"url=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">PulseAudio "
-"website</ulink>."
+"<application>PulseAudio Volume Control</application> allows you to control "
+"the different sound sources available on your machine e.g. HDMI or other "
+"audio ports and where you hear the sound. Once open, the tabs available in "
+"pavucontrol are self-explanatory. However, if you have no sound - check "
+"specifically the Playback, Output Devices and Configuration tabs. More "
+"detailed information on PulseAudio and controlling it can be found at the "
+"<ulink "
+"url=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">PulseAudio websit"
+"e</ulink>."
 msgstr ""
-"<application>PulseAudio Volume Control</application> é a maneira de "
-"controlar as diferentes fontes de som e o seu destino. Leia mais em <ulink "
+"O <application>PulseAudio Volume Control</application> permite o controle "
+"das diferentes fontes de som disponíveis na sua máquina, como por exemplo "
+"HDMI ou outras portas de áudio, e onde ouve o som. Depois de abertas, as "
+"abas disponíveis no pavucontrol são auto-explicativas. No entanto, se não "
+"tiver som - verifique especificamente as abas Reprodução Dispositivos de "
+"saída e Configuração. Informações mais detalhadas sobre o PulseAudio e como "
+"controlá-lo podem ser encontradas no <ulink "
 "url=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">PulseAudio "
 "website</ulink>."
 
@@ -6059,6 +6058,28 @@ msgstr ""
 
 #: user-docs/C/guide-default-apps.xml:55(para)
 msgid ""
+"<application>Atril Document Viewer</application> is a lightweight and easy-"
+"to-navigate PDF reader with a compact selection of features, such as "
+"thumbnail browser, bookmarking, and toolbar editor function to tweak its "
+"user interface."
+msgstr ""
+"O <application>Atril Document Viewer</application> é um leitor de PDF leve e "
+"de fácil navegação com uma seleção compacta de recursos, como o navegador de "
+"miniaturas, marcadores e a função de editor da barra de ferramentas para "
+"ajustar a interface de utilizador."
+
+#: user-docs/C/guide-default-apps.xml:57(para)
+msgid ""
+"<application>Mate Calculator</application> is visually similar to a lot of "
+"hand-held calculators and has been designed to be used with either the mouse "
+"or the keyboard."
+msgstr ""
+"A <application>Mate Calculator</application> é visualmente semelhante a "
+"muitas calculadoras de mão e foi projetada para ser usada com o rato ou o "
+"teclado."
+
+#: user-docs/C/guide-default-apps.xml:59(para)
+msgid ""
 "<application>Dictionary</application> provides an easy way to access a "
 "number of different dictionaries across the internet. Read more at the "
 "<ulink url=\"http://goodies.xfce.org/projects/applications/xfce4-"
@@ -6069,11 +6090,7 @@ msgstr ""
 "<ulink url=\"http://goodies.xfce.org/projects/applications/xfce4-"
 "dict\">Xfce4 Dictionary online help</ulink>."
 
-#: user-docs/C/guide-default-apps.xml:57(para)
-msgid "<application>Document Viewer</application> is a PDF reader."
-msgstr "<application>Document Viewer</application> é um leitor de PDF."
-
-#: user-docs/C/guide-default-apps.xml:59(para)
+#: user-docs/C/guide-default-apps.xml:61(para)
 msgid ""
 "<application>Orage</application> has been designed to be a simple but "
 "effective calendar application to keep track of your appointments and "
@@ -6085,11 +6102,11 @@ msgstr ""
 "disparar alarmes. Leia mais em <ulink "
 "url=\"http://www.kolumbus.fi/~w408237/orage/\">Orage website</ulink>."
 
-#: user-docs/C/guide-default-apps.xml:63(title)
+#: user-docs/C/guide-default-apps.xml:65(title)
 msgid "System"
 msgstr "Sistema"
 
-#: user-docs/C/guide-default-apps.xml:65(para)
+#: user-docs/C/guide-default-apps.xml:67(para)
 msgid ""
 "<application>Gigolo</application> is an easy way to connect to local and "
 "remote file systems. Read more at the <ulink "
@@ -6099,7 +6116,17 @@ msgstr ""
 "de ficheiros locais e remotos. Leia mais em <ulink "
 "url=\"http://www.uvena.de/gigolo/\">Gigolo website</ulink>."
 
-#: user-docs/C/guide-default-apps.xml:67(para)
+#: user-docs/C/guide-default-apps.xml:69(para)
+msgid ""
+"<application>Engrampa</application> is an archive manager which allows to "
+"create and modify archives, view the contents of an archive and extract "
+"files from the archive."
+msgstr ""
+"O <application>Engrampa</application> é um gestor de arquivos que permite "
+"criar e modificar arquivos, visualizar o conteúdo de um arquivo e extrair "
+"ficheiros do arquivo."
+
+#: user-docs/C/guide-default-apps.xml:71(para)
 msgid ""
 "<application>Task Manager</application> provides a graphical overview of "
 "running applications. More information can be found in the <ulink "
@@ -7088,3 +7115,41 @@ msgstr ""
 "Launchpad Contributions:\n"
 "  David Pires https://launchpad.net/~slickymaster\n"
 "  Pasi Lallinaho https://launchpad.net/~knome"
+
+#~ msgid ""
+#~ "Read more at the <ulink url=\"http://smdavis.us/doku/doku.php?id=mugshot-"
+#~ "docs\">Mugshot</ulink> official documentation."
+#~ msgstr ""
+#~ "Leia mais no sítio da documentação oficial do <ulink "
+#~ "url=\"http://smdavis.us/doku/doku.php?id=mugshot-docs\">Mugshot</ulink>"
+
+#~ msgid ""
+#~ "To add directories and launchers which don't appear as entries in the "
+#~ "default Menu, you'll need another tool. A more advanced menu editing utility "
+#~ "called <application>MenuLibre</application> can be found by clicking "
+#~ "<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+#~ "Settings Manager</guimenuitem><guimenuitem>Menu "
+#~ "Editor</guimenuitem></menuchoice></application> or by a right-click on "
+#~ "<placeholder-3/> and choosing <guilabel>Edit Applications</guilabel>. Using "
+#~ "this editor you can create, hide and reorder the directories which appear in "
+#~ "the right-hand pane of the Menu. Within those directories you can then "
+#~ "create application launchers and customize their behavior by configuring the "
+#~ "many options available in this utility. For more in-depth information on how "
+#~ "to use all of those options, consult the <ulink "
+#~ "url=\"http://smdavis.us/doku/doku.php?id=menulibre-docs\">MenuLibre</ulink> "
+#~ "online documentation."
+#~ msgstr ""
+#~ "Para adicionar diretórios e lançadores que não aparecem como entradas no "
+#~ "Menu padrão, precisará de outra ferramenta. Um utilitário de edição de menu "
+#~ "mais avançado chamado MenuLibre pode ser encontrado clicando "
+#~ "<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+#~ "Definições</guimenuitem><guimenuitem>Editor de "
+#~ "Menus</guimenuitem></menuchoice></application> ou clicando com o botão "
+#~ "direito do rato em <placeholder-3/> e escolhendo <guilabel>Editar "
+#~ "Aplicações</guilabel>. Usando este editor pode criar, esconder e reordenar "
+#~ "as listas que aparecem no painel do lado direito do menu. Dentro destes "
+#~ "diretórios pode então criar lançadores de aplicações e personalizar o seu "
+#~ "comportamento, configurando as muitas opções disponíveis neste utilitário. "
+#~ "Para mais informações detalhadas sobre como utilizar todas essas opções, "
+#~ "consulte a documentação online do <ulink "
+#~ "url=\"http://smdavis.us/doku/doku.php?id=menulibre-docs\">MenuLibre</ulink>."
