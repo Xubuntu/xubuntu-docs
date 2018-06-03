@@ -35,7 +35,7 @@
 	<section id="qa-infra-iso">
 		<title>Getting the ISO</title>
 
-		<para>ISOs can be obtained through a few methods. The simplest method is to visit the <ulink url="http://iso.qa.ubuntu.com/">ISO</ulink> tracker. Follow the testcases through version to Xubuntu's group of tests. Then choose either 32 or 64 bit. Download links are available there.</para>
+		<para>ISOs can be obtained through a few methods. The simplest method is to visit the <ulink url="http://iso.qa.ubuntu.com/">ISO</ulink> tracker. Follow the testcases through release codename to Xubuntu's group of tests. Then choose either 64 or 32 bit. Download links are available there.</para>
 
 		<para>When testing more regularly, you might find (especially where bandwidth is an issue for you) using the <ulink url="https://help.ubuntu.com/community/ZsyncCdImage">zsync</ulink> link more appropriate. This is will just grab the difference between your local copy and the current one.</para>
 
@@ -49,7 +49,7 @@
 		<para>There are two main methods of testing the ISO:</para>
 
 		<itemizedlist>
-			<listitem><para>Using a virtual machine enables you to carry on using a normal release and to test our ISOs. You can install a virtual machine by directly using your downloaded ISO.</para></listitem>
+			<listitem><para>Using a virtual machine enables you to carry on using a normal release when testing our ISOs. You can install a virtual machine by directly using your downloaded ISO.</para></listitem>
 			<listitem><para>Install the ISO to hardware where that possibility is available. This is more important towards the end of the development cycle. You will necessarily need to have the ISO in some bootable medium. A member of Xubuntu's Website team details a simple method for preparing a bootable <ulink url="http://princessleia.com/journal/2016/03/xubuntu-16-04-iso-testing-tips/">USB</ulink> stick with Gnome Disks.</para></listitem>
 		</itemizedlist>
 
