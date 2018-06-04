@@ -29,7 +29,7 @@
 
 		<para>A useful way to deal with this is dual (or multiple) boots. By dual (or multiple) booting you can ensure you are able to access at all times a working version while testing the development system. In this way you can do as much work in the development release as is practical – all the while watching for bugs and regressions in the development release.</para>
 
-		<para>When dual (or multiple booting) it can be helpful to install the bootloader to specific partitions, a simple run-through on addressing this can be found at <ulink url="https://wiki.xubuntu.org/qa/fine_tuning">Manual Partitions and Bootloader location</ulink>.
+		<para>When dual (or multiple booting) it can be helpful to install the bootloader to specific partitions, a simple run-through on addressing this can be found at <ulink url="https://wiki.xubuntu.org/qa/fine_tuning">Manual Partitions and Bootloader location</ulink>.</para>
 
 		<para>Issues which the development team are keen to address include, in addition to normally reported issues, usability bugs, missing icons, inconsistent functionality.</para>
 	</section>
@@ -40,13 +40,10 @@
 		<para>We have 3 PPAs which we use regularly to test packages. These are:</para>
 
 		<itemizedlist>
-			      <listitem><para><ulink url="https://launchpad.net/~shimmerproject/+archive/ubuntu/daily">Shimmer Themes</ulink> for daily builds of the Shimmer Project’s projects</para></listitem>
-
-            <listitem><para><ulink url="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/ppa">Xubuntu  daily builds</ulink> for daily Git and Bzr builds for packages  related to Xubuntu and/or Xfce4</para></listitem>
-
-            <listitem><para><ulink url="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/experimental">Xubuntu QA Experimental</ulink> for packages and package versions that are being prepared for inclusion in Xubuntu, uploaded for the convenience of people testing these new package versions and features in an otherwise stable environment.</para></listitem>
-
-            <listitem><para><ulink url="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/staging">Xubuntu QA Staging</ulink> for testing of packages in released and current Xubuntu versions</para></listitem>
+			<listitem><para><ulink url="https://launchpad.net/~shimmerproject/+archive/ubuntu/daily">Shimmer Themes</ulink> for daily builds of the Shimmer Project’s projects</para></listitem>
+			<listitem><para><ulink url="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/ppa">Xubuntu daily builds</ulink> for daily Git and Bzr builds for packages related to Xubuntu and/or Xfce4</para></listitem>
+			<listitem><para><ulink url="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/experimental">Xubuntu QA Experimental</ulink> for packages and package versions that are being prepared for inclusion in Xubuntu, uploaded for the convenience of people testing these new package versions and features in an otherwise stable environment</para></listitem>
+			<listitem><para><ulink url="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/staging">Xubuntu QA Staging</ulink> for testing of packages in released and current Xubuntu versions</para></listitem>
 		</itemizedlist>
 
 		<note><para>At times the development team use other PPAs to test specific packages. Details of these will be made known to testers when appropriate</para></note>
@@ -70,7 +67,7 @@
 
 		<para>Check the devel mailing list close to the start of the cycle, where the decision as to which testing week(s) we will participate in will be discussed.</para>
 
-		<para>During testing weeks the ISO will continue to build, the Xubuntu QA Team will watch the tracker reports and make testers aware of issues noted in previous days, notes will be made as appropriate pn the tracker <ulink url="https://dev.xubuntu.org/#tab-qa">QA Status page</ulink>.
+		<para>During testing weeks the ISO will continue to build, the Xubuntu QA Team will watch the tracker reports and make testers aware of issues noted in previous days, notes will be made as appropriate pn the tracker <ulink url="https://dev.xubuntu.org/#tab-qa">QA Status page</ulink>.</para>
 	</section>
 
 	<section id="qa-testing-milestone">
