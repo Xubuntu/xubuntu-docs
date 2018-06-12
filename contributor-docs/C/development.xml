@@ -31,8 +31,9 @@
 	 	<segmentedlist>
 			<?dbhtml list-presentation="table"?>
 			<segtitle>PPA</segtitle><segtitle>Description</segtitle>
-			<seglistitem><seg><ulink url="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/xubuntu-staging">Xubuntu Staging</ulink></seg><seg>A staging PPA for Xubuntu. The packages and package versions in this PPA are being prepared for inclusion in Xubuntu. The packages are uploaded for the convenience of people testing these new package versions and features. Some of them are daily builds used in testing.</seg></seglistitem>
 			<seglistitem><seg><ulink url="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/ppa">Xubuntu Daily Builds</ulink></seg><seg>Git/Bzr daily builds for packages related to Xubuntu and/or Xfce4.</seg></seglistitem>
+			<seglistitem><seg><ulink url="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/experimental">Xubuntu QA Experimental</ulink></seg><seg>An experimental PPA for Xubuntu. The packages and package versions in this PPA are being prepared for inclusion in Xubuntu. The packages are uploaded for the convenience of people testing these new package versions and features. Some of them are daily builds used in testing.</seg></seglistitem>
+			<seglistitem><seg><ulink url="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/xubuntu-staging">Xubuntu QA Staging</ulink></seg><seg>A staging PPA for Xubuntu, often used for SRU preparation. The packages and package versions in this PPA are being prepared for inclusion in Xubuntu. The packages are uploaded for the convenience of people testing these new package versions and features. Some of them are daily builds used in testing.</seg></seglistitem>
 			<seglistitem><seg><ulink url="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/extras">Xubuntu Extras</ulink></seg><seg>A preview PPA for Xubuntu. The packages in this PPA are considered for inclusion in the Ubuntu repositories and/or Xubuntu at a later time. The packages are uploaded for the convenience of people willing to preview the new features.</seg></seglistitem>
 		</segmentedlist>
 	</section>
