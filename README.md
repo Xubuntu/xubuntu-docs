@@ -8,3 +8,5 @@ Each Xubuntu release includes its own branch. In-development releases are mainta
 
 Report issues at [Launchpad](https://bugs.launchpad.net/ubuntu/+source/xubuntu-docs) or with \
 `ubuntu-bug xubuntu-docs`
+
+Contribute to translations at [Transifex](https://www.transifex.com/xubuntu/xubuntu-docs/)
