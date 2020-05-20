@@ -1,16 +1,16 @@
-# Lithuanian translation for xubuntu-docs
-# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# Serbian Latin translation for xubuntu-docs
+# Copyright (c) 2020 Rosetta Contributors and Canonical Ltd 2020
 # This file is distributed under the same license as the xubuntu-docs package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-06-04 23:34+0200\n"
-"PO-Revision-Date: 2020-04-01 03:10+0000\n"
-"Last-Translator: Moo <hazap@hotmail.com>\n"
-"Language-Team: Lithuanian <lt@li.org>\n"
+"PO-Revision-Date: 2020-04-06 02:58+0000\n"
+"Last-Translator: Irfan Kurtagić <Unknown>\n"
+"Language-Team: Serbian Latin <sr@latin@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,16 +22,16 @@ msgid ""
 "Translator data could not be acquired, please see <ulink "
 "url=\"https://translations.launchpad.net/xubuntu-docs\">Launchpad</ulink>."
 msgstr ""
-"Nepavyko gauti vertėjo duomenų, prašome žiūrėti <ulink "
+"Podaci prevodioca nisu uspeli, molimo pogledajte <ulink "
 "url=\"https://translations.launchpad.net/xubuntu-docs\">Launchpad</ulink>."
 
 #: contributor-docs/C/xi-translator-credits.xml:1(para)
 msgid "The contributors to this translation of the documentation are:"
-msgstr "Šios dokumentacijos vertimo talkininkai yra:"
+msgstr "Doprinosioci prevoda ove dokumentacije su:"
 
 #: contributor-docs/C/xi-pdf-files.xml:2(title)
 msgid "Would you rather read this documentation in PDF?"
-msgstr "Ar norėtumėte verčiau skaityti šią dokumentaciją kaip PDF?"
+msgstr "Da li biste radije pročitali ovu dokumentaciju u PDF-u?"
 
 #: contributor-docs/C/xi-pdf-files.xml:3(para)
 msgid ""
@@ -39,8 +39,8 @@ msgid ""
 "A4.pdf\">A4</ulink> or <ulink url=\"xubuntu-documentation-USletter.pdf\">US "
 "letter</ulink>."
 msgstr ""
-"Pasirinkite pageidaujamą popieriaus dydį: <ulink url=\"xubuntu-documentation-"
-"A4.pdf\">A4</ulink> ar <ulink url=\"xubuntu-documentation-USletter.pdf\">US "
+"Odaberite željenu veličinu papira: <ulink url=\"xubuntu-documentation-"
+"A4.pdf\">A4</ulink> ili <ulink url=\"xubuntu-documentation-USletter.pdf\">US "
 "letter</ulink>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -50,16 +50,14 @@ msgid ""
 "@@image: '../../libs-common/images/icon_branch.png'; "
 "md5=6c8acbb31a2d9585dac53fd6b553291f"
 msgstr ""
-"@@image: '../../libs-common/images/icon_branch.png'; "
-"md5=6c8acbb31a2d9585dac53fd6b553291f"
 
 #: contributor-docs/C/website.xml:14(title)
 msgid "Website"
-msgstr "Svetainė"
+msgstr "Veb sajt"
 
 #: contributor-docs/C/website.xml:17(title)
 msgid "Introduction to the Xubuntu web presence"
-msgstr ""
+msgstr "Uvod u Xubuntu veb prisustvo"
 
 #: contributor-docs/C/website.xml:20(title)
 msgid "Xubuntu.org"
@@ -70,6 +68,8 @@ msgid ""
 "<emphasis>The website is the main output for end-users.</emphasis> The "
 "content on the website should be easily understandable and approachable."
 msgstr ""
+"<emphasis> Veb sajt je glavna prezentacija za krajnje korisnike. </emphasis> "
+"Sadržaj na veb sajtu bi trebao biti lako razumljiv i dostupan."
 
 #: contributor-docs/C/website.xml:24(para)
 msgid ""
@@ -80,6 +80,12 @@ msgid ""
 "Launchpad, under the <ulink url=\"https://bugs.launchpad.net/xubuntu-"
 "website/+bugs\">bugs for xubuntu-website</ulink>."
 msgstr ""
+"Veb sajt je WordPress instanca na serveru koji održava Canonical IS. Sadržaj "
+"veb sajta nadgleda i administrira Xubuntov veb tim. Tim veb sajta može "
+"podneti 'tikete' za Canonical IS zbog bilo kakvih problema. Greške koje su "
+"povezane sa veb sajtom mogu se poslati na Launchpad, pod <ulink "
+"url=\"https://bugs.launchpad.net/xubuntu-website/+bugs\"> greške za xubuntu-"
+"veb-sajt </ulink>."
 
 #: contributor-docs/C/website.xml:26(para)
 msgid ""
@@ -87,29 +93,29 @@ msgid ""
 "1/>lp:xubuntu-website</literal> (the theme) and <literal><placeholder-"
 "2/>lp:xubuntu-website/plugins</literal> (the plugins)."
 msgstr ""
-"Pirminis svetainės kodas yra prieinamas ties <literal><placeholder-"
-"1/>lp:xubuntu-website</literal> (tema) ir <literal><placeholder-"
-"2/>lp:xubuntu-website/plugins</literal> (įskiepiai)."
+"Izvorni kod za veb sajt dostupan je na <literal><placeholder-1/>lp:xubuntu-"
+"website</literal> (the theme) and <literal><placeholder-2/>lp:xubuntu-"
+"website/plugins</literal> (the plugins)."
 
 #: contributor-docs/C/website.xml:30(title)
 msgid "Xubuntu wiki"
-msgstr "Xubuntu vikis"
+msgstr "Xubuntu wiki"
 
 #: contributor-docs/C/website.xml:32(emphasis)
 msgid ""
 "The Xubuntu wiki is used for some developer communication and serves as an "
 "archive for older release roadmaps and specification."
 msgstr ""
-"Xubuntu vikis yra naudojamas tam tikram bendravimui tarp kūrėjų ir yra kaip "
-"archyvas, skirtas senesnių laidų veiklos grafikui ir specifikacijai."
+"Xubuntu wiki se koristi za komunikaciju među developerima i služi kao arhiva "
+"za starija izdanja mapa i specifikacija."
 
 #: contributor-docs/C/website.xml:37(title)
 msgid "Xubuntu website maintenance documentation"
-msgstr ""
+msgstr "Xubuntu veb sajt dokumentacija za održavanje"
 
 #: contributor-docs/C/website.xml:40(title)
 msgid "Releases"
-msgstr ""
+msgstr "Izdanja"
 
 #: contributor-docs/C/website.xml:42(para)
 msgid ""
@@ -123,6 +129,15 @@ msgid ""
 "url=\"https://xubuntu.org/help/\">Help &amp; Support</ulink> page and the "
 "<ulink url=\"https://xubuntu.org/press/\">In the Press</ulink> page."
 msgstr ""
+"Xubuntu veb sajt prati izdanja sa prilagođenom taksonomijom WordPress-a. "
+"Uslovi izdanja mogu se priložiti gotovo svim vrstama sadržaja koji se "
+"koriste na veb sajtu. Informacije o terminu izdanja i priloženi sadržaj "
+"koriste se za automatizaciju stvaranja nekih sadržaja na veb sajtu, "
+"uključujući, ali ne nužno i ograničeno na: the <ulink "
+"url=\"https://xubuntu.org/releases\">release pages</ulink>, the <ulink "
+"url=\"https://xubuntu.org/getxubuntu/\">Download page</ulink>, the <ulink "
+"url=\"https://xubuntu.org/help/\">Help &amp; Support</ulink> page and the "
+"<ulink url=\"https://xubuntu.org/press/\">In the Press</ulink> page."
 
 #: contributor-docs/C/website.xml:44(para)
 msgid ""
@@ -131,18 +146,27 @@ msgid ""
 "switch), go to <ulink url=\"https://xubuntu.org/wp-admin/edit-"
 "tags.php?taxonomy=release\">Posts – Releases</ulink>."
 msgstr ""
+"Da biste uredili generičke informacije za svako izdanje (ime koda, datum "
+"izdanja, datum EOL-a, linkove za preuzimanja Torrenta i on-line "
+"dokumentaciju i prekidač izdanja), idite na <ulink "
+"url=\"https://xubuntu.org/wp-admin/edit-tags.php?taxonomy=release\">Posts – "
+"Releases</ulink>."
 
 #: contributor-docs/C/website.xml:46(para)
 msgid ""
 "To attach any content to a release, select the desired release(s) on the "
 "content edit page."
 msgstr ""
+"Da biste izdanju dodali bilo koji sadržaj, izaberite željena izdanja na "
+"stranici za uređivanje sadržaja."
 
 #: contributor-docs/C/website.xml:48(para)
 msgid ""
 "The following shortcodes are used to output aggregated release information "
 "(replace <literal>xx-xx</literal> with the desired release slug):"
 msgstr ""
+"Sledeće kratke šifre koriste se za izlaz agregiranih informacija o izdanju "
+"(zamenite <literal>xx-xx</literal> sa željenim 'pužom' izdanja):"
 
 #: contributor-docs/C/website.xml:51(para)
 msgid ""
@@ -175,10 +199,13 @@ msgid ""
 "template lists all released and supported releases with their short "
 "descriptions. The release pages are created automatically."
 msgstr ""
+"Odredišna stranica izdanja koristi istoimeni predložak stranice; obrazac "
+"sadrži sva izdanja i podržana izdanja sa njihovim kratkim opisima. Stranice "
+"sa izdanjima kreiraju se automatski."
 
 #: contributor-docs/C/website.xml:61(title)
 msgid "Release links"
-msgstr ""
+msgstr "LInkovi izdanja"
 
 #: contributor-docs/C/website.xml:63(para)
 msgid ""
@@ -188,10 +215,15 @@ msgid ""
 "new.php?post_type=release_link\">Release Links</ulink>. Once added to the "
 "database, links will appear in the appropriate places automatically."
 msgstr ""
+"Da biste dodali 'press' linkove (i ostale zvanične linkove specifične za "
+"izdanje, osim veza za preuzimanje Torrent-a i veza do dokumentacije na "
+"mreži), idite na <ulink url=\"https://xubuntu.org/wp-admin/post-"
+"new.php?post_type=release_link\">Release Links</ulink>. Jednom dodati u bazi "
+"podataka, linkovi će se automatski pojaviti na odgovarajućim mestima."
 
 #: contributor-docs/C/website.xml:67(title)
 msgid "Download mirrors"
-msgstr "Atsiuntimo tinklavietės"
+msgstr "MIrori za preuzimanje"
 
 #: contributor-docs/C/website.xml:69(para)
 msgid ""
@@ -204,6 +236,14 @@ msgid ""
 "links are shown on the default listing; set the mirror as a <emphasis>main "
 "download mirror</emphasis> if you want it to be visible directly."
 msgstr ""
+"Liste linkova za preuzimanje kreiraju se automatski iz predložaka URL-ova "
+"sačuvanih u bazi podataka. Da biste upravljali mirorima za izdanja na "
+"listama za preuzimanje, idite na <ulink url=\"https://xubuntu.org/wp-"
+"admin/edit.php?post_type=download_mirror\">DL Mirrors</ulink>. Na stranicama "
+"za uređivanje možete preuzeti aktivne ili neaktivne mirore (odnosno vidljiva "
+"i skrivena na frontend-u). Takođe možete da promenite koji su linkovi za "
+"preuzimanje prikazani na zadanom spisku; postavite miror kao <emphasis> "
+"glavni miror za preuzimanje </emphasis> ako želite da bude direktno vidljivo."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -212,20 +252,18 @@ msgid ""
 "@@image: '../../libs-common/images/icon_package.png'; "
 "md5=15cff8b23f9cf506a7b7e8f98f1289ac"
 msgstr ""
-"@@image: '../../libs-common/images/icon_package.png'; "
-"md5=15cff8b23f9cf506a7b7e8f98f1289ac"
 
 #: contributor-docs/C/strategy-document.xml:14(title)
 msgid "Strategy Document"
-msgstr "Strateginis dokumentas"
+msgstr "Strateški Dokument"
 
 #: contributor-docs/C/strategy-document.xml:18(title)
 msgid "Introduction"
-msgstr "Įžanga"
+msgstr "Uvod"
 
 #: contributor-docs/C/strategy-document.xml:21(title)
 msgid "About this Document"
-msgstr "Apie šį dokumentą"
+msgstr "O ovom Dokumentu"
 
 #: contributor-docs/C/strategy-document.xml:23(para)
 msgid ""
@@ -233,8 +271,8 @@ msgid ""
 "Xubuntu project as well as act as a guide and a reference for the Xubuntu "
 "Team."
 msgstr ""
-"Šis dokumentas aprašys Xubuntu projekto strategiją, viziją ir kryptį, o taip "
-"pat patarnaus kaip Xubuntu komandos vadovas ir rodyklė."
+"Ovaj dokument će opisati strategiju, viziju i smer Xubuntu projekta, kao i "
+"vodič i referencu za Xubuntu Tim."
 
 #: contributor-docs/C/strategy-document.xml:25(para)
 msgid ""
@@ -243,6 +281,10 @@ msgid ""
 "community. This version is based on the former Xubuntu Strategy Document by "
 "Cody Somerville et al."
 msgstr ""
+"Ovu revidiranu verziju napisao je Pasi Lallinaho uz pomoć Elizabeth "
+"Krumbach i Simon Steinbeiß-a, zajedno sa brojnim ljudima u zajednici. Ova "
+"verzija zasnovana je na bivšem Strateškom Dokumentu Xubuntu-a, koji su "
+"napisali Codi Somerville i dr."
 
 #: contributor-docs/C/strategy-document.xml:27(para)
 msgid ""
@@ -253,7 +295,7 @@ msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:31(title)
 msgid "Mission Statement"
-msgstr "Misijos teiginys"
+msgstr "Izjava o Misiji"
 
 #: contributor-docs/C/strategy-document.xml:33(para)
 msgid ""
@@ -262,23 +304,21 @@ msgid ""
 "configurable desktop environment with conservative workflows. Xubuntu "
 "delivers a polished and unified product ready for end-users."
 msgstr ""
-"Xubuntu yra bendruomenės kuriama, Ubuntu pagrįsta operacinė sistema, kuri "
-"sujungia eleganciją ir lengvą naudojimą. Xubuntu pateikia supaprastintą, "
-"stabilią ir konfigūruojamą darbalaukio aplinką su konservatyvia darbo eiga. "
-"Xubuntu suteikia glotnų ir sujungtą produktą, kuris paruoštas galutiniam "
-"naudotojui."
+"Xubuntu je operativni sistem, rayvijen uz pomoć zajednice, zasnovan na "
+"Ubuntu-u, koji kombinuje eleganciju i lakoću korišćenja. Xubuntu pruža "
+"lagano, stabilno i podesivo okruženje radne površine sa konzervativnim "
+"radnim tokovima. Xubuntu isporučuje ispolirani i objedinjeni proizvod "
+"spreman za krajnje korisnike."
 
 #: contributor-docs/C/strategy-document.xml:35(para)
 msgid ""
 "In addition to the technical aspects, the Xubuntu team focuses on "
 "contributor and user communities."
 msgstr ""
-"Be papildomų techninių aspektų, Xubuntu komanda susitelkia ties talkininkų "
-"ir naudotojų bendruomenėmis."
 
 #: contributor-docs/C/strategy-document.xml:40(title)
 msgid "Target"
-msgstr "Tikslas"
+msgstr "Meta"
 
 #: contributor-docs/C/strategy-document.xml:42(para)
 msgid ""
@@ -289,12 +329,12 @@ msgid ""
 "choice for users who prefer conservative workflows over the newest "
 "innovations."
 msgstr ""
-"Tikslinę Xubuntu auditoriją sudaro naudotojai, kurie yra sudominti "
-"elegantiška, lengva naudoti, glotnia ir sujungta operacine sistema. Xubuntu "
-"taip pat yra geras pasirinkimas tiems, kas nori stabilios, konfigūruojamos "
-"ir/ar santykinai supaprastintos darbalaukio aplinkos. Apibendrinus, Xubuntu "
-"yra patrauklus pasirinkimas naudotojams, kurie teikia pirmenybę "
-"konservatyviai darbo eigai, o ne naujesnėms inovacijoms."
+"Ciljna publika za Xubuntu sastoji se od korisnika koji su zainteresovani da "
+"imaju elegantan, jednostavan za korišćenje, ispoliran i objedinjen "
+"operativni sistem. Xubuntu je dobra opcija za one koji žele i stabilno, "
+"konfigurabilno i / ili relativno lagano radno okruženje. Konačno, Xubuntu je "
+"privlačan izbor za korisnike koji preferiraju konzervativne radne tokove nad "
+"najnovijim inovacijama."
 
 #: contributor-docs/C/strategy-document.xml:44(para)
 msgid ""
@@ -305,6 +345,12 @@ msgid ""
 "according to this ease of use, it is a good alternative for those users as "
 "well."
 msgstr ""
+"Xubuntu ne cilja korisnike sa specifičnim setima veština ili sklonostima. "
+"Želimo da Xubuntu bude održiva opcija za korisnike koji su novi na Linux ili "
+"Ubuntu platformi, ali da takođe bude privlačan i iskusnijim korisnicima. "
+"Xubuntu se ne fokusira posebno na nove korisnike ili korisnike koji "
+"migriraju sa Windows-a, ali prema ovoj jednostavnosti upotrebe, dobra je "
+"alternativa i za te korisnike."
 
 #: contributor-docs/C/strategy-document.xml:46(para)
 msgid ""
@@ -313,6 +359,10 @@ msgid ""
 "responsiveness and speed, among other positive traits, can be appreciated by "
 "all users, regardless of their hardware."
 msgstr ""
+"Xubuntu ne cilja eksplicitno korisnike sa slabim, skromnim ili jakim "
+"mašinama, već umesto toga cilja na ceo spektar. Xubuntu-ov dodatni odziv i "
+"brzina, između ostalih pozitivnih osobina, mogu da primete svi korisnici, "
+"bez obzira na njihov hardver."
 
 #: contributor-docs/C/strategy-document.xml:48(para)
 msgid ""
@@ -321,10 +371,14 @@ msgid ""
 "(officially or unofficially) with Xfce are not guaranteed for inclusion in "
 "Xubuntu."
 msgstr ""
+"Iako Xubuntu koristi Xfce radno okruženje, nije posebno usmeren na Xfce "
+"entuzijaste ili projekte; i softver omogućen Xfce projektom ili udruživanje "
+"(zvanično ili nezvanično) sa Xfce nije zagarantovano za uključivanje u "
+"Xubuntu."
 
 #: contributor-docs/C/strategy-document.xml:52(title)
 msgid "Areas of Focus"
-msgstr ""
+msgstr "Područja Fokusa"
 
 #: contributor-docs/C/strategy-document.xml:54(para)
 msgid ""
@@ -333,6 +387,10 @@ msgid ""
 "but not limited to decision making processes, package selection and "
 "technical dispute resolution."
 msgstr ""
+"Ovaj deo strateškog dokumenta pruža transparentan okvir (frejmvork) i niz "
+"prioriteta za celokupni razvoj Xubuntu-a i njegove zadatke, uključujući, "
+"ali ne ograničavajući se na procese donošenja odluka, izbor paketa i "
+"tehničko rešavanje sporova."
 
 #: contributor-docs/C/strategy-document.xml:56(para)
 msgid ""
@@ -342,10 +400,15 @@ msgid ""
 "release-specific goals and priorities, but instead recognized as the "
 "principles which the release-specific goals are based on."
 msgstr ""
+"Područja fokusa predstavljena su u apstraktnom i jednostavnom obliku, ali su "
+"dovoljno konkretna da budu delotvorna. Kao temelj vizije Xubuntu-a, "
+"specifikacije u strateškom dokumentu ne smiju se mešati sa specifičnim "
+"ciljevima i prioritetima izdanja, već se priznaju kao principi na kojima se "
+"zasnivaju ciljevi specifični za izdanje."
 
 #: contributor-docs/C/strategy-document.xml:59(title)
 msgid "Focus 1: Usability"
-msgstr ""
+msgstr "Fokus 1: Upotrebljivost"
 
 #: contributor-docs/C/strategy-document.xml:61(para)
 msgid ""
@@ -363,6 +426,11 @@ msgid ""
 "meaningful way; other applications should live up to this expectation at "
 "least moderately well."
 msgstr ""
+"Xubuntu bi trebao biti lokalizovan, kako bi omogućio korisnicima da rade na "
+"svom željenom jeziku. Drugi važan aspekt upotrebljivosti je "
+"konfigurabilnost. Vjerujemo da Xfce pruža mogućnost korisnicima da smisleno "
+"konfigurišu svoj sistem; ostale aplikacije trebalo bi da ispune to "
+"očekivanje, barem umereno dobro."
 
 #: contributor-docs/C/strategy-document.xml:65(para)
 msgid ""
@@ -371,10 +439,14 @@ msgid ""
 "unreasonable efforts to integrate, implement or maintain. At least common "
 "accessibility tools should be installed in the default Xubuntu installation."
 msgstr ""
+"Iako pristupačnost nije jedan od glavnih prioriteta Xubuntu-a, trebalo bi ga "
+"ozbiljno razmotriti sve dok ne zahteva nerazumne napore da se integriše, "
+"implementira ili održi. U podrazumevanoj Xubuntu-ovoj instalaciji treba da "
+"budu instalirani najmanje uobičajeni alati za pristupačnost."
 
 #: contributor-docs/C/strategy-document.xml:69(title)
 msgid "Focus 2: Performance"
-msgstr ""
+msgstr "Fokus 2: Performanse"
 
 #: contributor-docs/C/strategy-document.xml:71(para)
 msgid ""
@@ -385,22 +457,33 @@ msgid ""
 "the Xubuntu team is able to work on other improvements and provide a release "
 "that is able to fulfill the expectations for a modern operating system."
 msgstr ""
+"Xubuntu tim bi trebao težiti tome da Xubuntu postane lakšim. To znači da bi "
+"svako izdanje Xubuntu-a trebalo da radi umereno dobro na mašinama koje "
+"datiraju na nekoliko godina pre datuma izlaska. To naposletku znači da "
+"novija izdanja Xubuntu-a možda neće moći da podrže starije računare. "
+"Međutim, to garantuje da je Xubuntu tim u mogućnosti da radi na drugim "
+"poboljšanjima i obezbedi izdanje koje je u stanju da ispuni očekivanja "
+"modernog operativnog sistema."
 
 #: contributor-docs/C/strategy-document.xml:73(para)
 msgid ""
 "Users wanting the most lightweight system possible should be pointed at the "
 "minimal CD, more lightweight derivatives (such as Lubuntu) or other options."
 msgstr ""
+"Korisnici koji žele lak (lajtvejt) sistem se trebaju uputiti ka minimalnom "
+"CD-u, lakše derivate (kao što je Lubuntu) ili druge opcije."
 
 #: contributor-docs/C/strategy-document.xml:75(para)
 msgid ""
 "At the start of the release cycle, the minimum system requirements should be "
 "re-evaluated to determine if they continue to be realistic."
 msgstr ""
+"Na početku ciklusa izdanja. potrebno je preispitati minimalne sistemske "
+"zahteve da bi se utvrdilo da li su i dalje realni."
 
 #: contributor-docs/C/strategy-document.xml:79(title)
 msgid "Focus 3: Ready to Use"
-msgstr ""
+msgstr "Fokus 3: Spremnost za upotrebu"
 
 #: contributor-docs/C/strategy-document.xml:81(para)
 msgid ""
@@ -410,6 +493,11 @@ msgid ""
 "Xubuntu desktop will appear rough and unpolished which is unappealing to end-"
 "users."
 msgstr ""
+"Za nas je važno da pružimo ispolirani i objedinjeni proizvod spreman za "
+"krajnje korisnike. Takođe je preduslov za omogućavanje Xubuntu-a kao "
+"korisne, upotrebljive i efikasne radne površine. Bez pomenute integracije, "
+"Xubuntu-ova radna površina će se činiti grubom i nepoliranom, što i nije "
+"baš privlačno za krajnje korisnike."
 
 #: contributor-docs/C/strategy-document.xml:83(para)
 msgid ""
@@ -417,16 +505,22 @@ msgid ""
 "that work well with each other as well as by applying patches to assure a "
 "more bug-free system."
 msgstr ""
+"Integracija se ostvaruje i izborom aplikacija i biblioteka koje dobro "
+"funkcionišu jedna sa drugom, kao i primenom pečova kako bi se osigurao "
+"sistem bez grešaka."
 
 #: contributor-docs/C/strategy-document.xml:85(para)
 msgid ""
 "See <xref linkend=\"xsd-seeds-composition-package-selection\"/> for "
 "guidelines on how to determine if an application fits in the Xubuntu stack."
 msgstr ""
+"Pogledajte <xref linkend=\"xsd-seeds-composition-package-selection\"/> za "
+"smernice o tome kako da utvrdite da li se aplikacija uklapa u Xubuntu "
+"'stack'."
 
 #: contributor-docs/C/strategy-document.xml:89(title)
 msgid "Focus 4: Community"
-msgstr ""
+msgstr "Fokus 4: Zajednica"
 
 #: contributor-docs/C/strategy-document.xml:91(para)
 msgid ""
@@ -436,6 +530,12 @@ msgid ""
 "between the contributors as well as users is described more closely in <xref "
 "linkend=\"xsd-community\"/> and <xref linkend=\"xsd-development\"/>."
 msgstr ""
+"Xubuntu zajednica je važna sila u kreiranju Xubuntu-a i u čineći ga "
+"savršenim onoliko koliko može biti. Od suštinskog je značaja da redovna "
+"koordinacija između saradnika dobro funkcioniše. Infrastruktura koja "
+"omogućava dobru komunikaciju između saradnika i korisnika detaljnije je "
+"opisana u <xref linkend=\"xsd-community\"/> and <xref linkend=\"xsd-"
+"development\"/>."
 
 #: contributor-docs/C/strategy-document.xml:93(para)
 msgid ""
@@ -445,14 +545,18 @@ msgid ""
 "the Xubuntu team should try to allocate some resources to the cooperation at "
 "a later time."
 msgstr ""
+"Tamo gde je to moguće i prikladno, Xubuntu tim treba da sarađuje sa drugim "
+"zajednicama, uključujući ostale Ubuntu timove (i druge). Ako saradnja u "
+"datom trenutku nije moguća, ali bi bila korisna za obe strane, Xubuntu tim "
+"bi trebao pokušati da dodeli neke resurse za kasniju saradnju."
 
 #: contributor-docs/C/strategy-document.xml:98(title)
 msgid "Community"
-msgstr "Bendruomenė"
+msgstr "Zajednica"
 
 #: contributor-docs/C/strategy-document.xml:101(title)
 msgid "Xubuntu Council"
-msgstr ""
+msgstr "Xubuntu Veće"
 
 #: contributor-docs/C/strategy-document.xml:103(para)
 msgid ""
@@ -469,10 +573,13 @@ msgid ""
 "xubuntu-council team is the administrator for all other Xubuntu Launchpad "
 "teams, giving the council full administration access for the Xubuntu teams."
 msgstr ""
+"Launchpad tim xubuntu-council sastoji se od članova veća. Tim xubuntu-"
+"council je administrator svih ostalih Xubuntu Launchpad timova, pružajući "
+"veću potpuni pristup za Xubuntu-ove timove."
 
 #: contributor-docs/C/strategy-document.xml:108(title)
 msgid "Membership"
-msgstr ""
+msgstr "Članstvo"
 
 #: contributor-docs/C/strategy-document.xml:110(para)
 msgid ""
@@ -483,6 +590,12 @@ msgid ""
 "themselves or anybody else in the Xubuntu community with the nominees "
 "consent. The same group of people is eligible to vote."
 msgstr ""
+"Veće se sastoji od 3 člana, koji se biraju <ulink "
+"url=\"http://civs.cs.cornell.edu/\">CIVS</ulink> glasanjem. Svi članovi u "
+"<ulink url=\"https://launchpad.net/~xubuntu-team\">timu Xubuntu</ulink> i / "
+"ili direktni članovi bilo kojih moderiranih podtimova mogu biti nominovani, "
+"bilo oni sami ili bilo ko drugi u Xubuntu zajednici sa pristankom kandidata. "
+"Ista grupa ljudi ima pravo glasa."
 
 #: contributor-docs/C/strategy-document.xml:112(para)
 msgid ""
@@ -490,22 +603,29 @@ msgid ""
 "replaced by a new council member for the remainder of their term, elected by "
 "a new CIVS vote."
 msgstr ""
+"Ako član veća bude 6 meseci neaktivan, član će biti zamenjen novim članom "
+"veća do kraja mandata, izabran novim glasom CIVS-a."
 
 #: contributor-docs/C/strategy-document.xml:114(para)
 msgid ""
 "The council will decide on a chair for the whole council term. The chair "
 "will act as the official point of contact for Xubuntu."
 msgstr ""
+"Veće će odlučivati o predsedavajućem tokom celog mandata saveta. "
+"Predsedavajuća će služiti kao zvanična kontaktna tačka za Xubuntu."
 
 #: contributor-docs/C/strategy-document.xml:118(title)
 msgid "Council operation"
-msgstr ""
+msgstr "Rad Veća"
 
 #: contributor-docs/C/strategy-document.xml:119(para)
 msgid ""
 "The council is expected to take action or respond to any issue raised within "
 "2 weeks. If appropriate and fair, the first action can be postponement."
 msgstr ""
+"Od veća se očekuje da preduzme mere ili odgovori na bilo koje pitanje "
+"postavljeno u roku od dve nedelje. Ako je prikladno i pravedno, prva akcija "
+"može biti odložena."
 
 #: contributor-docs/C/strategy-document.xml:121(para)
 msgid ""
@@ -517,16 +637,25 @@ msgid ""
 "after consulting the Xubuntu team, they should consult the Ubuntu Community "
 "Council and other appropriate Ubuntu community teams."
 msgstr ""
+"Ako u bilo koje vreme većina tima Xubuntu-a smatra da su radnje veća štetne "
+"za projekat, predmetno pitanje trebalo bi da se postavi veću na ponovno "
+"razmatranje. Ako se ne može naći rešenje, veće treba da se konsultuje sa "
+"Savetom zajednice Ubuntu i drugim odgovarajućim timovima zajednice Ubuntu. "
+"Slično tome, ako veće ne može da postigne konsenzus čak i nakon konsultacija "
+"sa Xubuntu timom, trebalo bi da se konsultuje sa Savetom zajednice Ubuntu i "
+"drugim odgovarajućim timovima zajednice Ubuntu."
 
 #: contributor-docs/C/strategy-document.xml:126(title)
 msgid "Xubuntu Team"
-msgstr "Xubuntu komanda"
+msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:128(para)
 msgid ""
 "The Xubuntu team is a group of individuals who are primarily responsible for "
 "the Xubuntu development."
 msgstr ""
+"Xubuntu tim je grupa pojedinaca koji su prvenstveno odgovorni za razvoj "
+"Xubuntu-a."
 
 #: contributor-docs/C/strategy-document.xml:130(para)
 msgid ""
@@ -534,6 +663,9 @@ msgid ""
 "url=\"https://launchpad.net/~xubuntu-team\">xubuntu-team</ulink>. The "
 "Launchpad team is moderated."
 msgstr ""
+"Xubuntu tim je u Launchpad-u organizovan kao <ulink "
+"url=\"https://launchpad.net/~xubuntu-team\">xubuntu-team</ulink>. Launchpad "
+"tim je moderiran."
 
 #: contributor-docs/C/strategy-document.xml:132(para)
 msgid ""
@@ -542,6 +674,9 @@ msgid ""
 "declined. Leaders for subteams can be appointed from this team. The Xubuntu "
 "team is moderated by the council."
 msgstr ""
+"Osobe koje se žele pridružiti Xubuntu timu moraju ispuniti dole opisane "
+"kriterijume pre prijave ili će automatski biti odbijeni. Iz ovog tima se "
+"mogu imenovati lideri podtimova. Veće moderira Xubuntu tim."
 
 #: contributor-docs/C/strategy-document.xml:134(para)
 msgid ""
@@ -551,10 +686,16 @@ msgid ""
 "may want to consider voting on it again after more discussion. If required, "
 "the issue can be raised to the council for further consideration."
 msgstr ""
+"U slučaju da je vođstvo tima u manjini prilikom glasanja o pitanju koje se "
+"tiče njihove oblasti stručnosti, vođstvo tima trebalo bi da ima još jedno "
+"saslušanje, nakon čega bi tim trebalo da bude dodatno pažljiv u odlučivanju "
+"o tom pitanju i možda će želeti da razmotri glasanje o opet nakon više "
+"rasprava. Ako je potrebno, ovo pitanje se može postaviti veću na dalje "
+"razmatranje."
 
 #: contributor-docs/C/strategy-document.xml:137(title)
 msgid "Becoming and staying a member"
-msgstr ""
+msgstr "Postajanje i ostajanje u članstvu"
 
 #: contributor-docs/C/strategy-document.xml:139(para)
 msgid ""
@@ -566,18 +707,28 @@ msgid ""
 "guidelines, and more important, with other people and communities. To become "
 "a member, one must:"
 msgstr ""
+"Da bi bili prihvaćeni u Xubuntu tim, učesnici kandidata moraju pokazati "
+"svoju motivaciju i sposobnost da doprinesu Xubuntu-u. Ovo će osigurati da "
+"bilo koji član Xubuntu tima ima dovoljno razumijevanja za Xubuntu zajednicu "
+"i njen rad. Različiti koraci koje mora proći takođe će ukazati da je "
+"kandidat kandidat sposoban za rad u skladu sa smernicama, i što je još "
+"važnije, sa drugim ljudima i zajednicama. Da biste postali član, morate:"
 
 #: contributor-docs/C/strategy-document.xml:142(para)
 msgid ""
 "Commit meaningful contributions to one of the subteams, after which one can "
 "be approved to the subteam for \"probation\" by a subteam administrator"
 msgstr ""
+"Izvršavati značajne doprinose jednom od podtimova, nakon čega ga može "
+"odobriti podtim za \"probu\" od strane administratora podtima."
 
 #: contributor-docs/C/strategy-document.xml:143(para)
 msgid ""
 "Demonstrate motivation to contribute perpetually, after which one can be "
 "approved to the Xubuntu team"
 msgstr ""
+"Demonstrirajte motivaciju za stalni doprinos, nakon čega možete biti "
+"odobreni Xubuntu timu"
 
 #: contributor-docs/C/strategy-document.xml:146(para)
 msgid ""
@@ -588,10 +739,16 @@ msgid ""
 "team administrators should purge people with no contributions in more than 6 "
 "months from the teams occasionally."
 msgstr ""
+"Da bi ostao član Xubuntu tima, član će morati imati želju da nastavi davati "
+"doprinose u budućnosti. Svako bez doprinosa duže od kompletnog ciklusa (6 "
+"meseci) trebalo bi da se deaktivira iz tima, kao i svih podtimova i da se "
+"ponovo prijavi ako / kada je voljan da se ponovo pridruži. Administratori "
+"tima treba da povremeno uklanjaju ljude bez doprinosa duže od 6 meseci od "
+"timova."
 
 #: contributor-docs/C/strategy-document.xml:151(title)
 msgid "Xubuntu Users"
-msgstr "Xubuntu naudotojai"
+msgstr "Xubuntu Korisnici"
 
 #: contributor-docs/C/strategy-document.xml:153(para)
 msgid ""
@@ -599,6 +756,9 @@ msgid ""
 "users\">xubuntu-users</ulink> is the formal top-level group of people who "
 "are interested in Xubuntu. The team is open for anybody to join."
 msgstr ""
+"Launchpad tim <ulink url=\"https://launchpad.net/~xubuntu-users\">xubuntu-"
+"users</ulink> je formalna grupa najvišeg nivoa koja je zainteresovana za "
+"Xubuntu. Tim je otvoren za bilo koga."
 
 #: contributor-docs/C/strategy-document.xml:155(para)
 msgid ""
@@ -607,6 +767,10 @@ msgid ""
 "word about Xubuntu anywhere they see fit, including but not limited to "
 "blogs, social media and conferences."
 msgstr ""
+"Članovi zvanične Launchpad grupe se ohrabruju da daju korisničku podršku na "
+"IRC-u i na Xubuntu mejl listi za slanje korisnika, kao i da šire reč o "
+"Xubuntu-u gde god to smatraju prikladnim, uključujući, ali ne "
+"ograničavajući se na blogove, društvene medije i konferencije."
 
 #: contributor-docs/C/strategy-document.xml:157(para)
 msgid ""
@@ -621,19 +785,19 @@ msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:162(title) contributor-docs/C/development.xml:14(title)
 msgid "Development"
-msgstr ""
+msgstr "Razvoj"
 
 #: contributor-docs/C/strategy-document.xml:165(title)
 msgid "Coordination"
-msgstr ""
+msgstr "Koordinacija"
 
 #: contributor-docs/C/strategy-document.xml:167(para)
 msgid "The direction of the development of the project is coordinated by:"
-msgstr ""
+msgstr "Pravac razvoja projekta koordinira:"
 
 #: contributor-docs/C/strategy-document.xml:170(para)
 msgid "The Strategy Document"
-msgstr ""
+msgstr "Strateški Dokument"
 
 #: contributor-docs/C/strategy-document.xml:171(para)
 msgid "Release-specific blueprints and specifications"
@@ -3171,4 +3335,4 @@ msgstr ""
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
-"  Moo https://launchpad.net/~mooo"
+"  Irfan Kurtagić https://launchpad.net/~ibkindness"

@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2018-01-11 16:39-0500\n"
-"PO-Revision-Date: 2018-05-26 07:39+0000\n"
+"POT-Creation-Date: 2018-06-04 23:34+0200\n"
+"PO-Revision-Date: 2020-04-01 03:10+0000\n"
 "Last-Translator: Sean Davis <Unknown>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-05-27 05:35+0000\n"
-"X-Generator: Launchpad (build 18667)\n"
+"X-Launchpad-Export-Date: 2020-05-20 10:48+0000\n"
+"X-Generator: Launchpad (build 0385b538081bc4718df6fb844a3afc89729c94ce)\n"
 
 #: contributor-docs/C/xi-translators-not-found.xml:1(para)
 msgid ""
@@ -1194,9 +1194,10 @@ msgstr ""
 
 #: contributor-docs/C/qa.xml:29(para)
 msgid ""
-"At the start of a cycle, the Release Team will discuss which ISO Milestones "
-"we will participate in. Then, during a Community Meeting, members of Xubuntu "
-"Team will discuss and then ratify Xubuntu's participation during the cycle."
+"At the start of a cycle, the Release Team will discuss which ISO Testing "
+"Weeks we will participate in. Then, during a Community Meeting, members of "
+"Xubuntu Team will discuss and then ratify Xubuntu's participation during the "
+"cycle."
 msgstr ""
 
 #: contributor-docs/C/qa.xml:31(para)
@@ -1207,7 +1208,7 @@ msgid ""
 msgstr ""
 
 #: contributor-docs/C/qa.xml:34(para)
-msgid "Sufficient testing takes place prior to ISO Milestone releases"
+msgid "Sufficient testing takes place during ISO Testing Weeks"
 msgstr ""
 
 #: contributor-docs/C/qa.xml:35(para)
@@ -1398,18 +1399,17 @@ msgstr ""
 
 #: contributor-docs/C/qa.xml:103(para)
 msgid ""
-"Just prior to an upcoming ISO Milestone testing call, warn on the devel list"
+"Just prior to an upcoming ISO testing week call, warn on the devel list"
 msgstr ""
 
 #: contributor-docs/C/qa.xml:104(para)
-msgid "Make an ISO Milestone testing call"
+msgid "Make an ISO testing week call"
 msgstr ""
 
 #: contributor-docs/C/qa.xml:107(para)
 msgid ""
-"Xubuntu Users will be contacted for ISO testing at later ISO Milestones, at "
-"the earliest the Beta 1 milestone, depending on the state of the current ISO "
-"and our packages."
+"Xubuntu Users will be contacted for ISO testing at the Final Beta ISO "
+"Milestone."
 msgstr ""
 
 #: contributor-docs/C/qa.xml:111(title)
@@ -1429,7 +1429,7 @@ msgstr ""
 #: contributor-docs/C/qa.xml:118(para)
 msgid ""
 "Work with the testing wiki <ulink "
-"url=\"https://wiki.ubuntu.com/Xubuntu/Testing/ReleaseNote\">Release "
+"url=\"https://wiki.xubuntu.org/releases/18.10/release-notes\">Release "
 "Note</ulink>"
 msgstr ""
 
@@ -1541,6 +1541,14 @@ msgstr ""
 
 #: contributor-docs/C/qa-testing.xml:32(para)
 msgid ""
+"When dual (or multiple booting) it can be helpful to install the bootloader "
+"to specific partitions, a simple run-through on addressing this can be found "
+"at <ulink url=\"https://wiki.xubuntu.org/qa/fine_tuning\">Manual Partitions "
+"and Bootloader location</ulink>."
+msgstr ""
+
+#: contributor-docs/C/qa-testing.xml:34(para)
+msgid ""
 "Issues which the development team are keen to address include, in addition "
 "to normally reported issues, usability bugs, missing icons, inconsistent "
 "functionality."
@@ -1549,16 +1557,16 @@ msgstr ""
 "incluem, além de problemas normalmente reportados, erros de usabilidade, "
 "ícones ausentes, funcionalidades inconsistentes."
 
-#: contributor-docs/C/qa-testing.xml:36(title)
+#: contributor-docs/C/qa-testing.xml:38(title)
 msgid "Using Development PPAs"
 msgstr "Usando PPAs de desenvolvimento"
 
-#: contributor-docs/C/qa-testing.xml:38(para)
+#: contributor-docs/C/qa-testing.xml:40(para)
 msgid "We have 3 PPAs which we use regularly to test packages. These are:"
 msgstr ""
 "Nós temos 3 PPAs que usamos regularmente para testar pacotes. Esses são:"
 
-#: contributor-docs/C/qa-testing.xml:41(para)
+#: contributor-docs/C/qa-testing.xml:43(para)
 msgid ""
 "<ulink "
 "url=\"https://launchpad.net/~shimmerproject/+archive/ubuntu/daily\">Shimmer "
@@ -1568,17 +1576,7 @@ msgstr ""
 "url=\"https://launchpad.net/~shimmerproject/+archive/ubuntu/daily\">Temas "
 "Shimmer</ulink> para compilações diárias dos projetos do projeto Shimmer"
 
-#: contributor-docs/C/qa-testing.xml:42(para)
-msgid ""
-"<ulink url=\"https://launchpad.net/~xubuntu-dev/+archive/ubuntu/xubuntu-"
-"staging\">Xubuntu Staging</ulink> for packages and package versions that are "
-"being prepared for inclusion in Xubuntu"
-msgstr ""
-"<ulink url=\"https://launchpad.net/~xubuntu-dev/+archive/ubuntu/xubuntu-"
-"staging\">Estágio Xubuntu</ulink> para pacotes e versões de pacotes que "
-"estão sendo preparados para inclusão em Xubuntu"
-
-#: contributor-docs/C/qa-testing.xml:43(para)
+#: contributor-docs/C/qa-testing.xml:44(para)
 msgid ""
 "<ulink url=\"https://launchpad.net/~xubuntu-"
 "dev/+archive/ubuntu/ppa\">Xubuntu daily builds</ulink> for daily Git and Bzr "
@@ -1588,7 +1586,23 @@ msgstr ""
 "dev/+archive/ubuntu/ppa\">Construções diárias do Xubuntu</ulink> para as "
 "compilações diárias Git e Bzr para pacotes relacionados ao Xubuntu e/ou Xfce4"
 
+#: contributor-docs/C/qa-testing.xml:45(para)
+msgid ""
+"<ulink url=\"https://launchpad.net/~xubuntu-"
+"dev/+archive/ubuntu/experimental\">Xubuntu QA Experimental</ulink> for "
+"packages and package versions that are being prepared for inclusion in "
+"Xubuntu, uploaded for the convenience of people testing these new package "
+"versions and features in an otherwise stable environment"
+msgstr ""
+
 #: contributor-docs/C/qa-testing.xml:46(para)
+msgid ""
+"<ulink url=\"https://launchpad.net/~xubuntu-"
+"dev/+archive/ubuntu/staging\">Xubuntu QA Staging</ulink> for testing of "
+"packages in released and current Xubuntu versions"
+msgstr ""
+
+#: contributor-docs/C/qa-testing.xml:49(para)
 msgid ""
 "At times the development team use other PPAs to test specific packages. "
 "Details of these will be made known to testers when appropriate"
@@ -1597,18 +1611,14 @@ msgstr ""
 "específicos. Detalhes disso serão divulgados aos testadores quando "
 "apropriado."
 
-#: contributor-docs/C/qa-testing.xml:48(para)
+#: contributor-docs/C/qa-testing.xml:51(para)
 msgid ""
-"Installing these three PPAs means that you will be using and testing "
-"packages that developers are currently working with, this means that "
-"regressions found by you will not be present once they are released."
+"Installing from these PPAs means that you will be using and testing packages "
+"that developers are currently working with, this means that regressions "
+"found by you will not be present once they are released."
 msgstr ""
-"A instalação destes três PPAs significa que você estará usando e testando "
-"pacotes com os quais os desenvolvedores estão trabalhando atualmente, o que "
-"significa que as regressões encontradas por você não estarão presentes "
-"quando forem lançadas."
 
-#: contributor-docs/C/qa-testing.xml:50(para)
+#: contributor-docs/C/qa-testing.xml:53(para)
 msgid ""
 "Removing an in use PPA. Using ppa-purge causes apt to disable a PPA source "
 "list and then change affected packages back to the default versions."
@@ -1617,85 +1627,85 @@ msgstr ""
 "lista de fontes PPA e, em seguida, altere os pacotes afetados de volta às "
 "versões padrão."
 
-#: contributor-docs/C/qa-testing.xml:53(para)
+#: contributor-docs/C/qa-testing.xml:56(para)
 msgid "Run <userinput>sudo apt-get install ppa-purge</userinput>"
 msgstr "Execute <userinput>sudo apt-get install ppa-purge</userinput>"
 
-#: contributor-docs/C/qa-testing.xml:54(para)
+#: contributor-docs/C/qa-testing.xml:57(para)
 msgid "Run <userinput>sudo ppa-purge ppa:ppaname</userinput>"
 msgstr "Execute <userinput>sudo ppa-purge ppa:ppaname</userinput>"
 
-#: contributor-docs/C/qa-testing.xml:57(para)
+#: contributor-docs/C/qa-testing.xml:60(para)
 msgid ""
 "Reporting bugs with PPAs can be problematic, please see further information "
 "on reporting bugs with PPAs in <xref linkend=\"qa-bugs-ppa\"/>."
 msgstr ""
 
-#: contributor-docs/C/qa-testing.xml:61(title)
+#: contributor-docs/C/qa-testing.xml:64(title)
 msgid "Static Testing"
 msgstr ""
 
-#: contributor-docs/C/qa-testing.xml:63(para)
+#: contributor-docs/C/qa-testing.xml:66(para)
 msgid ""
 "Testing the development versions of Xubuntu and packages in it helps keep up "
 "the every day quality. If you have spare hardware resources or are able to "
 "run a virtualized testing environment, you can help."
 msgstr ""
 
-#: contributor-docs/C/qa-testing.xml:66(para)
+#: contributor-docs/C/qa-testing.xml:68(para)
 msgid ""
 "Check the devel mailing list close to the start of the cycle, where the "
-"decision as to which milestones we will participate in will be discussed."
+"decision as to which testing week(s) we will participate in will be "
+"discussed."
 msgstr ""
 
-#: contributor-docs/C/qa-testing.xml:67(para)
+#: contributor-docs/C/qa-testing.xml:70(para)
 msgid ""
-"While milestone testing is in progress, please watch for rebuilds. A rebuilt "
-"ISO will have <literal>.something</literal> appended to its name (e.g. "
-"<literal>.1</literal>). These will take place either when we have reason to "
-"rebuild, e.g. following a bug fix landing, or more likely when the Ubuntu "
-"Release Team have cause to do so."
+"During testing weeks the ISO will continue to build, the Xubuntu QA Team "
+"will watch the tracker reports and make testers aware of issues noted in "
+"previous days, notes will be made as appropriate pn the tracker <ulink "
+"url=\"https://dev.xubuntu.org/#tab-qa\">QA Status page</ulink>."
 msgstr ""
 
-#: contributor-docs/C/qa-testing.xml:72(title)
-msgid "Milestone Testing"
+#: contributor-docs/C/qa-testing.xml:74(title)
+msgid "Testing Weeks"
 msgstr ""
 
-#: contributor-docs/C/qa-testing.xml:74(para)
+#: contributor-docs/C/qa-testing.xml:76(para)
 msgid ""
-"Stand alone image testing for milestones is useful in the 2 days before the "
-"release. To see how these milestones are scheduled, refer to the Ubuntu "
-"release schedule."
+"Fixed ISO testing will only take place for the Final Beta, during this "
+"milestone it is useful in the 2 days prior to release for the following to "
+"have taken place."
 msgstr ""
 
-#: contributor-docs/C/qa-testing.xml:77(para) contributor-docs/C/qa-testing.xml:88(para)
+#: contributor-docs/C/qa-testing.xml:79(para) contributor-docs/C/qa-testing.xml:90(para)
 msgid ""
 "Live Session: Boot with the image and ensure that basic application testing "
 "(open, close, saving etc.) passes."
 msgstr ""
 
-#: contributor-docs/C/qa-testing.xml:78(para) contributor-docs/C/qa-testing.xml:89(para)
+#: contributor-docs/C/qa-testing.xml:80(para) contributor-docs/C/qa-testing.xml:91(para)
 msgid "Installation tests required pass. These test only the installation."
 msgstr ""
 
-#: contributor-docs/C/qa-testing.xml:83(title)
+#: contributor-docs/C/qa-testing.xml:85(title)
 msgid "Daily Testing"
 msgstr ""
 
-#: contributor-docs/C/qa-testing.xml:85(para)
+#: contributor-docs/C/qa-testing.xml:87(para)
 msgid ""
-"The importance of daily image testing lies in the main in knowing that boot "
-"or installation regressions haven’t appeared. Where it appears they have, if "
-"you are able to boot with a different flavours image, this can help prove a "
-"global or local to Xubuntu issue. If unsure contact the Xubuntu team, "
-"preferrably on IRC."
+"The importance of daily image testing lies mainly in knowing that boot "
+"and/or installation regressions haven’t appeared. Where it appears they "
+"have, if you are able to boot with a different flavours image, this can help "
+"prove a global or local to Xubuntu issue. If unsure contact the Xubuntu "
+"team, preferably on IRC."
 msgstr ""
 
-#: contributor-docs/C/qa-testing.xml:94(title)
+#: contributor-docs/C/qa-testing.xml:96(title)
 msgid "Upgrade Testing"
 msgstr ""
 
-#: contributor-docs/C/qa-testing.xml:96(para)
+#: contributor-docs/C/qa-testing.xml:98(para)
 msgid ""
 "About half way through any development cycle (around the beta milestones) we "
 "need to test upgrades from the previous release to the new development "
@@ -1703,7 +1713,7 @@ msgid ""
 "release, we need to test both upgrade paths: LTS to LTS and regular to LTS."
 msgstr ""
 
-#: contributor-docs/C/qa-testing.xml:98(para)
+#: contributor-docs/C/qa-testing.xml:100(para)
 msgid ""
 "The ISO tracker has a section for upgrade tests which does not change daily, "
 "but runs from Friday to Friday. This enables us to test upgrades for a week "
@@ -1712,26 +1722,26 @@ msgid ""
 "reported and fixes landed."
 msgstr ""
 
-#: contributor-docs/C/qa-testing.xml:101(para)
+#: contributor-docs/C/qa-testing.xml:103(para)
 msgid "Upgrade: tested using the update-manager"
 msgstr ""
 
-#: contributor-docs/C/qa-testing.xml:102(para)
+#: contributor-docs/C/qa-testing.xml:104(para)
 msgid "Upgrade (image): tested using the daily image"
 msgstr ""
 
-#: contributor-docs/C/qa-testing.xml:107(title)
+#: contributor-docs/C/qa-testing.xml:109(title)
 msgid "Package Testing"
 msgstr ""
 
-#: contributor-docs/C/qa-testing.xml:109(para)
+#: contributor-docs/C/qa-testing.xml:111(para)
 msgid ""
 "For releases where we are making use of the Package Tracker, calls for "
 "package testing will be made to the xubuntu-devel mailing list as required. "
 "This could be a call from QA or Developers."
 msgstr ""
 
-#: contributor-docs/C/qa-testing.xml:111(para)
+#: contributor-docs/C/qa-testing.xml:113(para)
 msgid ""
 "A schedule of planned tests will be mailed to the Xubuntu Devel mailing list "
 "close to the cycle start. Reminders of upcoming package test requirements "
@@ -1804,8 +1814,8 @@ msgstr ""
 msgid ""
 "ISOs can be obtained through a few methods. The simplest method is to visit "
 "the <ulink url=\"http://iso.qa.ubuntu.com/\">ISO</ulink> tracker. Follow the "
-"testcases through version to Xubuntu's group of tests. Then choose either 32 "
-"or 64 bit. Download links are available there."
+"testcases through release codename to Xubuntu's group of tests. Then choose "
+"either 64 or 32 bit. Download links are available there."
 msgstr ""
 
 #: contributor-docs/C/qa-infra.xml:40(para)
@@ -1833,8 +1843,8 @@ msgstr ""
 
 #: contributor-docs/C/qa-infra.xml:52(para)
 msgid ""
-"Using a virtual machine enables you to carry on using a normal release and "
-"to test our ISOs. You can install a virtual machine by directly using your "
+"Using a virtual machine enables you to carry on using a normal release when "
+"testing our ISOs. You can install a virtual machine by directly using your "
 "downloaded ISO."
 msgstr ""
 
@@ -1905,34 +1915,30 @@ msgid ""
 msgstr ""
 
 #: contributor-docs/C/qa-bugs.xml:22(para)
-msgid "xubuntu-exp: always add this tag"
-msgstr ""
-
-#: contributor-docs/C/qa-bugs.xml:23(para)
 msgid ""
 "ppa: add this tag when you've reported a bug against a package from one of "
 "the 3 develeopment PPAs"
 msgstr ""
 
-#: contributor-docs/C/qa-bugs.xml:24(para)
+#: contributor-docs/C/qa-bugs.xml:23(para)
 msgid ""
 "usability: add this tag if the issue you are reporting is not a standard "
 "bug, but one which might be deemed wishlist, such as multiple selection of "
 "results in the Catfish results window"
 msgstr ""
 
-#: contributor-docs/C/qa-bugs.xml:29(title)
+#: contributor-docs/C/qa-bugs.xml:28(title)
 msgid "Normal bug reporting"
 msgstr ""
 
-#: contributor-docs/C/qa-bugs.xml:31(para)
+#: contributor-docs/C/qa-bugs.xml:30(para)
 msgid ""
 "Anybody using Xubuntu can file (or in other words, report) bugs, even with "
 "no experience at all. Filing bugs is important because in some cases, bugs "
 "can go unnoticed unless an end user files them."
 msgstr ""
 
-#: contributor-docs/C/qa-bugs.xml:33(para)
+#: contributor-docs/C/qa-bugs.xml:32(para)
 msgid ""
 "Before submitting a bug, you should look at the <ulink "
 "url=\"https://launchpad.net/ubuntu/+bugs\">existing bug reports</ulink> and "
@@ -1943,7 +1949,7 @@ msgid ""
 "guidelines</ulink> before filing your first bug."
 msgstr ""
 
-#: contributor-docs/C/qa-bugs.xml:35(para)
+#: contributor-docs/C/qa-bugs.xml:34(para)
 msgid ""
 "In the most situations, it is easiest to file a bug by opening a new "
 "Terminal and type ubuntu-bug package-name, where package-name is the package "
@@ -1954,7 +1960,7 @@ msgid ""
 "information than too little."
 msgstr ""
 
-#: contributor-docs/C/qa-bugs.xml:37(para)
+#: contributor-docs/C/qa-bugs.xml:36(para)
 msgid ""
 "If you are unsure of the package name to report against, you can use your "
 "mouse to click on the application window; in a terminal run "
@@ -1962,11 +1968,11 @@ msgid ""
 "then click on the application window."
 msgstr ""
 
-#: contributor-docs/C/qa-bugs.xml:41(title)
+#: contributor-docs/C/qa-bugs.xml:40(title)
 msgid "Reporting bugs with PPAs"
 msgstr ""
 
-#: contributor-docs/C/qa-bugs.xml:43(para)
+#: contributor-docs/C/qa-bugs.xml:42(para)
 msgid ""
 "When you encounter a bug with a package from a PPA, you’ll need to file the "
 "bug report manually. Once you’ve got the offending package name, go to "
@@ -1974,7 +1980,7 @@ msgid ""
 "ral>."
 msgstr ""
 
-#: contributor-docs/C/qa-bugs.xml:45(para)
+#: contributor-docs/C/qa-bugs.xml:44(para)
 msgid ""
 "Crash logs related to the package can be found in "
 "<literal>/var/crash/</literal>. This directory sometimes requires superuser "
@@ -1984,17 +1990,17 @@ msgid ""
 "identifiable material."
 msgstr ""
 
-#: contributor-docs/C/qa-bugs.xml:47(para)
+#: contributor-docs/C/qa-bugs.xml:46(para)
 msgid ""
 "Be sure to follow the above general guidelines, and also add the ppa tag so "
 "it is clear to developers that this is an unsupported package."
 msgstr ""
 
-#: contributor-docs/C/qa-bugs.xml:51(title)
+#: contributor-docs/C/qa-bugs.xml:50(title)
 msgid "Triaging bugs"
 msgstr ""
 
-#: contributor-docs/C/qa-bugs.xml:53(para)
+#: contributor-docs/C/qa-bugs.xml:52(para)
 msgid ""
 "Triaging bugs is getting bug reports in a state where they are useful for "
 "developers by making sure bug reports have useful titles, descriptions, "
@@ -2003,7 +2009,7 @@ msgid ""
 "Ubuntu wiki."
 msgstr ""
 
-#: contributor-docs/C/qa-bugs.xml:55(para)
+#: contributor-docs/C/qa-bugs.xml:54(para)
 msgid ""
 "After you have made yourself familiar with the aspects of triaging bugs, you "
 "can start triaging <ulink url=\"https://bugs.launchpad.net/~xubuntu-"
@@ -2016,7 +2022,7 @@ msgid ""
 "team."
 msgstr ""
 
-#: contributor-docs/C/qa-bugs.xml:57(para)
+#: contributor-docs/C/qa-bugs.xml:56(para)
 msgid ""
 "As you gain experience on triaging Xubuntu bugs, you may want to take a look "
 "at new bugs that mention Xubuntu. Triaging new bugs is recommended for those "
@@ -2024,18 +2030,18 @@ msgid ""
 "all of the new bugs mentioning Xubuntu are actually Xubuntu bugs."
 msgstr ""
 
-#: contributor-docs/C/qa-bugs.xml:61(title)
+#: contributor-docs/C/qa-bugs.xml:60(title)
 msgid "Forwarding bugs upstream"
 msgstr ""
 
-#: contributor-docs/C/qa-bugs.xml:63(para)
+#: contributor-docs/C/qa-bugs.xml:62(para)
 msgid ""
 "When bugs are forwarded upstream, all users of the relevant software will "
 "benefit from the debugging, triaging and patching work carried out by bug "
 "triagers and developers."
 msgstr ""
 
-#: contributor-docs/C/qa-bugs.xml:65(para)
+#: contributor-docs/C/qa-bugs.xml:64(para)
 msgid ""
 "Once it has been determined that a bug is not caused by a change in Xubuntu, "
 "bugs can be forwarded to their respective upstream projects to be reviewed. "
@@ -2045,7 +2051,7 @@ msgid ""
 "with the upstream bug."
 msgstr ""
 
-#: contributor-docs/C/qa-bugs.xml:67(para)
+#: contributor-docs/C/qa-bugs.xml:66(para)
 msgid ""
 "The Ubuntu wiki has an extensive page on <ulink "
 "url=\"https://wiki.ubuntu.com/Bugs/Upstream\">forwarding bugs "
@@ -3477,6 +3483,7 @@ msgstr ""
 "  Fábio Nogueira https://launchpad.net/~fnogueira\n"
 "  Hounie https://launchpad.net/~guilhermo-hounie\n"
 "  Krytarik Raido https://launchpad.net/~krytarik\n"
+"  Luis Felipe Lemos Forman https://launchpad.net/~lipe66\n"
 "  Mar https://launchpad.net/~thecrims227\n"
 "  Michael Martins https://launchpad.net/~michaelfm21\n"
 "  Pasi Lallinaho https://launchpad.net/~knome\n"

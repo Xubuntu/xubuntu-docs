@@ -1,16 +1,16 @@
-# Lithuanian translation for xubuntu-docs
-# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# Indonesian translation for xubuntu-docs
+# Copyright (c) 2020 Rosetta Contributors and Canonical Ltd 2020
 # This file is distributed under the same license as the xubuntu-docs package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-06-04 23:34+0200\n"
-"PO-Revision-Date: 2020-04-01 03:10+0000\n"
-"Last-Translator: Moo <hazap@hotmail.com>\n"
-"Language-Team: Lithuanian <lt@li.org>\n"
+"PO-Revision-Date: 2020-04-14 07:03+0000\n"
+"Last-Translator: Arief Setiadi Wibowo <q_thrynx@yahoo.com>\n"
+"Language-Team: Indonesian <id@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,16 +22,16 @@ msgid ""
 "Translator data could not be acquired, please see <ulink "
 "url=\"https://translations.launchpad.net/xubuntu-docs\">Launchpad</ulink>."
 msgstr ""
-"Nepavyko gauti vertėjo duomenų, prašome žiūrėti <ulink "
+"Data penerjemah tidak bisa diperoleh, silahkan lihat <ulink "
 "url=\"https://translations.launchpad.net/xubuntu-docs\">Launchpad</ulink>."
 
 #: contributor-docs/C/xi-translator-credits.xml:1(para)
 msgid "The contributors to this translation of the documentation are:"
-msgstr "Šios dokumentacijos vertimo talkininkai yra:"
+msgstr "Para kontributor untuk penterjemahan dari dokumentasi ini adalah :"
 
 #: contributor-docs/C/xi-pdf-files.xml:2(title)
 msgid "Would you rather read this documentation in PDF?"
-msgstr "Ar norėtumėte verčiau skaityti šią dokumentaciją kaip PDF?"
+msgstr "Apakah Anda bersedia membaca dokumentasi ini dalam bentuk PDF?"
 
 #: contributor-docs/C/xi-pdf-files.xml:3(para)
 msgid ""
@@ -39,9 +39,9 @@ msgid ""
 "A4.pdf\">A4</ulink> or <ulink url=\"xubuntu-documentation-USletter.pdf\">US "
 "letter</ulink>."
 msgstr ""
-"Pasirinkite pageidaujamą popieriaus dydį: <ulink url=\"xubuntu-documentation-"
-"A4.pdf\">A4</ulink> ar <ulink url=\"xubuntu-documentation-USletter.pdf\">US "
-"letter</ulink>."
+"Pilih ukuran kertas pilihan Anda: <ulink url = \"xubuntu-dokumentasi-"
+"A4.pdf\"> A4 </ulink> atau <ulink url = \"xubuntu-dokumentasi-"
+"USletter.pdf\"> US letter </ulink>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -50,16 +50,16 @@ msgid ""
 "@@image: '../../libs-common/images/icon_branch.png'; "
 "md5=6c8acbb31a2d9585dac53fd6b553291f"
 msgstr ""
-"@@image: '../../libs-common/images/icon_branch.png'; "
-"md5=6c8acbb31a2d9585dac53fd6b553291f"
+"@@ image: '../../libs-common/images/icon_branch.png'; md5 = "
+"6c8acbb31a2d9585dac53fd6b553291f"
 
 #: contributor-docs/C/website.xml:14(title)
 msgid "Website"
-msgstr "Svetainė"
+msgstr "Situs web"
 
 #: contributor-docs/C/website.xml:17(title)
 msgid "Introduction to the Xubuntu web presence"
-msgstr ""
+msgstr "Pengantar kedatangan web Xubuntu"
 
 #: contributor-docs/C/website.xml:20(title)
 msgid "Xubuntu.org"
@@ -70,6 +70,8 @@ msgid ""
 "<emphasis>The website is the main output for end-users.</emphasis> The "
 "content on the website should be easily understandable and approachable."
 msgstr ""
+"<emphasis> Situs web adalah output utama bagi pengguna akhir. </emphasis> "
+"Konten di situs web harus mudah dimengerti dan didekati."
 
 #: contributor-docs/C/website.xml:24(para)
 msgid ""
@@ -80,6 +82,12 @@ msgid ""
 "Launchpad, under the <ulink url=\"https://bugs.launchpad.net/xubuntu-"
 "website/+bugs\">bugs for xubuntu-website</ulink>."
 msgstr ""
+"Situs web ini adalah turunan WordPress di server yang dikelola oleh "
+"Canonical IS. Konten situs web diawasi dan dikelola oleh tim situs web "
+"Xubuntu. Tim situs web dapat mengirimkan tiket ke IS Canonical untuk masalah "
+"apa pun. Bug yang terkait dengan situs web dapat dikirimkan di Launchpad, di "
+"bawah <ulink url = \"https://bugs.launchpad.net/xubuntu-website/+bugs\"> bug "
+"untuk xubuntu-situs web </ulink>."
 
 #: contributor-docs/C/website.xml:26(para)
 msgid ""
@@ -87,29 +95,29 @@ msgid ""
 "1/>lp:xubuntu-website</literal> (the theme) and <literal><placeholder-"
 "2/>lp:xubuntu-website/plugins</literal> (the plugins)."
 msgstr ""
-"Pirminis svetainės kodas yra prieinamas ties <literal><placeholder-"
-"1/>lp:xubuntu-website</literal> (tema) ir <literal><placeholder-"
-"2/>lp:xubuntu-website/plugins</literal> (įskiepiai)."
+"Kode sumber untuk situs web tersedia di <literal> <placeholder-1 /> lp: "
+"xubuntu-website </literal> (tema) dan <literal> <placeholder-2 /> lp: "
+"xubuntu-website / plugins </ literal> (plugin)."
 
 #: contributor-docs/C/website.xml:30(title)
 msgid "Xubuntu wiki"
-msgstr "Xubuntu vikis"
+msgstr "Wiki Xubuntu"
 
 #: contributor-docs/C/website.xml:32(emphasis)
 msgid ""
 "The Xubuntu wiki is used for some developer communication and serves as an "
 "archive for older release roadmaps and specification."
 msgstr ""
-"Xubuntu vikis yra naudojamas tam tikram bendravimui tarp kūrėjų ir yra kaip "
-"archyvas, skirtas senesnių laidų veiklos grafikui ir specifikacijai."
+"Wiki Xubuntu digunakan untuk beberapa komunikasi pengembang dan berfungsi "
+"sebagai arsip untuk peta jalan dan spesifikasi rilis yang lebih lama."
 
 #: contributor-docs/C/website.xml:37(title)
 msgid "Xubuntu website maintenance documentation"
-msgstr ""
+msgstr "Dokumentasi pemeliharaan situs web Xubuntu"
 
 #: contributor-docs/C/website.xml:40(title)
 msgid "Releases"
-msgstr ""
+msgstr "Rilis"
 
 #: contributor-docs/C/website.xml:42(para)
 msgid ""
@@ -123,6 +131,15 @@ msgid ""
 "url=\"https://xubuntu.org/help/\">Help &amp; Support</ulink> page and the "
 "<ulink url=\"https://xubuntu.org/press/\">In the Press</ulink> page."
 msgstr ""
+"Situs web Xubuntu melacak rilis dengan taksonomi WordPress khusus. Ketentuan "
+"rilis dapat dilampirkan ke hampir semua jenis konten yang digunakan di situs "
+"web. Informasi istilah rilis dan konten terlampir digunakan untuk "
+"mengotomatisasi beberapa pembuatan konten di situs web, termasuk tetapi "
+"tidak terbatas pada: <ulink url = \"https://xubuntu.org/releases\"> halaman "
+"rilis </ulink>, <ulink url = \"https://xubuntu.org/getxubuntu/\"> Laman "
+"unduhan </ulink>, <ulink url = \"https://xubuntu.org/help/\"> Bantuan & amp; "
+"Dukung halaman </ulink> dan <ulink url = \"https://xubuntu.org/press/\"> Di "
+"halaman Pers </ulink>."
 
 #: contributor-docs/C/website.xml:44(para)
 msgid ""
@@ -131,30 +148,42 @@ msgid ""
 "switch), go to <ulink url=\"https://xubuntu.org/wp-admin/edit-"
 "tags.php?taxonomy=release\">Posts – Releases</ulink>."
 msgstr ""
+"Untuk mengedit informasi umum untuk setiap rilis (nama kode, tanggal rilis, "
+"tanggal EOL, tautan untuk unduhan Torrent dan dokumentasi daring dan sakelar "
+"rilis), buka <ulink url = \"https://xubuntu.org/wp-admin/edit- tags.php? "
+"taxonomy = release \"> Posting - Rilis </ulink>."
 
 #: contributor-docs/C/website.xml:46(para)
 msgid ""
 "To attach any content to a release, select the desired release(s) on the "
 "content edit page."
 msgstr ""
+"Untuk melampirkan konten apa pun ke rilis, pilih rilis yang diinginkan pada "
+"halaman edit konten."
 
 #: contributor-docs/C/website.xml:48(para)
 msgid ""
 "The following shortcodes are used to output aggregated release information "
 "(replace <literal>xx-xx</literal> with the desired release slug):"
 msgstr ""
+"Shortcode berikut digunakan untuk menampilkan informasi rilis teragregasi "
+"(ganti <literal> xx-xx </literal> dengan slug rilis yang diinginkan):"
 
 #: contributor-docs/C/website.xml:51(para)
 msgid ""
 "<userinput>[torrents release=xx-xx]</userinput> to output Torrent download "
 "links"
 msgstr ""
+"<userinput> [torrents release = xx-xx] </userinput> untuk menghasilkan "
+"tautan unduhan Torrent"
 
 #: contributor-docs/C/website.xml:52(para)
 msgid ""
 "<userinput>[mirrors release=xx-xx]</userinput> to output the mirror download "
 "link list with extended information available"
 msgstr ""
+"<userinput> [mirror release = xx-xx] </userinput> untuk menampilkan daftar "
+"tautan unduhan cermin dengan informasi tambahan yang tersedia"
 
 #: contributor-docs/C/website.xml:53(para)
 msgid ""
@@ -162,12 +191,17 @@ msgid ""
 "attached to the release and <userinput>[press]</userinput> to output the "
 "press archive"
 msgstr ""
+"<userinput> [press release = xx-xx] </userinput> untuk menampilkan semua "
+"tautan pers yang dilampirkan ke rilis dan <userinput> [tekan] </userinput> "
+"untuk menampilkan arsip pers"
 
 #: contributor-docs/C/website.xml:54(para)
 msgid ""
 "<userinput>[documentation_links]</userinput> to output a list with links to "
 "the online documentation for all released and supported releases"
 msgstr ""
+"<userinput> [dokumentasi_links] </userinput> untuk menampilkan daftar dengan "
+"tautan ke dokumentasi online untuk semua rilis yang dirilis dan didukung"
 
 #: contributor-docs/C/website.xml:57(para)
 msgid ""
@@ -175,10 +209,13 @@ msgid ""
 "template lists all released and supported releases with their short "
 "descriptions. The release pages are created automatically."
 msgstr ""
+"Halaman arahan rilis menggunakan templat halaman dengan nama yang sama; "
+"templat mencantumkan semua yang dirilis dan didukung rilis dengan deskripsi "
+"singkatnya. Halaman rilis dibuat secara otomatis."
 
 #: contributor-docs/C/website.xml:61(title)
 msgid "Release links"
-msgstr ""
+msgstr "Rilis tautan"
 
 #: contributor-docs/C/website.xml:63(para)
 msgid ""
@@ -188,10 +225,15 @@ msgid ""
 "new.php?post_type=release_link\">Release Links</ulink>. Once added to the "
 "database, links will appear in the appropriate places automatically."
 msgstr ""
+"Untuk menambahkan tautan pers (dan tautan khusus rilis resmi lainnya selain "
+"dari tautan unduhan Torrent dan tautan ke dokumentasi online), buka <ulink "
+"url = \"https://xubuntu.org/wp-admin/post-new.php?post_type = release_link "
+"\"> Rilis Tautan </ulink>. Setelah ditambahkan ke basis data, tautan akan "
+"muncul di tempat yang sesuai secara otomatis."
 
 #: contributor-docs/C/website.xml:67(title)
 msgid "Download mirrors"
-msgstr "Atsiuntimo tinklavietės"
+msgstr "Unduh mirror"
 
 #: contributor-docs/C/website.xml:69(para)
 msgid ""
@@ -204,6 +246,15 @@ msgid ""
 "links are shown on the default listing; set the mirror as a <emphasis>main "
 "download mirror</emphasis> if you want it to be visible directly."
 msgstr ""
+"Daftar tautan unduhan dibuat secara otomatis dari templat URL yang disimpan "
+"dalam database. Untuk mengelola rilis cermin pada daftar unduhan, buka "
+"<ulink url = \"https://xubuntu.org/wp-"
+"admin/edit.php?post_type=download_mirror\"> DL Mirrors </ulink>. Pada "
+"halaman edit Anda dapat membuat mirror unduhan aktif atau tidak aktif "
+"(masing-masing terlihat dan disembunyikan di frontend). Anda juga dapat "
+"mengubah tautan unduhan mana yang ditampilkan pada daftar default; atur "
+"mirror sebagai <emphasis> mirror unduhan utama </emphasis> jika Anda ingin "
+"itu dapat dilihat secara langsung."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -217,15 +268,15 @@ msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:14(title)
 msgid "Strategy Document"
-msgstr "Strateginis dokumentas"
+msgstr "Dokumen Strategi"
 
 #: contributor-docs/C/strategy-document.xml:18(title)
 msgid "Introduction"
-msgstr "Įžanga"
+msgstr "Pengantar"
 
 #: contributor-docs/C/strategy-document.xml:21(title)
 msgid "About this Document"
-msgstr "Apie šį dokumentą"
+msgstr "Tentang Dokumen ini"
 
 #: contributor-docs/C/strategy-document.xml:23(para)
 msgid ""
@@ -233,8 +284,8 @@ msgid ""
 "Xubuntu project as well as act as a guide and a reference for the Xubuntu "
 "Team."
 msgstr ""
-"Šis dokumentas aprašys Xubuntu projekto strategiją, viziją ir kryptį, o taip "
-"pat patarnaus kaip Xubuntu komandos vadovas ir rodyklė."
+"Dokumen ini akan menjelaskan strategi, visi, dan arah proyek Xubuntu serta "
+"bertindak sebagai panduan dan referensi untuk Tim Xubuntu."
 
 #: contributor-docs/C/strategy-document.xml:25(para)
 msgid ""
@@ -243,6 +294,10 @@ msgid ""
 "community. This version is based on the former Xubuntu Strategy Document by "
 "Cody Somerville et al."
 msgstr ""
+"Versi revisi ini telah ditulis oleh Pasi Lallinaho dengan bantuan Elizabeth "
+"Krumbach dan Simon Steinbeiß bersama dengan banyak orang di komunitas. Versi "
+"ini didasarkan pada Dokumen Strategi Xubuntu sebelumnya oleh Cody Somerville "
+"et al."
 
 #: contributor-docs/C/strategy-document.xml:27(para)
 msgid ""
@@ -250,10 +305,14 @@ msgid ""
 "and Lionel Le Folgoc for their contributions to this document. Some content, "
 "ideas, and inspiration were derived from existing Ubuntu documentation."
 msgstr ""
+"Kami mengucapkan terima kasih kepada Cody Somerville, Jono Bacon, Eero "
+"Tamminen, Nico Veenkamp, ​​dan Lionel Le Folgoc atas kontribusi mereka pada "
+"dokumen ini. Beberapa konten, ide, dan inspirasi berasal dari dokumentasi "
+"Ubuntu yang ada."
 
 #: contributor-docs/C/strategy-document.xml:31(title)
 msgid "Mission Statement"
-msgstr "Misijos teiginys"
+msgstr "Pernyataan Misi"
 
 #: contributor-docs/C/strategy-document.xml:33(para)
 msgid ""
@@ -262,23 +321,23 @@ msgid ""
 "configurable desktop environment with conservative workflows. Xubuntu "
 "delivers a polished and unified product ready for end-users."
 msgstr ""
-"Xubuntu yra bendruomenės kuriama, Ubuntu pagrįsta operacinė sistema, kuri "
-"sujungia eleganciją ir lengvą naudojimą. Xubuntu pateikia supaprastintą, "
-"stabilią ir konfigūruojamą darbalaukio aplinką su konservatyvia darbo eiga. "
-"Xubuntu suteikia glotnų ir sujungtą produktą, kuris paruoštas galutiniam "
-"naudotojui."
+"Xubuntu adalah sistem operasi berbasis Ubuntu yang dikembangkan masyarakat "
+"yang menggabungkan keanggunan dan kemudahan penggunaan. Xubuntu menyediakan "
+"lingkungan desktop yang ringan, stabil dan dapat dikonfigurasi dengan alur "
+"kerja yang konservatif. Xubuntu menghadirkan produk yang dipoles dan terpadu "
+"yang siap untuk pengguna akhir."
 
 #: contributor-docs/C/strategy-document.xml:35(para)
 msgid ""
 "In addition to the technical aspects, the Xubuntu team focuses on "
 "contributor and user communities."
 msgstr ""
-"Be papildomų techninių aspektų, Xubuntu komanda susitelkia ties talkininkų "
-"ir naudotojų bendruomenėmis."
+"Selain aspek teknis, tim Xubuntu berfokus pada komunitas kontributor dan "
+"pengguna."
 
 #: contributor-docs/C/strategy-document.xml:40(title)
 msgid "Target"
-msgstr "Tikslas"
+msgstr "Target"
 
 #: contributor-docs/C/strategy-document.xml:42(para)
 msgid ""
@@ -289,12 +348,12 @@ msgid ""
 "choice for users who prefer conservative workflows over the newest "
 "innovations."
 msgstr ""
-"Tikslinę Xubuntu auditoriją sudaro naudotojai, kurie yra sudominti "
-"elegantiška, lengva naudoti, glotnia ir sujungta operacine sistema. Xubuntu "
-"taip pat yra geras pasirinkimas tiems, kas nori stabilios, konfigūruojamos "
-"ir/ar santykinai supaprastintos darbalaukio aplinkos. Apibendrinus, Xubuntu "
-"yra patrauklus pasirinkimas naudotojams, kurie teikia pirmenybę "
-"konservatyviai darbo eigai, o ne naujesnėms inovacijoms."
+"Target pengguna untuk Xubuntu terdiri dari pengguna yang tertarik untuk "
+"memiliki sistem operasi yang elegan, mudah digunakan, dipoles dan terpadu. "
+"Xubuntu adalah pilihan yang baik bagi mereka yang menginginkan lingkungan "
+"desktop yang stabil, dapat dikonfigurasi dan / atau relatif ringan juga. "
+"Akhirnya, Xubuntu adalah pilihan yang menarik bagi pengguna yang lebih "
+"menyukai alur kerja konservatif daripada inovasi terbaru."
 
 #: contributor-docs/C/strategy-document.xml:44(para)
 msgid ""
@@ -305,6 +364,12 @@ msgid ""
 "according to this ease of use, it is a good alternative for those users as "
 "well."
 msgstr ""
+"Xubuntu tidak menargetkan pengguna dengan keahlian atau bakat tertentu. Kami "
+"ingin Xubuntu menjadi opsi yang layak untuk pengguna yang baru mengenal "
+"Linux atau platform Ubuntu, tetapi juga menarik bagi pengguna yang lebih "
+"berpengalaman. Xubuntu tidak secara khusus berfokus pada pengguna baru atau "
+"pengguna yang bermigrasi dari Windows, tetapi menurut kemudahan penggunaan "
+"ini, Xubuntu juga merupakan alternatif yang baik untuk pengguna tersebut."
 
 #: contributor-docs/C/strategy-document.xml:46(para)
 msgid ""
@@ -313,6 +378,10 @@ msgid ""
 "responsiveness and speed, among other positive traits, can be appreciated by "
 "all users, regardless of their hardware."
 msgstr ""
+"Xubuntu tidak secara eksplisit menargetkan pengguna dengan mesin bertenaga "
+"rendah, sedang, atau tinggi tetapi malah menargetkan seluruh spektrum. "
+"Kecepatan dan respons ekstra Xubuntu, di antara sifat-sifat positif lainnya, "
+"dapat dihargai oleh semua pengguna, terlepas dari perangkat keras mereka."
 
 #: contributor-docs/C/strategy-document.xml:48(para)
 msgid ""
@@ -321,10 +390,14 @@ msgid ""
 "(officially or unofficially) with Xfce are not guaranteed for inclusion in "
 "Xubuntu."
 msgstr ""
+"Walaupun Xubuntu menggunakan Xfce, Xfce tidak ditargetkan secara khusus "
+"untuk penggemar atau proyek dan perangkat lunak Xfce yang dihosting oleh "
+"proyek Xfce atau bergabung (secara resmi atau tidak resmi) dengan Xfce tidak "
+"dijamin untuk dimasukkan dalam Xubuntu."
 
 #: contributor-docs/C/strategy-document.xml:52(title)
 msgid "Areas of Focus"
-msgstr ""
+msgstr "Area Fokus"
 
 #: contributor-docs/C/strategy-document.xml:54(para)
 msgid ""
@@ -333,6 +406,10 @@ msgid ""
 "but not limited to decision making processes, package selection and "
 "technical dispute resolution."
 msgstr ""
+"Bagian dari dokumen strategi ini menyediakan kerangka kerja transparan dan "
+"serangkaian prioritas untuk seluruh pengembangan Xubuntu dan tugas-tugasnya, "
+"termasuk tetapi tidak terbatas pada proses pengambilan keputusan, pemilihan "
+"paket dan penyelesaian sengketa teknis."
 
 #: contributor-docs/C/strategy-document.xml:56(para)
 msgid ""
@@ -342,10 +419,15 @@ msgid ""
 "release-specific goals and priorities, but instead recognized as the "
 "principles which the release-specific goals are based on."
 msgstr ""
+"Area fokus disajikan dalam bentuk abstrak dan sederhana tetapi juga cukup "
+"konkret untuk ditindaklanjuti. Sebagai dasar dari visi Xubuntu, spesifikasi "
+"dalam dokumen strategi tidak boleh dikacaukan dengan tujuan dan prioritas "
+"spesifik rilis, tetapi sebaliknya diakui sebagai prinsip yang menjadi dasar "
+"tujuan spesifik rilis."
 
 #: contributor-docs/C/strategy-document.xml:59(title)
 msgid "Focus 1: Usability"
-msgstr ""
+msgstr "Fokus 1: Kegunaan"
 
 #: contributor-docs/C/strategy-document.xml:61(para)
 msgid ""
@@ -354,6 +436,11 @@ msgid ""
 "appearance that doesn't get in the way. The appearance should be an all-"
 "round experience, covering all user interfaces from booting to shutting down."
 msgstr ""
+"Kegunaan adalah salah satu bagian terpenting dari sistem operasi yang "
+"digunakan setiap hari. Inilah sebabnya mengapa Xubuntu harus mudah digunakan "
+"dan memiliki tampilan yang tidak menghalangi. Tampilannya haruslah "
+"pengalaman serba, yang mencakup semua antarmuka pengguna mulai dari booting "
+"hingga mematikan."
 
 #: contributor-docs/C/strategy-document.xml:63(para)
 msgid ""
@@ -363,6 +450,11 @@ msgid ""
 "meaningful way; other applications should live up to this expectation at "
 "least moderately well."
 msgstr ""
+"Xubuntu harus dilokalkan untuk memungkinkan pengguna bekerja dalam bahasa "
+"pilihan mereka. Aspek penting lain dari kegunaan adalah konfigurasi. Kami "
+"percaya Xfce memberi pengguna kemungkinan untuk mengkonfigurasi sistem "
+"mereka dengan cara yang bermakna; aplikasi lain harus memenuhi harapan ini "
+"setidaknya dengan cukup baik."
 
 #: contributor-docs/C/strategy-document.xml:65(para)
 msgid ""
@@ -371,10 +463,15 @@ msgid ""
 "unreasonable efforts to integrate, implement or maintain. At least common "
 "accessibility tools should be installed in the default Xubuntu installation."
 msgstr ""
+"Walaupun aksesibilitas bukan salah satu prioritas utama Xubuntu, "
+"aksesibilitas harus dipertimbangkan dengan serius selama tidak memerlukan "
+"upaya yang tidak masuk akal untuk berintegrasi, mengimplementasikan atau "
+"memelihara. Setidaknya alat aksesibilitas umum harus diinstal di instalasi "
+"Xubuntu default."
 
 #: contributor-docs/C/strategy-document.xml:69(title)
 msgid "Focus 2: Performance"
-msgstr ""
+msgstr "Fokus 2: Kinerja"
 
 #: contributor-docs/C/strategy-document.xml:71(para)
 msgid ""
@@ -385,22 +482,32 @@ msgid ""
 "the Xubuntu team is able to work on other improvements and provide a release "
 "that is able to fulfill the expectations for a modern operating system."
 msgstr ""
+"Tim Xubuntu harus berusaha membuat Xubuntu ringan. Ini berarti setiap rilis "
+"Xubuntu harus bekerja dengan cukup baik pada mesin yang bertanggal beberapa "
+"tahun sebelum tanggal rilis. Ini pada akhirnya berarti bahwa rilis Xubuntu "
+"yang lebih baru mungkin tidak dapat mendukung komputer yang lebih lama. "
+"Namun, ia memastikan bahwa tim Xubuntu dapat mengerjakan perbaikan lain dan "
+"memberikan rilis yang mampu memenuhi harapan untuk sistem operasi modern."
 
 #: contributor-docs/C/strategy-document.xml:73(para)
 msgid ""
 "Users wanting the most lightweight system possible should be pointed at the "
 "minimal CD, more lightweight derivatives (such as Lubuntu) or other options."
 msgstr ""
+"Pengguna yang menginginkan sistem paling ringan mungkin harus diarahkan ke "
+"CD minimal, turunan yang lebih ringan (seperti Lubuntu) atau opsi lainnya."
 
 #: contributor-docs/C/strategy-document.xml:75(para)
 msgid ""
 "At the start of the release cycle, the minimum system requirements should be "
 "re-evaluated to determine if they continue to be realistic."
 msgstr ""
+"Pada awal siklus rilis, persyaratan sistem minimum harus dievaluasi kembali "
+"untuk menentukan apakah mereka tetap realistis."
 
 #: contributor-docs/C/strategy-document.xml:79(title)
 msgid "Focus 3: Ready to Use"
-msgstr ""
+msgstr "Fokus 3: Siap Digunakan"
 
 #: contributor-docs/C/strategy-document.xml:81(para)
 msgid ""
@@ -410,6 +517,11 @@ msgid ""
 "Xubuntu desktop will appear rough and unpolished which is unappealing to end-"
 "users."
 msgstr ""
+"Penting bagi kami untuk menyediakan produk yang dipoles dan disatukan yang "
+"siap untuk pengguna akhir. Ini juga merupakan prasyarat untuk mengaktifkan "
+"Xubuntu sebagai desktop yang bermanfaat, dapat digunakan dan efektif. Tanpa "
+"integrasi yang disebutkan, desktop Xubuntu akan tampak kasar dan tidak "
+"terpoles yang tidak menarik bagi pengguna akhir."
 
 #: contributor-docs/C/strategy-document.xml:83(para)
 msgid ""
@@ -417,16 +529,21 @@ msgid ""
 "that work well with each other as well as by applying patches to assure a "
 "more bug-free system."
 msgstr ""
+"Integrasi ini dicapai juga dengan memilih aplikasi dan perpustakaan yang "
+"bekerja dengan baik satu sama lain serta dengan menerapkan tambalan untuk "
+"memastikan sistem yang lebih bebas bug."
 
 #: contributor-docs/C/strategy-document.xml:85(para)
 msgid ""
 "See <xref linkend=\"xsd-seeds-composition-package-selection\"/> for "
 "guidelines on how to determine if an application fits in the Xubuntu stack."
 msgstr ""
+"Lihat <xref linkend = \"xsd-seed-komposisi-paket-pilihan\" /> untuk panduan "
+"tentang cara menentukan apakah suatu aplikasi cocok dengan tumpukan Xubuntu."
 
 #: contributor-docs/C/strategy-document.xml:89(title)
 msgid "Focus 4: Community"
-msgstr ""
+msgstr "Fokus 4: Komunitas"
 
 #: contributor-docs/C/strategy-document.xml:91(para)
 msgid ""
@@ -436,6 +553,12 @@ msgid ""
 "between the contributors as well as users is described more closely in <xref "
 "linkend=\"xsd-community\"/> and <xref linkend=\"xsd-development\"/>."
 msgstr ""
+"Komunitas Xubuntu adalah kekuatan penting dalam menciptakan Xubuntu dan "
+"membuatnya sesempurna mungkin. Sangat penting bahwa koordinasi teratur "
+"antara kontributor bekerja dengan baik. Infrastruktur untuk memungkinkan "
+"komunikasi yang baik antara kontributor dan pengguna dijelaskan lebih dekat "
+"dalam <xref linkend = \"xsd-community\" /> dan <xref linkend = \"xsd-"
+"development\" />."
 
 #: contributor-docs/C/strategy-document.xml:93(para)
 msgid ""
@@ -445,14 +568,19 @@ msgid ""
 "the Xubuntu team should try to allocate some resources to the cooperation at "
 "a later time."
 msgstr ""
+"Jika memungkinkan dan sesuai, tim Xubuntu harus bekerja sama dengan "
+"komunitas lain, termasuk tim Ubuntu lainnya dan upstream. Jika kerja sama "
+"pada waktu tertentu tidak memungkinkan tetapi akan bermanfaat bagi kedua "
+"belah pihak, tim Xubuntu harus mencoba mengalokasikan beberapa sumber daya "
+"untuk kerja sama di lain waktu."
 
 #: contributor-docs/C/strategy-document.xml:98(title)
 msgid "Community"
-msgstr "Bendruomenė"
+msgstr "Komunitas"
 
 #: contributor-docs/C/strategy-document.xml:101(title)
 msgid "Xubuntu Council"
-msgstr ""
+msgstr "Dewan Xubuntu"
 
 #: contributor-docs/C/strategy-document.xml:103(para)
 msgid ""
@@ -462,6 +590,10 @@ msgid ""
 "releases/two years at a time, ending with an LTS release to allow long-term "
 "planning."
 msgstr ""
+"Dewan Xubuntu (nanti: dewan) bertanggung jawab untuk mengawasi arah "
+"pengembangan Xubuntu dan memungkinkan komunitas untuk bekerja dengan Xubuntu "
+"semulus mungkin. Dewan melayani masa empat rilis / dua tahun sekaligus, "
+"diakhiri dengan rilis LTS untuk memungkinkan perencanaan jangka panjang."
 
 #: contributor-docs/C/strategy-document.xml:105(para)
 msgid ""
@@ -469,10 +601,13 @@ msgid ""
 "xubuntu-council team is the administrator for all other Xubuntu Launchpad "
 "teams, giving the council full administration access for the Xubuntu teams."
 msgstr ""
+"Tim Launchpad xubuntu-council terdiri dari anggota dewan. Tim xubuntu-dewan "
+"adalah administrator untuk semua tim Launchpad Xubuntu lainnya, memberikan "
+"dewan akses administrasi penuh untuk tim Xubuntu."
 
 #: contributor-docs/C/strategy-document.xml:108(title)
 msgid "Membership"
-msgstr ""
+msgstr "Keanggotaan"
 
 #: contributor-docs/C/strategy-document.xml:110(para)
 msgid ""
@@ -483,6 +618,12 @@ msgid ""
 "themselves or anybody else in the Xubuntu community with the nominees "
 "consent. The same group of people is eligible to vote."
 msgstr ""
+"Dewan ini terdiri dari 3 anggota, yang dipilih dengan suara <ulink url = "
+"\"http://civs.cs.cornell.edu/\"> CIVS </ulink>. Semua anggota dalam <ulink "
+"url = \"https://launchpad.net/~xubuntu-team\"> Tim Xubuntu </ulink> dan / "
+"atau anggota langsung dari setiap subte yang dimoderasi dapat dinominasikan, "
+"baik oleh mereka sendiri atau orang lain di Komunitas Xubuntu dengan "
+"persetujuan nominasi. Kelompok orang yang sama berhak untuk memilih."
 
 #: contributor-docs/C/strategy-document.xml:112(para)
 msgid ""
@@ -490,22 +631,30 @@ msgid ""
 "replaced by a new council member for the remainder of their term, elected by "
 "a new CIVS vote."
 msgstr ""
+"Jika seorang anggota dewan menjadi tidak aktif selama 6 bulan, anggota "
+"tersebut akan digantikan oleh anggota dewan yang baru untuk sisa masa "
+"jabatannya, yang dipilih dengan suara CIVS yang baru."
 
 #: contributor-docs/C/strategy-document.xml:114(para)
 msgid ""
 "The council will decide on a chair for the whole council term. The chair "
 "will act as the official point of contact for Xubuntu."
 msgstr ""
+"Dewan akan memutuskan kursi untuk masa jabatan seluruh dewan. Kursi akan "
+"bertindak sebagai titik kontak resmi untuk Xubuntu."
 
 #: contributor-docs/C/strategy-document.xml:118(title)
 msgid "Council operation"
-msgstr ""
+msgstr "Operasi dewan"
 
 #: contributor-docs/C/strategy-document.xml:119(para)
 msgid ""
 "The council is expected to take action or respond to any issue raised within "
 "2 weeks. If appropriate and fair, the first action can be postponement."
 msgstr ""
+"Dewan diharapkan untuk mengambil tindakan atau menanggapi masalah apa pun "
+"yang diangkat dalam waktu 2 minggu. Jika sesuai dan adil, tindakan pertama "
+"dapat ditunda."
 
 #: contributor-docs/C/strategy-document.xml:121(para)
 msgid ""
@@ -517,16 +666,25 @@ msgid ""
 "after consulting the Xubuntu team, they should consult the Ubuntu Community "
 "Council and other appropriate Ubuntu community teams."
 msgstr ""
+"Jika suatu saat mayoritas tim Xubuntu menganggap tindakan dewan berbahaya "
+"bagi proyek, masalah yang ada harus diangkat ke dewan untuk dipertimbangkan "
+"kembali. Jika resolusi tidak dapat ditemukan, dewan harus berkonsultasi "
+"dengan Dewan Komunitas Ubuntu dan tim komunitas Ubuntu lainnya yang sesuai. "
+"Demikian pula, jika dewan tidak dapat mencapai konsensus bahkan setelah "
+"berkonsultasi dengan tim Xubuntu, mereka harus berkonsultasi dengan Dewan "
+"Komunitas Ubuntu dan tim komunitas Ubuntu lainnya yang sesuai."
 
 #: contributor-docs/C/strategy-document.xml:126(title)
 msgid "Xubuntu Team"
-msgstr "Xubuntu komanda"
+msgstr "Tim Xubuntu"
 
 #: contributor-docs/C/strategy-document.xml:128(para)
 msgid ""
 "The Xubuntu team is a group of individuals who are primarily responsible for "
 "the Xubuntu development."
 msgstr ""
+"Tim Xubuntu adalah sekelompok individu yang terutama bertanggung jawab untuk "
+"pengembangan Xubuntu."
 
 #: contributor-docs/C/strategy-document.xml:130(para)
 msgid ""
@@ -534,6 +692,9 @@ msgid ""
 "url=\"https://launchpad.net/~xubuntu-team\">xubuntu-team</ulink>. The "
 "Launchpad team is moderated."
 msgstr ""
+"Tim Xubuntu diatur dalam Launchpad sebagai <ulink url = "
+"\"https://launchpad.net/~xubuntu-team\"> xubuntu-team </ulink>. Tim "
+"Launchpad dimoderasi."
 
 #: contributor-docs/C/strategy-document.xml:132(para)
 msgid ""
@@ -542,6 +703,10 @@ msgid ""
 "declined. Leaders for subteams can be appointed from this team. The Xubuntu "
 "team is moderated by the council."
 msgstr ""
+"Individu yang ingin bergabung dengan tim Xubuntu diharuskan untuk memenuhi "
+"kriteria yang diminta di bawah sebelum mendaftar atau mereka akan disetujui "
+"secara otomatis. Pemimpin untuk sub-tim dapat ditunjuk dari tim ini. Tim "
+"Xubuntu dimoderatori oleh dewan."
 
 #: contributor-docs/C/strategy-document.xml:134(para)
 msgid ""
@@ -551,10 +716,16 @@ msgid ""
 "may want to consider voting on it again after more discussion. If required, "
 "the issue can be raised to the council for further consideration."
 msgstr ""
+"Dalam hal seorang pemimpin tim berada dalam minoritas ketika memberikan "
+"suara pada suatu masalah yang menyangkut bidang keahlian mereka, pemimpin "
+"tim harus diberi sidang lagi, setelah itu tim harus lebih berhati-hati dalam "
+"memutuskan tentang masalah ini dan mungkin ingin mempertimbangkan memilih "
+"pada lagi setelah diskusi lebih lanjut. Jika diperlukan, masalah ini dapat "
+"diangkat ke dewan untuk dipertimbangkan lebih lanjut."
 
 #: contributor-docs/C/strategy-document.xml:137(title)
 msgid "Becoming and staying a member"
-msgstr ""
+msgstr "Menjadi dan tetap menjadi anggota"
 
 #: contributor-docs/C/strategy-document.xml:139(para)
 msgid ""
@@ -566,18 +737,30 @@ msgid ""
 "guidelines, and more important, with other people and communities. To become "
 "a member, one must:"
 msgstr ""
+"Untuk diterima di tim Xubuntu, peserta pelamar harus menunjukkan motivasi "
+"dan kemampuan mereka untuk berkontribusi ke Xubuntu. Ini untuk memastikan "
+"bahwa setiap anggota tim Xubuntu memiliki pemahaman yang cukup tentang "
+"komunitas Xubuntu dan operasinya. Langkah-langkah berbeda yang harus dilalui "
+"juga akan menunjukkan bahwa calon anggota dapat bekerja dalam pedoman, dan "
+"yang lebih penting, dengan orang lain dan masyarakat. Untuk menjadi anggota, "
+"seseorang harus:"
 
 #: contributor-docs/C/strategy-document.xml:142(para)
 msgid ""
 "Commit meaningful contributions to one of the subteams, after which one can "
 "be approved to the subteam for \"probation\" by a subteam administrator"
 msgstr ""
+"Komit kontribusi yang berarti kepada salah satu sub tim, setelah itu "
+"seseorang dapat ditunjuk ke subteam untuk \"masa percobaan\" oleh "
+"administrator subteam"
 
 #: contributor-docs/C/strategy-document.xml:143(para)
 msgid ""
 "Demonstrate motivation to contribute perpetually, after which one can be "
 "approved to the Xubuntu team"
 msgstr ""
+"Tunjukkan motivasi untuk berkontribusi terus-menerus, setelah itu seseorang "
+"dapat disetujui untuk tim Xubuntu"
 
 #: contributor-docs/C/strategy-document.xml:146(para)
 msgid ""
@@ -588,10 +771,17 @@ msgid ""
 "team administrators should purge people with no contributions in more than 6 "
 "months from the teams occasionally."
 msgstr ""
+"Untuk tetap menjadi anggota tim Xubuntu, anggota harus memiliki keinginan "
+"untuk terus berkontribusi di masa depan. Siapa pun yang tidak memiliki "
+"kontribusi selama lebih dari satu siklus lengkap (6 bulan) harus "
+"menonaktifkan diri mereka sendiri dari tim dan juga semua subteam dan "
+"mengajukan permohonan kembali jika / ketika mereka mau bergabung kembali. "
+"Administrator tim harus membersihkan orang-orang yang tidak memiliki "
+"kontribusi lebih dari 6 bulan dari tim sesekali."
 
 #: contributor-docs/C/strategy-document.xml:151(title)
 msgid "Xubuntu Users"
-msgstr "Xubuntu naudotojai"
+msgstr "Pengguna Xubuntu"
 
 #: contributor-docs/C/strategy-document.xml:153(para)
 msgid ""
@@ -599,6 +789,9 @@ msgid ""
 "users\">xubuntu-users</ulink> is the formal top-level group of people who "
 "are interested in Xubuntu. The team is open for anybody to join."
 msgstr ""
+"Tim Launchpad <ulink url = \"https://launchpad.net/~xubuntu-users\"> xubuntu-"
+"users </ulink> adalah grup resmi orang-orang tingkat atas yang tertarik pada "
+"Xubuntu. Tim terbuka bagi siapa saja untuk bergabung."
 
 #: contributor-docs/C/strategy-document.xml:155(para)
 msgid ""
@@ -607,6 +800,10 @@ msgid ""
 "word about Xubuntu anywhere they see fit, including but not limited to "
 "blogs, social media and conferences."
 msgstr ""
+"Anggota kelompok Launchpad resmi didorong untuk memberikan dukungan pengguna "
+"pada IRC dan pada milis pengguna Xubuntu serta menyebarkan berita tentang "
+"Xubuntu di mana saja yang mereka inginkan, termasuk tetapi tidak terbatas "
+"pada blog, media sosial, dan konferensi."
 
 #: contributor-docs/C/strategy-document.xml:157(para)
 msgid ""
@@ -618,38 +815,45 @@ msgid ""
 "url=\"http://wiki.xubuntu.org/website/admins\">Website "
 "Administrators</ulink> page."
 msgstr ""
+"Selain dukungan dan advokasi pengguna, para anggota bebas untuk mengatur "
+"sesuka mereka di platform media sosial dan banyak lagi. Jika grup dianggap "
+"cukup besar dan bermanfaat, tim Xubuntu dapat menyebutkannya resmi dan "
+"membantu mempertahankannya. Semua tim yang saat ini resmi dan "
+"administratornya terdaftar di wiki Xubuntu di bawah <ulink url = "
+"\"http://wiki.xubuntu.org/website/admins\"> halaman Administrator Situs Web "
+"</ulink>."
 
 #: contributor-docs/C/strategy-document.xml:162(title) contributor-docs/C/development.xml:14(title)
 msgid "Development"
-msgstr ""
+msgstr "Pengembangan"
 
 #: contributor-docs/C/strategy-document.xml:165(title)
 msgid "Coordination"
-msgstr ""
+msgstr "Koordinasi"
 
 #: contributor-docs/C/strategy-document.xml:167(para)
 msgid "The direction of the development of the project is coordinated by:"
-msgstr ""
+msgstr "Arah pengembangan proyek dikoordinasikan oleh:"
 
 #: contributor-docs/C/strategy-document.xml:170(para)
 msgid "The Strategy Document"
-msgstr ""
+msgstr "Dokumen Strategi"
 
 #: contributor-docs/C/strategy-document.xml:171(para)
 msgid "Release-specific blueprints and specifications"
-msgstr ""
+msgstr "Cetak biru spesifik dan spesifikasi"
 
 #: contributor-docs/C/strategy-document.xml:172(para)
 msgid "The community meetings"
-msgstr ""
+msgstr "Pertemuan komunitas"
 
 #: contributor-docs/C/strategy-document.xml:173(para)
 msgid "The developer communication tools listed below"
-msgstr ""
+msgstr "Alat komunikasi pengembang tercantum di bawah ini"
 
 #: contributor-docs/C/strategy-document.xml:178(title)
 msgid "Communication"
-msgstr ""
+msgstr "Komunikasi"
 
 #: contributor-docs/C/strategy-document.xml:180(para)
 msgid ""
@@ -658,6 +862,10 @@ msgid ""
 "community grow. These communication tools include the following \"core\" "
 "tools:"
 msgstr ""
+"Agar Xubuntu berhasil, anggota dan komunitasnya harus memiliki alat yang "
+"tepat untuk memungkinkan komunikasi yang bermanfaat dan bermanfaat dan pada "
+"akhirnya, untuk membantu komunitas tumbuh. Alat komunikasi ini meliputi alat "
+"\"inti\" berikut:"
 
 #: contributor-docs/C/strategy-document.xml:183(para)
 msgid ""
@@ -665,6 +873,9 @@ msgid ""
 "user discussions and the Xubuntu-devel list for development discussion and "
 "coordination"
 msgstr ""
+"<emphasis> Milis </emphasis>; Pengguna Xubuntu untuk dukungan komunitas dan "
+"diskusi pengguna dan daftar devel Xubuntu untuk diskusi dan koordinasi "
+"pengembangan"
 
 #: contributor-docs/C/strategy-document.xml:184(para)
 msgid ""
@@ -672,18 +883,25 @@ msgid ""
 "devel for development discussion and coordination and #xubuntu-offtopic for "
 "general discussion with a more relaxed mood"
 msgstr ""
+"<emphasis> saluran IRC </emphasis>; #xubuntu untuk dukungan komunitas, "
+"#xubuntu-devel untuk diskusi dan koordinasi pengembangan dan #xubuntu-"
+"offtopic untuk diskusi umum dengan suasana hati yang lebih santai"
 
 #: contributor-docs/C/strategy-document.xml:185(para)
 msgid ""
 "<emphasis>Launchpad</emphasis> for team organization and granting "
 "permissions and access rights via team memberships"
 msgstr ""
+"<emphasis> Launchpad </emphasis> untuk organisasi tim dan pemberian izin dan "
+"hak akses melalui keanggotaan tim"
 
 #: contributor-docs/C/strategy-document.xml:186(para)
 msgid ""
 "<emphasis>The Xubuntu website</emphasis> for news, development articles and "
 "general information about Xubuntu"
 msgstr ""
+"<emphasis> Situs web Xubuntu </emphasis> untuk berita, artikel pengembangan, "
+"dan informasi umum tentang Xubuntu"
 
 #: contributor-docs/C/strategy-document.xml:187(para)
 msgid ""
@@ -691,6 +909,9 @@ msgid ""
 "progress and collaborating on development issues and sharing development "
 "related information on the wiki"
 msgstr ""
+"<emphasis> Area pengembang Xubuntu </emphasis> untuk melacak kemajuan "
+"pengembangan dan berkolaborasi dalam masalah pengembangan dan berbagi "
+"informasi terkait pengembangan di wiki"
 
 #: contributor-docs/C/strategy-document.xml:190(para)
 msgid ""
@@ -700,10 +921,16 @@ msgid ""
 "part in the development discussion outside Xubuntu as well to create and "
 "maintain healthy relationships with other projects and their developers."
 msgstr ""
+"Selain berkomunikasi satu sama lain dan komunitas Xubuntu, tim Xubuntu harus "
+"berkomunikasi terus menerus dengan kontributor Ubuntu lainnya, proyek "
+"upstream dan lainnya yang terkait dengan Xubuntu. Anggota tim harus "
+"mengambil bagian dalam diskusi pengembangan di luar Xubuntu juga untuk "
+"menciptakan dan memelihara hubungan yang sehat dengan proyek lain dan "
+"pengembang mereka."
 
 #: contributor-docs/C/strategy-document.xml:194(title)
 msgid "Dispute Resolution"
-msgstr ""
+msgstr "Penyelesaian sengketa"
 
 #: contributor-docs/C/strategy-document.xml:196(para)
 msgid ""
@@ -712,6 +939,10 @@ msgid ""
 "working community. Everybody and every communicating medium in the Xubuntu "
 "community is CoC-compliant at all times."
 msgstr ""
+"Code Of Conduct (CoC) adalah salah satu dokumen paling mendasar dalam "
+"komunitas Ubuntu, termasuk Xubuntu, dan berfungsi sebagai basis untuk "
+"komunitas yang bekerja. Semua orang dan setiap media komunikasi di komunitas "
+"Xubuntu selalu mematuhi CoC."
 
 #: contributor-docs/C/strategy-document.xml:198(para)
 msgid ""
@@ -719,6 +950,9 @@ msgid ""
 "<ulink url=\"http://www.ubuntu.com/about/about-ubuntu/conduct\">Ubuntu Code "
 "of Conduct</ulink> page on the Ubuntu website."
 msgstr ""
+"Untuk membaca revisi terbaru dari Kode Etik Ubuntu, lihat halaman <ulink url "
+"= \"http://www.ubuntu.com/about/about-ubuntu/conduct\"> halaman Code of "
+"Conduct Ubuntu </ulink> di situs web Ubuntu."
 
 #: contributor-docs/C/strategy-document.xml:200(para)
 msgid ""
@@ -727,6 +961,10 @@ msgid ""
 "assistance. The Xubuntu Council and the Xubuntu team are encouraged to talk "
 "to other teams in the Ubuntu community if it helps resolving the issue."
 msgstr ""
+"The Ubuntu Community Council can be asked to act as mediators/advisors where "
+"their expertise would be useful when the Xubuntu Council requires "
+"assistance. The Xubuntu Council and the Xubuntu team are encouraged to talk "
+"to other teams in the Ubuntu community if it helps resolving the issue."
 
 #: contributor-docs/C/strategy-document.xml:202(para)
 msgid ""
@@ -734,10 +972,13 @@ msgid ""
 "taking the disputed actions to avoid sabotaging the dispute resolution "
 "process."
 msgstr ""
+"Ketika perselisihan terjadi, kontributor sangat dianjurkan untuk menahan "
+"diri dari mengambil tindakan yang disengketakan untuk menghindari menyabot "
+"proses penyelesaian perselisihan."
 
 #: contributor-docs/C/strategy-document.xml:207(title)
 msgid "Release and Support Cycles"
-msgstr ""
+msgstr "Rilis dan Siklus Dukungan"
 
 #: contributor-docs/C/strategy-document.xml:209(para)
 msgid ""
@@ -748,20 +989,28 @@ msgid ""
 "make every effort to conform with the acknowledged support period and "
 "provide security updates for Xubuntu packages."
 msgstr ""
+"Siklus rilis Xubuntu terdiri dari 6 bulan dari awal hingga rilis, kemudian 9 "
+"bulan tambahan pemeliharaan untuk rilis standar dan 3 tahun dukungan untuk "
+"rilis LTS. Meskipun proyek Xubuntu sendiri tidak dapat memberikan dukungan "
+"komersial atau jaminan komersial, tim Xubuntu akan melakukan segala upaya "
+"untuk menyesuaikan dengan periode dukungan yang diakui dan memberikan "
+"pembaruan keamanan untuk paket Xubuntu."
 
 #: contributor-docs/C/strategy-document.xml:211(para)
 msgid ""
 "For more information about the specifics of the processes related to "
 "developing a release, see <xref linkend=\"processes\"/>."
 msgstr ""
+"Untuk informasi lebih lanjut tentang spesifikasi proses yang terkait dengan "
+"pengembangan rilis, lihat <xref linkend =\"proses\"/>."
 
 #: contributor-docs/C/strategy-document.xml:215(title)
 msgid "Seeds and Composition"
-msgstr ""
+msgstr "Asal dan Komposisi"
 
 #: contributor-docs/C/strategy-document.xml:218(title)
 msgid "Core Components"
-msgstr ""
+msgstr "Komponen Inti"
 
 #: contributor-docs/C/strategy-document.xml:220(para)
 msgid ""
@@ -769,40 +1018,46 @@ msgid ""
 "essential in composing an operating system that represents the goals set "
 "previously in this document:"
 msgstr ""
+"Paket-paket berikut dan ketergantungan teknisnya dianggap penting dalam "
+"menyusun sistem operasi yang mewakili tujuan yang ditetapkan sebelumnya "
+"dalam dokumen ini:"
 
 #: contributor-docs/C/strategy-document.xml:223(para)
 msgid "xfwm4 (Xfce4 window manager)"
-msgstr ""
+msgstr "xfwm4 (manajer jendela Xfce4)"
 
 #: contributor-docs/C/strategy-document.xml:224(para)
 msgid "xfdesktop4 (Xfce4 desktop)"
-msgstr ""
+msgstr "xfdesktop4 (Xfce4 desktop)"
 
 #: contributor-docs/C/strategy-document.xml:225(para)
 msgid "xfce4-panel (Xfce4 panel)"
-msgstr ""
+msgstr "xfce4-panel (panel Xfce4)"
 
 #: contributor-docs/C/strategy-document.xml:226(para)
 msgid "xfce4-session (Xfce4 session manager)"
-msgstr ""
+msgstr "xfce4-session (manajer sesi Xfce4)"
 
 #: contributor-docs/C/strategy-document.xml:227(para)
 msgid "xfconf (Xfce4 configuration storage system)"
-msgstr ""
+msgstr "xfconf (sistem penyimpanan konfigurasi Xfce4)"
 
 #: contributor-docs/C/strategy-document.xml:228(para)
 msgid "xfce4-settings (Xfce4 settings manager)"
-msgstr ""
+msgstr "xfce4-settings (manajer pengaturan Xfce4)"
 
 #: contributor-docs/C/strategy-document.xml:229(para)
 msgid "thunar (file manager)"
-msgstr ""
+msgstr "thunar (pengelola berkas)"
 
 #: contributor-docs/C/strategy-document.xml:232(para)
 msgid ""
 "Unless the components mentioned above are deprecated and no longer work as "
 "they are intended, they should not be substituted or removed from the seed."
 msgstr ""
+"Kecuali komponen-komponen yang disebutkan di atas sudah tidak digunakan lagi "
+"dan tidak lagi berfungsi sebagaimana mestinya, komponen-komponen tersebut "
+"tidak boleh diganti atau dikeluarkan dari asalnya."
 
 #: contributor-docs/C/strategy-document.xml:234(para)
 msgid ""
@@ -812,25 +1067,31 @@ msgid ""
 "desktop</literal> metapackage depends on the core metapackage and includes "
 "additional packages to provide the full, ready to use, Xubuntu experience."
 msgstr ""
+"Metapackage <literal> <placeholder-1 /> xubuntu-core </literal> terdiri dari "
+"paket-paket inti dan juga paket-paket penting lainnya yang berkontribusi "
+"pada pengalaman Xubuntu. Metapackage <literal> <placeholder-2 /> xubuntu-"
+"desktop </literal> tergantung pada metapackage inti dan termasuk paket "
+"tambahan untuk memberikan pengalaman Xubuntu yang lengkap, siap digunakan,."
 
 #: contributor-docs/C/strategy-document.xml:238(title)
 msgid "Package Selection"
-msgstr ""
+msgstr "Pilihan Paket"
 
 #: contributor-docs/C/strategy-document.xml:240(para)
 msgid ""
 "When considering the package selection for Xubuntu, there are two main "
 "guidelines:"
 msgstr ""
+"Saat mempertimbangkan pemilihan paket untuk Xubuntu, ada dua pedoman utama:"
 
 #: contributor-docs/C/strategy-document.xml:243(para)
 msgid "The package must be in line with the mission statement"
-msgstr ""
+msgstr "Paket harus sesuai dengan pernyataan misi"
 
 #: contributor-docs/C/strategy-document.xml:244(para)
 msgid ""
 "The package selection process must be conducted as objectively as possible"
-msgstr ""
+msgstr "Proses pemilihan paket harus dilakukan seobjektif mungkin"
 
 #: contributor-docs/C/strategy-document.xml:247(para)
 msgid ""
@@ -840,32 +1101,39 @@ msgid ""
 "and against. When appropriate, tests should be conducted to gather "
 "meaningful measurements."
 msgstr ""
+"Sementara Pimpinan Teknis Xubuntu memiliki kata terakhir dalam pemilihan "
+"paket dengan persetujuan Dewan Xubuntu, direkomendasikan bahwa seluruh tim "
+"terlibat dalam diskusi, mengemukakan argumen yang dipikirkan baik untuk "
+"maupun melawan. Bila perlu, tes harus dilakukan untuk mengumpulkan "
+"pengukuran yang bermakna."
 
 #: contributor-docs/C/strategy-document.xml:249(para)
 msgid ""
 "Before seeding an application in Xubuntu, the following aspects should be "
 "considered:"
 msgstr ""
+"Sebelum memasang aplikasi di Xubuntu, aspek-aspek berikut harus "
+"dipertimbangkan:"
 
 #: contributor-docs/C/strategy-document.xml:252(para)
 msgid "Usability and integration"
-msgstr ""
+msgstr "Kegunaan dan integrasi"
 
 #: contributor-docs/C/strategy-document.xml:253(para)
 msgid "Usefulness"
-msgstr ""
+msgstr "Kegunaan"
 
 #: contributor-docs/C/strategy-document.xml:254(para)
 msgid "Resource consumption and size"
-msgstr ""
+msgstr "Konsumsi dan ukuran sumber daya"
 
 #: contributor-docs/C/strategy-document.xml:255(para)
 msgid "Reliability"
-msgstr ""
+msgstr "Kehandalan"
 
 #: contributor-docs/C/strategy-document.xml:256(para)
 msgid "Localization"
-msgstr ""
+msgstr "Lokalisasi"
 
 #: contributor-docs/C/strategy-document.xml:259(para)
 msgid ""
@@ -874,36 +1142,46 @@ msgid ""
 "its dependencies. Any package that is considered for seeding should fulfill "
 "the following requirements:"
 msgstr ""
+"Ketika mengukur apakah suatu paket tepat untuk Xubuntu, keputusan tidak "
+"boleh didasarkan pada analisis paket saja, tetapi paket target beserta "
+"ketergantungannya. Paket apa pun yang dipertimbangkan untuk pembenihan harus "
+"memenuhi persyaratan berikut:"
 
 #: contributor-docs/C/strategy-document.xml:262(para)
 msgid "The package should use the GTK toolkit"
-msgstr ""
+msgstr "Paket harus menggunakan toolkit GTK"
 
 #: contributor-docs/C/strategy-document.xml:263(para)
 msgid ""
 "The package should not pull in heavy libraries, especially if they will run "
 "and/or start frequently"
 msgstr ""
+"Paket tidak boleh menarik banyak perpustakaan, terutama jika mereka akan dan "
+"/ atau mulai sering dijalankan"
 
 #: contributor-docs/C/strategy-document.xml:264(para)
 msgid "The package should be well maintained upstream"
-msgstr ""
+msgstr "Paket harus dipelihara dengan baik di hulu"
 
 #: contributor-docs/C/strategy-document.xml:267(para)
 msgid ""
 "The above guidelines can be omitted with the approval of the council when "
 "there are extensive benefits to seeding the package."
 msgstr ""
+"Pedoman di atas dapat dihilangkan dengan persetujuan dewan ketika ada banyak "
+"manfaat untuk penyemaian paket."
 
 #: contributor-docs/C/qa.xml:14(title)
 msgid "Quality Assurance (QA)"
-msgstr ""
+msgstr "Jaminan Kualitas (QA)"
 
 #: contributor-docs/C/qa.xml:16(para)
 msgid ""
 "There are various QA trackers, wiki and Launchpad pages, the links to which "
 "can be found on <xref linkend=\"qa-team-links\"/>."
 msgstr ""
+"Ada berbagai pelacak QA, halaman wiki dan Launchpad, tautan yang dapat "
+"ditemukan di <xref linkend=\"qa-team-links\"/>."
 
 #: contributor-docs/C/qa.xml:18(para)
 msgid ""
@@ -914,6 +1192,11 @@ msgid ""
 "are paramount. Xubuntu's success is based on close working amongst all of "
 "its various teams."
 msgstr ""
+"Tim QA Xubuntu dibentuk untuk memastikan bahwa kualitas Xubuntu yang dirilis "
+"sesuai dengan parameter yang ditetapkan dalam dokumen Proses Xubuntu. Agar "
+"berhasil mencapai hal ini, hubungan kerja tim yang dekat, terutama dengan "
+"tim pengembangan dan Dewan Xubuntu adalah yang terpenting. Keberhasilan "
+"Xubuntu didasarkan pada kerja yang erat di antara semua timnya yang beragam."
 
 #: contributor-docs/C/qa.xml:20(para)
 msgid ""
@@ -924,6 +1207,12 @@ msgid ""
 "the trackers and propose users they have seen taking a keen interest in the "
 "work of the QA team."
 msgstr ""
+"Selain itu, tim memberi orang-orang yang berkontribusi melalui pengujian "
+"Xubuntu kesempatan untuk menjadi bagian dari <ulink "
+"url=\"https://launchpad.net/~xubuntu-team\">Tim Xubuntu</ulink>. Untuk itu "
+"agar praktis digunakan, tim QA harus mengawasi laporan pengujian pada "
+"pelacak dan mengusulkan pengguna yang mereka lihat tertarik pada pekerjaan "
+"tim QA."
 
 #: contributor-docs/C/qa.xml:22(para)
 msgid ""
@@ -932,16 +1221,24 @@ msgid ""
 "particular development cycle (hereafter cycle) to the community, makes up "
 "the bulk of the teams work in any given cycle."
 msgstr ""
+"Tidak termasuk pengujian itu sendiri, kontrol terhadap testcases yang kami "
+"gunakan untuk pengujian ISO dan Paket, bersama dengan mengkomunikasikan "
+"persyaratan pengujian untuk setiap siklus pengembangan tertentu (siklus "
+"selanjutnya) ke masyarakat, merupakan bagian terbesar dari tim yang bekerja "
+"dalam siklus tertentu."
 
 #: contributor-docs/C/qa.xml:24(para)
 msgid ""
 "Members of the QA team should check the current Xubuntu QA blueprint, and "
 "assign themselves to tasks they feel able to undertake."
 msgstr ""
+"Anggota tim QA harus memeriksa cetak biru Xubuntu QA saat ini, dan "
+"menugaskan diri mereka untuk tugas-tugas yang mereka rasa mampu mereka "
+"lakukan."
 
 #: contributor-docs/C/qa.xml:27(title) contributor-docs/C/processes-release-cycle.xml:55(title)
 msgid "Testing"
-msgstr ""
+msgstr "Pengujian"
 
 #: contributor-docs/C/qa.xml:29(para)
 msgid ""
@@ -950,6 +1247,9 @@ msgid ""
 "Xubuntu Team will discuss and then ratify Xubuntu's participation during the "
 "cycle."
 msgstr ""
+"Pada awal siklus, Tim Rilis akan membahas minggu Pengujian ISO mana yang "
+"akan kami ikuti. Kemudian, selama Pertemuan Komunitas, anggota Tim Xubuntu "
+"akan membahas dan kemudian meratifikasi partisipasi Xubuntu selama siklus."
 
 #: contributor-docs/C/qa.xml:31(para)
 msgid ""
@@ -957,30 +1257,37 @@ msgid ""
 "linkend=\"qa-testing-exploratory\"/> and <xref linkend=\"qa-testing-ppa\"/>, "
 "further responsibilities lie with ensuring that:"
 msgstr ""
+"Seiring dengan pengujian umum OS kami, ditangani lebih lanjut dalam <xref "
+"linkend=\"qa-testing-exploratory\"/> dan <xref linkend=\"qa-testing-ppa\"/>, "
+"tanggung jawab lebih lanjut terletak dengan memastikan bahwa:"
 
 #: contributor-docs/C/qa.xml:34(para)
 msgid "Sufficient testing takes place during ISO Testing Weeks"
-msgstr ""
+msgstr "Pengujian yang memadai berlangsung selama Minggu Pengujian ISO"
 
 #: contributor-docs/C/qa.xml:35(para)
 msgid "Sufficient package testing takes place following calls to testers"
-msgstr ""
+msgstr "Pengujian paket yang memadai terjadi setelah panggilan ke penguji"
 
 #: contributor-docs/C/qa.xml:36(para)
 msgid "Sufficient testing has taken place by Final Release"
-msgstr ""
+msgstr "Pengujian yang memadai telah dilakukan oleh Final Release"
 
 #: contributor-docs/C/qa.xml:37(para)
 msgid ""
 "Bugs reported to our trackers are confirmed, or where unable to confirm, "
 "further information is requested from the reporter"
 msgstr ""
+"Bug yang dilaporkan kepada pelacak kami dikonfirmasi, atau jika tidak dapat "
+"dikonfirmasi, informasi lebih lanjut diminta dari pelapor"
 
 #: contributor-docs/C/qa.xml:38(para)
 msgid ""
 "Where appropriate, confirmation of bugs can be asked of members of Xubuntu "
 "Team in the team devel IRC channel"
 msgstr ""
+"Apabila diperlukan, konfirmasi bug dapat ditanyakan kepada anggota Tim "
+"Xubuntu di saluran IRC tim devel"
 
 #: contributor-docs/C/qa.xml:41(para)
 msgid ""
@@ -988,10 +1295,13 @@ msgid ""
 "url=\"https://launchpad.net/~xubuntu-bugs\">Xubuntu Bugs</ulink> team in "
 "order to be aware of bugs being reported by users."
 msgstr ""
+"Anggota tim QA mungkin merasa perlu berlangganan <ulink "
+"url=\"https://launchpad.net/~xubuntu-bugs\"> tim Xubuntu Bugs</ulink> untuk "
+"mengetahui bug yang dilaporkan oleh pengguna."
 
 #: contributor-docs/C/qa.xml:49(title)
 msgid "Working with trackers"
-msgstr ""
+msgstr "Bekerja dengan pelacak"
 
 #: contributor-docs/C/qa.xml:51(para)
 msgid ""
@@ -999,20 +1309,25 @@ msgid ""
 "discussion with the members of the <ulink "
 "url=\"https://launchpad.net/~xubuntu-release\">Xubuntu Release</ulink> team."
 msgstr ""
+"Keputusan awal tentang apa dan kapan menguji, akan diambil setelah diskusi "
+"dengan anggota <ulink url=\"https://launchpad.net/~xubuntu-release\"> tim "
+"Xubuntu Release</ulink>."
 
 #: contributor-docs/C/qa.xml:53(para)
 msgid "At the start of a cycle, the QA team needs to ensure that:"
-msgstr ""
+msgstr "Pada awal siklus, tim QA perlu memastikan bahwa:"
 
 #: contributor-docs/C/qa.xml:56(para)
 msgid "Image testcases we use are still correct."
-msgstr ""
+msgstr "Kasus uji gambar yang kami gunakan masih benar."
 
 #: contributor-docs/C/qa.xml:57(para)
 msgid ""
 "When the intention is that package testing will take place during the cycle, "
 "package testcases required during the cycle are still correct."
 msgstr ""
+"Ketika maksudnya adalah bahwa pengujian paket akan berlangsung selama "
+"siklus, kasus uji paket yang diperlukan selama siklus masih benar."
 
 #: contributor-docs/C/qa.xml:58(para)
 msgid ""
@@ -1020,12 +1335,17 @@ msgid ""
 "during the cycle. Differences between regular and LTS releases are often, "
 "but not always, needed."
 msgstr ""
+"Testuites pada Pelacak Paket masuk akal untuk apa yang ingin kami uji selama "
+"siklus. Perbedaan antara rilis reguler dan LTS sering, tetapi tidak selalu "
+"dibutuhkan."
 
 #: contributor-docs/C/qa.xml:59(para)
 msgid ""
 "Scheduling of ISO, and when appropriate Package, testing should take place "
 "amongst the QA team."
 msgstr ""
+"Penjadwalan ISO, dan bila sesuai Paket, pengujian harus dilakukan di antara "
+"tim QA."
 
 #: contributor-docs/C/qa.xml:62(para)
 msgid ""
@@ -1034,6 +1354,10 @@ msgid ""
 "testing calls for that package should be made to check for regression during "
 "the cycle."
 msgstr ""
+"Ketika ada perubahan pada paket yang kami uji, mengikuti misalnya perbaikan "
+"bug, pemeriksaan lebih lanjut dari testcase yang terlibat harus dilakukan. "
+"Pengujian lebih lanjut memerlukan paket yang harus dilakukan untuk memeriksa "
+"regresi selama siklus."
 
 #: contributor-docs/C/qa.xml:64(para)
 msgid ""
@@ -1042,6 +1366,11 @@ msgid ""
 "can be disabled temporarily. The QA Lead is responsible for ensuring tests "
 "are both disabled and re-enabled when appropriate."
 msgstr ""
+"Ketika sebuah paket selama pengujian terus-menerus gagal, atau laporan bug "
+"mengindikasikan kegagalan dalam suatu paket untuk sesuatu yang tidak diuji, "
+"testcase untuk paket itu dapat dinonaktifkan sementara. Pimpinan QA "
+"bertanggung jawab untuk memastikan pengujian dinonaktifkan dan diaktifkan "
+"kembali jika perlu."
 
 #: contributor-docs/C/qa.xml:66(para)
 msgid ""
@@ -1051,10 +1380,15 @@ msgid ""
 "cdimage/mainline/files/head:/etc/\">ubuntu-cdimage crontab</ulink> and "
 "proposing the change."
 msgstr ""
+"ISO Xubuntu dibangun dan ditambahkan ke pelacak sekitar pukul 02:00 UTC. "
+"Waktu ini dapat diubah dengan mengubah waktu pembuatan kami di <ulink "
+"url=\"http://bazaar.launchpad.net/~ubuntu-cdimage/ubuntu-"
+"cdimage/mainline/files/head:/etc/\"> ubuntu-cdimage crontab </ulink> dan "
+"usulkan perubahan."
 
 #: contributor-docs/C/qa.xml:70(title)
 msgid "Working with testcases"
-msgstr ""
+msgstr "Bekerja dengan percobaan kasus"
 
 #: contributor-docs/C/qa.xml:72(para)
 msgid ""
@@ -1063,6 +1397,10 @@ msgid ""
 "url=\"https://wiki.ubuntu.com/QATeam/ContributingTestcases/Manual\">Manual "
 "Testcases</ulink> page."
 msgstr ""
+"Informasi tentang metode dasar bekerja dengan testcases dapat ditemukan di "
+"Tim QA Ubuntu <ulink "
+"url=\"https://wiki.ubuntu.com/QATeam/ContributingTestcases/Manual\"> halaman "
+"Manual Kasus Cobaan </ulink>."
 
 #: contributor-docs/C/qa.xml:74(para)
 msgid ""
@@ -1072,10 +1410,16 @@ msgid ""
 "Testcases, in addition any member of our Release Team can edit the tracker, "
 "this helps ensure that changes are moved through to the trackers quickly."
 msgstr ""
+"<emphasis> Kami </emphasis> hanya memusatkan perhatian pada serangkaian "
+"tugas khusus: meraih cabang, menyunting, lalu mendorong perubahan yang kami "
+"butuhkan ke cabang utama. Kami memiliki orang-orang di tim Admin Testcase "
+"untuk LP Testcases, selain itu setiap anggota Tim Rilis kami dapat "
+"menyunting pelacak, ini membantu memastikan bahwa perubahan dipindahkan "
+"melalui pelacak dengan cepat."
 
 #: contributor-docs/C/qa.xml:76(para)
 msgid "To edit a testcase:"
-msgstr ""
+msgstr "Untuk menyunting percobaan kasus:"
 
 #: contributor-docs/C/qa.xml:79(para)
 msgid ""
@@ -1083,48 +1427,60 @@ msgid ""
 "tests/+filebug\">Report</ulink> the required change as a bug against the "
 "testcase project"
 msgstr ""
+"<ulink url=\"https://bugs.launchpad.net/ubuntu-manual-tests/+filebug\"> "
+"Laporkan </ulink> perubahan yang diperlukan sebagai bug terhadap proyek "
+"kasus cobaan"
 
 #: contributor-docs/C/qa.xml:80(para)
 msgid "Assign yourself to the bug"
-msgstr ""
+msgstr "Tetapkan diri Anda ke bug"
 
 #: contributor-docs/C/qa.xml:81(para)
 msgid ""
 "Create a local branch: <userinput>bzr branch lp:ubuntu-manual-"
 "tests</userinput>"
 msgstr ""
+"Buat cabang lokal: <userinput> bzr branch lp: ubuntu-manual-tes </userinput>"
 
 #: contributor-docs/C/qa.xml:82(para)
 msgid "Make changes to the testcase in your local branch"
-msgstr ""
+msgstr "Buat perubahan pada kasus cobaan di cabang lokal Anda"
 
 #: contributor-docs/C/qa.xml:83(para)
 msgid ""
 "Commit the changes: <userinput>bzr commit -m \"Fix LP bug "
 "#BUGNO.\"</userinput>"
 msgstr ""
+"Lakukan perubahan: <userinput> bzr commit -m \"Fix bug LP "
+"#BUGNO.\"</userinput>"
 
 #: contributor-docs/C/qa.xml:84(para)
 msgid ""
 "Push to a personal remote branch: <userinput>bzr push lp:~username/ubuntu-"
 "manual-tests/bug-BUGNO</userinput>"
 msgstr ""
+"Dorong ke cabang jarak jauh pribadi: <userinput> bzr push "
+"lp:~username/ubuntu-manual-test/bug-BUGNO</userinput>"
 
 #: contributor-docs/C/qa.xml:87(para)
 msgid ""
 "Once pushed to a personal remote branch, propose the change for merging - "
 "<xref linkend=\"bzr-merge-proposal\"/>."
 msgstr ""
+"Setelah didorong ke cabang jarak jauh pribadi, usulkan perubahan untuk "
+"menggabungkan - <xref linkend=\"bzr-merge-proposal\"/>."
 
 #: contributor-docs/C/qa.xml:89(para)
 msgid ""
 "Respond to any requests for changes when asked by the Testcase Admins in "
 "order to get the required change through in a timely manner."
 msgstr ""
+"Menanggapi setiap permintaan untuk perubahan ketika diminta oleh Admin Kasus "
+"Cobaan untuk mendapatkan perubahan yang diperlukan melalui tepat waktu."
 
 #: contributor-docs/C/qa.xml:93(title)
 msgid "Communicating with Testers and Users"
-msgstr ""
+msgstr "Berkomunikasi dengan Penguji dan Pengguna"
 
 #: contributor-docs/C/qa.xml:95(para)
 msgid ""
@@ -1132,6 +1488,10 @@ msgid ""
 "required testing, Testers will get regular contact from us, but we should "
 "only, in general, call on Users at later stages."
 msgstr ""
+"Meskipun kami memiliki dua set orang di komunitas yang kami hubungi tentang "
+"pengujian yang diperlukan, Penguji akan mendapatkan kontak rutin dari kami, "
+"tetapi kami hanya akan, secara umum, memanggil Pengguna pada tahap "
+"selanjutnya."
 
 #: contributor-docs/C/qa.xml:97(para)
 msgid ""
@@ -1139,43 +1499,52 @@ msgid ""
 "contact those users via LP. Copies of testing calls sent to the devel "
 "mailing list should go to this group each time."
 msgstr ""
+"Pimpinan QA akan menjadi administrator pada halaman Penguji Launchpad dan "
+"dapat menghubungi pengguna tersebut melalui LP. Salinan panggilan pengujian "
+"yang dikirim ke milis devel harus pergi ke grup ini setiap kali."
 
 #: contributor-docs/C/qa.xml:99(para)
 msgid "Any member of the QA team can:"
-msgstr ""
+msgstr "Setiap anggota tim QA dapat:"
 
 #: contributor-docs/C/qa.xml:102(para)
 msgid "Mail the devel list with a testing call"
-msgstr ""
+msgstr "Mengirimkan daftar devel dengan panggilan pengujian"
 
 #: contributor-docs/C/qa.xml:103(para)
 msgid ""
 "Just prior to an upcoming ISO testing week call, warn on the devel list"
 msgstr ""
+"Tepat sebelum panggilan minggu pengujian ISO mendatang, peringatkan pada "
+"daftar devel"
 
 #: contributor-docs/C/qa.xml:104(para)
 msgid "Make an ISO testing week call"
-msgstr ""
+msgstr "Melakukan panggilan minggu pengujian ISO"
 
 #: contributor-docs/C/qa.xml:107(para)
 msgid ""
 "Xubuntu Users will be contacted for ISO testing at the Final Beta ISO "
 "Milestone."
 msgstr ""
+"Pengguna Xubuntu akan dihubungi untuk pengujian ISO di Final Beta ISO "
+"Milestone."
 
 #: contributor-docs/C/qa.xml:111(title)
 msgid "Release Responsibilities"
-msgstr ""
+msgstr "Melepaskan Tanggung Jawab"
 
 #: contributor-docs/C/qa.xml:113(para)
 msgid ""
 "Much of the responsibility for the QA team at any release lies with the QA "
 "Lead."
 msgstr ""
+"Sebagian besar tanggung jawab untuk tim QA pada rilis apa pun ada pada "
+"Pimpinan QA."
 
 #: contributor-docs/C/qa.xml:115(para)
 msgid "However, <emphasis>any</emphasis> member of the QA team can:"
-msgstr ""
+msgstr "Namun, <emphasis> sembarang anggota </emphasis> dari tim QA dapat:"
 
 #: contributor-docs/C/qa.xml:118(para)
 msgid ""
@@ -1183,43 +1552,50 @@ msgid ""
 "url=\"https://wiki.xubuntu.org/releases/18.10/release-notes\">Release "
 "Note</ulink>"
 msgstr ""
+"Bekerja dengan wiki pengujian <ulink "
+"url=\"https://wiki.xubuntu.org/releases/18.10/release-notes\"> Catatan "
+"Rilis</ulink>"
 
 #: contributor-docs/C/qa.xml:119(para)
 msgid "Check status of bugs listed on the above draft"
-msgstr ""
+msgstr "Periksa status bug yang tercantum pada konsep di atas"
 
 #: contributor-docs/C/qa.xml:120(para)
 msgid ""
 "Check status of work items on the QA blueprint, marking as appropriate"
-msgstr ""
+msgstr "Periksa status item kerja pada cetak biru QA, tandai sesuai"
 
 #: contributor-docs/C/qa.xml:125(title)
 msgid "Post Release Tasks"
-msgstr ""
+msgstr "Posting Tugas Rilis"
 
 #: contributor-docs/C/qa.xml:127(para)
 msgid ""
 "Following release, there are a few tasks that need to be done before the "
 "next release cycle begins."
 msgstr ""
+"Setelah rilis, ada beberapa tugas yang perlu dilakukan sebelum siklus rilis "
+"berikutnya dimulai."
 
 #: contributor-docs/C/qa.xml:130(para)
 msgid ""
 "QA Lead should set up the blueprints for both the QA team and the Bugs that "
 "the whole team uses"
 msgstr ""
+"Pimpinan QA harus menyiapkan cetak biru untuk tim QA dan Bug yang digunakan "
+"seluruh tim"
 
 #: contributor-docs/C/qa.xml:131(para)
 msgid "Check that the draft Release Note is up to date"
-msgstr ""
+msgstr "Periksa bahwa rancangan Catatan Rilis sdah terbaru"
 
 #: contributor-docs/C/qa-testing.xml:14(title)
 msgid "Package and ISO Testing"
-msgstr ""
+msgstr "Paket dan Pengujian ISO"
 
 #: contributor-docs/C/qa-testing.xml:16(title)
 msgid "ISOs"
-msgstr ""
+msgstr "ISO"
 
 #: contributor-docs/C/qa-testing.xml:18(para)
 msgid ""
@@ -1231,6 +1607,13 @@ msgid ""
 "with <ulink "
 "url=\"https://help.ubuntu.com/community/ZsyncCdImage\">zsync</ulink>"
 msgstr ""
+"Secara umum, tautan untuk ISO tertentu untuk penggunaan harian atau "
+"milestone dapat ditemukan di <ulink url=\"http://iso.qa.ubuntu.com/\"> "
+"Pelacak ISO </ulink>. Ada tautan untuk <ulink "
+"url=\"http://cdimage.ubuntu.com/xubuntu/daily-live/current/\"> ISO harian "
+"yang sedang berkembang. Ini bisa bermanfaat, terutama ketika mengatur metode "
+"untuk mengunduh ISO pengujian Anda, seperti dengan <ulink "
+"url=\"https://help.ubuntu.com/community/ZsyncCdImage\"> zsync </ulink>"
 
 #: contributor-docs/C/qa-testing.xml:20(para)
 msgid ""
@@ -1238,10 +1621,13 @@ msgid ""
 "<ulink url=\"http://dev.xubuntu.org/#tab-qa\">QA Status</ulink> of the "
 "development status tracker"
 msgstr ""
+"Anda dapat menemukan boot dan status pemasangan ISO terakhir yang diketahui "
+"di <ulink url=\"http://dev.xubuntu.org/#tab-qa\"> Status QA </ulink> pelacak "
+"status pengembangan"
 
 #: contributor-docs/C/qa-testing.xml:24(title)
 msgid "Exploratory Testing"
-msgstr ""
+msgstr "Pengujian Eksplorasi"
 
 #: contributor-docs/C/qa-testing.xml:26(para)
 msgid ""
@@ -1249,6 +1635,9 @@ msgid ""
 "actions (static testing), community members can take part in exploratory "
 "testing as well."
 msgstr ""
+"Selain menguji gambar dan perangkat lunak dengan tindakan pengujian yang "
+"telah ditentukan sebelumnya (pengujian statis), anggota masyarakat juga "
+"dapat mengambil bagian dalam pengujian eksplorasi."
 
 #: contributor-docs/C/qa-testing.xml:28(para)
 msgid ""
@@ -1257,6 +1646,11 @@ msgid ""
 "find them. This allows Xubuntu to get a much larger spread of testing than "
 "is possible with predefined tests."
 msgstr ""
+"Intinya, pengujian eksplorasi berarti menjalankan rilis pengembangan dan "
+"melakukan tugas-tugas harian Anda dengan sistem dan akhirnya, melaporkan bug "
+"ketika Anda menemukannya. Ini memungkinkan Xubuntu untuk mendapatkan "
+"pengujian yang jauh lebih besar daripada yang mungkin dilakukan dengan tes "
+"yang telah ditentukan."
 
 #: contributor-docs/C/qa-testing.xml:30(para)
 msgid ""
@@ -1266,6 +1660,12 @@ msgid ""
 "as much work in the development release as is practical – all the while "
 "watching for bugs and regressions in the development release."
 msgstr ""
+"Cara yang berguna untuk menangani ini adalah boot ganda (atau ganda). Dengan "
+"dual (atau multiple) booting Anda dapat memastikan Anda dapat mengakses "
+"versi yang berfungsi setiap saat saat menguji sistem pengembangan. Dengan "
+"cara ini Anda dapat melakukan sebanyak mungkin pekerjaan dalam rilis "
+"pengembangan yang praktis - sambil memperhatikan bug dan regresi dalam rilis "
+"pengembangan."
 
 #: contributor-docs/C/qa-testing.xml:32(para)
 msgid ""
@@ -1274,6 +1674,11 @@ msgid ""
 "at <ulink url=\"https://wiki.xubuntu.org/qa/fine_tuning\">Manual Partitions "
 "and Bootloader location</ulink>."
 msgstr ""
+"Ketika dual (atau multi-booting) akan sangat membantu untuk menginstal "
+"bootloader ke partisi tertentu, langkah-langkah sederhana untuk mengatasi "
+"ini dapat ditemukan di <ulink "
+"url=\"https://wiki.xubuntu.org/qa/fine_tuning\" > Partisi Manual dan lokasi "
+"Bootloader</ulink>."
 
 #: contributor-docs/C/qa-testing.xml:34(para)
 msgid ""
@@ -1281,14 +1686,19 @@ msgid ""
 "to normally reported issues, usability bugs, missing icons, inconsistent "
 "functionality."
 msgstr ""
+"Masalah yang ingin ditangani oleh tim pengembangan termasuk, selain masalah "
+"yang biasanya dilaporkan, bug kegunaan, ikon yang hilang, fungsionalitas "
+"yang tidak konsisten."
 
 #: contributor-docs/C/qa-testing.xml:38(title)
 msgid "Using Development PPAs"
-msgstr ""
+msgstr "Menggunakan PPA Pengembangan"
 
 #: contributor-docs/C/qa-testing.xml:40(para)
 msgid "We have 3 PPAs which we use regularly to test packages. These are:"
 msgstr ""
+"Kami memiliki 3 PPA yang kami gunakan secara teratur untuk menguji paket. "
+"Ini adalah:"
 
 #: contributor-docs/C/qa-testing.xml:43(para)
 msgid ""
@@ -1296,6 +1706,8 @@ msgid ""
 "url=\"https://launchpad.net/~shimmerproject/+archive/ubuntu/daily\">Shimmer "
 "Themes</ulink> for daily builds of the Shimmer Project’s projects"
 msgstr ""
+"<ulink url=\"https://launchpad.net/~shimmerproject/+archive/ubuntu/daily\"> "
+"Tema Shimmer</ulink> untuk pembuatan harian proyek Proyek Shimmer"
 
 #: contributor-docs/C/qa-testing.xml:44(para)
 msgid ""
@@ -1303,6 +1715,9 @@ msgid ""
 "dev/+archive/ubuntu/ppa\">Xubuntu daily builds</ulink> for daily Git and Bzr "
 "builds for packages related to Xubuntu and/or Xfce4"
 msgstr ""
+"<ulink url=\"https://launchpad.net/~xubuntu-dev/+archive/ubuntu/ppa\"> build "
+"harian Xubuntu</ulink> untuk build Git dan Bzr harian untuk paket yang "
+"terkait dengan Xubuntu dan/atau Xfce4"
 
 #: contributor-docs/C/qa-testing.xml:45(para)
 msgid ""
@@ -1312,6 +1727,11 @@ msgid ""
 "Xubuntu, uploaded for the convenience of people testing these new package "
 "versions and features in an otherwise stable environment"
 msgstr ""
+"<ulink url=\"https://launchpad.net/~xubuntu-"
+"dev/+archive/ubuntu/experimental\"> Eksperimental QA Xubuntu</ulink> untuk "
+"paket dan versi paket yang sedang dipersiapkan untuk dimasukkan dalam "
+"Xubuntu, diunggah untuk kenyamanan orang menguji versi paket dan fitur baru "
+"ini di lingkungan yang stabil"
 
 #: contributor-docs/C/qa-testing.xml:46(para)
 msgid ""
@@ -1319,12 +1739,17 @@ msgid ""
 "dev/+archive/ubuntu/staging\">Xubuntu QA Staging</ulink> for testing of "
 "packages in released and current Xubuntu versions"
 msgstr ""
+"<ulink url=\"https://launchpad.net/~xubuntu-dev/+archive/ubuntu/staging\"> "
+"Pementasan QA Xubuntu</ulink> untuk menguji paket dalam versi Xubuntu yang "
+"dirilis dan saat ini"
 
 #: contributor-docs/C/qa-testing.xml:49(para)
 msgid ""
 "At times the development team use other PPAs to test specific packages. "
 "Details of these will be made known to testers when appropriate"
 msgstr ""
+"Terkadang tim pengembangan menggunakan PPA lain untuk menguji paket "
+"tertentu. Rincian ini akan diberitahukan kepada penguji jika perlu"
 
 #: contributor-docs/C/qa-testing.xml:51(para)
 msgid ""
@@ -1332,30 +1757,41 @@ msgid ""
 "that developers are currently working with, this means that regressions "
 "found by you will not be present once they are released."
 msgstr ""
+"Menginstal dari PPA ini berarti Anda akan menggunakan dan menguji paket yang "
+"saat ini sedang dikerjakan pengembang, ini berarti bahwa regresi yang "
+"ditemukan oleh Anda tidak akan hadir setelah dirilis."
 
 #: contributor-docs/C/qa-testing.xml:53(para)
 msgid ""
 "Removing an in use PPA. Using ppa-purge causes apt to disable a PPA source "
 "list and then change affected packages back to the default versions."
 msgstr ""
+"Menghapus PPA yang digunakan. Menggunakan ppa-purge menyebabkan apt untuk "
+"menonaktifkan daftar sumber PPA dan kemudian mengubah paket yang terkena "
+"kembali ke versi default."
 
 #: contributor-docs/C/qa-testing.xml:56(para)
 msgid "Run <userinput>sudo apt-get install ppa-purge</userinput>"
 msgstr ""
+"Jalankan <input pengguna>sudo apt-get install ppa-purge</input pengguna>"
 
 #: contributor-docs/C/qa-testing.xml:57(para)
 msgid "Run <userinput>sudo ppa-purge ppa:ppaname</userinput>"
 msgstr ""
+"Jalankan <input pengguna>sudo ppa-purge ppa: nama ppa</input pengguna>"
 
 #: contributor-docs/C/qa-testing.xml:60(para)
 msgid ""
 "Reporting bugs with PPAs can be problematic, please see further information "
 "on reporting bugs with PPAs in <xref linkend=\"qa-bugs-ppa\"/>."
 msgstr ""
+"Melaporkan bug dengan PPA bisa menimbulkan masalah, silakan lihat informasi "
+"lebih lanjut tentang pelaporan bug dengan PPA di <xref linkend=\"qa-bugs-"
+"ppa\"/>."
 
 #: contributor-docs/C/qa-testing.xml:64(title)
 msgid "Static Testing"
-msgstr ""
+msgstr "Pengujian Statis"
 
 #: contributor-docs/C/qa-testing.xml:66(para)
 msgid ""
@@ -1363,6 +1799,10 @@ msgid ""
 "the every day quality. If you have spare hardware resources or are able to "
 "run a virtualized testing environment, you can help."
 msgstr ""
+"Menguji versi pengembangan Xubuntu dan paket di dalamnya membantu menjaga "
+"kualitas setiap hari. Jika Anda memiliki sumber daya perangkat keras "
+"cadangan atau dapat menjalankan lingkungan pengujian tervirtualisasi, Anda "
+"dapat membantu."
 
 #: contributor-docs/C/qa-testing.xml:68(para)
 msgid ""
@@ -1370,6 +1810,8 @@ msgid ""
 "decision as to which testing week(s) we will participate in will be "
 "discussed."
 msgstr ""
+"Periksa milis devel dekat dengan awal siklus, di mana keputusan mengenai "
+"minggu pengujian mana yang akan kami ikuti akan dibahas."
 
 #: contributor-docs/C/qa-testing.xml:70(para)
 msgid ""
@@ -1378,10 +1820,14 @@ msgid ""
 "previous days, notes will be made as appropriate pn the tracker <ulink "
 "url=\"https://dev.xubuntu.org/#tab-qa\">QA Status page</ulink>."
 msgstr ""
+"Selama minggu-minggu pengujian ISO akan terus dibangun, Tim QA Xubuntu akan "
+"menonton laporan pelacak dan membuat penguji mengetahui masalah yang dicatat "
+"pada hari-hari sebelumnya, catatan akan dibuat sesuai pn pelacak <ulink "
+"url=\"https: // dev. xubuntu.org/#tab-qa\"> Halaman Status QA </ulink>."
 
 #: contributor-docs/C/qa-testing.xml:74(title)
 msgid "Testing Weeks"
-msgstr ""
+msgstr "Pekan Menguji"
 
 #: contributor-docs/C/qa-testing.xml:76(para)
 msgid ""
@@ -1389,20 +1835,25 @@ msgid ""
 "milestone it is useful in the 2 days prior to release for the following to "
 "have taken place."
 msgstr ""
+"Pengujian ISO tetap hanya akan berlangsung untuk Final Beta, selama "
+"milestone ini berguna dalam 2 hari sebelum rilis untuk hal-hal berikut telah "
+"terjadi."
 
 #: contributor-docs/C/qa-testing.xml:79(para) contributor-docs/C/qa-testing.xml:90(para)
 msgid ""
 "Live Session: Boot with the image and ensure that basic application testing "
 "(open, close, saving etc.) passes."
 msgstr ""
+"Sesi Langsung: Boot dengan gambar dan pastikan lolos pengujian aplikasi "
+"dasar (buka, tutup, simpan, dll.)."
 
 #: contributor-docs/C/qa-testing.xml:80(para) contributor-docs/C/qa-testing.xml:91(para)
 msgid "Installation tests required pass. These test only the installation."
-msgstr ""
+msgstr "Tes instalasi harus lulus. Ini hanya menguji instalasi."
 
 #: contributor-docs/C/qa-testing.xml:85(title)
 msgid "Daily Testing"
-msgstr ""
+msgstr "Pengujian harian"
 
 #: contributor-docs/C/qa-testing.xml:87(para)
 msgid ""
@@ -1412,10 +1863,15 @@ msgid ""
 "prove a global or local to Xubuntu issue. If unsure contact the Xubuntu "
 "team, preferably on IRC."
 msgstr ""
+"Pentingnya pengujian gambar harian terutama terletak pada mengetahui bahwa "
+"regresi boot dan/atau instalasi belum muncul. Di mana tampaknya mereka "
+"miliki, jika Anda dapat boot dengan image rasa yang berbeda, ini dapat "
+"membantu membuktikan masalah global atau lokal untuk Xubuntu. Jika tidak "
+"yakin, hubungi tim Xubuntu, lebih disukai di IRC."
 
 #: contributor-docs/C/qa-testing.xml:96(title)
 msgid "Upgrade Testing"
-msgstr ""
+msgstr "Tingkatkan Pengujian"
 
 #: contributor-docs/C/qa-testing.xml:98(para)
 msgid ""
@@ -1424,6 +1880,11 @@ msgid ""
 "version. When the development version is intended to be the next LTS "
 "release, we need to test both upgrade paths: LTS to LTS and regular to LTS."
 msgstr ""
+"Sekitar setengah jalan melalui siklus pengembangan (sekitar tonggak beta) "
+"kita perlu menguji peningkatan dari rilis sebelumnya ke versi pengembangan "
+"baru. Ketika versi pengembangan dimaksudkan untuk menjadi rilis LTS "
+"berikutnya, kita perlu menguji kedua jalur peningkatan: LTS ke LTS dan "
+"reguler ke LTS."
 
 #: contributor-docs/C/qa-testing.xml:100(para)
 msgid ""
@@ -1433,18 +1894,24 @@ msgid ""
 "for testing is the one built on the first Friday, except where bugs are "
 "reported and fixes landed."
 msgstr ""
+"Pelacak ISO memiliki bagian untuk tes peningkatan yang tidak berubah setiap "
+"hari, tetapi beroperasi dari hari Jumat hingga Jumat. Ini memungkinkan kami "
+"untuk menguji peningkatan selama seminggu, bukan sehari. Selama pengujian "
+"ini, lebih disukai bahwa gambar yang digunakan untuk pengujian adalah yang "
+"dibangun pada hari Jumat pertama, kecuali di mana bug dilaporkan dan "
+"perbaikan mendarat."
 
 #: contributor-docs/C/qa-testing.xml:103(para)
 msgid "Upgrade: tested using the update-manager"
-msgstr ""
+msgstr "Peningkatan: diuji menggunakan pembaruan-manajer"
 
 #: contributor-docs/C/qa-testing.xml:104(para)
 msgid "Upgrade (image): tested using the daily image"
-msgstr ""
+msgstr "Pembaruan (gambar): diuji menggunakan gambar harian"
 
 #: contributor-docs/C/qa-testing.xml:109(title)
 msgid "Package Testing"
-msgstr ""
+msgstr "Paket Pengujian"
 
 #: contributor-docs/C/qa-testing.xml:111(para)
 msgid ""
@@ -1452,6 +1919,9 @@ msgid ""
 "package testing will be made to the xubuntu-devel mailing list as required. "
 "This could be a call from QA or Developers."
 msgstr ""
+"Untuk rilis di mana kami menggunakan Pelacak Paket, panggilan untuk "
+"pengujian paket akan dilakukan ke milis xubuntu-devel sebagaimana "
+"diperlukan. Ini bisa berupa panggilan dari QA atau Pengembang."
 
 #: contributor-docs/C/qa-testing.xml:113(para)
 msgid ""
@@ -1461,14 +1931,19 @@ msgid ""
 "developer testing requirement</emphasis> are mailed as they are available, "
 "often these packages will be those found on one of our PPAs."
 msgstr ""
+"Jadwal tes yang direncanakan akan dikirimkan ke milis Xubuntu Devel dekat "
+"dengan permulaan siklus. Pengingat akan persyaratan pengujian paket yang "
+"akan datang dikirimkan ke milis Xubuntu devel sesuai kebutuhan. <emphasis> "
+"Persyaratan pengujian pengembang khusus </emphasis> dikirimkan saat "
+"tersedia, seringkali paket-paket ini akan ditemukan di salah satu PPA kami."
 
 #: contributor-docs/C/qa-infra.xml:14(title)
 msgid "Testing Infrastructure"
-msgstr ""
+msgstr "Pengujian Infrastruktur"
 
 #: contributor-docs/C/qa-infra.xml:16(title)
 msgid "Getting ready to test"
-msgstr ""
+msgstr "Bersiap untuk menguji"
 
 #: contributor-docs/C/qa-infra.xml:18(para)
 msgid ""
@@ -1477,16 +1952,22 @@ msgid ""
 "it on. This page will give you the basic information in order to do those "
 "things and more."
 msgstr ""
+"Agar berhasil menguji Xubuntu, Anda akan membutuhkan minimal 4 hal: akun "
+"Launchpad, langganan milis, gambar dan sesuatu untuk mengujinya. Halaman ini "
+"akan memberi Anda informasi dasar untuk melakukan hal-hal itu dan banyak "
+"lagi."
 
 #: contributor-docs/C/qa-infra.xml:22(title)
 msgid "Contacts"
-msgstr ""
+msgstr "Kontak"
 
 #: contributor-docs/C/qa-infra.xml:24(para)
 msgid ""
 "You need a Launchpad account, in order to join the necessary team(s) on it, "
 "and log into the 2 QA trackers."
 msgstr ""
+"Anda memerlukan akun Launchpad, untuk bergabung dengan tim yang diperlukan "
+"di dalamnya, dan masuk ke 2 pelacak QA."
 
 #: contributor-docs/C/qa-infra.xml:26(para)
 msgid ""
@@ -1496,6 +1977,12 @@ msgid ""
 "Xubuntu Devel <ulink url=\"https://lists.ubuntu.com/mailman/listinfo/xubuntu-"
 "devel\">Mailing</ulink> list."
 msgstr ""
+"Kami menggunakan satu milis untuk merinci apa yang ingin kami uji selama "
+"siklus, kami menggunakan daftar yang sama saat kami meminta tes. Daftar ini "
+"juga digunakan oleh tim untuk membahas pengembangan Xubuntu. Anda harus "
+"bergabung dengan Xubuntu Devel <ulink "
+"url=\"https://lists.ubuntu.com/mailman/listinfo/xubuntu-devel\"> Daftar "
+"Surat</ulink>."
 
 #: contributor-docs/C/qa-infra.xml:28(para)
 msgid ""
@@ -1504,12 +1991,19 @@ msgid ""
 "alternatively you can access the channel via the IRC tab of the Xubuntu "
 "<ulink url=\"http://dev.xubuntu.org/\">development</ulink> tracker."
 msgstr ""
+"Meskipun tidak perlu untuk melakukannya, kami banyak menggunakan IRC, jadi "
+"memiliki akun yang dapat Anda gunakan untuk mengakses saluran # xubuntu-"
+"devel utama akan membantu Anda, atau Anda dapat mengakses saluran melalui "
+"tab IRC pada Xubuntu <ulink url=\"http://dev.xubuntu.org/\"> "
+"pengembangan</ulink> pelacak."
 
 #: contributor-docs/C/qa-infra.xml:30(para)
 msgid ""
 "Join the Xubuntu Testers <ulink url=\"https://launchpad.net/~xubuntu-"
 "testers\">Launchpad</ulink> team."
 msgstr ""
+"Bergabunglah dengan Penguji Xubuntu <ulink "
+"url=\"https://launchpad.net/~xubuntu-testers\"> Launchpad</ulink>."
 
 #: contributor-docs/C/qa-infra.xml:32(para)
 msgid ""
@@ -1517,10 +2011,14 @@ msgid ""
 "url=\"http://wiki.xubuntu.org/qa/teamhardware\">Hardware</ulink> page. We "
 "can use this data to request specific testing from specific testers."
 msgstr ""
+"Pertimbangkan untuk menambahkan detail Anda ke halaman <ulink "
+"url=\"http://wiki.xubuntu.org/qa/teamhardware\"> Perangkat Keras</ulink>. "
+"Kami dapat menggunakan data ini untuk meminta pengujian khusus dari penguji "
+"tertentu."
 
 #: contributor-docs/C/qa-infra.xml:36(title)
 msgid "Getting the ISO"
-msgstr ""
+msgstr "Mendapatkan ISO"
 
 #: contributor-docs/C/qa-infra.xml:38(para)
 msgid ""
@@ -1529,6 +2027,10 @@ msgid ""
 "testcases through release codename to Xubuntu's group of tests. Then choose "
 "either 64 or 32 bit. Download links are available there."
 msgstr ""
+"ISO dapat diperoleh melalui beberapa metode. Metode paling sederhana adalah "
+"dengan mengunjungi pelacak <ulink url=\"http://iso.qa.ubuntu.com/\"> "
+"ISO</ulink>. Ikuti testcases melalui rilis kode nama ke grup tes Xubuntu. "
+"Kemudian pilih 64 atau 32 bit. Tautan unduhan tersedia di sana."
 
 #: contributor-docs/C/qa-infra.xml:40(para)
 msgid ""
@@ -1538,20 +2040,27 @@ msgid ""
 "more appropriate. This is will just grab the difference between your local "
 "copy and the current one."
 msgstr ""
+"Saat menguji lebih teratur, Anda mungkin menemukan (terutama di mana "
+"bandwidth menjadi masalah bagi Anda) menggunakan <ulink "
+"url=\"https://help.ubuntu.com/community/ZsyncCdImage\"> tautan zsync</ulink> "
+"lebih tepat. Ini hanya akan mengambil perbedaan antara salinan lokal Anda "
+"dan yang saat ini."
 
 #: contributor-docs/C/qa-infra.xml:45(title)
 msgid "Methods of testing"
-msgstr ""
+msgstr "Metode pengujian"
 
 #: contributor-docs/C/qa-infra.xml:47(para)
 msgid ""
 "Now you've set up your basic contact(s) and have your ISO, you are in a "
 "position to test it."
 msgstr ""
+"Sekarang anda telah mengatur kontak dasar dan mendapatkan ISO anda, anda "
+"dalam posisi akan mengetesnya."
 
 #: contributor-docs/C/qa-infra.xml:49(para)
 msgid "There are two main methods of testing the ISO:"
-msgstr ""
+msgstr "Ada dua metode utama pengujian ISO:"
 
 #: contributor-docs/C/qa-infra.xml:52(para)
 msgid ""
@@ -1559,6 +2068,9 @@ msgid ""
 "testing our ISOs. You can install a virtual machine by directly using your "
 "downloaded ISO."
 msgstr ""
+"Menggunakan mesin virtual memungkinkan Anda untuk terus menggunakan rilis "
+"normal saat menguji ISO kami. Anda dapat menginstal mesin virtual dengan "
+"langsung menggunakan ISO yang Anda unduh."
 
 #: contributor-docs/C/qa-infra.xml:53(para)
 msgid ""
@@ -1569,6 +2081,12 @@ msgid ""
 "<ulink url=\"http://princessleia.com/journal/2016/03/xubuntu-16-04-iso-"
 "testing-tips/\">USB</ulink> stick with Gnome Disks."
 msgstr ""
+"Instal ISO ke perangkat keras di mana kemungkinan itu tersedia. Ini lebih "
+"penting menjelang akhir siklus pengembangan. Anda harus memiliki ISO di "
+"beberapa media yang dapat di-boot. Seorang anggota tim Situs Web Xubuntu "
+"merincikan metode sederhana untuk menyiapkan bootable <ulink "
+"url=\"http://princessleia.com/journal/2016/03/xubuntu-16-04-iso-testing-"
+"tips/\"> USB </ulink> tetap dengan Gnome Disk."
 
 #: contributor-docs/C/qa-infra.xml:56(para)
 msgid ""
@@ -1578,46 +2096,61 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/KVM\">KVM</ulink>. Members of "
 "Xubuntu QA have some experience with using this for testing and can help."
 msgstr ""
+"Meskipun dimungkinkan untuk menggunakan VirtualBox, pengalaman masa lalu "
+"menunjukkan bahwa masalah yang ditemukan ketika pengujian di VirtualBox "
+"sulit untuk ditiru di tempat lain. Anda mungkin ingin melihat menggunakan "
+"<ulink url=\"https://help.ubuntu.com/community/KVM\"> KVM </ulink>. Anggota "
+"Xubuntu QA memiliki pengalaman menggunakan ini untuk pengujian dan dapat "
+"membantu."
 
 #: contributor-docs/C/qa-infra.xml:60(title)
 msgid "Reporting your result"
-msgstr ""
+msgstr "Melaporkan hasil Anda"
 
 #: contributor-docs/C/qa-infra.xml:62(para)
 msgid "There are two QA trackers we use."
-msgstr ""
+msgstr "Ada dua pelacak QA yang kami gunakan."
 
 #: contributor-docs/C/qa-infra.xml:65(para)
 msgid ""
 "The ISO tracker mentioned above for any testing done with an ISO either an "
 "install or an upgrade test."
 msgstr ""
+"Pelacak ISO yang disebutkan di atas untuk pengujian apa pun yang dilakukan "
+"dengan ISO baik tes instal maupun upgrade."
 
 #: contributor-docs/C/qa-infra.xml:66(para)
 msgid ""
 "The <ulink url=\"http://packages.qa.ubuntu.com/\">Package</ulink> tracker, "
 "which is used when we are testing applications during a cycle."
 msgstr ""
+"Pelacak <ulink url=\"http://packages.qa.ubuntu.com/\">Paket </ulink>, yang "
+"digunakan saat kami menguji aplikasi selama suatu siklus."
 
 #: contributor-docs/C/qa-infra.xml:69(para)
 msgid ""
 "These trackers form the backbone of what we are able to gain from your "
 "testing. It is important that you report your results."
 msgstr ""
+"Pelacak ini membentuk tulang punggung dari apa yang dapat kami peroleh dari "
+"pengujian Anda. Penting bahwa Anda melaporkan hasil Anda."
 
 #: contributor-docs/C/qa-infra.xml:71(para)
 msgid ""
 "The next two sections of these documents go into more detail on how you can "
 "test for us and how to report bugs for us."
 msgstr ""
+"Dua bagian selanjutnya dari dokumen ini menjelaskan secara lebih rinci "
+"tentang bagaimana Anda dapat menguji kami dan bagaimana melaporkan bug untuk "
+"kami."
 
 #: contributor-docs/C/qa-bugs.xml:14(title)
 msgid "Dealing with bugs"
-msgstr ""
+msgstr "Berurusan dengan bug"
 
 #: contributor-docs/C/qa-bugs.xml:17(title)
 msgid "Using tags for Xubuntu bug reports"
-msgstr ""
+msgstr "Menggunakan tag untuk laporan bug Xubuntu"
 
 #: contributor-docs/C/qa-bugs.xml:19(para)
 msgid ""
@@ -1625,12 +2158,18 @@ msgid ""
 "there a few tags you can add to your bug reports. We assume that a tag for "
 "the cycle codename is included, if it is not please add one."
 msgstr ""
+"Agar kami dapat dengan mudah menemukan bug untuk Xubuntu selama siklus "
+"pengembangan, ada beberapa tag yang dapat Anda tambahkan ke laporan bug "
+"Anda. Kami menganggap bahwa tag untuk nama kode siklus disertakan, jika "
+"tidak, tambahkan saja."
 
 #: contributor-docs/C/qa-bugs.xml:22(para)
 msgid ""
 "ppa: add this tag when you've reported a bug against a package from one of "
 "the 3 develeopment PPAs"
 msgstr ""
+"ppa: tambahkan tag ini ketika Anda melaporkan bug terhadap paket dari salah "
+"satu dari 3 PPA pengembangan"
 
 #: contributor-docs/C/qa-bugs.xml:23(para)
 msgid ""
@@ -1638,10 +2177,13 @@ msgid ""
 "bug, but one which might be deemed wishlist, such as multiple selection of "
 "results in the Catfish results window"
 msgstr ""
+"kegunaan: tambahkan tag ini jika masalah yang Anda laporkan bukan bug "
+"standar, tetapi salah satu yang mungkin dianggap sebagai daftar harapan, "
+"seperti beberapa pilihan hasil di jendela hasil Catfish"
 
 #: contributor-docs/C/qa-bugs.xml:28(title)
 msgid "Normal bug reporting"
-msgstr ""
+msgstr "Pelaporan bug normal"
 
 #: contributor-docs/C/qa-bugs.xml:30(para)
 msgid ""
@@ -1649,6 +2191,10 @@ msgid ""
 "no experience at all. Filing bugs is important because in some cases, bugs "
 "can go unnoticed unless an end user files them."
 msgstr ""
+"Siapa pun yang menggunakan Xubuntu dapat mengajukan (atau dengan kata lain, "
+"melaporkan) bug, bahkan tanpa pengalaman sama sekali. Mengarsipkan bug "
+"penting karena dalam beberapa kasus, bug dapat diketahui tanpa disadari oleh "
+"pengguna akhir."
 
 #: contributor-docs/C/qa-bugs.xml:32(para)
 msgid ""
@@ -1660,6 +2206,13 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/ReportingBugs\">bug reporting "
 "guidelines</ulink> before filing your first bug."
 msgstr ""
+"Sebelum mengirimkan bug, Anda harus melihat <ulink "
+"url=\"https://launchpad.net/ubuntu/+bugs\"> laporan bug yang ada </ulink> "
+"dan lepaskan catatan untuk memverifikasi bug yang belum pernah dilaporkan. "
+"Jika bug belum dilaporkan, Anda harus mengajukan laporan bug baru. Masuk "
+"akal untuk membaca <ulink "
+"url=\"https://help.ubuntu.com/community/ReportingBugs\"> pedoman pelaporan "
+"bug </ulink> sebelum mengajukan bug pertama Anda."
 
 #: contributor-docs/C/qa-bugs.xml:34(para)
 msgid ""
@@ -1671,6 +2224,13 @@ msgid ""
 "package</ulink>. When filing the bug, it is better to have too much "
 "information than too little."
 msgstr ""
+"Dalam kebanyakan situasi, paling mudah untuk mengajukan bug dengan membuka "
+"Terminal baru dan ketik ubuntu-bug package-name, di mana nama-paket adalah "
+"paket yang ingin Anda ajukan bug. Jika Anda tidak tahu paket mana yang harus "
+"Anda tempati bugnya, lihat instruksi di <ulink "
+"url=\"https://wiki.ubuntu.com/Bugs/FindRightPackage\"> menemukan paket yang "
+"tepat</ulink>. Saat mengajukan bug, lebih baik memiliki terlalu banyak "
+"informasi daripada terlalu sedikit."
 
 #: contributor-docs/C/qa-bugs.xml:36(para)
 msgid ""
@@ -1679,10 +2239,14 @@ msgid ""
 "<userinput>ubuntu-bug -w</userinput>, click to close the message window and "
 "then click on the application window."
 msgstr ""
+"Jika anda tidak yakin dengan nama paket yang akan anda laporkan, anda dapat "
+"menggunakan tetikus untuk mengklik pada jendela aplikasi; di terminal "
+"jalankan <userinput>ubuntu-bug-w</userinput>, klik untuk meutup jendela "
+"pesan dan kemudian klik pada jendela aplikasi."
 
 #: contributor-docs/C/qa-bugs.xml:40(title)
 msgid "Reporting bugs with PPAs"
-msgstr ""
+msgstr "Melaporkan bug dengan PPA"
 
 #: contributor-docs/C/qa-bugs.xml:42(para)
 msgid ""
@@ -1691,6 +2255,10 @@ msgid ""
 "<literal>https://bugs.launchpad.net/ubuntu/+source/PACKAGENAME/+filebug</lite"
 "ral>."
 msgstr ""
+"Saat Anda menemukan bug dengan paket dari PPA, Anda harus mengajukan laporan "
+"bug secara manual. Setelah Anda mendapatkan nama paket yang menyinggung, "
+"buka <literal> "
+"https://bugs.launchpad.net/ubuntu/+source/PACKAGENAME/+filebug </literal>."
 
 #: contributor-docs/C/qa-bugs.xml:44(para)
 msgid ""
@@ -1701,16 +2269,24 @@ msgid ""
 "be sure to review them as they may contain sensitive or personally "
 "identifiable material."
 msgstr ""
+"Log kerusakan yang terkait dengan paket dapat ditemukan di "
+"<literal>/var/crash/</literal>. Direktori ini terkadang memerlukan izin "
+"superuser (<literal>sudo</literal>) untuk melihat dan mengekstrak isinya. "
+"Log-log ini bisa sangat berharga untuk dimasukkan dalam laporan bug Anda, "
+"tetapi pastikan untuk meninjaunya karena mungkin mengandung materi yang "
+"sensitif atau dapat diidentifikasi secara pribadi."
 
 #: contributor-docs/C/qa-bugs.xml:46(para)
 msgid ""
 "Be sure to follow the above general guidelines, and also add the ppa tag so "
 "it is clear to developers that this is an unsupported package."
 msgstr ""
+"Pastikan untuk mengikuti pedoman umum di atas, dan juga menambahkan tag ppa "
+"sehingga jelas bagi pengembang bahwa ini adalah paket yang tidak didukung."
 
 #: contributor-docs/C/qa-bugs.xml:50(title)
 msgid "Triaging bugs"
-msgstr ""
+msgstr "Triaging bugs"
 
 #: contributor-docs/C/qa-bugs.xml:52(para)
 msgid ""
@@ -1720,6 +2296,11 @@ msgid ""
 "url=\"https://wiki.ubuntu.com/Bugs/Triage\">triaging bugs</ulink> in the "
 "Ubuntu wiki."
 msgstr ""
+"Triaging bug adalah mendapatkan laporan bug dalam keadaan di mana mereka "
+"berguna bagi pengembang dengan memastikan laporan bug memiliki judul, "
+"deskripsi, log yang sesuai dan banyak lagi. Untuk memulai, baca halaman di "
+"<ulink url=\"https://wiki.ubuntu.com/Bugs/Triage\"> triaging bugs</ulink> di "
+"wiki Ubuntu."
 
 #: contributor-docs/C/qa-bugs.xml:54(para)
 msgid ""
@@ -1733,6 +2314,15 @@ msgid ""
 "to triage bugs, you will gain more responsibilities from the Bug Control "
 "team."
 msgstr ""
+"Setelah Anda terbiasa dengan aspek-aspek triaging bug, Anda dapat mulai "
+"melakukan triase <ulink url=\"https://bugs.launchpad.net/~xubuntu-"
+"bugs/+packagebugs\"> bug Xubuntu</ulink>. Harap perhatikan bahwa status dan "
+"kepentingan bug hanya dapat diubah oleh anggota <ulink "
+"url=\"https://wiki.ubuntu.com/UbuntuBugControl\"> tim Ubuntu Bug "
+"Control</ulink> & ndash; pada awalnya, Anda harus melaporkan bug triaged "
+"untuk tim di # ubuntu-bug di Freenode. Setelah Anda menunjukkan kemampuan "
+"untuk melakukan triase bug, Anda akan mendapatkan lebih banyak tanggung "
+"jawab dari tim Bug Control."
 
 #: contributor-docs/C/qa-bugs.xml:56(para)
 msgid ""
@@ -1741,10 +2331,15 @@ msgid ""
 "who are more familiar with both triaging and Xubuntu generally, since not "
 "all of the new bugs mentioning Xubuntu are actually Xubuntu bugs."
 msgstr ""
+"Ketika Anda mendapatkan pengalaman dalam triaging bug Xubuntu, Anda mungkin "
+"ingin melihat bug baru yang menyebutkan Xubuntu. Triaging bug baru "
+"direkomendasikan bagi mereka yang lebih terbiasa dengan triaging dan Xubuntu "
+"secara umum, karena tidak semua bug baru yang menyebutkan Xubuntu sebenarnya "
+"adalah bug Xubuntu."
 
 #: contributor-docs/C/qa-bugs.xml:60(title)
 msgid "Forwarding bugs upstream"
-msgstr ""
+msgstr "Meneruskan bug di bagian hulu"
 
 #: contributor-docs/C/qa-bugs.xml:62(para)
 msgid ""
@@ -1752,6 +2347,9 @@ msgid ""
 "benefit from the debugging, triaging and patching work carried out by bug "
 "triagers and developers."
 msgstr ""
+"Ketika bug diteruskan ke hulu, semua pengguna perangkat lunak yang relevan "
+"akan mendapat manfaat dari pekerjaan debugging, triaging dan patching yang "
+"dilakukan oleh pemicu bug dan pengembang."
 
 #: contributor-docs/C/qa-bugs.xml:64(para)
 msgid ""
@@ -1762,6 +2360,12 @@ msgid ""
 "track the status of the bug in Ubuntu, the bug in Launchpad should be linked "
 "with the upstream bug."
 msgstr ""
+"Setelah ditentukan bahwa bug tidak disebabkan oleh perubahan Xubuntu, bug "
+"dapat diteruskan ke masing-masing proyek hulu untuk ditinjau. Misalnya, "
+"semua bug Xfce yang sesuai harus diajukan di <ulink "
+"url=\"https://bugzilla.xfce.org/\">Xfce bug tracker</ulink>. Selain itu, "
+"untuk melacak status bug di Ubuntu, bug di Launchpad harus dikaitkan dengan "
+"bug hulu."
 
 #: contributor-docs/C/qa-bugs.xml:66(para)
 msgid ""
@@ -1773,10 +2377,16 @@ msgid ""
 "url=\"https://wiki.ubuntu.com/Bugs/Watches\">Bugs/Watches</ulink> page on "
 "the Ubuntu wiki."
 msgstr ""
+"Wiki Ubuntu memiliki halaman luas tentang <ulink "
+"url=\"https://wiki.ubuntu.com/Bugs/Upstream\"> penerusan bug hulu</ulink> "
+"bersama dengan instruksi tentang cara melaporkan bug di pelacak bug hulu. "
+"Informasi terperinci tentang cara menambahkan bug hulu ke Launchpad dapat "
+"ditemukan di halaman <ulink url=\"https://wiki.ubuntu.com/Bugs/Watches\"> "
+"Bugs/Watches</ulink> di wiki Ubuntu."
 
 #: contributor-docs/C/processes.xml:14(title)
 msgid "Processes"
-msgstr ""
+msgstr "Proses"
 
 #: contributor-docs/C/processes.xml:17(para)
 msgid ""
@@ -1785,6 +2395,10 @@ msgid ""
 "this section is to describe <emphasis>what we do</emphasis>, not so much to "
 "describe <emphasis>what we should do</emphasis>."
 msgstr ""
+"Bagian ini menjelaskan beberapa proses komunitas untuk pengembangan Xubuntu. "
+"Proses harus digunakan sebagai pedoman: tujuan utama dari bagian ini adalah "
+"untuk menggambarkan <emphasis> apa yang kita lakukan </emphasis>, bukan "
+"untuk menggambarkan <emphasis> apa yang harus kita lakukan </emphasis>."
 
 #: contributor-docs/C/processes.xml:19(para)
 msgid ""
@@ -1792,6 +2406,8 @@ msgid ""
 "generic Ubuntu processes that are useful for the team and described "
 "elsewhere:"
 msgstr ""
+"Selain proses Xubuntu yang diuraikan di bawah, ada beberapa proses Ubuntu "
+"generik yang berguna untuk tim dan dijelaskan di tempat lain:"
 
 #: contributor-docs/C/processes.xml:22(para)
 msgid ""
@@ -1799,20 +2415,25 @@ msgid ""
 "exception process</ulink> for getting to upload changes after a relevant "
 "freeze"
 msgstr ""
+"<ulink url=\"https://wiki.ubuntu.com/FreezeExceptionProcess\"> Bekukan "
+"proses pengecualian</ulink> untuk mendapatkan unggahan perubahan setelah "
+"pembekuan yang relevan"
 
 #: contributor-docs/C/processes.xml:23(para)
 msgid ""
 "<ulink url=\"https://wiki.ubuntu.com/SponsorshipProcess\">Sponsorship "
 "process</ulink> for getting new package uploads in the archive"
 msgstr ""
+"<ulink url=\"https://wiki.ubuntu.com/SponsorshipProcess\"> Proses "
+"sponsor</ulink> untuk mendapatkan unggahan paket baru di arsip"
 
 #: contributor-docs/C/processes.xml:27(title)
 msgid "Meetings"
-msgstr ""
+msgstr "Rapat"
 
 #: contributor-docs/C/processes.xml:30(title)
 msgid "Chairing a meeting"
-msgstr ""
+msgstr "Mengetuai rapat"
 
 #: contributor-docs/C/processes.xml:31(para)
 msgid ""
@@ -1821,12 +2442,18 @@ msgid ""
 "on the team name. The actual upcoming chair list can be found in the "
 "comments of the Meetings page."
 msgstr ""
+"Pertemuan komunitas diadakan di <literal> #xubuntu-devel</literal> dan "
+"diketuai oleh pimpinan tim Xubuntu. Ketua tim yang memimpin bersepeda "
+"berdasarkan nama tim. Daftar ketua aktual yang akan datang dapat ditemukan "
+"di komentar dari halaman Rapat."
 
 #: contributor-docs/C/processes.xml:33(para)
 msgid ""
 "The chair is responsible for scheduling and announcing the meeting on the "
 "development mailing list, and for updating the wiki with the meeting time."
 msgstr ""
+"Ketua bertanggung jawab untuk menjadwalkan dan mengumumkan pertemuan di "
+"milis pengembangan, dan untuk memperbarui wiki dengan waktu rapat."
 
 #: contributor-docs/C/processes.xml:35(para)
 msgid ""
@@ -1834,6 +2461,9 @@ msgid ""
 "to individuals or teams with their permission. The chair should take care to "
 "copy these items to blueprint work items where applicable."
 msgstr ""
+"Selama salah satu bagian dalam rapat, ketua dapat memberikan item tindakan "
+"kepada individu atau tim dengan izin mereka. Kursi harus berhati-hati untuk "
+"menyalin item-item ini ke item pekerjaan cetak biru jika berlaku."
 
 #: contributor-docs/C/processes.xml:37(para)
 msgid ""
@@ -1843,6 +2473,12 @@ msgid ""
 "startpage</ulink> and use the input box for creating a minutes page. You "
 "will get the content for the page directly from meetingology Moin output URL."
 msgstr ""
+"Risalah rapat perlu ditambahkan ke wiki setelah rapat berakhir. Untuk "
+"melakukan ini, buka <ulink "
+"url=\"https://wiki.ubuntu.com/Xubuntu/Meetings/Archive/Minutes/\">Menit "
+"startpage</ulink> dan gunakan kotak masukan untuk membuat halaman menit. "
+"Anda akan mendapatkan konten untuk halaman langsung dari URL keluaran "
+"meetingology Moin."
 
 #: contributor-docs/C/processes.xml:39(para)
 msgid ""
@@ -1850,26 +2486,33 @@ msgid ""
 "<ulink url=\"https://wiki.ubuntu.com/Xubuntu/Meetings/\">the Meetings main "
 "page</ulink>."
 msgstr ""
+"Setelah Anda membuat halaman menit, jangan lupa untuk memperbarui "
+"menyertakan di <ulink "
+"url=\"https://wiki.ubuntu.com/Xubuntu/Meetings/\">halaman utama "
+"Rapat</ulink>."
 
 #: contributor-docs/C/processes.xml:44(title)
 msgid "Website updates"
-msgstr ""
+msgstr "Pembaruan situs web"
 
 #: contributor-docs/C/processes.xml:47(title)
 msgid "Update on release"
-msgstr ""
+msgstr "Pembaruan saat rilis"
 
 #: contributor-docs/C/processes.xml:50(para)
 msgid ""
 "Update screenshots on the <ulink "
 "url=\"http://xubuntu.org/screenshots/\">Screenshots</ulink> page"
 msgstr ""
+"Perbarui tangkapan layar pada halaman <ulink "
+"url=\"http://xubuntu.org/screenshots/\">Tangkapan Layar</ulink>"
 
 #: contributor-docs/C/processes.xml:51(para)
 msgid ""
 "Rotate the <ulink url=\"http://xubuntu.org/press/\">In the Press</ulink> "
 "section"
 msgstr ""
+"Putar <ulink url=\"http://xubuntu.org/press/\">di bagian Press</ulink>"
 
 #: contributor-docs/C/processes.xml:52(para)
 msgid ""
@@ -1877,43 +2520,52 @@ msgid ""
 "Support</ulink> and <ulink url=\"http://xubuntu.org/getxubuntu/\">Get "
 "Xubuntu</ulink> pages"
 msgstr ""
+"Tambahkan rilis baru ke halaman <ulink "
+"url=\"http://xubuntu.org/help/\">Bantuan &amp; Mendukung</ulink> dan <ulink "
+"url=\"http://xubuntu.org/getxubuntu/\">Dapatkan Xubuntu</ulink>"
 
 #: contributor-docs/C/processes.xml:53(para)
 msgid "Change front page widget to point to a new release"
-msgstr ""
+msgstr "Ubah widget halaman depan untuk menunjuk ke rilis baru"
 
 #: contributor-docs/C/processes.xml:54(para)
 msgid ""
 "When one is set, remove the widget mentioning testing from the front page"
 msgstr ""
+"Ketika seseorang diatur, hapus widget yang menyebutkan pengujian dari "
+"halaman depan"
 
 #: contributor-docs/C/processes.xml:55(para)
 msgid "When one is prepared, release a FAQ blog article"
-msgstr ""
+msgstr "Ketika seseorang siap, lepaskan artikel blog FAQ"
 
 #: contributor-docs/C/processes.xml:60(title)
 msgid "Update on point releases"
-msgstr ""
+msgstr "Pembaruan pada rilis titik"
 
 #: contributor-docs/C/processes.xml:63(para)
 msgid ""
 "Update download links on the <ulink "
 "url=\"http://xubuntu.org/getxubuntu/\">Get Xubuntu</ulink> page"
 msgstr ""
+"Perbarui tautan unduhan di halaman <ulink "
+"url=\"http://xubuntu.org/getxubuntu/\">Dapatkan Xubuntu</ulink>"
 
 #: contributor-docs/C/processes.xml:64(para)
 msgid "Update the front page widget"
-msgstr ""
+msgstr "Perbarui widget halaman depan"
 
 #: contributor-docs/C/processes.xml:69(title)
 msgid "Update on release EOL"
-msgstr ""
+msgstr "Pembaruan pada rilis EOL"
 
 #: contributor-docs/C/processes.xml:72(para)
 msgid ""
 "Update the supported releases list on the <ulink "
 "url=\"http://xubuntu.org/help/\">Help &amp; Support</ulink> page"
 msgstr ""
+"Perbarui daftar yang didukung pada laman<ulink "
+"url=\"http://xubuntu.org/help/\">Bantuan &amp; Dukungan</ulink>"
 
 #: contributor-docs/C/processes.xml:73(para)
 msgid ""
@@ -1921,35 +2573,39 @@ msgid ""
 "subdomain</ulink> from <literal><placeholder-1/>lp:xubuntu-website/docs-"
 "startpage</literal>"
 msgstr ""
+"Perbarui <ulink url=\"http://docs.xubuntu.org/\">subdomain "
+"dokumentasi</ulink> dari <literal><placeholder-1/>lp:xubuntu-website/docs-"
+"startpage</literal>"
 
 #: contributor-docs/C/processes-release-cycle.xml:14(title)
 msgid "Release Cycle"
-msgstr ""
+msgstr "Siklus Rilis"
 
 #: contributor-docs/C/processes-release-cycle.xml:16(para)
 msgid ""
 "This section loosely describes the stages of a development and release cycle."
 msgstr ""
+"Bagian ini secara longgar menjelaskan tahapan pengembangan dan siklus rilis."
 
 #: contributor-docs/C/processes-release-cycle.xml:19(title)
 msgid "Planning"
-msgstr ""
+msgstr "Perencanaan"
 
 #: contributor-docs/C/processes-release-cycle.xml:21(para)
 msgid "Planning the release is conducted in three phases:"
-msgstr ""
+msgstr "Perencanaan rilis didasarkan pada tiga tahap:"
 
 #: contributor-docs/C/processes-release-cycle.xml:24(para)
 msgid "Brainstorming"
-msgstr ""
+msgstr "Tukar pikiran"
 
 #: contributor-docs/C/processes-release-cycle.xml:25(para)
 msgid "Approving blueprints"
-msgstr ""
+msgstr "Menerima cetak biru"
 
 #: contributor-docs/C/processes-release-cycle.xml:26(para)
 msgid "Finalizing specifications"
-msgstr ""
+msgstr "Menyelesaikan spesifikasi"
 
 #: contributor-docs/C/processes-release-cycle.xml:29(para)
 msgid ""
@@ -1959,6 +2615,11 @@ msgid ""
 "goals in advance will make planning, focusing and estimating the likelihood "
 "for the features to be implemented easier."
 msgstr ""
+"Selama tahap bertukar pikiran kontributor menentukan apa yang akan mereka "
+"kerjakan selama siklus rilis, termasuk proposal untuk perubahan dalam "
+"aplikasi standar. Siapa saja dapat menambahkan item ke daftar. Menentukan "
+"tujuan di muka akan membuat perencanaan, pemfokusan, dan memperkirakan "
+"kemungkinan fitur-fitur untuk diimplementasikan lebih mudah."
 
 #: contributor-docs/C/processes-release-cycle.xml:31(para)
 msgid ""
@@ -1971,6 +2632,14 @@ msgid ""
 "influence on other blueprints, et cetera. The approved blueprints compose "
 "the roadmap for the release being developed."
 msgstr ""
+"Setelah tukar pikiran selesai dan sebelum atau pada Hari Pembekuan Fitur "
+"Definisi, tim Xubuntu akan menyetujui atau menolak cetak biru yang "
+"diusulkan. Barang apa pun tanpa penerima hak atau alasan akan ditolak secara "
+"otomatis, tetapi memilikinya tidak akan menjamin bahwa cetak biru disetujui. "
+"Kriteria lain termasuk, tetapi tidak terbatas pada: kemungkinan penerapan "
+"fitur, bobot pemeliharaan di masa depan, kemungkinan masalah stabilitas, "
+"pengaruh pada cetak biru lainnya, dan lain-lain. Cetak biru yang disetujui "
+"menyusun peta jalan untuk rilis yang sedang dikembangkan."
 
 #: contributor-docs/C/processes-release-cycle.xml:33(para)
 msgid ""
@@ -1978,6 +2647,9 @@ msgid ""
 "specifications should be written. These specifications should document the "
 "proposed changes and help guide the implementation."
 msgstr ""
+"Setelah cetak biru disetujui, mereka harus diselesaikan dan spesifikasi "
+"rinci harus ditulis. Spesifikasi ini harus mendokumentasikan perubahan yang "
+"diusulkan dan membantu memandu implementasi."
 
 #: contributor-docs/C/processes-release-cycle.xml:35(para)
 msgid ""
@@ -1987,14 +2659,19 @@ msgid ""
 "package tests. Additional requests for testing during the cycle should be "
 "sent out only after consulting the QA team."
 msgstr ""
+"Setelah spesifikasi terperinci siap, tim pengembang harus berkoordinasi "
+"dengan tim QA tentang skala dan jadwal pengujian yang diperlukan. Tim QA "
+"kemudian akan membuat jadwal untuk pengujian ISO dan tes paket. Permintaan "
+"tambahan untuk pengujian selama siklus harus dikirim hanya setelah "
+"berkonsultasi dengan tim QA."
 
 #: contributor-docs/C/processes-release-cycle.xml:37(para)
 msgid "The Ubuntu freezes define the deadlines for implementation."
-msgstr ""
+msgstr "Penmbekuan Ubuntu menentukan tenggat waktu untuk implementasi."
 
 #: contributor-docs/C/processes-release-cycle.xml:41(title)
 msgid "Developing"
-msgstr ""
+msgstr "Mengembangkan"
 
 #: contributor-docs/C/processes-release-cycle.xml:43(para)
 msgid ""
@@ -2002,33 +2679,46 @@ msgid ""
 "roadmap, there are a number of tasks which will occur during each release "
 "cycle:"
 msgstr ""
+"Selain menerapkan fitur dan / atau peningkatan yang ditetapkan dalam peta "
+"jalan, ada sejumlah tugas yang akan terjadi selama setiap siklus rilis:"
 
 #: contributor-docs/C/processes-release-cycle.xml:46(para)
 msgid "Xubuntu packages will be synced or merged with Debian as appropriate"
 msgstr ""
+"Paket Xubuntu akan disinkronkan atau digabungkan dengan Debian sebagaimana "
+"mestinya"
 
 #: contributor-docs/C/processes-release-cycle.xml:47(para)
 msgid ""
 "Bugs reported by users will be reviewed, fixed, and/or passed upstream"
 msgstr ""
+"Bug yang dilaporkan oleh pengguna akan ditinjau, diperbaiki, dan/atau "
+"diteruskan ke hulu"
 
 #: contributor-docs/C/processes-release-cycle.xml:48(para)
 msgid "Attempt to reduce our delta by pushing appropriate patches upstream"
 msgstr ""
+"Cobalah untuk mengurangi delta kami dengan mendorong tambalan yang sesuai di "
+"bagian hulu"
 
 #: contributor-docs/C/processes-release-cycle.xml:49(para)
 msgid "Evaluate the seeds to ensure we are shipping the optimal software"
 msgstr ""
+"Evaluasi benih untuk memastikan kami mengirimkan perangkat lunak yang optimal"
 
 #: contributor-docs/C/processes-release-cycle.xml:50(para)
 msgid "Work on improving and updating the Xubuntu documentation and artwork"
 msgstr ""
+"Bekerja untuk meningkatkan dan memperbarui dokumentasi dan karya seni Xubuntu"
 
 #: contributor-docs/C/processes-release-cycle.xml:57(para)
 msgid ""
 "Throughout the release cycle and even more so towards the end, we will test "
 "Xubuntu to ensure that Xubuntu is a quality product that we are proud of."
 msgstr ""
+"Sepanjang siklus rilis dan terlebih lagi menjelang akhir, kami akan menguji "
+"Xubuntu untuk memastikan bahwa Xubuntu adalah produk berkualitas yang kami "
+"banggakan."
 
 #: contributor-docs/C/processes-release-cycle.xml:59(para)
 msgid ""
@@ -2037,10 +2727,14 @@ msgid ""
 "more about conducting tests and reporting them, refer to the QA tracker wiki "
 "page."
 msgstr ""
+"Tujuan paling penting dari pengujian ini adalah untuk menemukan bug sebanyak "
+"mungkin dan melaporkannya dengan cukup detail ke pelacak QA Ubuntu. Untuk "
+"membaca lebih lanjut tentang melakukan tes dan melaporkannya, lihat halaman "
+"wiki pelacak QA."
 
 #: contributor-docs/C/processes-release-cycle.xml:62(title)
 msgid "ISO testing"
-msgstr ""
+msgstr "Pengujian ISO"
 
 #: contributor-docs/C/processes-release-cycle.xml:64(para)
 msgid ""
@@ -2050,72 +2744,84 @@ msgid ""
 "regularly to help detect problems and make sure the changes made meet the "
 "release goals, work as expected and do not cause regressions."
 msgstr ""
+"Tim Xubuntu akan melakukan yang terbaik untuk memastikan bahwa ISO milestone "
+"yang dirilis memiliki cukup banyak tes yang diselesaikan. Kami juga akan "
+"menguji pembangunan harian, meningkatkan melalui jalur rilis yang didukung "
+"dan menjalankan versi pengembangan secara teratur untuk membantu mendeteksi "
+"masalah dan memastikan perubahan yang dibuat memenuhi tujuan rilis, bekerja "
+"seperti yang diharapkan dan tidak menyebabkan regresi."
 
 #: contributor-docs/C/processes-release-cycle.xml:66(para)
 msgid "The following schedule is used for daily testing:"
-msgstr ""
+msgstr "Jadwal berikut digunakan untuk pengujian harian:"
 
 #: contributor-docs/C/processes-release-cycle.xml:70(segtitle) contributor-docs/C/processes-release-cycle.xml:79(segtitle) contributor-docs/C/processes-release-cycle.xml:113(segtitle)
 msgid "Scheduled time"
-msgstr ""
+msgstr "Waktu yang dijadwalkan"
 
 #: contributor-docs/C/processes-release-cycle.xml:70(segtitle) contributor-docs/C/processes-release-cycle.xml:79(segtitle) contributor-docs/C/processes-release-cycle.xml:113(segtitle)
 msgid "Action"
-msgstr ""
+msgstr "Aksi"
 
 #: contributor-docs/C/processes-release-cycle.xml:71(seg)
 msgid "Beginning of cycle"
-msgstr ""
+msgstr "Awal siklus"
 
 #: contributor-docs/C/processes-release-cycle.xml:71(seg)
 msgid ""
 "Send testing schedule via both the developer and users mailing lists as well "
 "as the Launchpad testing team."
 msgstr ""
+"Kirim jadwal pengujian baik melalui milis pengembang dan pengguna serta tim "
+"pengujian Launchpad."
 
 #: contributor-docs/C/processes-release-cycle.xml:72(seg)
 msgid "Monthly"
-msgstr ""
+msgstr "Bulanan"
 
 #: contributor-docs/C/processes-release-cycle.xml:72(seg)
 msgid "As required, send out reminders of the testing schedule."
-msgstr ""
+msgstr "Sesuai kebutuhan, kirim pengingat jadwal pengujian."
 
 #: contributor-docs/C/processes-release-cycle.xml:75(para)
 msgid "The following schedule is used for each milestone:"
-msgstr ""
+msgstr "Jadwal berikut digunakan pada masing-masing milestone:"
 
 #: contributor-docs/C/processes-release-cycle.xml:80(seg) contributor-docs/C/processes-release-cycle.xml:118(seg)
 msgid "7 days before release"
-msgstr ""
+msgstr "7 hari sebelum rilis"
 
 #: contributor-docs/C/processes-release-cycle.xml:80(seg)
 msgid "Pre-reminder for milestone testing"
-msgstr ""
+msgstr "Pra-pengingat untuk pengujian milestone"
 
 #: contributor-docs/C/processes-release-cycle.xml:81(seg)
 msgid "2 to 3 days before release"
-msgstr ""
+msgstr "2 hingga 3 hari sebelum rilis"
 
 #: contributor-docs/C/processes-release-cycle.xml:81(seg)
 msgid ""
 "Once appropriate testing area set up, call for testing and start milestone "
 "testing"
 msgstr ""
+"Setelah area pengujian yang sesuai disiapkan, hubungi pengujian dan mulailah "
+"pengujian milestone"
 
 #: contributor-docs/C/processes-release-cycle.xml:82(seg) contributor-docs/C/processes-release-cycle.xml:119(seg)
 msgid "Release day"
-msgstr ""
+msgstr "Hari perilisan"
 
 #: contributor-docs/C/processes-release-cycle.xml:82(seg)
 msgid ""
 "Mark images ready on the ISO tracker once the release team is confident to "
 "do so"
 msgstr ""
+"Tandai gambar yang siap pada pelacak ISO setelah tim rilis yakin untuk "
+"melakukannya"
 
 #: contributor-docs/C/processes-release-cycle.xml:87(title)
 msgid "Package testing"
-msgstr ""
+msgstr "Pengujian paket"
 
 #: contributor-docs/C/processes-release-cycle.xml:89(para)
 msgid ""
@@ -2123,6 +2829,9 @@ msgid ""
 "during the cycle between milestone testing to ensure applications that are "
 "included in Xubuntu have sufficient amount of testing conducted."
 msgstr ""
+"Saat digunakan, tim QA akan menjadwalkan sprint pengujian paket untuk "
+"terjadi selama siklus antara pengujian milestone untuk memastikan aplikasi "
+"yang termasuk dalam Xubuntu memiliki jumlah pengujian yang cukup."
 
 #: contributor-docs/C/processes-release-cycle.xml:91(para)
 msgid ""
@@ -2132,38 +2841,50 @@ msgid ""
 "has a substantially large update in the middle of the cycle or when "
 "developers request specific testing for a specific update to an application."
 msgstr ""
+"Terlepas dari apakah pengujian paket berlangsung selama siklus pengembangan, "
+"pengujian tambahan harus dilakukan untuk aplikasi default baru akan "
+"dimasukkan dalam rilis Xubuntu berikutnya, ketika aplikasi yang ada memiliki "
+"pembaruan yang sangat besar di tengah siklus atau ketika pengembang meminta "
+"pengujian khusus untuk pembaruan spesifik ke suatu aplikasi."
 
 #: contributor-docs/C/processes-release-cycle.xml:93(para)
 msgid "Calls for package testing sprints will be sent out as required."
 msgstr ""
+"Panggilan untuk paket pengujian sprint akan dikirim sesuai kebutuhan."
 
 #: contributor-docs/C/processes-release-cycle.xml:98(title)
 msgid "Releasing"
-msgstr ""
+msgstr "Merilis"
 
 #: contributor-docs/C/processes-release-cycle.xml:100(para)
 msgid ""
 "When it comes time to deploy a release (both milestones and final) several "
 "conditions must be met:"
 msgstr ""
+"Ketika tiba saatnya untuk menyebarkan rilis (baik milestone dan final) "
+"beberapa kondisi harus dipenuhi:"
 
 #: contributor-docs/C/processes-release-cycle.xml:103(para)
 msgid "Appropriate testing has been done on the image"
-msgstr ""
+msgstr "Pengujian yang sesuai telah dilakukan pada gambar"
 
 #: contributor-docs/C/processes-release-cycle.xml:104(para)
 msgid "There are no known bugs which cause data loss or damage to hardware"
 msgstr ""
+"Tidak ada bug yang diketahui yang menyebabkan kehilangan data atau kerusakan "
+"perangkat keras"
 
 #: contributor-docs/C/processes-release-cycle.xml:105(para)
 msgid "The image must not be oversized"
-msgstr ""
+msgstr "Gambar tidak boleh terlalu besar"
 
 #: contributor-docs/C/processes-release-cycle.xml:106(para)
 msgid ""
 "Xubuntu must be of sufficient quality that it would not damage Xubuntu's, "
 "Ubuntu's, or any of the other flavors' reputation/image."
 msgstr ""
+"Xubuntu harus memiliki kualitas yang memadai sehingga tidak akan merusak "
+"Xubuntu, Ubuntu, atau reputasi/citra cita rasa lainnya."
 
 #: contributor-docs/C/processes-release-cycle.xml:109(para)
 msgid ""
@@ -2173,54 +2894,63 @@ msgid ""
 "specific communication is updated to inform about the new release. Where "
 "needed, advice from the Ubuntu release team should be asked for."
 msgstr ""
+"Saat rilis dibuat, Tim Rilis Xubuntu harus mengikuti proses rilis yang "
+"ditentukan di bawah ini. Proses rilis memastikan bahwa rilis baru memiliki "
+"catatan rilis yang cukup dan pengumuman rilis dan bahwa semua komunikasi "
+"khusus rilis diperbarui untuk menginformasikan tentang rilis baru. Jika "
+"diperlukan, saran dari tim rilis Ubuntu harus diminta."
 
 #: contributor-docs/C/processes-release-cycle.xml:114(seg)
 msgid "User Interface Freeze"
-msgstr ""
+msgstr "Antarmuka Pengguna Freeze"
 
 #: contributor-docs/C/processes-release-cycle.xml:114(seg)
 msgid "Upload artwork and slideshow packages"
-msgstr ""
+msgstr "Unggah karya seni dan paket rangkai salindia"
 
 #: contributor-docs/C/processes-release-cycle.xml:115(seg)
 msgid "Documentation String Freeze"
-msgstr ""
+msgstr "String Dokumentasi Freeze"
 
 #: contributor-docs/C/processes-release-cycle.xml:115(seg)
 msgid "Update translation templates<?br?>Upload documentation packages"
-msgstr ""
+msgstr "Perbarui templat terjemahan<? br?> Unggah paket dokumentasi"
 
 #: contributor-docs/C/processes-release-cycle.xml:116(seg)
 msgid "Non-Language Pack Translation Deadline"
-msgstr ""
+msgstr "Batas Waktu Terjemahan Paket Non-Bahasa"
 
 #: contributor-docs/C/processes-release-cycle.xml:116(seg)
 msgid "Upload documentation and slideshow packages"
-msgstr ""
+msgstr "Unggah dokumentasi dan paket rangkai salindia"
 
 #: contributor-docs/C/processes-release-cycle.xml:117(seg)
 msgid "14 days before release"
-msgstr ""
+msgstr "14 hari sebelum rilis"
 
 #: contributor-docs/C/processes-release-cycle.xml:117(seg)
 msgid "Reminder to update the website FAQ (final release only)"
-msgstr ""
+msgstr "Pengingat untuk perbarui FAQ situs web (hanya rilis final)"
 
 #: contributor-docs/C/processes-release-cycle.xml:118(seg)
 msgid ""
 "Start preparing release notes and release announcement<?br?>Make the tracker "
 "start tracking the next release"
 msgstr ""
+"Mulai menyiapkan catatan rilis dan rilis pengumuman<?br?>Buat pelacak mulai "
+"melacak rilis berikutnya"
 
 #: contributor-docs/C/processes-release-cycle.xml:119(seg)
 msgid ""
 "Publish release announcement and notes<?br?>Update the website, IRC channel "
 "topics and social media outlets with new release information"
 msgstr ""
+"Publikasikan pengumuman rilis dan catatan<?br?>Perbarui situs web, topik "
+"saluran IRC, dan outlet media sosial dengan informasi rilis baru"
 
 #: contributor-docs/C/processes-release-cycle.xml:120(seg)
 msgid "After release (final release only)"
-msgstr ""
+msgstr "Pasca rilis (hanya rilis final)"
 
 #: contributor-docs/C/processes-release-cycle.xml:120(seg)
 msgid ""
@@ -2228,10 +2958,13 @@ msgid ""
 "appropriate branches (documentation, ...) in Launchpad<?br?>Review and "
 "update this page"
 msgstr ""
+"Tetapkan versi pengembangan baru sebagai default di pelacak<?br?>Siapkan "
+"cabang yang sesuai (dokumentasi, ...) di Launchpad<?br?> Tinjau dan perbarui "
+"halaman ini"
 
 #: contributor-docs/C/processes-release-cycle.xml:125(title)
 msgid "Maintaining"
-msgstr ""
+msgstr "Memelihara"
 
 #: contributor-docs/C/processes-release-cycle.xml:127(para)
 msgid ""
@@ -2244,40 +2977,50 @@ msgid ""
 "candidates will be more important when it comes to deciding whether an SRU "
 "will be performed or not."
 msgstr ""
+"Setelah rilis dibuat, bug dan masalah pasti akan dilaporkan. Periode antara "
+"rilis dan awal siklus rilis berikutnya adalah waktu yang optimal untuk "
+"melakukan Pembaruan Rilis Stabil (SRU) untuk bug utama selama pengembang "
+"tidak lupa untuk memperbaiki masalah dalam rilis berikutnya juga, setelah "
+"repositori dibuka . Setelah siklus rilis berikutnya telah dimulai, fokus "
+"utama akan berada pada rilis berikutnya dan tingkat keparahan/pentingnya "
+"kandidat SRU akan lebih penting ketika memutuskan untuk menentukan apakah "
+"SRU akan dilakukan atau tidak."
 
 #: contributor-docs/C/index.xml:14(title) contributor-docs/C/index.xml:17(title)
 msgid "Xubuntu Contributor Documentation"
-msgstr ""
+msgstr "Dokumentasi Kontributor Xubuntu"
 
 #: contributor-docs/C/index.xml:19(title)
 msgid "Credits and License"
-msgstr ""
+msgstr "Kredit dan Lisensi"
 
 #: contributor-docs/C/index.xml:20(para)
 msgid "This documentation is maintained by the Xubuntu documentation team."
-msgstr ""
+msgstr "Dokumentasi ini dikelola oleh tim dokumentasi Xubuntu."
 
 #: contributor-docs/C/index.xml:22(para)
 msgid "The contributors to this documentation are:"
-msgstr ""
+msgstr "Kontributor untuk dokumentasi ini adalah:"
 
 #: contributor-docs/C/index.xml:24(para)
 msgid "Kev Bowring (flocculant)"
-msgstr ""
+msgstr "Kev Bowring (flocculant)"
 
 #: contributor-docs/C/index.xml:25(para)
 msgid "Krytarik Raido (krytarik)"
-msgstr ""
+msgstr "Krytarik Raido (krytarik)"
 
 #: contributor-docs/C/index.xml:26(para)
 msgid "Pasi Lallinaho (knome)"
-msgstr ""
+msgstr "Pasi Lallinaho (knome)"
 
 #: contributor-docs/C/index.xml:36(para)
 msgid ""
 "This document is made available under the Creative Commons ShareAlike 2.5 "
 "License (CC-BY-SA)."
 msgstr ""
+"Dokumen ini dikembangkan dibawah lisensi dari Creative Commons ShareAlike "
+"2.5 License (CC-BY-SA)."
 
 #: contributor-docs/C/index.xml:37(para)
 msgid ""
@@ -2285,6 +3028,9 @@ msgid ""
 "code under the terms of this license. All derivative works must be released "
 "under this license."
 msgstr ""
+"Anda bebas untuk mengubah, memperluas, dan memperbaiki kode sumber "
+"dokumentasi Ubuntu sesuai syarat-syarat yang ada dari lisensi ini. Semua "
+"pekerjaan turunan harus diterbitkan dibawah lisensi ini."
 
 #: contributor-docs/C/index.xml:39(para)
 msgid ""
@@ -2292,36 +3038,45 @@ msgid ""
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE AS DESCRIBED IN THE DISCLAIMER."
 msgstr ""
+"Dokumentasi ini didistribusikan dengan harapan dokumentasi ini akan berguna, "
+"tetapi TANPA ADANYA JAMINAN; tanpa jaminan yang termasuk dari DAGANGAN atau "
+"KECOCOKAN UNTUK TUJUAN TERTENTU SEPERTI YANG DIGAMBARKAN DALAM PENYANGKALAN."
 
 #: contributor-docs/C/index.xml:42(para)
 msgid ""
 "A copy of the license is available here: <link linkend=\"cc-by-sa\">Creative "
 "Commons ShareAlike License</link>."
 msgstr ""
+"Salinan lisensi tersedia disini: <link linkend=\"cc-by-sa\">Creative Commons "
+"ShareAlike License</link>."
 
 #: contributor-docs/C/index.xml:43(para)
 msgid ""
 "All trademarks or registered trademarks are the property of the respective "
 "owners."
 msgstr ""
+"Semua merek dagang atau merek dagang terdaftar adalah milik dari masing-"
+"masing pemilik."
 
 #: contributor-docs/C/index.xml:47(year)
 msgid "2015–2017"
-msgstr ""
+msgstr "2015–2017"
 
 #: contributor-docs/C/index.xml:48(holder)
 msgid ""
 "The Xubuntu documentation team. Xubuntu and Canonical are registered "
 "trademarks of Canonical Ltd."
 msgstr ""
+"Tim dokumentasi Xubuntu. Xubuntu dan Canonical adalah merek dagang terdaftar "
+"dari Canonical Ltd."
 
 #: contributor-docs/C/index.xml:52(publishername)
 msgid "The Xubuntu documentation team"
-msgstr ""
+msgstr "Tim dokumentasi Xubuntu"
 
 #: contributor-docs/C/index.xml:56(title)
 msgid "Welcome!"
-msgstr ""
+msgstr "Selamat Datang!"
 
 #: contributor-docs/C/index.xml:58(para)
 msgid ""
@@ -2330,22 +3085,30 @@ msgid ""
 "both social and technical - that the Xubuntu contributors use as a guideline "
 "in their work."
 msgstr ""
+"Dokumentasi ini adalah referensi untuk semua kontributor Xubuntu. Bab-bab "
+"dari dokumentasi ini memberikan informasi tentang proses pengembangan - baik "
+"sosial dan teknis - yang digunakan kontributor Xubuntu sebagai pedoman dalam "
+"pekerjaan mereka."
 
 #: contributor-docs/C/index.xml:60(para)
 msgid "There are two main appendices for this documentation:"
-msgstr ""
+msgstr "Ada dua lampiran utama untuk dokumentasi ini:"
 
 #: contributor-docs/C/index.xml:63(para)
 msgid ""
 "<xref linkend=\"xsd\"/>, which is the primary guideline in Xubuntu "
 "development."
 msgstr ""
+"<xref linkend=\"xsd\"/>, yang merupakan pedoman utama dalam pengembangan "
+"Xubuntu."
 
 #: contributor-docs/C/index.xml:64(para)
 msgid ""
 "<xref linkend=\"common-reference\"/>, which describes many technical tasks "
 "that the Xubuntu developers need to use continuously."
 msgstr ""
+"<xref linkend=\"common-reference\"/>, yang menjelaskan banyak tugas teknis "
+"yang perlu digunakan pengembang Xubuntu secara terus menerus."
 
 #: contributor-docs/C/index.xml:67(para)
 msgid ""
@@ -2354,22 +3117,26 @@ msgid ""
 "knows how to work with a terminal and understand when they need to use one, "
 "without an explicit mention."
 msgstr ""
+"Dokumentasi ini ditulis dengan asumsi bahwa pengguna mengetahui dasar-dasar "
+"bekerja dengan Xubuntu. Sebagai contoh, diharapkan pembaca tahu bagaimana "
+"bekerja dengan terminal dan memahami kapan mereka perlu menggunakannya, "
+"tanpa menyebutkan secara eksplisit."
 
 #: contributor-docs/C/index.xml:79(title)
 msgid "Subteam Documentation"
-msgstr ""
+msgstr "Dokumentasi Subteam"
 
 #: contributor-docs/C/getting-started.xml:14(title)
 msgid "Getting Started"
-msgstr ""
+msgstr "Memulai"
 
 #: contributor-docs/C/getting-started.xml:18(title)
 msgid "Important Places"
-msgstr ""
+msgstr "Tempat-tempat Penting"
 
 #: contributor-docs/C/getting-started.xml:21(title)
 msgid "#xubuntu-devel"
-msgstr ""
+msgstr "#xubuntu-devel"
 
 #: contributor-docs/C/getting-started.xml:23(para)
 msgid ""
@@ -2377,10 +3144,13 @@ msgid ""
 "cooperation about Xubuntu development happens. It's also the place to get to "
 "know people and get yourself known."
 msgstr ""
+"Saluran IRC #ubuntu-devel adalah tempat dimana sebagian besar komunikasi dan "
+"kerja sama harian tentang pengembangan Xubuntu terjadi. Ini juga tempat "
+"untuk mengenal orang dan membuat diri Anda dikenal."
 
 #: contributor-docs/C/getting-started.xml:27(title)
 msgid "Status Tracker"
-msgstr ""
+msgstr "Pelacak Status"
 
 #: contributor-docs/C/getting-started.xml:29(para)
 msgid ""
@@ -2391,10 +3161,16 @@ msgid ""
 "access the team calendar, Xubuntu wiki, development mailing list and join "
 "the development IRC channel #xubuntu-devel from it."
 msgstr ""
+"Pengembangan untuk rilis Xubuntu saat ini dilacak di <ulink "
+"url=\"http://dev.xubuntu.org/\"> Pelacak pengembangan Xubuntu</ulink>. "
+"Selain menunjukkan status saat ini untuk cetak biru dan item pekerjaan "
+"masing-masing, pelacak menampilkan beberapa kemajuan umum. Akhirnya, Anda "
+"dapat mengakses kalender tim, wiki Xubuntu, milis pengembangan dan bergabung "
+"dengan saluran IRC pengembangan # xubuntu-devel darinya."
 
 #: contributor-docs/C/documentation.xml:14(title)
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentasi"
 
 #: contributor-docs/C/documentation.xml:16(para)
 msgid ""
@@ -2403,14 +3179,18 @@ msgid ""
 "important to Xubuntu. In addition the team works together with other teams "
 "in producing content and more."
 msgstr ""
+"Dokumentasi Xubuntu mengawasi dokumentasi pengguna dan dokumentasi "
+"kontributor sebagai terjemahan untuk dokumentasi dan paket lain yang penting "
+"bagi Xubuntu. Selain itu tim bekerja sama dengan tim lain dalam memproduksi "
+"konten dan banyak lagi."
 
 #: contributor-docs/C/documentation-working.xml:14(title)
 msgid "Working with the documentation"
-msgstr ""
+msgstr "Bekerja dengan dokumentasi"
 
 #: contributor-docs/C/documentation-working.xml:17(title)
 msgid "Editing the documentation"
-msgstr ""
+msgstr "Menyunting dokumentasi"
 
 #: contributor-docs/C/documentation-working.xml:19(para)
 msgid ""
@@ -2418,6 +3198,9 @@ msgid ""
 "docs</literal> and the build dependencies for <literal><placeholder-"
 "2/>xubuntu-docs</literal>."
 msgstr ""
+"Pertama-tama pastikan Anda memiliki cabang Bzr <literal><placeholder-1/> "
+"lp:xubuntu-docs</literal> dan dependensi build untuk <literal><placeholder-"
+"2/>xubuntu-docs</literal>."
 
 #: contributor-docs/C/documentation-working.xml:21(para)
 msgid ""
@@ -2425,16 +3208,22 @@ msgid ""
 "<literal>user-docs/C/</literal>. Once edited and saved, push changes to your "
 "local branch as detailed in <xref linkend=\"bzr\"/>."
 msgstr ""
+"Perubahan pada dokumentasi pengguna harus dilakukan ke berkas .xml di bawah "
+"<literal>user-docs/C/</literal>. Setelah disunting dan disimpan, dorong "
+"perubahan ke cabang lokal Anda sebagaimana dirinci dalam <xref "
+"linkend=\"bzr\"/>."
 
 #: contributor-docs/C/documentation-working.xml:23(para)
 msgid ""
 "Similarly, changes to the contributor documentation should be made to the "
 ".xml files under <literal>contributor-docs/C/</literal>."
 msgstr ""
+"Demikian pula, perubahan pada dokumentasi kontributor harus dibuat ke berkas "
+".xml di bawah <literal>contributor-docs/C/</literal>."
 
 #: contributor-docs/C/documentation-working.xml:27(title)
 msgid "Notes on the contributor documentation"
-msgstr ""
+msgstr "Catatan pada dokumentasi kontributor"
 
 #: contributor-docs/C/documentation-working.xml:29(para)
 msgid ""
@@ -2442,6 +3231,9 @@ msgid ""
 "structure than the user documentation. Particularly, pay attention to the "
 "following when working with the subteam documentation:"
 msgstr ""
+"Karena berbagai alasan, dokumentasi kontributor lebih kompleks dalam "
+"struktur daripada dokumentasi pengguna. Khususnya, perhatikan hal-hal "
+"berikut ketika bekerja dengan dokumentasi subteam:"
 
 #: contributor-docs/C/documentation-working.xml:32(para)
 msgid ""
@@ -2449,6 +3241,10 @@ msgid ""
 "main page, simply do not wrap it inside a <literal>&lt;section&gt;</literal> "
 "element. Otherwise this will be chunked into a separate HTML file."
 msgstr ""
+"Jika Anda ingin membuat paragraf pengantar yang ditampilkan di halaman utama "
+"subteam, cukup jangan membungkusnya di dalam elemen "
+"<literal>&lt;section&gt;</literal>. Kalau tidak, ini akan dipotong menjadi "
+"file HTML yang terpisah."
 
 #: contributor-docs/C/documentation-working.xml:33(para)
 msgid ""
@@ -2457,6 +3253,10 @@ msgid ""
 "<literal>&lt;section&gt;</literal> element. For an actual example, see the "
 "<literal>qa-*</literal> files."
 msgstr ""
+"Jika Anda ingin subbagian dari suatu bagian dapat terlihat di Daftar Isi, "
+"tambahkan atribut <literal>&lt;role=\"toc\"&gt;</literal> untuk elemen "
+"<literal>&lt;section&gt;</literal>. Untuk contoh aktual, lihat "
+"berkas<literal> qa-*</literal>."
 
 #: contributor-docs/C/documentation-working.xml:34(para)
 msgid ""
@@ -2472,24 +3272,38 @@ msgid ""
 "don't insert any elements after the <literal>&lt;simplesect&gt;</literal> "
 "elements in your chapter, as this will invalidate the document."
 msgstr ""
+"Bagian-bagian tersebut dibagi hingga tingkat pertama; ini berarti semua "
+"elemen <literal>&lt;section&gt;</literal> langsung dari "
+"<literal>&lt;chapter&gt;</literal> elemen akan dipotong menjadi file HTML "
+"terpisah. Jika Anda ingin menghindari ini (misalnya jika bab Anda sangat "
+"pendek), masukkan bb <literal>&lt;?dbhtml stop-chunking?&gt;</literal> "
+"setelah elemen <literal>&lt;title&gt;</literal> dari bab Anda. Perhatikan "
+"bahwa melakukan ini tidak akan menghentikan Daftar Isi untuk dicetak pada "
+"setiap bagian. Anda dapat menggunakan elemen "
+"<literal>&lt;simplesect&gt;</literal> lagi untuk menyembunyikan bagian dari "
+"Daftar Isi. Jika Anda melakukan ini, pastikan Anda tidak memasukkan elemen "
+"apa pun setelah elemen <literal>&lt;simplesect&gt;</literal> dalam bab Anda, "
+"karena ini akan membatalkan dokumen."
 
 #: contributor-docs/C/documentation-translations.xml:14(title)
 msgid "Translations"
-msgstr ""
+msgstr "Terjemahan"
 
 #: contributor-docs/C/documentation-translations.xml:17(title)
 msgid "Packages to be translated"
-msgstr ""
+msgstr "Paket untuk diterjemahkan"
 
 #: contributor-docs/C/documentation-translations.xml:19(para)
 msgid ""
 "These are packages that the Xubuntu team considers important, and should "
 "take precedence when translating."
 msgstr ""
+"Ini adalah paket yang dianggap penting oleh tim Xubuntu, dan harus "
+"diutamakan saat menerjemahkan."
 
 #: contributor-docs/C/documentation-translations.xml:22(title)
 msgid "Packages that only exist in Xubuntu"
-msgstr ""
+msgstr "Paket yang hanya ada di Xubuntu"
 
 #: contributor-docs/C/documentation-translations.xml:24(para)
 msgid ""
@@ -2497,22 +3311,24 @@ msgid ""
 "with by Xubuntu translators. These are of high importance for the Xubuntu "
 "team."
 msgstr ""
+"Paket-paket ini hanya ada di Xubuntu, jadi terjemahannya hanya ditangani "
+"oleh penerjemah Xubuntu. Ini sangat penting bagi tim Xubuntu."
 
 #: contributor-docs/C/documentation-translations.xml:27(ulink)
 msgid "Xubuntu Documentation"
-msgstr ""
+msgstr "Dokumentasi Xubuntu"
 
 #: contributor-docs/C/documentation-translations.xml:28(ulink)
 msgid "Xubuntu Default Settings"
-msgstr ""
+msgstr "Pengaturan Baku Xubuntu"
 
 #: contributor-docs/C/documentation-translations.xml:29(ulink)
 msgid "Ubiquity Slideshow for Xubuntu"
-msgstr ""
+msgstr "Rangkai salindia Ubiquity untuk Xubuntu"
 
 #: contributor-docs/C/documentation-translations.xml:34(title)
 msgid "Used by Xubuntu"
-msgstr ""
+msgstr "Digunakan oleh Xubuntu"
 
 #: contributor-docs/C/documentation-translations.xml:36(para)
 msgid ""
@@ -2520,34 +3336,37 @@ msgid ""
 "experience. When these are translated, the base system is immediately more "
 "usable for more people."
 msgstr ""
+"Paket-paket ini digunakan oleh Xubuntu dan menyediakan fitur untuk "
+"pengalaman Xubuntu. Ketika ini diterjemahkan, sistem dasar segera lebih "
+"bermanfaat bagi lebih banyak orang."
 
 #: contributor-docs/C/documentation-translations.xml:39(ulink)
 msgid "Catfish"
-msgstr ""
+msgstr "Catfish"
 
 #: contributor-docs/C/documentation-translations.xml:40(ulink)
 msgid "LightDM GTK+ Greeter"
-msgstr ""
+msgstr "LightDM GTK+ Greeter"
 
 #: contributor-docs/C/documentation-translations.xml:41(ulink)
 msgid "LightDM GTK+ Greeter Settings"
-msgstr ""
+msgstr "LightDM GTK+ Greeter Settings"
 
 #: contributor-docs/C/documentation-translations.xml:42(ulink)
 msgid "MenuLibre"
-msgstr ""
+msgstr "MenuLibre"
 
 #: contributor-docs/C/documentation-translations.xml:43(ulink)
 msgid "Mugshot"
-msgstr ""
+msgstr "Mugshot"
 
 #: contributor-docs/C/documentation-translations.xml:44(ulink)
 msgid "Whiskermenu"
-msgstr ""
+msgstr "Whiskermenu"
 
 #: contributor-docs/C/documentation-translations.xml:50(title)
 msgid "Translation guidelines for Xubuntu packages"
-msgstr ""
+msgstr "Pedoman terjemahan untuk paket Xubuntu"
 
 #: contributor-docs/C/documentation-translations.xml:52(para)
 msgid ""
@@ -2555,6 +3374,9 @@ msgid ""
 "generally be applied to any translation with minor modification. If unsure, "
 "ask the Documentation team members for assistance."
 msgstr ""
+"Pedoman ini sebagian besar berlaku untuk dokumentasi Xubuntu. Mereka umumnya "
+"dapat diterapkan pada terjemahan apa pun dengan sedikit modifikasi. Jika "
+"tidak yakin, minta bantuan anggota tim Dokumentasi."
 
 #: contributor-docs/C/documentation-translations.xml:54(para)
 msgid ""
@@ -2563,6 +3385,9 @@ msgid ""
 "translation teams</ulink> usually want to encourage some conventions; please "
 "contact the appropriate language-specific team before translating."
 msgstr ""
+"<ulink url=\"https://wiki.ubuntu.com/Translations/Contact/Teams\"> Tim "
+"penerjemah khusus bahasa</ulink> biasanya ingin mendorong beberapa konvensi; "
+"silakan hubungi tim khusus bahasa yang sesuai sebelum menerjemahkan."
 
 #: contributor-docs/C/documentation-translations.xml:56(para)
 msgid ""
@@ -2570,10 +3395,13 @@ msgid ""
 "url=\"https://help.launchpad.net/Translations/Guide\">Launchpad translations "
 "guide</ulink>."
 msgstr ""
+"Pedoman terjemahan yang lebih umum dapat ditemukan di <ulink "
+"url=\"https://help.launchpad.net/Translations/Guide\">Panduan terjemahan "
+"Launchpad</ulink>."
 
 #: contributor-docs/C/documentation-translations.xml:59(title)
 msgid "Maintain translation validity"
-msgstr ""
+msgstr "Pertahankan validitas terjemahan"
 
 #: contributor-docs/C/documentation-translations.xml:61(para)
 msgid ""
@@ -2585,6 +3413,14 @@ msgid ""
 "contains a URL that has an equivalent, translated version. In those cases "
 "the translator should use discretion about whether to localise the URL."
 msgstr ""
+"<emphasis>Tag tidak boleh diterjemahkan.</emphasis> Di mana Anda melihat tag "
+"di string sumber (misalnya: \"&lt;xref linkend=\"&amp;xubuntu-web;\" "
+"/&gt;\"), tag dan apa pun di dalam tag itu sendiri tidak boleh "
+"diterjemahkan. Sangat penting untuk menyalin dan rekatkan tag ini persis "
+"seperti yang ditampilkan dalam string sumber. Catatan: Pengecualian untuk "
+"ini adalah di mana tag berisi URL yang memiliki versi terjemahan yang "
+"setara. Dalam kasus tersebut, penerjemah harus menggunakan kebijaksanaan "
+"tentang apakah akan melokalisasi URL."
 
 #: contributor-docs/C/documentation-translations.xml:63(para)
 msgid ""
@@ -2592,6 +3428,9 @@ msgid ""
 "phrase expressed like \"&amp;gt;\" or \"&amp;xubuntu-web;\", do not change "
 "this."
 msgstr ""
+"<emphasis>Entitas tidak boleh diterjemahkan.</emphasis> Di mana Anda melihat "
+"frasa yang diekspresikan seperti \"&amp;gt;\" or \"&amp;xubuntu-web;\", "
+"jangan ubah ini."
 
 #: contributor-docs/C/documentation-translations.xml:65(para)
 msgid ""
@@ -2603,6 +3442,14 @@ msgid ""
 "that order carefully - copying and pasting from the source language "
 "(English) is the best way to ensure that you do this correctly."
 msgstr ""
+"<emphasis>Selalu pertahankan urutan tag.</emphasis> Ketika Anda melihat tag "
+"yang berbeda bersarang di dalam satu sama lain (misalnya: "
+"\"&lt;menuchoice&gt;&lt;guimenu&gt;System&lt;/guimenu&gt;&lt;guimenuitem&gt;A"
+"dministration&lt;/guimenuitem&gt;&lt;guimenuitem&gt;Users and "
+"Groups&lt;/guimenuitem&gt;&lt;/menuchoice&gt;\"), Anda harus selalu menjaga "
+"urutan itu dengan hati-hati - menyalin dan menempel dari bahasa sumber "
+"(Bahasa Inggris) adalah cara terbaik untuk memastikan bahwa Anda melakukan "
+"ini dengan benar."
 
 #: contributor-docs/C/documentation-translations.xml:67(para)
 msgid ""
@@ -2611,10 +3458,14 @@ msgid ""
 "syntax when translating. More information on this can often be found in the "
 "translation string comment."
 msgstr ""
+"Bahasa pemrograman dan perangkat lunak yang berbeda mungkin memiliki sintaks "
+"variabel yang berbeda; pastikan Anda terbiasa dengan sintaks variabel "
+"perangkat lunak yang sesuai saat menerjemahkan. Informasi lebih lanjut "
+"tentang ini sering dapat ditemukan di komentar string terjemahan."
 
 #: contributor-docs/C/documentation-translations.xml:71(title)
 msgid "Follow good and existing conventions"
-msgstr ""
+msgstr "Ikuti konvensi yang baik dan yang sudah ada"
 
 #: contributor-docs/C/documentation-translations.xml:73(para)
 msgid ""
@@ -2624,6 +3475,11 @@ msgid ""
 "user to follow the instructions. Running the system in both the translation "
 "target language and English can help with this."
 msgstr ""
+"<emphasis>Gunakan nama aplikasi dan label yang ditemukan di UI "
+"(grafis).</emphasis> Saat menerjemahkan label UI dan nama aplikasi, gunakan "
+"istilah atau nama yang digunakan pada UI grafis. Ini membuatnya lebih mudah "
+"bagi pengguna untuk mengikuti instruksi. Menjalankan sistem dalam bahasa "
+"target terjemahan dan bahasa Inggris dapat membantu dalam hal ini."
 
 #: contributor-docs/C/documentation-translations.xml:75(para)
 msgid ""
@@ -2631,6 +3487,9 @@ msgid ""
 "do not change the amount of spacing inside our outside tags. Keeping the "
 "spacing as it is makes the technical reviewing of the translation easier."
 msgstr ""
+"<emphasis> Jangan ubah jumlah spasi.</emphasis> Saat menerjemahkan, jangan "
+"ubah jumlah spasi di dalam tag luar kami. Menjaga jarak seperti itu membuat "
+"peninjauan teknis terjemahan menjadi lebih mudah."
 
 #: contributor-docs/C/documentation-translations.xml:77(para)
 msgid ""
@@ -2639,6 +3498,10 @@ msgid ""
 "XHTML or XML tag as the guillemets ( « » ). Using different kind of quotes "
 "can potentially develop into validity problems as well."
 msgstr ""
+"<emphasis>Jangan ubah jenis kutipan yang digunakan di dalam tag.</emphasis> "
+"Kutipan ganda (\") tidak memiliki arti yang sama dalam tag DocBook, XHTML, "
+"atau XML dengan tag guillemets (« »). Menggunakan berbagai jenis kutipan "
+"berpotensi berkembang menjadi masalah validitas juga."
 
 #: contributor-docs/C/documentation-translations.xml:79(para)
 msgid ""
@@ -2646,14 +3509,17 @@ msgid ""
 "the source is invalid or not semantic, file a bug against the package itself "
 "instead of changing it in the translation."
 msgstr ""
+"<emphasis>Jangan pernah mengubah tag ke tag lain.</emphasis> Jika menurut "
+"Anda tag dalam sumber tidak valid atau tidak semantik, ajukan bug pada paket "
+"itu sendiri alih-alih mengubahnya dalam terjemahan."
 
 #: contributor-docs/C/documentation-tasks.xml:14(title)
 msgid "Tasks"
-msgstr ""
+msgstr "Tugas"
 
 #: contributor-docs/C/documentation-tasks.xml:17(title)
 msgid "User documentation"
-msgstr ""
+msgstr "Dokumentasi pengguna"
 
 #: contributor-docs/C/documentation-tasks.xml:19(para)
 msgid ""
@@ -2667,12 +3533,23 @@ msgid ""
 "documented features are removed or changed, the team makes sure the "
 "documentation does not refer to any removed functionality."
 msgstr ""
+"Tim dokumentasi bekerja dengan pengembang untuk memastikan semua fitur baru "
+"yang merupakan bagian dari fungsionalitas inti sistem operasi tercakup dalam "
+"dokumentasi. Selain itu, tim dokumentasi memastikan fitur yang disorot dalam "
+"tayangan slide pemasang atau materi pemasaran lainnya didokumentasikan "
+"dengan tepat. Ketika bagian yang sepenuhnya baru ditulis, tim dokumentasi "
+"memastikan tim Xubuntu memiliki kesempatan untuk meninjau dan mengusulkan "
+"perubahan dan perbaikan ke bagian yang baru. Ketika semua fitur yang "
+"terdokumentasi dihapus atau diubah, tim memastikan dokumentasi tidak merujuk "
+"ke fungsionalitas yang dihapus."
 
 #: contributor-docs/C/documentation-tasks.xml:21(para)
 msgid ""
 "The team should be aware of changes to new releases, particularly on LTS "
 "releases and potential SRUs, as those might affect documentation."
 msgstr ""
+"Tim harus menyadari perubahan pada rilis baru, terutama pada rilis LTS dan "
+"potensi SRU, karena hal itu dapat mempengaruhi dokumentasi."
 
 #: contributor-docs/C/documentation-tasks.xml:23(para)
 msgid ""
@@ -2683,6 +3560,12 @@ msgid ""
 "should also request the <ulink url=\"http://docs.xubuntu.org/\">online "
 "documentation</ulink> to be updated shortly before the release."
 msgstr ""
+"Tim dokumentasi bertanggung jawab untuk memastikan dokumentasi diperbarui "
+"sebelum String Dokumentasi Freeze sebelum diunggah. Setelah pengunggahan "
+"selesai, tim mengoordinasikan upaya penerjemahan dan memastikan dokumentasi "
+"mendapatkan pengunggahan lain sebelum Terjemahan Beku. Tim juga harus "
+"meminta <ulink url=\"http://docs.xubuntu.org/\">dokumentasi online</ulink> "
+"untuk diperbarui sesaat sebelum rilis."
 
 #: contributor-docs/C/documentation-tasks.xml:25(para)
 msgid ""
@@ -2691,10 +3574,14 @@ msgid ""
 "are done for maintenance purposes. The team should involve the community in "
 "these efforts the best way they see fit."
 msgstr ""
+"Tim dokumentasi juga harus berupaya meningkatkan dan memperluas dokumentasi "
+"yang ada, terutama selama siklus pengembangan ketika sebagian besar unggahan "
+"dilakukan untuk tujuan pemeliharaan. Tim harus melibatkan masyarakat dalam "
+"upaya ini dengan cara terbaik yang mereka inginkan."
 
 #: contributor-docs/C/documentation-tasks.xml:29(title)
 msgid "Contributor documentation"
-msgstr ""
+msgstr "Dokumentasi kontributor"
 
 #: contributor-docs/C/documentation-tasks.xml:31(para)
 msgid ""
@@ -2704,6 +3591,11 @@ msgid ""
 "pushed to the main branch and where needed, help contributors to format the "
 "content in the DocBook markup."
 msgstr ""
+"Tim dokumentasi memimpin upaya untuk menulis dokumentasi kontributor. "
+"Sementara berbagai subteam bertanggung jawab atas bagian mereka sendiri, tim "
+"dokumentasi harus membantu tim untuk mendorong konten mereka ke cabang utama "
+"dan jika diperlukan, membantu kontributor untuk memformat konten dalam "
+"markup DocBook."
 
 #: contributor-docs/C/documentation-tasks.xml:33(para)
 msgid ""
@@ -2712,34 +3604,42 @@ msgid ""
 "are made; the documentation team should request an update whenever they see "
 "fit."
 msgstr ""
+"<ulink url=\"http://docs.xubuntu.org/contributors/\"> dokumentasi "
+"kontributor online</ulink> harus terus diperbarui terutama ketika perubahan "
+"besar dibuat; tim dokumentasi harus meminta pembaruan kapan pun mereka mau."
 
 #: contributor-docs/C/documentation-tasks.xml:37(title)
 msgid "Other tasks"
-msgstr ""
+msgstr "Tugas lainnya"
 
 #: contributor-docs/C/documentation-tasks.xml:39(para)
 msgid ""
 "In addition to the above, the documentation team is strongly encouraged to "
 "do the following:"
 msgstr ""
+"Selain hal di atas, tim dokumentasi sangat dianjurkan untuk melakukan hal "
+"berikut:"
 
 #: contributor-docs/C/documentation-tasks.xml:42(para)
 msgid "Work with the Quality Assurance team to write and maintain testcases"
 msgstr ""
+"Bekerja dengan tim Jaminan Kualitas untuk menulis dan memelihara kasus uji"
 
 #: contributor-docs/C/documentation-tasks.xml:43(para)
 msgid ""
 "Work with the website team to improve the website content and write FAQ or "
 "other documentation related articles"
 msgstr ""
+"Bekerja dengan tim situs web untuk meningkatkan konten situs web dan menulis "
+"FAQ atau artikel terkait dokumentasi lainnya"
 
 #: contributor-docs/C/documentation-tasks.xml:44(para)
 msgid "Work with the marketing team on various projects, like flyers"
-msgstr ""
+msgstr "Bekerja dengan tim pemasaran di berbagai proyek, seperti selebaran"
 
 #: contributor-docs/C/development.xml:18(title)
 msgid "Xubuntu packageset"
-msgstr ""
+msgstr "Set Paket Xubuntu"
 
 #: contributor-docs/C/development.xml:20(para)
 msgid ""
@@ -2748,10 +3648,14 @@ msgid ""
 "at the packageset <ulink url=\"http://people.canonical.com/~ubuntu-"
 "archive/packagesets/\">archive</ulink>."
 msgstr ""
+"Tim Xubuntu mengelola subset paket dalam arsip Ubuntu. Paket Xubuntu untuk "
+"rilis pengembangan saat ini dapat ditemukan terdaftar di paket set <ulink "
+"url=\"http://people.canonical.com/~ubuntu-"
+"archive/packagesets/\">arsip</ulink>."
 
 #: contributor-docs/C/development.xml:25(title)
 msgid "Development PPAs"
-msgstr ""
+msgstr "Pengembangan PPA"
 
 #: contributor-docs/C/development.xml:27(para)
 msgid ""
@@ -2760,22 +3664,26 @@ msgid ""
 "PPAs can be found under the <ulink url=\"https://launchpad.net/~xubuntu-"
 "dev\">Xubuntu Developers</ulink> page on Launchpad."
 msgstr ""
+"Pengembang Xubuntu menggunakan beberapa PPA (arsip paket pribadi) untuk "
+"menentukan stadium, menguji dan melihat dulu paket dan versi paket baru. PPA "
+"ini dapat ditemukan di halaman <ulink url=\"https://launchpad.net/~xubuntu-"
+"dev\">halaman Xubuntu Developers</ulink> di Launchpad."
 
 #: contributor-docs/C/development.xml:29(para)
 msgid "Currently, the official PPAs for development use are:"
-msgstr ""
+msgstr "Saat ini, AKP resmi untuk penggunaan pembangunan adalah:"
 
 #: contributor-docs/C/development.xml:33(segtitle)
 msgid "PPA"
-msgstr ""
+msgstr "PPA"
 
 #: contributor-docs/C/development.xml:33(segtitle)
 msgid "Description"
-msgstr ""
+msgstr "Deskripsi"
 
 #: contributor-docs/C/development.xml:34(ulink)
 msgid "Xubuntu Staging"
-msgstr ""
+msgstr "Tahapan Xubuntu"
 
 #: contributor-docs/C/development.xml:34(seg)
 msgid ""
@@ -2784,18 +3692,24 @@ msgid ""
 "convenience of people testing these new package versions and features. Some "
 "of them are daily builds used in testing."
 msgstr ""
+"PPA bertahap untuk Xubuntu. Paket dan versi paket dalam PPA ini sedang "
+"dipersiapkan untuk dimasukkan dalam Xubuntu. Paket diunggah untuk kenyamanan "
+"orang yang menguji versi dan fitur paket baru ini. Beberapa dari mereka "
+"adalah build harian yang digunakan dalam pengujian."
 
 #: contributor-docs/C/development.xml:35(ulink)
 msgid "Xubuntu Daily Builds"
-msgstr ""
+msgstr "Pembangunan Harian Xubuntu"
 
 #: contributor-docs/C/development.xml:35(seg)
 msgid "Git/Bzr daily builds for packages related to Xubuntu and/or Xfce4."
 msgstr ""
+"Git/Bzr setiap hari dibuat untuk paket yang terkait dengan Xubuntu dan/atau "
+"Xfce4."
 
 #: contributor-docs/C/development.xml:36(ulink)
 msgid "Xubuntu Extras"
-msgstr ""
+msgstr "Xubuntu Extra"
 
 #: contributor-docs/C/development.xml:36(seg)
 msgid ""
@@ -2804,44 +3718,54 @@ msgid ""
 "packages are uploaded for the convenience of people willing to preview the "
 "new features."
 msgstr ""
+"PPA pratinjau untuk Xubuntu. Paket-paket dalam PPA ini dipertimbangkan untuk "
+"dimasukkan dalam repositori Ubuntu dan/atau Xubuntu di lain waktu. Paket-"
+"paket tersebut diunggah untuk kenyamanan orang-orang yang ingin melihat "
+"fitur baru."
 
 #: contributor-docs/C/common-reference.xml:14(title)
 msgid "Common Reference"
-msgstr ""
+msgstr "Referensi Umum"
 
 #: contributor-docs/C/common-reference.xml:17(title)
 msgid "Using Bazaar (Bzr)"
-msgstr ""
+msgstr "Menggunakan Bazaar (Bzr)"
 
 #: contributor-docs/C/common-reference.xml:19(para)
 msgid ""
 "Bazaar (commonly referred to as Bzr) is the version control system primarily "
 "used in Xubuntu development."
 msgstr ""
+"Bazaar (biasanya disebut sebagai Bzr) adalah sistem kontrol versi yang "
+"terutama digunakan dalam pengembangan Xubuntu."
 
 #: contributor-docs/C/common-reference.xml:22(title)
 msgid "Setting up Bzr"
-msgstr ""
+msgstr "Mengatur Bzr"
 
 #: contributor-docs/C/common-reference.xml:24(para)
 msgid "To set up Bzr, do the following:"
-msgstr ""
+msgstr "Untuk mengatur Bzr, lakukan hal berikut:"
 
 #: contributor-docs/C/common-reference.xml:27(para)
 msgid ""
 "To make sure Bzr is installed on your system, run <userinput>sudo apt-get "
 "install bzr</userinput>"
 msgstr ""
+"Untuk memastikan Bzr diinstal pada sistem Anda, jalankan <userinput>sudo apt-"
+"get install bzr</userinput>"
 
 #: contributor-docs/C/common-reference.xml:28(para)
 msgid ""
 "To set up your personal information for Bzr to use, run <userinput>bzr "
 "whoami \"John Doe &lt;john.doe@gmail.com&gt;\"</userinput>"
 msgstr ""
+"Untuk mengatur informasi pribadi Anda agar Bzr dapat digunakan, jalankan "
+"<userinput>bzr whoami \"John Doe &lt;john.doe@gmail.com&gt;\"</userinput>"
 
 #: contributor-docs/C/common-reference.xml:33(title)
 msgid "Getting and updating Bzr branches"
-msgstr ""
+msgstr "Mendapatkan dan memperbarui cabang Bzr"
 
 #: contributor-docs/C/common-reference.xml:35(para)
 msgid ""
@@ -2849,28 +3773,38 @@ msgid ""
 "<userinput>bzr branch LOCATION</userinput>. This will create a directory for "
 "the branch."
 msgstr ""
+"Setelah mengatur Bzr, Anda bisa mendapatkan salinan lokal cabang dengan "
+"menjalankan <userinput>bzr branch LOCATION</userinput>. Ini akan membuat "
+"direktori untuk cabang."
 
 #: contributor-docs/C/common-reference.xml:37(para)
 msgid ""
 "To make sure your local copy is up to date, run <userinput>bzr "
 "pull</userinput> inside the branch directory."
 msgstr ""
+"Untuk memastikan salinan lokal Anda mutakhir, jalankan <userinput>bzr "
+"pull</userinput> di dalam direktori cabang."
 
 #: contributor-docs/C/common-reference.xml:41(title)
 msgid "Pushing to Bzr branches"
-msgstr ""
+msgstr "Mendorong ke cabang Bzr"
 
 #: contributor-docs/C/common-reference.xml:43(para)
 msgid ""
 "When you have worked on your changes and want to push them to a remote "
 "branch, do the following in the local branch:"
 msgstr ""
+"Ketika Anda telah mengerjakan perubahan Anda dan ingin mendorongnya ke "
+"cabang remote, lakukan hal berikut di cabang lokal:"
 
 #: contributor-docs/C/common-reference.xml:46(para)
 msgid ""
 "To rename or move files, run <userinput>bzr mv OLD NEW</userinput>. This "
 "helps to keep the resulting diff meaningful, and also works after the fact."
 msgstr ""
+"Untuk mengganti nama atau memindahkan file, jalankan <userinput>bzr mv OLD "
+"NEW</userinput>. Ini membantu menjaga perbedaan yang dihasilkan bermakna, "
+"dan juga berfungsi setelah fakta."
 
 #: contributor-docs/C/common-reference.xml:47(para)
 msgid ""
@@ -2878,6 +3812,9 @@ msgid ""
 "root. This starts tracking any files in the branch that are currently "
 "unknown."
 msgstr ""
+"Jika Anda telah menambahkan file, jalankan <userinput>bzr add .</userinput> "
+"di root cabang. Ini mulai melacak semua file di cabang yang saat ini tidak "
+"dikenal."
 
 #: contributor-docs/C/common-reference.xml:48(para)
 msgid ""
@@ -2885,23 +3822,31 @@ msgid ""
 "cases, this should automatically stop tracking files that are no longer in "
 "the branch."
 msgstr ""
+"Jika Anda telah menghapus file, jalankan <userinput>bzr remove</userinput>. "
+"Dalam kebanyakan kasus, ini harus secara otomatis berhenti melacak file yang "
+"tidak lagi ada di cabang."
 
 #: contributor-docs/C/common-reference.xml:49(para)
 msgid ""
 "To check the status of the branch, run <userinput>bzr status</userinput>."
 msgstr ""
+"Untuk memeriksa status cabang, jalankan <userinput>bzr status</userinput>."
 
 #: contributor-docs/C/common-reference.xml:50(para)
 msgid ""
 "Commit your changes by running <userinput>bzr commit</userinput>. This will "
 "open a text editor to enter the commit message."
 msgstr ""
+"Komit perubahan Anda dengan menjalankan <userinput>bzr commit</userinput>. "
+"Ini akan membuka editor teks untuk memasukkan pesan komit."
 
 #: contributor-docs/C/common-reference.xml:51(para)
 msgid ""
 "After you have done one or more commits, run <userinput>bzr push "
 "LOCATION</userinput> to push your changes to a remote branch."
 msgstr ""
+"Setelah Anda melakukan satu atau lebih komit, jalankan <userinput>bzr push "
+"LOCATION</userinput> untuk mendorong perubahan Anda ke cabang jarak jauh."
 
 #: contributor-docs/C/common-reference.xml:54(para)
 msgid ""
@@ -2910,6 +3855,10 @@ msgid ""
 "MESSAGE</literal>, and link a bug report to the commit by using <literal>--"
 "fixes lp:BUGNO</literal>."
 msgstr ""
+"Pesan komit harus merangkum semua perubahan yang telah Anda lakukan setelah "
+"komit terakhir. Anda dapat menentukannya secara langsung dengan menggunakan "
+"<literal>-m MESSAGE</literal>, dan menautkan laporan bug ke komit dengan "
+"menggunakan <literal>--fixes lp:BUGNO</literal>."
 
 #: contributor-docs/C/common-reference.xml:56(para)
 msgid ""
@@ -2918,6 +3867,10 @@ msgid ""
 "helps to keep the commit log clean and makes it easier to find any issues "
 "that certain changes may have introduced."
 msgstr ""
+"Saat Anda mengerjakan cabang dan membuat beberapa perubahan yang tidak "
+"terkait satu sama lain, disarankan agar Anda melakukan beberapa komitmen. "
+"Ini membantu menjaga log komit tetap bersih dan membuatnya lebih mudah untuk "
+"menemukan masalah yang mungkin telah diperkenalkan oleh perubahan tertentu."
 
 #: contributor-docs/C/common-reference.xml:58(para)
 msgid ""
@@ -2928,16 +3881,24 @@ msgid ""
 "omit the branch location, as Bzr will have saved your previous push location "
 "in the local branch configuration."
 msgstr ""
+"Saat Anda mendorong ke cabang jarak jauh pertama kali, Anda harus menentukan "
+"lokasi cabang. Dalam kebanyakan kasus, ini akan mengikuti format "
+"<literal><placeholder-1/>lp:~username/projectname/branchname</literal>. Ini "
+"mendorong kode Anda ke cabang jarak jauh pribadi. Pada dorongan berikutnya, "
+"Anda dapat menghilangkan lokasi cabang, karena Bzr akan menyimpan lokasi "
+"push Anda sebelumnya dalam konfigurasi cabang lokal."
 
 #: contributor-docs/C/common-reference.xml:62(title)
 msgid "Submitting merge proposals"
-msgstr ""
+msgstr "Menyerahkan proposal penggabungan"
 
 #: contributor-docs/C/common-reference.xml:64(para)
 msgid ""
 "Once you have pushed your changes to a personal branch, you might want to "
 "propose them to be merged into the main branch."
 msgstr ""
+"Setelah Anda mendorong perubahan Anda ke cabang pribadi, Anda mungkin ingin "
+"mengusulkannya untuk digabung ke cabang utama."
 
 #: contributor-docs/C/common-reference.xml:66(para)
 msgid ""
@@ -2948,6 +3909,13 @@ msgid ""
 "<guilabel>Propose for merging</guilabel>. This will open a page that asks "
 "for some details on the merge proposal you are about to do."
 msgstr ""
+"Untuk melakukan proposal penggabungan (sering disebut MP) melalui browser "
+"web, mulailah dengan membuka halaman Launchpad di cabang Anda. Anda dapat "
+"menemukannya dengan membuka <ulink "
+"url=\"https://code.launchpad.net/people/+me\">halaman cabang Launchpad Anda "
+"</ulink> dan mengklik cabang yang dimaksud. Sekarang, klik pada <guilabel> "
+"Usulkan untuk menggabungkan </guilabel>. Ini akan membuka halaman yang "
+"meminta beberapa detail pada proposal penggabungan yang akan Anda lakukan."
 
 #: contributor-docs/C/common-reference.xml:68(para)
 msgid ""
@@ -2958,6 +3926,12 @@ msgid ""
 "well. If in doubt about any of the options, ask the requested reviewer, or "
 "if one isn't specified, in the IRC channel."
 msgstr ""
+"<guilabel>Target Branch</guilabel> biasanya diset dengan benar secara "
+"default, ubah ini hanya jika Anda tahu itu salah. Jika Anda telah diberitahu "
+"untuk menambahkan resensi <guilabel>Reviewer</guilabel>,  tambahkan resensi "
+"itu ke bidang yang sesuai. Masukkan <guilabel> Description</guilabel> dari "
+"perubahan yang Anda usulkan juga. Jika ragu tentang salah satu opsi, "
+"tanyakan resensi yang diminta, atau jika tidak ditentukan, di saluran IRC."
 
 #: contributor-docs/C/common-reference.xml:70(para)
 msgid ""
@@ -2968,6 +3942,13 @@ msgid ""
 "will be sent a mail any time an action is taken on the merge proposal, "
 "including when it's approved and merged into the main branch."
 msgstr ""
+"Terakhir, klik pada <guibutton>Propose Merge</guibutton>. Ini mengirimkan "
+"proposal penggabungan Anda dan pemilik cabang target serta pengulas yang "
+"ditentukan akan dikirimi surat. Jika mereka membutuhkan informasi lebih "
+"lanjut atau ingin Anda bekerja lebih jauh di cabang, mereka akan "
+"mengomentari proposal penggabungan. Anda akan dikirimi surat kapan saja "
+"suatu tindakan diambil pada proposal penggabungan, termasuk ketika itu "
+"disetujui dan digabung ke cabang utama."
 
 #: contributor-docs/C/common-reference.xml:72(para)
 msgid ""
@@ -2979,14 +3960,22 @@ msgid ""
 "or more times, and link a bug report to the merge proposal by using "
 "<literal>--fixes lp:BUGNO</literal>."
 msgstr ""
+"Untuk melakukan proposal penggabungan dari baris perintah, menggunakan "
+"cabang kirim yang diingat (default ke cabang induk) dan tim peninjau default "
+"untuk cabang itu, jalankan <userinput>bzr lp-propose-merge</userinput>. Ini "
+"akan membuka editor teks untuk memasukkan deskripsi perubahan yang Anda "
+"usulkan. Anda dapat mengganti resensi default dengan menggunakan <literal>--"
+"review NAME</literal> satu kali atau lebih, dan menautkan laporan bug ke "
+"proposal penggabungan dengan menggunakan <literal>--fixes lp:BUGNO</literal>."
 
 #: contributor-docs/C/common-reference.xml:77(title)
 msgid "Using Git"
-msgstr ""
+msgstr "Menggunakan Git"
 
 #: contributor-docs/C/common-reference.xml:79(para)
 msgid "Git is the version control system used in Xfce development."
 msgstr ""
+"Git adalah sistem kontrol versi yang digunakan dalam pengembangan Xfce."
 
 #: contributor-docs/C/common-reference.xml:81(para)
 msgid ""
@@ -2996,41 +3985,48 @@ msgid ""
 "also reflected by the various commands you use. Another is that Git doesn't "
 "automatically stage your changes for commit, you have to tell it to do so."
 msgstr ""
+"Satu perbedaan utama antara Git dan Bazaar untuk diperhatikan adalah bahwa, "
+"di Bazaar Anda biasanya hanya berurusan dengan cabang, sedangkan di Git Anda "
+"harus membedakan antara cabang dan repositori, yang dapat menampung banyak "
+"cabang. Ini juga tercermin dari berbagai perintah yang Anda gunakan. Lain "
+"adalah bahwa Git tidak secara otomatis membuat perubahan untuk komit, Anda "
+"harus mengatakannya untuk melakukannya."
 
 #: contributor-docs/C/common-reference.xml:84(title)
 msgid "Setting up Git"
-msgstr ""
+msgstr "Mengatur Git"
 
 #: contributor-docs/C/common-reference.xml:86(para)
 msgid "To set up Git, do the following:"
-msgstr ""
+msgstr "Untuk mengatur Git, lakukan hal berikut:"
 
 #: contributor-docs/C/common-reference.xml:90(para)
 msgid "To make sure Git is installed on your system, run:"
-msgstr ""
+msgstr "Untuk memastikan Git telah terinstal pada sistem anda, jalankan:"
 
 #: contributor-docs/C/common-reference.xml:91(userinput)
 #, no-wrap
 msgid "sudo apt-get install git"
-msgstr ""
+msgstr "sudo apt-get install git"
 
 #: contributor-docs/C/common-reference.xml:94(para)
 msgid "To set up your personal information for Git to use, run:"
 msgstr ""
+"Untuk mengatur informasi pribadi Anda agar Git dapat digunakan, jalankan:"
 
 #: contributor-docs/C/common-reference.xml:95(userinput)
 #, no-wrap
 msgid "git config --global user.name \"John Doe\""
-msgstr ""
+msgstr "git config --global user.name \"John Doe\""
 
 #: contributor-docs/C/common-reference.xml:96(userinput)
 #, no-wrap
 msgid "git config --global user.email \"john.doe@gmail.com\""
-msgstr ""
+msgstr "git config --global user.email \"john.doe@gmail.com\""
 
 #: contributor-docs/C/common-reference.xml:102(title)
 msgid "Getting and updating Git repositories"
-msgstr ""
+msgstr "Mendapatkan dan memperbarui repositori Git"
 
 #: contributor-docs/C/common-reference.xml:104(para)
 msgid ""
@@ -3038,22 +4034,29 @@ msgid ""
 "running <userinput>git clone LOCATION</userinput>. This will create a "
 "directory for the repository."
 msgstr ""
+"Setelah mengatur Git, Anda bisa mendapatkan salinan lokal repositori dengan "
+"menjalankan <userinput>git clone LOCATION</userinput>. Ini akan membuat "
+"direktori untuk repositori."
 
 #: contributor-docs/C/common-reference.xml:106(para)
 msgid ""
 "To make sure your local copy of a branch is up to date, run <userinput>git "
 "pull</userinput> inside the branch directory."
 msgstr ""
+"Untuk memastikan salinan cabang lokal Anda sudah terbaru, jalankan "
+"<userinput>git pull</userinput> di dalam direktori cabang."
 
 #: contributor-docs/C/common-reference.xml:110(title)
 msgid "Pushing to Git repositories"
-msgstr ""
+msgstr "Mendorong ke repositori Git"
 
 #: contributor-docs/C/common-reference.xml:112(para)
 msgid ""
 "When you have worked on your changes and want to push them to a remote "
 "repository, do the following in the local branch:"
 msgstr ""
+"Ketika Anda telah mengerjakan perubahan Anda dan ingin mendorongnya ke "
+"repositori jarak jauh, lakukan hal berikut di cabang lokal:"
 
 #: contributor-docs/C/common-reference.xml:115(para)
 msgid ""
@@ -3061,6 +4064,9 @@ msgid ""
 "helps to keep the resulting diff meaningful, while Git should figure this "
 "out automatically."
 msgstr ""
+"Untuk mengganti nama atau memindahkan berkas, jalankan <userinput>git mv OLD "
+"NEW</userinput>. Ini membantu menjaga perbedaan yang dihasilkan bermakna, "
+"sementara Git harus mencari tahu ini secara otomatis."
 
 #: contributor-docs/C/common-reference.xml:116(para)
 msgid ""
@@ -3068,6 +4074,9 @@ msgid ""
 "tracking the specified files, while it's redundant if all changes are staged "
 "later anyway."
 msgstr ""
+"Untuk menghapus berkas, jalankan <userinput>git rm FILE</userinput>. Ini "
+"juga berhenti melacak berkasyang ditentukan, sementara itu redundan jika "
+"semua perubahan dipentaskan nanti."
 
 #: contributor-docs/C/common-reference.xml:117(para)
 msgid ""
@@ -3075,23 +4084,33 @@ msgid ""
 "root. This starts tracking any files in the branch that aren't currently, "
 "and also stages any changes."
 msgstr ""
+"Jika Anda telah menambahkan berkas, jalankan <userinput>git add "
+".</userinput> di root cabang. Ini mulai melacak semua berkasdi cabang yang "
+"saat ini tidak ada, dan juga melakukan perubahan apa pun."
 
 #: contributor-docs/C/common-reference.xml:118(para)
 msgid ""
 "To check the status of the branch, run <userinput>git status</userinput>."
 msgstr ""
+"Untuk memeriksa status cabang, jalankan <userinput>git status</userinput>."
 
 #: contributor-docs/C/common-reference.xml:119(para)
 msgid ""
 "Commit your changes by running <userinput>git commit -a</userinput>. This "
 "stages any changes, and will open a text editor to enter the commit message."
 msgstr ""
+"Komit perubahan Anda dengan menjalankan <userinput>git commit -"
+"a</userinput>. Ini tahap setiap perubahan, dan akan membuka editor teks "
+"untuk memasukkan pesan komit."
 
 #: contributor-docs/C/common-reference.xml:120(para)
 msgid ""
 "After you have done one or more commits, run <userinput>git push LOCATION "
 "BRANCH</userinput> to push your changes to a remote repository."
 msgstr ""
+"Setelah Anda melakukan satu atau lebih commit, jalankan <userinput>git push "
+"LOCATION BRANCH</userinput> untuk mendorong perubahan Anda ke repositori "
+"jarak jauh."
 
 #: contributor-docs/C/common-reference.xml:123(para)
 msgid ""
@@ -3099,25 +4118,32 @@ msgid ""
 "last commit, you can specify it directly by using <literal>-m "
 "MESSAGE</literal>."
 msgstr ""
+"Pesan komit harus merangkum semua perubahan yang telah Anda lakukan setelah "
+"komit terakhir, Anda dapat menentukannya langsung dengan menggunakan "
+"<literal>-m MESSAGE</literal>."
 
 #: contributor-docs/C/common-reference.xml:128(title)
 msgid "Build dependencies"
-msgstr ""
+msgstr "Membangun dependensi"
 
 #: contributor-docs/C/common-reference.xml:130(para)
 msgid ""
 "Before you can build a package from source, you will usually need to install "
 "its build dependencies."
 msgstr ""
+"Sebelum Anda bisa membangun sebuah paket dari sumber, Anda biasanya perlu "
+"menginstal dependensi build-nya."
 
 #: contributor-docs/C/common-reference.xml:132(para)
 msgid ""
 "To do this, simply run <userinput>sudo apt-get build-dep PACKAGE</userinput>."
 msgstr ""
+"Untuk melakukan ini, cukup jalankan <userinput>sudo apt-get build-dep "
+"PACKAGE</userinput>."
 
 #: contributor-docs/C/common-reference.xml:136(title)
 msgid "Launchpad"
-msgstr ""
+msgstr "Launchpad"
 
 #: contributor-docs/C/common-reference.xml:138(para)
 msgid ""
@@ -3126,10 +4152,14 @@ msgid ""
 "recently added <ulink url=\"https://help.launchpad.net/Code/Git\">support "
 "for Git</ulink>, too."
 msgstr ""
+"Launchpad adalah platform utama yang digunakan untuk pengembangan Xubuntu. "
+"Secara historis, sistem kontrol versi yang digunakan di Launchpad adalah "
+"Bazaar, tetapi baru-baru ini ditambahkan <ulink "
+"url=\"https://help.launchpad.net/Code/Git\"> dukungan untuk Git</ulink> juga."
 
 #: contributor-docs/C/common-reference.xml:141(title)
 msgid "Setting up a Launchpad account"
-msgstr ""
+msgstr "Mengatur akun Launchpad"
 
 #: contributor-docs/C/common-reference.xml:143(para)
 msgid ""
@@ -3137,38 +4167,42 @@ msgid ""
 "url=\"https://help.launchpad.net/YourAccount/NewAccount\">Creating a new "
 "account</ulink>."
 msgstr ""
+"Untuk informasi tentang pengaturan akun Launchpad, lihat <ulink "
+"url=\"https://help.launchpad.net/YourAccount/NewAccount\">Membuat akun "
+"baru</ulink>."
 
 #: contributor-docs/C/common-reference.xml:149(title)
 msgid "Useful QA Links"
-msgstr ""
+msgstr "Tautan QA yang berguna"
 
 #: contributor-docs/C/common-reference.xml:152(ulink)
 msgid "Xubuntu QA"
-msgstr ""
+msgstr "Xubuntu QA"
 
 #: contributor-docs/C/common-reference.xml:153(ulink)
 msgid "Xubuntu Testers"
-msgstr ""
+msgstr "Penguji Xubuntu"
 
 #: contributor-docs/C/common-reference.xml:154(ulink)
 msgid "ISO Tracker"
-msgstr ""
+msgstr "Pelacak ISO"
 
 #: contributor-docs/C/common-reference.xml:155(ulink)
 msgid "Package Tracker"
-msgstr ""
+msgstr "Pelacak Paket"
 
 #: contributor-docs/C/common-reference.xml:156(ulink)
 msgid "Ubuntu QA Team Wiki"
-msgstr ""
+msgstr "Wiki Tim QA Ubuntu"
 
 #: contributor-docs/C/common-reference.xml:157(ulink)
 msgid "Ubuntu Manual Tests"
-msgstr ""
+msgstr "Pengujian Manual Ubuntu"
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: contributor-docs/C/common-reference.xml:0(None)
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
-"  Moo https://launchpad.net/~mooo"
+"  Arief Setiadi Wibowo https://launchpad.net/~q-thrynx\n"
+"  William Andrew Conna https://launchpad.net/~williamandrewconna"

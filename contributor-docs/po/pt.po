@@ -1,16 +1,16 @@
-# Lithuanian translation for xubuntu-docs
-# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# Portuguese translation for xubuntu-docs
+# Copyright (c) 2020 Rosetta Contributors and Canonical Ltd 2020
 # This file is distributed under the same license as the xubuntu-docs package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-06-04 23:34+0200\n"
-"PO-Revision-Date: 2020-04-01 03:10+0000\n"
-"Last-Translator: Moo <hazap@hotmail.com>\n"
-"Language-Team: Lithuanian <lt@li.org>\n"
+"PO-Revision-Date: 2020-05-05 21:43+0000\n"
+"Last-Translator: Bernardo Oliveira <Unknown>\n"
+"Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,16 +22,16 @@ msgid ""
 "Translator data could not be acquired, please see <ulink "
 "url=\"https://translations.launchpad.net/xubuntu-docs\">Launchpad</ulink>."
 msgstr ""
-"Nepavyko gauti vertėjo duomenų, prašome žiūrėti <ulink "
+"Os dados do tradutor não puderam ser adquiridos, por favor consulte <ulink "
 "url=\"https://translations.launchpad.net/xubuntu-docs\">Launchpad</ulink>."
 
 #: contributor-docs/C/xi-translator-credits.xml:1(para)
 msgid "The contributors to this translation of the documentation are:"
-msgstr "Šios dokumentacijos vertimo talkininkai yra:"
+msgstr "Os contribuidores para esta tradução da documentação são:"
 
 #: contributor-docs/C/xi-pdf-files.xml:2(title)
 msgid "Would you rather read this documentation in PDF?"
-msgstr "Ar norėtumėte verčiau skaityti šią dokumentaciją kaip PDF?"
+msgstr "Prefere ler esta documentação em PDF?"
 
 #: contributor-docs/C/xi-pdf-files.xml:3(para)
 msgid ""
@@ -39,8 +39,8 @@ msgid ""
 "A4.pdf\">A4</ulink> or <ulink url=\"xubuntu-documentation-USletter.pdf\">US "
 "letter</ulink>."
 msgstr ""
-"Pasirinkite pageidaujamą popieriaus dydį: <ulink url=\"xubuntu-documentation-"
-"A4.pdf\">A4</ulink> ar <ulink url=\"xubuntu-documentation-USletter.pdf\">US "
+"Selecione o tamanho do papel preferido: <ulink url=\"xubuntu-documentation-"
+"A4.pdf\">A4</ulink> ou <ulink url=\"xubuntu-documentation-USletter.pdf\">US "
 "letter</ulink>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -55,11 +55,11 @@ msgstr ""
 
 #: contributor-docs/C/website.xml:14(title)
 msgid "Website"
-msgstr "Svetainė"
+msgstr "Website"
 
 #: contributor-docs/C/website.xml:17(title)
 msgid "Introduction to the Xubuntu web presence"
-msgstr ""
+msgstr "Introdução à presença Web do Xubuntu"
 
 #: contributor-docs/C/website.xml:20(title)
 msgid "Xubuntu.org"
@@ -70,6 +70,9 @@ msgid ""
 "<emphasis>The website is the main output for end-users.</emphasis> The "
 "content on the website should be easily understandable and approachable."
 msgstr ""
+"<emphasis>Esta página web é a principal fonte de informação para os "
+"utilizadores.</emphasis> O conteúdo na página web deve ser facilmente "
+"compreensível."
 
 #: contributor-docs/C/website.xml:24(para)
 msgid ""
@@ -80,6 +83,13 @@ msgid ""
 "Launchpad, under the <ulink url=\"https://bugs.launchpad.net/xubuntu-"
 "website/+bugs\">bugs for xubuntu-website</ulink>."
 msgstr ""
+"Esta página web utiliza o WordPress instalado num servidor da Canonical IS. "
+"O conteúdo da página web é controlado e administrado pela equipa da página "
+"web do Xubuntu. A equipa da página web pode enviar informação para a "
+"Canonical IS se houver algum problema. Bugs relacionados com a página web "
+"podem ser inseridos no Launchpad, através do link: <ulink "
+"url=\"https://bugs.launchpad.net/xubuntu-website/+bugs\">bugs for xubuntu-"
+"website</ulink>."
 
 #: contributor-docs/C/website.xml:26(para)
 msgid ""
@@ -87,29 +97,29 @@ msgid ""
 "1/>lp:xubuntu-website</literal> (the theme) and <literal><placeholder-"
 "2/>lp:xubuntu-website/plugins</literal> (the plugins)."
 msgstr ""
-"Pirminis svetainės kodas yra prieinamas ties <literal><placeholder-"
-"1/>lp:xubuntu-website</literal> (tema) ir <literal><placeholder-"
-"2/>lp:xubuntu-website/plugins</literal> (įskiepiai)."
+"O código fonte da página web está disponível em <literal><placeholder-"
+"1/>lp:xubuntu-website</literal> (o tema) e <literal><placeholder-"
+"2/>lp:xubuntu-website/plugins</literal> (os plugins)."
 
 #: contributor-docs/C/website.xml:30(title)
 msgid "Xubuntu wiki"
-msgstr "Xubuntu vikis"
+msgstr "Wiki do Xubuntu"
 
 #: contributor-docs/C/website.xml:32(emphasis)
 msgid ""
 "The Xubuntu wiki is used for some developer communication and serves as an "
 "archive for older release roadmaps and specification."
 msgstr ""
-"Xubuntu vikis yra naudojamas tam tikram bendravimui tarp kūrėjų ir yra kaip "
-"archyvas, skirtas senesnių laidų veiklos grafikui ir specifikacijai."
+"A Wiki do Xubuntu é usada para alguma comunicação entre programadores e "
+"funciona como um arquivo para metas de lançamento e especificações anteriores"
 
 #: contributor-docs/C/website.xml:37(title)
 msgid "Xubuntu website maintenance documentation"
-msgstr ""
+msgstr "Documentação da manunteção da página Web do Xubuntu"
 
 #: contributor-docs/C/website.xml:40(title)
 msgid "Releases"
-msgstr ""
+msgstr "Lançamentos"
 
 #: contributor-docs/C/website.xml:42(para)
 msgid ""
@@ -131,24 +141,35 @@ msgid ""
 "switch), go to <ulink url=\"https://xubuntu.org/wp-admin/edit-"
 "tags.php?taxonomy=release\">Posts – Releases</ulink>."
 msgstr ""
+"Para editar as informações genéricas de cada versão (nome do código, data da "
+"versão, data de fim de vida, ligações para transferências Torrent, "
+"documentação on-line e mudança de versão), vá a <ulink "
+"url=\"https://xubuntu.org/wp-admin/edit-tags.php?taxonomy=release\">Posts – "
+"Releases</ulink>."
 
 #: contributor-docs/C/website.xml:46(para)
 msgid ""
 "To attach any content to a release, select the desired release(s) on the "
 "content edit page."
 msgstr ""
+"Para anexar algum conteúdo a um lançamento, selecione o(s) lançamento(s) "
+"pretendido na página de edição de conteúdo"
 
 #: contributor-docs/C/website.xml:48(para)
 msgid ""
 "The following shortcodes are used to output aggregated release information "
 "(replace <literal>xx-xx</literal> with the desired release slug):"
 msgstr ""
+"Os códigos seguintes são utilizados para mostrar informação de lançamento "
+"agregada (substitua <literal>xx-xx</literal> pela versão desejada):"
 
 #: contributor-docs/C/website.xml:51(para)
 msgid ""
 "<userinput>[torrents release=xx-xx]</userinput> to output Torrent download "
 "links"
 msgstr ""
+"<userinput>[torrents release=xx-xx]</userinput> para mostrar ligações de "
+"transferência Torrent"
 
 #: contributor-docs/C/website.xml:52(para)
 msgid ""
@@ -191,7 +212,7 @@ msgstr ""
 
 #: contributor-docs/C/website.xml:67(title)
 msgid "Download mirrors"
-msgstr "Atsiuntimo tinklavietės"
+msgstr ""
 
 #: contributor-docs/C/website.xml:69(para)
 msgid ""
@@ -212,20 +233,18 @@ msgid ""
 "@@image: '../../libs-common/images/icon_package.png'; "
 "md5=15cff8b23f9cf506a7b7e8f98f1289ac"
 msgstr ""
-"@@image: '../../libs-common/images/icon_package.png'; "
-"md5=15cff8b23f9cf506a7b7e8f98f1289ac"
 
 #: contributor-docs/C/strategy-document.xml:14(title)
 msgid "Strategy Document"
-msgstr "Strateginis dokumentas"
+msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:18(title)
 msgid "Introduction"
-msgstr "Įžanga"
+msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:21(title)
 msgid "About this Document"
-msgstr "Apie šį dokumentą"
+msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:23(para)
 msgid ""
@@ -233,8 +252,6 @@ msgid ""
 "Xubuntu project as well as act as a guide and a reference for the Xubuntu "
 "Team."
 msgstr ""
-"Šis dokumentas aprašys Xubuntu projekto strategiją, viziją ir kryptį, o taip "
-"pat patarnaus kaip Xubuntu komandos vadovas ir rodyklė."
 
 #: contributor-docs/C/strategy-document.xml:25(para)
 msgid ""
@@ -253,7 +270,7 @@ msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:31(title)
 msgid "Mission Statement"
-msgstr "Misijos teiginys"
+msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:33(para)
 msgid ""
@@ -262,23 +279,16 @@ msgid ""
 "configurable desktop environment with conservative workflows. Xubuntu "
 "delivers a polished and unified product ready for end-users."
 msgstr ""
-"Xubuntu yra bendruomenės kuriama, Ubuntu pagrįsta operacinė sistema, kuri "
-"sujungia eleganciją ir lengvą naudojimą. Xubuntu pateikia supaprastintą, "
-"stabilią ir konfigūruojamą darbalaukio aplinką su konservatyvia darbo eiga. "
-"Xubuntu suteikia glotnų ir sujungtą produktą, kuris paruoštas galutiniam "
-"naudotojui."
 
 #: contributor-docs/C/strategy-document.xml:35(para)
 msgid ""
 "In addition to the technical aspects, the Xubuntu team focuses on "
 "contributor and user communities."
 msgstr ""
-"Be papildomų techninių aspektų, Xubuntu komanda susitelkia ties talkininkų "
-"ir naudotojų bendruomenėmis."
 
 #: contributor-docs/C/strategy-document.xml:40(title)
 msgid "Target"
-msgstr "Tikslas"
+msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:42(para)
 msgid ""
@@ -289,12 +299,6 @@ msgid ""
 "choice for users who prefer conservative workflows over the newest "
 "innovations."
 msgstr ""
-"Tikslinę Xubuntu auditoriją sudaro naudotojai, kurie yra sudominti "
-"elegantiška, lengva naudoti, glotnia ir sujungta operacine sistema. Xubuntu "
-"taip pat yra geras pasirinkimas tiems, kas nori stabilios, konfigūruojamos "
-"ir/ar santykinai supaprastintos darbalaukio aplinkos. Apibendrinus, Xubuntu "
-"yra patrauklus pasirinkimas naudotojams, kurie teikia pirmenybę "
-"konservatyviai darbo eigai, o ne naujesnėms inovacijoms."
 
 #: contributor-docs/C/strategy-document.xml:44(para)
 msgid ""
@@ -448,7 +452,7 @@ msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:98(title)
 msgid "Community"
-msgstr "Bendruomenė"
+msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:101(title)
 msgid "Xubuntu Council"
@@ -520,7 +524,7 @@ msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:126(title)
 msgid "Xubuntu Team"
-msgstr "Xubuntu komanda"
+msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:128(para)
 msgid ""
@@ -591,7 +595,7 @@ msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:151(title)
 msgid "Xubuntu Users"
-msgstr "Xubuntu naudotojai"
+msgstr ""
 
 #: contributor-docs/C/strategy-document.xml:153(para)
 msgid ""
@@ -3171,4 +3175,7 @@ msgstr ""
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
-"  Moo https://launchpad.net/~mooo"
+"  Bernardo Oliveira https://launchpad.net/~blohshyboi\n"
+"  Gabriel Silva https://launchpad.net/~ryukenden\n"
+"  Guilherme Campos https://launchpad.net/~cheker\n"
+"  Hugo Carvalho https://launchpad.net/~hugok79"

@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2018-01-11 16:39-0500\n"
-"PO-Revision-Date: 2018-05-18 23:50+0000\n"
+"POT-Creation-Date: 2018-06-04 23:34+0200\n"
+"PO-Revision-Date: 2020-04-01 03:10+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-05-20 05:40+0000\n"
-"X-Generator: Launchpad (build 18658)\n"
+"X-Launchpad-Export-Date: 2020-05-20 10:48+0000\n"
+"X-Generator: Launchpad (build 0385b538081bc4718df6fb844a3afc89729c94ce)\n"
 
 #: user-docs/C/xi-translators-not-found.xml:1(para)
 msgid ""
@@ -87,6 +87,11 @@ msgid ""
 "to the <ulink url=\"http://www.ubuntu.com/project/about-ubuntu/our-"
 "philosophy\">Ubuntu Philosophy</ulink> page."
 msgstr ""
+"Xubuntuの\"X\"はXubuntuで採用しているデスクトップ環境のXfceを意味しています。\"ubuntu\" "
+"は、実際にもXubuntuの考え方としても、Ubuntuをベースにしていることを意味しています。Ubuntuのおおまかな意味は、「他者への思いやり」です。"
+"UbuntuとXubuntuの背景にある哲学や思想については、 <ulink "
+"url=\"http://www.ubuntu.com/project/about-ubuntu/our-"
+"philosophy\">Ubuntuの考え方</ulink> のページをご覧ください。"
 
 #: user-docs/C/what-is-xubuntu.xml:35(para)
 msgid ""
@@ -125,6 +130,9 @@ msgid ""
 "and technical philosophy behind it at the <ulink "
 "url=\"http://www.gnu.org/\">GNU website</ulink>."
 msgstr ""
+"Xubuntuプロジェクトはフリーソフトウェア開発の原則にもとづいて開発を進めています。皆はフリーソフトウェアを使い、改善する努力をし、他の人々に紹介する"
+"ように奨励されています。フリーソフトウェアについて、そして、その背景にある考え方については、<ulink "
+"url=\"http://www.gnu.org/\">GNUのウェブサイト</ulink>をご覧ください。"
 
 #: user-docs/C/what-is-xubuntu.xml:59(title)
 msgid "Linux"
@@ -189,7 +197,7 @@ msgstr ""
 
 #: user-docs/C/settings-preferences.xml:14(title)
 msgid "Settings and Preferences"
-msgstr ""
+msgstr "自分の好みにあわせた設定"
 
 #: user-docs/C/settings-preferences.xml:16(para)
 msgid ""
@@ -226,6 +234,9 @@ msgid ""
 "application listed in the results, you can directly launch it or right-click "
 "on it and add it to your preferred launch location."
 msgstr ""
+"プログラムがどこにあるかわからなかったり、プログラムの名前がわからなかったりしたら、検索することができます。メニューを開くと、カーソルは既に検索バーにあり"
+"ます。文字をタイプするとアプリケーション名とアプリケーションの説明の両方に対してインクリメンタルサーチが行われます。検索結果にアプリケーションを見つけたら"
+"、そのまま実行することもできますし、右クリックで自分の好みの場所に配置することもできます。"
 
 #: user-docs/C/settings-preferences.xml:25(para)
 msgid ""
@@ -234,6 +245,9 @@ msgid ""
 "change <guilabel>Appearance</guilabel>, <guilabel>Behavior</guilabel> and "
 "<guilabel>Search Actions</guilabel>."
 msgstr ""
+"メニューをさらにカスタマイズしたい場合は、<placeholder-1/> の上で右クリックして、 "
+"<guilabel>プロパティ</guilabel>を選んでください。<guilabel>外観</guilabel>、 "
+"<guilabel>振る舞い</guilabel>、<guilabel>アクションの検索</guilabel>を変更するタブがあります。"
 
 #: user-docs/C/settings-preferences.xml:28(para)
 msgid ""
@@ -293,6 +307,9 @@ msgid ""
 "tools</literal> package to use the <guilabel>Capture from "
 "camera...</guilabel> feature."
 msgstr ""
+"Mugshotで<guilabel>Capture from "
+"camera...</guilabel>機能を使うためには、<literal><placeholder-1/>gstreamer1.0-"
+"tools</literal>パッケージをインストールする必要があります。"
 
 #: user-docs/C/settings-preferences.xml:43(para)
 msgid ""
@@ -301,6 +318,8 @@ msgid ""
 "<application>Pidgin</application> and/or LibreOffice installed, you will be "
 "prompted to update their settings as well."
 msgstr ""
+"個人情報を記入し、<guibutton>適用</guibutton>をクリックします。<application>Pidgin</application> "
+"や LibreOfficeがインストールされていると、これらの情報を適用するときに、それらのアプリケーションの設定もアップデートするように表示されます。"
 
 #: user-docs/C/settings-preferences.xml:45(para)
 msgid ""
@@ -523,6 +542,11 @@ msgid ""
 "<guilabel>Style</guilabel> tab, select a new theme to change the window "
 "borders appearance."
 msgstr ""
+"xfwm テーマ - "
+"ウィンドウの境界がどのように見えるかを調整します。xfwmテーマを変更するには、<application><menuchoice><placeholder"
+"-1/><guimenuitem><placeholder-2/> "
+"設定マネージャー</guimenuitem><guimenuitem>ウィンドウマネージャー</guimenuitem></menuchoice></ap"
+"plication>に行きます。<guilabel>スタイル</guilabel>タブで新しいテーマを選ぶとウィンドウの境界の外観が変わります。"
 
 #: user-docs/C/settings-preferences.xml:114(para)
 msgid ""
@@ -534,6 +558,12 @@ msgid ""
 "change the window content appearance. The tool <application>gtk-theme-"
 "config</application> will also allow you to customize your window look."
 msgstr ""
+"GTK テーマ - ウィンドウのコンテンツがどのように見えるかを調整します。GTK "
+"テーマを変更するには、<application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> "
+"設定マネージャー</guimenuitem><guimenuitem>外観</guimenuitem></menuchoice></application"
+">に行ってください。 <guilabel>スタイル</guilabel> タブで新しいテーマを選ぶとウィンドウのコンテンツの外観が変わります。 "
+"<application>gtk-theme-config</application> ツールでもウィンドウの外観をカスタマイズすることができます。"
 
 #: user-docs/C/settings-preferences.xml:117(para)
 msgid ""
@@ -545,6 +575,12 @@ msgid ""
 "change the icon appearance. Note that not all icon sets will work well with "
 "dark panel/window backgrounds!"
 msgstr ""
+"アイコンテーマ - アイコンの外観を調整します。アイコンテーマを変更するには、 "
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"設定マネージャー</guimenuitem><guimenuitem>外観</guimenuitem></menuchoice></application"
+">に行きます。 <guilabel>アイコン</guilabel> "
+"タブで新しいテーマを選ぶとアイコンの外観が変わります。なお、すべてのアイコンセットが暗色系のパネルやウィンドウの背景にマッチするわけでないことに留意してく"
+"ださい。"
 
 #: user-docs/C/settings-preferences.xml:123(para)
 msgid ""
@@ -553,6 +589,9 @@ msgid ""
 "repositories, and more can be found on the Internet, for example on <ulink "
 "url=\"http://xfce-look.org/\">Xfce-look.org</ulink>."
 msgstr ""
+"デフォルトで準備されているテーマで満足できない場合、新しいテーマをダウンロードしインストールすることができます。テーマの中には、Ubuntuリポジトリから"
+"インストールできるものもありますが、インターネット上でもたくさん見つけることができます。例として <ulink url=\"http://xfce-"
+"look.org/\">Xfce-look.org</ulink>をご覧ください。"
 
 #: user-docs/C/settings-preferences.xml:127(para)
 msgid ""
@@ -562,6 +601,9 @@ msgid ""
 "it will appear in the <application>Settings Manager</application>. To do "
 "this, extract the theme package and copy them to:"
 msgstr ""
+"リポジトリから新しいテーマをインストールした場合、自動的に<application>設定マネージャー</application>に表示されるはずです。他の"
+"サイトからテーマをダウンロードした場合、<application>設定マネージャー</application>に表示される前にインストールする必要がありま"
+"す。そのためには、テーマを展開し、それらを次の場所にコピーします："
 
 #: user-docs/C/settings-preferences.xml:133(para)
 msgid "xfwm and GTK themes:"
@@ -615,6 +657,14 @@ msgid ""
 "<guilabel>Compositor</guilabel> tab either unticking <guilabel>Enable "
 "display compositing</guilabel> or modifying settings."
 msgstr ""
+"Xubuntuにはたくさんのデスクトップ効果があるわけではありませんが、デフォルトでXfce compositor "
+"(合成処理)が有効になっています。デフォルトのXubuntuの設定では、Xfce "
+"compositorはウィンドウに影をつけ、パネルを半透明にできるように使われています。もし、ローエンドのGPUを使っていたり、これらのデスクトップ効果が"
+"好みでないならば、compositorの機能をオフにしたり、設定を変更できます。<application><menuchoice><placeholder"
+"-1/><guimenuitem><placeholder-2/> "
+"設定マネージャー</guimenuitem><guimenuitem>ウィンドウマネージャー（詳細）</guimenuitem></menuchoice>"
+"</application> に行き、 <guilabel>合成処理</guilabel> タブで "
+"<guilabel>合成処理を有効にする</guilabel> のチェックを外すか設定を変更します。"
 
 #: user-docs/C/printing-scanning.xml:14(title)
 msgid "Printing and Scanning"
@@ -714,6 +764,9 @@ msgid ""
 "will print and you can verify if it printed correctly, or you can press "
 "<guibutton>Cancel</guibutton>. Either way, your printer is ready to print."
 msgstr ""
+"<guibutton>テストページの印刷</guibutton> "
+"ボタンを押すと、テストページが印刷され、正しく印刷されたかどうかを確認することができます。もしくは、<guibutton>キャンセル</guibutton"
+">を押すこともできます。どちらにせよ、プリンターは印刷できます。"
 
 #: user-docs/C/printing-scanning.xml:38(para)
 msgid ""
@@ -734,6 +787,12 @@ msgid ""
 "url=\"https://wiki.ubuntu.com/HardwareSupportComponentsPrinters\">Ubuntu "
 "Wiki Printer page</ulink> for information on your printer."
 msgstr ""
+"プリンターが自動で検出されなかったならば、ポートとプリンタードライバーを手動で設定することもできます。プリンターによってはさらなる設定が必要なこともありま"
+"す。<ulink "
+"url=\"http://www.linuxfoundation.org/collaborate/workgroups/openprinting\">Op"
+"enPrinting database</ulink>を検索するか、<ulink "
+"url=\"https://wiki.ubuntu.com/HardwareSupportComponentsPrinters\">Ubuntu "
+"Wiki Printer page</ulink>をチェックして、あなたのプリンターの情報がないかどうか調べてみてください。"
 
 #: user-docs/C/printing-scanning.xml:45(title)
 msgid "Network printing"
@@ -877,6 +936,9 @@ msgid ""
 "1/><guisubmenu>Graphics</guisubmenu><guimenuitem>Simple "
 "Scan</guimenuitem></menuchoice></application>"
 msgstr ""
+"<application><menuchoice><placeholder-"
+"1/><guisubmenu>グラフィックス</guisubmenu><guimenuitem>Simple "
+"Scan</guimenuitem></menuchoice></application>に移動します"
 
 #: user-docs/C/printing-scanning.xml:94(para)
 msgid ""
@@ -1190,6 +1252,10 @@ msgid ""
 "<?br?><application><menuchoice><placeholder-3/><placeholder-"
 "4/></menuchoice></application> for additional configuration"
 msgstr ""
+"<application><menuchoice><placeholder-1/><placeholder-"
+"2/></menuchoice></application> 個人の好みに合わせた設定 "
+"<?br?><application><menuchoice><placeholder-3/><placeholder-"
+"4/></menuchoice></application> さらなる設定"
 
 #: user-docs/C/migrating-upgrading.xml:26(seg)
 msgid "Windows Explorer"
@@ -1302,7 +1368,7 @@ msgstr ""
 
 #: user-docs/C/migrating-upgrading.xml:56(title)
 msgid "Upgrading Xubuntu"
-msgstr ""
+msgstr "Xubuntuのアップグレード"
 
 #: user-docs/C/migrating-upgrading.xml:58(para)
 msgid ""
@@ -1324,10 +1390,12 @@ msgid ""
 "of packages must be downloaded and installed, although the actual figure "
 "will depend on how many packages are already installed on your computer."
 msgstr ""
+"アップグレードにはしばらく時間がかかります。どの程度のパッケージが既にインストールされているかにもよりますが、通常、1000メガバイトのパッケージがダウン"
+"ロードされ、インストールされます。"
 
 #: user-docs/C/migrating-upgrading.xml:63(title)
 msgid "Upgrading to the next available release"
-msgstr ""
+msgstr "利用可能なリリースへのアップグレード"
 
 #: user-docs/C/migrating-upgrading.xml:66(para)
 msgid ""
@@ -1344,7 +1412,7 @@ msgstr ""
 msgid ""
 "If a new version of Xubuntu is available, a box at the top of the window "
 "will appear saying that a new distribution release is available"
-msgstr ""
+msgstr "Xubuntuの新バージョンが利用可能になると、ウィンドウの上部にボックスが現れ、新リリースが利用可能になったことを伝えてくれます。"
 
 #: user-docs/C/migrating-upgrading.xml:68(para)
 msgid ""
@@ -1508,6 +1576,8 @@ msgid ""
 "use <application>File Manager</application> to manually copy songs to and "
 "from the player."
 msgstr ""
+"XubuntuはiPodを含めてたいていのポータブル音楽プレーヤーを扱うことができます。通常はプレーヤーをコンピューターに接続し、 "
+"<application>ファイルマネージャー</application> を使って手動でプレーヤーとコンピューター間で楽曲をコピーします。"
 
 #: user-docs/C/media-apps.xml:35(para)
 msgid ""
@@ -1515,6 +1585,8 @@ msgid ""
 "Xubuntu unless you have done an initial synchronization with "
 "<application>iTunes</application> first."
 msgstr ""
+"新しいiPod（第6世代以降）はXubuntuでは自動で動作しません。最初に<application>iTunes</application> "
+"で同期する必要があります。"
 
 #: user-docs/C/media-apps.xml:37(para)
 msgid ""
@@ -1525,6 +1597,10 @@ msgid ""
 "<application>gtkpod</application>, and "
 "<application>ideviceinstaller</application> for handling multimedia."
 msgstr ""
+"写真やビデオも表示できるポータブル音楽プレーヤーを持っているならば、それらのデバイスをサポートする音楽プレーヤーである<application>Bansh"
+"ee</application>を使うのがよいかもしれません。iPodを使う方々はマルチメディアを扱うためにiPodに特化したアプリケーションである "
+"<application>GPixPod</application>、<application>gtkpod</application>、 "
+"<application>ideviceinstaller</application> を試してみてもいいかもしれません。"
 
 #: user-docs/C/media-apps.xml:42(title)
 msgid "Movies, DVDs and videos"
@@ -1535,6 +1611,7 @@ msgid ""
 "You can watch movies and video clips with the <application>Parole Media "
 "Player</application>."
 msgstr ""
+"映画やビデオクリップは <application>Parole Media Player</application>で見ることができます。"
 
 #: user-docs/C/media-apps.xml:47(title)
 msgid "Playing DVDs"
@@ -1546,6 +1623,8 @@ msgid ""
 "Unfortunately, DVD support cannot be provided by default in Xubuntu due to "
 "legal restrictions in some countries."
 msgstr ""
+"DVDを再生するには、追加のソフトウェアをインストールしなければなりません。残念なことにいくつかの国の法的な制限のためにXubuntuではデフォルトでDV"
+"D再生のサポートを提供できていません。"
 
 #: user-docs/C/media-apps.xml:53(para)
 msgid "To be able to play DVDs, do the following:"
@@ -1595,6 +1674,10 @@ msgid ""
 "install this plugin by following the wizard. Afterwards, you may need to "
 "restart <application>Parole Media Player</application>."
 msgstr ""
+"<application>Parole Media Player</application> "
+"はたいていの動画形式をサポートします。サポートされていない動画ファイルを再生しようとすると、 <application>Parole Media "
+"Player</application> はプラグインがないというメッセージを出してきます。ウィザードに従ってプラグインをインストールできます。その後、 "
+"<application>Parole Media Player</application>を再起動する必要があるかもしれません。"
 
 #: user-docs/C/media-apps.xml:68(para)
 msgid ""
@@ -1604,6 +1687,10 @@ msgid ""
 "right-click the video and select <menuchoice><guimenuitem>Open with Parole "
 "Media Player</guimenuitem></menuchoice>."
 msgstr ""
+"ブラウザーで動画再生ができない場合、 <application>Parole Media Player</application> "
+"はたいていの動画形式をサポートします。 <application>Parole Media "
+"Player</application>で動画を再生したい場合、動画を右クリックして <menuchoice><guimenuitem>Parole "
+"Media Playerで開く</guimenuitem></menuchoice>を選択します。"
 
 #: user-docs/C/media-apps.xml:71(title)
 msgid "Restricted formats"
@@ -1627,6 +1714,11 @@ msgid ""
 "(see <xref linkend=\"software-repositories-restricted\"/> for more "
 "information)."
 msgstr ""
+"<application>Parole Media Player</application> や "
+"<application>Firefox</application>でプロプライエタリ形式のファイルを再生するには、 "
+"<literal><placeholder-1/>xubuntu-restricted-extras</literal> パッケージ "
+"をインストールしてください(詳しくは <xref linkend=\"software-repositories-restricted\"/> "
+"を見てください)。"
 
 #: user-docs/C/media-apps.xml:81(title)
 msgid "Burning CDs and DVDs"
@@ -1637,6 +1729,7 @@ msgid ""
 "You can make your own CDs and DVDs by burning files onto a blank disc using "
 "the CD or DVD writer drive of your computer."
 msgstr ""
+"コンピューターのCDやDVD書き込みに対応しているドライブを用いてファイルを空のディスクに焼くことで自分のCDやDVDを作成することができます。"
 
 #: user-docs/C/media-apps.xml:85(para)
 msgid ""
@@ -1645,6 +1738,10 @@ msgid ""
 "easily create audio CDs, burn CDs and DVDs with either plain data or disk "
 "images and prepare blank re-writable disks for a new burn."
 msgstr ""
+"<application>Xfburn</application> はXubuntuでこれらのタスクを達成するためのデフォルトのアプリケーションです。 "
+"<application>Xfburn</application> "
+"を使うと簡単に音楽CDを作成したり、データやディスクイメージをCDやDVDに焼いたり、書き換え可能なディスクに新しくデータを焼くための準備をしたりすること"
+"ができます。"
 
 #: user-docs/C/media-apps.xml:87(para)
 msgid ""
@@ -1653,6 +1750,10 @@ msgid ""
 "1/><guisubmenu>Multimedia</guisubmenu><guimenuitem>Xfburn</guimenuitem></menu"
 "choice></application>."
 msgstr ""
+"<application>Xfburn</application>を起動するには、 "
+"<application><menuchoice><placeholder-"
+"1/><guisubmenu>マルチメディア</guisubmenu><guimenuitem>Xfburn</guimenuitem></menucho"
+"ice></application>と行きます。"
 
 #: user-docs/C/media-apps.xml:89(para)
 msgid ""
@@ -1661,6 +1762,9 @@ msgid ""
 "(<guibutton>New Data Composition</guibutton>, <guibutton>Audio "
 "CD</guibutton>, etc.)."
 msgstr ""
+"起動したら、書き込みたいCD-R(W) や DVD-R(W) を挿入しやりたいことに相当するボタンを選択します。you wish to write to "
+"and then select the button corresponding to the action you wish to take "
+"(<guibutton>新規データコンポジション</guibutton>, <guibutton>オーディオ CD</guibutton>など)。"
 
 #: user-docs/C/managing-applications.xml:14(title)
 msgid "Managing installed applications"
@@ -1691,6 +1795,10 @@ msgid ""
 "get</application>, see the <ulink url=\"http://www.debian.org/doc/user-"
 "manuals#apt-howto\">Debian apt manual</ulink>."
 msgstr ""
+"<application>apt-get</application> 詳細なパッケージ管理が可能なコマンドラインツール。 "
+"<application>apt-get</application>についてより詳細な情報は <ulink "
+"url=\"http://www.debian.org/doc/user-manuals#apt-howto\">Debian apt "
+"マニュアル</ulink>をご覧ください。"
 
 #: user-docs/C/managing-applications.xml:25(para)
 msgid "You will need administrative access to add and remove software."
@@ -1757,7 +1865,7 @@ msgstr "上のパネルの <guilabel>インストール済み</guilabel> をク�
 msgid ""
 "Find the application that you want to remove by using the search box or "
 "looking through the installed applications"
-msgstr ""
+msgstr "検索ボックスかインストール済みのアプリケーションに目を通して削除したいアプリケーションを見つけます"
 
 #: user-docs/C/managing-applications.xml:53(para)
 msgid "Select the application and click <guibutton>Remove</guibutton>"
@@ -1792,7 +1900,7 @@ msgstr "追加のソフトウェアリポジトリ"
 
 #: user-docs/C/managing-applications.xml:69(title)
 msgid "Enabling more repositories"
-msgstr ""
+msgstr "より多くのリポジトリを有効にする"
 
 #: user-docs/C/managing-applications.xml:71(para)
 msgid ""
@@ -1813,7 +1921,7 @@ msgstr ""
 
 #: user-docs/C/managing-applications.xml:75(para)
 msgid "Press <guibutton>Add...</guibutton> to add a new repository."
-msgstr ""
+msgstr "新しいリポジトリを追加するには <guibutton>追加</guibutton> を押します。"
 
 #: user-docs/C/managing-applications.xml:76(para)
 msgid ""
@@ -1822,6 +1930,8 @@ msgid ""
 "something like the following: <literal>deb http://ftp.debian.org etch "
 "main</literal>"
 msgstr ""
+"追加のリポジトリのためのAPT行を入力します。これはたいていの場合、リポジトリのウェブサイトから入手でき、次のような形式です：<literal>deb "
+"http://ftp.debian.org etch main</literal>"
 
 #: user-docs/C/managing-applications.xml:77(para)
 msgid ""
@@ -1846,6 +1956,11 @@ msgid ""
 "<guilabel>Authentication</guilabel> tab, clicking on <guibutton>Import Key "
 "File</guibutton>, and then selecting the GPG key to be imported."
 msgstr ""
+"たいていのソフトウェアリポジトリは提供するファイルのデジタル署名にGPGキーを利用しており、これによってファイルが作られた後から改ざんされていないか確認し"
+"やすくなっています。aptが確認できるようにするには、署名に対応する公開鍵が必要です。公開鍵はリポジトリのウェブサイトからダウンロードできるはずです。GP"
+"G鍵をダウンロードしたら、<guilabel>認証</guilabel> "
+"タブを選択し、<guibutton>鍵ファイルのインポート</guibutton>をクリックし、インポートしたいGPGキーを選択することでインポートできま"
+"す。"
 
 #: user-docs/C/managing-applications.xml:82(para)
 msgid ""
@@ -1856,7 +1971,7 @@ msgstr ""
 
 #: user-docs/C/managing-applications.xml:86(title)
 msgid "Restricted and non-free software"
-msgstr ""
+msgstr "制限されたソフトウェアと不自由なソフトウェア"
 
 #: user-docs/C/managing-applications.xml:88(para)
 msgid ""
@@ -1919,11 +2034,11 @@ msgstr ""
 
 #: user-docs/C/managing-applications.xml:106(title)
 msgid "Adding discs as software sources"
-msgstr ""
+msgstr "ディスクをソフトウェアソースに追加する"
 
 #: user-docs/C/managing-applications.xml:108(para)
 msgid "To add a disc as a software source for your system:"
-msgstr ""
+msgstr "システムにディスクをソフトウェアソースとして追加するには："
 
 #: user-docs/C/managing-applications.xml:111(para)
 msgid ""
@@ -1938,18 +2053,22 @@ msgid ""
 "Updates</guimenuitem></menuchoice></application> and go to the "
 "<guilabel>Other Software</guilabel> tab"
 msgstr ""
+"<application><menuchoice><placeholder-1/><guimenuitem><placeholder-2/> "
+"設定マネージャー "
+"</guimenuitem><guimenuitem>ソフトウェアの更新</guimenuitem></menuchoice></application>"
+" を開き <guilabel>他のソフトウェア</guilabel> タブに行きます"
 
 #: user-docs/C/managing-applications.xml:113(para)
 msgid ""
 "Press the <guibutton>Add Volume...</guibutton> button; you will be prompted "
 "for your password"
-msgstr ""
+msgstr "<guibutton>ボリュームの追加...</guibutton> ボタンを押します；パスワードを要求されます"
 
 #: user-docs/C/managing-applications.xml:116(para)
 msgid ""
 "After adding the disc to the software sources, you will be able to install "
 "packages from the disc."
-msgstr ""
+msgstr "ディスクをソフトウェアソースに追加した後、ディスクからパッケージをインストールすることができるようになります。"
 
 #: user-docs/C/managing-applications.xml:120(title)
 msgid "Helpful application"
@@ -1982,10 +2101,18 @@ msgid ""
 "Updates</guimenuitem></menuchoice></application> and opening the "
 "<guilabel>Updates</guilabel> tab."
 msgstr ""
+"アップデートの確認頻度とアップデートに対してどのような動作をするかを変更することができます。 "
+"<application>ソフトウェアの更新</application> が起動していてダイアログが表示されている時、ダイアログの下に "
+"<guilabel>設定</guilabel> ボタンがあります。このボタンを押すと、 "
+"<guilabel>ソフトウェアとアップデート</guilabel> ダイアログの <guilabel>アップデート</guilabel> "
+"タブが開きます。その他の方法として、 <application><menuchoice><placeholder-"
+"1/><guimenuitem><placeholder-2/> "
+"設定マネージャー</guimenuitem><guimenuitem>ソフトウェアとアップデート</guimenuitem></menuchoice></"
+"application> に行き、 <guilabel>アップデート</guilabel> タブを開いても同じ設定ダイアログにアクセスできます。"
 
 #: user-docs/C/managing-applications.xml:131(para)
 msgid "The following settings can be changed from this dialog:"
-msgstr ""
+msgstr "以下の設定がこのダイアログで変更できます："
 
 #: user-docs/C/managing-applications.xml:134(title)
 msgid "Update Sources"
@@ -1997,6 +2124,9 @@ msgid ""
 "security flaws are made available through this source. It is recommended "
 "that all users leave this source enabled (it should be enabled by default)."
 msgstr ""
+"<guilabel>重要なセキュリティアップデート</guilabel> - "
+"重大な脆弱性を修正するアップデートはこのソースから利用できます。全ユーザーがこのソースを有効にすることが推奨されます（デフォルトで有効になっているはずです"
+"）。"
 
 #: user-docs/C/managing-applications.xml:138(para)
 msgid ""
@@ -2005,10 +2135,13 @@ msgid ""
 "source. Most users will want to leave this source enabled as common and "
 "annoying problems are often fixed with these updates."
 msgstr ""
+"<guilabel>推奨アップデート</guilabel> - "
+"（脆弱性ではない）重要なソフトウェアの問題を修正するアップデートがこのソースから利用できます。たいていのユーザーは通常このソースを有効にしておくでしょう。"
+"そうすることで、アップデートの際にうっとうしい問題がしばしば解決されます。"
 
 #: user-docs/C/managing-applications.xml:141(para)
 msgid "The following updates should be used with some caution."
-msgstr ""
+msgstr "以下のアップデートは利用するにあたり注意が必要です。"
 
 #: user-docs/C/managing-applications.xml:144(para)
 msgid ""
@@ -2019,6 +2152,10 @@ msgid ""
 "not yet be well tested; it is not recommended that you enable this source "
 "unless you are prepared to experience occasional problems."
 msgstr ""
+"<guilabel>プレリリースされたアップデート</guilabel> - "
+"正式リリース前にテストされている段階のアップデートはこのアップデートソースを通じて提供されます。新しいアップデートのテストに協力してくださる（そしてバグフ"
+"ィックスをより早く手に入れたい）場合、このソースを有効にしてください。注意していただきたいことは、これらのアップデートは十分にテストされていないかもしれな"
+"いということです；問題が起こり得るということに対して心構えがない限りこのソースを有効にすることはおすすめしません。"
 
 #: user-docs/C/managing-applications.xml:145(para)
 msgid ""
@@ -2029,6 +2166,11 @@ msgid ""
 "should only be used by people who are in a real need of a new version of a "
 "software package that they know has been backported."
 msgstr ""
+"<guilabel>サポートされていないアップデート</guilabel> - "
+"よく使われているソフトウェアの新バージョンがリリースされると、古いバージョンのXubuntuユーザーがそのソフトウェアの新機能やバグフィックスの恩恵にあず"
+"かれるように、Xubuntuの古いバージョン用に移植(バックポート)されることがあります。このバックポートはサポートされておらず、インストールすると問題が"
+"起こるかもしれませんので、あるソフトウェアの新しいバージョンを本当に必要としていて、かつその新しいバージョンがバックポートされていることがわかっている場合"
+"にのみ使うべきです。"
 
 #: user-docs/C/managing-applications.xml:150(title)
 msgid "Notifications of new Xubuntu versions"
@@ -2039,12 +2181,14 @@ msgid ""
 "This section of the <application>Software Updater</application> deals with "
 "the way you wish future versions to be given to you. You have three options:"
 msgstr ""
+"<application>ソフトウェアの更新</application> "
+"のこの項目では将来のバージョンをどのように通知するかを設定できます。3つの選択肢があります。"
 
 #: user-docs/C/managing-applications.xml:155(para)
 msgid ""
 "<guilabel>For any new version</guilabel> - You will get notifications of all "
 "new releases, once in 6 months"
-msgstr ""
+msgstr "<guilabel>すべての新バージョン</guilabel> - 6ヶ月ごとの全ての新しいリリースが通知されます"
 
 #: user-docs/C/managing-applications.xml:156(para)
 msgid ""
@@ -2116,6 +2260,9 @@ msgid ""
 "<application>NetworkManager</application> also keeps passwords secure by "
 "utilizing the user's keyring to store passphrases."
 msgstr ""
+"Xubuntu は <application>ネットワーク接続</application> "
+"を使って有線、無線、モバイル、VPN、DSL接続を管理します。 <application>ネットワーク接続</application> "
+"ユーザーのキーリングを利用してパスフレーズを保管することによりパスワードを安全に管理します。"
 
 #: user-docs/C/internet-networks.xml:18(para)
 msgid ""
@@ -2138,6 +2285,7 @@ msgid ""
 "<application>NetworkManager</application> will automatically use a wired "
 "network, if one is available."
 msgstr ""
+"<application>ネットワーク接続</application> は有線ネットワークが利用可能ならば自動で有線ネットワークを使用します。"
 
 #: user-docs/C/internet-networks.xml:28(para)
 msgid ""
@@ -2145,6 +2293,8 @@ msgid ""
 "<application>NetworkManager</application> icon. To connect to a network, "
 "click the network name."
 msgstr ""
+"利用可能な接続を見るには、 <application>ネットワーク接続</application> "
+"アイコンをクリックします。ネットワークに接続するには、ネットワーク名をクリックします。"
 
 #: user-docs/C/internet-networks.xml:30(para)
 msgid ""
@@ -2181,6 +2331,10 @@ msgid ""
 "network and press <guibutton>Edit</guibutton> or press "
 "<guibutton>Add</guibutton> to set up new networks."
 msgstr ""
+"ネットワークへの接続を設定する必要があるならば、 <application>ネットワークマネージャー</application> アイコンをクリックし、 "
+"<menuchoice><guimenuitem>編集</guimenuitem></menuchoice>を選択します。ダイアログに、各々の接続の種類に"
+"応じた項目があります。自分の設定したいネットワークを選択し、 <guibutton>編集</guibutton> "
+"ボタンを押すか新しいネットワークをセットアップするためには、 <guibutton>追加</guibutton> を押します。"
 
 #: user-docs/C/internet-networks.xml:40(para)
 msgid ""
@@ -2188,6 +2342,7 @@ msgid ""
 "which you will get from your network administrator or your Internet Service "
 "Provider."
 msgstr ""
+"ネットワークの中にはネットワーク管理者もしくはインターネットサービスプロバイダーから詳細な情報を入手しなければ接続できないものもあります。"
 
 #: user-docs/C/internet-networks.xml:44(title)
 msgid "Connection information"
@@ -2217,6 +2372,11 @@ msgid ""
 "<guilabel>Method</guilabel> to <guilabel>Shared to other "
 "computers</guilabel> from the drop-down list."
 msgstr ""
+"イーサネットケーブルを用いて他のコンピューターとネットワーク接続を共有することができます。このためには、 "
+"<application>ネットワークマネージャー</application> "
+"アイコンをクリックし、<menuchoice><guimenuitem>編集</guimenuitem></menuchoice>を選択し、新規の接続を追"
+"加します（もしくは既にある接続を編集します）。接続のプロパティで <guilabel>IPv4 設定</guilabel>を選択し、 "
+"<guilabel>方式</guilabel> をドロップダウンリストから <guilabel>他のコンピューターへ共有</guilabel> とします。"
 
 #: user-docs/C/internet-networks.xml:56(title)
 msgid "Dialup modems"
@@ -2230,6 +2390,11 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/DialupModemHowto\">Dialup modem How-"
 "to</ulink> on the Ubuntu community wiki."
 msgstr ""
+"残念なことに "
+"<application>ネットワークマネージャー</application>はダイアルアップモデムをサポートしていません。ダイアルアップモデムを用いて接"
+"続する方法については、 Ubuntuコミュニティwikiにある<ulink "
+"url=\"https://help.ubuntu.com/community/DialupModemHowto\">Dialup modem How-"
+"to</ulink> をご覧ください。"
 
 #: user-docs/C/internet-networks.xml:62(title)
 msgid "Network troubleshooting"
@@ -2239,33 +2404,37 @@ msgstr "ネットワークのトラブルシューティング"
 msgid ""
 "Before attempting any troubleshooting, ensure that the network connections "
 "are enabled:"
-msgstr ""
+msgstr "ネットワークがつながらないと思ったら、まず第一にネットワーク接続が有効になっていることを確認してください。"
 
 #: user-docs/C/internet-networks.xml:67(para)
 msgid ""
 "Click the <application>NetworkManager</application> icon in the notification "
 "area"
-msgstr ""
+msgstr "通知エリアの<application>ネットワークマネージャー</application> アイコンをクリックします"
 
 #: user-docs/C/internet-networks.xml:68(para)
 msgid ""
 "Check <menuchoice><guimenuitem>Enable Networking</guimenuitem></menuchoice>"
 msgstr ""
+"<menuchoice><guimenuitem>ネットワークを有効にする</guimenuitem></menuchoice>にチェックを入れます"
 
 #: user-docs/C/internet-networks.xml:69(para)
 msgid ""
 "Check <menuchoice><guimenuitem>Enable Wi-Fi</guimenuitem></menuchoice>"
 msgstr ""
+"<menuchoice><guimenuitem>無線を有効にする</guimenuitem></menuchoice>にチェックを入れます"
 
 #: user-docs/C/internet-networks.xml:72(para)
 msgid "If your network connection still doesn't work:"
-msgstr ""
+msgstr "これでもネットワークにつながらないようであれば："
 
 #: user-docs/C/internet-networks.xml:75(para)
 msgid ""
 "For wired (Ethernet) connections, please see <xref linkend=\"network-"
 "troubleshooting-general\"/>"
 msgstr ""
+"有線 (Ethernet) 接続については <xref linkend=\"network-troubleshooting-"
+"general\"/>をご覧ください"
 
 #: user-docs/C/internet-networks.xml:76(para)
 msgid ""
@@ -2273,12 +2442,16 @@ msgid ""
 "troubleshooting-general\"/> and <xref linkend=\"network-troubleshooting-"
 "wireless\"/>"
 msgstr ""
+"無線接続については、 <xref linkend=\"network-troubleshooting-general\"/> と <xref "
+"linkend=\"network-troubleshooting-wireless\"/>の両方をご覧ください"
 
 #: user-docs/C/internet-networks.xml:77(para)
 msgid ""
 "If your network connection problems are still not resolved, see <xref "
 "linkend=\"network-troubleshooting-advanced\"/>"
 msgstr ""
+"これでもなおネットワークの問題が解決しないようであれば、 <xref linkend=\"network-troubleshooting-"
+"advanced\"/>をご覧ください"
 
 #: user-docs/C/internet-networks.xml:81(title)
 msgid "General troubleshooting"
@@ -2288,7 +2461,7 @@ msgstr "一般的なトラブルシューティング"
 msgid ""
 "If your network connection is not working properly, there are a few tools "
 "that can be used to help diagnose the problem."
-msgstr ""
+msgstr "ネットワーク接続がうまく動作しない場合、問題を同定するために使うことのできるツールがいくつかあります。"
 
 #: user-docs/C/internet-networks.xml:86(title)
 msgid "Get information about the current connection"
@@ -2298,15 +2471,15 @@ msgstr ""
 msgid ""
 "To get information about your network connection and network devices, you "
 "have two options:"
-msgstr ""
+msgstr "ネットワーク接続およびネットワークデバイスについての情報を表示するには選択肢が２つあります："
 
 #: user-docs/C/internet-networks.xml:92(para)
 msgid "Using <application>NetworkManager</application>"
-msgstr ""
+msgstr "<application>ネットワークマネージャー</application>を使用する"
 
 #: user-docs/C/internet-networks.xml:94(para)
 msgid "Click on the <application>NetworkManager</application> icon"
-msgstr ""
+msgstr "<application>ネットワークマネージャー</application> のアイコンをクリックします"
 
 #: user-docs/C/internet-networks.xml:95(para)
 msgid ""
@@ -2320,7 +2493,7 @@ msgstr ""
 msgid ""
 "Each active connection will have its own tab where you can find relevant "
 "connection information"
-msgstr ""
+msgstr "情報のダイアログでアクティブになっている接続にはそれぞれ個別のタブがあり、接続に関する情報が得られます"
 
 #: user-docs/C/internet-networks.xml:100(para)
 msgid "Using <application>ifconfig</application>"
@@ -2352,6 +2525,7 @@ msgid ""
 "A reliable method to check if a connection is working properly is to ping "
 "another computer on the network or the Internet."
 msgstr ""
+"接続が正しく機能しているかどうかを確認する頼りになる方法は、ネットワークの他のコンピューターもしくはインターネットに対してpingすることです。"
 
 #: user-docs/C/internet-networks.xml:114(para)
 msgid ""
@@ -2370,17 +2544,19 @@ msgid ""
 "transmitted, how many packets were received, the percentage of packet loss, "
 "and the total time spent."
 msgstr ""
+"コンピューターは www.xubuntu.org "
+"に３回接続を試みてその結果を返します。pingの統計には送信されたパケット数、受信したパケット数、パケットロスの割合、かかった時間の合計が表示されます。"
 
 #: user-docs/C/internet-networks.xml:119(para)
 msgid ""
 "0% packet loss indicates that your computer is connected to the Internet"
-msgstr ""
+msgstr "パケットロス率が0%ならばコンピューターがインターネットに接続されていることを意味します"
 
 #: user-docs/C/internet-networks.xml:120(para)
 msgid ""
 "Greater than 0% but less than 100% packet loss indicates that your computer "
 "has a poor connection to the Internet or a poor wireless signal"
-msgstr ""
+msgstr "パケットロス率が0%より大きいけれども100%未満であるならばコンピューターのインターネット接続が不安定か無線信号が弱いことを意味します"
 
 #: user-docs/C/internet-networks.xml:121(para)
 msgid ""
@@ -2388,6 +2564,8 @@ msgid ""
 "is connected to an access point or router that is not connected to the "
 "Internet"
 msgstr ""
+"パケットロス率が100%ならばインターネットへの接続が非常に悪いか、インターネットに接続されていないアクセスポイントやルーターに接続されていることを意味し"
+"ます"
 
 #: user-docs/C/internet-networks.xml:124(para)
 msgid ""
@@ -2395,6 +2573,9 @@ msgid ""
 "or \"unknown host\", then your computer is probably not connected to the "
 "Internet or is unable to reach a Domain Name System (DNS) server."
 msgstr ""
+"もし、\"www.xubuntu.org can not be found\" や \"unknown host\" "
+"といったエラーメッセージが表示されるようならば、コンピューターはインターネットに正しく接続されていないかドメインネームシステム (DNS) "
+"サーバーに到達できていません。"
 
 #: user-docs/C/internet-networks.xml:129(title)
 msgid "Wireless troubleshooting"
@@ -2407,6 +2588,9 @@ msgid ""
 "url=\"https://help.ubuntu.com/community/WifiDocs\">Community Help "
 "Wiki</ulink>."
 msgstr ""
+"このセクションでは無線接続でよくある問題をとりあげます。<ulink "
+"url=\"https://help.ubuntu.com/community/WifiDocs\">Community Help "
+"Wiki</ulink> にはより多くの情報があります。"
 
 #: user-docs/C/internet-networks.xml:133(para)
 msgid ""
@@ -2417,17 +2601,19 @@ msgstr ""
 
 #: user-docs/C/internet-networks.xml:136(title)
 msgid "Check that the device is turned on"
-msgstr ""
+msgstr "デバイスの電源が入っていることを確認する"
 
 #: user-docs/C/internet-networks.xml:138(para)
 msgid ""
 "Many wireless network devices can be turned on or off. Check for a hardware "
 "switch or a keyboard function key to turn the wireless device on."
 msgstr ""
+"たいていの無線ネットワークデバイスは電源のオンオフができます。ハードウェアの電源もしくはキーボードのファンクションキーで無線デバイスの電源をオンにしてくだ"
+"さい。"
 
 #: user-docs/C/internet-networks.xml:140(para)
 msgid "If the device is turned on, continue to the next topic."
-msgstr ""
+msgstr "デバイスの電源が入ったら、次に進んでください。"
 
 #: user-docs/C/internet-networks.xml:144(title)
 msgid "Check if the device is recognized"
