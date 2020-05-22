@@ -21,5 +21,5 @@
 
 for docs in $@; do
 	echo "Creating template for $docs ..."
-	xml2po -e -o $docs/po/$docs.pot $docs/C/*.xml
+	itstool -o $docs/po/$docs.pot $docs/C/*.xml
 done

@@ -9,7 +9,8 @@ Build-Depends: debhelper (>= 9),
  fonts-dejavu-core,
  fonts-noto,
  fop,
- gnome-doc-utils,
+ itstool,
+ libxml2-utils,
  xsltproc
 Standards-Version: 4.1.3
 

@@ -33,11 +33,9 @@
 translate () {
 	for lang in $@; do
 		echo "Translating $lang ..."
-		mkdir -p $lang
-		for xml in C/*.xml; do
-			xml=$(basename $xml)
-			xml2po -e -p po/$lang.po C/$xml > $lang/$xml
-		done
+		mkdir -p $lang mo
+		msgfmt -o mo/$lang.mo po/$lang.po
+		itstool -m mo/$lang.mo C/*.xml -o $lang/$xml
 	done
 }
 

@@ -104,4 +104,4 @@ get-translations: update-translations
     endif
 
 clean:
-	rm -rf ../build/libs-common ../build/contributor $(TRANSALL) fo ../common-libs html-style epub-style update-translations translate
+	rm -rf ../build/libs-common ../build/contributor $(TRANSALL) fo mo ../common-libs html-style epub-style update-translations translate
