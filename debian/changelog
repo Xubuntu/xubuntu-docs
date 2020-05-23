@@ -12,6 +12,8 @@ xubuntu-docs (19.10) UNRELEASED; urgency=medium
 
   [ Unit 193 ]
   * Update copyright years.
+  * d/compat, d/control:
+    - Drop d/compat in favor of debhelper-compat, bump to 13.
 
  -- David Pires <slickymaster@ubuntu.com>  Sun, 03 Jun 2018 19:05:36 +0100
 

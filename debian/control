@@ -2,7 +2,7 @@ Source: xubuntu-docs
 Section: doc
 Priority: optional
 Maintainer: Xubuntu Documentation Team <xubuntu-devel@lists.ubuntu.com>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper-compat (= 13),
  default-jre,
  docbook-xml,
  docbook-xsl,
