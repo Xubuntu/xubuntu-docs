@@ -11,6 +11,10 @@ xubuntu-docs (19.10) UNRELEASED; urgency=medium
   * Move from deprecated gnome-doc-utils to itstool.
 
   [ Unit 193 ]
+  * Align appendix-packages to seed changes.
+    - Drop gtk-theme-config.
+    - evince → atril.
+    - gnome-calculator → mate-calc.
   * Update copyright years.
   * d/compat, d/control:
     - Drop d/compat in favor of debhelper-compat, bump to 13.
