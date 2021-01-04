@@ -1,4 +1,4 @@
-xubuntu-docs (19.10) UNRELEASED; urgency=medium
+xubuntu-docs (21.04) hirsute; urgency=medium
 
   [ flocculant ]
   * Updated contributor-docs to current practice, ppa's used,
@@ -8,18 +8,29 @@ xubuntu-docs (19.10) UNRELEASED; urgency=medium
   * Update the webchat link to accommodate new syntax
 
   [ Unit 193 / Krytarik Raido ]
-  * Move from deprecated gnome-doc-utils to itstool.
+  * Move from deprecated gnome-doc-utils to itstool. (LP: #1905548)
 
   [ Unit 193 ]
   * Align appendix-packages to seed changes.
     - Drop gtk-theme-config.
     - evince → atril.
     - gnome-calculator → mate-calc.
+  * Fix makefile ordering.
   * Update copyright years.
   * d/compat, d/control:
     - Drop d/compat in favor of debhelper-compat, bump to 13.
+  * d/control:
+    - R³: no.
+    - Add Vcs-* and homepage fields.
+  * Update Standards-Version to 4.5.1.
 
- -- David Pires <slickymaster@ubuntu.com>  Sun, 03 Jun 2018 19:05:36 +0100
+  [ Sean Davis ]
+  * Fix linkend refs in FR translation
+
+  [ Yousuf Philips ]
+  * Recommended was mispelt
+
+ -- Unit 193 <unit193@ubuntu.com>  Mon, 04 Jan 2021 16:27:33 -0500
 
 xubuntu-docs (18.04.1) bionic; urgency=medium
 
