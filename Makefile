@@ -31,7 +31,7 @@ TRSLINKSCONTR = $(shell for lang in $(TRANSLATCONTR); do \
         sed -n "/^\"Language-Team:/ {s|^\"Language-Team: \([^<]\+\) <.*$$|\t\t\t\t\t\t<li><a href=\\\\\"contributor/$$lang/index.html\\\\\">\1</a></li>\\\n|p;q}" contributor-docs/po/$$lang.po; \
     done | sed '$$ s/\\n$$//')
 
-all: clean startpage user-all
+all: startpage user-all
 
 user-all: user-html user-html-translations user-pdf user-pdf-translations
 
@@ -48,7 +48,7 @@ startpage-style: common-libs
 	@touch startpage-style
 
 common-libs:
-	mkdir -p build/libs-common 
+	mkdir -p build/libs-common
 	cp -r libs-common/css \
 		libs-common/images \
 		build/libs-common/
@@ -113,13 +113,13 @@ user-epub:
 user-pdf:
 	$(MAKE) -C user-docs pdf
 
-user-translate:
+user-translate: user-get-translations
 	$(MAKE) -C user-docs translate
 
-user-html-translations:
+user-html-translations: user-translate
 	$(MAKE) -C user-docs html-translations
 
-user-pdf-translations:
+user-pdf-translations: user-translate
 	$(MAKE) -C user-docs pdf-translations
 
 contributor-html:
@@ -131,13 +131,13 @@ contributor-epub:
 contributor-pdf:
 	$(MAKE) -C contributor-docs pdf
 
-contributor-translate:
+contributor-translate: contributor-get-translations
 	$(MAKE) -C contributor-docs translate
 
-contributor-html-translations:
+contributor-html-translations: contributor-translate
 	$(MAKE) -C contributor-docs html-translations
 
-contributor-pdf-translations:
+contributor-pdf-translations: contributor-translate
 	$(MAKE) -C contributor-docs pdf-translations
 
 test:

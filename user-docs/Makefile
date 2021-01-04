@@ -21,7 +21,7 @@ XUBUNTUXSL_PDF = ../libs-common/xubuntu-docbook-pdf.xsl
 # All available translations
 TRANSALL = $(shell basename -s .po -a po/*.po)
 
-all: clean html html-translations pdf pdf-translations
+all: html html-translations pdf pdf-translations
 
 html: html-style
 	xsltproc --xinclude -o ../build/user/C/index.html $(XUBUNTUXSL_HTML) C/index.xml

@@ -25,7 +25,7 @@ ifeq ($(TRANSALL),*)
     TRANSALL =
 endif
 
-all: clean html html-translations pdf pdf-translations
+all: html html-translations pdf pdf-translations
 
 html: html-style
 	xsltproc --xinclude -o ../build/contributor/C/index.html $(XUBUNTUXSL_HTML_CONTRIBUTOR) C/index.xml
