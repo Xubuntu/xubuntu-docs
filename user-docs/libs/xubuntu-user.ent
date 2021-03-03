@@ -6,7 +6,9 @@
 <!-- XUBUNTU WEBSITE -->
 <!ENTITY xubuntu-web 'http://xubuntu.org/' >
 <!ENTITY xubuntu-web-contribute 'http://xubuntu.org/contribute/' >
+<!ENTITY xubuntu-web-download 'https://xubuntu.org/download/' >
 <!ENTITY xubuntu-web-help 'http://xubuntu.org/help/' >
+<!ENTITY xubuntu-web-requirements 'https://xubuntu.org/requirements/' >
 
 <!-- WEBSITES -->
 <!ENTITY aptoncd-web 'http://aptoncd.sourceforge.net/' >
@@ -45,6 +47,7 @@
 <!ENTITY thunderbird-help 'https://support.mozillamessaging.com/en-US/home' >
 <!ENTITY ubuntu-forums 'http://ubuntuforums.org/' >
 <!ENTITY ubuntu-philosophy 'http://www.ubuntu.com/project/about-ubuntu/our-philosophy' >
+<!ENTITY ubuntu-help-rst 'https://help.ubuntu.com/rst/' >
 <!ENTITY ubuntuwiki-printers 'https://wiki.ubuntu.com/HardwareSupportComponentsPrinters' >
 <!ENTITY ubuntuwiki-scanners 'https://wiki.ubuntu.com/HardwareSupportComponentsScanners' >
 <!ENTITY vbox-docs 'https://www.virtualbox.org/wiki/End-user_documentation' >
@@ -59,6 +62,24 @@
 <!ENTITY xfce-web 'http://www.xfce.org/' >
 <!ENTITY xfdesktop-help 'http://docs.xfce.org/xfce/xfdesktop/4.11/start' >
 <!ENTITY xubuntu-wikipedia 'https://en.wikipedia.org/wiki/Xubuntu' >
+
+<!-- DOWNLOAD LINKS -->
+<!ENTITY download-transmission 'https://transmissionbt.com/download/' >
+<!ENTITY download-qbittorrent 'https://www.qbittorrent.org/download.php' >
+<!ENTITY download-rufus 'https://rufus.ie/' >
+<!ENTITY download-etcher 'https://www.balena.io/etcher/' >
+<!ENTITY download-gdisks 'https://wiki.gnome.org/Apps/Disks' >
+<!ENTITY download-infrarecorder 'http://infrarecorder.org/?page_id=5' >
+<!ENTITY download-brasero 'https://wiki.gnome.org/Apps/Brasero/' >
+<!ENTITY download-xfburn 'https://docs.xfce.org/apps/xfburn' >
+
+<!-- UBUNTU INSTALLATION TUTORIAL -->
+<!ENTITY ubuntu-tutorial-usb-win 'https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#3-usb-selection' >
+<!ENTITY ubuntu-tutorial-usb-mac 'https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-macos#3-prepare-the-usb-stick' >
+<!ENTITY ubuntu-tutorial-usb-lin 'https://www.maketecheasier.com/create-bootable-usb-installer-ubuntu-gnome-disks/' >
+<!ENTITY ubuntu-tutorial-dvd-win 'https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-windows#2-windows-7--8--10-instructions' >
+<!ENTITY ubuntu-tutorial-dvd-mac 'https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-macos#2-select-the-ubuntu-iso' >
+<!ENTITY ubuntu-tutorial-dvd-lin 'https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-ubuntu#3-install-brasero' >
 
 <!-- Locations -->
 <!ENTITY location_home '<filename>&location; /home/username/</filename>' >
