@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
+%xubuntu-common;
+<!ENTITY % xubuntu-user SYSTEM "../libs/xubuntu-user.ent">
+%xubuntu-user;
+<!ENTITY % xinclude SYSTEM "../../libs-common/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+<chapter id="installation">
+	<title>Installation</title>
+
+	<section id="preparation">
+		<title>Preparation</title>
+
+		<section id="prerequisites">
+			<title>Prerequisites</title>
+			<para>Visit the <ulink url="&xubuntu-web-requirements;">System Requirements</ulink> page to ensure that your
+            computer meets the necessary hardware requirements to install and run Xubuntu. In general, Xubuntu will run on
+            most computers (PC or Mac) that were built since 2007 and shipped with an OS (Operating System) like Windows XP
+            and Mac OS X 10.5 or higher.</para>
+			<para>Note: If you are installing Xubuntu on a laptop, it is recommended to keep your laptop plugged in during the
+            installation, in order to prevent a sudden power loss which can cause a corrupted system. If you are running
+            Windows 10 and have Intel's RST (Rapid Storage Technology) running, you will need to
+            <ulink url="&ubuntu-help-rst;">turn it off</ulink> before installation.</para>
+		</section>
+
+		<section id="download-the-iso">
+			<title>Download the ISO</title>
+			<para>Visit the <ulink url="&xubuntu-web-download;">Download</ulink> page to download the ISO image for your selected edition of Xubuntu. If you prefer stability, it is recommended to download the LTS (Long Term Support) release, which is supported for 3 years. The ISO file can be downloaded with a BitTorrent client, such as <ulink url="&download-transmission;">Transmission</ulink> or <ulink url="&download-qbittorrent;">qBittorrent</ulink>, or through your browser from one of the many global mirror servers.</para>
+		</section>
+
+		<section id="Write the ISO">
+			<title>Write the ISO</title>
+			<para>The ISO file needs to be written to a bootable medium, like a USB flash drive, an SD memory card or a DVD optical disk.</para>
+
+		   <section id="write-to-usb-or-sd">
+			   <title>Write to USB or SD</title>
+			   <para>If you have a USB stick or an SD card with 2 GB of storage or more, you can use one of these apps to write the ISO file: <ulink url="&download-rufus;">Rufus</ulink> (Windows), <ulink url="&download-etcher;">Etcher</ulink> (Windows, Mac, Linux), <ulink url="&download-gdisks;">Gnome Disks</ulink> (<ulink url="apt://gnome-disk-utility">apt-install</ulink>). For more information on how to write the ISO to USB or SD, please see these guides for <ulink url="&ubuntu-tutorial-usb-win;">Windows</ulink>, <ulink url="&ubuntu-tutorial-usb-mac;">Mac</ulink> or <ulink url="&ubuntu-tutorial-usb-lin;">Linux</ulink>.</para>
+		   </section>
+
+		   <section id="write-to-dvd">
+			   <title>Write to DVD</title>
+			   <para>If you have a blank DVD disk and a DVD writer drive, you can burn the ISO with one of these apps, if your operating system doesn’t have the built-in capabilities to do so: <ulink url="&download-infrarecorder;">InfraRecorder</ulink> (Windows), <ulink url="&download-brasero;">Brasero</ulink> (<ulink url="apt://brasero">apt-install</ulink>), <ulink url="&download-xfburn;">Xfburn</ulink> (<ulink url="apt://xfburn">apt-install</ulink>). For more information on how to burn the ISO to a DVD, please see these guides for <ulink url="&ubuntu-tutorial-dvd-win;">Windows</ulink>, <ulink url="&ubuntu-tutorial-dvd-mac;">Mac</ulink> or <ulink url="&ubuntu-tutorial-dvd-lin;">Linux</ulink>.</para>
+		   </section>
+		</section>
+
+		<section id="backup-data">
+			<title>Backup Data</title>
+			<para>If you plan to install Xubuntu alongside an existing OS, it is recommended to back up the data of the existing
+            OS as a precaution in case something goes wrong. You can back up the data files to an external USB drive and/or
+            to a secondary hard drive on your computer.</para>
+		</section>
+	</section>
+
+</chapter>
