@@ -33,7 +33,7 @@
 			<para>Visit the <ulink url="&xubuntu-web-download;">Download</ulink> page to download the ISO image for your selected edition of Xubuntu. If you prefer stability, it is recommended to download the LTS (Long Term Support) release, which is supported for 3 years. The ISO file can be downloaded with a BitTorrent client, such as <ulink url="&download-transmission;">Transmission</ulink> or <ulink url="&download-qbittorrent;">qBittorrent</ulink>, or through your browser from one of the many global mirror servers.</para>
 		</section>
 
-		<section id="Write the ISO">
+		<section id="write-the-iso">
 			<title>Write the ISO</title>
 			<para>The ISO file needs to be written to a bootable medium, like a USB flash drive, an SD memory card or a DVD optical disk.</para>
 
@@ -89,20 +89,19 @@
 			<note><para>If you get a black screen after the integrity check, reboot your system and select one of the <guilabel>safe graphics</guilabel> options in the GRUB menu.</para></note>
 			<para>[images placeholder]</para>
 		</section>
-
 	</section>
 
 	<section id="installer">
 		<title>Installer</title>
 
-		<section id="Welcome Screen">
+		<section id="welcome-screen">
 			<title>Welcome Screen</title>
 			<para>You will be greeted with the installer’s welcome screen when the installer begins. There you can select the language of the installer from the list on the left and press the <guibutton>Install Xubuntu</guibutton> button to begin the installation process.</para>
 			<para>[image placeholder]</para>
 			<note><para>If you selected one of the <guilabel>Try Xubuntu ...</guilabel> entries in the installer boot menu or the <guibutton>Try Xubuntu</guibutton> button on the welcome screen, you can start or restart the installer by clicking the <guilabel>Install Xubuntu</guilabel> desktop icon.</para></note>
 		</section>
 
-		<section id="Initial Steps">
+		<section id="initial-steps">
 			<title>Initial Steps</title>
 			<para>The next screen of the installer will be the <guilabel>Keyboard layout</guilabel> screen. There you can select your keyboard layout, if it wasn’t correctly detected. If you are unsure of your keyboard layout, you may press the <guilabel>Detect Keyboard Layout</guilabel> button to go through a brief configuration procedure and test that the layout works as intended in the keyboard test field. Click the <guilabel>Continue</guilabel> button to proceed.</para>
 			<para>If you are not connected to the internet but your computer has Wi-Fi, you will see the <guilabel>Wireless</guilabel> screen, where you can either connect to one of the available networks or continue without connecting.</para>
@@ -111,25 +110,25 @@
 			<para></para>
 		</section>
 
-		<section id="Disk Space Allocation">
+		<section id="disk-space-allocation">
 			<title>Disk Space Allocation</title>
 			<para>The next screen of the installer is the <guilabel>Installation type</guilabel> screen, which will vary in its list of installation and reinstallation options depending on which operating system(s) are currently on your hard disk. Regular users are recommended to choose either <guilabel>Erase disk and install Xubuntu</guilabel>, to completely wipe the disk and install Xubuntu as the only OS, or <guilabel>Install Xubuntu alongside [OS]</guilabel>, to create a dual boot setup with Xubuntu and an existing operating system ([OS] is the existing OS, e.g. Microsoft Windows XP Professional in the screenshot). Advanced users can choose the <guilabel>Something else</guilabel> option, which gives them the ability to create, format, delete and assign partitions.</para>
 			<para>If you choose to install Xubuntu alongside another existing operating system, you will be given the option to adjust how much hard disk space Xubuntu will use after you click the <guibutton>Continue</guibutton> button.</para>
 			<para>[images placeholder]</para>
 		</section>
 
-		<section id="Disk Changes Confirmation">
+		<section id="disk-changes-confirmation">
 			<title>Disk Changes Confirmation</title>
 			<para>When clicking the <guibutton>Install Now</guibutton> button, the installer will show a confirmation dialog before it makes non-reversible changes to your hard disk's partitions and data. Read the changes carefully and, if you agree, click the <guibutton>Continue</guibutton> button.</para>
 			<para>[images placeholder]</para>
 		</section>
 
-		<section id="Select Your Location">
+		<section id="select-your-location">
 			<title>Select Your Location</title>
 			<para>The next screen of the installer will be the <guilabel>Where are you?</guilabel> screen. There you can type the name of the town or city in the text field or click on the map to select your time zone. If you are connected to the internet, your location will be automatically detected. Click the <guibutton>Continue</guibutton> button to proceed.</para>
 		</section>
 
-		<section id="Login Details">
+		<section id="login-details">
 			<title>Login Details</title>
 			<para>At the <guilabel>Who are you?</guilabel> screen, once you enter your name, a computer name and username will be automatically suggested. You can change both as you prefer. The computer name, aka hostname, is the name your computer will have when it appears on the network, while the username will be your login and account name.</para>
 			<para>Next, enter a password, which will be evaluated, yielding a grade of 'short', 'weak', 'fair', 'good' or 'strong'. A strong password is one with a minimum of 8 characters, containing a mixture of uppercase letters, lowercase letters, numbers and symbols. It is highly recommended to use a strong password. You then have the option to select whether your computer will require you to type your password to log in when you first turn it on or have it log in automatically. You will always be required to type your password if you lock your computer or if the screen times out due to inactivity.</para>
@@ -137,13 +136,13 @@
 			<note><para>It is recommended to store your passwords in a password manager application, like <ulink url="&download-keepassxc;">KeePassXC</ulink> (<ulink url="apt://keepassxc">apt-install</ulink>) or <ulink url="&download-bitwarden;">Bitwarden</ulink>, which can also generate passwords for you.</para></note>
 		</section>
 
-		<section id="Background Installation">
+		<section id="background-installation">
 			<title>Background Installation</title>
 			<para>The installer will now begin installing Xubuntu in the background. While this is happening, installation slides will teach you a little bit more about Xubuntu, its support channels and community.</para>
 			<para>[images placeholder]</para>
 		</section>
 
-		<section id="Installation Completion">
+		<section id="installation-completion">
 			<title>Installation Completion</title>
 			<para>After all the files have been copied to the hard disk and the configurations have been set, a dialog window will appear asking to restart the computer. Click the <guibutton>Restart Now</guibutton> button and you will be prompted to remove the installation medium and press Enter to restart.</para>
 			<para>[images placeholder]</para>
@@ -153,7 +152,6 @@
 
 	<section id="conclusion">
 		<title>Conclusion</title>
-
 		<para>Congratulations! You have successfully installed Xubuntu and now it’s time to start enjoying it. Once the computer restarts, you will either be automatically started into Xubuntu and see the login screen or, if you have multiple operating systems installed on your hard disk, the GRUB boot menu, which lets you choose between starting Xubuntu or another installed OS.</para>
 	</section>
 
