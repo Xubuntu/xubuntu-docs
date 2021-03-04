@@ -72,6 +72,8 @@
 <!ENTITY download-infrarecorder 'http://infrarecorder.org/?page_id=5' >
 <!ENTITY download-brasero 'https://wiki.gnome.org/Apps/Brasero/' >
 <!ENTITY download-xfburn 'https://docs.xfce.org/apps/xfburn' >
+<!ENTITY download-keepassxc 'https://keepassxc.org/' >
+<!ENTITY download-bitwarden 'https://bitwarden.com/#download' >
 
 <!-- UBUNTU INSTALLATION TUTORIAL -->
 <!ENTITY ubuntu-tutorial-usb-win 'https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#3-usb-selection' >
@@ -80,6 +82,14 @@
 <!ENTITY ubuntu-tutorial-dvd-win 'https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-windows#2-windows-7--8--10-instructions' >
 <!ENTITY ubuntu-tutorial-dvd-mac 'https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-macos#2-select-the-ubuntu-iso' >
 <!ENTITY ubuntu-tutorial-dvd-lin 'https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-ubuntu#3-install-brasero' >
+
+<!-- INSTALLATION PAGE -->
+<!ENTITY booting-secure-boot 'https://wiki.ubuntu.com/UEFI/SecureBoot' >
+<!ENTITY booting-boot-menu 'https://windows.gadgethacks.com/how-to/access-boot-menu-and-bios-windows-8-0139059/' >
+<!ENTITY booting-fast-boot 'https://www.tenforums.com/tutorials/21284-enable-disable-fast-boot-uefi-firmware-settings-windows.html' >
+<!ENTITY booting-fast-startup 'https://winaero.com/blog/how-to-disable-or-enable-fast-startup-in-windows-8-1/' >
+<!ENTITY booting-plop 'http://www.howtogeek.com/howto/16822/boot-from-a-usb-drive-even-if-your-BIOS-wont-let-you/' >
+<!ENTITY booting-fn-keys 'https://help.ubuntu.com/community/BootOptions#Changing_the_CD.27s_Default_Boot_Options' >
 
 <!-- Locations -->
 <!ENTITY location_home '<filename>&location; /home/username/</filename>' >
