@@ -17,22 +17,17 @@
 		<title>Xubuntu Documentation</title>
 		<legalnotice id="credits-license">
 			<title>Credits and License</title>
-			<para>This documentation is maintained by the Xubuntu documentation team and is partly adapted from the Ubuntu documentation.</para>
+			<para>This documentation is maintained by the Xubuntu documentation team.</para>
 
 			<para>The contributors to this documentation are:</para>
 			<itemizedlist>
-				<listitem><para>David Pires (slickymaster)</para></listitem>
-				<listitem><para>Elfy (elfy)</para></listitem> 
-				<listitem><para>Elizabeth Krumbach (lyz)</para></listitem>
-				<listitem><para>Jack Fromm (jjfrv8)</para></listitem> 
-				<listitem><para>Jay van Cooten (skippersboss)</para></listitem>
-				<listitem><para>Kev Bowring (flocculant)</para></listitem>
-				<listitem><para>Krytarik Raido (krytarik)</para></listitem>
+				<listitem><para>Chris Crenshaw</para></listitem>
+				<listitem><para>Lefteris Pavlou</para></listitem> 
 				<listitem><para>Pasi Lallinaho (knome)</para></listitem>
 				<listitem><para>Sean Davis (bluesabre)</para></listitem>
 				<listitem><para>Stephen Michael Kellat (skellat)</para></listitem>
-				<listitem><para>Steve Dodier-Lazaro (sidi)</para></listitem>
-				<listitem><para>Unit 193 (unit193)</para></listitem>
+				<listitem><para>Yousuf Philips (jphilips)</para></listitem>
+				<listitem><para>Zachariah Lorenzini (zachtex)</para></listitem>
 			</itemizedlist>
 
 			<xi:include href="translator-credits.xml" xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -42,17 +37,26 @@
 				<xi:fallback></xi:fallback>
 			</xi:include>
 
-			<para>The contributors to previous versions to this documentation are:</para>
+			<para>The contributors to previous versions of this documentation are:</para>
 			<itemizedlist>
 				<listitem><para>Cody A.W. Somerville (cody-somerville)</para></listitem>
+				<listitem><para>David Pires (slickymaster)</para></listitem>
+				<listitem><para>Elfy (elfy)</para></listitem> 
+				<listitem><para>Elizabeth Krumbach (lyz)</para></listitem>
 				<listitem><para>Freddy Martinez (freddymartinez9)</para></listitem>
+				<listitem><para>Jack Fromm (jjfrv8)</para></listitem> 
 				<listitem><para>Jan M. (fijam7)</para></listitem>
+				<listitem><para>Jay van Cooten (skippersboss)</para></listitem>
 				<listitem><para>Jim Campbell (jwcampbell)</para></listitem>
+				<listitem><para>Kev Bowring (flocculant)</para></listitem>
+				<listitem><para>Krytarik Raido (krytarik)</para></listitem>
 				<listitem><para>Luzius Thöny (lucius-antonius)</para></listitem>
+				<listitem><para>Steve Dodier-Lazaro (sidi)</para></listitem>
+				<listitem><para>Unit 193 (unit193)</para></listitem>
 			</itemizedlist>
 
-			<para>This document is made available under the Creative Commons ShareAlike 2.5 License (CC-BY-SA).</para>
-			<para>You are free to modify, extend, and improve the Ubuntu documentation source code under the
+			<para>This document is made available under the Creative Commons ShareAlike 4.0 License (CC-BY-SA).</para>
+			<para>You are free to modify, extend, and improve the Xubuntu documentation under the
 				terms of this license. All derivative works must be released under this license.</para>
 			<para>This documentation is distributed in the hope that it will be useful, but WITHOUT ANY
 				WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
@@ -73,20 +77,11 @@
 		<abstract>
 			<title>Welcome!</title>
 
-			<para>This documentation provides information on some of the most common topics on using Xubuntu, including:</para>
+			<para>This documentation provides information on some of the most common topics on using Xubuntu. The complete set of topics is listed below.</para>
 
-			<para><xref linkend="internet-networks"/></para>
-			<para><xref linkend="managing-applications"/></para>
+			<para>If you require help with a topic or problem that is not addressed by the documentation, you can visit the <ulink url="&xubuntu-web-help;">Help &amp; Support</ulink> page of the Xubuntu website for a full list of additional help resources. Some of these resources include live chat on the <ulink url="&irc-english;">#xubuntu</ulink> (English) IRC channel or an <ulink url="&irc-locales;">Ubuntu localized</ulink> channel, live chat on the <ulink url="&telegram-support;">Xubuntu Support</ulink> Telegram group, email support on our <ulink url="&ml-english;">Xubuntu user</ulink> (English) mailing list or an <ulink url="&ml-locales;">Ubuntu localized</ulink> list, <ulink url="&reddit;">Xubuntu Reddit</ulink>, <ulink url="&forum-xfce;">Xfce Forums</ulink> and <ulink url="&forum-ubuntu;">Ubuntu Forums</ulink> as discussion platforms, and <ulink url="&askubuntu-xubuntu;">Ask Ubuntu</ulink> for Q and A.</para>
 
-			<para>In addition, this documentation has three quick guides:</para>
-
-			<para><xref linkend="guide-desktop"/></para>
-			<para><xref linkend="guide-default-apps"/></para>
-			<para><xref linkend="guide-keeping-safe"/></para>
-
-			<para>The complete set of topics is listed below. If you require help with a topic or problem that is not addressed by the documentation, go to the <ulink url="&xubuntu-web-help;">Help &amp; Support</ulink> page of the Xubuntu website. There you will find links to additional help resources.</para>
-
-			<para>If you would like to contribute to Xubuntu, including this documentation, see the <ulink url="&xubuntu-web-contribute;">Get Involved</ulink> section of the Xubuntu website.</para>
+			<para>If you would like to contribute to Xubuntu, including this documentation, see the <ulink url="&xubuntu-web-contribute;">Get Involved</ulink> section of the Xubuntu website. Xubuntu is a community-driven project that you can participate in. There are many areas of involvement, including artwork, bug reporting, bug triaging, testing, documentation, translation, programming, marketing, and more. To participate you can contact the team on the <ulink url="&irc-devel;">#xubuntu-devel</ulink> IRC channel, the <ulink url="&telegram-develop;">Xubuntu Development</ulink> Telegram group, or the <ulink url="&ml-devel;">Xubuntu Development</ulink> mailing list.</para>
 
 			<xi:include href="xi-pdf-files.xml" xmlns:xi="http://www.w3.org/2001/XInclude">
 				<xi:fallback></xi:fallback>
