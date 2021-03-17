@@ -99,9 +99,21 @@
 <!ENTITY location_icons_user '<filename>&location; /home/username/.icons/</filename>' >
 <!ENTITY location_icons_global '<filename>&location; /usr/share/icons/</filename>' >
 
+<!-- SOFTWARE MANAGEMENT PAGE -->
+<!ENTITY snap-store-install 'https://snapcraft.io/install/snap-store/ubuntu#install' >
+<!ENTITY snap-store-web 'https://snapcraft.io/store' >
+<!ENTITY apt-docs 'https://ubuntu.com/server/docs/package-management' >
+<!ENTITY snap-docs 'https://snapcraft.io/docs/getting-started' >
+<!ENTITY snap-installs 'https://snapcraft.io/tutorials/snap-download#1-introduction' >
+<!ENTITY flathub 'https://flathub.org/' >
+<!ENTITY appimagehub 'https://appimage.github.io/' >
+<!ENTITY appgrid 'https://www.appgrid.org/' >
+
 <!-- Menus -->
 <!ENTITY appmenu '<guiicon><inlinemediaobject role="icon-menu"><imageobject><imagedata role="icon" fileref="../libs/images/icon_menu.png"/></imageobject></inlinemediaobject></guiicon>' >
+<!ENTITY appmenu2 '<guiicon><inlinemediaobject role="icon-menu"><imageobject><imagedata role="icon" fileref="../libs/images/icon_menu.png"/></imageobject></inlinemediaobject></guiicon> <guibutton>Applications Menu</guibutton>' >
 <!ENTITY settings '<inlinemediaobject role="icon-submenu"><imageobject><imagedata role="icon" fileref="../libs/images/preferences-desktop.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY settings2 '<inlinemediaobject role="icon-submenu"><imageobject><imagedata role="icon" fileref="../libs/images/preferences-desktop.png" /></imageobject></inlinemediaobject> <guibutton>Settings Manager</guibutton>' >
 <!ENTITY lockscreen '<inlinemediaobject role="icon-submenu"><imageobject><imagedata role="icon" fileref="../libs/images/system-lock-screen.png" /></imageobject></inlinemediaobject>' >
 <!ENTITY users '<inlinemediaobject role="icon-submenu"><imageobject><imagedata role="icon" fileref="../libs/images/system-users.png" /></imageobject></inlinemediaobject>' >
 <!ENTITY logout '<inlinemediaobject role="icon-submenu"><imageobject><imagedata role="icon" fileref="../libs/images/system-log-out.png" /></imageobject></inlinemediaobject>' >
