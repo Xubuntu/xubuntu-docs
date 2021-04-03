@@ -2,9 +2,9 @@ name: Test Translations
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, docs-refresh ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, docs-refresh ]
 
 jobs:
   build:

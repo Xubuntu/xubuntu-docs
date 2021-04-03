@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
 "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
 <!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
 %xubuntu-common;
@@ -16,59 +16,92 @@
 	<section id="short-introduction">
 		<title>A short introduction</title>
 
-		<section id="xubuntu-is">
-			<title>Xubuntu is a community-developed, Ubuntu-based Linux operating system.</title>
-			<para>Xubuntu is an elegant and easy-to-use operating system. Xubuntu comes with Xfce, which is a stable,
-				light and configurable desktop environment.</para>
+		<section id="a-free-community-developed-operating-system">
+			<title>A Free Community-Developed Operating System</title>
+			<para><literal><inlinemediaobject><imageobject><imagedata fileref="../../libs-common/images/what_is_xubuntu/xubuntu_emblem.png" /></imageobject></inlinemediaobject></literal></para>
+			<para>
+				Xubuntu is an elegant and easy-to-use desktop operating system that comes with the Xfce desktop environment,
+				making it stable, light on resources and configurable.</para>
 			<para>It is perfect for those who want to make the most of their desktops, laptops and netbooks, featuring a modern
-				look and enough features for efficient, daily usage. It works well on older hardware too.</para>
-			<para>Find out more at the <ulink url="&xubuntu-web;">Xubuntu website</ulink>.</para>
+				look and enough features for efficient daily usage. It also works well on older hardware, single-board computers
+				like the Raspberry Pi, and the Windows Subsystem for Linux (WSL).</para>
+			<para>Xubuntu was first released in 2006. It is a community-developed project led by the Xubuntu team. The team is
+				made up of volunteers who work on different aspects of the project including design, programming, marketing,
+				testing, website, documentation, and administration.</para>
+			<para>Find out more at the <ulink url="&xubuntu-web;">Xubuntu website</ulink> or on
+				<ulink url="&xubuntu-wikipedia;">Wikipedia</ulink>.</para>
 		</section>
 
 		<section id="about-the-name">
-			<title>About the name</title>
-			<para>The "X" in Xubuntu stands for Xfce, the desktop environment in Xubuntu. While the word "ubuntu" denotes
-				the dependency on and usage of the Ubuntu core, it also represents the philosophical core of the operating
-				system. A rough translation of the word ubuntu is "humanity towards others". To read more about the
-				philosophy and ideals behind Ubuntu and Xubuntu, please refer to the <ulink url="&ubuntu-philosophy;">Ubuntu
-				Philosophy</ulink> page.</para>
-			<para>In addition to using the Ubuntu core, Xubuntu also uses the infrastructure kindly provided and
-				sponsored by <ulink url="&canonical-web;">Canonical Ltd.</ulink>, a company founded by Mark	Shuttleworth.</para>
+			<title>About the Name</title>
+			<para>The "X" in Xubuntu stands for Xfce, the user interface and bundled core applications that come with Xubuntu.
+				The “ubuntu” in Xubuntu denotes its relationship with the Ubuntu base upon which the operating system is built.
+				Xubuntu is pronounced “zoo-bun-too”.</para>
+			<para><literal><inlinemediaobject><imageobject><imagedata fileref="../../libs-common/images/what_is_xubuntu/what_makes_xubuntu.png" width="100%" /></imageobject></inlinemediaobject></literal></para>
+			<para>The word "ubuntu" represents the philosophical core of the operating system. Ubuntu can be roughly translated
+				as "humanity towards others." To read more about the philosophy and ideals behind Ubuntu and Xubuntu, please
+				refer to the <ulink url="&ubuntu-philosophy;">Ubuntu Philosophy</ulink> page.</para>
 		</section>
 
-		<section id="version-numbering">
-			<title>Version numbering</title>
-			<para>The Xubuntu version numbering scheme is based on the distribution release date. The first part of the
-				release denotes the year while the second part denotes the month. For example, the first official Xubuntu
-				version was released in June, 2006, thus its version number was 6.06. The latest Long Term Support (LTS)
-				version is &last-lts-version;, codenamed &last-lts-codename;.</para>
+		<section id="releases-and-version-numbering">
+			<title>Releases and Version Numbers</title>
+			<para><literal><inlinemediaobject><imageobject><imagedata fileref="../../libs-common/images/what_is_xubuntu/version_numbers.png" /></imageobject></inlinemediaobject></literal></para>
+			<para>Xubuntu produces a new Long Term Support (LTS) release every 2 years. These releases are supported for 3 years
+				and are a popular choice for users that prefer stability over new features. Every 6 months, a new interim release
+				is made available for users who want to use the latest features at the cost of a shorter, 9-month support cycle.
+				New releases are produced every April and October.</para>
+			<para>Xubuntu follows the Ubuntu version numbering scheme, which is based on the distribution release date. The first
+				part of the release denotes the year, while the second part denotes the month. For example, the first official
+				Xubuntu version was released in June, 2006, thus its version number was 6.06.</para>
+		</section>
+
+		<section id="editions">
+			<title>Editions</title>
+			<para>There are two editions of Xubuntu: Xubuntu Desktop and Xubuntu Core. Xubuntu Desktop targets the regular user
+				and comes with a collection of preinstalled software carefully curated by the Xubuntu team. It includes a suite
+				of tools appropriate for most tasks, from image and document editing to web browsing and more.</para>
+			<para>Xubuntu Core is a slimmed-down edition of Xubuntu Desktop, with apps just for the basic tasks, such as file
+				management and terminal emulation. This results in a smaller download ISO, with fewer preinstalled plugins and
+				libraries, that will be even lighter on resources. This edition is targeting users who want to install just the
+				apps they want to suit their specific needs from a cleaner base, so they can create their own custom OS.</para>
 		</section>
 	</section>
 
-	<section id="learn-more-about-xubuntu">
-		<title>Learn more about what makes Xubuntu</title>
+	<section id="what-makes-up-xubuntu">
+		<title>What Makes Up Xubuntu</title>
 
 		<section id="about-free-software">
-			<title>Free Software</title>
-			<para>The Xubuntu project is entirely committed to the principles of free software development; people are
-				encouraged to use free software, improve it, and pass it on. You can find out more about free software and
-				the ideological and technical philosophy behind it at the <ulink url="&gnu-web;">GNU website</ulink>.</para>
+			<title>Free and Open Source Software</title>
+			<para><literal><inlinemediaobject><imageobject><imagedata fileref="../../libs-common/images/what_is_xubuntu/gnu.png" /></imageobject></inlinemediaobject></literal></para>
+			<para>The Xubuntu project is entirely committed to the principles of free software development where people are 
+				encouraged to use software that protects their freedoms, view its source code, improve it, and pass it on. You 
+				can find out more about free software and the ideological and technical philosophy behind it at the 
+				<ulink url="&gnu-web;">GNU website</ulink>.</para>
 		</section>
 
 		<section id="about-linux">
 			<title>Linux</title>
-			<para>Linux was brought to life in 1991 by a Finnish student named Linus Torvalds. The Linux kernel is the
-				heart of the Xubuntu operating system. A kernel is an important part of any operating system, providing the
+			<para><literal><inlinemediaobject><imageobject><imagedata fileref="../../libs-common/images/what_is_xubuntu/tux.png" /></imageobject></inlinemediaobject></literal></para>
+			<para>Linux was brought to life in 1991 by a Finnish student named Linus Torvalds. At the heart of the Xubuntu 
+				operating system lies the Linux kernel. The kernel is an important part of any operating system, providing the 
 				communication bridge between hardware and software. Read more about Linux at the
 				<ulink url="&kernel-web;">Linux kernel website</ulink>.</para>
 		</section>
 
 		<section id="about-xfce">
 			<title>Xfce</title>
-			<para>Xfce is the lightweight desktop environment used in Xubuntu. It aims to be fast and low on system
-				resources, while still being visually appealing and user friendly. Xfce embodies the traditional UNIX
-				philosophy of modularity and re-usability. Read more about Xfce at the <ulink url="&xfce-web;">Xfce
-				website</ulink>.</para>
+			<para><literal><inlinemediaobject><imageobject><imagedata fileref="../../libs-common/images/what_is_xubuntu/xfce.png" /></imageobject></inlinemediaobject></literal></para>
+			<para>Xfce is the lightweight desktop environment used in Xubuntu. It aims to be fast and low on system resources, 
+				while still being visually appealing and user friendly. Xfce embodies the traditional UNIX philosophy of 
+				modularity and reusability. Read more about Xfce at the <ulink url="&xfce-web;">Xfce website</ulink>.</para>
+		</section>
+
+		<section id="debian-and-ubuntu">
+			<title>Debian and Ubuntu</title>
+			<para>Xubuntu is built on the hard work of the Debian and Ubuntu GNU/Linux distributions. Based on Ubuntu, Xubuntu 
+				supports a wide variety of hardware and provides access to a large archive of free and open source software. 
+				Much of this software, including the packages that compose the Xfce desktop environment, are made available by 
+				the Debian Xfce team.</para>
 		</section>
 	</section>
 

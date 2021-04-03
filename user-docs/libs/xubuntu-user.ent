@@ -6,7 +6,9 @@
 <!-- XUBUNTU WEBSITE -->
 <!ENTITY xubuntu-web 'http://xubuntu.org/' >
 <!ENTITY xubuntu-web-contribute 'http://xubuntu.org/contribute/' >
+<!ENTITY xubuntu-web-download 'https://xubuntu.org/download/' >
 <!ENTITY xubuntu-web-help 'http://xubuntu.org/help/' >
+<!ENTITY xubuntu-web-requirements 'https://xubuntu.org/requirements/' >
 
 <!-- WEBSITES -->
 <!ENTITY aptoncd-web 'http://aptoncd.sourceforge.net/' >
@@ -45,6 +47,7 @@
 <!ENTITY thunderbird-help 'https://support.mozillamessaging.com/en-US/home' >
 <!ENTITY ubuntu-forums 'http://ubuntuforums.org/' >
 <!ENTITY ubuntu-philosophy 'http://www.ubuntu.com/project/about-ubuntu/our-philosophy' >
+<!ENTITY ubuntu-help-rst 'https://help.ubuntu.com/rst/' >
 <!ENTITY ubuntuwiki-printers 'https://wiki.ubuntu.com/HardwareSupportComponentsPrinters' >
 <!ENTITY ubuntuwiki-scanners 'https://wiki.ubuntu.com/HardwareSupportComponentsScanners' >
 <!ENTITY vbox-docs 'https://www.virtualbox.org/wiki/End-user_documentation' >
@@ -58,6 +61,52 @@
 <!ENTITY xfce4-taskman-web 'http://goodies.xfce.org/projects/applications/xfce4-taskmanager' >
 <!ENTITY xfce-web 'http://www.xfce.org/' >
 <!ENTITY xfdesktop-help 'http://docs.xfce.org/xfce/xfdesktop/4.11/start' >
+<!ENTITY xubuntu-wikipedia 'https://en.wikipedia.org/wiki/Xubuntu' >
+
+<!-- DOWNLOAD LINKS -->
+<!ENTITY download-transmission 'https://transmissionbt.com/download/' >
+<!ENTITY download-qbittorrent 'https://www.qbittorrent.org/download.php' >
+<!ENTITY download-rufus 'https://rufus.ie/' >
+<!ENTITY download-etcher 'https://www.balena.io/etcher/' >
+<!ENTITY download-gdisks 'https://wiki.gnome.org/Apps/Disks' >
+<!ENTITY download-infrarecorder 'http://infrarecorder.org/?page_id=5' >
+<!ENTITY download-brasero 'https://wiki.gnome.org/Apps/Brasero/' >
+<!ENTITY download-xfburn 'https://docs.xfce.org/apps/xfburn' >
+<!ENTITY download-keepassxc 'https://keepassxc.org/' >
+<!ENTITY download-bitwarden 'https://bitwarden.com/#download' >
+
+<!-- WELCOME PAGE -->
+<!ENTITY irc-english 'https://webchat.freenode.net/#xubuntu?nick=xu-help?d' >
+<!ENTITY irc-locales 'https://wiki.ubuntu.com/IRC/ChannelList#IRC.2FChannelList.2FLocal.Local_Ubuntu_channels' >
+<!ENTITY irc-devel 'https://webchat.freenode.net/#xubuntu?nick=xu-contribute?d' >
+<!ENTITY telegram-support 'https://t.me/XubuntuSupport' >
+<!ENTITY telegram-develop 'https://t.me/XubuntuDevelopment' >
+<!ENTITY ml-english 'https://lists.ubuntu.com/mailman/listinfo/xubuntu-users' >
+<!ENTITY ml-locales 'https://lists.ubuntu.com/#Localization+Lists' >
+<!ENTITY ml-devel 'https://lists.ubuntu.com/mailman/listinfo/xubuntu-devel' >
+<!ENTITY reddit 'https://www.reddit.com/r/xubuntu/' >
+<!ENTITY forum-xfce 'https://forum.xfce.org/' >
+<!ENTITY forum-ubuntu 'https://ubuntuforums.org/forumdisplay.php?f=329&amp;pp=20&amp;prefixid=xubuntu&amp;sort=lastpost&amp;order=desc&amp;daysprune=-1' >
+<!ENTITY askubuntu-xubuntu 'https://askubuntu.com/questions/tagged/xubuntu' >
+
+<!-- UBUNTU INSTALLATION TUTORIAL -->
+<!ENTITY ubuntu-tutorial-usb-win 'https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#3-usb-selection' >
+<!ENTITY ubuntu-tutorial-usb-mac 'https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-macos#3-prepare-the-usb-stick' >
+<!ENTITY ubuntu-tutorial-usb-lin 'https://www.maketecheasier.com/create-bootable-usb-installer-ubuntu-gnome-disks/' >
+<!ENTITY ubuntu-tutorial-dvd-win 'https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-windows#2-windows-7--8--10-instructions' >
+<!ENTITY ubuntu-tutorial-dvd-mac 'https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-macos#2-select-the-ubuntu-iso' >
+<!ENTITY ubuntu-tutorial-dvd-lin 'https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-ubuntu#3-install-brasero' >
+
+<!-- INSTALLATION PAGE -->
+<!ENTITY booting-secure-boot 'https://wiki.ubuntu.com/UEFI/SecureBoot' >
+<!ENTITY booting-boot-menu 'https://windows.gadgethacks.com/how-to/access-boot-menu-and-bios-windows-8-0139059/' >
+<!ENTITY booting-fast-boot 'https://www.tenforums.com/tutorials/21284-enable-disable-fast-boot-uefi-firmware-settings-windows.html' >
+<!ENTITY booting-fast-startup 'https://winaero.com/blog/how-to-disable-or-enable-fast-startup-in-windows-8-1/' >
+<!ENTITY booting-plop 'http://www.howtogeek.com/howto/16822/boot-from-a-usb-drive-even-if-your-BIOS-wont-let-you/' >
+<!ENTITY booting-fn-keys 'https://help.ubuntu.com/community/BootOptions#Changing_the_CD.27s_Default_Boot_Options' >
+
+<!-- INTRODUCTION PAGE -->
+<!ENTITY ppa-grub-customizer 'https://launchpad.net/~danielrichter2007/+archive/ubuntu/grub-customizer' >
 
 <!-- Locations -->
 <!ENTITY location_home '<filename>&location; /home/username/</filename>' >
