@@ -20,12 +20,12 @@
 
     <para>[icon placeholder]</para>
 
-    <section id="panel-personalization">
+    <section id="settings-personalization-panel">
         <title>Panel</title>
 
         <para>Xubuntu’s default panel layout has a single panel at the top of the screen with the menu, window list, and notification area. This panel layout can be switched to another bundled panel layout or can be manually customized.</para>
 
-        <section id="panel-presets">
+        <section id="settings-personalization-panel-presets">
             <title>Panel Presets</title>
 
             <para>The <application>Panel Profiles</application> settings dialog makes it easy to switch to any of the bundled panel layouts or apply an imported panel layout. It also makes it easy to save your current panel layout and export it.[icon placeholder]</para>
@@ -52,7 +52,7 @@
 
         </section>
 
-        <section id="panel-customization">
+        <section id="settings-personalization-panel-customization">
             <title>Panel Customization</title>
 
             <para>To make minor changes to Xubuntu’s panel(s), you can do the following:</para>
@@ -92,7 +92,7 @@
 
         </section>
 
-        <section id="menu">
+        <section id="settings-personalization-panel-menu">
             <title>Menu</title>
 
             <para>The easiest tweak you can make to the  &appmenu;<guibutton>Menu</guibutton> is to customize your Favorites so that you have easy access to your most important and used applications as soon as you open them. You have the options to:</para>
@@ -130,12 +130,12 @@
             <note><para>Note: For more in-depth information on how to use all of those options, consult the <ulink url="https://github.com/bluesabre/menulibre/wiki/Usage">MenuLibre</ulink> online documentation.</para></note>
         </section>
     </section>
-    <section id="desktop-personalization">
+    <section id="settings-personalization-desktop">
         <title>Desktop</title>
 
         <para>The desktop is visible once you login to your account and its background is also present on the login and lock screens. To access customization options, open the <application>Desktop settings</application> dialog, which is also accessible by right-clicking a blank area of the desktop and selecting <application>Desktop Settings</application> from the context menu.</para>
 
-        <section id="background">
+        <section id="settings-personalization-desktop-background">
             <title>Background [icon placeholder]</title>
 
             <para>Once the <application>Desktop</application> settings dialog is launched, the Background tab gives you options to choose between a wallpaper image, a color gradient, a single color, or a combination of wallpaper(s) and color(s) as the desktop background.</para>
@@ -154,7 +154,7 @@
         </section>
 
 
-        <section id="icons">
+        <section id="settings-personalization-desktop-icons">
             <title>Icons</title>
 
             <para>In the Icons tab of the Desktop settings dialog you can set the properties of the icons that appear on the desktop, including their sizes, sort arrangement, label font size, click activation behavior, whether or not they should have tooltips and thumbnails, and which system icons appear by default. The Icon type dropdown list gives you the option to have desktop icons for files and launchers, minimized application windows, or no icons at all.</para>
@@ -162,7 +162,7 @@
         </section>
 
 
-        <section id="menus">
+        <section id="settings-personalization-desktop-menus">
             <title>Menus</title>
 
             <para>The Menus tab of the Desktop settings dialog provides customization options for the two menus that can appear when using the mouse.</para>
@@ -176,107 +176,103 @@
             </itemizedlist>
         </section>
     </section>
-        <section id="theming">
-            <title>Theming</title>
 
-            <para>A desktop theme is used to change the look and feel of the GUI (Graphical User Interface) and can consist of many things, including the desktop wallpaper, user interface styling and colors, fonts, icons, and sounds. In Xubuntu, you may change many of these individual components, so your desktop can be as unique as you like it to be.</para>
+    <section id="settings-personalization-theming">
+        <title>Theming</title>
 
-            <para>The three main theming components that you should know about are:</para>
+        <para>A desktop theme is used to change the look and feel of the GUI (Graphical User Interface) and can consist of many things, including the desktop wallpaper, user interface styling and colors, fonts, icons, and sounds. In Xubuntu, you may change many of these individual components, so your desktop can be as unique as you like it to be.</para>
+
+        <para>The three main theming components that you should know about are:</para>
+
+        <itemizedlist>
+
+            <listitem><para>Window Decorations - This is the appearance of the outer section of a window, including the title bar and window borders. It is also known as the window manager theme. [icon placeholder]</para></listitem>
+
+            <listitem><para>UI Controls - This is the appearance of the user interface elements found within the inner section of the window, such as the buttons, scroll bars, and window background. It is also known as the Gtk theme. [icon placeholder]</para></listitem>
+
+            <listitem><para>Icons - This is the icon set used to style the icons found in toolbars and menus, on files and folders, on application launchers and buttons. It is also known as the Icon theme. [icon placeholder]</para></listitem>
+
+        </itemizedlist>
+
+        <section id="settings-personalization-theming-ui-controls-and-icons">
+            <title>UI Controls and Icons [icon placeholder]</title>
+
+            <para>Open the Appearance settings dialog and you will be on the Style tab which will allow you to set your UI (User Interface) controls theme by selecting an entry in the list. If you switch to the Icons tab you will be able to set your icon theme by selecting an entry in the list. The Fonts tab will allow you to set the default font used for UI text, as well as setting font rendering options. The Settings tab has options to enable and disable images in menus and on buttons, as well as change how toolbar entries are styled.</para>
+
+            <para>Not all icon themes will work well with dark panels and window backgrounds. If you install applications that use the <ulink url="https://en.wikipedia.org/wiki/Qt_(software)">Qt UI toolkit</ulink>, such as <application>Qbittorrent</application> or <application>Clementine</application>, the Qt5 Settings (<ulink url="apt://qt5ct">install</ulink>) utility will allow you to configure their theming, while the qt5-style-plugins (<ulink url="apt://qt5-style-plugins">install</ulink>) package will use the current theme on Qt apps. <ulink url="https://www.addictivetips.com/ubuntu-linux-tips/make-kde-apps-look-better/">Check out this guide on how to configure Qt Settings</ulink>. If you’d like to change the theme of the mouse cursor, open the Theme tab of the <application>Mouse and Touchpad</application> app.</para>
+        </section>
+
+        <section id="settings-personalization-theming-window-decorations-and-effects">
+            <title>Window Decorations and Effects [icon placeholder]</title>
+
+            <para>Once you open the <application>Window Manager</application> settings dialog, you will be on the Style tab which will allow you to set the window decoration theme, as well as customize the various elements of the title bar. This includes the alignment and font size used in the title bar text and the arrangement and visibility of the title bar buttons.</para>
+
+            <para>Xubuntu doesn't come with many desktop effects, but the Xfce compositor is enabled by default. The Xfce compositor is used to draw shadows behind windows and panels, as well as set the transparency of window decorations and windows in various states. To access these desktop effects, open the <application>Window Manager Tweaks</application> settings dialog to its Compositor tab.</para>
+
+            <para>If you have a low-end GPU or you don't like the desktop effects mentioned, you can turn off the compositor by unchecking Enable display compositing or modifying the other settings. [icon placeholder]</para>
+        </section>
+
+
+        <section id="settings-personalization-theming-more-themes">
+            <title>More Themes</title>
+
+            <para>If the default selection of themes doesn't satisfy you, you can easily download and install new themes. Sometimes window decoration and UI control themes will come bundled together as a single Gtk theme, while Icon themes may also include a mouse cursor theme.</para>
+
+            <para>You can find new themes in the software repositories, such as:</para>
 
             <itemizedlist>
 
-                <listitem><para>Window Decorations - This is the appearance of the outer section of a window, including the title bar and window borders. It is also known as the window manager theme. [icon placeholder]</para></listitem>
+                <listitem><para>UI themes - Adapta (<ulink url="apt://adapta-gtk-theme">install</ulink>), Arc (<ulink url="apt://arc-theme">install</ulink>), Materia (<ulink url="apt://materia-gtk-theme">install</ulink>)</para></listitem>
 
-                <listitem><para>UI Controls - This is the appearance of the user interface elements found within the inner section of the window, such as the buttons, scroll bars, and window background. It is also known as the Gtk theme. [icon placeholder]</para></listitem>
+                <listitem><para>Icon themes - Papirus (<ulink url="apt://papirus-icon-theme">install</ulink>), Numix Circle (<ulink url="apt://numix-gtk-theme">install</ulink>), Moka (<ulink url="apt://moka-icon-theme">install</ulink>)</para></listitem>
 
-                <listitem><para>Icons - This is the icon set used to style the icons found in toolbars and menus, on files and folders, on application launchers and buttons. It is also known as the Icon theme. [icon placeholder]</para></listitem>
+            </itemizedlist>
+
+            <para>Additional themes can be found on the Internet, as <application>.deb</application> Debian package files, in PPA software repositories, on websites like <ulink url="https://www.xfce-look.org/">Xfce-look.org</ulink> and Github.com, or from the theme author’s website.</para>
+
+            <para>Here are some popular choices:</para>
+
+            <itemizedlist>
+
+                <listitem><para>UI themes - <ulink url="https://www.xfce-look.org/p/1150488">Xfce Simple Dark</ulink>, <ulink url="https://www.xfce-look.org/p/1174937/">Mint Mac Dark</ulink>, <ulink url="https://github.com/vinceliuice/Matcha-gtk-theme">Matcha</ulink>, <ulink url="https://www.xfce-look.org/p/1174518/">Plano</ulink>, <ulink url="https://www.xfce-look.org/p/1299758/">Pop</ulink>, <ulink url="https://drasite.com/flat-remix-gtk">Flat Remix</ulink> and <ulink url="">Dracula</ulink></para></listitem>
+
+                <listitem><para>Icon themes - <ulink url="https://drasite.com/flat-remix-gtk">Flat Remix</ulink>, <ulink url="https://snwh.org/paper/download">Paper</ulink></para></listitem>
 
             </itemizedlist>
         </section>
 
-            <section id="ui-controls-and-icons">
-                <title>UI Controls and Icons [icon placeholder]</title>
+        <section id="settings-personalization-theming-installing-themes">
+            <title>Installing Themes</title>
 
-                <para>Open the Appearance settings dialog and you will be on the Style tab which will allow you to set your UI (User Interface) controls theme by selecting an entry in the list. If you switch to the Icons tab you will be able to set your icon theme by selecting an entry in the list. The Fonts tab will allow you to set the default font used for UI text, as well as setting font rendering options. The Settings tab has options to enable and disable images in menus and on buttons, as well as change how toolbar entries are styled.</para>
+            <para>If you install new themes from the repositories, or through a .deb Debian package file, they will automatically appear in the relevant lists. If you download a theme from the Internet, you will need to install the theme before it will appear in the relevant list.</para>
 
-                <para>Not all icon themes will work well with dark panels and window backgrounds. If you install applications that use the <ulink url="https://en.wikipedia.org/wiki/Qt_(software)">Qt UI toolkit</ulink>, such as <application>Qbittorrent</application> or <application>Clementine</application>, the Qt5 Settings (<ulink url="apt://qt5ct">install</ulink>) utility will allow you to configure their theming, while the qt5-style-plugins (<ulink url="apt://qt5-style-plugins">install</ulink>) package will use the current theme on Qt apps. <ulink url="https://www.addictivetips.com/ubuntu-linux-tips/make-kde-apps-look-better/">Check out this guide on how to configure Qt Settings</ulink>. If you’d like to change the theme of the mouse cursor, open the Theme tab of the <application>Mouse and Touchpad</application> app.</para>
-            </section>
+            <para>Here are three means to install downloaded themes:</para>
 
+            <itemizedlist>
 
-            <section id="window-decorations-and-effects">
-                <title>Window Decorations and Effects [icon placeholder]</title>
+                <listitem><para>1. Drag and Drop - With the Appearances settings dialog open to either the Style or Icons tabs, you can drag and drop a compressed .tar.xz theme file onto the theme list.</para></listitem>
 
-                <para>Once you open the <application>Window Manager</application> settings dialog, you will be on the Style tab which will allow you to set the window decoration theme, as well as customize the various elements of the title bar. This includes the alignment and font size used in the title bar text and the arrangement and visibility of the title bar buttons.</para>
+                <listitem><para>2. OCS URL - If you are installing themes from Xfce-look.org, you can install the <ulink url="https://www.pling.com/p/1136805/">ocs-url</ulink> installation helper tool and then click the ‘Install’ buttons in the OCS-Install column on the Files tab of the theme’s page.</para></listitem>
 
-                <para>Xubuntu doesn't come with many desktop effects, but the Xfce compositor is enabled by default. The Xfce compositor is used to draw shadows behind windows and panels, as well as set the transparency of window decorations and windows in various states. To access these desktop effects, open the <application>Window Manager Tweaks</application> settings dialog to its Compositor tab.</para>
+                <listitem>
+                    <para>3. Manually - Open the compressed UI or Icon theme file and extract its contents into the appropriate folder. If these directories do not exist, you will need to create them first.</para>
 
-                <para>If you have a low-end GPU or you don't like the desktop effects mentioned, you can turn off the compositor by unchecking Enable display compositing or modifying the other settings. [icon placeholder]</para>
-            </section>
+                    <itemizedlist>
 
+                        <listitem><para>a. UI themes -  [icon placeholder]/home/username/.themes/</para></listitem>
+                        <listitem><para>b. Icon themes -  [icon placeholder]/home/username/.icons/</para></listitem>
 
-            <section id="more-themes">
-                <title>More Themes</title>
+                    </itemizedlist>
 
-                <para>If the default selection of themes doesn't satisfy you, you can easily download and install new themes. Sometimes window decoration and UI control themes will come bundled together as a single Gtk theme, while Icon themes may also include a mouse cursor theme.</para>
+                </listitem>
 
-                <para>You can find new themes in the software repositories, such as:</para>
+            </itemizedlist>
 
-                <itemizedlist>
+            <para>[icon placeholder] The username part of the folder path should be replaced with your username.</para>
 
-                    <listitem><para>UI themes - Adapta (<ulink url="apt://adapta-gtk-theme">install</ulink>), Arc (<ulink url="apt://arc-theme">install</ulink>), Materia (<ulink url="apt://materia-gtk-theme">install</ulink>)</para></listitem>
+            <para>[icon placeholder] In Linux, files and directories starting with a . (dot) are hidden by default and to unhide them in the file manager, open the View menu and check the Show Hidden Files entry or alternatively press <keycap>Ctrl + H</keycap>. To unhide them in the file open or save dialogs, right-click in the files list area of the dialog and select Show Hidden Files from the popup menu.</para>
+        </section>
 
-                    <listitem><para>Icon themes - Papirus (<ulink url="apt://papirus-icon-theme">install</ulink>), Numix Circle (<ulink url="apt://numix-gtk-theme">install</ulink>), Moka (<ulink url="apt://moka-icon-theme">install</ulink>)</para></listitem>
-
-                </itemizedlist>
-
-                <para>Additional themes can be found on the Internet, as <application>.deb</application> Debian package files, in PPA software repositories, on websites like <ulink url="https://www.xfce-look.org/">Xfce-look.org</ulink> and Github.com, or from the theme author’s website.</para>
-
-                <para>Here are some popular choices:</para>
-
-                <itemizedlist>
-
-                    <listitem><para>UI themes - <ulink url="https://www.xfce-look.org/p/1150488">Xfce Simple Dark</ulink>, <ulink url="https://www.xfce-look.org/p/1174937/">Mint Mac Dark</ulink>, <ulink url="https://github.com/vinceliuice/Matcha-gtk-theme">Matcha</ulink>, <ulink url="https://www.xfce-look.org/p/1174518/">Plano</ulink>, <ulink url="https://www.xfce-look.org/p/1299758/">Pop</ulink>, <ulink url="https://drasite.com/flat-remix-gtk">Flat Remix</ulink> and <ulink url="">Dracula</ulink></para></listitem>
-
-                    <listitem><para>Icon themes - <ulink url="https://drasite.com/flat-remix-gtk">Flat Remix</ulink>, <ulink url="https://snwh.org/paper/download">Paper</ulink></para></listitem>
-
-                </itemizedlist>
-            </section>
-
-            <section id="installing-themes">
-                <title>Installing Themes</title>
-
-                <para>If you install new themes from the repositories, or through a .deb Debian package file, they will automatically appear in the relevant lists. If you download a theme from the Internet, you will need to install the theme before it will appear in the relevant list.</para>
-
-                <para>Here are three means to install downloaded themes:</para>
-
-                <itemizedlist>
-
-                    <listitem><para>1. Drag and Drop - With the Appearances settings dialog open to either the Style or Icons tabs, you can drag and drop a compressed .tar.xz theme file onto the theme list.</para></listitem>
-
-                    <listitem><para>2. OCS URL - If you are installing themes from Xfce-look.org, you can install the <ulink url="https://www.pling.com/p/1136805/">ocs-url</ulink> installation helper tool and then click the ‘Install’ buttons in the OCS-Install column on the Files tab of the theme’s page.</para></listitem>
-
-                    <listitem>
-                        <para>3. Manually - Open the compressed UI or Icon theme file and extract its contents into the appropriate folder. If these directories do not exist, you will need to create them first.</para>
-
-                        <itemizedlist>
-
-                            <listitem><para>a. UI themes -  [icon placeholder]/home/username/.themes/</para></listitem>
-                            <listitem><para>b. Icon themes -  [icon placeholder]/home/username/.icons/</para></listitem>
-
-                        </itemizedlist>
-
-                    </listitem>
-
-                </itemizedlist>
-
-                <para>[icon placeholder] The username part of the folder path should be replaced with your username.</para>
-
-                <para>[icon placeholder] In Linux, files and directories starting with a . (dot) are hidden by default and to unhide them in the file manager, open the View menu and check the Show Hidden Files entry or alternatively press <keycap>Ctrl + H</keycap>. To unhide them in the file open or save dialogs, right-click in the files list area of the dialog and select Show Hidden Files from the popup menu.</para>
-            </section>
+    </section>
 
 </chapter>
-
-
-
-
-
