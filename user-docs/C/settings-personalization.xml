@@ -20,7 +20,7 @@
 
     <para>Xubuntu’s customization settings can be accessed from the Personal category of the  <guibutton>Settings Manager</guibutton>, the Settings category of the &appmenu;<guibutton>application  Menu</guibutton> (<keycap>Ctrl + Escape)</keycap>), <application>Application Finder</application> (<keycap>Alt + F3</keycap>), or the right-click menu of an object.</para>
 
-    [icon placeholder]
+    <para>[icon placeholder]</para>
 
     <section id="panel-personalization">
         <title>Panel</title>
@@ -53,7 +53,7 @@
                 <!--Is this it? What about 4.16, 20.10 and 21.04?-->
 
         </section>
-    
+
         <section id="panel-customization">
             <title>Panel Customization</title>
 
@@ -70,7 +70,9 @@
 
             </itemizedlist>
 
-            <para>For other changes to panel(s), you will need to open the Panel settings dialog, which is also accessible by right-clicking on any of the panel items and selecting Panel -> Panel Preferences.... The top section of the dialog gives access to open the Panel Profiles settings dialog and the ability to select, add and remove panels. The remainder of settings are broken up across three tabs.</para> [icon placeholder]
+            <para>For other changes to panel(s), you will need to open the Panel settings dialog, which is also accessible by right-clicking on any of the panel items and selecting Panel -> Panel Preferences.... The top section of the dialog gives access to open the Panel Profiles settings dialog and the ability to select, add and remove panels. The remainder of settings are broken up across three tabs.</para>
+
+            <para>[icon placeholder]</para>
 
             <itemizedlist>
 
@@ -86,16 +88,18 @@
 
             <para>Users who want a dock similar to the one found on Mac OS and elementary OS can choose from these docks - Plank (<ulink url="apt://plank">install</ulink>, <ulink url="https://https://launchpad.net/~xuzhen666/+archive/ubuntu/dockbarx">DockbarX</ulink>, Docky, or Cairo Dock. Users who want a Windows 7-like taskbar with window list buttons can install <ulink url="https://https://launchpad.net/~xuzhen666/+archive/ubuntu/dockbarx">DockbarX</ulink>, which has a panel plugin. Below are sample layouts customized by Xubuntu users.</para>
 
-            [icon placeholder]
+            <para>[icon placeholder]</para>
 
             <note><para>Note: If you have multiple screens, additional panel configurations will appear on the Display tab. Including the options to configure which display the panel should appear on or whether the panel should span all monitors.</para></note>
 
-        </section>    
-    
+        </section>
+
         <section id="menu">
             <title>Menu</title>
 
-            <para>The easiest tweak you can make to the  &appmenu;<guibutton>Menu</guibutton> is to customize your Favorites so that you have easy access to your most important and used applications as soon as you open them. You have the options to:</para> [icon placeholder]
+            <para>The easiest tweak you can make to the  &appmenu;<guibutton>Menu</guibutton> is to customize your Favorites so that you have easy access to your most important and used applications as soon as you open them. You have the options to:</para>
+
+            <para>[icon placeholder]</para>
 
             <itemizedlist>
 
@@ -134,7 +138,7 @@
         <para>The desktop is visible once you login to your account and its background is also present on the login and lock screens. To access customization options, open the <application>Desktop settings</application> dialog, which is also accessible by right-clicking a blank area of the desktop and selecting <application>Desktop Settings</application> from the context menu.</para>
 
         <section id="background">
-            <title>Background</title> [icon placeholder]
+            <title>Background [icon placeholder]</title>
 
             <para>Once the <application>Desktop</application> settings dialog is launched, the Background tab gives you options to choose between a wallpaper image, a color gradient, a single color, or a combination of wallpaper(s) and color(s) as the desktop background.</para>
 
@@ -145,28 +149,28 @@
             <para>[icon placeholder] The default selection of wallpapers shipped with Xubuntu includes wallpapers created by the Xubuntu team for different releases and wallpapers submitted by the community. For more community contest-winning wallpapers, search for the packages that begin with xubuntu-community-wallpapers in the <application>Synaptic package manager</application>. Here are some wallpaper resources that you can download additional wallpapers from: <ulink url="https://www.wallpaperflare.com">WallpaperFlare.com</ulink>, <ulink url="http://getwallpapers.com">GetWallpapers.com</ulink>, <ulink url="https://unsplash.com">Unsplash.com</ulink>, <ulink url="https://www.pexels.com">Pexels.com</ulink>, <ulink url="https://www.freepik.com">FreePik.com</ulink>, <ulink url="https://pixabay.com">Pixabay.com</ulink>. To have a random online wallpaper appear as your desktop wallpaper, try these scripts for big wallpapers or reddit wallpapers.</para>
 
             <para> [icon placeholder] To set the background as a single color or a two-color gradient, set Style to ‘None’ and then set Color to the appropriate entry. You can then click on the color buttons next to the dropdown list to open the Select Color dialog. You have the option to select from the list of color presets, right-click on a color preset to customize that color, or create a custom color from scratch by pressing the plus button.</para>
-            
+
             <para>If you have multiple workspaces, also known as virtual desktops, you can choose to have the same background appear across all workspaces or use a different background for each workspace. To use a different background, uncheck the Apply to all workspaces checkbox,then move the dialog to each workspace individually and select a different background. This can be done by dragging the window to the left or right corners of the screen or pressing the keyboard shortcuts <keycap>Ctrl + Alt + Home</keycap> or <keycap>Ctrl + Alt + End</keycap>. This also is the case when you have multiple monitors connected, where each display will have the default wallpaper unless the window is dragged to other displays and the background is changed.</para>
 
             <para>[icon placeholder] The easiest way to set an image as the background wallpaper is to right-click the image on the current workspace or display and select Set as wallpaper from the context menu.</para>
         </section>
-        
+
 
         <section id="icons">
-            <title>Icons</title> 
+            <title>Icons</title>
 
             <para>In the Icons tab of the Desktop settings dialog you can set the properties of the icons that appear on the desktop, including their sizes, sort arrangement, label font size, click activation behavior, whether or not they should have tooltips and thumbnails, and which system icons appear by default. The Icon type dropdown list gives you the option to have desktop icons for files and launchers, minimized application windows, or no icons at all.</para>
 
         </section>
-        
+
 
         <section id="menus">
-            <title>Menus</title> 
+            <title>Menus</title>
 
             <para>The Menus tab of the Desktop settings dialog provides customization options for the two menus that can appear when using the mouse.</para>
 
             <itemizedlist>
-            
+
                 <listitem><para><application>Desktop</application> Menu - This menu appears when right-clicking the desktop. You may choose whether or not this menu includes the application menu in a tree hierarchy.</para></listitem>
 
                 <listitem><para>Window List Menu - This menu appears when middle-clicking the desktop. You may choose whether or not to display this menu, as well as application and workspace customization options within the menu.</para></listitem>
@@ -183,40 +187,40 @@
 
             <itemizedlist>
 
-                <listitem><para>Window Decorations - This is the appearance of the outer section of a window, including the title bar and window borders. It is also known as the window manager theme.</para></listitem> [icon placeholder]
+                <listitem><para>Window Decorations - This is the appearance of the outer section of a window, including the title bar and window borders. It is also known as the window manager theme. [icon placeholder]</para></listitem>
 
-                <listitem><para>UI Controls - This is the appearance of the user interface elements found within the inner section of the window, such as the buttons, scroll bars, and window background. It is also known as the Gtk theme.</para></listitem> [icon placeholder]
+                <listitem><para>UI Controls - This is the appearance of the user interface elements found within the inner section of the window, such as the buttons, scroll bars, and window background. It is also known as the Gtk theme. [icon placeholder]</para></listitem>
 
-                <listitem><para>Icons - This is the icon set used to style the icons found in toolbars and menus, on files and folders, on application launchers and buttons. It is also known as the Icon theme.</para></listitem> [icon placeholder]
+                <listitem><para>Icons - This is the icon set used to style the icons found in toolbars and menus, on files and folders, on application launchers and buttons. It is also known as the Icon theme. [icon placeholder]</para></listitem>
 
             </itemizedlist>
         </section>
 
             <section id="ui-controls-and-icons">
-                <title>UI Controls and Icons</title> [icon placeholder]
+                <title>UI Controls and Icons [icon placeholder]</title>
 
                 <para>Open the Appearance settings dialog and you will be on the Style tab which will allow you to set your UI (User Interface) controls theme by selecting an entry in the list. If you switch to the Icons tab you will be able to set your icon theme by selecting an entry in the list. The Fonts tab will allow you to set the default font used for UI text, as well as setting font rendering options. The Settings tab has options to enable and disable images in menus and on buttons, as well as change how toolbar entries are styled.</para>
 
                 <para>Not all icon themes will work well with dark panels and window backgrounds. If you install applications that use the <ulink url="https://en.wikipedia.org/wiki/Qt_(software)">Qt UI toolkit</ulink>, such as <application>Qbittorrent</application> or <application>Clementine</application>, the Qt5 Settings (<ulink url="apt://qt5ct">install</ulink>) utility will allow you to configure their theming, while the qt5-style-plugins (<ulink url="apt://qt5-style-plugins">install</ulink>) package will use the current theme on Qt apps. <ulink url="https://www.addictivetips.com/ubuntu-linux-tips/make-kde-apps-look-better/">Check out this guide on how to configure Qt Settings</ulink>. If you’d like to change the theme of the mouse cursor, open the Theme tab of the <application>Mouse and Touchpad</application> app.</para>
             </section>
-            
+
 
             <section id="window-decorations-and-effects">
-                <title>Window Decorations and Effects</title> [icon placeholder]
+                <title>Window Decorations and Effects [icon placeholder]</title>
 
                 <para>Once you open the <application>Window Manager</application> settings dialog, you will be on the Style tab which will allow you to set the window decoration theme, as well as customize the various elements of the title bar. This includes the alignment and font size used in the title bar text and the arrangement and visibility of the title bar buttons.</para>
 
                 <para>Xubuntu doesn't come with many desktop effects, but the Xfce compositor is enabled by default. The Xfce compositor is used to draw shadows behind windows and panels, as well as set the transparency of window decorations and windows in various states. To access these desktop effects, open the <application>Window Manager Tweaks</application> settings dialog to its Compositor tab.</para>
 
-                <para>If you have a low-end GPU or you don't like the desktop effects mentioned, you can turn off the compositor by unchecking Enable display compositing or modifying the other settings.</para> [icon placeholder]
+                <para>If you have a low-end GPU or you don't like the desktop effects mentioned, you can turn off the compositor by unchecking Enable display compositing or modifying the other settings. [icon placeholder]</para>
             </section>
-            
+
 
             <section id="more-themes">
                 <title>More Themes</title>
 
-                <para>If the default selection of themes doesn't satisfy you, you can easily download and install new themes. Sometimes window decoration and UI control themes will come bundled together as a single Gtk theme, while Icon themes may also include a mouse cursor theme.</para> 
-                
+                <para>If the default selection of themes doesn't satisfy you, you can easily download and install new themes. Sometimes window decoration and UI control themes will come bundled together as a single Gtk theme, while Icon themes may also include a mouse cursor theme.</para>
+
                 <para>You can find new themes in the software repositories, such as:</para>
 
                 <itemizedlist>
@@ -228,8 +232,8 @@
                 </itemizedlist>
 
                 <para>Additional themes can be found on the Internet, as <application>.deb</application> Debian package files, in PPA software repositories, on websites like <ulink url="https://www.xfce-look.org/">Xfce-look.org</ulink> and Github.com, or from the theme author’s website.</para>
-                
-                Here are some popular choices:
+
+                <para>Here are some popular choices:</para>
 
                 <itemizedlist>
 
@@ -239,7 +243,7 @@
 
                 </itemizedlist>
             </section>
-            
+
             <section id="installing-themes">
                 <title>Installing Themes</title>
 
@@ -253,26 +257,28 @@
 
                     <listitem><para>2. OCS URL - If you are installing themes from Xfce-look.org, you can install the <ulink url="https://www.pling.com/p/1136805/">ocs-url</ulink> installation helper tool and then click the ‘Install’ buttons in the OCS-Install column on the Files tab of the theme’s page.</para></listitem>
 
-                    <listitem><para>3. Manually - Open the compressed UI or Icon theme file and extract its contents into the appropriate folder. If these directories do not exist, you will need to create them first.</para></listitem>
+                    <listitem>
+                        <para>3. Manually - Open the compressed UI or Icon theme file and extract its contents into the appropriate folder. If these directories do not exist, you will need to create them first.</para>
 
-                    <itemizedlist>
+                        <itemizedlist>
 
-                        <listitem><para>a. UI themes -  [icon placeholder]/home/username/.themes/</para></listitem>
-                        <listitem><para>b. Icon themes -  [icon placeholder]/home/username/.icons/</para></listitem>
+                            <listitem><para>a. UI themes -  [icon placeholder]/home/username/.themes/</para></listitem>
+                            <listitem><para>b. Icon themes -  [icon placeholder]/home/username/.icons/</para></listitem>
 
-                    </itemizedlist>
+                        </itemizedlist>
+
+                    </listitem>
 
                 </itemizedlist>
+
+                <para>[icon placeholder] The username part of the folder path should be replaced with your username.</para>
+
+                <para>[icon placeholder] In Linux, files and directories starting with a . (dot) are hidden by default and to unhide them in the file manager, open the View menu and check the Show Hidden Files entry or alternatively press <keycap>Ctrl + H</keycap>. To unhide them in the file open or save dialogs, right-click in the files list area of the dialog and select Show Hidden Files from the popup menu.</para>
             </section>
 
-                [icon placeholder]
-                <para>The username part of the folder path should be replaced with your username.</para>
+</chapter>
 
-                <para>In Linux, files and directories starting with a . (dot) are hidden by default and to unhide them in the file manager, open the View menu and check the Show Hidden Files entry or alternatively press <keycap>Ctrl + H</keycap>. To unhide them in the file open or save dialogs, right-click in the files list area of the dialog and select Show Hidden Files from the popup menu.</para>
-                [icon placeholder]
-</chapter>          
-                    
 
-   
 
-                
+
+
