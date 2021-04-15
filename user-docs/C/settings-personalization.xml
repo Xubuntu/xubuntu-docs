@@ -13,7 +13,7 @@
 
 <!--JT252 031521-->
 
-<chapter id="Settings-Personalization">
+<chapter id="settings-personalization">
 	<title>Settings-Personalization</title>
 
     <para>Similar to other desktop or mobile operating systems, Xubuntu comes with a default look and feel that some users will prefer to customize to their needs. Unlike Windows, Mac OS and some Linux desktop environments, Xubuntu comes pre-installed with many customization tools that give users a lot of control.</para>
@@ -22,12 +22,12 @@
 
     [icon placeholder]
 
-    <section id="Panel">
+    <section id="panel">
         <title>Panel</title>
 
         <para>Xubuntu’s default panel layout has a single panel at the top of the screen with the menu, window list, and notification area. This panel layout can be switched to another bundled panel layout or can be manually customized.</para>
 
-        <section id="Panel Presets">
+        <section id="panel-presets">
             <title>Panel Presets</title>
 
             <para>The <application>Panel Profiles</application> settings dialog makes it easy to switch to any of the bundled panel layouts or apply an imported panel layout. It also makes it easy to save your current panel layout and export it.[icon placeholder]</para>
@@ -54,7 +54,7 @@
 
         </section>
     
-        <section id="Panel Customization">
+        <section id="panel-customization">
             <title>Panel Customization</title>
 
             <para>To make minor changes to Xubuntu’s panel(s), you can do the following:</para>
@@ -92,7 +92,7 @@
 
         </section>    
     
-        <section id="Menu">
+        <section id="menu">
             <title>Menu</title>
 
             <para>The easiest tweak you can make to the  &appmenu;<guibutton>Menu</guibutton> is to customize your Favorites so that you have easy access to your most important and used applications as soon as you open them. You have the options to:</para> [icon placeholder]
@@ -128,12 +128,12 @@
             <note><para>Note: For more in-depth information on how to use all of those options, consult the <ulink url="https://github.com/bluesabre/menulibre/wiki/Usage">MenuLibre</ulink> online documentation.</para></note>
         </section>
     </section>
-    <section id="Desktop">
+    <section id="desktop">
         <title>Desktop</title>
 
         <para>The desktop is visible once you login to your account and its background is also present on the login and lock screens. To access customization options, open the <application>Desktop settings</application> dialog, which is also accessible by right-clicking a blank area of the desktop and selecting <application>Desktop Settings</application> from the context menu.</para>
 
-        <section id="Background">
+        <section id="background">
             <title>Background</title> [icon placeholder]
 
             <para>Once the <application>Desktop</application> settings dialog is launched, the Background tab gives you options to choose between a wallpaper image, a color gradient, a single color, or a combination of wallpaper(s) and color(s) as the desktop background.</para>
@@ -152,7 +152,7 @@
         </section>
         
 
-        <section id="Icons">
+        <section id="icons">
             <title>Icons</title> 
 
             <para>In the Icons tab of the Desktop settings dialog you can set the properties of the icons that appear on the desktop, including their sizes, sort arrangement, label font size, click activation behavior, whether or not they should have tooltips and thumbnails, and which system icons appear by default. The Icon type dropdown list gives you the option to have desktop icons for files and launchers, minimized application windows, or no icons at all.</para>
@@ -160,7 +160,7 @@
         </section>
         
 
-        <section id="Menus">
+        <section id="menus">
             <title>Menus</title> 
 
             <para>The Menus tab of the Desktop settings dialog provides customization options for the two menus that can appear when using the mouse.</para>
@@ -174,7 +174,7 @@
             </itemizedlist>
         </section>
     </section>
-        <section id="Theming">
+        <section id="theming">
             <title>Theming</title>
 
             <para>A desktop theme is used to change the look and feel of the GUI (Graphical User Interface) and can consist of many things, including the desktop wallpaper, user interface styling and colors, fonts, icons, and sounds. In Xubuntu, you may change many of these individual components, so your desktop can be as unique as you like it to be.</para>
@@ -192,7 +192,7 @@
             </itemizedlist>
         </section>
 
-            <section id="UI Controls and Icons">
+            <section id="ui-controls-and-icons">
                 <title>UI Controls and Icons</title> [icon placeholder]
 
                 <para>Open the Appearance settings dialog and you will be on the Style tab which will allow you to set your UI (User Interface) controls theme by selecting an entry in the list. If you switch to the Icons tab you will be able to set your icon theme by selecting an entry in the list. The Fonts tab will allow you to set the default font used for UI text, as well as setting font rendering options. The Settings tab has options to enable and disable images in menus and on buttons, as well as change how toolbar entries are styled.</para>
@@ -201,7 +201,7 @@
             </section>
             
 
-            <section id="Window Decorations and Effects">
+            <section id="window-decorations-and-effects">
                 <title>Window Decorations and Effects</title> [icon placeholder]
 
                 <para>Once you open the <application>Window Manager</application> settings dialog, you will be on the Style tab which will allow you to set the window decoration theme, as well as customize the various elements of the title bar. This includes the alignment and font size used in the title bar text and the arrangement and visibility of the title bar buttons.</para>
@@ -212,7 +212,7 @@
             </section>
             
 
-            <section id="More Themes">
+            <section id="more-themes">
                 <title>More Themes</title>
 
                 <para>If the default selection of themes doesn't satisfy you, you can easily download and install new themes. Sometimes window decoration and UI control themes will come bundled together as a single Gtk theme, while Icon themes may also include a mouse cursor theme.</para> 
@@ -240,7 +240,7 @@
                 </itemizedlist>
             </section>
             
-            <section id="Installing Themes">
+            <section id="installing-themes">
                 <title>Installing Themes</title>
 
                 <para>If you install new themes from the repositories, or through a .deb Debian package file, they will automatically appear in the relevant lists. If you download a theme from the Internet, you will need to install the theme before it will appear in the relevant list.</para>
