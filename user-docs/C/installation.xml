@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
+%xubuntu-common;
+<!ENTITY % xubuntu-user SYSTEM "../libs/xubuntu-user.ent">
+%xubuntu-user;
+<!ENTITY % xinclude SYSTEM "../../libs-common/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+<chapter id="installation">
+	<title>Installation</title>
+
+	<section id="preparation">
+		<title>Preparation</title>
+
+		<section id="prerequisites">
+			<title>Prerequisites</title>
+			<para>Visit the <ulink url="&xubuntu-web-requirements;">System Requirements</ulink> page to ensure that your
+            computer meets the necessary hardware requirements to install and run Xubuntu. In general, Xubuntu will run on
+            most computers (PC or Mac) that were built since 2007 and shipped with an OS (Operating System) like Windows XP
+            and Mac OS X 10.5 or higher.</para>
+			<note><para>If you are installing Xubuntu on a laptop, it is recommended to keep your laptop plugged in during the
+            installation, in order to prevent a sudden power loss which can cause a corrupted system. If you are running
+            Windows 10 and have Intel's RST (Rapid Storage Technology) running, you will need to
+            <ulink url="&ubuntu-help-rst;">turn it off</ulink> before installation.</para></note>
+		</section>
+
+		<section id="download-the-iso">
+			<title>Download the ISO</title>
+			<para>Visit the <ulink url="&xubuntu-web-download;">Download</ulink> page to download the ISO image for your selected edition of Xubuntu. If you prefer stability, it is recommended to download the LTS (Long Term Support) release, which is supported for 3 years. The ISO file can be downloaded with a BitTorrent client, such as <ulink url="&download-transmission;">Transmission</ulink> or <ulink url="&download-qbittorrent;">qBittorrent</ulink>, or through your browser from one of the many global mirror servers.</para>
+		</section>
+
+		<section id="write-the-iso">
+			<title>Write the ISO</title>
+			<para>The ISO file needs to be written to a bootable medium, like a USB flash drive, an SD memory card or a DVD optical disk.</para>
+
+		   <section id="write-to-usb-or-sd">
+			   <title>Write to USB or SD</title>
+			   <para>If you have a USB stick or an SD card with 2 GB of storage or more, you can use one of these apps to write the ISO file: <ulink url="&download-rufus;">Rufus</ulink> (Windows), <ulink url="&download-etcher;">Etcher</ulink> (Windows, Mac, Linux), <ulink url="&download-gdisks;">Gnome Disks</ulink> (<ulink url="apt://gnome-disk-utility">apt-install</ulink>). For more information on how to write the ISO to USB or SD, please see these guides for <ulink url="&ubuntu-tutorial-usb-win;">Windows</ulink>, <ulink url="&ubuntu-tutorial-usb-mac;">Mac</ulink> or <ulink url="&ubuntu-tutorial-usb-lin;">Linux</ulink>.</para>
+		   </section>
+
+		   <section id="write-to-dvd">
+			   <title>Write to DVD</title>
+			   <para>If you have a blank DVD disk and a DVD writer drive, you can burn the ISO with one of these apps, if your operating system doesn’t have the built-in capabilities to do so: <ulink url="&download-infrarecorder;">InfraRecorder</ulink> (Windows), <ulink url="&download-brasero;">Brasero</ulink> (<ulink url="apt://brasero">apt-install</ulink>), <ulink url="&download-xfburn;">Xfburn</ulink> (<ulink url="apt://xfburn">apt-install</ulink>). For more information on how to burn the ISO to a DVD, please see these guides for <ulink url="&ubuntu-tutorial-dvd-win;">Windows</ulink>, <ulink url="&ubuntu-tutorial-dvd-mac;">Mac</ulink> or <ulink url="&ubuntu-tutorial-dvd-lin;">Linux</ulink>.</para>
+		   </section>
+		</section>
+
+		<section id="backup-data">
+			<title>Backup Data</title>
+			<para>If you plan to install Xubuntu alongside an existing OS, it is recommended to back up the data of the existing
+            OS as a precaution in case something goes wrong. You can back up the data files to an external USB drive and/or
+            to a secondary hard drive on your computer.</para>
+		</section>
+	</section>
+
+	<section id="booting">
+		<title>Booting</title>
+
+		<section id="bios-uefi-considerations">
+			<title>BIOS / UEFI Considerations</title>
+			<para>Some computers may require additional configuration before the Xubuntu installation medium can be booted. Please refer to this section if you are unable to boot into the installer or if your hardware is not properly detected.</para>
+			<para>Warning: This is an advanced computer feature and should only be attempted with caution. <keycap>F2</keycap> and <keycap>Del</keycap> are common keys to access the BIOS settings.</para>
+			<itemizedlist>
+				<listitem><para>Intel RST</para></listitem>
+				<listitem><para><ulink url="&booting-secure-boot;">Secure Boot</ulink> / <ulink url="&booting-boot-menu;">Windows 8/10</ulink> / <ulink url="&booting-fast-boot;">Fast Boot</ulink> / <ulink url="&booting-fast-startup;">Fast Startup</ulink></para></listitem>
+				<listitem><para>macOS T.2 Security</para></listitem>
+			</itemizedlist>
+		</section>
+
+		<section id="starting-the-bootable-medium">
+			<title>Starting the Bootable Medium</title>
+			<para>[image placeholder]</para>
+			<para>Insert the bootable medium into the respective device (the USB drive in a USB port, the SD card in the SD card reader or the DVD disk in the DVD drive) and restart your computer. If your computer is set to first boot from the bootable medium of your choice, then the medium will automatically boot. If it doesn’t start automatically, please refer to the computer manufacturer’s documentation for entering the boot menu. This could consist of pressing a key, such as <keycap>F12</keycap>, or using a dedicated button on the computer. In some cases, you may need to boot into Windows to access the BIOS. Once you have entered the boot menu, select the appropriate boot medium device.</para>
+			<note><para>The key to press for your computer’s boot menu will depend on the manufacturer of the computer or motherboard. <keycap>F12</keycap> is the most common boot menu key, but other common alternative keys are <keycap>Escape</keycap> and <keycap>F10</keycap>. Less common keys include <keycap>F11</keycap>, <keycap>F9</keycap>, and <keycap>F8</keycap>. If your computer is not capable of booting through USB, but has a CD or DVD drive, you can utilize <ulink url="&booting-plop;">PLoP</ulink>.</para></note>
+		</section>
+
+		<section id="booting-the-installer">
+			<title>Booting the Installer</title>
+			<para>Once the bootable media starts, a blank screen will appear with a keyboard and accessibility icons [image placeholder]. At this point, you have 5 seconds to press any key to access the installer boot menu, if you wish to. The boot menu will initially present a language selection menu, followed by a simple menu with options to install or try Xubuntu, test memory, boot from the hard disk, as well as other options accessible by pressing the <keycap>F1</keycap> through <keycap>F6</keycap> keys (for more information about the Fn keys options, <ulink url="&booting-fn-keys;">click here</ulink>).</para>
+			<para>[images placeholder]</para>
+		</section>
+
+		<section id="integrity-check">
+			<title>Integrity Check</title>
+			<para>After the initial boot screen, releases of Xubuntu 20.04 and later default to checking the integrity of the install media, which can be skipped by pressing <keycap>Ctrl + C</keycap>. This check is important as it is common for corrupted installation media to cause failed installations.</para>
+			<note><para>If you get a black screen after the integrity check, reboot your system and select one of the <guilabel>safe graphics</guilabel> options in the GRUB menu.</para></note>
+			<para>[images placeholder]</para>
+		</section>
+	</section>
+
+	<section id="installer">
+		<title>Installer</title>
+
+		<section id="welcome-screen">
+			<title>Welcome Screen</title>
+			<para>You will be greeted with the installer’s welcome screen when the installer begins. There you can select the language of the installer from the list on the left and press the <guibutton>Install Xubuntu</guibutton> button to begin the installation process.</para>
+			<para>[image placeholder]</para>
+			<note><para>If you selected one of the <guilabel>Try Xubuntu ...</guilabel> entries in the installer boot menu or the <guibutton>Try Xubuntu</guibutton> button on the welcome screen, you can start or restart the installer by clicking the <guilabel>Install Xubuntu</guilabel> desktop icon.</para></note>
+		</section>
+
+		<section id="initial-steps">
+			<title>Initial Steps</title>
+			<para>The next screen of the installer will be the <guilabel>Keyboard layout</guilabel> screen. There you can select your keyboard layout, if it wasn’t correctly detected. If you are unsure of your keyboard layout, you may press the <guilabel>Detect Keyboard Layout</guilabel> button to go through a brief configuration procedure and test that the layout works as intended in the keyboard test field. Click the <guilabel>Continue</guilabel> button to proceed.</para>
+			<para>If you are not connected to the internet but your computer has Wi-Fi, you will see the <guilabel>Wireless</guilabel> screen, where you can either connect to one of the available networks or continue without connecting.</para>
+			<para>After clicking the <guibutton>Continue</guibutton> button, you will arrive at the <guilabel>Updates and other software</guilabel> screen. There you have the options to download updates during the installation, if you have an internet connection, and whether to install third-party software, like the Nvidia graphics card driver and multimedia codecs for playing media files. It is recommended to have both of them checked.</para>
+			<para>[images placeholder]</para>
+			<para></para>
+		</section>
+
+		<section id="disk-space-allocation">
+			<title>Disk Space Allocation</title>
+			<para>The next screen of the installer is the <guilabel>Installation type</guilabel> screen, which will vary in its list of installation and reinstallation options depending on which operating system(s) are currently on your hard disk. Regular users are recommended to choose either <guilabel>Erase disk and install Xubuntu</guilabel>, to completely wipe the disk and install Xubuntu as the only OS, or <guilabel>Install Xubuntu alongside [OS]</guilabel>, to create a dual boot setup with Xubuntu and an existing operating system ([OS] is the existing OS, e.g. Microsoft Windows XP Professional in the screenshot). Advanced users can choose the <guilabel>Something else</guilabel> option, which gives them the ability to create, format, delete and assign partitions.</para>
+			<para>If you choose to install Xubuntu alongside another existing operating system, you will be given the option to adjust how much hard disk space Xubuntu will use after you click the <guibutton>Continue</guibutton> button.</para>
+			<para>[images placeholder]</para>
+		</section>
+
+		<section id="disk-changes-confirmation">
+			<title>Disk Changes Confirmation</title>
+			<para>When clicking the <guibutton>Install Now</guibutton> button, the installer will show a confirmation dialog before it makes non-reversible changes to your hard disk's partitions and data. Read the changes carefully and, if you agree, click the <guibutton>Continue</guibutton> button.</para>
+			<para>[images placeholder]</para>
+		</section>
+
+		<section id="select-your-location">
+			<title>Select Your Location</title>
+			<para>The next screen of the installer will be the <guilabel>Where are you?</guilabel> screen. There you can type the name of the town or city in the text field or click on the map to select your time zone. If you are connected to the internet, your location will be automatically detected. Click the <guibutton>Continue</guibutton> button to proceed.</para>
+		</section>
+
+		<section id="login-details">
+			<title>Login Details</title>
+			<para>At the <guilabel>Who are you?</guilabel> screen, once you enter your name, a computer name and username will be automatically suggested. You can change both as you prefer. The computer name, aka hostname, is the name your computer will have when it appears on the network, while the username will be your login and account name.</para>
+			<para>Next, enter a password, which will be evaluated, yielding a grade of 'short', 'weak', 'fair', 'good' or 'strong'. A strong password is one with a minimum of 8 characters, containing a mixture of uppercase letters, lowercase letters, numbers and symbols. It is highly recommended to use a strong password. You then have the option to select whether your computer will require you to type your password to log in when you first turn it on or have it log in automatically. You will always be required to type your password if you lock your computer or if the screen times out due to inactivity.</para>
+			<para>[images placeholder]</para>
+			<note><para>It is recommended to store your passwords in a password manager application, like <ulink url="&download-keepassxc;">KeePassXC</ulink> (<ulink url="apt://keepassxc">apt-install</ulink>) or <ulink url="&download-bitwarden;">Bitwarden</ulink>, which can also generate passwords for you.</para></note>
+		</section>
+
+		<section id="background-installation">
+			<title>Background Installation</title>
+			<para>The installer will now begin installing Xubuntu in the background. While this is happening, installation slides will teach you a little bit more about Xubuntu, its support channels and community.</para>
+			<para>[images placeholder]</para>
+		</section>
+
+		<section id="installation-completion">
+			<title>Installation Completion</title>
+			<para>After all the files have been copied to the hard disk and the configurations have been set, a dialog window will appear asking to restart the computer. Click the <guibutton>Restart Now</guibutton> button and you will be prompted to remove the installation medium and press Enter to restart.</para>
+			<para>[images placeholder]</para>
+		</section>
+
+	</section>
+
+	<section id="conclusion">
+		<title>Conclusion</title>
+		<para>Congratulations! You have successfully installed Xubuntu and now it’s time to start enjoying it. Once the computer restarts, you will either be automatically started into Xubuntu and see the login screen or, if you have multiple operating systems installed on your hard disk, the GRUB boot menu, which lets you choose between starting Xubuntu or another installed OS.</para>
+	</section>
+
+</chapter>
