@@ -8,7 +8,7 @@
 git checkout docs-refresh
 ```
 3. Make your changes and commit.
-4. Submit a pull request with your changes.
+4. Submit a pull request with your changes. The pull request should be against the `docs-refresh` branch.
 5. Make adjustments as needed until the tests pass. Pull requests with failing tests will not be considered. Please see the _Running Tests_ section below for instructions on running the tests on your own machine.
 6. Mark updated files as completed in this file.
 
