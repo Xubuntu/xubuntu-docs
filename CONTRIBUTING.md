@@ -1,5 +1,9 @@
 # Contributing
 
+## What is this?
+
+The `docs-refresh` branch of `xubuntu-docs` is our development branch for the new and improved user documentation. Xubuntu's documentation is written in an XML format known as [DocBook](https://docbook.org/). DocBook allows us to write the documentation once and distribute as HTML and PDF. While it is admittedly difficult to write and format, the benefits outweigh the difficulty. To make the documentation easier to write and collaborate on, we drafted the updates in [Google Drive](https://drive.google.com/drive/folders/10nsLPokttFjG9g4x4mLBYNkTyO0izy5H). Now we need your help to move the documentation back into valid DocBook format.
+
 ## Getting Started
 
 1. Fork xubuntu-docs to your own repository.
