@@ -1,13 +1,21 @@
 # Contributing
 
-Please see [Google Drive](https://drive.google.com/drive/folders/10nsLPokttFjG9g4x4mLBYNkTyO0izy5H) for the documents to convert. Updated and newly added files will be found in the `user-docs/C` directory.
+## Getting Started
 
-Mark files complete once all content and images are included and GitHub actions run successfully.
-
-Make sure you're on the right branch!
+1. Fork xubuntu-docs to your own repository.
+2. Checkout the `docs-refresh` branch:
 ```
 git checkout docs-refresh
 ```
+3. Make your changes and commit.
+4. Submit a pull request with your changes.
+5. Make adjustments as needed until the tests pass.
+6. Mark updated files as completed in this file.
+
+## Notes
+- Please see [Google Drive](https://drive.google.com/drive/folders/10nsLPokttFjG9g4x4mLBYNkTyO0izy5H) for the documents to convert. Updated and newly added files will be found in the `user-docs/C` directory.
+- Mark files complete once all content and images are included and GitHub actions run successfully.
+- Make sure you're starting from the right branch!
 
 ## Google Drive
 - [ ] [0. Homepage](https://docs.google.com/document/d/1Aj_Wdj9Uq62Ju0bvjhz15NVdaI_SaAMo8xqdU9s67YE/edit?usp=sharing) (0%, `startpage/index.html`)
