@@ -17,16 +17,16 @@
     <para>Xubuntu comes with a collection of preinstalled applications curated by the Xubuntu team which are accessible from the &appmenu; <guibutton>Applications Menu</guibutton> (<keycap>Ctrl + Escape</keycap>) as well as the <application>Application Finder</application> (<keycap>Alt + F3</keycap> or <keycap>Super + R</keycap>).</para>
 
     <section id="favorites">
-        <title>Favorites [icon placeholder]</title>
+        <title>Favorites &icon-favorites;</title>
 
         <para>By default, Xubuntu displays a number of commonly used applications in the <guilabel>Favorites</guilabel> category of the &appmenu; <guibutton>Applications Menu</guibutton>. These applications include the software manager, word processor, and help documentation, as well as the default web browser and file manager. To add or remove entries from the <guilabel>Favorites</guilabel> category, right-click on an application entry and select the <guilabel>Add to Favorites</guilabel> or <guilabel>Remove from Favorites</guilabel> entry in the context menu.</para>
 
         <note><para>To change the default web browser, mail reader, file manager, terminal emulator and more, open the <application>Default Applications</application> app.</para></note>
-    
+
     </section>
 
     <section id="accessories">
-        <title>Accessories [icon placeholder]</title>
+        <title>Accessories &icon-accessories;</title>
 
         <para>[icon placeholder] <application>Catfish</application> is a file search utility that is able to locate files by name, text content and more. It provides external search capability to the <application>Thunar</application> file manager.</para>
 
@@ -47,9 +47,9 @@
         <para>Alternatives: Galculator (<ulink url="apt://galculator">install</ulink>), Gnome Calculator (<ulink url="apt://gnome-calculator">install</ulink>), Speedcrunch (<ulink url="apt://speedcrunch">install</ulink>)</para>
 
         <para>[icon placeholder] <application>Mousepad</application> is a simple text editor with features for displaying line numbers and white space, word wrapping, source code syntax highlighting, etc.</para>
-        
+
         <para>Links: <ulink url="&mousepad-web;">Website</ulink>, <ulink url="&mousepad-don;">Documentation</ulink></para>
-        
+
         <para>Alternatives: Pluma (<ulink url="apt://pluma">install</ulink>), GEdit (<ulink url="apt://gedit">install</ulink>), Geany (<ulink url="apt://geany">install</ulink>), <ulink url="&vscode;">Visual Studio Code</ulink></para>
 
         <para>[icon placeholder] <application>Screenshot</application> is a screen capture utility that lets you capture the entire screen, an active application window, or a region of the screen.</para>
@@ -61,38 +61,38 @@
     </section>
 
     <section id="games">
-        <title>Games [icon placeholder]</title>        
+        <title>Games &icon-games;</title>
 
         <para>[icon placeholder] <application>Mines</application> is a single-player puzzle game where you locate mines floating in an ocean with the help of clues about the number of neighboring mines in the area. Clicking on a square reveals what is under it: either empty ocean or a mine. If you click on a mine, the game is over.</para>
 
         <para>[icon placeholder] <application>SGT Puzzles Collection</application> is a set of over 30 unique single-player puzzle games. The games are designed to be played in a few short minutes, while taking a break or looking to pass the time.</para>
-        
+
         <para>Links: <ulink url="&sgtlauncher;">Website</ulink>, <ulink url="&bluesabre-don;">Donate</ulink></para>
 
         <para>[icon placeholder] <application>Sudoku</application> is a Japanese logic-based puzzle game. The objective is to fill a 9×9 grid with the numbers 1 to 9 so that each column, row, and each of the 3×3 subgrids contain all of the digits from 1 to 9. Each game starts with a partially completed grid, with many games having only a single solution.</para>
     </section>
 
     <section id="graphics">
-        <title>Graphics [images placeholder]</title>
+        <title>Graphics &icon-graphics;</title>
 
         <para>[icon placeholder] <application>Document Scanner</application>, also known as Simple Scan, is a utility to scan text or images/photographs and save them to an image or PDF file.</para>
 
         <para>[icon placeholder] <application>GIMP (GNU Image Manipulation Program)</application> is an image editing application for enhancing and retouching photos, free-from drawing, as well as image format conversion.</para>
 
         <para>Links: <ulink url="&gimp-web;">Website</ulink>, <ulink url="&gimp-doc;">Documentation</ulink>, <ulink url="&gimp-don;">Donate</ulink></para>
-        
+
         <para>Alternatives: Krita (<ulink url="apt://krita">install</ulink>), MyPaint (<ulink url="apt://mypaint">install</ulink>), <ulink url="&photoshop;">Adobe Photoshop</ulink></para>
 
         <para>[icon placeholder] <application>Ristretto</application> is an image viewer with basic editing features, slideshow capabilities, and the ability to set an image as the desktop wallpaper.</para>
-    
+
         <para>Links: <ulink url="&ristretto-web;">Website</ulink>, <ulink url="&ristretto-doc;">Documentation</ulink></para>
-    
+
         <para>Alternatives: Eye of Mate (<ulink url="apt://eom">install</ulink>), gThumb (<ulink url="apt://gthumb">install</ulink>), Gpicview (<ulink url="apt://gpicview">install</ulink>), nomacs (<ulink url="apt://nomacs">install</ulink>)</para>
-    
+
     </section>
 
     <section id="internet">
-        <title>Internet [icon placeholder]</title>
+        <title>Internet &icon-internet;</title>
 
         <para>[icon placeholder] <application>Firefox</application> is a mature and stable web browser which can be extended with a wide variety of add-ons.</para>
 
@@ -107,19 +107,19 @@
         <para>Alternatives: Telegram (<ulink url="apt://telegram-desktop">install</ulink>), Empathy (<ulink url="apt://empathy">install</ulink>), <ulink url="&skype;">Skype</ulink>, <ulink url="&zoom;">Zoom</ulink></para>
 
         <para>[icon placeholder] <application>Thunderbird</application> is a versatile mail client which can handle multiple email accounts and different identities simultaneously. Like Firefox, it can also be enhanced with add-ons to extend its functionality.</para>
-        
+
         <para>Links: <ulink url="&thunder-web;">Website</ulink>, <ulink url="&thunder-doc;">Documentation</ulink>, <ulink url="&thunder-don;">Donate</ulink></para>
 
         <para>Alternatives: Geary (<ulink url="apt://geary">install</ulink>), Claws Mail (<ulink url="apt://claws-mail">install</ulink>), Evolution (<ulink url="apt://evolution">install</ulink>), Sylpheed (<ulink url="apt://sylpheed">install</ulink>)</para>
 
         <para>[icon placeholder] <application>Transmission</application> is a simple BitTorrent client for downloading and sharing files which also provides a web interface.</para>
 
-        <para>Alternatives: qBittorrent (<ulink url="apt://qbittorrent">install</ulink>), Deluge (<ulink url="apt://deluge">install</ulink>), <ulink url="&tixati;">Tixati</ulink>, <ulink url="&fragments;">Fragments</ulink></para> 
+        <para>Alternatives: qBittorrent (<ulink url="apt://qbittorrent">install</ulink>), Deluge (<ulink url="apt://deluge">install</ulink>), <ulink url="&tixati;">Tixati</ulink>, <ulink url="&fragments;">Fragments</ulink></para>
 
     </section>
-        
+
     <section id="multimedia">
-        <title>Multimedia [icon placeholder]</title>
+        <title>Multimedia &icon-multimedia;</title>
 
         <para>[icon placeholder] <application>Parole</application> is a simple media player that can play video and audio files.</para>
 
@@ -136,27 +136,27 @@
     </section>
 
     <section id="office">
-        <title>Office [icon placeholder]</title>
+        <title>Office &icon-office;</title>
 
         <para>[icon placeholder] <application>Atril</application> is a document reader that is capable of opening multiple-page document files, such as PDF, XPS, ePub, and Comic Books.</para>
 
         <para>Alternatives: Evince (<ulink url="apt://evince">install</ulink>), Okular (<ulink url="apt://okular">install</ulink>), Zathura (<ulink url="apt://zathura">install</ulink>)</para>
 
         <para>[icon placeholder] <application>LibreOffice</application> is an office suite which has programs for word processing (Writer), spreadsheets (Calc), presentations (Impress), diagrams (Draw), mathematical formulae (Math) and databases. It is a continuation of Open Office.</para>
-        
+
         <para>Alternatives: <ulink url="&ms-office;">Microsoft Office</ulink>, <ulink url="&wps-office;">WPS Office</ulink>, <ulink url="&free-office;">Free Office</ulink>, <ulink url="&only-office;">OnlyOffice</ulink>, GOffice (Abiword, Gnumeric)</para>
-        
+
     </section>
-    
+
     <section id="settings">
-        <title>Settings [icon placeholder]</title>
-        
+        <title>Settings &icon-settings;</title>
+
         <para>Applications listed in this category are also present and organized in &settings; <application>Settings Manager</application> and include applications to adjust hardware preferences, manage software, change the look and feel of the UI (User Interface), and configure login settings.</para>
-        
+
     </section>
-        
+
     <section id="system">
-        <title>System [icon placeholder]</title>
+        <title>System &icon-system;</title>
 
         <para>[icon placeholder] <application>Gigolo</application> is an easy way to connect to local and remote file systems, such as FTP or SFTP (SSH) connections and SMB (windows shares).</para>
 

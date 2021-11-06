@@ -23,13 +23,13 @@ git checkout docs-refresh
 
 ## Google Drive
 - [ ] [0. Homepage](https://docs.google.com/document/d/1Aj_Wdj9Uq62Ju0bvjhz15NVdaI_SaAMo8xqdU9s67YE/edit?usp=sharing) (0%, `startpage/index.html`)
-- [ ] [1. Welcome](https://docs.google.com/document/d/1KpmN_tCOHaDwQgNtqyyt6DqZ7M0xSMCNTadORcY_Whw/edit?usp=sharing) (90%, `user-docs/C/index.xml`, image placeholders)
+- [x] [1. Welcome](https://docs.google.com/document/d/1KpmN_tCOHaDwQgNtqyyt6DqZ7M0xSMCNTadORcY_Whw/edit?usp=sharing) (100%, `user-docs/C/index.xml`)
 - [ ] [2. Credits and License](https://docs.google.com/document/d/17v09cwXQLc-xs06inNz0KnEgllleUaJDPg4kV0dHF9Q/edit?usp=sharing) (0%)
 - [ ] [3. Appendix B - Creative Commons](https://docs.google.com/document/d/1zkAFZHw1d3OOgx3C2Bxjr4VduVKho423k0fnCWLc6XI/edit?usp=sharing) (0%)
 - [ ] [Chapter 1. What is Xubuntu?](https://docs.google.com/document/d/1kkq51aJLT-BdCogUS4INhrR4e_IRgLT7YlUAWL32m4g/edit?usp=sharing) (90%, `user-docs/C/what-is-xubuntu.xml`, correct image alignment, fix image transparency)
 - [ ] [Chapter 2. Installation](https://docs.google.com/document/d/1EWQkW0aP6pk0LrSVlwFk8F2SIJietHNzX9g2Z34fbhE/edit?usp=sharing) (90%, `user-docs/C/installation.xml`, image placeholders)
 - [ ] [Chapter 3. Introduction](https://docs.google.com/document/d/1wlzxgu3yUiLnUd5zoU0MgpI4x1spOo9N1F1wuuzVdl0/edit?usp=sharing) (0%, `user-docs/C/introduction.xml`)
-- [ ] [Chapter 4. Default Applications](https://docs.google.com/document/d/1igFIwL0kRnxu3aAUC-yJeGJfDK1LVKYx24u6NXtw2gs/edit?usp=sharing) (90%, `user-docs/C/guide-default-apps.xml`, image placeholders and layout)
+- [ ] [Chapter 4. Default Applications](https://docs.google.com/document/d/1igFIwL0kRnxu3aAUC-yJeGJfDK1LVKYx24u6NXtw2gs/edit?usp=sharing) (91%, `user-docs/C/guide-default-apps.xml`, image placeholders and layout)
 - [ ] [Chapter 5. Software Management](https://docs.google.com/document/d/1baVr_9CUEHd2c8y0_W0INc20c8LAKS8PNJknJnS8NpM/edit?usp=sharing) (90%, `user-docs/C/software-management.xml`, image placeholders)
 - [ ] [Chapter 6. Settings - Personalization](https://docs.google.com/document/d/1WC4y48PRXpjSUo8dAZHSgmN4BvnKK4LBkrjPWJDz848/edit?usp=sharing) (0%)
 - [ ] [Chapter 7. Settings - Hardware](https://docs.google.com/document/d/17ns9RcfTP98F2tD1X8sWF3bbOteQ0b4zUTstD0Ux8Lo/edit?usp=sharing) (0%)
