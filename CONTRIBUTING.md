@@ -4,6 +4,11 @@ Please see [Google Drive](https://drive.google.com/drive/folders/10nsLPokttFjG9g
 
 Mark files complete once all content and images are included and GitHub actions run successfully.
 
+Make sure you're on the right branch!
+```
+git checkout docs-refresh
+```
+
 ## Google Drive
 - [ ] [0. Homepage](https://docs.google.com/document/d/1Aj_Wdj9Uq62Ju0bvjhz15NVdaI_SaAMo8xqdU9s67YE/edit?usp=sharing) (0%, `startpage/index.html`)
 - [ ] [1. Welcome](https://docs.google.com/document/d/1KpmN_tCOHaDwQgNtqyyt6DqZ7M0xSMCNTadORcY_Whw/edit?usp=sharing) (90%, `user-docs/C/index.xml`, image placeholders)
