@@ -3,8 +3,6 @@ name: Build and Deploy
 on:
   push:
     branches: [ master, docs-refresh ]
-  pull_request:
-    branches: [ master, docs-refresh ]
 
 jobs:
   build-and-deploy:
