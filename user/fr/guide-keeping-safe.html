@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Chapitre 11. Protégez votre ordinateur et vos informations personnelles</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Documentation de Xubuntu" />
+    <link rel="up" href="index.html" title="Documentation de Xubuntu" />
+    <link rel="prev" href="offline-packages.html" title="Chapitre 10. Gestion des paquets hors ligne" />
+    <link rel="next" href="hardware-devices.html" title="Chapitre 12. Périphériques matériels" />
+    <link rel="copyright" href="credits-license.html" title="Remerciements et licence" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div xml:lang="fr" class="chapter" lang="fr">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="guide-keeping-safe"></a>Chapitre 11. Protégez votre ordinateur et vos informations personnelles</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>Table des matières</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="section">
+              <a href="guide-keeping-safe.html#keep-software-uptodate">Maintenir vos logiciels à jour</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="guide-keeping-safe.html#passwords">Mots de passe</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="guide-keeping-safe.html#good-online-security">Conseils pour une bonne sécurité en ligne</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="guide-keeping-safe.html#backup-regularly">Sauvegardez régulièrement</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="guide-keeping-safe.html#safety-encryption">Pensez au chiffrement</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="guide-keeping-safe.html#shared-environment">Utilisation de votre ordinateur dans un environnement partagé</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <p>Garder votre ordinateur et vos informations personnelles à l'abri des menaces de sécurité est l'un des aspects les plus importants en informatique aujourd'hui. Ce guide a pour but de vous aider à atteindre un niveau de sécurité plus élevé. Faites particulièrement attention aux sous-sections suivantes :</p>
+      <div class="itemizedlist">
+        <ul class="itemizedlist" style="list-style-type: disc; ">
+          <li class="listitem">
+            <p>
+              <a class="xref" href="guide-keeping-safe.html#keep-software-uptodate">Maintenir vos logiciels à jour</a>
+            </p>
+          </li>
+          <li class="listitem">
+            <p>
+              <a class="xref" href="guide-keeping-safe.html#passwords-important">Utiliser des mots de passe sûrs et uniques pour vos comptes importants</a>
+            </p>
+          </li>
+          <li class="listitem">
+            <p>
+              <a class="xref" href="guide-keeping-safe.html#script-applications-sources">N'exécutez pas de scripts ou d'applications obtenus depuis des sources inconnues</a>
+            </p>
+          </li>
+          <li class="listitem">
+            <p>
+              <a class="xref" href="guide-keeping-safe.html#clean-browser">Tenez votre navigateur propre pour vos activités sensibles</a>
+            </p>
+          </li>
+          <li class="listitem">
+            <p>
+              <a class="xref" href="guide-keeping-safe.html#email-security">N'oubliez pas d'être prudents avec vos courriels</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="keep-software-uptodate"></a>Maintenir vos logiciels à jour</h2>
+            </div>
+          </div>
+        </div>
+        <p>Les mises à jour de sécurité sont très importantes. Elles sont votre meilleure protection contre les personnes qui voudraient porter atteinte à votre ordinateur. Vous devriez les installer sans délai. Au moment où une mise à jour de sécurité est publiée, les pirates savent déjà comment violer les ordinateurs qui ne sont pas à jour. Dans les pires des cas, ils partent à la recherche de victimes à pirater avec des programmes automatiques.</p>
+        <p>Automatic security updates are enabled by default in Xubuntu. If you
+			want to change the settings for the automatic updates, go to the
+			<em class="guilabel">Updates</em> tab under <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem">Settings Manager</span> → <span class="guimenuitem">Software &amp; Updates</span></strong></span> and change
+			the settings to your liking.</p>
+        <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Warning">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Avertissement]" src="../../libs-common/images/warning.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Désactiver les mises à jour automatiques réduit le niveau de sécurité de votre ordinateur. Quand elles sont désactivées, il est essentiel de penser à le mettre à jour manuellement régulièrement.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Astuce]" src="../../libs-common/images/tip.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Si vous utilisez une connexion Internet à bande passante limitée et ne souhaitez pas utiliser les mises à jour automatiques, pensez à mettre à jour chaque fois que vous avez accès à une connexion illimitée.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="passwords"></a>Mots de passe</h2>
+            </div>
+          </div>
+        </div>
+        <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Warning">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Avertissement]" src="../../libs-common/images/warning.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Une entreprise officielle ne vous demandera jamais votre mot de passe. Si l'on vous demande votre mot de passe, effacez tout courriel qui formulerait une telle demande. Si vous êtes au téléphone, raccrochez et appelez une connaissance pour vous assurer que la connexion avec ceux qui vous ont fait la demande est bien coupée.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="passwords-important"></a>Utiliser des mots de passe sûrs et uniques pour vos comptes importants</h3>
+              </div>
+            </div>
+          </div>
+          <p>L'utilisation de mots de passe sûrs et uniques pour les comptes importants et sensibles contribue à éviter l'accès non-autorisé à vos informations personnelles, le vol d'identité et les pertes financières directes. Pensez au scénario suivant :</p>
+          <div class="orderedlist">
+            <ol class="orderedlist" type="1">
+              <li class="listitem">
+                <p>Alice utilise des mots de passe identiques pour ma-banque-de-confiance.com et pour blogue-mal-sécurisé.com</p>
+              </li>
+              <li class="listitem">
+                <p>blogue-mal-sécurisé.com est piraté. Les informations personnelles d'Alice et ses mots de passe sont volés</p>
+              </li>
+              <li class="listitem">
+                <p>Les pirates ont maintenant accès au compte en banque d'Alice et lui volent son argent</p>
+              </li>
+            </ol>
+          </div>
+          <p>La réutilisation de mots de passe peut tourner au désastre. Vous devriez faire attention à utiliser des mots de passe uniques et sûrs pour les services suivants :</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p><span class="emphasis"><em>Comptes de messagerie</em></span>. Les comptes de messagerie peuvent être utilisés pour réinitialiser tous vos autres mots de passe via les liens « Mot de passe oublié » qu'on trouve sur tous les sites web.</p>
+              </li>
+              <li class="listitem">
+                <p><span class="emphasis"><em>Gestionnaires de clés et de mots de passe</em></span>. Il est important d'avoir un bon mot de passe pour ces services, dans la mesure où ils vous permettent d'éviter d'avoir à saisir de nombreux autres mots de passe !</p>
+              </li>
+              <li class="listitem">
+                <p><span class="emphasis"><em>Comptes de services financiers</em></span>, y compris PayPal et autres sites de paiement. Si quelqu'un a accès à ces comptes, il pourra voler votre argent.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="passwords-strong"></a>Qu'est-ce qu'un mot de passe fort ?</h3>
+              </div>
+            </div>
+          </div>
+          <p>La force d'un mot de passe varie selon la difficulté qu'aura un pirate à le deviner. Les pirates utilisent des programmes spéciaux qui peuvent faire des millions d'essais par seconde. Les mots de passe faibles n'ont donc aucune chance.</p>
+          <p>Certains mots de passe (comme <code class="literal">singe</code>, <code class="literal">motdepasse</code>, <code class="literal">test</code>, <code class="literal">123456</code>) sont extrêmement communs. Si vous utilisez un de ces mots de passe, vos comptes pourront être piratés facilement. Ajouter des lettre majuscules, des chiffres ou des symboles n'est souvent pas suffisant pour rendre un mot de passe plus sûr. Cela s'explique par le fait que beaucoup de gens choisissent les mêmes chiffres ou symboles additionnels (par exemple,  <code class="literal">singe1</code> est plus fréquent que <code class="literal">si5nge</code> et également plus fréquent que <code class="literal">singe aspirateur</code>).</p>
+          <p>Il est préférable de choisir un mot de passe long, comme par exemple une phrase de passe (par exemple <code class="literal">cheval correct batterie stable</code>, plutôt qu'un mot de passe qui serait à la fois difficile à retenir et facile à casser. Vous pouvez envisager une série de mot communs que vous pouvez retenir facilement. Ne choisissez pas des mots que les gens autour de vous associeraient facilement à votre personne (par exemple, vous ne devriez pas choisir des mots relatifs au poker si vous jouez au poker tous les jours).</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="passwords-reuse"></a>Comment réutiliser des mots de passe sans risque ?</h3>
+              </div>
+            </div>
+          </div>
+          <p>Bien qu'il ne soit pas conseillé d'utiliser le même mot de passe pour plusieurs comptes, tout le monde finit par le faire, y compris des experts en sécurité informatique. Cependant, de nombreux sites web fréquemment utilisés sont compromis par des pirates chaque année. Certains d'entre eux pourraient même vendre les mots de passes de leurs utilisateurs à des tierces parties. Chez les chercheurs en sécurité, il n'y a pas de consensus la façon de réduire le risque lié à la réutilisation de mots de passe. Cependant, vous devriez considérer ce qui suit :</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>différenciez vos mots de passe professionnels de vos mots de passe personnels ;</p>
+              </li>
+              <li class="listitem">
+                <p>évitez de réutiliser vos mots de passe sur des sites web où des pirates pourraient ternir votre réputation et sur des sites web de peu de valeur ;</p>
+              </li>
+              <li class="listitem">
+                <p>utilisez un mot de passe que vous êtes prêt à perdre sur les sites web auxquels vous accordez peu de confiance ;</p>
+              </li>
+              <li class="listitem">
+                <p>ne gaspillez pas des mots de passe sur des sites web sur lesquels vous vous connectez une fois par an. Choisissez un mot de passe au hasard et utilisez la fonction « mot de passe oublié » la fois suivante.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="passwords-when-change"></a>Quand changer de mot de passe ?</h3>
+              </div>
+            </div>
+          </div>
+          <p>Il n'est pas utile de changer vos mots de passe chaque jour. Dans beaucoup de cas, si un pirate peut voler votre mot de passe, il pourra vous le voler à nouveau.</p>
+          <p>Si vous devez changer de mot de passe, vous devez en choisir un qui est <span class="emphasis"><em>vraiment</em></span> différent du précédent. Par exemple, <code class="literal">singe5</code> n'est pas un substitut acceptable pour <code class="literal">singe4</code>. Il sera deviné très facilement par un pirate qui a déjà volé votre mot de passe précédent !</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="passwords-change-login"></a>Comment modifier votre mot de passe de connexion</h3>
+              </div>
+            </div>
+          </div>
+          <p>Pour modifier votre mot de passe, suivez les étapes ci-dessous :</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Open <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Users and Groups</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>cliquez sur votre nom d'utilisateur dans la liste ;</p>
+              </li>
+              <li class="listitem">
+                <p>cliquez sur <em class="guilabel">Modifier...</em> et ensuite sur la zone de texte <em class="guilabel">Mot de passe</em> ;</p>
+              </li>
+              <li class="listitem">
+                <p>tout d'abord, saisissez votre <em class="guilabel">mot de passe actuel</em> ;</p>
+              </li>
+              <li class="listitem">
+                <p>maintenant, vous pouvez soit</p>
+                <div class="itemizedlist">
+                  <ul class="itemizedlist" style="list-style-type: circle; ">
+                    <li class="listitem">
+                      <p>générer un mot de passe aléatoire en sélectionnant <em class="guilabel">Générer un mot de passe aléatoire</em> et en pressant ensuite sur le bouton <span class="guibutton"><strong>Générer</strong></span> ;</p>
+                    </li>
+                    <li class="listitem">
+                      <p>choisir vous-même votre nouveau mot de passe dans les champs <em class="guilabel">Nouveau mot de passe :</em> et <em class="guilabel">Confirmation :</em> ;</p>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="listitem">
+                <p>pour finir, cliquez sur <span class="guibutton"><strong>OK</strong></span> pour confirmer le changement de mot de passe.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="caution" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Caution">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Attention]" src="../../libs-common/images/caution.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Bien qu'il soit possible de se connecter à la session  Xubuntu sans fenêtre d'identification, la connexion automatique est fortement déconseillée parce qu'elle offre moins de sécurité pour votre système. Veuillez n'utiliser la connexion automatique que si vous faites confiance à toutes les personnes ayant accès à votre ordinateur.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="passwords-stolen"></a>Vérifiez occasionnellement si vos mots de passe ont été volés</h3>
+              </div>
+            </div>
+          </div>
+          <p>Des sites web comme <a class="ulink" href="https://haveibeenpwned.com/" target="_top">haveibeenpwned.com</a> peuvent vous indiquer si votre adresse électronique ou votre nom d'utilisateur apparaissent dans des bases de données de mots de passe volés. Il est conseillé de vérifier cela régulièrement. Par ailleurs, il se peut que vous entendiez parler d'un service que vous utilisez aux informations, ou que vous receviez un courriel de l'un de vos fournisseurs de services vous informant qu'ils ont été piratés. Si vous avez de bonnes raisons de croire qu'un mot de passe a été volé, vous devriez :</p>
+          <div class="orderedlist">
+            <ol class="orderedlist" type="1">
+              <li class="listitem">
+                <p>identifier tous les services pour lesquels vous avez utilisé ce mot de passe ;</p>
+              </li>
+              <li class="listitem">
+                <p>changer votre mot de passe pour tous ces services ;</p>
+              </li>
+              <li class="listitem">
+                <p>vérifier l'activité récente sur les comptes concernés (faite particulièrement attention aux mouvements financiers ; par ailleurs, les services de messagerie gardent souvent un journal de vos connexions récentes avec l'adresse IP et le lieu).</p>
+              </li>
+            </ol>
+          </div>
+          <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Warning">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Avertissement]" src="../../libs-common/images/warning.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Ne révélez <span class="emphasis"><em>jamais</em></span> vos <span class="emphasis"><em>mots de passe</em></span> à un site web tiers. Le site web indiqué plus haut ne pose pas de problème dans la mesure où il demande de renseigner une adresse électronique, une information relativement publique. Il ne demande pas de mot de passe. Les sites web qui vous demandent vos mots de passe vont très probablement les utiliser à mauvais escient.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="password-managers"></a>Que penser des gestionnaires de mots de passe ?</h3>
+              </div>
+            </div>
+          </div>
+          <p>Les gestionnaires de mots de passe sont des outils pratiques pour utiliser des mots de passe très différents sans avoir à s'en souvenir !</p>
+          <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Tip">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Astuce]" src="../../libs-common/images/tip.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Plusieurs gestionnaires de mots de passe sont disponibles dans les dépôts, comme <span class="application"><strong>KeePassX</strong></span> ou <span class="application"><strong>PaSaffe</strong></span>.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <p>Certains gestionnaires de mots de passe, comme <span class="application"><strong>KeePassX</strong></span>, peuvent synchroniser vos mots de passe sur vos divers périphériques et ordinateurs, y compris des ordinateurs Windows et OS X. Si vous décidez d'utiliser un gestionnaire de mot de passe, sachez qu'il y a des limites :</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>les gestionnaires de mot de passe en ligne peuvent également être piratés donc ne stockez pas vos mots de passe de messagerie ou de banque dans un gestionnaire de mots de passe ;</p>
+              </li>
+              <li class="listitem">
+                <p>utilisez un mot de passe mémorisable pour votre gestionnaire de mots de passes ! Si vous perdez ce mot de passe, vous pourriez bien perdre l'accès à tous vos comptes (une autre bonne raison de ne pas stocker vos mots de passe de messagerie dans votre gestionnaire de mots de passe) ;</p>
+              </li>
+              <li class="listitem">
+                <p>ne faites pas confiance à un gestionnaire mots de passe propriétaire car personne ne sait ce qu'ils font de vos mots de passe ;</p>
+              </li>
+              <li class="listitem">
+                <p>vous pouvez utiliser certains comptes de vos amis ou de votre famille ; pour ces comptes, vous pouvez indiquer à votre gestionnaire de mots de passe d'utiliser un mot de passe spécifique et mémorisable, plutôt qu'un mot de passe aléatoire.</p>
+              </li>
+            </ul>
+          </div>
+          <p>Si vous gardez en tête les conseils ci-dessus, un gestionnaire de mots de passe peut grandement vous faciliter la sécurité !</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="good-online-security"></a>Conseils pour une bonne sécurité en ligne</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="script-applications-sources"></a>N'exécutez pas de scripts ou d'applications obtenus depuis des sources inconnues</h3>
+              </div>
+            </div>
+          </div>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Installez toujours vos applications depuis les dépôts quand c'est possible.</p>
+              </li>
+              <li class="listitem">
+                <p>Quand vous exécutez un script trouvé sur un site d'aide à la résolution de problèmes ou qu'on vous a donné sur IRC, prenez le temps de le lire ou demandez à une tierce personne de vous confirmer ce que le script fait. Soyez particulièrement vigilant avec les scripts qui exigent un accès root car ils pourraient compromettre les comptes d'autres utilisateurs.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="clean-browser"></a>Tenez votre navigateur propre pour vos activités sensibles</h3>
+              </div>
+            </div>
+          </div>
+          <p>Les extensions de navigateurs web sont des outils largement utilisés par les pirates contre les utilisateurs. Ils sont particulièrement pertinents sous Linux, parce qu'ils sont compatibles avec toutes les plateformes. Une extension malicieuse pourrait voler vos mots de passe, enregistrer votre activité en ligne à des fins publicitaires, abuser de vos comptes de réseaux sociaux ou voler votre argent.</p>
+          <p>Vous pouvez prendre des mesures pour limiter les risques auxquels vous vous exposez :</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>n'installez jamais une extension qui n'est pas distribuée par le fournisseur de votre navigateur ;</p>
+              </li>
+              <li class="listitem">
+                <p>sur Firefox, utilisez un profil utilisateur séparé pour les activités sensibles telles que la banque ou les achats en ligne. Les profils utilisateur de Firefox ne partagent pas les extensions (voir <a class="ulink" href="https://support.mozilla.org/fr/kb/utiliser-gestionnaire-profils-creer-supprimer-profils" target="_top">Utiliser le gestionnaire de profils pour créer et supprimer les profils de Firefox</a>) ;</p>
+              </li>
+              <li class="listitem">
+                <p>sur Chrome et d'autres navigateurs, utilisez le mode Incognito pour les activités sensibles telles que la banque ou les achats en ligne. Incognito désactive les extensions.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="email-security"></a>N'oubliez pas d'être prudents avec vos courriels</h3>
+              </div>
+            </div>
+          </div>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>N'ouvrez pas de pièces jointes provenant d'inconnus ou si vous pensez que le contenu du courriel est incohérent ou suspect (par exemple, des factures envoyées par des personnes dont vous n'avez jamais entendu parler).</p>
+              </li>
+              <li class="listitem">
+                <p>Ne répondez pas aux courriers indésirables. Cela informerait l'expéditeur que votre adresse électronique est active et l'inciterait à vous envoyer davantage de courriers indésirables.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="firewalls"></a>Songez à un pare-feu si votre ordinateur héberge des services Internet</h3>
+              </div>
+            </div>
+          </div>
+          <p>Si vous exécutez des services Internet à destination du public, ou que votre ordinateur n'est pas sur un NAT, vous devriez envisager d'utiliser un pare-feu. La plupart des utilisateurs ne sont pas concernés par cette mesure.</p>
+          <p>Il faut savoir que les pare-feux ne sont pas très utiles avec leurs paramètres par défaut. Pensez à ce que vous souhaitez faire et configurez le pare-feu en conséquence. Les pare-feux peuvent vous protéger contre des attaques en déni de service, limiter l'accès à un service à certaines adresses IP ou inspecter et rejeter les paquets suspects. Cependant, ils ne peuvent pas vous protéger contre des menaces inconnues ou émergentes et ils ne sauraient se substituer à l'installation de mises à jour de sécurité.</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="backup-regularly"></a>Sauvegardez régulièrement</h2>
+            </div>
+          </div>
+        </div>
+        <p>Un problème que vous pouvez rencontrer à l'occasion est la perte inattendue de certains de vos travaux et paramétrages pour une raison ou pour une autre. Les causes de ces pertes de données sont nombreuses et variées ; ça peut aller de la coupure de courant à la destruction accidentelle d'un fichier. II est hautement recommandé de faire régulièrement de copies de sécurité de vos fichiers importants. De cette manière, s'il vous arrive un problème, vos données ne seront pas perdues.</p>
+        <p>Il est prudent de conserver vos copies de sauvegarde séparément de votre ordinateur, c'est à dire que vous devriez utiliser des supports de stockage qui ne soient pas reliés de manière permanente à votre ordinateur. En voici une liste non-exhaustive : CD et DVD inscriptibles, disques durs externes, disques USB et autres ordinateurs sur le réseau.</p>
+        <p>Un manière simple de sauvegarder vos fichiers est de les copier vers une destination sûre (voir ci-dessus) en utilisant le <span class="application"><strong>Gestionnaire de fichiers</strong></span> ou le <span class="application"><strong>Gestionnaire d'archives</strong></span> qui vous permettent de compresser vos fichiers et de les rassembler. Sinon, vous pouvez également utiliser une application de sauvegarde.</p>
+        <p>Recommandation générale sur la façon de conserver vos sauvegardes :</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>Sauvegardez régulièrement</p>
+            </li>
+            <li class="listitem">
+              <p>vérifiez toujours vos sauvegardes pour vous assurer qu'elles aient été faites correctement ;</p>
+            </li>
+            <li class="listitem">
+              <p>nommez intelligiblement vos sauvegardes et conservez-les dans un endroit sûr.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Astuce]" src="../../libs-common/images/tip.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>De nombreuses applications de sauvegarde sont disponibles dans les dépôts, telles que <span class="application"><strong>Dejà Dup</strong></span> ou <span class="application"><strong>luckyBackup</strong></span>.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Astuce]" src="../../libs-common/images/tip.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Si vous utilisez des services en ligne comme Dropbox, il est préférable de chiffrer vos documents pour ne télécharger qu'une archive chiffrée. Cela empêchera le personnel du service en ligne d'accéder à vos documents.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Astuce]" src="../../libs-common/images/tip.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Les sauvegardes peuvent aussi s'avérer efficaces pour vous prémunir des logiciels de rançon (ransomware) qui chiffrent vos données personnelles et ne les déchiffrent qu'en échange d'un paiement. Pour se tenir à l'écart de tels logiciels, évitez d'installer des applications provenant de sources inconnues. Pour plus d'informations, voir <a class="xref" href="guide-keeping-safe.html#script-applications-sources">N'exécutez pas de scripts ou d'applications obtenus depuis des sources inconnues</a>.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="safety-encryption"></a>Pensez au chiffrement</h2>
+            </div>
+          </div>
+        </div>
+        <p>Le chiffrement intégral de votre disque est une bonne mesure pour protéger le contenu de votre ordinateur, si celui-ci devait être volé. Vous devriez considérer le chiffrement, par exemple, si votre emploi implique des droits de propriété intellectuelle de valeur ou des responsabilités de dirigeant. Rappelez-vous que le chiffrement intégral du disque ne vous protègera que si vous éteignez votre ordinateur lorsque vous ne l'utilisez pas.</p>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Astuce]" src="../../libs-common/images/tip.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Pour activer le chiffrement intégral du disque, le plus simple est de le faire pendant l'installation.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Astuce]" src="../../libs-common/images/tip.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Vous pouvez également créer des volumes chiffrés en utilisant un logiciel dédié, LUKS par exemple. Les volumes chiffrés peuvent contenir des données arbitraires de toute longueur. Vous pouvez les monter de la même manière qu'une cléUSB lorsque vous avez besoin d'accéder à leur contenu et les laisser fermés le reste du temps. La marche à suivre n'est pas décrite dans la présente documentation mais il y existe de nombreux didacticiels en ligne.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="shared-environment"></a>Utilisation de votre ordinateur dans un environnement partagé</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="no-shared-accounts"></a>Ne pas utiliser les comptes partagés</h3>
+              </div>
+            </div>
+          </div>
+          <p>Après l'installation, Xubuntu sera paramétré pour un seul utilisateur. Si plusieurs personnes veulent travailler sur cet ordinateur, la meilleure solution est que chacune d'elles ait son propre compte utilisateur. Pour plus de renseignements sur la façon d'ajouter des utilisateurs, référez vous à <a class="xref" href="administrative-tasks.html#users-groups">Utilisateurs et groupes</a></p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="lock-your-screen"></a>Verrouillez votre écran lorsque vous êtes absent</h3>
+              </div>
+            </div>
+          </div>
+          <p>Verrouiller votre écran empêchera l'accès à votre ordinateur pendant que vous en êtes éloigné. Toutes vos applications restent ouvertes quand votre écran est verrouillé.</p>
+          <p>To lock the screen, press <span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span><span class="keycap"><strong>Ctrl+Alt+Delete</strong></span> or
+				click <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/system-lock-screen.png" /></span> Lock Screen</span></strong></span>.</p>
+          <p>To unlock the screen, move the mouse or press a key. Then, type your
+				password and either press the <span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span><span class="keycap"><strong>Enter</strong></span> key or click
+				the <span class="guibutton"><strong>Unlock</strong></span> button.</p>
+          <p>Si plus d'une personne possède un compte utilisateur sur votre ordinateur et que l'écran est verrouillé, les autres utilisateurs peuvent cliquer sur le bouton triangulaire à droite du nom de l'utilisateur, choisir leur nom dans la liste et saisir leur propre mot de passe pour utiliser l'ordinateur, même si l'écran est verrouillé. Ils ne pourront pas accéder à votre travail et vous serez en mesure de revenir à votre session verrouillée quand ils auront fini d'utiliser l'ordinateur.</p>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="offline-packages.html"><img src="../../libs-common/images/prev.png" alt="Précédent" /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="hardware-devices.html"><img src="../../libs-common/images/next.png" alt="Suivant" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Chapitre 10. Gestion des paquets hors ligne </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Sommaire" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Chapitre 12. Périphériques matériels</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

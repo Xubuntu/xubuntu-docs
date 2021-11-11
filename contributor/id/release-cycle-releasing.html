@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Merilis</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Dokumentasi Kontributor Xubuntu" />
+    <link rel="up" href="release-cycle.html" title="Bab 7. Siklus Rilis" />
+    <link rel="prev" href="release-cycle-testing-package.html" title="Pengujian paket" />
+    <link rel="next" href="release-cycle-maintaining.html" title="Memelihara" />
+    <link rel="copyright" href="credits-license.html" title="Kredit dan Lisensi" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div class="section">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a id="release-cycle-releasing"></a>Merilis</h2>
+          </div>
+        </div>
+      </div>
+      <p>Ketika tiba saatnya untuk menyebarkan rilis (baik milestone dan final) beberapa kondisi harus dipenuhi:</p>
+      <div class="itemizedlist">
+        <ul class="itemizedlist" style="list-style-type: disc; ">
+          <li class="listitem">
+            <p>Pengujian yang sesuai telah dilakukan pada gambar</p>
+          </li>
+          <li class="listitem">
+            <p>Tidak ada bug yang diketahui yang menyebabkan kehilangan data atau kerusakan perangkat keras</p>
+          </li>
+          <li class="listitem">
+            <p>Gambar tidak boleh terlalu besar</p>
+          </li>
+          <li class="listitem">
+            <p>Xubuntu harus memiliki kualitas yang memadai sehingga tidak akan merusak Xubuntu, Ubuntu, atau reputasi/citra cita rasa lainnya.</p>
+          </li>
+        </ul>
+      </div>
+      <p>Saat rilis dibuat, Tim Rilis Xubuntu harus mengikuti proses rilis yang ditentukan di bawah ini. Proses rilis memastikan bahwa rilis baru memiliki catatan rilis yang cukup dan pengumuman rilis dan bahwa semua komunikasi khusus rilis diperbarui untuk menginformasikan tentang rilis baru. Jika diperlukan, saran dari tim rilis Ubuntu harus diminta.</p>
+      <div class="segmentedlist">
+        <table border="0">
+          <thead>
+            <tr class="segtitle">
+              <th>Waktu yang dijadwalkan</th>
+              <th>Aksi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="seglistitem">
+              <td class="seg">Antarmuka Pengguna Freeze</td>
+              <td class="seg">Unggah karya seni dan paket rangkai salindia</td>
+            </tr>
+            <tr class="seglistitem">
+              <td class="seg">String Dokumentasi Freeze</td>
+              <td class="seg">Update translation templates<br xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" /><fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format"></fo:block>Upload documentation packages</td>
+            </tr>
+            <tr class="seglistitem">
+              <td class="seg">Batas Waktu Terjemahan Paket Non-Bahasa</td>
+              <td class="seg">Unggah dokumentasi dan paket rangkai salindia</td>
+            </tr>
+            <tr class="seglistitem">
+              <td class="seg">14 hari sebelum rilis</td>
+              <td class="seg">Pengingat untuk perbarui FAQ situs web (hanya rilis final)</td>
+            </tr>
+            <tr class="seglistitem">
+              <td class="seg">7 hari sebelum rilis</td>
+              <td class="seg">Start preparing release notes and release announcement<br xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" /><fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format"></fo:block>Make the tracker start tracking the next release</td>
+            </tr>
+            <tr class="seglistitem">
+              <td class="seg">Hari perilisan</td>
+              <td class="seg">Publish release announcement and notes<br xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" /><fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format"></fo:block>Update the website, IRC channel topics and social media outlets with new release information</td>
+            </tr>
+            <tr class="seglistitem">
+              <td class="seg">Pasca rilis (hanya rilis final)</td>
+              <td class="seg">Set the new development version as the default in the tracker<br xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" /><fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format"></fo:block>Set up appropriate branches (documentation, ...) in Launchpad<br xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" /><fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format"></fo:block>Review and update this page</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="release-cycle-testing-package.html"><img src="../../libs-common/images/prev.png" alt="Sebelumnya" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="release-cycle.html">
+              <img src="../../libs-common/images/up.png" alt="Induk" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="release-cycle-maintaining.html"><img src="../../libs-common/images/next.png" alt="Lanjut" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Pengujian paket </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Depan" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Memelihara</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

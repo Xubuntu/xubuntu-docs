@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Luku 11. Tietokoneen ja henkilökohtaisen tiedon turvassa pitäminen</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Xubuntun dokumentaatio" />
+    <link rel="up" href="index.html" title="Xubuntun dokumentaatio" />
+    <link rel="prev" href="offline-packages.html" title="Luku 10. Yhteydetön paketinhallinta" />
+    <link rel="next" href="hardware-devices.html" title="Luku 12. Laitteisto" />
+    <link rel="copyright" href="credits-license.html" title="Tekijänoikeudet ja lisenssi" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div xml:lang="fi" class="chapter" lang="fi">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="guide-keeping-safe"></a>Luku 11. Tietokoneen ja henkilökohtaisen tiedon turvassa pitäminen</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>Sisällys</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="section">
+              <a href="guide-keeping-safe.html#keep-software-uptodate">Pidä ohjelmistosi ajan tasalla</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="guide-keeping-safe.html#passwords">Salasanat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="guide-keeping-safe.html#good-online-security">Vinkkejä hyvään verkkoturvallisuuteen</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="guide-keeping-safe.html#backup-regularly">Varmuuskopioi säännöllisin välein</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="guide-keeping-safe.html#safety-encryption">Harkitse salausta</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="guide-keeping-safe.html#shared-environment">Tietokoneen käyttäminen jaetussa ympäristössä</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <p>Tietokoneen ja henkilökohtaisen tiedon suojaaminen turvallisuusuhkilta on yksi tärkeimpiä nykyajan tietojenkäsittelyn osa-alueita. Tämä opas pyrkii auttamaan sinua tavoittamaan paremman turvallisuustason. Kiinnitä huomiota erityisesti seuraaviin osioihin:</p>
+      <div class="itemizedlist">
+        <ul class="itemizedlist" style="list-style-type: disc; ">
+          <li class="listitem">
+            <p>
+              <a class="xref" href="guide-keeping-safe.html#keep-software-uptodate">Pidä ohjelmistosi ajan tasalla</a>
+            </p>
+          </li>
+          <li class="listitem">
+            <p>
+              <a class="xref" href="guide-keeping-safe.html#passwords-important">Käytä vahvoja ja ainutkertaisia salasanoja tärkeille tileille</a>
+            </p>
+          </li>
+          <li class="listitem">
+            <p>
+              <a class="xref" href="guide-keeping-safe.html#script-applications-sources">Älä aja skriptejä tai asenna sovelluksia tuntemattomista lähteistä</a>
+            </p>
+          </li>
+          <li class="listitem">
+            <p>
+              <a class="xref" href="guide-keeping-safe.html#clean-browser">Pidä selaimesi puhtaana arkaluontoisia toimintoja varten</a>
+            </p>
+          </li>
+          <li class="listitem">
+            <p>
+              <a class="xref" href="guide-keeping-safe.html#email-security">Muista sähköpostiturvallisuus</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="keep-software-uptodate"></a>Pidä ohjelmistosi ajan tasalla</h2>
+            </div>
+          </div>
+        </div>
+        <p>Turvallisuuspäivitykset ovat erittäin tärkeitä. Ne ovat paras puolustuksesi niitä ihmisiä vastaan, jotka haluavat vahingoittaa tietokonettasi ja sinun tulisi asentaa ne välittömästi. Hakkerit tietävät miten tietokoneita, jotka eivät ole ajan tasalla, voi haavoittaa jo silloin kun turvallisuuspäivitys julkaistaan. Pahimmassa tapauksessa he etsivät haavoittuneita uhreja automatisoiduilla ohjelmilla alle muutamassa tunnissa.</p>
+        <p>Automatic security updates are enabled by default in Xubuntu. If you
+			want to change the settings for the automatic updates, go to the
+			<em class="guilabel">Updates</em> tab under <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem">Settings Manager</span> → <span class="guimenuitem">Software &amp; Updates</span></strong></span> and change
+			the settings to your liking.</p>
+        <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Warning">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Varoitus]" src="../../libs-common/images/warning.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Automaattisten päivitysten kytkeminen pois päältä laskee tietokoneesi tietoturvatasoa. Kun automaattiset päivitykset on kytketty pois päältä, on ensisijaisen tärkeää muistaa päivittää manuaalisesti usein.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Vihje]" src="../../libs-common/images/tip.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Jos käytät Internet-yhteyttä jonka latausmäärä on rajoitettu etkä haluat käyttää automaattisia päivityksiä, muista päivittää joka kerta kun sinulla on pääsy rajoittamattomaan yhteyteen.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="passwords"></a>Salasanat</h2>
+            </div>
+          </div>
+        </div>
+        <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Warning">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Varoitus]" src="../../libs-common/images/warning.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Viralliset yritykset eivät kysy sinulta salasanaasi. Poista kaikki sähköpostiviestit joissa kysytään salasanaasi. Jos olet puhelimessa, lopeta puhelu ja soita tuntemallesi henkilölle varmistaaksesi että yhteys kysyjiin on katkennut.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="passwords-important"></a>Käytä vahvoja ja ainutkertaisia salasanoja tärkeille tileille</h3>
+              </div>
+            </div>
+          </div>
+          <p>Vahvojen ja ainutkertaisten salasanojen käyttäminen tärkeille ja arkaluonteisille tileille auttaa ehkäisemään luvatonta pääsyä henkilökohtaisiin tietoihisi, identiteettivarkauksia ja suoria taloudellisia tappioita. Harkitse seuraavaa tilannetta:</p>
+          <div class="orderedlist">
+            <ol class="orderedlist" type="1">
+              <li class="listitem">
+                <p>Anna käyttää samaa salasanaa sivustoilla turvallinenpankki.com ja turvatonblogi.com</p>
+              </li>
+              <li class="listitem">
+                <p>turvatonblogi murretaan ja Annan tiedot ja salasana varastetaan</p>
+              </li>
+              <li class="listitem">
+                <p>Hakkereille on nyt pääsy Annan pankkitilille ja he voivat varastaa hänen rahansa</p>
+              </li>
+            </ol>
+          </div>
+          <p>Salasanojen uudelleen käyttö voi muuttua katastrofiksi. Sinun tulisi kiinnittää huomiota ja käyttää ainutkertaisia ja vahvoja salasanoja seuraaville palveluille:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p><span class="emphasis"><em>Sähköpostitilit</em></span>. Sähköpostitileja voidaan käyttää palauttamaan kaikki muut salasanasi "Unohditko salasanasi" -linkkien kautta, jotka löytyvät kaikilta verkkosivuilta.</p>
+              </li>
+              <li class="listitem">
+                <p><span class="emphasis"><em>Salasanavarastot ja salasananhallintasovellukset</em></span>. Hyvän salasanan käyttäminen näille palveluille on vaivan arvoista, koska ne auttavat sinua välttämään monen muun salasanan kirjoittamista!</p>
+              </li>
+              <li class="listitem">
+                <p><span class="emphasis"><em>Pankkeihin ja rahaan liittyvät sivusot</em></span>, mukaan lukien PayPal ja muut maksusivustot. Jos joku pääsee käsiksi näihin, hän voi varastaa rahasi.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="passwords-strong"></a>Mikä on vahva salasana?</h3>
+              </div>
+            </div>
+          </div>
+          <p>Salasanan vahvuus riippuu siitä kuinka vaikeaa hyökkääjän on arvata sitä. Hyökkääjät käyttävät ohjelmia, jotka voivat tehdä miljoonia arvauksia sekunnissa ja heikoilla salasanoilla ei ole mitään mahdollisuutta niitä vastaan.</p>
+          <p>Jotkin salasanat (kuten <code class="literal">monkey</code>, <code class="literal">password</code>, <code class="literal">test</code>, <code class="literal">123456</code>) ovat hyvin yleisiä. Jos käytäy näitä yleisiä salasanoja tileihisi murtaudutaan vaivatta. Isojen kirjaimien, numeroiden tai merkkien lisääminen ei usein riitä muuttamaan heikkoa salasanaa vahvaksi. Tämä johtuu siitä, että ihmiset useimmiten valitsevat samat ylimääräiset merkit tai numerot (esimerkiksi, <code class="literal">monkey1</code> on yleisempi kuin <code class="literal">mo5nkey</code> tai <code class="literal">monkey hoover</code>).</p>
+          <p>On parempi valita pidempi salasana, kuten salainen ilmaus (esimerkiksi <code class="literal">tosi hevonen talli paristo</code>), kuin salasana joka on sekä vaikea muistaa että helppo murtaa. Harkitse useiden tunnettujen sanojen yhdistelmää, jotka sinun on helppo muistaa. Älä valitse sanoja jotka ihmiset lähelläsi luonnollisesti liittäisivät sinuun (esimerkiksi, älä käytä pokeriin liittyviä sanoja jos pelaat pokeria päivittäin).</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="passwords-reuse"></a>Kuinka salasanoja voi käyttää uudelleen turvallisesti?</h3>
+              </div>
+            </div>
+          </div>
+          <p>Vaikka saman salasanan käyttö useammalla tilillä ei ole suositeltua, jokainen päätyy tekemään niin, jopa turvallisuusasiantuntijat. Monille yleisesti käytetyille verkkosivustoille murtaudutaan kuitenkin vuosittain. Jotkut sivustoista voivat jopa tarkoituksenmukaisesti myydä käyttäjiensä salasanoja kolmansille osapuolille. Salasanojen uudelleen käytön riskien vähentämisestä ei ole täyttä yksimielisyyttä turvallisuusasiantuntijoiden kesken, mutta sinun tulisi harkita seuraavia asioita:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Pidä työsalasanasi ja henkilökohtaiset salasanasi erillään.</p>
+              </li>
+              <li class="listitem">
+                <p>Vältä saman salasanan käyttöä sivustoilla, joilla hyökkääjät voivat pilata maineesi ja sivustoilla, joilla ei ole merkitystä.</p>
+              </li>
+              <li class="listitem">
+                <p>Käytä salasanaa josta olet valmis luopumaan niillä sivustoilla joihin et luota.</p>
+              </li>
+              <li class="listitem">
+                <p>Älä "tuhlaa" salasanoja sivustoilla joita käytät kerran vuodessa. Keksi satunnainen salasana ja käytä "Unohditko salasanasi?" -ominaisuutta seuraavan kerran.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="passwords-when-change"></a>Koska salasana tulisi vaihtaa?</h3>
+              </div>
+            </div>
+          </div>
+          <p>Sinun ei tarvitse vaihtaa salasanojasi joka toinen päivä. Monissa tapauksissa, jos hyökkääjä voi varastaa salasanasi, hän voi tehdä sen uudelleen tulevaisuudessa.</p>
+          <p>Jos sinun pitää vaihtaa salasanasi, sinun täytyy valita salasana joka on <span class="emphasis"><em>todellisuudessa</em></span> erilainen kuin edellinen. Esimerkiksi, <code class="literal">monkey5</code> ei ole hyväksyttävä korvike salasanalle <code class="literal">monkey4</code>. Hyökkääjä joka varasti edellisen salasanasi arvaa sen helposti!</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="passwords-change-login"></a>Kirjautumissalasanan vaihtaminen</h3>
+              </div>
+            </div>
+          </div>
+          <p>Vaihtaaksesi salasanasi, noudata seuraavia ohjeita:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Open <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Users and Groups</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Napsauta käyttäjänimeäsi listalla</p>
+              </li>
+              <li class="listitem">
+                <p>Napsauta <em class="guilabel">Vaihda...</em> <em class="guilabel">Salasana</em>-otsikon vieressä</p>
+              </li>
+              <li class="listitem">
+                <p>Ensin syötä <em class="guilabel">Nykyinen salasana</em></p>
+              </li>
+              <li class="listitem">
+                <p>Nyt voit joko</p>
+                <div class="itemizedlist">
+                  <ul class="itemizedlist" style="list-style-type: circle; ">
+                    <li class="listitem">
+                      <p>Luoda satunnaisen salasanan valitsemalla <em class="guilabel">Luo satunnainen salasana</em> ja napsauttamalla <span class="guibutton"><strong>Luo</strong></span></p>
+                    </li>
+                    <li class="listitem">
+                      <p>Valita uuden salasanasi itse kirjoittamalla uuden salasanan <em class="guilabel">Uusi salasana</em> ja <em class="guilabel">Vahvistus</em> -kenttiin</p>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="listitem">
+                <p>Lopulta, napsauta <span class="guibutton"><strong>OK</strong></span> vahvistaaksesi salasanan vaihtamisen</p>
+              </li>
+            </ul>
+          </div>
+          <div class="caution" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Caution">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Varo]" src="../../libs-common/images/caution.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Vaikka Xubuntun voi asettaa kirjautumaan automaattisesti käynnistyksen yhteydessä, on automaattinen sisäänkirjautuminen erittäin epäsuositeltavaa, sillä se tarjoaa järjestelmällesi vähemmän turvaa. Käytä automaattista sisäänkirjautumista vain jos voit luottaa jokaiseen, jolla on pääsy tietokoneellesi.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="passwords-stolen"></a>Tarkista salasanat varkauksien varalta silloin tällöin</h3>
+              </div>
+            </div>
+          </div>
+          <p>Sivustot kuten <a class="ulink" href="https://haveibeenpwned.com/" target="_top">haveibeenpwned.com</a> voivat kertoa sinulle jos sähköpostiosoitteesi tai käyttäjänimesi löytyy varastettujen salasanojen tietokannoista. On hyvä idea tarkistaa tämä muutaman kuukauden välein. Lisäksi, voit joskus kuulla uutisista tai saada sähköpostin palveluntarjoajaltasi jossa kerrotaan että käyttämäsi palveluun on murtauduttu. Kun olet varma, että salasanasi on murrettu, sinun tulisi:</p>
+          <div class="orderedlist">
+            <ol class="orderedlist" type="1">
+              <li class="listitem">
+                <p>listata kaikki palvelut, joissa käytit samaa salasanaa</p>
+              </li>
+              <li class="listitem">
+                <p>vaihtaa salasanasi kaikissa listaamissasi palveluissa</p>
+              </li>
+              <li class="listitem">
+                <p>varmistaa että viimeaikainen toiminta kyseessä olevilla tileillä on luvallista (tarkista rahansiirrot; sähköpostipalvelut pitävät usein kirjaa myös viimeisimmistä kirjautumisistasi, joista selviää käytetyt IP-osoitteet ja sijainnit)</p>
+              </li>
+            </ol>
+          </div>
+          <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Warning">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Varoitus]" src="../../libs-common/images/warning.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p><span class="emphasis"><em>Älä koskaan</em></span> anna <span class="emphasis"><em>salasanaasi</em></span> kolmannen osapuolen sivustolle. Yllä mainittu verkkosivusto on OK, koska se pyytää vain sähköpostiosoitetta, mikä on kohtalaisen julkista tietoa. Se ei pyydä salasanaasi. Verkkosivustot jotka pyytävät salasanaasi mitä todennäköisimmin väärinkäyttävät sitä.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="password-managers"></a>Entä salasananhallintasovellukset?</h3>
+              </div>
+            </div>
+          </div>
+          <p>Salasananhallintasovellukset ovat kätevä tapa käyttää monia ainutkertaisia salasanoja ilman muistamatta niitä kaikkia!</p>
+          <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Tip">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Vihje]" src="../../libs-common/images/tip.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Pakettivarastoissa on saatavilla useita salasananhallintasovlluksia, mukaan lukien <span class="application"><strong>KeePassX</strong></span> ja <span class="application"><strong>PaSaffe</strong></span>.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <p>Jotkin salasananhallintasovellukset, kuten <span class="application"><strong>KeePassX</strong></span>, voivat synkronoida salasanasi useammille laitteille, mukaan lukien Windows- ja OS X -järjestelmät. Sinun on hyvä olla tietoinen muutamista rajoituksista, jos päätät käyttää salasananhallintasovellusta:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Verkossa olevat salasananhallintasovellukset ovat myös murrettavissa. Älä tallenna sähköpostisi tai pankkisi salasanaa ssalasananhallintasovellukseen.</p>
+              </li>
+              <li class="listitem">
+                <p>Käytä helposti muistettavaa salasanaa salasananhallintasovelluksessa! Jos unohdat sen salasanan, voit päätyä menettämään pääsyn kaikille tileillesi (toinen hyvä syy olla tallentamatta sähköpstin salasanaa salasananhallintasovellukseen).</p>
+              </li>
+              <li class="listitem">
+                <p>Suljetun lähdekoodin salasananhallintasovelluksiin ei pitäisi luottaa. Kukaan ei tiedä mitä ne tekevät salasanoillasi.</p>
+              </li>
+              <li class="listitem">
+                <p>Voit joutua käyttämään joitain tilejä ystävien tai perheen laitteilta. Voit määrittää salasananhallintasovellustasi käyttämään tiettyä, helposti muistettavaa salasanaa näille tileille satunnaisen salasanan sijasta.</p>
+              </li>
+            </ul>
+          </div>
+          <p>Jos pidät yllä olevat neuvot mielessäsi, salasananhallintasovellukset voivat olla hieno tapa pysyä turvallisena helpommin!</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="good-online-security"></a>Vinkkejä hyvään verkkoturvallisuuteen</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="script-applications-sources"></a>Älä aja skriptejä tai asenna sovelluksia tuntemattomista lähteistä</h3>
+              </div>
+            </div>
+          </div>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Asenna ohjelmia pakettilähteistä aina kun mahdollista.</p>
+              </li>
+              <li class="listitem">
+                <p>Kun käytät skriptiä, jonka löysit virheenetsintä- tai tukisivustolta tai joka annettiin sinulle IRC:ssä, käytä hetki tutkiaksesi sitä, tai kysy kolmatta osapuolta vahvistamaan skriptin käyttötarkoitus. Ole erityisen varovainen skriptien kanssa, jotka vaativat pääkäyttäjän oikeudet, koska ne voivat aiheuttaa vaaraa muidenkin käyttäjien tileille.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="clean-browser"></a>Pidä selaimesi puhtaana arkaluontoisia toimintoja varten</h3>
+              </div>
+            </div>
+          </div>
+          <p>Selainlaajennokset ovat suosittu mekanismi käyttäjien vahingoittamiseen hakkereiden keskuudessa. Ne ovat erityisen oleellisia Linxulle, sillä ne ovat yhteensopivia kaikkien alustojen kanssa. Pahantahtoiset laajennokset voivat varastaa salasanasi, tarkkailla toimintaasi mainontaa varten, väärinkäyttää sosiaalisen median tilejäsi tai varastaa rahojasi.</p>
+          <p>Voit tehdä toimenpiteitä rajataksesi riskejä joille altistat itsesi:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Älä asenna laajennosta, jota selaimesi valmistaja ei jakele</p>
+              </li>
+              <li class="listitem">
+                <p>Käytä erillistä profiilia Firefox-selaimella arkaluontoisia toimia, kuten verkkopankin käyttö ja verkko-ostokset, varten. Firefoxin käyttäjäprofiilit eivät jaa laajennoksia (katso englanninkielinen artikkeli <a class="ulink" href="https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-profiles" target="_top">Use the Profile Manager to create and remove Firefox profiles</a>).</p>
+              </li>
+              <li class="listitem">
+                <p>Chromella ja muilla selaimilla, käytä Incognito-tilaa arkaluontoisille toimille, kuten verkkopankin käyttö ja verkko-ostokset. Incognito-tila kytkee laajennokset pois päältä.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="email-security"></a>Muista sähköpostiturvallisuus</h3>
+              </div>
+            </div>
+          </div>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Älä avaa liitetiedostoja, jotka sait lähettäjiltä joita et tunne, tai jos sähköpostin sisältö on mielestäsi epäselvä tai epäilyttävä (esimerkiksi laskut henkilöiltä, joista et ole koskaan kuullut).</p>
+              </li>
+              <li class="listitem">
+                <p>Älä vastaa roskapostiviesteihin. Tämä vahvistaa roskapostittajille että tilisi on aktiivinen ja kannustaa heitä lähettämään sinulle lisää roskapostia.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="firewalls"></a>Harkitse palomuureja jos tietokoneesi tarjoaa Internet-palveluita</h3>
+              </div>
+            </div>
+          </div>
+          <p>Jos ajat julkisesti näkyvillä olevia Internet-palveluita, tai et ole NAT-verkossa, sinun tulisi harkita palomuurin käyttöä. Useimpien kotona tietokoneita käyttävien ei tarvitse huolehtia tästä.</p>
+          <p>Ymmärrä että palomuurit eivät ole kovin hyödyllisiä oletusasetuksineen. Sinun täytyy harkita mitä haluat saavuttaa ja mukauttaa palomuuria sen perusteella. Palomuurit voivat suojella sinua palvelunestohyökkäyksiltä, rajoittaa tiettyjen palveluiden käyttöä tietyille IP-osoitteille tai tutkia ja hylätä epäilyttäviä paketteja. Ne eivät kuitenkaan voi suojata sinua tuntemattomilta tai kasvavilta uhkilta, eivätkä ne korvaa turvallisuuspäivitysten asentamista.</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="backup-regularly"></a>Varmuuskopioi säännöllisin välein</h2>
+            </div>
+          </div>
+        </div>
+        <p>Ongelma, jonka voit toisinaan kohdata on töidesi ja asetuksiesi odottamaton katoaminen syystä tai toisesta. Kyseiselle tietojen katoamiselle on useita ja vaihtelevia syitä aina sähkökatkoksista tiedoston vahingossa poistaminen. On erittäin suositeltavaa että otat säännöllisiä varmuuskopioita tärkeistä tiedostoistasi jotta et ongelman kohdatessasi ole menettänyt näitä tiedostoja.</p>
+        <p>On järkevää säilyttää varmuuskopiot erillään tietokoneestasi; toisin sanoen sinulla tulisi olla jonkinlainen tiedostonsäilytysjärjestelmä joka ei ole pysyvästi liitetty tietokoneeseesi. Vaihtoehtoja ovat muun muassa kirjoitettavat CD- ja DVD-levyt, ulkoiset kiintolevyt, USB-tikut ja muut verkkoon liitetyt tietokoneet.</p>
+        <p>Yksinkertainen tapa tehdä varmuuskopioita on kopioida ne varmaan sijaintiin (katso yllä) käyttäen <span class="application"><strong>Tiedostonhallinta</strong></span>-sovellusta ja <span class="application"><strong>Pakettienkäsittely</strong></span>-sovellusta, jolla voit tiivistää ja pakata tiedostoja. Vaihtoehtoisesti voit käyttää varmuuskopiointiin erityisesti suunniteltua sovellusta.</p>
+        <p>Yleisiä ohjeita hyvien varmuuskopioiden pitämiseen:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>Varmuuskopioi säännöllisin välein</p>
+            </li>
+            <li class="listitem">
+              <p>Testaa aina varmuuskopiosi niiden tekemisen jälkeen jotta voit varmistua että varmuuskopiointi on onnistunut</p>
+            </li>
+            <li class="listitem">
+              <p>Merkitse varmuuskopiosi selkeästi ja pidä ne turvallisessa paikassa</p>
+            </li>
+          </ul>
+        </div>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Vihje]" src="../../libs-common/images/tip.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Varmuuskopiointiin on saatavilla useita sovelluksia pakettivarastoista, mukaan lukien <span class="application"><strong>Dejà Dup</strong></span> ja <span class="application"><strong>luckyBackup</strong></span>.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Vihje]" src="../../libs-common/images/tip.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Jos käytät verkkopalveluita varmuuskopioita varten (kuten Dropbox), on hyvä idea ensin salata tietosi ja lähettää verkkoon salattu paketti. Tämä estää verkkopalvelun henkilöstöä pääsemästä käsiksi tiedostoihisi.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Vihje]" src="../../libs-common/images/tip.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Varmuuskopiot voivat olla myös tehokas turva lunnassovelluksia vastaan, jotka salaavat tietosi ja purkavat salauksen vain jos maksat sovelluksen kehittäjille. Pysyäksesi erossa lunnassovelluksista, vältä asentamasta sovelluksia tuntemattomista lähteistä. Saadaksesi lisätietoja, katso <a class="xref" href="guide-keeping-safe.html#script-applications-sources">Älä aja skriptejä tai asenna sovelluksia tuntemattomista lähteistä</a>.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="safety-encryption"></a>Harkitse salausta</h2>
+            </div>
+          </div>
+        </div>
+        <p>Koko levyn salaus on toimenpide, jolla voit suojata tietokoneesi sisältöä hyvin silloin jos se varastetaan. Sinun tulisi harkita koko levyn salausta jos työsi sisältää esimerkiksi arvokkaan yksityisomaisuuden kanssa työskentelyä tai johtamistehtäviä. Muista että koko levyn salaus ei suojaa sinua jos et kytke tietokonettasi pois päältä kun et käytä sitä.</p>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Vihje]" src="../../libs-common/images/tip.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Helpoin tapa ottaa koko levyn salaus käyttöön on tehdä se asennuksen yhteydessä.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Vihje]" src="../../libs-common/images/tip.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Voit luoda salattuja osioita myös käyttäen siihen suunniteltuja ohjelmia, kuten LUKS. Salatut osiot voivat sisältää minkä tahansa määrän sisältöä. Voit liittää ne kuten liittäisit USB-tikun kun sinun tarvitsee päästä käsiksi niiden sisältöön ja pitää ne suljettuina lopun aikaa. Niiden asennusprosessin kuvaileminen on liian laaja sisällytettäväksi tähän dokumentaatioon, mutta siihen löytyy useita ohjeita verkosta.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="shared-environment"></a>Tietokoneen käyttäminen jaetussa ympäristössä</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="no-shared-accounts"></a>Älä käytä jaettuja tilejä</h3>
+              </div>
+            </div>
+          </div>
+          <p>Kun Xubuntu on asennettu, se on valmisteltu yhden käyttäjän käyttöön. Jos useampi kuin yksi henkilö käyttää tietokonetta, on parasta luoda jokaiselle käyttäjälle oma käyttäjätunnus. Lukeaksesi lisää käyttäjien lisäämisestä, lue <a class="xref" href="administrative-tasks.html#users-groups">Käyttäjät ja ryhmät</a>.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="lock-your-screen"></a>Lukitse näyttösi kun olet poissa</h3>
+              </div>
+            </div>
+          </div>
+          <p>Näytön lukitseminen estää muiden henkilöiden pääsyn tietokoneellesi kun et itse ole paikalla. Kaikki sovelluksesi ja työsi säilytetään avoimina sen aikaa kun näyttösi on lukittu.</p>
+          <p>To lock the screen, press <span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span><span class="keycap"><strong>Ctrl+Alt+Delete</strong></span> or
+				click <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/system-lock-screen.png" /></span> Lock Screen</span></strong></span>.</p>
+          <p>To unlock the screen, move the mouse or press a key. Then, type your
+				password and either press the <span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span><span class="keycap"><strong>Enter</strong></span> key or click
+				the <span class="guibutton"><strong>Unlock</strong></span> button.</p>
+          <p>Jos useammalla kuin yhdellä henkilöllä on käyttäjätili tietokoneellasi ja näyttö on lukittu, muut käyttäjät voivat napsauttaa nuolipainiketta käyttäjän nimen oikealla puolella, valita nimensä listasta ja syöttää salasanansa käyttäkseen tietokonetta vaikka näyttö olisi lukittu. He eivät pääse näkemään avoimena olevia töitäsi. Voit palata lukittuun istuntoosi kun he eivät enää käytä tietokonetta.</p>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="offline-packages.html"><img src="../../libs-common/images/prev.png" alt="Edellinen" /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="hardware-devices.html"><img src="../../libs-common/images/next.png" alt="Seuraava" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Luku 10. Yhteydetön paketinhallinta </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Alkuun" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Luku 12. Laitteisto</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

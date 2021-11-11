@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Luku 12. Laitteisto</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Xubuntun dokumentaatio" />
+    <link rel="up" href="index.html" title="Xubuntun dokumentaatio" />
+    <link rel="prev" href="guide-keeping-safe.html" title="Luku 11. Tietokoneen ja henkilökohtaisen tiedon turvassa pitäminen" />
+    <link rel="next" href="administrative-tasks.html" title="Luku 13. Ylläpidolliset toimet" />
+    <link rel="copyright" href="credits-license.html" title="Tekijänoikeudet ja lisenssi" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div xml:lang="fi" class="chapter" lang="fi">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="hardware-devices"></a>Luku 12. Laitteisto</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>Sisällys</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="section">
+              <a href="hardware-devices.html#restricted-drivers">Rajoitetut ajurit</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="hardware-devices.html#disks-partitions">Levyt ja osiot</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="hardware-devices.html#laptops">Kannettavat tietokoneet</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="hardware-devices.html#suspending-hibernating">Keskeytystila ja lepotila</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="hardware-devices.html#mice-keyboards">Hiiret ja näppäimistöt</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <p>Tietokoneesi koostuu useista yhteen liitetyistä laitteista joita kutsutaan laitteistoksi.</p>
+      <p>Normaalisti Xubuntu asentaa laitteistosi automaattisesti, mutta on olemassa tilanteita joissa sinun täytyy tehdä muutoksia laitteiston asetuksiin itse. Tämä luku tarjoaa tietoa työkaluista joita voit käyttää laitteistosi asentamiseen.</p>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="restricted-drivers"></a>Rajoitetut ajurit</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="restricted-why"></a>Miksi jotkin ajurit ovat rajoitettuja?</h3>
+              </div>
+            </div>
+          </div>
+          <p>Rajoitetut ajurit ovat ajureita laitteistollesi jotka eivät ole vapaasti saatavilla tai avointa lähdekoodia.</p>
+          <p>Useimpien laitteiden jotka on liitetty tietokoneesi tulisi toimia kunnollisesti Xubuntussa. Näillä laitteilla on todennäköisesti rajoittamattomat ajurit, mikä merkitsee että Xubuntun kehittäjät voivat muokata näitä ajureita ja korjata niiden ongelmia.</p>
+          <p>Joillain laitteistoilla ei ole rajoittamattomia ajureita, yleensä koska laitteiston valmistaja ei ole julkaissut laitteiston yksityiskohtia joilla kyseisen ajurin luominen olisi mahdollista. Näiden laitteiden toiminnallisuus voi olla rajoitettu tai ne eivät toimi lainkaan.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="restricted-enabling"></a>Rajoitettujen ajureiden käyttöönotto</h3>
+              </div>
+            </div>
+          </div>
+          <p>Jos rajoitettu ajuri on saatavilla tietylle laitteelle, voit asentaa sen saadaksesi laitteesi toimimaan kunnolla tai lisätääksesi laitteelle toiminnallisuutta. Esimerkiksi näytönohjaimen rajoitetun ajurin asentaminen voi tehdä edistyneiden visuaalisten tehosteiden käytön mahdolliseksi.</p>
+          <p>Jotkin tietokoneet eivät sisällä laitteita jotka voivat käyttää rajoitettuja ajureita, joko koska rajoittamattomat ajurit tukevat täydellisesti kaikkia laitteita tai koska rajoitettuja ajureita ei ole vielä saatavilla näille laitteille.</p>
+          <p>Jos rajoitettuja ajureita on saatavilla laitteistollesi ovat ne asennettavissa <span class="application"><strong>Ohjelmistot ja päivitykset</strong></span> -sovelluksesta:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem">Settings</span> → <span class="guimenuitem">Additional Drivers</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Sinut voidaan tarvittaessa pyytää syöttämään ylläpitäjän salasana.</p>
+              </li>
+              <li class="listitem">
+                <p>Voit joutua käynnistämään tietokoneesi uudelleen jotta asennus voidaan viimeistellä.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="restricted-disable"></a>Rajoitettujen ajureiden käytöstä poistaminen</h3>
+              </div>
+            </div>
+          </div>
+          <p>Jos rajoitettu ajuri aiheuttaa ongelmia tai haluat muuten vain poistaa sen käytöstä, seuraa alla olevia ohjeita:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem">Settings</span> → <span class="guimenuitem">Additional Drivers</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Etsi ajuri jonka haluat poistaa käytöstä ja napsauta <span class="guibutton"><strong>Poista</strong></span>-painiketta.</p>
+              </li>
+              <li class="listitem">
+                <p>Sinut pyydetään syöttämään salasanasi.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Huomaa]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Voit joutua käynnistämään tietokoneesi uudelleen jotta asennuksen poistaminen voidaan viimeistellä.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="disks-partitions"></a>Levyt ja osiot</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="disks-partitions-check-free-space"></a>Vapaana olevan levytilan tarkistaminen</h3>
+              </div>
+            </div>
+          </div>
+          <p>Yksinkertainen tapa tarkistaa vapaana oleva levytila on <span class="application"><strong>Thunar</strong></span>-tiedostonhallinnan käynnistäminen. Voit tehdä tämän usealla eri tavalla:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">File Manager</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Kaksoisnapsauta <em class="guilabel">Tiedostojärjestelmä</em> tai <em class="guilabel">Kotikansio</em>-kuvaketta työpöydälläsi</p>
+              </li>
+              <li class="listitem">
+                <p>Napsauta kotikansiokuvaketta käynnistinpaneelissa</p>
+              </li>
+            </ul>
+          </div>
+          <p>Tilapalkki ikkunan alareunassa näyttää nykyisen levyn vapaana olevan tilan. Jos sinulla useampia levyjä liitettyinä, voit napsauttaa niitä sivupaneelissa jonka jälkeen näet niillä olevan vapaan levytilan.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="disks-partitions-free-up-space"></a>Miten voin vapauttaa levytilaa?</h3>
+              </div>
+            </div>
+          </div>
+          <p>On olemassa useita yksinkertaisia tapoja vapauttaa lisää levytilaa:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Tyhjennä roskakorisi napsauttamalla <em class="guilabel">Roskakori</em>-kuvaketta työpöydällä tai käynnistinpaneelissa hiiren oikealla painikkeella ja valitsemalla <span class="guimenuitem">Tyhjennä roskakori</span>.</p>
+              </li>
+              <li class="listitem">
+                <p>Remove software packages that you no longer use.</p>
+              </li>
+              <li class="listitem">
+                <p>Poista tiedostoja joita et enää tarvitse. Voit asentaa <span class="application"><strong>GNOME Disk Usage Analyzer</strong></span> -sovelluksen <span class="application"><strong>Ohjelmistot</strong></span>-sovelluksella selvittääksesi mitkä tiedostot vievät eniten tilaa.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Warning">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Varoitus]" src="../../libs-common/images/warning.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Ole varovainen, ettet poista tiedostoja, joita vielä tarvitset!</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="partitioning"></a>Laitteen osioiminen</h3>
+              </div>
+            </div>
+          </div>
+          <p>You can use <span class="application"><strong>GParted (GNOME Partition Editor)</strong></span> to partition storage devices. Install <span class="application"><strong>GParted</strong></span> from <span class="application"><strong>Gnome Software</strong></span> and then go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">GParted</span></strong></span> to start the partition editor.</p>
+          <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Warning">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Varoitus]" src="../../libs-common/images/warning.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Ole varovainen muuttaessasi levyosioita, sillä on mahdollista että tietoja menetetään jos väärä osio poistetaan tai sitä muutetaan.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Warning">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Varoitus]" src="../../libs-common/images/warning.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Osioiden muuttaminen voi kestää jonkin aikaa. Älä oleta että GParted on jumiutunut tai kaatunut kokonaan kun se työskentelee.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Huomaa]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Jos sinun täytyy irrottaa asennetun järjestelmän osioita, sinun täytyy työskennellä live-CD/USB-tilassa tehdäksesi niin.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="partitioning-freeing-space"></a>Levytilan tyhjentäminen uutta osiota varten</h4>
+                </div>
+              </div>
+            </div>
+            <p>Luodaksesi uuden osion valmiiksi osioituun laitteeseen sinun tulee ensin muuttaa olemassa olevan osion kokoa. Jos sinulla on vapaata tilaa vapaana, siirry suoraan kohtaan <a class="xref" href="hardware-devices.html#partitioning-create">Uuden osion luominen</a>. Muussa tapauksessa, noudata alla olevia ohjeita:</p>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p>Valitse osioitava laite pudotusvalikosta pääikkunan oikeasta yläkulmasta</p>
+                </li>
+                <li class="listitem">
+                  <p>Lista osioista ilmestyy pääikkunaan. Valitse osio jonka kokoa haluat muuttaa. Valitse sen jälkeen valikosta <span class="guimenu">Osio</span> → <span class="guimenuitem">Irrota</span></p>
+                </li>
+                <li class="listitem">
+                  <p>Muuttaaksesi osion kokoa valitse <span class="guimenu">Osio</span> → <span class="guimenuitem">Muuta kokoa tai siirrä</span>. <em class="guilabel">Muuta kokoa tai siirrä</em> -ikkuna näytetään. Voit käyttää <em class="guilabel">Vapaata tilaa jälkeen (MiB)</em> -kenttää valitaksesi kuinka paljon tilaa tyhjennetään tämän osion jälkeen, tai <em class="guilabel">Vapaata tilaa ennen (MiB)</em> -kenttää tyhjentääksesi tilaa ennen tätä osiota. Vaihtoehtoisesti voit käyttää liukuria määrittääksesi osion koon.</p>
+                </li>
+                <li class="listitem">
+                  <p>Napsauta <span class="guibutton"><strong>Muuta kokoa tai siirrä</strong></span></p>
+                </li>
+                <li class="listitem">
+                  <p>Vahvistaaksesi muutokset, napsauta <span class="guimenu">Muokkaa</span> → <span class="guimenuitem">Toteuta kaikki toimenpiteet</span></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="partitioning-create"></a>Uuden osion luominen</h4>
+                </div>
+              </div>
+            </div>
+            <p>Luodaksesi uuden osion:</p>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p>Valitse osioitava laite pudotusvalikosta pääikkunan oikeasta yläkulmasta</p>
+                </li>
+                <li class="listitem">
+                  <p>Lista osioista ilmestyy. Valitse osio, joka on <em class="guilabel">varaamaton</em>, napsauta sitä hiiren oikealla painikkeella ja valitse <span class="guimenuitem">Uusi</span></p>
+                </li>
+                <li class="listitem">
+                  <p>Valitse pudotusvalikosta toivomasi mukainen <em class="guilabel">tiedostojärjestelmä</em>.</p>
+                </li>
+                <li class="listitem">
+                  <p>Jos haluat, syötä osion <em class="guilabel">nimi</em>.</p>
+                </li>
+                <li class="listitem">
+                  <p>Napsauta <span class="guibutton"><strong>Lisää</strong></span>.</p>
+                </li>
+                <li class="listitem">
+                  <p>Vahvistaaksesi muutokset, napsauta <span class="guimenu">Muokkaa</span> → <span class="guimenuitem">Toteuta kaikki toimenpiteet</span></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="partitioning-format"></a>Osion alustaminen</h4>
+                </div>
+              </div>
+            </div>
+            <p>Alustaaksesi osion, toimi seuraavasti:</p>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p>Valitse osioitava laite pudotusvalikosta pääikkunan oikeasta yläkulmasta</p>
+                </li>
+                <li class="listitem">
+                  <p>Lista osioista ilmestyy. Valitse osio jonka haluat alustaa ja mene valikkoon <span class="guimenu">Osio</span> → <span class="guimenuitem">Irrota</span>.</p>
+                </li>
+                <li class="listitem">
+                  <p>Valitse osio jonka haluat alustaa ja mene valikkoon <span class="guimenu">Osio</span> → <span class="guimenuitem">Alusta muotoon</span> ja valitse haluamasi tiedostojärjestelmä listasta</p>
+                </li>
+                <li class="listitem">
+                  <p>Vahvistaaksesi muutokset, napsauta <span class="guimenu">Muokkaa</span> → <span class="guimenuitem">Toteuta kaikki toimenpiteet</span></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="disks-partitions-mounting"></a>Laitteiden liittäminen ja poistaminen</h3>
+              </div>
+            </div>
+          </div>
+          <p>Kun liität siirrettävän taltion tietokoneeseesi, se täytyy liittää käyttöjärjestelmään jotta sen tiedostot ovat saatavilla.</p>
+          <p>Löytääksesi tietoa kuinka taltioita voi liittää ja irrottaa manuaalisesti ja/tai automaattisesti, katso <a class="ulink" href="https://help.ubuntu.com/community/Mount" target="_top">mount command</a> -sivu Ubuntun yhteisöwikistä.</p>
+          <p>Kun kopioit tiedostoja siirrettävälle taltiolle, niitä ei aina kirjoiteta laitteelle välittömästi. Sen sijaan ne sijoitetaan usein jonoon jotta ne voidaan tehokkuussyistä siirtää kaikki laitteelle yhdellä kerralla. Suorittaessasi komennon <strong class="userinput"><code>sync</code></strong> voit pakottaa jonossa olevan tiedon kirjoittamisen siirrettäville taltioille. Jos poistat laitteen ennen kuin kaikki tiedostot on siirretty, voit menettää nämä tiedostot. Estääksesi tämän, sinun tulee aina irrottaa siirrettävä taltio ennen kuin poistat sen.</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="laptops"></a>Kannettavat tietokoneet</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="laptops-power-management"></a>Virrankäyttöasetukset</h3>
+              </div>
+            </div>
+          </div>
+          <p>Voi haluta vaihtaa kannettavan tietokoneesi virransäästöasetuksia lisätäksesi sen akun käyttöikää ja säästääksesi energiaa.</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Power Manager</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Muuta asetuksia</p>
+              </li>
+              <li class="listitem">
+                <p>Asetukset tulevat voimaan välittömästi</p>
+              </li>
+            </ul>
+          </div>
+          <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Tip">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Vihje]" src="../../libs-common/images/tip.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>When your laptop is running on battery, one of the biggest drains on power is the display. Turning the brightness of the display down could improve battery life significantly; many laptops allow you to do this by pressing <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Fn+F7</strong></span> (or other marked key) several times.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="laptops-touchpads"></a>Kosketuslevyt</h3>
+              </div>
+            </div>
+          </div>
+          <p>Useimmissa kannettavissa tietokoneissa on kosketuslevy, jolla ohjataan hiiren kursoria. Kosketuslevyjen toiminnallisuutta voi vaihtaa monin eri tavoin; yleisimpiä kosketuslevyjen asetuksia voi muuttaa seuraavalla tavalla:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Mouse and Touchpad</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Valitse <em class="guilabel">Laite:</em> -pudotusvalikosta kosketuslevysi.</p>
+              </li>
+              <li class="listitem">
+                <p>Nyt voit vaihtaa kosketuslevyn asetuksia kuten haluat. Muutoksien tulisi olla käytössä välittömästi.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Huomaa]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Jotkin kosketuslevyistä voidaan tunnistaa tavallisina hiirinä, vaikka ovatkin kosketuslevyjä. Tässä tapauksessa kosketuslevy ei ole valittavissa asetuksissa. Katso <a class="ulink" href="https://help.ubuntu.com/community/SynapticsTouchpad" target="_top">Touchpads</a>-sivu Ubuntun yhteisötuen wikissä, jos haluat lisätietoja kosketuslevyistä.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="suspending-hibernating"></a>Keskeytystila ja lepotila</h2>
+            </div>
+          </div>
+        </div>
+        <p>Säästääksesi virtaa, voit kytkeä tietokoneesi yhteen useista virransäästötiloista kun et käytä sitä:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>Keskeytystila on kuin tietokoneen laittaminen nukkumaan. Tietokone on edelleen kytkettynä päälle ja kaikki työsi pidetään avonaisena, mutta tietokone käyttää paljon vähemmän virtaa. Voit herättää tietokoneen painamalla mitä tahansa näppäintä tai napsauttamalla hiirtä.</p>
+            </li>
+            <li class="listitem">
+              <p>Lepotilassa tietokone on kytketty kokonaan pois päältä, mutta sen nykyinen tila on tallennettu (mukaan lukien kaikki avoimet työsi). Kun kytket tietokoneen päälle lepotilan jälkeen, kaikki työsi pitäisi palautua ennalleen kuten ne olivat ennen lepotilaa. Virtaa ei käytetä kun tietokone on lepotilassa.</p>
+            </li>
+            <li class="listitem">
+              <p>Palauttaminen tarkoittaa sitä että tietokone palautetaan virransäästötilasta takaisin normaaliin toimintaan. Voit palauttaa tietokoneen keskeytystilasta painamalla mitä tahansa näppäintä tai napsauttamalla hiiren painikkeita. Voit palauttaa tietokoneen lepotilasta painamalla tietokoneesi virtapainiketta.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Huomaa]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Huomaa että lepotila on oletuksena kytketty pois Xubuntussa eikä näy vaihtoehtona missään valikossa. <a class="xref" href="hardware-devices.html#enabling-hibernation">Lepotilan käyttöön kytkeminen</a> käsittelee komentokehotteelta suoritettavaa väliaikaista korjausta.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p>You can manually put your computer into a power-saving mode by pressing <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/system-log-out.png" /></span> Log Out</span></strong></span> and then pressing the appropriate button.</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Huomaa]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Joillain tietokoneilla voi esiintyä ongelmia joihinkin virransäästötiloihin siirtymisessä. Paras tapa tarkistaa voiko tietokoneesi siirtyä tiettyyn virransäästötilaan on kokeilla siirtyä siihen ja tarkistaa toimiiko virransäästötila kuten odotettua. Tallenna aina tärkeät työsi ennen keskeytys- tai lepotilaan siirtymistä.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="suspending-troubleshooting"></a>Tietokoneeni ei siirry keskeytys- tai lepotilaan oikein</h3>
+              </div>
+            </div>
+          </div>
+          <p>Jotkin tietokoneet eivät pysty siirtymään keskeytys- tai virransäästötilaan oikein Xubuntun kanssa. Voit huomata joitain seuraavista ongelmista:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Tietokonetta ei sammuteta kun yrität siirtyä lepotilaan</p>
+              </li>
+              <li class="listitem">
+                <p>Kun käynnistät tietokoneen uudelleen lepotilasta palautuessa, aiemmin auki olleet ohjelmat eivät palaudu.</p>
+              </li>
+              <li class="listitem">
+                <p>Tietokone ei herää sen jälkeen kun olet siirtänyt sen keskeytystilaan.</p>
+              </li>
+              <li class="listitem">
+                <p>Jotkin sovellukset tai laitteet lopettavat toimimasta oikein keskeytys- tai lepotilasta palautuessa.</p>
+              </li>
+            </ul>
+          </div>
+          <p>Jos kärsit mistään luetelluista ongelmista, sinun tulisi lähettää bugiraportti <a class="ulink" href="http://launchpad.net/" target="_top">Launchpad</a>-palveluun. Nämä ongelmat voidaan toivottavasti korjata tulevissa Xubuntun versioissa. Jos laitteistosi ei toimi oikein palauduttuaan keskeytys- tai lepotilasta, käynnistä tietokoneesi uudelleen ja sen pitäisi palata normaaliin tilaan. Jos ohjelma ei toimi oikein, kokeile sen sulkemista ja uudelleen avaamista.</p>
+          <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Warning">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Varoitus]" src="../../libs-common/images/warning.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Varmista että tallennat kaikki työsi ennen kuin kokeilet onko sinulla keskeytys- tai lepotilaan liittyviä ongelmia.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="enabling-hibernation"></a>Lepotilan käyttöön kytkeminen</h3>
+              </div>
+            </div>
+          </div>
+          <p>Jos haluat käyttää lepotilaa Xubuntussa, toimi seuraavasti:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Asenna <span class="application"><strong>pm-utils</strong></span> -paketti <span class="application"><strong>Ohjelmistot</strong></span>-sovelluksesta.</p>
+              </li>
+              <li class="listitem">
+                <p>Syötä komentoriville seuraava komento: <strong class="userinput"><code>sudo pm-hibernate</code></strong></p>
+              </li>
+              <li class="listitem">
+                <p>Syötä salasanasi.</p>
+              </li>
+              <li class="listitem">
+                <p>Palautuaksesi lepotilasta, paina virtapainiketta.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="suspending-patterns"></a>Näen omituisia kuvioita näytölläni kun siirrän tietokoneeni lepotilaan</h3>
+              </div>
+            </div>
+          </div>
+          <p>Tietokoneesi voi näyttää mustavalkoisia kuvioita juuri ennen kuin siirrän tietokoneesi lepotilaan. Tästä ei tarvitse yleensä huolestua ja se on vain tapa jolla jotkin näytönohjaimet vastaavat lepotilaan siirtymisen ensimmäisiin vaiheisiin. Jos tietokoneesi näyttää kuvioita pidemmän ajan, eikä sammu, voi sinulla olla ongelmia lepotilaan siirtymisen kanssa. Lisätietoja saat kohdasta <a class="xref" href="hardware-devices.html#suspending-troubleshooting">Tietokoneeni ei siirry keskeytys- tai lepotilaan oikein</a>.</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="mice-keyboards"></a>Hiiret ja näppäimistöt</h2>
+            </div>
+          </div>
+        </div>
+        <p>When you install Xubuntu, you are given the option of selecting your keyboard type and language. During the installation, your pointing devices should be automatically detected and configured. If you want or need to change the settings of any of these devices after installation, you can do so by going to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Mouse and Touchpad</span></strong></span> or <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Keyboard</span></strong></span>.</p>
+        <p>Valinnat hiirille ja kosketuslevyille sisältävät:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Button orientation</em>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Pointer speed and sensitivity</em>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Double-click sensitivity</em>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Cursor theme</em>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <p>Joitain näppäimistön asetusvalintoja ovat:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>
+                <em class="guilabel">State of the Num Lock key on startup</em>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Key repeat speed and delay</em>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Cursor blinking speed</em>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Application keyboard shortcuts</em>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Keyboard layout and language </em>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Vihje]" src="../../libs-common/images/tip.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Jos käytät hiirtä kannettavalla jolla on myös kosketuslevy, voit vaihtaa niiden asetuksia erilleen valitsemalla asianmukaisen laitteen <em class="guilabel">Laite</em>-pudotusvalikosta <em class="guilabel">Laitteet</em>-välilehdellä.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="guide-keeping-safe.html"><img src="../../libs-common/images/prev.png" alt="Edellinen" /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="administrative-tasks.html"><img src="../../libs-common/images/next.png" alt="Seuraava" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Luku 11. Tietokoneen ja henkilökohtaisen tiedon turvassa pitäminen </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Alkuun" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Luku 13. Ylläpidolliset toimet</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

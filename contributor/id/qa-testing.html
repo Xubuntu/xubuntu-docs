@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Paket dan Pengujian ISO</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Dokumentasi Kontributor Xubuntu" />
+    <link rel="up" href="qa-team-testing.html" title="Pengujian" />
+    <link rel="prev" href="qa-infra.html" title="Pengujian Infrastruktur" />
+    <link rel="next" href="qa-bugs.html" title="Berurusan dengan bug" />
+    <link rel="copyright" href="credits-license.html" title="Kredit dan Lisensi" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div class="section">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="qa-testing"></a>Paket dan Pengujian ISO</h3>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="qa-testing-iso"></a>ISO</h4>
+            </div>
+          </div>
+        </div>
+        <p>In general, links for specific ISOs for daily or milestone use can be found at the <a class="ulink" href="http://iso.qa.ubuntu.com/" target="_top">ISO Tracker</a>. A link exists for the <a class="ulink" href="http://cdimage.ubuntu.com/xubuntu/daily-live/current/" target="_top">current</a> development daily ISO. This can be useful, especially when setting up methods to download your testing ISO, such as with <a class="ulink" href="https://help.ubuntu.com/community/ZsyncCdImage" target="_top">zsync</a></p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Catatan]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>You can find the last known boot and installation status of our ISOs at <a class="ulink" href="http://dev.xubuntu.org/#tab-qa" target="_top">QA Status</a> of the development status tracker</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="qa-testing-exploratory"></a>Pengujian Eksplorasi</h4>
+            </div>
+          </div>
+        </div>
+        <p>Selain menguji gambar dan perangkat lunak dengan tindakan pengujian yang telah ditentukan sebelumnya (pengujian statis), anggota masyarakat juga dapat mengambil bagian dalam pengujian eksplorasi.</p>
+        <p>Intinya, pengujian eksplorasi berarti menjalankan rilis pengembangan dan melakukan tugas-tugas harian Anda dengan sistem dan akhirnya, melaporkan bug ketika Anda menemukannya. Ini memungkinkan Xubuntu untuk mendapatkan pengujian yang jauh lebih besar daripada yang mungkin dilakukan dengan tes yang telah ditentukan.</p>
+        <p>Cara yang berguna untuk menangani ini adalah boot ganda (atau ganda). Dengan dual (atau multiple) booting Anda dapat memastikan Anda dapat mengakses versi yang berfungsi setiap saat saat menguji sistem pengembangan. Dengan cara ini Anda dapat melakukan sebanyak mungkin pekerjaan dalam rilis pengembangan yang praktis - sambil memperhatikan bug dan regresi dalam rilis pengembangan.</p>
+        <p>When dual (or multiple booting) it can be helpful to install the bootloader to specific partitions, a simple run-through on addressing this can be found at <a class="ulink" href="https://wiki.xubuntu.org/qa/fine_tuning" target="_top">Manual Partitions and Bootloader location</a>.</p>
+        <p>Masalah yang ingin ditangani oleh tim pengembangan termasuk, selain masalah yang biasanya dilaporkan, bug kegunaan, ikon yang hilang, fungsionalitas yang tidak konsisten.</p>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="qa-testing-ppa"></a>Menggunakan PPA Pengembangan</h4>
+            </div>
+          </div>
+        </div>
+        <p>Kami memiliki 3 PPA yang kami gunakan secara teratur untuk menguji paket. Ini adalah:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p><a class="ulink" href="https://launchpad.net/~shimmerproject/+archive/ubuntu/daily" target="_top">Shimmer Themes</a> for daily builds of the Shimmer Project’s projects</p>
+            </li>
+            <li class="listitem">
+              <p><a class="ulink" href="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/ppa" target="_top">Xubuntu daily builds</a> for daily Git and Bzr builds for packages related to Xubuntu and/or Xfce4</p>
+            </li>
+            <li class="listitem">
+              <p><a class="ulink" href="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/experimental" target="_top">Xubuntu QA Experimental</a> for packages and package versions that are being prepared for inclusion in Xubuntu, uploaded for the convenience of people testing these new package versions and features in an otherwise stable environment</p>
+            </li>
+            <li class="listitem">
+              <p><a class="ulink" href="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/staging" target="_top">Xubuntu QA Staging</a> for testing of packages in released and current Xubuntu versions</p>
+            </li>
+          </ul>
+        </div>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Catatan]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Terkadang tim pengembangan menggunakan PPA lain untuk menguji paket tertentu. Rincian ini akan diberitahukan kepada penguji jika perlu</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p>Menginstal dari PPA ini berarti Anda akan menggunakan dan menguji paket yang saat ini sedang dikerjakan pengembang, ini berarti bahwa regresi yang ditemukan oleh Anda tidak akan hadir setelah dirilis.</p>
+        <p>Menghapus PPA yang digunakan. Menggunakan ppa-purge menyebabkan apt untuk menonaktifkan daftar sumber PPA dan kemudian mengubah paket yang terkena kembali ke versi default.</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>Run <strong class="userinput"><code>sudo apt-get install ppa-purge</code></strong></p>
+            </li>
+            <li class="listitem">
+              <p>Run <strong class="userinput"><code>sudo ppa-purge ppa:ppaname</code></strong></p>
+            </li>
+          </ul>
+        </div>
+        <p>Reporting bugs with PPAs can be problematic, please see further information on reporting bugs with PPAs in <a class="xref" href="qa-bugs.html#qa-bugs-ppa">Melaporkan bug dengan PPA</a>.</p>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="qa-testing-static"></a>Pengujian Statis</h4>
+            </div>
+          </div>
+        </div>
+        <p>Menguji versi pengembangan Xubuntu dan paket di dalamnya membantu menjaga kualitas setiap hari. Jika Anda memiliki sumber daya perangkat keras cadangan atau dapat menjalankan lingkungan pengujian tervirtualisasi, Anda dapat membantu.</p>
+        <p>Periksa milis devel dekat dengan awal siklus, di mana keputusan mengenai minggu pengujian mana yang akan kami ikuti akan dibahas.</p>
+        <p>During testing weeks the ISO will continue to build, the Xubuntu QA Team will watch the tracker reports and make testers aware of issues noted in previous days, notes will be made as appropriate pn the tracker <a class="ulink" href="https://dev.xubuntu.org/#tab-qa" target="_top">QA Status page</a>.</p>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="qa-testing-milestone"></a>Pekan Menguji</h4>
+            </div>
+          </div>
+        </div>
+        <p>Pengujian ISO tetap hanya akan berlangsung untuk Final Beta, selama milestone ini berguna dalam 2 hari sebelum rilis untuk hal-hal berikut telah terjadi.</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>Sesi Langsung: Boot dengan gambar dan pastikan lolos pengujian aplikasi dasar (buka, tutup, simpan, dll.).</p>
+            </li>
+            <li class="listitem">
+              <p>Tes instalasi harus lulus. Ini hanya menguji instalasi.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="qa-testing-daily"></a>Pengujian harian</h4>
+            </div>
+          </div>
+        </div>
+        <p>Pentingnya pengujian gambar harian terutama terletak pada mengetahui bahwa regresi boot dan/atau instalasi belum muncul. Di mana tampaknya mereka miliki, jika Anda dapat boot dengan image rasa yang berbeda, ini dapat membantu membuktikan masalah global atau lokal untuk Xubuntu. Jika tidak yakin, hubungi tim Xubuntu, lebih disukai di IRC.</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>Sesi Langsung: Boot dengan gambar dan pastikan lolos pengujian aplikasi dasar (buka, tutup, simpan, dll.).</p>
+            </li>
+            <li class="listitem">
+              <p>Tes instalasi harus lulus. Ini hanya menguji instalasi.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="qa-testing-upgrade"></a>Tingkatkan Pengujian</h4>
+            </div>
+          </div>
+        </div>
+        <p>Sekitar setengah jalan melalui siklus pengembangan (sekitar tonggak beta) kita perlu menguji peningkatan dari rilis sebelumnya ke versi pengembangan baru. Ketika versi pengembangan dimaksudkan untuk menjadi rilis LTS berikutnya, kita perlu menguji kedua jalur peningkatan: LTS ke LTS dan reguler ke LTS.</p>
+        <p>Pelacak ISO memiliki bagian untuk tes peningkatan yang tidak berubah setiap hari, tetapi beroperasi dari hari Jumat hingga Jumat. Ini memungkinkan kami untuk menguji peningkatan selama seminggu, bukan sehari. Selama pengujian ini, lebih disukai bahwa gambar yang digunakan untuk pengujian adalah yang dibangun pada hari Jumat pertama, kecuali di mana bug dilaporkan dan perbaikan mendarat.</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>Peningkatan: diuji menggunakan pembaruan-manajer</p>
+            </li>
+            <li class="listitem">
+              <p>Pembaruan (gambar): diuji menggunakan gambar harian</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="qa-testing-package"></a>Paket Pengujian</h4>
+            </div>
+          </div>
+        </div>
+        <p>Untuk rilis di mana kami menggunakan Pelacak Paket, panggilan untuk pengujian paket akan dilakukan ke milis xubuntu-devel sebagaimana diperlukan. Ini bisa berupa panggilan dari QA atau Pengembang.</p>
+        <p>A schedule of planned tests will be mailed to the Xubuntu Devel mailing list close to the cycle start. Reminders of upcoming package test requirements are mailed to the Xubuntu devel mailing list as required. <span class="emphasis"><em>Specific developer testing requirement</em></span> are mailed as they are available, often these packages will be those found on one of our PPAs.</p>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="qa-infra.html"><img src="../../libs-common/images/prev.png" alt="Sebelumnya" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="qa-team-testing.html">
+              <img src="../../libs-common/images/up.png" alt="Induk" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="qa-bugs.html"><img src="../../libs-common/images/next.png" alt="Lanjut" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Pengujian Infrastruktur </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Depan" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Berurusan dengan bug</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

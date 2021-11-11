@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Глава 10. Управление пакетами в оффлайн-режиме</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Документация Xubuntu" />
+    <link rel="up" href="index.html" title="Документация Xubuntu" />
+    <link rel="prev" href="software-management.html" title="Глава 9. Software Management" />
+    <link rel="next" href="guide-keeping-safe.html" title="Глава 11. Обеспечение защиты компьютера и личной информации" />
+    <link rel="copyright" href="credits-license.html" title="Благодарности и лицензия" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div xml:lang="ru" class="chapter" lang="ru">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="offline-packages"></a>Глава 10. Управление пакетами в оффлайн-режиме</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>Содержание</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="section">
+              <a href="offline-packages.html#offline-repo-update">Обновление репозиториев</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="offline-packages.html#offline-package-install">Установка пакета</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="offline-packages.html#offline-system-upgrade">Обновление пакетов</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <p>Существует инструмент <span class="application"><strong>apt-offline</strong></span>, помогающий поддерживать систему в актуальном состоянии даже при отсутствии интернет-соединения с помощью второго, подключённого к Интернету компьютера. Этот второй компьютер может работать под управлением Xubuntu, другой разновидности Ubuntu, или Debian. Доступен графический интерфейс <span class="application"><strong>apt-offline-gui</strong></span>. В данном документе рассматривается вариант с использованием командной строки.</p>
+      <p>Там, где в этой главе даны указания использовать каталог на USB-носителе, название и путь к этому каталогу вам следует самостоятельно выбрать заранее.</p>
+      <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+        <table border="0" summary="Warning">
+          <tr>
+            <td rowspan="2" align="center" valign="top" width="25">
+              <img alt="[Предупреждение]" src="../../libs-common/images/warning.png" />
+            </td>
+            <th align="left"></th>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <p>Несколько особых пакетов невозможно установить без доступа к Интернету, поскольку в процессе их установки или обновления запускаются загрузочные скрипты для скачивания данных из Интернета. Типичными примерами таких пакетов являются <span class="application"><strong>flashplugin-installer</strong></span>, <span class="application"><strong>nautilus-dropbox</strong></span> и <span class="application"><strong>ttf-mscorefonts-installer</strong></span>. Обходного пути установки подобных пакетов, которые сами осуществляют загрузку, не существует.</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+        <table border="0" summary="Note">
+          <tr>
+            <td rowspan="2" align="center" valign="top" width="25">
+              <img alt="[Примечание]" src="../../libs-common/images/note.png" />
+            </td>
+            <th align="left"></th>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <p>Желательно избегать использования флага <strong class="userinput"><code>-y</code></strong> при обновлении, чтобы иметь последний шанс просмотреть обновления на наличие упомянутых выше проблем.</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+        <table border="0" summary="Note">
+          <tr>
+            <td rowspan="2" align="center" valign="top" width="25">
+              <img alt="[Примечание]" src="../../libs-common/images/note.png" />
+            </td>
+            <th align="left"></th>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <p>При использовании <span class="application"><strong>apt-offline</strong></span> могут появиться некоторые ошибки, выделенные красным текстом, о невозможности загрузить файлы, относящиеся к переводам. Их можно без вреда проигнорировать.</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="offline-repo-update"></a>Обновление репозиториев</h2>
+            </div>
+          </div>
+        </div>
+        <p>После вставки USB-носителя и открытия терминала можно использовать apt-offline для генерации запроса на обновление сведений о репозиториях программного обеспечения. Это позволит компьютеру увидеть, имеются ли в  наличии какие-либо исправления ошибок, обновления безопасности или новые приложения.</p>
+        <p>На компьютере без Интернета наберите: <strong class="userinput"><code>apt-offline set --update apt-offline.sig</code></strong></p>
+        <p>После выполнения команды, скопируйте <code class="literal">apt-offline.sig</code> на USB-носитель и перенесите на другой компьютер. С помощью apt-offline на этом компьютере используйте данный файл, чтобы загрузить то, что нужно для обновления на не подключённом к Интернету компьютере. Перейдите в каталог на флешке, содержащий apt-offline.sig, наберите <strong class="userinput"><code>apt-offline get --bundle bundle.zip apt-offline.sig</code></strong>. После завершения извлеките USB-носитель и верните его на компьютер без Интернета.</p>
+        <p>На компьютере без Интернета снова подключите USB-носитель. Перейдите на нём в каталог, содержащий два файла и наберите: <strong class="userinput"><code>sudo apt-offline install bundle.zip</code></strong>. После завершения работы команды ваши репозитории будут обновлены.</p>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="offline-package-install"></a>Установка пакета</h2>
+            </div>
+          </div>
+        </div>
+        <p>Вы можете использовать apt-offline, чтобы загрузить пакет для установки. Это действие можно комбинировать с обновлением репозиториев программного обеспечения, что позволит более эффективно использовать доступ к компьютеру с подключением к Интернету.</p>
+        <p>В данном примере предположим, что вы хотите установить пакет новой программы. Будем называть его <span class="emphasis"><em>PACKAGENAME</em></span>, хотя в реальном случае вам следует указать взамен имя пакета. Весьма часто установка пакета сопряжена с установкой его зависимостей. <span class="application"><strong>apt-offline</strong></span> позаботится о разрешении зависимостей самостоятельно. Откройте окно терминала, подключите флеш-диск USB и перейдите в выбранный заранее каталог. Из этого каталога выполните <strong class="userinput"><code>sudo apt-offline set --install-packages $PACKAGENAME --update apt-offline.sig</code></strong>, чтобы начать процесс.</p>
+        <p>После завершения скопируйте <code class="literal">apt-offline.sig</code> на USB-носитель и возьмите его с собой на другой компьютер. С помощью apt-offline на этом компьютере используйте данный файл, чтобы загрузить то, что требуется компьютеру без Интернета для обновления и установки PACKAGENAME. Перейдите в каталог на флеш-диске, содержащем apt-offline.sig, и выполните <strong class="userinput"><code>sudo apt-offline get --bundle bundle.zip apt-offline.sig</code></strong>. Вывод команды покажет попытку загрузить обновления репозитория, а также <span class="emphasis"><em>PACKAGENAME</em></span> и всех его зависимостей. После завершения выньте USB-носитель и возьмите его на компьютер без Интернета.</p>
+        <p>Вставьте USB-носитель в компьютере без Интернета. Перейдите в каталог носителя, содержащий два файла и наберите: <strong class="userinput"><code>sudo apt-offline install bundle.zip</code></strong>. Когда выполнение команды завершится, репозитории будут обновлены. Затем можете установить <span class="emphasis"><em>PACKAGENAME</em></span> командой: <strong class="userinput"><code>sudo apt-get install PACKAGENAME</code></strong>.</p>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="offline-system-upgrade"></a>Обновление пакетов</h2>
+            </div>
+          </div>
+        </div>
+        <p>Обновление пакетов проходит в 2 этапа: обновление репозиториев, а затем загрузка и обновление требуемых пакетов.</p>
+        <p>Вначале обновите репозитории, следуя инструкциям в <a class="xref" href="offline-packages.html#offline-repo-update">Обновление репозиториев</a></p>
+        <p>Очистите каталог на USB-носителе, которой мы использовали ранее. В новом окне терминала перейдите в каталог на USB-носителе, в котором вы собираетесь работать. Поскольку мы не хотим потерять возможность обновить данные о репозиториях на компьютере без Интернета, мы можем использовать команду, которая не только выполнит поиск пакетов для обновления, но и обновит репозитории. Введите <strong class="userinput"><code>apt-offline set --update --upgrade apt-offline.sig</code></strong></p>
+        <p>После завершения скопируйте <code class="literal">apt-offline.sig</code> на USB-носитель и возьмите на другой компьютер. Используйте этот файл с apt-offline для загрузки того, что требуется компьютеру без Интернета для обновления. Перейдите на носителе в каталог, содержащий apt-offline.sig и выполните <strong class="userinput"><code>sudo apt-offline get --bundle bundle.zip apt-offline.sig</code></strong>. Вывод команды покажет попытку загрузки обновлений репозиториев, а также обновлений и их зависимостей, требующихся вашей системе. После завершения выньте  USB-носитель и возьмите его на компьютер без доступа к Интернету.</p>
+        <p>На компьютере без подключения к Интернету вставьте USB-носитель, перейдите в каталог, содержащий два файла и наберите <strong class="userinput"><code>sudo apt-offline install bundle.zip</code></strong>. После завершения работы этой команды репозитории будут обновлены и вы сможете установить обновления командой: <strong class="userinput"><code>sudo apt-get upgrade</code></strong>.</p>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="software-management.html"><img src="../../libs-common/images/prev.png" alt="Пред." /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="guide-keeping-safe.html"><img src="../../libs-common/images/next.png" alt="След." /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Глава 9. Software Management </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Начало" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Глава 11. Обеспечение защиты компьютера и личной информации</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

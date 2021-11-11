@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Chapitre 7. Connexion à Internet et aux réseaux</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Documentation de Xubuntu" />
+    <link rel="up" href="index.html" title="Documentation de Xubuntu" />
+    <link rel="prev" href="guide-default-apps.html" title="Chapitre 6. Default Applications" />
+    <link rel="next" href="printing-scanning.html" title="Chapitre 8. Impression et numérisation" />
+    <link rel="copyright" href="credits-license.html" title="Remerciements et licence" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div xml:lang="fr" class="chapter" lang="fr">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="internet-networks"></a>Chapitre 7. Connexion à Internet et aux réseaux</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>Table des matières</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="section">
+              <a href="internet-networks.html#network-connections">Connexions réseau</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="internet-networks.html#network-troubleshooting">Dépannage du réseau</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="internet-networks.html#connecting-servers">Connexion aux serveurs</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <p>Xubuntu utilise <span class="application"><strong>NetworkManager</strong></span> pour gérer les connexions filaires, non-filaires, haut-débit mobile, VPN et ADSL. <span class="application"><strong>NetworkManager</strong></span> conserve également les mots de passe en sécurité en utilisant le trousseau de clé de l'utilisateur pour stocker les phrases secrètes.</p>
+      <p><span class="application"><strong>Network-manager</strong></span> est l'une des petites icônes dans le panneau supérieur, en haut à droite de votre écran. Lorsque vous n'êtes pas connecté, l'icône affiche deux flèches grisées pointant respectivement vers le haut et vers le bas. Lorsque vous êtes connecté, l'icône change selon le type de réseau utilisé.</p>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="network-connections"></a>Connexions réseau</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="network-connect-disconnect"></a>Connexion et déconnexion</h3>
+              </div>
+            </div>
+          </div>
+          <p><span class="application"><strong>NetworkManager</strong></span> utilisera automatiquement un réseau filaire, s'il y en a un disponible.</p>
+          <p>Pour voir toutes les connexions disponibles, cliquez sur l'icône <span class="application"><strong>NetworkManager</strong></span>. Pour vous connecter à un réseau, cliquez sur le nom du réseau.</p>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Note]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Si vous vous connectez à un réseau sans fil pour la première fois, des codes de sécurité seront peut-être nécessaires. Une boite de dialogue s'ouvrira le cas échéant. Dans la plupart des cas, le type de sécurité sera déterminé automatiquement. Si ce n'est pas le cas, choisissez le type de sécurité dans le menu déroulant <em class="guilabel">Sécurité Wi-Fi</em>, saisissez les codes d'authentification et cliquez sur <span class="guibutton"><strong>Connecter</strong></span>.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <p>Pour vous déconnecter d'un réseau, cliquez sur l'icône <span class="application"><strong>NetworkManager</strong></span> et sélectionnez <em class="guilabel">Se déconnecter</em> sous le type de connexion approprié. Pour désactiver (et réactiver) un réseau filaire et/ou sans fil tous ensembles, cliquez sur l'icône <span class="application"><strong>NetworkManager</strong></span>, sélectionnez <span class="guimenuitem">Activer le réseau</span> et <span class="guimenuitem">Activer le Wi-Fi</span>. C'est l'un ou l'autre de ces choix. Leur état actif/inactif est indiqué par la présence/absence d'une coche.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="network-configure"></a>Configuration des connexions</h3>
+              </div>
+            </div>
+          </div>
+          <p>Si vous avez besoin de configurer vos connexions, cliquez sur l'icône <span class="application"><strong>Network-manager</strong></span> et sélectionnez <span class="guimenuitem">Modifications des connexions</span>. Dans la boîte de dialogue, vous verrez des listes déroulantes pour chaque type de connexion. Sélectionnez le réseau approprié et cliquez sur <span class="guibutton"><strong>Modifier</strong></span> ou sur <span class="guibutton"><strong>Ajouter</strong></span> pour configurer de nouveaux réseaux.</p>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Note]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Pour pouvoir vous connecter à certains réseaux, vous aurez peut-être besoin de certaines informations de connexion que vous obtiendrez de votre administrateur réseau ou de votre fournisseur d’accès à internet.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="network-information"></a>Informations de connexion</h3>
+              </div>
+            </div>
+          </div>
+          <p>Pour voir les informations de connexion, cliquez sur l'icône <span class="application"><strong>NetworkManager</strong></span> et choisissez <span class="guimenuitem">Informations sur la connexion</span>. Vos connexions réseau actives s'afficheront dans la boîte de dialogue <em class="guilabel">Connexions réseau actives</em>, dans des onglets séparés.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="network-sharing"></a>Partage de votre connexion avec un autre ordinateur</h3>
+              </div>
+            </div>
+          </div>
+          <p>Vous pouvez partager votre connexion avec un autre ordinateur en utilisant un câble Ethernet. Cliquez sur l'icône <span class="application"><strong>Network-Manager</strong></span>, en sélectionnant <span class="guimenuitem">Modification des connexions</span>, puis en ajoutant une nouvelle connexion sans fil (ou en en modifiant une nouvelle). Dans la fenêtre des propriétés de la connexion, sélectionnez <em class="guilabel">Paramètres IPv4</em> et changez <em class="guilabel">Méthode</em> pour <em class="guilabel">Partagé avec d'autres ordinateurs</em> dans la liste déroulante.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="network-modems"></a>Modems commutés</h3>
+              </div>
+            </div>
+          </div>
+          <p>Malheureusement, les modems ne sont pas pris en charge par <span class="application"><strong>NetworkManager</strong></span>. Pour obtenir des informations concernant les modems, veuillez vous référer à <a class="ulink" href="https://help.ubuntu.com/community/DialupModemHowto" target="_top">Dialup modem How-to</a> sur la page Wiki de la communauté Ubuntu.</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="network-troubleshooting"></a>Dépannage du réseau</h2>
+            </div>
+          </div>
+        </div>
+        <p>Avant de tenter tout dépannage, assurez-vous que les connexions réseau sont activées :</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>cliquez sur l'icône <span class="application"><strong>NetworkManager</strong></span> dans la zone de notification ;</p>
+            </li>
+            <li class="listitem">
+              <p>cochez <span class="guimenuitem">Activer le réseau</span> ;</p>
+            </li>
+            <li class="listitem">
+              <p>cochez <span class="guimenuitem">Activer le Wi-Fi</span>.</p>
+            </li>
+          </ul>
+        </div>
+        <p>Si votre connexion réseau ne fonctionne toujours pas :</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>pour les connexions filaires (Ethernet), veuillez regarder <a class="xref" href="internet-networks.html#network-troubleshooting-general">Dépannage général</a> ;</p>
+            </li>
+            <li class="listitem">
+              <p>pour les connexions sans fil, veuillez regarder à la fois <a class="xref" href="internet-networks.html#network-troubleshooting-general">Dépannage général</a> et <a class="xref" href="internet-networks.html#network-troubleshooting-wireless">Dépannage du réseau sans fil</a> ;</p>
+            </li>
+            <li class="listitem">
+              <p>si vos problèmes de connexion réseau ne sont toujours pas résolus, regardez <a class="xref" href="internet-networks.html#network-troubleshooting-advanced">Dépannage avancé</a>.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="network-troubleshooting-general"></a>Dépannage général</h3>
+              </div>
+            </div>
+          </div>
+          <p>Si votre connexion réseau ne fonctionne pas correctement, certains outils peuvent être utilisés pour aider à diagnostiquer le problème.</p>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="network-troubleshooting-information"></a>Obtenir des informations sur la connexion en cours</h4>
+                </div>
+              </div>
+            </div>
+            <p>Pour obtenir des informations sur votre connexion réseau et sur les périphériques réseau, vous avez deux options :</p>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p>utiliser <span class="application"><strong>NetworkManager</strong></span></p>
+                  <div class="itemizedlist">
+                    <ul class="itemizedlist" style="list-style-type: circle; ">
+                      <li class="listitem">
+                        <p>cliquez sur l'icône <span class="application"><strong>NetworkManager</strong></span> ;</p>
+                      </li>
+                      <li class="listitem">
+                        <p>choisissez <span class="guimenuitem">Informations sur la connexion</span>. Si ce choix est grisé, il est probable qu'il n'y a pas de connexion active. Essayez d'utiliser <span class="application"><strong>ifconfig</strong></span> pour en savoir plus[nbsp);</p>
+                      </li>
+                      <li class="listitem">
+                        <p>chaque connexion active aura son propre onglet où figureront des informations pertinentes sur celle-ci.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="listitem">
+                  <p>Utiliser <span class="application"><strong>ifconfig</strong></span></p>
+                  <div class="itemizedlist">
+                    <ul class="itemizedlist" style="list-style-type: circle; ">
+                      <li class="listitem">
+                        <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>ifconfig</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.</p>
+                      </li>
+                      <li class="listitem">
+                        <p><span class="application"><strong>ifconfig</strong></span> affiche des informations détaillées sur votre connexion, y compris les noms logiques ou de connexion (par exemple : enp3s0) dans la colonne de gauche, l'adresse IP dans la colonne <em class="guilabel">inet addr</em> et l'adresse MAC de votre machine dans la colonne <em class="guilabel">HWaddr</em>.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="network-troubleshooting-working"></a>Vérifier si une connexion fonctionne correctement</h4>
+                </div>
+              </div>
+            </div>
+            <p>Le ping vers un autre ordinateur du réseau ou sur Internet est une méthode fiable pour vérifier si une connexion fonctionne correctement.</p>
+            <p>To check if your computer is connected to the Internet, open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>ping -c 3 www.xubuntu.org</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.</p>
+            <p>L'ordinateur tentera ensuite de contacter www.xubuntu.org à trois reprises et affichera le résultat. Les statistiques de la commande ping affichent le nombre de paquets transmis, combien de paquets ont été reçus, le pourcentage de paquets perdus et le temps total écoulé.</p>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p>0 % de paquets perdus indique que votre ordinateur est connecté à Internet.</p>
+                </li>
+                <li class="listitem">
+                  <p>Un taux de perte supérieur à 0 % mais inférieur à 100 % indique que votre ordinateur a une mauvaise connexion Internet ou un mauvais signal sans fil.</p>
+                </li>
+                <li class="listitem">
+                  <p>Un taux de perte de 100 % indique que votre ordinateur a une très mauvaise connexion, ou qu'il est connecté à un point d'accès ou un routeur qui, lui-même, n'est pas connecté à Internet</p>
+                </li>
+              </ul>
+            </div>
+            <p>Si vous obtenez un message d'erreur disant « www.xubuntu.org introuvable » ou « hôte inconnu », alors votre ordinateur n'est probablement pas connecté à Internet ou bien n'est pas capable d'atteindre le Serveur de Nom de Domaine (DNS).</p>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="network-troubleshooting-wireless"></a>Dépannage du réseau sans fil</h3>
+              </div>
+            </div>
+          </div>
+          <p>Cette section couvre les problèmes courants rencontrés avec la prise en charge sans fil. Vos trouverez d'avantage d'informations disponibles en anglais sur le <a class="ulink" href="https://help.ubuntu.com/community/WifiDocs" target="_top">Wiki d'aide de la communauté</a>.</p>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Note]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Veuillez noter que les étapes de ce guide de dépannage sont conçues pour être suivies dans l'ordre indiqué, à moins que vous ne soyez orienté vers une sous-section différente.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="network-troubleshoothing-wifi-on"></a>Vérifiez que le périphérique est allumé</h4>
+                </div>
+              </div>
+            </div>
+            <p>De nombreux périphériques réseaux sans fil peuvent être allumés ou éteints. Cherchez un interrupteur ou une touche de fonction sur votre clavier pour allumer le périphérique sans fil.</p>
+            <p>Si le périphérique est allumé, procédez à l'étape suivante.</p>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="network-troubleshooting-device-recognized"></a>Vérifiez que le périphérique est reconnu</h4>
+                </div>
+              </div>
+            </div>
+            <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>sudo lshw -C network</code></strong>, then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key. You will see some output, along with the words <em class="guilabel">CLAIMED</em>, <em class="guilabel">UNCLAIMED</em>, <em class="guilabel">ENABLED</em> or <em class="guilabel">DISABLED</em>.</p>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p><em class="guilabel">CLAIMED</em> indique que le pilote est chargé mais ne fonctionne pas. Continuez avec <a class="xref" href="internet-networks.html#network-troubleshooting-ndiswrapper">Utilisation des pilotes sans fil Windows</a>.</p>
+                </li>
+                <li class="listitem">
+                  <p><em class="guilabel">UNCLAIMED</em> indique qu'aucun pilote n'est chargé. Continuez avec <a class="xref" href="internet-networks.html#network-troubleshooting-ndiswrapper">Utilisation des pilotes sans fil Windows</a>.</p>
+                </li>
+                <li class="listitem">
+                  <p><em class="guilabel">ENABLED</em> indique que le pilote est installé et fonctionne. Continuez avec <a class="xref" href="internet-networks.html#network-troubleshooting-router">Vérification d'une connexion au routeur</a>.</p>
+                </li>
+                <li class="listitem">
+                  <p><em class="guilabel">DISABLED</em> indique que le pilote est installé, mais désactivé. Continuez avec <a class="xref" href="internet-networks.html#network-troubleshoothing-wifi-on">Vérifiez que le périphérique est allumé</a>.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="network-troubleshooting-ndiswrapper"></a>Utilisation des pilotes sans fil Windows</h4>
+                </div>
+              </div>
+            </div>
+            <p>Xubuntu prend en charge un système connus sous le nom de <span class="application"><strong>NDISWrapper</strong></span>. Cela vous permet d'utiliser un pilote de périphérique sans fil Windows sous Xubuntu. Pour commencer à utiliser <span class="application"><strong>NDISWrapper</strong></span> :</p>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p>Procurez-vous le pilote Windows pour votre périphérique réseau et localisez le fichier qui se termine par <code class="literal">.inf</code></p>
+                </li>
+                <li class="listitem">
+                  <p>Install the <code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span>ndisgtk</code> package</p>
+                </li>
+                <li class="listitem">
+                  <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Windows Wireless Drivers</span></strong></span></p>
+                </li>
+                <li class="listitem">
+                  <p>Sélectionnez <span class="guibutton"><strong>Installer un nouveau pilote</strong></span></p>
+                </li>
+                <li class="listitem">
+                  <p>Choisissez l'emplacement de votre fichier .inf Windows et cliquez sur le bouton <span class="guibutton"><strong>Installer</strong></span></p>
+                </li>
+                <li class="listitem">
+                  <p>Cliquez sur <span class="guibutton"><strong>Valider</strong></span></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="network-troubleshooting-router"></a>Vérification d'une connexion au routeur</h4>
+                </div>
+              </div>
+            </div>
+            <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>iwconfig</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.</p>
+            <p>Si l'<em class="guilabel">ESSID</em> de votre routeur est affiché, il y a probablement un problème avec la prise en charge ACPI. Démarrez Xubuntu avec l'option <code class="literal">pci=noacpi</code>.</p>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="network-troubleshooting-advanced"></a>Dépannage avancé</h3>
+              </div>
+            </div>
+          </div>
+          <p>Les méthodes de résolution de problèmes suivantes sont un peu plus techniques. Veuillez n'essayez ces méthodes que si les méthodes ci-dessus ont échoué.</p>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="network-troubleshooting-ip-assignment"></a>Vérification de l'affectation de l'IP</h4>
+                </div>
+              </div>
+            </div>
+            <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>ifconfig</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key. If there is an IP address displayed, continue to <a class="xref" href="internet-networks.html#network-troubleshooting-dns">Vérifiez les serveurs de nom de domaine (DNS)</a>.</p>
+            <p>Dans le terminal, entrez la commande suivante, en remplaçant <code class="literal">enp3s0</code> par le nom de la connexion affichée dans le résultat de la commande <span class="application"><strong>ifconfig</strong></span> : <strong class="userinput"><code>sudo dhclient enp3s0</code></strong></p>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p>Si vous recevez un message qui dit lié à <code class="literal">xxx.xxx.xxx.xxx</code> continuez sur <a class="xref" href="internet-networks.html#network-troubleshooting-dns">Vérifiez les serveurs de nom de domaine (DNS)</a>.</p>
+                </li>
+                <li class="listitem">
+                  <p>Sinon, redémarrez le système</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="network-troubleshooting-dns"></a>Vérifiez les serveurs de nom de domaine (DNS)</h4>
+                </div>
+              </div>
+            </div>
+            <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>nmcli device show</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.  Look for the entries under <code class="literal">IP4.DNS</code></p>
+            <p>To check if the listed DNS works, open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>dig xubuntu.org</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.  If you see the word <code class="literal">NOERROR</code> in the header section of the output, your DNS is working.</p>
+            <p>Si il n'y a pas de paramètre DNS listés, contactez votre fournisseur d'accès Internet (FAI) et recherchez vos serveurs de nom de domaine primaire et secondaire. Lorsque vous aurez cette information, continuez avec <a class="xref" href="internet-networks.html#network-connect-disconnect">Connexion et déconnexion</a> et <a class="xref" href="internet-networks.html#network-configure">Configuration des connexions</a> si besoin.</p>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="connecting-servers"></a>Connexion aux serveurs</h2>
+            </div>
+          </div>
+        </div>
+        <p>To connect to various types of servers, you can use <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">System</span> → <span class="guimenuitem">Gigolo</span></strong></span>. To connect to a server, follow the steps below:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>Allez à <span class="guimenu">Actions</span> → <span class="guimenuitem">Se connecter</span></p>
+            </li>
+            <li class="listitem">
+              <p>Sélectionnez le <em class="guilabel">Type de service</em> approprié et insérez les informations de connexion</p>
+            </li>
+            <li class="listitem">
+              <p>Cliquez sur <span class="guibutton"><strong>Se connecter</strong></span> ; si vous cherchez à vous connecter à un serveur qui demande une authentification, vous serez invité à saisir un mot de passe</p>
+            </li>
+          </ul>
+        </div>
+        <p>Une fois la connexion avec le serveur réussie, une icône apparaît avec les détails de la connexion dans la fenêtre de <span class="application"><strong>Gigolo</strong></span>. Pour définir des marques-pages de connexion, cliquez-droit sur une connexion et sélectionnez <span class="guimenuitem">Créer un signet</span>. Dans la boîte de dialogue <em class="guilabel">Modifier les signets</em>, vous pouvez nommer des marques-pages et définir d'autres options, incluant l'option d'auto-connexion. Une fois fait, cliquez sur <span class="guibutton"><strong>Ajouter</strong></span> pour créer le marque-page.</p>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Astuce]" src="../../libs-common/images/tip.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Le nom d'utilisateur du partage Windows devrait être au format <code class="literal">DOMAINE\nomdutilisateur</code></p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Note]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>In order to connect to Samba networks (Windows shares) using the <span class="application"><strong>Thunar File Manager</strong></span>, you will need to have the package <code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span>gvfs-backends</code> installed.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="guide-default-apps.html"><img src="../../libs-common/images/prev.png" alt="Précédent" /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="printing-scanning.html"><img src="../../libs-common/images/next.png" alt="Suivant" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Chapitre 6. Default Applications </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Sommaire" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Chapitre 8. Impression et numérisation</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

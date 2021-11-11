@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Capítulo 8. Impresión y escaneo</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Documentación de Xubuntu" />
+    <link rel="up" href="index.html" title="Documentación de Xubuntu" />
+    <link rel="prev" href="internet-networks.html" title="Capítulo 7. Conectar a Internet y redes" />
+    <link rel="next" href="software-management.html" title="Capítulo 9. Software Management" />
+    <link rel="copyright" href="credits-license.html" title="Créditos y licencia" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div xml:lang="es" class="chapter" lang="es">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="printing-scanning"></a>Capítulo 8. Impresión y escaneo</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>Tabla de contenidos</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="section">
+              <a href="printing-scanning.html#printing">Impresión</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="printing-scanning.html#scanning">Escaneo</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="printing"></a>Impresión</h2>
+            </div>
+          </div>
+        </div>
+        <p>La mayor parte de las impresoras están soportadas automáticamente por Xubuntu. La aplicación <span class="application"><strong>Configuración de impresora</strong></span> le permitirá agregar impresoras, como también modificar su configuración. Puede también usar esta aplicación para compartir la impresora con otros equipos en una red, deshabilitar la impresora o reiniciarla.</p>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="printing-local"></a>Impresión local</h3>
+              </div>
+            </div>
+          </div>
+          <p>Una impresora local es la que se conecta directamente al ordenador (no como una impresora en red, discutido en <a class="xref" href="printing-scanning.html#printing-network">Impresión en red</a>). Para configurar una impresora local nueva, conecte la impresora al ordenador y enciéndala. La mayoría de las impresoras se detectarán y configurarán automáticamente. Una vez detectada, aparecerá en el panel de notificación un icono de impresora y una ventana emergente con el texto <em class="guilabel">La impresora está lista para imprimir</em>. Si la impresora no se detecta, entonces necesitará seguir estos pasos:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Obtener el nombre del modelo de su impresora</p>
+              </li>
+              <li class="listitem">
+                <p>Asegúrese de que la impresora esté encendida</p>
+              </li>
+              <li class="listitem">
+                <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Printers</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Pulse en <span class="guimenu">Servidor</span> → <span class="guisubmenu">Nueva</span> → <span class="guimenuitem">Impresora</span></p>
+              </li>
+              <li class="listitem">
+                <p>Su impresora debería estar detectada automáticamente y mostrarse en la ventana de <em class="guilabel">Dispositivos</em></p>
+              </li>
+              <li class="listitem">
+                <p>Seleccione su impresora y pulse en <span class="guibutton"><strong>Adelante</strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>El sistema ahora buscará e instalará los controladores para su impresora</p>
+              </li>
+              <li class="listitem">
+                <p>Puede cambiar la descripción y la ubicación de su impresora</p>
+              </li>
+              <li class="listitem">
+                <p>Pulse <span class="guibutton"><strong>Aplicar</strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Su impresora ya debería estar configurada apropiadamente en este punto y debería ver un mensaje preguntando si quiere imprimir una página de prueba.</p>
+              </li>
+              <li class="listitem">
+                <p>Si elije <span class="guibutton"><strong>Imprimir página de prueba</strong></span>, esta será enviada a la impresora y podrá comprobar si funciona correctamente, también puede obviar este paso pulsando <span class="guibutton"><strong>Cancelar</strong></span>. De todas formas su impresora debería estar lista para imprimir.</p>
+              </li>
+              <li class="listitem">
+                <p>Si aun así sigue teniendo problemas intente utilizar la interfaz de configuración de CUPS en el navegador. Puede acceder a la misma abriendo el siguiente enlace <a class="ulink" href="http://localhost:631/" target="_top">http://localhost:631/</a>.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Tip">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Sugerencia]" src="../../libs-common/images/tip.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Si su impresora no es detectada automáticamente, puede intentar seleccionar los puertos y los controladores manualmente. Algunas impresoras necesitan más configuración que otras. Consulte la base de datos de <a class="ulink" href="http://www.linuxfoundation.org/collaborate/workgroups/openprinting" target="_top">OpenPrinting</a> [Enlace en inglés], o mire en la página sobre <a class="ulink" href="https://wiki.ubuntu.com/HardwareSupportComponentsPrinters" target="_top"> Impresoras de la Wiki de Ubuntu</a> [Enlace en inglés].</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="printing-network"></a>Impresión en red</h3>
+              </div>
+            </div>
+          </div>
+          <p>También puede configurar su sistema Xubuntu para enviar trabajos de impresión a un servidor de impresión remoto. Las impresoras remotas se encuentran en alguna parte de la red. Para configurar una impresora remota:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Obtener el nombre del modelo de su impresora</p>
+              </li>
+              <li class="listitem">
+                <p>Asegúrese de que la impresora esté encendida</p>
+              </li>
+              <li class="listitem">
+                <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Printers</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Pulse en <span class="guimenu">Servidor</span> → <span class="guisubmenu">Nueva</span> → <span class="guimenuitem">Impresora</span></p>
+              </li>
+              <li class="listitem">
+                <p>Pulse en <em class="guilabel">Impresora de red</em> en la ventana de <em class="guilabel">Dispositivos</em></p>
+              </li>
+              <li class="listitem">
+                <p>Si su impresora está conectada directamente a una máquina Windows de su red, seleccione <em class="guilabel">Impresora Windows mediante SAMBA</em>. En caso contrario, seleccione el protocolo que usa su impresora para comunicarse.</p>
+              </li>
+              <li class="listitem">
+                <p>Coloque los detalles de la impresora y presione en <span class="guibutton"><strong>Adelante</strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Seleccione el fabricante de la impresora y presione en <span class="guibutton"><strong>Adelante</strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Seleccione el modelo y el controlador y presione en <span class="guibutton"><strong>Adelante</strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Puede escribir una descripción y una ubicación para la impresora en los campos correspondientes</p>
+              </li>
+              <li class="listitem">
+                <p>Pulse <span class="guibutton"><strong>Aplicar</strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Su impresora está configurada correctamente en este punto y se le solicitará que imprima una página de prueba, pulse <span class="guibutton"><strong>Cancelar</strong></span> o <span class="guibutton"><strong>Imprimir página de prueba</strong></span> dependiendo de su preferencia</p>
+              </li>
+            </ul>
+          </div>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Nota]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Si no conoce el protocolo o los detalles de su impresora de red, consulte con el administrador de red.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Tip">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Sugerencia]" src="../../libs-common/images/tip.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Si no tiene una impresora de red, pero quiere compartir su impresora con otros equipos de su red, haga clic en <span class="guimenu">Servidor</span> → <span class="guimenuitem">Configuración</span> en el diálogo <em class="guilabel">Impresoras</em> , marque el campo <em class="guilabel">Publicar impresoras compartidas conectadas a este sistema</em>, y pulse <span class="guibutton"><strong>Aceptar</strong></span>. Los equipos con versiones posteriores a Xubuntu 13.04 detectarán automáticamente las impresoras compartidas de este modo. En equipos con versiones anteriores a Xubuntu 13.10 y en otros sistemas basados en Linux/Ubuntu puede ser necesario habilitar la opción de mostrar impresoras compartidas.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="scanning"></a>Escaneo</h2>
+            </div>
+          </div>
+        </div>
+        <p>Muchos escáneres son automáticamente admitidos por Xubuntu, y debe ser fácil de instalar y operar. Esta sección le guiará a través de cómo usar su escáner y qué hacer si Xubuntu no detecta el escáner.</p>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="scanning-compatible"></a>¿Mi escáner funciona con Xubuntu?</h3>
+              </div>
+            </div>
+          </div>
+          <p>Hay tres maneras de ver si el escáner funciona en Xubuntu:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>¡Simplemente conéctelo y pruebe! Si es un scanner USB nuevo, es muy probable que funcione.</p>
+              </li>
+              <li class="listitem">
+                <p>Compruebe la lista <a class="ulink" href="https://wiki.ubuntu.com/HardwareSupportComponentsScanners" target="_top">de escáneres compatibles </a> para Xubuntu</p>
+              </li>
+              <li class="listitem">
+                <p>Compruebe la lista <a class="ulink" href="http://www.sane-project.org/sane-backends.html" target="_top">del proyecto SANE de soporte a escáneres</a>. <span class="application"><strong>SANE</strong></span> es el software utilizado por Xubuntu para la mayor parte de su soporte para escáner.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="scanning-using"></a>Usar su escáner</h3>
+              </div>
+            </div>
+          </div>
+          <p>Para escanear un documento:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Coloque lo que quiera escanear en el escáner</p>
+              </li>
+              <li class="listitem">
+                <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Graphics</span> → <span class="guimenuitem">Simple Scan</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Pulse en la flecha ubicada a la derecha del botón <span class="guibutton"><strong>Escanear</strong></span> y elija el tipo de medio que está escaneando, <em class="guilabel">Texto</em> o <em class="guilabel">Foto</em></p>
+              </li>
+              <li class="listitem">
+                <p>Pulse en el botón <span class="guibutton"><strong>Escanear</strong></span> para comenzar a escanear</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="scanning-not-detected"></a>El equipo dice «No se detectaron escáneres»</h3>
+              </div>
+            </div>
+          </div>
+          <p>Hay dos razones por las que puede obtener este mensaje:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Su escáner no está soportado en Xubuntu. Por ejemplo muchos escáneres de puerto paralelo y las impresoras Lexmark All-in-One no están soportadas.</p>
+              </li>
+              <li class="listitem">
+                <p>El controlador de su escáner no ha sido cargado automáticamente.</p>
+              </li>
+            </ul>
+          </div>
+          <p>Es posible conseguir que su escáner funcione mediante la instalación de un controlador o la modificación de algunos archivos de configuración. Pida consejo en los <a class="ulink" href="http://ubuntuforums.org/" target="_top">foros de Ubuntu</a> o en <a class="ulink" href="http://askubuntu.com/" target="_top">AskUbuntu</a>.</p>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Nota]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Para conseguir que algunos escáneres funcionen, puede que necesite conectar el escáner después de arrancar el equipo.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="scanning-manual-install"></a>Instalación manual de un escáner</h3>
+              </div>
+            </div>
+          </div>
+          <p>Hay algunos escáneres que tienen controladores incompletos del proyecto SANE. Pueden usarse a veces, pero no funcionarán todas las características.</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Install the <code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span>libsane-extras</code> package</p>
+              </li>
+              <li class="listitem">
+                <p>Ejecute <strong class="userinput"><code>pkexec mousepad /etc/sane.d/dll.conf</code></strong> desde la terminal para editar el archivo del controlador SANE</p>
+              </li>
+              <li class="listitem">
+                <p>Habilite el controlador correcto para su escáner eliminando el <code class="literal">#</code> situado delante del nombre del controlador. Puede que tenga que buscar en la web para averiguar qué controlador es el correcto</p>
+              </li>
+              <li class="listitem">
+                <p>Guarde el archivo y abra <span class="application"><strong>Simple Scan</strong></span>. Si todo va bien, su escáner funcionará ahora.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="internet-networks.html"><img src="../../libs-common/images/prev.png" alt="Anterior" /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="software-management.html"><img src="../../libs-common/images/next.png" alt="Siguiente" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Capítulo 7. Conectar a Internet y redes </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Inicio" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Capítulo 9. Software Management</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

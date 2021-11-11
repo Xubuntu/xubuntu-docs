@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Chapter 8. Printing and Scanning</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Xubuntu Documentation" />
+    <link rel="up" href="index.html" title="Xubuntu Documentation" />
+    <link rel="prev" href="internet-networks.html" title="Chapter 7. Connecting to Internet and Networks" />
+    <link rel="next" href="software-management.html" title="Chapter 9. Software Management" />
+    <link rel="copyright" href="credits-license.html" title="Credits and License" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div class="chapter">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="printing-scanning"></a>Chapter 8. Printing and Scanning</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>Table of Contents</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="section">
+              <a href="printing-scanning.html#printing">Printing</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="printing-scanning.html#scanning">Scanning</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="printing"></a>Printing</h2>
+            </div>
+          </div>
+        </div>
+        <p>Most printers are automatically supported by Xubuntu. The <span class="application"><strong>Printer Configuration</strong></span> application allows you to add printers, as well as modify their settings. You can also use this application to share the printer with other computers on a network, disable the printer or restart it.</p>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="printing-local"></a>Local printing</h3>
+              </div>
+            </div>
+          </div>
+          <p>A local printer is one which is directly connected to your computer (as opposed to a network printer, discussed in <a class="xref" href="printing-scanning.html#printing-network">Network printing</a>). To set up a new local printer, plug your printer into your computer and power it on. Most printers will be automatically detected and configured. Once detected, a printer icon will appear in the notification area and you should get a popup with the text <em class="guilabel">Printer is ready for printing</em>. If your printer was not detected, then you will need to follow these steps:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Obtain the model name of your printer</p>
+              </li>
+              <li class="listitem">
+                <p>Ensure the printer is turned on</p>
+              </li>
+              <li class="listitem">
+                <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Printers</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Click <span class="guimenu">Server</span> → <span class="guisubmenu">New</span> → <span class="guimenuitem">Printer</span></p>
+              </li>
+              <li class="listitem">
+                <p>Your printer should be automatically detected and displayed in the <em class="guilabel">Devices</em> window</p>
+              </li>
+              <li class="listitem">
+                <p>Select your printer and click <span class="guibutton"><strong>Forward</strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Your computer will search for and install drivers for your printer</p>
+              </li>
+              <li class="listitem">
+                <p>You can enter a description and location for your printer</p>
+              </li>
+              <li class="listitem">
+                <p>Press <span class="guibutton"><strong>Apply</strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Your printer should be properly configured at this point and you will be prompted if you want to print a test page</p>
+              </li>
+              <li class="listitem">
+                <p>If you press the <span class="guibutton"><strong>Print Test Page</strong></span> button, a test page will print and you can verify if it printed correctly, or you can press <span class="guibutton"><strong>Cancel</strong></span>. Either way, your printer is ready to print.</p>
+              </li>
+              <li class="listitem">
+                <p>If you are still experiencing problems, try using the CUPS browser-based interface. It can be accessed at <a class="ulink" href="http://localhost:631/" target="_top">http://localhost:631/</a>.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Tip">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Tip]" src="../../libs-common/images/tip.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>If your printer was not automatically detected, you can try to select the port and printer driver manually. Some printers need further setup. Search the <a class="ulink" href="http://www.linuxfoundation.org/collaborate/workgroups/openprinting" target="_top">OpenPrinting database</a> or check the <a class="ulink" href="https://wiki.ubuntu.com/HardwareSupportComponentsPrinters" target="_top">Ubuntu Wiki Printer page</a> for information on your printer.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="printing-network"></a>Network printing</h3>
+              </div>
+            </div>
+          </div>
+          <p>You can also configure your Xubuntu system to send print jobs to a remote print server. Remote printers are hosted somewhere on a network. To configure a remote printer:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Obtain the model name of your printer</p>
+              </li>
+              <li class="listitem">
+                <p>Ensure the printer is turned on</p>
+              </li>
+              <li class="listitem">
+                <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Printers</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Click <span class="guimenu">Server</span> → <span class="guisubmenu">New</span> → <span class="guimenuitem">Printer</span></p>
+              </li>
+              <li class="listitem">
+                <p>Click on <em class="guilabel">Network Printer</em> in the <em class="guilabel">Devices</em> window</p>
+              </li>
+              <li class="listitem">
+                <p>If your printer is directly connected to a Windows machine on your network, choose <em class="guilabel">Windows Printer via SAMBA</em>. Otherwise, select the protocol your printer uses to communicate.</p>
+              </li>
+              <li class="listitem">
+                <p>Insert the details of the network printer and press <span class="guibutton"><strong>Forward</strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Select the printer manufacturer and then press <span class="guibutton"><strong>Forward</strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Select the printer model and driver then press <span class="guibutton"><strong>Forward</strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>You can enter a description and location for your printer in the corresponding fields</p>
+              </li>
+              <li class="listitem">
+                <p>Press <span class="guibutton"><strong>Apply</strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Your printer is properly configured at this point and you will be prompted to print a test page, press <span class="guibutton"><strong>Cancel</strong></span> or <span class="guibutton"><strong>Print Test Page</strong></span> depending on your preference</p>
+              </li>
+            </ul>
+          </div>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Note]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>If you do not know the protocol or details of your network printer, you should consult your network administrator.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Tip">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Tip]" src="../../libs-common/images/tip.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>If you do not have a network printer, but want your printer to be shared to other computers on your network, click <span class="guimenu">Server</span> → <span class="guimenuitem">Settings</span> from the <em class="guilabel">Printers</em> dialog, check the box <em class="guilabel">Publish shared printers connected to this system</em>, and then press <span class="guibutton"><strong>OK</strong></span>. Other computers running versions of Xubuntu later than 13.04 will automatically detect printers shared this way. Computers running Xubuntu versions prior to 13.10, or other Linux/Ubuntu-based systems, may need to enable a setting to show shared printers.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="scanning"></a>Scanning</h2>
+            </div>
+          </div>
+        </div>
+        <p>Many scanners are automatically supported by Xubuntu, and should be easy to install and operate. This section will walk you through how to use your scanner and what to do if Xubuntu does not detect your scanner.</p>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="scanning-compatible"></a>Does my scanner work in Xubuntu?</h3>
+              </div>
+            </div>
+          </div>
+          <p>There are three ways to see if your scanner works in Xubuntu:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Simply plug it in and try it! If it is a newer USB scanner, it is likely that it will just work.</p>
+              </li>
+              <li class="listitem">
+                <p>Check the <a class="ulink" href="https://wiki.ubuntu.com/HardwareSupportComponentsScanners" target="_top">list of supported scanners</a> for Xubuntu</p>
+              </li>
+              <li class="listitem">
+                <p>Check the <a class="ulink" href="http://www.sane-project.org/sane-backends.html" target="_top">SANE project listing of support scanners</a>. <span class="application"><strong>SANE</strong></span> is the software used by Xubuntu for most of its scanner support.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="scanning-using"></a>Using your scanner</h3>
+              </div>
+            </div>
+          </div>
+          <p>To scan a document:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Place what you want to scan on the scanner</p>
+              </li>
+              <li class="listitem">
+                <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Graphics</span> → <span class="guimenuitem">Simple Scan</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Click the arrow to the right of the <span class="guibutton"><strong>Scan</strong></span> button and choose the type of media you are scanning, <em class="guilabel">Text</em> or <em class="guilabel">Photo</em></p>
+              </li>
+              <li class="listitem">
+                <p>Click the <span class="guibutton"><strong>Scan</strong></span> button to begin your scan</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="scanning-not-detected"></a>The computer says "No scanners detected"</h3>
+              </div>
+            </div>
+          </div>
+          <p>There are two reasons why you might get this message:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Your scanner is not supported in Xubuntu. For example, most parallel port scanners and Lexmark All-in-One printer/scanner/faxes are not supported.</p>
+              </li>
+              <li class="listitem">
+                <p>The driver for your scanner is not being loaded automatically.</p>
+              </li>
+            </ul>
+          </div>
+          <p>You may be able to get your scanner working by installing a driver or altering some configuration files. Please ask for advice on the <a class="ulink" href="http://ubuntuforums.org/" target="_top">Ubuntu forums</a> or on <a class="ulink" href="http://askubuntu.com/" target="_top">AskUbuntu</a>.</p>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Note]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>To get some scanners working, you may need to plug in the scanner after the computer has booted.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="scanning-manual-install"></a>Manually installing a scanner</h3>
+              </div>
+            </div>
+          </div>
+          <p>There are some scanners that have less-than-complete drivers from the SANE project. They can sometimes be used, but not all the features may work.</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Install the <code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span>libsane-extras</code> package</p>
+              </li>
+              <li class="listitem">
+                <p>Run <strong class="userinput"><code>pkexec mousepad /etc/sane.d/dll.conf</code></strong> at the command line to open the SANE driver file for editing</p>
+              </li>
+              <li class="listitem">
+                <p>Enable the correct driver for your scanner by removing the <code class="literal">#</code> from in front of the name of the driver. You may need to search the web to find out which driver is the right one.</p>
+              </li>
+              <li class="listitem">
+                <p>Save the file and open <span class="application"><strong>Simple Scan</strong></span>. If all goes well, your scanner will now work. </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="internet-networks.html"><img src="../../libs-common/images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="software-management.html"><img src="../../libs-common/images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Chapter 7. Connecting to Internet and Networks </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Chapter 9. Software Management</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

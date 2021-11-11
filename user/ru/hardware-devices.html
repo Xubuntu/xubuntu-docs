@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Глава 12. Аппаратное обеспечение</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Документация Xubuntu" />
+    <link rel="up" href="index.html" title="Документация Xubuntu" />
+    <link rel="prev" href="guide-keeping-safe.html" title="Глава 11. Обеспечение защиты компьютера и личной информации" />
+    <link rel="next" href="administrative-tasks.html" title="Глава 13. Административные задачи" />
+    <link rel="copyright" href="credits-license.html" title="Благодарности и лицензия" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div xml:lang="ru" class="chapter" lang="ru">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="hardware-devices"></a>Глава 12. Аппаратное обеспечение</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>Содержание</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="section">
+              <a href="hardware-devices.html#restricted-drivers">Проприетарные драйверы</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="hardware-devices.html#disks-partitions">Диски и разделы</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="hardware-devices.html#laptops">Ноутбуки</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="hardware-devices.html#suspending-hibernating">Ждущий и спящий режимы</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="hardware-devices.html#mice-keyboards">Мышь и клавиатура</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <p>Ваш компьютер состоит из ряда соединённых друг с другом устройств, вместе называемых аппаратным обеспечением.</p>
+      <p>Обычно Xubuntu настраивает ваше аппаратное обеспечение автоматически, но могут возникнуть случаи, когда вам потребуется внести изменения в настройки оборудования вручную. Этот раздел содержит информацию об инструментах, которые можно использовать для настройки аппаратного обеспечения.</p>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="restricted-drivers"></a>Проприетарные драйверы</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="restricted-why"></a>Почему некоторые драйверы являются проприетарными?</h3>
+              </div>
+            </div>
+          </div>
+          <p>Проприетарными называются драйверы, к исходному коду которых нельзя получить свободный доступ.</p>
+          <p>Большинство устройств, подключённых к вашему компьютеру должно нормально функционировать в Xubuntu. Скорее всего, для этих устройств есть свободные драйверы, которые разработчики Xubuntu имеют возможность изменять и устранять возникающие с ними проблемы.</p>
+          <p>Для некоторых устройств нет свободных драйверов, в основном из-за того, что производитель устройства не предоставил сведения об этом устройстве, которые сделали бы возможным создание свободного драйвера. Такие устройства могут иметь ограниченную функциональность или вообще не работать.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="restricted-enabling"></a>Использование проприетарных драйверов</h3>
+              </div>
+            </div>
+          </div>
+          <p>Если для определённого устройства доступен проприетарный драйвер, его можно установить, чтобы обеспечить правильную работу устройства или добавить новые возможности. Например, установка проприетарных драйверов для некоторых видеокарт, возможно, позволит использовать более сложные визуальные эффекты.</p>
+          <p>В некоторых компьютерах могут отсутствовать устройства, использующие проприетарные драйверы: или потому, что все устройства полностью поддерживаются свободными драйверами, или потому, что для устройств не имеется проприетарных драйверов.</p>
+          <p>Если для вашего оборудования доступны какие-нибудь драйверы, их можно будет установить из приложения <span class="application"><strong>Программы и обновления</strong></span>:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem">Settings</span> → <span class="guimenuitem">Additional Drivers</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Если понадобится, у вас будет запрошен пароль администратора.</p>
+              </li>
+              <li class="listitem">
+                <p>Для завершения установки может быть предложено перезагрузить компьютер.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="restricted-disable"></a>Отключение проприетарных драйверов</h3>
+              </div>
+            </div>
+          </div>
+          <p>Если проприетарный драйвер вызывает проблемы, или вы просто хотите его отключить, следуйте изложенной ниже процедуре:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem">Settings</span> → <span class="guimenuitem">Additional Drivers</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Найдите драйвер, который хотите отключить, и нажмите кнопку <span class="guibutton"><strong>Отключить</strong></span>.</p>
+              </li>
+              <li class="listitem">
+                <p>Вам будет предложено ввести пароль.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Примечание]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Чтобы завершить отключение драйвера, может понадобиться перезагрузка компьютера.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="disks-partitions"></a>Диски и разделы</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="disks-partitions-check-free-space"></a>Проверка доступного свободного места</h3>
+              </div>
+            </div>
+          </div>
+          <p>Простой способ проверить доступное пространство на диске — запустить <span class="application"><strong>Thunar</strong></span>. Это можно сделать несколькими способами:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">File Manager</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Выполните двойной щелчок на значке <em class="guilabel">Файловая система</em> или <em class="guilabel">Домашний каталог</em> на рабочем столе</p>
+              </li>
+              <li class="listitem">
+                <p>Щёлкните на значке домашнего каталога в Панели запуска</p>
+              </li>
+            </ul>
+          </div>
+          <p>В строке состояния внизу окна отображается свободное место на текущем диске или носителе. Если подключено или смонтировано несколько дисков, можно выбрать нужный в боковой панели и вам будет показано свободное место на этом диске.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="disks-partitions-free-up-space"></a>Как освободить место на диске?</h3>
+              </div>
+            </div>
+          </div>
+          <p>Есть несколько простых способов освободить дополнительное место на диске:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Очистите Корзину, щёлкнув на значке <em class="guilabel">Корзина</em> на рабочем столе или в панели запуска и выбрав <span class="guimenuitem">Очистить корзину</span>.</p>
+              </li>
+              <li class="listitem">
+                <p>Remove software packages that you no longer use.</p>
+              </li>
+              <li class="listitem">
+                <p>Удалите файлы, которые вам больше не нужны. Можете установить <span class="application"><strong>Анализатор использования дисков GNOME</strong></span> из <span class="application"><strong>Менеджера приложений</strong></span>, чтобы определить, какие файлы занимают больше всего места.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Warning">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Предупреждение]" src="../../libs-common/images/warning.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Будьте острожны: не удалите файлы, которые ещё нужны!</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="partitioning"></a>Изменение разделов устройства</h3>
+              </div>
+            </div>
+          </div>
+          <p>You can use <span class="application"><strong>GParted (GNOME Partition Editor)</strong></span> to partition storage devices. Install <span class="application"><strong>GParted</strong></span> from <span class="application"><strong>Gnome Software</strong></span> and then go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">GParted</span></strong></span> to start the partition editor.</p>
+          <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Warning">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Предупреждение]" src="../../libs-common/images/warning.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Будьте осторожны при изменении разделов диска, так как удаление или изменение не того раздела может привести к потере данных.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Warning">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Предупреждение]" src="../../libs-common/images/warning.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Изменение разделов диска может занять некоторое время. Не стоит думать, что GParted завис, в то время как он работает.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Примечание]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Если для внесения необходимых изменений требуется отмонтировать диск, на котором установлена система, то все действия придётся проделать, загрузившись с live CD или USB.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="partitioning-freeing-space"></a>Освобождение места для нового раздела</h4>
+                </div>
+              </div>
+            </div>
+            <p>Чтобы создать новый раздел на устройстве, уже разбитом на разделы, нужно сначала изменить размер существующего раздела. Если свободное место уже есть, перейдите к разделу <a class="xref" href="hardware-devices.html#partitioning-create">Создание нового раздела</a>. В противном случае следуйте приведённым ниже инструкциям:</p>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p>Выберите устройство для изменения разделов из выпадающего списка наверху главного окна</p>
+                </li>
+                <li class="listitem">
+                  <p>В главном окне появится список разделов. Выберите раздел, размер которого нужно изменить, и в меню выберите <span class="guimenu">Раздел</span> → <span class="guimenuitem">Отмонтировать</span></p>
+                </li>
+                <li class="listitem">
+                  <p>Для изменения размера раздела выберите <span class="guimenu">Раздел</span> → <span class="guimenuitem">Изменить размер/переместить</span>. Откроется диалоговое окно <em class="guilabel">Изменение размера или перемещение</em>. Вы можете использовать поле <em class="guilabel">Свободное место после (МиБ)</em>, чтобы указать, сколько места освободить после этого раздела, или <em class="guilabel">Свободное место до (МиБ)</em>, чтобы освободить место перед этим разделом. В качестве альтернативы для настройки размера раздела можно использовать ползунок.</p>
+                </li>
+                <li class="listitem">
+                  <p>Щёлкните <span class="guibutton"><strong>Изменить размер/Переместить</strong></span></p>
+                </li>
+                <li class="listitem">
+                  <p>Чтобы применить изменения, выберите <span class="guimenu">Правка</span> → <span class="guimenuitem">Выполнить все операции</span></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="partitioning-create"></a>Создание нового раздела</h4>
+                </div>
+              </div>
+            </div>
+            <p>Чтобы создать новый раздел:</p>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p>Выберите устройство для изменения разделов из выпадающего списка наверху главного окна</p>
+                </li>
+                <li class="listitem">
+                  <p>Появится список разделов. Выберите строку с надписью <em class="guilabel">не размечено</em>, щёлкните на ней правой кнопкой и выберите <span class="guimenuitem">Новый</span></p>
+                </li>
+                <li class="listitem">
+                  <p>В выпадающем списке <em class="guilabel">Файловая система:</em> выберите нужный тип файловой системы.</p>
+                </li>
+                <li class="listitem">
+                  <p>Если хотите, введите описание для раздела в поле <em class="guilabel">Метка: </em>.</p>
+                </li>
+                <li class="listitem">
+                  <p>Нажмите кнопку <span class="guibutton"><strong>Добавить</strong></span>.</p>
+                </li>
+                <li class="listitem">
+                  <p>Чтобы применить изменения, выберите <span class="guimenu">Правка</span> → <span class="guimenuitem">Выполнить все операции</span></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="partitioning-format"></a>Форматирование раздела</h4>
+                </div>
+              </div>
+            </div>
+            <p>Чтобы отформатировать раздел, сделайте следующее:</p>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p>Выберите устройство для изменения разделов из выпадающего списка наверху главного окна</p>
+                </li>
+                <li class="listitem">
+                  <p>Появится список разделов. Выберите нужный раздел и в меню выберите <span class="guimenu">Раздел</span> → <span class="guimenuitem">Отмонтировать</span>.</p>
+                </li>
+                <li class="listitem">
+                  <p>Выберите раздел, который хотите отформатировать, щёлкните <span class="guimenu">Раздел</span> → <span class="guimenuitem">Форматировать в</span> и выберите из списка тип файловой системы для форматирования раздела</p>
+                </li>
+                <li class="listitem">
+                  <p>Чтобы применить изменения, выберите <span class="guimenu">Правка</span> → <span class="guimenuitem">Выполнить все операции</span></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="disks-partitions-mounting"></a>Монтирование и отмонтирование устройств</h3>
+              </div>
+            </div>
+          </div>
+          <p>При подключении съёмного устройства к компьютеру, его нужно смонтировать, чтобы операционная система могла получить доступ к файлам на этом устройстве.</p>
+          <p>Чтобы узнать больше о монтировании и отмонтировании устройств вручную и/или автоматически, смотрите вики-страницу сообщества Ubuntu о <a class="ulink" href="https://help.ubuntu.com/community/Mount" target="_top">команде mount</a>.</p>
+          <p>При копировании файлов на съёмный носитель они не всегда записываются на устройство немедленно. Часто они ставятся в очередь, чтобы их все можно было перенести на устройство одновременно (из соображений эффективности). Выполнение команды <strong class="userinput"><code>sync</code></strong> выполняет принудительную запись данных на съёмные носители. Если извлечь носитель до того, как завершится перенос всех данных, файлы могут быть потеряны. Поэтому всегда необходимо отмонтировать съёмный носитель перед его отсоединением от компьютера.</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="laptops"></a>Ноутбуки</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="laptops-power-management"></a>Параметры управления питанием</h3>
+              </div>
+            </div>
+          </div>
+          <p>Вы можете изменить настройки управления питанием ноутбука, чтобы продлить время работы от аккумулятора и сэкономить электроэнергию.</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Power Manager</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Измените настройки по своему желанию</p>
+              </li>
+              <li class="listitem">
+                <p>Изменения вступают в силу немедленно</p>
+              </li>
+            </ul>
+          </div>
+          <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Tip">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Подсказка]" src="../../libs-common/images/tip.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>When your laptop is running on battery, one of the biggest drains on power is the display. Turning the brightness of the display down could improve battery life significantly; many laptops allow you to do this by pressing <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Fn+F7</strong></span> (or other marked key) several times.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="laptops-touchpads"></a>Сенсорные панели</h3>
+              </div>
+            </div>
+          </div>
+          <p>Большинство ноутбуков оснащено сенсорными панелями (тачпадами), позволяющими управлять указателем мыши. Существуют различные способы изменить поведение сенсорной панели; наиболее общие параметры можно настроить следующим образом:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Mouse and Touchpad</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Выберите тачпад в выпадающем списке <em class="guilabel">Устройство:</em>.</p>
+              </li>
+              <li class="listitem">
+                <p>Здесь вы можете изменить настройки тачпада по своему желанию. Изменения будут задействованы немедленно.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Примечание]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Некоторые тачпады могут определяться системой как обычные мыши. В таком случае, устройство <em class="guilabel">Тачпад</em> будет недоступно в настройках. Смотрите дополнительную информацию о тачпадах на странице <a class="ulink" href="https://help.ubuntu.com/community/SynapticsTouchpad" target="_top">Тачпады</a> вики-сайта сообщества Ubuntu.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="suspending-hibernating"></a>Ждущий и спящий режимы</h2>
+            </div>
+          </div>
+        </div>
+        <p>С целью экономии электроэнергии во время простоя компьютера его можно перевести в один из режимов со сниженным энергопотреблением:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>Ждущий режим подобен погружению компьютера в сон. Компьютер остаётся включённым, сохраняя открытыми все запущенные вами программы, но потребляет гораздо меньшую мощность. Вы можете «разбудить» компьютер, нажав клавишу или щёлкнув мышью.</p>
+            </li>
+            <li class="listitem">
+              <p>Спящий режим (гибернация) — это полное отключение компьютера с сохранением его текущего состояния (например, информации об открытых на этот момент документах). Когда вы снова включите компьютер, все ваши документы будут восстановлены в том виде, в каком они были перед переходом в спящий режим. В спящем режиме компьютер не потребляет электроэнергию.</p>
+            </li>
+            <li class="listitem">
+              <p>Пробуждение — это перевод компьютера из режима сохранения энергии обратно в рабочий режим. Вывести компьютер из ждущего режима можно, нажав клавишу на клавиатуре или щелкнув мышью. Вывести компьютер из режима сна можно нажатием кнопки питания на корпусе компьютера.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Примечание]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Заметьте, что спящий режим отключён по умолчанию в Xubuntu и недоступен для выбора ни в каких меню. Чтобы включить его через командную строку, смотрите <a class="xref" href="hardware-devices.html#enabling-hibernation">Включение спящего режима</a>.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p>You can manually put your computer into a power-saving mode by pressing <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/system-log-out.png" /></span> Log Out</span></strong></span> and then pressing the appropriate button.</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Примечание]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>У некоторых компьютеров могут возникать проблемы с переходом в определённые режимы уменьшенного энергопотребления. Лучший способ проверить, поддерживает ли ваш компьютер тот или иной режим, — это попытаться перевести его в этот режим и посмотреть, ведёт ли компьютер себя так, как ожидалось. Всегда сохраняйте важные документы перед переходом в ждущий или спящий режим.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="suspending-troubleshooting"></a>Мой компьютер неправильно переходит в ждущий или спящий режим</h3>
+              </div>
+            </div>
+          </div>
+          <p>Некоторые компьютеры под управлением Xubuntu не способны правильно перейти в ждущий или спящий режим. Если это касается и вашего компьютера, вы можете заметить некоторые из следующих симптомов:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Компьютер не выключается, когда вы щёлкаете на кнопке перевода в спящий режим.</p>
+              </li>
+              <li class="listitem">
+                <p>При включении компьютера после спящего режима ранее открытые программы не восстанавливаются.</p>
+              </li>
+              <li class="listitem">
+                <p>Компьютер не «просыпается» после перевода в ждущий режим.</p>
+              </li>
+              <li class="listitem">
+                <p>Некоторые программы или устройства начинают работать неправильно после выхода из спящего или ждущего режима.</p>
+              </li>
+            </ul>
+          </div>
+          <p>Если вы столкнулись с одной из этих проблем, сообщите об ошибке на <a class="ulink" href="http://launchpad.net/" target="_top">Launchpad</a>. Возможно, проблема будет устранена в следующей версии Xubuntu. Если ваше оборудование работает неправильно после выхода из ждущего или спящего режима, перезапустите компьютер, и работа оборудования должна восстановиться. Если программа работает неправильно, попробуйте закрыть программу и снова запустить её.</p>
+          <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Warning">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Предупреждение]" src="../../libs-common/images/warning.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Убедитесь, что вы сохранили все открытые документы, перед тестированием компьютера на проблемы ждущего или спящего режима.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="enabling-hibernation"></a>Включение спящего режима</h3>
+              </div>
+            </div>
+          </div>
+          <p>Чтобы разрешить использование спящего режима в Xubuntu, сделайте следующее:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Установите пакет <span class="application"><strong>pm-utils</strong></span> из <span class="application"><strong>Менеджера приложений</strong></span>.</p>
+              </li>
+              <li class="listitem">
+                <p>В командной строке введите: <strong class="userinput"><code>sudo pm-hibernate</code></strong>.</p>
+              </li>
+              <li class="listitem">
+                <p>Введите пароль.</p>
+              </li>
+              <li class="listitem">
+                <p>Для возврата из спящего режима нажмите кнопку питания.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="suspending-patterns"></a>При переводе компьютера в спящий режим я вижу на экране странные узоры</h3>
+              </div>
+            </div>
+          </div>
+          <p>При переводе компьютера в спящий режим на экране могут появиться чёрно-белые узоры. В большинстве случаев это не должно вас волновать: так графические карты некоторых компьютеров ведут себя в начальных стадиях процесса гибернации. Если же узоры отображаются продолжительное время, и компьютер не отключается, то это может означать, что у компьютера проблема со спящим режимом. Смотрите дополнительную информацию в <a class="xref" href="hardware-devices.html#suspending-troubleshooting">Мой компьютер неправильно переходит в ждущий или спящий режим</a>.</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="mice-keyboards"></a>Мышь и клавиатура</h2>
+            </div>
+          </div>
+        </div>
+        <p>When you install Xubuntu, you are given the option of selecting your keyboard type and language. During the installation, your pointing devices should be automatically detected and configured. If you want or need to change the settings of any of these devices after installation, you can do so by going to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Mouse and Touchpad</span></strong></span> or <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Keyboard</span></strong></span>.</p>
+        <p>Настройки для мыши и сенсорной панели:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Button orientation</em>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Pointer speed and sensitivity</em>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Double-click sensitivity</em>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Cursor theme</em>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <p>Некоторые из настроек клавиатуры:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>
+                <em class="guilabel">State of the Num Lock key on startup</em>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Key repeat speed and delay</em>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Cursor blinking speed</em>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Application keyboard shortcuts</em>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Keyboard layout and language </em>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Подсказка]" src="../../libs-common/images/tip.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Если вы пользуетесь мышью на ноутбуке, на котором также имеется тачпад, можно изменить настройки каждого из этих устройств отдельно, выбрав нужное устройство из выпадающего списка <em class="guilabel">Устройство:</em> на вкладке <em class="guilabel">Устройства</em>.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="guide-keeping-safe.html"><img src="../../libs-common/images/prev.png" alt="Пред." /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="administrative-tasks.html"><img src="../../libs-common/images/next.png" alt="След." /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Глава 11. Обеспечение защиты компьютера и личной информации </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Начало" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Глава 13. Административные задачи</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

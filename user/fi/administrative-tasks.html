@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Luku 13. Ylläpidolliset toimet</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Xubuntun dokumentaatio" />
+    <link rel="up" href="index.html" title="Xubuntun dokumentaatio" />
+    <link rel="prev" href="hardware-devices.html" title="Luku 12. Laitteisto" />
+    <link rel="next" href="command-line.html" title="Luku 14. Komentokehote" />
+    <link rel="copyright" href="credits-license.html" title="Tekijänoikeudet ja lisenssi" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div xml:lang="fi" class="chapter" lang="fi">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="administrative-tasks"></a>Luku 13. Ylläpidolliset toimet</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>Sisällys</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="section">
+              <a href="administrative-tasks.html#users-groups">Käyttäjät ja ryhmät</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <p>Turvallisuussyistä Xubuntussa vain käyttäjät joilla on erityiset ylläpitäjän oikeudet voivat suorittaa ylläpidollisia toimenpiteitä. Asennuksessa luotu ensimmäinen käyttäjä on oletuksena kykenevä suorittamaan ylläpidollisia toimenpiteitä.</p>
+      <p>Kun suoritat sovelluksen joka vaatii ylläpitäjän oikeuksia sinun pyydetään syöttämään salasanasi. Tämä auttaa suojaamaan järjestelmääsi vahingollisilta tiedostoilta sekä vähentää mahdollisuuksia että valitset vahingossa asetuksia jotka voivat muuttaa tapaa jolla järjestelmäsi toimii.</p>
+      <p>Joka kerta kun syötät salasanasi järjestelmä muistaa sen 15 minuutin ajan jotta sinun ei tarvitse syöttää sitä uudelleen.</p>
+      <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+        <table border="0" summary="Note">
+          <tr>
+            <td rowspan="2" align="center" valign="top" width="25">
+              <img alt="[Huomaa]" src="../../libs-common/images/note.png" />
+            </td>
+            <th align="left"></th>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <p>Käyttäjien pitää olla 'sudo' -ryhmän jäseniä voidakseen suorittaa ylläpidollisia toimenpiteitä. Ohjeet kuinka käyttäjien ryhmiä voi vaihtaa löytyy alta.</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="users-groups"></a>Käyttäjät ja ryhmät</h2>
+            </div>
+          </div>
+        </div>
+        <p>Kun Xubuntu on asennettu, se on valmisteltu yhden käyttäjän käyttöön. Jos useampi kuin yksi henkilö käyttää tietokonetta, on parasta luoda jokaiselle käyttäjälle oma käyttäjätunnus. Tämän ansiosta jokaisella käyttäjällä voi olla henkilökohtaiset asetukset, tiedostot ja käyttöoikeudet.</p>
+        <p>To modify the users or groups on your system, navigate to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Users and Groups</span></strong></span>.</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Huomaa]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Tarvitset ylläpitäjän oikeudet tehdäksesi muutoksia käyttäjiin ja ryhmiin.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="users-groups-manage-users"></a>Käyttäjien hallinta</h3>
+              </div>
+            </div>
+          </div>
+          <p>Lisätäksesi uuden käyttäjän:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Napsauta <span class="guibutton"><strong>Lisää</strong></span>-painiketta</p>
+              </li>
+              <li class="listitem">
+                <p>Syötä salasanasi</p>
+              </li>
+              <li class="listitem">
+                <p>Täytä <em class="guilabel">Nimi</em> ja <em class="guilabel">Käyttäjätunnus</em> -kentät</p>
+              </li>
+              <li class="listitem">
+                <p>Napsauta <span class="guibutton"><strong>OK</strong></span></p>
+              </li>
+            </ul>
+          </div>
+          <p>Jos haluat antaa käyttäjälle ylläpitäjän oikeudet järjestelmään:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Valitse käyttäjä jonka tunnuksen tyyppiä haluat vaihtaa ja napsauta <span class="guibutton"><strong>Vaihda...</strong></span> -painiketta</p>
+              </li>
+              <li class="listitem">
+                <p>Syötä salasanasi jos sitä pyydetään</p>
+              </li>
+              <li class="listitem">
+                <p>Valitse <em class="guilabel">Ylläpitäjä</em>-vaihtoehto (tai <em class="guilabel">Työpöytäkäyttäjä</em>-vaihtoehto palauttaaksesi)</p>
+              </li>
+              <li class="listitem">
+                <p>Napsauta <span class="guibutton"><strong>OK</strong></span> vahvistaaksesi valitut muutokset</p>
+              </li>
+            </ul>
+          </div>
+          <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Tip">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Vihje]" src="../../libs-common/images/tip.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Yksityiskohtaisempaa pääsynhallintaa varten napsauta <span class="guibutton"><strong>Lisäasetukset</strong></span>-painiketta <em class="guilabel">Käyttäjien asetukset</em> -ikkunasta, syötä salasanasi, napsauta <em class="guilabel">Käyttäjän oikeudet</em> -välilehteä ja sitten valitse tai poista valinnat halutuilta oikeuksilta.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <p>Poistaaksesi käyttäjän järjestelmästä, valitse käyttäjä jonka haluat poistaa ja napsauta <em class="guilabel">Poista</em>-painiketta.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="users-groups-manage-groups"></a>Ryhmien hallinta</h3>
+              </div>
+            </div>
+          </div>
+          <p>Lisätäksesi uuden ryhmän:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Napsauta <em class="guilabel">Hallitse ryhmiä</em> -painiketta</p>
+              </li>
+              <li class="listitem">
+                <p>Napsauta <span class="guibutton"><strong>Lisää</strong></span>-painiketta</p>
+              </li>
+              <li class="listitem">
+                <p>Syötä salasanasi</p>
+              </li>
+              <li class="listitem">
+                <p>Valitse nimi uudelle ryhmälle, ja jos haluat, muuta oletusasetusta <em class="guilabel">Ryhmän tunniste</em> -kentälle</p>
+              </li>
+              <li class="listitem">
+                <p>Tässä vaiheessa voit halutessasi valita <em class="guilabel">Ryhmän jäsenet</em> listalta</p>
+              </li>
+              <li class="listitem">
+                <p>Napsauta <span class="guibutton"><strong>OK</strong></span></p>
+              </li>
+            </ul>
+          </div>
+          <p>To remove a group from the system, click on the <span class="guibutton"><strong>Manage Groups</strong></span> button, select the group you want to delete and click the <span class="guibutton"><strong>Delete</strong></span> button.</p>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="hardware-devices.html"><img src="../../libs-common/images/prev.png" alt="Edellinen" /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="command-line.html"><img src="../../libs-common/images/next.png" alt="Seuraava" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Luku 12. Laitteisto </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Alkuun" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Luku 14. Komentokehote</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

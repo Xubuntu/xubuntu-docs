@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Capítulo 14. A linha de comando</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Documentação do Xubuntu" />
+    <link rel="up" href="index.html" title="Documentação do Xubuntu" />
+    <link rel="prev" href="administrative-tasks.html" title="Capítulo 13. Tarefas administrativas" />
+    <link rel="next" href="appendix-packages.html" title="Apêndice A. Tabela de aplicativos" />
+    <link rel="copyright" href="credits-license.html" title="Créditos e Licença" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div xml:lang="pt-BR" class="chapter" lang="pt-BR">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="command-line"></a>Capítulo 14. A linha de comando</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>Índice</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="section">
+              <a href="command-line.html#command-line-sudo">Executando comandos com direitos administrativos</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="command-line.html#command-line-common-commands">Comandos mais comuns</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <p>Apesar de o Xubuntu vir com uma interface gráfica que permite ao usuário realizar a maior parte de suas tarefas, inclusive com a ajuda dos aplicativos padrão e os disponíveis no repositório do Ubuntu, às vezes você pode querer ou precisar utilizar a linha de comando para alcançar o seu objetivo - inclusive alcançá-lo de maneira mais rápida.</p>
+      <p>Para iniciar o emulador de terminal padrão e obter a linha de comando, ou:</p>
+      <div class="itemizedlist">
+        <ul class="itemizedlist" style="list-style-type: disc; ">
+          <li class="listitem">
+            <p>Navigate to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span></p>
+          </li>
+          <li class="listitem">
+            <p>Press <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Alt+F2</strong></span> and run <strong class="userinput"><code>xfce4-terminal</code></strong></p>
+          </li>
+        </ul>
+      </div>
+      <p>Existe um ótimo <a class="ulink" href="https://help.ubuntu.com/community/UsingTheTerminal" target="_top">tutorial sobre o uso da linha de comando</a> na wiki da comunidade do Ubuntu.</p>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="command-line-sudo"></a>Executando comandos com direitos administrativos</h2>
+            </div>
+          </div>
+        </div>
+        <p>Ao trabalhar na linha de comando, qualquer comando pode ser executado com permissões administrativas, prefixando o comando com <strong class="userinput"><code>sudo</code></strong>. O <span class="application"><strong>Sudo</strong></span> memorizará sua senha por 15 minutos para permitir que você execute múltiplos comandos com permissões administrativas sem que seja preciso fornecer sua senha a cada comando.</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Nota]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Se o programa que você quer executar como um administrador é gráfico, tal como o editor de texto <span class="application"><strong>Mousepad</strong></span>, execute o comando prefixado com <strong class="userinput"><code>pkexec</code></strong>. Por exemplo, execute <strong class="userinput"><code>pkexec mousepad /path/to/file</code></strong> para executar o <span class="application"><strong>Mousepad</strong></span> com direitos administrativos.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Nota]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Por favor, note que para um aplicativo ser executado com <span class="application"><strong>pkexec</strong></span> corretamente, ele precisará enviar um arquivo de política do pkexec. Todos os aplicativos padrão no Xubuntu que necessitam ser executados com direitos administrativos já vem com arquivos de políticas do pkexec.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Warning">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Atenção]" src="../../libs-common/images/warning.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Tenha cuidado ao utilizar o <span class="application"><strong>sudo</strong></span>; você pode danificar o seu sistema se você digitar o comando errado! Como regra geral, somente utilize o sudo somente quando absolutamente necessário. Quando você utiliza o <span class="application"><strong>sudo</strong></span> a partir de um terminal, assegure de fechá-lo ao final, ou digitar <strong class="userinput"><code>exit</code></strong> para continuar utilizando este terminal sem direitos administrativos.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p>Para mais informações sobre o <span class="application"><strong>sudo</strong></span>, veja a <a class="ulink" href="https://help.ubuntu.com/community/RootSudo" target="_top">página do sudo</a> na wiki da comunidade do Ubuntu.</p>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="command-line-common-commands"></a>Comandos mais comuns</h2>
+            </div>
+          </div>
+        </div>
+        <p>Alguns comandos básicos de terminal são listados abaixo (colchetes indicam os parâmetros de cada comando):</p>
+        <div class="segmentedlist">
+          <table border="0">
+            <thead>
+              <tr class="segtitle">
+                <th>Comando</th>
+                <th>O que ele faz?</th>
+                <th>Sintaxe</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="seglistitem">
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>apt-cache</code>
+                  </strong>
+                </td>
+                <td class="seg">Mostra informações sobre os pacotes no repositório. Comandos comuns comando são "search" e "show"</td>
+                <td class="seg"><strong class="userinput"><code>apt-cache search web browser</code></strong> or <strong class="userinput"><code>apt-cache show firefox</code></strong></td>
+              </tr>
+              <tr class="seglistitem">
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>apt-get</code>
+                  </strong>
+                </td>
+                <td class="seg">Gerencia pacotes no apt. Comandos comuns são "install" para instalar um pacote, "remove" para desinstalar um pacote, "purge" para desinstalar um pacote e sua configuração, e "autoremove" que desinstalará pacotes desnecessários.</td>
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>apt-get [command] [package]</code>
+                  </strong>
+                </td>
+              </tr>
+              <tr class="seglistitem">
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>cat</code>
+                  </strong>
+                </td>
+                <td class="seg">Une (concatena) dois ou mais arquivos</td>
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>cat [file1] [file2] ... &gt; [output file]</code>
+                  </strong>
+                </td>
+              </tr>
+              <tr class="seglistitem">
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>cd</code>
+                  </strong>
+                </td>
+                <td class="seg">Muda para outro diretório</td>
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>cd [directory]</code>
+                  </strong>
+                </td>
+              </tr>
+              <tr class="seglistitem">
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>cp</code>
+                  </strong>
+                </td>
+                <td class="seg">Copia um arquivo (ou arquivos) para um diretório ou sobrescreve outro arquivo</td>
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>cp [file(s)] [directory]</code>
+                  </strong>
+                </td>
+              </tr>
+              <tr class="seglistitem">
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>date</code>
+                  </strong>
+                </td>
+                <td class="seg">Exibe a data e hora em vários diferentes formatos, fusos horários e conversões.</td>
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>date [options]</code>
+                  </strong>
+                </td>
+              </tr>
+              <tr class="seglistitem">
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>editor</code>
+                  </strong>
+                </td>
+                <td class="seg">Abre um arquivo de texto em um editor</td>
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>editor [file]</code>
+                  </strong>
+                </td>
+              </tr>
+              <tr class="seglistitem">
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>grep</code>
+                  </strong>
+                </td>
+                <td class="seg">Busca por texto em arquivos</td>
+                <td class="seg"><strong class="userinput"><code>grep [text] [file(s)]</code></strong> or <strong class="userinput"><code>[command] | grep [text]</code></strong></td>
+              </tr>
+              <tr class="seglistitem">
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>kill</code>
+                  </strong>
+                </td>
+                <td class="seg">Terminates programs with a specified PID. If you don't know the PID you can use <strong class="userinput"><code>pidof</code></strong> </td>
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>kill [-SIGNAL] [PID(s)]</code>
+                  </strong>
+                </td>
+              </tr>
+              <tr class="seglistitem">
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>killall</code>
+                  </strong>
+                </td>
+                <td class="seg">Muito parecido com o comando acima, exceto pelo fato que você deve especificar o nome do processo do aplicativo</td>
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>killall [-SIGNAL] [process(es)]</code>
+                  </strong>
+                </td>
+              </tr>
+              <tr class="seglistitem">
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>less</code>
+                  </strong>
+                </td>
+                <td class="seg">Exibe o conteúdo de um arquivo de texto</td>
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>less [file]</code>
+                  </strong>
+                </td>
+              </tr>
+              <tr class="seglistitem">
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>ls</code>
+                  </strong>
+                </td>
+                <td class="seg">Lista os arquivos em um diretório. Lista arquivos no diretório atual, se nenhum for especificado.</td>
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>ls [directory]</code>
+                  </strong>
+                </td>
+              </tr>
+              <tr class="seglistitem">
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>man</code>
+                  </strong>
+                </td>
+                <td class="seg">Exibe a ajuda sobre um comando</td>
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>man [command]</code>
+                  </strong>
+                </td>
+              </tr>
+              <tr class="seglistitem">
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>mv</code>
+                  </strong>
+                </td>
+                <td class="seg">Move ou renomeia um arquivo</td>
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>mv [filename] [newfilename]</code>
+                  </strong>
+                </td>
+              </tr>
+              <tr class="seglistitem">
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>rm</code>
+                  </strong>
+                </td>
+                <td class="seg">Remove arquivos ou diretórios. Tenha cuidado com este comando! Com a opção -r, ele remove todos os arquivos e diretórios recursivamente!</td>
+                <td class="seg"><strong class="userinput"><code>rm [file(s)]</code></strong> or <strong class="userinput"><code>rm -ir [dir(s)]</code></strong></td>
+              </tr>
+              <tr class="seglistitem">
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>wget</code>
+                  </strong>
+                </td>
+                <td class="seg">Downloads files to current directory.  The -N option can be useful for checking to see if a file on the server is newer than the one you have locally, see <strong class="userinput"><code>man wget</code></strong> for more information.</td>
+                <td class="seg">
+                  <strong class="userinput">
+                    <code>wget [urls]</code>
+                  </strong>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="administrative-tasks.html"><img src="../../libs-common/images/prev.png" alt="Anterior" /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="appendix-packages.html"><img src="../../libs-common/images/next.png" alt="Próxima" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Capítulo 13. Tarefas administrativas </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Principal" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Apêndice A. Tabela de aplicativos</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

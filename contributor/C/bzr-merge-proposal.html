@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Submitting merge proposals</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Xubuntu Contributor Documentation" />
+    <link rel="up" href="bzr.html" title="Using Bazaar (Bzr)" />
+    <link rel="prev" href="bzr-push.html" title="Pushing to Bzr branches" />
+    <link rel="next" href="git.html" title="Using Git" />
+    <link rel="copyright" href="credits-license.html" title="Credits and License" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div class="section">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="bzr-merge-proposal"></a>Submitting merge proposals</h3>
+          </div>
+        </div>
+      </div>
+      <p>Once you have pushed your changes to a personal branch, you might want to propose them to be merged into the main branch.</p>
+      <p>To do a merge proposal (often referred to as MP) via web browser, start by opening the Launchpad page of your branch. You can find it by going to <a class="ulink" href="https://code.launchpad.net/people/+me" target="_top">your Launchpad branches</a> page and clicking on the branch in question. Now, click on <em class="guilabel">Propose for merging</em>. This will open a page that asks for some details on the merge proposal you are about to do.</p>
+      <p>The <em class="guilabel">Target Branch</em> is usually set correctly by default, change this only if you know it is wrong. If you have been told to add a specific <em class="guilabel">Reviewer</em>, add that reviewer to the appropriate field. Enter a <em class="guilabel">Description</em> of your proposed change as well. If in doubt about any of the options, ask the requested reviewer, or if one isn't specified, in the IRC channel.</p>
+      <p>Finally, click on <span class="guibutton"><strong>Propose Merge</strong></span>. This submits your merge proposal and the target branch's owner as well as the specified reviewers will be sent a mail. If they need further information or want you to work further on the branch, they will comment on the merge proposal. You will be sent a mail any time an action is taken on the merge proposal, including when it's approved and merged into the main branch.</p>
+      <p>To do a merge proposal from the command line, using both the remembered submit branch (defaults to the parent branch) and the default reviewer team for that branch, run <strong class="userinput"><code>bzr lp-propose-merge</code></strong>. This will open a text editor to enter the description of your proposed change. You can override the default reviewer by using <code class="literal">--review NAME</code> one or more times, and link a bug report to the merge proposal by using <code class="literal">--fixes lp:BUGNO</code>.</p>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="bzr-push.html"><img src="../../libs-common/images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="bzr.html">
+              <img src="../../libs-common/images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="git.html"><img src="../../libs-common/images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Pushing to Bzr branches </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Using Git</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

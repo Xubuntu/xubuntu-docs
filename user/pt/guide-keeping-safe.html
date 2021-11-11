@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Capítulo 11. Manter o seu computador e informações pessoais seguras</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Documentação Xubuntu" />
+    <link rel="up" href="index.html" title="Documentação Xubuntu" />
+    <link rel="prev" href="offline-packages.html" title="Capítulo 10. Gestão de Pacotes Offline" />
+    <link rel="next" href="hardware-devices.html" title="Capítulo 12. Dispositivos de hardware" />
+    <link rel="copyright" href="credits-license.html" title="Créditos e Licença" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div xml:lang="pt" class="chapter" lang="pt">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="guide-keeping-safe"></a>Capítulo 11. Manter o seu computador e informações pessoais seguras</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>Índice</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="section">
+              <a href="guide-keeping-safe.html#keep-software-uptodate">Mantenha o seu software actualizado</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="guide-keeping-safe.html#passwords">Senhas</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="guide-keeping-safe.html#good-online-security">Dicas para uma boa segurança online</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="guide-keeping-safe.html#backup-regularly">Faça cópias de segurança com regularidade</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="guide-keeping-safe.html#safety-encryption">Considere encriptação</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="guide-keeping-safe.html#shared-environment">Utilização do computador num ambiente partilhado</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <p>Manter o seu computador e informações pessoais a salvo de ameaças de segurança é um dos aspectos mais importantes da computação hoje em dia. Este guia tem como objetivo ajudá-lo a alcançar um nível mais alto de segurança. Preste especial atenção às seguintes subseções:</p>
+      <div class="itemizedlist">
+        <ul class="itemizedlist" style="list-style-type: disc; ">
+          <li class="listitem">
+            <p>
+              <a class="xref" href="guide-keeping-safe.html#keep-software-uptodate">Mantenha o seu software actualizado</a>
+            </p>
+          </li>
+          <li class="listitem">
+            <p>
+              <a class="xref" href="guide-keeping-safe.html#passwords-important">Use senhas fortes e únicas para contas importantes</a>
+            </p>
+          </li>
+          <li class="listitem">
+            <p>
+              <a class="xref" href="guide-keeping-safe.html#script-applications-sources">Não execute scripts ou instale aplicações de fontes desconhecidas</a>
+            </p>
+          </li>
+          <li class="listitem">
+            <p>
+              <a class="xref" href="guide-keeping-safe.html#clean-browser">Mantenha seu navegador limpo para actividades sensíveis</a>
+            </p>
+          </li>
+          <li class="listitem">
+            <p>
+              <a class="xref" href="guide-keeping-safe.html#email-security">Lembre-se da segurança de e-mail</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="keep-software-uptodate"></a>Mantenha o seu software actualizado</h2>
+            </div>
+          </div>
+        </div>
+        <p>As atualizações de segurança são muito importantes. São a melhor defesa que possui contra quem pretende danificar o seu computador, e deverá instalá-las imediatamente. Quando uma atualização de segurança é lançada, hackers já sabem como invadir computadores que não estão atualizados. No pior caso, estão à procura de vítimas para invadir com programas automatizados em menos de algumas horas.</p>
+        <p>Automatic security updates are enabled by default in Xubuntu. If you
+			want to change the settings for the automatic updates, go to the
+			<em class="guilabel">Updates</em> tab under <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem">Settings Manager</span> → <span class="guimenuitem">Software &amp; Updates</span></strong></span> and change
+			the settings to your liking.</p>
+        <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Warning">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Atenção]" src="../../libs-common/images/warning.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Desativar as atualizações automáticas, estará a baixar o nível de segurança do seu computador. Quando as atualizações automáticas estão desligados, é essencial que se lembre de atualizar manualmente muitas vezes.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Dica]" src="../../libs-common/images/tip.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Se utilizar uma ligação de Internet com largura de banda limitada e não quiser usar atualizações automáticas, lembre-se de atualizar de cada vez que tiver acesso a uma ligação ilimitada.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="passwords"></a>Senhas</h2>
+            </div>
+          </div>
+        </div>
+        <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Warning">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Atenção]" src="../../libs-common/images/warning.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Empresas oficiais não irão solicitar-lhe a sua senha. Elimine qualquer um e-mail solicitando-lhe a sua senha. Se estiver ao telefone, desligue e contate alguém conhecido, para garantir que a ligação com quem lhe solicitava a senha é perdida.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="passwords-important"></a>Use senhas fortes e únicas para contas importantes</h3>
+              </div>
+            </div>
+          </div>
+          <p>O uso de senhas fortes e únicas para contas importantes e sensíveis ajuda a prevenir o acesso não autorizado às suas informações pessoais, roubo de identidade e perdas financeiras diretas. Considere o seguinte cenário:</p>
+          <div class="orderedlist">
+            <ol class="orderedlist" type="1">
+              <li class="listitem">
+                <p>A Alice usa senhas idênticas para mytrustedbank.com e insecureblog.com</p>
+              </li>
+              <li class="listitem">
+                <p>insecureblog é invadido e as informações e senha de Alice são roubados</p>
+              </li>
+              <li class="listitem">
+                <p>Hackers podem agora aceder à conta bancária de Alice e roubar o dinheiro dela</p>
+              </li>
+            </ol>
+          </div>
+          <p>A reutilização de senhas pode-se transformar num desastre. Deve prestar atenção e utilizar senhas únicas e fortes para os seguintes serviços:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p><span class="emphasis"><em>Contas de e-mail</em></span>. Contas de e-mail podem ser usados para repor todas as outras senhas através das hiperligações "senha esquecida" encontradas em todos os sites.</p>
+              </li>
+              <li class="listitem">
+                <p><span class="emphasis"><em>Armazenamento de chaves e gestores de senhas</em></span>. Vale a pena ter uma boa senha para esses serviços, uma vez que eles permitem que evite digitar muitas outras senhas!</p>
+              </li>
+              <li class="listitem">
+                <p><span class="emphasis"><em>Contas ligadas com operações bancárias</em></span>, incluindo PayPal e outros sites de pagamento. Se alguém conseguir aceder a estes, poderão roubar o seu dinheiro.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="passwords-strong"></a>O que é uma senha forte?</h3>
+              </div>
+            </div>
+          </div>
+          <p>A força de uma senha depende do quão difícil é para um atacante para a adivinhar. Hackers usam programas especiais que podem fazer milhões de palpites por segundo, então senhas fracas não tem chance.</p>
+          <p>Algumas senhas (como <code class="literal">macaco</code>, <code class="literal">password</code>, <code class="literal">teste</code>, <code class="literal">123456</code>) são extremamente comuns. Se utilizar essas senhas comuns, as suas contas serão penetradas facilmente. No entanto, a adição de letras maiúsculas, números ou símbolos não é muitas vezes suficiente para transformar uma senha fraca numa forte. Isso acontece porque as pessoas escolhem de forma confiável os mesmos símbolos e números adicionais (por exemplo, <code class="literal">macaco1</code>  é mais comum do que <code class="literal">ma5caco</code>, e também mais comum do que <code class="literal">macaco hoover</code>).</p>
+          <p>É preferível escolher um segredo maior, como uma frase secreta (por exemplo <code class="literal">correto cavalo estável bateria</code>),  do que um segredo que seja difícil de recordar e fácil de decifrar. Considere o uso de uma série de palavras comuns que possa facilmente recordar. Não escolha palavras que as pessoas ao seu redor naturalmente associem a si (por exemplo, não deverá escolher palavras relacionados poker se jogar poker todos os dias).</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="passwords-reuse"></a>Como reutilizar senhas com segurança?</h3>
+              </div>
+            </div>
+          </div>
+          <p>Embora a utilização da mesma senha em várias contas não seja incentivada, grande parte das pessoas acaba por o fazer, até mesmo os especialistas em segurança. No entanto, muitos dos sites comumente utilizados são comprometidos por hackers a cada ano. Alguns deles podem mesmo propositadamente vender as senhas dos seus utilizadores a terceiros. Não existe qualquer acordo definitivo entre os pesquisadores de segurança sobre como reduzir o risco de reutilização de senhas, mas deverá considerar o seguinte:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Separe sua senha profissional das suas senhas pessoais.</p>
+              </li>
+              <li class="listitem">
+                <p>Evite a mistura de senhas entre sites onde os atacantes podem prejudicar a sua reputação e sites de baixo valor.</p>
+              </li>
+              <li class="listitem">
+                <p>Use uma senha que esteja disposto a perder em sites nos quais não confia.</p>
+              </li>
+              <li class="listitem">
+                <p>Não "gaste" senhas em sites onde se conecta uma vez por ano. Crie uma senha aleatória e utilize a funcionalidade "senha esquecida" da próxima vez que o aceder.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="passwords-when-change"></a>Quando alterar a sua senha?</h3>
+              </div>
+            </div>
+          </div>
+          <p>Não é necessário alterar as suas senhas a cada dois dias. Em muitos casos, se um atacante conseguir roubar sua senha, eles serão capazes de a roubar novamente no futuro.</p>
+          <p>Se necessita de alterar a sua senha, deve escolher uma que seja <span class="emphasis"><em>realmente</em></span> diferente da anterior. Por exemplo, <code class="literal">macaco5</code> não é um substituto aceitável para <code class="literal">monkey4</code>, e será fácil de adivinhar por um atacante que já tenha roubado a sua senha anterior!</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="passwords-change-login"></a>Como alterar a sua senha de login</h3>
+              </div>
+            </div>
+          </div>
+          <p>Para alterar a sua senha, siga os passos abaixo:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Open <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Users and Groups</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Clique no seu nome de utilizador na lista</p>
+              </li>
+              <li class="listitem">
+                <p>Clique <em class="guilabel">Alterar...</em> ao lado da etiqueta <em class="guilabel">Senha</em></p>
+              </li>
+              <li class="listitem">
+                <p>Primeiro introduza a sua <em class="guilabel">Senha atual</em></p>
+              </li>
+              <li class="listitem">
+                <p>Agora pode não só</p>
+                <div class="itemizedlist">
+                  <ul class="itemizedlist" style="list-style-type: circle; ">
+                    <li class="listitem">
+                      <p>Gerar uma senha aleatória, selecionando <em class="guilabel">Gerar senha aleatória</em> e pressionar <span class="guibutton"><strong>Gerar</strong></span></p>
+                    </li>
+                    <li class="listitem">
+                      <p>Escolher a sua nova senha digitando-a nos campos  <em class="guilabel">Nova senha</em> e <em class="guilabel">Confirmação</em></p>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="listitem">
+                <p>Finalmente, clique <span class="guibutton"><strong>OK</strong></span> para confirmar a alteração da senha</p>
+              </li>
+            </ul>
+          </div>
+          <div class="caution" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Caution">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Cuidado]" src="../../libs-common/images/caution.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Embora na inicialização do sistema Xubuntu seja possível fazer o início de sessão automaticamente na caixa de diálogo utilizador, o início de sessão automático é altamente desaconselhado porque oferece menos segurança para o seu sistema. Por favor apenas ligue o início de sessão automático se poder confiar em todas as pessoas que tenham acesso ao computador.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="passwords-stolen"></a>Atente ocasionalmente relativamente senhas roubadas</h3>
+              </div>
+            </div>
+          </div>
+          <p>Sites como o <a class="ulink" href="https://haveibeenpwned.com/" target="_top">haveibeenpwned.com</a> podem dizer-lhe se o seu endereço de e-mail ou nome de utilizador surge nas bases de dados de senhas roubadas. É uma boa ideia verificá-lo a cada dois meses. Além disso, ocasionalmente poderá ouvir falar de um serviços que utiliza nas notícias, ou receber um email de um provedor de serviço informando que eles foram invadidos. Quando estiver confiante de que a sua senha foi comprometida, deve:</p>
+          <div class="orderedlist">
+            <ol class="orderedlist" type="1">
+              <li class="listitem">
+                <p>identificar todos os serviços onde usou essa senha</p>
+              </li>
+              <li class="listitem">
+                <p>alterar a sua senha em todos esses serviços</p>
+              </li>
+              <li class="listitem">
+                <p>verificar a atividade recente relativa às contas em questão (fique atento a transferências de dinheiro; os serviços de e-mail muitas vezes mantêm um registro das suas ligações recentes com endereços IP e localizações)</p>
+              </li>
+            </ol>
+          </div>
+          <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Warning">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Atenção]" src="../../libs-common/images/warning.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p><span class="emphasis"><em>Nunca</em></span> revele a sua <span class="emphasis"><em>senha</em></span> a um site de terceiros. O site acima mencionado é seguro para usar, porque pede um endereço de e-mail, que é uma informação relativamente pública. Ele não pede uma senha. Sites que pedirem a sua senha provavelmente irão fazer um mau uso da mesma.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="password-managers"></a>E relativamente a gestores de senhas?</h3>
+              </div>
+            </div>
+          </div>
+          <p>Gestores de senhas são uma forma muito conveniente de usar muitas senhas únicas sem precisar de se lembrar de todas elas!</p>
+          <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Tip">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Dica]" src="../../libs-common/images/tip.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Existem vários gestores de senhas disponíveis nos repositórios, incluindo o <span class="application"><strong>KeePassX</strong></span> e o <span class="application"><strong>PaSaffe</strong></span>.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <p>Alguns gestores de senhas, como o <span class="application"><strong>KeePassX</strong></span> podem sincronizar as suas senhas através de dispositivos, incluindo computadores Windows ou OS X. Deve estar ciente de algumas limitações, se decidir utilizar um gestor de senhas:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Gestores de senhas on-line podem também ser invadidos. Não guarde o seu e-mail ou senhas bancárias num gestor de senhas.</p>
+              </li>
+              <li class="listitem">
+                <p>Use uma senha memorável para desbloquear o gestor de senhas! Se perder essa senha, acabará perdendo o acesso a todas as suas contas (outra boa razão para não armazenar e-mails no seu gestor de senhas).</p>
+              </li>
+              <li class="listitem">
+                <p>Gestores de senhas proprietários não devem ser confiáveis. Ninguém sabe o que eles fazem com as suas senhas.</p>
+              </li>
+              <li class="listitem">
+                <p>Poderá necessitar de utilizar algumas contas em dispositivos de amigos ou familiares. Para essas contas, pode configurar o seu gestor de senhas para usar uma senha específica e memorável em vez de uma senha aleatória.</p>
+              </li>
+            </ul>
+          </div>
+          <p>Se mantiver  em mente o conselho acima, os gestores de senhas podem ser um ótima maneira de ficar mais seguro, mais facilmente!</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="good-online-security"></a>Dicas para uma boa segurança online</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="script-applications-sources"></a>Não execute scripts ou instale aplicações de fontes desconhecidas</h3>
+              </div>
+            </div>
+          </div>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Instale aplicações a partir dos repositórios sempre que possível.</p>
+              </li>
+              <li class="listitem">
+                <p>Ao executar um script encontrado num site de resolução de problemas ou suporte ou obtido num canal de IRC, perca uns momentos a olhar para ele, ou peça a um terceiro para confirmar o que o script faz.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="clean-browser"></a>Mantenha seu navegador limpo para actividades sensíveis</h3>
+              </div>
+            </div>
+          </div>
+          <p>Extensões de navegadores são mecanismos populares entre hackers para prejudicar os utilizadores. Elas são especialmente relevantes em Linux, uma vez que são compatíveis com todas as plataformas. Extensões maliciosas podem roubar as suas senhas, monitorizar a sua atividade online para publicidade, abusar de contas de mídia social, ou roubar o seu dinheiro.</p>
+          <p>Pode tomar medidas para limitar os riscos a que se expôe:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Nunca instale uma extensão que não seja distribuída pelo fornecedor do seu navegador</p>
+              </li>
+              <li class="listitem">
+                <p>No Firefox, use um perfil de utilizador separado para actividades sensíveis, como bancos e comércio eletrónico. Os perfis de utilizador do Firefox não compartilham extensões (ver <a class="ulink" href="https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-profiles" target="_top">Gestão de perfis</a>).</p>
+              </li>
+              <li class="listitem">
+                <p>No Chrome e outros navegadores, utilize o modo Incognito para atividades sensíveis, como bancos e comércio eletrónico. O modo Incognito desabilita extensões.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="email-security"></a>Lembre-se da segurança de e-mail</h3>
+              </div>
+            </div>
+          </div>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Não abra anexos de e-mail remetidos por pessoas que não conhece, ou se achar que o conteúdo do e-mail é incoerente ou suspeito (por exemplo facturas provenientes de pessoas quem nunca ouviu falar).</p>
+              </li>
+              <li class="listitem">
+                <p>Não responda a correio não solicitado. Isto irá informar os spammers que o seu endereço de e-mail está ativo, e irá incentivá-los a enviar mais correio não solicitado.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="firewalls"></a>Considere usar firewalls se o seu computador alojar serviços da Internet</h3>
+              </div>
+            </div>
+          </div>
+          <p>Se utilizar serviços públicos de Internet, ou não está por detrás de um NAT, deve considerar o uso de uma firewall. A maioria dos utilizadores domésticos não são abrangidos por esta medida.</p>
+          <p>Compreenda as configurações padrão das firewalls não são muito úteis. Deve ter em consideração o que pretende alcançar e configurar a firewall em conformidade. As firewalls podem protegê-lo contra ataques de negação de serviço, limitar o acesso a um serviço a endereços IP específicos ou inspecionar e rejeitar pacotes suspeitos. No entanto, elas não podem protegê-lo contra ameaças desconhecidas ou emergentes, e elas não substituem a necessidade de instalar atualizações de segurança.</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="backup-regularly"></a>Faça cópias de segurança com regularidade</h2>
+            </div>
+          </div>
+        </div>
+        <p>Um problema que ocasionalmente poderá encontrar é a perda inesperada de alguns dos seus trabalhos e configurações, por uma razão ou outra. As causas de perda de dados são muitas e variadas; elas podem ser qualquer coisa desde uma falha de energia a apagar acidentalmente um ficheiro. É altamente recomendável que faça cópias de segurança regulares dos seus ficheiros importantes para que, caso se depare com um problema, não terá perdido esses ficheiros.</p>
+        <p>É aconselhável armazenar cópias de segurança de ficheiros em separado do computador; ou seja, deve fazer uso de alguma forma de armazenamento de ficheiros que não esteja permanentemente ligada ao seu computador. As opções incluem mas não estão limitadas a CDs e DVDs, discos rígidos externos, discos USB e outros computadores na rede.</p>
+        <p>Uma maneira simples de fazer cópias de segurança dos seus ficheiros é copiá-los manualmente para um local seguro (veja acima), utilizando o <span class="application"><strong>Navegador de ficheiros</strong></span> bem como o <span class="application"><strong>Gestor de arquivos</strong></span> que lhe permite compactar arquivos e juntá-los. Alternativamente, poderá usar uma aplicação de cópias de segurança dedicada.</p>
+        <p>Conselhos gerais sobre como manter boas cópias de segurança:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>Faça cópias de segurança com regularidade</p>
+            </li>
+            <li class="listitem">
+              <p>Testar sempre as suas cópias de segurança depois de as fazer para garantir que elas foram feitas corretamente</p>
+            </li>
+            <li class="listitem">
+              <p>Etiquetar as suas cópias de segurança de forma clara e mantê-las em um lugar seguro</p>
+            </li>
+          </ul>
+        </div>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Dica]" src="../../libs-common/images/tip.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Existem inúmeras aplicações dedicadas de cópia de segurança disponíveis nos repositórios, incluindo o <span class="application"><strong>Dejà Dup</strong></span> e o <span class="application"><strong>luckyBackup</strong></span>.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Dica]" src="../../libs-common/images/tip.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Se utilizar serviços de backup online como o Dropbox, é uma boa ideia encriptar primeiro os seus documentos e carregar um arquivo encriptado. Isso impedirá que a equipe de serviços online aceda aos seus documentos.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Dica]" src="../../libs-common/images/tip.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Cópias de segurança podem também ser uma proteção eficaz contra ransomware, que encripta os seus dados e só os desencriptará se pagar aos programadores. Para se manter limpo de ransomware, evite a instalação de aplicações de fontes desconhecidas. Para obter mais informações, consulte <a class="xref" href="guide-keeping-safe.html#script-applications-sources">Não execute scripts ou instale aplicações de fontes desconhecidas</a>.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="safety-encryption"></a>Considere encriptação</h2>
+            </div>
+          </div>
+        </div>
+        <p>A encriptação completa do disco é uma boa medida para proteger o conteúdo dos seus computadores caso sejam roubados. Deverá considerá-lo se, por exemplo, o seu trabalho envolver propriedade intelectual  valiosa ou responsabilidades executivas. Lembre-se que a encriptação total do disco não poderá protegê-lo se não desligar o computador quando não o estiver a utilizar.</p>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Dica]" src="../../libs-common/images/tip.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>A maneira mais fácil para activar a encriptação total do disco é fazê-lo durante a instalação.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Dica]" src="../../libs-common/images/tip.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Pode também criar volumes encriptados usando software dedicado, por exemplo LUKS. Volumes encriptados podem conter dados arbitrários de qualquer comprimento. Pode montá-los tal como inseriria uma unidade flash USB quando necessitar de aceder ao seu conteúdo, e mantê-los fechados o resto do tempo. Descrever o processo para fazer isso está fora do âmbito desta documentação, mas existem inúmeros tutoriais online.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="shared-environment"></a>Utilização do computador num ambiente partilhado</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="no-shared-accounts"></a>Não use contas partilhadas</h3>
+              </div>
+            </div>
+          </div>
+          <p>Quando o Xubuntu é instalado, ele é configurado para ser usado por uma única pessoa. Se mais de uma pessoa for usar o computador, é melhor que cada pessoa tenha a sua própria conta de utilizador. Para ler mais sobre como adicionar utilizadores, consulte <a class="xref" href="administrative-tasks.html#users-groups">Utilizadores e grupos</a>.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="lock-your-screen"></a>Bloquear o seu ecrã enquanto estiver ausente</h3>
+              </div>
+            </div>
+          </div>
+          <p>Bloquear o ecrã impede que outras pessoas acedam ao seu computador enquanto está ausente dele. Todas as suas aplicações e trabalhos permanecem abertos enquanto o ecrã está bloqueado.</p>
+          <p>To lock the screen, press <span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span><span class="keycap"><strong>Ctrl+Alt+Delete</strong></span> or
+				click <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/system-lock-screen.png" /></span> Lock Screen</span></strong></span>.</p>
+          <p>To unlock the screen, move the mouse or press a key. Then, type your
+				password and either press the <span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span><span class="keycap"><strong>Enter</strong></span> key or click
+				the <span class="guibutton"><strong>Unlock</strong></span> button.</p>
+          <p>Se mais de uma pessoa possuir uma conta de utilizador no seu computador e o ecrã está bloqueado, outros utilizadores poderão pressionar o botão triangular à direita do nome do utilizador, selecionar o seu nome na lista e digitar a sua senha para usar o computador, mesmo enquanto o ecrã está bloqueada. Eles não serão capazes de aceder a trabalhos seus abertos e você será capaz de voltar para sua sessão bloqueada quando eles terminarem de usar o computador.</p>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="offline-packages.html"><img src="../../libs-common/images/prev.png" alt="Anterior" /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="hardware-devices.html"><img src="../../libs-common/images/next.png" alt="Próximo" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Capítulo 10. Gestão de Pacotes Offline </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Início" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Capítulo 12. Dispositivos de hardware</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Глава 13. Административные задачи</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Документация Xubuntu" />
+    <link rel="up" href="index.html" title="Документация Xubuntu" />
+    <link rel="prev" href="hardware-devices.html" title="Глава 12. Аппаратное обеспечение" />
+    <link rel="next" href="command-line.html" title="Глава 14. Командная строка" />
+    <link rel="copyright" href="credits-license.html" title="Благодарности и лицензия" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div xml:lang="ru" class="chapter" lang="ru">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="administrative-tasks"></a>Глава 13. Административные задачи</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>Содержание</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="section">
+              <a href="administrative-tasks.html#users-groups">Пользователи и группы</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <p>По соображениям безопасности, административные задачи в Xubuntu могут выполняться только пользователями со специальными административными привилегиями. Первый пользователь, созданный во время установки системы, по умолчанию имеет право выполнять административные задачи.</p>
+      <p>При запуске приложения, требующего административных привилегий у вас будет запрошен ваш пароль. Это помогает защитить систему от вредоносных файлов и уменьшить вероятность того, что вы случайно выполните действие, изменяющее способ работы вашей системы.</p>
+      <p>При каждом вводе пароля система запоминает его на 15 минут, чтобы вам не приходилось постоянно вводить его снова.</p>
+      <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+        <table border="0" summary="Note">
+          <tr>
+            <td rowspan="2" align="center" valign="top" width="25">
+              <img alt="[Примечание]" src="../../libs-common/images/note.png" />
+            </td>
+            <th align="left"></th>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <p>Для выполнения административных действий пользователь должен принадлежать к группе 'sudo'. Информацию о том, как изменять группы, можно найти ниже.</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="users-groups"></a>Пользователи и группы</h2>
+            </div>
+          </div>
+        </div>
+        <p>Во время установки Xubuntu создаётся только одна учётная запись пользователя. Если компьютером пользуются несколько человек, настоятельно рекомендуется создать отдельную учётную запись для каждого из них. Это позволит им иметь собственные настройки, файлы и права доступа.</p>
+        <p>To modify the users or groups on your system, navigate to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Users and Groups</span></strong></span>.</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Примечание]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Для изменения пользователей и групп требуются права администратора.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="users-groups-manage-users"></a>Управление пользователями</h3>
+              </div>
+            </div>
+          </div>
+          <p>Чтобы добавить нового пользователя:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Нажмите кнопку <span class="guibutton"><strong>Добавить</strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Введите свой пароль</p>
+              </li>
+              <li class="listitem">
+                <p>Введите <em class="guilabel">Имя</em> и <em class="guilabel">Имя пользователя</em></p>
+              </li>
+              <li class="listitem">
+                <p>Нажмите кнопку <span class="guibutton"><strong>OK</strong></span></p>
+              </li>
+            </ul>
+          </div>
+          <p>Если вы хотите предоставить пользователю права администратора системы:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Выберите пользователя и <span class="guibutton"><strong>Изменить...</strong></span> напротив надписи <em class="guilabel">Тип учётной записи</em></p>
+              </li>
+              <li class="listitem">
+                <p>Введите свой пароль, если вам будет предложено это сделать</p>
+              </li>
+              <li class="listitem">
+                <p>Выберите <em class="guilabel">Администратор</em> (или <em class="guilabel">Пользователь</em>, если хотите отобрать права администратора)</p>
+              </li>
+              <li class="listitem">
+                <p>Нажмите <span class="guibutton"><strong>OK</strong></span>, чтобы применить сделанные изменения</p>
+              </li>
+            </ul>
+          </div>
+          <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Tip">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Подсказка]" src="../../libs-common/images/tip.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Для более подробного настроя прав доступа нажмите кнопку <span class="guibutton"><strong>Дополнительные параметры</strong></span> в диалоговом окне <em class="guilabel">Параметры пользователей</em>, введите свой пароль, выберите вкладку <em class="guilabel">Привилегии пользователя</em> и установите или снимите там необходимые привилегии.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <p>Для удаления пользователя из системы выберите его в списке и нажмите кнопку <span class="guibutton"><strong>Удалить</strong></span>.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="users-groups-manage-groups"></a>Управление группами</h3>
+              </div>
+            </div>
+          </div>
+          <p>Чтобы добавить новую группу:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Нажмите кнопку <span class="guibutton"><strong>Управление группами</strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Нажмите кнопку <span class="guibutton"><strong>Добавить</strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Введите свой пароль</p>
+              </li>
+              <li class="listitem">
+                <p>Выберите имя для группы и, если хотите, измените значение по умолчанию в поле <em class="guilabel">ID группы</em></p>
+              </li>
+              <li class="listitem">
+                <p>Вы также можете выбрать <em class="guilabel">Членов группы</em> из списка</p>
+              </li>
+              <li class="listitem">
+                <p>Нажмите кнопку <span class="guibutton"><strong>OK</strong></span></p>
+              </li>
+            </ul>
+          </div>
+          <p>Чтобы удалить группу из системы, нажмите кнопку <span class="guibutton"><strong>Управление группами</strong></span>, выберите группу для удаления и нажмите кнопку <span class="guibutton"><strong>Удалить</strong></span>.</p>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="hardware-devices.html"><img src="../../libs-common/images/prev.png" alt="Пред." /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="command-line.html"><img src="../../libs-common/images/next.png" alt="След." /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Глава 12. Аппаратное обеспечение </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Начало" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Глава 14. Командная строка</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

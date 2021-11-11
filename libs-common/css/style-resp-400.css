@@ -1,0 +1,24 @@
+/*
+ *  Created by Pasi Lallinaho <pasi@shimmerproject.org>
+ *  The license of this file is CC-BY-SA 2.0.
+ *	
+ */
+
+h1 {
+	font-size: 160%;
+}
+
+div.caution,
+div.important,
+div.note,
+div.tip,
+div.warning {
+	margin: 2em -1.5em !important;
+
+	border-left: none;
+	border-right: none;
+
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}

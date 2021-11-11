@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Notes on the contributor documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Xubuntu Contributor Documentation" />
+    <link rel="up" href="docs-working.html" title="Working with the documentation" />
+    <link rel="prev" href="docs-working-editing.html" title="Editing the documentation" />
+    <link rel="next" href="docs-translations.html" title="Traductions" />
+    <link rel="copyright" href="credits-license.html" title="Remerciements et licence" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div class="section">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="docs-working-notes-contributor"></a>Notes on the contributor documentation</h3>
+          </div>
+        </div>
+      </div>
+      <p>For various reasons, the contributor documentation is more complex in structure than the user documentation. Particularly, pay attention to the following when working with the subteam documentation:</p>
+      <div class="itemizedlist">
+        <ul class="itemizedlist" style="list-style-type: disc; ">
+          <li class="listitem">
+            <p>If you want to create an introductory paragraph that is shown on the subteam main page, simply do not wrap it inside a <code class="literal">&lt;section&gt;</code> element. Otherwise this will be chunked into a separate HTML file.</p>
+          </li>
+          <li class="listitem">
+            <p>If you want a subsection of a section to be visible in the Table of Contents, add the <code class="literal">&lt;role="toc"&gt;</code> attribute for the <code class="literal">&lt;section&gt;</code> element. For an actual example, see the <code class="literal">qa-*</code> files.</p>
+          </li>
+          <li class="listitem">
+            <p>The sections are chunked up to the first level; this means all direct <code class="literal">&lt;section&gt;</code> ascendants of <code class="literal">&lt;chapter&gt;</code> elements will be chunked into separate HTML files. If you want to avoid this (for example if your chapter is very short), insert the <code class="literal">&lt;?dbhtml stop-chunking?&gt;</code> after the <code class="literal">&lt;title&gt;</code> element of your chapter. Note that doing this will not stop the Table of Contents from being printed with each section. You can use the <code class="literal">&lt;simplesect&gt;</code> element again to hide sections from the Table of Contents. If you do this, make sure you don't insert any elements after the <code class="literal">&lt;simplesect&gt;</code> elements in your chapter, as this will invalidate the document.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="docs-working-editing.html"><img src="../../libs-common/images/prev.png" alt="Précédent" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="docs-working.html">
+              <img src="../../libs-common/images/up.png" alt="Niveau supérieur" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="docs-translations.html"><img src="../../libs-common/images/next.png" alt="Suivant" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Editing the documentation </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Sommaire" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Traductions</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+/*
+ *  Created by Pasi Lallinaho <pasi@shimmerproject.org>
+ *  The license of this file is CC-BY-SA 2.0.
+ *	
+ */
+
+body {
+	padding: 0;
+}
+
+#masthead
+{
+	margin: 1em 0;
+	padding: 0 1.5em;
+}
+
+body > div.book,
+body > div.chapter,
+body > div.sect1,
+body > div.section,
+body > div.appendix,
+body > div.legalnotice {
+	min-width: 0;
+
+	margin: 0 auto;
+	padding: 1.5em;
+
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.navfooter {
+	min-width: 0;
+
+	margin: 1em auto;
+	padding: 0 1.5em;
+}
+
+	.navfooter {
+		font-size: 80%;
+	}
+
+/*  Specific styles for responsive stylesheet  */
+
+div.toc {
+	border-left: 0;
+	padding: 0;
+	margin: 0;
+}
+
+	.toc a {
+		display: inline-block;
+		width: 100%;
+	}
+
+	.toc dd {
+		margin-left: 0;
+	}
+		.chapter .toc .section a, 
+		.toc dd .section a {
+			width: 90%;
+			padding-left: 10%;
+
+			text-indent: -10%;
+
+			border: none;
+		}
+
+div.caution td,
+div.important td,
+div.note td,
+div.tip td,
+div.warning td {
+	width: auto;
+}
+
+div.caution img,
+div.important img,
+div.note img,
+div.tip img,
+div.warning img {
+	width: 20px;
+	height: auto;
+}
+
+div.caution tr:first-child,
+div.important tr:first-child,
+div.note tr:first-child,
+div.tip tr:first-child,
+div.warning tr:first-child {
+	width: 30px;
+}
+
+div.caution tr:last-child,
+div.important tr:last-child,
+div.note tr:last-child,
+div.tip tr:last-child,
+div.warning tr:last-child {
+    margin: 0 0 0 30px;
+}

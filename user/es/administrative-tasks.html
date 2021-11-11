@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Capítulo 13. Tareas administrativas</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Documentación de Xubuntu" />
+    <link rel="up" href="index.html" title="Documentación de Xubuntu" />
+    <link rel="prev" href="hardware-devices.html" title="Capítulo 12. Dispositivos hardware" />
+    <link rel="next" href="command-line.html" title="Capítulo 14. La línea de órdenes" />
+    <link rel="copyright" href="credits-license.html" title="Créditos y licencia" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div xml:lang="es" class="chapter" lang="es">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="administrative-tasks"></a>Capítulo 13. Tareas administrativas</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>Tabla de contenidos</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="section">
+              <a href="administrative-tasks.html#users-groups">Usuarios y grupos</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <p>Por razones de seguridad, las tareas administrativas en Xubuntu sólo pueden realizarlas usuarios con privilegios especiales de administración. La primera cuenta de usuario creada durante la instalación podrá, de manera predeterminada, realizar dichas tareas administrativas.</p>
+      <p>Cuando ejecute una aplicación que requiera privilegios de administrador se le pedirá su contraseña de usuario. Esto ayuda a proteger su sistema de archivos maliciosos y disminuye las posibilidades de que usted seleccione accidentalmente opciones que pueden cambiar la forma en que su sistema funciona.</p>
+      <p>Cada vez que escriba su contraseña, el sistema la recordará durante 15 minutos, para que no tenga que escribirla de nuevo.</p>
+      <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+        <table border="0" summary="Note">
+          <tr>
+            <td rowspan="2" align="center" valign="top" width="25">
+              <img alt="[Nota]" src="../../libs-common/images/note.png" />
+            </td>
+            <th align="left"></th>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <p>Los usuarios deben ser miembros del grupo «sudo» para llevar a cabo operaciones administrativas. La información sobre cómo cambiar de grupo se puede encontrar a continuación.</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="users-groups"></a>Usuarios y grupos</h2>
+            </div>
+          </div>
+        </div>
+        <p>Cuando está instalado Xubuntu, solo se crea una cuenta de usuario. Si varios usuarios utilizan el equipo, es muy aconsejable para crear cuentas de usuario separadas para todos. Esto permite a los usuarios tener sus ajustes individuales, archivos y derechos de acceso.</p>
+        <p>To modify the users or groups on your system, navigate to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Users and Groups</span></strong></span>.</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Nota]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Necesita derechos de administrador para hacer cambios en usuarios y grupos.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="users-groups-manage-users"></a>Gestionar usuarios</h3>
+              </div>
+            </div>
+          </div>
+          <p>Para añadir un usuario nuevo:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Pulse el botón <span class="guibutton"><strong>Añadir</strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Introduzca su contraseña</p>
+              </li>
+              <li class="listitem">
+                <p>Rellene el <em class="guilabel">Nombre</em> y <em class="guilabel">Nombre de usuario</em></p>
+              </li>
+              <li class="listitem">
+                <p>Pulse el botón <span class="guibutton"><strong>Aceptar</strong></span></p>
+              </li>
+            </ul>
+          </div>
+          <p>Si quiere adquirir derechos de usuario adminstrador del sistema:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Seleccione el usuario al que quiere cambiar el tipo de cuenta y pulse el botón <span class="guibutton"><strong>Cambiar...</strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Introduzca su contraseña si se le solicita hacerlo</p>
+              </li>
+              <li class="listitem">
+                <p>Seleccione la opción <em class="guilabel">Administrador</em> (o seleccione <em class="guilabel">Usuario de escritorio</em> para revertir)</p>
+              </li>
+              <li class="listitem">
+                <p>Pulse <span class="guibutton"><strong>Aceptar</strong></span> para aplicar los cambios seleccionados</p>
+              </li>
+            </ul>
+          </div>
+          <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Tip">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Sugerencia]" src="../../libs-common/images/tip.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Para el control de acceso más preciso, haga clic en el botón <span class="guibutton"><strong>Configuraciones Avanzadas</strong></span> en el cuadro de diálogo <em class="guilabel">Configuración de usuario</em>, introduzca su contraseña, haga clic en la pestaña <em class="guilabel">Privilegios de usuario</em> y desde allí seleccionar o anular la selección de las capacidades deseadas.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <p>Para eliminar un usuario del sistema, seleccione el usuario que quiere eliminar y pulse en el botón <span class="guibutton"><strong>Borrar</strong></span></p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="users-groups-manage-groups"></a>Gestionar grupos</h3>
+              </div>
+            </div>
+          </div>
+          <p>Para añadir un grupo nuevo:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Pulse el botón <span class="guibutton"><strong>Gestionar grupos</strong></span> button</p>
+              </li>
+              <li class="listitem">
+                <p>Pulse el botón <span class="guibutton"><strong>Añadir</strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Introduzca su contraseña</p>
+              </li>
+              <li class="listitem">
+                <p>Elija un nombre para el nuevo grupo y si quiere, cambie el valor predeterminado para el <em class="guilabel">Group ID</em></p>
+              </li>
+              <li class="listitem">
+                <p>En este momento, tiene la opción de seleccionar los <em class="guilabel">Miembros de Grupo</em> de la lista</p>
+              </li>
+              <li class="listitem">
+                <p>Pulse el botón <span class="guibutton"><strong>Aceptar</strong></span></p>
+              </li>
+            </ul>
+          </div>
+          <p>Para eliminar un grupo del sistema, pulse en el botón <em class="guilabel">Administrar grupos</em>, seleccione el grupo que quiere eliminar y luego pulse el botón <em class="guilabel">Borrar</em></p>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="hardware-devices.html"><img src="../../libs-common/images/prev.png" alt="Anterior" /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="command-line.html"><img src="../../libs-common/images/next.png" alt="Siguiente" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Capítulo 12. Dispositivos hardware </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Inicio" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Capítulo 14. La línea de órdenes</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

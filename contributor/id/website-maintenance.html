@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Dokumentasi pemeliharaan situs web Xubuntu</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Dokumentasi Kontributor Xubuntu" />
+    <link rel="up" href="website.html" title="Bab 5. Situs web" />
+    <link rel="prev" href="website-introduction.html" title="Pengantar kedatangan web Xubuntu" />
+    <link rel="next" href="processes.html" title="Bab 6. Proses" />
+    <link rel="copyright" href="credits-license.html" title="Kredit dan Lisensi" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div class="section">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a id="website-maintenance"></a>Dokumentasi pemeliharaan situs web Xubuntu</h2>
+          </div>
+        </div>
+      </div>
+      <div class="simplesect">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a id="website-maintenance-releases"></a>Rilis</h3>
+            </div>
+          </div>
+        </div>
+        <p>The Xubuntu website tracks releases with a custom WordPress taxonomy. The release terms can be attached to virtually any content type used on the website. The release term information and attached content are used to automatize some content creation on the website, including but not necessarily limited to: the <a class="ulink" href="https://xubuntu.org/releases" target="_top">release pages</a>, the <a class="ulink" href="https://xubuntu.org/getxubuntu/" target="_top">Download page</a>, the <a class="ulink" href="https://xubuntu.org/help/" target="_top">Help &amp; Support</a> page and the <a class="ulink" href="https://xubuntu.org/press/" target="_top">In the Press</a> page.</p>
+        <p>Untuk mengedit informasi umum untuk setiap rilis (nama kode, tanggal rilis, tanggal EOL, tautan untuk unduhan Torrent dan dokumentasi daring dan sakelar rilis), buka <a class="ulink" href="https://xubuntu.org/wp-admin/edit- tags.php? taxonomy = release " target="_top"> Posting - Rilis </a>.</p>
+        <p>Untuk melampirkan konten apa pun ke rilis, pilih rilis yang diinginkan pada halaman edit konten.</p>
+        <p>Shortcode berikut digunakan untuk menampilkan informasi rilis teragregasi (ganti <code class="literal"> xx-xx </code> dengan slug rilis yang diinginkan):</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p><strong class="userinput"><code> [torrents release = xx-xx] </code></strong> untuk menghasilkan tautan unduhan Torrent</p>
+            </li>
+            <li class="listitem">
+              <p><strong class="userinput"><code> [mirror release = xx-xx] </code></strong> untuk menampilkan daftar tautan unduhan cermin dengan informasi tambahan yang tersedia</p>
+            </li>
+            <li class="listitem">
+              <p><strong class="userinput"><code> [press release = xx-xx] </code></strong> untuk menampilkan semua tautan pers yang dilampirkan ke rilis dan <strong class="userinput"><code> [tekan] </code></strong> untuk menampilkan arsip pers</p>
+            </li>
+            <li class="listitem">
+              <p><strong class="userinput"><code> [dokumentasi_links] </code></strong> untuk menampilkan daftar dengan tautan ke dokumentasi online untuk semua rilis yang dirilis dan didukung</p>
+            </li>
+          </ul>
+        </div>
+        <p>Halaman arahan rilis menggunakan templat halaman dengan nama yang sama; templat mencantumkan semua yang dirilis dan didukung rilis dengan deskripsi singkatnya. Halaman rilis dibuat secara otomatis.</p>
+      </div>
+      <div class="simplesect">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a id="website-maintenance-releaselinks"></a>Rilis tautan</h3>
+            </div>
+          </div>
+        </div>
+        <p>Untuk menambahkan tautan pers (dan tautan khusus rilis resmi lainnya selain dari tautan unduhan Torrent dan tautan ke dokumentasi online), buka <a class="ulink" href="https://xubuntu.org/wp-admin/post-new.php?post_type = release_link " target="_top"> Rilis Tautan </a>. Setelah ditambahkan ke basis data, tautan akan muncul di tempat yang sesuai secara otomatis.</p>
+      </div>
+      <div class="simplesect">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a id="website-maintenance-mirrors"></a>Unduh mirror</h3>
+            </div>
+          </div>
+        </div>
+        <p>Daftar tautan unduhan dibuat secara otomatis dari templat URL yang disimpan dalam database. Untuk mengelola rilis cermin pada daftar unduhan, buka <a class="ulink" href="https://xubuntu.org/wp-admin/edit.php?post_type=download_mirror" target="_top"> DL Mirrors </a>. Pada halaman edit Anda dapat membuat mirror unduhan aktif atau tidak aktif (masing-masing terlihat dan disembunyikan di frontend). Anda juga dapat mengubah tautan unduhan mana yang ditampilkan pada daftar default; atur mirror sebagai <span class="emphasis"><em> mirror unduhan utama </em></span> jika Anda ingin itu dapat dilihat secara langsung.</p>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="website-introduction.html"><img src="../../libs-common/images/prev.png" alt="Sebelumnya" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="website.html">
+              <img src="../../libs-common/images/up.png" alt="Induk" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="processes.html"><img src="../../libs-common/images/next.png" alt="Lanjut" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Pengantar kedatangan web Xubuntu </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Depan" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Bab 6. Proses</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

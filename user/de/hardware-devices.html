@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Kapitel 12. Hardware-Geräte</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Xubuntu-Dokumentation" />
+    <link rel="up" href="index.html" title="Xubuntu-Dokumentation" />
+    <link rel="prev" href="guide-keeping-safe.html" title="Kapitel 11. Wie Sie Ihren Rechner und Ihre persönlichen Informationen schützen" />
+    <link rel="next" href="administrative-tasks.html" title="Kapitel 13. Administrative Aufgaben" />
+    <link rel="copyright" href="credits-license.html" title="Mitwirkende und Lizenz" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div xml:lang="de" class="chapter" lang="de">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="hardware-devices"></a>Kapitel 12. Hardware-Geräte</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>Inhaltsverzeichnis</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="section">
+              <a href="hardware-devices.html#restricted-drivers">Eingeschränkte Treiber</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="hardware-devices.html#disks-partitions">Festplatten und Partitionen</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="hardware-devices.html#laptops">Laptops</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="hardware-devices.html#suspending-hibernating">Bereitschaft und Ruhezustand</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="hardware-devices.html#mice-keyboards">Mäuse und Tastaturen</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <p>Ihr Rechner besteht aus einer Anzahl miteinander verbundener Geräte, welche zusammen als Hardware bezeichnet werden.</p>
+      <p>Normalerweise konfiguriert Xubuntu ihre Hardware automatisch, aber in einigen Fällen müssen Sie selbst Ihre Hardware konfigurieren. Dieser Bereich gibt ihnen Informationen zu Werkzeugen, mit denen Sie Ihre Hardware konfigurieren können.</p>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="restricted-drivers"></a>Eingeschränkte Treiber</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="restricted-why"></a>Warum sind manche Treiber eingeschränkt?</h3>
+              </div>
+            </div>
+          </div>
+          <p>Eingeschränkte Treiber sind Treiber für Ihre Hardware, welche nicht frei verfügbar oder Open Source sind.</p>
+          <p>Die meisten Geräte (Hardware) an Ihrem Rechner sollten ordentlich mit Xubuntu funktionieren. Diese Geräte haben wahrscheinlich freie Treiber, was bedeutet, dass die Treiber von den Xubuntu-Entwicklern angepasst und Probleme von diesen behoben werden können.</p>
+          <p>Einige Hardware hat keine freien Treiber, meistens weil der Hardwarehersteller keine Details der Hardware veröffentlicht hat, welche es möglich machen würden, solch einen Treiber zu entwickeln. Diese Geräte können unter Umständen eingeschränkt oder gar nicht funktionieren.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="restricted-enabling"></a>Aktivierung von eingeschränkten Treibern</h3>
+              </div>
+            </div>
+          </div>
+          <p>Falls ein eingeschränkter Treiber für ein bestimmtes Gerät verfügbar ist, kann er installiert werden, damit das Gerät ordentlich funktioniert, oder um neue Funktionen hinzuzufügen. Zum Beispiel kann die Installation von eingeschränkten Treibern für bestimmte Grafiken dazu führen, dass Sie fortgeschrittenere Grafikeffekte verwenden können.</p>
+          <p>Einige Rechner haben keinerlei Geräte, welche eingeschränkte Treiber verwenden können, entweder weil alle Geräte  von uneingeschränkten Treibern vollständig unterstützt werden oder weil es noch keine eingeschränkten Treiber für das Gerät gibt.</p>
+          <p>If any drivers are available for your hardware they will be installable from the <span class="application"><strong>Software and Updates</strong></span> application:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem">Settings</span> → <span class="guimenuitem">Additional Drivers</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Falls notwendig werden Sie dazu aufgefordert, das Systemverwaltungspasswort einzugeben.</p>
+              </li>
+              <li class="listitem">
+                <p>Sie werden eventuell zu einem Neustart aufgefordert, um die Installation abzuschließen.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="restricted-disable"></a>Deaktivieren eingeschränkter Treiber</h3>
+              </div>
+            </div>
+          </div>
+          <p>Wenn ein eingeschränkter Treiber Probleme verursacht oder Sie ihn einfach deaktivieren möchten, folgen Sie bitte folgender Vorgehensweise:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem">Settings</span> → <span class="guimenuitem">Additional Drivers</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Finden Sie den Treiber, den Sie deaktivieren möchten und klicken den <span class="guibutton"><strong>Deaktivieren</strong></span>-Knopf.</p>
+              </li>
+              <li class="listitem">
+                <p>Sie werden aufgefordert werden, ihr Passwort einzugeben.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Anmerkung]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Möglicherweise muss Ihr Rechner neu gestartet werden, um die Deaktivierung des Treibers abzuschließen.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="disks-partitions"></a>Festplatten und Partitionen</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="disks-partitions-check-free-space"></a>Überprüfen, wie viel Festplattenspeicherplatz verfügbar ist</h3>
+              </div>
+            </div>
+          </div>
+          <p>A simple way to check available disk space is to launch <span class="application"><strong>Thunar</strong></span>. There are several ways to do this:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">File Manager</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Führen Sie einen Doppeklick auf dem Symbol <em class="guilabel">Dateisystem</em> oder <em class="guilabel">Persönlicher Ordner</em> auf dem Schreibtisch aus.</p>
+              </li>
+              <li class="listitem">
+                <p>Klicken Sie auf den persönlichen Ordner in der Orte-Leiste</p>
+              </li>
+            </ul>
+          </div>
+          <p>Die Statusleiste am unteren Rand des Fensters zeigt den freien Speicherplatz für das aktuelle Laufwerk oder Medium an. Wenn Sie mehr als ein Laufwerk eingehangen oder verbunden haben, können Sie diese in der Seitenleiste anklicken und werden dann den freien Speicher für das entsprechende Laufwerk sehen.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="disks-partitions-free-up-space"></a>Wie kann ich Speicherplatz freigeben?</h3>
+              </div>
+            </div>
+          </div>
+          <p>Es gibt einige einfache Wege, um mehr Festplattenspeicher zu erhalten:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Leeren Sie den Papierkorb, indem Sie mit der rechten Maustaste auf das <em class="guilabel">Papierkorb</em>-Symbol auf dem Schreibtisch oder in der Starterleiste und <span class="guimenuitem">Papierkorb leeren Trash</span> wählen.</p>
+              </li>
+              <li class="listitem">
+                <p>Remove software packages that you no longer use.</p>
+              </li>
+              <li class="listitem">
+                <p>Delete files that you no longer need. You can install the <span class="application"><strong>GNOME Disk Usage Analyzer</strong></span> from <span class="application"><strong>Gnome Software</strong></span> to find which files are taking up the most space.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Warning">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Warnung]" src="../../libs-common/images/warning.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Seien Sie vorsichtig, keine Dateien zu löschen, die sie noch benötigen!</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="partitioning"></a>Ein Laufwerk partitionieren</h3>
+              </div>
+            </div>
+          </div>
+          <p>You can use <span class="application"><strong>GParted (GNOME Partition Editor)</strong></span> to partition storage devices. Install <span class="application"><strong>GParted</strong></span> from <span class="application"><strong>Gnome Software</strong></span> and then go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">GParted</span></strong></span> to start the partition editor.</p>
+          <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Warning">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Warnung]" src="../../libs-common/images/warning.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Be careful when altering disk partitions, as it is possible to lose your data if you delete or change the wrong partition.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Warning">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Warnung]" src="../../libs-common/images/warning.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Altering disk partitions can take some time. Do not assume that GParted has hung or crashed while it is working.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Anmerkung]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Falls es notwendig ist, das installierte System auszuhängen um mit den Änderungen die Sie durchführen möchten fortzufahren, müssen Sie von einer Live-CD/Live-USB-Stick aus arbeiten.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="partitioning-freeing-space"></a>Speicherplatz für eine neue Partition freigeben</h4>
+                </div>
+              </div>
+            </div>
+            <p>Um eine neue Partition innerhalb eines bereits partitionierten Gerätes zu erstellen, müssen Sie zuerst eine existierende Partition verkleinern. Wenn Sie schon genügend freien Speicher haben, fahren Sie im Abschnitt <a class="xref" href="hardware-devices.html#partitioning-create">Erstellen einer neuen Partition</a> fort. Wenn nicht, folgen Sie den Anweisungen im nächsten Abschnitt:</p>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p>Wählen Sie das zu partitionierende Gerät aus der Auswahlliste in der rechten oberen Ecke des Hauptfensters.</p>
+                </li>
+                <li class="listitem">
+                  <p>Eine Liste von Partitionen erscheint im Hauptfenster. Wählen Sie die Partition, deren Größe Sie ändern möchten und wählen Sie <span class="guimenu">Partition</span> → <span class="guimenuitem">Aushängen</span></p>
+                </li>
+                <li class="listitem">
+                  <p>Um die Größe einer Partition zu ändern wählen Sie <span class="guimenu">Partition</span> → <span class="guimenuitem">Größe ändern/Verschieben</span>. Der  <em class="guilabel">Größe ändern/Verschieben</em>-Dialog wird angezeigt. Sie können das Eingabefeld <em class="guilabel">Anschließender freier Speicherplatz (MiB)</em> verwenden, um zu wählen wie viel freier Speicherplatz hinter der Partition frei gegeben werden soll, oder <em class="guilabel">Vorhergehender freier Speicherplatz (MiB)</em> um Speicherplatz vor dieser Partition freizugeben. Alternativ können Sie den Schieberegler verwenden um die Partitionsgröße anzupassen.</p>
+                </li>
+                <li class="listitem">
+                  <p>Klicken Sie auf <span class="guibutton"><strong>Größe ändern</strong></span></p>
+                </li>
+                <li class="listitem">
+                  <p>Um die Änderungen anzuwenden, klicken Sie auf <span class="guimenu">Bearbeiten</span> → <span class="guimenuitem">Alle Operationen ausführen</span></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="partitioning-create"></a>Erstellen einer neuen Partition</h4>
+                </div>
+              </div>
+            </div>
+            <p>Um eine neue Partition zu erstellen:</p>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p>Wählen Sie das zu partitionierende Gerät aus der Auswahlliste in der rechten oberen Ecke des Hauptfensters.</p>
+                </li>
+                <li class="listitem">
+                  <p>Eine Liste der Partitionen wird erscheinen. Wählen Sie die Partition mit dem Namen <em class="guilabel">nicht zugeteilt</em>, rechtsklicken Sie auf ihr und klicken Sie auf <span class="guimenuitem">Neu</span></p>
+                </li>
+                <li class="listitem">
+                  <p>Wählen Sie aus der Auswahlliste <em class="guilabel">Dateisystem:</em> den gewünschten Dateisystemtyp.</p>
+                </li>
+                <li class="listitem">
+                  <p>Falls gewünscht, geben Sie eine Beschreibung für die Partition im Feld <em class="guilabel">Bezeichnung: </em> ein.</p>
+                </li>
+                <li class="listitem">
+                  <p>Klicken Sie den Knopf <span class="guibutton"><strong>Hinzufügen</strong></span>.</p>
+                </li>
+                <li class="listitem">
+                  <p>Um die Änderungen anzuwenden, klicken Sie auf <span class="guimenu">Bearbeiten</span> → <span class="guimenuitem">Alle Operationen ausführen</span></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="partitioning-format"></a>Formatieren einer Partition</h4>
+                </div>
+              </div>
+            </div>
+            <p>Um eine Partition zu formatieren, machen Sie folgendes:</p>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p>Wählen Sie das zu partitionierende Gerät aus der Auswahlliste in der rechten oberen Ecke des Hauptfensters.</p>
+                </li>
+                <li class="listitem">
+                  <p>Es wird eine Liste der Partitionen angezeigt. Wählen Sie die gewünschte Partition und wählen Sie <span class="guimenu">Partition</span> → <span class="guimenuitem">Aushängen</span>.</p>
+                </li>
+                <li class="listitem">
+                  <p>Wählen Sie die Partition, welche Sie formatieren möchten und wählen Sie <span class="guimenu">Partition</span> → <span class="guimenuitem">Formatieren als</span> und wählen Sie aus der Liste den Dateisystemtyp aus, mit dem die Partition formatiert werden soll.</p>
+                </li>
+                <li class="listitem">
+                  <p>Um die Änderungen anzuwenden, klicken Sie auf <span class="guimenu">Bearbeiten</span> → <span class="guimenuitem">Alle Operationen ausführen</span></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="disks-partitions-mounting"></a>Speichermedien ein- und aushängen</h3>
+              </div>
+            </div>
+          </div>
+          <p>Wenn Sie einen Wechseldatenträger mit Ihrem Rechner verbinden, muss der Datenträger eingehängt werden, damit Sie auf die Dateien auf dem Datenträger zugreifen können.</p>
+          <p>Um herauszufinden, wie Sie Speichergeräte manuell und/oder automatisch einhängen und aushängen können, lesen Sie auf der Ubuntu Community Wiki-Seite für den <a class="ulink" href="https://help.ubuntu.com/community/Mount" target="_top">mount-Befehl</a> nach.</p>
+          <p>Wenn Sie Dateien auf einen Wechseldatenträger kopieren, werden Sie nicht immer direkt auf das Gerät geschrieben. Stattdessen werden Sie häufig in einer Warteschlange gespeichert, so dass sie alle später (aus Effizienzgründen) auf einmal auf das Gerät geschrieben werden können. . Ausführung des Befehls <strong class="userinput"><code>sync</code></strong> kann erzwingen, dass ausstehende Daten auf Wechseldatenträger geschrieben werden. Wenn Sie das Gerät trennen bevor alle Dateien übertragen wurden, könnten Sie die Dateien verlieren. Um dies zu verhindern, müssen Sie einen Wechseldatenträger immer aushängen, bevor Sie ihn entfernen.</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="laptops"></a>Laptops</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="laptops-power-management"></a>Einstellungen zur Energieverwaltung</h3>
+              </div>
+            </div>
+          </div>
+          <p>Vielleicht möchten Sie die Energieverwaltungseinstellungen Ihres Laptops anpassen, um die Batterielebensdauer zu verlängern und Energie zu sparen.</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Power Manager</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Ändern Sie die Einstellungen wie gewünscht</p>
+              </li>
+              <li class="listitem">
+                <p>Änderungen werden sofort angewandt</p>
+              </li>
+            </ul>
+          </div>
+          <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Tip">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Tipp]" src="../../libs-common/images/tip.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>When your laptop is running on battery, one of the biggest drains on power is the display. Turning the brightness of the display down could improve battery life significantly; many laptops allow you to do this by pressing <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Fn+F7</strong></span> (or other marked key) several times.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="laptops-touchpads"></a>Touchpads</h3>
+              </div>
+            </div>
+          </div>
+          <p>Die meisten Laptops haben ein Touchpad, um den Mauszeiger zu steuern. Es gibt viele Arten, das Verhalten des Touchpads zu ändern; die grundlegenden Touchpad-Einstellungen können auf folgende Weise konfiguriert werden:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Mouse and Touchpad</span></strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Wählen Sie das Touchpad in der Auswahlliste <em class="guilabel">Gerät:</em>.</p>
+              </li>
+              <li class="listitem">
+                <p>Hier können Sie die Einstellungen für das Touchpad nach Ihren Wünschen ändern. Änderungen werden sofort übernommen.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Anmerkung]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Einige Touchpads werden möglicherweise als normale Mäuse erkannt, obwohl Sie in Wirklichkeit Touchpads sind. In diesem Fall wird das <em class="guilabel">Touchpad</em>-Gerät nicht in den Mauseinstellungen verfügbar sein. Lesen Sie die <a class="ulink" href="https://help.ubuntu.com/community/SynapticsTouchpad" target="_top">Touchpads</a>-Seite Im Ubuntu Community Wiki für mehr Informationen zu Touchpads.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="suspending-hibernating"></a>Bereitschaft und Ruhezustand</h2>
+            </div>
+          </div>
+        </div>
+        <p>Um Energie zu sparen, können Sie ihren Rechner in einen von vielen Energiesparmodi versetzen, wenn Sie Ihn gerade nicht benutzen:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>Einen Rechner in Bereitschaft zu versetzen ist wie ihn schlafen zu legen. Der Rechner ist immer noch eingeschaltet und all Ihre Arbeit ist weiterhin geöffnet, er verbraucht aber wesentlich weniger Strom. Sie können den Rechner dann durch Drücken einer Taste oder Klicken der Maus wieder aufwecken.</p>
+            </li>
+            <li class="listitem">
+              <p>Den Rechner in den Ruhezustand zu versetzen bedeutet, den Rechner vollständig auszuschalten, wobei der aktuelle Zustand (wie gerade geöffnete Dokumente) gesichert wird. Wenn Sie nach dem Versetzen in den Ruhezustand den Rechner wieder einschalten, sollte alle Ihre Arbeit wiederhergestellt werden wie sie vor dem Ruhezustand war. Während des Ruhezustandes des Rechners wird keine Energie verbraucht.</p>
+            </li>
+            <li class="listitem">
+              <p>Resuming is bringing the computer out of a power saving mode and back into normal operation. You can resume the computer from being suspended by pressing a keyboard button or by clicking the mouse. You can resume from hibernation by pressing the power button on your computer. </p>
+            </li>
+          </ul>
+        </div>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Anmerkung]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Bitte beachten, dass der Ruhezustand per Voreinstellung in Xubuntu deaktiviert ist und nicht als Option in irgendeinem Menü auftaucht. Um das von der Befehlszeile aus zu umgehen, bitte folgendes lesen <a class="xref" href="hardware-devices.html#enabling-hibernation">Ruhezustand aktivieren</a>.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p>You can manually put your computer into a power-saving mode by pressing <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/system-log-out.png" /></span> Log Out</span></strong></span> and then pressing the appropriate button.</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Anmerkung]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Einige Rechner haben möglicherweise Probleme, in bestimmte Energiesparmodi zu wechseln. Die beste Art, auszuprobieren, ob Ihr Rechner einen Energiesparmodus unterstützt, ist auszuprobieren in diesen Modus zu wechseln und zu prüfen, ob er sich verhält wie Sie es erwarten. Stellen Sie immer sicher, dass Sie wichtige Dokumente speichern, bevor Sie in den Bereitschaftsmodus oder Ruhezustand wechseln.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="suspending-troubleshooting"></a>Bereitschaft oder Ruhezustand funktionieren mit meinem Rechner nicht korrekt</h3>
+              </div>
+            </div>
+          </div>
+          <p>Manche Rechner können mit Xubuntu nicht korrekt in den Bereitschaft- oder Ruhezustand versetzt werden. Wenn das bei Ihrem Rechner der Fall ist, treten eventuell einige der folgenden Symptome auf:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Der Rechner schaltet sich nicht aus, nachdem Sie ihn in den Ruhezustand versetzt haben.</p>
+              </li>
+              <li class="listitem">
+                <p>Wenn Sie Ihren Rechner einschalten, nachdem Sie ihn in den Ruhezustand versetzt haben, werden Ihre zuvor geöffneten Programme nicht wieder hergestellt.</p>
+              </li>
+              <li class="listitem">
+                <p>Der Rechner wacht nicht mehr auf, nachdem Sie ihn in Bereitschaft versetzt haben.</p>
+              </li>
+              <li class="listitem">
+                <p>Einige Programme oder einige Hardwarekomponenten arbeiten nicht mehr richtig, nachdem der Rechner aus dem Tiefschlaf oder dem Ruhezustand aufgewacht ist.</p>
+              </li>
+            </ul>
+          </div>
+          <p>Wenn Sie irgendeines dieser Probleme haben, sollten Sie einen Softwarefehler auf <a class="ulink" href="http://launchpad.net/" target="_top">Launchpad</a> berichten. Diese Probleme werden hoffentlich in einer folgenden Version von Xubuntu behoben. Sollte Ihre Hardware nach Bereitschaft oder Ruhezustand nicht richtig arbeiten, starten Sie Ihren Rechner neu. Sollte ein Programm nicht richtig funktionieren, versuchen Sie es zu schließen und wieder neu zu öffnen.</p>
+          <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Warning">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Warnung]" src="../../libs-common/images/warning.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Stellen Sie sicher, dass Sie alle Ihre offenen Dokumente gesichert haben, bevor Sie den Ruhezustand oder den Bereitschaftsmodus ausprobieren.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="enabling-hibernation"></a>Ruhezustand aktivieren</h3>
+              </div>
+            </div>
+          </div>
+          <p>Um den Ruhezustand bei Xubuntu einzuschalten und zu verwenden, machen Sie folgendes:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Install the <span class="application"><strong>pm-utils</strong></span> package from <span class="application"><strong>Gnome Software</strong></span>.</p>
+              </li>
+              <li class="listitem">
+                <p>Auf der Befehlszeile bitte folgendes eingeben: <strong class="userinput"><code>sudo pm-hibernate</code></strong>.</p>
+              </li>
+              <li class="listitem">
+                <p>Geben Sie Ihr Passwort ein.</p>
+              </li>
+              <li class="listitem">
+                <p>Um den Rechner aus dem Ruhezustand zu wecken, drücken Sie den Einschaltknopf.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="suspending-patterns"></a>Ich sehe seltsame Muster auf dem Bildschirm, wenn ich meinen Rechner in den Ruhezustand versetze</h3>
+              </div>
+            </div>
+          </div>
+          <p>Ihr Bildschirm kann ein Schwarz-Weiß-Muster anzeigen gleich nachdem Sie den Ruhezustand aktivieren. Dies ist für gewöhnlich nichts Besorgniserregendes, sondern einfach die Reaktion der Grafikkarte mancher Rechner auf die Einleitung des Ruhezustands. Sollte der Rechner dieses Muster für eine längere Zeit anzeigen ohne sich auszuschalten, könnten Sie ein Problem mit dem Ruhezustand haben. Gehen Sie zu <a class="xref" href="hardware-devices.html#suspending-troubleshooting">Bereitschaft oder Ruhezustand funktionieren mit meinem Rechner nicht korrekt</a> für nähere Informationen.</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="mice-keyboards"></a>Mäuse und Tastaturen</h2>
+            </div>
+          </div>
+        </div>
+        <p>When you install Xubuntu, you are given the option of selecting your keyboard type and language. During the installation, your pointing devices should be automatically detected and configured. If you want or need to change the settings of any of these devices after installation, you can do so by going to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Mouse and Touchpad</span></strong></span> or <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Keyboard</span></strong></span>.</p>
+        <p>Die Einstellungen für Mäuse und Touchpads beinhalten:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Button orientation</em>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Pointer speed and sensitivity</em>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Double-click sensitivity</em>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Cursor theme</em>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <p>Einige der Optionen zur Konfiguration der Tastatur beinhalten:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>
+                <em class="guilabel">State of the Num Lock key on startup</em>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Key repeat speed and delay</em>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Cursor blinking speed</em>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Application keyboard shortcuts</em>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <em class="guilabel">Keyboard layout and language </em>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Tipp]" src="../../libs-common/images/tip.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Falls Sie eine Maus an einem Laptop verwenden, der auch ein Touchpad besitzt, können Sie das Verhalten der beiden einzeln ändern, indem Sie das entsprechende Gerät in der Auswahlliste <em class="guilabel">Gerät:</em> auf dem Reiter <em class="guilabel">Geräte</em> auswählen.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="guide-keeping-safe.html"><img src="../../libs-common/images/prev.png" alt="Zurück" /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="administrative-tasks.html"><img src="../../libs-common/images/next.png" alt="Weiter" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Kapitel 11. Wie Sie Ihren Rechner und Ihre persönlichen Informationen schützen </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Zum Anfang" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Kapitel 13. Administrative Aufgaben</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
