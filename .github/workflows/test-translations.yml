@@ -2,7 +2,7 @@ name: Test Translations
 
 on:
   pull_request:
-    branches: [ master, docs-refresh ]
+    branches: [ docs-refresh ]
 
 jobs:
   build:
