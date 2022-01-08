@@ -377,6 +377,10 @@ p .application .guimenu {
 	color: #016;
 }
 
+img {
+	max-width: 100%;
+}
+
 .guiicon img,
 .filename img {
 	margin-bottom: -0.25em;

@@ -7,6 +7,7 @@
 %xubuntu-user;
 <!ENTITY % xinclude SYSTEM "../../libs-common/xinclude.mod">
 %xinclude;
+<!ENTITY grub-and-boot '<inlinemediaobject><imageobject><imagedata fileref="../libs/images/grub-and-boot.png"/></imageobject></inlinemediaobject>' >
 <!ENTITY language "&EnglishAmerican;">
 <!ENTITY language "C">
 ]>
@@ -18,7 +19,7 @@
 
 		<para>If you have installed Xubuntu alongside another OS (Operating System), also known as dual booting, then you will be presented with the GRUB boot menu when you turn on your computer. This menu gives you options to start Xubuntu, start Xubuntu with advanced options, run a memory test or start other OSes. You may press the Escape key before booting to access the GRUB menu if you are not on a dual boot system.</para>
 		<para>Once the booting process begins, you will see the Xubuntu splash screen with a circular animation.</para>
-		<para>[images placeholder]</para>
+		<para>&grub-and-boot;</para>
 		<note><para>If you would like to customize the look and behaviour of the GRUB boot menu, you can install Grub Customizer (<ulink url="apt://grub-customizer">apt-install</ulink>, <ulink url="&ppa-grub-customizer;">PPA</ulink>)</para></note>
 
 		<section id="login-screen">
