@@ -16,7 +16,7 @@
 	<section id="startup">
 		<title>Startup</title>
 
-		<para>If you have installed Xubuntu alongside another OS (Operating System), also known as dual booting, then you will be presented with the GRUB boot menu when you turn your computer on. This menu gives you options to start Xubuntu, start Xubuntu with advanced options (such as running in recovery mode), run a memory test or start other OSes. You may press the Escape key before booting to access the GRUB menu if you are not on a dual boot system.</para>
+		<para>If you have installed Xubuntu alongside another OS (Operating System), also known as dual booting, then you will be presented with the GRUB boot menu when you turn on your computer. This menu gives you options to start Xubuntu, start Xubuntu with advanced options, run a memory test or start other OSes. You may press the Escape key before booting to access the GRUB menu if you are not on a dual boot system.</para>
 		<para>Once the booting process begins, you will see the Xubuntu splash screen with a circular animation.</para>
 		<para>[images placeholder]</para>
 		<note><para>If you would like to customize the look and behaviour of the GRUB boot menu, you can install Grub Customizer (<ulink url="apt://grub-customizer">apt-install</ulink>, <ulink url="&ppa-grub-customizer;">PPA</ulink>)</para></note>
@@ -43,12 +43,12 @@
 		<section id="panel">
 			<title>Panel</title>
 
-			<para>The panel is used for launching and switching applications as well as providing easy access to  interactive system status indicators in order to see and change the status of important components of your system.</para>
+			<para>The panel is used for launching and switching applications as well as providing easy access to interactive system status indicators in order to see and change the status of important components of your system.</para>
 			<para>[images placeholder]</para>
 
 			<para>On the left side of the panel you will find the &appmenu; <guibutton>applications menu</guibutton> button, which has the icon of the Xubuntu logo. Next to that is the list of running applications with available windows, known as the window list or taskbar buttons.</para>
 
-			<para>On the right of the panel is the Notification Area, which contains indicators showing status information, like network connectivity and sound volume level. The first indicator on the far right is the clock, which displays the system date and time. Clicking on the clock displays the calendar. Some indicator icons appear and disappear based on context, such as bluetooth appearing when a bluetooth adapter is present. The notification area also hosts system tray icons of running applications that support this feature, such as <application>Transmission</application> or <application>Audacious</application>.</para>
+			<para>On the right of the panel is the Notification Area, which contains indicators showing status information, like network connectivity and sound volume level. The first indicator on the far right is the clock, which displays the system date and time. Clicking on the clock displays the calendar. Some indicator icons appear and disappear based on context. The bluetooth icon, for example, will appear when a bluetooth adapter is present. The notification area also hosts system tray icons of running applications that support this feature, such as <application>Transmission</application> or <application>Audacious</application>.</para>
 			<note><para>The location of the panel and its components along with various options can be customized by right-clicking on the panel and selecting <menuchoice><guimenuitem>Panel</guimenuitem><guimenuitem>Panel Preferences</guimenuitem></menuchoice>.</para></note>
 		</section>
 
@@ -56,7 +56,7 @@
 			<title>Application Menu</title>
 
 			<para>[images placeholder]</para>
-			<para>Clicking the &appmenu; <guibutton>application menu</guibutton> button on the panel or pressing the <keycap>Ctrl + Escape</keycap> keyboard shortcut will open the menu, which has five (5) sections:</para>
+			<para>Clicking the &appmenu; <guibutton>applications menu</guibutton> button on the panel or pressing the <keycap>Ctrl + Escape</keycap> keyboard shortcut will open the menu, which has five (5) sections:</para>
 
 			<orderedlist>
 				<listitem><para>A search field to filter installed applications.</para></listitem>
@@ -88,11 +88,14 @@
 			<listitem><para><guilabel>Log Out</guilabel> - End the current session.</para></listitem>
 			<listitem><para><guilabel>Restart</guilabel> - Restart the computer.</para></listitem>
 			<listitem><para><guilabel>Shutdown</guilabel> - Shut down the computer.</para></listitem>
-			<listitem><para><guilabel>Suspend</guilabel> - Hibernate - Save the current desktop session and shut down the computer. When you restart the computer, you will resume the session.</para></listitem>
+			<listitem><para><guilabel>Suspend</guilabel> - Put the computer to sleep and have it run with minimal power.</para></listitem>
+			<listitem><para><guilabel>Hibernate</guilabel> - Save the current desktop session and shut down the computer. When you restart the computer, you will resume the session.</para></listitem>
 			<listitem><para><guilabel>Switch User</guilabel> - Log in to another user account.</para></listitem>
 		</orderedlist>
 
 		<note><para>It is possible to access the session management commands from the panel by right-clicking on the panel and then <menuchoice><guimenuitem>Panel</guimenuitem><guimenuitem>Add New Items...</guimenuitem></menuchoice> and then adding the <guilabel>Action Buttons</guilabel> entry. It is also possible to add additional session management commands to the &appmenu; application menu by right-clicking the Menu icon and selecting <guilabel>Properties</guilabel> and then enabling them in the <guilabel>Commands</guilabel> tab.</para></note>
+
+		<note><para>Hibernation is disabled by default in Xubuntu and instructions to enable it can be found in Chapter [placeholder].</para></note>
 	</section>
 
 </chapter>
