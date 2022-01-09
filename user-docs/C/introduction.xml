@@ -7,13 +7,6 @@
 %xubuntu-user;
 <!ENTITY % xinclude SYSTEM "../../libs-common/xinclude.mod">
 %xinclude;
-<!ENTITY img-desktop '<informalfigure><mediaobject><imageobject><imagedata align="center" fileref="../libs/images/introduction/desktop.png"/></imageobject></mediaobject></informalfigure>' >
-<!ENTITY img-login-dialog '<informalfigure><mediaobject><imageobject><imagedata align="center" fileref="../libs/images/introduction/login-dialog.png"/></imageobject></mediaobject></informalfigure>' >
-<!ENTITY img-login-panel '<informalfigure><mediaobject><imageobject><imagedata align="center" fileref="../libs/images/introduction/login-panel.png"/></imageobject></mediaobject></informalfigure>' >
-<!ENTITY img-menu '<informalfigure><mediaobject><imageobject><imagedata align="center" fileref="../libs/images/introduction/menu.png"/></imageobject></mediaobject></informalfigure>' >
-<!ENTITY img-panel '<informalfigure><mediaobject><imageobject><imagedata align="center" fileref="../libs/images/introduction/panel.png"/></imageobject></mediaobject></informalfigure>' >
-<!ENTITY img-session '<informalfigure><mediaobject><imageobject><imagedata align="center" fileref="../libs/images/introduction/session.png"/></imageobject></mediaobject></informalfigure>' >
-<!ENTITY img-startup '<informalfigure><mediaobject><imageobject><imagedata align="center" fileref="../libs/images/introduction/startup.png"/></imageobject></mediaobject></informalfigure>' >
 <!ENTITY language "&EnglishAmerican;">
 <!ENTITY language "C">
 ]>
@@ -25,17 +18,39 @@
 
 		<para>If you have installed Xubuntu alongside another OS (Operating System), also known as dual booting, then you will be presented with the GRUB boot menu when you turn on your computer. This menu gives you options to start Xubuntu, start Xubuntu with advanced options, run a memory test or start other OSes. You may press the Escape key before booting to access the GRUB menu if you are not on a dual boot system.</para>
 		<para>Once the booting process begins, you will see the Xubuntu splash screen with a circular animation.</para>
-		<para>&img-startup;</para>
+		
+		<informalfigure>
+			<mediaobject>
+				<imageobject>
+					<imagedata align="center" fileref="../libs/images/introduction/startup.png"/>
+				</imageobject>
+			</mediaobject>
+		</informalfigure>
+
 		<note><para>If you would like to customize the look and behaviour of the GRUB boot menu, you can install Grub Customizer (<ulink url="apt://grub-customizer">apt-install</ulink>, <ulink url="&ppa-grub-customizer;">PPA</ulink>)</para></note>
 
 		<section id="login-screen">
 			<title>Login Screen</title>
 
 			<para>When the booting process is complete, the login screen appears. It contains a panel at the top and a login dialog in the center of the screen. From left to right, the panel contains the computer name, the session selector, locale/language selector, accessibility options selector, date &amp; time, and log out options.</para>
-			<para>&img-login-panel;</para>
+			
+			<informalfigure>
+				<mediaobject>
+					<imageobject>
+						<imagedata align="center" fileref="../libs/images/introduction/login-panel.png"/>
+					</imageobject>
+				</mediaobject>
+			</informalfigure>
 
 			<para>The login dialog allows you to select an account name and type in the password to log into that session. You will not see the login screen if you selected the <guilabel>Log in automatically</guilabel> option on the <guilabel>Who are you?</guilabel> screen of the installer.</para>
-			<para>&img-login-dialog;</para>
+			
+			<informalfigure>
+				<mediaobject>
+					<imageobject>
+						<imagedata align="center" fileref="../libs/images/introduction/login-dialog.png"/>
+					</imageobject>
+				</mediaobject>
+			</informalfigure>
 
 			<note><para>To enable or disable automatic login of a user account, open <application>Users and Groups</application>, found in the &appmenu; application menu or &settings; <application>Settings Manager</application>, select the account in the list on the left, click the <guibutton>Change...</guibutton> button on the <guilabel>Password</guilabel> line and check or uncheck the <guilabel>Don’t ask for password on login</guilabel> checkbox. To configure the appearance of the login screen, open <application>LightDM GTK+ Greeter settings</application>.</para></note>
 		</section>
@@ -45,13 +60,27 @@
 		<title>Desktop</title>
 
 		<para>Similar to the login screen, the default Xubuntu desktop has a single panel located at the top of the screen, along with a wallpaper and desktop icons.</para>
-		<para>&img-desktop;</para>
+		
+		<informalfigure>
+			<mediaobject>
+				<imageobject>
+					<imagedata align="center" fileref="../libs/images/introduction/desktop.png"/>
+				</imageobject>
+			</mediaobject>
+		</informalfigure>
 
 		<section id="panel">
 			<title>Panel</title>
 
 			<para>The panel is used for launching and switching applications as well as providing easy access to interactive system status indicators in order to see and change the status of important components of your system.</para>
-			<para>&img-panel;</para>
+			
+			<informalfigure>
+				<mediaobject>
+					<imageobject>
+						<imagedata align="center" fileref="../libs/images/introduction/panel.png"/>
+					</imageobject>
+				</mediaobject>
+			</informalfigure>
 
 			<para>On the left side of the panel you will find the &appmenu; <guibutton>applications menu</guibutton> button, which has the icon of the Xubuntu logo. Next to that is the list of running applications with available windows, known as the window list or taskbar buttons.</para>
 
@@ -62,7 +91,14 @@
 		<section id="application-menu">
 			<title>Application Menu</title>
 
-			<para>&img-menu;</para>
+			<informalfigure>
+				<mediaobject>
+					<imageobject>
+						<imagedata align="center" fileref="../libs/images/introduction/menu.png"/>
+					</imageobject>
+				</mediaobject>
+			</informalfigure>
+
 			<para>Clicking the &appmenu; <guibutton>applications menu</guibutton> button on the panel or pressing the <keycap>Ctrl + Escape</keycap> keyboard shortcut will open the menu, which has five (5) sections:</para>
 
 			<orderedlist>
@@ -89,7 +125,14 @@
 		<para>Xubuntu provides a collection of commands for managing your session. These commands are accessible from the command buttons section of the &appmenu; <guibutton>applications menu</guibutton> as well as through shortcut keys.</para>
 		<para>The first of the these commands is the &lockscreen; <guibutton>Lock Screen</guibutton> button, which locks the current session and presents the login dialog to resume the session. Locking the screen is also accessible by two keyboard shortcuts: <keycap>Super + L</keycap> and <keycap>Ctrl + Alt + L</keycap>.</para>
 
-		<para>&img-session;</para>
+		<informalfigure>
+			<mediaobject>
+				<imageobject>
+					<imagedata align="center" fileref="../libs/images/introduction/session.png"/>
+				</imageobject>
+			</mediaobject>
+		</informalfigure>
+
 		<para>The remaining session commands are accessible through the &logout; <guibutton>Log Out</guibutton> button, as well as the <keycap>Ctrl + Alt + Delete</keycap> keyboard shortcuts, which opens a dialog and gives access to commands to:</para>
 		<orderedlist>
 			<listitem><para><guilabel>Log Out</guilabel> - End the current session.</para></listitem>
