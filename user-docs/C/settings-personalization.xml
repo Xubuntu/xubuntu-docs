@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
+%xubuntu-common;
+<!ENTITY % xubuntu-user SYSTEM "../libs/xubuntu-user.ent">
+%xubuntu-user;
+<!ENTITY % xinclude SYSTEM "../../libs-common/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+<chapter id="settings-personalization">
+	<title>Settings - Personalization</title>
+
+	<para>Similar to other desktop or mobile operating systems, Xubuntu comes with a default look and feel that some users will prefer to customize to their needs. Unlike Windows, Mac OS and some Linux desktop environments, Xubuntu comes pre-installed with many customization tools that give users a lot of control.</para>
+
+	<para>Xubuntu’s customization settings can be accessed from the <guilabel>Personal</guilabel> category of the &settings2;, the <guilabel>Settings</guilabel> category of the application &appmenu; <guibutton>Menu</guibutton> (Ctrl + Escape), <guibutton>Application Finder</guibutton> (Alt + F3), or the right-click menu of an object.</para>
+
+	<informalfigure>
+		<screenshot>
+			<mediaobject>
+				<imageobject>
+					<imagedata align="center" fileref="../libs/images/settings_personalization/settings-manager.png"/>
+				</imageobject>
+			</mediaobject>
+		</screenshot>
+	</informalfigure>
+
+	<section id="personalization-panel">
+		<title>Panel</title>
+
+		<para>Xubuntu’s default panel layout has a single panel at the top of the screen with the menu, window list, and notification area. This panel layout can be switched to another bundled panel layout or can be manually customized.</para>
+
+		<section id="personalization-panel-presets">
+			<title>Panel Presets</title>
+
+			<informalfigure>
+				<screenshot>
+					<mediaobject>
+						<imageobject>
+							<imagedata align="center" fileref="../libs/images/settings_personalization/panel-profiles.png"/>
+						</imageobject>
+					</mediaobject>
+				</screenshot>
+			</informalfigure>
+
+			<para>The <guibutton>Panel Profiles</guibutton> settings dialog makes it easy to switch to any of the bundled panel layouts or apply an imported panel layout. It also makes it easy to save your current panel layout and export it.</para>
+
+			<itemizedlist>
+				<listitem><para><guibutton>GNOME 2</guibutton> - This layout is inspired by the default GNOME 2 desktop environment panel layout, which has a panel at the top and bottom. The top panel has a classic tree menu, places context menu, settings and browser launchers, and notification area, while the bottom panel has the show desktop button, window list and workspace switcher.</para></listitem>
+				<listitem><para><guibutton>openSUSE 15.1</guibutton> - This is the default layout found in the Xfce edition of openSUSE, which has a single panel at the bottom with a modern searchable menu, show desktop button, window list, workspace switcher, and notification area.</para></listitem>
+				<listitem><para><guibutton>Redmond</guibutton> - This layout is inspired by Microsoft Windows XP, with a single panel at the bottom that has a classic menu, windows list and notification area.</para></listitem>
+				<listitem><para><guibutton>Xfce 4.12</guibutton> - This is the default Xfce 4.12 layout that contains a panel at the top and bottom. The top panel has a classic menu, window list, workspace switcher and notification area, while the bottom centered panel has a show desktop button, user folders button, and various application launchers.</para></listitem>
+				<listitem><para><guibutton>Xfce 4.14</guibutton> - This is the default Xfce 4.14 layout and is similar to the <guilabel>Xfce 4.12</guilabel> panel layout, with the exception of having a smaller top panel with additional audio, battery and notification indicators.</para></listitem>
+				<listitem><para><guibutton>Xubuntu 12.04 (Precise)</guibutton> - This was the default panel layout used in Xubuntu’s 2012 LTS release and is similar to the <guilabel>Xfce 4.12</guilabel> panel layout, but has an auto-hide panel at the bottom.</para></listitem>
+				<listitem><para><guibutton>Xubuntu 14.04 (Trusty)</guibutton> - This was the default panel layout used in Xubuntu’s 2014 LTS release and has a single panel at the top, with a modern searchable menu, window list and notification area.</para></listitem>
+				<listitem><para><guibutton>Xubuntu 18.04 (Bionic)</guibutton> - This was the default panel layout used in Xubuntu’s 2018 LTS release and is similar to the <guilabel>Xubuntu 14.04 (Trusty)</guilabel> panel layout, with the addition of audio and notification indicators.</para></listitem>
+			</itemizedlist>
+		</section>
+
+		<section id="personalization-customization">
+			<title>Panel Customization</title>
+
+			<para>To make minor changes to Xubuntu’s panel(s), you can do the following:</para>
+
+			<itemizedlist>
+				<listitem><para>Drag an application launcher from the &appmenu; <guibutton>Menu</guibutton>, <guilabel>Desktop</guilabel> or <guibutton>Application Finder</guibutton> onto the panel to add it to the panel.</para></listitem>
+				<listitem><para>Right-click an application launcher in the &appmenu; <guibutton>Menu</guibutton> and select the <guilabel>Add to Panel</guilabel> entry in the context menu to add it to the panel.</para></listitem>
+				<listitem><para>Right-click on any of the panel items and select the <guilabel>Properties</guilabel>, <guilabel>Move</guilabel>, or <guilabel>Remove</guilabel> entries in the context menu to customize, move to the desired position, or remove from the panel.</para></listitem>
+				<listitem><para>Right-click on any of the panel items and selecting <guilabel>Panel -> Add New Items...</guilabel> to add a new item to the panel.</para></listitem>
+			</itemizedlist>
+
+			<informalfigure>
+				<screenshot>
+					<mediaobject>
+						<imageobject>
+							<imagedata align="center" fileref="../libs/images/settings_personalization/panel-preferences.png"/>
+						</imageobject>
+					</mediaobject>
+				</screenshot>
+			</informalfigure>
+
+			<para>For other changes to panel(s), you will need to open the <guibutton>Panel</guibutton> settings dialog, which is also accessible by right-clicking on any of the panel items and selecting <guilabel>Panel -> Panel Preferences...</guilabel>. The top section of the dialog gives access to open the <guibutton>Panel Profiles</guibutton> settings dialog and the ability to select, add and remove panels. The remainder of settings are broken up across three tabs.</para>
+
+			<itemizedlist>
+				<listitem><para><guibutton>Display</guibutton> - On this tab, you can set the panel’s width and height, vertical or horizontal orientation, position on the screen, and hiding behaviour. To move the panel, you will need to uncheck the <guilabel>Lock panel</guilabel> checkbox and drag it by one of the two handles that appear on either side.</para></listitem>
+				<listitem><para><guibutton>Appearance</guibutton> - On this tab, you can set the panel’s transparency, icon size and whether its background is a color or image.</para></listitem>
+				<listitem><para><guibutton>Items</guibutton> - This tab allows you to add, arrange, and remove plugins, as well as access plugin properties through the button bar. It is also possible to rearrange items by dragging with the mouse, and access properties by double-clicking.</para></listitem>
+			</itemizedlist>
+
+			<para>It is possible to install additional panel plugins, also known as panel applets. Panel plugins not listed in the <guilabel>Add New Items</guilabel> dialog will need to be installed before they can be used. Some of the plugins are <ulink url="https://docs.xfce.org/xfce/xfce4-panel/start#external_plugins">listed here</ulink> and the more popular/useful ones are for clipboard management (<ulink url="apt://xfce4-clipman-plugin">install</ulink>), global menu (<ulink url="apt://xfce4-appmenu-plugin">install</ulink>), etc.</para>
+
+			<para>Users who want a dock similar to the one found on Mac OS and elementary OS can choose from these docks - Plank (<ulink url="apt://plank">install</ulink>), DockbarX (<ulink url="https://launchpad.net/~xuzhen666/+archive/ubuntu/dockbarx">PPA</ulink>), Docky, or Cairo Dock. Users who want a Windows 7-like taskbar with window list buttons can install the DockbarX (<ulink url="https://launchpad.net/~xuzhen666/+archive/ubuntu/dockbarx">PPA</ulink>) or Docklike (<ulink url="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/extras">PPA</ulink>) panel plugins. Below are sample layouts customized by Xubuntu users.</para>
+
+			<informalfigure>
+				<screenshot>
+					<mediaobject>
+						<imageobject>
+							<imagedata align="center" fileref="../libs/images/settings_personalization/windows7.png"/>
+						</imageobject>
+						<caption>Windows 7</caption>
+					</mediaobject>
+				</screenshot>
+			</informalfigure>
+
+			<informalfigure>
+				<screenshot>
+					<mediaobject>
+						<imageobject>
+							<imagedata align="center" fileref="../libs/images/settings_personalization/macOSX.png"/>
+						</imageobject>
+						<caption>Mac OS</caption>
+					</mediaobject>
+				</screenshot>
+			</informalfigure>
+
+			<note><para>If you have multiple screens, additional panel configurations will appear on the <guilabel>Display</guilabel> tab, including the options to configure which display the panel should appear on or whether the panel should span all monitors.</para></note>
+
+		</section>
+
+	</section>
+
+</chapter>
