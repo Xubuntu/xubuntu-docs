@@ -32,7 +32,7 @@ git checkout docs-refresh
 - [x] [Chapter 2. Installation](https://docs.google.com/document/d/1EWQkW0aP6pk0LrSVlwFk8F2SIJietHNzX9g2Z34fbhE/edit?usp=sharing) (100%, `user-docs/C/installation.xml`)
 - [x] [Chapter 3. Introduction](https://docs.google.com/document/d/1wlzxgu3yUiLnUd5zoU0MgpI4x1spOo9N1F1wuuzVdl0/edit?usp=sharing) (100%, `user-docs/C/introduction.xml`)
 - [x] [Chapter 4. Default Applications](https://docs.google.com/document/d/1igFIwL0kRnxu3aAUC-yJeGJfDK1LVKYx24u6NXtw2gs/edit?usp=sharing) (100%, `user-docs/C/guide-default-apps.xml`)
-- [ ] [Chapter 5. Software Management](https://docs.google.com/document/d/1baVr_9CUEHd2c8y0_W0INc20c8LAKS8PNJknJnS8NpM/edit?usp=sharing) (90%, `user-docs/C/software-management.xml`, image placeholders)
+- [x] [Chapter 5. Software Management](https://docs.google.com/document/d/1baVr_9CUEHd2c8y0_W0INc20c8LAKS8PNJknJnS8NpM/edit?usp=sharing) (100%, `user-docs/C/software-management.xml`)
 - [ ] [Chapter 6. Settings - Personalization](https://docs.google.com/document/d/1WC4y48PRXpjSUo8dAZHSgmN4BvnKK4LBkrjPWJDz848/edit?usp=sharing) (0%)
 - [ ] [Chapter 7. Settings - Hardware](https://docs.google.com/document/d/17ns9RcfTP98F2tD1X8sWF3bbOteQ0b4zUTstD0Ux8Lo/edit?usp=sharing) (0%)
 - [ ] [Chapter 8. Settings - Connectivity](https://docs.google.com/document/d/1XbPCwmv3r1R_HdJ99ORqgqY-2f8dhpaUrpGYOH_-gsU/edit?usp=sharing) (0%)

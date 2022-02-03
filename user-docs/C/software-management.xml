@@ -34,7 +34,15 @@
 
 		<para>You can launch the Gnome Software Center from the &appmenu2; (<keycap>Ctrl + Escape</keycap>) or <application>Application Finder</application> (<keycap>Alt + F3</keycap>). It will be named <application>Software</application> and is found by default in the <guilabel>Favorites</guilabel> category, so it will be visible once you open the &appmenu2;.</para>
 
-		<para>[image placeholder]</para>
+		<informalfigure>
+			<screenshot>
+				<mediaobject>
+					<imageobject>
+						<imagedata align="center" fileref="../libs/images/software_management/gnome-software.png"/>
+					</imageobject>
+				</mediaobject>
+			</screenshot>
+		</informalfigure>
 
 		<para>Once launched, you will be on the <guilabel>Explore</guilabel> tab of the <application>Gnome Software</application>, which allows you to browse the categories or click the <guibutton>search</guibutton> button in the title bar, to easily find an application by name or keyword. When you click on an application, you will arrive at its information page, which contains its description, images, website link, reviews, and other details. On this page you have the option to either install, launch, or remove the application, as well as write a review.</para>
 
@@ -50,7 +58,15 @@
 
 		<para>The Ubuntu software repositories contain thousands of applications curated from the best FOSS (Free and Open Source Software) for both entertainment and productivity. Management of these software repositories and additional ones is possible in the <application>Software &amp; Updates</application> app found in the <guilabel>Settings</guilabel> category of the &appmenu2;, as well as in the &settings2;. It can also be opened through the <guibutton>Gear</guibutton> button menu in the title bar of <application>Gnome Software</application> or the <guibutton>Application</guibutton> button menu found on the left corner of the title bar.</para>
 
-		<para>[image placeholder]</para>
+		<informalfigure>
+			<screenshot>
+				<mediaobject>
+					<imageobject>
+						<imagedata align="center" fileref="../libs/images/software_management/software-repositories.png"/>
+					</imageobject>
+				</mediaobject>
+			</screenshot>
+		</informalfigure>
 
 		<para>On the <guilabel>Ubuntu Software</guilabel> tab, you can enable and disable the main four Ubuntu software repositories, as well as select the server where the downloaded packages should come from. The <guilabel>Other Software</guilabel> tab allows you to enable, disable, add, edit, and remove extra online and offline repositories.</para>
 	</section>
@@ -77,7 +93,15 @@
 
 			<para>To manually check for software updates, you can open the <application>Software Updater</application> found in the <guilabel>Settings</guilabel> category of the &appmenu2; as well as in the <guilabel>System</guilabel> category of the &settings2;. Once opened, it will query the software repositories, compare the software list against the versions installed on your system, and present those that can be updated.</para>
 
-			<para>[image placeholder]</para>
+			<informalfigure>
+				<screenshot>
+					<mediaobject>
+						<imageobject>
+							<imagedata align="center" fileref="../libs/images/software_management/software-updater.png"/>
+						</imageobject>
+					</mediaobject>
+				</screenshot>
+			</informalfigure>
 		</section>
 
 		<section id="software-updates-settings">
@@ -85,7 +109,15 @@
 
 			<para>You can set how often the <application>Software Updater</application> checks for updates, which updates to check for and what should happen when updates are found. These settings can be accessed when <application>Software Updater</application> is run by clicking the <guibutton>Settings...</guibutton> button at the bottom left. Pressing this will open the <application>Software &amp; Updates</application> dialog with the <guilabel>Updates</guilabel> tab selected.</para>
 
-			<para>[image placeholder]</para>
+			<informalfigure>
+				<screenshot>
+					<mediaobject>
+						<imageobject>
+							<imagedata align="center" fileref="../libs/images/software_management/update-settings.png"/>
+						</imageobject>
+					</mediaobject>
+				</screenshot>
+			</informalfigure>
 
 			<note><para>Software Updater will also notify you when a new version of Xubuntu is available. Learn more in the <xref linkend="migrating-upgrading" />.</para></note>
 		</section>
