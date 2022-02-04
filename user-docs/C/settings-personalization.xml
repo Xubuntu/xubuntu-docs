@@ -121,4 +121,51 @@
 
 	</section>
 
+	<section id="personalization-menu">
+		<title>Menu</title>
+
+		<para>The easiest tweak you can make to the &appmenu; <guibutton>Menu</guibutton> is to customize your <guilabel>Favorites</guilabel>, so you have easy access to your most important/used applications as soon as you open it. You have the options to:</para>
+
+		<itemizedlist>
+			<listitem><para>Add an application by locating the application either by searching for it by name or by browsing the categories, right-clicking on it and selecting <guilabel>Add to Favorites</guilabel> from the context menu.</para></listitem>
+			<listitem><para>Remove an application by right-clicking on an application in <guilabel>Favorites</guilabel> and selecting <guilabel>Remove From Favorites</guilabel> from the context menu.</para></listitem>
+			<listitem><para>Rearrange/reposition an application by left-clicking an application in <guilabel>Favorites</guilabel> and dragging it to the desired position.</para></listitem>
+		</itemizedlist>
+
+		<informalfigure>
+			<screenshot>
+				<mediaobject>
+					<imageobject>
+						<imagedata align="center" fileref="../libs/images/settings_personalization/menu-settings.png"/>
+					</imageobject>
+				</mediaobject>
+			</screenshot>
+		</informalfigure>
+
+		<para>For options to customize the look and feel of the &appmenu; <guibutton>Menu</guibutton>, right-click on the menu button and select <guilabel>Properties</guilabel> in the context menu to launch the <guibutton>Whisker Menu</guibutton> settings dialog. The dialog is divided into tabs for:</para>
+
+		<itemizedlist>
+			<listitem><para><guilabel>Appearance</guilabel> - Contains options for how the applications and categories will look, as well as the placement of the application list, category list, search field, and command buttons.</para></listitem>
+			<listitem><para><guilabel>Panel Button</guilabel> - Select whether the Menu button is an icon, a text label, or icon and label, and what that label should be.</para></listitem>
+			<listitem><para><guilabel>Behavior</guilabel> - Decide on the feel of the Menu, including whether categories should be selected once the mouse hovers over them, whether the Menu should stay open even when focus is lost, whether the <guilabel>Recently Used</guilabel> category should be displayed by default, and whether session commands should have confirmation dialogs.</para></listitem>
+			<listitem><para><guilabel>Commands</guilabel> - Enable or disable the appearance of the Settings Manager and session commands in the command buttons section of the Menu, as well as the appearance of the <guilabel>Edit Applications</guilabel> entry in the Menu button’s context menu.</para></listitem>
+			<listitem><para><guilabel>Search Actions</guilabel> - List the various keyword patterns that can be used to extend the functionality of the search field and make it easy to search other sources like Wikipedia or the file system.</para></listitem>
+		</itemizedlist>
+
+		<informalfigure>
+			<screenshot>
+				<mediaobject>
+					<imageobject>
+						<imagedata align="center" fileref="../libs/images/settings_personalization/menu-editor.png"/>
+					</imageobject>
+				</mediaobject>
+			</screenshot>
+		</informalfigure>
+
+		<para>To customize which applications appear in the &appmenu; <guibutton>Menu</guibutton>, open the <guibutton>Menu Editor</guibutton> utility, which is also accessible by right-clicking the Menu button and choosing <guilabel>Edit Applications</guilabel> from the context menu. Using this editor you can create new application launchers or categories, as well as edit the details of existing ones, including which categories the application appears in, whether the application will be visible in the menu, and the icon or name used by the application.</para>
+
+		<note><para>For more in-depth information on how to use all of those options, consult the <ulink url="https://github.com/bluesabre/menulibre/wiki/Usage">MenuLibre</ulink> online documentation.</para></note>
+
+	</section>
+
 </chapter>
