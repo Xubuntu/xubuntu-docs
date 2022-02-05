@@ -45,6 +45,16 @@
               <a href="settings-personalization.html#personalization-menu">Menu</a>
             </span>
           </dt>
+          <dt>
+            <span class="section">
+              <a href="settings-personalization.html#personalization-desktop">Ambiente de trabalho</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="settings-personalization.html#personalization-theming">Theming</a>
+            </span>
+          </dt>
         </dl>
       </div>
       <p>Similar to other desktop or mobile operating systems, Xubuntu comes with a default look and feel that some users will prefer to customize to their needs. Unlike Windows, Mac OS and some Linux desktop environments, Xubuntu comes pre-installed with many customization tools that give users a lot of control.</p>
@@ -262,6 +272,296 @@
               </td>
             </tr>
           </table>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="personalization-desktop"></a>Ambiente de trabalho</h2>
+            </div>
+          </div>
+        </div>
+        <p>The desktop is visible once you login to your account and its background is also present on the login and lock screens. To access customization options, open the <span class="guibutton"><strong>Desktop</strong></span> settings dialog, which is also accessible by right-clicking a blank area of the desktop and selecting <em class="guilabel">Desktop Settings</em> from the context menu.</p>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="personalization-desktop-background"></a>Background</h3>
+              </div>
+            </div>
+          </div>
+          <div class="informalfigure">
+            <div class="screenshot">
+              <div class="mediaobject" align="center">
+                <img src="../libs/images/settings_personalization/desktop-settings.png" align="middle" />
+              </div>
+            </div>
+          </div>
+          <p>Once the <span class="guibutton"><strong>Desktop</strong></span> settings dialog is launched, the <em class="guilabel">Background</em> tab gives you options to choose between a wallpaper image, a color gradient, a single color, or a combination of wallpaper(s) and color(s) as the desktop background.</p>
+          <p>When choosing an image as the background from the wallpaper list, you may choose from the default selection that comes with Xubuntu or select an image from a different folder by changing the <em class="guilabel">Folder</em> dropdown. You have the option to set how the wallpaper will fit on the screen in the <em class="guilabel">Style</em> dropdown. The default is <em class="guilabel">Zoomed</em>, which resizes the image preserving its aspect ratio and cropping the image to fill the screen. If you have multiple monitors connected, then the dropdown will also have a <em class="guilabel">Spanning screens</em> entry, to stretch the wallpaper the displays.</p>
+          <p>If there are multiple images in the wallpaper list, you also have the option to set the background to automatically cycle through them in an ordered or random sequence. By enabling the <em class="guilabel">Change the background</em> checkbox, you have several time-based options to choose from. The last option, <em class="guilabel">Chronologically</em>, sets the wallpapers to appear over evenly timed periods of a day.</p>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Nota]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>The default selection of wallpapers shipped with Xubuntu includes wallpapers created by the Xubuntu team for different releases and wallpapers submitted by the community. For more community contest-winning wallpapers, search for the packages that begin with xubuntu-community-wallpapers in the <span class="guibutton"><strong>Synaptic</strong></span> package manager.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="informalfigure">
+            <div class="screenshot">
+              <div class="mediaobject" align="center">
+                <img src="../libs/images/settings_personalization/color-picker.png" align="middle" />
+              </div>
+            </div>
+          </div>
+          <p>To set the background as a single color or a two-color gradient, set <em class="guilabel">Style</em> to ‘None’ and then set <em class="guilabel">Color</em> to the appropriate entry. You can then click on the color buttons next to the dropdown list to open the <em class="guilabel">Select Color</em> dialog. You have the option to select from the list of color presets, right-click on a color preset to customize that color, or create a custom color from scratch by pressing the plus button.</p>
+          <p>If you have multiple workspaces, also known as virtual desktops, you can choose to have the same background appear across all workspaces or use a different background for each workspace. To use a different background, uncheck the <em class="guilabel">Apply to all workspaces</em> checkbox,then move the dialog to each workspace individually and select a different background. This can be done by dragging the window to the left or right corners of the screen or pressing the keyboard shortcuts Ctrl + Alt + Home or Ctrl + Alt + End. This also is the case when you have multiple monitors connected, where each display will have the default wallpaper unless the window is dragged to other displays and the background is changed.</p>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Nota]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>The easiest way to set an image as the background wallpaper is to right-click the image on the current workspace or display and select <em class="guilabel">Set as wallpaper</em> from the context menu.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="personalization-desktop-icons"></a>Icons</h3>
+              </div>
+            </div>
+          </div>
+          <p>In the <em class="guilabel">Icons</em> tab of the <span class="guibutton"><strong>Desktop</strong></span> settings dialog you can set the properties of the icons that appear on the desktop, including their sizes, sort arrangement, label font size, click activation behavior, whether or not they should have tooltips and thumbnails, and which system icons appear by default. The <em class="guilabel">Icon type</em> dropdown list gives you the option to have desktop icons for files and launchers, minimized application windows, or no icons at all.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="personalization-desktop-menus"></a>Menus</h3>
+              </div>
+            </div>
+          </div>
+          <p>The <em class="guilabel">Menus</em> tab of the <span class="guibutton"><strong>Desktop</strong></span> settings dialog provides customization options for the two menus that can appear when using the mouse.</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Desktop Menu - This menu appears when right-clicking the desktop. You may choose whether or not this menu includes the application menu in a tree hierarchy.</p>
+              </li>
+              <li class="listitem">
+                <p>Window List Menu - This menu appears when middle-clicking the desktop. You may choose whether or not to display this menu, as well as application and workspace customization options within the menu.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="personalization-theming"></a>Theming</h2>
+            </div>
+          </div>
+        </div>
+        <p>A desktop theme is used to change the look and feel of the GUI (Graphical User Interface) and can consist of many things, including the desktop wallpaper, user interface styling and colors, fonts, icons, and sounds. In Xubuntu, you may change many of these individual components, so your desktop can be as unique as you like it to be.</p>
+        <p>The three main theming components that you should know about are:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p><span class="guibutton"><strong>Window Decorations</strong></span> - This is the appearance of the outer section of a window, including the title bar and window borders. It is also known as the window manager theme.</p>
+              <div class="informalfigure">
+                <div class="screenshot">
+                  <div class="mediaobject" align="center">
+                    <img src="../libs/images/settings_personalization/theming-windows.png" align="middle" />
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="listitem">
+              <p><span class="guibutton"><strong>UI Controls</strong></span> - This is the appearance of the user interface elements found within the inner section of the window, such as the buttons, scroll bars, and window background. It is also known as the Gtk theme.</p>
+              <div class="informalfigure">
+                <div class="screenshot">
+                  <div class="mediaobject" align="center">
+                    <img src="../libs/images/settings_personalization/theming-ui.png" align="middle" />
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="listitem">
+              <p><span class="guibutton"><strong>Icons</strong></span> - This is the icon set used to style the icons found in toolbars and menus, on files and folders, on application launchers and buttons. It is also known as the Icon theme.</p>
+              <div class="informalfigure">
+                <div class="screenshot">
+                  <div class="mediaobject" align="center">
+                    <img src="../libs/images/settings_personalization/theming-icons.png" align="middle" />
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="personalization-themeing-ui"></a>UI Controls and Icons</h3>
+              </div>
+            </div>
+          </div>
+          <div class="informalfigure">
+            <div class="screenshot">
+              <div class="mediaobject" align="center">
+                <img src="../libs/images/settings_personalization/appearance-settings.png" align="middle" />
+              </div>
+            </div>
+          </div>
+          <p>Open the <span class="guibutton"><strong>Appearance</strong></span> settings dialog and you will be on the <em class="guilabel">Style</em> tab which will allow you to set your UI (User Interface) controls theme by selecting an entry in the list. If you switch to the <em class="guilabel">Icons</em> tab you will be able to set your icon theme by selecting an entry in the list. The <em class="guilabel">Fonts</em> tab will allow you to set the default font used for UI text, as well as setting font rendering options. The <em class="guilabel">Settings</em> tab has options to enable and disable images in menus and on buttons, as well as change how toolbar entries are styled.</p>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Nota]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Not all icon themes will work well with dark panels and window backgrounds.</p>
+                  <p>If you install applications that use the <a class="ulink" href="https://en.wikipedia.org/wiki/Qt_(software)" target="_top">Qt UI toolkit</a>, such as Qbittorrent or Clementine, the Qt5 Settings (<a class="ulink" href="apt://qt5ct" target="_top">install</a>) utility will allow you to configure their theming, while the qt5-style-plugins (<a class="ulink" href="apt://qt5-style-plugins" target="_top">install</a>) package will use the current theme on Qt apps.</p>
+                  <p>If you’d like to change the theme of the mouse cursor, open the <em class="guilabel">Theme</em> tab of the <span class="guibutton"><strong>Mouse and Touchpad</strong></span> app.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="personalization-theming-window-decorations"></a>Window Decorations and Effects</h3>
+              </div>
+            </div>
+          </div>
+          <div class="informalfigure">
+            <div class="screenshot">
+              <div class="mediaobject" align="center">
+                <img src="../libs/images/settings_personalization/window-manager-settings.png" align="middle" />
+              </div>
+            </div>
+          </div>
+          <p>Once you open the <span class="guibutton"><strong>Window Manager</strong></span> settings dialog, you will be on the <em class="guilabel">Style</em> tab which will allow you to set the window decoration theme, as well as customize the various elements of the title bar. This includes the alignment and font size used in the title bar text and the arrangement and visibility of the title bar buttons.</p>
+          <p>Xubuntu doesn't come with many desktop effects, but the Xfce compositor is enabled by default. The Xfce compositor is used to draw shadows behind windows and panels, as well as set the transparency of window decorations and windows in various states. To access these desktop effects, open the <span class="guibutton"><strong>Window Manager Tweaks</strong></span> settings dialog to its <em class="guilabel">Compositor</em> tab.</p>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Nota]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>If you have a low-end GPU or you don't like the desktop effects mentioned, you can turn off the compositor by unchecking <em class="guilabel">Enable display compositing</em> or modifying the other settings.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="personalization-theming-more-themes"></a>More Themes</h3>
+              </div>
+            </div>
+          </div>
+          <p>If the default selection of themes doesn't satisfy you, you can easily download and install new themes. Sometimes window decoration and UI control themes will come bundled together as a single Gtk theme, while Icon themes may also include a mouse cursor theme. You can find new themes in the software repositories, such as:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>UI themes - Adapta (<a class="ulink" href="apt://adapta-gtk-theme" target="_top">install</a>), Arc (<a class="ulink" href="apt://arc-theme" target="_top">install</a>), Materia (<a class="ulink" href="apt://materia-gtk-theme" target="_top">install</a>)</p>
+              </li>
+              <li class="listitem">
+                <p>Icon themes - Papirus (<a class="ulink" href="apt://papirus-icon-theme" target="_top">install</a>), Numix Circle (<a class="ulink" href="apt://numix-icon-theme-circle" target="_top">install</a>), Moka (<a class="ulink" href="apt://moka-icon-theme" target="_top">install</a>)</p>
+              </li>
+            </ul>
+          </div>
+          <p>Additional themes can be found on the Internet, as <span class="guibutton"><strong>.deb</strong></span> Debian package files, in PPA software repositories, on websites like <a class="ulink" href="http://xfce-look.org/" target="_top">Xfce-look.org</a> and Github.com, or from the theme author’s website. Here are some popular choices:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>UI themes - <a class="ulink" href="https://www.xfce-look.org/p/1150488" target="_top">Xfce Simple Dark</a>, <a class="ulink" href="https://www.xfce-look.org/p/1174937/" target="_top">Mint Mac Dark</a>, <a class="ulink" href="https://github.com/vinceliuice/Matcha-gtk-theme" target="_top">Matcha</a>, <a class="ulink" href="https://www.xfce-look.org/p/1174518/" target="_top">Plano</a>, <a class="ulink" href="https://www.xfce-look.org/p/1299758/" target="_top">Pop</a>, <a class="ulink" href="https://drasite.com/flat-remix-gtk" target="_top">Flat Remix</a>, <a class="ulink" href="https://draculatheme.com/gtk/" target="_top">Dracula</a></p>
+              </li>
+              <li class="listitem">
+                <p>Icon themes - <a class="ulink" href="https://drasite.com/flat-remix" target="_top">Flat Remix</a>, <a class="ulink" href="https://snwh.org/paper/download" target="_top">Paper</a></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="personalization-theming-installing-themes"></a>Installing Themes</h3>
+              </div>
+            </div>
+          </div>
+          <p>If you install new themes from the repositories, or through a <span class="guibutton"><strong>.deb</strong></span> Debian package file, they will automatically appear in the relevant lists. If you download a theme from the Internet, you will need to install the theme before it will appear in the relevant list. Here are three means to install downloaded themes:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p><span class="guibutton"><strong>Drag and Drop</strong></span> - With the <span class="guibutton"><strong>Appearance</strong></span> settings dialog open to either the <em class="guilabel">Style</em> or <em class="guilabel">Icons</em> tabs, you can drag and drop a compressed <span class="guibutton"><strong>.tar.xz</strong></span> theme file onto the theme list.</p>
+              </li>
+              <li class="listitem">
+                <p><span class="guibutton"><strong>OCS URL</strong></span> - If you are installing themes from Xfce-look.org, you can install the <a class="ulink" href="https://www.pling.com/p/1136805/" target="_top">ocs-url</a> installation helper tool and then click the ‘Install’ buttons in the <em class="guilabel">OCS-Install</em> column on the Files tab of the theme’s page.</p>
+              </li>
+              <li class="listitem">
+                <p><span class="guibutton"><strong>Manually</strong></span> - Open the compressed UI or Icon theme file and extract its contents into the appropriate folder. If these directories do not exist, you will need to create them first.</p>
+                <div class="itemizedlist">
+                  <ul class="itemizedlist" style="list-style-type: circle; ">
+                    <li class="listitem">
+                      <p>UI themes - <span class="inline-icon-location"><img src="../../libs-common/images/icon_location.png" /></span> /home/username/.themes/</p>
+                    </li>
+                    <li class="listitem">
+                      <p>Icon themes - <span class="inline-icon-location"><img src="../../libs-common/images/icon_location.png" /></span> /home/username/.icons/</p>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Nota]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>The <span class="guibutton"><strong>username</strong></span> part of the folder path should be replaced with your username.</p>
+                  <p>In Linux, files and directories starting with a . (dot) are hidden by default and to unhide them in the file manager, open the <em class="guilabel">View</em> menu and check the <em class="guilabel">Show Hidden Files</em> entry or alternatively press Ctrl + H. To unhide them in the file open or save dialogs, right-click in the files list area of the dialog and select Show Hidden Files from the popup menu.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
     </div>
