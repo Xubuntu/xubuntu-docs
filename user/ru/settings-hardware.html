@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Глава 7. Settings - Hardware</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Документация Xubuntu" />
+    <link rel="up" href="index.html" title="Документация Xubuntu" />
+    <link rel="prev" href="settings-personalization.html" title="Глава 6. Settings - Personalization" />
+    <link rel="next" href="guide-default-apps.html" title="Глава 8. Default Applications" />
+    <link rel="copyright" href="credits-license.html" title="Благодарности и лицензия" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div xml:lang="ru" class="chapter" lang="ru">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="settings-hardware"></a>Глава 7. Settings - Hardware</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>Содержание</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="section">
+              <a href="settings-hardware.html#personalization-hardware-monitor">Monitor</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="settings-hardware.html#personalization-hardware-keyboard">Keyboard</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="settings-hardware.html#personalization-hardware-mouse">Mouse</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="settings-hardware.html#personalization-hardware-sound">Sound</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="settings-hardware.html#personalization-hardware-device-drivers">Device Drivers</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <p>Your computer consists of a number of components and devices that collectively are known as computer hardware. This includes internal components, such as the CPU, motherboard, hard disk, graphics card, sound card, wifi adapter, and bluetooth adapter, as well as external peripheral devices, such as the monitor, mouse, keyboard, and printer.</p>
+      <p>Xubuntu configures your hardware automatically with optimal defaults, but there may be occasions when you need to make changes to these hardware settings. This section provides information on tools to configure them, which can be accessed from the <em class="guilabel">Hardware</em> category of the <span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> <span class="guibutton"><strong>Settings Manager</strong></span>, the <em class="guilabel">Settings</em> category of the <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Applications Menu</strong></span> (Ctrl + Escape), and in the <span class="guibutton"><strong>Application Finder</strong></span> (Alt + F3).</p>
+      <div class="informalfigure">
+        <div class="screenshot">
+          <div class="mediaobject" align="center">
+            <img src="../libs/images/settings_hardware/xfce4-settings.png" align="middle" />
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="personalization-hardware-monitor"></a>Monitor</h2>
+            </div>
+          </div>
+        </div>
+        <p>Whether you have a single screen or multiple monitors, you can easily access their customization options by opening the <span class="guibutton"><strong>Display</strong></span> settings dialog, which is also accessible with the keyboard shortcut Super + P.</p>
+        <div class="informalfigure">
+          <div class="screenshot">
+            <div class="mediaobject" align="center">
+              <img src="../libs/images/settings_hardware/xfce4-display-settings.png" align="middle" />
+            </div>
+          </div>
+        </div>
+        <p>On the <em class="guilabel">General</em> tab, you can change the screen’s resolution, refresh rate, rotation and reflection in the various drop-down lists. Click the <em class="guilabel">Apply</em> button to try out the changes and a confirmation dialog will appear to let you confirm or reject the changes. The previous configuration will be restored if you don’t confirm or reject the changes within 10 seconds.</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Примечание]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Note: To change how fonts are rendered or set a custom DPI text size, see the options in the <em class="guilabel">Fonts</em> tab of the <span class="guibutton"><strong>Appearance</strong></span> settings dialog. To manage monitor power saving options such as when it should enter power-save mode or how much to lower the brightness after inactivity (only applicable to laptops), see the options in the <em class="guilabel">Display</em> tab of the <span class="guibutton"><strong>Power Manager</strong></span> settings dialog. If you are experiencing screen tearing when playing videos, you may change the vblank value of the compositor or modify the xorg config file.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="personalization-hardware-monitor-high-resolution"></a>High Resolution</h3>
+              </div>
+            </div>
+          </div>
+          <p>High resolution displays may require specific settings to achieve readability of text and other screen objects. High-end laptop screens and other ultra-high resolution displays may have high pixel density in a small form factor. They are commonly referred to as HiDPI (High Dots Per Inch), 4K, UHD, WQHD, QHD, or 1440p displays. Some laptops with these types of screens include MacBooks with "Retina Display”, Dell XPS 13, and ThinkPad X1 Carbon. 4K and 8K UHD TVs may also require customization to make text readable at the viewing distances typical of these displays.</p>
+          <p>To improve the visibility of text and objects on these large resolution displays, you can make the following changes.</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Open the <span class="guibutton"><strong>Appearance</strong></span> settings dialog, change to the <em class="guilabel">Settings</em> tab, and change <em class="guilabel">Window Scaling</em> to ‘2x’.</p>
+              </li>
+              <li class="listitem">
+                <p>Open the <span class="guibutton"><strong>Window Manager</strong></span> settings dialog and in the <em class="guilabel">Style</em> tab, change to a HiDPI theme like ‘Default-hdpi’ or ‘Default-xhdpi’.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="personalization-hardware-monitor-multiple-monitors"></a>Multiple Monitors</h3>
+              </div>
+            </div>
+          </div>
+          <p>When you have an external monitor or TV screen connected to your laptop or multiple monitors and/or screens connected to your desktop, more options will become visible on the <em class="guilabel">General</em> tab of the <span class="guibutton"><strong>Display</strong></span> settings dialog. Select the screen that you wish to change the settings of by selecting it in the preview area or changing the entry in the screen drop-down list.</p>
+          <div class="informalfigure">
+            <div class="screenshot">
+              <div class="mediaobject" align="center">
+                <img src="../libs/images/settings_hardware/xfce4-display-settings-multi.png" align="middle" />
+              </div>
+            </div>
+          </div>
+          <p>One of the additional options presented in a multi-screen setup is the option to rearrange the displays in the preview area by dragging and dropping them to match how they are physically placed. Additional multi-screen options include turning off a screen, setting a monitor as the primary display, mirroring the desktop on multiple displays, or extending the desktop across both screens.</p>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Примечание]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Note: With a screen set as the primary display, you can then configure the panels, desktop icons, and notifications to appear on that screen. Click the information icon next to the <em class="guilabel">Primary Display</em> toggle button to open the respective setting dialogs.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <p>The <em class="guilabel">Advanced</em> tab provides even more multi-monitor options, including the option to save a display configuration so that it can be easily applied at a later time. When the <em class="guilabel">Configure new displays</em> when connected option is toggled, the below <span class="guibutton"><strong>Displays</strong></span> mini dialog will appear, providing the most common display configurations, as well as any user-saved display configurations. The keyboard shortcut Super + P will open this dialog in a multi-monitor setup and clicking the ‘Advanced’ button opens the <span class="guibutton"><strong>Display</strong></span> settings dialog.</p>
+          <div class="informalfigure">
+            <div class="screenshot">
+              <div class="mediaobject" align="center">
+                <img src="../libs/images/settings_hardware/xfce4-display-settings-mini.png" align="middle" />
+              </div>
+            </div>
+          </div>
+          <p>The <em class="guilabel">Automatically enable profiles when new displays are connected</em> toggle will apply a user-saved display configuration when the connected displays match the displays found in a saved display configuration.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="personalization-hardware-monitor-colors"></a>Colors</h3>
+              </div>
+            </div>
+          </div>
+          <p>For color-sensitive work, the <span class="guibutton"><strong>Color Profiles</strong></span> settings dialog allows you to install and manage color profiles for your displays, printers, and scanners. In order for color profiles to be used, the required daemon will need to be installed and running in the background:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p><em class="guilabel">xiccd</em> (<a class="ulink" href="apt://xiccd" target="_top">install</a>) for display profiles</p>
+              </li>
+              <li class="listitem">
+                <p><em class="guilabel">cupsd</em> (<a class="ulink" href="apt://cupsd" target="_top">install</a>) for printer profiles</p>
+              </li>
+              <li class="listitem">
+                <p><em class="guilabel">saned</em> (<a class="ulink" href="apt://saned" target="_top">install</a>) for scanner profiles</p>
+              </li>
+            </ul>
+          </div>
+          <p>To calibrate your display, you will need to install <a class="ulink" href="https://displaycal.net/#download" target="_top">DisplayCAL</a>, Gnome Color Manager (<a class="ulink" href="apt://gnome-color-manager" target="_top">install</a>) with a ColorHug device, or a similar tool. If you would like to add a “night-mode” or “blue-blocker” feature, that will automatically transition the color temperature of the display throughout the day, you can install RedShift (<a class="ulink" href="apt://redshift" target="_top">install</a>).</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="personalization-hardware-keyboard"></a>Keyboard</h2>
+            </div>
+          </div>
+        </div>
+        <p>During the installation of Xubuntu, options to select the keyboard’s language and layout were presented and applied. In order to make changes to these and additional keyboard options, open the <span class="guibutton"><strong>Keyboard</strong></span> settings dialog.</p>
+        <div class="informalfigure">
+          <div class="screenshot">
+            <div class="mediaobject" align="center">
+              <img src="../libs/images/settings_hardware/xfce4-keyboard-settings.png" align="middle" />
+            </div>
+          </div>
+        </div>
+        <p>The <em class="guilabel">Behavior</em> tab provides options for the Num Lock key state, key repeat speed and delay, as well as text cursor blinking speed. The <em class="guilabel">Application Shortcuts</em> tab allows you to manage the keyboard shortcuts for the launching of applications. The <em class="guilabel">Layout</em> tab provides options to select the keyboard model and manage keyboard languages and layouts. With multiple keyboard layouts present, you also have the option to set a keyboard shortcut to cycle through the keyboard layouts.</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Примечание]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Note: To easily determine which keyboard layout is currently active and switch between them, you can add the <em class="guilabel">Keyboard Layouts</em> plugin to the panel. For additional non-application keyboard shortcuts, see the <em class="guilabel">Keyboard</em> tab of the <span class="guibutton"><strong>Window Manager</strong></span> settings dialog. For control over the behavior of various power related keyboard buttons, see the <em class="guilabel">General</em> tab of the <span class="guibutton"><strong>Power Manager</strong></span> settings dialog.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="personalization-hardware-mouse"></a>Mouse</h2>
+            </div>
+          </div>
+        </div>
+        <p>Pointer devices like a mouse, trackpad, trackball, or graphical tablet are automatically detected and configured during startup or when plugged in. If you want to make changes to the default options and behaviour of a device, open the <span class="guibutton"><strong>Mouse and Touchpad</strong></span> settings dialog.</p>
+        <div class="informalfigure">
+          <div class="screenshot">
+            <div class="mediaobject" align="center">
+              <img src="../libs/images/settings_hardware/xfce4-mouse-settings.png" align="middle" />
+            </div>
+          </div>
+        </div>
+        <p>The <em class="guilabel">Devices</em> tab allows you to select each individual device from the Device drop-down list and adjust their individual options. This includes whether it is enabled, as well as its button arrangement, scroll direction, pointer speed, and trackpad sensitivity. If the selected device is a trackpad that is using the Synaptics driver, a <em class="guilabel">Touchpad</em> tab will appear next to the <em class="guilabel">Buttons and Feedback</em> tab with options to enable and disable the trackpad while typing, tap to click, as well as edge and two-finger scrolling. A <em class="guilabel">Tablet</em> tab will appear when a device is detected to be using the Wacom driver.</p>
+        <p>The <em class="guilabel">Behavior</em> tab has global settings that affect all pointer devices, including how sensitive the drag and drop and double click operations are. The <em class="guilabel">Theme</em> tab allows you to set the cursor theme.</p>
+        <p>Некоторые тачпады могут определяться системой как обычные мыши. В таком случае, устройство <em class="guilabel">Тачпад</em> будет недоступно в настройках. Смотрите дополнительную информацию о тачпадах на странице <a class="ulink" href="https://help.ubuntu.com/community/SynapticsTouchpad" target="_top">Тачпады</a> вики-сайта сообщества Ubuntu.</p>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="personalization-hardware-sound"></a>Sound</h2>
+            </div>
+          </div>
+        </div>
+        <p>Sound in Xubuntu is processed through the PulseAudio sound server, which is capable of performing advanced operations on sound data going to and from your hardware devices. Making changes to the sound preferences can be done through the multimedia keyboard keys, the sound plugin in the notification area of the panel or the <span class="guibutton"><strong>PulseAudio Volume Control</strong></span> settings dialog.</p>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="personalization-hardware-sound-applet"></a>Sound Applet</h3>
+              </div>
+            </div>
+          </div>
+          <p>The panel sound plugin gives you easy access to raise, lower and mute the volume of devices, select from multiple input and/or output devices when applicable, as well as control the playback of various audio and video media players. The <em class="guilabel">Audio mixer...</em> entry at the bottom of the plugin popup window will open the <span class="guibutton"><strong>PulseAudio Volume Control</strong></span> settings dialog. </p>
+          <div class="informalfigure">
+            <div class="screenshot">
+              <div class="mediaobject" align="center">
+                <img src="../libs/images/settings_hardware/xfce4-pulseaudio-plugin.png" align="middle" />
+              </div>
+            </div>
+          </div>
+          <p>It is possible to adjust the output volume by using the mouse scrollwheel above the sound plugin icon. To customize whether multimedia keys are enabled, if a notification appears when the output volume is changed, and which media players will appear in the plugin popup window, right-click on the sound plugin.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="personalization-hardware-sound-dialog"></a>Sound Dialog</h3>
+              </div>
+            </div>
+          </div>
+          <p>The <span class="guibutton"><strong>PulseAudio Volume Control</strong></span> settings dialog, which is found in the <em class="guilabel">Multimedia</em> category of the <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span>, has various tabs to view and configure sound settings.</p>
+          <div class="informalfigure">
+            <div class="screenshot">
+              <div class="mediaobject" align="center">
+                <img src="../libs/images/settings_hardware/pavucontrol.png" align="middle" />
+              </div>
+            </div>
+          </div>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Playback - You can adjust the volume of system sounds, as well as set the volume, channel balance, and output device of each running application.</p>
+              </li>
+              <li class="listitem">
+                <p>Recording - Lists applications that are currently recording and allows the adjustment of the volume and input device.</p>
+              </li>
+              <li class="listitem">
+                <p>Output Devices - Lists audio output devices and allows the adjustment of their output source, volume, and latency.</p>
+              </li>
+              <li class="listitem">
+                <p>Input Devices - Lists audio input devices and allows the adjustment of their input source, volume, and latency.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Примечание]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Note: To enable system sounds, open the <span class="guibutton"><strong>Appearance</strong></span> settings dialog, change to the <em class="guilabel">Settings</em> tab and enable ‘Enable event sounds’. Install one of the sound themes, such as FreeDesktop (<a class="ulink" href="apt://sound-theme-freedesktop" target="_top">install</a>), Yaru (<a class="ulink" href="apt://yaru-theme-sound" target="_top">install</a>) or Pop (<a class="ulink" href="apt://pop-sound-theme" target="_top">install</a>). If you use a sound theme other than FreeDesktop, open <span class="guibutton"><strong>Settings Editor</strong></span>, change to <em class="guilabel">xsettings</em> in the left side pane, and under the <em class="guilabel">Net</em> category, edit the <em class="guilabel">SoundThemeName</em> value to the name of the sound theme.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="personalization-hardware-device-drivers"></a>Device Drivers</h2>
+            </div>
+          </div>
+        </div>
+        <p>A device driver is a computer program that controls a particular device connected to a computer. It acts as a bridge to allow the operating system and other software to communicate with the hardware. A device driver gets activated when the device is found on a computer or when the device is plugged in.</p>
+        <p>Most device drivers are installed by default in Xubuntu, so everything should work automatically when you plug it in. Device drivers can either be open source or proprietary and are provided by the hardware manufacturer or the open source community.</p>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="personalization-hardware-device-drivers-open-source"></a>Open Source Drivers</h3>
+              </div>
+            </div>
+          </div>
+          <p>Xubuntu is a Linux distribution and the foundational part of the operating system is the Linux kernel. The Linux kernel contains thousands of device drivers and the majority of them are open source, which allows kernel developers to modify them. To update these open source drivers, you only need to update the Linux kernel, which is one of the components updated through the <span class="guibutton"><strong>Software Updater</strong></span>.</p>
+          <p>When hardware manufacturers do not release sufficient technical details for their hardware, it is not possible to create a complete open source driver, so the hardware may not have an open source driver or will have an open source driver with limited functionality. Some open source drivers are reverse-engineered to provide an alternative to the hardware manufacturer’s proprietary driver, but these will not be as feature complete.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="personalization-hardware-device-drivers-proprietary"></a>Proprietary Drivers</h3>
+              </div>
+            </div>
+          </div>
+          <p>Some hardware manufacturers do not provide open source drivers for their hardware, but instead provide a proprietary driver, also known as a closed-sourced driver or binary blob. Without these proprietary drivers or firmware, the components and devices may not function properly or at all. These drivers will normally need to be installed manually, as they can’t be included in the kernel. They will primarily be drivers for graphics cards, wireless adapters, and processor firmware, with the most common ones being:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>NVidia Graphics Driver - Though there is a reverse engineered open source driver, called ‘Nouveau’, it does not have re-clocking and power management features to make it run optimally for gaming and may cause issues on legacy cards not supported by the current version of the driver.</p>
+              </li>
+              <li class="listitem">
+                <p>AMD Graphics Driver - The open source ‘RadeonSI’ driver is recommended for gaming and general home-use, while the proprietary ‘AMDGPU-PRO’ driver is recommended for workstation users requiring features not implemented in the open source driver, primarily OpenCL 2.0 support.</p>
+              </li>
+              <li class="listitem">
+                <p>Intel Wireless Driver - The wireless driver is open source but requires a proprietary firmware to run.</p>
+              </li>
+              <li class="listitem">
+                <p>Broadcom Wireless Driver - The wireless driver is open source but requires a proprietary firmware to run.</p>
+              </li>
+              <li class="listitem">
+                <p>AMD/Intel Microcode - These are stability and security updates to the processor firmware and are recommended to be enabled.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Примечание]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Note: If you enabled the ‘Install third-party software for graphics and Wi-Fi hardware and additional media formats’ checkbox during installation, then the required proprietary drivers will be automatically installed and enabled.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="personalization-hardware-device-drivers-managing-proprietary"></a>Managing Proprietary Drivers</h3>
+              </div>
+            </div>
+          </div>
+          <p>To view and manage which proprietary devices are used on your system, you can open <span class="guibutton"><strong>Additional Drivers</strong></span>, which will open the <span class="guibutton"><strong>Software &amp; Updates</strong></span> settings dialog to the <em class="guilabel">Additional Drivers</em> tab.</p>
+          <div class="informalfigure">
+            <div class="screenshot">
+              <div class="mediaobject" align="center">
+                <img src="../libs/images/settings_hardware/software-and-updates.png" align="middle" />
+              </div>
+            </div>
+          </div>
+          <p>Some computers may not have any devices listed because either the open source drivers are fully supported or because there are no proprietary drivers for the devices. If there are any proprietary drivers listed, you will have the options to:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>enable them if the device does not currently have an open source driver.</p>
+              </li>
+              <li class="listitem">
+                <p>switch between the open source and proprietary drivers.</p>
+              </li>
+              <li class="listitem">
+                <p>switch between different versions of the proprietary driver.</p>
+              </li>
+              <li class="listitem">
+                <p>disable them if they are causing problems or you would just like to turn them off.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Примечание]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Note: Proprietary drivers are stored in the restricted software repository. If this repository wasn’t enabled during installation, you will need to enable it to see entries listed in the dialog. You can do so by switching to the <em class="guilabel">Ubuntu Software</em> tab and enabling the ‘Proprietary drivers for devices (restricted)’ checkbox.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Примечание]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>You will need to be connected to the internet to install drivers. You will be prompted to enter your password when changing the driver and may need to restart your computer to finish enabling or disabling the driver.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Примечание]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Caution: It will generally be rare to find device drivers on a hardware manufacturer’s website. If you wish to install a driver manually, please make a backup of your data and system as a precaution and be careful to follow the instructions correctly.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="settings-personalization.html"><img src="../../libs-common/images/prev.png" alt="Пред." /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="guide-default-apps.html"><img src="../../libs-common/images/next.png" alt="След." /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Глава 6. Settings - Personalization </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Начало" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Глава 8. Default Applications</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
