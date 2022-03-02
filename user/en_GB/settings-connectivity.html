@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Chapter 8. Settings - Connectivity</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Xubuntu Documentation" />
+    <link rel="up" href="index.html" title="Xubuntu Documentation" />
+    <link rel="prev" href="settings-hardware.html" title="Chapter 7. Settings - Hardware" />
+    <link rel="next" href="guide-default-apps.html" title="Chapter 9. Default Applications" />
+    <link rel="copyright" href="credits-license.html" title="Credits and License" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div xml:lang="en-GB" class="chapter" lang="en-GB">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="settings-connectivity"></a>Chapter 8. Settings - Connectivity</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>Table of Contents</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="section">
+              <a href="settings-connectivity.html#settings-connectivity-network-connections">Network Connections</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="settings-connectivity.html#settings-connectivity-bluetooth">Bluetooth</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="settings-connectivity.html#settings-connectivity-connecting-to-servers">Connecting to servers</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="settings-connectivity-network-connections"></a>Network Connections</h2>
+            </div>
+          </div>
+        </div>
+        <p>Whether you are connected to a computer on your home’s LAN (Local Area Network) or a computer kilometers away on the Internet, the status of your network connection is always visible to you in the notification area of the panel. Network customization settings are available in the <span class="guibutton"><strong>Advanced Network Configuration</strong></span> settings dialog, which is accessible from the <em class="guilabel">Hardware</em> category of the <span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> <span class="guibutton"><strong>Settings Manager</strong></span>, the Settings category of the <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Applications Menu</strong></span> (Ctrl + Escape), and in the <span class="guibutton"><strong>Application Finder</strong></span> (Alt + F3).</p>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="settings-connectivity-network-connections-network-applet"></a>Network Applet</h3>
+              </div>
+            </div>
+          </div>
+          <p>When there is no access to the network, either because networking has been disabled or a connection to the network hasn’t been established, a disconnected <span class="guibutton"><strong>Network</strong></span> icon will appear on the panel to indicate this status. When you are connected, the icon will vary depending on which connection type the network is using.</p>
+          <div class="informalfigure">
+            <div class="screenshot">
+              <div class="mediaobject" align="center">
+                <img src="../libs/images/settings_connectivity/network-panel.png" align="middle" />
+              </div>
+            </div>
+          </div>
+          <p>Clicking on the <span class="guibutton"><strong>Network</strong></span> icon will open a menu that displays the connectivity status to the Ethernet and Wi-Fi networks, as well as listing any Wi-Fi networks that are in range. If you are connecting using a wired ethernet cable, it will connect automatically, whereas if you select a Wi-Fi network in the menu that wasn’t previously connected, a dialog box may open if a password is needed.</p>
+          <p>The <em class="guilabel">Connect to Hidden Wi-Fi Network...</em> menu entry will allow you to connect to a Wi-Fi network that is hiding its network name by entering the network name and, if required, the password. The <em class="guilabel">Create New Wi-Fi Network...</em> menu entry will allow you to create a new wireless hotspot from your computer. The entry will open a dialog where you can set the network name, security method and key to be used.</p>
+          <div class="informalfigure">
+            <div class="screenshot">
+              <div class="mediaobject" align="center">
+                <img src="../libs/images/settings_connectivity/network-properties.png" align="middle" />
+              </div>
+            </div>
+          </div>
+          <p>Selecting the <em class="guilabel">Connection Information</em> menu item will open a dialog that displays information about the connection devices, including their MAC addresses, drivers, and speed, as well as IP address information in both IPv4 and IPv6. Selecting the <em class="guilabel">Edit Connections...</em> menu entry will open the network configuration dialog.</p>
+          <p>To disconnect from a network, select the <em class="guilabel">Disconnect</em> menu entry under the appropriate connection type. Enabling and disabling the wired and wireless connections is possible by selecting the <em class="guilabel">Enable Networking</em> or <em class="guilabel">Enable Wi-Fi</em> checkboxes. <em class="guilabel">Enable Networking</em> will enable or disable all wired and wireless connections, while <em class="guilabel">Enable Wi-Fi</em> is limited to enabling or disabling wireless connections.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="settings-connectivity-network-connections-network-dialog"></a>Network Dialog</h3>
+              </div>
+            </div>
+          </div>
+          <p>To make configuration changes to network connections, select the <em class="guilabel">Edit Connections...</em> entry in the <span class="guibutton"><strong>Network</strong></span> applet’s menu or open the <span class="guibutton"><strong>Advanced Network Configuration</strong></span> settings dialog through the <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Applications Menu</strong></span>, <span class="guibutton"><strong>Application Finder</strong></span>, or <span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> <span class="guibutton"><strong>Settings Manager</strong></span>.</p>
+          <div class="informalfigure">
+            <div class="screenshot">
+              <div class="mediaobject" align="center">
+                <img src="../libs/images/settings_connectivity/network-connections.png" align="middle" />
+              </div>
+            </div>
+          </div>
+          <p>The dialog lists existing network connections categorized by connection type. The bottom of the dialog has buttons to add and remove network connections or edit the selected network connection. When editing a network connection, you can set features such as the connection’s name, whether it should use a VPN, MAC address clone, security options, proxy options, IP address options, and DNS servers.</p>
+          <p>If you click the <em class="guilabel">Add a new connection</em> button at the bottom of the <span class="guibutton"><strong>Network Connections</strong></span> dialog, a dialog will appear asking you to select the connection type. The connection type list includes hardware types, such as DSL and Mobile Broadband, virtual types, such as Bond and Bridge, and VPN (Virtual Private Network) types. If the VPN connection type you wish to create isn’t listed, you will need to install its plugin, with OpenVPN (<a class="ulink" href="apt://network-manager-openvpn-gnome" target="_top">install</a>), WireGuard (<a class="ulink" href="https://launchpad.net/~wireguard/+archive/ubuntu/wireguard" target="_top">PPA</a>, <a class="ulink" href="apt://wireguard" target="_top">install</a>) and OpenConnect (<a class="ulink" href="apt://network-manager-openconnect-gnome" target="_top">install</a>) being popular options. To be able to connect to certain networks, you may need connection details that will be supplied to you by your network administrator or ISP (Internet Service Provider).</p>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Note]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Unfortunately, dialup modems are not supported by the <span class="guibutton"><strong>NetworkManager</strong></span>. To read about connecting with a dialup modem, please refer to the Ubuntu community wiki’s <a class="ulink" href="https://help.ubuntu.com/community/DialupModemHowto" target="_top">Dialup modem How-to</a>.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="settings-connectivity-network-connections-network-dialog-sharing"></a>Sharing Your Connection With Another Computer</h4>
+                </div>
+              </div>
+            </div>
+            <p>If you are connected to a network connection by Ethernet cable or by cellular and have a Wireless adapter connected to your computer or laptop, you can share your connection with another computer. To set up the wifi hotspot, the simple method is to select the <em class="guilabel">Create New Wi-Fi Network...</em> menu entry through the <span class="guibutton"><strong>Network</strong></span> panel applet. Alternatively open the <span class="guibutton"><strong>Network Connections</strong></span> settings dialog and either add or modify a Wi-Fi connection. In the connection properties dialog, switch to the <em class="guilabel">IPv4 Settings</em> tab and change <span class="guibutton"><strong>Method</strong></span> to <em class="guilabel">Shared to other computers</em> from the drop-down list.</p>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="settings-connectivity-bluetooth"></a>Bluetooth</h2>
+            </div>
+          </div>
+        </div>
+        <p>Bluetooth is a popular wireless technology that allows us to easily pair our computers, mobile phones, and tablets to input and output peripherals, like headsets, speakers, mice, keyboards, and printers. If a bluetooth adapter is connected to your computer, a bluetooth applet will appear in the notification area of the panel. If the bluetooth icon is dimmed, then the bluetooth adapter is disabled and hovering the mouse over the icon will also show this status in the tooltip. Clicking the <span class="guibutton"><strong>Bluetooth</strong></span> icon will display a menu with action options, such as changing the adapter’s status and sending a file to a device, as well as configuration options, such as adapter and device settings.</p>
+        <div class="informalfigure">
+          <div class="screenshot">
+            <div class="mediaobject" align="center">
+              <img src="../libs/images/settings_connectivity/blueman-panel.png" align="middle" />
+            </div>
+          </div>
+        </div>
+        <p>The top menu item will allow you to enable or disable the bluetooth adapter depending on its current status. The <em class="guilabel">Set Up New Device...</em> menu item will open a wizard dialog to assist you in connecting your new bluetooth device. The <em class="guilabel">Adapters...</em> menu entry will open a dialog where you can set the adapter’s visibility and broadcast name. The <em class="guilabel">Devices...</em> menu entry will open the <span class="guibutton"><strong>Bluetooth Manager</strong></span> settings dialog, which is also accessible through the <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Applications Menu</strong></span>, <span class="guibutton"><strong>Application Finder</strong></span>, or <span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> <span class="guibutton"><strong>Settings Manager</strong></span>.</p>
+        <div class="informalfigure">
+          <div class="screenshot">
+            <div class="mediaobject" align="center">
+              <img src="../libs/images/settings_connectivity/blueman.png" align="middle" />
+            </div>
+          </div>
+        </div>
+        <p>The settings dialog will list all of the bluetooth devices that have been connected to your computer. To connect to new devices, click the <em class="guilabel">Search</em> button and visible devices will appear in the list. Select the new device and either pair or connect to it through the <em class="guilabel">Pair</em> button in the toolbar or the items in the right-click context menu. Additional options to rename, trust, remove, or send a file to a device can be found in the toolbar or context menu. To make changes to the adapter settings, open the <em class="guilabel">Adapter</em> menu and select <em class="guilabel">Preferences</em>.</p>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="settings-connectivity-connecting-to-servers"></a>Connecting to servers</h2>
+            </div>
+          </div>
+        </div>
+        <p>To connect to various types of servers, you can use <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guibutton"><strong>System</strong></span> → <span class="guibutton"><strong>Gigolo</strong></span>. To connect to a server, follow the steps below:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>Go to <em class="guilabel">Actions</em> → <em class="guilabel">Connect</em></p>
+            </li>
+            <li class="listitem">
+              <p>Select the appropriate <em class="guilabel">Service type</em> and insert connection information</p>
+            </li>
+            <li class="listitem">
+              <p>Click <span class="guibutton"><strong>Connect</strong></span>; if you are attempting to connect to a server that requires you to log in, you will be prompted to enter a password</p>
+            </li>
+          </ul>
+        </div>
+        <p>Upon successfully connecting to the server, an icon labeled with connection details will appear in the <span class="guibutton"><strong>Gigolo</strong></span> window. To bookmark connections, right-click on a connection and select <em class="guilabel">Create Bookmark</em>. In the <em class="guilabel">Edit Bookmarks</em> dialog, you can name the bookmark and set other options, including the option to auto-connect. Once you are done, click <span class="guibutton"><strong>OK</strong></span> to create the bookmark.</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Note]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>The Windows Share username should be in the format <span class="guibutton"><strong>DOMAIN\username</strong></span></p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Note]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>In order to connect to Samba networks (Windows shares) using the <span class="guibutton"><strong>Thunar File Manager</strong></span>, you will need to have the package <span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span> <span class="guibutton"><strong>gvfs-backends</strong></span> installed.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="settings-hardware.html"><img src="../../libs-common/images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="guide-default-apps.html"><img src="../../libs-common/images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Chapter 7. Settings - Hardware </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Chapter 9. Default Applications</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
