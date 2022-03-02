@@ -35,7 +35,7 @@ git checkout docs-refresh
 - [x] [Chapter 5. Software Management](https://docs.google.com/document/d/1baVr_9CUEHd2c8y0_W0INc20c8LAKS8PNJknJnS8NpM/edit?usp=sharing) (100%, `user-docs/C/software-management.xml`)
 - [x] [Chapter 6. Settings - Personalization](https://docs.google.com/document/d/1WC4y48PRXpjSUo8dAZHSgmN4BvnKK4LBkrjPWJDz848/edit?usp=sharing) (100%, `user-docs/C/settings-personalization.xml`)
 - [x] [Chapter 7. Settings - Hardware](https://docs.google.com/document/d/17ns9RcfTP98F2tD1X8sWF3bbOteQ0b4zUTstD0Ux8Lo/edit?usp=sharing) (100%, `user-docs/C/settings-hardware.xml`)
-- [ ] [Chapter 8. Settings - Connectivity](https://docs.google.com/document/d/1XbPCwmv3r1R_HdJ99ORqgqY-2f8dhpaUrpGYOH_-gsU/edit?usp=sharing) (0%)
+- [x] [Chapter 8. Settings - Connectivity](https://docs.google.com/document/d/1XbPCwmv3r1R_HdJ99ORqgqY-2f8dhpaUrpGYOH_-gsU/edit?usp=sharing) (100%, `user-docs/C/settings-connectivity.xml`)
 - [ ] [Chapter 9. Print and Scan](https://docs.google.com/document/d/1Tkei3fxi3UtpsY2QE5ubBv46s8Q3im3PjLTy-pwx6-I/edit?usp=sharing) (0%)
 - [ ] [Chapter 13. Administrative Tasks](https://docs.google.com/document/d/1zySTkXoxPJPvVR7DpTwCCmSZ8k0izkAPUyzh1cbDBUw/edit?usp=sharing) (0%, `user-docs/C/administrative-tasks.xml`)
 - [ ] [Chapter X. Disks](https://docs.google.com/document/d/1J0JmtGaCmNJJzGmIdDu2eYWkoyXHQkoaKG7ThJovp7s/edit?usp=sharing) (0%)

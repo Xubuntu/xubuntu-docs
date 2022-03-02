@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
+%xubuntu-common;
+<!ENTITY % xubuntu-user SYSTEM "../libs/xubuntu-user.ent">
+%xubuntu-user;
+<!ENTITY % xinclude SYSTEM "../../libs-common/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+<chapter id="settings-connectivity">
+	<title>Settings - Connectivity</title>
+
+	<section id="settings-connectivity-network-connections">
+		<title>Network Connections</title>
+
+		<para>Whether you are connected to a computer on your home’s LAN (Local Area Network) or a computer kilometers away on the Internet, the status of your network connection is always visible to you in the notification area of the panel. Network customization settings are available in the <guibutton>Advanced Network Configuration</guibutton> settings dialog, which is accessible from the <guilabel>Hardware</guilabel> category of the &settings2;, the Settings category of the &appmenu2; (Ctrl + Escape), and in the <guibutton>Application Finder</guibutton> (Alt + F3).</para>
+
+		<section id="settings-connectivity-network-connections-network-applet">
+			<title>Network Applet</title>
+
+			<para>When there is no access to the network, either because networking has been disabled or a connection to the network hasn’t been established, a disconnected <guibutton>Network</guibutton> icon will appear on the panel to indicate this status. When you are connected, the icon will vary depending on which connection type the network is using.</para>
+
+			<informalfigure>
+				<screenshot>
+					<mediaobject>
+						<imageobject>
+							<imagedata align="center" fileref="../libs/images/settings_connectivity/network-panel.png"/>
+						</imageobject>
+					</mediaobject>
+				</screenshot>
+			</informalfigure>
+
+			<para>Clicking on the <guibutton>Network</guibutton> icon will open a menu that displays the connectivity status to the Ethernet and Wi-Fi networks, as well as listing any Wi-Fi networks that are in range. If you are connecting using a wired ethernet cable, it will connect automatically, whereas if you select a Wi-Fi network in the menu that wasn’t previously connected, a dialog box may open if a password is needed.</para>
+			<para>The <guilabel>Connect to Hidden Wi-Fi Network...</guilabel> menu entry will allow you to connect to a Wi-Fi network that is hiding its network name by entering the network name and, if required, the password. The <guilabel>Create New Wi-Fi Network...</guilabel> menu entry will allow you to create a new wireless hotspot from your computer. The entry will open a dialog where you can set the network name, security method and key to be used.</para>
+
+			<informalfigure>
+				<screenshot>
+					<mediaobject>
+						<imageobject>
+							<imagedata align="center" fileref="../libs/images/settings_connectivity/network-properties.png"/>
+						</imageobject>
+					</mediaobject>
+				</screenshot>
+			</informalfigure>
+
+			<para>Selecting the <guilabel>Connection Information</guilabel> menu item will open a dialog that displays information about the connection devices, including their MAC addresses, drivers, and speed, as well as IP address information in both IPv4 and IPv6. Selecting the <guilabel>Edit Connections...</guilabel> menu entry will open the network configuration dialog.</para>
+			<para>To disconnect from a network, select the <guilabel>Disconnect</guilabel> menu entry under the appropriate connection type. Enabling and disabling the wired and wireless connections is possible by selecting the <guilabel>Enable Networking</guilabel> or <guilabel>Enable Wi-Fi</guilabel> checkboxes. <guilabel>Enable Networking</guilabel> will enable or disable all wired and wireless connections, while <guilabel>Enable Wi-Fi</guilabel> is limited to enabling or disabling wireless connections.</para>
+		</section>
+
+		<section id="settings-connectivity-network-connections-network-dialog">
+			<title>Network Dialog</title>
+
+			<para>To make configuration changes to network connections, select the <guilabel>Edit Connections...</guilabel> entry in the <guibutton>Network</guibutton> applet’s menu or open the <guibutton>Advanced Network Configuration</guibutton> settings dialog through the &appmenu2;, <guibutton>Application Finder</guibutton>, or &settings2;.</para>
+
+			<informalfigure>
+				<screenshot>
+					<mediaobject>
+						<imageobject>
+							<imagedata align="center" fileref="../libs/images/settings_connectivity/network-connections.png"/>
+						</imageobject>
+					</mediaobject>
+				</screenshot>
+			</informalfigure>
+
+			<para>The dialog lists existing network connections categorized by connection type. The bottom of the dialog has buttons to add and remove network connections or edit the selected network connection. When editing a network connection, you can set features such as the connection’s name, whether it should use a VPN, MAC address clone, security options, proxy options, IP address options, and DNS servers.</para>
+			<para>If you click the <guilabel>Add a new connection</guilabel> button at the bottom of the <guibutton>Network Connections</guibutton> dialog, a dialog will appear asking you to select the connection type. The connection type list includes hardware types, such as DSL and Mobile Broadband, virtual types, such as Bond and Bridge, and VPN (Virtual Private Network) types. If the VPN connection type you wish to create isn’t listed, you will need to install its plugin, with OpenVPN (<ulink url="apt://network-manager-openvpn-gnome">install</ulink>), WireGuard (<ulink url="https://launchpad.net/~wireguard/+archive/ubuntu/wireguard">PPA</ulink>, <ulink url="apt://wireguard">install</ulink>) and OpenConnect (<ulink url="apt://network-manager-openconnect-gnome">install</ulink>) being popular options. To be able to connect to certain networks, you may need connection details that will be supplied to you by your network administrator or ISP (Internet Service Provider).</para>
+			<note><para>Unfortunately, dialup modems are not supported by the <guibutton>NetworkManager</guibutton>. To read about connecting with a dialup modem, please refer to the Ubuntu community wiki’s <ulink url="https://help.ubuntu.com/community/DialupModemHowto">Dialup modem How-to</ulink>.</para></note>
+
+			<section id="settings-connectivity-network-connections-network-dialog-sharing">
+				<title>Sharing Your Connection With Another Computer</title>
+
+				<para>If you are connected to a network connection by Ethernet cable or by cellular and have a Wireless adapter connected to your computer or laptop, you can share your connection with another computer. To set up the wifi hotspot, the simple method is to select the <guilabel>Create New Wi-Fi Network...</guilabel> menu entry through the <guibutton>Network</guibutton> panel applet. Alternatively open the <guibutton>Network Connections</guibutton> settings dialog and either add or modify a Wi-Fi connection. In the connection properties dialog, switch to the <guilabel>IPv4 Settings</guilabel> tab and change <guibutton>Method</guibutton> to <guilabel>Shared to other computers</guilabel> from the drop-down list.</para>
+			</section>
+		</section>
+	</section>
+		
+	<section id="settings-connectivity-bluetooth">
+		<title>Bluetooth</title>
+
+		<para>Bluetooth is a popular wireless technology that allows us to easily pair our computers, mobile phones, and tablets to input and output peripherals, like headsets, speakers, mice, keyboards, and printers. If a bluetooth adapter is connected to your computer, a bluetooth applet will appear in the notification area of the panel. If the bluetooth icon is dimmed, then the bluetooth adapter is disabled and hovering the mouse over the icon will also show this status in the tooltip. Clicking the <guibutton>Bluetooth</guibutton> icon will display a menu with action options, such as changing the adapter’s status and sending a file to a device, as well as configuration options, such as adapter and device settings.</para>
+
+		<informalfigure>
+			<screenshot>
+				<mediaobject>
+					<imageobject>
+						<imagedata align="center" fileref="../libs/images/settings_connectivity/blueman-panel.png"/>
+					</imageobject>
+				</mediaobject>
+			</screenshot>
+		</informalfigure>
+
+		<para>The top menu item will allow you to enable or disable the bluetooth adapter depending on its current status. The <guilabel>Set Up New Device...</guilabel> menu item will open a wizard dialog to assist you in connecting your new bluetooth device. The <guilabel>Adapters...</guilabel> menu entry will open a dialog where you can set the adapter’s visibility and broadcast name. The <guilabel>Devices...</guilabel> menu entry will open the <guibutton>Bluetooth Manager</guibutton> settings dialog, which is also accessible through the &appmenu2;, <guibutton>Application Finder</guibutton>, or &settings2;.</para>
+
+		<informalfigure>
+			<screenshot>
+				<mediaobject>
+					<imageobject>
+						<imagedata align="center" fileref="../libs/images/settings_connectivity/blueman.png"/>
+					</imageobject>
+				</mediaobject>
+			</screenshot>
+		</informalfigure>
+
+		<para>The settings dialog will list all of the bluetooth devices that have been connected to your computer. To connect to new devices, click the <guilabel>Search</guilabel> button and visible devices will appear in the list. Select the new device and either pair or connect to it through the <guilabel>Pair</guilabel> button in the toolbar or the items in the right-click context menu. Additional options to rename, trust, remove, or send a file to a device can be found in the toolbar or context menu. To make changes to the adapter settings, open the <guilabel>Adapter</guilabel> menu and select <guilabel>Preferences</guilabel>.</para>
+	</section>
+
+	<!--
+	<section id="settings-connectivity-samba">
+		<title>File Sharing / Samba</title>
+
+		<para>https://github.com/abdularis/LAN-Share</para>
+	</section>
+
+	<section id="settings-connectivity-remote-desktop">
+		<title>Remote Desktop</title>
+	</section>
+
+	<section id="settings-connectivity-firewall">
+		<title>Firewall</title>
+	</section>
+	-->
+
+	<section id="settings-connectivity-connecting-to-servers">
+		<title>Connecting to servers</title>
+
+		<para>To connect to various types of servers, you can use &appmenu; → <guibutton>System</guibutton> → <guibutton>Gigolo</guibutton>. To connect to a server, follow the steps below:</para>
+
+		<itemizedlist>
+			<listitem><para>Go to <guilabel>Actions</guilabel> → <guilabel>Connect</guilabel></para></listitem>
+			<listitem><para>Select the appropriate <guilabel>Service type</guilabel> and insert connection information</para></listitem>
+			<listitem><para>Click <guibutton>Connect</guibutton>; if you are attempting to connect to a server that requires you to log in, you will be prompted to enter a password</para></listitem>
+		</itemizedlist>
+
+		<para>Upon successfully connecting to the server, an icon labeled with connection details will appear in the <guibutton>Gigolo</guibutton> window. To bookmark connections, right-click on a connection and select <guilabel>Create Bookmark</guilabel>. In the <guilabel>Edit Bookmarks</guilabel> dialog, you can name the bookmark and set other options, including the option to auto-connect. Once you are done, click <guibutton>OK</guibutton> to create the bookmark.</para>
+		<note><para>The Windows Share username should be in the format <guibutton>DOMAIN\username</guibutton></para></note>
+		<note><para>In order to connect to Samba networks (Windows shares) using the <guibutton>Thunar File Manager</guibutton>, you will need to have the package &package; <guibutton>gvfs-backends</guibutton> installed.</para></note>
+	</section>
+
+</chapter>
