@@ -16,12 +16,12 @@
 	<section id="printing">
 		<title>Printing</title>
 
-		<para>The majority of consumer printers are automatically supported by Xubuntu, as it uses the CUPS (Common UNIX Printing System) back-end. This includes support for driver-less WiFi/wired network printing with printers that support IPP Everywhere and Apple AirPrint. If your printer is not immediately supported by Xubuntu you may need to install additional software, such as Gutenprint (<ulink url="apt://apt://printer-driver-gutenprint">install</ulink>) and IPP-USB (<ulink url="https://software.opensuse.org//download.html?project=home%3Apzz&amp;package=ipp-usb">install</ulink>). Gutenprint extends CUPS by providing support for printers seen less often in end-user consumer settings, while IPP-USB is a more robust replacement to the default installation of the &package; <guibutton>ippusbxd</guibutton> package. Normally CUPS and Gutenprint support is better adapted to Xubuntu than what will be available from the printer manufacturer.</para>
+		<para>The majority of consumer printers are automatically supported by Xubuntu, as it uses the CUPS (Common UNIX Printing System) back-end. This includes support for driver-less WiFi/wired network printing with printers that support IPP Everywhere and Apple AirPrint. If your printer is not immediately supported by Xubuntu you may need to install additional software, such as Gutenprint (<ulink url="apt://apt://printer-driver-gutenprint">install</ulink>) and IPP-USB (<ulink url="https://software.opensuse.org//download.html?project=home%3Apzz&amp;package=ipp-usb">install</ulink>). Gutenprint extends CUPS by providing support for printers seen less often in end-user consumer settings, while IPP-USB is a more robust replacement to the default installation of the <literal>&package;ippusbxd</literal> package. Normally CUPS and Gutenprint support is better adapted to Xubuntu than what will be available from the printer manufacturer.</para>
 
 		<section id="printing-managing-your-printer">
 			<title>Managing Your Printer</title>
 
-			<para>Printer management can be done in the <guibutton>Printers</guibutton> settings dialog, which is accessible from the <guilabel>Hardware</guilabel> category of the &settings2;, the <guilabel>Settings</guilabel> category of the application &appmenu2; (Ctrl + Escape), and in the <guibutton>Application Finder</guibutton> (Alt + F3).</para>
+			<para>Printer management can be done in the <application>Printers</application> settings dialog, which is accessible from the <guilabel>Hardware</guilabel> category of the &settings2;, the <guilabel>Settings</guilabel> category of the application &appmenu2; (Ctrl + Escape), and in the <application>Application Finder</application> (Alt + F3).</para>
 
 			<informalfigure>
 				<screenshot>
@@ -33,7 +33,7 @@
 				</screenshot>
 			</informalfigure>
 
-			<para>The <guibutton>Printers</guibutton> settings dialog allows you to add a new local printer (a printer directly connected to your computer through a USB, serial or printer port) or network printer (a printer connected on your network or a printer shared on the network through another computer). It also allows you to modify listed printers’ settings, such as renaming how they are labeled on your system, restarting, or disabling them. You can also share a printer with other computers on your network thereby making it a network printer. Depending upon the make and model of your printer, you can also check your printer’s consumables, such as toner or ink as well as paper, or send test print jobs.</para>
+			<para>The <application>Printers</application> settings dialog allows you to add a new local printer (a printer directly connected to your computer through a USB, serial or printer port) or network printer (a printer connected on your network or a printer shared on the network through another computer). It also allows you to modify listed printers’ settings, such as renaming how they are labeled on your system, restarting, or disabling them. You can also share a printer with other computers on your network thereby making it a network printer. Depending upon the make and model of your printer, you can also check your printer’s consumables, such as toner or ink as well as paper, or send test print jobs.</para>
 		</section>
 
 		<section id="printing-add-printer">
@@ -54,7 +54,7 @@
 			<para>If your printer was not detected, you will need to follow these steps:</para>
 
 			<itemizedlist>
-				<listitem><para>Open the <guibutton>Printers</guibutton> settings dialog.</para></listitem>
+				<listitem><para>Open the <application>Printers</application> settings dialog.</para></listitem>
 				<listitem><para>Click the Add button in the toolbar or <guilabel>Server</guilabel> → <guilabel>New</guilabel> → <guilabel>Printer</guilabel> in the menu to open the <guibutton>New Printer</guibutton> dialog.</para></listitem>
 				<listitem><para>Select the appropriate Printer, Port, URI, Protocol or Network Printer entry in the <guilabel>Devices</guilabel> list on the left of the dialog. If your printer is not visible, you may need to click on the triangle next to “Find Network Printer” to expand the list of printers on your network.</para></listitem>
 				<listitem><para>Where applicable, fill in any relevant details into the text fields and/or dropdown lists on the right of the dialog and then click the <guibutton>Forward</guibutton> button.</para></listitem>
@@ -65,7 +65,7 @@
 				<listitem><para>If you press the <guibutton>Print Test Page</guibutton> button, a test page will print and you can verify if it printed correctly or you can press <guibutton>Cancel</guibutton>. Either way, your printer is ready to print.</para></listitem>
 			</itemizedlist>
 
-			<para>If you are experiencing problems adding a printer with the steps above, you can try using the CUPS browser-based interface. It can be accessed at <ulink url="http://localhost:631/">http://localhost:631/</ulink>. Click the <guilabel>Administration</guilabel> menu item at the top of the page for options to add and find new printers. Do not make any changes in the <guibutton>Printers</guibutton> settings dialog or other system printer management utilities until you are finished using the CUPS browser-based interface. You may need to restart CUPS for it to reflect any changes that you make directly in the browser-based interface.</para>
+			<para>If you are experiencing problems adding a printer with the steps above, you can try using the CUPS browser-based interface. It can be accessed at <ulink url="http://localhost:631/">http://localhost:631/</ulink>. Click the <guilabel>Administration</guilabel> menu item at the top of the page for options to add and find new printers. Do not make any changes in the <application>Printers</application> settings dialog or other system printer management utilities until you are finished using the CUPS browser-based interface. You may need to restart CUPS for it to reflect any changes that you make directly in the browser-based interface.</para>
 
 			<note>
 				<para>If the printer is directly connected to a Windows machine on your network, choose the <guilabel>Windows Printer via SAMBA</guilabel> entry from the <guilabel>Devices</guilabel> list. If you do not know the protocol or details of your network printer, you should consult the printer’s manual or ask your network administrator.</para>
@@ -79,7 +79,7 @@
 			<para>If you want to share your local printer with other computers on your network:</para>
 
 			<itemizedlist>
-				<listitem><para>Open the <guibutton>Printers</guibutton> settings dialog.</para></listitem>
+				<listitem><para>Open the <application>Printers</application> settings dialog.</para></listitem>
 				<listitem><para>Click <guilabel>Server</guilabel> → <guilabel>Settings</guilabel> in the menu.</para></listitem>
 				<listitem><para>Enable the <guilabel>Publish shared printers connected to this system</guilabel> checkbox.</para></listitem>
 				<listitem><para>Click the <guibutton>OK</guibutton> button.</para></listitem>
@@ -101,7 +101,7 @@
 		<section id="printing-management-software">
 			<title>Management Software</title>
 
-			<para>If you have an HP (Hewlett Packard) printer and would like additional software to manage it, you can install the <guilabel>HP Linux Imaging and Printing (HPLIP) GUI utilities</guilabel> (<ulink url="apt://hplip-gui">install</ulink>). These utilities include the <guibutton>HPLIP Toolbox</guibutton> application which will be found in the <guilabel>Settings</guilabel> category of the &appmenu2; and the <guilabel>Others</guilabel> category of the &settings2;. On supported inkjet printers, you will be able to monitor ink levels, check printer status, change page size and print quality, as well as clean the printer heads. On supported laser printers you will be able to monitor toner level, check printer status, change page size, and manage print quality. For all-in-one (multi-function) devices, you will be able to change fax settings and functionality. For more information about HPLIP <ulink url="https://developers.hp.com/hp-linux-imaging-and-printing/features">click here</ulink>.</para>
+			<para>If you have an HP (Hewlett Packard) printer and would like additional software to manage it, you can install the <guilabel>HP Linux Imaging and Printing (HPLIP) GUI utilities</guilabel> (<ulink url="apt://hplip-gui">install</ulink>). These utilities include the <application>HPLIP Toolbox</application> application which will be found in the <guilabel>Settings</guilabel> category of the &appmenu2; and the <guilabel>Others</guilabel> category of the &settings2;. On supported inkjet printers, you will be able to monitor ink levels, check printer status, change page size and print quality, as well as clean the printer heads. On supported laser printers you will be able to monitor toner level, check printer status, change page size, and manage print quality. For all-in-one (multi-function) devices, you will be able to change fax settings and functionality. For more information about HPLIP <ulink url="https://developers.hp.com/hp-linux-imaging-and-printing/features">click here</ulink>.</para>
 
 			<informalfigure>
 				<screenshot>
@@ -135,7 +135,7 @@
 		<section id="scanning-using-your-scanner">
 			<title>Using your Scanner</title>
 
-			<para>To begin using your scanner, open the <guibutton>Document Scanner</guibutton> or <guibutton>Simple Scan</guibutton> app, which is accessible from the <guilabel>Graphics</guilabel> category of the &appmenu2; (Ctrl + Escape) and in the <guibutton>Application Finder</guibutton> (Alt + F3). Follow the next steps to scan a document, picture/image, etc.:</para>
+			<para>To begin using your scanner, open the <application>Document Scanner</application> or <application>Simple Scan</application> app, which is accessible from the <guilabel>Graphics</guilabel> category of the &appmenu2; (Ctrl + Escape) and in the <application>Application Finder</application> (Alt + F3). Follow the next steps to scan a document, picture/image, etc.:</para>
 
 			<itemizedlist>
 				<listitem><para>Connect your scanner and power it on.</para></listitem>
@@ -177,10 +177,10 @@
 			<para>There are some scanners that have incomplete drivers from the SANE project. They can sometimes be used, but not all the features may work. For these scanners:</para>
 
 			<itemizedlist>
-				<listitem><para>Install the &package; <guibutton>libsane-extras</guibutton> package.</para></listitem>
-				<listitem><para>Run <guibutton>pkexec mousepad /etc/sane.d/dll.conf</guibutton> at the command line to open the SANE driver file for editing.</para></listitem>
-				<listitem><para>Enable the correct driver for your scanner by removing the # from in front of the name of the driver. You may need to search the web to find out which driver is the right one.</para></listitem>
-				<listitem><para>Save the file and open <guibutton>Simple Scan</guibutton>. If all goes well, your scanner will now work.</para></listitem>
+				<listitem><para>Install the <literal>&package;libsane-extras</literal> package.</para></listitem>
+				<listitem><para>Run <userinput>pkexec mousepad /etc/sane.d/dll.conf</userinput> at the command line to open the SANE driver file for editing.</para></listitem>
+				<listitem><para>Enable the correct driver for your scanner by removing the <literal>#</literal> from in front of the name of the driver. You may need to search the web to find out which driver is the right one.</para></listitem>
+				<listitem><para>Save the file and open <application>Simple Scan</application>. If all goes well, your scanner will now work.</para></listitem>
 			</itemizedlist>
 		</section>
 	</section>

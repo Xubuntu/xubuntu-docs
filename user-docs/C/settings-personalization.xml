@@ -15,7 +15,7 @@
 
 	<para>Similar to other desktop or mobile operating systems, Xubuntu comes with a default look and feel that some users will prefer to customize to their needs. Unlike Windows, Mac OS and some Linux desktop environments, Xubuntu comes pre-installed with many customization tools that give users a lot of control.</para>
 
-	<para>Xubuntu’s customization settings can be accessed from the <guilabel>Personal</guilabel> category of the &settings2;, the <guilabel>Settings</guilabel> category of the application &appmenu; <guibutton>Menu</guibutton> (Ctrl + Escape), <guibutton>Application Finder</guibutton> (Alt + F3), or the right-click menu of an object.</para>
+	<para>Xubuntu’s customization settings can be accessed from the <guilabel>Personal</guilabel> category of the &settings2;, the <guilabel>Settings</guilabel> category of the &appmenu2; (Ctrl + Escape), <application>Application Finder</application> (Alt + F3), or the right-click menu of an object.</para>
 
 	<informalfigure>
 		<screenshot>
@@ -45,7 +45,7 @@
 				</screenshot>
 			</informalfigure>
 
-			<para>The <guibutton>Panel Profiles</guibutton> settings dialog makes it easy to switch to any of the bundled panel layouts or apply an imported panel layout. It also makes it easy to save your current panel layout and export it.</para>
+			<para>The <application>Panel Profiles</application> settings dialog makes it easy to switch to any of the bundled panel layouts or apply an imported panel layout. It also makes it easy to save your current panel layout and export it.</para>
 
 			<itemizedlist>
 				<listitem><para><guibutton>GNOME 2</guibutton> - This layout is inspired by the default GNOME 2 desktop environment panel layout, which has a panel at the top and bottom. The top panel has a classic tree menu, places context menu, settings and browser launchers, and notification area, while the bottom panel has the show desktop button, window list and workspace switcher.</para></listitem>
@@ -65,8 +65,8 @@
 			<para>To make minor changes to Xubuntu’s panel(s), you can do the following:</para>
 
 			<itemizedlist>
-				<listitem><para>Drag an application launcher from the &appmenu; <guibutton>Menu</guibutton>, <guilabel>Desktop</guilabel> or <guibutton>Application Finder</guibutton> onto the panel to add it to the panel.</para></listitem>
-				<listitem><para>Right-click an application launcher in the &appmenu; <guibutton>Menu</guibutton> and select the <guilabel>Add to Panel</guilabel> entry in the context menu to add it to the panel.</para></listitem>
+				<listitem><para>Drag an application launcher from the &appmenu2;, <guilabel>Desktop</guilabel> or <application>Application Finder</application> onto the panel to add it to the panel.</para></listitem>
+				<listitem><para>Right-click an application launcher in the &appmenu2; and select the <guilabel>Add to Panel</guilabel> entry in the context menu to add it to the panel.</para></listitem>
 				<listitem><para>Right-click on any of the panel items and select the <guilabel>Properties</guilabel>, <guilabel>Move</guilabel>, or <guilabel>Remove</guilabel> entries in the context menu to customize, move to the desired position, or remove from the panel.</para></listitem>
 				<listitem><para>Right-click on any of the panel items and selecting <guilabel>Panel -> Add New Items...</guilabel> to add a new item to the panel.</para></listitem>
 			</itemizedlist>
@@ -81,7 +81,7 @@
 				</screenshot>
 			</informalfigure>
 
-			<para>For other changes to panel(s), you will need to open the <guibutton>Panel</guibutton> settings dialog, which is also accessible by right-clicking on any of the panel items and selecting <guilabel>Panel -> Panel Preferences...</guilabel>. The top section of the dialog gives access to open the <guibutton>Panel Profiles</guibutton> settings dialog and the ability to select, add and remove panels. The remainder of settings are broken up across three tabs.</para>
+			<para>For other changes to panel(s), you will need to open the <application>Panel</application> settings dialog, which is also accessible by right-clicking on any of the panel items and selecting <guilabel>Panel -> Panel Preferences...</guilabel>. The top section of the dialog gives access to open the <application>Panel Profiles</application> settings dialog and the ability to select, add and remove panels. The remainder of settings are broken up across three tabs.</para>
 
 			<itemizedlist>
 				<listitem><para><guibutton>Display</guibutton> - On this tab, you can set the panel’s width and height, vertical or horizontal orientation, position on the screen, and hiding behaviour. To move the panel, you will need to uncheck the <guilabel>Lock panel</guilabel> checkbox and drag it by one of the two handles that appear on either side.</para></listitem>
@@ -124,7 +124,7 @@
 	<section id="personalization-menu">
 		<title>Menu</title>
 
-		<para>The easiest tweak you can make to the &appmenu; <guibutton>Menu</guibutton> is to customize your <guilabel>Favorites</guilabel>, so you have easy access to your most important/used applications as soon as you open it. You have the options to:</para>
+		<para>The easiest tweak you can make to the &appmenu2; is to customize your <guilabel>Favorites</guilabel>, so you have easy access to your most important/used applications as soon as you open it. You have the options to:</para>
 
 		<itemizedlist>
 			<listitem><para>Add an application by locating the application either by searching for it by name or by browsing the categories, right-clicking on it and selecting <guilabel>Add to Favorites</guilabel> from the context menu.</para></listitem>
@@ -142,7 +142,7 @@
 			</screenshot>
 		</informalfigure>
 
-		<para>For options to customize the look and feel of the &appmenu; <guibutton>Menu</guibutton>, right-click on the menu button and select <guilabel>Properties</guilabel> in the context menu to launch the <guibutton>Whisker Menu</guibutton> settings dialog. The dialog is divided into tabs for:</para>
+		<para>For options to customize the look and feel of the &appmenu2;, right-click on the menu button and select <guilabel>Properties</guilabel> in the context menu to launch the <application>Whisker Menu</application> settings dialog. The dialog is divided into tabs for:</para>
 
 		<itemizedlist>
 			<listitem><para><guilabel>Appearance</guilabel> - Contains options for how the applications and categories will look, as well as the placement of the application list, category list, search field, and command buttons.</para></listitem>
@@ -162,7 +162,7 @@
 			</screenshot>
 		</informalfigure>
 
-		<para>To customize which applications appear in the &appmenu; <guibutton>Menu</guibutton>, open the <guibutton>Menu Editor</guibutton> utility, which is also accessible by right-clicking the Menu button and choosing <guilabel>Edit Applications</guilabel> from the context menu. Using this editor you can create new application launchers or categories, as well as edit the details of existing ones, including which categories the application appears in, whether the application will be visible in the menu, and the icon or name used by the application.</para>
+		<para>To customize which applications appear in the &appmenu2;, open the <application>Menu Editor</application> utility, which is also accessible by right-clicking the Menu button and choosing <guilabel>Edit Applications</guilabel> from the context menu. Using this editor you can create new application launchers or categories, as well as edit the details of existing ones, including which categories the application appears in, whether the application will be visible in the menu, and the icon or name used by the application.</para>
 
 		<note><para>For more in-depth information on how to use all of those options, consult the <ulink url="https://github.com/bluesabre/menulibre/wiki/Usage">MenuLibre</ulink> online documentation.</para></note>
 
@@ -171,7 +171,7 @@
 	<section id="personalization-desktop">
 		<title>Desktop</title>
 
-		<para>The desktop is visible once you login to your account and its background is also present on the login and lock screens. To access customization options, open the <guibutton>Desktop</guibutton> settings dialog, which is also accessible by right-clicking a blank area of the desktop and selecting <guilabel>Desktop Settings</guilabel> from the context menu.</para>
+		<para>The desktop is visible once you login to your account and its background is also present on the login and lock screens. To access customization options, open the <application>Desktop</application> settings dialog, which is also accessible by right-clicking a blank area of the desktop and selecting <guilabel>Desktop Settings</guilabel> from the context menu.</para>
 
 		<section id="personalization-desktop-background">
 			<title>Background</title>
@@ -186,13 +186,13 @@
 				</screenshot>
 			</informalfigure>
 
-			<para>Once the <guibutton>Desktop</guibutton> settings dialog is launched, the <guilabel>Background</guilabel> tab gives you options to choose between a wallpaper image, a color gradient, a single color, or a combination of wallpaper(s) and color(s) as the desktop background.</para>
+			<para>Once the <application>Desktop</application> settings dialog is launched, the <guilabel>Background</guilabel> tab gives you options to choose between a wallpaper image, a color gradient, a single color, or a combination of wallpaper(s) and color(s) as the desktop background.</para>
 
 			<para>When choosing an image as the background from the wallpaper list, you may choose from the default selection that comes with Xubuntu or select an image from a different folder by changing the <guilabel>Folder</guilabel> dropdown. You have the option to set how the wallpaper will fit on the screen in the <guilabel>Style</guilabel> dropdown. The default is <guilabel>Zoomed</guilabel>, which resizes the image preserving its aspect ratio and cropping the image to fill the screen. If you have multiple monitors connected, then the dropdown will also have a <guilabel>Spanning screens</guilabel> entry, to stretch the wallpaper the displays.</para>
 
 			<para>If there are multiple images in the wallpaper list, you also have the option to set the background to automatically cycle through them in an ordered or random sequence. By enabling the <guilabel>Change the background</guilabel> checkbox, you have several time-based options to choose from. The last option, <guilabel>Chronologically</guilabel>, sets the wallpapers to appear over evenly timed periods of a day.</para>
 
-			<note><para>The default selection of wallpapers shipped with Xubuntu includes wallpapers created by the Xubuntu team for different releases and wallpapers submitted by the community. For more community contest-winning wallpapers, search for the packages that begin with xubuntu-community-wallpapers in the <guibutton>Synaptic</guibutton> package manager.</para></note>
+			<note><para>The default selection of wallpapers shipped with Xubuntu includes wallpapers created by the Xubuntu team for different releases and wallpapers submitted by the community. For more community contest-winning wallpapers, search for the packages that begin with xubuntu-community-wallpapers in the <application>Synaptic</application> package manager.</para></note>
 
 			<informalfigure>
 				<screenshot>
@@ -215,14 +215,14 @@
 		<section id="personalization-desktop-icons">
 			<title>Icons</title>
 
-			<para>In the <guilabel>Icons</guilabel> tab of the <guibutton>Desktop</guibutton> settings dialog you can set the properties of the icons that appear on the desktop, including their sizes, sort arrangement, label font size, click activation behavior, whether or not they should have tooltips and thumbnails, and which system icons appear by default. The <guilabel>Icon type</guilabel> dropdown list gives you the option to have desktop icons for files and launchers, minimized application windows, or no icons at all.</para>
+			<para>In the <guilabel>Icons</guilabel> tab of the <application>Desktop</application> settings dialog you can set the properties of the icons that appear on the desktop, including their sizes, sort arrangement, label font size, click activation behavior, whether or not they should have tooltips and thumbnails, and which system icons appear by default. The <guilabel>Icon type</guilabel> dropdown list gives you the option to have desktop icons for files and launchers, minimized application windows, or no icons at all.</para>
 
 		</section>
 
 		<section id="personalization-desktop-menus">
 			<title>Menus</title>
 
-			<para>The <guilabel>Menus</guilabel> tab of the <guibutton>Desktop</guibutton> settings dialog provides customization options for the two menus that can appear when using the mouse.</para>
+			<para>The <guilabel>Menus</guilabel> tab of the <application>Desktop</application> settings dialog provides customization options for the two menus that can appear when using the mouse.</para>
 
 			<itemizedlist>
 				<listitem><para>Desktop Menu - This menu appears when right-clicking the desktop. You may choose whether or not this menu includes the application menu in a tree hierarchy.</para></listitem>
@@ -289,12 +289,12 @@
 				</screenshot>
 			</informalfigure>
 
-			<para>Open the <guibutton>Appearance</guibutton> settings dialog and you will be on the <guilabel>Style</guilabel> tab which will allow you to set your UI (User Interface) controls theme by selecting an entry in the list. If you switch to the <guilabel>Icons</guilabel> tab you will be able to set your icon theme by selecting an entry in the list. The <guilabel>Fonts</guilabel> tab will allow you to set the default font used for UI text, as well as setting font rendering options. The <guilabel>Settings</guilabel> tab has options to enable and disable images in menus and on buttons, as well as change how toolbar entries are styled.</para>
+			<para>Open the <application>Appearance</application> settings dialog and you will be on the <guilabel>Style</guilabel> tab which will allow you to set your UI (User Interface) controls theme by selecting an entry in the list. If you switch to the <guilabel>Icons</guilabel> tab you will be able to set your icon theme by selecting an entry in the list. The <guilabel>Fonts</guilabel> tab will allow you to set the default font used for UI text, as well as setting font rendering options. The <guilabel>Settings</guilabel> tab has options to enable and disable images in menus and on buttons, as well as change how toolbar entries are styled.</para>
 
 			<note>
 				<para>Not all icon themes will work well with dark panels and window backgrounds.</para>
 				<para>If you install applications that use the <ulink url="https://en.wikipedia.org/wiki/Qt_(software)">Qt UI toolkit</ulink>, such as Qbittorrent or Clementine, the Qt5 Settings (<ulink url="apt://qt5ct">install</ulink>) utility will allow you to configure their theming, while the qt5-style-plugins (<ulink url="apt://qt5-style-plugins">install</ulink>) package will use the current theme on Qt apps.</para>
-				<para>If you’d like to change the theme of the mouse cursor, open the <guilabel>Theme</guilabel> tab of the <guibutton>Mouse and Touchpad</guibutton> app.</para>
+				<para>If you’d like to change the theme of the mouse cursor, open the <guilabel>Theme</guilabel> tab of the <application>Mouse and Touchpad</application> app.</para>
 			</note>
 
 		</section>
@@ -312,9 +312,9 @@
 				</screenshot>
 			</informalfigure>
 
-			<para>Once you open the <guibutton>Window Manager</guibutton> settings dialog, you will be on the <guilabel>Style</guilabel> tab which will allow you to set the window decoration theme, as well as customize the various elements of the title bar. This includes the alignment and font size used in the title bar text and the arrangement and visibility of the title bar buttons.</para>
+			<para>Once you open the <application>Window Manager</application> settings dialog, you will be on the <guilabel>Style</guilabel> tab which will allow you to set the window decoration theme, as well as customize the various elements of the title bar. This includes the alignment and font size used in the title bar text and the arrangement and visibility of the title bar buttons.</para>
 
-			<para>Xubuntu doesn't come with many desktop effects, but the Xfce compositor is enabled by default. The Xfce compositor is used to draw shadows behind windows and panels, as well as set the transparency of window decorations and windows in various states. To access these desktop effects, open the <guibutton>Window Manager Tweaks</guibutton> settings dialog to its <guilabel>Compositor</guilabel> tab.</para>
+			<para>Xubuntu doesn't come with many desktop effects, but the Xfce compositor is enabled by default. The Xfce compositor is used to draw shadows behind windows and panels, as well as set the transparency of window decorations and windows in various states. To access these desktop effects, open the <application>Window Manager Tweaks</application> settings dialog to its <guilabel>Compositor</guilabel> tab.</para>
 
 			<note><para>If you have a low-end GPU or you don't like the desktop effects mentioned, you can turn off the compositor by unchecking <guilabel>Enable display compositing</guilabel> or modifying the other settings.</para></note>
 
@@ -330,7 +330,7 @@
 				<listitem><para>Icon themes - Papirus (<ulink url="apt://papirus-icon-theme">install</ulink>), Numix Circle (<ulink url="apt://numix-icon-theme-circle">install</ulink>), Moka (<ulink url="apt://moka-icon-theme">install</ulink>)</para></listitem>
 			</itemizedlist>
 
-			<para>Additional themes can be found on the Internet, as <guibutton>.deb</guibutton> Debian package files, in PPA software repositories, on websites like <ulink url="http://xfce-look.org/">Xfce-look.org</ulink> and Github.com, or from the theme author’s website. Here are some popular choices:</para>
+			<para>Additional themes can be found on the Internet, as <literal>&package;.deb</literal> Debian package files, in PPA software repositories, on websites like <ulink url="http://xfce-look.org/">Xfce-look.org</ulink> and Github.com, or from the theme author’s website. Here are some popular choices:</para>
 
 			<itemizedlist>
 				<listitem><para>UI themes - <ulink url="https://www.xfce-look.org/p/1150488">Xfce Simple Dark</ulink>, <ulink url="https://www.xfce-look.org/p/1174937/">Mint Mac Dark</ulink>, <ulink url="https://github.com/vinceliuice/Matcha-gtk-theme">Matcha</ulink>, <ulink url="https://www.xfce-look.org/p/1174518/">Plano</ulink>, <ulink url="https://www.xfce-look.org/p/1299758/">Pop</ulink>, <ulink url="https://drasite.com/flat-remix-gtk">Flat Remix</ulink>, <ulink url="https://draculatheme.com/gtk/">Dracula</ulink></para></listitem>
@@ -342,10 +342,10 @@
 		<section id="personalization-theming-installing-themes">
 			<title>Installing Themes</title>
 
-			<para>If you install new themes from the repositories, or through a <guibutton>.deb</guibutton> Debian package file, they will automatically appear in the relevant lists. If you download a theme from the Internet, you will need to install the theme before it will appear in the relevant list. Here are three means to install downloaded themes:</para>
+			<para>If you install new themes from the repositories, or through a <literal>&package;.deb</literal> Debian package file, they will automatically appear in the relevant lists. If you download a theme from the Internet, you will need to install the theme before it will appear in the relevant list. Here are three means to install downloaded themes:</para>
 
 			<itemizedlist>
-				<listitem><para><guibutton>Drag and Drop</guibutton> - With the <guibutton>Appearance</guibutton> settings dialog open to either the <guilabel>Style</guilabel> or <guilabel>Icons</guilabel> tabs, you can drag and drop a compressed <guibutton>.tar.xz</guibutton> theme file onto the theme list.</para></listitem>
+				<listitem><para><guibutton>Drag and Drop</guibutton> - With the <application>Appearance</application> settings dialog open to either the <guilabel>Style</guilabel> or <guilabel>Icons</guilabel> tabs, you can drag and drop a compressed <literal>.tar.xz</literal> theme file onto the theme list.</para></listitem>
 				<listitem><para><guibutton>OCS URL</guibutton> - If you are installing themes from Xfce-look.org, you can install the <ulink url="https://www.pling.com/p/1136805/">ocs-url</ulink> installation helper tool and then click the ‘Install’ buttons in the <guilabel>OCS-Install</guilabel> column on the Files tab of the theme’s page.</para></listitem>
 				<listitem><para><guibutton>Manually</guibutton> - Open the compressed UI or Icon theme file and extract its contents into the appropriate folder. If these directories do not exist, you will need to create them first.</para>
 					<itemizedlist>

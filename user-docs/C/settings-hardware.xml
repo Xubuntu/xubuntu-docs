@@ -14,7 +14,7 @@
 	<title>Settings - Hardware</title>
 
 	<para>Your computer consists of a number of components and devices that collectively are known as computer hardware. This includes internal components, such as the CPU, motherboard, hard disk, graphics card, sound card, wifi adapter, and bluetooth adapter, as well as external peripheral devices, such as the monitor, mouse, keyboard, and printer.</para>
-	<para>Xubuntu configures your hardware automatically with optimal defaults, but there may be occasions when you need to make changes to these hardware settings. This section provides information on tools to configure them, which can be accessed from the <guilabel>Hardware</guilabel> category of the &settings2;, the <guilabel>Settings</guilabel> category of the &appmenu2; (Ctrl + Escape), and in the <guibutton>Application Finder</guibutton> (Alt + F3).</para>
+	<para>Xubuntu configures your hardware automatically with optimal defaults, but there may be occasions when you need to make changes to these hardware settings. This section provides information on tools to configure them, which can be accessed from the <guilabel>Hardware</guilabel> category of the &settings2;, the <guilabel>Settings</guilabel> category of the &appmenu2; (Ctrl + Escape), and in the <application>Application Finder</application> (Alt + F3).</para>
 
 	<informalfigure>
 		<screenshot>
@@ -29,7 +29,7 @@
 	<section id="personalization-hardware-monitor">
 		<title>Monitor</title>
 
-		<para>Whether you have a single screen or multiple monitors, you can easily access their customization options by opening the <guibutton>Display</guibutton> settings dialog, which is also accessible with the keyboard shortcut Super + P.</para>
+		<para>Whether you have a single screen or multiple monitors, you can easily access their customization options by opening the <application>Display</application> settings dialog, which is also accessible with the keyboard shortcut Super + P.</para>
 
 		<informalfigure>
 			<screenshot>
@@ -42,7 +42,7 @@
 		</informalfigure>
 
 		<para>On the <guilabel>General</guilabel> tab, you can change the screen’s resolution, refresh rate, rotation and reflection in the various drop-down lists. Click the <guilabel>Apply</guilabel> button to try out the changes and a confirmation dialog will appear to let you confirm or reject the changes. The previous configuration will be restored if you don’t confirm or reject the changes within 10 seconds.</para>
-		<note><para>Note: To change how fonts are rendered or set a custom DPI text size, see the options in the <guilabel>Fonts</guilabel> tab of the <guibutton>Appearance</guibutton> settings dialog. To manage monitor power saving options such as when it should enter power-save mode or how much to lower the brightness after inactivity (only applicable to laptops), see the options in the <guilabel>Display</guilabel> tab of the <guibutton>Power Manager</guibutton> settings dialog. If you are experiencing screen tearing when playing videos, you may change the vblank value of the compositor or modify the xorg config file.</para></note>
+		<note><para>Note: To change how fonts are rendered or set a custom DPI text size, see the options in the <guilabel>Fonts</guilabel> tab of the <application>Appearance</application> settings dialog. To manage monitor power saving options such as when it should enter power-save mode or how much to lower the brightness after inactivity (only applicable to laptops), see the options in the <guilabel>Display</guilabel> tab of the <application>Power Manager</application> settings dialog. If you are experiencing screen tearing when playing videos, you may change the vblank value of the compositor or modify the xorg config file.</para></note>
 
 		<section id="personalization-hardware-monitor-high-resolution">
 			<title>High Resolution</title>
@@ -51,15 +51,15 @@
 			<para>To improve the visibility of text and objects on these large resolution displays, you can make the following changes.</para>
 
 			<itemizedlist>
-				<listitem><para>Open the <guibutton>Appearance</guibutton> settings dialog, change to the <guilabel>Settings</guilabel> tab, and change <guilabel>Window Scaling</guilabel> to ‘2x’.</para></listitem>
-				<listitem><para>Open the <guibutton>Window Manager</guibutton> settings dialog and in the <guilabel>Style</guilabel> tab, change to a HiDPI theme like ‘Default-hdpi’ or ‘Default-xhdpi’.</para></listitem>
+				<listitem><para>Open the <application>Appearance</application> settings dialog, change to the <guilabel>Settings</guilabel> tab, and change <guilabel>Window Scaling</guilabel> to ‘2x’.</para></listitem>
+				<listitem><para>Open the <application>Window Manager</application> settings dialog and in the <guilabel>Style</guilabel> tab, change to a HiDPI theme like ‘Default-hdpi’ or ‘Default-xhdpi’.</para></listitem>
 			</itemizedlist>
 		</section>
 
 		<section id="personalization-hardware-monitor-multiple-monitors">
 			<title>Multiple Monitors</title>
 
-			<para>When you have an external monitor or TV screen connected to your laptop or multiple monitors and/or screens connected to your desktop, more options will become visible on the <guilabel>General</guilabel> tab of the <guibutton>Display</guibutton> settings dialog. Select the screen that you wish to change the settings of by selecting it in the preview area or changing the entry in the screen drop-down list.</para>
+			<para>When you have an external monitor or TV screen connected to your laptop or multiple monitors and/or screens connected to your desktop, more options will become visible on the <guilabel>General</guilabel> tab of the <application>Display</application> settings dialog. Select the screen that you wish to change the settings of by selecting it in the preview area or changing the entry in the screen drop-down list.</para>
 
 			<informalfigure>
 				<screenshot>
@@ -73,7 +73,7 @@
 
 			<para>One of the additional options presented in a multi-screen setup is the option to rearrange the displays in the preview area by dragging and dropping them to match how they are physically placed. Additional multi-screen options include turning off a screen, setting a monitor as the primary display, mirroring the desktop on multiple displays, or extending the desktop across both screens.</para>
 			<note><para>Note: With a screen set as the primary display, you can then configure the panels, desktop icons, and notifications to appear on that screen. Click the information icon next to the <guilabel>Primary Display</guilabel> toggle button to open the respective setting dialogs.</para></note>
-			<para>The <guilabel>Advanced</guilabel> tab provides even more multi-monitor options, including the option to save a display configuration so that it can be easily applied at a later time. When the <guilabel>Configure new displays</guilabel> when connected option is toggled, the below <guibutton>Displays</guibutton> mini dialog will appear, providing the most common display configurations, as well as any user-saved display configurations. The keyboard shortcut Super + P will open this dialog in a multi-monitor setup and clicking the ‘Advanced’ button opens the <guibutton>Display</guibutton> settings dialog.</para>
+			<para>The <guilabel>Advanced</guilabel> tab provides even more multi-monitor options, including the option to save a display configuration so that it can be easily applied at a later time. When the <guilabel>Configure new displays</guilabel> when connected option is toggled, the below <application>Displays</application> mini dialog will appear, providing the most common display configurations, as well as any user-saved display configurations. The keyboard shortcut Super + P will open this dialog in a multi-monitor setup and clicking the ‘Advanced’ button opens the <application>Display</application> settings dialog.</para>
 
 			<informalfigure>
 				<screenshot>
@@ -91,7 +91,7 @@
 		<section id="personalization-hardware-monitor-colors">
 			<title>Colors</title>
 
-			<para>For color-sensitive work, the <guibutton>Color Profiles</guibutton> settings dialog allows you to install and manage color profiles for your displays, printers, and scanners. In order for color profiles to be used, the required daemon will need to be installed and running in the background:</para>
+			<para>For color-sensitive work, the <application>Color Profiles</application> settings dialog allows you to install and manage color profiles for your displays, printers, and scanners. In order for color profiles to be used, the required daemon will need to be installed and running in the background:</para>
 
 			<itemizedlist>
 				<listitem><para><guilabel>xiccd</guilabel> (<ulink url="apt://xiccd">install</ulink>) for display profiles</para></listitem>
@@ -106,7 +106,7 @@
 	<section id="personalization-hardware-keyboard">
 		<title>Keyboard</title>
 
-		<para>During the installation of Xubuntu, options to select the keyboard’s language and layout were presented and applied. In order to make changes to these and additional keyboard options, open the <guibutton>Keyboard</guibutton> settings dialog.</para>
+		<para>During the installation of Xubuntu, options to select the keyboard’s language and layout were presented and applied. In order to make changes to these and additional keyboard options, open the <application>Keyboard</application> settings dialog.</para>
 
 		<informalfigure>
 			<screenshot>
@@ -119,13 +119,13 @@
 		</informalfigure>
 
 		<para>The <guilabel>Behavior</guilabel> tab provides options for the Num Lock key state, key repeat speed and delay, as well as text cursor blinking speed. The <guilabel>Application Shortcuts</guilabel> tab allows you to manage the keyboard shortcuts for the launching of applications. The <guilabel>Layout</guilabel> tab provides options to select the keyboard model and manage keyboard languages and layouts. With multiple keyboard layouts present, you also have the option to set a keyboard shortcut to cycle through the keyboard layouts.</para>
-		<note><para>Note: To easily determine which keyboard layout is currently active and switch between them, you can add the <guilabel>Keyboard Layouts</guilabel> plugin to the panel. For additional non-application keyboard shortcuts, see the <guilabel>Keyboard</guilabel> tab of the <guibutton>Window Manager</guibutton> settings dialog. For control over the behavior of various power related keyboard buttons, see the <guilabel>General</guilabel> tab of the <guibutton>Power Manager</guibutton> settings dialog.</para></note>
+		<note><para>Note: To easily determine which keyboard layout is currently active and switch between them, you can add the <guilabel>Keyboard Layouts</guilabel> plugin to the panel. For additional non-application keyboard shortcuts, see the <guilabel>Keyboard</guilabel> tab of the <application>Window Manager</application> settings dialog. For control over the behavior of various power related keyboard buttons, see the <guilabel>General</guilabel> tab of the <application>Power Manager</application> settings dialog.</para></note>
 	</section>
 
 	<section id="personalization-hardware-mouse">
 		<title>Mouse</title>
 
-		<para>Pointer devices like a mouse, trackpad, trackball, or graphical tablet are automatically detected and configured during startup or when plugged in. If you want to make changes to the default options and behaviour of a device, open the <guibutton>Mouse and Touchpad</guibutton> settings dialog.</para>
+		<para>Pointer devices like a mouse, trackpad, trackball, or graphical tablet are automatically detected and configured during startup or when plugged in. If you want to make changes to the default options and behaviour of a device, open the <application>Mouse and Touchpad</application> settings dialog.</para>
 
 		<informalfigure>
 			<screenshot>
@@ -145,12 +145,12 @@
 	<section id="personalization-hardware-sound">
 		<title>Sound</title>
 
-		<para>Sound in Xubuntu is processed through the PulseAudio sound server, which is capable of performing advanced operations on sound data going to and from your hardware devices. Making changes to the sound preferences can be done through the multimedia keyboard keys, the sound plugin in the notification area of the panel or the <guibutton>PulseAudio Volume Control</guibutton> settings dialog.</para>
+		<para>Sound in Xubuntu is processed through the PulseAudio sound server, which is capable of performing advanced operations on sound data going to and from your hardware devices. Making changes to the sound preferences can be done through the multimedia keyboard keys, the sound plugin in the notification area of the panel or the <application>PulseAudio Volume Control</application> settings dialog.</para>
 
 		<section id="personalization-hardware-sound-applet">
 			<title>Sound Applet</title>
 
-			<para>The panel sound plugin gives you easy access to raise, lower and mute the volume of devices, select from multiple input and/or output devices when applicable, as well as control the playback of various audio and video media players. The <guilabel>Audio mixer...</guilabel> entry at the bottom of the plugin popup window will open the <guibutton>PulseAudio Volume Control</guibutton> settings dialog. </para>
+			<para>The panel sound plugin gives you easy access to raise, lower and mute the volume of devices, select from multiple input and/or output devices when applicable, as well as control the playback of various audio and video media players. The <guilabel>Audio mixer...</guilabel> entry at the bottom of the plugin popup window will open the <application>PulseAudio Volume Control</application> settings dialog. </para>
 
 			<informalfigure>
 				<screenshot>
@@ -168,7 +168,7 @@
 		<section id="personalization-hardware-sound-dialog">
 			<title>Sound Dialog</title>
 
-			<para>The <guibutton>PulseAudio Volume Control</guibutton> settings dialog, which is found in the <guilabel>Multimedia</guilabel> category of the &appmenu;, has various tabs to view and configure sound settings.</para>
+			<para>The <application>PulseAudio Volume Control</application> settings dialog, which is found in the <guilabel>Multimedia</guilabel> category of the &appmenu;, has various tabs to view and configure sound settings.</para>
 
 			<informalfigure>
 				<screenshot>
@@ -187,7 +187,7 @@
 				<listitem><para>Input Devices - Lists audio input devices and allows the adjustment of their input source, volume, and latency.</para></listitem>
 			</itemizedlist>
 
-			<note><para>Note: To enable system sounds, open the <guibutton>Appearance</guibutton> settings dialog, change to the <guilabel>Settings</guilabel> tab and enable ‘Enable event sounds’. Install one of the sound themes, such as FreeDesktop (<ulink url="apt://sound-theme-freedesktop">install</ulink>), Yaru (<ulink url="apt://yaru-theme-sound">install</ulink>) or Pop (<ulink url="apt://pop-sound-theme">install</ulink>). If you use a sound theme other than FreeDesktop, open <guibutton>Settings Editor</guibutton>, change to <guilabel>xsettings</guilabel> in the left side pane, and under the <guilabel>Net</guilabel> category, edit the <guilabel>SoundThemeName</guilabel> value to the name of the sound theme.</para></note>
+			<note><para>Note: To enable system sounds, open the <application>Appearance</application> settings dialog, change to the <guilabel>Settings</guilabel> tab and enable ‘Enable event sounds’. Install one of the sound themes, such as FreeDesktop (<ulink url="apt://sound-theme-freedesktop">install</ulink>), Yaru (<ulink url="apt://yaru-theme-sound">install</ulink>) or Pop (<ulink url="apt://pop-sound-theme">install</ulink>). If you use a sound theme other than FreeDesktop, open <application>Settings Editor</application>, change to <guilabel>xsettings</guilabel> in the left side pane, and under the <guilabel>Net</guilabel> category, edit the <guilabel>SoundThemeName</guilabel> value to the name of the sound theme.</para></note>
 		</section>
 	</section>
 
@@ -200,7 +200,7 @@
 		<section id="personalization-hardware-device-drivers-open-source">
 			<title>Open Source Drivers</title>
 
-			<para>Xubuntu is a Linux distribution and the foundational part of the operating system is the Linux kernel. The Linux kernel contains thousands of device drivers and the majority of them are open source, which allows kernel developers to modify them. To update these open source drivers, you only need to update the Linux kernel, which is one of the components updated through the <guibutton>Software Updater</guibutton>.</para>
+			<para>Xubuntu is a Linux distribution and the foundational part of the operating system is the Linux kernel. The Linux kernel contains thousands of device drivers and the majority of them are open source, which allows kernel developers to modify them. To update these open source drivers, you only need to update the Linux kernel, which is one of the components updated through the <application>Software Updater</application>.</para>
 			<para>When hardware manufacturers do not release sufficient technical details for their hardware, it is not possible to create a complete open source driver, so the hardware may not have an open source driver or will have an open source driver with limited functionality. Some open source drivers are reverse-engineered to provide an alternative to the hardware manufacturer’s proprietary driver, but these will not be as feature complete.</para>
 		</section>
 
@@ -223,7 +223,7 @@
 		<section id="personalization-hardware-device-drivers-managing-proprietary">
 			<title>Managing Proprietary Drivers</title>
 
-			<para>To view and manage which proprietary devices are used on your system, you can open <guibutton>Additional Drivers</guibutton>, which will open the <guibutton>Software &amp; Updates</guibutton> settings dialog to the <guilabel>Additional Drivers</guilabel> tab.</para>
+			<para>To view and manage which proprietary devices are used on your system, you can open <application>Additional Drivers</application>, which will open the <application>Software &amp; Updates</application> settings dialog to the <guilabel>Additional Drivers</guilabel> tab.</para>
 
 			<informalfigure>
 				<screenshot>
