@@ -106,12 +106,11 @@
 	<!-- TODO: Laptops -->
 	<!-- TODO: Media Applications -->
 	<!-- TODO: Migrating -->
-	<!-- TODO: Troubleshooting -->
+	<xi:include href="troubleshooting.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<!-- TODO: Upgrading -->
 
 	<!-- Obsolete? -->
 	<xi:include href="migrating-upgrading.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="internet-networks.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="offline-packages.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="guide-keeping-safe.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="hardware-devices.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
