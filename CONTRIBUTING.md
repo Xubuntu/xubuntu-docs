@@ -38,12 +38,12 @@ git checkout docs-refresh
 - [x] [Chapter 8. Settings - Connectivity](https://docs.google.com/document/d/1XbPCwmv3r1R_HdJ99ORqgqY-2f8dhpaUrpGYOH_-gsU/edit?usp=sharing) (100%, `user-docs/C/settings-connectivity.xml`)
 - [x] [Chapter 9. Printing and Scanning](https://docs.google.com/document/d/1Tkei3fxi3UtpsY2QE5ubBv46s8Q3im3PjLTy-pwx6-I/edit?usp=sharing) (100%, `user-docs/C/printing-scanning.xml`)
 - [x] [Chapter 10. User Management](https://docs.google.com/document/d/1zySTkXoxPJPvVR7DpTwCCmSZ8k0izkAPUyzh1cbDBUw/edit?usp=sharing) (100%, `user-docs/C/user-management.xml`)
-- [ ] [Chapter X. Disks](https://docs.google.com/document/d/1J0JmtGaCmNJJzGmIdDu2eYWkoyXHQkoaKG7ThJovp7s/edit?usp=sharing) (Incomplete, ~0%~)
-- [ ] [Chapter X. File Management](https://docs.google.com/document/d/1qY7MJDguvPCzV-BMa9P9ZFSEPneq4nZ6AhgN-Zz5UNA/edit?usp=sharing) (Incomplete, ~0%~)
-- [ ] [Chapter X. Laptops](https://docs.google.com/document/d/1XWe8GApyy3Y-GahLEp9VKJV0Ahf9LXf10YuNNpxEmYk/edit?usp=sharing) (Incomplete, ~0%~)
-- [ ] [Chapter X. Media Applications](https://docs.google.com/document/d/11AEaV1uqNoZCAb7elvMMl-uMt_5_wAtsfORhkLj0nmw/edit?usp=sharing) (Incomplete, ~0%~)
-- [ ] [Chapter X. Migrating](https://docs.google.com/document/d/1SifZ1BDchAOatt43zh8mjwV285ucuKwdfEfWXKZQgPc/edit?usp=sharing) (Incomplete, ~0%~)
-- [ ] [Chapter X. Troubleshooting](https://docs.google.com/document/d/1KsbAaCqHHpb9Yl4lx9vZAtgYYATXgblMfAO_9I5_j8Q/edit?usp=sharing) (Incomplete, ~0%~)
+- [ ] [Chapter 11. Disks](https://docs.google.com/document/d/1J0JmtGaCmNJJzGmIdDu2eYWkoyXHQkoaKG7ThJovp7s/edit?usp=sharing) (Incomplete, ~0%~)
+- [ ] [Chapter 12. File Management](https://docs.google.com/document/d/1qY7MJDguvPCzV-BMa9P9ZFSEPneq4nZ6AhgN-Zz5UNA/edit?usp=sharing) (Incomplete, ~0%~)
+- [ ] [Chapter 13. Laptops](https://docs.google.com/document/d/1XWe8GApyy3Y-GahLEp9VKJV0Ahf9LXf10YuNNpxEmYk/edit?usp=sharing) (Incomplete, ~0%~)
+- [ ] [Chapter 14. Media Applications](https://docs.google.com/document/d/11AEaV1uqNoZCAb7elvMMl-uMt_5_wAtsfORhkLj0nmw/edit?usp=sharing) (Incomplete, ~0%~)
+- [ ] [Chapter 15. Migrating](https://docs.google.com/document/d/1SifZ1BDchAOatt43zh8mjwV285ucuKwdfEfWXKZQgPc/edit?usp=sharing) (Incomplete, ~0%~)
+- [x] [Chapter 16. Troubleshooting](https://docs.google.com/document/d/1KsbAaCqHHpb9Yl4lx9vZAtgYYATXgblMfAO_9I5_j8Q/edit?usp=sharing) (100%, `user-docs/C/troubleshooting.xml`)
 - [ ] [Chapter X. Upgrading](https://docs.google.com/document/d/1hR7tcqXLHZoXv8znGG05ioiFPRrAO6kAtyyeFkYcuoc/edit?usp=sharing) (Incomplete, ~0%~)
 
 ## Running Tests
