@@ -78,7 +78,7 @@
 
 		<para>Some application authors may provide a third-party repository, known as a PPA (Personal Package Archive), which can be added to your system. Other application authors may provide their software in the form of an installable Flatpak or as an AppImage, which runs without installation.</para>
 
-		<note><para>Only download third-party apps from trusted sources in order to limit the risk of getting malware, junkware, or ransomware. If you’d like to install Windows applications, please see <xref linkend="migrating-upgrading" />.</para></note>
+		<note><para>Only download third-party apps from trusted sources in order to limit the risk of getting malware, junkware, or ransomware. If you’d like to install Windows applications, please see <xref linkend="migrating" />.</para></note>
 	</section>
 
 	<section id="software-updates">
@@ -119,7 +119,7 @@
 				</screenshot>
 			</informalfigure>
 
-			<note><para>Software Updater will also notify you when a new version of Xubuntu is available. Learn more in the <xref linkend="migrating-upgrading" />.</para></note>
+			<note><para>Software Updater will also notify you when a new version of Xubuntu is available. Learn more in the <xref linkend="upgrading" />.</para></note>
 		</section>
 	</section>
 </chapter>
