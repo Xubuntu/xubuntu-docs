@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
 	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
 <!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
 %xubuntu-common;
@@ -22,7 +22,7 @@
 			<para>The contributors to this documentation are:</para>
 			<itemizedlist>
 				<listitem><para>Chris Crenshaw</para></listitem>
-				<listitem><para>Lefteris Pavlou</para></listitem> 
+				<listitem><para>Lefteris Pavlou</para></listitem>
 				<listitem><para>Pasi Lallinaho (knome)</para></listitem>
 				<listitem><para>Sean Davis (bluesabre)</para></listitem>
 				<listitem><para>Stephen Michael Kellat (skellat)</para></listitem>
@@ -41,10 +41,10 @@
 			<itemizedlist>
 				<listitem><para>Cody A.W. Somerville (cody-somerville)</para></listitem>
 				<listitem><para>David Pires (slickymaster)</para></listitem>
-				<listitem><para>Elfy (elfy)</para></listitem> 
+				<listitem><para>Elfy (elfy)</para></listitem>
 				<listitem><para>Elizabeth Krumbach (lyz)</para></listitem>
 				<listitem><para>Freddy Martinez (freddymartinez9)</para></listitem>
-				<listitem><para>Jack Fromm (jjfrv8)</para></listitem> 
+				<listitem><para>Jack Fromm (jjfrv8)</para></listitem>
 				<listitem><para>Jan M. (fijam7)</para></listitem>
 				<listitem><para>Jay van Cooten (skippersboss)</para></listitem>
 				<listitem><para>Jim Campbell (jwcampbell)</para></listitem>
@@ -93,20 +93,30 @@
 	<xi:include href="what-is-xubuntu.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="installation.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="introduction.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="migrating-upgrading.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="settings-preferences.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="guide-default-apps.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="software-management.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="settings-personalization.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="settings-hardware.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="settings-connectivity.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="printing-scanning.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="guide-default-apps.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="user-management.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+	<!-- TODO: Disks -->
+	<!-- TODO: File Management -->
+	<!-- TODO: Laptops -->
+	<!-- TODO: Media Applications -->
+	<!-- TODO: Migrating -->
+	<!-- TODO: Troubleshooting -->
+	<!-- TODO: Upgrading -->
+
+	<!-- Obsolete? -->
+	<xi:include href="migrating-upgrading.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="internet-networks.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="software-management.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="offline-packages.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="guide-keeping-safe.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="hardware-devices.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="administrative-tasks.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="command-line.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
 	<!-- Appendix -->
 	<xi:include href="appendix-packages.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="../../libs-common/cc-by-sa.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
