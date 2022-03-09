@@ -42,9 +42,9 @@ git checkout docs-refresh
 - [ ] [Chapter 12. File Management](https://docs.google.com/document/d/1qY7MJDguvPCzV-BMa9P9ZFSEPneq4nZ6AhgN-Zz5UNA/edit?usp=sharing) (Incomplete, ~0%~)
 - [ ] [Chapter 13. Laptops](https://docs.google.com/document/d/1XWe8GApyy3Y-GahLEp9VKJV0Ahf9LXf10YuNNpxEmYk/edit?usp=sharing) (Incomplete, ~0%~)
 - [ ] [Chapter 14. Media Applications](https://docs.google.com/document/d/11AEaV1uqNoZCAb7elvMMl-uMt_5_wAtsfORhkLj0nmw/edit?usp=sharing) (Incomplete, ~0%~)
-- [ ] [Chapter 15. Migrating](https://docs.google.com/document/d/1SifZ1BDchAOatt43zh8mjwV285ucuKwdfEfWXKZQgPc/edit?usp=sharing) (Incomplete, ~0%~)
+- [x] [Chapter 15. Migrating](https://docs.google.com/document/d/1SifZ1BDchAOatt43zh8mjwV285ucuKwdfEfWXKZQgPc/edit?usp=sharing) (100%, `user-docs/C/migrating.xml`)
 - [x] [Chapter 16. Troubleshooting](https://docs.google.com/document/d/1KsbAaCqHHpb9Yl4lx9vZAtgYYATXgblMfAO_9I5_j8Q/edit?usp=sharing) (100%, `user-docs/C/troubleshooting.xml`)
-- [ ] [Chapter X. Upgrading](https://docs.google.com/document/d/1hR7tcqXLHZoXv8znGG05ioiFPRrAO6kAtyyeFkYcuoc/edit?usp=sharing) (Incomplete, ~0%~)
+- [x] [Chapter 17. Upgrading](https://docs.google.com/document/d/1hR7tcqXLHZoXv8znGG05ioiFPRrAO6kAtyyeFkYcuoc/edit?usp=sharing) (100%, `user-docs/C/upgrading.xml`)
 
 ## Running Tests
 On each commit, GitHub will run a series of tests as found in [test-translations.yml](https://github.com/Xubuntu/xubuntu-docs/blob/docs-refresh/.github/workflows/test-translations.yml). If you want to run these tests yourself without committing (please do), do the following.

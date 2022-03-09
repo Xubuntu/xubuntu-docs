@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
+%xubuntu-common;
+<!ENTITY % xubuntu-user SYSTEM "../libs/xubuntu-user.ent">
+%xubuntu-user;
+<!ENTITY % xinclude SYSTEM "../../libs-common/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+<chapter id="migrating">
+	<title>Migrating</title>
+
+	<section id="migrating-from-windows">
+		<title>Migrating from Windows</title>
+
+		<section id="windows-linux-dictionary">
+			<title>A quick Windows-Xubuntu dictionary</title>
+			<segmentedlist>
+				<?dbhtml list-presentation="table"?>
+				<segtitle>Windows</segtitle><segtitle>Xubuntu</segtitle>
+				<seglistitem><seg>Add/Remove Programs</seg><seg>&gnome-software;</seg></seglistitem>
+				<seglistitem><seg>Control Panel</seg><seg>&wm-settings-manager; for personal preferences <?br?> &system-menu; for additional configuration</seg></seglistitem>
+				<seglistitem><seg>Windows Explorer</seg><seg>&file-manager;</seg></seglistitem>
+				<seglistitem><seg>My Documents</seg><seg>&location_home;</seg></seglistitem>
+			</segmentedlist>
+		</section>
+
+		<section id="windows-applications">
+			<title>Windows applications on Linux</title>
+			<para>It is possible to run Windows applications under Xubuntu. Three popular choices are:</para>
+			<itemizedlist>
+				<listitem><para><ulink url="&wine-web;">Wine</ulink> (<ulink url="apt://wine">install</ulink>), the Windows emulator. Wine allows running Windows applications without having to install a Windows operating system. Refer to the <ulink url="&wine-appdb;">Wine AppDB</ulink> to find out which applications will run on Wine and the <ulink url="&wine-docs;">Wine documentation</ulink> for FAQ's and user support.</para></listitem>
+				<listitem><para><ulink url="&play-on-linux-web;">PlayOnLinux</ulink> is an easy to use frontend for Wine, which makes it easy to install popular Windows applications.</para></listitem>
+				<listitem><para><ulink url="&vbox-web;">VirtualBox</ulink>, virtualization software. You can install a Windows operating system along with any application into a virtual machine managed by VirtualBox. Note that 3D support on VirtualBox is still quite unreliable. To read more about VirtualBox and virtualization, refer to the <ulink url="&vbox-docs;">VirtualBox end-user documentation</ulink>.</para></listitem>
+			</itemizedlist>
+
+			<tip><para>Both Wine and VirtualBox are available in the software repositories.</para></tip>
+		</section>
+
+		<section id="windows-networking">
+			<title>Windows networking on Linux</title>
+
+			<para>Accessing Windows network shares under Xubuntu can be easily done using:</para>
+			<itemizedlist>
+				<listitem><para>&file-manager;, where you can browse publicly visible shares by clicking on the <guilabel>Network</guilabel> item in the sidebar. Alternatively, you can browse a remote file system by going to <menuchoice><guimenu>Go</guimenu><guimenuitem>Open Location...</guimenuitem></menuchoice> and entering <userinput>smb://computername/sharename</userinput>.</para></listitem>
+				<listitem><para>&gigolo;, which allows you to save bookmarks and manage remote file systems. To connect, click the first toolbar button. Select <guilabel>Windows Share</guilabel> from <guilabel>Service Type</guilabel>, then enter the remote share's details.</para></listitem>
+			</itemizedlist>
+
+			<para>If some options are not available or do not work, ensure that the <literal>&package;gvfs-backends</literal> is installed.</para>
+		</section>
+	</section>
+
+</chapter>

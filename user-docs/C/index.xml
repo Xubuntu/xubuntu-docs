@@ -105,12 +105,11 @@
 	<!-- TODO: File Management -->
 	<!-- TODO: Laptops -->
 	<!-- TODO: Media Applications -->
-	<!-- TODO: Migrating -->
+	<xi:include href="migrating.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="troubleshooting.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<!-- TODO: Upgrading -->
+	<xi:include href="upgrading.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
 	<!-- Obsolete? -->
-	<xi:include href="migrating-upgrading.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="offline-packages.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="guide-keeping-safe.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="hardware-devices.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
