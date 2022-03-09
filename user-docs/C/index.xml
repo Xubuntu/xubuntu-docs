@@ -101,19 +101,13 @@
 	<xi:include href="printing-scanning.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="user-management.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-	<!-- TODO: Disks -->
+	<xi:include href="hardware-devices.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<!-- TODO: File Management -->
-	<!-- TODO: Laptops -->
 	<!-- TODO: Media Applications -->
+
 	<xi:include href="migrating.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="troubleshooting.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="upgrading.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-
-	<!-- Obsolete? -->
-	<xi:include href="offline-packages.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="guide-keeping-safe.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="hardware-devices.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="command-line.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
 	<!-- Appendix -->
 	<xi:include href="appendix-packages.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
