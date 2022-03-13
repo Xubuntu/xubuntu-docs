@@ -3,13 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Luku 16. Ylläpidolliset toimet</title>
+    <title>Luku 10. User Management</title>
     <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
     <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
     <link rel="home" href="index.html" title="Xubuntun dokumentaatio" />
     <link rel="up" href="index.html" title="Xubuntun dokumentaatio" />
-    <link rel="prev" href="hardware-devices.html" title="Luku 15. Laitteisto" />
-    <link rel="next" href="command-line.html" title="Luku 17. Komentokehote" />
+    <link rel="prev" href="printing-scanning.html" title="Luku 9. Tulostaminen ja skannaaminen" />
+    <link rel="next" href="hardware-devices.html" title="Luku 11. Laitteisto" />
     <link rel="copyright" href="credits-license.html" title="Tekijänoikeudet ja lisenssi" />
     <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
     <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
@@ -26,7 +26,7 @@
       <div class="titlepage">
         <div>
           <div>
-            <h1 class="title"><a id="administrative-tasks"></a>Luku 16. Ylläpidolliset toimet</h1>
+            <h1 class="title"><a id="administrative-tasks"></a>Luku 10. User Management</h1>
           </div>
         </div>
       </div>
@@ -40,11 +40,16 @@
               <a href="administrative-tasks.html#users-groups">Käyttäjät ja ryhmät</a>
             </span>
           </dt>
+          <dt>
+            <span class="section">
+              <a href="administrative-tasks.html#personal-info">Henkilökohtaiset tiedot</a>
+            </span>
+          </dt>
         </dl>
       </div>
-      <p>Turvallisuussyistä Xubuntussa vain käyttäjät joilla on erityiset ylläpitäjän oikeudet voivat suorittaa ylläpidollisia toimenpiteitä. Asennuksessa luotu ensimmäinen käyttäjä on oletuksena kykenevä suorittamaan ylläpidollisia toimenpiteitä.</p>
-      <p>Kun suoritat sovelluksen joka vaatii ylläpitäjän oikeuksia sinun pyydetään syöttämään salasanasi. Tämä auttaa suojaamaan järjestelmääsi vahingollisilta tiedostoilta sekä vähentää mahdollisuuksia että valitset vahingossa asetuksia jotka voivat muuttaa tapaa jolla järjestelmäsi toimii.</p>
-      <p>Joka kerta kun syötät salasanasi järjestelmä muistaa sen 15 minuutin ajan jotta sinun ei tarvitse syöttää sitä uudelleen.</p>
+      <p>For security reasons, administrative tasks in Xubuntu can only be performed by users with special privileges. The first user account created during installation will, by default, be able to perform administrative tasks.</p>
+      <p>When you run an application that requires administrative privileges, you will be asked to enter your password. This helps protect your system from malicious activity and lessens the chance that you will accidentally change the way your system works.</p>
+      <p>Each time you type your password in a terminal session, it will be remembered for 15 minutes, so that you do not have to type it again.</p>
       <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
         <table border="0" summary="Note">
           <tr>
@@ -68,7 +73,7 @@
             </div>
           </div>
         </div>
-        <p>Kun Xubuntu on asennettu, se on valmisteltu yhden käyttäjän käyttöön. Jos useampi kuin yksi henkilö käyttää tietokonetta, on parasta luoda jokaiselle käyttäjälle oma käyttäjätunnus. Tämän ansiosta jokaisella käyttäjällä voi olla henkilökohtaiset asetukset, tiedostot ja käyttöoikeudet.</p>
+        <p>When Xubuntu is installed, only one user account is created. If multiple users use the computer, it is highly encouraged to create separate user accounts for everyone. This allows users to have their individual settings, files and access rights.</p>
         <p>To modify the users or groups on your system, navigate to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Users and Groups</span></strong></span>.</p>
         <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
           <table border="0" summary="Note">
@@ -137,7 +142,7 @@
               </tr>
               <tr>
                 <td align="left" valign="top">
-                  <p>Yksityiskohtaisempaa pääsynhallintaa varten napsauta <span class="guibutton"><strong>Lisäasetukset</strong></span>-painiketta <em class="guilabel">Käyttäjien asetukset</em> -ikkunasta, syötä salasanasi, napsauta <em class="guilabel">Käyttäjän oikeudet</em> -välilehteä ja sitten valitse tai poista valinnat halutuilta oikeuksilta.</p>
+                  <p>For more fine-grained access control, click the <span class="guibutton"><strong>Advanced Settings</strong></span> button in the <em class="guilabel">User Settings</em> dialog, enter your password, click the <em class="guilabel">User Privileges</em> tab and from there select or deselect the desired options.</p>
                 </td>
               </tr>
             </table>
@@ -178,23 +183,67 @@
           <p>To remove a group from the system, click on the <span class="guibutton"><strong>Manage Groups</strong></span> button, select the group you want to delete and click the <span class="guibutton"><strong>Delete</strong></span> button.</p>
         </div>
       </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="personal-info"></a>Henkilökohtaiset tiedot</h2>
+            </div>
+          </div>
+        </div>
+        <p><span class="application"><strong>Mugshot</strong></span> on kevyt työkalu henkilökohtaisten tietojen hallintaan, jolla voit helposti vaihtaa käyttäjätunnuksesi ja kaikkien tuettujen sovellusten profiilikuvaa ja tietoja.</p>
+        <p>To launch <span class="application"><strong>Mugshot</strong></span> navigate to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">About Me</span></strong></span>.</p>
+        <p>Vaihtaaksesi profiilikuvaasi, napsauta kuvapainiketta ikkunan vasemmassa laidassa, valitse jokin annetuista vaihtoehdoista ja seuraa ohjeita.</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Huomaa]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Mugshot requires the installation of <code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span>gstreamer1.0-tools</code> package to use the <em class="guilabel">Capture from camera...</em> feature.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p>Täytä tekstikentät asianmukaisilla tiedoilla ja napsauta <span class="guibutton"><strong>Toteuta</strong></span>. Kun toteutat muutokset <span class="application"><strong>Pidgin</strong></span> ja/tai LibreOffice asennettuina, sinulta kysytään haluatko päivittää myös niiden asetukset.</p>
+        <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Warning">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Varoitus]" src="../../libs-common/images/warning.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Mikäli <em class="guilabel">Etunimi</em> ja <em class="guilabel">Sukunimi</em> -kentät poikkeavat nykyisistä tiedoista tiedostossa <strong class="userinput"><code>/etc/passwd</code></strong>, sinun pyydetään syöttämään salasanasi tietoturvan takia ja jotta henkilökohtaisiin ei-toivotut muutokset henkilökohtaisiin tietoihisi voitaisiin välttää.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p>Read more at the <a class="ulink" href="https://wiki.bluesabre.org/doku.php?id=mugshot-docs" target="_top">Mugshot</a> official documentation.</p>
+      </div>
     </div>
     <div class="navfooter">
       <hr />
       <table width="100%" summary="Navigation footer">
         <tr>
-          <td width="40%" align="left"><a accesskey="p" href="hardware-devices.html"><img src="../../libs-common/images/prev.png" alt="Edellinen" /></a> </td>
+          <td width="40%" align="left"><a accesskey="p" href="printing-scanning.html"><img src="../../libs-common/images/prev.png" alt="Edellinen" /></a> </td>
           <td width="20%" align="center"> </td>
-          <td width="40%" align="right"> <a accesskey="n" href="command-line.html"><img src="../../libs-common/images/next.png" alt="Seuraava" /></a></td>
+          <td width="40%" align="right"> <a accesskey="n" href="hardware-devices.html"><img src="../../libs-common/images/next.png" alt="Seuraava" /></a></td>
         </tr>
         <tr>
-          <td width="40%" align="left" valign="top">Luku 15. Laitteisto </td>
+          <td width="40%" align="left" valign="top">Luku 9. Tulostaminen ja skannaaminen </td>
           <td width="20%" align="center">
             <a accesskey="h" href="index.html">
               <img src="../../libs-common/images/home.png" alt="Alkuun" />
             </a>
           </td>
-          <td width="40%" align="right" valign="top"> Luku 17. Komentokehote</td>
+          <td width="40%" align="right" valign="top"> Luku 11. Laitteisto</td>
         </tr>
       </table>
     </div>

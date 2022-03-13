@@ -3,13 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Глава 11. Подключение к Интернету и локальным сетям</title>
+    <title>Глава 13. Troubleshooting</title>
     <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
     <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
     <link rel="home" href="index.html" title="Документация Xubuntu" />
     <link rel="up" href="index.html" title="Документация Xubuntu" />
-    <link rel="prev" href="guide-default-apps.html" title="Глава 10. Default Applications" />
-    <link rel="next" href="software-management.html" title="Глава 12. Software Management" />
+    <link rel="prev" href="migrating.html" title="Глава 12. Migrating" />
+    <link rel="next" href="upgrading.html" title="Глава 14. Upgrading" />
     <link rel="copyright" href="credits-license.html" title="Благодарности и лицензия" />
     <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
     <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
@@ -26,7 +26,7 @@
       <div class="titlepage">
         <div>
           <div>
-            <h1 class="title"><a id="internet-networks"></a>Глава 11. Подключение к Интернету и локальным сетям</h1>
+            <h1 class="title"><a id="internet-networks"></a>Глава 13. Troubleshooting</h1>
           </div>
         </div>
       </div>
@@ -37,113 +37,10 @@
         <dl class="toc">
           <dt>
             <span class="section">
-              <a href="internet-networks.html#network-connections">Сетевые соединения</a>
-            </span>
-          </dt>
-          <dt>
-            <span class="section">
               <a href="internet-networks.html#network-troubleshooting">Решение проблем с сетевыми соединениями</a>
             </span>
           </dt>
-          <dt>
-            <span class="section">
-              <a href="internet-networks.html#connecting-servers">Подключение к серверам</a>
-            </span>
-          </dt>
         </dl>
-      </div>
-      <p>Xubuntu использует <span class="application"><strong>Диспетчер сети</strong></span> (NetworkManager) для управления проводными, беспроводными, мобильными соединениями, а также VPN и DSL-соединениями. <span class="application"><strong>Диспетчер сети</strong></span> также обеспечивает безопасное хранение пароля для соединения, используя связку ключей пользователя для хранения парольных фраз.</p>
-      <p><span class="application"><strong>Диспетчер сети</strong></span> — это один из небольших значков на верхней панели (в правом верхнем углу экрана). Если компьютер не подключён к сети, значок имеет вид двух серых стрелок, направленных вверх и вниз. При подключении значок может меняет вид в зависимости от используемого типа сетевого подключения.</p>
-      <div class="section">
-        <div class="titlepage">
-          <div>
-            <div>
-              <h2 class="title" style="clear: both"><a id="network-connections"></a>Сетевые соединения</h2>
-            </div>
-          </div>
-        </div>
-        <div class="section">
-          <div class="titlepage">
-            <div>
-              <div>
-                <h3 class="title"><a id="network-connect-disconnect"></a>Подключение и отключение</h3>
-              </div>
-            </div>
-          </div>
-          <p><span class="application"><strong>Диспетчер сети</strong></span> автоматически использует проводную сеть, если она доступна.</p>
-          <p>Чтобы увидеть все доступные соединения, щёлкните значок <span class="application"><strong>Диспетчера сети</strong></span>. Для подключения к сети щёлкните на её названии.</p>
-          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-            <table border="0" summary="Note">
-              <tr>
-                <td rowspan="2" align="center" valign="top" width="25">
-                  <img alt="[Примечание]" src="../../libs-common/images/note.png" />
-                </td>
-                <th align="left"></th>
-              </tr>
-              <tr>
-                <td align="left" valign="top">
-                  <p>При подключении к беспроводной сети в первый раз может понадобиться указать некоторые сведения о защите сети: при необходимости откроется диалоговое окно. В большинстве случаев тип защиты определяется автоматически. Если нет, выберите тип защиты из выпадающего списка <em class="guilabel">Защита Wi-Fi</em>, введите аутентификационные данные и нажмите <span class="guibutton"><strong>Подключить</strong></span>.</p>
-                </td>
-              </tr>
-            </table>
-          </div>
-          <p>Для того, чтобы отключиться от сети, щелкните на значке приложения <span class="application"><strong>NetworkManager</strong></span> и выберите пункт <em class="guilabel">Отключиться</em> под соответствующим типом соединения. Для того, чтобы отключить (и переподключить) проводные и/или беспроводные соединения, щелкните на значке приложения <span class="application"><strong>NetworkManager</strong></span>, выберите соответственно пункты <span class="guimenuitem">Включить проводную сеть</span> и <span class="guimenuitem">Включить Wi-Fi</span>. Они являются переключателями. Их статус включено/выключено отображается наличием/отсутствием галочки.</p>
-        </div>
-        <div class="section">
-          <div class="titlepage">
-            <div>
-              <div>
-                <h3 class="title"><a id="network-configure"></a>Настройка соединений</h3>
-              </div>
-            </div>
-          </div>
-          <p>При необходимости настройки параметров сетевых соединений щёлкните на значке <span class="application"><strong>Диспетчера сети</strong></span> и выберите <span class="guimenuitem">Изменить соединения</span>. В появившемся диалоговом окне вы увидите сгруппированный по типам список соединений. Выберите нужную сеть и нажмите <span class="guibutton"><strong>Изменить</strong></span> или нажмите <span class="guibutton"><strong>Добавить</strong></span> для настройки новой сети.</p>
-          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-            <table border="0" summary="Note">
-              <tr>
-                <td rowspan="2" align="center" valign="top" width="25">
-                  <img alt="[Примечание]" src="../../libs-common/images/note.png" />
-                </td>
-                <th align="left"></th>
-              </tr>
-              <tr>
-                <td align="left" valign="top">
-                  <p>Для настройки подключения к некоторым сетям вам могут понадобиться сведения о соединении, которые можно получить у администратора вашей сети или провайдера Интернета.</p>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </div>
-        <div class="section">
-          <div class="titlepage">
-            <div>
-              <div>
-                <h3 class="title"><a id="network-information"></a>Информация о соединении</h3>
-              </div>
-            </div>
-          </div>
-          <p>Чтобы увидеть информацию о соединении, щёлкните на значке <span class="application"><strong>Диспетчера сети</strong></span> и выберите <span class="guimenuitem">Сведения о соединении</span>. Сведения об активных соединениях будут отображены в диалоговом окне <em class="guilabel">Активные сетевые соединения</em>, о каждом в отдельной вкладке.</p>
-        </div>
-        <div class="section">
-          <div class="titlepage">
-            <div>
-              <div>
-                <h3 class="title"><a id="network-sharing"></a>Предоставление другому компьютеру доступа к вашему соединению</h3>
-              </div>
-            </div>
-          </div>
-          <p>Вы можете предоставить общий доступ к Вашему подключению другому компьютеру, используя Ethernet кабель. Это может быть выполнено посредством щелчка мыши по значку <span class="application"><strong>NetworkManager</strong></span>, выбора пункта <span class="guimenuitem">Редактировать</span>, и добавления нового беспроводного соединения (или редактирования существующего). В окне свойств соединения, выберите <em class="guilabel">Настройки IPv4</em>, и измените <em class="guilabel">Способ</em> на <em class="guilabel">Доступен другим компьютерам</em> из выпадающего списка.</p>
-        </div>
-        <div class="section">
-          <div class="titlepage">
-            <div>
-              <div>
-                <h3 class="title"><a id="network-modems"></a>Коммутируемые подключения</h3>
-              </div>
-            </div>
-          </div>
-          <p>К сожалению <span class="application"><strong>Диспетчер сети</strong></span> не поддерживает коммутируемые соединения. Чтобы узнать больше о подключении через модемы для коммутируемых линий, обратитесь к разделу <a class="ulink" href="https://help.ubuntu.com/community/DialupModemHowto" target="_top">Dialup modem How-to</a> на вики-сайте сообщества Ubuntu.</p>
-        </div>
       </div>
       <div class="section">
         <div class="titlepage">
@@ -405,62 +302,8 @@
             </div>
             <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>nmcli device show</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.  Look for the entries under <code class="literal">IP4.DNS</code></p>
             <p>To check if the listed DNS works, open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>dig xubuntu.org</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.  If you see the word <code class="literal">NOERROR</code> in the header section of the output, your DNS is working.</p>
-            <p>Если параметры DNS не отображаются, свяжитесь со своим интернет-провайдером и узнайте адреса первичного и вторичного сервера доменных имён. Получив эту информацию, перейдите при необходимости к разделам <a class="xref" href="internet-networks.html#network-connect-disconnect">Подключение и отключение</a> и <a class="xref" href="internet-networks.html#network-configure">Настройка соединений</a>.</p>
+            <p>If there are no DNS settings listed, contact your Internet Service Provider (ISP), and find out your primary and secondary domain name servers.</p>
           </div>
-        </div>
-      </div>
-      <div class="section">
-        <div class="titlepage">
-          <div>
-            <div>
-              <h2 class="title" style="clear: both"><a id="connecting-servers"></a>Подключение к серверам</h2>
-            </div>
-          </div>
-        </div>
-        <p>To connect to various types of servers, you can use <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">System</span> → <span class="guimenuitem">Gigolo</span></strong></span>. To connect to a server, follow the steps below:</p>
-        <div class="itemizedlist">
-          <ul class="itemizedlist" style="list-style-type: disc; ">
-            <li class="listitem">
-              <p>Выберите в меню <span class="guimenu">Действия</span> → <span class="guimenuitem">Подключиться</span></p>
-            </li>
-            <li class="listitem">
-              <p>Выберите подходящий <em class="guilabel">Тип службы</em> и введите информацию для соединения</p>
-            </li>
-            <li class="listitem">
-              <p>Нажмите <span class="guibutton"><strong>Подключиться</strong></span>. Если вы пытаетесь подключиться к серверу, требующему аутентификации, вам будет предложено ввести пароль</p>
-            </li>
-          </ul>
-        </div>
-        <p>После успешного соединения с сервером значок соединения появится в окне <span class="application"><strong>Gigolo</strong></span>. Чтобы добавить соединение в закладки, щёлкните на нём правой кнопкой и выберите <span class="guimenuitem">Создать закладку</span>. В диалоговом окне <em class="guilabel">Закладки</em> можно дать закладке имя и настроить некоторые другие параметры, включая автоматическое подключение. Когда закончите, нажмите <span class="guibutton"><strong>OK</strong></span>, чтобы завершить создание закладки.</p>
-        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
-          <table border="0" summary="Tip">
-            <tr>
-              <td rowspan="2" align="center" valign="top" width="25">
-                <img alt="[Подсказка]" src="../../libs-common/images/tip.png" />
-              </td>
-              <th align="left"></th>
-            </tr>
-            <tr>
-              <td align="left" valign="top">
-                <p>Имя пользователя для сетевого ресурса Windows должно быть в формате <code class="literal">ДОМЕН\имя_пользователя</code></p>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-          <table border="0" summary="Note">
-            <tr>
-              <td rowspan="2" align="center" valign="top" width="25">
-                <img alt="[Примечание]" src="../../libs-common/images/note.png" />
-              </td>
-              <th align="left"></th>
-            </tr>
-            <tr>
-              <td align="left" valign="top">
-                <p>In order to connect to Samba networks (Windows shares) using the <span class="application"><strong>Thunar File Manager</strong></span>, you will need to have the package <code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span>gvfs-backends</code> installed.</p>
-              </td>
-            </tr>
-          </table>
         </div>
       </div>
     </div>
@@ -468,18 +311,18 @@
       <hr />
       <table width="100%" summary="Navigation footer">
         <tr>
-          <td width="40%" align="left"><a accesskey="p" href="guide-default-apps.html"><img src="../../libs-common/images/prev.png" alt="Пред." /></a> </td>
+          <td width="40%" align="left"><a accesskey="p" href="migrating.html"><img src="../../libs-common/images/prev.png" alt="Пред." /></a> </td>
           <td width="20%" align="center"> </td>
-          <td width="40%" align="right"> <a accesskey="n" href="software-management.html"><img src="../../libs-common/images/next.png" alt="След." /></a></td>
+          <td width="40%" align="right"> <a accesskey="n" href="upgrading.html"><img src="../../libs-common/images/next.png" alt="След." /></a></td>
         </tr>
         <tr>
-          <td width="40%" align="left" valign="top">Глава 10. Default Applications </td>
+          <td width="40%" align="left" valign="top">Глава 12. Migrating </td>
           <td width="20%" align="center">
             <a accesskey="h" href="index.html">
               <img src="../../libs-common/images/home.png" alt="Начало" />
             </a>
           </td>
-          <td width="40%" align="right" valign="top"> Глава 12. Software Management</td>
+          <td width="40%" align="right" valign="top"> Глава 14. Upgrading</td>
         </tr>
       </table>
     </div>

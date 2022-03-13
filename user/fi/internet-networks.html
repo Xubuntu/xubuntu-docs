@@ -3,13 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Luku 11. Internetiin ja verkkoihin yhdistäminen</title>
+    <title>Luku 13. Troubleshooting</title>
     <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
     <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
     <link rel="home" href="index.html" title="Xubuntun dokumentaatio" />
     <link rel="up" href="index.html" title="Xubuntun dokumentaatio" />
-    <link rel="prev" href="guide-default-apps.html" title="Luku 10. Default Applications" />
-    <link rel="next" href="software-management.html" title="Luku 12. Software Management" />
+    <link rel="prev" href="migrating.html" title="Luku 12. Migrating" />
+    <link rel="next" href="upgrading.html" title="Luku 14. Upgrading" />
     <link rel="copyright" href="credits-license.html" title="Tekijänoikeudet ja lisenssi" />
     <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
     <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
@@ -26,7 +26,7 @@
       <div class="titlepage">
         <div>
           <div>
-            <h1 class="title"><a id="internet-networks"></a>Luku 11. Internetiin ja verkkoihin yhdistäminen</h1>
+            <h1 class="title"><a id="internet-networks"></a>Luku 13. Troubleshooting</h1>
           </div>
         </div>
       </div>
@@ -37,113 +37,10 @@
         <dl class="toc">
           <dt>
             <span class="section">
-              <a href="internet-networks.html#network-connections">Verkkoyhteydet</a>
-            </span>
-          </dt>
-          <dt>
-            <span class="section">
               <a href="internet-networks.html#network-troubleshooting">Verkon vianmääritys</a>
             </span>
           </dt>
-          <dt>
-            <span class="section">
-              <a href="internet-networks.html#connecting-servers">Palvelimiin yhdistäminen</a>
-            </span>
-          </dt>
         </dl>
-      </div>
-      <p>Xubuntu käyttää  <span class="application"><strong>NetworkManager</strong></span> -sovellusta langallisten ja langattomien sekä laajakaista-, VPN- ja DSL-yhteksien hallitsemiseen. <span class="application"><strong>NetworkManager</strong></span> pitää myös salasanasi turvassa käyttäen käyttäjän avainnippua tallentaessaan verkkoavaimia.</p>
-      <p><span class="application"><strong>NetworkManager</strong></span> on yksi pienistä kuvakkeista näyttösi oikeassa yläkulmassa. Kun olet yhteydettömässä tilassa, kuvake näyttää kaksi harmaata nuolta, jotka osoittavat ylös ja alas. Ollessasi yhteydessä verkkoon kuvake vaihtelee riippuen käytössä olevan verkon tyypistä.</p>
-      <div class="section">
-        <div class="titlepage">
-          <div>
-            <div>
-              <h2 class="title" style="clear: both"><a id="network-connections"></a>Verkkoyhteydet</h2>
-            </div>
-          </div>
-        </div>
-        <div class="section">
-          <div class="titlepage">
-            <div>
-              <div>
-                <h3 class="title"><a id="network-connect-disconnect"></a>Yhteyden luominen ja katkaiseminen</h3>
-              </div>
-            </div>
-          </div>
-          <p><span class="application"><strong>NetworkManager</strong></span> käyttää automaattisesti langallista verkkoyhteyttä mikäli sellainen on saatavilla.</p>
-          <p>Nähdäksesi kaikki saatavilla olevat yhteydet, napsauta <span class="application"><strong>NetworkManager</strong></span>-sovelluksen kuvaketta. Yhdistääksesi verkkoon, napsauta verkon nimeä.</p>
-          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-            <table border="0" summary="Note">
-              <tr>
-                <td rowspan="2" align="center" valign="top" width="25">
-                  <img alt="[Huomaa]" src="../../libs-common/images/note.png" />
-                </td>
-                <th align="left"></th>
-              </tr>
-              <tr>
-                <td align="left" valign="top">
-                  <p>Jos yhdistät ensimmäistä kertaa langattomaan verkkoon, voidaan sinulta kysyä tietoturva-asetuksia. Useimmissa tapauksissa tietoturvatyyppi tunnistetaan automaattisesti. Jos näin ei tapahdu, valitse tietoturvatyyppi <em class="guilabel">Langaton tietoturva</em> -pudotusvalikosta, syötä kirjautumistiedot ja napsauta <span class="guibutton"><strong>Yhdistä</strong></span>.</p>
-                </td>
-              </tr>
-            </table>
-          </div>
-          <p>Katkaistaaksesi yhteyden verkkoon, napsauta <span class="application"><strong>NetworkManager</strong></span>-kuvaketta ja valitse <em class="guilabel">Katkaise yhteys</em> valitsemasi yhteystyypin alta. Kytkeäksesi langalliset ja langattomat verkot pois päältä (ja takaisin päälle) kokonaan, valitse <span class="guimenuitem">Ota verkko käyttöön</span> ja <span class="guimenuitem">Ota langaton käyttöön</span>. Nämä valinnat ovat kytkimiä. Niiden tila on merkitty tarkistusmerkillä; jos tarkistusmerkki on näkyvissä, verkko/langaton on käytössä.</p>
-        </div>
-        <div class="section">
-          <div class="titlepage">
-            <div>
-              <div>
-                <h3 class="title"><a id="network-configure"></a>Yhteyksien asetusten muokkaaminen</h3>
-              </div>
-            </div>
-          </div>
-          <p>Jos sinun pitää muokata yhteyksiesi tietoja, napsauta <span class="application"><strong>NetworkManager</strong></span>-kuvaketta ja valitse <span class="guimenuitem">Muokkaa</span>. Tässä ikkunassa näet laajennettavia rivejä jokaiselle yhteystyypille. Valitse asianmukainen verkko ja napsauta <span class="guibutton"><strong>Muokkaa</strong></span> tai napsauta <span class="guibutton"><strong>Lisää</strong></span> asentaaksesi lisää verkkoja.</p>
-          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-            <table border="0" summary="Note">
-              <tr>
-                <td rowspan="2" align="center" valign="top" width="25">
-                  <img alt="[Huomaa]" src="../../libs-common/images/note.png" />
-                </td>
-                <th align="left"></th>
-              </tr>
-              <tr>
-                <td align="left" valign="top">
-                  <p>Jotta voit yhdistää tiettyihin verkkoihin, voit tarvita yhteyden lisätietoja jotka saat verkkosi ylläpitäjältä tai Internet-palveluntarjoajaltasi.</p>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </div>
-        <div class="section">
-          <div class="titlepage">
-            <div>
-              <div>
-                <h3 class="title"><a id="network-information"></a>Yhteyden tiedot</h3>
-              </div>
-            </div>
-          </div>
-          <p>Nähdäksesi yhteytesi tiedot, napsauta <span class="application"><strong>NetworkManager</strong></span> -kuvaketta ja valitse <span class="guimenuitem">Tietoja</span>. Verkkoyhteytesi näytetään <em class="guilabel">Aktiiviset yhteydet</em> -ikkunassa, jokainen omalla välilehdellään.</p>
-        </div>
-        <div class="section">
-          <div class="titlepage">
-            <div>
-              <div>
-                <h3 class="title"><a id="network-sharing"></a>Yhteyden jakaminen toiselle tietokoneelle</h3>
-              </div>
-            </div>
-          </div>
-          <p>Voit jakaa yhteytesi toiselle tietokoneelle käyttämällä Ethernet-kaapelia. Voit tehdä näin napsauttamalla <span class="application"><strong>NetworkManager</strong></span>-kuvaketta, valitsemalla <span class="guimenuitem">muokkaa</span>, ja sitten lisäämällä uuden langattoman yhteyden (tai muokkaamalla olemassa olevaa). Yhteyden muokkausikkunassa valitse <em class="guilabel">IPv4-asetukset</em> ja <em class="guilabel">Menetelmä</em>-pudotusvalikosta <em class="guilabel">Jaettu muille tietokoneille</em>.</p>
-        </div>
-        <div class="section">
-          <div class="titlepage">
-            <div>
-              <div>
-                <h3 class="title"><a id="network-modems"></a>Puhelinmodeemit</h3>
-              </div>
-            </div>
-          </div>
-          <p><span class="application"><strong>NetworkManager</strong></span> ei valitettavasti tue puhelinmodeemeja. Lukeaksesi lisää yhteyden muodostamisesta puhelinmodeemilla, lue <a class="ulink" href="https://help.ubuntu.com/community/DialupModemHowto" target="_top">Dialup modem How-to</a> Ubuntun yhteisöwikissä.</p>
-        </div>
       </div>
       <div class="section">
         <div class="titlepage">
@@ -405,62 +302,8 @@
             </div>
             <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>nmcli device show</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.  Look for the entries under <code class="literal">IP4.DNS</code></p>
             <p>To check if the listed DNS works, open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>dig xubuntu.org</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.  If you see the word <code class="literal">NOERROR</code> in the header section of the output, your DNS is working.</p>
-            <p>Jos nimipalvelinasetuksia (DNS) ei ole listattu, ota yhteyttä palveluntarjoajaasi, jolta saat tarvittavat nimipalvelintiedot. Kun sinulla on tämä tieto, jatka tarvittaessa kohtiin <a class="xref" href="internet-networks.html#network-connect-disconnect">Yhteyden luominen ja katkaiseminen</a> ja <a class="xref" href="internet-networks.html#network-configure">Yhteyksien asetusten muokkaaminen</a>.</p>
+            <p>If there are no DNS settings listed, contact your Internet Service Provider (ISP), and find out your primary and secondary domain name servers.</p>
           </div>
-        </div>
-      </div>
-      <div class="section">
-        <div class="titlepage">
-          <div>
-            <div>
-              <h2 class="title" style="clear: both"><a id="connecting-servers"></a>Palvelimiin yhdistäminen</h2>
-            </div>
-          </div>
-        </div>
-        <p>To connect to various types of servers, you can use <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">System</span> → <span class="guimenuitem">Gigolo</span></strong></span>. To connect to a server, follow the steps below:</p>
-        <div class="itemizedlist">
-          <ul class="itemizedlist" style="list-style-type: disc; ">
-            <li class="listitem">
-              <p>Valitse <span class="guimenu">Suorita</span> → <span class="guimenuitem">Yhdistä</span></p>
-            </li>
-            <li class="listitem">
-              <p>Valitse asianmukainen <em class="guilabel">Palvelutyyppi</em> ja syötä yhteyden yksityiskohdat</p>
-            </li>
-            <li class="listitem">
-              <p>Napsauta <span class="guibutton"><strong>Yhdistä</strong></span>; jos yrität yhdistää palvelimeen joka vaatii sisäänkirjautumisen, sinun pyydetään syöttämään salasanasi</p>
-            </li>
-          </ul>
-        </div>
-        <p>Kun sinut on onnistuneesti yhdistetty palvelimeen, kuvake yhteyden tiedoilla ilmestyy <span class="application"><strong>Gigolo</strong></span> -sovelluksen ikkunaan. Luodaksesi yhteyksistä kirjanmerkkejä, napsauta yhteyttä hiiren oikealla painikkeella ja valitse <span class="guimenuitem">Luo kirjanmerkki</span>. <em class="guilabel">Muokkaa kirjanmerkkiä</em> -ikkunassa voit nimetä kirjanmerkin ja asettaa muita asetuksia, mukaan lukien automaattisen yhdistämisen. Kun olet valmis, napsauta <span class="guibutton"><strong>OK</strong></span> luodaksesi kirjanmerkin.</p>
-        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
-          <table border="0" summary="Tip">
-            <tr>
-              <td rowspan="2" align="center" valign="top" width="25">
-                <img alt="[Vihje]" src="../../libs-common/images/tip.png" />
-              </td>
-              <th align="left"></th>
-            </tr>
-            <tr>
-              <td align="left" valign="top">
-                <p>Windows-jaon käyttäjänimi tulee olla muodossa <code class="literal">DOMAIN\username</code></p>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-          <table border="0" summary="Note">
-            <tr>
-              <td rowspan="2" align="center" valign="top" width="25">
-                <img alt="[Huomaa]" src="../../libs-common/images/note.png" />
-              </td>
-              <th align="left"></th>
-            </tr>
-            <tr>
-              <td align="left" valign="top">
-                <p>In order to connect to Samba networks (Windows shares) using the <span class="application"><strong>Thunar File Manager</strong></span>, you will need to have the package <code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span>gvfs-backends</code> installed.</p>
-              </td>
-            </tr>
-          </table>
         </div>
       </div>
     </div>
@@ -468,18 +311,18 @@
       <hr />
       <table width="100%" summary="Navigation footer">
         <tr>
-          <td width="40%" align="left"><a accesskey="p" href="guide-default-apps.html"><img src="../../libs-common/images/prev.png" alt="Edellinen" /></a> </td>
+          <td width="40%" align="left"><a accesskey="p" href="migrating.html"><img src="../../libs-common/images/prev.png" alt="Edellinen" /></a> </td>
           <td width="20%" align="center"> </td>
-          <td width="40%" align="right"> <a accesskey="n" href="software-management.html"><img src="../../libs-common/images/next.png" alt="Seuraava" /></a></td>
+          <td width="40%" align="right"> <a accesskey="n" href="upgrading.html"><img src="../../libs-common/images/next.png" alt="Seuraava" /></a></td>
         </tr>
         <tr>
-          <td width="40%" align="left" valign="top">Luku 10. Default Applications </td>
+          <td width="40%" align="left" valign="top">Luku 12. Migrating </td>
           <td width="20%" align="center">
             <a accesskey="h" href="index.html">
               <img src="../../libs-common/images/home.png" alt="Alkuun" />
             </a>
           </td>
-          <td width="40%" align="right" valign="top"> Luku 12. Software Management</td>
+          <td width="40%" align="right" valign="top"> Luku 14. Upgrading</td>
         </tr>
       </table>
     </div>

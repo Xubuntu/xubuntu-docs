@@ -3,13 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Глава 16. Административные задачи</title>
+    <title>Глава 10. User Management</title>
     <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
     <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
     <link rel="home" href="index.html" title="Документация Xubuntu" />
     <link rel="up" href="index.html" title="Документация Xubuntu" />
-    <link rel="prev" href="hardware-devices.html" title="Глава 15. Аппаратное обеспечение" />
-    <link rel="next" href="command-line.html" title="Глава 17. Командная строка" />
+    <link rel="prev" href="printing-scanning.html" title="Глава 9. Печать и сканирование" />
+    <link rel="next" href="hardware-devices.html" title="Глава 11. Аппаратное обеспечение" />
     <link rel="copyright" href="credits-license.html" title="Благодарности и лицензия" />
     <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
     <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
@@ -26,7 +26,7 @@
       <div class="titlepage">
         <div>
           <div>
-            <h1 class="title"><a id="administrative-tasks"></a>Глава 16. Административные задачи</h1>
+            <h1 class="title"><a id="administrative-tasks"></a>Глава 10. User Management</h1>
           </div>
         </div>
       </div>
@@ -40,11 +40,16 @@
               <a href="administrative-tasks.html#users-groups">Пользователи и группы</a>
             </span>
           </dt>
+          <dt>
+            <span class="section">
+              <a href="administrative-tasks.html#personal-info">Редактирование личной информации</a>
+            </span>
+          </dt>
         </dl>
       </div>
-      <p>По соображениям безопасности, административные задачи в Xubuntu могут выполняться только пользователями со специальными административными привилегиями. Первый пользователь, созданный во время установки системы, по умолчанию имеет право выполнять административные задачи.</p>
-      <p>При запуске приложения, требующего административных привилегий у вас будет запрошен ваш пароль. Это помогает защитить систему от вредоносных файлов и уменьшить вероятность того, что вы случайно выполните действие, изменяющее способ работы вашей системы.</p>
-      <p>При каждом вводе пароля система запоминает его на 15 минут, чтобы вам не приходилось постоянно вводить его снова.</p>
+      <p>For security reasons, administrative tasks in Xubuntu can only be performed by users with special privileges. The first user account created during installation will, by default, be able to perform administrative tasks.</p>
+      <p>When you run an application that requires administrative privileges, you will be asked to enter your password. This helps protect your system from malicious activity and lessens the chance that you will accidentally change the way your system works.</p>
+      <p>Each time you type your password in a terminal session, it will be remembered for 15 minutes, so that you do not have to type it again.</p>
       <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
         <table border="0" summary="Note">
           <tr>
@@ -68,7 +73,7 @@
             </div>
           </div>
         </div>
-        <p>Во время установки Xubuntu создаётся только одна учётная запись пользователя. Если компьютером пользуются несколько человек, настоятельно рекомендуется создать отдельную учётную запись для каждого из них. Это позволит им иметь собственные настройки, файлы и права доступа.</p>
+        <p>When Xubuntu is installed, only one user account is created. If multiple users use the computer, it is highly encouraged to create separate user accounts for everyone. This allows users to have their individual settings, files and access rights.</p>
         <p>To modify the users or groups on your system, navigate to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Users and Groups</span></strong></span>.</p>
         <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
           <table border="0" summary="Note">
@@ -137,7 +142,7 @@
               </tr>
               <tr>
                 <td align="left" valign="top">
-                  <p>Для более подробного настроя прав доступа нажмите кнопку <span class="guibutton"><strong>Дополнительные параметры</strong></span> в диалоговом окне <em class="guilabel">Параметры пользователей</em>, введите свой пароль, выберите вкладку <em class="guilabel">Привилегии пользователя</em> и установите или снимите там необходимые привилегии.</p>
+                  <p>For more fine-grained access control, click the <span class="guibutton"><strong>Advanced Settings</strong></span> button in the <em class="guilabel">User Settings</em> dialog, enter your password, click the <em class="guilabel">User Privileges</em> tab and from there select or deselect the desired options.</p>
                 </td>
               </tr>
             </table>
@@ -178,23 +183,67 @@
           <p>Чтобы удалить группу из системы, нажмите кнопку <span class="guibutton"><strong>Управление группами</strong></span>, выберите группу для удаления и нажмите кнопку <span class="guibutton"><strong>Удалить</strong></span>.</p>
         </div>
       </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="personal-info"></a>Редактирование личной информации</h2>
+            </div>
+          </div>
+        </div>
+        <p><span class="application"><strong>Mugshot</strong></span> — небольшая конфигурационная утилита, позволяющая легко добавить изображение для профиля и информацию о пользователе, которую могут также использовать поддерживающие эту возможность приложения.</p>
+        <p>To launch <span class="application"><strong>Mugshot</strong></span> navigate to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">About Me</span></strong></span>.</p>
+        <p>Для изменения изображения профиля щёлкните на кнопке с <span class="guibutton"><strong>изображением</strong></span> с левой стороны, затем выберите один из показанных вариантов и следуйте инструкциям.</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Примечание]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Mugshot requires the installation of <code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span>gstreamer1.0-tools</code> package to use the <em class="guilabel">Capture from camera...</em> feature.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p>Заполните текстовые поля с необходимой персональной информацией и нажмите <span class="guibutton"><strong>Применить</strong></span>. При применении этих данных в системе с установленным <span class="application"><strong>Pidgin</strong></span> и/или LibreOffice вам будет предложено обновить также их настройки.</p>
+        <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Warning">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Предупреждение]" src="../../libs-common/images/warning.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Если персональные данные, введенные в текстовые поля <em class="guilabel">Имя</em> и <em class="guilabel">Фамилия</em>, отличаются от существующих значений в <strong class="userinput"><code>/etc/passwd</code></strong>, вам будет предложено ввести свой пароль в качестве меры безопасности, чтобы предотвратить нежелательные изменения вашей личной информации.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p>Более подробную информацию читайте в официальной документации <a class="ulink" href="https://wiki.bluesabre.org/doku.php?id=mugshot-docs" target="_top">Mugshot</a>.</p>
+      </div>
     </div>
     <div class="navfooter">
       <hr />
       <table width="100%" summary="Navigation footer">
         <tr>
-          <td width="40%" align="left"><a accesskey="p" href="hardware-devices.html"><img src="../../libs-common/images/prev.png" alt="Пред." /></a> </td>
+          <td width="40%" align="left"><a accesskey="p" href="printing-scanning.html"><img src="../../libs-common/images/prev.png" alt="Пред." /></a> </td>
           <td width="20%" align="center"> </td>
-          <td width="40%" align="right"> <a accesskey="n" href="command-line.html"><img src="../../libs-common/images/next.png" alt="След." /></a></td>
+          <td width="40%" align="right"> <a accesskey="n" href="hardware-devices.html"><img src="../../libs-common/images/next.png" alt="След." /></a></td>
         </tr>
         <tr>
-          <td width="40%" align="left" valign="top">Глава 15. Аппаратное обеспечение </td>
+          <td width="40%" align="left" valign="top">Глава 9. Печать и сканирование </td>
           <td width="20%" align="center">
             <a accesskey="h" href="index.html">
               <img src="../../libs-common/images/home.png" alt="Начало" />
             </a>
           </td>
-          <td width="40%" align="right" valign="top"> Глава 17. Командная строка</td>
+          <td width="40%" align="right" valign="top"> Глава 11. Аппаратное обеспечение</td>
         </tr>
       </table>
     </div>

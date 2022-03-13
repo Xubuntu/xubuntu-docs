@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Kapitel 12. Migrating</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Xubuntu-Dokumentation" />
+    <link rel="up" href="index.html" title="Xubuntu-Dokumentation" />
+    <link rel="prev" href="hardware-devices.html" title="Kapitel 11. Hardware-Geräte" />
+    <link rel="next" href="internet-networks.html" title="Kapitel 13. Troubleshooting" />
+    <link rel="copyright" href="credits-license.html" title="Mitwirkende und Lizenz" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div xml:lang="de" class="chapter" lang="de">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="migrating"></a>Kapitel 12. Migrating</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>Inhaltsverzeichnis</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="section">
+              <a href="migrating.html#migrating-from-windows">Migration von Windows</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="migrating-from-windows"></a>Migration von Windows</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="windows-linux-dictionary"></a>A quick Windows-Xubuntu dictionary</h3>
+              </div>
+            </div>
+          </div>
+          <div class="segmentedlist">
+            <table border="0">
+              <thead>
+                <tr class="segtitle">
+                  <th>Windows</th>
+                  <th>Xubuntu</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="seglistitem">
+                  <td class="seg">Programme hinzufügen/entfernen</td>
+                  <td class="seg">
+                    <span class="application">
+                      <strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem">Software</span></strong>
+                    </span>
+                  </td>
+                </tr>
+                <tr class="seglistitem">
+                  <td class="seg">Systemsteuerung</td>
+                  <td class="seg"><span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span></strong></span> for personal preferences <br xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" /><fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format"></fo:block> <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem">System (menu)</span></strong></span> for additional configuration</td>
+                </tr>
+                <tr class="seglistitem">
+                  <td class="seg">Windows Explorer</td>
+                  <td class="seg">
+                    <span class="application">
+                      <strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">File Manager</span></strong>
+                    </span>
+                  </td>
+                </tr>
+                <tr class="seglistitem">
+                  <td class="seg">Meine Dokumente</td>
+                  <td class="seg">
+                    <code class="filename"><span class="inline-icon-location"><img src="../../libs-common/images/icon_location.png" /></span> /home/username/</code>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="windows-applications"></a>Windows-Programme unter Linux</h3>
+              </div>
+            </div>
+          </div>
+          <p>It is possible to run Windows applications under Xubuntu. Three popular choices are:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p><a class="ulink" href="http://winehq.org/" target="_top">Wine</a> (<a class="ulink" href="apt://wine" target="_top">install</a>), the Windows emulator. Wine allows running Windows applications without having to install a Windows operating system. Refer to the <a class="ulink" href="http://appdb.winehq.org/" target="_top">Wine AppDB</a> to find out which applications will run on Wine and the <a class="ulink" href="http://www.winehq.org/help/" target="_top">Wine documentation</a> for FAQ's and user support.</p>
+              </li>
+              <li class="listitem">
+                <p><a class="ulink" href="https://www.playonlinux.com/" target="_top">PlayOnLinux</a> is an easy to use frontend for Wine, which makes it easy to install popular Windows applications.</p>
+              </li>
+              <li class="listitem">
+                <p><a class="ulink" href="https://www.virtualbox.org/" target="_top">VirtualBox</a>, Virtualisierungssoftware. Sie können ein Windows-Betriebssystem und dafür geeignete Anwendungen in die virtuelle Maschine, die von VirtualBox verwaltet wird, installieren. Beachten Sie bitte, dass die 3D Unterstützung in VirtualBox noch immer etwas unzuverlässig ist. Um mehr über VirtualBox und Virtualisierung zu erfahren folgen Sie <a class="ulink" href="https://www.virtualbox.org/wiki/End-user_documentation" target="_top">VirtualBox end-user documentation</a>.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Tip">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Tipp]" src="../../libs-common/images/tip.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Sowohl Wine als auch VirtualBox sind in den Software-Paketquellen verfügbar.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="windows-networking"></a>Windows-Netzwerke und Linux</h3>
+              </div>
+            </div>
+          </div>
+          <p>Auf Windows-Netzwerkfreigaben kann unter Xubuntu auf einfache Weise zugegriffen werden:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p><span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">File Manager</span></strong></span>, where you can browse publicly visible shares by clicking on the <em class="guilabel">Network</em> item in the sidebar. Alternatively, you can browse a remote file system by going to <span class="guimenu">Go</span> → <span class="guimenuitem">Open Location...</span> and entering <strong class="userinput"><code>smb://computername/sharename</code></strong>.</p>
+              </li>
+              <li class="listitem">
+                <p><span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">System</span> → <span class="guimenuitem">Gigolo</span></strong></span>, which allows you to save bookmarks and manage remote file systems. To connect, click the first toolbar button. Select <em class="guilabel">Windows Share</em> from <em class="guilabel">Service Type</em>, then enter the remote share's details.</p>
+              </li>
+            </ul>
+          </div>
+          <p>If some options are not available or do not work, ensure that the <code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span>gvfs-backends</code> is installed.</p>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="hardware-devices.html"><img src="../../libs-common/images/prev.png" alt="Zurück" /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="internet-networks.html"><img src="../../libs-common/images/next.png" alt="Weiter" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Kapitel 11. Hardware-Geräte </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Zum Anfang" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Kapitel 13. Troubleshooting</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -3,13 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Chapter 11. Connecting to Internet and Networks</title>
+    <title>Chapter 13. Troubleshooting</title>
     <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
     <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
     <link rel="home" href="index.html" title="Xubuntu Documentation" />
     <link rel="up" href="index.html" title="Xubuntu Documentation" />
-    <link rel="prev" href="guide-default-apps.html" title="Chapter 10. Default Applications" />
-    <link rel="next" href="software-management.html" title="Chapter 12. Software Management" />
+    <link rel="prev" href="migrating.html" title="Chapter 12. Migrating" />
+    <link rel="next" href="upgrading.html" title="Chapter 14. Upgrading" />
     <link rel="copyright" href="credits-license.html" title="Credits and License" />
     <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
     <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
@@ -26,7 +26,7 @@
       <div class="titlepage">
         <div>
           <div>
-            <h1 class="title"><a id="internet-networks"></a>Chapter 11. Connecting to Internet and Networks</h1>
+            <h1 class="title"><a id="internet-networks"></a>Chapter 13. Troubleshooting</h1>
           </div>
         </div>
       </div>
@@ -37,113 +37,10 @@
         <dl class="toc">
           <dt>
             <span class="section">
-              <a href="internet-networks.html#network-connections">Network connections</a>
-            </span>
-          </dt>
-          <dt>
-            <span class="section">
               <a href="internet-networks.html#network-troubleshooting">Network troubleshooting</a>
             </span>
           </dt>
-          <dt>
-            <span class="section">
-              <a href="internet-networks.html#connecting-servers">Connecting to servers</a>
-            </span>
-          </dt>
         </dl>
-      </div>
-      <p>Xubuntu uses <span class="application"><strong>NetworkManager</strong></span> to manage wired, wireless, mobile broadband, VPN and DSL connections. <span class="application"><strong>NetworkManager</strong></span> also keeps passwords secure by utilizing the user's keyring to store passphrases.</p>
-      <p><span class="application"><strong>NetworkManager</strong></span> is one of the little icons in the upper panel in the top right of your screen. When not connected, the icon shows two grayed out arrows pointing up and down. When you are connected, the icon is different depending on the network type in use.</p>
-      <div class="section">
-        <div class="titlepage">
-          <div>
-            <div>
-              <h2 class="title" style="clear: both"><a id="network-connections"></a>Network connections</h2>
-            </div>
-          </div>
-        </div>
-        <div class="section">
-          <div class="titlepage">
-            <div>
-              <div>
-                <h3 class="title"><a id="network-connect-disconnect"></a>Connecting and disconnecting</h3>
-              </div>
-            </div>
-          </div>
-          <p><span class="application"><strong>NetworkManager</strong></span> will automatically use a wired network, if one is available.</p>
-          <p>To see all available connections, click the <span class="application"><strong>NetworkManager</strong></span> icon. To connect to a network, click the network name.</p>
-          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-            <table border="0" summary="Note">
-              <tr>
-                <td rowspan="2" align="center" valign="top" width="25">
-                  <img alt="[Note]" src="../../libs-common/images/note.png" />
-                </td>
-                <th align="left"></th>
-              </tr>
-              <tr>
-                <td align="left" valign="top">
-                  <p>If you are connecting to a wireless network for the first time, security details may be needed, a dialog box will open when required. In most cases, the security type will be detected automatically. If not, select the security type from the <em class="guilabel">Wi-Fi Security</em> drop-down box, enter the authentication details and press <span class="guibutton"><strong>Connect</strong></span>.</p>
-                </td>
-              </tr>
-            </table>
-          </div>
-          <p>To disconnect from a network, click the <span class="application"><strong>NetworkManager</strong></span> icon, and select <em class="guilabel">Disconnect</em> under the appropriate connection type. To disable (and re-enable) wired and/or wireless connections all together, click the <span class="application"><strong>NetworkManager</strong></span> icon, select <span class="guimenuitem">Enable Networking</span> and <span class="guimenuitem">Enable Wi-Fi</span>. These choices are toggles. Their enabled/disabled status is indicated by the presence/absence of a check mark.</p>
-        </div>
-        <div class="section">
-          <div class="titlepage">
-            <div>
-              <div>
-                <h3 class="title"><a id="network-configure"></a>Configuring connections</h3>
-              </div>
-            </div>
-          </div>
-          <p>If you need to configure your connections, click the <span class="application"><strong>NetworkManager</strong></span> icon and select <span class="guimenuitem">Edit</span>. In the dialog, you will see expandable rows for each connection type. Select the appropriate network and press <span class="guibutton"><strong>Edit</strong></span> or press <span class="guibutton"><strong>Add</strong></span> to set up new networks.</p>
-          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-            <table border="0" summary="Note">
-              <tr>
-                <td rowspan="2" align="center" valign="top" width="25">
-                  <img alt="[Note]" src="../../libs-common/images/note.png" />
-                </td>
-                <th align="left"></th>
-              </tr>
-              <tr>
-                <td align="left" valign="top">
-                  <p>To be able to connect to certain networks you might need connection details which you will get from your network administrator or your Internet Service Provider.</p>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </div>
-        <div class="section">
-          <div class="titlepage">
-            <div>
-              <div>
-                <h3 class="title"><a id="network-information"></a>Connection information</h3>
-              </div>
-            </div>
-          </div>
-          <p>To see the connection information, click the <span class="application"><strong>NetworkManager</strong></span> icon and select <span class="guimenuitem">Connection Information</span>. Your active network connections will be displayed in the <em class="guilabel">Active Connections</em> dialog, each in a separate tab.</p>
-        </div>
-        <div class="section">
-          <div class="titlepage">
-            <div>
-              <div>
-                <h3 class="title"><a id="network-sharing"></a>Sharing your connection to another computer</h3>
-              </div>
-            </div>
-          </div>
-          <p>You can share your connection to another computer using an Ethernet cable. This can be carried out by clicking the <span class="application"><strong>NetworkManager</strong></span> icon, selecting <span class="guimenuitem">Edit</span>, and then adding a new wireless connection (or editing the existing one). In the connection properties window, select <em class="guilabel">IPv4 Settings</em>, and change <em class="guilabel">Method</em> to <em class="guilabel">Shared to other computers</em> from the drop-down list.</p>
-        </div>
-        <div class="section">
-          <div class="titlepage">
-            <div>
-              <div>
-                <h3 class="title"><a id="network-modems"></a>Dialup modems</h3>
-              </div>
-            </div>
-          </div>
-          <p>Unfortunately, dialup modems are not supported by <span class="application"><strong>NetworkManager</strong></span>. To read about connecting with a dialup modem, please refer to the <a class="ulink" href="https://help.ubuntu.com/community/DialupModemHowto" target="_top">Dialup modem How-to</a> on the Ubuntu community wiki.</p>
-        </div>
       </div>
       <div class="section">
         <div class="titlepage">
@@ -405,62 +302,8 @@
             </div>
             <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>nmcli device show</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.  Look for the entries under <code class="literal">IP4.DNS</code></p>
             <p>To check if the listed DNS works, open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>dig xubuntu.org</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.  If you see the word <code class="literal">NOERROR</code> in the header section of the output, your DNS is working.</p>
-            <p>If there are no DNS settings listed, contact your Internet Service Provider (ISP), and find out your primary and secondary domain name servers. Once you have this information, continue to <a class="xref" href="internet-networks.html#network-connect-disconnect">Connecting and disconnecting</a> and <a class="xref" href="internet-networks.html#network-configure">Configuring connections</a> if needed.</p>
+            <p>If there are no DNS settings listed, contact your Internet Service Provider (ISP), and find out your primary and secondary domain name servers.</p>
           </div>
-        </div>
-      </div>
-      <div class="section">
-        <div class="titlepage">
-          <div>
-            <div>
-              <h2 class="title" style="clear: both"><a id="connecting-servers"></a>Connecting to servers</h2>
-            </div>
-          </div>
-        </div>
-        <p>To connect to various types of servers, you can use <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">System</span> → <span class="guimenuitem">Gigolo</span></strong></span>. To connect to a server, follow the steps below:</p>
-        <div class="itemizedlist">
-          <ul class="itemizedlist" style="list-style-type: disc; ">
-            <li class="listitem">
-              <p>Go to <span class="guimenu">Actions</span> → <span class="guimenuitem">Connect</span></p>
-            </li>
-            <li class="listitem">
-              <p>Select the appropriate <em class="guilabel">Service type</em> and insert connection information</p>
-            </li>
-            <li class="listitem">
-              <p>Click <span class="guibutton"><strong>Connect</strong></span>; if you are attempting to connect to a server that requires you to log in, you will be prompted to enter a password</p>
-            </li>
-          </ul>
-        </div>
-        <p>Upon successfully connecting to the server, an icon labeled with connection details will appear in the <span class="application"><strong>Gigolo</strong></span> window. To bookmark connections, right-click on a connection and select <span class="guimenuitem">Create Bookmark</span>. In the <em class="guilabel">Edit Bookmarks</em> dialog, you can name the bookmark and set other options, including the option to auto-connect. Once you are done, click <span class="guibutton"><strong>OK</strong></span> to create the bookmark.</p>
-        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
-          <table border="0" summary="Tip">
-            <tr>
-              <td rowspan="2" align="center" valign="top" width="25">
-                <img alt="[Tip]" src="../../libs-common/images/tip.png" />
-              </td>
-              <th align="left"></th>
-            </tr>
-            <tr>
-              <td align="left" valign="top">
-                <p>The Windows Share username should be in the format <code class="literal">DOMAIN\username</code></p>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-          <table border="0" summary="Note">
-            <tr>
-              <td rowspan="2" align="center" valign="top" width="25">
-                <img alt="[Note]" src="../../libs-common/images/note.png" />
-              </td>
-              <th align="left"></th>
-            </tr>
-            <tr>
-              <td align="left" valign="top">
-                <p>In order to connect to Samba networks (Windows shares) using the <span class="application"><strong>Thunar File Manager</strong></span>, you will need to have the package <code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span>gvfs-backends</code> installed.</p>
-              </td>
-            </tr>
-          </table>
         </div>
       </div>
     </div>
@@ -468,18 +311,18 @@
       <hr />
       <table width="100%" summary="Navigation footer">
         <tr>
-          <td width="40%" align="left"><a accesskey="p" href="guide-default-apps.html"><img src="../../libs-common/images/prev.png" alt="Prev" /></a> </td>
+          <td width="40%" align="left"><a accesskey="p" href="migrating.html"><img src="../../libs-common/images/prev.png" alt="Prev" /></a> </td>
           <td width="20%" align="center"> </td>
-          <td width="40%" align="right"> <a accesskey="n" href="software-management.html"><img src="../../libs-common/images/next.png" alt="Next" /></a></td>
+          <td width="40%" align="right"> <a accesskey="n" href="upgrading.html"><img src="../../libs-common/images/next.png" alt="Next" /></a></td>
         </tr>
         <tr>
-          <td width="40%" align="left" valign="top">Chapter 10. Default Applications </td>
+          <td width="40%" align="left" valign="top">Chapter 12. Migrating </td>
           <td width="20%" align="center">
             <a accesskey="h" href="index.html">
               <img src="../../libs-common/images/home.png" alt="Home" />
             </a>
           </td>
-          <td width="40%" align="right" valign="top"> Chapter 12. Software Management</td>
+          <td width="40%" align="right" valign="top"> Chapter 14. Upgrading</td>
         </tr>
       </table>
     </div>
