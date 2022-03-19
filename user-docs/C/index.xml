@@ -102,11 +102,9 @@
 	<xi:include href="settings-connectivity.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="printing-scanning.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="user-management.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-
 	<xi:include href="hardware-devices.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="file-management.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<!-- TODO: Media Applications -->
-
+	<xi:include href="media-apps.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="migrating.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="troubleshooting.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="upgrading.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>

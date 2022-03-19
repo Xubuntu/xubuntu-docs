@@ -41,7 +41,7 @@ git checkout docs-refresh
 - [x] ~[Chapter 11. Disks](https://docs.google.com/document/d/1J0JmtGaCmNJJzGmIdDu2eYWkoyXHQkoaKG7ThJovp7s/edit?usp=sharing) (Incomplete, 0%)~
 - [x] [Chapter 12. File Management](https://docs.google.com/document/d/1qY7MJDguvPCzV-BMa9P9ZFSEPneq4nZ6AhgN-Zz5UNA/edit?usp=sharing) (100%, `user-docs/C/file-management.xml`)
 - [x] ~[Chapter 13. Laptops](https://docs.google.com/document/d/1XWe8GApyy3Y-GahLEp9VKJV0Ahf9LXf10YuNNpxEmYk/edit?usp=sharing) (Incomplete, 0%)~
-- [ ] [Chapter 14. Media Applications](https://docs.google.com/document/d/11AEaV1uqNoZCAb7elvMMl-uMt_5_wAtsfORhkLj0nmw/edit?usp=sharing) (Incomplete, ~0%~)
+- [x] [Chapter 14. Media Applications](https://docs.google.com/document/d/11AEaV1uqNoZCAb7elvMMl-uMt_5_wAtsfORhkLj0nmw/edit?usp=sharing) (100%, `user-docs/C/media-apps.xml`)
 - [x] [Chapter 15. Migrating](https://docs.google.com/document/d/1SifZ1BDchAOatt43zh8mjwV285ucuKwdfEfWXKZQgPc/edit?usp=sharing) (100%, `user-docs/C/migrating.xml`)
 - [x] [Chapter 16. Troubleshooting](https://docs.google.com/document/d/1KsbAaCqHHpb9Yl4lx9vZAtgYYATXgblMfAO_9I5_j8Q/edit?usp=sharing) (100%, `user-docs/C/troubleshooting.xml`)
 - [x] [Chapter 17. Upgrading](https://docs.google.com/document/d/1hR7tcqXLHZoXv8znGG05ioiFPRrAO6kAtyyeFkYcuoc/edit?usp=sharing) (100%, `user-docs/C/upgrading.xml`)
