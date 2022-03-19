@@ -55,7 +55,7 @@
 
 			<itemizedlist>
 				<listitem><para>Open the <application>Printers</application> settings dialog.</para></listitem>
-				<listitem><para>Click the Add button in the toolbar or <guilabel>Server</guilabel> → <guilabel>New</guilabel> → <guilabel>Printer</guilabel> in the menu to open the <guibutton>New Printer</guibutton> dialog.</para></listitem>
+				<listitem><para>Click the Add button in the toolbar or <menuchoice><guimenuitem>Server</guimenuitem><guimenuitem>New</guimenuitem><guimenuitem>Printer</guimenuitem></menuchoice> in the menu to open the <guibutton>New Printer</guibutton> dialog.</para></listitem>
 				<listitem><para>Select the appropriate Printer, Port, URI, Protocol or Network Printer entry in the <guilabel>Devices</guilabel> list on the left of the dialog. If your printer is not visible, you may need to click on the triangle next to “Find Network Printer” to expand the list of printers on your network.</para></listitem>
 				<listitem><para>Where applicable, fill in any relevant details into the text fields and/or dropdown lists on the right of the dialog and then click the <guibutton>Forward</guibutton> button.</para></listitem>
 				<listitem><para>If you are adding a local printer, your computer will search for it and install its drivers. If you are installing a network printer, you will go through additional steps of selecting the printer manufacturer, printer model and driver.</para></listitem>
@@ -80,7 +80,7 @@
 
 			<itemizedlist>
 				<listitem><para>Open the <application>Printers</application> settings dialog.</para></listitem>
-				<listitem><para>Click <guilabel>Server</guilabel> → <guilabel>Settings</guilabel> in the menu.</para></listitem>
+				<listitem><para>Click <menuchoice><guimenuitem>Server</guimenuitem><guimenuitem>Settings</guimenuitem></menuchoice> in the menu.</para></listitem>
 				<listitem><para>Enable the <guilabel>Publish shared printers connected to this system</guilabel> checkbox.</para></listitem>
 				<listitem><para>Click the <guibutton>OK</guibutton> button.</para></listitem>
 			</itemizedlist>
@@ -167,7 +167,7 @@
 			</itemizedlist>
 
 			<para>You may be able to get your scanner working by installing a driver or altering some configuration files. Please ask for advice on the <ulink url="http://ubuntuforums.org/">Ubuntu forums</ulink> or on <ulink url="http://askubuntu.com/">AskUbuntu</ulink>.</para>
-			
+
 			<note><para>To get some scanners working, you may need to plug the scanner in after the computer has booted.</para></note>
 		</section>
 

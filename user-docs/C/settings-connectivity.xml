@@ -76,7 +76,7 @@
 			</section>
 		</section>
 	</section>
-		
+
 	<section id="settings-connectivity-bluetooth">
 		<title>Bluetooth</title>
 
@@ -126,10 +126,10 @@
 	<section id="settings-connectivity-connecting-to-servers">
 		<title>Connecting to servers</title>
 
-		<para>To connect to various types of servers, you can use &appmenu; → <guibutton>System</guibutton> → <application>Gigolo</application>. To connect to a server, follow the steps below:</para>
+		<para>To connect to various types of servers, you can use &gigolo;. To connect to a server, follow the steps below:</para>
 
 		<itemizedlist>
-			<listitem><para>Go to <guilabel>Actions</guilabel> → <guilabel>Connect</guilabel></para></listitem>
+			<listitem><para>Go to <menuchoice><guimenuitem>Actions</guimenuitem><guimenuitem>Connect</guimenuitem></menuchoice></para></listitem>
 			<listitem><para>Select the appropriate <guilabel>Service type</guilabel> and insert connection information</para></listitem>
 			<listitem><para>Click <guibutton>Connect</guibutton>; if you are attempting to connect to a server that requires you to log in, you will be prompted to enter a password</para></listitem>
 		</itemizedlist>
