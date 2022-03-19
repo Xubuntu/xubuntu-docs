@@ -24,7 +24,7 @@ git checkout docs-refresh
 - Make sure you're starting from the right branch!
 
 ## Google Drive
-- [ ] [0. Homepage](https://docs.google.com/document/d/1Aj_Wdj9Uq62Ju0bvjhz15NVdaI_SaAMo8xqdU9s67YE/edit?usp=sharing) (0%, `startpage/index.html`)
+- [x] ~[0. Homepage](https://docs.google.com/document/d/1Aj_Wdj9Uq62Ju0bvjhz15NVdaI_SaAMo8xqdU9s67YE/edit?usp=sharing) (0%, `startpage/index.html`)~
 - [x] [1. Welcome](https://docs.google.com/document/d/1KpmN_tCOHaDwQgNtqyyt6DqZ7M0xSMCNTadORcY_Whw/edit?usp=sharing) (100%, `user-docs/C/index.xml`)
 - [x] [2. Credits and License](https://docs.google.com/document/d/17v09cwXQLc-xs06inNz0KnEgllleUaJDPg4kV0dHF9Q/edit?usp=sharing) (100%)
 - [ ] [3. Appendix B - Creative Commons](https://docs.google.com/document/d/1zkAFZHw1d3OOgx3C2Bxjr4VduVKho423k0fnCWLc6XI/edit?usp=sharing) (0%)
