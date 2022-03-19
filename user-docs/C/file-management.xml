@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
+%xubuntu-common;
+<!ENTITY % xubuntu-user SYSTEM "../libs/xubuntu-user.ent">
+%xubuntu-user;
+<!ENTITY % xinclude SYSTEM "../../libs-common/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+<chapter id="file-management">
+	<title>File Management</title>
+
+	<para>Xubuntu comes with Xfce's file manager, <application>Thunar</application>. For simplicity's sake, it will be referred to as the File Manager from now on. Load it from &file-manager; or by double-clicking the <guilabel>Home</guilabel> or <guilabel>File System</guilabel> icons on your desktop.</para>
+
+	<section id="navigation">
+		<title>Navigation</title>
+
+		<para>
+			The File Manager's default view consists of a shortcut pane on the left side, the main area on 
+			the right, and a pathbar above the main area. The shortcut pane provides shortcuts to different 
+			folders on your system. The first shortcut under <guilabel>PLACES</guilabel> takes you to your home directory (/home), 
+			the directory where all your personal data and data from the applications you use are stored, and
+			has the name of the current user.The <guilabel>File System</guilabel> shortcut under <guilabel>DEVICES</guilabel> will takes you to the root 
+			(/) of the filesystem. You may want to explore it a bit, even though it may be confusing if you 
+			are new to Linux. Just click on the different folders and see what's inside. When you're done, 
+			return to your home directory by clicking on the top shortcut.
+		</para>
+
+		<note><para>You can add your own shortcuts by simply dragging folders to the shortcut pane. This will allow you to access important folders instantly!</para></note>
+		<note><para>When using <application>Thunar</application> you will, in general, only have read rights to files you see while browsing under the <guilabel>File System</guilabel> shortcut.</para></note>
+
+		<para>
+			The main area will always display the contents of the current folder. Double-click on folders to 
+			enter them, and right-click on files/folders to get a pop-up window offering you some choices of 
+			what to do with them. Select multiple files by dragging a rectangle over them with the mouse. 
+			Alternatively, select one file, hold down the <guilabel>Shift</guilabel> key, and increase/decrease the selection using 
+			the arrow keys.
+		</para>
+
+		<para>
+			To easily see the path you took to get to the current directory, you can change the default View 
+			options. From the File Manager menu, select <guilabel>View</guilabel> → <guilabel>Location Selector</guilabel> → <guilabel>Pathbar Style</guilabel>. Now you can 
+			click on any pathbar icon to change to the directory it represents. Note that right-clicking on 
+			pathbar icons will also bring up a pop-up window with some options.
+		</para>
+	</section>
+
+	<section id="creating-and-deleting-files-and-folders">
+		<title>Creating and deleting files and folders</title>
+
+		<para>
+			To create a new document, right-click on some empty space in your home directory and select 
+			<guilabel>Create Document</guilabel> → <guilabel>Empty File</guilabel> from the pop-up menu. The File Manager will prompt you for a name. 
+			Just go with the suggested name for now. After this, you will see the new file in your home 
+			directory. Right-click on it and choose <guilabel>Properties</guilabel>. This will show you some details about the 
+			file. Right-click on the file once more and choose <guilabel>Move to Trash</guilabel> to remove it. The file will 
+			be put into the Trash.
+		</para>
+
+		<note><para>If you ever want to undo the deleting of a file, open <guilabel>Trash</guilabel>, right-click the file and click <guilabel>Restore</guilabel>.</para></note>
+
+		<para>
+			To create a new folder, right-click on the empty space, and choose <guilabel>Create Folder</guilabel>.
+			You will be prompted for a name. Type something and hit <guibutton>Enter</guibutton>. You will see this 
+			new folder in your home directory. Double-click on it to enter it. To rename or remove the folder, 
+			right-click on it and choose the appropriate option from the pop-up menu.
+		</para>
+	</section>
+
+	<section id="copying">
+		<title>Copying</title>
+
+		<para>To copy and move files on your computer, just click and drag files and folders to other folders.</para>
+	</section>
+
+	<section id="removable-drives">
+		<title>Removable Drives</title>
+
+		<para>
+			When inserting CDs, USB sticks or other removable media into your computer, or inserting 
+			removable devices like a music player, Xubuntu should automatically detect the new device. For 
+			example, after inserting a CD into your optical drive, you will see a new shortcut in the left pane 
+			of the <application>File Manager</application> representing the CD. Clicking on it will open the 
+			CD in the main area, just like clicking on a regular folder. To remove the CD, right-click on the shortcut, 
+			and choose <guibutton>Eject</guibutton>. The same applies for any other removable media.
+		</para>
+
+		<note><para>Please note that pressing the eject button on your CD drive may not work. This may be surprising to some users, but it is in fact the expected behavior. Before the CD can be ejected, it needs to be properly "released" (unmounted) by the system. To remove a CD, always right-click on its shortcut and choose <guilabel>Eject</guilabel>.</para></note>
+	</section>
+
+	<section id="customizing-thunar">
+		<title>Customizing Thunar</title>
+
+		<para>
+			There are many ways to customize the <application>File Manager</application>. If you do not like the 
+			way the icons are displayed, choose <guilabel>View</guilabel> → <guilabel>View as Detailed List</guilabel> 
+			to have the contents of the current directory displayed as a list.
+		</para>
+
+		<para>
+			You can have the <application>File Manager</application> display a location bar instead of the pathbar by selecting
+			<guilabel>View</guilabel> → <guilabel>Location Selector</guilabel> → <guilabel>Toolbar Style</guilabel>. 
+			If you prefer a tree view in the left pane, choose <guilabel>View</guilabel> → <guilabel>Side Pane</guilabel> → <guilabel>Tree</guilabel>.
+		</para>
+
+		<para>
+			Finally, you can add Custom Actions, which can add useful options to the menu. Many custom actions can be 
+			found at the Ubuntu Wiki <ulink url="https://help.ubuntu.com/community/ThunarCustomActions">Thunar Custom Action</ulink> page.
+		</para>
+
+		<para>
+			For more choices, explore the options under <guilabel>Edit</guilabel> → <guilabel>Preferences</guilabel>.
+		</para>
+	</section>
+
+</chapter>
