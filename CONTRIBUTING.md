@@ -26,7 +26,7 @@ git checkout docs-refresh
 ## Google Drive
 - [ ] [0. Homepage](https://docs.google.com/document/d/1Aj_Wdj9Uq62Ju0bvjhz15NVdaI_SaAMo8xqdU9s67YE/edit?usp=sharing) (0%, `startpage/index.html`)
 - [x] [1. Welcome](https://docs.google.com/document/d/1KpmN_tCOHaDwQgNtqyyt6DqZ7M0xSMCNTadORcY_Whw/edit?usp=sharing) (100%, `user-docs/C/index.xml`)
-- [ ] [2. Credits and License](https://docs.google.com/document/d/17v09cwXQLc-xs06inNz0KnEgllleUaJDPg4kV0dHF9Q/edit?usp=sharing) (0%)
+- [x] [2. Credits and License](https://docs.google.com/document/d/17v09cwXQLc-xs06inNz0KnEgllleUaJDPg4kV0dHF9Q/edit?usp=sharing) (100%)
 - [ ] [3. Appendix B - Creative Commons](https://docs.google.com/document/d/1zkAFZHw1d3OOgx3C2Bxjr4VduVKho423k0fnCWLc6XI/edit?usp=sharing) (0%)
 - [x] [Chapter 1. What is Xubuntu?](https://docs.google.com/document/d/1kkq51aJLT-BdCogUS4INhrR4e_IRgLT7YlUAWL32m4g/edit?usp=sharing) (100%, `user-docs/C/what-is-xubuntu.xml`)
 - [x] [Chapter 2. Installation](https://docs.google.com/document/d/1EWQkW0aP6pk0LrSVlwFk8F2SIJietHNzX9g2Z34fbhE/edit?usp=sharing) (100%, `user-docs/C/installation.xml`)
