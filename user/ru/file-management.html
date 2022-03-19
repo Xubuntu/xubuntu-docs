@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Глава 12. File Management</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Документация Xubuntu" />
+    <link rel="up" href="index.html" title="Документация Xubuntu" />
+    <link rel="prev" href="hardware-devices.html" title="Глава 11. Аппаратное обеспечение" />
+    <link rel="next" href="migrating.html" title="Глава 13. Migrating" />
+    <link rel="copyright" href="credits-license.html" title="Благодарности и лицензия" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div xml:lang="ru" class="chapter" lang="ru">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="file-management"></a>Глава 12. File Management</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>Содержание</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="section">
+              <a href="file-management.html#navigation">Навигация</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="file-management.html#creating-and-deleting-files-and-folders">Создание и удаление файлов и папок</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="file-management.html#copying">Копирование</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="file-management.html#removable-drives">Removable Drives</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="file-management.html#customizing-thunar">Настройка Thunar</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <p>Xubuntu comes with Xfce's file manager, <span class="application"><strong>Thunar</strong></span>. For simplicity's sake, it will be referred to as the File Manager from now on. Load it from <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">File Manager</span></strong></span> or by double-clicking the <em class="guilabel">Home</em> or <em class="guilabel">File System</em> icons on your desktop.</p>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="navigation"></a>Навигация</h2>
+            </div>
+          </div>
+        </div>
+        <p>
+			The File Manager's default view consists of a shortcut pane on the left side, the main area on 
+			the right, and a pathbar above the main area. The shortcut pane provides shortcuts to different 
+			folders on your system. The first shortcut under <em class="guilabel">PLACES</em> takes you to your home directory (/home), 
+			the directory where all your personal data and data from the applications you use are stored, and
+			has the name of the current user.The <em class="guilabel">File System</em> shortcut under <em class="guilabel">DEVICES</em> will takes you to the root 
+			(/) of the filesystem. You may want to explore it a bit, even though it may be confusing if you 
+			are new to Linux. Just click on the different folders and see what's inside. When you're done, 
+			return to your home directory by clicking on the top shortcut.
+		</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Примечание]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Вы можете добавлять собственные закладки, просто перетаскивая папки на боковую панель. Это позволит вам мгновенно осуществлять доступ к важным для вас папкам!</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Примечание]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>При использовании <span class="application"><strong>Thunar</strong></span> у вас в общем случае будет лишь право на чтение для файлов, доступных через  закладку <em class="guilabel">Файловая система</em> shortcut.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p>
+			The main area will always display the contents of the current folder. Double-click on folders to 
+			enter them, and right-click on files/folders to get a pop-up window offering you some choices of 
+			what to do with them. Select multiple files by dragging a rectangle over them with the mouse. 
+			Alternatively, select one file, hold down the <em class="guilabel">Shift</em> key, and increase/decrease the selection using 
+			the arrow keys.
+		</p>
+        <p>
+			To easily see the path you took to get to the current directory, you can change the default View 
+			options. From the File Manager menu, select <em class="guilabel">View</em> → <em class="guilabel">Location Selector</em> → <em class="guilabel">Pathbar Style</em>. Now you can 
+			click on any pathbar icon to change to the directory it represents. Note that right-clicking on 
+			pathbar icons will also bring up a pop-up window with some options.
+		</p>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="creating-and-deleting-files-and-folders"></a>Создание и удаление файлов и папок</h2>
+            </div>
+          </div>
+        </div>
+        <p>
+			To create a new document, right-click on some empty space in your home directory and select 
+			<em class="guilabel">Create Document</em> → <em class="guilabel">Empty File</em> from the pop-up menu. The File Manager will prompt you for a name. 
+			Just go with the suggested name for now. After this, you will see the new file in your home 
+			directory. Right-click on it and choose <em class="guilabel">Properties</em>. This will show you some details about the 
+			file. Right-click on the file once more and choose <em class="guilabel">Move to Trash</em> to remove it. The file will 
+			be put into the Trash.
+		</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Примечание]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>If you ever want to undo the deleting of a file, open <em class="guilabel">Trash</em>, right-click the file and click <em class="guilabel">Restore</em>.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p>
+			To create a new folder, right-click on the empty space, and choose <em class="guilabel">Create Folder</em>.
+			You will be prompted for a name. Type something and hit <span class="guibutton"><strong>Enter</strong></span>. You will see this 
+			new folder in your home directory. Double-click on it to enter it. To rename or remove the folder, 
+			right-click on it and choose the appropriate option from the pop-up menu.
+		</p>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="copying"></a>Копирование</h2>
+            </div>
+          </div>
+        </div>
+        <p>Чтобы скопировать или переместить файлы на компьютере, просто щёлкните и перетащите файлы или папки в другие папки.</p>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="removable-drives"></a>Removable Drives</h2>
+            </div>
+          </div>
+        </div>
+        <p>
+			When inserting CDs, USB sticks or other removable media into your computer, or inserting 
+			removable devices like a music player, Xubuntu should automatically detect the new device. For 
+			example, after inserting a CD into your optical drive, you will see a new shortcut in the left pane 
+			of the <span class="application"><strong>File Manager</strong></span> representing the CD. Clicking on it will open the 
+			CD in the main area, just like clicking on a regular folder. To remove the CD, right-click on the shortcut, 
+			and choose <span class="guibutton"><strong>Eject</strong></span>. The same applies for any other removable media.
+		</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Примечание]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Please note that pressing the eject button on your CD drive may not work. This may be surprising to some users, but it is in fact the expected behavior. Before the CD can be ejected, it needs to be properly "released" (unmounted) by the system. To remove a CD, always right-click on its shortcut and choose <em class="guilabel">Eject</em>.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="customizing-thunar"></a>Настройка Thunar</h2>
+            </div>
+          </div>
+        </div>
+        <p>
+			There are many ways to customize the <span class="application"><strong>File Manager</strong></span>. If you do not like the 
+			way the icons are displayed, choose <em class="guilabel">View</em> → <em class="guilabel">View as Detailed List</em> 
+			to have the contents of the current directory displayed as a list.
+		</p>
+        <p>
+			You can have the <span class="application"><strong>File Manager</strong></span> display a location bar instead of the pathbar by selecting
+			<em class="guilabel">View</em> → <em class="guilabel">Location Selector</em> → <em class="guilabel">Toolbar Style</em>. 
+			If you prefer a tree view in the left pane, choose <em class="guilabel">View</em> → <em class="guilabel">Side Pane</em> → <em class="guilabel">Tree</em>.
+		</p>
+        <p>И, наконец вы можете настроить так называемые «Особые действия», добавляющие полезные команды в меню. Множество особых действий можно найти на странице Ubuntu Wiki <a class="ulink" href="https://help.ubuntu.com/community/ThunarCustomActions" target="_top">Thunar Custom Action</a>.</p>
+        <p>
+			For more choices, explore the options under <em class="guilabel">Edit</em> → <em class="guilabel">Preferences</em>.
+		</p>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="hardware-devices.html"><img src="../../libs-common/images/prev.png" alt="Пред." /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="migrating.html"><img src="../../libs-common/images/next.png" alt="След." /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Глава 11. Аппаратное обеспечение </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Начало" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Глава 13. Migrating</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
