@@ -29,7 +29,7 @@
 			</screenshot>
 		</informalfigure>
 
-		<note><para>If you would like to customize the look and behaviour of the GRUB boot menu, you can install Grub Customizer (<ulink url="apt://grub-customizer">apt-install</ulink>, <ulink url="&ppa-grub-customizer;">PPA</ulink>)</para></note>
+		<note><para>If you would like to customize the look and behaviour of the GRUB boot menu, you can install Grub Customizer (<literal>&package;<ulink url="apt://grub-customizer">grub-customizer</ulink></literal>, <ulink url="&ppa-grub-customizer;">PPA</ulink>)</para></note>
 
 		<section id="login-screen">
 			<title>Login Screen</title>
@@ -111,7 +111,7 @@
 				</screenshot>
 			</informalfigure>
 
-			<para>Clicking the &appmenu; <guibutton>applications menu</guibutton> button on the panel or pressing the <keycap>Ctrl + Escape</keycap> keyboard shortcut will open the menu, which has five (5) sections:</para>
+			<para>Clicking the &appmenu; <guibutton>applications menu</guibutton> button on the panel or pressing the <keycap>&key;Ctrl+Escape</keycap> keyboard shortcut will open the menu, which has five (5) sections:</para>
 
 			<orderedlist>
 				<listitem><para>A search field to filter installed applications.</para></listitem>
@@ -135,7 +135,7 @@
 		<title>Session Management</title>
 
 		<para>Xubuntu provides a collection of commands for managing your session. These commands are accessible from the command buttons section of the &appmenu; <guibutton>applications menu</guibutton> as well as through shortcut keys.</para>
-		<para>The first of the these commands is the &lockscreen; <guibutton>Lock Screen</guibutton> button, which locks the current session and presents the login dialog to resume the session. Locking the screen is also accessible by two keyboard shortcuts: <keycap>Super + L</keycap> and <keycap>Ctrl + Alt + L</keycap>.</para>
+		<para>The first of the these commands is the &lockscreen; <guibutton>Lock Screen</guibutton> button, which locks the current session and presents the login dialog to resume the session. Locking the screen is also accessible by two keyboard shortcuts: <keycap>&key;Super+L</keycap> and <keycap>&key;Ctrl+Alt+L</keycap>.</para>
 
 		<informalfigure>
 			<screenshot>
@@ -147,7 +147,7 @@
 			</screenshot>
 		</informalfigure>
 
-		<para>The remaining session commands are accessible through the &logout; <guibutton>Log Out</guibutton> button, as well as the <keycap>Ctrl + Alt + Delete</keycap> keyboard shortcuts, which opens a dialog and gives access to commands to:</para>
+		<para>The remaining session commands are accessible through the &logout; <guibutton>Log Out</guibutton> button, as well as the <keycap>&key;Ctrl+Alt+Delete</keycap> keyboard shortcuts, which opens a dialog and gives access to commands to:</para>
 		<orderedlist>
 			<listitem><para><guilabel>Log Out</guilabel> - End the current session.</para></listitem>
 			<listitem><para><guilabel>Restart</guilabel> - Restart the computer.</para></listitem>

@@ -20,19 +20,19 @@
 	<para>Xubuntu comes with applications which make it easy for users to install, update, and uninstall software from repositories.</para>
 
 	<itemizedlist>
-		<listitem><para><application>Software Center</application> (<ulink url="apt://gnome-software">install</ulink>) is an app store which is good for new users because it makes it easy to discover desktop applications. The list of available software can be expanded with the installation of plugins for the snap package repository (<ulink url="apt://gnome-software-plugin-snap">install</ulink>) and the flatpak package repository (<ulink url="apt://gnome-software-plugin-flatpak">install</ulink>).</para></listitem>
+		<listitem><para><application>Software Center</application> (<literal>&package;<ulink url="apt://gnome-software">gnome-software</ulink></literal>) is an app store which is good for new users because it makes it easy to discover desktop applications. The list of available software can be expanded with the installation of plugins for the snap package repository (<literal>&package;<ulink url="apt://gnome-software-plugin-snap">gnome-software-plugin-snap</ulink></literal>) and the flatpak package repository (<literal>&package;<ulink url="apt://gnome-software-plugin-flatpak">gnome-software-plugin-flatpak</ulink></literal>).</para></listitem>
 		<listitem><para><application>Snap Store</application> (<ulink url="&snap-store-install;">install</ulink>) is an app store for the management of applications that use the snap package management system. Snap applications are confined for extra security, update automatically, and can run across many different Linux distributions. The Snap Store is also available as a <ulink url="&snap-store-web;">web interface</ulink>.</para></listitem>
-		<listitem><para><application>Synaptic</application> (<ulink url="apt://synaptic">install</ulink>) is a package manager with a GUI (Graphical User Interface) for users who want more control over package management. It has options to view installation history, view packages by repository, and lock a package to a particular version.</para></listitem>
+		<listitem><para><application>Synaptic</application> (<literal>&package;<ulink url="apt://synaptic">synaptic</ulink></literal>) is a package manager with a GUI (Graphical User Interface) for users who want more control over package management. It has options to view installation history, view packages by repository, and lock a package to a particular version.</para></listitem>
 		<listitem><para><application>apt or apt-get</application> is a CLI (Command-Line Interface) tool for package management that provides similar functionality to <application>Synaptic</application> and is beneficial for those who don't have access to a GUI or prefer to use the terminal. For information on the basic <application>apt</application> commands, see the <ulink url="&apt-docs;">Ubuntu apt documentation</ulink>.</para></listitem>
-		<listitem><para><application>snap</application> (<ulink url="apt://snapd">install</ulink>) is a command-line utility for the management of snap packaged applications. For information on the basic <application>snap</application> commands, see the <ulink url="&snap-docs;">Getting started documentation</ulink> and the <ulink url="&snap-installs;">download and offline install tutorial</ulink>.</para></listitem>
+		<listitem><para><application>snap</application> (<literal>&package;<ulink url="apt://snapd">snapd</ulink></literal>) is a command-line utility for the management of snap packaged applications. For information on the basic <application>snap</application> commands, see the <ulink url="&snap-docs;">Getting started documentation</ulink> and the <ulink url="&snap-installs;">download and offline install tutorial</ulink>.</para></listitem>
 	</itemizedlist>
 
-	<note><para>You will need administrative access to add, update, and remove software and you can only utilize one package manager at a time for package management. There are additional app stores and package managers including <ulink url="&flathub;">Flathub</ulink>, <ulink url="&appimagehub;">AppImageHub</ulink>, Ubuntu Mate Software Boutique, <ulink url="&appgrid;">AppGrid</ulink>, Aptitude (<ulink url="apt://aptitude">install</ulink>).</para></note>
+	<note><para>You will need administrative access to add, update, and remove software and you can only utilize one package manager at a time for package management. There are additional app stores and package managers including <ulink url="&flathub;">Flathub</ulink>, <ulink url="&appimagehub;">AppImageHub</ulink>, Ubuntu MATE Software Boutique, <ulink url="&appgrid;">AppGrid</ulink>, Aptitude (<literal>&package;<ulink url="apt://aptitude">aptitude</ulink></literal>).</para></note>
 
 	<section id="gnome-software">
 		<title>Using Software Center</title>
 
-		<para>You can launch the Gnome Software Center from the &appmenu2; (<keycap>Ctrl + Escape</keycap>) or <application>Application Finder</application> (<keycap>Alt + F3</keycap>). It will be named <application>Software</application> and is found by default in the <guilabel>Favorites</guilabel> category, so it will be visible once you open the &appmenu2;.</para>
+		<para>You can launch the GNOME Software Center from the &appmenu2; (<keycap>&key;Ctrl+Escape</keycap>) or <application>Application Finder</application> (<keycap>&key;Alt+F3</keycap>). It will be named <application>Software</application> and is found by default in the <guilabel>Favorites</guilabel> category, so it will be visible once you open the &appmenu2;.</para>
 
 		<informalfigure>
 			<screenshot>
@@ -44,19 +44,19 @@
 			</screenshot>
 		</informalfigure>
 
-		<para>Once launched, you will be on the <guilabel>Explore</guilabel> tab of the <application>Gnome Software</application>, which allows you to browse the categories or click the <guibutton>search</guibutton> button in the title bar, to easily find an application by name or keyword. When you click on an application, you will arrive at its information page, which contains its description, images, website link, reviews, and other details. On this page you have the option to either install, launch, or remove the application, as well as write a review.</para>
+		<para>Once launched, you will be on the <guilabel>Explore</guilabel> tab of the <application>GNOME Software</application>, which allows you to browse the categories or click the <guibutton>search</guibutton> button in the title bar, to easily find an application by name or keyword. When you click on an application, you will arrive at its information page, which contains its description, images, website link, reviews, and other details. On this page you have the option to either install, launch, or remove the application, as well as write a review.</para>
 
 		<para>The other two tabs in the title bar are <guilabel>Installed</guilabel> and <guilabel>Updates</guilabel>. The <guilabel>Installed</guilabel> tab lists all the applications installed on the system and provides easy access to remove them. The <guilabel>Updates</guilabel> tab shows which applications are eligible for updating and it also has a <guibutton>Refresh</guibutton> button in the title bar to search for new updates.</para>
 
 		<caution><para>Some applications depend on others being installed in order to work properly. If you try to remove an application which is needed by another application, both of them will be removed. You will be asked to confirm that this is what you want to happen before the applications are removed.</para></caution>
 
-		<note><para><application>Gnome Software</application> does not remove the software package dependencies that get installed with an application. To remove any dependencies that are no longer needed by the system, run <userinput>sudo apt autoremove</userinput> in a terminal. Before agreeing to the removal, check that the packages being marked for removal are the expected ones.</para></note>
+		<note><para><application>GNOME Software</application> does not remove the software package dependencies that get installed with an application. To remove any dependencies that are no longer needed by the system, run <userinput>sudo apt autoremove</userinput> in a terminal. Before agreeing to the removal, check that the packages being marked for removal are the expected ones.</para></note>
 	</section>
 
 	<section id="software-repositories">
 		<title>Software Repositories</title>
 
-		<para>The Ubuntu software repositories contain thousands of applications curated from the best FOSS (Free and Open Source Software) for both entertainment and productivity. Management of these software repositories and additional ones is possible in the <application>Software &amp; Updates</application> app found in the <guilabel>Settings</guilabel> category of the &appmenu2;, as well as in the &settings2;. It can also be opened through the <guibutton>Gear</guibutton> button menu in the title bar of <application>Gnome Software</application> or the <guibutton>Application</guibutton> button menu found on the left corner of the title bar.</para>
+		<para>The Ubuntu software repositories contain thousands of applications curated from the best FOSS (Free and Open Source Software) for both entertainment and productivity. Management of these software repositories and additional ones is possible in the <application>Software &amp; Updates</application> app found in the <guilabel>Settings</guilabel> category of the &appmenu2;, as well as in the &settings2;. It can also be opened through the <guibutton>Gear</guibutton> button menu in the title bar of <application>GNOME Software</application> or the <guibutton>Application</guibutton> button menu found on the left corner of the title bar.</para>
 
 		<informalfigure>
 			<screenshot>
@@ -74,7 +74,7 @@
 	<section id="installing-third-party-apps">
 		<title>Installing Third-Party Apps</title>
 
-		<para>For applications that aren’t available or outdated in the software repositories, users can visit the software author’s website and download their Linux or Ubuntu installation file. This file will have a .deb file extension and is a Debian software package. Once downloaded, simply open the file, and it will open in <application>Gnome Software</application> with the option to install. Alternatively, it can be installed through the <application>GDebi Package Installer</application> (<ulink url="apt://gdebi">install</ulink>).</para>
+		<para>For applications that aren’t available or outdated in the software repositories, users can visit the software author’s website and download their Linux or Ubuntu installation file. This file will have a .deb file extension and is a Debian software package. Once downloaded, simply open the file, and it will open in <application>GNOME Software</application> with the option to install. Alternatively, it can be installed through the <application>GDebi Package Installer</application> (<literal>&package;<ulink url="apt://gdebi">gdebi</ulink></literal>).</para>
 
 		<para>Some application authors may provide a third-party repository, known as a PPA (Personal Package Archive), which can be added to your system. Other application authors may provide their software in the form of an installable Flatpak or as an AppImage, which runs without installation.</para>
 

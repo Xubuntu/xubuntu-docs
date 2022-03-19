@@ -45,7 +45,7 @@
 			   <title>Write to USB or SD</title>
 			   <para>If you have a USB stick or an SD card with 2 GB of storage or more, you can use one of these apps to write the ISO file:
 			   <ulink url="&download-rufus;">Rufus</ulink> (Windows), <ulink url="&download-etcher;">Etcher</ulink> (Windows, Mac, Linux),
-			   <ulink url="&download-gdisks;">Gnome Disks</ulink> (<ulink url="apt://gnome-disk-utility">apt-install</ulink>).
+			   <ulink url="&download-gdisks;">GNOME Disks</ulink> (<literal>&package;<ulink url="apt://gnome-disk-utility">gnome-disk-utility</ulink></literal>).
 			   For more information on how to write the ISO to USB or SD, please see these guides for
 			   <ulink url="&ubuntu-tutorial-usb-win;">Windows</ulink>, <ulink url="&ubuntu-tutorial-usb-mac;">Mac</ulink> or
 			   <ulink url="&ubuntu-tutorial-usb-lin;">Linux</ulink>.</para>
@@ -56,8 +56,8 @@
 			   <para>If you have a blank DVD disk and a DVD writer drive, you can burn the ISO with one of these apps, if your
 			   operating system doesn’t have the built-in capabilities to do so:
 			   <ulink url="&download-infrarecorder;">InfraRecorder</ulink> (Windows),
-			   <ulink url="&download-brasero;">Brasero</ulink> (<ulink url="apt://brasero">apt-install</ulink>),
-			   <ulink url="&download-xfburn;">Xfburn</ulink> (<ulink url="apt://xfburn">apt-install</ulink>). For more information
+			   <ulink url="&download-brasero;">Brasero</ulink> (<literal>&package;<ulink url="apt://brasero">brasero</ulink></literal>),
+			   <ulink url="&download-xfburn;">Xfburn</ulink> (<literal>&package;<ulink url="apt://xfburn">xfburn</ulink></literal>). For more information
 			   on how to burn the ISO to a DVD, please see these guides for <ulink url="&ubuntu-tutorial-dvd-win;">Windows</ulink>,
 			   <ulink url="&ubuntu-tutorial-dvd-mac;">Mac</ulink> or <ulink url="&ubuntu-tutorial-dvd-lin;">Linux</ulink>.</para>
 		   </section>
@@ -79,7 +79,7 @@
 			<para>Some computers may require additional configuration before the Xubuntu installation medium can be booted.
 			Please refer to this section if you are unable to boot into the installer or if your hardware is not properly detected.</para>
 			<para>Warning: This is an advanced computer feature and should only be attempted with caution.
-			<keycap>F2</keycap> and <keycap>Del</keycap> are common keys to access the BIOS settings.</para>
+			<keycap>&key;F2</keycap> and <keycap>&key;Del</keycap> are common keys to access the BIOS settings.</para>
 			<itemizedlist>
 				<listitem><para>Intel RST</para></listitem>
 				<listitem><para><ulink url="&booting-secure-boot;">Secure Boot</ulink> /
@@ -105,12 +105,12 @@
 			<para>Insert the bootable medium into the respective device (the USB drive in a USB port, the SD card in the SD card reader
 			or the DVD disk in the DVD drive) and restart your computer. If your computer is set to first boot from the bootable medium
 			of your choice, then the medium will automatically boot. If it doesn’t start automatically, please refer to the computer
-			manufacturer’s documentation for entering the boot menu. This could consist of pressing a key, such as <keycap>F12</keycap>,
+			manufacturer’s documentation for entering the boot menu. This could consist of pressing a key, such as <keycap>&key;F12</keycap>,
 			or using a dedicated button on the computer. In some cases, you may need to boot into Windows to access the BIOS. Once you
 			have entered the boot menu, select the appropriate boot medium device.</para>
 			<note><para>The key to press for your computer’s boot menu will depend on the manufacturer of the computer or motherboard.
-			<keycap>F12</keycap> is the most common boot menu key, but other common alternative keys are <keycap>Escape</keycap> and
-			<keycap>F10</keycap>. Less common keys include <keycap>F11</keycap>, <keycap>F9</keycap>, and <keycap>F8</keycap>. If your
+			<keycap>&key;F12</keycap> is the most common boot menu key, but other common alternative keys are <keycap>&key;Escape</keycap> and
+			<keycap>&key;F10</keycap>. Less common keys include <keycap>&key;F11</keycap>, <keycap>&key;F9</keycap>, and <keycap>&key;F8</keycap>. If your
 			computer is not capable of booting through USB, but has a CD or DVD drive, you can utilize
 			<ulink url="&booting-plop;">PLoP</ulink>.</para></note>
 		</section>
@@ -120,7 +120,7 @@
 			<para>Once the bootable media starts, a blank screen will appear with a keyboard and accessibility icons. At this point,
 			you have 5 seconds to press any key to access the installer boot menu, if you wish to. The boot menu will initially present
 			a language selection menu, followed by a simple menu with options to install or try Xubuntu, test memory, boot from the
-			hard disk, as well as other options accessible by pressing the <keycap>F1</keycap> through <keycap>F6</keycap> keys (for
+			hard disk, as well as other options accessible by pressing the <keycap>&key;F1</keycap> through <keycap>&key;F6</keycap> keys (for
 			more information about the Fn keys options, <ulink url="&booting-fn-keys;">click here</ulink>).</para>
 
 			<informalfigure>
@@ -168,13 +168,13 @@
 		<section id="integrity-check">
 			<title>Integrity Check</title>
 			<para>After the initial boot screen, releases of Xubuntu 20.04 and later default to checking the integrity of the install
-			media, which can be skipped by pressing <keycap>Ctrl + C</keycap>. This check is important as it is common for corrupted
+			media, which can be skipped by pressing <keycap>&key;Ctrl+C</keycap>. This check is important as it is common for corrupted
 			installation media to cause failed installations.</para>
 			<note><para>If you get a black screen after the integrity check, reboot your system and select one of the
 			<guilabel>safe graphics</guilabel> options in the GRUB menu. This sometimes happens when graphics cards don’t work
 			properly with their open source drivers. If this happens after installation with your NVidia graphics card, select the
 			‘recovery mode’ option in the GRUB menu and then install the proprietary NVidia graphics driver from the
-			<guilabel>Additional Drivers</guilabel> app.</para></note>
+			<application>Additional Drivers</application> app.</para></note>
 
 			<informalfigure>
 				<screenshot>
@@ -262,7 +262,7 @@
 			unselected during installation, you can open the Software &amp; Updates app after the installation,
 			enable the <guibutton>Proprietary drivers for devices (restricted)</guibutton> repository on the Ubuntu Software tab,
 			and then install the drivers on the <guilabel>Additional Drivers</guilabel> tab to install drivers. You would also need
-			to install the ubuntu-restricted-extras package.</para></note>
+			to install the <literal>&package;<ulink url="apt://ubuntu-restricted-extras">ubuntu-restricted-extras</ulink></literal> package.</para></note>
 		</section>
 
 		<section id="disk-space-allocation">
@@ -392,7 +392,7 @@
 			</informalfigure>
 
 			<note><para>It is recommended to store your passwords in a password manager application, like
-			<ulink url="&download-keepassxc;">KeePassXC</ulink> (<ulink url="apt://keepassxc">apt-install</ulink>) or
+			<ulink url="&download-keepassxc;">KeePassXC</ulink> (<literal>&package;<ulink url="apt://keepassxc">keepassxc</ulink></literal>) or
 			<ulink url="&download-bitwarden;">Bitwarden</ulink>, which can also generate passwords for you.</para></note>
 		</section>
 
@@ -427,7 +427,7 @@
 			<title>Installation Completion</title>
 			<para>After all the files have been copied to the hard disk and the configurations have been set, a dialog window will
 			appear asking to restart the computer. Click the <guibutton>Restart Now</guibutton> button and you will be prompted to
-			remove the installation medium and press Enter to restart.</para>
+			remove the installation medium and press <keycap>&key;Enter</keycap> to restart.</para>
 
 			<informalfigure>
 				<screenshot>

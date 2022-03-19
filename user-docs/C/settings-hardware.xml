@@ -94,12 +94,12 @@
 			<para>For color-sensitive work, the <application>Color Profiles</application> settings dialog allows you to install and manage color profiles for your displays, printers, and scanners. In order for color profiles to be used, the required daemon will need to be installed and running in the background:</para>
 
 			<itemizedlist>
-				<listitem><para><guilabel>xiccd</guilabel> (<ulink url="apt://xiccd">install</ulink>) for display profiles</para></listitem>
-				<listitem><para><guilabel>cupsd</guilabel> (<ulink url="apt://cupsd">install</ulink>) for printer profiles</para></listitem>
-				<listitem><para><guilabel>saned</guilabel> (<ulink url="apt://saned">install</ulink>) for scanner profiles</para></listitem>
+				<listitem><para><literal>&package;<ulink url="apt://xiccd">xiccd</ulink></literal> for display profiles</para></listitem>
+				<listitem><para><literal>&package;<ulink url="apt://cupsd">cupsd</ulink></literal> for printer profiles</para></listitem>
+				<listitem><para><literal>&package;<ulink url="apt://saned">saned</ulink></literal> for scanner profiles</para></listitem>
 			</itemizedlist>
 
-			<para>To calibrate your display, you will need to install <ulink url="https://displaycal.net/#download">DisplayCAL</ulink>, Gnome Color Manager (<ulink url="apt://gnome-color-manager">install</ulink>) with a ColorHug device, or a similar tool. If you would like to add a “night-mode” or “blue-blocker” feature, that will automatically transition the color temperature of the display throughout the day, you can install RedShift (<ulink url="apt://redshift">install</ulink>).</para>
+			<para>To calibrate your display, you will need to install <ulink url="https://displaycal.net/#download">DisplayCAL</ulink>, GNOME Color Manager (<literal>&package;<ulink url="apt://gnome-color-manager">gnome-color-manager</ulink></literal>) with a ColorHug device, or a similar tool. If you would like to add a “night-mode” or “blue-blocker” feature, that will automatically transition the color temperature of the display throughout the day, you can install RedShift (<literal>&package;<ulink url="apt://redshift">redshift</ulink></literal>).</para>
 		</section>
 	</section>
 
@@ -187,7 +187,7 @@
 				<listitem><para>Input Devices - Lists audio input devices and allows the adjustment of their input source, volume, and latency.</para></listitem>
 			</itemizedlist>
 
-			<note><para>Note: To enable system sounds, open the <application>Appearance</application> settings dialog, change to the <guilabel>Settings</guilabel> tab and enable ‘Enable event sounds’. Install one of the sound themes, such as FreeDesktop (<ulink url="apt://sound-theme-freedesktop">install</ulink>), Yaru (<ulink url="apt://yaru-theme-sound">install</ulink>) or Pop (<ulink url="apt://pop-sound-theme">install</ulink>). If you use a sound theme other than FreeDesktop, open <application>Settings Editor</application>, change to <guilabel>xsettings</guilabel> in the left side pane, and under the <guilabel>Net</guilabel> category, edit the <guilabel>SoundThemeName</guilabel> value to the name of the sound theme.</para></note>
+			<note><para>Note: To enable system sounds, open the <application>Appearance</application> settings dialog, change to the <guilabel>Settings</guilabel> tab and enable ‘Enable event sounds’. Install one of the sound themes, such as FreeDesktop (<literal>&package;<ulink url="apt://sound-theme-freedesktop">sound-theme-freedesktop</ulink></literal>), Yaru (<literal>&package;<ulink url="apt://yaru-theme-sound">yaru-theme-sound</ulink></literal>) or Pop (<literal>&package;<ulink url="apt://pop-sound-theme">pop-sound-theme</ulink></literal>). If you use a sound theme other than FreeDesktop, open <application>Settings Editor</application>, change to <guilabel>xsettings</guilabel> in the left side pane, and under the <guilabel>Net</guilabel> category, edit the <guilabel>SoundThemeName</guilabel> value to the name of the sound theme.</para></note>
 		</section>
 	</section>
 

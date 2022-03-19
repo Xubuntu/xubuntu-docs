@@ -84,7 +84,7 @@
 
 		<para>To change your profile image, click the <guibutton>image</guibutton> button on the left of the GUI, select one of the given options and follow the instructions.</para>
 
-		<note><para>Mugshot requires the installation of <literal>&package;gstreamer1.0-tools</literal> package to use the <guilabel>Capture from camera...</guilabel> feature.</para></note>
+		<note><para>Mugshot requires the installation of <literal>&package;<ulink url="apt://gstreamer1.0-tools">gstreamer1.0-tools</ulink></literal> package to use the <guilabel>Capture from camera...</guilabel> feature.</para></note>
 
 		<para>Fill the text-fields with the required personal data and click <guibutton>Apply</guibutton>. When applying these details with <application>Pidgin</application> and/or LibreOffice installed, you will be prompted to update their settings as well.</para>
 

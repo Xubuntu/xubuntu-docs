@@ -16,7 +16,7 @@
 	<section id="printing">
 		<title>Printing</title>
 
-		<para>The majority of consumer printers are automatically supported by Xubuntu, as it uses the CUPS (Common UNIX Printing System) back-end. This includes support for driver-less WiFi/wired network printing with printers that support IPP Everywhere and Apple AirPrint. If your printer is not immediately supported by Xubuntu you may need to install additional software, such as Gutenprint (<ulink url="apt://apt://printer-driver-gutenprint">install</ulink>) and IPP-USB (<ulink url="https://software.opensuse.org//download.html?project=home%3Apzz&amp;package=ipp-usb">install</ulink>). Gutenprint extends CUPS by providing support for printers seen less often in end-user consumer settings, while IPP-USB is a more robust replacement to the default installation of the <literal>&package;ippusbxd</literal> package. Normally CUPS and Gutenprint support is better adapted to Xubuntu than what will be available from the printer manufacturer.</para>
+		<para>The majority of consumer printers are automatically supported by Xubuntu, as it uses the CUPS (Common UNIX Printing System) back-end. This includes support for driver-less WiFi/wired network printing with printers that support IPP Everywhere and Apple AirPrint. If your printer is not immediately supported by Xubuntu you may need to install additional software, such as Gutenprint (<literal>&package;<ulink url="apt://printer-driver-gutenprint">printer-driver-gutenprint</ulink></literal>) and IPP-USB (<ulink url="https://software.opensuse.org//download.html?project=home%3Apzz&amp;package=ipp-usb">install</ulink>). Gutenprint extends CUPS by providing support for printers seen less often in end-user consumer settings, while IPP-USB is a more robust replacement to the default installation of the <literal>&package;ippusbxd</literal> package. Normally CUPS and Gutenprint support is better adapted to Xubuntu than what will be available from the printer manufacturer.</para>
 
 		<section id="printing-managing-your-printer">
 			<title>Managing Your Printer</title>
@@ -101,7 +101,7 @@
 		<section id="printing-management-software">
 			<title>Management Software</title>
 
-			<para>If you have an HP (Hewlett Packard) printer and would like additional software to manage it, you can install the <guilabel>HP Linux Imaging and Printing (HPLIP) GUI utilities</guilabel> (<ulink url="apt://hplip-gui">install</ulink>). These utilities include the <application>HPLIP Toolbox</application> application which will be found in the <guilabel>Settings</guilabel> category of the &appmenu2; and the <guilabel>Others</guilabel> category of the &settings2;. On supported inkjet printers, you will be able to monitor ink levels, check printer status, change page size and print quality, as well as clean the printer heads. On supported laser printers you will be able to monitor toner level, check printer status, change page size, and manage print quality. For all-in-one (multi-function) devices, you will be able to change fax settings and functionality. For more information about HPLIP <ulink url="https://developers.hp.com/hp-linux-imaging-and-printing/features">click here</ulink>.</para>
+			<para>If you have an HP (Hewlett Packard) printer and would like additional software to manage it, you can install the <guilabel>HP Linux Imaging and Printing (HPLIP) GUI utilities</guilabel> (<literal>&package;<ulink url="apt://hplip-gui">hplib-gui</ulink></literal>). These utilities include the <application>HPLIP Toolbox</application> application which will be found in the <guilabel>Settings</guilabel> category of the &appmenu2; and the <guilabel>Others</guilabel> category of the &settings2;. On supported inkjet printers, you will be able to monitor ink levels, check printer status, change page size and print quality, as well as clean the printer heads. On supported laser printers you will be able to monitor toner level, check printer status, change page size, and manage print quality. For all-in-one (multi-function) devices, you will be able to change fax settings and functionality. For more information about HPLIP <ulink url="https://developers.hp.com/hp-linux-imaging-and-printing/features">click here</ulink>.</para>
 
 			<informalfigure>
 				<screenshot>
@@ -177,7 +177,7 @@
 			<para>There are some scanners that have incomplete drivers from the SANE project. They can sometimes be used, but not all the features may work. For these scanners:</para>
 
 			<itemizedlist>
-				<listitem><para>Install the <literal>&package;libsane-extras</literal> package.</para></listitem>
+				<listitem><para>Install the <literal>&package;<ulink url="apt://libsane-extras">libsane-extras</ulink></literal> package.</para></listitem>
 				<listitem><para>Run <userinput>pkexec mousepad /etc/sane.d/dll.conf</userinput> at the command line to open the SANE driver file for editing.</para></listitem>
 				<listitem><para>Enable the correct driver for your scanner by removing the <literal>#</literal> from in front of the name of the driver. You may need to search the web to find out which driver is the right one.</para></listitem>
 				<listitem><para>Save the file and open <application>Simple Scan</application>. If all goes well, your scanner will now work.</para></listitem>

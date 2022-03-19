@@ -32,7 +32,7 @@
 			<title>Windows applications on Linux</title>
 			<para>It is possible to run Windows applications under Xubuntu. Three popular choices are:</para>
 			<itemizedlist>
-				<listitem><para><ulink url="&wine-web;">Wine</ulink> (<ulink url="apt://wine">install</ulink>), the Windows emulator. Wine allows running Windows applications without having to install a Windows operating system. Refer to the <ulink url="&wine-appdb;">Wine AppDB</ulink> to find out which applications will run on Wine and the <ulink url="&wine-docs;">Wine documentation</ulink> for FAQ's and user support.</para></listitem>
+				<listitem><para><ulink url="&wine-web;">Wine</ulink> (<literal>&package;<ulink url="apt://wine">wine</ulink></literal>), the Windows emulator. Wine allows running Windows applications without having to install a Windows operating system. Refer to the <ulink url="&wine-appdb;">Wine AppDB</ulink> to find out which applications will run on Wine and the <ulink url="&wine-docs;">Wine documentation</ulink> for FAQ's and user support.</para></listitem>
 				<listitem><para><ulink url="&play-on-linux-web;">PlayOnLinux</ulink> is an easy to use frontend for Wine, which makes it easy to install popular Windows applications.</para></listitem>
 				<listitem><para><ulink url="&vbox-web;">VirtualBox</ulink>, virtualization software. You can install a Windows operating system along with any application into a virtual machine managed by VirtualBox. Note that 3D support on VirtualBox is still quite unreliable. To read more about VirtualBox and virtualization, refer to the <ulink url="&vbox-docs;">VirtualBox end-user documentation</ulink>.</para></listitem>
 			</itemizedlist>
@@ -49,7 +49,7 @@
 				<listitem><para>&gigolo;, which allows you to save bookmarks and manage remote file systems. To connect, click the first toolbar button. Select <guilabel>Windows Share</guilabel> from <guilabel>Service Type</guilabel>, then enter the remote share's details.</para></listitem>
 			</itemizedlist>
 
-			<para>If some options are not available or do not work, ensure that the <literal>&package;gvfs-backends</literal> is installed.</para>
+			<para>If some options are not available or do not work, ensure that the <literal>&package;<ulink url="apt://gvfs-backends">gvfs-backends</ulink></literal> is installed.</para>
 		</section>
 	</section>
 

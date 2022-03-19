@@ -89,9 +89,9 @@
 				<listitem><para><guibutton>Items</guibutton> - This tab allows you to add, arrange, and remove plugins, as well as access plugin properties through the button bar. It is also possible to rearrange items by dragging with the mouse, and access properties by double-clicking.</para></listitem>
 			</itemizedlist>
 
-			<para>It is possible to install additional panel plugins, also known as panel applets. Panel plugins not listed in the <guilabel>Add New Items</guilabel> dialog will need to be installed before they can be used. Some of the plugins are <ulink url="https://docs.xfce.org/xfce/xfce4-panel/start#external_plugins">listed here</ulink> and the more popular/useful ones are for clipboard management (<ulink url="apt://xfce4-clipman-plugin">install</ulink>), global menu (<ulink url="apt://xfce4-appmenu-plugin">install</ulink>), etc.</para>
+			<para>It is possible to install additional panel plugins, also known as panel applets. Panel plugins not listed in the <guilabel>Add New Items</guilabel> dialog will need to be installed before they can be used. Some of the plugins are <ulink url="https://docs.xfce.org/xfce/xfce4-panel/start#external_plugins">listed here</ulink> and the more popular/useful ones are for clipboard management (<literal>&package;<ulink url="apt://xfce4-clipman-plugin">xfce4-clipman-plugin</ulink></literal>), global menu (<literal>&package;<ulink url="apt://xfce4-appmenu-plugin">xfce4-appmenu-plugin</ulink></literal>), etc.</para>
 
-			<para>Users who want a dock similar to the one found on Mac OS and elementary OS can choose from these docks - Plank (<ulink url="apt://plank">install</ulink>), DockbarX (<ulink url="https://launchpad.net/~xuzhen666/+archive/ubuntu/dockbarx">PPA</ulink>), Docky, or Cairo Dock. Users who want a Windows 7-like taskbar with window list buttons can install the DockbarX (<ulink url="https://launchpad.net/~xuzhen666/+archive/ubuntu/dockbarx">PPA</ulink>) or Docklike (<ulink url="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/extras">PPA</ulink>) panel plugins. Below are sample layouts customized by Xubuntu users.</para>
+			<para>Users who want a dock similar to the one found on Mac OS and elementary OS can choose from these docks - Plank (<literal>&package;<ulink url="apt://plank">plank</ulink></literal>), DockbarX (<ulink url="https://launchpad.net/~xuzhen666/+archive/ubuntu/dockbarx">PPA</ulink>), Docky, or Cairo Dock. Users who want a Windows 7-like taskbar with window list buttons can install the DockbarX (<ulink url="https://launchpad.net/~xuzhen666/+archive/ubuntu/dockbarx">PPA</ulink>) or Docklike (<ulink url="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/extras">PPA</ulink>) panel plugins. Below are sample layouts customized by Xubuntu users.</para>
 
 			<informalfigure>
 				<screenshot>
@@ -293,7 +293,7 @@
 
 			<note>
 				<para>Not all icon themes will work well with dark panels and window backgrounds.</para>
-				<para>If you install applications that use the <ulink url="https://en.wikipedia.org/wiki/Qt_(software)">Qt UI toolkit</ulink>, such as Qbittorrent or Clementine, the Qt5 Settings (<ulink url="apt://qt5ct">install</ulink>) utility will allow you to configure their theming, while the qt5-style-plugins (<ulink url="apt://qt5-style-plugins">install</ulink>) package will use the current theme on Qt apps.</para>
+				<para>If you install applications that use the <ulink url="https://en.wikipedia.org/wiki/Qt_(software)">Qt UI toolkit</ulink>, such as Qbittorrent or Clementine, the Qt5 Settings (<literal>&package;<ulink url="apt://qt5ct">qt5ct</ulink></literal>) utility will allow you to configure their theming, while the <literal>&package;<ulink url="apt://qt5-style-plugins">qt5-style-plugins</ulink></literal> package will use the current theme on Qt apps.</para>
 				<para>If you’d like to change the theme of the mouse cursor, open the <guilabel>Theme</guilabel> tab of the <application>Mouse and Touchpad</application> app.</para>
 			</note>
 
@@ -326,8 +326,8 @@
 			<para>If the default selection of themes doesn't satisfy you, you can easily download and install new themes. Sometimes window decoration and UI control themes will come bundled together as a single Gtk theme, while Icon themes may also include a mouse cursor theme. You can find new themes in the software repositories, such as:</para>
 
 			<itemizedlist>
-				<listitem><para>UI themes - Adapta (<ulink url="apt://adapta-gtk-theme">install</ulink>), Arc (<ulink url="apt://arc-theme">install</ulink>), Materia (<ulink url="apt://materia-gtk-theme">install</ulink>)</para></listitem>
-				<listitem><para>Icon themes - Papirus (<ulink url="apt://papirus-icon-theme">install</ulink>), Numix Circle (<ulink url="apt://numix-icon-theme-circle">install</ulink>), Moka (<ulink url="apt://moka-icon-theme">install</ulink>)</para></listitem>
+				<listitem><para>UI themes - Adapta (<literal>&package;<ulink url="apt://adapta-gtk-theme">adapta-gtk-theme</ulink></literal>), Arc (<literal>&package;<ulink url="apt://arc-theme">arc-theme</ulink></literal>), Materia (<literal>&package;<ulink url="apt://materia-gtk-theme">materia-gtk-theme</ulink></literal>)</para></listitem>
+				<listitem><para>Icon themes - Papirus (<literal>&package;<ulink url="apt://papirus-icon-theme">papirus-icon-theme</ulink></literal>), Numix Circle (<literal>&package;<ulink url="apt://numix-icon-theme-circle">numix-icon-theme-circle</ulink></literal>), Moka (<literal>&package;<ulink url="apt://moka-icon-theme">moka-icon-theme</ulink></literal>)</para></listitem>
 			</itemizedlist>
 
 			<para>Additional themes can be found on the Internet, as <literal>&package;.deb</literal> Debian package files, in PPA software repositories, on websites like <ulink url="http://xfce-look.org/">Xfce-look.org</ulink> and Github.com, or from the theme author’s website. Here are some popular choices:</para>

@@ -115,7 +115,7 @@
 
 				<itemizedlist>
 					<listitem><para>Obtain the Windows driver for your network device and locate the file that ends with <literal>.inf</literal></para></listitem>
-					<listitem><para>Install the <literal>&package;ndisgtk</literal> package</para></listitem>
+					<listitem><para>Install the <literal>&package;<ulink url="apt://ndisgtk">ndisgtk</ulink></literal> package</para></listitem>
 					<listitem><para>Go to &wm-settings-ndisgtk;</para></listitem>
 					<listitem><para>Select <guibutton>Install new driver</guibutton></para></listitem>
 					<listitem><para>Choose the location of your Windows .inf file and click <guibutton>Install</guibutton></para></listitem>

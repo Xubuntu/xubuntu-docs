@@ -14,7 +14,7 @@
 <chapter id="guide-default-apps">
 	<title>Default Applications</title>
 
-    <para>Xubuntu comes with a collection of preinstalled applications curated by the Xubuntu team which are accessible from the &appmenu; <guibutton>Applications Menu</guibutton> (<keycap>Ctrl + Escape</keycap>) as well as the <application>Application Finder</application> (<keycap>Alt + F3</keycap> or <keycap>Super + R</keycap>).</para>
+    <para>Xubuntu comes with a collection of preinstalled applications curated by the Xubuntu team which are accessible from the &appmenu; <guibutton>Applications Menu</guibutton> (<keycap>&key;Ctrl+Escape</keycap>) as well as the <application>Application Finder</application> (<keycap>&key;Alt+F3</keycap> or <keycap>&key;Super+R</keycap>).</para>
 
     <section id="favorites">
         <title>Favorites &icon-favorites;</title>
@@ -32,31 +32,31 @@
 
         <para>Links: <ulink url="&catfish-web;">Website</ulink>, <ulink url="&catfish-doc;">Documentation</ulink>, <ulink url="&bluesabre-don;">Donate</ulink></para>
 
-        <para>Alternatives: MATE Search (<ulink url="apt://mate-utils">install</ulink>), <ulink url="&fsearch;">FSearch</ulink>, <ulink url="&angrysearch;">ANGRYsearch</ulink>, <ulink url="&recoll;">Recoll</ulink></para>
+        <para>Alternatives: MATE Search (<literal>&package;<ulink url="apt://mate-utils">mate-utils</ulink></literal>), <ulink url="&fsearch;">FSearch</ulink>, <ulink url="&angrysearch;">ANGRYsearch</ulink>, <ulink url="&recoll;">Recoll</ulink></para>
 
-        <note><para>The search results can be enhanced by the installation of <literal>&package;zeitgeist</literal> user activity logging service (<ulink url="apt://zeitgeist">install</ulink>).</para></note>
+        <note><para>The search results can be enhanced by the installation of <literal>&package;zeitgeist</literal> user activity logging service (<literal>&package;<ulink url="apt://zeitgeist">zeitgeist</ulink></literal>).</para></note>
 
         <para>&icon-apps-mate-engrampa; <application>Engrampa</application> is an archive manager which provides the ability to create, view, modify, and extract data from archive files such as .zip and .gz files.</para>
 
-        <para>Alternatives: File Roller (<ulink url="apt://file-roller">install</ulink>), Xarchiver (<ulink url="apt://xarchiver">install</ulink>)</para>
+        <para>Alternatives: File Roller (<literal>&package;<ulink url="apt://file-roller">file-roller</ulink></literal>), Xarchiver (<literal>&package;<ulink url="apt://xarchiver">xarchiver</ulink></literal>)</para>
 
-        <note><para>To open a .RAR file, the <literal>&package;p7zip-rar</literal> package is required (<ulink url="apt://p7zip-rar">install</ulink>).</para></note>
+        <note><para>To open a .RAR file, the <literal>&package;<ulink url="apt://p7zip-rar">p7zip-rar</ulink></literal> package is required.</para></note>
 
-        <para>&icon-apps-mate-calc; <application>Mate Calculator</application> is designed to resemble a hand-held calculator and has basic, advanced, financial, and programming modes.</para>
+        <para>&icon-apps-mate-calc; <application>MATE Calculator</application> is designed to resemble a hand-held calculator and has basic, advanced, financial, and programming modes.</para>
 
-        <para>Alternatives: Galculator (<ulink url="apt://galculator">install</ulink>), Gnome Calculator (<ulink url="apt://gnome-calculator">install</ulink>), Speedcrunch (<ulink url="apt://speedcrunch">install</ulink>)</para>
+        <para>Alternatives: Galculator (<literal>&package;<ulink url="apt://galculator">galculator</ulink></literal>), GNOME Calculator (<literal>&package;<ulink url="apt://gnome-calculator">gnome-calculator</ulink></literal>), Speedcrunch (<literal>&package;<ulink url="apt://speedcrunch">speedcrunch</ulink></literal>)</para>
 
         <para>&icon-apps-xfce-mousepad; <application>Mousepad</application> is a simple text editor with features for displaying line numbers and white space, word wrapping, source code syntax highlighting, etc.</para>
 
         <para>Links: <ulink url="&mousepad-web;">Website</ulink>, <ulink url="&mousepad-don;">Documentation</ulink></para>
 
-        <para>Alternatives: Pluma (<ulink url="apt://pluma">install</ulink>), GEdit (<ulink url="apt://gedit">install</ulink>), Geany (<ulink url="apt://geany">install</ulink>), <ulink url="&vscode;">Visual Studio Code</ulink></para>
+        <para>Alternatives: Pluma (<literal>&package;<ulink url="apt://pluma">pluma</ulink></literal>), GEdit (<literal>&package;<ulink url="apt://gedit">gedit</ulink></literal>), Geany (<literal>&package;<ulink url="apt://geany">geany</ulink></literal>), <ulink url="&vscode;">Visual Studio Code</ulink></para>
 
         <para>&icon-apps-xfce-screenshooter; <application>Screenshot</application> is a screen capture utility that lets you capture the entire screen, an active application window, or a region of the screen.</para>
 
         <para>Links: <ulink url="&screensaver-web;">Website</ulink>, <ulink url="&screensaver-don;">Documentation</ulink></para>
 
-        <note><para>The three capture modes can be activated with the <keycap>PrintScreen</keycap>, <keycap>Alt + PrintScreen</keycap> and <keycap>Shift + PrintScreen</keycap> keyboard shortcuts, respectively.</para></note>
+        <note><para>The three capture modes can be activated with the <keycap>&key;PrintScreen</keycap>, <keycap>&key;Alt+PrintScreen</keycap> and <keycap>&key;Shift+PrintScreen</keycap> keyboard shortcuts, respectively.</para></note>
 
     </section>
 
@@ -81,13 +81,13 @@
 
         <para>Links: <ulink url="&gimp-web;">Website</ulink>, <ulink url="&gimp-doc;">Documentation</ulink>, <ulink url="&gimp-don;">Donate</ulink></para>
 
-        <para>Alternatives: Krita (<ulink url="apt://krita">install</ulink>), MyPaint (<ulink url="apt://mypaint">install</ulink>), <ulink url="&photoshop;">Adobe Photoshop</ulink></para>
+        <para>Alternatives: Krita (<literal>&package;<ulink url="apt://krita">krita</ulink></literal>), MyPaint (<literal>&package;<ulink url="apt://mypaint">mypaint</ulink></literal>), <ulink url="&photoshop;">Adobe Photoshop</ulink></para>
 
         <para>&icon-apps-xfce-ristretto; <application>Ristretto</application> is an image viewer with basic editing features, slideshow capabilities, and the ability to set an image as the desktop wallpaper.</para>
 
         <para>Links: <ulink url="&ristretto-web;">Website</ulink>, <ulink url="&ristretto-doc;">Documentation</ulink></para>
 
-        <para>Alternatives: Eye of Mate (<ulink url="apt://eom">install</ulink>), gThumb (<ulink url="apt://gthumb">install</ulink>), Gpicview (<ulink url="apt://gpicview">install</ulink>), nomacs (<ulink url="apt://nomacs">install</ulink>)</para>
+        <para>Alternatives: Eye of MATE (<literal>&package;<ulink url="apt://eom">eom</ulink></literal>), gThumb (<literal>&package;<ulink url="apt://gthumb">gthumb</ulink></literal>), Gpicview (<literal>&package;<ulink url="apt://gpicview">gpicview</ulink></literal>), nomacs (<literal>&package;<ulink url="apt://nomacs">nomacs</ulink></literal>)</para>
 
     </section>
 
@@ -98,23 +98,23 @@
 
         <para>Links: <ulink url="&firefox-web;">Website</ulink>, <ulink url="&firefox-doc;">Documentation</ulink>, <ulink url="&firefox-don;">Donate</ulink></para>
 
-        <para>Alternatives: Chromium (<ulink url="apt://chromium-browser">install</ulink>), <ulink url="&browser-chrome;">Google Chrome</ulink>, <ulink url="&browser-opera;">Opera</ulink>, <ulink url="&browser-vivaldi;">Vivaldi</ulink>, <ulink url="&browser-brave;">Brave</ulink></para>
+        <para>Alternatives: Chromium (<literal>&package;<ulink url="apt://chromium-browser">chromium-browser</ulink></literal>), <ulink url="&browser-chrome;">Google Chrome</ulink>, <ulink url="&browser-opera;">Opera</ulink>, <ulink url="&browser-vivaldi;">Vivaldi</ulink>, <ulink url="&browser-brave;">Brave</ulink></para>
 
         <para>&icon-apps-pidgin; <application>Pidgin</application> is a multi-platform instant messaging client capable of connecting with XMPP, Google Talk, IRC, ICQ and more.</para>
 
         <para>Links: <ulink url="&pidgin-web;">Website</ulink>, <ulink url="&pidgin-doc;">Documentation</ulink>, <ulink url="&pidgin-don;">Donate</ulink></para>
 
-        <para>Alternatives: Telegram (<ulink url="apt://telegram-desktop">install</ulink>), Empathy (<ulink url="apt://empathy">install</ulink>), <ulink url="&skype;">Skype</ulink>, <ulink url="&zoom;">Zoom</ulink></para>
+        <para>Alternatives: Telegram (<literal>&package;<ulink url="apt://telegram-desktop">telegram-desktop</ulink></literal>), Empathy (<literal>&package;<ulink url="apt://empathy">empathy</ulink></literal>), <ulink url="&skype;">Skype</ulink>, <ulink url="&zoom;">Zoom</ulink></para>
 
         <para>&icon-apps-thunderbird; <application>Thunderbird</application> is a versatile mail client which can handle multiple email accounts and different identities simultaneously. Like Firefox, it can also be enhanced with add-ons to extend its functionality.</para>
 
         <para>Links: <ulink url="&thunder-web;">Website</ulink>, <ulink url="&thunder-doc;">Documentation</ulink>, <ulink url="&thunder-don;">Donate</ulink></para>
 
-        <para>Alternatives: Geary (<ulink url="apt://geary">install</ulink>), Claws Mail (<ulink url="apt://claws-mail">install</ulink>), Evolution (<ulink url="apt://evolution">install</ulink>), Sylpheed (<ulink url="apt://sylpheed">install</ulink>)</para>
+        <para>Alternatives: Geary (<literal>&package;<ulink url="apt://geary">geary</ulink></literal>), Claws Mail (<literal>&package;<ulink url="apt://claws-mail">claws-mail</ulink></literal>), Evolution (<literal>&package;<ulink url="apt://evolution">evolution</ulink></literal>), Sylpheed (<literal>&package;<ulink url="apt://sylpheed">sylpheed</ulink></literal>)</para>
 
         <para>&icon-apps-transmission; <application>Transmission</application> is a simple BitTorrent client for downloading and sharing files which also provides a web interface.</para>
 
-        <para>Alternatives: qBittorrent (<ulink url="apt://qbittorrent">install</ulink>), Deluge (<ulink url="apt://deluge">install</ulink>), <ulink url="&tixati;">Tixati</ulink>, <ulink url="&fragments;">Fragments</ulink></para>
+        <para>Alternatives: qBittorrent (<literal>&package;<ulink url="apt://qbittorrent">qbittorrent</ulink></literal>), Deluge (<literal>&package;<ulink url="apt://deluge">deluge</ulink></literal>), <ulink url="&tixati;">Tixati</ulink>, <ulink url="&fragments;">Fragments</ulink></para>
 
     </section>
 
@@ -125,13 +125,13 @@
 
         <para>Links: <ulink url="&parole-web;">Website</ulink>, <ulink url="&parole-doc;">Documentation</ulink>, <ulink url="&bluesabre-don;">Donate</ulink></para>
 
-        <para>Alternatives: VLC (<ulink url="apt://vlc">install</ulink>), SMPlayer (<ulink url="apt://smplayer">install</ulink>), Celluloid (<ulink url="apt://celluloid">install</ulink>).</para>
+        <para>Alternatives: VLC (<literal>&package;<ulink url="apt://vlc">vlc</ulink></literal>), SMPlayer (<literal>&package;<ulink url="apt://smplayer">smplayer</ulink></literal>), Celluloid (<literal>&package;<ulink url="apt://celluloid">celluloid</ulink></literal>).</para>
 
-        <note><para>In order to play some proprietary media formats, such as MP3, the <literal>&package;ubuntu-restricted-extras</literal> is required (<ulink url="apt://ubuntu-restricted-extras">install</ulink>).</para></note>
+        <note><para>In order to play some proprietary media formats, such as MP3, the <literal>&package;ubuntu-restricted-extras</literal> is required (<literal>&package;<ulink url="apt://ubuntu-restricted-extras">ubuntu-restricted-extras</ulink></literal>).</para></note>
 
         <para>&icon-apps-xfce-xfburn; <application>Xfburn</application> is a program for creating audio discs and writing ISO files to CDs and DVDs.</para>
 
-        <para>Alternatives: Brasero (<ulink url="apt://brasero">install</ulink>), K3b (<ulink url="apt://k3b">install</ulink>)</para>
+        <para>Alternatives: Brasero (<literal>&package;<ulink url="apt://brasero">brasero</ulink></literal>), K3b (<literal>&package;<ulink url="apt://k3b">k3b</ulink></literal>)</para>
 
     </section>
 
@@ -140,7 +140,7 @@
 
         <para>&icon-apps-mate-atril; <application>Atril</application> is a document reader that is capable of opening multiple-page document files, such as PDF, XPS, ePub, and Comic Books.</para>
 
-        <para>Alternatives: Evince (<ulink url="apt://evince">install</ulink>), Okular (<ulink url="apt://okular">install</ulink>), Zathura (<ulink url="apt://zathura">install</ulink>)</para>
+        <para>Alternatives: Evince (<literal>&package;<ulink url="apt://evince">evince</ulink></literal>), Okular (<literal>&package;<ulink url="apt://okular">okular</ulink></literal>), Zathura (<literal>&package;<ulink url="apt://zathura">zathura</ulink></literal>)</para>
 
         <para>&icon-apps-libreoffice; <application>LibreOffice</application> is an office suite which has programs for word processing (Writer), spreadsheets (Calc), presentations (Impress), diagrams (Draw), mathematical formulae (Math) and databases. It is a continuation of Open Office.</para>
 
@@ -162,18 +162,18 @@
 
         <para>&icon-apps-gparted; <application>GParted</application> is a partition manager that allows you to create, resize, format and delete partitions.</para>
 
-        <para>Alternatives: Gnome Disks (<ulink url="apt://gnome-disk-utility">install</ulink>), KDE Partition Manager (<ulink url="apt://partitionmanager">install</ulink>)</para>
+        <para>Alternatives: GNOME Disks (<literal>&package;<ulink url="apt://gnome-disk-utility">gnome-disk-utility</ulink></literal>), KDE Partition Manager (<literal>&package;<ulink url="apt://partitionmanager">partitionmanager</ulink></literal>)</para>
 
 
-        <note><para><application>GParted</application> is only present in the live installer, but can be installed after installation (<ulink url="apt://gparted">install</ulink>).</para></note>
+        <note><para><application>GParted</application> is only present in the live installer, but can be installed after installation (<literal>&package;<ulink url="apt://gparted">gparted</ulink></literal>).</para></note>
 
         <para>&icon-apps-xfce-taskmanager; <application>Task Manager</application> provides a graphical overview of the running applications and shows the percentage of CPU and RAM that is currently being utilized.</para>
 
-        <para>Alternatives: Gnome System Monitor (<ulink url="apt://gnome-system-monitor">install</ulink>), Mate System Monitor (<ulink url="apt://mate-system-monitor">install</ulink>), LXTask (<ulink url="apt://lxtask">install</ulink>).</para>
+        <para>Alternatives: GNOME System Monitor (<literal>&package;<ulink url="apt://gnome-system-monitor">gnome-system-monitor</ulink></literal>), MATE System Monitor (<literal>&package;<ulink url="apt://mate-system-monitor">mate-system-monitor</ulink></literal>), LXTask (<literal>&package;<ulink url="apt://lxtask">lxtask</ulink></literal>).</para>
 
         <para>&icon-apps-xfce-thunar; <application>Thunar</application> is a file manager that allows you to browse the filesystem.</para>
 
-        <para>Alternatives: Caja (<ulink url="apt://caja">install</ulink>), Nemo (<ulink url="apt://nemo">install</ulink>), PCManFM (<ulink url="apt://pcmanfm">install</ulink>), Nautilus (<ulink url="apt://nautilus">install</ulink>)</para>
+        <para>Alternatives: Caja (<literal>&package;<ulink url="apt://caja">caja</ulink></literal>), Nemo (<literal>&package;<ulink url="apt://nemo">nemo</ulink></literal>), PCManFM (<literal>&package;<ulink url="apt://pcmanfm">pcmanfm</ulink></literal>), Nautilus (<literal>&package;<ulink url="apt://nautilus">nautilus</ulink></literal>)</para>
 
     </section>
 

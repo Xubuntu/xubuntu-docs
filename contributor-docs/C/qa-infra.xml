@@ -50,7 +50,7 @@
 
 		<itemizedlist>
 			<listitem><para>Using a virtual machine enables you to carry on using a normal release when testing our ISOs. You can install a virtual machine by directly using your downloaded ISO.</para></listitem>
-			<listitem><para>Install the ISO to hardware where that possibility is available. This is more important towards the end of the development cycle. You will necessarily need to have the ISO in some bootable medium. A member of Xubuntu's Website team details a simple method for preparing a bootable <ulink url="http://princessleia.com/journal/2016/03/xubuntu-16-04-iso-testing-tips/">USB</ulink> stick with Gnome Disks.</para></listitem>
+			<listitem><para>Install the ISO to hardware where that possibility is available. This is more important towards the end of the development cycle. You will necessarily need to have the ISO in some bootable medium. A member of Xubuntu's Website team details a simple method for preparing a bootable <ulink url="http://princessleia.com/journal/2016/03/xubuntu-16-04-iso-testing-tips/">USB</ulink> stick with GNOME Disks.</para></listitem>
 		</itemizedlist>
 
 		<note><para>While it is possible to use VirtualBox, past experience has shown that issues found when testing in VirtualBox are hard to replicate elsewhere. You might want to look into using <ulink url="https://help.ubuntu.com/community/KVM">KVM</ulink>. Members of Xubuntu QA have some experience with using this for testing and can help.</para></note>
