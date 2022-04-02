@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Capítulo 10. User Management</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Documentação Xubuntu" />
+    <link rel="up" href="index.html" title="Documentação Xubuntu" />
+    <link rel="prev" href="printing-scanning.html" title="Capítulo 9. Impressão e Digitalização" />
+    <link rel="next" href="hardware-devices.html" title="Capítulo 11. Dispositivos de hardware" />
+    <link rel="copyright" href="credits-license.html" title="Créditos e Licença" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div xml:lang="pt" class="chapter" lang="pt">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="user-management"></a>Capítulo 10. User Management</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>Índice</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="section">
+              <a href="user-management.html#users-groups">Utilizadores e grupos</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="user-management.html#personal-info">Personalizar a sua informação pessoal</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <p>For security reasons, administrative tasks in Xubuntu can only be performed by users with special privileges. The first user account created during installation will, by default, be able to perform administrative tasks.</p>
+      <p>When you run an application that requires administrative privileges, you will be asked to enter your password. This helps protect your system from malicious activity and lessens the chance that you will accidentally change the way your system works.</p>
+      <p>Each time you type your password in a terminal session, it will be remembered for 15 minutes, so that you do not have to type it again.</p>
+      <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+        <table border="0" summary="Note">
+          <tr>
+            <td rowspan="2" align="center" valign="top" width="25">
+              <img alt="[Nota]" src="../../libs-common/images/note.png" />
+            </td>
+            <th align="left"></th>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <p>Os utilizadores devem ser um membro do grupo 'sudo' de modo a realizarem operações administrativas. Informações sobre como alterar os grupos podem ser encontrados abaixo.</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="users-groups"></a>Utilizadores e grupos</h2>
+            </div>
+          </div>
+        </div>
+        <p>When Xubuntu is installed, only one user account is created. If multiple users use the computer, it is highly encouraged to create separate user accounts for everyone. This allows users to have their individual settings, files and access rights.</p>
+        <p>To modify the users or groups on your system, navigate to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Users and Groups</span></strong></span>.</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Nota]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>É necessário ter direitos administrativos para fazer alterações em utilizadores e grupos.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="users-groups-manage-users"></a>Gerir utilizadores</h3>
+              </div>
+            </div>
+          </div>
+          <p>Para adicionar um novo utilizador:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Clique no botão <span class="guibutton"><strong>Adicionar</strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Introduza a sua senha</p>
+              </li>
+              <li class="listitem">
+                <p>Preencha os campos <em class="guilabel">Nome</em> e <em class="guilabel">Nome de Utilizador</em></p>
+              </li>
+              <li class="listitem">
+                <p>Clique o botão <span class="guibutton"><strong>OK</strong></span></p>
+              </li>
+            </ul>
+          </div>
+          <p>Se quiser dar a um utilizador direitos administrativos para o sistema:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Seleccione o utilizador cujo tipo de conta deseja alterar e pressione o botão <span class="guibutton"><strong>Alterar...</strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Introduza a sua senha se for solicitado a fazê-lo</p>
+              </li>
+              <li class="listitem">
+                <p>Selecione a opção <em class="guilabel">Administrador</em> (ou selecione <em class="guilabel">Utilizador</em> para reverter)</p>
+              </li>
+              <li class="listitem">
+                <p>Pressione <span class="guibutton"><strong>OK</strong></span> para aplicar as alterações selecionadas</p>
+              </li>
+            </ul>
+          </div>
+          <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Tip">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Dica]" src="../../libs-common/images/tip.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>For more fine-grained access control, click the <span class="guibutton"><strong>Advanced Settings</strong></span> button in the <em class="guilabel">User Settings</em> dialog, enter your password, click the <em class="guilabel">User Privileges</em> tab and from there select or deselect the desired options.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <p>Para remover um utilizador do sistema, selecione o utilizador que deseja excluir e clique no botão <span class="guibutton"><strong>Apagar</strong></span>.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="users-groups-manage-groups"></a>Gerir Grupos</h3>
+              </div>
+            </div>
+          </div>
+          <p>Para adicionar um novo grupo:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Clique o botão <span class="guibutton"><strong>Gerir Grupos</strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Clique no botão <span class="guibutton"><strong>Adicionar</strong></span></p>
+              </li>
+              <li class="listitem">
+                <p>Introduza a sua senha</p>
+              </li>
+              <li class="listitem">
+                <p>Escolha um nome para o novo grupo e, se quiser, mude o valor predefinido para o <em class="guilabel">Group ID</em></p>
+              </li>
+              <li class="listitem">
+                <p>Neste momento, tem a opção de selecionar os <em class="guilabel">Membros do Grupo</em> na lista</p>
+              </li>
+              <li class="listitem">
+                <p>Clique o botão <span class="guibutton"><strong>OK</strong></span></p>
+              </li>
+            </ul>
+          </div>
+          <p>Para remover um grupo do sistema, clique no botão <span class="guibutton"><strong>Gerir Grupos</strong></span>, selecione o grupo que deseja excluir e clique no botão <span class="guibutton"><strong>Apagar</strong></span>.</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="personal-info"></a>Personalizar a sua informação pessoal</h2>
+            </div>
+          </div>
+        </div>
+        <p>O <span class="application"><strong>Mugshot</strong></span> é um utilitário leve de configuração de utilizador que permite definir facilmente a imagem do perfil de utilizador e detalhes do seu perfil de utilizador em todas as aplicações suportadas.</p>
+        <p>To launch <span class="application"><strong>Mugshot</strong></span> navigate to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">About Me</span></strong></span>.</p>
+        <p>Para alterar sua imagem de perfil, clique no botão da <span class="guibutton"><strong>imagem</strong></span> à esquerda da GUI, selecione uma das opções apresentadas e siga as instruções.</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Nota]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Mugshot requires the installation of <code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://gstreamer1.0-tools" target="_top">gstreamer1.0-tools</a></code> package to use the <em class="guilabel">Capture from camera...</em> feature.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p>Preencha os campos de texto com os dados pessoais necessários e clique <span class="guibutton"><strong>Aplicar</strong></span>. Ao aplicar estes detalhes com o <span class="application"><strong>Pidgin</strong></span> e/ou o LibreOffice instalados, será solicitado a atualizar as suas configurações também.</p>
+        <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Warning">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Atenção]" src="../../libs-common/images/warning.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Se os dados pessoais inseridos nos campos de texto <em class="guilabel">Nome</em> e <em class="guilabel">Apelido</em> diferirem dos valores existentes no ficheiro <strong class="userinput"><code>/etc/passwd</code></strong>, será solicitado a inserir a sua senha como uma medida de segurança para evitar atualizações indesejadas às suas informações pessoais.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p>Leia mais no sítio da documentação oficial do <a class="ulink" href="https://wiki.bluesabre.org/doku.php?id=mugshot-docs" target="_top">Mugshot</a>.</p>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="printing-scanning.html"><img src="../../libs-common/images/prev.png" alt="Anterior" /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="hardware-devices.html"><img src="../../libs-common/images/next.png" alt="Próximo" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Capítulo 9. Impressão e Digitalização </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Início" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Capítulo 11. Dispositivos de hardware</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

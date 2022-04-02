@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Capítulo 15. Troubleshooting</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="Documentação Xubuntu" />
+    <link rel="up" href="index.html" title="Documentação Xubuntu" />
+    <link rel="prev" href="migrating.html" title="Capítulo 14. Migrating" />
+    <link rel="next" href="upgrading.html" title="Capítulo 16. Upgrading" />
+    <link rel="copyright" href="credits-license.html" title="Créditos e Licença" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div xml:lang="pt" class="chapter" lang="pt">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="troubleshooting"></a>Capítulo 15. Troubleshooting</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>Índice</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="section">
+              <a href="troubleshooting.html#network-troubleshooting">Resolução de problemas de rede</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="network-troubleshooting"></a>Resolução de problemas de rede</h2>
+            </div>
+          </div>
+        </div>
+        <p>Antes de tentar qualquer resolução de problemas, certifique-se de que as ligações de rede estão ativadas:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>Clique o ícone <span class="application"><strong>NetworkManager</strong></span> na área de notificação</p>
+            </li>
+            <li class="listitem">
+              <p>Verifique <span class="guimenuitem">Ativar uma rede</span></p>
+            </li>
+            <li class="listitem">
+              <p>Verifique <span class="guimenuitem">Ativar Wi-Fi</span></p>
+            </li>
+          </ul>
+        </div>
+        <p>Se a ligação de rede ainda assim não funcionar:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>Para ligações com fio (Ethernet), consulte <a class="xref" href="troubleshooting.html#network-troubleshooting-general">Resolução de problemas gerais</a></p>
+            </li>
+            <li class="listitem">
+              <p>Para ligações sem fios, consulte <a class="xref" href="troubleshooting.html#network-troubleshooting-general">Resolução de problemas gerais</a> e <a class="xref" href="troubleshooting.html#network-troubleshooting-wireless">Resolução de problemas com redes sem fios</a></p>
+            </li>
+            <li class="listitem">
+              <p>Se os problemas de ligação de rede ainda não estão resolvidos, consulte <a class="xref" href="troubleshooting.html#network-troubleshooting-advanced">Resolução de problemas avançada</a></p>
+            </li>
+          </ul>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="network-troubleshooting-general"></a>Resolução de problemas gerais</h3>
+              </div>
+            </div>
+          </div>
+          <p>Se a ligação de rede não estiver a funcionar corretamente, há algumas ferramentas que podem ser usados ​​para ajudar a diagnosticar o problema.</p>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="network-troubleshooting-information"></a>Obter informações sobre a ligação atual</h4>
+                </div>
+              </div>
+            </div>
+            <p>Para obter informações sobre a sua ligação de rede e dispositivos de rede, tem duas opções:</p>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p>Usando o <span class="application"><strong>NetworkManager</strong></span></p>
+                  <div class="itemizedlist">
+                    <ul class="itemizedlist" style="list-style-type: circle; ">
+                      <li class="listitem">
+                        <p>Clique no ícone <span class="application"><strong>NetworkManager</strong></span></p>
+                      </li>
+                      <li class="listitem">
+                        <p>Selecione <span class="guimenuitem">Informações da ligação</span>. Se a informação estiver desativada, é provável que não exista uma ligação ativa. Tente usar <span class="application"><strong>ifconfig</strong></span> para descobrir mais.</p>
+                      </li>
+                      <li class="listitem">
+                        <p>Cada ligação ativa terá a sua própria aba onde pode encontrar informações relevantes sobre a ligação</p>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="listitem">
+                  <p>Usando <span class="application"><strong>ifconfig</strong></span></p>
+                  <div class="itemizedlist">
+                    <ul class="itemizedlist" style="list-style-type: circle; ">
+                      <li class="listitem">
+                        <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>ifconfig</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.</p>
+                      </li>
+                      <li class="listitem">
+                        <p><span class="application"><strong>ifconfig</strong></span> irá mostrar-lhe informações detalhadas acerca da ligação, inclusive nome(s) lógico ou da ligação (por exemplo, enp3s0) na coluna esquerda, o endereço IP esquerda na coluna <em class="guilabel">inet addr</em> e o endereço MAC do seu dispositivo na coluna <em class="guilabel">HWaddr</em></p>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="network-troubleshooting-working"></a>Verificar se uma ligação está a funcionar correctamente</h4>
+                </div>
+              </div>
+            </div>
+            <p>Um método fidedigno para verificar se a ligação está a funcionar corretamente é pingar outro computador na rede ou na Internet.</p>
+            <p>To check if your computer is connected to the Internet, open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>ping -c 3 www.xubuntu.org</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.</p>
+            <p>O computador irá então tentar contactar www.xubuntu.org três vezes e exibirá os resultados. As estatísticas de ping mostram o número de pacotes transmitidos, quantos pacotes foram recebidos, a percentagem de perda de pacotes, e o tempo total gasto.</p>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p>0% de perda de pacotes indica que o computador está ligado à Internet</p>
+                </li>
+                <li class="listitem">
+                  <p>Maior que 0% mas inferior a 100% de perda de pacotes indica que o computador tem uma má ligação à Internet ou um sinal de rede sem fios pobre</p>
+                </li>
+                <li class="listitem">
+                  <p>100% de perda de pacotes indica que o computador tem uma má ligação, ou está ligado a um ponto de acesso ou router que não está ligado à Internet</p>
+                </li>
+              </ul>
+            </div>
+            <p>Se receber uma mensagem de erro que diz "www.xubuntu.org can not be found" ou "unknown host", então o computador provavelmente não está ligado à Internet ou é incapaz de alcançar um servidor Domain Name System (DNS).</p>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="network-troubleshooting-wireless"></a>Resolução de problemas com redes sem fios</h3>
+              </div>
+            </div>
+          </div>
+          <p>Esta seção aborda alguns problemas comuns enfrentados com suporte a redes se fios. Há muito mais informações disponíveis na <a class="ulink" href="https://help.ubuntu.com/community/WifiDocs" target="_top">Community Help Wiki</a>.</p>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Nota]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Por favor note que as etapas neste guia de resolução são concebidas para serem realizadas pela ordem indicada, a menos que seja apontado para uma subseção diferente.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="network-troubleshoothing-wifi-on"></a>Verificar que o dispositivo está ligado</h4>
+                </div>
+              </div>
+            </div>
+            <p>Muitos dispositivos de rede sem fios podem ser ligados ou desligados. Verifique se há um interruptor de hardware ou uma tecla de função de teclado para ligar o dispositivo sem fios.</p>
+            <p>Se o dispositivo estiver ligado, continue para o próximo tópico.</p>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="network-troubleshooting-device-recognized"></a>Verifique se o dispositivo é reconhecido</h4>
+                </div>
+              </div>
+            </div>
+            <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>sudo lshw -C network</code></strong>, then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key. You will see some output, along with the words <em class="guilabel">CLAIMED</em>, <em class="guilabel">UNCLAIMED</em>, <em class="guilabel">ENABLED</em> or <em class="guilabel">DISABLED</em>.</p>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p><em class="guilabel">CLAIMED</em> indica que um controlador está carregado, mas não está a funcionar. Continue para <a class="xref" href="troubleshooting.html#network-troubleshooting-ndiswrapper">Usar os controladores de redes sem fios do Windows</a>.</p>
+                </li>
+                <li class="listitem">
+                  <p><em class="guilabel">UNCLAIMED</em> indica que não existe um controlador carregado. Continue para <a class="xref" href="troubleshooting.html#network-troubleshooting-ndiswrapper">Usar os controladores de redes sem fios do Windows</a>.</p>
+                </li>
+                <li class="listitem">
+                  <p><em class="guilabel">ENABLED</em> indica que o controlador está instalado e a funcionar. Continuar para a seção <a class="xref" href="troubleshooting.html#network-troubleshooting-router">Verificação da ligação com o router</a>.</p>
+                </li>
+                <li class="listitem">
+                  <p><em class="guilabel">DESABILITADO</em> indica que o controlador está instalado, mas desativado. Continue para <a class="xref" href="troubleshooting.html#network-troubleshoothing-wifi-on">Verificar que o dispositivo está ligado</a>.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="network-troubleshooting-ndiswrapper"></a>Usar os controladores de redes sem fios do Windows</h4>
+                </div>
+              </div>
+            </div>
+            <p>O Xubuntu suporta um sistema conhecido como <span class="application"><strong>NDISWrapper</strong></span>. Isso permite a utilização de um controlador de dispositivos sem fios do Windows no Xubuntu. Para começar a usar o <span class="application"><strong>NDISWrapper</strong></span>:</p>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p>Obtenha o controlador do Windows para o seu dispositivo de rede e localize o ficheiro que termina com <code class="literal">.inf</code></p>
+                </li>
+                <li class="listitem">
+                  <p>Install the <code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://ndisgtk" target="_top">ndisgtk</a></code> package</p>
+                </li>
+                <li class="listitem">
+                  <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Windows Wireless Drivers</span></strong></span></p>
+                </li>
+                <li class="listitem">
+                  <p>Selecionar <span class="guibutton"><strong>Instalar novo controlador</strong></span></p>
+                </li>
+                <li class="listitem">
+                  <p>Escolha a localização do seu ficheiro .inf do Windows e clique <span class="guibutton"><strong>Instalar</strong></span></p>
+                </li>
+                <li class="listitem">
+                  <p>Clique <span class="guibutton"><strong>OK</strong></span></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="network-troubleshooting-router"></a>Verificação da ligação com o router</h4>
+                </div>
+              </div>
+            </div>
+            <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>iwconfig</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.</p>
+            <p>Se o <em class="guilabel">ESSID</em> para o seu router for exibido, poderá haver um problema com o suporte a ACPI. Arranque o Xubuntu com a opção <code class="literal">pci=noacpi</code>.</p>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="network-troubleshooting-advanced"></a>Resolução de problemas avançada</h3>
+              </div>
+            </div>
+          </div>
+          <p>Os seguintes métodos de resolução de problemas são um pouco mais técnicos. Por favor tente estes métodos somente se os métodos anteriores falharem.</p>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="network-troubleshooting-ip-assignment"></a>Verificação de atribuição de IP</h4>
+                </div>
+              </div>
+            </div>
+            <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>ifconfig</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key. If there is an IP address displayed, continue to <a class="xref" href="troubleshooting.html#network-troubleshooting-dns">Verificação de Domain Name Servers (DNS)</a>.</p>
+            <p>A partir do terminal digite o seguinte comando: <strong class="userinput"><code>sudo dhclient enp3s0</code></strong>, substituindo <code class="literal">enp3s0</code> com o nome da ligação obtido a partir do comando <span class="application"><strong>ifconfig</strong></span></p>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p>Se receber uma mensagem que diz vinculado a <code class="literal">xxx.xxx.xxx.xxx</code> continue para <a class="xref" href="troubleshooting.html#network-troubleshooting-dns">Verificação de Domain Name Servers (DNS)</a></p>
+                </li>
+                <li class="listitem">
+                  <p>Se não, reinicie o sistema</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="network-troubleshooting-dns"></a>Verificação de Domain Name Servers (DNS)</h4>
+                </div>
+              </div>
+            </div>
+            <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>nmcli device show</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.  Look for the entries under <code class="literal">IP4.DNS</code></p>
+            <p>To check if the listed DNS works, open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>dig xubuntu.org</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.  If you see the word <code class="literal">NOERROR</code> in the header section of the output, your DNS is working.</p>
+            <p>If there are no DNS settings listed, contact your Internet Service Provider (ISP), and find out your primary and secondary domain name servers.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="migrating.html"><img src="../../libs-common/images/prev.png" alt="Anterior" /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="upgrading.html"><img src="../../libs-common/images/next.png" alt="Próximo" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Capítulo 14. Migrating </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Início" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Capítulo 16. Upgrading</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
