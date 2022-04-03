@@ -47,15 +47,15 @@
 						<para>Using <application>NetworkManager</application></para>
 						<itemizedlist>
 							<listitem><para>Click on the <application>NetworkManager</application> icon</para></listitem>
-							<listitem><para>Select <menuchoice><guimenuitem>Connection Information</guimenuitem></menuchoice>. If this is disabled, it is likely there is no active connection. Try using <application>ifconfig</application> to find out more.</para></listitem>
+							<listitem><para>Select <menuchoice><guimenuitem>Connection Information</guimenuitem></menuchoice>. If this is disabled, it is likely there is no active connection. Try using the <application>ip</application> command to find out more.</para></listitem>
 							<listitem><para>Each active connection will have its own tab where you can find relevant connection information</para></listitem>
 						</itemizedlist>
 					</listitem>
 					<listitem>	
-						<para>Using <application>ifconfig</application></para>
+						<para>Using <application>ip</application></para>
 						<itemizedlist>
-							<listitem><para>Open a terminal (&terminal;), type the command <userinput>ifconfig</userinput> then press the <keycap>&key;Enter</keycap> key.</para></listitem>
-							<listitem><para><application>ifconfig</application> will show you extensive information about your connection, including logical or connection name(s) (e.g. enp3s0) in the left column, IP address in the <guilabel>inet addr</guilabel> column and the MAC address for your device in the <guilabel>HWaddr</guilabel> column</para></listitem>
+							<listitem><para>Open a terminal (&terminal;), type the command <userinput>ip address</userinput> then press the <keycap>&key;Enter</keycap> key.</para></listitem>
+							<listitem><para><application>ip</application> will show you extensive information about your connection, including logical or connection name(s) (e.g. enp3s0) in the first row, IP address in the <guilabel>inet</guilabel> row and the MAC address for your device in the <guilabel>link/ether</guilabel> row</para></listitem>
 						</itemizedlist>
 					</listitem>
 				</itemizedlist>
@@ -140,9 +140,9 @@
 			<section id="network-troubleshooting-ip-assignment">
 				<title>Checking IP assignment</title>
 
-				<para>Open a terminal (&terminal;), type the command <userinput>ifconfig</userinput> then press the <keycap>&key;Enter</keycap> key. If there is an IP address displayed, continue to <xref linkend="network-troubleshooting-dns" />.</para>
+				<para>Open a terminal (&terminal;), type the command <userinput>ip address</userinput> then press the <keycap>&key;Enter</keycap> key. If there is an IP address displayed, continue to <xref linkend="network-troubleshooting-dns" />.</para>
 
-				<para>From the terminal enter the following command, replacing <literal>enp3s0</literal> with the name of the connection shown in the output from the <application>ifconfig</application> command: <userinput>sudo dhclient enp3s0</userinput></para>
+				<para>From the terminal enter the following command, replacing <literal>enp3s0</literal> with the name of the connection shown in the output from the <application>ip address</application> command: <userinput>sudo dhclient enp3s0</userinput></para>
 
 				<itemizedlist>
 					<listitem><para>If you receive a message that says bound to <literal>xxx.xxx.xxx.xxx</literal> continue to <xref linkend="network-troubleshooting-dns" /></para></listitem>
