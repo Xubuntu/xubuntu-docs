@@ -106,7 +106,7 @@
                         <p>Щёлкните по значку <span class="application"><strong>Диспетчера сети</strong></span></p>
                       </li>
                       <li class="listitem">
-                        <p>Выберите <span class="guimenuitem">Сведения о соединении</span>. Если этот элемент неактивен, значит активных соединений, скорее всего, нет. Попробуйте использовать <span class="application"><strong>ifconfig</strong></span> для получения более подробной информации.</p>
+                        <p>Select <span class="guimenuitem">Connection Information</span>. If this is disabled, it is likely there is no active connection. Try using the <span class="application"><strong>ip</strong></span> command to find out more.</p>
                       </li>
                       <li class="listitem">
                         <p>У каждого активного соединения будет собственная вкладка, в которой можно найти информацию о соединении</p>
@@ -115,14 +115,14 @@
                   </div>
                 </li>
                 <li class="listitem">
-                  <p>С помощью <span class="application"><strong>ifconfig</strong></span></p>
+                  <p>Using <span class="application"><strong>ip</strong></span></p>
                   <div class="itemizedlist">
                     <ul class="itemizedlist" style="list-style-type: circle; ">
                       <li class="listitem">
-                        <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>ifconfig</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.</p>
+                        <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>ip address</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.</p>
                       </li>
                       <li class="listitem">
-                        <p><span class="application"><strong>ifconfig</strong></span> покажет подробную информацию о соединении, включая логическое имя сетевого интерфейса (например,  enp3s0) в левом столбце, IP-адрес в поле <em class="guilabel">inet addr</em> и MAC-адрес устройства в поле <em class="guilabel">HWaddr</em>.</p>
+                        <p><span class="application"><strong>ip</strong></span> will show you extensive information about your connection, including logical or connection name(s) (e.g. enp3s0) in the first row, IP address in the <em class="guilabel">inet</em> row and the MAC address for your device in the <em class="guilabel">link/ether</em> row</p>
                       </li>
                     </ul>
                   </div>
@@ -279,8 +279,8 @@
                 </div>
               </div>
             </div>
-            <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>ifconfig</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key. If there is an IP address displayed, continue to <a class="xref" href="troubleshooting.html#network-troubleshooting-dns">Проверьте серверы доменных имён (DNS)</a>.</p>
-            <p>В терминале введите следующую команду, заменив <code class="literal">enp3s0</code> на имя соединения, найденное в выводе команды <span class="application"><strong>ifconfig</strong></span>: <strong class="userinput"><code>sudo dhclient enp3s0</code></strong></p>
+            <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>ip address</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key. If there is an IP address displayed, continue to <a class="xref" href="troubleshooting.html#network-troubleshooting-dns">Проверьте серверы доменных имён (DNS)</a>.</p>
+            <p>From the terminal enter the following command, replacing <code class="literal">enp3s0</code> with the name of the connection shown in the output from the <span class="application"><strong>ip address</strong></span> command: <strong class="userinput"><code>sudo dhclient enp3s0</code></strong></p>
             <div class="itemizedlist">
               <ul class="itemizedlist" style="list-style-type: disc; ">
                 <li class="listitem">

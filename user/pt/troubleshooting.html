@@ -106,7 +106,7 @@
                         <p>Clique no ícone <span class="application"><strong>NetworkManager</strong></span></p>
                       </li>
                       <li class="listitem">
-                        <p>Selecione <span class="guimenuitem">Informações da ligação</span>. Se a informação estiver desativada, é provável que não exista uma ligação ativa. Tente usar <span class="application"><strong>ifconfig</strong></span> para descobrir mais.</p>
+                        <p>Select <span class="guimenuitem">Connection Information</span>. If this is disabled, it is likely there is no active connection. Try using the <span class="application"><strong>ip</strong></span> command to find out more.</p>
                       </li>
                       <li class="listitem">
                         <p>Cada ligação ativa terá a sua própria aba onde pode encontrar informações relevantes sobre a ligação</p>
@@ -115,14 +115,14 @@
                   </div>
                 </li>
                 <li class="listitem">
-                  <p>Usando <span class="application"><strong>ifconfig</strong></span></p>
+                  <p>Using <span class="application"><strong>ip</strong></span></p>
                   <div class="itemizedlist">
                     <ul class="itemizedlist" style="list-style-type: circle; ">
                       <li class="listitem">
-                        <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>ifconfig</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.</p>
+                        <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>ip address</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.</p>
                       </li>
                       <li class="listitem">
-                        <p><span class="application"><strong>ifconfig</strong></span> irá mostrar-lhe informações detalhadas acerca da ligação, inclusive nome(s) lógico ou da ligação (por exemplo, enp3s0) na coluna esquerda, o endereço IP esquerda na coluna <em class="guilabel">inet addr</em> e o endereço MAC do seu dispositivo na coluna <em class="guilabel">HWaddr</em></p>
+                        <p><span class="application"><strong>ip</strong></span> will show you extensive information about your connection, including logical or connection name(s) (e.g. enp3s0) in the first row, IP address in the <em class="guilabel">inet</em> row and the MAC address for your device in the <em class="guilabel">link/ether</em> row</p>
                       </li>
                     </ul>
                   </div>
@@ -279,8 +279,8 @@
                 </div>
               </div>
             </div>
-            <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>ifconfig</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key. If there is an IP address displayed, continue to <a class="xref" href="troubleshooting.html#network-troubleshooting-dns">Verificação de Domain Name Servers (DNS)</a>.</p>
-            <p>A partir do terminal digite o seguinte comando: <strong class="userinput"><code>sudo dhclient enp3s0</code></strong>, substituindo <code class="literal">enp3s0</code> com o nome da ligação obtido a partir do comando <span class="application"><strong>ifconfig</strong></span></p>
+            <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>ip address</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key. If there is an IP address displayed, continue to <a class="xref" href="troubleshooting.html#network-troubleshooting-dns">Verificação de Domain Name Servers (DNS)</a>.</p>
+            <p>From the terminal enter the following command, replacing <code class="literal">enp3s0</code> with the name of the connection shown in the output from the <span class="application"><strong>ip address</strong></span> command: <strong class="userinput"><code>sudo dhclient enp3s0</code></strong></p>
             <div class="itemizedlist">
               <ul class="itemizedlist" style="list-style-type: disc; ">
                 <li class="listitem">
