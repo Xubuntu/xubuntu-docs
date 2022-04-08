@@ -47,7 +47,7 @@
 		<section id="personalization-hardware-monitor-high-resolution">
 			<title>High Resolution</title>
 
-			<para>High resolution displays may require specific settings to achieve readability of text and other screen objects. High-end laptop screens and other ultra-high resolution displays may have high pixel density in a small form factor. They are commonly referred to as HiDPI (High Dots Per Inch), 4K, UHD, WQHD, QHD, or 1440p displays. Some laptops with these types of screens include MacBooks with "Retina Display”, Dell XPS 13, and ThinkPad X1 Carbon. 4K and 8K UHD TVs may also require customization to make text readable at the viewing distances typical of these displays.</para>
+			<para>High resolution displays may require specific settings to achieve readability of text and other screen objects. High-end laptop screens and other ultra-high resolution displays may have high pixel density in a small form factor. They are commonly referred to as HiDPI (High Dots Per Inch), 4K, UHD, WQHD, QHD, or 1440p displays. Some laptops with these types of screens include MacBooks with <quote>Retina Display</quote>, Dell XPS 13, and ThinkPad X1 Carbon. 4K and 8K UHD TVs may also require customization to make text readable at the viewing distances typical of these displays.</para>
 			<para>To improve the visibility of text and objects on these large resolution displays, you can make the following changes.</para>
 
 			<itemizedlist>
@@ -99,7 +99,7 @@
 				<listitem><para><literal>&package;<ulink url="apt://saned">saned</ulink></literal> for scanner profiles</para></listitem>
 			</itemizedlist>
 
-			<para>To calibrate your display, you will need to install <ulink url="https://displaycal.net/#download">DisplayCAL</ulink>, GNOME Color Manager (<literal>&package;<ulink url="apt://gnome-color-manager">gnome-color-manager</ulink></literal>) with a ColorHug device, or a similar tool. If you would like to add a “night-mode” or “blue-blocker” feature, that will automatically transition the color temperature of the display throughout the day, you can install RedShift (<literal>&package;<ulink url="apt://redshift">redshift</ulink></literal>).</para>
+			<para>To calibrate your display, you will need to install <ulink url="https://displaycal.net/#download">DisplayCAL</ulink>, GNOME Color Manager (<literal>&package;<ulink url="apt://gnome-color-manager">gnome-color-manager</ulink></literal>) with a ColorHug device, or a similar tool. If you would like to add a <quote>night-mode</quote> or <quote>blue-blocker</quote> feature, that will automatically transition the color temperature of the display throughout the day, you can install RedShift (<literal>&package;<ulink url="apt://redshift">redshift</ulink></literal>).</para>
 		</section>
 	</section>
 
