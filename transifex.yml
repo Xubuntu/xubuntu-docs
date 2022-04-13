@@ -1,0 +1,11 @@
+filters:
+  - filter_type: file
+    source_file: contributor-docs/po/contributor-docs.pot
+    file_format: PO
+    source_language: en
+    translation_files_expression: 'contributor-docs/po/<lang>.po'
+  - filter_type: file
+    source_file: user-docs/po/user-docs.pot
+    file_format: PO
+    source_language: en
+    translation_files_expression: 'user-docs/po/<lang>.po'
