@@ -23,7 +23,7 @@
 
 			<para>In order to play some popular audio formats like MP3, you will need to install some additional software. Unfortunately, this software cannot be provided by default in Xubuntu due to legal restrictions in some countries.</para>
 
-			<caution><para>Read <xref linkend="software-repositories-restricted" /> before following the instructions below. There are some legal issues that you should be aware of.</para></caution>
+			<caution><para>Read <xref linkend="media-video-restricted" /> before following the instructions below. There are some legal issues that you should be aware of.</para></caution>
 
 		</section>
 
@@ -48,12 +48,12 @@
 
 			<para>In order to play DVDs you must install some additional software. Unfortunately, DVD support cannot be provided by default in Xubuntu due to legal restrictions in some countries.</para>
 
-			<caution><para>Read <xref linkend="software-repositories-restricted" /> before following the instructions below. There are some legal issues that you should be aware of.</para></caution>
+			<caution><para>Read <xref linkend="media-video-restricted" /> before following the instructions below. There are some legal issues that you should be aware of.</para></caution>
 
 			<para>To be able to play DVDs, do the following:</para>
 
 			<itemizedlist>
-				<listitem><para>Install the <literal>&package;libdvdnav4</literal>, <literal>&package;libdvdread4</literal> and <literal>&package;gstreamer1.0-plugins-ugly</literal> packages.</para></listitem>
+				<listitem><para>Install the <literal>&package;<ulink url="apt://libdvdnav4">libdvdnav4</ulink></literal>, <literal>&package;<ulink url="apt://libdvdread4">libdvdread4</ulink></literal> and <literal>&package;<ulink url="apt://gstreamer1.0-plugins-ugly">gstreamer1.0-plugins-ugly</ulink></literal> packages.</para></listitem>
 				<listitem><para>Insert a DVD into your drive. It should open automatically in the <application>Parole Media Player</application>.</para></listitem>
 				<listitem><para>If you would like to play encrypted DVDs, open &terminal; and type the following into the <application>Terminal</application> followed by the <keycap>&key;Enter</keycap> key: <userinput>sudo apt-get install libdvd-pkg</userinput> Take note of the information provided in the terminal during installation, particularly with regard to upgrades to the package.</para></listitem>
 				<listitem><para> Once libdvd-pkg is finished run <userinput>sudo dpkg-reconfigure libdvd-pkg</userinput> The installation of libdvdcss2 will now complete.</para></listitem>
@@ -72,7 +72,7 @@
 
 				<para>Some video formats, such as Adobe Flash, QuickTime and Windows Media Video, are proprietary and so support for them cannot be included in Xubuntu by default. You must install some extra software to allow playback.</para>
 
-				<para>In order to play the most common proprietary formats in <application>Parole Media Player</application> or <application>Firefox</application>, install the <literal>&package;xubuntu-restricted-extras</literal> package (see <xref linkend="software-repositories-restricted" /> for more information).</para>
+				<para>In order to play the most common proprietary formats in <application>Parole Media Player</application> or <application>Firefox</application>, install the <literal>&package;<ulink url="apt://xubuntu-restricted-extras">xubuntu-restricted-extras</ulink></literal> package.</para>
 			</section>
 		</section>
 	</section>

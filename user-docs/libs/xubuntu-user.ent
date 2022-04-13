@@ -6,7 +6,9 @@
 <!-- XUBUNTU WEBSITE -->
 <!ENTITY xubuntu-web 'http://xubuntu.org/' >
 <!ENTITY xubuntu-web-contribute 'http://xubuntu.org/contribute/' >
+<!ENTITY xubuntu-web-download 'https://xubuntu.org/download/' >
 <!ENTITY xubuntu-web-help 'http://xubuntu.org/help/' >
+<!ENTITY xubuntu-web-requirements 'https://xubuntu.org/requirements/' >
 
 <!-- WEBSITES -->
 <!ENTITY aptoncd-web 'http://aptoncd.sourceforge.net/' >
@@ -38,6 +40,7 @@
 <!ENTITY orage 'http://www.kolumbus.fi/~w408237/orage/' >
 <!ENTITY parole-docs 'http://docs.xfce.org/apps/parole/start' >
 <!ENTITY pidgin-help 'http://developer.pidgin.im/wiki/Using Pidgin' >
+<!ENTITY play-on-linux-web 'https://www.playonlinux.com/' >
 <!ENTITY pulseaudio-web 'http://www.freedesktop.org/wiki/Software/PulseAudio' >
 <!ENTITY ristretto-docs 'http://docs.xfce.org/apps/ristretto/start' >
 <!ENTITY sane-drivers 'http://www.sane-project.org/sane-backends.html' >
@@ -45,6 +48,7 @@
 <!ENTITY thunderbird-help 'https://support.mozillamessaging.com/en-US/home' >
 <!ENTITY ubuntu-forums 'http://ubuntuforums.org/' >
 <!ENTITY ubuntu-philosophy 'http://www.ubuntu.com/project/about-ubuntu/our-philosophy' >
+<!ENTITY ubuntu-help-rst 'https://help.ubuntu.com/rst/' >
 <!ENTITY ubuntuwiki-printers 'https://wiki.ubuntu.com/HardwareSupportComponentsPrinters' >
 <!ENTITY ubuntuwiki-scanners 'https://wiki.ubuntu.com/HardwareSupportComponentsScanners' >
 <!ENTITY vbox-docs 'https://www.virtualbox.org/wiki/End-user_documentation' >
@@ -58,6 +62,97 @@
 <!ENTITY xfce4-taskman-web 'http://goodies.xfce.org/projects/applications/xfce4-taskmanager' >
 <!ENTITY xfce-web 'http://www.xfce.org/' >
 <!ENTITY xfdesktop-help 'http://docs.xfce.org/xfce/xfdesktop/4.11/start' >
+<!ENTITY xubuntu-wikipedia 'https://en.wikipedia.org/wiki/Xubuntu' >
+
+<!-- DOWNLOAD LINKS -->
+<!ENTITY download-transmission 'https://transmissionbt.com/download/' >
+<!ENTITY download-qbittorrent 'https://www.qbittorrent.org/download.php' >
+<!ENTITY download-rufus 'https://rufus.ie/' >
+<!ENTITY download-etcher 'https://www.balena.io/etcher/' >
+<!ENTITY download-gdisks 'https://wiki.gnome.org/Apps/Disks' >
+<!ENTITY download-infrarecorder 'http://infrarecorder.org/?page_id=5' >
+<!ENTITY download-brasero 'https://wiki.gnome.org/Apps/Brasero/' >
+<!ENTITY download-xfburn 'https://docs.xfce.org/apps/xfburn' >
+<!ENTITY download-keepassxc 'https://keepassxc.org/' >
+<!ENTITY download-bitwarden 'https://bitwarden.com/#download' >
+
+<!-- WELCOME PAGE -->
+<!ENTITY irc-english 'https://web.libera.chat/?nick=xu-help?w#xubuntu' >
+<!ENTITY irc-locales 'https://wiki.ubuntu.com/IRC/ChannelList#IRC.2FChannelList.2FLocal.Local_Ubuntu_channels' >
+<!ENTITY irc-devel 'https://web.libera.chat/?nick=xu-contribute?w#xubuntu' >
+<!ENTITY telegram-support 'https://t.me/XubuntuSupport' >
+<!ENTITY telegram-develop 'https://t.me/XubuntuDevelopment' >
+<!ENTITY ml-english 'https://lists.ubuntu.com/mailman/listinfo/xubuntu-users' >
+<!ENTITY ml-locales 'https://lists.ubuntu.com/#Localization+Lists' >
+<!ENTITY ml-devel 'https://lists.ubuntu.com/mailman/listinfo/xubuntu-devel' >
+<!ENTITY reddit 'https://www.reddit.com/r/xubuntu/' >
+<!ENTITY forum-xfce 'https://forum.xfce.org/' >
+<!ENTITY forum-ubuntu 'https://ubuntuforums.org/forumdisplay.php?f=329&amp;pp=20&amp;prefixid=xubuntu&amp;sort=lastpost&amp;order=desc&amp;daysprune=-1' >
+<!ENTITY askubuntu-xubuntu 'https://askubuntu.com/questions/tagged/xubuntu' >
+
+<!-- UBUNTU INSTALLATION TUTORIAL -->
+<!ENTITY ubuntu-tutorial-usb-win 'https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#3-usb-selection' >
+<!ENTITY ubuntu-tutorial-usb-mac 'https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-macos#3-prepare-the-usb-stick' >
+<!ENTITY ubuntu-tutorial-usb-lin 'https://www.maketecheasier.com/create-bootable-usb-installer-ubuntu-gnome-disks/' >
+<!ENTITY ubuntu-tutorial-dvd-win 'https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-windows#2-windows-7--8--10-instructions' >
+<!ENTITY ubuntu-tutorial-dvd-mac 'https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-macos#2-select-the-ubuntu-iso' >
+<!ENTITY ubuntu-tutorial-dvd-lin 'https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-ubuntu#3-install-brasero' >
+
+<!-- DEFUALT APPS PAGE -->
+<!ENTITY bluesabre-don 'https://bluesabre.org/donate/' >
+<!ENTITY mate-don 'https://mate-desktop.org/donate/' >
+<!ENTITY xfce-don 'https://www.bountysource.com/teams/xfce' >
+<!ENTITY catfish-web 'https://bluesabre.org/catfish/' >
+<!ENTITY catfish-doc 'https://docs.xfce.org/apps/catfish/usage' >
+<!ENTITY fsearch 'https://cboxdoerfer.github.io/fsearch/' >
+<!ENTITY angrysearch 'https://github.com/DoTheEvo/ANGRYsearch' >
+<!ENTITY recoll 'https://www.lesbonscomptes.com/recoll/' >
+<!ENTITY mousepad-web 'https://gitlab.xfce.org/apps/mousepad' >
+<!ENTITY mousepad-don 'https://docs.xfce.org/apps/mousepad/start' >
+<!ENTITY vscode 'https://code.visualstudio.com/Download' >
+<!ENTITY screensaver-web 'https://gitlab.xfce.org/apps/xfce4-screenshooter' >
+<!ENTITY screensaver-don 'https://docs.xfce.org/apps/xfce4-screenshooter/start' >
+<!ENTITY sgtlauncher 'https://github.com/bluesabre/sgt-launcher' >
+<!ENTITY gimp-web 'https://www.gimp.org' >
+<!ENTITY gimp-doc 'https://www.gimp.org/docs/' >
+<!ENTITY gimp-don 'https://www.gimp.org/donating/' >
+<!ENTITY photoshop 'https://www.makeuseof.com/tag/install-adobe-photoshop-linux/' >
+<!ENTITY ristretto-web 'https://gitlab.xfce.org/apps/ristretto' >
+<!ENTITY ristretto-doc 'http://docs.xfce.org/apps/ristretto/start' >
+<!ENTITY firefox-web 'https://www.mozilla.org/en-US/firefox/new/' >
+<!ENTITY firefox-doc 'https://support.mozilla.org/en-US/home' >
+<!ENTITY firefox-don 'https://donate.mozilla.org/en-US/' >
+<!ENTITY browser-chrome 'https://www.google.com/chrome/' >
+<!ENTITY browser-opera 'https://www.opera.com/computer/opera' >
+<!ENTITY browser-vivaldi 'https://vivaldi.com/download/' >
+<!ENTITY browser-brave 'https://brave.com/download/' >
+<!ENTITY pidgin-web 'https://www.pidgin.im/' >
+<!ENTITY pidgin-doc 'https://developer.pidgin.im/wiki/Using Pidgin' >
+<!ENTITY pidgin-don 'https://imfreedom.org/donate/' >
+<!ENTITY skype 'https://www.skype.com/en/get-skype/' >
+<!ENTITY zoom 'https://zoom.us/download' >
+<!ENTITY thunder-web 'https://www.thunderbird.net/en-US/' >
+<!ENTITY thunder-doc 'https://support.mozilla.org/en-US/products/thunderbird' >
+<!ENTITY thunder-don 'https://donate.mozilla.org/thunderbird/' >
+<!ENTITY tixati 'https://www.tixati.com/download/linux.html' >
+<!ENTITY fragments 'https://flathub.org/apps/details/de.haeckerfelix.Fragments' >
+<!ENTITY parole-web 'https://gitlab.xfce.org/apps/parole' >
+<!ENTITY parole-doc 'https://docs.xfce.org/apps/parole/start' >
+<!ENTITY ms-office 'https://www.makeuseof.com/tag/install-use-microsoft-office-linux/' >
+<!ENTITY wps-office 'https://www.wps.com/linux/' >
+<!ENTITY free-office 'https://www.freeoffice.com/en/download/applications' >
+<!ENTITY only-office 'https://www.onlyoffice.com/download-desktop.aspx' >
+
+<!-- INSTALLATION PAGE -->
+<!ENTITY booting-secure-boot 'https://wiki.ubuntu.com/UEFI/SecureBoot' >
+<!ENTITY booting-boot-menu 'https://windows.gadgethacks.com/how-to/access-boot-menu-and-bios-windows-8-0139059/' >
+<!ENTITY booting-fast-boot 'https://www.tenforums.com/tutorials/21284-enable-disable-fast-boot-uefi-firmware-settings-windows.html' >
+<!ENTITY booting-fast-startup 'https://winaero.com/blog/how-to-disable-or-enable-fast-startup-in-windows-8-1/' >
+<!ENTITY booting-plop 'http://www.howtogeek.com/howto/16822/boot-from-a-usb-drive-even-if-your-BIOS-wont-let-you/' >
+<!ENTITY booting-fn-keys 'https://help.ubuntu.com/community/BootOptions#Changing_the_CD.27s_Default_Boot_Options' >
+
+<!-- INTRODUCTION PAGE -->
+<!ENTITY ppa-grub-customizer 'https://launchpad.net/~danielrichter2007/+archive/ubuntu/grub-customizer' >
 
 <!-- Locations -->
 <!ENTITY location_home '<filename>&location; /home/username/</filename>' >
@@ -67,9 +162,21 @@
 <!ENTITY location_icons_user '<filename>&location; /home/username/.icons/</filename>' >
 <!ENTITY location_icons_global '<filename>&location; /usr/share/icons/</filename>' >
 
+<!-- SOFTWARE MANAGEMENT PAGE -->
+<!ENTITY snap-store-install 'https://snapcraft.io/install/snap-store/ubuntu#install' >
+<!ENTITY snap-store-web 'https://snapcraft.io/store' >
+<!ENTITY apt-docs 'https://ubuntu.com/server/docs/package-management' >
+<!ENTITY snap-docs 'https://snapcraft.io/docs/getting-started' >
+<!ENTITY snap-installs 'https://snapcraft.io/tutorials/snap-download#1-introduction' >
+<!ENTITY flathub 'https://flathub.org/' >
+<!ENTITY appimagehub 'https://appimage.github.io/' >
+<!ENTITY appgrid 'https://www.appgrid.org/' >
+
 <!-- Menus -->
 <!ENTITY appmenu '<guiicon><inlinemediaobject role="icon-menu"><imageobject><imagedata role="icon" fileref="../libs/images/icon_menu.png"/></imageobject></inlinemediaobject></guiicon>' >
+<!ENTITY appmenu2 '<guiicon><inlinemediaobject role="icon-menu"><imageobject><imagedata role="icon" fileref="../libs/images/icon_menu.png"/></imageobject></inlinemediaobject></guiicon> <guibutton>Applications Menu</guibutton>' >
 <!ENTITY settings '<inlinemediaobject role="icon-submenu"><imageobject><imagedata role="icon" fileref="../libs/images/preferences-desktop.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY settings2 '<inlinemediaobject role="icon-submenu"><imageobject><imagedata role="icon" fileref="../libs/images/preferences-desktop.png" /></imageobject></inlinemediaobject> <guibutton>Settings Manager</guibutton>' >
 <!ENTITY lockscreen '<inlinemediaobject role="icon-submenu"><imageobject><imagedata role="icon" fileref="../libs/images/system-lock-screen.png" /></imageobject></inlinemediaobject>' >
 <!ENTITY users '<inlinemediaobject role="icon-submenu"><imageobject><imagedata role="icon" fileref="../libs/images/system-users.png" /></imageobject></inlinemediaobject>' >
 <!ENTITY logout '<inlinemediaobject role="icon-submenu"><imageobject><imagedata role="icon" fileref="../libs/images/system-log-out.png" /></imageobject></inlinemediaobject>' >
@@ -119,3 +226,37 @@
 <!ENTITY wm-software-properties '<application><menuchoice>&appmenu; <guimenuitem>&settings; Settings Manager</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice></application>' >
 <!ENTITY wm-software-updater '<application><menuchoice>&appmenu; <guimenuitem>&settings; Settings Manager</guimenuitem><guimenuitem>Software Updater</guimenuitem></menuchoice></application>' >
 <!ENTITY wm-users-groups '<application><menuchoice>&appmenu; <guimenuitem>&settings; Settings Manager</guimenuitem><guimenuitem>Users and Groups</guimenuitem></menuchoice></application>' >
+
+<!-- Icons -->
+<!ENTITY icon-favorites '<inlinemediaobject role="icon-favorites"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/icon_favorites.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-accessories '<inlinemediaobject role="icon-accessories"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/icon_accessories.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-games '<inlinemediaobject role="icon-games"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/icon_games.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-graphics '<inlinemediaobject role="icon-graphics"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/icon_graphics.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-internet '<inlinemediaobject role="icon-internet"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/icon_internet.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-multimedia '<inlinemediaobject role="icon-multimedia"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/icon_multimedia.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-office '<inlinemediaobject role="icon-office"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/icon_office.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-settings '<inlinemediaobject role="icon-settings"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/icon_settings.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-system '<inlinemediaobject role="icon-system"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/icon_system.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-gnome-mines '<inlinemediaobject role="icon-apps-gnome-mines"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/org.gnome.Mines.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-gnome-simple-scan '<inlinemediaobject role="icon-apps-gnome-simple-scan"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/org.gnome.SimpleScan.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-gnome-sudoku '<inlinemediaobject role="icon-apps-gnome-sudoku"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/org.gnome.Sudoku.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-mate-atril '<inlinemediaobject role="icon-apps-mate-atril"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/org.mate.atril.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-mate-calc '<inlinemediaobject role="icon-apps-mate-calc"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/org.mate.calc.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-mate-engrampa '<inlinemediaobject role="icon-apps-mate-engrampa"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/org.mate.engrampa.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-xfce-catfish '<inlinemediaobject role="icon-apps-xfce-catfish"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/org.xfce.catfish.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-xfce-gigolo '<inlinemediaobject role="icon-apps-xfce-gigolo"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/org.xfce.gigolo.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-xfce-mousepad '<inlinemediaobject role="icon-apps-xfce-mousepad"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/org.xfce.mousepad.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-xfce-parole '<inlinemediaobject role="icon-apps-xfce-parole"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/org.xfce.parole.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-xfce-ristretto '<inlinemediaobject role="icon-apps-xfce-ristretto"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/org.xfce.ristretto.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-xfce-screenshooter '<inlinemediaobject role="icon-apps-xfce-screenshooter"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/org.xfce.screenshooter.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-xfce-taskmanager '<inlinemediaobject role="icon-apps-xfce-taskmanager"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/org.xfce.taskmanager.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-xfce-thunar '<inlinemediaobject role="icon-apps-xfce-thunar"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/org.xfce.thunar.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-xfce-xfburn '<inlinemediaobject role="icon-apps-xfce-xfburn"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/org.xfce.xfburn.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-firefox '<inlinemediaobject role="icon-apps-firefox"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/firefox.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-gimp '<inlinemediaobject role="icon-apps-gimp"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/gimp.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-gparted '<inlinemediaobject role="icon-apps-gparted"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/gparted.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-libreoffice '<inlinemediaobject role="icon-apps-libreoffice"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/libreoffice.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-pidgin '<inlinemediaobject role="icon-apps-pidgin"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/pidgin.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-sgt-launcher '<inlinemediaobject role="icon-apps-sgt-launcher"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/sgt-launcher.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-thunderbird '<inlinemediaobject role="icon-apps-thunderbird"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/thunderbird.png" /></imageobject></inlinemediaobject>' >
+<!ENTITY icon-apps-transmission '<inlinemediaobject role="icon-apps-transmission"><imageobject><imagedata role="icon-pad" fileref="../../libs-common/images/apps/transmission.png" /></imageobject></inlinemediaobject>' >

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
+%xubuntu-common;
+<!ENTITY % xubuntu-user SYSTEM "../libs/xubuntu-user.ent">
+%xubuntu-user;
+<!ENTITY % xinclude SYSTEM "../../libs-common/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+<chapter id="software-management">
+	<title>Software Management</title>
+
+	<para>Software that is readily available to install on Xubuntu is stored in online software repositories which contain trusted software. Software repositories on Linux are similar to the software catalogs used by desktop app stores like the Microsoft Store and Mac App Store, or mobile app stores like the Google Play Store and Apple's App Store.</para>
+
+	<para>These repositories store software packages, which are the individual components that collectively make up the software your computer uses. The software packages are stored in this fashion so that they can be shared by different programs. Xubuntu's software repositories are organized and maintained by OS (Operating System) maintainers and contain a large selection of free and open source software. OS maintainers ensure that the software functions properly and does not contain spyware or viruses.</para>
+
+	<para>Xubuntu comes with applications which make it easy for users to install, update, and uninstall software from repositories.</para>
+
+	<itemizedlist>
+		<listitem><para><application>Software Center</application> (<literal>&package;<ulink url="apt://gnome-software">gnome-software</ulink></literal>) is an app store which is good for new users because it makes it easy to discover desktop applications. The list of available software can be expanded with the installation of plugins for the snap package repository (<literal>&package;<ulink url="apt://gnome-software-plugin-snap">gnome-software-plugin-snap</ulink></literal>) and the flatpak package repository (<literal>&package;<ulink url="apt://gnome-software-plugin-flatpak">gnome-software-plugin-flatpak</ulink></literal>).</para></listitem>
+		<listitem><para><application>Snap Store</application> (<ulink url="&snap-store-install;">install</ulink>) is an app store for the management of applications that use the snap package management system. Snap applications are confined for extra security, update automatically, and can run across many different Linux distributions. The Snap Store is also available as a <ulink url="&snap-store-web;">web interface</ulink>.</para></listitem>
+		<listitem><para><application>Synaptic</application> (<literal>&package;<ulink url="apt://synaptic">synaptic</ulink></literal>) is a package manager with a GUI (Graphical User Interface) for users who want more control over package management. It has options to view installation history, view packages by repository, and lock a package to a particular version.</para></listitem>
+		<listitem><para><application>apt</application> or <application>apt-get</application> is a CLI (Command-Line Interface) tool for package management that provides similar functionality to <application>Synaptic</application> and is beneficial for those who don't have access to a GUI or prefer to use the terminal. For information on the basic <application>apt</application> commands, see the <ulink url="&apt-docs;">Ubuntu apt documentation</ulink>.</para></listitem>
+		<listitem><para><application>snap</application> (<literal>&package;<ulink url="apt://snapd">snapd</ulink></literal>) is a command-line utility for the management of snap packaged applications. For information on the basic <application>snap</application> commands, see the <ulink url="&snap-docs;">Getting started documentation</ulink> and the <ulink url="&snap-installs;">download and offline install tutorial</ulink>.</para></listitem>
+	</itemizedlist>
+
+	<note><para>You will need administrative access to add, update, and remove software and you can only utilize one package manager at a time for package management. There are additional app stores and package managers including <ulink url="&flathub;">Flathub</ulink>, <ulink url="&appimagehub;">AppImageHub</ulink>, Ubuntu MATE Software Boutique, <ulink url="&appgrid;">AppGrid</ulink>, Aptitude (<literal>&package;<ulink url="apt://aptitude">aptitude</ulink></literal>).</para></note>
+
+	<section id="gnome-software">
+		<title>Using Software Center</title>
+
+		<para>You can launch the GNOME Software Center from the &appmenu2; (<keycap>&key;Ctrl+Escape</keycap>) or <application>Application Finder</application> (<keycap>&key;Alt+F3</keycap>). It will be named <application>Software</application> and is found by default in the <guilabel>Favorites</guilabel> category, so it will be visible once you open the &appmenu2;.</para>
+
+		<informalfigure>
+			<screenshot>
+				<mediaobject>
+					<imageobject>
+						<imagedata align="center" fileref="../libs/images/software_management/gnome-software.png"/>
+					</imageobject>
+				</mediaobject>
+			</screenshot>
+		</informalfigure>
+
+		<para>Once launched, you will be on the <guilabel>Explore</guilabel> tab of the <application>GNOME Software</application>, which allows you to browse the categories or click the <guibutton>search</guibutton> button in the title bar, to easily find an application by name or keyword. When you click on an application, you will arrive at its information page, which contains its description, images, website link, reviews, and other details. On this page you have the option to either install, launch, or remove the application, as well as write a review.</para>
+
+		<para>The other two tabs in the title bar are <guilabel>Installed</guilabel> and <guilabel>Updates</guilabel>. The <guilabel>Installed</guilabel> tab lists all the applications installed on the system and provides easy access to remove them. The <guilabel>Updates</guilabel> tab shows which applications are eligible for updating and it also has a <guibutton>Refresh</guibutton> button in the title bar to search for new updates.</para>
+
+		<caution><para>Some applications depend on others being installed in order to work properly. If you try to remove an application which is needed by another application, both of them will be removed. You will be asked to confirm that this is what you want to happen before the applications are removed.</para></caution>
+
+		<note><para><application>GNOME Software</application> does not remove the software package dependencies that get installed with an application. To remove any dependencies that are no longer needed by the system, run <userinput>sudo apt autoremove</userinput> in a terminal. Before agreeing to the removal, check that the packages being marked for removal are the expected ones.</para></note>
+	</section>
+
+	<section id="software-repositories">
+		<title>Software Repositories</title>
+
+		<para>The Ubuntu software repositories contain thousands of applications curated from the best FOSS (Free and Open Source Software) for both entertainment and productivity. Management of these software repositories and additional ones is possible in the <application>Software &amp; Updates</application> app found in the <guilabel>Settings</guilabel> category of the &appmenu2;, as well as in the &settings2;. It can also be opened through the <guibutton>Gear</guibutton> button menu in the title bar of <application>GNOME Software</application> or the <guibutton>Application</guibutton> button menu found on the left corner of the title bar.</para>
+
+		<informalfigure>
+			<screenshot>
+				<mediaobject>
+					<imageobject>
+						<imagedata align="center" fileref="../libs/images/software_management/software-repositories.png"/>
+					</imageobject>
+				</mediaobject>
+			</screenshot>
+		</informalfigure>
+
+		<para>On the <guilabel>Ubuntu Software</guilabel> tab, you can enable and disable the main four Ubuntu software repositories, as well as select the server where the downloaded packages should come from. The <guilabel>Other Software</guilabel> tab allows you to enable, disable, add, edit, and remove extra online and offline repositories.</para>
+	</section>
+
+	<section id="installing-third-party-apps">
+		<title>Installing Third-Party Apps</title>
+
+		<para>For applications that aren’t available or outdated in the software repositories, users can visit the software author’s website and download their Linux or Ubuntu installation file. This file will have a .deb file extension and is a Debian software package. Once downloaded, simply open the file, and it will open in <application>GNOME Software</application> with the option to install. Alternatively, it can be installed through the <application>GDebi Package Installer</application> (<literal>&package;<ulink url="apt://gdebi">gdebi</ulink></literal>).</para>
+
+		<para>Some application authors may provide a third-party repository, known as a PPA (Personal Package Archive), which can be added to your system. Other application authors may provide their software in the form of an installable Flatpak or as an AppImage, which runs without installation.</para>
+
+		<note><para>Only download third-party apps from trusted sources in order to limit the risk of getting malware, junkware, or ransomware. If you’d like to install Windows applications, please see <xref linkend="migrating" />.</para></note>
+	</section>
+
+	<section id="software-updates">
+		<title>Software Updates</title>
+
+		<para>In order to keep your system updated and protected from potential security issues, Xubuntu has a software updates notifier running in the background. It checks for updates once a week and when updates are found, the <application>Software Updater</application> app will launch.</para>
+
+		<note><para>To disable the software updates notifier service, disable the <guilabel>Update Notifier</guilabel> entry in the <guilabel>Application Autostart</guilabel> tab of the <application>Session and Startup</application> app. However, this is not recommended.</para></note>
+
+		<section id="software-updates-updater">
+			<title>Software Updater</title>
+
+			<para>To manually check for software updates, you can open the <application>Software Updater</application> found in the <guilabel>Settings</guilabel> category of the &appmenu2; as well as in the <guilabel>System</guilabel> category of the &settings2;. Once opened, it will query the software repositories, compare the software list against the versions installed on your system, and present those that can be updated.</para>
+
+			<informalfigure>
+				<screenshot>
+					<mediaobject>
+						<imageobject>
+							<imagedata align="center" fileref="../libs/images/software_management/software-updater.png"/>
+						</imageobject>
+					</mediaobject>
+				</screenshot>
+			</informalfigure>
+		</section>
+
+		<section id="software-updates-settings">
+			<title>Update Check Settings</title>
+
+			<para>You can set how often the <application>Software Updater</application> checks for updates, which updates to check for and what should happen when updates are found. These settings can be accessed when <application>Software Updater</application> is run by clicking the <guibutton>Settings...</guibutton> button at the bottom left. Pressing this will open the <application>Software &amp; Updates</application> dialog with the <guilabel>Updates</guilabel> tab selected.</para>
+
+			<informalfigure>
+				<screenshot>
+					<mediaobject>
+						<imageobject>
+							<imagedata align="center" fileref="../libs/images/software_management/update-settings.png"/>
+						</imageobject>
+					</mediaobject>
+				</screenshot>
+			</informalfigure>
+
+			<note><para>Software Updater will also notify you when a new version of Xubuntu is available. Learn more in the <xref linkend="upgrading" />.</para></note>
+		</section>
+	</section>
+</chapter>

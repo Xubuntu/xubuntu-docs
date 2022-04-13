@@ -85,8 +85,8 @@
 
 			<itemizedlist>
 				<listitem><para>Empty your trash by right-clicking the <guilabel>Trash</guilabel> icon on the Desktop or the Launcher Panel and selecting <menuchoice><guimenuitem>Empty Trash</guimenuitem></menuchoice>.</para></listitem>
-				<listitem><para>Remove software packages that you no longer use. See <xref linkend="gs-remove" /> for information on removing packages.</para></listitem>
-				<listitem><para>Delete files that you no longer need. You can install the <application>GNOME Disk Usage Analyzer</application> from <application>Gnome Software</application> to find which files are taking up the most space.</para></listitem>
+				<listitem><para>Remove software packages that you no longer use.</para></listitem>
+				<listitem><para>Delete files that you no longer need. You can install the <application>GNOME Disk Usage Analyzer</application> from <application>GNOME Software</application> to find which files are taking up the most space.</para></listitem>
 			</itemizedlist>
 
 			<warning><para>Be careful not to delete files that you still need!</para></warning>
@@ -95,7 +95,7 @@
 		<section id="partitioning">
 			<title>Partitioning a Device</title>
 
-			<para>You can use <application>GParted (GNOME Partition Editor)</application> to partition storage devices. Install <application>GParted</application> from <application>Gnome Software</application> and then go to &wm-settings-gparted; to start the partition editor.</para>
+			<para>You can use <application>GParted (GNOME Partition Editor)</application> to partition storage devices. Install <application>GParted</application> from <application>GNOME Software</application> and then go to &wm-settings-gparted; to start the partition editor.</para>
 
 			<warning><para>Be careful when altering disk partitions, as it is possible to lose your data if you delete or change the wrong partition.</para></warning>
 
@@ -229,7 +229,7 @@
 			<para>To enable and use hibernation with Xubuntu, do the following:</para>
 
 			<itemizedlist>
-				<listitem><para>Install the <application>pm-utils</application> package from <application>Gnome Software</application>.</para></listitem>
+				<listitem><para>Install the <literal>&package;<ulink url="apt://pm-utils">pm-utils</ulink></literal> package from <application>GNOME Software</application>.</para></listitem>
 				<listitem><para>From the command line, enter: <userinput>sudo pm-hibernate</userinput>.</para></listitem>
 				<listitem><para>Enter your password.</para></listitem>
 				<listitem><para>To resume from hibernation, press the power button.</para></listitem>

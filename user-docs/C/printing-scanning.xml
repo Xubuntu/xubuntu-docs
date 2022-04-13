@@ -16,111 +16,171 @@
 	<section id="printing">
 		<title>Printing</title>
 
-		<para>Most printers are automatically supported by Xubuntu. The <application>Printer Configuration</application> application allows you to add printers, as well as modify their settings. You can also use this application to share the printer with other computers on a network, disable the printer or restart it.</para>
+		<para>The majority of consumer printers are automatically supported by Xubuntu, as it uses the CUPS (Common UNIX Printing System) back-end. This includes support for driver-less WiFi/wired network printing with printers that support IPP Everywhere and Apple AirPrint. If your printer is not immediately supported by Xubuntu you may need to install additional software, such as Gutenprint (<literal>&package;<ulink url="apt://printer-driver-gutenprint">printer-driver-gutenprint</ulink></literal>) and IPP-USB (<ulink url="https://software.opensuse.org//download.html?project=home%3Apzz&amp;package=ipp-usb">install</ulink>). Gutenprint extends CUPS by providing support for printers seen less often in end-user consumer settings, while IPP-USB is a more robust replacement to the default installation of the <literal>&package;ippusbxd</literal> package. Normally CUPS and Gutenprint support is better adapted to Xubuntu than what will be available from the printer manufacturer.</para>
 
-		<section id="printing-local">
-			<title>Local printing</title>
+		<section id="printing-managing-your-printer">
+			<title>Managing Your Printer</title>
 
-			<para>A local printer is one which is directly connected to your computer (as opposed to a network printer, discussed in <xref linkend="printing-network" />). To set up a new local printer, plug your printer into your computer and power it on. Most printers will be automatically detected and configured. Once detected, a printer icon will appear in the notification area and you should get a popup with the text <guilabel>Printer is ready for printing</guilabel>. If your printer was not detected, then you will need to follow these steps:</para>
+			<para>Printer management can be done in the <application>Printers</application> settings dialog, which is accessible from the <guilabel>Hardware</guilabel> category of the &settings2;, the <guilabel>Settings</guilabel> category of the application &appmenu2; (Ctrl + Escape), and in the <application>Application Finder</application> (Alt + F3).</para>
 
-			<itemizedlist>
-				<listitem><para>Obtain the model name of your printer</para></listitem>
-				<listitem><para>Ensure the printer is turned on</para></listitem>
-				<listitem><para>Go to &wm-settings-print;</para></listitem>
-				<listitem><para>Click <menuchoice><guimenu>Server</guimenu><guisubmenu>New</guisubmenu><guimenuitem>Printer</guimenuitem></menuchoice></para></listitem>
-				<listitem><para>Your printer should be automatically detected and displayed in the <guilabel>Devices</guilabel> window</para></listitem>
-				<listitem><para>Select your printer and click <guibutton>Forward</guibutton></para></listitem>
-				<listitem><para>Your computer will search for and install drivers for your printer</para></listitem>
-				<listitem><para>You can enter a description and location for your printer</para></listitem>
-				<listitem><para>Press <guibutton>Apply</guibutton></para></listitem>
-				<listitem><para>Your printer should be properly configured at this point and you will be prompted if you want to print a test page</para></listitem>
-				<listitem><para>If you press the <guibutton>Print Test Page</guibutton> button, a test page will print and you can verify if it printed correctly, or you can press <guibutton>Cancel</guibutton>. Either way, your printer is ready to print.</para></listitem>
-				<listitem><para>If you are still experiencing problems, try using the CUPS browser-based interface. It can be accessed at <ulink url="http://localhost:631/">http://localhost:631/</ulink>.</para></listitem>
-			</itemizedlist>
+			<informalfigure>
+				<screenshot>
+					<mediaobject>
+						<imageobject>
+							<imagedata align="center" fileref="../libs/images/printing_scanning/printer-dialog.png"/>
+						</imageobject>
+					</mediaobject>
+				</screenshot>
+			</informalfigure>
 
-			<tip><para>If your printer was not automatically detected, you can try to select the port and printer driver manually. Some printers need further setup. Search the <ulink url="&openprinting-web;">OpenPrinting database</ulink> or check the <ulink url="&ubuntuwiki-printers;">Ubuntu Wiki Printer page</ulink> for information on your printer.</para></tip>
+			<para>The <application>Printers</application> settings dialog allows you to add a new local printer (a printer directly connected to your computer through a USB, serial or printer port) or network printer (a printer connected on your network or a printer shared on the network through another computer). It also allows you to modify listed printers’ settings, such as renaming how they are labeled on your system, restarting, or disabling them. You can also share a printer with other computers on your network thereby making it a network printer. Depending upon the make and model of your printer, you can also check your printer’s consumables, such as toner or ink as well as paper, or send test print jobs.</para>
 		</section>
 
-		<section id="printing-network">
-			<title>Network printing</title>
+		<section id="printing-add-printer">
+			<title>Add Printer</title>
 
-			<para>You can also configure your Xubuntu system to send print jobs to a remote print server. Remote printers are hosted somewhere on a network. To configure a remote printer:</para>
+			<para>Setting up a new local printer should be as easy as plugging it into your computer and powering it on. The printer should be automatically detected and configured. Once it is successfully detected, a printer icon will appear in the notification area of the panel and a notification popup will appear with the text <guilabel>Printer is ready for printing</guilabel>.</para>
+
+			<informalfigure>
+				<screenshot>
+					<mediaobject>
+						<imageobject>
+							<imagedata align="center" fileref="../libs/images/printing_scanning/new-printer.png"/>
+						</imageobject>
+					</mediaobject>
+				</screenshot>
+			</informalfigure>
+
+			<para>If your printer was not detected, you will need to follow these steps:</para>
+
 			<itemizedlist>
-				<listitem><para>Obtain the model name of your printer</para></listitem>
-				<listitem><para>Ensure the printer is turned on</para></listitem>
-				<listitem><para>Go to &wm-settings-print;</para></listitem>
-				<listitem><para>Click <menuchoice><guimenu>Server</guimenu><guisubmenu>New</guisubmenu><guimenuitem>Printer</guimenuitem></menuchoice></para></listitem>
-				<listitem><para>Click on <guilabel>Network Printer</guilabel> in the <guilabel>Devices</guilabel> window</para></listitem>
-				<listitem><para>If your printer is directly connected to a Windows machine on your network, choose <guilabel>Windows Printer via SAMBA</guilabel>. Otherwise, select the protocol your printer uses to communicate.</para></listitem>
-				<listitem><para>Insert the details of the network printer and press <guibutton>Forward</guibutton></para></listitem>
-				<listitem><para>Select the printer manufacturer and then press <guibutton>Forward</guibutton></para></listitem>
-				<listitem><para>Select the printer model and driver then press <guibutton>Forward</guibutton></para></listitem>
-				<listitem><para>You can enter a description and location for your printer in the corresponding fields</para></listitem>
-				<listitem><para>Press <guibutton>Apply</guibutton></para></listitem>
-				<listitem><para>Your printer is properly configured at this point and you will be prompted to print a test page, press <guibutton>Cancel</guibutton> or <guibutton>Print Test Page</guibutton> depending on your preference</para></listitem>
+				<listitem><para>Open the <application>Printers</application> settings dialog.</para></listitem>
+				<listitem><para>Click the Add button in the toolbar or <menuchoice><guimenuitem>Server</guimenuitem><guimenuitem>New</guimenuitem><guimenuitem>Printer</guimenuitem></menuchoice> in the menu to open the <guibutton>New Printer</guibutton> dialog.</para></listitem>
+				<listitem><para>Select the appropriate Printer, Port, URI, Protocol or Network Printer entry in the <guilabel>Devices</guilabel> list on the left of the dialog. If your printer is not visible, you may need to click on the triangle next to <quote>Find Network Printer</quote> to expand the list of printers on your network.</para></listitem>
+				<listitem><para>Where applicable, fill in any relevant details into the text fields and/or dropdown lists on the right of the dialog and then click the <guibutton>Forward</guibutton> button.</para></listitem>
+				<listitem><para>If you are adding a local printer, your computer will search for it and install its drivers. If you are installing a network printer, you will go through additional steps of selecting the printer manufacturer, printer model and driver.</para></listitem>
+				<listitem><para>You will then be prompted to enter a short name, description, and location of the printer.</para></listitem>
+				<listitem><para>Press the <guibutton>Apply</guibutton> button to finalize the configuration of the printer.</para></listitem>
+				<listitem><para>You will be prompted with a dialog asking <guilabel>Would you like to print a test page?</guilabel></para></listitem>
+				<listitem><para>If you press the <guibutton>Print Test Page</guibutton> button, a test page will print and you can verify if it printed correctly or you can press <guibutton>Cancel</guibutton>. Either way, your printer is ready to print.</para></listitem>
 			</itemizedlist>
 
-			<note><para>If you do not know the protocol or details of your network printer, you should consult your network administrator.</para></note>
+			<para>If you are experiencing problems adding a printer with the steps above, you can try using the CUPS browser-based interface. It can be accessed at <ulink url="http://localhost:631/">http://localhost:631/</ulink>. Click the <guilabel>Administration</guilabel> menu item at the top of the page for options to add and find new printers. Do not make any changes in the <application>Printers</application> settings dialog or other system printer management utilities until you are finished using the CUPS browser-based interface. You may need to restart CUPS for it to reflect any changes that you make directly in the browser-based interface.</para>
 
-			<tip><para>If you do not have a network printer, but want your printer to be shared to other computers on your network, click <menuchoice><guimenu>Server</guimenu><guimenuitem>Settings</guimenuitem></menuchoice> from the <guilabel>Printers</guilabel> dialog, check the box <guilabel>Publish shared printers connected to this system</guilabel>, and then press <guibutton>OK</guibutton>. Other computers running versions of Xubuntu later than 13.04 will automatically detect printers shared this way. Computers running Xubuntu versions prior to 13.10, or other Linux/Ubuntu-based systems, may need to enable a setting to show shared printers.</para></tip>
+			<note>
+				<para>If the printer is directly connected to a Windows machine on your network, choose the <guilabel>Windows Printer via SAMBA</guilabel> entry from the <guilabel>Devices</guilabel> list. If you do not know the protocol or details of your network printer, you should consult the printer’s manual or ask your network administrator.</para>
+				<para>Search the <ulink url="https://wiki.linuxfoundation.org/openprinting/database/databaseintro">OpenPrinting database</ulink> or check the <ulink url="https://help.ubuntu.com/community/Printers">Community Help Printer page</ulink> for information on your printer.</para>
+			</note>
+		</section>
+
+		<section id="printing-share-printer">
+			<title>Share Printer</title>
+
+			<para>If you want to share your local printer with other computers on your network:</para>
+
+			<itemizedlist>
+				<listitem><para>Open the <application>Printers</application> settings dialog.</para></listitem>
+				<listitem><para>Click <menuchoice><guimenuitem>Server</guimenuitem><guimenuitem>Settings</guimenuitem></menuchoice> in the menu.</para></listitem>
+				<listitem><para>Enable the <guilabel>Publish shared printers connected to this system</guilabel> checkbox.</para></listitem>
+				<listitem><para>Click the <guibutton>OK</guibutton> button.</para></listitem>
+			</itemizedlist>
+
+			<informalfigure>
+				<screenshot>
+					<mediaobject>
+						<imageobject>
+							<imagedata align="center" fileref="../libs/images/printing_scanning/print-server-settings.png"/>
+						</imageobject>
+					</mediaobject>
+				</screenshot>
+			</informalfigure>
+
+			<para>Then go to your secondary Xubuntu installation and open the Printers settings dialog. Click the Add button in the toolbar, then expand the <guilabel>Network Printer</guilabel> option. The shared printer should appear below as the sharing computer’s IP address. You may need to first search for the IP address using the <guilabel>Find Network Printer</guilabel> option.</para>
+		</section>
+
+		<section id="printing-management-software">
+			<title>Management Software</title>
+
+			<para>If you have an HP (Hewlett Packard) printer and would like additional software to manage it, you can install the <guilabel>HP Linux Imaging and Printing (HPLIP) GUI utilities</guilabel> (<literal>&package;<ulink url="apt://hplip-gui">hplib-gui</ulink></literal>). These utilities include the <application>HPLIP Toolbox</application> application which will be found in the <guilabel>Settings</guilabel> category of the &appmenu2; and the <guilabel>Others</guilabel> category of the &settings2;. On supported inkjet printers, you will be able to monitor ink levels, check printer status, change page size and print quality, as well as clean the printer heads. On supported laser printers you will be able to monitor toner level, check printer status, change page size, and manage print quality. For all-in-one (multi-function) devices, you will be able to change fax settings and functionality. For more information about HPLIP <ulink url="https://developers.hp.com/hp-linux-imaging-and-printing/features">click here</ulink>.</para>
+
+			<informalfigure>
+				<screenshot>
+					<mediaobject>
+						<imageobject>
+							<imagedata align="center" fileref="../libs/images/printing_scanning/hp-device-manager.png"/>
+						</imageobject>
+					</mediaobject>
+				</screenshot>
+			</informalfigure>
+		</section>
+
+		<section id="printing-printer-support">
+			<title>Printer Support</title>
+			<para>The OpenPrinting database stores information about printers, their drivers, and how well they are supported under Linux.  If you are not sure about how well a printer is supported in a Linux environment check that database. It is also a good database to check before buying a new printer. </para>
+		</section>
+
+		<section id="printing-printer-devices">
+			<title>Printer Drivers</title>
+
+			<para>If your printer doesn’t work automatically or you’d like to install the printer drivers and utilities from the printer manufacturer, here are some links to assist.</para>
+			<para><ulink url="https://developers.hp.com/hp-linux-imaging-and-printing">HP</ulink>, <ulink url="https://www.usa.canon.com/internet/portal/us/home/support/product-finder/support-printers">Canon</ulink>, <ulink url="https://support.brother.com/g/s/id/linux/en/index.html">Brother</ulink>, <ulink url="https://epson.com/Support/wa00821">Epson</ulink>, <ulink url="https://www.support.xerox.com/">Xerox</ulink>, <ulink url="http://support.lexmark.com/index?page=driverSupport&amp;locale=en&amp;userlocale=EN_US">Lexmark</ulink></para>
 		</section>
 	</section>
 
 	<section id="scanning">
 		<title>Scanning</title>
 
-		<para>Many scanners are automatically supported by Xubuntu, and should be easy to install and operate. This section will walk you through how to use your scanner and what to do if Xubuntu does not detect your scanner.</para>
+		<para>Similar to Xubuntu’s support for printers, it also has plug and play support for many scanners, as many of them today come as part of multi-function devices. Scanner support on Linux is provided by the SANE project which maintains a <ulink url="http://www.sane-project.org/sane-backends.html">list of supported scanners</ulink>. Additional scanner support can be achieved with the installation of SANE-airscan (<ulink url="https://github.com/alexpevzner/sane-airscan">install</ulink>), which allows driver-less network scanning with scanners that support Apple AirScan (eSCL) and Microsoft WSD.</para>
 
-		<section id="scanning-compatible">
-			<title>Does my scanner work in Xubuntu?</title>
+		<section id="scanning-using-your-scanner">
+			<title>Using your Scanner</title>
 
-			<para>There are three ways to see if your scanner works in Xubuntu:</para>
-
-			<itemizedlist>
-				<listitem><para>Simply plug it in and try it! If it is a newer USB scanner, it is likely that it will just work.</para></listitem>
-				<listitem><para>Check the <ulink url="&ubuntuwiki-scanners;">list of supported scanners</ulink> for Xubuntu</para></listitem>
-				<listitem><para>Check the <ulink url="&sane-drivers;">SANE project listing of support scanners</ulink>. <application>SANE</application> is the software used by Xubuntu for most of its scanner support.</para></listitem>
-			</itemizedlist>
-		</section>
-
-		<section id="scanning-using">
-			<title>Using your scanner</title>
-
-			<para>To scan a document:</para>
+			<para>To begin using your scanner, open the <application>Document Scanner</application> or <application>Simple Scan</application> app, which is accessible from the <guilabel>Graphics</guilabel> category of the &appmenu2; (Ctrl + Escape) and in the <application>Application Finder</application> (Alt + F3). Follow the next steps to scan a document, picture/image, etc.:</para>
 
 			<itemizedlist>
-				<listitem><para>Place what you want to scan on the scanner</para></listitem>
-				<listitem><para>Go to &simple-scan;</para></listitem>
-				<listitem><para>Click the arrow to the right of the <guibutton>Scan</guibutton> button and choose the type of media you are scanning, <guilabel>Text</guilabel> or <guilabel>Photo</guilabel></para></listitem>
-				<listitem><para>Click the <guibutton>Scan</guibutton> button to begin your scan</para></listitem>
+				<listitem><para>Connect your scanner and power it on.</para></listitem>
+				<listitem><para>Place what you want to scan on the scanner flatbed or feeder.</para></listitem>
+				<listitem><para>Close the lid if you have a lid.</para></listitem>
+				<listitem><para>Click the arrow to the right of the <guibutton>Scan</guibutton> button and choose the type of media you are scanning, <guilabel>Text</guilabel> or <guilabel>Photo</guilabel>.</para></listitem>
+				<listitem><para>Click the <guibutton>Scan</guibutton> button to begin your scan.</para></listitem>
 			</itemizedlist>
+
+			<informalfigure>
+				<screenshot>
+					<mediaobject>
+						<imageobject>
+							<imagedata align="center" fileref="../libs/images/printing_scanning/document-scanner.png"/>
+						</imageobject>
+					</mediaobject>
+				</screenshot>
+			</informalfigure>
 		</section>
 
-		<section id="scanning-not-detected">
-			<title>The computer says "No scanners detected"</title>
+		<section id="scanning-no-scanners-detected">
+			<title>No Scanners Detected</title>
 
 			<para>There are two reasons why you might get this message:</para>
 
 			<itemizedlist>
-				<listitem><para>Your scanner is not supported in Xubuntu. For example, most parallel port scanners and Lexmark All-in-One printer/scanner/faxes are not supported.</para></listitem>
+				<listitem><para>Your scanner is not automatically supported, which includes most parallel port scanners and Lexmark All-in-One printer/scanner/faxes.</para></listitem>
 				<listitem><para>The driver for your scanner is not being loaded automatically.</para></listitem>
 			</itemizedlist>
 
-			<para>You may be able to get your scanner working by installing a driver or altering some configuration files. Please ask for advice on the <ulink url="&ubuntu-forums;">Ubuntu forums</ulink> or on <ulink url="&askubuntu-web;">AskUbuntu</ulink>.</para>
+			<para>You may be able to get your scanner working by installing a driver or altering some configuration files. Please ask for advice on the <ulink url="http://ubuntuforums.org/">Ubuntu forums</ulink> or on <ulink url="http://askubuntu.com/">AskUbuntu</ulink>.</para>
 
-			<note><para>To get some scanners working, you may need to plug in the scanner after the computer has booted.</para></note>
+			<note><para>To get some scanners working, you may need to plug the scanner in after the computer has booted.</para></note>
 		</section>
 
-		<section id="scanning-manual-install">
+		<section id="scanning-manually-installing-scanner">
 			<title>Manually installing a scanner</title>
 
-			<para>There are some scanners that have less-than-complete drivers from the SANE project. They can sometimes be used, but not all the features may work.</para>
+			<para>There are some scanners that have incomplete drivers from the SANE project. They can sometimes be used, but not all the features may work. For these scanners:</para>
 
 			<itemizedlist>
-				<listitem><para>Install the <literal>&package;libsane-extras</literal> package</para></listitem>
-				<listitem><para>Run <userinput>pkexec mousepad /etc/sane.d/dll.conf</userinput> at the command line to open the SANE driver file for editing</para></listitem>
+				<listitem><para>Install the <literal>&package;<ulink url="apt://libsane-extras">libsane-extras</ulink></literal> package.</para></listitem>
+				<listitem><para>Run <userinput>pkexec mousepad /etc/sane.d/dll.conf</userinput> at the command line to open the SANE driver file for editing.</para></listitem>
 				<listitem><para>Enable the correct driver for your scanner by removing the <literal>#</literal> from in front of the name of the driver. You may need to search the web to find out which driver is the right one.</para></listitem>
-				<listitem><para>Save the file and open <application>Simple Scan</application>. If all goes well, your scanner will now work. </para></listitem>
+				<listitem><para>Save the file and open <application>Simple Scan</application>. If all goes well, your scanner will now work.</para></listitem>
 			</itemizedlist>
 		</section>
 	</section>

@@ -128,6 +128,10 @@ dd span.sect1 {
 	font-weight: bold;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+}
+
 h1 {
 	margin: 0 0 1em 0;
 	font-size: 220%;
@@ -373,6 +377,10 @@ p .application .guimenu {
 	color: #016;
 }
 
+img {
+	max-width: 100%;
+}
+
 .guiicon img,
 .filename img {
 	margin-bottom: -0.25em;
@@ -441,3 +449,6 @@ p .application .guimenu {
 		display: block;
 	}
 
+.informalfigure {
+	margin: 1em 0;
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % xubuntu-common SYSTEM "../../libs-common/xubuntu-common.ent">
+%xubuntu-common;
+<!ENTITY % xubuntu-user SYSTEM "../libs/xubuntu-user.ent">
+%xubuntu-user;
+<!ENTITY % xinclude SYSTEM "../../libs-common/xinclude.mod">
+%xinclude;
+<!ENTITY language "&EnglishAmerican;">
+<!ENTITY language "C">
+]>
+<chapter id="user-management">
+	<title>User Management</title>
+
+	<para>For security reasons, administrative tasks in Xubuntu can only be performed by users with special privileges. The first user account created during installation will, by default, be able to perform administrative tasks.</para>
+
+	<para>When you run an application that requires administrative privileges, you will be asked to enter your password. This helps protect your system from malicious activity and lessens the chance that you will accidentally change the way your system works.</para>
+
+	<para>Each time you type your password in a terminal session, it will be remembered for 15 minutes, so that you do not have to type it again.</para>
+
+	<note><para>Users must be a member of the 'sudo' group in order to carry out administrative operations. Information on how to change groups can be found below.</para></note>
+
+	<section id="users-groups">
+		<title>Users and groups</title>
+
+		<para>When Xubuntu is installed, only one user account is created. If multiple users use the computer, it is highly encouraged to create separate user accounts for everyone. This allows users to have their individual settings, files and access rights.</para>
+
+		<para>To modify the users or groups on your system, navigate to &wm-users-groups;.</para>
+
+		<note><para>You need administrative rights to make changes to users and groups.</para></note>
+
+		<section id="users-groups-manage-users">
+			<title>Managing users</title>
+
+			<para>To add a new user:</para>
+
+			<itemizedlist>
+				<listitem><para>Click the <guibutton>Add</guibutton> button</para></listitem>
+				<listitem><para>Enter your password</para></listitem>
+				<listitem><para>Fill in the <guilabel>Name</guilabel> and <guilabel>Username</guilabel></para></listitem>
+				<listitem><para>Click the <guibutton>OK</guibutton> button</para></listitem>
+			</itemizedlist>
+
+			<para>If you want to give a user administrative rights to the system:</para>
+
+			<itemizedlist>
+				<listitem><para>Select the user whose account type you want to change and press the <guibutton>Change...</guibutton> button</para></listitem>
+				<listitem><para>Enter your password if prompted to do so</para></listitem>
+				<listitem><para>Select the <guilabel>Administrator</guilabel> option (or select <guilabel>Desktop User</guilabel> to revert)</para></listitem>
+				<listitem><para>Press <guibutton>OK</guibutton> to apply the selected changes</para></listitem>
+			</itemizedlist>
+
+			<tip><para>For more fine-grained access control, click the <guibutton>Advanced Settings</guibutton> button in the <guilabel>User Settings</guilabel> dialog, enter your password, click the <guilabel>User Privileges</guilabel> tab and from there select or deselect the desired options.</para></tip>
+
+			<para>To remove a user from the system, select the user you want to delete and click the <guibutton>Delete</guibutton> button.</para>
+		</section>
+
+		<section id="users-groups-manage-groups">
+			<title>Managing groups</title>
+
+			<para>To add a new group:</para>
+
+			<itemizedlist>
+				<listitem><para>Click the <guibutton>Manage Groups</guibutton> button</para></listitem>
+				<listitem><para>Click the <guibutton>Add</guibutton> button</para></listitem>
+				<listitem><para>Enter your password</para></listitem>
+				<listitem><para>Choose a name for the new group and, if you want, change the default value for the <guilabel>Group ID</guilabel></para></listitem>
+				<listitem><para>At this time, you have the option of selecting <guilabel>Group Members</guilabel> from the list</para></listitem>
+				<listitem><para>Click the <guibutton>OK</guibutton> button</para></listitem>
+			</itemizedlist>
+
+			<para>To remove a group from the system, click on the <guibutton>Manage Groups</guibutton> button, select the group you want to delete and click the <guibutton>Delete</guibutton> button.</para>
+		</section>
+
+	</section>
+
+	<section id="personal-info">
+		<title>Customizing your personal info</title>
+
+		<para><application>Mugshot</application> is a lightweight user configuration utility that allows you to easily set the profile image and user details for your user profile and any supported applications.</para>
+
+		<para>To launch <application>Mugshot</application> navigate to &wm-settings-mugshot;.</para>
+
+		<para>To change your profile image, click the <guibutton>image</guibutton> button on the left of the GUI, select one of the given options and follow the instructions.</para>
+
+		<note><para>Mugshot requires the installation of <literal>&package;<ulink url="apt://gstreamer1.0-tools">gstreamer1.0-tools</ulink></literal> package to use the <guilabel>Capture from camera...</guilabel> feature.</para></note>
+
+		<para>Fill the text-fields with the required personal data and click <guibutton>Apply</guibutton>. When applying these details with <application>Pidgin</application> and/or LibreOffice installed, you will be prompted to update their settings as well.</para>
+
+		<warning><para>If the personal data inserted in the <guilabel>First Name</guilabel> and <guilabel>Last Name</guilabel> text-fields differ from the existing values held in <userinput>/etc/passwd</userinput>, you'll be prompted to insert your password as a security measure to prevent unwanted updates to your personal information.</para></warning>
+
+		<para>Read more at the <ulink url="&mugshot-help;">Mugshot</ulink> official documentation.</para>
+	</section>
+</chapter>
