@@ -25,7 +25,7 @@ jobs:
         make user-html-translations
         make contributor-html
         make contributor-html-translations TRANSPERC=20
-        make startpage REVNO=${GITHUB_SHA}
+        make startpage REVNO=${GITHUB_SHA::7}
         make test
 
     - name: Deploy
