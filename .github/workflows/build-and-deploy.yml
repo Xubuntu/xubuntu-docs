@@ -27,6 +27,7 @@ jobs:
         make contributor-html-translations TRANSPERC=20
         make startpage REVNO=${GITHUB_SHA::7}
         make test
+        make
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4.5.0
