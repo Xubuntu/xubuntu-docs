@@ -3,14 +3,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Pushing to Bzr branches</title>
+    <title>Enviando por Push para repositórios Bzr</title>
     <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
     <meta name="generator" content="DocBook XSL Stylesheets Vsnapshot" />
-    <link rel="home" href="index.html" title="Xubuntu Contributor Documentation" />
-    <link rel="up" href="bzr.html" title="Using Bazaar (Bzr)" />
-    <link rel="prev" href="bzr-branch.html" title="Getting and updating Bzr branches" />
-    <link rel="next" href="bzr-merge-proposal.html" title="Submitting merge proposals" />
-    <link rel="copyright" href="credits-license.html" title="Credits and License" />
+    <link rel="home" href="index.html" title="Documentação de colaborador do Xubuntu" />
+    <link rel="up" href="bzr.html" title="Usando Bazaar (Bzr)" />
+    <link rel="prev" href="bzr-branch.html" title="Obtendo e atualizando branches do Bzr" />
+    <link rel="next" href="bzr-merge-proposal.html" title="Enviando propostas de mesclagem" />
+    <link rel="copyright" href="credits-license.html" title="Créditos e Licença" />
     <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
     <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
     <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
@@ -26,34 +26,34 @@
       <div class="titlepage">
         <div>
           <div>
-            <h3 class="title"><a id="bzr-push"></a>Pushing to Bzr branches</h3>
+            <h3 class="title"><a id="bzr-push"></a>Enviando por Push para repositórios Bzr</h3>
           </div>
         </div>
       </div>
-      <p>When you have worked on your changes and want to push them to a remote branch, do the following in the local branch:</p>
+      <p>Quando tiver trabalhado em suas alterações e quiser movê-las a uma branch remota, faça o seguinte na branch local:</p>
       <div class="itemizedlist">
         <ul class="itemizedlist" style="list-style-type: disc; ">
           <li class="listitem">
-            <p>To rename or move files, run <strong class="userinput"><code>bzr mv OLD NEW</code></strong>. This helps to keep the resulting diff meaningful, and also works after the fact.</p>
+            <p>Para renomear ou mover arquivos, execute<strong class="userinput"><code>bzr mv ANTIGO NOVO</code></strong>. Isso ajudará manter o diff resultante significativo, e também funcionará após o fato.</p>
           </li>
           <li class="listitem">
-            <p>If you have added files, run <strong class="userinput"><code>bzr add .</code></strong> in the branch root. This starts tracking any files in the branch that are currently unknown.</p>
+            <p>Se tiver adicionado arquivos, execute<strong class="userinput"><code>bzr add .</code></strong>na branch root. Isto iniciará o rastreio de quaisquer arquivos na filial que estão indeterminados no momento.</p>
           </li>
           <li class="listitem">
-            <p>If you have removed files, run <strong class="userinput"><code>bzr remove</code></strong>. In most cases, this should automatically stop tracking files that are no longer in the branch.</p>
+            <p>Se tiver removido arquivos, execute<strong class="userinput"><code>bzr remove</code></strong>.Na maioria dos casos,isso deverá automaticamente parar o rastreio de arquivos que não estão mais na branch.</p>
           </li>
           <li class="listitem">
-            <p>To check the status of the branch, run <strong class="userinput"><code>bzr status</code></strong>.</p>
+            <p>Para verificar o estado da branch, execute <strong class="userinput"><code>bzr status</code></strong>.</p>
           </li>
           <li class="listitem">
-            <p>Commit your changes by running <strong class="userinput"><code>bzr commit</code></strong>. This will open a text editor to enter the commit message.</p>
+            <p>Faça o commit das suas alterações ao executar<strong class="userinput"><code>bzr commit</code></strong>.Isto irá abrir um editor de texto para inserir a mensagem de confirmação.</p>
           </li>
           <li class="listitem">
-            <p>After you have done one or more commits, run <strong class="userinput"><code>bzr push LOCATION</code></strong> to push your changes to a remote branch.</p>
+            <p>Após ter feito um ou dois commits, execute<strong class="userinput"><code>bzr push LOCALIZAÇÃO</code></strong>para mover suas alterações a uma branch remota.</p>
           </li>
         </ul>
       </div>
-      <p>The commit message should summarize all the changes you have done after the last commit. You can specify it directly by using <code class="literal">-m MESSAGE</code>, and link a bug report to the commit by using <code class="literal">--fixes lp:BUGNO</code>.</p>
+      <p>A mensagem de commit deverá resumir todas as alterações que você fez após o último commit.Você pode especificá-la usando<code class="literal">-m MENSAGEM</code>,e vincular um reporte de bug ao commit usando <code class="literal">--fixes lp:NÚMERODOBUG</code>.</p>
       <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
         <table border="0" summary="Note">
           <tr>
@@ -64,7 +64,7 @@
           </tr>
           <tr>
             <td align="left" valign="top">
-              <p>When you are working on a branch and are making several changes that aren't related to each other, it is recommended that you do several commits. This helps to keep the commit log clean and makes it easier to find any issues that certain changes may have introduced.</p>
+              <p>Quando estiver trabalhando em uma branch e fazendo várias alterações que não são relacionadas umas as outras,é recomendado fazer vários commits. Isso ajuda manter o log de commits limpo e torna mais fácil a procura de qualquer problema que possa ter sido introduzido.</p>
             </td>
           </tr>
         </table>
@@ -79,7 +79,7 @@
           </tr>
           <tr>
             <td align="left" valign="top">
-              <p>When you push to a remote branch the first time, you will need to specify the branch location. In most cases, it will follow the format <code class="literal"><span class="inline-icon-branch"><img src="../../libs-common/images/icon_branch.png" /></span>lp:~username/projectname/branchname</code>. This pushes your code to a personal remote branch. On subsequent pushes, you can omit the branch location, as Bzr will have saved your previous push location in the local branch configuration.</p>
+              <p>Quando mover uma alteração para uma branch remota pela primeira vez, terá que especificar a localização da branch, Na maioria dos casos,ela irá seguir o formato <code class="literal"><span class="inline-icon-branch"><img src="../../libs-common/images/icon_branch.png" /></span>lp:~username/projectname/branchname</code>. Isso moverá o seu código para uma branch remota pessoal, Ao mover alterações repetidamente, você poderá omitir a localização da branch, já que Bzr terá salvo a localização mais recente na configuração da branch local.</p>
             </td>
           </tr>
         </table>
@@ -98,13 +98,13 @@
           <td width="40%" align="right"> <a accesskey="n" href="bzr-merge-proposal.html"><img src="../../libs-common/images/next.png" alt="Próxima" /></a></td>
         </tr>
         <tr>
-          <td width="40%" align="left" valign="top">Getting and updating Bzr branches </td>
+          <td width="40%" align="left" valign="top">Obtendo e atualizando branches do Bzr </td>
           <td width="20%" align="center">
             <a accesskey="h" href="index.html">
               <img src="../../libs-common/images/home.png" alt="Principal" />
             </a>
           </td>
-          <td width="40%" align="right" valign="top"> Submitting merge proposals</td>
+          <td width="40%" align="right" valign="top"> Enviando propostas de mesclagem</td>
         </tr>
       </table>
     </div>

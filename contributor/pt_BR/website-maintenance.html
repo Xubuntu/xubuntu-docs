@@ -3,14 +3,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Xubuntu website maintenance documentation</title>
+    <title>Documentação de manutenção do website do Xubuntu</title>
     <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
     <meta name="generator" content="DocBook XSL Stylesheets Vsnapshot" />
-    <link rel="home" href="index.html" title="Xubuntu Contributor Documentation" />
+    <link rel="home" href="index.html" title="Documentação de colaborador do Xubuntu" />
     <link rel="up" href="website.html" title="Capítulo 5. Site" />
     <link rel="prev" href="website-introduction.html" title="Introdução à apresentação do Xubuntu na web" />
-    <link rel="next" href="processes.html" title="Capítulo 6. Processes" />
-    <link rel="copyright" href="credits-license.html" title="Credits and License" />
+    <link rel="next" href="processes.html" title="Capítulo 6. Processos" />
+    <link rel="copyright" href="credits-license.html" title="Créditos e Licença" />
     <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
     <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
     <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
@@ -26,7 +26,7 @@
       <div class="titlepage">
         <div>
           <div>
-            <h2 class="title" style="clear: both"><a id="website-maintenance"></a>Xubuntu website maintenance documentation</h2>
+            <h2 class="title" style="clear: both"><a id="website-maintenance"></a>Documentação de manutenção do website do Xubuntu</h2>
           </div>
         </div>
       </div>
@@ -34,51 +34,51 @@
         <div class="titlepage">
           <div>
             <div>
-              <h3 class="title"><a id="website-maintenance-releases"></a>Releases</h3>
+              <h3 class="title"><a id="website-maintenance-releases"></a>Lançamentos</h3>
             </div>
           </div>
         </div>
-        <p>The Xubuntu website tracks releases with a custom WordPress taxonomy. The release terms can be attached to virtually any content type used on the website. The release term information and attached content are used to automatize some content creation on the website, including but not necessarily limited to: the <a class="ulink" href="https://xubuntu.org/releases" target="_top">release pages</a>, the <a class="ulink" href="https://xubuntu.org/getxubuntu/" target="_top">Download page</a>, the <a class="ulink" href="https://xubuntu.org/help/" target="_top">Help &amp; Support</a> page and the <a class="ulink" href="https://xubuntu.org/press/" target="_top">In the Press</a> page.</p>
-        <p>To edit the generic information for each release (codename, release date, EOL date, links for Torrent downloads and online documentation and release switch), go to <a class="ulink" href="https://xubuntu.org/wp-admin/edit-tags.php?taxonomy=release" target="_top">Posts – Releases</a>.</p>
-        <p>To attach any content to a release, select the desired release(s) on the content edit page.</p>
-        <p>The following shortcodes are used to output aggregated release information (replace <code class="literal">xx-xx</code> with the desired release slug):</p>
+        <p>O site do Xubuntu rastreia lançamentos com uma taxonomia personalizada do WordPress. Os termos de lançamento podem ser anexados virtualmente para qualquer tipo de conteúdo usado no site. Informações do termo de lançamento e conteúdo anexado são usados para automatizar a criação de algum conteúdo no site, incluindo, mas não necessariamente limitado, a: <a class="ulink" href="https://xubuntu.org/releases" target="_top"> páginas de lançamento </a>, <a class="ulink" href="https://xubuntu.org/getxubuntu/" target="_top"> página de Download </a>, página de <a class="ulink" href="https://xubuntu.org/help/" target="_top"> Ajuda e Suporte </a> e a página <a class="ulink" href="https://xubuntu.org/press/" target="_top"> Na Imprensa </a>.</p>
+        <p>Para editar a informação genérica de cada lançamento (nome de código, data de lançamento, data do EOL, links para downloads de torrents, documentação online e alternância de lançamento), vá para <a class="ulink" href="https://xubuntu.org/wp-admin/edit-tags.php?taxonomy=release" target="_top"> Postagens – Lançamentos </a>.</p>
+        <p>Para anexar qualquer conteúdo a uma versão, selecione as versões desejadas na página de edição de conteúdo.</p>
+        <p>Os seguintes códigos de acesso são usados para gerar informações agregadas sobre lançamentos (substituir <code class="literal">xx-xx</code>pelos dados do lançamento desejado):</p>
         <div class="itemizedlist">
           <ul class="itemizedlist" style="list-style-type: disc; ">
             <li class="listitem">
-              <p><strong class="userinput"><code>[torrents release=xx-xx]</code></strong> to output Torrent download links</p>
+              <p><strong class="userinput"><code>[torrents release=xx-xx]</code></strong>para produzir links de download Torrent</p>
             </li>
             <li class="listitem">
-              <p><strong class="userinput"><code>[mirrors release=xx-xx]</code></strong> to output the mirror download link list with extended information available</p>
+              <p><strong class="userinput"><code>[mirrors release=xx-xx]</code></strong> para produzir lista de links de download de mirrors com informação estendida disponível   </p>
             </li>
             <li class="listitem">
-              <p><strong class="userinput"><code>[press release=xx-xx]</code></strong> to output all press links attached to the release and <strong class="userinput"><code>[press]</code></strong> to output the press archive</p>
+              <p><strong class="userinput"><code>[press release=xx-xx]</code></strong>para produzir todos os links de imprensa anexados ao lançamento e <strong class="userinput"><code>[pressione]</code></strong> para produzir o arquivo de imprensa</p>
             </li>
             <li class="listitem">
-              <p><strong class="userinput"><code>[documentation_links]</code></strong> to output a list with links to the online documentation for all released and supported releases</p>
+              <p><strong class="userinput"><code>[links_documentação]</code></strong> para produzir uma lista com links para a documentação online para todas as versões lançadas e suportadas</p>
             </li>
           </ul>
         </div>
-        <p>The releases landing page uses the page template of the same name; the template lists all released and supported releases with their short descriptions. The release pages are created automatically.</p>
+        <p>A página de lançamento das versões usa uma página modelo com o mesmo nome; o modelo lista todas as versões lançadas e suportadas com uma pequena descrição. As páginas de lançamento são criadas automaticamente.</p>
       </div>
       <div class="simplesect">
         <div class="titlepage">
           <div>
             <div>
-              <h3 class="title"><a id="website-maintenance-releaselinks"></a>Release links</h3>
+              <h3 class="title"><a id="website-maintenance-releaselinks"></a>Links de lançamento</h3>
             </div>
           </div>
         </div>
-        <p>To add press links (and other official release-specific links apart from Torrent download links and links to online documentation), go to <a class="ulink" href="https://xubuntu.org/wp-admin/post-new.php?post_type=release_link" target="_top">Release Links</a>. Once added to the database, links will appear in the appropriate places automatically.</p>
+        <p>Para adicionar links de imprensa ( e outros links oficiais de versões específicas além dos links de download Torrent e links para a documentação online), vá para <a class="ulink" href="https://xubuntu.org/wp-admin/post-new.php?post_type=release_link" target="_top">links de lançamento</a>. Uma vez adicionados ao banco de dados,links irão aparecer nos lugares apropriados automaticamente.</p>
       </div>
       <div class="simplesect">
         <div class="titlepage">
           <div>
             <div>
-              <h3 class="title"><a id="website-maintenance-mirrors"></a>Download mirrors</h3>
+              <h3 class="title"><a id="website-maintenance-mirrors"></a>Espelhos de download</h3>
             </div>
           </div>
         </div>
-        <p>The download link lists are created automatically from URL templates saved in the database. To manage release mirrors on the download lists, go to <a class="ulink" href="https://xubuntu.org/wp-admin/edit.php?post_type=download_mirror" target="_top">DL Mirrors</a>. On the edit pages you are able to make download mirrors active or inactive (respectively visible and hidden on the frontend). You can also change which download links are shown on the default listing; set the mirror as a <span class="emphasis"><em>main download mirror</em></span> if you want it to be visible directly.</p>
+        <p>As listas de links de download são criadas automaticamente a partir dos modelos de URL salvos no banco de dados. Para gerenciar os mirrors de lançamento nas listas de download,vá para <a class="ulink" href="https://xubuntu.org/wp-admin/edit.php?post_type=download_mirror" target="_top">Mirrors DL</a>. Na edição de páginas você é capaz de tornar mirrors de download ativos ou inativos (respectivamente visíveis e ocultos no front-end). Poderá também alterar quais links de download são exibidos na listagem padrão,configure o mirror como um <span class="emphasis"><em>mirror de download principal</em></span> se quiser que ele seja visível diretamente.</p>
       </div>
     </div>
     <div class="navfooter">
@@ -100,7 +100,7 @@
               <img src="../../libs-common/images/home.png" alt="Principal" />
             </a>
           </td>
-          <td width="40%" align="right" valign="top"> Capítulo 6. Processes</td>
+          <td width="40%" align="right" valign="top"> Capítulo 6. Processos</td>
         </tr>
       </table>
     </div>

@@ -3,14 +3,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Notes on the contributor documentation</title>
+    <title>Observações na documentação do colaborador</title>
     <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
     <meta name="generator" content="DocBook XSL Stylesheets Vsnapshot" />
-    <link rel="home" href="index.html" title="Xubuntu Contributor Documentation" />
-    <link rel="up" href="docs-working.html" title="Working with the documentation" />
-    <link rel="prev" href="docs-working-editing.html" title="Editing the documentation" />
-    <link rel="next" href="docs-translations.html" title="Translations" />
-    <link rel="copyright" href="credits-license.html" title="Credits and License" />
+    <link rel="home" href="index.html" title="Documentação de colaborador do Xubuntu" />
+    <link rel="up" href="docs-working.html" title="Trabalhando com a documentação" />
+    <link rel="prev" href="docs-working-editing.html" title="Editando a documentação" />
+    <link rel="next" href="docs-translations.html" title="Traduções" />
+    <link rel="copyright" href="credits-license.html" title="Créditos e Licença" />
     <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
     <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
     <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
@@ -26,21 +26,21 @@
       <div class="titlepage">
         <div>
           <div>
-            <h3 class="title"><a id="docs-working-notes-contributor"></a>Notes on the contributor documentation</h3>
+            <h3 class="title"><a id="docs-working-notes-contributor"></a>Observações na documentação do colaborador</h3>
           </div>
         </div>
       </div>
-      <p>For various reasons, the contributor documentation is more complex in structure than the user documentation. Particularly, pay attention to the following when working with the subteam documentation:</p>
+      <p>Por vários motivos,a documentação do colaborador possui uma estrutura mais complexa que a documentação do usuário. Particularmente,preste atenção ao seguinte quando estiver trabalhando com a sub-equipe de documentação:</p>
       <div class="itemizedlist">
         <ul class="itemizedlist" style="list-style-type: disc; ">
           <li class="listitem">
-            <p>If you want to create an introductory paragraph that is shown on the subteam main page, simply do not wrap it inside a <code class="literal">&lt;section&gt;</code> element. Otherwise this will be chunked into a separate HTML file.</p>
+            <p>Se quiser criar um parágrafo introdutório que seja mostrado na página principal da sub-equipe, simplesmente não o envolva dentro de um <code class="literal">&lt;seção&gt;</code>elemento. De outra forma ele será fragmentado em um arquivo HTML separado.</p>
           </li>
           <li class="listitem">
-            <p>If you want a subsection of a section to be visible in the Table of Contents, add the <code class="literal">&lt;role="toc"&gt;</code> attribute for the <code class="literal">&lt;section&gt;</code> element. For an actual example, see the <code class="literal">qa-*</code> files.</p>
+            <p>Se quiser que uma subseção seja visível no índice,adicione o atributo <code class="literal">&lt;função="toc"&gt;</code>para o elemento <code class="literal">&lt;seção&gt;</code>. Para um exemplo real, veja os arquivos <code class="literal">qa-*</code>.</p>
           </li>
           <li class="listitem">
-            <p>The sections are chunked up to the first level; this means all direct <code class="literal">&lt;section&gt;</code> ascendants of <code class="literal">&lt;chapter&gt;</code> elements will be chunked into separate HTML files. If you want to avoid this (for example if your chapter is very short), insert the <code class="literal">&lt;?dbhtml stop-chunking?&gt;</code> after the <code class="literal">&lt;title&gt;</code> element of your chapter. Note that doing this will not stop the Table of Contents from being printed with each section. You can use the <code class="literal">&lt;simplesect&gt;</code> element again to hide sections from the Table of Contents. If you do this, make sure you don't insert any elements after the <code class="literal">&lt;simplesect&gt;</code> elements in your chapter, as this will invalidate the document.</p>
+            <p>As seções são fragmentadas até o primeiro nível; Isso significa que todos os ascendentes diretos<code class="literal">&lt;seção&gt;</code> dos elementos <code class="literal">&lt;capítulo&gt;</code> serão fragmentados em arquivos HTML separados. Se quiser evitar isso (Se seu capítulo está muito curto por exemplo). Insira o <code class="literal">&lt;?dbhtml stop-chunking?&gt;</code>após o <code class="literal">&lt;título&gt;</code>elemento do seu capítulo. Observe que fazer isso não irá impedir o Índice de ser estampado em cada seção. Você pode usar o <code class="literal">&lt;seçãosimples&gt;</code>elemento novamente para ocultar seções do Índice. Se fizer isso,tenha certeza que você não insira quaisquer elementos após os elementos <code class="literal">&lt;seçãosimples&gt;</code>em seu capítulo, já que isso invalidará o documento.</p>
           </li>
         </ul>
       </div>
@@ -58,13 +58,13 @@
           <td width="40%" align="right"> <a accesskey="n" href="docs-translations.html"><img src="../../libs-common/images/next.png" alt="Próxima" /></a></td>
         </tr>
         <tr>
-          <td width="40%" align="left" valign="top">Editing the documentation </td>
+          <td width="40%" align="left" valign="top">Editando a documentação </td>
           <td width="20%" align="center">
             <a accesskey="h" href="index.html">
               <img src="../../libs-common/images/home.png" alt="Principal" />
             </a>
           </td>
-          <td width="40%" align="right" valign="top"> Translations</td>
+          <td width="40%" align="right" valign="top"> Traduções</td>
         </tr>
       </table>
     </div>

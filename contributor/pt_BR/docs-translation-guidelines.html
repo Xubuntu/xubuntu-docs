@@ -3,14 +3,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Translation guidelines for Xubuntu packages</title>
+    <title>Diretrizes de tradução para pacotes do Xubuntu</title>
     <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
     <meta name="generator" content="DocBook XSL Stylesheets Vsnapshot" />
-    <link rel="home" href="index.html" title="Xubuntu Contributor Documentation" />
-    <link rel="up" href="docs-translations.html" title="Translations" />
-    <link rel="prev" href="docs-packages.html" title="Packages to be translated" />
+    <link rel="home" href="index.html" title="Documentação de colaborador do Xubuntu" />
+    <link rel="up" href="docs-translations.html" title="Traduções" />
+    <link rel="prev" href="docs-packages.html" title="Pacotes a serem traduzidos" />
     <link rel="next" href="qa.html" title="Capítulo 4. Quality Assurance (QA)" />
-    <link rel="copyright" href="credits-license.html" title="Credits and License" />
+    <link rel="copyright" href="credits-license.html" title="Créditos e Licença" />
     <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
     <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
     <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
@@ -26,24 +26,24 @@
       <div class="titlepage">
         <div>
           <div>
-            <h3 class="title"><a id="docs-translation-guidelines"></a>Translation guidelines for Xubuntu packages</h3>
+            <h3 class="title"><a id="docs-translation-guidelines"></a>Diretrizes de tradução para pacotes do Xubuntu</h3>
           </div>
         </div>
       </div>
-      <p>These guidelines apply mostly to the Xubuntu documentation. They can generally be applied to any translation with minor modification. If unsure, ask the Documentation team members for assistance.</p>
-      <p>The <a class="ulink" href="https://wiki.ubuntu.com/Translations/Contact/Teams" target="_top">language-specific translation teams</a> usually want to encourage some conventions; please contact the appropriate language-specific team before translating.</p>
-      <p>More general translation guidelines can be found at the <a class="ulink" href="https://help.launchpad.net/Translations/Guide" target="_top">Launchpad translations guide</a>.</p>
+      <p>Estas diretrizes se aplicam principalmente a documentação do Xubuntu. Elas geralmente podem ser aplicadas a qualquer tradução com leve modificações. Se não tiver certeza,peça assistência aos membros da equipe de Documentação.</p>
+      <p>O <a class="ulink" href="https://wiki.ubuntu.com/Translations/Contact/Teams" target="_top">Equipes de tradução de linguagens específicas</a>geralmente quer encorajar alguns acordos; por favor contate a equipe de tradução de linguagem específica apropriada antes de traduzir.</p>
+      <p>Mais diretrizes gerais de tradução podem ser encontradas em <a class="ulink" href="https://help.launchpad.net/Translations/Guide" target="_top">Guia de traduções do Launchpad</a>.</p>
       <div class="section">
         <div class="titlepage">
           <div>
             <div>
-              <h4 class="title"><a id="docs-translation-guidelines-validity"></a>Maintain translation validity</h4>
+              <h4 class="title"><a id="docs-translation-guidelines-validity"></a>Manter a validade da tradução</h4>
             </div>
           </div>
         </div>
-        <p><span class="emphasis"><em>Tags should not be translated.</em></span> Where you see a tag in the source string (for example: "&lt;xref linkend="&amp;xubuntu-web;" /&gt;"), the tag and anything inside the tag itself should not be translated. It is very important to copy and paste these tags exactly as they appear in the source string. Note: The exception to this is where a tag contains a URL that has an equivalent, translated version. In those cases the translator should use discretion about whether to localise the URL.</p>
-        <p><span class="emphasis"><em>Entities should not be translated.</em></span> Where you see a phrase expressed like "&amp;gt;" or "&amp;xubuntu-web;", do not change this.</p>
-        <p><span class="emphasis"><em>Always maintain the order of tags.</em></span> When you see different tags nested inside each other (for example: "&lt;menuchoice&gt;&lt;guimenu&gt;System&lt;/guimenu&gt;&lt;guimenuitem&gt;Administration&lt;/guimenuitem&gt;&lt;guimenuitem&gt;Users and Groups&lt;/guimenuitem&gt;&lt;/menuchoice&gt;"), you must always preserve that order carefully - copying and pasting from the source language (English) is the best way to ensure that you do this correctly.</p>
+        <p><span class="emphasis"><em>Tags não devem ser traduzidas</em></span>Quando ver uma tag na string fonte (por exemplo: &lt;xref linkend="&amp;xubuntu-web;"/&gt;"), a tag e qualquer coisa dentro da própria tag não deve ser traduzido. É importante copiar e colar essas tags exatamente como aparecem na string fonte. Observação: a exceção  a isso é quando uma tag contém uma URL que possui uma versão equivalente,traduzida. Nesses casos a tradução da URL ficará a critério do tradutor.</p>
+        <p><span class="emphasis"><em>Entidades não devem ser traduzidas.</em></span>Quando ver uma frase expressada como "&amp;gt;"  ou "&amp;xubuntu-web;", não a altere.</p>
+        <p><span class="emphasis"><em>Sempre mantenha a ordem das tags.</em></span>Quando ver tags diferentes agrupadas umas nas outras(por exemplo: "&lt;menuchoice&gt;&lt;guimenu&gt;System&lt;/guimenu&gt;&lt;guimenuitem&gt;Administration&lt;/guimenuitem&gt;&lt;guimenuitem&gt;Users and Groups&lt;/guimenuitem&gt;&lt;/menuchoice&gt;"), você sempre deverá preservar a ordem cuidadosamente - copiando e colando da linguagem original(Inglês) é a melhor maneira de garantir que você faça isso corretamente.</p>
         <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
           <table border="0" summary="Note">
             <tr>
@@ -54,7 +54,7 @@
             </tr>
             <tr>
               <td align="left" valign="top">
-                <p>Different programming languages and software might have different variable syntaxes; make sure you are familiar with the appropriate software variable syntax when translating. More information on this can often be found in the translation string comment.</p>
+                <p>Linguagens de programação diferentes e software podem ter sintaxes variáveis diferentes: tenha certeza que está familiar com a sintaxe variável apropriada do software ao traduzir. Mais informações podem ser encontradas na string de tradução do comentário.</p>
               </td>
             </tr>
           </table>
@@ -64,14 +64,14 @@
         <div class="titlepage">
           <div>
             <div>
-              <h4 class="title"><a id="docs-translation-guidelines-conventions"></a>Follow good and existing conventions</h4>
+              <h4 class="title"><a id="docs-translation-guidelines-conventions"></a>Siga acordos bons e existentes</h4>
             </div>
           </div>
         </div>
-        <p><span class="emphasis"><em>Use application and label names found in the (graphical) UI.</em></span> When translating UI labels and application names, use the term or name that is used on the graphical UI. This makes it easier for the user to follow the instructions. Running the system in both the translation target language and English can help with this.</p>
-        <p><span class="emphasis"><em>Do not change the amount of spacing.</em></span> When translating, do not change the amount of spacing inside our outside tags. Keeping the spacing as it is makes the technical reviewing of the translation easier.</p>
-        <p><span class="emphasis"><em>Do not change the type of quotes used inside the tags.</em></span> The double quotes ( " ) doesn't have the same significance in a DocBook, XHTML or XML tag as the guillemets ( « » ). Using different kind of quotes can potentially develop into validity problems as well.</p>
-        <p><span class="emphasis"><em>Never change a tag to another.</em></span> If you think a tag in the source is invalid or not semantic, file a bug against the package itself instead of changing it in the translation.</p>
+        <p><span class="emphasis"><em>Use os nomes de aplicativo e rótulos encontrado na interface (gráfica).</em></span>Ao traduzir nomes de aplicativos e rótulos de interface gráficas,use o termo ou nome usado na interface gráfica. Isso facilitará o usuário a seguir as instruções. Executar o sistema tanto na linguagem de tradução predestinada quanto em inglês pode ajudar nisso.</p>
+        <p><span class="emphasis"><em>Não altere a quantidade de espaçamento.</em></span>Ao traduzir, não altere a quantidade de espaçamento dentro ou fora das tags. Manter o espaçamento como está torna a revisão técnica da tradução mais fácil.</p>
+        <p><span class="emphasis"><em>Não altere o tipo de aspas usadas dentro das tags.</em></span>As aspas duplas  ( " )  não possuem a mesma significância em um DocBook, XHTML ou tag XLM como as aspas ( « » ). Usar tipos diferentes de aspas pode levar a problemas de validade também.</p>
+        <p><span class="emphasis"><em>Nunca altere uma tag para outra.</em></span>Se achar que uma tag na fonte é inválida ou não semântica, registre um bug contra o próprio pacote invés de alterá-la na tradução.</p>
       </div>
     </div>
     <div class="navfooter">
@@ -87,7 +87,7 @@
           <td width="40%" align="right"> <a accesskey="n" href="qa.html"><img src="../../libs-common/images/next.png" alt="Próxima" /></a></td>
         </tr>
         <tr>
-          <td width="40%" align="left" valign="top">Packages to be translated </td>
+          <td width="40%" align="left" valign="top">Pacotes a serem traduzidos </td>
           <td width="20%" align="center">
             <a accesskey="h" href="index.html">
               <img src="../../libs-common/images/home.png" alt="Principal" />

@@ -3,14 +3,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Testing Infrastructure</title>
+    <title>Infraestrutura de teste</title>
     <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
     <meta name="generator" content="DocBook XSL Stylesheets Vsnapshot" />
-    <link rel="home" href="index.html" title="Xubuntu Contributor Documentation" />
-    <link rel="up" href="qa-team-testing.html" title="Testing" />
-    <link rel="prev" href="qa-team-testing.html" title="Testing" />
+    <link rel="home" href="index.html" title="Documentação de colaborador do Xubuntu" />
+    <link rel="up" href="qa-team-testing.html" title="Testes" />
+    <link rel="prev" href="qa-team-testing.html" title="Testes" />
     <link rel="next" href="qa-testing.html" title="Teste de pacote e ISO" />
-    <link rel="copyright" href="credits-license.html" title="Credits and License" />
+    <link rel="copyright" href="credits-license.html" title="Créditos e Licença" />
     <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
     <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
     <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
@@ -26,7 +26,7 @@
       <div class="titlepage">
         <div>
           <div>
-            <h3 class="title"><a id="qa-infra"></a>Testing Infrastructure</h3>
+            <h3 class="title"><a id="qa-infra"></a>Infraestrutura de teste</h3>
           </div>
         </div>
       </div>
@@ -34,54 +34,54 @@
         <div class="titlepage">
           <div>
             <div>
-              <h4 class="title"><a id="qa-infra-getting-ready"></a>Getting ready to test</h4>
+              <h4 class="title"><a id="qa-infra-getting-ready"></a>Preparando-se para testar</h4>
             </div>
           </div>
         </div>
-        <p>To successfully test for Xubuntu, you will need at a minimum 4 things: a Launchpad account, mailing list subscription, an image and something to test it on. This page will give you the basic information in order to do those things and more.</p>
+        <p>Para testar o Xubuntu com sucesso,você irá precisar no mínimo de 4 coisas: uma conta Launchpad, inscrição na lista de e-mails,uma imagem e algo para testá-la. Esta página irá dar a você as informações básicas para fazer essas coisas e mais.</p>
       </div>
       <div class="section">
         <div class="titlepage">
           <div>
             <div>
-              <h4 class="title"><a id="qa-infra-specs"></a>Contacts</h4>
+              <h4 class="title"><a id="qa-infra-specs"></a>Contatos</h4>
             </div>
           </div>
         </div>
-        <p>You need a Launchpad account, in order to join the necessary team(s) on it, and log into the 2 QA trackers.</p>
-        <p>We use one mailing list to detail what we intend to test during a cycle, we use the same list when we are calling for tests. This list is also used by the team to discuss the development of Xubuntu. You will need to join the Xubuntu Devel <a class="ulink" href="https://lists.ubuntu.com/mailman/listinfo/xubuntu-devel" target="_top">Mailing</a> list.</p>
-        <p>While it is not necessary to do so, we make much use of IRC, so having an account you can use to access the main #xubuntu-devel channel will help you, alternatively you can access the channel via the IRC tab of the Xubuntu <a class="ulink" href="http://dev.xubuntu.org/" target="_top">development</a> tracker.</p>
-        <p>Join the Xubuntu Testers <a class="ulink" href="https://launchpad.net/~xubuntu-testers" target="_top">Launchpad</a> team.</p>
-        <p>Consider adding your details to the <a class="ulink" href="http://wiki.xubuntu.org/qa/teamhardware" target="_top">Hardware</a> page. We can use this data to request specific testing from specific testers.</p>
+        <p>Você precisa de uma conta Launchpad,para se unir a(s) equipes necessárias nele,e logar nos 2 rastreadores do controle de qualidade.</p>
+        <p>Nós usamos uma lista de e-mails para detalhar o que pretendemos testar durante um ciclo, usamos a mesma lista na chamada para testes. Essa lista também é usada pela equipe para discutir o desenvolvimento do Xubuntu. Você precisará se unir a lista <a class="ulink" href="https://lists.ubuntu.com/mailman/listinfo/xubuntu-devel" target="_top">Postagem</a>Xubuntu Devel.</p>
+        <p>Embora não seja necessário fazê-lo, fazemos muito uso do IRC, então tendo uma conta você poderá usá-la para cessar o principal canal  #xubuntu-devel para lhe ajudar, alternativamente você pode acessar o canal através da aba IRC do rastreador do Xubuntu <a class="ulink" href="http://dev.xubuntu.org/" target="_top">desenvolvimento</a>.</p>
+        <p>Se junte a equipe de Testadores do Xubuntu <a class="ulink" href="https://launchpad.net/~xubuntu-testers" target="_top">Launchpad</a>.</p>
+        <p>Considere adicionar os seus detalhes a página <a class="ulink" href="http://wiki.xubuntu.org/qa/teamhardware" target="_top">Equipamento</a>. Podemos usar essa informação para solicitar testes específico de testadores específicos.</p>
       </div>
       <div class="section">
         <div class="titlepage">
           <div>
             <div>
-              <h4 class="title"><a id="qa-infra-iso"></a>Getting the ISO</h4>
+              <h4 class="title"><a id="qa-infra-iso"></a>Obtendo a ISO</h4>
             </div>
           </div>
         </div>
-        <p>ISOs can be obtained through a few methods. The simplest method is to visit the <a class="ulink" href="http://iso.qa.ubuntu.com/" target="_top">ISO</a> tracker. Follow the testcases through release codename to Xubuntu's group of tests. Then choose either 64 or 32 bit. Download links are available there.</p>
-        <p>When testing more regularly, you might find (especially where bandwidth is an issue for you) using the <a class="ulink" href="https://help.ubuntu.com/community/ZsyncCdImage" target="_top">zsync</a> link more appropriate. This is will just grab the difference between your local copy and the current one.</p>
+        <p>ISOs podem ser obtidas através de alguns métodos. O método mais simples é visitar o rastreador <a class="ulink" href="http://iso.qa.ubuntu.com/" target="_top">ISO</a>. Siga os casos de testes através do codinome de lançamento para o grupo de testes do Xubuntu. Então escolha entre 64 ou 32 bits. Links de download estão disponíveis lá.</p>
+        <p>Ao testar mais regularmente, você pode achar o uso do link <a class="ulink" href="https://help.ubuntu.com/community/ZsyncCdImage" target="_top">zsync</a> mais apropriado(especialmente quando a largura de banda é um problema). Ele irá apenas puxar a diferença entre a sua cópia local e a atual.</p>
       </div>
       <div class="section">
         <div class="titlepage">
           <div>
             <div>
-              <h4 class="title"><a id="qa-infra-test"></a>Methods of testing</h4>
+              <h4 class="title"><a id="qa-infra-test"></a>Métodos de teste</h4>
             </div>
           </div>
         </div>
-        <p>Now you've set up your basic contact(s) and have your ISO, you are in a position to test it.</p>
-        <p>There are two main methods of testing the ISO:</p>
+        <p>Agora que configurou o(s) seus contatos básicos e tem a sua ISO, você está numa posição de testá-la.</p>
+        <p>Existem dois métodos principais para testar a ISO:</p>
         <div class="itemizedlist">
           <ul class="itemizedlist" style="list-style-type: disc; ">
             <li class="listitem">
-              <p>Using a virtual machine enables you to carry on using a normal release when testing our ISOs. You can install a virtual machine by directly using your downloaded ISO.</p>
+              <p>Usar uma máquina virtual lhe possibilita a continuar usando uma versão normal quando estiver testando as nossas ISOs. Você pode instalar uma máquina virtual usando diretamente a sua ISO baixada.</p>
             </li>
             <li class="listitem">
-              <p>Install the ISO to hardware where that possibility is available. This is more important towards the end of the development cycle. You will necessarily need to have the ISO in some bootable medium. A member of Xubuntu's Website team details a simple method for preparing a bootable <a class="ulink" href="http://princessleia.com/journal/2016/03/xubuntu-16-04-iso-testing-tips/" target="_top">USB</a> stick with GNOME Disks.</p>
+              <p>Instale a ISO em hardware onde essa possibilidade está disponível. Isso é mais importante no final do ciclo de desenvolvimento. Você irá precisar de ter a ISO em alguma mídia inicializável. Um membro da equipe do Website do Xubuntu detalha um método simples para preparar um drive bootável <a class="ulink" href="http://princessleia.com/journal/2016/03/xubuntu-16-04-iso-testing-tips/" target="_top">USB</a> com GNOME Discos.</p>
             </li>
           </ul>
         </div>
@@ -95,7 +95,7 @@
             </tr>
             <tr>
               <td align="left" valign="top">
-                <p>While it is possible to use VirtualBox, past experience has shown that issues found when testing in VirtualBox are hard to replicate elsewhere. You might want to look into using <a class="ulink" href="https://help.ubuntu.com/community/KVM" target="_top">KVM</a>. Members of Xubuntu QA have some experience with using this for testing and can help.</p>
+                <p>Embora seja possível usar VirtualBox, experiências anteriores demonstraram que problemas encontradas durante os testes no VirtualBox são difíceis de replicar em outro lugar. Você pode querer usar <a class="ulink" href="https://help.ubuntu.com/community/KVM" target="_top">KVM</a>. Membros da equipe de controle de qualidade do Xubuntu possuem experiência com o uso disso para testes e podem ajudar.</p>
               </td>
             </tr>
           </table>
@@ -105,23 +105,23 @@
         <div class="titlepage">
           <div>
             <div>
-              <h4 class="title"><a id="qa-infra-track"></a>Reporting your result</h4>
+              <h4 class="title"><a id="qa-infra-track"></a>Reportando seu resultado</h4>
             </div>
           </div>
         </div>
-        <p>There are two QA trackers we use.</p>
+        <p>Existem dois rastreadores de QA que usamos.</p>
         <div class="itemizedlist">
           <ul class="itemizedlist" style="list-style-type: disc; ">
             <li class="listitem">
-              <p>The ISO tracker mentioned above for any testing done with an ISO either an install or an upgrade test. </p>
+              <p>O rastreador de ISO mencionado acima para qualquer teste feito com uma ISO através de uma instalação ou teste de atualização.</p>
             </li>
             <li class="listitem">
-              <p>The <a class="ulink" href="http://packages.qa.ubuntu.com/" target="_top">Package</a> tracker, which is used when we are testing applications during a cycle.</p>
+              <p>O rastreador <a class="ulink" href="http://packages.qa.ubuntu.com/" target="_top">Pacote</a>,que é usado quando estamos testando aplicativos durante um ciclo de desenvolvimento.</p>
             </li>
           </ul>
         </div>
-        <p>These trackers form the backbone of what we are able to gain from your testing. It is important that you report your results.</p>
-        <p>The next two sections of these documents go into more detail on how you can test for us and how to report bugs for us.</p>
+        <p>Esses rastreadores formam o suporte principal do que nós somos capazes de ganhar dos seus testes. É importante que você relate os seus resultados.</p>
+        <p>As próximas duas seções desses documentos vão entrar em mais detalhes sobre como você pode testar para nós e como relatar bugs para nós.</p>
       </div>
     </div>
     <div class="navfooter">
@@ -137,7 +137,7 @@
           <td width="40%" align="right"> <a accesskey="n" href="qa-testing.html"><img src="../../libs-common/images/next.png" alt="Próxima" /></a></td>
         </tr>
         <tr>
-          <td width="40%" align="left" valign="top">Testing </td>
+          <td width="40%" align="left" valign="top">Testes </td>
           <td width="20%" align="center">
             <a accesskey="h" href="index.html">
               <img src="../../libs-common/images/home.png" alt="Principal" />

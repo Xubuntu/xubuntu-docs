@@ -3,14 +3,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Pushing to Git repositories</title>
+    <title>Enviando a repositórios Git</title>
     <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
     <meta name="generator" content="DocBook XSL Stylesheets Vsnapshot" />
-    <link rel="home" href="index.html" title="Xubuntu Contributor Documentation" />
-    <link rel="up" href="git.html" title="Using Git" />
-    <link rel="prev" href="git-clone.html" title="Getting and updating Git repositories" />
+    <link rel="home" href="index.html" title="Documentação de colaborador do Xubuntu" />
+    <link rel="up" href="git.html" title="Usando Git" />
+    <link rel="prev" href="git-clone.html" title="Obtendo e atualizando repositórios do Git" />
     <link rel="next" href="build-deps.html" title="Dependências da compilação" />
-    <link rel="copyright" href="credits-license.html" title="Credits and License" />
+    <link rel="copyright" href="credits-license.html" title="Créditos e Licença" />
     <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
     <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
     <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
@@ -26,34 +26,34 @@
       <div class="titlepage">
         <div>
           <div>
-            <h3 class="title"><a id="git-push"></a>Pushing to Git repositories</h3>
+            <h3 class="title"><a id="git-push"></a>Enviando a repositórios Git</h3>
           </div>
         </div>
       </div>
-      <p>When you have worked on your changes and want to push them to a remote repository, do the following in the local branch:</p>
+      <p>Quando tiver trabalhado em suas alterações e quiser movê-las a um repositório remoto, faça o seguinte na branch local:</p>
       <div class="itemizedlist">
         <ul class="itemizedlist" style="list-style-type: disc; ">
           <li class="listitem">
-            <p>To rename or move files, run <strong class="userinput"><code>git mv OLD NEW</code></strong>. This helps to keep the resulting diff meaningful, while Git should figure this out automatically.</p>
+            <p>Para renomear ou mover arquivos, execute<strong class="userinput"><code>git mv ANTIGO NOVO</code></strong>. Isso ajudará manter o diff resultante significativo,enquanto Git deverá descobrir isto automaticamente.</p>
           </li>
           <li class="listitem">
-            <p>To remove files, run <strong class="userinput"><code>git rm FILE</code></strong>. This also stops tracking the specified files, while it's redundant if all changes are staged later anyway.</p>
+            <p>Para remover arquivos, execute<strong class="userinput"><code>git rm ARQUIVO</code></strong>. Isso também impede o rastreio de arquivos especificados,embora seja redundante se todas as alterações estão preparadas para depois.</p>
           </li>
           <li class="listitem">
-            <p>If you have added files, run <strong class="userinput"><code>git add .</code></strong> in the branch root. This starts tracking any files in the branch that aren't currently, and also stages any changes.</p>
+            <p>Se tiver adicionado arquivos, execute<strong class="userinput"><code>git add .</code></strong>no diretório root da branch. Isto iniciará o rastreio de quaisquer arquivos ainda não rastreados, e também preparará quaisquer alterações.</p>
           </li>
           <li class="listitem">
-            <p>To check the status of the branch, run <strong class="userinput"><code>git status</code></strong>.</p>
+            <p>Para verificar o estado da branch, execute <strong class="userinput"><code>git status</code></strong>.</p>
           </li>
           <li class="listitem">
-            <p>Commit your changes by running <strong class="userinput"><code>git commit -a</code></strong>. This stages any changes, and will open a text editor to enter the commit message.</p>
+            <p>Faça o commit das suas alterações ao executar <strong class="userinput"><code>git commit -a</code></strong>. Isto irá preparar qualquer alteração,e irá abrir um editor de texto para inserir a mensagem de confirmação.</p>
           </li>
           <li class="listitem">
-            <p>After you have done one or more commits, run <strong class="userinput"><code>git push LOCATION BRANCH</code></strong> to push your changes to a remote repository.</p>
+            <p>Após ter feito um ou mais commits, execute<strong class="userinput"><code>git push LOCALIZAÇÃO BRANCH</code></strong> para mover suas alterações a um repositório remoto.</p>
           </li>
         </ul>
       </div>
-      <p>The commit message should summarize all the changes you have done after the last commit, you can specify it directly by using <code class="literal">-m MESSAGE</code>.</p>
+      <p>A mensagem de commit deverá resumir todas as alterações que você fez após o último commit. Você pode especificá-la diretamente usando <code class="literal">-m MENSAGEM</code>. </p>
     </div>
     <div class="navfooter">
       <hr />
@@ -68,7 +68,7 @@
           <td width="40%" align="right"> <a accesskey="n" href="build-deps.html"><img src="../../libs-common/images/next.png" alt="Próxima" /></a></td>
         </tr>
         <tr>
-          <td width="40%" align="left" valign="top">Getting and updating Git repositories </td>
+          <td width="40%" align="left" valign="top">Obtendo e atualizando repositórios do Git </td>
           <td width="20%" align="center">
             <a accesskey="h" href="index.html">
               <img src="../../libs-common/images/home.png" alt="Principal" />
