@@ -34,13 +34,13 @@
       <div class="itemizedlist">
         <ul class="itemizedlist" style="list-style-type: disc; ">
           <li class="listitem">
-            <p>Se quiser criar um parágrafo introdutório que seja mostrado na página principal da sub-equipe, simplesmente não o envolva dentro de um <code class="literal">&lt;seção&gt;</code>elemento. De outra forma ele será fragmentado em um arquivo HTML separado.</p>
+            <p>Se quiser criar um parágrafo introdutório que seja mostrado na página principal da sub-equipe, simplesmente não o envolva dentro de um <code class="literal">&lt;section&gt;</code>elemento. De outra forma ele será fragmentado em um arquivo HTML separado.</p>
           </li>
           <li class="listitem">
-            <p>Se quiser que uma subseção seja visível no índice,adicione o atributo <code class="literal">&lt;função="toc"&gt;</code>para o elemento <code class="literal">&lt;seção&gt;</code>. Para um exemplo real, veja os arquivos <code class="literal">qa-*</code>.</p>
+            <p>Se quiser que uma subseção seja visível no índice,adicione o atributo <code class="literal">&lt;função="toc"&gt;</code>para o elemento <code class="literal">&lt;section&gt;</code>. Para um exemplo real, veja os arquivos <code class="literal">qa-*</code>.</p>
           </li>
           <li class="listitem">
-            <p>As seções são fragmentadas até o primeiro nível; Isso significa que todos os ascendentes diretos<code class="literal">&lt;seção&gt;</code> dos elementos <code class="literal">&lt;capítulo&gt;</code> serão fragmentados em arquivos HTML separados. Se quiser evitar isso (Se seu capítulo está muito curto por exemplo). Insira o <code class="literal">&lt;?dbhtml stop-chunking?&gt;</code>após o <code class="literal">&lt;título&gt;</code>elemento do seu capítulo. Observe que fazer isso não irá impedir o Índice de ser estampado em cada seção. Você pode usar o <code class="literal">&lt;seçãosimples&gt;</code>elemento novamente para ocultar seções do Índice. Se fizer isso,tenha certeza que você não insira quaisquer elementos após os elementos <code class="literal">&lt;seçãosimples&gt;</code>em seu capítulo, já que isso invalidará o documento.</p>
+            <p>As seções são fragmentadas até o primeiro nível; Isso significa que todos os ascendentes diretos<code class="literal">&lt;section&gt;</code> dos elementos <code class="literal">&lt;capítulo&gt;</code> serão fragmentados em arquivos HTML separados. Se quiser evitar isso (Se seu capítulo está muito curto por exemplo). Insira o <code class="literal">&lt;?dbhtml stop-chunking?&gt;</code>após o <code class="literal">&lt;título&gt;</code>elemento do seu capítulo. Observe que fazer isso não irá impedir o Índice de ser estampado em cada seção. Você pode usar o <code class="literal">&lt;seçãosimples&gt;</code>elemento novamente para ocultar seções do Índice. Se fizer isso,tenha certeza que você não insira quaisquer elementos após os elementos <code class="literal">&lt;seçãosimples&gt;</code>em seu capítulo, já que isso invalidará o documento.</p>
           </li>
         </ul>
       </div>
