@@ -8,6 +8,7 @@ build_creds () {
 			printf '<?xml version="1.0" encoding="utf-8"?>\n' > $lang/translators.xml
 			printf "<itemizedlist>\n%b\n</itemizedlist>" "$translators" >> $lang/translators.xml
 		else
+			cp $lang/xi-translators-not-found.xml $lang/translator-credits.xml
 			cp $lang/xi-translators-not-found.xml $lang/translators.xml
 		fi
 	done
