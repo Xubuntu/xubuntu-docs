@@ -3,13 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Chapitre 15. Troubleshooting</title>
+    <title>Chapitre 15. Dépannage</title>
     <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
     <meta name="generator" content="DocBook XSL Stylesheets Vsnapshot" />
     <link rel="home" href="index.html" title="Documentation de Xubuntu" />
     <link rel="up" href="index.html" title="Documentation de Xubuntu" />
-    <link rel="prev" href="migrating.html" title="Chapitre 14. Migrating" />
-    <link rel="next" href="upgrading.html" title="Chapitre 16. Upgrading" />
+    <link rel="prev" href="migrating.html" title="Chapitre 14. Migration" />
+    <link rel="next" href="upgrading.html" title="Chapitre 16. Mise à niveau" />
     <link rel="copyright" href="credits-license.html" title="Remerciements et licence" />
     <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
     <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
@@ -26,7 +26,7 @@
       <div class="titlepage">
         <div>
           <div>
-            <h1 class="title"><a id="troubleshooting"></a>Chapitre 15. Troubleshooting</h1>
+            <h1 class="title"><a id="troubleshooting"></a>Chapitre 15. Dépannage</h1>
           </div>
         </div>
       </div>
@@ -106,7 +106,7 @@
                         <p>cliquez sur l'icône <span class="application"><strong>NetworkManager</strong></span> ;</p>
                       </li>
                       <li class="listitem">
-                        <p>Select <span class="guimenuitem">Connection Information</span>. If this is disabled, it is likely there is no active connection. Try using the <span class="application"><strong>ip</strong></span> command to find out more.</p>
+                        <p>Sélectionnez <span class="guimenuitem">Informations sur la connexion</span>. Si cette option est désactivée, il est probable qu’il n’y ait aucune connexion active. Essayez d'utiliser la commande <span class="application"><strong>ip</strong></span> pour en savoir plus.</p>
                       </li>
                       <li class="listitem">
                         <p>chaque connexion active aura son propre onglet où figureront des informations pertinentes sur celle-ci.</p>
@@ -115,14 +115,14 @@
                   </div>
                 </li>
                 <li class="listitem">
-                  <p>Using <span class="application"><strong>ip</strong></span></p>
+                  <p>En utilisant <span class="application"><strong>ip</strong></span></p>
                   <div class="itemizedlist">
                     <ul class="itemizedlist" style="list-style-type: circle; ">
                       <li class="listitem">
-                        <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>ip address</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.</p>
+                        <p>Ouvrez un terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessoires</span> → <span class="guimenuitem">Émulateur de terminal</span></strong></span>), tapez la commande <strong class="userinput"><code>ip address</code></strong> puis pressez la touche <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Entrée</strong></span>.</p>
                       </li>
                       <li class="listitem">
-                        <p><span class="application"><strong>ip</strong></span> will show you extensive information about your connection, including logical or connection name(s) (e.g. enp3s0) in the first row, IP address in the <em class="guilabel">inet</em> row and the MAC address for your device in the <em class="guilabel">link/ether</em> row</p>
+                        <p><span class="application"><strong>ip</strong></span> vous montrera des informations détaillées sur votre connexion, y compris le(s) nom(s) logique(s) ou de connexion (par exemple enp3s0) dans la première ligne, l'adresse IP dans la ligne <em class="guilabel">inet</em> et l'adresse MAC de votre appareil dans la ligne <em class="guilabel">link/ether</em></p>
                       </li>
                     </ul>
                   </div>
@@ -139,7 +139,7 @@
               </div>
             </div>
             <p>Le ping vers un autre ordinateur du réseau ou sur Internet est une méthode fiable pour vérifier si une connexion fonctionne correctement.</p>
-            <p>To check if your computer is connected to the Internet, open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>ping -c 3 www.xubuntu.org</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.</p>
+            <p>Pour vérifier si votre ordinateur est connecté à Internet, ouvrez un terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessoires</span> → <span class="guimenuitem">Émulateur de terminal</span></strong></span>), tapez la commande <strong class="userinput"><code>ping -c 3 www.xubuntu.org</code></strong> puis pressez la touche <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Entrée</strong></span>.</p>
             <p>L'ordinateur tentera ensuite de contacter www.xubuntu.org à trois reprises et affichera le résultat. Les statistiques de la commande ping affichent le nombre de paquets transmis, combien de paquets ont été reçus, le pourcentage de paquets perdus et le temps total écoulé.</p>
             <div class="itemizedlist">
               <ul class="itemizedlist" style="list-style-type: disc; ">
@@ -154,7 +154,7 @@
                 </li>
               </ul>
             </div>
-            <p>If you get an error message that says <span class="quote">« <span class="quote">www.xubuntu.org can not be found</span> »</span> or <span class="quote">« <span class="quote">unknown host</span> »</span>, then your computer is probably not connected to the Internet or is unable to reach a Domain Name System (DNS) server.</p>
+            <p>Si vous recevez un message d'erreur indiquant que <span class="quote">« <span class="quote">www.xubuntu.org est introuvable</span> »</span> ou <span class="quote">« <span class="quote">hôte inconnu</span> »</span>, votre ordinateur n'est probablement pas connecté à Internet ou ne parvient pas à atteindre un serveur DNS (Domain Name System).</p>
           </div>
         </div>
         <div class="section">
@@ -200,7 +200,7 @@
                 </div>
               </div>
             </div>
-            <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>sudo lshw -C network</code></strong>, then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key. You will see some output, along with the words <em class="guilabel">CLAIMED</em>, <em class="guilabel">UNCLAIMED</em>, <em class="guilabel">ENABLED</em> or <em class="guilabel">DISABLED</em>.</p>
+            <p>Ouvrez un terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessoires</span> → <span class="guimenuitem">Émulateur de terminal</span></strong></span>), tapez la commande <strong class="userinput"><code>sudo lshw -C network</code></strong>, puis pressez la touche <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Entrée</strong></span> Vous verrez une sortie, ainsi que les mots<em class="guilabel">CLAIMED</em>, <em class="guilabel">UNCLAIMED</em>, <em class="guilabel">ENABLED</em> ou <em class="guilabel">DISABLED</em>.</p>
             <div class="itemizedlist">
               <ul class="itemizedlist" style="list-style-type: disc; ">
                 <li class="listitem">
@@ -233,10 +233,10 @@
                   <p>Procurez-vous le pilote Windows pour votre périphérique réseau et localisez le fichier qui se termine par <code class="literal">.inf</code></p>
                 </li>
                 <li class="listitem">
-                  <p>Install the <code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://ndisgtk" target="_top">ndisgtk</a></code> package</p>
+                  <p>Installez le paquet <code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://ndisgtk" target="_top">ndisgtk</a></code></p>
                 </li>
                 <li class="listitem">
-                  <p>Go to <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager</span> → <span class="guimenuitem">Windows Wireless Drivers</span></strong></span></p>
+                  <p>Allez vers <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guimenuitem"><span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Gestionnaire de paramètres</span> → <span class="guimenuitem">Pilotes sans fil Windows</span></strong></span></p>
                 </li>
                 <li class="listitem">
                   <p>Sélectionnez <span class="guibutton"><strong>Installer un nouveau pilote</strong></span></p>
@@ -258,7 +258,7 @@
                 </div>
               </div>
             </div>
-            <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>iwconfig</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.</p>
+            <p>Ouvrez un terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessoires</span> → <span class="guimenuitem">Émulateur de terminal</span></strong></span>), tapez la commande <strong class="userinput"><code>iwconfig</code></strong> puis pressez la touche <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Entrée</strong></span>.</p>
             <p>Si l'<em class="guilabel">ESSID</em> de votre routeur est affiché, il y a probablement un problème avec la prise en charge ACPI. Démarrez Xubuntu avec l'option <code class="literal">pci=noacpi</code>.</p>
           </div>
         </div>
@@ -279,8 +279,8 @@
                 </div>
               </div>
             </div>
-            <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>ip address</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key. If there is an IP address displayed, continue to <a class="xref" href="troubleshooting.html#network-troubleshooting-dns">Vérifiez les serveurs de nom de domaine (DNS)</a>.</p>
-            <p>From the terminal enter the following command, replacing <code class="literal">enp3s0</code> with the name of the connection shown in the output from the <span class="application"><strong>ip address</strong></span> command: <strong class="userinput"><code>sudo dhclient enp3s0</code></strong></p>
+            <p>Ouvrez un terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessoires</span> → <span class="guimenuitem">Émulateur de terminal</span></strong></span>), tapez la commande <strong class="userinput"><code>ip address</code></strong> puis pressez la touche <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Entrée</strong></span>. Si une adresse IP est affichée, continuez vers <a class="xref" href="troubleshooting.html#network-troubleshooting-dns">Vérifiez les serveurs de nom de domaine (DNS)</a>.</p>
+            <p>Dans le terminal, entrez la commande suivante, en remplaçant <code class="literal">enp3s0</code> par le nom de la connexion affichée dans le résultat de la commande <span class="application"><strong>ip address</strong></span> : <strong class="userinput"><code>sudo dhclient enp3s0</code></strong></p>
             <div class="itemizedlist">
               <ul class="itemizedlist" style="list-style-type: disc; ">
                 <li class="listitem">
@@ -300,9 +300,9 @@
                 </div>
               </div>
             </div>
-            <p>Open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>nmcli device show</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.  Look for the entries under <code class="literal">IP4.DNS</code></p>
-            <p>To check if the listed DNS works, open a terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">Terminal Emulator</span></strong></span>), type the command <strong class="userinput"><code>dig xubuntu.org</code></strong> then press the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> key.  If you see the word <code class="literal">NOERROR</code> in the header section of the output, your DNS is working.</p>
-            <p>If there are no DNS settings listed, contact your Internet Service Provider (ISP), and find out your primary and secondary domain name servers.</p>
+            <p>Ouvrez un terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessoires</span> → <span class="guimenuitem">Émulateur de terminal</span></strong></span>), tapez la commande <strong class="userinput"><code>nmcli device show</code></strong> puis pressez la touche <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Entrée</strong></span>. Recherchez les entrées en dessous de <code class="literal">IP4.DNS</code></p>
+            <p>Pour vérifier si le DNS répertorié fonctionne, ouvrez un terminal (<span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessoires</span> → <span class="guimenuitem">Émulateur de terminal</span></strong></span>), tapez la commande <strong class="userinput"><code>dig xubuntu.org</code></strong> puis pressez la touche <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Entrée</strong></span>. Si vous voyez le mot <code class="literal">NOERROR</code> dans la section d'en-tête de la sortie, votre DNS fonctionne.</p>
+            <p>Si aucun paramètre DNS n'est répertorié, contactez votre fournisseur d'accès Internet (FAI) et recherchez vos serveurs de noms de domaine principal et secondaire.</p>
           </div>
         </div>
       </div>
@@ -316,13 +316,13 @@
           <td width="40%" align="right"> <a accesskey="n" href="upgrading.html"><img src="../../libs-common/images/next.png" alt="Suivant" /></a></td>
         </tr>
         <tr>
-          <td width="40%" align="left" valign="top">Chapitre 14. Migrating </td>
+          <td width="40%" align="left" valign="top">Chapitre 14. Migration </td>
           <td width="20%" align="center">
             <a accesskey="h" href="index.html">
               <img src="../../libs-common/images/home.png" alt="Sommaire" />
             </a>
           </td>
-          <td width="40%" align="right" valign="top"> Chapitre 16. Upgrading</td>
+          <td width="40%" align="right" valign="top"> Chapitre 16. Mise à niveau</td>
         </tr>
       </table>
     </div>

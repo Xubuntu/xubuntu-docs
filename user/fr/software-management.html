@@ -3,13 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Chapitre 5. Software Management</title>
+    <title>Chapitre 5. Gestion des logiciels</title>
     <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
     <meta name="generator" content="DocBook XSL Stylesheets Vsnapshot" />
     <link rel="home" href="index.html" title="Documentation de Xubuntu" />
     <link rel="up" href="index.html" title="Documentation de Xubuntu" />
-    <link rel="prev" href="default-apps.html" title="Chapitre 4. Default Applications" />
-    <link rel="next" href="settings-personalization.html" title="Chapitre 6. Settings - Personalization" />
+    <link rel="prev" href="default-apps.html" title="Chapitre 4. Applications par défaut" />
+    <link rel="next" href="settings-personalization.html" title="Chapitre 6. Paramètres - Personnalisation" />
     <link rel="copyright" href="credits-license.html" title="Remerciements et licence" />
     <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
     <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
@@ -26,7 +26,7 @@
       <div class="titlepage">
         <div>
           <div>
-            <h1 class="title"><a id="software-management"></a>Chapitre 5. Software Management</h1>
+            <h1 class="title"><a id="software-management"></a>Chapitre 5. Gestion des logiciels</h1>
           </div>
         </div>
       </div>
@@ -37,45 +37,45 @@
         <dl class="toc">
           <dt>
             <span class="section">
-              <a href="software-management.html#gnome-software">Using Software Center</a>
+              <a href="software-management.html#gnome-software">Utiliser "Logiciel" (centre de logiciels)</a>
             </span>
           </dt>
           <dt>
             <span class="section">
-              <a href="software-management.html#software-repositories">Software Repositories</a>
+              <a href="software-management.html#software-repositories">Dépôts de logiciels</a>
             </span>
           </dt>
           <dt>
             <span class="section">
-              <a href="software-management.html#installing-third-party-apps">Installing Third-Party Apps</a>
+              <a href="software-management.html#installing-third-party-apps">Installation d'applications tierces</a>
             </span>
           </dt>
           <dt>
             <span class="section">
-              <a href="software-management.html#software-updates">Software Updates</a>
+              <a href="software-management.html#software-updates">Mises à jour de logiciel</a>
             </span>
           </dt>
         </dl>
       </div>
-      <p>Software that is readily available to install on Xubuntu is stored in online software repositories which contain trusted software. Software repositories on Linux are similar to the software catalogs used by desktop app stores like the Microsoft Store and Mac App Store, or mobile app stores like the Google Play Store and Apple's App Store.</p>
-      <p>These repositories store software packages, which are the individual components that collectively make up the software your computer uses. The software packages are stored in this fashion so that they can be shared by different programs. Xubuntu's software repositories are organized and maintained by OS (Operating System) maintainers and contain a large selection of free and open source software. OS maintainers ensure that the software functions properly and does not contain spyware or viruses.</p>
-      <p>Xubuntu comes with applications which make it easy for users to install, update, and uninstall software from repositories.</p>
+      <p>Les logiciels facilement disponibles à installer sur Xubuntu sont stockés dans des référentiels de logiciels en ligne contenant des logiciels fiables. Les référentiels de logiciels sous Linux sont similaires aux catalogues de logiciels utilisés par les magasins d'applications de bureau comme le Microsoft Store et le Mac App Store, ou par les magasins d'applications mobiles comme le Google Play Store et l'App Store d'Apple.</p>
+      <p>Ces référentiels stockent des progiciels, qui sont les composants individuels qui constituent collectivement les logiciels utilisés par votre ordinateur. Les progiciels sont stockés de cette manière afin de pouvoir être partagés par différents programmes. Les référentiels de logiciels de Xubuntu sont organisés et maintenus par les responsables du système d'exploitation (système d'exploitation) et contiennent une large sélection de logiciels gratuits et open source. Les responsables du système d'exploitation garantissent que le logiciel fonctionne correctement et ne contient pas de logiciels espions ou de virus.</p>
+      <p>Xubuntu est livré avec des applications qui permettent aux utilisateurs d'installer, de mettre à jour et de désinstaller facilement des logiciels à partir de référentiels.</p>
       <div class="itemizedlist">
         <ul class="itemizedlist" style="list-style-type: disc; ">
           <li class="listitem">
-            <p><span class="application"><strong>Software Center</strong></span> (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://gnome-software" target="_top">gnome-software</a></code>) is an app store which is good for new users because it makes it easy to discover desktop applications. The list of available software can be expanded with the installation of plugins for the snap package repository (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://gnome-software-plugin-snap" target="_top">gnome-software-plugin-snap</a></code>) and the flatpak package repository (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://gnome-software-plugin-flatpak" target="_top">gnome-software-plugin-flatpak</a></code>).</p>
+            <p><span class="application"><strong>Logiciel</strong></span> (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://gnome-software" target="_top">gnome-software</a></code>) est une boutique d'applications qui convient aux nouveaux utilisateurs car elle facilite la découverte des applications de bureau. La liste des logiciels disponibles peut être étendue avec l'installation de plugins pour le référentiel de packages Snap (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://gnome-software-plugin-snap" target="_top">gnome-software-plugin-snap</a></code>) et le référentiel de packages Flatpak (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://gnome-software-plugin-flatpak" target="_top">gnome-software-plugin-flatpak</a></code>).</p>
           </li>
           <li class="listitem">
-            <p><span class="application"><strong>Snap Store</strong></span> (<a class="ulink" href="https://snapcraft.io/install/snap-store/ubuntu#install" target="_top">install</a>) is an app store for the management of applications that use the snap package management system. Snap applications are confined for extra security, update automatically, and can run across many different Linux distributions. The Snap Store is also available as a <a class="ulink" href="https://snapcraft.io/store" target="_top">web interface</a>.</p>
+            <p><span class="application"><strong>Snap Store</strong></span> (<a class="ulink" href="https://snapcraft.io/install/snap-store/ubuntu#install" target="_top">installation</a>) est un magasin d'applications permettant la gestion des applications qui utilisent le système de gestion de packages Snap. Les applications Snap sont confinées pour plus de sécurité, se mettent à jour automatiquement et peuvent s'exécuter sur de nombreuses distributions Linux différentes. Le Snap Store est également disponible sous forme d'<a class="ulink" href="https://snapcraft.io/store" target="_top">interface web</a>.</p>
           </li>
           <li class="listitem">
-            <p><span class="application"><strong>Synaptic</strong></span> (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://synaptic" target="_top">synaptic</a></code>) is a package manager with a GUI (Graphical User Interface) for users who want more control over package management. It has options to view installation history, view packages by repository, and lock a package to a particular version.</p>
+            <p><span class="application"><strong>Synaptic</strong></span> (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://synaptic" target="_top">synaptic</a></code>) est un gestionnaire de paquets, avec une GUI (Graphical User Interface) pour les utilisateurs qui souhaitent plus de contrôle sur la gestion des packages. Il propose des options pour afficher l'historique d'installation, afficher les paquets par référentiel et verrouiller un paquet sur une version particulière.</p>
           </li>
           <li class="listitem">
-            <p><span class="application"><strong>apt</strong></span> or <span class="application"><strong>apt-get</strong></span> is a CLI (Command-Line Interface) tool for package management that provides similar functionality to <span class="application"><strong>Synaptic</strong></span> and is beneficial for those who don't have access to a GUI or prefer to use the terminal. For information on the basic <span class="application"><strong>apt</strong></span> commands, see the <a class="ulink" href="https://ubuntu.com/server/docs/package-management" target="_top">Ubuntu apt documentation</a>.</p>
+            <p><span class="application"><strong>apt</strong></span> ou <span class="application"><strong>apt-get</strong></span> est un outil en CLI (interface en ligne de commande) pour la gestion des packages qui fournit des fonctionnalités similaires à <span class="application"><strong>Synaptic</strong></span> et est bénéfique à ceux qui n'ont pas accès à une interface graphique ou préfèrent utiliser le terminal. Pour obtenir des informations sur les commandes de bases <span class="application"><strong>apt</strong></span>, voyez la <a class="ulink" href="https://ubuntu.com/server/docs/package-management" target="_top">documentation Apt d'Ubuntu</a>.</p>
           </li>
           <li class="listitem">
-            <p><span class="application"><strong>snap</strong></span> (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://snapd" target="_top">snapd</a></code>) is a command-line utility for the management of snap packaged applications. For information on the basic <span class="application"><strong>snap</strong></span> commands, see the <a class="ulink" href="https://snapcraft.io/docs/getting-started" target="_top">Getting started documentation</a> and the <a class="ulink" href="https://snapcraft.io/tutorials/snap-download#1-introduction" target="_top">download and offline install tutorial</a>.</p>
+            <p><span class="application"><strong>snap</strong></span> (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://snapd" target="_top">snapd</a></code>) est un utilitaire de ligne de commande pour la gestion des applications packagées en Snap. Pour obtenir des informations sur les commandes de base de <span class="application"><strong>snap</strong></span>, voir la <a class="ulink" href="https://snapcraft.io/docs/getting-started" target="_top">Documentation de démarrage</a> et le <a class="ulink" href="https://snapcraft.io/tutorials/snap-download#1-introduction" target="_top">tutoriel de téléchargement et d'installation hors ligne</a>.</p>
           </li>
         </ul>
       </div>
@@ -89,7 +89,7 @@
           </tr>
           <tr>
             <td align="left" valign="top">
-              <p>You will need administrative access to add, update, and remove software and you can only utilize one package manager at a time for package management. There are additional app stores and package managers including <a class="ulink" href="https://flathub.org/" target="_top">Flathub</a>, <a class="ulink" href="https://appimage.github.io/" target="_top">AppImageHub</a>, Ubuntu MATE Software Boutique, <a class="ulink" href="https://www.appgrid.org/" target="_top">AppGrid</a>, Aptitude (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://aptitude" target="_top">aptitude</a></code>).</p>
+              <p>Vous aurez besoin d'un accès administratif pour ajouter, mettre à jour et supprimer des logiciels et vous ne pourrez utiliser qu'un seul gestionnaire de paquets à la fois pour la gestion des paquets. Il existe des magasins d'applications et des gestionnaires de packages supplémentaires, notamment <a class="ulink" href="https://flathub.org/" target="_top">Flathub</a>, <a class="ulink" href="https://appimage.github.io/" target="_top">AppImageHub</a>, Ubuntu MATE Software Boutique, <a class="ulink" href="https://www.appgrid.org/" target="_top">AppGrid</a>, Aptitude (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://aptitude" target="_top">aptitude</a></code>).</p>
             </td>
           </tr>
         </table>
@@ -98,11 +98,11 @@
         <div class="titlepage">
           <div>
             <div>
-              <h2 class="title" style="clear: both"><a id="gnome-software"></a>Using Software Center</h2>
+              <h2 class="title" style="clear: both"><a id="gnome-software"></a>Utiliser "Logiciel" (centre de logiciels)</h2>
             </div>
           </div>
         </div>
-        <p>You can launch the GNOME Software Center from the <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Applications Menu</strong></span> (<span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Ctrl+Escape</strong></span>) or <span class="application"><strong>Application Finder</strong></span> (<span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Alt+F3</strong></span>). It will be named <span class="application"><strong>Software</strong></span> and is found by default in the <em class="guilabel">Favorites</em> category, so it will be visible once you open the <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Applications Menu</strong></span>.</p>
+        <p>Vous pouvez lancer le centre Logiciel GNOME à partir du<span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Menu applications</strong></span> (<span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Ctrl+Échap</strong></span>) ou <span class="application"><strong>Liste d'applications</strong></span> (<span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Alt+F3</strong></span>). Il sera nommé <span class="application"><strong>Logiciel</strong></span> et il est trouvable par défaut dans la catégorie <em class="guilabel">Favoris</em>, donc il sera visible une fois que vous ouvrirez le <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Menu applications</strong></span>.</p>
         <div class="informalfigure">
           <div class="screenshot">
             <div class="mediaobject" align="center">
@@ -110,8 +110,8 @@
             </div>
           </div>
         </div>
-        <p>Once launched, you will be on the <em class="guilabel">Explore</em> tab of the <span class="application"><strong>GNOME Software</strong></span>, which allows you to browse the categories or click the <span class="guibutton"><strong>search</strong></span> button in the title bar, to easily find an application by name or keyword. When you click on an application, you will arrive at its information page, which contains its description, images, website link, reviews, and other details. On this page you have the option to either install, launch, or remove the application, as well as write a review.</p>
-        <p>The other two tabs in the title bar are <em class="guilabel">Installed</em> and <em class="guilabel">Updates</em>. The <em class="guilabel">Installed</em> tab lists all the applications installed on the system and provides easy access to remove them. The <em class="guilabel">Updates</em> tab shows which applications are eligible for updating and it also has a <span class="guibutton"><strong>Refresh</strong></span> button in the title bar to search for new updates.</p>
+        <p>Une fois lancé, vous serez sur l'onglet <em class="guilabel">Explorer</em> de <span class="application"><strong>GNOME Logiciel</strong></span>, qui vous permet de parcourir les catégories ou de cliquer sur le bouton de <span class="guibutton"><strong>recherche</strong></span> dans la barre de titre, pour trouver facilement une application par nom ou par mot-clé. Lorsque vous cliquez sur une application, vous arrivez à sa page d'informations, qui contient sa description, ses images, son lien vers un site Web, ses avis et d'autres détails. Sur cette page, vous avez la possibilité d'installer, de lancer ou de supprimer l'application, ainsi que de rédiger un avis.</p>
+        <p>Les deux autres onglets de la barre de titre sont <em class="guilabel">Installés</em> et <em class="guilabel">Mises à jour</em>. L'onglet <em class="guilabel">Installé</em> répertorie toutes les applications installées sur le système et offre un accès facile pour les supprimer. L'onglet <em class="guilabel">Mises à jour</em> indique quelles applications sont éligibles à une mise à jour et comporte également un bouton <span class="guibutton"><strong>Actualiser</strong></span> dans la barre de titre pour rechercher de nouvelles mises à jour.</p>
         <div class="caution" style="margin-left: 0.5in; margin-right: 0.5in;">
           <table border="0" summary="Caution">
             <tr>
@@ -137,7 +137,7 @@
             </tr>
             <tr>
               <td align="left" valign="top">
-                <p><span class="application"><strong>GNOME Software</strong></span> does not remove the software package dependencies that get installed with an application. To remove any dependencies that are no longer needed by the system, run <strong class="userinput"><code>sudo apt autoremove</code></strong> in a terminal. Before agreeing to the removal, check that the packages being marked for removal are the expected ones.</p>
+                <p><span class="application"><strong>GNOME Logiciel</strong></span> ne supprime pas les dépendances des packages logiciels installés avec une application. Pour supprimer toutes les dépendances qui ne sont plus nécessaires au système, exécutez <strong class="userinput"><code>sudo apt autoremove</code></strong> dans un terminal. Avant d'accepter la suppression, vérifiez que les paquets marqués pour la suppression sont ceux attendus.</p>
               </td>
             </tr>
           </table>
@@ -147,11 +147,11 @@
         <div class="titlepage">
           <div>
             <div>
-              <h2 class="title" style="clear: both"><a id="software-repositories"></a>Software Repositories</h2>
+              <h2 class="title" style="clear: both"><a id="software-repositories"></a>Dépôts de logiciels</h2>
             </div>
           </div>
         </div>
-        <p>The Ubuntu software repositories contain thousands of applications curated from the best FOSS (Free and Open Source Software) for both entertainment and productivity. Management of these software repositories and additional ones is possible in the <span class="application"><strong>Software &amp; Updates</strong></span> app found in the <em class="guilabel">Settings</em> category of the <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Applications Menu</strong></span>, as well as in the <span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> <span class="guibutton"><strong>Settings Manager</strong></span>. It can also be opened through the <span class="guibutton"><strong>Gear</strong></span> button menu in the title bar of <span class="application"><strong>GNOME Software</strong></span> or the <span class="guibutton"><strong>Application</strong></span> button menu found on the left corner of the title bar.</p>
+        <p>Les référentiels de logiciels Ubuntu contiennent des milliers d'applications sélectionnées à partir des meilleurs FOSS (logiciels libres et open source) concernant le divertissement et la productivité. La gestion de ces référentiels de logiciels et d'autres supplémentaires est possible dans l'app <span class="application"><strong>Logiciels et mises à jour</strong></span> trouvable dans la catégorie <em class="guilabel">Paramètres</em> du <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Menu applications</strong></span>, ainsi que dans le <span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> <span class="guibutton"><strong>Gestionnaire de paramètres</strong></span>. Il peut également être ouvert via le bouton de menu <span class="guibutton"><strong>Engrenage</strong></span> dans la barre de titre de <span class="application"><strong>GNOME Logiciel</strong></span> ou le bouton de menu <span class="guibutton"><strong>Application</strong></span> trouvable dans le coin gauche de la barre de titre.</p>
         <div class="informalfigure">
           <div class="screenshot">
             <div class="mediaobject" align="center">
@@ -159,18 +159,18 @@
             </div>
           </div>
         </div>
-        <p>On the <em class="guilabel">Ubuntu Software</em> tab, you can enable and disable the main four Ubuntu software repositories, as well as select the server where the downloaded packages should come from. The <em class="guilabel">Other Software</em> tab allows you to enable, disable, add, edit, and remove extra online and offline repositories.</p>
+        <p>Dans l'onglet <em class="guilabel">Logiciel Ubuntu</em>, vous pouvez activer et désactiver les quatre principaux référentiels de logiciels Ubuntu, ainsi que sélectionner le serveur d'où doivent provenir les packages téléchargés. L'onglet <em class="guilabel">Autres logiciels</em> vous permet d'activer, de désactiver, d'ajouter, de modifier et de supprimer des référentiels supplémentaires en ligne et hors ligne.</p>
       </div>
       <div class="section">
         <div class="titlepage">
           <div>
             <div>
-              <h2 class="title" style="clear: both"><a id="installing-third-party-apps"></a>Installing Third-Party Apps</h2>
+              <h2 class="title" style="clear: both"><a id="installing-third-party-apps"></a>Installation d'applications tierces</h2>
             </div>
           </div>
         </div>
-        <p>For applications that aren’t available or outdated in the software repositories, users can visit the software author’s website and download their Linux or Ubuntu installation file. This file will have a .deb file extension and is a Debian software package. Once downloaded, simply open the file, and it will open in <span class="application"><strong>GNOME Software</strong></span> with the option to install. Alternatively, it can be installed through the <span class="application"><strong>GDebi Package Installer</strong></span> (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://gdebi" target="_top">gdebi</a></code>).</p>
-        <p>Some application authors may provide a third-party repository, known as a PPA (Personal Package Archive), which can be added to your system. Other application authors may provide their software in the form of an installable Flatpak or as an AppImage, which runs without installation.</p>
+        <p>Pour les applications qui ne sont pas disponibles ou obsolètes dans les référentiels de logiciels, les utilisateurs peuvent visiter le site Web de l'auteur du logiciel et télécharger leur fichier d'installation Linux ou Ubuntu. Ce fichier aura une extension de fichier .deb et est un progiciel Debian. Une fois téléchargé, ouvrez simplement le fichier et il s'ouvrira dans <span class="application"><strong>GNOME Logiciel</strong></span> avec la possibilité d'installer. Alternativement, il peut être installé via le paquet <span class="application"><strong>GDebi Package</strong></span> (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://gdebi" target="_top">gdebi</a></code>).</p>
+        <p>Certains auteurs d'applications peuvent fournir un référentiel tiers, appelé PPA (Personal Package Archive), qui peut être ajouté à votre système. D'autres auteurs d'applications peuvent fournir leur logiciel sous la forme d'un Flatpak installable ou d'une AppImage, qui s'exécute sans installation.</p>
         <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
           <table border="0" summary="Note">
             <tr>
@@ -181,7 +181,7 @@
             </tr>
             <tr>
               <td align="left" valign="top">
-                <p>Only download third-party apps from trusted sources in order to limit the risk of getting malware, junkware, or ransomware. If you’d like to install Windows applications, please see <a class="xref" href="migrating.html">Chapitre 14, <em>Migrating</em></a>.</p>
+                <p>Téléchargez uniquement des applications tierces provenant de sources fiables afin de limiter le risque d'infection par des logiciels malveillants, des logiciels indésirables ou des ransomwares. Si vous souhaitez installer des applications Windows, veuillez consulter <a class="xref" href="migrating.html">Chapitre 14, <em>Migration</em></a>.</p>
               </td>
             </tr>
           </table>
@@ -191,11 +191,11 @@
         <div class="titlepage">
           <div>
             <div>
-              <h2 class="title" style="clear: both"><a id="software-updates"></a>Software Updates</h2>
+              <h2 class="title" style="clear: both"><a id="software-updates"></a>Mises à jour de logiciel</h2>
             </div>
           </div>
         </div>
-        <p>In order to keep your system updated and protected from potential security issues, Xubuntu has a software updates notifier running in the background. It checks for updates once a week and when updates are found, the <span class="application"><strong>Software Updater</strong></span> app will launch.</p>
+        <p>Afin de garder votre système à jour et protégé contre les problèmes de sécurité potentiels, Xubuntu dispose d'un notificateur de mises à jour logicielles qui s'exécute en arrière-plan. Il vérifie les mises à jour une fois par semaine et lorsque des mises à jour sont trouvées, l'application <span class="application"><strong>Gestionnaire de mises à jour</strong></span> se lance.</p>
         <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
           <table border="0" summary="Note">
             <tr>
@@ -206,7 +206,7 @@
             </tr>
             <tr>
               <td align="left" valign="top">
-                <p>To disable the software updates notifier service, disable the <em class="guilabel">Update Notifier</em> entry in the <em class="guilabel">Application Autostart</em> tab of the <span class="application"><strong>Session and Startup</strong></span> app. However, this is not recommended.</p>
+                <p>Pour désactiver le service de notification des mises à jour logicielles, désactivez l'entrée <em class="guilabel">Notificateur de mises à jour</em> dans l'onglet <em class="guilabel">Démarrage automatique d'applications</em> de l'application <span class="application"><strong>Session et démarrage</strong></span>. Cependant, cela n'est pas recommandé.</p>
               </td>
             </tr>
           </table>
@@ -215,11 +215,12 @@
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="software-updates-updater"></a>Software Updater</h3>
+                <h3 class="title"><a id="software-updates-updater"></a>Gestionnaire de mises à jour</h3>
               </div>
             </div>
           </div>
-          <p>To manually check for software updates, you can open the <span class="application"><strong>Software Updater</strong></span> found in the <em class="guilabel">Settings</em> category of the <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Applications Menu</strong></span> as well as in the <em class="guilabel">System</em> category of the <span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> <span class="guibutton"><strong>Settings Manager</strong></span>. Once opened, it will query the software repositories, compare the software list against the versions installed on your system, and present those that can be updated.</p>
+          <p>Pour rechercher manuellement les mises à jour logicielles, vous pouvez ouvrir le
+ <span class="application"><strong>Gestionnaire de mise à jour</strong></span> trouvable dans la catégorie <em class="guilabel">Paramètres</em> du <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Menu applications</strong></span> ainsi que dans la catégorie <em class="guilabel">Système</em> du <span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> <span class="guibutton"><strong>Gestionnaire de paramètres</strong></span>. Une fois ouvert, il interrogera les référentiels de logiciels, comparera la liste des logiciels aux versions installées sur votre système et présentera celles qui peuvent être mises à jour.</p>
           <div class="informalfigure">
             <div class="screenshot">
               <div class="mediaobject" align="center">
@@ -232,11 +233,11 @@
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="software-updates-settings"></a>Update Check Settings</h3>
+                <h3 class="title"><a id="software-updates-settings"></a>Paramètres de vérification des mises à jour</h3>
               </div>
             </div>
           </div>
-          <p>You can set how often the <span class="application"><strong>Software Updater</strong></span> checks for updates, which updates to check for and what should happen when updates are found. These settings can be accessed when <span class="application"><strong>Software Updater</strong></span> is run by clicking the <span class="guibutton"><strong>Settings...</strong></span> button at the bottom left. Pressing this will open the <span class="application"><strong>Software &amp; Updates</strong></span> dialog with the <em class="guilabel">Updates</em> tab selected.</p>
+          <p>Vous pouvez définir la fréquence à laquelle le <span class="application"><strong>Gestionnaire de mises à jour</strong></span> recherche les mises à jour, quelles mises à jour rechercher et ce qui doit se passer lorsque des mises à jour sont trouvées. Ces paramètres sont accessibles lorsque le <span class="application"><strong>Gestionnaire de mises à jour</strong></span> est exécuté en cliquant sur le bouton <span class="guibutton"><strong>Paramètres...</strong></span> en bas à gauche. En appuyant dessus, vous ouvrirez la boîte de dialogue <span class="application"><strong>Logiciel et mises à jour</strong></span> avec l'onglet <em class="guilabel">Mises à jour</em> sélectionné.</p>
           <div class="informalfigure">
             <div class="screenshot">
               <div class="mediaobject" align="center">
@@ -254,7 +255,7 @@
               </tr>
               <tr>
                 <td align="left" valign="top">
-                  <p>Software Updater will also notify you when a new version of Xubuntu is available. Learn more in the <a class="xref" href="upgrading.html">Chapitre 16, <em>Upgrading</em></a>.</p>
+                  <p>Gestionnaire de mises à jour vous avertira également lorsqu'une nouvelle version de Xubuntu sera disponible. Apprenez-en davantage dans le <a class="xref" href="upgrading.html">Chapitre 16, <em>Mise à niveau</em></a>.</p>
                 </td>
               </tr>
             </table>
@@ -271,13 +272,13 @@
           <td width="40%" align="right"> <a accesskey="n" href="settings-personalization.html"><img src="../../libs-common/images/next.png" alt="Suivant" /></a></td>
         </tr>
         <tr>
-          <td width="40%" align="left" valign="top">Chapitre 4. Default Applications </td>
+          <td width="40%" align="left" valign="top">Chapitre 4. Applications par défaut </td>
           <td width="20%" align="center">
             <a accesskey="h" href="index.html">
               <img src="../../libs-common/images/home.png" alt="Sommaire" />
             </a>
           </td>
-          <td width="40%" align="right" valign="top"> Chapitre 6. Settings - Personalization</td>
+          <td width="40%" align="right" valign="top"> Chapitre 6. Paramètres - Personnalisation</td>
         </tr>
       </table>
     </div>

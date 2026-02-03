@@ -9,7 +9,7 @@
     <link rel="home" href="index.html" title="Documentation de Xubuntu" />
     <link rel="up" href="index.html" title="Documentation de Xubuntu" />
     <link rel="prev" href="installation.html" title="Chapitre 2. Installation" />
-    <link rel="next" href="default-apps.html" title="Chapitre 4. Default Applications" />
+    <link rel="next" href="default-apps.html" title="Chapitre 4. Applications par défaut" />
     <link rel="copyright" href="credits-license.html" title="Remerciements et licence" />
     <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
     <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
@@ -37,7 +37,7 @@
         <dl class="toc">
           <dt>
             <span class="section">
-              <a href="introduction.html#startup">Startup</a>
+              <a href="introduction.html#startup">Démarrer</a>
             </span>
           </dt>
           <dt>
@@ -47,7 +47,7 @@
           </dt>
           <dt>
             <span class="section">
-              <a href="introduction.html#session-management">Session Management</a>
+              <a href="introduction.html#session-management">Gestion des sessions</a>
             </span>
           </dt>
         </dl>
@@ -56,12 +56,12 @@
         <div class="titlepage">
           <div>
             <div>
-              <h2 class="title" style="clear: both"><a id="startup"></a>Startup</h2>
+              <h2 class="title" style="clear: both"><a id="startup"></a>Démarrer</h2>
             </div>
           </div>
         </div>
-        <p>If you have installed Xubuntu alongside another OS (Operating System), also known as dual booting, then you will be presented with the GRUB boot menu when you turn on your computer. This menu gives you options to start Xubuntu, start Xubuntu with advanced options, run a memory test or start other OSes. You may press the Escape key before booting to access the GRUB menu if you are not on a dual boot system.</p>
-        <p>Once the booting process begins, you will see the Xubuntu splash screen with a circular animation.</p>
+        <p>Si vous avez installé Xubuntu en plus d'un autre OS (système d'exploitation), également appelé double démarrage, le menu de démarrage GRUB vous sera présenté lorsque vous allumerez votre ordinateur. Ce menu vous propose des options pour démarrer Xubuntu, démarrer Xubuntu avec des options avancées, exécuter un test de mémoire ou démarrer d'autres systèmes d'exploitation. Vous pouvez appuyer sur la touche Échap avant de démarrer pour accéder au menu GRUB si vous n'êtes pas sur un système à double démarrage.</p>
+        <p>Une fois le processus de démarrage commencé, vous verrez l'écran de démarrage de Xubuntu avec une animation circulaire.</p>
         <div class="informalfigure">
           <div class="screenshot">
             <div class="mediaobject" align="center">
@@ -79,7 +79,7 @@
             </tr>
             <tr>
               <td align="left" valign="top">
-                <p>If you would like to customize the look and behaviour of the GRUB boot menu, you can install Grub Customizer (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://grub-customizer" target="_top">grub-customizer</a></code>, <a class="ulink" href="https://launchpad.net/~danielrichter2007/+archive/ubuntu/grub-customizer" target="_top">PPA</a>)</p>
+                <p>Si vous souhaitez personnaliser l'apparence et le comportement du menu de démarrage GRUB, vous pouvez installer Grub Customizer (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://grub-customizer" target="_top">grub-customizer</a></code>, <a class="ulink" href="https://launchpad.net/~danielrichter2007/+archive/ubuntu/grub-customizer" target="_top">PPA</a>)</p>
               </td>
             </tr>
           </table>
@@ -88,11 +88,11 @@
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="login-screen"></a>Login Screen</h3>
+                <h3 class="title"><a id="login-screen"></a>Écran de connexion</h3>
               </div>
             </div>
           </div>
-          <p>When the booting process is complete, the login screen appears. It contains a panel at the top and a login dialog in the center of the screen. From left to right, the panel contains the computer name, the session selector, locale/language selector, accessibility options selector, date &amp; time, and log out options.</p>
+          <p>Une fois le processus de démarrage terminé, l'écran de connexion apparaît. Il contient un panneau en haut et une boîte de dialogue de connexion au centre de l'écran. De gauche à droite, le panneau contient le nom de l'ordinateur, le sélecteur de session, le sélecteur de paramètres régionaux/langues, le sélecteur d'options d'accessibilité, la date et l'heure. heure et options de déconnexion.</p>
           <div class="informalfigure">
             <div class="screenshot">
               <div class="mediaobject" align="center">
@@ -100,7 +100,7 @@
               </div>
             </div>
           </div>
-          <p>The login dialog allows you to select an account name and type in the password to log into that session. You will not see the login screen if you selected the <em class="guilabel">Log in automatically</em> option on the <em class="guilabel">Who are you?</em> screen of the installer.</p>
+          <p>La boîte de dialogue de connexion vous permet de sélectionner un nom de compte et de saisir le mot de passe pour vous connecter à cette session. Vous ne verrez pas l'écran de connexion si vous avez sélectionné l'option <em class="guilabel">Se connecter automatiquement</em> dans la section <em class="guilabel">Qui êtes-vous ?</em> de l'écran de l’installateur.</p>
           <div class="informalfigure">
             <div class="screenshot">
               <div class="mediaobject" align="center">
@@ -118,7 +118,7 @@
               </tr>
               <tr>
                 <td align="left" valign="top">
-                  <p>To enable or disable automatic login of a user account, open <span class="application"><strong>Users and Groups</strong></span>, found in the <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Applications Menu</strong></span> or <span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> <span class="application"><strong>Settings Manager</strong></span>, select the account in the list on the left, click the <span class="guibutton"><strong>Change...</strong></span> button on the <em class="guilabel">Password</em> line and check or uncheck the <em class="guilabel">Don’t ask for password on login</em> checkbox. To configure the appearance of the login screen, open <span class="application"><strong>LightDM GTK+ Greeter settings</strong></span>.</p>
+                  <p>Pour activer ou désactiver la connexion automatique d'un compte utilisateur, ouvrez <span class="application"><strong>Utilisateurs et groupes</strong></span>, trouvable dans le <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Menu Applications</strong></span> ou <span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> <span class="application"><strong>Gestionnaire de paramètres</strong></span>, sélectionnez le compte dans la liste de gauche, cliquez sur le bouton <span class="guibutton"><strong>Modifier...</strong></span>  sur la ligne <em class="guilabel">Mot de passe</em>et cochez ou décochez la case <em class="guilabel">Ne pas demander de mot de passe à la connexion</em>. Pour configurer l'apparence de l'écran de connexion, ouvrez les paramètres de <span class="application"><strong>LightDM GTK+ paramètres d'apparence</strong></span>.</p>
                 </td>
               </tr>
             </table>
@@ -133,7 +133,7 @@
             </div>
           </div>
         </div>
-        <p>Similar to the login screen, the default Xubuntu desktop has a single panel located at the top of the screen, along with a wallpaper and desktop icons.</p>
+        <p>Semblable à l'écran de connexion, le bureau Xubuntu par défaut comporte un seul panneau situé en haut de l'écran, ainsi qu'un fond d'écran et des icônes de bureau.</p>
         <div class="informalfigure">
           <div class="screenshot">
             <div class="mediaobject" align="center">
@@ -145,11 +145,11 @@
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="panel"></a>Panel</h3>
+                <h3 class="title"><a id="panel"></a>Panneau</h3>
               </div>
             </div>
           </div>
-          <p>The panel is used for launching and switching applications as well as providing easy access to interactive system status indicators in order to see and change the status of important components of your system.</p>
+          <p>Le panneau est utilisé pour lancer et changer d'application ainsi que pour fournir un accès facile aux indicateurs d'état interactifs du système afin de voir et de modifier l'état des composants importants de votre système.</p>
           <div class="informalfigure">
             <div class="screenshot">
               <div class="mediaobject" align="center">
@@ -157,8 +157,8 @@
               </div>
             </div>
           </div>
-          <p>On the left side of the panel you will find the <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Applications Menu</strong></span> button, which has the icon of the Xubuntu logo. Next to that is the list of running applications with available windows, known as the window list or taskbar buttons.</p>
-          <p>On the right of the panel is the Notification Area, which contains indicators showing status information, like network connectivity and sound volume level. The first indicator on the far right is the clock, which displays the system date and time. Clicking on the clock displays the calendar. Some indicator icons appear and disappear based on context. The bluetooth icon, for example, will appear when a bluetooth adapter is present. The notification area also hosts system tray icons of running applications that support this feature, such as <span class="application"><strong>Transmission</strong></span> or <span class="application"><strong>Audacious</strong></span>.</p>
+          <p>Sur le côté gauche du panneau, vous trouverez le bouton <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Applications Menu</strong></span>, qui a l'icône du logo Xubuntu. À côté se trouve la liste des applications en cours d’exécution avec des fenêtres disponibles, appelée liste de fenêtres ou boutons de la barre des tâches.</p>
+          <p>Sur la droite du panneau se trouve la zone de notification, qui contient des indicateurs affichant des informations d'état, telles que la connectivité réseau et le niveau de volume sonore. Le premier indicateur à l'extrême droite est l'horloge, qui affiche la date et l'heure du système. Cliquer sur l'horloge affiche le calendrier. Certaines icônes d'indicateur apparaissent et disparaissent en fonction du contexte. L'icône Bluetooth, par exemple, apparaîtra lorsqu'un adaptateur Bluetooth est présent. La zone de notification héberge également les icônes de la barre d'état système des applications en cours d'exécution prenant en charge cette fonctionnalité, telles que <span class="application"><strong>Transmission</strong></span> ou <span class="application"><strong>Audacious</strong></span>.</p>
           <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
             <table border="0" summary="Note">
               <tr>
@@ -169,7 +169,7 @@
               </tr>
               <tr>
                 <td align="left" valign="top">
-                  <p>The location of the panel and its components along with various options can be customized by right-clicking on the panel and selecting <span class="guimenuitem">Panel</span> → <span class="guimenuitem">Panel Preferences</span>.</p>
+                  <p>L'emplacement du panneau et de ses composants ainsi que diverses options peuvent être personnalisés en cliquant avec le bouton droit sur le panneau et en sélectionnant <span class="guimenuitem">Panneau</span> → <span class="guimenuitem">Preferences du panneau</span>.</p>
                 </td>
               </tr>
             </table>
@@ -179,7 +179,7 @@
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="application-menu"></a>Applications Menu</h3>
+                <h3 class="title"><a id="application-menu"></a>Menu Applications</h3>
               </div>
             </div>
           </div>
@@ -190,23 +190,23 @@
               </div>
             </div>
           </div>
-          <p>Clicking the <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Applications Menu</strong></span> button on the panel or pressing the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Ctrl+Escape</strong></span> keyboard shortcut will open the menu, which has five (5) sections:</p>
+          <p>Cliquer sur le bouton du menu <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Applications Menu</strong></span> sur le panneau ou appuyer sur le raccourci clavier <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Ctrl+Échap</strong></span> ouvrira le menu, qui comporte cinq (5) sections :</p>
           <div class="orderedlist">
             <ol class="orderedlist" type="1">
               <li class="listitem">
-                <p>A search field to filter installed applications.</p>
+                <p>Un champ de recherche pour filtrer les applications installées.</p>
               </li>
               <li class="listitem">
-                <p>A column listing application categories.</p>
+                <p>Une colonne répertoriant les catégories d'applications.</p>
               </li>
               <li class="listitem">
-                <p>A list of applications in the selected category. Favorites is selected and displayed by default.</p>
+                <p>Une liste des applications dans la catégorie sélectionnée. Les favoris sont sélectionnés et affichés par défaut.</p>
               </li>
               <li class="listitem">
-                <p>The user account’s name and photograph.</p>
+                <p>Le nom et la photo du compte utilisateur.</p>
               </li>
               <li class="listitem">
-                <p>Command buttons for the <span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> Settings Manager, <span class="inline-icon-submenu"><img src="../libs/images/system-lock-screen.png" /></span> locking the screen and the <span class="inline-icon-submenu"><img src="../libs/images/system-log-out.png" /></span> log out dialog.</p>
+                <p>Boutons de commande pour le <span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> gestionnaire de paramètres, <span class="inline-icon-submenu"><img src="../libs/images/system-lock-screen.png" /></span> verrouillant l'écran et la <span class="inline-icon-submenu"><img src="../libs/images/system-log-out.png" /></span> boîte de dialogue de déconnexion.</p>
               </li>
             </ol>
           </div>
@@ -220,7 +220,7 @@
               </tr>
               <tr>
                 <td align="left" valign="top">
-                  <p>To customize the appearance and behaviour of the <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Applications Menu</strong></span>, right-click the <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> menu icon and select <em class="guilabel">Properties</em>. To customize which applications appear in the menu and their properties (icon, text, command), right-click the <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> menu icon and select <em class="guilabel">Edit Applications</em> or open <span class="application"><strong>Menu Editor</strong></span>.</p>
+                  <p>Pour personnaliser l'apparence et le comportement du <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Menu Applications</strong></span>, cliquez avec le bouton droit sur <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> l'icône du menu et sélectionnez <em class="guilabel">Propriétés</em>. Pour personnaliser les applications qui apparaissent dans le menu et leurs propriétés (icône, texte, commande), cliquez avec le bouton droit sur <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> l'icône de menu et sélectionnez <em class="guilabel">Modifier les applications</em> ou ouvrez <span class="application"><strong>l'Éditeur de menu</strong></span>.</p>
                 </td>
               </tr>
             </table>
@@ -230,23 +230,23 @@
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="desktop-icons-and-wallpaper"></a>Desktop Icons and Wallpaper</h3>
+                <h3 class="title"><a id="desktop-icons-and-wallpaper"></a>Icônes et fonds d'écran du bureau</h3>
               </div>
             </div>
           </div>
-          <p>The default desktop has three primary icons -- <em class="guilabel">Home</em>, <em class="guilabel">File System</em> and <em class="guilabel">Trash</em> -- as well as icons for partitions and removable devices, if they are present. Additional files, folders, application launchers and website shortcuts can be added to the desktop and can be manually or automatically arranged. You can set the desktop wallpaper and which desktop icons are visible, as well as their options, by right-clicking in a blank area of the desktop and choosing <em class="guilabel">Desktop Settings</em> from the context menu.</p>
+          <p>Le bureau par défaut comporte trois icônes principales : <em class="guilabel">Répertoire personnel</em>, <em class="guilabel">Système de fichiers</em> et <em class="guilabel">Corbeille</em>, ainsi que des icônes pour les partitions et les périphériques amovibles, s'ils sont présents. Des fichiers, dossiers, lanceurs d'applications et raccourcis de sites Web supplémentaires peuvent être ajoutés au bureau et peuvent être organisés manuellement ou automatiquement. Vous pouvez définir le fond d'écran du bureau et les icônes du bureau visibles, ainsi que leurs options, en cliquant avec le bouton droit dans une zone vide du bureau et en choisissant <em class="guilabel">Paramètres du bureau</em> dans le menu contextuel.</p>
         </div>
       </div>
       <div class="section">
         <div class="titlepage">
           <div>
             <div>
-              <h2 class="title" style="clear: both"><a id="session-management"></a>Session Management</h2>
+              <h2 class="title" style="clear: both"><a id="session-management"></a>Gestion des sessions</h2>
             </div>
           </div>
         </div>
-        <p>Xubuntu provides a collection of commands for managing your session. These commands are accessible from the command buttons section of the <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Applications Menu</strong></span> as well as through shortcut keys.</p>
-        <p>The first of the these commands is the <span class="inline-icon-submenu"><img src="../libs/images/system-lock-screen.png" /></span> <span class="guibutton"><strong>Lock Screen</strong></span> button, which locks the current session and presents the login dialog to resume the session. Locking the screen is also accessible by two keyboard shortcuts: <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Super+L</strong></span> and <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Ctrl+Alt+L</strong></span>.</p>
+        <p>Xubuntu fournit une collection de commandes pour gérer votre session. Ces commandes sont accessibles depuis la section des boutons de commande du <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span><span class="guibutton"><strong>menu Applications</strong></span> ainsi que via les touches de raccourci.</p>
+        <p>La première de ces commandes est le bouton <span class="inline-icon-submenu"><img src="../libs/images/system-lock-screen.png" /></span><span class="guibutton"><strong>Verrouiller l'écran</strong></span>, qui verrouille la session en cours et présente la boîte de dialogue de connexion pour reprendre la session. Le verrouillage de l'écran est également accessible par deux raccourcis clavier : <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Super+L</strong></span> et <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Ctrl+Alt+L</strong></span>.</p>
         <div class="informalfigure">
           <div class="screenshot">
             <div class="mediaobject" align="center">
@@ -254,26 +254,26 @@
             </div>
           </div>
         </div>
-        <p>The remaining session commands are accessible through the <span class="inline-icon-submenu"><img src="../libs/images/system-log-out.png" /></span> <span class="guibutton"><strong>Log Out</strong></span> button, as well as the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Ctrl+Alt+Delete</strong></span> keyboard shortcuts, which opens a dialog and gives access to commands to:</p>
+        <p>Les commandes restantes de la session sont accessibles via le bouton <span class="inline-icon-submenu"><img src="../libs/images/system-log-out.png" /></span><span class="guibutton"><strong>Déconnexion</strong></span>, ainsi que les raccourcis clavier <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Ctrl+Alt+Suppr</strong></span>, qui ouvrent une boîte de dialogue et donnent accès aux commandes pour :</p>
         <div class="orderedlist">
           <ol class="orderedlist" type="1">
             <li class="listitem">
-              <p><em class="guilabel">Log Out</em> - End the current session.</p>
+              <p><em class="guilabel">Déconnexion</em> - Termine la session actuelle.</p>
             </li>
             <li class="listitem">
-              <p><em class="guilabel">Restart</em> - Restart the computer.</p>
+              <p><em class="guilabel">Redémarrer</em> - Redémarrer l'ordinateur.</p>
             </li>
             <li class="listitem">
-              <p><em class="guilabel">Shutdown</em> - Shut down the computer.</p>
+              <p><em class="guilabel">Éteindre</em> - Éteindre l'ordinateur.</p>
             </li>
             <li class="listitem">
-              <p><em class="guilabel">Suspend</em> - Put the computer to sleep and have it run with minimal power.</p>
+              <p><em class="guilabel">Mise en veille</em> - Met l'ordinateur en sommeil et en consommation électrique minimale.</p>
             </li>
             <li class="listitem">
-              <p><em class="guilabel">Hibernate</em> - Save the current desktop session and shut down the computer. When you restart the computer, you will resume the session.</p>
+              <p><em class="guilabel">Hibernation</em> - Enregistrez la session de bureau en cours et éteint l'ordinateur. Lorsque vous redémarrerez l'ordinateur, vous reprendrez la session.</p>
             </li>
             <li class="listitem">
-              <p><em class="guilabel">Switch User</em> - Log in to another user account.</p>
+              <p><em class="guilabel">Changer d'utilisateur</em> - Se connecter via un autre compte d'utilisateur.</p>
             </li>
           </ol>
         </div>
@@ -287,7 +287,7 @@
             </tr>
             <tr>
               <td align="left" valign="top">
-                <p>It is possible to access the session management commands from the panel by right-clicking on the panel and then <span class="guimenuitem">Panel</span> → <span class="guimenuitem">Add New Items...</span> and then adding the <em class="guilabel">Action Buttons</em> entry. It is also possible to add additional session management commands to the <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Applications Menu</strong></span> by right-clicking the Menu icon and selecting <em class="guilabel">Properties</em> and then enabling them in the <em class="guilabel">Commands</em> tab.</p>
+                <p>Il est possible d'accéder aux commandes de gestion de session depuis le panneau en cliquant avec le bouton droit sur le panneau puis en sélectionnant <span class="guimenuitem">Panneau</span> → <span class="guimenuitem">Ajouter de nouveaux éléments...</span> puis en ajoutant l'entrée <em class="guilabel">Boutons d'action</em>. Il est également possible d'ajouter des commandes de gestion de session supplémentaires au <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span><span class="guibutton"><strong>menu Applications</strong></span> en cliquant avec le bouton droit sur l'icône du menu et en sélectionnant <em class="guilabel">Propriétés</em>, puis en les activant dans l'onglet <em class="guilabel">Commandes</em>.</p>
               </td>
             </tr>
           </table>
@@ -302,7 +302,7 @@
             </tr>
             <tr>
               <td align="left" valign="top">
-                <p>Hibernation is disabled by default in Xubuntu and instructions to enable it can be found in <a class="xref" href="hardware-devices.html#enabling-hibernation">Activation de l'hibernation</a>.</p>
+                <p>La mise en veille prolongée (hibernation) est désactivée par défaut dans Xubuntu et les instructions pour l'activer peuvent être trouvées dans <a class="xref" href="hardware-devices.html#enabling-hibernation">Activation de l'hibernation</a>.</p>
               </td>
             </tr>
           </table>
@@ -324,7 +324,7 @@
               <img src="../../libs-common/images/home.png" alt="Sommaire" />
             </a>
           </td>
-          <td width="40%" align="right" valign="top"> Chapitre 4. Default Applications</td>
+          <td width="40%" align="right" valign="top"> Chapitre 4. Applications par défaut</td>
         </tr>
       </table>
     </div>

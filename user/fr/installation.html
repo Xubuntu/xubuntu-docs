@@ -37,17 +37,17 @@
         <dl class="toc">
           <dt>
             <span class="section">
-              <a href="installation.html#preparation">Preparation</a>
+              <a href="installation.html#preparation">Préparation</a>
             </span>
           </dt>
           <dt>
             <span class="section">
-              <a href="installation.html#booting">Booting</a>
+              <a href="installation.html#booting">Démarrer l'ordinateur (booting)</a>
             </span>
           </dt>
           <dt>
             <span class="section">
-              <a href="installation.html#installer">Installer</a>
+              <a href="installation.html#installer">Installateur</a>
             </span>
           </dt>
           <dt>
@@ -61,7 +61,7 @@
         <div class="titlepage">
           <div>
             <div>
-              <h2 class="title" style="clear: both"><a id="preparation"></a>Preparation</h2>
+              <h2 class="title" style="clear: both"><a id="preparation"></a>Préparation</h2>
             </div>
           </div>
         </div>
@@ -69,14 +69,11 @@
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="prerequisites"></a>Prerequisites</h3>
+                <h3 class="title"><a id="prerequisites"></a>Prérequis</h3>
               </div>
             </div>
           </div>
-          <p>Visit the <a class="ulink" href="https://xubuntu.org/requirements/" target="_top">System Requirements</a> page to ensure that your
-            computer meets the necessary hardware requirements to install and run Xubuntu. In general, Xubuntu will run on
-            most computers (PC or Mac) that were built since 2007 and shipped with an OS (Operating System) like Windows XP
-            and Mac OS X 10.5 or higher.</p>
+          <p>Visitez la page <a class="ulink" href="https://xubuntu.org/requirements/" target="_top">Configuration système</a> requise pour vous assurer que votre ordinateur répond à la configuration matérielle requise pour installer et exécuter Xubuntu. En général, Xubuntu fonctionnera sur la plupart des ordinateurs (PC ou Mac) construits depuis 2007 et livrés avec un système d'exploitation (système d'exploitation) comme Windows XP et Mac OS X 10.5 ou supérieur.</p>
           <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
             <table border="0" summary="Note">
               <tr>
@@ -87,10 +84,7 @@
               </tr>
               <tr>
                 <td align="left" valign="top">
-                  <p>If you are installing Xubuntu on a laptop, it is recommended to keep your laptop plugged in during the
-            installation, in order to prevent a sudden power loss which can cause a corrupted system. If you are running
-            Windows 10 and have Intel's RST (Rapid Storage Technology) running, you will need to
-            <a class="ulink" href="https://help.ubuntu.com/rst/" target="_top">turn it off</a> before installation.</p>
+                  <p>Si vous installez Xubuntu sur un ordinateur portable, il est recommandé de garder votre ordinateur portable branché pendant l'installation, afin d'éviter une coupure de courant soudaine pouvant entraîner une corruption du système. Si vous utilisez Windows 10 et que la technologie RST (Rapid Storage Technology) d'Intel est en cours d'exécution, vous devrez <a class="ulink" href="https://help.ubuntu.com/rst/" target="_top">la désactiver</a> avant l'installation.</p>
                 </td>
               </tr>
             </table>
@@ -100,75 +94,58 @@
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="download-the-iso"></a>Download the ISO</h3>
+                <h3 class="title"><a id="download-the-iso"></a>Télécharger le fichier ISO</h3>
               </div>
             </div>
           </div>
-          <p>Visit the <a class="ulink" href="https://xubuntu.org/download/" target="_top">Download</a> page to download the ISO image for your
-			selected edition of Xubuntu. If you prefer stability, it is recommended to download the LTS (Long Term Support)
-			release, which is supported for 3 years. The ISO file can be downloaded with a BitTorrent client, such as
-			<a class="ulink" href="https://transmissionbt.com/download/" target="_top">Transmission</a> or <a class="ulink" href="https://www.qbittorrent.org/download.php" target="_top">qBittorrent</a>,
-			or through your browser from one of the many global mirror servers.</p>
+          <p>Visitez la page de <a class="ulink" href="https://xubuntu.org/download/" target="_top">téléchargement</a> pour télécharger l'image ISO de votre édition sélectionnée de Xubuntu. Si vous préférez la stabilité, il est recommandé de télécharger la version LTS (Long Term Support), qui est prise en charge pendant 3 ans. Le fichier ISO peut être téléchargé avec un client BitTorrent, tel que <a class="ulink" href="https://transmissionbt.com/download/" target="_top">Transmission</a> ou <a class="ulink" href="https://www.qbittorrent.org/download.php" target="_top">qBittorrent</a>, ou via votre navigateur à partir de l'un des nombreux serveurs miroirs globaux.</p>
         </div>
         <div class="section">
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="write-the-iso"></a>Write the ISO</h3>
+                <h3 class="title"><a id="write-the-iso"></a>Écrire l'ISO</h3>
               </div>
             </div>
           </div>
-          <p>The ISO file needs to be written to a bootable medium, like a USB flash drive, an SD memory card or a DVD optical disk.</p>
+          <p>Le fichier ISO doit être écrit sur un support de démarrage, comme une clé USB, une carte mémoire SD ou un disque optique DVD.</p>
           <div class="section">
             <div class="titlepage">
               <div>
                 <div>
-                  <h4 class="title"><a id="write-to-usb-or-sd"></a>Write to USB or SD</h4>
+                  <h4 class="title"><a id="write-to-usb-or-sd"></a>Écrire vers USB ou SD</h4>
                 </div>
               </div>
             </div>
-            <p>If you have a USB stick or an SD card with 2 GB of storage or more, you can use one of these apps to write the ISO file:
-			   <a class="ulink" href="https://rufus.ie/" target="_top">Rufus</a> (Windows), <a class="ulink" href="https://www.balena.io/etcher/" target="_top">Etcher</a> (Windows, Mac, Linux),
-			   <a class="ulink" href="https://wiki.gnome.org/Apps/Disks" target="_top">GNOME Disks</a> (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://gnome-disk-utility" target="_top">gnome-disk-utility</a></code>).
-			   For more information on how to write the ISO to USB or SD, please see these guides for
-			   <a class="ulink" href="https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#3-usb-selection" target="_top">Windows</a>, <a class="ulink" href="https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-macos#3-prepare-the-usb-stick" target="_top">Mac</a> or
-			   <a class="ulink" href="https://www.maketecheasier.com/create-bootable-usb-installer-ubuntu-gnome-disks/" target="_top">Linux</a>.</p>
+            <p>Si vous disposez d'une clé USB ou d'une carte SD avec 2 Go de stockage ou plus, vous pouvez utiliser l'une de ces applications pour écrire le fichier ISO : <a class="ulink" href="https://rufus.ie/" target="_top">Rufus</a> (Windows), <a class="ulink" href="https://www.balena.io/etcher/" target="_top">Etcher</a> (Windows, Mac, Linux), <a class="ulink" href="https://wiki.gnome.org/Apps/Disks" target="_top">GNOME Disks</a> (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://gnome-disk-utility" target="_top">Gnome utilitaire de disque</a></code>). Pour plus d'informations sur la façon d'écrire l'ISO sur USB ou SD, veuillez consulter ces guides pour <a class="ulink" href="https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#3-usb-selection" target="_top">Windows</a>, <a class="ulink" href="https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-macos#3-prepare-the-usb-stick" target="_top">Mac</a> ou <a class="ulink" href="https://www.maketecheasier.com/create-bootable-usb-installer-ubuntu-gnome-disks/" target="_top">Linux</a>.</p>
           </div>
           <div class="section">
             <div class="titlepage">
               <div>
                 <div>
-                  <h4 class="title"><a id="write-to-dvd"></a>Write to DVD</h4>
+                  <h4 class="title"><a id="write-to-dvd"></a>Écrire vers DVD</h4>
                 </div>
               </div>
             </div>
-            <p>If you have a blank DVD disk and a DVD writer drive, you can burn the ISO with one of these apps, if your
-			   operating system doesn’t have the built-in capabilities to do so:
-			   <a class="ulink" href="http://infrarecorder.org/?page_id=5" target="_top">InfraRecorder</a> (Windows),
-			   <a class="ulink" href="https://wiki.gnome.org/Apps/Brasero/" target="_top">Brasero</a> (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://brasero" target="_top">brasero</a></code>),
-			   <a class="ulink" href="https://docs.xfce.org/apps/xfburn" target="_top">Xfburn</a> (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://xfburn" target="_top">xfburn</a></code>). For more information
-			   on how to burn the ISO to a DVD, please see these guides for <a class="ulink" href="https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-windows#2-windows-7--8--10-instructions" target="_top">Windows</a>,
-			   <a class="ulink" href="https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-macos#2-select-the-ubuntu-iso" target="_top">Mac</a> or <a class="ulink" href="https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-ubuntu#3-install-brasero" target="_top">Linux</a>.</p>
+            <p>Si vous disposez d'un disque DVD vierge et d'un lecteur graveur de DVD, vous pouvez graver l'ISO avec l'une de ces applications, si votre système d'exploitation ne dispose pas des fonctionnalités intégrées pour le faire : <a class="ulink" href="http://infrarecorder.org/?page_id=5" target="_top">InfraRecorder</a> (Windows), <a class="ulink" href="https://wiki.gnome.org/Apps/Brasero/" target="_top">Brasero</a> (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://brasero" target="_top">brasero</a></code>) , <a class="ulink" href="https://docs.xfce.org/apps/xfburn" target="_top">Xfburn</a> (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://xfburn" target="_top">xfburn</a></code>). Pour plus d'informations sur la façon de graver l'ISO sur un DVD, veuillez consulter ces guides pour <a class="ulink" href="https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-windows#2-windows-7--8--10-instructions" target="_top">Windows</a>, <a class="ulink" href="https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-macos#2-select-the-ubuntu-iso" target="_top">Mac</a> ou <a class="ulink" href="https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-ubuntu#3-install-brasero" target="_top">Linux</a>.</p>
           </div>
         </div>
         <div class="section">
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="backup-data"></a>Backup Data</h3>
+                <h3 class="title"><a id="backup-data"></a>Sauvegarde de vos données</h3>
               </div>
             </div>
           </div>
-          <p>If you plan to install Xubuntu alongside an existing OS, it is recommended to back up the data of the existing
-            OS as a precaution in case something goes wrong. You can back up the data files to an external USB drive and/or
-            to a secondary hard drive on your computer.</p>
+          <p>Si vous envisagez d'installer Xubuntu à côté d'un système d'exploitation existant, il est recommandé de sauvegarder les données du système d'exploitation existant par mesure de précaution en cas de problème. Vous pouvez sauvegarder les fichiers de données sur une clé USB externe et/ou sur un disque dur secondaire de votre ordinateur.</p>
         </div>
       </div>
       <div class="section">
         <div class="titlepage">
           <div>
             <div>
-              <h2 class="title" style="clear: both"><a id="booting"></a>Booting</h2>
+              <h2 class="title" style="clear: both"><a id="booting"></a>Démarrer l'ordinateur (booting)</h2>
             </div>
           </div>
         </div>
@@ -176,26 +153,22 @@
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="bios-uefi-considerations"></a>BIOS / UEFI Considerations</h3>
+                <h3 class="title"><a id="bios-uefi-considerations"></a>Considérations BIOS / UEFI</h3>
               </div>
             </div>
           </div>
-          <p>Some computers may require additional configuration before the Xubuntu installation medium can be booted.
-			Please refer to this section if you are unable to boot into the installer or if your hardware is not properly detected.</p>
-          <p>Warning: This is an advanced computer feature and should only be attempted with caution.
-			<span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>F2</strong></span> and <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Del</strong></span> are common keys to access the BIOS settings.</p>
+          <p>Certains ordinateurs peuvent nécessiter une configuration supplémentaire avant que le support d'installation Xubuntu puisse être démarré. Veuillez vous référer à cette section si vous ne parvenez pas à démarrer le programme d'installation ou si votre matériel n'est pas correctement détecté.</p>
+          <p>Avertissement : Il s'agit d'une fonctionnalité informatique avancée qui ne doit être utilisée qu'avec prudence. <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>F2</strong></span> et <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Suppr</strong></span>sont des touches habituelles pour accéder aux paramètres du BIOS.</p>
           <div class="itemizedlist">
             <ul class="itemizedlist" style="list-style-type: disc; ">
               <li class="listitem">
                 <p>Intel RST</p>
               </li>
               <li class="listitem">
-                <p><a class="ulink" href="https://wiki.ubuntu.com/UEFI/SecureBoot" target="_top">Secure Boot</a> /
-					<a class="ulink" href="https://windows.gadgethacks.com/how-to/access-boot-menu-and-bios-windows-8-0139059/" target="_top">Windows 8/10</a> / <a class="ulink" href="https://www.tenforums.com/tutorials/21284-enable-disable-fast-boot-uefi-firmware-settings-windows.html" target="_top">Fast Boot</a> /
-					<a class="ulink" href="https://winaero.com/blog/how-to-disable-or-enable-fast-startup-in-windows-8-1/" target="_top">Fast Startup</a></p>
+                <p><a class="ulink" href="https://wiki.ubuntu.com/UEFI/SecureBoot" target="_top">Secure Boot (boot sécurisé)</a> / <a class="ulink" href="https://windows.gadgethacks.com/how-to/access-boot-menu-and-bios-windows-8-0139059/" target="_top">Windows 8/10</a> / <a class="ulink" href="https://www.tenforums.com/tutorials/21284-enable-disable-fast-boot-uefi-firmware-settings-windows.html" target="_top">Fast Boot (boot rapide)</a> / <a class="ulink" href="https://winaero.com/blog/how-to-disable-or-enable-fast-startup-in-windows-8-1/" target="_top">Fast Startup (démarrage rapide)</a></p>
               </li>
               <li class="listitem">
-                <p>macOS T.2 Security</p>
+                <p>macOS T.2 securité</p>
               </li>
             </ul>
           </div>
@@ -204,7 +177,7 @@
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="starting-the-bootable-medium"></a>Starting the Bootable Medium</h3>
+                <h3 class="title"><a id="starting-the-bootable-medium"></a>Lancer le support de démarrage</h3>
               </div>
             </div>
           </div>
@@ -215,12 +188,7 @@
               </div>
             </div>
           </div>
-          <p>Insert the bootable medium into the respective device (the USB drive in a USB port, the SD card in the SD card reader
-			or the DVD disk in the DVD drive) and restart your computer. If your computer is set to first boot from the bootable medium
-			of your choice, then the medium will automatically boot. If it doesn’t start automatically, please refer to the computer
-			manufacturer’s documentation for entering the boot menu. This could consist of pressing a key, such as <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>F12</strong></span>,
-			or using a dedicated button on the computer. In some cases, you may need to boot into Windows to access the BIOS. Once you
-			have entered the boot menu, select the appropriate boot medium device.</p>
+          <p>Insérez le support de démarrage dans l'appareil correspondant (la clé USB dans un port USB, la carte SD dans le lecteur de carte SD ou le disque DVD dans le lecteur de DVD) et redémarrez votre ordinateur. Si votre ordinateur est configuré pour démarrer d'abord à partir du support de démarrage de votre choix, celui-ci démarrera automatiquement. S'il ne démarre pas automatiquement, veuillez vous référer à la documentation du fabricant de l'ordinateur pour accéder au menu de démarrage. Cela peut consister à appuyer sur une touche, comme <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>F12</strong></span>, ou à utiliser un bouton dédié sur l'ordinateur. Dans certains cas, vous devrez peut-être démarrer Windows pour accéder au BIOS. Une fois que vous êtes entré dans le menu de démarrage, sélectionnez le périphérique de support de démarrage approprié.</p>
           <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
             <table border="0" summary="Note">
               <tr>
@@ -231,11 +199,7 @@
               </tr>
               <tr>
                 <td align="left" valign="top">
-                  <p>The key to press for your computer’s boot menu will depend on the manufacturer of the computer or motherboard.
-			<span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>F12</strong></span> is the most common boot menu key, but other common alternative keys are <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Escape</strong></span> and
-			<span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>F10</strong></span>. Less common keys include <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>F11</strong></span>, <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>F9</strong></span>, and <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>F8</strong></span>. If your
-			computer is not capable of booting through USB, but has a CD or DVD drive, you can utilize
-			<a class="ulink" href="http://www.howtogeek.com/howto/16822/boot-from-a-usb-drive-even-if-your-BIOS-wont-let-you/" target="_top">PLoP</a>.</p>
+                  <p>La touche sur laquelle appuyer pour accéder au menu de démarrage de votre ordinateur dépendra du fabricant de l’ordinateur ou de la carte mère. <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>F12</strong></span> est la touche du menu de démarrage la plus courante, mais d'autres touches alternatives courantes sont <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Échap</strong></span> et <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>F10</strong></span>. Les touches les moins courantes incluent <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>F11</strong></span>, <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>F9</strong></span>, et <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>F8</strong></span>. Si votre ordinateur n'est pas capable de démarrer via USB, mais dispose d'un lecteur de CD ou de DVD, vous pouvez utiliser <a class="ulink" href="http://www.howtogeek.com/howto/16822/boot-from-a-usb-drive-even-if-your-BIOS-wont-let-you/" target="_top">PLoP</a>.</p>
                 </td>
               </tr>
             </table>
@@ -245,15 +209,11 @@
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="booting-the-installer"></a>Booting the Installer</h3>
+                <h3 class="title"><a id="booting-the-installer"></a>Démarrer le programme d'installation</h3>
               </div>
             </div>
           </div>
-          <p>Once the bootable media starts, a blank screen will appear with a keyboard and accessibility icons. At this point,
-			you have 5 seconds to press any key to access the installer boot menu, if you wish to. The boot menu will initially present
-			a language selection menu, followed by a simple menu with options to install or try Xubuntu, test memory, boot from the
-			hard disk, as well as other options accessible by pressing the <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>F1</strong></span> through <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>F6</strong></span> keys (for
-			more information about the Fn keys options, <a class="ulink" href="https://help.ubuntu.com/community/BootOptions#Changing_the_CD.27s_Default_Boot_Options" target="_top">click here</a>).</p>
+          <p>Une fois le support de démarrage démarré, un écran vide apparaîtra avec un clavier et des icônes d'accessibilité. À ce stade, vous disposez de 5 secondes pour appuyer sur n’importe quelle touche pour accéder au menu de démarrage du programme d’installation, si vous le souhaitez. Le menu de démarrage présentera dans un premier temps un menu de sélection de langue, suivi d'un menu simple avec des options pour installer ou essayer Xubuntu, tester la mémoire, démarrer à partir du disque dur, ainsi que d'autres options accessibles en appuyant sur les touches <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>F1</strong></span> jusqu'à <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>F6</strong></span> keys (pour plus d'informations sur les options des touches Fn,<a class="ulink" href="https://help.ubuntu.com/community/BootOptions#Changing_the_CD.27s_Default_Boot_Options" target="_top">cliquer ici</a>).</p>
           <div class="informalfigure">
             <div class="screenshot">
               <div class="mediaobject" align="center">
@@ -287,13 +247,11 @@
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="integrity-check"></a>Integrity Check</h3>
+                <h3 class="title"><a id="integrity-check"></a>Vérification de l'intégrité</h3>
               </div>
             </div>
           </div>
-          <p>After the initial boot screen, releases of Xubuntu 20.04 and later default to checking the integrity of the install
-			media, which can be skipped by pressing <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Ctrl+C</strong></span>. This check is important as it is common for corrupted
-			installation media to cause failed installations.</p>
+          <p>Après l'écran de démarrage initial, les versions de Xubuntu 20.04 et ultérieures vérifient par défaut l'intégrité du support d'installation, qui peut être ignoré en appuyant sur <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Ctrl+C</strong></span>. Cette vérification est importante car il est courant qu'un support d'installation corrompu entraîne des échecs d'installation.</p>
           <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
             <table border="0" summary="Note">
               <tr>
@@ -304,11 +262,7 @@
               </tr>
               <tr>
                 <td align="left" valign="top">
-                  <p>If you get a black screen after the integrity check, reboot your system and select one of the
-			<em class="guilabel">safe graphics</em> options in the GRUB menu. This sometimes happens when graphics cards don’t work
-			properly with their open source drivers. If this happens after installation with your NVidia graphics card, select the
-			‘recovery mode’ option in the GRUB menu and then install the proprietary NVidia graphics driver from the
-			<span class="application"><strong>Additional Drivers</strong></span> app.</p>
+                  <p>Si vous obtenez un écran noir après la vérification d'intégrité, redémarrez votre système et sélectionnez l'une des options graphiques sécurisées (<em class="guilabel">safe graphics</em>) dans le menu GRUB. Cela se produit parfois lorsque les cartes graphiques ne fonctionnent pas correctement avec leurs pilotes open source. Si cela se produit après l'installation avec votre carte graphique NVidia, sélectionnez l'option « Mode de récupération » dans le menu GRUB, puis installez le pilote graphique propriétaire NVidia à partir de l'application <span class="application"><strong>Pilotes additionnels</strong></span>.</p>
                 </td>
               </tr>
             </table>
@@ -333,7 +287,7 @@
         <div class="titlepage">
           <div>
             <div>
-              <h2 class="title" style="clear: both"><a id="installer"></a>Installer</h2>
+              <h2 class="title" style="clear: both"><a id="installer"></a>Installateur</h2>
             </div>
           </div>
         </div>
@@ -341,13 +295,11 @@
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="welcome-screen"></a>Welcome Screen</h3>
+                <h3 class="title"><a id="welcome-screen"></a>Écran d'accueil</h3>
               </div>
             </div>
           </div>
-          <p>You will be greeted with the installer’s welcome screen when the installer begins. There you can select the language
-			of the installer from the list on the left and press the <span class="guibutton"><strong>Install Xubuntu</strong></span> button to begin the
-			installation process.</p>
+          <p>Vous serez accueilli par l’écran de bienvenue du programme d’installation lorsque le programme d’installation démarre. Là, vous pouvez sélectionner la langue du programme d'installation dans la liste de gauche et appuyer sur le bouton <span class="guibutton"><strong>Installer Xubuntu</strong></span> pour commencer le processus d'installation.</p>
           <div class="informalfigure">
             <div class="screenshot">
               <div class="mediaobject" align="center">
@@ -365,9 +317,7 @@
               </tr>
               <tr>
                 <td align="left" valign="top">
-                  <p>If you selected one of the <em class="guilabel">Try Xubuntu ...</em> entries in the installer boot menu or the
-			<span class="guibutton"><strong>Try Xubuntu</strong></span> button on the welcome screen, you can start or restart the installer by clicking the
-			<em class="guilabel">Install Xubuntu</em> desktop icon.</p>
+                  <p>Si vous avez sélectionné l'une des entrées <em class="guilabel">Essayer Xubuntu...</em> dans le menu de démarrage du programme d'installation ou le bouton <span class="guibutton"><strong>Essayer Xubuntu</strong></span> sur l'écran d'accueil, vous pouvez démarrer ou redémarrer le programme d'installation en cliquant sur l'icône du bureau <em class="guilabel">Installer Xubuntu</em>.</p>
                 </td>
               </tr>
             </table>
@@ -377,20 +327,13 @@
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="initial-steps"></a>Initial Steps</h3>
+                <h3 class="title"><a id="initial-steps"></a>Étapes initiales</h3>
               </div>
             </div>
           </div>
-          <p>The next screen of the installer will be the <em class="guilabel">Keyboard layout</em> screen. There you can select your
-			keyboard layout, if it wasn’t correctly detected. If you are unsure of your keyboard layout, you may press the
-			<em class="guilabel">Detect Keyboard Layout</em> button to go through a brief configuration procedure and test that the layout
-			works as intended in the keyboard test field. Click the <em class="guilabel">Continue</em> button to proceed.</p>
-          <p>If you are not connected to the internet but your computer has Wi-Fi, you will see the <em class="guilabel">Wireless</em>
-			screen, where you can either connect to one of the available networks or continue without connecting.</p>
-          <p>After clicking the <span class="guibutton"><strong>Continue</strong></span> button, you will arrive at the
-			<em class="guilabel">Updates and other software</em> screen. There you have the options to download updates during the
-			installation, if you have an internet connection, and whether to install third-party software, like the Nvidia graphics
-			card driver and multimedia codecs for playing media files. It is recommended to have both of them checked.</p>
+          <p>L'écran suivant du programme d'installation sera l'écran de <em class="guilabel">disposition du clavier</em>. Là, vous pouvez sélectionner la disposition de votre clavier, si elle n'a pas été correctement détectée. Si vous n'êtes pas sûr de la disposition de votre clavier, vous pouvez appuyer sur le bouton <em class="guilabel">Détecter la disposition du clavier</em> pour suivre une brève procédure de configuration et vérifier que la disposition fonctionne comme prévu dans le champ de test du clavier. Cliquez sur le bouton <em class="guilabel">Continuer</em> pour continuer.</p>
+          <p>Si vous n'êtes pas connecté à Internet mais que votre ordinateur dispose du Wi-Fi, vous verrez l'écran <em class="guilabel">Sans fil</em>, depuis lequel vous pourrez soit vous connecter à l'un des réseaux disponibles, soit continuer sans vous connecter.</p>
+          <p>Après avoir cliqué sur le bouton <span class="guibutton"><strong>Continuer</strong></span>, vous arriverez à l'écran <em class="guilabel">Mises à jour et autres logiciels</em>. Vous y avez la possibilité de télécharger les mises à jour pendant l'installation, si vous disposez d'une connexion Internet et d'installer ou non des logiciels tiers, comme le pilote de la carte graphique Nvidia et les codecs multimédia pour la lecture de fichiers multimédias. Il est recommandé de les faire vérifier tous les deux.</p>
           <div class="informalfigure">
             <div class="screenshot">
               <div class="mediaobject" align="center">
@@ -415,13 +358,7 @@
               </tr>
               <tr>
                 <td align="left" valign="top">
-                  <p>Note: If <span class="guibutton"><strong>Download updates while installing Xubuntu</strong></span> was disabled or unselected, you can
-			run the <em class="guilabel">Software Updater</em> application after the installation. If
-			<span class="guibutton"><strong>Install third-party software for graphics and Wi-Fi hardware and additional media formats</strong></span> was
-			unselected during installation, you can open the Software &amp; Updates app after the installation,
-			enable the <span class="guibutton"><strong>Proprietary drivers for devices (restricted)</strong></span> repository on the Ubuntu Software tab,
-			and then install the drivers on the <em class="guilabel">Additional Drivers</em> tab to install drivers. You would also need
-			to install the <code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://ubuntu-restricted-extras" target="_top">ubuntu-restricted-extras</a></code> package.</p>
+                  <p>Remarque : si <span class="guibutton"><strong>Télécharger les mises à jour lors de l'installation de Xubuntu</strong></span> a été désactivé ou désélectionné, vous pouvez exécuter l'application <em class="guilabel">Gestionnaire de mises à jour</em> après l'installation. Si <span class="guibutton"><strong>Installer un logiciel tiers pour le matériel graphique et Wi-Fi et les formats multimédias supplémentaires</strong></span> n'a pas été sélectionné lors de l'installation, vous pouvez ouvrir la fenêtre Gestionnaire de mises à jour après l'installation, activer le <span class="guibutton"><strong>Pilotes propriétaires de périphériques (restreint)</strong></span> dans l'onglet Logiciels Ubuntu, puis installer les pilotes dans l'onglet <em class="guilabel">Pilotes additionnels</em> pour installer les pilotes. Vous devrez également installer le paquet <code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://ubuntu-restricted-extras" target="_top">ubuntu-restricted-extras</a></code>.</p>
                 </td>
               </tr>
             </table>
@@ -431,24 +368,17 @@
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="disk-space-allocation"></a>Disk Space Allocation</h3>
+                <h3 class="title"><a id="disk-space-allocation"></a>Allocation d'espace disque</h3>
               </div>
             </div>
           </div>
-          <p>The next screen of the installer is the <em class="guilabel">Installation type</em> screen, which will vary in its list
-			of installation and reinstallation options depending on which operating system(s) are currently on your hard disk. Regular
-			users are recommended to choose either <em class="guilabel">Erase disk and install Xubuntu</em>, to completely wipe the disk
-			and install Xubuntu as the only OS, or <em class="guilabel">Install Xubuntu alongside [OS]</em>, to create a dual boot setup
-			with Xubuntu and an existing operating system ([OS] is the existing OS, e.g. Microsoft Windows XP Professional in the
-			screenshot). Advanced users can choose the <em class="guilabel">Something else</em> option, which gives them the ability to
-			create, format, delete and assign partitions.</p>
-          <p>If you choose to install Xubuntu alongside another existing operating system, you will be given the option to adjust
-			how much hard disk space Xubuntu will use after you click the <span class="guibutton"><strong>Continue</strong></span> button.</p>
+          <p>L'écran suivant du programme d'installation est l'écran <em class="guilabel">Type d'installation</em>, dont la liste des options d'installation et de réinstallation varie en fonction du ou des systèmes d'exploitation actuellement installés sur votre disque dur. Il est recommandé aux utilisateurs réguliers de choisir soit <em class="guilabel">Effacer le disque et installer Xubuntu</em>, afin d'effacer complètement le disque et installer Xubuntu comme seul système d'exploitation, soit <em class="guilabel">Installer Xubuntu en plus de [OS]</em>, pour créer une configuration à double démarrage avec Xubuntu et un système d'exploitation existant ([OS] est le système d'exploitation existant, par exemple Microsoft Windows XP Professionnel dans la capture d'écran). Les utilisateurs avancés peuvent choisir l'option <em class="guilabel">Autre chose</em>, qui leur donne la possibilité de créer, formater, supprimer et attribuer des partitions.</p>
+          <p>Si vous choisissez d'installer Xubuntu en plus d'un autre système d'exploitation existant, vous aurez la possibilité d'ajuster la quantité d'espace disque que Xubuntu utilisera, après avoir cliqué sur le bouton <span class="guibutton"><strong>Continuer</strong></span>.</p>
           <div class="informalfigure">
             <div class="screenshot">
               <div class="mediaobject" align="center">
                 <img src="../libs/images/installation/installer-no-os-found.png" align="middle" />
-                <div class="caption">When no OS is found</div>
+                <div class="caption">Lorsqu'aucun système d'exploitation n'est trouvé</div>
               </div>
             </div>
           </div>
@@ -456,7 +386,7 @@
             <div class="screenshot">
               <div class="mediaobject" align="center">
                 <img src="../libs/images/installation/installer-os-found.png" align="middle" />
-                <div class="caption">When an OS is found</div>
+                <div class="caption">Lorsqu'un système d'exploitation est trouvé</div>
               </div>
             </div>
           </div>
@@ -464,7 +394,7 @@
             <div class="screenshot">
               <div class="mediaobject" align="center">
                 <img src="../libs/images/installation/installer-reinstall-options.png" align="middle" />
-                <div class="caption">Options to reinstall</div>
+                <div class="caption">Options pour réinstaller</div>
               </div>
             </div>
           </div>
@@ -472,7 +402,7 @@
             <div class="screenshot">
               <div class="mediaobject" align="center">
                 <img src="../libs/images/installation/installer-side-by-side.png" align="middle" />
-                <div class="caption">Adjust space taken by Xubuntu</div>
+                <div class="caption">Ajuster l'espace occupé par Xubuntu</div>
               </div>
             </div>
           </div>
@@ -481,18 +411,16 @@
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="disk-changes-confirmation"></a>Disk Changes Confirmation</h3>
+                <h3 class="title"><a id="disk-changes-confirmation"></a>Confirmation des modifications de disque</h3>
               </div>
             </div>
           </div>
-          <p>When clicking the <span class="guibutton"><strong>Install Now</strong></span> button, the installer will show a confirmation dialog before
-			it makes non-reversible changes to your hard disk's partitions and data. Read the changes carefully and, if you agree,
-			click the <span class="guibutton"><strong>Continue</strong></span> button.</p>
+          <p>Lorsque vous cliquez sur le bouton <span class="guibutton"><strong>Installer maintenant</strong></span>, le programme d'installation affichera une boîte de dialogue de confirmation avant d'apporter des modifications irréversibles aux partitions et aux données de votre disque dur. Lisez attentivement les modifications puis, si vous êtes d'accord, cliquez sur le bouton <span class="guibutton"><strong>Continuer</strong></span>.</p>
           <div class="informalfigure">
             <div class="screenshot">
               <div class="mediaobject" align="center">
                 <img src="../libs/images/installation/installer-write-auto.png" align="middle" />
-                <div class="caption">Write automated disk changes</div>
+                <div class="caption">Écrire des modifications de disque automatisées</div>
               </div>
             </div>
           </div>
@@ -500,7 +428,7 @@
             <div class="screenshot">
               <div class="mediaobject" align="center">
                 <img src="../libs/images/installation/installer-write-alongside.png" align="middle" />
-                <div class="caption">Write alongside disk changes</div>
+                <div class="caption">Écrire avec les modifications du disque</div>
               </div>
             </div>
           </div>
@@ -509,30 +437,22 @@
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="select-your-location"></a>Select Your Location</h3>
+                <h3 class="title"><a id="select-your-location"></a>Sélectionner votre emplacement</h3>
               </div>
             </div>
           </div>
-          <p>The next screen of the installer will be the <em class="guilabel">Where are you?</em> screen. There you can type the
-			name of the town or city in the text field or click on the map to select your time zone. If you are connected to the
-			internet, your location will be automatically detected. Click the <span class="guibutton"><strong>Continue</strong></span> button to proceed.</p>
+          <p>L'écran suivant du programme d'installation sera l'écran <em class="guilabel">Où êtes-vous ?</em>. Là, vous pouvez saisir le nom de la ville ou de la ville dans le champ de texte ou cliquer sur la carte pour sélectionner votre fuseau horaire. Si vous êtes connecté à Internet, votre position sera automatiquement détectée. Cliquez sur le bouton <span class="guibutton"><strong>Continuer</strong></span> pour poursuivre.</p>
         </div>
         <div class="section">
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="login-details"></a>Login Details</h3>
+                <h3 class="title"><a id="login-details"></a>Détails de connexion</h3>
               </div>
             </div>
           </div>
-          <p>At the <em class="guilabel">Who are you?</em> screen, once you enter your name, a computer name and username will be
-			automatically suggested. You can change both as you prefer. The computer name, aka hostname, is the name your computer
-			will have when it appears on the network, while the username will be your login and account name.</p>
-          <p>Next, enter a password, which will be evaluated, yielding a grade of 'short', 'weak', 'fair', 'good' or 'strong'.
-			A strong password is one with a minimum of 8 characters, containing a mixture of uppercase letters, lowercase letters,
-			numbers and symbols. It is highly recommended to use a strong password. You then have the option to select whether your
-			computer will require you to type your password to log in when you first turn it on or have it log in automatically. You
-			will always be required to type your password if you lock your computer or if the screen times out due to inactivity.</p>
+          <p>Lors de l'écran <em class="guilabel">Qui êtes-vous ?</em>, une fois que vous aurez entré votre nom, un nom d'ordinateur et un nom d'utilisateur seront automatiquement suggérés. Vous pouvez modifier les deux à votre guise. Le nom de l'ordinateur, également appelé nom d'hôte, est le nom que portera votre ordinateur lorsqu'il apparaîtra sur le réseau, tandis que le nom d'utilisateur sera votre nom de connexion et votre nom de compte.</p>
+          <p>Ensuite, entrez un mot de passe, qui sera évalué, ceci donnant une note allant de « court », « faible », « passable », « bon » ou « fort ». Un mot de passe fort comporte un minimum de 8 caractères, contenant un mélange de lettres majuscules, de lettres minuscules, de chiffres et de symboles. Il est fortement recommandé d'utiliser un mot de passe fort. Vous avez ensuite la possibilité de choisir si votre ordinateur vous demandera de saisir votre mot de passe pour vous connecter lorsque vous l'allumerez pour la première fois ou s'il se connectera automatiquement. Vous devrez toujours saisir votre mot de passe si vous verrouillez votre ordinateur ou si l'écran expire en raison d'une inactivité.</p>
           <div class="informalfigure">
             <div class="screenshot">
               <div class="mediaobject" align="center">
@@ -557,9 +477,7 @@
               </tr>
               <tr>
                 <td align="left" valign="top">
-                  <p>It is recommended to store your passwords in a password manager application, like
-			<a class="ulink" href="https://keepassxc.org/" target="_top">KeePassXC</a> (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://keepassxc" target="_top">keepassxc</a></code>) or
-			<a class="ulink" href="https://bitwarden.com/#download" target="_top">Bitwarden</a>, which can also generate passwords for you.</p>
+                  <p>Il est recommandé de stocker vos mots de passe dans une application de gestion de mots de passe, telle que <a class="ulink" href="https://keepassxc.org/" target="_top">KeePassXC</a> (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://keepassxc" target="_top">keepassxc</a></code>) ou <a class="ulink" href="https://bitwarden.com/#download" target="_top">Bitwarden</a>, qui peut également générer des mots de passe pour vous.</p>
                 </td>
               </tr>
             </table>
@@ -569,12 +487,11 @@
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="background-installation"></a>Background Installation</h3>
+                <h3 class="title"><a id="background-installation"></a>Installation en arrière-plan</h3>
               </div>
             </div>
           </div>
-          <p>The installer will now begin installing Xubuntu in the background. While this is happening, installation slides will
-			teach you a little bit more about Xubuntu, its support channels and community.</p>
+          <p>Le programme d'installation va maintenant commencer à installer Xubuntu en arrière-plan. Pendant ce temps, les diapositives d'installation vous en apprendront un peu plus sur Xubuntu, ses canaux d'assistance et sa communauté.</p>
           <div class="informalfigure">
             <div class="screenshot">
               <div class="mediaobject" align="center">
@@ -594,13 +511,11 @@
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="installation-completion"></a>Installation Completion</h3>
+                <h3 class="title"><a id="installation-completion"></a>Achèvement de l'installation</h3>
               </div>
             </div>
           </div>
-          <p>After all the files have been copied to the hard disk and the configurations have been set, a dialog window will
-			appear asking to restart the computer. Click the <span class="guibutton"><strong>Restart Now</strong></span> button and you will be prompted to
-			remove the installation medium and press <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span> to restart.</p>
+          <p>Une fois que tous les fichiers ont été copiés sur le disque dur et que les configurations ont été définies, une fenêtre de dialogue apparaîtra vous demandant de redémarrer l'ordinateur. Cliquez sur le bouton <span class="guibutton"><strong>Redémarrer maintenant</strong></span> et vous serez invité à supprimer le support d'installation et à appuyer sur <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Entrée</strong></span> pour redémarrer.</p>
           <div class="informalfigure">
             <div class="screenshot">
               <div class="mediaobject" align="center">
@@ -625,9 +540,7 @@
             </div>
           </div>
         </div>
-        <p>Congratulations! You have successfully installed Xubuntu and now it’s time to start enjoying it. Once the computer
-		restarts, you will either be automatically started into Xubuntu and see the login screen or, if you have multiple operating
-		systems installed on your hard disk, the GRUB boot menu, which lets you choose between starting Xubuntu or another installed OS.</p>
+        <p>Toutes nos félicitations ! Vous avez installé Xubuntu avec succès et il est maintenant temps de commencer à en profiter. Une fois l'ordinateur redémarré, soit vous serez automatiquement démarré dans Xubuntu et verrez l'écran de connexion, soit, si plusieurs systèmes d'exploitation sont installés sur votre disque dur, le menu de démarrage GRUB, qui vous permet de choisir entre démarrer Xubuntu ou un autre système d'exploitation installé.</p>
       </div>
     </div>
     <div class="navfooter">
