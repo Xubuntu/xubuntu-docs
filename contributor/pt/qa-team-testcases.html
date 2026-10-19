@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Trabalhar com casos de teste</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets Vsnapshot" />
+    <link rel="home" href="index.html" title="Documentação de Contribuidores do Xubuntu" />
+    <link rel="up" href="qa.html" title="Capítulo 4. Controlo de Qualidade (QA)" />
+    <link rel="prev" href="qa-team-trackers.html" title="Trabalhar com trackers" />
+    <link rel="next" href="qa-team-communication.html" title="Comunicação com os Testadores e Utilizadores" />
+    <link rel="copyright" href="credits-license.html" title="Créditos e Licença" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div class="section">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a id="qa-team-testcases"></a>Trabalhar com casos de teste</h2>
+          </div>
+        </div>
+      </div>
+      <p>Pode ser encontrada informação acerca do método básico de trabalho com casos
+de teste na página de
+<a class="ulink" href="https://wiki.ubuntu.com/QATeam/ContributingTestcases/Manual" target="_top">
+Casos de Teste Manuais</a> da equipa de Controlo de Qualidade.</p>
+      <p><span class="emphasis"><em>Estamos</em></span> apenas preocupados com um conjunto específico de tarefas:
+pegar no ramo, efetuar alterações e depois enviar as alterações de que necessitamos para o
+ramo principal. Existem pessoas na equipa de Administração de Casos de Teste
+para os casos de Teste de LP; além disso, qualquer membro da nossa Equipa de Lançamento
+pode editar o tracker, o que ajuda a garantir a rápida movimentação de alterações entre trackers.</p>
+      <p>Para editar um caso de teste:</p>
+      <div class="itemizedlist">
+        <ul class="itemizedlist" style="list-style-type: disc; ">
+          <li class="listitem">
+            <p><a class="ulink" href="https://bugs.launchpad.net/ubuntu-manual-tests/+filebug" target="_top">
+Reporte</a> a alteração pretendida como um erro ao
+projeto do caso de teste</p>
+          </li>
+          <li class="listitem">
+            <p>Atribua-se ao erro</p>
+          </li>
+          <li class="listitem">
+            <p>Crie um ramo local: <strong class="userinput"><code>bzr branch lp:ubuntu-manual-tests</code></strong></p>
+          </li>
+          <li class="listitem">
+            <p>Altere os casos de teste no seu ramo local</p>
+          </li>
+          <li class="listitem">
+            <p>Execute o commit das alterações: <strong class="userinput"><code>bzr commit -m "Fix LP bug
+#BUGNO."</code></strong></p>
+          </li>
+          <li class="listitem">
+            <p>Envie para um ramo pessoal remoto: <strong class="userinput"><code>bzr push lp:~username/ubuntu-manual-tests/bug-BUGNO</code></strong></p>
+          </li>
+        </ul>
+      </div>
+      <p>Assim que as alterações forem enviadas, proponha 
+a integração da alteração - <a class="xref" href="bzr-merge-proposal.html">Submeter solicitações de integração</a>.</p>
+      <p>Responda a quaisquer pedidos de alterações quando solicitado pelos
+Administradores dos Casos de Teste de forma a obter a alteração
+pretendida em tempo útil.</p>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="qa-team-trackers.html"><img src="../../libs-common/images/prev.png" alt="Anterior" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="qa.html">
+              <img src="../../libs-common/images/up.png" alt="Subir" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="qa-team-communication.html"><img src="../../libs-common/images/next.png" alt="Próximo" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Trabalhar com trackers </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Início" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Comunicação com os Testadores e Utilizadores</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

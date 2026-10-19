@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Trabalhar com trackers</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets Vsnapshot" />
+    <link rel="home" href="index.html" title="Documentação de Contribuidores do Xubuntu" />
+    <link rel="up" href="qa.html" title="Capítulo 4. Controlo de Qualidade (QA)" />
+    <link rel="prev" href="qa-bugs.html" title="Lidar com erros" />
+    <link rel="next" href="qa-team-testcases.html" title="Trabalhar com casos de teste" />
+    <link rel="copyright" href="credits-license.html" title="Créditos e Licença" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div class="section">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a id="qa-team-trackers"></a>Trabalhar com trackers</h2>
+          </div>
+        </div>
+      </div>
+      <p>As decisões iniciais sobre o que e quando testar serão tomadas após discussão
+com os membros da equipa de <a class="ulink" href="https://launchpad.net/~xubuntu-release" target="_top">Lançamento do Xubuntu</a>.</p>
+      <p>No início de um ciclo, a equipa de Controlo de Qualidade precisa de se certificar de que:</p>
+      <div class="itemizedlist">
+        <ul class="itemizedlist" style="list-style-type: disc; ">
+          <li class="listitem">
+            <p>Os casos de teste das imagens que utilizamos ainda se encontram corretos.</p>
+          </li>
+          <li class="listitem">
+            <p>Quando é pretendido efetuar testes a pacotes durante o ciclo de desenvolvimento,
+ os casos de teste dos pacotes necessários se encontram corretos.</p>
+          </li>
+          <li class="listitem">
+            <p>Os conjuntos de testes no Tracker de Pacotes faz sentido com o que pretendemos
+testar durante o ciclo. É frequente ser necessário existirem diferenças entre os lançamentos
+regular e LTS, mas nem sempre.</p>
+          </li>
+          <li class="listitem">
+            <p>O agendamento dos testes às ISO e, quando apropriado, aos Pacotes, por parte da
+equipa de Controlo de Qualidade.</p>
+          </li>
+        </ul>
+      </div>
+      <p>Quando existem diferenças numa pacote que nos encontremos a testar, por exemplo,
+após a correção de um erro, deve efetuar-se uma verificação mais cuidadosa dos
+casos de teste envolvidos. Devem efetuar-se novas solicitações de testes de regressão
+para esse pacote durante o ciclo.</p>
+      <p>Quando os testes a um pacote falham sistematicamente ou quando um erro indica
+uma falha num pacote para algo não testado, o caso de teste desse pacote pode ser desativado
+temporariamente. O Líder do Controlo de Qualidade é responsável por se certificar de que
+os testes são desativados e reativados quando apropriado.</p>
+      <p>As ISOs do Xubuntu são adicionadas ao tracker por volta das 02:00 UTC.
+Esta hora pode ser modificada mediante a alteração dos nossos horários de Compilação
+no <a class="ulink" href="http://bazaar.launchpad.net/~ubuntu-cdimage/ubuntu-cdimage/mainline/files/head:/etc/" target="_top">crontab ubuntu-cdimage</a> e a proposta
+de alteração.</p>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="qa-bugs.html"><img src="../../libs-common/images/prev.png" alt="Anterior" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="qa.html">
+              <img src="../../libs-common/images/up.png" alt="Subir" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="qa-team-testcases.html"><img src="../../libs-common/images/next.png" alt="Próximo" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Lidar com erros </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Início" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Trabalhar com casos de teste</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

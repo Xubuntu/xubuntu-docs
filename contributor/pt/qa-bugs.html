@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Lidar com erros</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets Vsnapshot" />
+    <link rel="home" href="index.html" title="Documentação de Contribuidores do Xubuntu" />
+    <link rel="up" href="qa-team-testing.html" title="Testes" />
+    <link rel="prev" href="qa-testing.html" title="Testes de pacotes e de ISO" />
+    <link rel="next" href="qa-team-trackers.html" title="Trabalhar com trackers" />
+    <link rel="copyright" href="credits-license.html" title="Créditos e Licença" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div class="section">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="qa-bugs"></a>Lidar com erros</h3>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="qa-bugs-tags"></a>Utilizar etiquetas para o relatório de erros no Xubuntu</h4>
+            </div>
+          </div>
+        </div>
+        <p>Para que possamos encontrar facilmente erros no Xubuntu durante um ciclo de desenvolvimento,
+existem algumas etiquetas que podem ser adicionadas aos relatórios de erros. Assumimos que
+está incluída uma etiqueta para o nome do código do ciclo. Caso não esteja, por favor adicione.</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>ppa: adicione esta etiqueta quando reportar um erro num pacote de um dos 3
+PPAs de desenvolvimento</p>
+            </li>
+            <li class="listitem">
+              <p>usability: adicione esta etiqueta caso o problema que estiver a reportar não for um erro
+padrão, mas um que possa ser considerado uma lista de desejos, como a seleção
+múltipla de resultados na janela de resultados do Catfish</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="qa-bugs-reporting"></a>Reportar erros normais</h4>
+            </div>
+          </div>
+        </div>
+        <p>Qualquer utilizador do Xubuntu pode gerar (por outras palavras, reportar) erros,
+mesmo não tendo qualquer tipo de experiência. O preenchimento de erros é importante
+uma vez que, em certos casos, os erros podem não ser detetados a menos que um utilizador
+os reporte.</p>
+        <p>Antes de submeter um erro, deve consultar a <a class="ulink" href="https://launchpad.net/ubuntu/+bugs" target="_top">relatórios de erro existentes</a> e as notas do lançamento para se
+certificar de que o mesmo ainda não foi reportado. Nesse caso, deve gerar um novo relatório
+de erro. É sensato ler a <a class="ulink" href="https://help.ubuntu.com/community/ReportingBugs" target="_top">linhas orientadoras de relatório de erros</a> antes de preencher o seu primeiro relatório.</p>
+        <p>Na maior parte das situações, é mais fácil reportar um erro através da abertura
+do Terminal e da inserção o nome do pacote do Ubuntu onde o erro foi encontrado.
+Caso não saiba qual o pacote em questão, siga as instruções em <a class="ulink" href="https://wiki.ubuntu.com/Bugs/FindRightPackage" target="_top">encontrar o pacote correto</a>. Quando reportar
+o erro, é melhor ter informação a mais do que a menos.</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Nota]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Caso não tenha a certeza de qual o nome do pacote para a criação do relatório,
+pode utilizar o rato para clicar sobre a janela da aplicação; num terminal, execute
+o comando <strong class="userinput"><code>ubuntu-bug -w</code></strong>, clique para fechar a janela da mensagem e depois clique
+na janela da aplicação.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="qa-bugs-ppa"></a>Reportar erros nos PPAs</h4>
+            </div>
+          </div>
+        </div>
+        <p>Quando encontrar um erro num pacote de um PPA, terá de o reportar manualmente.
+Assim que chegar ao nome do pacote defeituoso, vá para <code class="literal">https://bugs.launchpad.net/ubuntu/+source/PACKAGENAME/+filebug</code>.</p>
+        <p>Os registos de erros relacionados com o pacote podem ser encontrados em <code class="literal">/var/crash/</code>.
+Por vezes, este diretório exige permissões de super utilizador (<code class="literal">sudo</code>) para consultar 
+e extrair o seu conteúdo. Estes registos podem ser particularmente valiosos para inclusão
+no relatório de erro, mas certifique-se de que os revê, uma vez que podem conter informações
+pessoais ou sensíveis.</p>
+        <p>Certifique-se de que segue as linhas orientadoras gerais mencionadas anteriormente
+e de que também adiciona a etiqueta do ppa para que seja evidente para os programadores
+de que se trata de um pacote não suportado.</p>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="qa-bugs-triage"></a>Triagem de erros</h4>
+            </div>
+          </div>
+        </div>
+        <p>A triagem de erros consiste na obtenção de relatórios de erros num estado em que são
+úteis para os programadores. Tal é possível através da inserção de títulos úteis, descrições,
+registos apropriados, entre outros. Para começar, consulte a página <a class="ulink" href="https://wiki.ubuntu.com/Bugs/Triage" target="_top">Triagem de erros</a> na wiki do Ubuntu.</p>
+        <p>After you have made yourself familiar with the aspects of triaging bugs, you can start triaging <a class="ulink" href="https://bugs.launchpad.net/~xubuntu-bugs/+packagebugs" target="_top">Xubuntu bugs</a>. Please note that the bug status and importance can only be changed by members of the <a class="ulink" href="https://wiki.ubuntu.com/UbuntuBugControl" target="_top">Ubuntu Bug Control</a> team – in the beginning, you will need to report triaged bugs for the team in #ubuntu-bugs on Libera. After you have demonstrated your ability to triage bugs, you will gain more responsibilities from the Bug Control team.</p>
+        <p>À medida que ganha experiência na triagem de erros do Xubuntu, pode pretender
+olhar para novos erros que mencionam o Xubuntu. A triagem de novos erros é recomendada
+para aqueles que se encontram mais familiarizados tanto com a triagem como com o
+Xubuntu no geral, uma vez que nem todos os novos erros que mencionam o Xubuntu
+são efetivamente erros do Xubuntu.</p>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="qa-bugs-upstream"></a>Enviar erros para montante</h4>
+            </div>
+          </div>
+        </div>
+        <p>Quando os erros são enviados para montante, todos os utilizadores do software
+relevante vão beneficiar do trabalho de depuração, triagem e criação de patches
+executado pelos triadores de erros e pelos programadores.</p>
+        <p>Assim que for determinado que um erro não é causado por uma alteração no Xubuntu,
+os erros podem ser enviados para os seus respetivos projetos a montante para revisão.
+Por exemplo, todos os erros apropriados do Xfce devem ser reportados no <a class="ulink" href="https://bugzilla.xfce.org/" target="_top">tracker de erros do Xfce</a>.
+Adicionalmente, rastreado o estado do erro no Ubuntu, no Launchpad o erro deve ficar vinculado
+ao erro a montante.</p>
+        <p>A wiki do Ubuntu possui uma página extensiva em <a class="ulink" href="https://wiki.ubuntu.com/Bugs/Upstream" target="_top">enviar erros para montante</a> juntamente com
+instruções sobre como reportar erros nos trackers de erros a montante.
+Pode ser encontrada informação detalhada sobre o modo de adicionar um erro
+a montante ao Launchpad na página <a class="ulink" href="https://wiki.ubuntu.com/Bugs/Watches" target="_top">Erros/Monitorizações</a> da wiki do Ubuntu.</p>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="qa-testing.html"><img src="../../libs-common/images/prev.png" alt="Anterior" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="qa-team-testing.html">
+              <img src="../../libs-common/images/up.png" alt="Subir" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="qa-team-trackers.html"><img src="../../libs-common/images/next.png" alt="Próximo" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Testes de pacotes e de ISO </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Início" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Trabalhar com trackers</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

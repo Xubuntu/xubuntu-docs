@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Apêndice A. Documento estratégico</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets Vsnapshot" />
+    <link rel="home" href="index.html" title="Documentação de Contribuidores do Xubuntu" />
+    <link rel="up" href="index.html" title="Documentação de Contribuidores do Xubuntu" />
+    <link rel="prev" href="release-cycle-maintaining.html" title="Manutenção" />
+    <link rel="next" href="common-reference.html" title="Apêndice B. Referência Comum" />
+    <link rel="copyright" href="credits-license.html" title="Créditos e Licença" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div class="appendix">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="xsd"></a>Apêndice A. Documento estratégico</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl class="toc">
+          <dt>
+            <span class="section">
+              <a href="xsd.html#xsd-introduction">Introdução</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="xsd.html#xsd-target">Destinatários</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="xsd.html#xsd-areas-focus">Áreas de Foco</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="xsd.html#xsd-community">Comunidade</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="xsd.html#xsd-development">Desenvolvimento</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="xsd.html#xsd-release-support-cycle">Lançamentos e Ciclos de Suporte</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="section">
+              <a href="xsd.html#xsd-seeds-composition">Novas aplicações e composição</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="xsd-introduction"></a>Introdução</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="xsd-introduction-about"></a>Sobre este Documento</h3>
+              </div>
+            </div>
+          </div>
+          <p>Este documento descreve a estratégia, visão e direção do projeto Xubuntu,
+para além de servir como um guia e referência para a equipa do Xubuntu.</p>
+          <p>Esta versão revista foi escrita por Pasi Lallinaho com a colaboração de
+Elizabeth Krumbach e Simon Steinbeiß, conjuntamente com inúmeras pessoas da
+comunidade. Esta versão é baseada no antigo Documento Estratégico do Xubuntu
+ de Cody Somerville et al.</p>
+          <p>Os nossos agradecimentos a Cody Somerville, Jono Bacon, Eero Tamminen, Nico
+Veenkamp e Lionel Le Folgoc pelas contribuições para este documento. Algum
+conteúdo, ideias e inspiração derivam da documentação existente do Ubuntu.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="xsd-introduction-mission-statement"></a>Declaração de Missão</h3>
+              </div>
+            </div>
+          </div>
+          <p>O Xubuntu é um sistema operativo desenvolvido pela comunidade, baseado no
+Ubuntu, que combina elegância e facilidade de utilização. O Xubuntu fornece\mum ambiente gráfico leve, estável e configurável com fluxos de trabalho
+conservadores. O Xubuntu fornece um produto polido e unificado, pronto para
+os utilizadores.</p>
+          <p>Além dos aspetos técnicos, a equipa do Xubuntu foca-se nas comunidades de
+utilizadores e contribuidores.</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="xsd-target"></a>Destinatários</h2>
+            </div>
+          </div>
+        </div>
+        <p>O público-alvo do Xubuntu é composto por utilizadores interessados em ter um
+sistema operativo elegante, de fácil utilização, polido e unificado. O Xubuntu também é uma
+boa opção para quem deseja um ambiente gráfico estável, configurável e/ou
+relativamente leve. Por fim, o Xubuntu é uma opção apelativa para utilizadores que
+preferem fluxos de trabalho conservadores em oposição às inovações mais recentes.</p>
+        <p>O Xubuntu não se destina a utilizadores com habilidades ou aptidões específicas.
+Pretendemos que sejam uma opção viável a utilizadores que sejam novos nas plataformas
+Linux ou Ubuntu, mas também que seja apelativo a utilizadores mais experientes.
+O Xubuntu não se foca especificamente em novos utilizadores que migrem do Windows,
+mas tendo em consideração a sua facilidade de utilização, também se apresenta como 
+uma boa alternativa para esses utilizadores.</p>
+        <p>O Xubuntu não se destina explicitamente a utilizadores com equipamentos
+modestos, pouco ou muito potentes mas sim a um espetro mais abrangente. A capacidade
+resposta e a velocidade extra do Xubuntu, conjuntamente com outros pontos positivos,
+podem ser apreciadas por todos os utilizadores, independentemente do seu equipamento.</p>
+        <p>Embora o Xubuntu utilize o Xfce, não se destina especificamente a entusiastas 
+do Xfce, a projetos e programas concebidos para o projeto Xfce ou a associados
+(oficiais ou não) com o Xfc. Não existe garantia de que estes sejam integrados no Xubuntu.</p>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="xsd-areas-focus"></a>Áreas de Foco</h2>
+            </div>
+          </div>
+        </div>
+        <p>Esta parte do documento estratégico oferece uma estrutura transparente e um
+conjunto de prioridades para todo o desenvolvimento do Xubuntu e das suas
+tarefas, incluindo (mas não limitado) a processos de tomada de decisão,
+seleção de pacotes e resolução de conflitos técnicos.</p>
+        <p>As áreas de foco são apresentadas de forma abstrata e simples, mas também suficientemente concretas para serem acionáveis. Como fundamento da visão
+do Xubuntu, as especificações no documento estratégico não devem ser
+confundidas com os objetivos e prioridades específicos de cada versão
+lançada, mas sim reconhecidos como os princípios que baseiam os objetivos
+específicos de cada versão do Xubuntu.</p>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="xsd-areas-focus-usability"></a>Foco 1: Usabilidade</h3>
+              </div>
+            </div>
+          </div>
+          <p>A Usabilidade é um dos objetivos mais importantes de um sistema operativo
+de utilização diária. Por essa razão, o Xubuntu deve ser fácil de utilizar e
+possuir uma aparência que não atrapalhe a usabilidade. Este nível de aparência
+ deverá ser observado em todas as interfaces de utilizador, desde o arranque até ao
+encerramento.</p>
+          <p>O Xubuntu deve ser traduzido, para permitir que os utilizadores o utilizem nos
+seus idiomas preferidos. Um outro aspeto importante da usabilidade é a
+personalização. Acreditamos que o Xfce oferece aos utilizadores a
+possibilidade de configurar o sistema de forma significativa; as restantes
+aplicações devem conviver com este aspeto do Xfce de forma moderada.</p>
+          <p>Embora a acessibilidade não seja uma das prioridades principais do Xubuntu,
+deve ser levada seriamente em consideração desde que não exija esforços
+inviáveis de integração, implementação ou manutenção. Pelo menos, as ferramentas
+de acessibilidade mais comuns devem ser instaladas por defeito aquando da 
+instalação do Xubuntu.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="xsd-areas-focus-performance"></a>Foco 2: Desempenho</h3>
+              </div>
+            </div>
+          </div>
+          <p>A equipa do Xubuntu deve esforçar-se por manter a sua leveza. Tal significa que todos os
+lançamentos do Xubuntu devem funcionar de forma razoável em máquinas fabricadas
+poucos anos antes da data de lançamento da versão. Em última instância, tal significa 
+que os lançamentos recentes do Xubuntu podem não suportar computadores muito antigos.
+Porém, estes lançamentos asseguram que a equipa do Xubuntu é capaz de trabalhar noutras
+melhorias e oferecer um sistema capaz de corresponder às expectativas de um sistema operativo moderno.</p>
+          <p>Os utilizadores que pretendam o sistema mais leve possível devem optar pelo
+CD mínimo, pelas distribuições mais leves (como o Lubuntu) ou por outras opções.</p>
+          <p>No início do ciclo de cada lançamento, os requisitos mínimos do sistema
+devem ser reavaliados para determinar se continuam a ser realistas.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="xsd-areas-focus-ready-to-use"></a>Foco 3: Prontidão para Utilização</h3>
+              </div>
+            </div>
+          </div>
+          <p>Para nós, é de extrema importância fornecer um produto polido e unificado
+pronto a ser utilizado pelos utilizadores finais. Também é um pré-requisito permitir
+que o Xubuntu seja um ambiente útil, prático e eficaz. Sem a integração mencionada,
+o ambiente Xubuntu parecerá em bruto e sem polimento, o qual será pouco atraente
+para os utilizadores finais.</p>
+          <p>A integração também é acompanhada por uma seleção de aplicações e bibliotecas
+que funcionam bem entre si, bem como pela aplicação de patches que asseguram
+um sistema livre de erros.</p>
+          <p>Consulte <a class="xref" href="xsd.html#xsd-seeds-composition-package-selection">Seleção de pacotes</a>para diretrizes sobre como determinar se uma aplicação
+se encaixa no Xubuntu.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="xsd-areas-focus-community"></a>Foco 4: Comunidade</h3>
+              </div>
+            </div>
+          </div>
+          <p>A comunidade do Xubuntu é uma força importante na criação do Xubuntu
+e no seu aperfeiçoamento. É fundamental que a coordenação regular entre os
+contribuidores funcione adequadamente. A infraestrutura que permite a boa comunicação
+entre os contribuidores e os utilizadores encontra-se descrita com maior detalhe em
+<a class="xref" href="xsd.html#xsd-community">Comunidade</a> e <a class="xref" href="xsd.html#xsd-development">Desenvolvimento</a>.</p>
+          <p>Quando possível e apropriado, a equipa do Xubuntu deve trabalhar em conjunto
+com outras comunidades, incluindo outras equipas do Ubuntu e mais a montante.
+Se em determinado momento a cooperação não for possível, mas fosse benéfica
+para ambas as partes, a equipa do Xubuntu deve tentar alocar recursos para essa cooperação
+no futuro.</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="xsd-community"></a>Comunidade</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="xsd-community-council"></a>Conselho do Xubuntu</h3>
+              </div>
+            </div>
+          </div>
+          <p>O Conselho do Xubuntu (adiante: conselho) é responsável por supervisionar
+o desenvolvimento do Xubuntu e permitir que a comunidade
+trabalhe com o Xubuntu da forma mais harmoniosa possível. O conselho serve um
+termo de quatro lançamentos a cada dois anos, terminando com um lançamento LTS
+para permitir o planeamento a longo prazo.</p>
+          <p>A equipa do Launchpad xubuntu-council é composta pelos membros do conselho.
+A equipa xubuntu-council é a administradora de todas as outras equipas do Xubuntu
+no Launchpad, dando ao conselho total acesso de administração para as equipas
+do Xubuntu.</p>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="id2139"></a>Membros</h4>
+                </div>
+              </div>
+            </div>
+            <p>O conselho é composto por 3 membros, que são escolhidos por um voto
+<a class="ulink" href="http://civs.cs.cornell.edu/" target="_top">CIVS</a>. Todos os membros em <a class="ulink" href="https://launchpad.net/~xubuntu-team" target="_top">Equipa do Xubuntu</a> e/ou membros diretos de
+quaisquer sub-equipas moderadas podem ser nomeados, por si ou por qualquer outra pessoa na comunidade Xubuntu com o consentimento dos candidatos.
+O mesmo grupo de pessoas está qualificado para votar.</p>
+            <p>Se um membro do conselho ficar inativo por 6 meses, será
+substituído por um novo membro do conselho pelo período restante, eleito por
+ um novo voto CIVS.</p>
+            <p>O conselho decidirá sobre um líder para todo o mandato do conselho.
+O líder atuará como o ponto de contacto oficial para o Xubuntu.</p>
+          </div>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="id2146"></a>Operação do conselho</h4>
+                </div>
+              </div>
+            </div>
+            <p>Espera-se que o conselho tome medidas ou responda a qualquer questão
+levantada dentro de 2 semanas. Se apropriado e justo, a primeira ação pode
+ser adiada.</p>
+            <p>Se a qualquer momento a maior parte da equipa do Xubuntu considerar as ações do
+conselho prejudiciais para o projeto, o problema deve ser levado ao conselho para
+reconsideração. Caso não seja possível encontrar uma solução,
+o conselho deve consultar o Conselho da Comunidade do Ubuntu
+ e outras equipas apropriadas da comunidade do Ubuntu. Da mesma forma, se o
+conselho não puder chegar a um consenso, mesmo depois de consultar a equipa do Xubuntu,
+devem consultar o Conselho da Comunidade do Ubuntu e outras equipas apropriadas
+da comunidade do Ubuntu .</p>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="xsd-community-team"></a>Equipa do Xubuntu</h3>
+              </div>
+            </div>
+          </div>
+          <p>A equipa do Xubuntu é um grupo de pessoas cuja responsabilidade principal
+é o desenvolvimento do Xubuntu.</p>
+          <p>A equipa do Xubuntu está organizada no Launchpad como <a class="ulink" href="https://launchpad.net/~xubuntu-team" target="_top">equipa-xubuntu</a>.
+A equipa do Launchpad é moderada.</p>
+          <p>Quem pretender juntar-se à equipa do Xubuntu deve atender aos critérios 
+definidos abaixo antes da candidatura ou sob pena de serem automaticamente rejeitados.
+Os líderes das sub-equipas podem ser nomeados para esta equipa. A equipa do Xubuntu
+é moderada pelo conselho.</p>
+          <p>Caso um líder de equipa seja minoritário aquando da votação sobre uma questão
+que diga respeito à sua área de atuação, deve ser novamente ouvido. Após esta audiência,
+a equipa deve ter cuidados acrescidos nas decisões acerca da questão e pode considerar
+uma nova votação após novas discussões. Caso necessário, a questão pode ser levada ao
+conselho para maior consideração.</p>
+          <div class="section">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="xsd-community-team-members"></a>Tornar-se e continuar como membro</h4>
+                </div>
+              </div>
+            </div>
+            <p>A fim de serem aceites na equipa do Xubuntu, os candidatos devem demonstrar
+a sua motivação e capacidade para contribuir com o Xubuntu. Isto garante que
+qualquer membro da equipa do Xubuntu tem conhecimentos suficientes sobre a 
+comunidade do Xubuntu e das suas operações. As diferentes etapas a serem seguidas
+também indicam que o candidato é capaz de trabalhar dentro das linhas orientadoras e,
+mais importante, com outras pessoas e comunidades. Para se tornar membro, é necessário:</p>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p>Oferecer contribuições significativas a uma das sub-equipas. Mais tarde, pode ser
+aprovado para a sub-equipa para "provação" por um administrador da sub-equipa.</p>
+                </li>
+                <li class="listitem">
+                  <p>Demonstrar motivação para contribuir perpetuamente, após o qual pode ser
+aprovado para a equipa do Xubuntu</p>
+                </li>
+              </ul>
+            </div>
+            <p>Para continuar a ser membro da equipa do Xubuntu, o membro deve continuar a
+desejar continuar a contribuir no futuro. Qualquer pessoa sem contribuições por mais do que
+um ciclo completo (6 meses) deve desativar-se da equipa e das sub-equipas e recandidatar-se
+se/quando pretender juntar-se novamente. Os administradores da equipa devem limpar
+ocasionalmente as pessoas sem contribuições por mais de 6 meses das equipas.</p>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="xsd-community-users"></a>Utilizadores do Xubuntu</h3>
+              </div>
+            </div>
+          </div>
+          <p>A equipa do Launchpad <a class="ulink" href="https://launchpad.net/~xubuntu-users" target="_top">xubuntu-users</a> é o grupo formal de alto nível de pessoas
+interessadas no Xubuntu. A equipa encontra-se aberta para que qualquer pessoa entre.</p>
+          <p>Os membros do grupo oficial do Launchpad são encorajados a dar suporte
+aos utilizadores no IRC e na lista de correio dos utilizadores do Xubuntu bem como
+espalhar a mensagem acerca do Xubuntu em qualquer local que considerem adequado,
+incluindo mas não se limitando a blogues, redes sociais e conferências.</p>
+          <p>Além do suporte ao utilizadores e advocacia, os membros são livres para se
+organizarem conforme pretenderem em plataformas de redes sociais e outros.
+Caso o grupo seja considerado substancial e suficientemente útil, a equipa do 
+Xubuntu pode considera-lo oficial e ajudar na sua manutenção. Todas as equipas
+atualmente oficiais encontram-se listadas na wiki do Xubuntu na página <a class="ulink" href="http://wiki.xubuntu.org/website/admins" target="_top">Administradores da página Web</a>.</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="xsd-development"></a>Desenvolvimento</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="xsd-development-coordination"></a>Coordenação</h3>
+              </div>
+            </div>
+          </div>
+          <p>A direção do desenvolvimento do projeto é coordenada por:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>O documento estratégico</p>
+              </li>
+              <li class="listitem">
+                <p>Modelos e especificações específicos da versão</p>
+              </li>
+              <li class="listitem">
+                <p>Encontros da comunidade</p>
+              </li>
+              <li class="listitem">
+                <p>As ferramentas de comunicação dos programadores listadas abaixo</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="xsd-development-communication"></a>Comunicação</h3>
+              </div>
+            </div>
+          </div>
+          <p>Para que o Xubuntu seja bem sucedido, os seus membros e a comunidade devem possuir
+as ferramentas certas para permitir uma comunicação útil e, em última análise,
+ ajudar a comunidade a crescer. Essas ferramentas de comunicação incluem as
+seguintes ferramentas "básicas":</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p><span class="emphasis"><em>Listas de correio</em></span>; Xubuntu-users para suporte à comunidade e discussões dos utilizadores
+e a lista Xubuntu-devel para discussão e coordenação do desenvolvimento</p>
+              </li>
+              <li class="listitem">
+                <p><span class="emphasis"><em>Canais do IRC</em></span>; #xubuntu para apoio à comunidade, #xubuntu-devel para discussão
+e coordenação do desenvolvimento e #xubuntu-offtopic para discussão geral com um humor
+mais descontraído</p>
+              </li>
+              <li class="listitem">
+                <p><span class="emphasis"><em>Launchpad</em></span> para organização da equipa e concessão de permissões e direitos
+de acesso através de membros da equipa</p>
+              </li>
+              <li class="listitem">
+                <p><span class="emphasis"><em>A página Web do Xubuntu</em></span> para novidades, artigos de desenvolvimento e informação
+geral acerca do Xubuntu</p>
+              </li>
+              <li class="listitem">
+                <p><span class="emphasis"><em>A área de programadores do Xubuntu</em></span> para acompanhar o progresso do desenvolvimento, colaborar
+em questões do desenvolvimento e partilhar informações relacionadas com o
+desenvolvimento na wiki</p>
+              </li>
+            </ul>
+          </div>
+          <p>Além de se comunicarem entre si e com a comunidade do Xubuntu,
+a equipa do Xubuntu deve comunicar continuamente com outros colaboradores do
+Ubuntu, a montante e de outros projetos relacionados com o Xubuntu. Os membros da equipa
+devem participar na discussão do desenvolvimento fora do Xubuntu,
+bem como criar e manter relacionamentos saudáveis com outros projetos e os
+ seus programadores.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="xsd-development-dispute-resolution"></a>Resolução de conflitos</h3>
+              </div>
+            </div>
+          </div>
+          <p>O Código de Conduta (CoC) é um dos documentos mais fundamentais na
+comunidade do Ubuntu, incluindo o Xubuntu, e funciona como a base para um
+trabalho em comunidade. Toda a gente e todos os meios de comunicação na
+comunidade do Xubuntu são compatíveis com CoC em todos os momentos.</p>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Nota]" src="../../libs-common/images/note.png" />
+                </td>
+                <th align="left"></th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Para ler a revisão mais recente do código de conduta do Ubuntu, consulte a
+página <a class="ulink" href="http://www.ubuntu.com/about/about-ubuntu/conduct" target="_top">Código de conduta do Ubuntu</a> na página Web do Ubuntu.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <p>O conselho da comunidade do Ubuntu pode ser solicitado a atuar como
+mediadores/assessores onde os seus conhecimentos sejam úteis quando o conselho
+do Xubuntu solicitar assistência. O conselho do Xubuntu e a equipa do Xubuntu são
+encorajados a conversar com outras equipas da comunidade Ubuntu caso tal
+ajude a resolver o problema.</p>
+          <p>Quando ocorrerem conflitos, os contribuidores são fortemente encorajados a
+absterem-se de tomar as ações contestadas para evitar sabotar o processo de
+resolução de conflitos.</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="xsd-release-support-cycle"></a>Lançamentos e Ciclos de Suporte</h2>
+            </div>
+          </div>
+        </div>
+        <p>O ciclo de lançamento do Xubuntu consiste em 6 meses do início ao
+lançamento; segue-se um período adicional de 9 meses de manutenção para
+versões padrão e 3 anos de suporte para lançamentos LTS. Embora o próprio
+ projeto Xubuntu não possa oferecer suporte comercial ou garantias
+comerciais, a equipa do Xubuntu fará todos os esforços para estar em
+conformidade com o período de suporte reconhecido e fornecer atualizações de
+segurança para os pacotes do Xubuntu.</p>
+        <p>Para mais informações sobre os detalhes dos processos relacionados com o 
+desenvolvimento de uma versão, consulte <a class="xref" href="processes.html">Capítulo 6, <em>Processos</em></a>.</p>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="xsd-seeds-composition"></a>Novas aplicações e composição</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="xsd-seeds-composition-core-components"></a>Componentes essenciais</h3>
+              </div>
+            </div>
+          </div>
+          <p>Os seguintes pacotes e as suas dependências técnicas são considerados
+essenciais na composição de um sistema operativo que represente os objetivos
+definidos anteriormente neste documento:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>xfwm4 (gestor de janelas Xfce4)</p>
+              </li>
+              <li class="listitem">
+                <p>xfdesktop4 (ambiente gráfico Xfce4)</p>
+              </li>
+              <li class="listitem">
+                <p>xfce4-panel (painel Xfce4)</p>
+              </li>
+              <li class="listitem">
+                <p>xfce4-session (gestor de sessão Xfce4)</p>
+              </li>
+              <li class="listitem">
+                <p>xfconf (sistema de configuração de armazenamento Xfce4)</p>
+              </li>
+              <li class="listitem">
+                <p>xfce4-settings (gestor de definições Xfce4)</p>
+              </li>
+              <li class="listitem">
+                <p>thunar (gestor de ficheiros)</p>
+              </li>
+            </ul>
+          </div>
+          <p>A menos que os componentes mencionados acima estejam obsoletos e deixem de
+funcionar como pretendido, não devem ser substituídos ou removidos.</p>
+          <p>O meta-pacote <code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span>xubuntu-core</code> consiste nos pacotes principais, bem como noutros
+pacotes importantes que contribuem para a experiência do Xubuntu.
+O meta-pacote <code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span>xubuntu-desktop</code>depende do meta-pacote principal e inclui pacotes
+adicionais para fornecer a experiência completa, pronta a usar, do Xubuntu.</p>
+        </div>
+        <div class="section">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="xsd-seeds-composition-package-selection"></a>Seleção de pacotes</h3>
+              </div>
+            </div>
+          </div>
+          <p>Ao considerar a seleção de pacotes para o Xubuntu, existem duas diretrizes principais:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>O pacote deve estar em linha com a declaração de missão</p>
+              </li>
+              <li class="listitem">
+                <p>O processo de seleção de pacotes deve ser conduzido o mais objetivamente possível</p>
+              </li>
+            </ul>
+          </div>
+          <p>Embora o Líder Técnico do Xubuntu tenha a última palavra sobre a seleção de
+pacotes com a aprovação do Conselho do Xubuntu, é recomendável que toda a equipa seja
+envolvida na discussão e que traga argumentos bem pensados tanto a favor como contra.
+Quando apropriado, devem ser efetuados testes a fim de obter medições significativas.</p>
+          <p>Os seguintes aspetos devem ser tidos em consideração antes de
+enviar uma aplicação para o Xubuntu:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>Usabilidade e integração</p>
+              </li>
+              <li class="listitem">
+                <p>Utilidade</p>
+              </li>
+              <li class="listitem">
+                <p>Consumo de recursos e tamanho</p>
+              </li>
+              <li class="listitem">
+                <p>Fiabilidade</p>
+              </li>
+              <li class="listitem">
+                <p>Localização</p>
+              </li>
+            </ul>
+          </div>
+          <p>Ao medir se um pacote se encontra correto para o Xubuntu, a decisão não deve basear-se
+unicamente numa análise do pacote original, mas no pacote de destino juntamente com
+as suas dependências. Qualquer pacote considerado para integração deve satisfazer os
+seguintes requisitos:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>O pacote deve utilizar o kit de ferramentas GTK</p>
+              </li>
+              <li class="listitem">
+                <p>O pacote não deve puxar por bibliotecas pesadas, especialmente se forem executadas
+e/ou iniciadas com frequência.</p>
+              </li>
+              <li class="listitem">
+                <p>O pacote deve ser mantido a montante</p>
+              </li>
+            </ul>
+          </div>
+          <p>As linhas orientadoras acima podem ser omitidas com a aprovação do conselho 
+quando existirem benefícios evidentes na integração do pacote.</p>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="release-cycle-maintaining.html"><img src="../../libs-common/images/prev.png" alt="Anterior" /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="common-reference.html"><img src="../../libs-common/images/next.png" alt="Próximo" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Manutenção </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Início" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Apêndice B. Referência Comum</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

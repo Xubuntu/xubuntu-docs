@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Guia de tradução para pacotes do Xubuntu</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets Vsnapshot" />
+    <link rel="home" href="index.html" title="Documentação de Contribuidores do Xubuntu" />
+    <link rel="up" href="docs-translations.html" title="Traduções" />
+    <link rel="prev" href="docs-packages.html" title="Pacotes a serem traduzidos" />
+    <link rel="next" href="qa.html" title="Capítulo 4. Controlo de Qualidade (QA)" />
+    <link rel="copyright" href="credits-license.html" title="Créditos e Licença" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div class="section">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="docs-translation-guidelines"></a>Guia de tradução para pacotes do Xubuntu</h3>
+          </div>
+        </div>
+      </div>
+      <p>Estas linhas orientadoras aplicam-se essencialmente à documentação do Xubuntu.
+Geralmente, podem ser aplicadas a quaisquer traduções com poucas modificações.
+Em caso de dúvida, peça assistência aos membros da equipa de Documentação.</p>
+      <p>Normalmente, o <a class="ulink" href="https://wiki.ubuntu.com/Translations/Contact/Teams" target="_top">equipas de tradução para idiomas específicos</a> encoraja algumas convenções; por favor entre em
+contacto com a equipa do idioma específico apropriado antes de traduzir.</p>
+      <p>Podem ser encontras mais linhas orientadoras de tradução geral em <a class="ulink" href="https://help.launchpad.net/Translations/Guide" target="_top">Guia de traduções do Launchpad</a> .</p>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="docs-translation-guidelines-validity"></a>Manter validade da tradução</h4>
+            </div>
+          </div>
+        </div>
+        <p><span class="emphasis"><em>As etiquetas não devem ser traduzidas.</em></span> Quando vir uma etiqueta na cadeia de caracteres original,
+(por exemplo, "&lt;xref linkend="&amp;xubuntu-web;" /&gt;"), a etiqueta e tudo 
+o que se encontra no seu interior não deve ser traduzido. É muito importante copiar
+e colar estas etiquetas exatamente como aparecem na cadeia de caracteres original.
+Nota: a exceção a isto é quando a etiqueta contém um URL que possui uma versão
+traduzida equivalente. Nesses casos, o tradutor deve decidir sobre localizar o URL.</p>
+        <p><span class="emphasis"><em>As entidades não devem ser traduzidas.</em></span> Quando vir uma frase semelhante a "&amp;gt;" ou "&amp;xubuntu-web;", não a altere.</p>
+        <p><span class="emphasis"><em>Mantenha sempre a ordem das etiquetas.</em></span> Quando vir diversas etiquetas aninhadas umas nas outras (por exemplo: 
+"&lt;menuchoice&gt;&lt;guimenu&gt;System&lt;/guimenu&gt;&lt;guimenuitem&gt;Administration&lt;/guimenuitem&gt;&lt;guimenuitem&gt;Users and Groups&lt;/guimenuitem&gt;&lt;/menuchoice&gt;"), deve sempre preservar cuidadosamente
+a ordem - copiar e colar a partir do idioma original (Inglês) é a melhor forma de garantir
+que faz isto de forma correta.</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Nota]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Diferentes linguagens de programação e software podem ter sintaxes diferentes;
+certifique-se de que se encontra familiarizado com a sintaxe do software aquando
+da tradução. Normalmente, podem ser encontradas mais informações acerca deste assunto
+na cadeia de caracteres de comentário da tradução.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="docs-translation-guidelines-conventions"></a>Siga convenções boas e existentes</h4>
+            </div>
+          </div>
+        </div>
+        <p><span class="emphasis"><em>Utilize os nomes das descrições e das aplicações encontradas na Interface de Utilizador (gráfica).</em></span> Quando traduzir descrições da Interface de Utilizador e nomes
+de aplicações, utilize o termo ou nome que é utilizado na Interface Gráfica de Utilizador
+. Isto ajuda o utilizador a encontrar as instruções. Pode ser útil executar o sistema
+tanto no idioma alvo da tradução como em Inglês.</p>
+        <p><span class="emphasis"><em>Não altere a quantidade de espaços.</em></span> Quando traduzir, não altere a quantidade de espaços dentro
+ou fora das etiquetas. Manter estes espaçamentos conforme estão facilita a revisão 
+técnica da tradução.</p>
+        <p><span class="emphasis"><em>Não altere o tipo de aspas utilizadas dentro das etiquetas.</em></span> As aspas duplas ( " ) não possuem o mesmo significado
+que uma etiqueta num DocBook, XHTML ou XML como as aspas angulares ( « » ).
+Utilizar diferentes tipos de aspas pode também potenciar problemas de validação.</p>
+        <p><span class="emphasis"><em>Nunca troque uma etiqueta por outra.</em></span> Caso considere que uma etiqueta no código fonte é inválida
+ou semanticamente incorreta, envie um erro ao próprio pacote em vez de a alterar
+na tradução.</p>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="docs-packages.html"><img src="../../libs-common/images/prev.png" alt="Anterior" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="docs-translations.html">
+              <img src="../../libs-common/images/up.png" alt="Subir" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="qa.html"><img src="../../libs-common/images/next.png" alt="Próximo" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Pacotes a serem traduzidos </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Início" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Capítulo 4. Controlo de Qualidade (QA)</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

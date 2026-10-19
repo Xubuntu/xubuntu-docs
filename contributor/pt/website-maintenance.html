@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Documentação da manutenção da página Web do Xubuntu</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets Vsnapshot" />
+    <link rel="home" href="index.html" title="Documentação de Contribuidores do Xubuntu" />
+    <link rel="up" href="website.html" title="Capítulo 5. Página Web" />
+    <link rel="prev" href="website-introduction.html" title="Introdução à presença Web do Xubuntu" />
+    <link rel="next" href="processes.html" title="Capítulo 6. Processos" />
+    <link rel="copyright" href="credits-license.html" title="Créditos e Licença" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div class="section">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a id="website-maintenance"></a>Documentação da manutenção da página Web do Xubuntu</h2>
+          </div>
+        </div>
+      </div>
+      <div class="simplesect">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a id="website-maintenance-releases"></a>Lançamentos</h3>
+            </div>
+          </div>
+        </div>
+        <p>A página Web do Xubuntu rastreia lançamentos com uma taxonomia personalizada do
+WordPress. Os termos da versão podem ser anexados a praticamente qualquer
+tipo de conteúdo utilizado na página. As informações sobre o termo de
+lançamento e o conteúdo anexado são utilizados para automatizar a criação de
+ algum conteúdo na página Web, incluindo, mas não necessariamente limitado:
+às <a class="ulink" href="https://xubuntu.org/releases" target="_top"> páginas de lançamento,</a>, à <a class="ulink" href="https://xubuntu.org/getxubuntu/" target="_top">página
+ de Transferências</a>, à <a class="ulink" href="https://xubuntu.org/help/" target="_top">Ajuda e 
+Suporte</a> e à <a class="ulink" href="https://xubuntu.org/press/" target="_top"> página na 
+Imprensa.</a></p>
+        <p>Para editar as informações genéricas de cada versão (nome de código, data da
+ versão, data de fim de vida, ligações para transferências Torrent, 
+documentação on-line e mudança de versão), vá a <a class="ulink" href="https://xubuntu.org/wp-admin/edit-tags.php?taxonomy=release" target="_top">Posts – 
+Lançamentos</a>.</p>
+        <p>Para anexar algum conteúdo a um lançamento, selecione o(s) lançamento(s)
+pretendido(s) na página de edição de conteúdo.</p>
+        <p>Os códigos seguintes são utilizados para apresentar informação de lançamento
+agregada (substitua <code class="literal">xx-xx</code> pela versão desejada):</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p><strong class="userinput"><code>[torrents release=xx-xx]</code></strong> para apresentar ligações de
+transferência Torrent</p>
+            </li>
+            <li class="listitem">
+              <p><strong class="userinput"><code>[mirrors release=xx-xx]</code></strong> para apresentar a lista de ligações
+com informação adicional disponível</p>
+            </li>
+            <li class="listitem">
+              <p><strong class="userinput"><code>[press release=xx-xx]</code></strong> para apresentar todas as ligações
+de imprensa associadas ao lançamento e<strong class="userinput"><code>[press]</code></strong> para apresentar
+o arquivo de imprensa</p>
+            </li>
+            <li class="listitem">
+              <p><strong class="userinput"><code>[documentation_links]</code></strong> para apresentar uma lista com ligações
+para a documentação on-line para todas as versões lançadas e suportadas</p>
+            </li>
+          </ul>
+        </div>
+        <p>A página de lançamento das versões utiliza uma página modelo com o mesmo nome;
+o modelo lista todas as versões lançadas e suportadas com uma pequena
+descrição. As páginas de lançamento são criadas automaticamente.</p>
+      </div>
+      <div class="simplesect">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a id="website-maintenance-releaselinks"></a>Ligações de lançamento</h3>
+            </div>
+          </div>
+        </div>
+        <p>Para adicionar ligações de imprensa (e outras ligações oficiais específicas
+do lançamento com exceção das ligações de transferência do Torrent e ligações
+da documentação on-line), vá a <a class="ulink" href="https://xubuntu.org/wp-admin/post- new.php?post_type=release_link" target="_top">Ligações de Lançamento</a>. Uma vez adicionadas
+à base de dados, as ligações irão aparecer nos locais apropriados automaticamente.</p>
+      </div>
+      <div class="simplesect">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a id="website-maintenance-mirrors"></a>Opções de transferência</h3>
+            </div>
+          </div>
+        </div>
+        <p>As listas de ligações para transferência são criadas automaticamente a partir de
+modelos de URL guardados na base de dados. Para gerir os espelhos de listas de
+transferências, vá a <a class="ulink" href="https://xubuntu.org/wp- admin/edit.php?post_type=transferência_mirror" target="_top">DL Mirrors</a>. É possível ativar ou
+desativar os espelhos de transferência nas páginas de edição (respetivamente visíveis
+e ocultas no frontend). É igualmente possível definir que ligações para transferência
+são apresentadas na listagem por defeito; defina um espelho como um <span class="emphasis"><em>espelho
+para transferência principal</em></span> caso pretenda que seja visível diretamente.</p>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="website-introduction.html"><img src="../../libs-common/images/prev.png" alt="Anterior" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="website.html">
+              <img src="../../libs-common/images/up.png" alt="Subir" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="processes.html"><img src="../../libs-common/images/next.png" alt="Próximo" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Introdução à presença Web do Xubuntu </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Início" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Capítulo 6. Processos</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

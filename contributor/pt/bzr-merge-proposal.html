@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Submeter solicitações de integração</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets Vsnapshot" />
+    <link rel="home" href="index.html" title="Documentação de Contribuidores do Xubuntu" />
+    <link rel="up" href="bzr.html" title="Utilizar o Bazaar (Bzr)" />
+    <link rel="prev" href="bzr-push.html" title="Efetuar push para as ramificações do Bzr" />
+    <link rel="next" href="git.html" title="Utilizar o Git" />
+    <link rel="copyright" href="credits-license.html" title="Créditos e Licença" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div class="section">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="bzr-merge-proposal"></a>Submeter solicitações de integração</h3>
+          </div>
+        </div>
+      </div>
+      <p>Após o envio das suas alterações para um ramo pessoal, pode desejar
+efetuar uma solicitação de integração para que sejam integradas no ramo principal.</p>
+      <p>Para efetuar uma proposta de integração (habitualmente referida como MP)
+através de um navegador web, comece por abrir a página do Launchpad do
+seu ramo. Pode encontra-la se navegar para a página <a class="ulink" href="https://code.launchpad.net/people/+me" target="_top">os seus ramos do Launchpad</a> e clicar no ramo
+pretendido. De seguida, clique em <em class="guilabel">Propor integração</em>. Isto abrirá uma página 
+a pedir-lhe alguns detalhes acerca da proposta de integração que está prestes a realizar.</p>
+      <p>Normalmente, o <em class="guilabel">Ramo Alvo</em> está corretamente configurado por defeito.
+Altere-o apenas no caso de saber que se encontra errado. Se lhe foi solicitado que
+adicionasse um <em class="guilabel">Revisor</em> específico, adicione esse revisor ao campo apropriado.
+Insira, também, um <em class="guilabel">Descrição</em> das alterações que propõe. Em caso de dúvida
+acerca de qualquer uma das opções, pergunte ao reviso ou, no caso de não haver
+revisor especificado, no canal IRC.</p>
+      <p>Finalmente, clique no <span class="guibutton"><strong>Propor integração</strong></span>. Tal submete a sua proposta de integração
+e notifica, por e-mail, o proprietário do ramo de destino e os revisores especificados. Caso necessitem de mais informações ou pretendam que 
+trabalhe mais no ramo, deixarão um comentário na proposta de integração.
+Ser-lhe-á enviado um e-mail sempre que for executada uma ação na 
+proposta de integração, incluindo quando é aprovada e integrada no ramo principal.</p>
+      <p>Para efetuar uma proposta de integração a partir da linha de comandos através
+tanto do ramo de submissão guardado (por defeito, o ramo pai) como a equipa
+de revisores por defeito, execute <strong class="userinput"><code>bzr lp-propose-merge</code></strong>. Isto abrirá um editor de texto
+para inserção da descrição da sua alteração proposta. Pode sobrepor o revisor por defeito
+utilizando <code class="literal">--review NOME</code> uma ou mais vezes, e associar um relatório de erro à proposta
+de integração através de <code class="literal">--fixes lp:BUGNO</code>.</p>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="bzr-push.html"><img src="../../libs-common/images/prev.png" alt="Anterior" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="bzr.html">
+              <img src="../../libs-common/images/up.png" alt="Subir" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="git.html"><img src="../../libs-common/images/next.png" alt="Próximo" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Efetuar push para as ramificações do Bzr </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Início" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Utilizar o Git</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

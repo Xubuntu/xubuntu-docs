@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Infraestrutura de Testes</title>
+    <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets Vsnapshot" />
+    <link rel="home" href="index.html" title="Documentação de Contribuidores do Xubuntu" />
+    <link rel="up" href="qa-team-testing.html" title="Testes" />
+    <link rel="prev" href="qa-team-testing.html" title="Testes" />
+    <link rel="next" href="qa-testing.html" title="Testes de pacotes e de ISO" />
+    <link rel="copyright" href="credits-license.html" title="Créditos e Licença" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
+    <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-950.css" media="only screen and (max-width:950px)" />
+    <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="stylesheet" href="../../libs-common/css/style-resp-400.css" media="only screen and (max-width:400px)" />
+  </head>
+  <body>
+    <div xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" id="masthead">
+      <a href="index.html">
+        <img src="../../libs-common/images/logo.png" alt="Xubuntu" />
+      </a>
+    </div>
+    <div class="section">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="qa-infra"></a>Infraestrutura de Testes</h3>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="qa-infra-getting-ready"></a>Preparação dos testes</h4>
+            </div>
+          </div>
+        </div>
+        <p>A fim de testar o Xubuntu com sucesso, irá necessitar de, pelo menos, 4 coisas:
+uma conta no Launchpad, uma subscrição de lista de correio, uma imagem e algo
+para testar nela. Esta página fornece-lhe a informação básica necessária para isso, entre outros.</p>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="qa-infra-specs"></a>Contactos</h4>
+            </div>
+          </div>
+        </div>
+        <p>É necessário possuir uma conta no Launchpad a fim de se unir à(s) equipas necessárias
+e iniciar sessão nos 2 trackers do Controlo de Qualidade.</p>
+        <p>Utilizamos uma lista de correio para detalhar o que pretendemos testar durante um ciclo
+e para solicitar novos testes. Esta lista também é utilizada pela equipa para discussões
+acerca do desenvolvimento do Xubuntu. Terá de se unir à lista Xubuntu Devel <a class="ulink" href="https://lists.ubuntu.com/mailman/listinfo/xubuntu-devel" target="_top">Correio</a>.</p>
+        <p>Embora não seja estritamente necessário, utilizamos extensivamente o IRC,
+pelo que possuir uma conta passível de ser utilizada para aceder ao canal principal
+#xubuntu-devel poderá ajuda-lo. Alternativamente, é possível aceder ao canal através
+do separado IRC no separador <a class="ulink" href="http://dev.xubuntu.org/" target="_top">desenvolvimento</a> do Xubuntu.</p>
+        <p>Unir-se à equipa de testes <a class="ulink" href="https://launchpad.net/~xubuntu-testers" target="_top">Launchpad</a> do Xubuntu</p>
+        <p>Considere adicionar os seus detalhes à pagina <a class="ulink" href="http://wiki.xubuntu.org/qa/teamhardware" target="_top">Equipamento</a>. Podemos utilizar
+estes dados para solicitar testes específicos a testadores específicos.</p>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="qa-infra-iso"></a>Obter a ISO</h4>
+            </div>
+          </div>
+        </div>
+        <p>As ISOs podem ser obtidas através de alguns métodos. O método mais simples é
+visitar o tracker <a class="ulink" href="http://iso.qa.ubuntu.com/" target="_top">ISO</a>. Siga os casos de testes através do
+nome de código do lançamento para o grupo de testes do Xubuntu. Em seguida, escolha
+entre 64 ou 32 bits. As ligações para transferência encontram-se disponíveis lá.</p>
+        <p>Ao testar de forma mais regular, pode considerar (especialmente se a largura
+de banda for um problema) utilizar a ligação <a class="ulink" href="https://help.ubuntu.com/community/ZsyncCdImage" target="_top">zsync</a> mais apropriada.
+Isto irá detetar as diferenças entre a sua cópia local e a cópia atual.</p>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="qa-infra-test"></a>Metodologia de testes</h4>
+            </div>
+          </div>
+        </div>
+        <p>Agora que configurou os seus contacto(s) básico(s) e possui a sua ISO,
+encontra-se em posição de a testar.</p>
+        <p>Existem dois métodos principais para testar as ISOs:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>Utilizar uma máquina virtual permite-lhe continuar a utilizar uma distribuição
+normal durante os testes às ISOs. Pode instalar uma máquina virtual utilizando a ISO
+que transferiu.</p>
+            </li>
+            <li class="listitem">
+              <p>Instale a ISO num equipamento onde essa possibilidade se encontra disponível. 
+Tal torna-se particularmente importante no final do ciclo de desenvolvimento.
+Será necessário que a ISO seja armazenada num meio de arranque.
+Um membro da equipa da página Web do Xubuntu detalha um método simples
+para preparar um um meio <a class="ulink" href="http://princessleia.com/journal/2016/03/xubuntu-16-04-iso-testing-tips/" target="_top">USB</a> de arranque através do Discos do GNOME.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Nota]" src="../../libs-common/images/note.png" />
+              </td>
+              <th align="left"></th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Embora seja possível utilizar o VirtualBox, experiências anteriores demonstraram
+que problemas encontrados durante os testes no VirtualBox são difíceis de
+replicar noutros locais. Poderá desejar utilizar o <a class="ulink" href="https://help.ubuntu.com/community/KVM" target="_top">KVM</a>. Os membros da 
+Equipa de Controlo de Qualidade do Xubuntu possuem experiência com a utilizaçãodisso para testes e podem ajudar.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="section">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="qa-infra-track"></a>Reportar o resultado</h4>
+            </div>
+          </div>
+        </div>
+        <p>Utilizamos dois trackers de Controlo de Qualidade.</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>O tracker de ISO mencionado acima para quaisquer testes realizados com uma ISO
+sejam de instalação ou de atualização.</p>
+            </li>
+            <li class="listitem">
+              <p>O tracker <a class="ulink" href="http://packages.qa.ubuntu.com/" target="_top">Pacote</a>, que é utilizado quando estamos a testar aplicações
+durante um ciclo.</p>
+            </li>
+          </ul>
+        </div>
+        <p>Esses trackers formam a espinha dorsal do que somos capazes de
+ganhar a partir dos seus testes. É importante que reporte os seus resultados.</p>
+        <p>As duas secções seguintes destes documentos entram em maior detalhe
+sobre como pode efetuar testes para nós e como nos reportar erros.</p>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="qa-team-testing.html"><img src="../../libs-common/images/prev.png" alt="Anterior" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="qa-team-testing.html">
+              <img src="../../libs-common/images/up.png" alt="Subir" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="qa-testing.html"><img src="../../libs-common/images/next.png" alt="Próximo" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Testes </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="../../libs-common/images/home.png" alt="Início" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> Testes de pacotes e de ISO</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
