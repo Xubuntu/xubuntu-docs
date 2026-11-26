@@ -3,11 +3,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Capítulo 12. File Management</title>
+    <title>Capítulo 12. Gestão de ficheiros</title>
     <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
     <meta name="generator" content="DocBook XSL Stylesheets Vsnapshot" />
-    <link rel="home" href="index.html" title="Documentação Xubuntu" />
-    <link rel="up" href="index.html" title="Documentação Xubuntu" />
+    <link rel="home" href="index.html" title="Documentação do Xubuntu" />
+    <link rel="up" href="index.html" title="Documentação do Xubuntu" />
     <link rel="prev" href="hardware-devices.html" title="Capítulo 11. Dispositivos de hardware" />
     <link rel="next" href="media-apps.html" title="Capítulo 13. Aplicações multimédia" />
     <link rel="copyright" href="credits-license.html" title="Créditos e Licença" />
@@ -26,7 +26,7 @@
       <div class="titlepage">
         <div>
           <div>
-            <h1 class="title"><a id="file-management"></a>Capítulo 12. File Management</h1>
+            <h1 class="title"><a id="file-management"></a>Capítulo 12. Gestão de ficheiros</h1>
           </div>
         </div>
       </div>
@@ -42,7 +42,7 @@
           </dt>
           <dt>
             <span class="section">
-              <a href="file-management.html#creating-and-deleting-files-and-folders">Criar e apagar ficheiros e pastas</a>
+              <a href="file-management.html#creating-and-deleting-files-and-folders">Criar e apagar ficheiros e diretórios</a>
             </span>
           </dt>
           <dt>
@@ -52,7 +52,7 @@
           </dt>
           <dt>
             <span class="section">
-              <a href="file-management.html#removable-drives">Removable Drives</a>
+              <a href="file-management.html#removable-drives">Controladores removíveis</a>
             </span>
           </dt>
           <dt>
@@ -62,7 +62,7 @@
           </dt>
         </dl>
       </div>
-      <p>Xubuntu comes with Xfce's file manager, <span class="application"><strong>Thunar</strong></span>. For simplicity's sake, it will be referred to as the File Manager from now on. Load it from <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Accessories</span> → <span class="guimenuitem">File Manager</span></strong></span> or by double-clicking the <em class="guilabel">Home</em> or <em class="guilabel">File System</em> icons on your desktop.</p>
+      <p>O Xubuntu vem com o gestor de ficheiros do Xfce, o <span class="application"><strong>Thunar</strong></span>. Para efeitos de simplicidade, a partir de agora será referido apenas como Gestor de ficheiros. Carregue-o a partir de <span class="application"><strong><span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> → <span class="guisubmenu">Acessórios</span> → <span class="guimenuitem">Gestor de ficheiros</span></strong></span> ou através de duplo clique nos ícones <em class="guilabel">Pasta Pessoal</em> ou <em class="guilabel">Sistema de ficheiros</em> do seu ambiente de trabalho.</p>
       <div class="section">
         <div class="titlepage">
           <div>
@@ -71,16 +71,7 @@
             </div>
           </div>
         </div>
-        <p>
-			The File Manager's default view consists of a shortcut pane on the left side, the main area on
-			the right, and a pathbar above the main area. The shortcut pane provides shortcuts to different
-			folders on your system. The first shortcut under <em class="guilabel">PLACES</em> takes you to your home directory (/home),
-			the directory where all your personal data and data from the applications you use are stored, and
-			has the name of the current user.The <em class="guilabel">File System</em> shortcut under <em class="guilabel">DEVICES</em> will takes you to the root
-			(/) of the filesystem. You may want to explore it a bit, even though it may be confusing if you
-			are new to Linux. Just click on the different folders and see what's inside. When you're done,
-			return to your home directory by clicking on the top shortcut.
-		</p>
+        <p>A vista padrão do Gestor de Ficheiros consiste num painel de atalhos à esquerda, na área principal à direita e numa barra de caminho acima da área principal. O painel de atalhos fornece atalhos para diferentes diretórios do seu sistema. O primeiro atalho em <em class="guilabel">Locais</em> leva-o ao seu diretório pessoal (/home), onde são armazenados todos os seus dados pessoais e os dados das aplicações que utiliza, e possui o nome do utilizador atual. O atalho <em class="guilabel">Sistema de ficheiros</em> em <em class="guilabel"> Dispositivos</em> leva-o à raiz (/) do sistema de ficheiros. Pode pretender explora-lo um pouco, mesmo que possa ser confuso se for novo no Linux. Basta clicar nos diversos diretórios e consultar o que se encontra no seu interior. Quando terminar, regresse ao seu diretório pessoal clicando no atalho superior.</p>
         <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
           <table border="0" summary="Note">
             <tr>
@@ -91,7 +82,7 @@
             </tr>
             <tr>
               <td align="left" valign="top">
-                <p>Pode adicionar os seus próprios atalhos simplesmente arrastando pastas para o painel de atalhos. Isso permitirá que aceda a pastas importantes instantaneamente!</p>
+                <p>Pode adicionar os seus próprios atalhos simplesmente arrastando diretórios para o painel de atalhos. Isso permitirá que aceda a diretórios importantes instantaneamente!</p>
               </td>
             </tr>
           </table>
@@ -106,36 +97,23 @@
             </tr>
             <tr>
               <td align="left" valign="top">
-                <p>Ao usar o <span class="application"><strong>Thunar</strong></span> irá, em geral, apenas ter permissões de leitura nos ficheiros que encontra enquanto navega sob o atalho <em class="guilabel">Sistema de ficheiros</em>.</p>
+                <p>Ao utilizar o <span class="application"><strong>Thunar</strong></span> irá, em geral, apenas ter permissões de leitura nos ficheiros que encontra enquanto navega sob o atalho <em class="guilabel">Sistema de ficheiros</em>.</p>
               </td>
             </tr>
           </table>
         </div>
-        <p>
-			The main area will always display the contents of the current folder. Double-click on folders to
-			enter them, and right-click on files/folders to get a pop-up window offering you some choices of
-			what to do with them. Select multiple files by dragging a rectangle over them with the mouse.
-			Alternatively, select one file, hold down the <em class="guilabel">Shift</em> key, and increase/decrease the selection using
-			the arrow keys.
-		</p>
-        <p>Para ver facilmente o caminho que assumiu para chegar ao diretório atual, pode alterar as opções padrão de exibição. A partir do menu do Gestor de ficheiros, selecione <span class="guimenuitem">Ver</span> → <span class="guimenuitem">Seletor de localização</span> → <span class="guimenuitem">Estilo da barra de caminho</span>. Agora pode clicar em qualquer ícone da barra de caminho para mudar para o diretório que ele representa. Note que clicar com o botão direito do rato sobre os ícones da barra de caminho também irá abrir uma janela pop-up com algumas opções.</p>
+        <p>A área principal irá sempre apresentar os conteúdos do diretório atual. Efetue duplo clique nos diretórios para aceder aos mesmos, e clique com o botão direito do rato sobre ficheiros/diretórios para abrir uma janela pop-up que lhe oferece algumas opções do que pode fazer com eles. Selecione vários ficheiros através do desenho de um retângulo sobre eles com o rato. Em alternativa, selecione um ficheiro, mantenha a tecla <em class="guilabel">Shift</em> premida e aumente/diminua a seleção através das teclas de setas.</p>
+        <p>Para consultar facilmente o caminho que assumiu para chegar ao diretório atual, pode alterar as opções padrão de apresentação. A partir do menu do Gestor de ficheiros, selecione <span class="guimenuitem">Ver</span> → <span class="guimenuitem">Seletor de localização</span> → <span class="guimenuitem">Estilo dos botões</span>. Agora pode clicar em qualquer ícone da barra de caminho para mudar para o diretório que ele representa. Note que clicar com o botão direito do rato sobre os ícones da barra de caminho também irá abrir uma janela pop-up com algumas opções.</p>
       </div>
       <div class="section">
         <div class="titlepage">
           <div>
             <div>
-              <h2 class="title" style="clear: both"><a id="creating-and-deleting-files-and-folders"></a>Criar e apagar ficheiros e pastas</h2>
+              <h2 class="title" style="clear: both"><a id="creating-and-deleting-files-and-folders"></a>Criar e apagar ficheiros e diretórios</h2>
             </div>
           </div>
         </div>
-        <p>
-			To create a new document, right-click on some empty space in your home directory and select
-			<span class="guimenuitem">Create Document</span> → <span class="guimenuitem">Empty File</span> from the pop-up menu. The File Manager will prompt you for a name.
-			Just go with the suggested name for now. After this, you will see the new file in your home
-			directory. Right-click on it and choose <em class="guilabel">Properties</em>. This will show you some details about the
-			file. Right-click on the file once more and choose <em class="guilabel">Move to Trash</em> to remove it. The file will
-			be put into the Trash.
-		</p>
+        <p>Para criar um novo documento, clique com o botão direito do rato num espaço vazio do seu diretório pessoal e selecione <span class="guimenuitem">Criar documento</span> → <span class="guimenuitem">Ficheiro vazio</span> do menu de contexto. O Gestor de Ficheiros irá solicitar-lhe o fornecimento de um nome. Por agora, mantenha o nome atual. Depois disto, verá o novo ficheiro no seu diretório pessoal. Clique com o botão direito do rato sobre ele e selecione <em class="guilabel">Propriedades</em>. Isto irá apresentar-lhe alguns detalhes acerca do ficheiro. Clique com o botão direito do rato novamente sobre o ficheiro e escolha <em class="guilabel">Mover para o Lixo</em> para o eliminar. O ficheiro será colocado no Lixo.</p>
         <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
           <table border="0" summary="Note">
             <tr>
@@ -146,17 +124,12 @@
             </tr>
             <tr>
               <td align="left" valign="top">
-                <p>If you ever want to undo the deleting of a file, open <em class="guilabel">Trash</em>, right-click the file and click <em class="guilabel">Restore</em>.</p>
+                <p>Caso pretenda desfazer a eliminação de um ficheiro, aceda ao<em class="guilabel">Lixo</em>, clique com o botão direito do rato sobre o ficheiro e selecione <em class="guilabel">Restaurar</em>.</p>
               </td>
             </tr>
           </table>
         </div>
-        <p>
-			To create a new folder, right-click on the empty space, and choose <em class="guilabel">Create Folder</em>.
-			You will be prompted for a name. Type something and hit <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span>. You will see this
-			new folder in your home directory. Double-click on it to enter it. To rename or remove the folder,
-			right-click on it and choose the appropriate option from the pop-up menu.
-		</p>
+        <p>Para criar um novo diretório, clique com o botão direito do rato num espaço vazio do seu diretório pessoal e selecione <em class="guilabel">Criar diretório...</em>. Ser-lhe-á solicitado um nome. Preencha o campo e clique em <span class="keycap"><strong><span class="inline-icon-key"><img src="../../libs-common/images/icon_key.png" /></span>Enter</strong></span>.Irá ver este novo diretório no seu diretório pessoal. Efetue duplo clique sobre ele para o abrir. Para o renomear ou remover, clique com o botão direito do rato sobre o mesmo e selecione a opção adequada do menu pop-up.</p>
       </div>
       <div class="section">
         <div class="titlepage">
@@ -166,24 +139,17 @@
             </div>
           </div>
         </div>
-        <p>Para copiar e mover ficheiros no seu computador, basta clicar e arrastar os ficheiros e pastas para outras pastas.</p>
+        <p>Para copiar e mover ficheiros no seu computador, basta clicar e arrastar os ficheiros e diretórios para outros diretórios.</p>
       </div>
       <div class="section">
         <div class="titlepage">
           <div>
             <div>
-              <h2 class="title" style="clear: both"><a id="removable-drives"></a>Removable Drives</h2>
+              <h2 class="title" style="clear: both"><a id="removable-drives"></a>Controladores removíveis</h2>
             </div>
           </div>
         </div>
-        <p>
-			When inserting CDs, USB sticks or other removable media into your computer, or inserting
-			removable devices like a music player, Xubuntu should automatically detect the new device. For
-			example, after inserting a CD into your optical drive, you will see a new shortcut in the left pane
-			of the <span class="application"><strong>File Manager</strong></span> representing the CD. Clicking on it will open the
-			CD in the main area, just like clicking on a regular folder. To remove the CD, right-click on the shortcut,
-			and choose <span class="guibutton"><strong>Eject</strong></span>. The same applies for any other removable media.
-		</p>
+        <p>Ao inserir CDs, unidades USB ou outros meios removíveis no seu computador ou ao inserir dispositivos removíveis como um leitor de música, o Xubuntu deve detetar automaticamente o novo dispositivo. Por exemplo, após a introdução de um CD na unidade ótica, verá um novo atalho no painel esquerdo do <span class="application"><strong>Gestor de ficheiros</strong></span> representativo do CD. Ao clicar-lhe irá abrir o CD na área principal, tal como acontece quando clicar num diretório normal. Para remover o CD, clique com o botão direito do rato no atalho e selecione <span class="guibutton"><strong>Ejetar</strong></span>. O mesmo se aplica a qualquer outro meio removível.</p>
         <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
           <table border="0" summary="Note">
             <tr>
@@ -194,7 +160,7 @@
             </tr>
             <tr>
               <td align="left" valign="top">
-                <p>Please note that pressing the eject button on your CD drive may not work. This may be surprising to some users, but it is in fact the expected behavior. Before the CD can be ejected, it needs to be properly <span class="quote">“<span class="quote">released</span>”</span> (unmounted) by the system. To remove a CD, always right-click on its shortcut and choose <em class="guilabel">Eject</em>.</p>
+                <p>Tenha em atenção que premir o botão de ejeção na sua unidade de CD pode não funcionar. Isto pode surpreender alguns utilizadores, mas trata-se do comportamento esperado. Antes de o CD poder ser ejetado, precisa de ser devidamente <span class="quote">“<span class="quote">libertado</span>”</span> (desmontado) pelo sistema. Para remover um CD, efetue sempre clique com o botão direito do rato no atalho e selecione <span class="guibutton"><strong>Ejetar</strong></span>.</p>
               </td>
             </tr>
           </table>
@@ -208,20 +174,10 @@
             </div>
           </div>
         </div>
-        <p>
-			There are many ways to customize the <span class="application"><strong>File Manager</strong></span>. If you do not like the
-			way the icons are displayed, choose <span class="guimenuitem">View</span> → <span class="guimenuitem">View as Detailed List</span>
-			to have the contents of the current directory displayed as a list.
-		</p>
-        <p>
-			You can have the <span class="application"><strong>File Manager</strong></span> display a location bar instead of the pathbar by selecting
-			<span class="guimenuitem">View</span> → <span class="guimenuitem">Location Selector</span> → <span class="guimenuitem">Toolbar Style</span>.
-			If you prefer a tree view in the left pane, choose <span class="guimenuitem">View</span> → <span class="guimenuitem">Side Pane</span> → <span class="guimenuitem">Tree</span>.
-		</p>
-        <p>Finalmente, pode adicionar ações personalizadas, que podem adicionar opções úteis ao menu. Muitas ações personalizadas podem ser encontradas na página da Wiki Ubuntu <a class="ulink" href="https://help.ubuntu.com/community/ThunarCustomActions" target="_top">Thunar Custom Action</a>.</p>
-        <p>
-			For more choices, explore the options under <span class="guimenuitem">Edit</span> → <span class="guimenuitem">Preferences</span>.
-		</p>
+        <p>Existem muitas formas de personalizar o <span class="application"><strong>Gestor de ficheiros</strong></span>. Caso não goste da forma como os ícones são apresentados, selecione <span class="guimenuitem">Ver</span> → <span class="guimenuitem">Vista detalhada</span> para apresentar o conteúdo do diretório como uma lista.</p>
+        <p>Pode fazer o <span class="application"><strong>Gestor de ficheiros</strong></span> apresentar uma barra de localização em vez da barra de caminho se selecionar <span class="guimenuitem">Ver </span> → <span class="guimenuitem">Seletor de localização</span> → <span class="guimenuitem"> Estilo de entrada</span>. Caso pretenda ver uma vista em árvore, selecione <span class="guimenuitem">Ver</span> → <span class="guimenuitem">Painel lateral</span> → <span class="guimenuitem">Árvore</span>.</p>
+        <p>Finalmente, pode adicionar ações personalizadas, que podem adicionar opções úteis ao menu. Muitas ações personalizadas podem ser encontradas na página da Wiki Ubuntu <a class="ulink" href="https://help.ubuntu.com/community/ThunarCustomActions" target="_top">Ações Personalizadas do Thunar</a>.</p>
+        <p>Para mais opções, explore a opção<span class="guimenuitem">Editar</span> → <span class="guimenuitem">Preferências</span>.</p>
       </div>
     </div>
     <div class="navfooter">

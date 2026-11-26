@@ -6,10 +6,10 @@
     <title>Capítulo 9. Impressão e Digitalização</title>
     <link rel="stylesheet" type="text/css" href="../../libs-common/css/style.css" />
     <meta name="generator" content="DocBook XSL Stylesheets Vsnapshot" />
-    <link rel="home" href="index.html" title="Documentação Xubuntu" />
-    <link rel="up" href="index.html" title="Documentação Xubuntu" />
-    <link rel="prev" href="settings-connectivity.html" title="Capítulo 8. Settings - Connectivity" />
-    <link rel="next" href="user-management.html" title="Capítulo 10. User Management" />
+    <link rel="home" href="index.html" title="Documentação do Xubuntu" />
+    <link rel="up" href="index.html" title="Documentação do Xubuntu" />
+    <link rel="prev" href="settings-connectivity.html" title="Capítulo 8. Configurações - Conectividade" />
+    <link rel="next" href="user-management.html" title="Capítulo 10. Gestão de utilizadores" />
     <link rel="copyright" href="credits-license.html" title="Créditos e Licença" />
     <link xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" rel="shortcut icon" href="../../libs-common/images/favicon.png" />
     <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
@@ -55,16 +55,16 @@
             </div>
           </div>
         </div>
-        <p>The majority of consumer printers are automatically supported by Xubuntu, as it uses the CUPS (Common UNIX Printing System) back-end. This includes support for driver-less WiFi/wired network printing with printers that support IPP Everywhere and Apple AirPrint. If your printer is not immediately supported by Xubuntu you may need to install additional software, such as Gutenprint (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://printer-driver-gutenprint" target="_top">printer-driver-gutenprint</a></code>) and IPP-USB (<a class="ulink" href="https://software.opensuse.org//download.html?project=home%3Apzz&amp;package=ipp-usb" target="_top">install</a>). Gutenprint extends CUPS by providing support for printers seen less often in end-user consumer settings, while IPP-USB is a more robust replacement to the default installation of the <code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span>ippusbxd</code> package. Normally CUPS and Gutenprint support is better adapted to Xubuntu than what will be available from the printer manufacturer.</p>
+        <p>A maioria das impressoras são automaticamente suportadas pelo Xubuntu, que utiliza a infraestrutura CUPS (Sistema Comum de Impressão do UNIX). Isto inclui o suporte à impressão através de redes com e sem fios e sem controladores com impressoras que suportem o IPP Everywhere e o Apple AirPrint. Caso a sua impressora não seja imediatamente suportada pelo Xubuntu, pode ter de instalar software adicional, tal como o Gutenprint (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://printer-driver-gutenprint" target="_top">printer-driver-gutenprint</a></code>) e o IPP-USB (<a class="ulink" href="https://software.opensuse.org//download.html?project=home%3Apzz&amp;package=ipp-usb" target="_top">install</a>). O Gutenprint estende o CUPS pois fornece suporte a impressoras vistas com menos frequência nas configurações do utilizador final, enquanto o IPP-BUS é uma substituição mais robusta à instalação do pacote <code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span>ippusbxd</code>. Normalmente, o suporte do CUPS e do Gutenprint é mais adaptado ao Xubuntu do que o suporte do fornecedor da impressora.</p>
         <div class="section">
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="printing-managing-your-printer"></a>Managing Your Printer</h3>
+                <h3 class="title"><a id="printing-managing-your-printer"></a>Gestão de impressoras</h3>
               </div>
             </div>
           </div>
-          <p>Printer management can be done in the <span class="application"><strong>Printers</strong></span> settings dialog, which is accessible from the <em class="guilabel">Hardware</em> category of the <span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> <span class="guibutton"><strong>Settings Manager</strong></span>, the <em class="guilabel">Settings</em> category of the application <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Applications Menu</strong></span> (Ctrl + Escape), and in the <span class="application"><strong>Application Finder</strong></span> (Alt + F3).</p>
+          <p>A gestão de impressoras pode ser feita na janela de configurações <span class="application"><strong>Impressoras</strong></span> , a qual se encontra acessível através do <span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> <span class="guibutton"><strong>Definições</strong></span>, a categoria <em class="guilabel">Gestor de definições</em> do <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Menu de aplicações</strong></span> (Ctrl + Escape), e no <span class="application"><strong>Localizador de aplicações</strong></span> (Alt + F3).</p>
           <div class="informalfigure">
             <div class="screenshot">
               <div class="mediaobject" align="center">
@@ -72,17 +72,17 @@
               </div>
             </div>
           </div>
-          <p>The <span class="application"><strong>Printers</strong></span> settings dialog allows you to add a new local printer (a printer directly connected to your computer through a USB, serial or printer port) or network printer (a printer connected on your network or a printer shared on the network through another computer). It also allows you to modify listed printers’ settings, such as renaming how they are labeled on your system, restarting, or disabling them. You can also share a printer with other computers on your network thereby making it a network printer. Depending upon the make and model of your printer, you can also check your printer’s consumables, such as toner or ink as well as paper, or send test print jobs.</p>
+          <p>O ecrã de configurações <span class="application"><strong>Impressoras</strong></span> permite-lhe adicionar uma nova impressora local (ligada diretamente ao seu computador através de um cabo USB, de impressora ou porta série) ou uma impressora de rede (ligada à sua rede ou partilhada na sua rede através de outro computador). Também lhe permite modificar as configurações da listagem de impressoras, tal como alterar os nomes a serem apresentados no sistema, reiniciar ou desativa-las. Também é possível partilhar uma impressora com outros computadores da sua rede, o que a transforma numa impressora de rede. Dependendo da marca e modelo da sua impressora, também pode consultar os seus consumíveis, tais como o toner ou a tinta, bem como o papel, ou enviar tarefas de impressão de teste.</p>
         </div>
         <div class="section">
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="printing-add-printer"></a>Add Printer</h3>
+                <h3 class="title"><a id="printing-add-printer"></a>Adicionar impressora</h3>
               </div>
             </div>
           </div>
-          <p>Setting up a new local printer should be as easy as plugging it into your computer and powering it on. The printer should be automatically detected and configured. Once it is successfully detected, a printer icon will appear in the notification area of the panel and a notification popup will appear with the text <em class="guilabel">Printer is ready for printing</em>.</p>
+          <p>Configurar uma nova impressora local deve ser tão fácil como liga-la ao seu computador e conecta-la. A impressora deverá ser automaticamente detetada e configurada. Assim que for detetada, surgirá um ícone de impressora na área de notificações do painel e irá aparecer uma notificação com a descrição <em class="guilabel">A impressora está pronta para imprimir</em>.</p>
           <div class="informalfigure">
             <div class="screenshot">
               <div class="mediaobject" align="center">
@@ -90,39 +90,39 @@
               </div>
             </div>
           </div>
-          <p>If your printer was not detected, you will need to follow these steps:</p>
+          <p>Caso a sua impressora não tenha sido detetada, terá de seguir os seguintes passos:</p>
           <div class="itemizedlist">
             <ul class="itemizedlist" style="list-style-type: disc; ">
               <li class="listitem">
-                <p>Open the <span class="application"><strong>Printers</strong></span> settings dialog.</p>
+                <p>Abrir o ecrã de configurações<span class="application"><strong>Impressoras</strong></span>.</p>
               </li>
               <li class="listitem">
-                <p>Click the Add button in the toolbar or <span class="guimenuitem">Server</span> → <span class="guimenuitem">New</span> → <span class="guimenuitem">Printer</span> in the menu to open the <span class="guibutton"><strong>New Printer</strong></span> dialog.</p>
+                <p>Clicar no botão Adicionar presente na barra de ferramentas ou<span class="guimenuitem">Servidor</span> → <span class="guimenuitem">Nova</span> → <span class="guimenuitem">Impressora</span> no menu para abrir a janela <span class="guibutton"><strong>Nova impressora</strong></span>.</p>
               </li>
               <li class="listitem">
-                <p>Select the appropriate Printer, Port, URI, Protocol or Network Printer entry in the <em class="guilabel">Devices</em> list on the left of the dialog. If your printer is not visible, you may need to click on the triangle next to <span class="quote">“<span class="quote">Find Network Printer</span>”</span> to expand the list of printers on your network.</p>
+                <p>Selecione a entrada apropriada para a Impressora, Porta, URI, Protocolo ou Impressora de rede na lista de <em class="guilabel">Dispositivos</em> do lado esquerdo. Caso a sua impressora não se encontre visível, pode ter de clicar no triângulo junto a <span class="quote">“<span class="quote">Procurar impressora de rede</span>”</span> para expandir a lista de impressoras da sua rede.</p>
               </li>
               <li class="listitem">
-                <p>Where applicable, fill in any relevant details into the text fields and/or dropdown lists on the right of the dialog and then click the <span class="guibutton"><strong>Forward</strong></span> button.</p>
+                <p>Quando aplicável, preencha quaisquer detalhes relevantes nos campos de texto e/ou listas expansíveis do lado direito da janela e depois clique no botão <span class="guibutton"><strong>Seguinte</strong></span>.</p>
               </li>
               <li class="listitem">
-                <p>If you are adding a local printer, your computer will search for it and install its drivers. If you are installing a network printer, you will go through additional steps of selecting the printer manufacturer, printer model and driver.</p>
+                <p>Caso esteja a adicionar uma impressora local, o seu computador irá procura-la e instalar os seus controladores. Caso esteja a instalar uma impressora de rede, existirão passos adicionais para a seleção do fabricante, modelo e controlador da impressora.</p>
               </li>
               <li class="listitem">
-                <p>You will then be prompted to enter a short name, description, and location of the printer.</p>
+                <p>Ser-lhe-á então solicitado para introduzir um nome curto, descrição e localização da impressora.</p>
               </li>
               <li class="listitem">
-                <p>Press the <span class="guibutton"><strong>Apply</strong></span> button to finalize the configuration of the printer.</p>
+                <p>Clique no botão <span class="guibutton"><strong>Aplicar</strong></span> para finalizar a configuração da impressora.</p>
               </li>
               <li class="listitem">
-                <p>You will be prompted with a dialog asking <em class="guilabel">Would you like to print a test page?</em></p>
+                <p>Surgirá uma mensagem com a questão <em class="guilabel">Deseja imprimir uma página de teste?</em></p>
               </li>
               <li class="listitem">
-                <p>If you press the <span class="guibutton"><strong>Print Test Page</strong></span> button, a test page will print and you can verify if it printed correctly or you can press <span class="guibutton"><strong>Cancel</strong></span>. Either way, your printer is ready to print.</p>
+                <p>Se clicar no botão <span class="guibutton"><strong>Imprimir página de teste</strong></span>, será impressa uma página de teste e poderá verificar se foi corretamente impressa ou pode clicar em <span class="guibutton"><strong>Cancelar</strong></span>. Independentemente da opção selecionada, a sua impressora está pronta a imprimir.</p>
               </li>
             </ul>
           </div>
-          <p>If you are experiencing problems adding a printer with the steps above, you can try using the CUPS browser-based interface. It can be accessed at <a class="ulink" href="http://localhost:631/" target="_top">http://localhost:631/</a>. Click the <em class="guilabel">Administration</em> menu item at the top of the page for options to add and find new printers. Do not make any changes in the <span class="application"><strong>Printers</strong></span> settings dialog or other system printer management utilities until you are finished using the CUPS browser-based interface. You may need to restart CUPS for it to reflect any changes that you make directly in the browser-based interface.</p>
+          <p>Caso esteja a ter problemas a adicionar uma impressora través dos passos acima, pode tentar utilizar a interface do CUPS baseada em navegador. A mesma pode ser acedida através de <a class="ulink" href="http://localhost:631/" target="_top">http://localhost:631/</a>. Clique no item de menu <em class="guilabel">Administração</em> presenta na parte superior da página para opções para adicionar e encontrar novas impressoras, Não efetue qualquer alteração nas definições <span class="application"><strong>Impressoras</strong></span> ou noutros utilitários de gestão de impressoras do sistema até terminar de utilizar a interface de navegador do CUPS. Pode ter necessidade de reiniciar o CUPS para que as alterações efetuadas na interface baseada em navegador surtam efeito.</p>
           <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
             <table border="0" summary="Note">
               <tr>
@@ -133,8 +133,8 @@
               </tr>
               <tr>
                 <td align="left" valign="top">
-                  <p>If the printer is directly connected to a Windows machine on your network, choose the <em class="guilabel">Windows Printer via SAMBA</em> entry from the <em class="guilabel">Devices</em> list. If you do not know the protocol or details of your network printer, you should consult the printer’s manual or ask your network administrator.</p>
-                  <p>Search the <a class="ulink" href="https://wiki.linuxfoundation.org/openprinting/database/databaseintro" target="_top">OpenPrinting database</a> or check the <a class="ulink" href="https://help.ubuntu.com/community/Printers" target="_top">Community Help Printer page</a> for information on your printer.</p>
+                  <p>Caso a impressora se encontre diretamente ligada a uma máquina Windows da sua rede, escolha a entrada <em class="guilabel">Impressora Windows através do SAMBA</em> da lista de <em class="guilabel">Dispositivos.</em>. Caso não saiba o protocolo ou os detalhes da sua impressora de rede, consulte o manual da impressora ou a administrador da sua rede.</p>
+                  <p>Consulte a <a class="ulink" href="https://wiki.linuxfoundation.org/openprinting/database/databaseintro" target="_top">base de dados OpenPrinting</a> ou a <a class="ulink" href="https://help.ubuntu.com/community/Printers" target="_top">página Comunitária de Apoio a Impressoras</a> para informações relacionadas com a sua impressora.</p>
                 </td>
               </tr>
             </table>
@@ -144,24 +144,24 @@
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="printing-share-printer"></a>Share Printer</h3>
+                <h3 class="title"><a id="printing-share-printer"></a>Partilhar impressora</h3>
               </div>
             </div>
           </div>
-          <p>If you want to share your local printer with other computers on your network:</p>
+          <p>Caso pretenda partilhar a sua impressora local com outros computadores da sua rede:</p>
           <div class="itemizedlist">
             <ul class="itemizedlist" style="list-style-type: disc; ">
               <li class="listitem">
-                <p>Open the <span class="application"><strong>Printers</strong></span> settings dialog.</p>
+                <p>Abrir o ecrã de configurações<span class="application"><strong>Impressoras</strong></span>.</p>
               </li>
               <li class="listitem">
-                <p>Click <span class="guimenuitem">Server</span> → <span class="guimenuitem">Settings</span> in the menu.</p>
+                <p>Clique em <span class="guimenuitem">Servidor</span> → <span class="guimenuitem">Definições</span> no menu.</p>
               </li>
               <li class="listitem">
-                <p>Enable the <em class="guilabel">Publish shared printers connected to this system</em> checkbox.</p>
+                <p>Ative a opção <em class="guilabel">Publicar impressoras partilhadas a este sistema</em>.</p>
               </li>
               <li class="listitem">
-                <p>Click the <span class="guibutton"><strong>OK</strong></span> button.</p>
+                <p>Clique no botão <span class="guibutton"><strong>OK</strong></span>.</p>
               </li>
             </ul>
           </div>
@@ -172,17 +172,17 @@
               </div>
             </div>
           </div>
-          <p>Then go to your secondary Xubuntu installation and open the Printers settings dialog. Click the Add button in the toolbar, then expand the <em class="guilabel">Network Printer</em> option. The shared printer should appear below as the sharing computer’s IP address. You may need to first search for the IP address using the <em class="guilabel">Find Network Printer</em> option.</p>
+          <p>Depois vá para a sua instalação secundária do Xubuntu e abra as configurações das Impressoras. Clique no botão Adicionar presente na barra de ferramentas e expanda a opção <em class="guilabel">Impressora de rede</em>. A impressora partilhada deverá aparecer por baixo do endereço IP partilhado do computador. Poderá ter necessidade de encontrar o endereço IP antecipadamente através da opção <em class="guilabel">Encontrar impressora de rede</em>.</p>
         </div>
         <div class="section">
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="printing-management-software"></a>Management Software</h3>
+                <h3 class="title"><a id="printing-management-software"></a>Software de gestão</h3>
               </div>
             </div>
           </div>
-          <p>If you have an HP (Hewlett Packard) printer and would like additional software to manage it, you can install the <em class="guilabel">HP Linux Imaging and Printing (HPLIP) GUI utilities</em> (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://hplip-gui" target="_top">hplib-gui</a></code>). These utilities include the <span class="application"><strong>HPLIP Toolbox</strong></span> application which will be found in the <em class="guilabel">Settings</em> category of the <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Applications Menu</strong></span> and the <em class="guilabel">Others</em> category of the <span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> <span class="guibutton"><strong>Settings Manager</strong></span>. On supported inkjet printers, you will be able to monitor ink levels, check printer status, change page size and print quality, as well as clean the printer heads. On supported laser printers you will be able to monitor toner level, check printer status, change page size, and manage print quality. For all-in-one (multi-function) devices, you will be able to change fax settings and functionality. For more information about HPLIP <a class="ulink" href="https://developers.hp.com/hp-linux-imaging-and-printing/features" target="_top">click here</a>.</p>
+          <p>Caso possua uma impressora HP (Hewlett Packard) e pretenda geri-la através de software adicional, pode instala-lo através dos <em class="guilabel">Utilitários de interface gráfica HP Linux Imaging and Printing (HPLIP)</em> (<code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://hplip-gui" target="_top">hplib-gui</a></code>). Este utilitários incluem a aplicação <span class="application"><strong>Barra de ferramentas HPLIP</strong></span>, a qual pode ser encontrada na categoria <em class="guilabel">Definições</em> do <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Menu de aplicações</strong></span> e na categoria <em class="guilabel">Outros</em> do <span class="inline-icon-submenu"><img src="../libs/images/preferences-desktop.png" /></span> <span class="guibutton"><strong>Gestor de definições</strong></span>. Em impressoras de tinta suportadas é possível monitorizar o nível de tinta, alterar o tipo de papel e a qualidade da impressão, bem como limpar as cabeças da impressora. Em impressoras a laser, é possível monitorizar o nível do toner, verificar o estado da impressora, alterar o tamanho do papel e gerir a qualidade da impressão. Para dispositivos tudo-em-um (multifunções), é possível alterar as definições e funcionalidades de fax. Para mais informações acerca do HPLIP <a class="ulink" href="https://developers.hp.com/hp-linux-imaging-and-printing/features" target="_top">clique aqui</a>.</p>
           <div class="informalfigure">
             <div class="screenshot">
               <div class="mediaobject" align="center">
@@ -195,21 +195,21 @@
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="printing-printer-support"></a>Printer Support</h3>
+                <h3 class="title"><a id="printing-printer-support"></a>Suporte a impressoras</h3>
               </div>
             </div>
           </div>
-          <p>The OpenPrinting database stores information about printers, their drivers, and how well they are supported under Linux.  If you are not sure about how well a printer is supported in a Linux environment check that database. It is also a good database to check before buying a new printer. </p>
+          <p>A base de dados OpenPrinting armazena informação acerca de impressoras, dos seus controladores e da qualidade do seu suporte no Linux. Caso não tenha a certeza do suporte de uma impressora num ambiente Linux, consulte essa base de dados, Também é útil para consulta antes da compra de uma nova impressora.</p>
         </div>
         <div class="section">
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="printing-printer-devices"></a>Printer Drivers</h3>
+                <h3 class="title"><a id="printing-printer-devices"></a>Controlares de impressora</h3>
               </div>
             </div>
           </div>
-          <p>If your printer doesn’t work automatically or you’d like to install the printer drivers and utilities from the printer manufacturer, here are some links to assist.</p>
+          <p>Caso a sua impressora não funcione automaticamente ou caso pretenda instalar os controladores e utilitários do fornecedor da impressora, aqui ficam algumas ligações que o podem ajudar.</p>
           <p><a class="ulink" href="https://developers.hp.com/hp-linux-imaging-and-printing" target="_top">HP</a>, <a class="ulink" href="https://www.usa.canon.com/internet/portal/us/home/support/product-finder/support-printers" target="_top">Canon</a>, <a class="ulink" href="https://support.brother.com/g/s/id/linux/en/index.html" target="_top">Brother</a>, <a class="ulink" href="https://epson.com/Support/wa00821" target="_top">Epson</a>, <a class="ulink" href="https://www.support.xerox.com/" target="_top">Xerox</a>, <a class="ulink" href="http://support.lexmark.com/index?page=driverSupport&amp;locale=en&amp;userlocale=EN_US" target="_top">Lexmark</a></p>
         </div>
       </div>
@@ -221,32 +221,32 @@
             </div>
           </div>
         </div>
-        <p>Similar to Xubuntu’s support for printers, it also has plug and play support for many scanners, as many of them today come as part of multi-function devices. Scanner support on Linux is provided by the SANE project which maintains a <a class="ulink" href="http://www.sane-project.org/sane-backends.html" target="_top">list of supported scanners</a>. Additional scanner support can be achieved with the installation of SANE-airscan (<a class="ulink" href="https://github.com/alexpevzner/sane-airscan" target="_top">install</a>), which allows driver-less network scanning with scanners that support Apple AirScan (eSCL) and Microsoft WSD.</p>
+        <p>À semelhança do suporte para impressoras, o Xubuntu também possui suporte plug and play para muitos digitalizadores, uma vez que atualmente muitos deles vêm embutidos em dispositivos multifunções. O suporte a digitalizadores no Linux é fornecido pelo projeto SANE, que mantém uma <a class="ulink" href="http://www.sane-project.org/sane-backends.html" target="_top">lista de digitalizadores suportados</a>. Pode ser conseguido um suporte adicional a digitalizadores através do SANE-airscan (<a class="ulink" href="https://github.com/alexpevzner/sane-airscan" target="_top">instalar</a>), o qual permite a digitalização em digitalizadores de rede com suporte a Apple AirScan (eSCL) e Microsoft WSD.</p>
         <div class="section">
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="scanning-using-your-scanner"></a>Using your Scanner</h3>
+                <h3 class="title"><a id="scanning-using-your-scanner"></a>Utilizar o digitalizador</h3>
               </div>
             </div>
           </div>
-          <p>To begin using your scanner, open the <span class="application"><strong>Document Scanner</strong></span> or <span class="application"><strong>Simple Scan</strong></span> app, which is accessible from the <em class="guilabel">Graphics</em> category of the <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Applications Menu</strong></span> (Ctrl + Escape) and in the <span class="application"><strong>Application Finder</strong></span> (Alt + F3). Follow the next steps to scan a document, picture/image, etc.:</p>
+          <p>Para começar a utilizar o seu digitalizador, abra a aplicação <span class="application"><strong>Digitalizador de documentos</strong></span> ou <span class="application"><strong>Digitalização Simples</strong></span>, a qual pode ser acedida através da categoria <em class="guilabel">Gráficos</em> do <span class="guiicon"><span class="inline-icon-menu"><img src="../libs/images/icon_menu.png" /></span></span> <span class="guibutton"><strong>Menu de aplicações</strong></span> (Ctrl + Esc) e no <span class="application"><strong>Localizador de aplicações</strong></span> (Alt + F3). Siga os passos seguintes para digitalizar um documento, figura/imagem, etc:</p>
           <div class="itemizedlist">
             <ul class="itemizedlist" style="list-style-type: disc; ">
               <li class="listitem">
-                <p>Connect your scanner and power it on.</p>
+                <p>Conecte o digitalizador e ligue-o.</p>
               </li>
               <li class="listitem">
-                <p>Place what you want to scan on the scanner flatbed or feeder.</p>
+                <p>Coloque o que pretende digitalizar na mesa ou alimentador do digitalizador.</p>
               </li>
               <li class="listitem">
-                <p>Close the lid if you have a lid.</p>
+                <p>Caso tenha uma tampa, feche-a.</p>
               </li>
               <li class="listitem">
-                <p>Click the arrow to the right of the <span class="guibutton"><strong>Scan</strong></span> button and choose the type of media you are scanning, <em class="guilabel">Text</em> or <em class="guilabel">Photo</em>.</p>
+                <p>Clique na seta à direita do botão <span class="guibutton"><strong>Digitalizar</strong></span> e escolha o tipo de meio que está a digitalizar, <em class="guilabel">Texto</em> ou <em class="guilabel">Fotografia</em>.</p>
               </li>
               <li class="listitem">
-                <p>Click the <span class="guibutton"><strong>Scan</strong></span> button to begin your scan.</p>
+                <p>Clique no botão <span class="guibutton"><strong>Digitalizar</strong></span> para iniciar a digitalização.</p>
               </li>
             </ul>
           </div>
@@ -262,7 +262,7 @@
           <div class="titlepage">
             <div>
               <div>
-                <h3 class="title"><a id="scanning-no-scanners-detected"></a>No Scanners Detected</h3>
+                <h3 class="title"><a id="scanning-no-scanners-detected"></a>Nenhum digitalizador detetado</h3>
               </div>
             </div>
           </div>
@@ -270,14 +270,14 @@
           <div class="itemizedlist">
             <ul class="itemizedlist" style="list-style-type: disc; ">
               <li class="listitem">
-                <p>Your scanner is not automatically supported, which includes most parallel port scanners and Lexmark All-in-One printer/scanner/faxes.</p>
+                <p>O seu digitalizador não é suportado automaticamente, o que inclui a maior dos digitalizadores de porta série e impressoras/digitalizadores/faxes multifunções da Lexmark.</p>
               </li>
               <li class="listitem">
                 <p>O controlador do seu digitalizador não está a ser carregado automaticamente.</p>
               </li>
             </ul>
           </div>
-          <p>Poderá ser capaz de conseguir colocar o digitalizador a funcionar através da instalação de um controlador ou pela alteração de alguns ficheiros de configuração. Por favor aconselhe-se nos <a class="ulink" href="http://ubuntuforums.org/" target="_top">Ubuntu forums</a> ou em <a class="ulink" href="http://askubuntu.com/" target="_top">AskUbuntu</a>.</p>
+          <p>Poderá ser capaz de conseguir colocar o digitalizador a funcionar através da instalação de um controlador ou pela alteração de alguns ficheiros de configuração. Por favor aconselhe-se nos <a class="ulink" href="http://ubuntuforums.org/" target="_top">fóruns do Ubuntu</a> ou em <a class="ulink" href="http://askubuntu.com/" target="_top">AskUbuntu</a>.</p>
           <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
             <table border="0" summary="Note">
               <tr>
@@ -288,7 +288,7 @@
               </tr>
               <tr>
                 <td align="left" valign="top">
-                  <p>To get some scanners working, you may need to plug the scanner in after the computer has booted.</p>
+                  <p>Para fazer com que alguns digitalizadores funcionem, pode ser necessário ligar o digitalizador ao computador após este último ter arrancado..</p>
                 </td>
               </tr>
             </table>
@@ -302,20 +302,20 @@
               </div>
             </div>
           </div>
-          <p>There are some scanners that have incomplete drivers from the SANE project. They can sometimes be used, but not all the features may work. For these scanners:</p>
+          <p>Alguns scanners possuem controladores incompletos fornecidos pelo projeto SANE. Estes controladores podem ser utilizados nalguns casos, mas é possível que nem todos os recursos do dispositivo funcionem. Para estes digitalizadores:</p>
           <div class="itemizedlist">
             <ul class="itemizedlist" style="list-style-type: disc; ">
               <li class="listitem">
-                <p>Install the <code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://libsane-extras" target="_top">libsane-extras</a></code> package.</p>
+                <p>Instale o pacote <code class="literal"><span class="inline-icon-pkg"><img src="../../libs-common/images/icon_package.png" /></span><a class="ulink" href="apt://libsane-extras" target="_top">libsane-extras</a></code>.</p>
               </li>
               <li class="listitem">
-                <p>Run <strong class="userinput"><code>pkexec mousepad /etc/sane.d/dll.conf</code></strong> at the command line to open the SANE driver file for editing.</p>
+                <p>Execute <strong class="userinput"><code>pkexec mousepad /etc/sane.d/dll.conf</code></strong> na linha de comandos para abrir o ficheiro de controlador do SANE para edição.</p>
               </li>
               <li class="listitem">
-                <p>Habilite o controlador correcto para o seu digitalizador, removendo o <code class="literal">#</code> da frente do nome do controlador. Poderá ser necessário pesquisar na internet para descobrir qual o controlador certo.</p>
+                <p>Ative o controlador correto para o seu digitalizador, removendo o <code class="literal">#</code> da frente do nome do controlador. Poderá ser necessário pesquisar na internet para descobrir qual o controlador certo.</p>
               </li>
               <li class="listitem">
-                <p>Grave o ficheiro e abra <span class="application"><strong>Digitalização Simples</strong></span>. Se tudo correr bem, o digitalizador irá agora funcionar.</p>
+                <p>Grave o ficheiro e abra a <span class="application"><strong>Digitalização Simples</strong></span>. Se tudo correr bem, o digitalizador irá agora funcionar.</p>
               </li>
             </ul>
           </div>
@@ -331,13 +331,13 @@
           <td width="40%" align="right"> <a accesskey="n" href="user-management.html"><img src="../../libs-common/images/next.png" alt="Próximo" /></a></td>
         </tr>
         <tr>
-          <td width="40%" align="left" valign="top">Capítulo 8. Settings - Connectivity </td>
+          <td width="40%" align="left" valign="top">Capítulo 8. Configurações - Conectividade </td>
           <td width="20%" align="center">
             <a accesskey="h" href="index.html">
               <img src="../../libs-common/images/home.png" alt="Início" />
             </a>
           </td>
-          <td width="40%" align="right" valign="top"> Capítulo 10. User Management</td>
+          <td width="40%" align="right" valign="top"> Capítulo 10. Gestão de utilizadores</td>
         </tr>
       </table>
     </div>
